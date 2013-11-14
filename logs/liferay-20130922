@@ -1,6 +1,0 @@
---- Log opened Sun Sep 22 00:00:31 2013
-03:47 < Guest10932:#liferay> Hi.  Is there a word/character limit when publishing a blog entry in Liferay 6.1.0?  I have a blog entry of over 750,000 characters that won't publish until I reduce it to this size.  I actually calculated the exact number of characters at the limit and I can supply that if that is important.  Any ideas/
-03:47 < Guest10932:#liferay> ?
-03:48 < Guest10932:#liferay> 757,120 characters.  If I put in 1 more character, Liferay refuses to publish the blog (saving a draft does work) but takes me to the New Blog Entry page instead.
-03:53 < Guest10932:#liferay> This has got me concerned... are there any limitations to other portlets as well, such as the wiki?
---- Log closed Mon Sep 23 00:00:32 2013

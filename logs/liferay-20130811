@@ -1,5 +1,0 @@
---- Log opened Sun Aug 11 00:00:53 2013
-13:19 < Crytel> whats the best way to basicly clone a liferay installation and copy to anouther machine?
-13:59 < adaro> Crytel: dump the database and copy the liferay data folder
-14:01 < Crytel> adaro, thanks.
---- Log closed Mon Aug 12 00:00:54 2013
