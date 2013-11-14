@@ -59,3 +59,8 @@
 10:49 < imox1234:#liferay> hufg: error again :(
 10:50 < imox1234:#liferay> hufg: http://pastebin.com/HtKeJpuE
 10:50 < imox1234:#liferay> have you any idea?
+11:54 < jardineworks:#liferay> does anyone know if it is posible to copy request attributes automatically?
+11:57 < apucay:#liferay> i think the portal uses a commons lib to do stuff like that
+11:59 < jardineworks:#liferay> apucay, I have an Object ... o lets say, I would rather not use the session to persist it across renderURLs, so I am trying to do it using request attributes.
+11:59 < jardineworks:#liferay> is that possible?
+12:00 < jardineworks:#liferay> for example, what does copyConcurrentRenderParams do?
