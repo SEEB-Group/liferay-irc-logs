@@ -1,0 +1,155 @@
+--- Log opened Tue Sep 17 00:00:24 2013
+02:06 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Beta: http://goo.gl/C4gc1e  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+02:06 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Fri Aug 30 07:59:07 2013]
+02:06 [Users #liferay]
+02:06 [@ChanServ ] [ bjorneven_  ] [ Kaira-      ] [ marcoceppi  ] [ Tm_T   ] 
+02:06 [@rotty3000] [ cythrawll   ] [ kermitt     ] [ Naenyn      ] [ topolik] 
+02:06 [ adaro    ] [ jardineworks] [ kgolebiowski] [ neuro_sys   ] [ wohnout] 
+02:06 [ adaro_   ] [ jbonjean    ] [ kocka       ] [ rocknroll_  ] 
+02:06 [ bijoo    ] [ josuebc     ] [ MagnoBooter ] [ Tar-Minyatur] 
+02:06 -!- Irssi: #liferay: Total of 23 nicks [2 ops, 0 halfops, 0 voices, 21 normal]
+02:06 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+02:06 -!- Irssi: Join to #liferay was synced in 7 secs
+09:32 -!- mode/#liferay [+o jhf] by ChanServ
+09:43 < jardineworks:#liferay> good morning
+09:50 < jardineworks:#liferay> who's the service builder guru in house? topolik? you?
+09:51 < Tar-Minyatur:#liferay> The Liferay world needs more ServiceBuilder gurus!
+09:52 < jardineworks:#liferay> Tar-Minyatur, I am contemplating soemthing that might be dangerous... I need an expert to tell me if I have lost it :)
+09:53 < Tar-Minyatur:#liferay> ;)
+09:53 < Tar-Minyatur:#liferay> I could really use a Liferay expert full time here...
+09:53 < Tar-Minyatur:#liferay> So I could bounce my ideas off of someone and see if I'm totally on the wrong track...
+09:53 < jardineworks:#liferay> Tar-Minyatur, where are you located again?
+09:54 < Tar-Minyatur:#liferay> Germany.
+09:54 < Tar-Minyatur:#liferay> And sadly I'm not in a position to hire someone.
+09:55 < jardineworks:#liferay> haha
+09:55 < jardineworks:#liferay> always the same. Those who actually KNOW what they need are rarely in the position to hire.
+09:55 < jardineworks:#liferay> only to plead with the guys holding the bag with the money sign on it
+10:00 < Tar-Minyatur:#liferay> Well...the problem is that there hardly is any budget.
+10:00 < Tar-Minyatur:#liferay> Because the project already has been paid for and afterwards they realized that it's a huge mess.
+10:01 < Tar-Minyatur:#liferay> Right now it looks like they actually might allow us to build it from scratch again, which will be expensive enough as it is...
+10:02 < Tar-Minyatur:#liferay> Anyway...I'm still messing around with ServiceBuilder.
+10:02 < Tar-Minyatur:#liferay> I actually got it to work now.
+10:02 < Tar-Minyatur:#liferay> At least it looks like it.
+10:02 < Tar-Minyatur:#liferay> I managed to build a view for one of the entities with the search-container as you suggested. Works nicely.
+10:03 < Tar-Minyatur:#liferay> Then I moved on to adding a new entity. Can I ask you some (probably minor) questions about that or are you swarmed (or too bored by this already :D)?
+10:04 < Tar-Minyatur:#liferay> Adding a new entry I mean...not entity. Jikes.
+10:09 < jardineworks:#liferay> i'm always lurking here... fire away
+10:38 < Tar-Minyatur:#liferay> jardineworks: Okay. When I first tried to use my add entry form, I got an error on the second submit, because ID 0 was already used.
+10:39 < Tar-Minyatur:#liferay> Is there something that would suggest not to create a custom addEntry method that retrieves a new ID?
+10:41 < Tar-Minyatur:#liferay> And I also saw that Liferay doesn't automatically deal with modifiedDate and endDate even though they were advertised in the documentation as "audit fields".
+10:45 < Tar-Minyatur:#liferay> So right now what I did is this: http://pastie.org/private/ej7bsskhhtsny8q6u9u6w
+10:45 < Tar-Minyatur:#liferay> Is there a better way to do it or a reason not to do it this way?
+10:58 < jardineworks:#liferay> Tar-Minyatur, that works, though I don't think you need to override the add functionality from the super class. All I normally is create the instance (as you are doing) but in the portlet, and the call the add function on the *LocalServiceUtil.
+10:58 < Tar-Minyatur:#liferay> Then I would have to fetch the next ID within the portlet.
+10:58 < jardineworks:#liferay> the *LocalServiceUtil also provides a create method so, as an exmaple using user, you can do..
+10:59 < Tar-Minyatur:#liferay> The create Method also wants to have an ID.
+10:59 < jardineworks:#liferay> User user = UserLocalServiceUtile.create( CounterLocalServiceUtil.increment( User.class.getName() ) );
+10:59 < jardineworks:#liferay> and then user.set( ...) ... including what you are doing for the dates
+10:59 < jardineworks:#liferay> and then UserLocalServiceUtil.add( user );
+11:00 < jardineworks:#liferay> add is provided for you basically. You should only override it if you need to do something special as part of your "saves"
+11:01 < Tar-Minyatur:#liferay> I guess changing the "normal" way is bad.
+11:01 < Tar-Minyatur:#liferay> So I guess I'll do it your way.
+11:02 < Tar-Minyatur:#liferay> I have only one place in total where new entries are created, so I guess it's ok.
+11:03 < jardineworks:#liferay> I don't know if my way is the "best" way or not... but it makes sense to me. The purpose of your portlet is to add a product right? you collect all the information from the user, why shouldn't the portlet know how to save it?
+11:04 < jardineworks:#liferay> the ProductLocalServiceUtil class is responsible for centralizing the actual save action so that you don't have to change it across other portlets. But even if you put the "add logic" in the Impl class, yoyu still have to pass it the parameters so if you model changes in the future, you have to change the code everywhere anyway
+11:05 < jardineworks:#liferay> the only option really you have to do what you want is to have a ProductHelper class that can take a request object, does the logic to build a new product and returns it to your portlet and then the portlet performs the save.
+11:05 < jardineworks:#liferay> then you can use that helper class in all your portlets and if the logic changes, you can update just the ProductHelper class.
+11:06 < jardineworks:#liferay> Really though, I think the effort out weighs the benefit. If you are going to be adding products from so mnay differnt places, you probably need  to revisit your user experience.
+11:07 < Tar-Minyatur:#liferay> True. And not going to happen in my case anyway.
+11:09 < Tar-Minyatur:#liferay> What about the dates?
+11:09 < Tar-Minyatur:#liferay> I kind of expected Liferay to handle that for me, but apparently it doesn't.
+11:09 < Tar-Minyatur:#liferay> Or did I miss something?
+11:09 < jardineworks:#liferay> it doesn't
+11:10 < jardineworks:#liferay> there might be a way to do it through the model-hints... tell hibernate to use a default value of new Date() or something, but I have never bothered to try that.
+11:10 < Tar-Minyatur:#liferay> So why are they advertised as "audit fields"? Is there ANY default functionality associated with them or is just a convention because Liferay uses them everywhere?
+11:10 < jardineworks:#liferay> you should also populate the companyID and groupID for scoping and permissions
+11:11 < Tar-Minyatur:#liferay> Yeah. So far I had hoped it would be done automatically. *sigh*
+11:11 < jardineworks:#liferay> I think they just put them there as "you don't have to define these, we've templated them for you"... and the purpose of them being there in the skeleton is for auditing purposes...
+11:11 < jardineworks:#liferay> Tar-Minyatur, Considering all the plumbing they give you for nothing? I think new Date() is a fair tradeoff :)
+11:12 < Tar-Minyatur:#liferay> I was thinking about groupID and companyID just now.
+11:13 < jardineworks:#liferay> companyId is really only useful is you plan to have more than one portal instance (co-located).. the group one can be useful though
+11:14 < Tar-Minyatur:#liferay> We have staging enabled.
+11:14 < jardineworks:#liferay> i don't know anything about your end users though ... I would assume however that you would have groups and roles for different fucntions
+11:14 < Tar-Minyatur:#liferay> This is only established via groupID, I think.
+11:49 < Tar-Minyatur:#liferay> jardineworks: Have you ever worked with liferay-ui:tabs?
+12:06 < jdcaddie:#liferay> Does anyone know how to import users into LR that ONLY exist in specific LDAP groups?
+12:07 < jdcaddie:#liferay> I am a noob to liferay so any help is appreciated...
+12:28 < topolik:#liferay> hi jardineworks, sorry, I'm maybe too late
+12:28 < topolik:#liferay> did you solve the logging?
+12:45 < jardineworks:#liferay> topolik, nope
+12:45 < jardineworks:#liferay> lol
+12:49 < jardineworks:#liferay> topolik, adaro was trying to help me yesterday but I think he misunderstood my issue. I think he thought I was trying to use JULI from a plugin.. but it;s actually that I am trying to use JULI in a jar and the plugin is using the jar, but its loaded from lib/ext
+12:49 < jardineworks:#liferay> topolik, if you are still there, can I ask you my service builder question?
+12:49 < topolik:#liferay> sure
+12:50 < topolik:#liferay> today I'll be here until I literally fall asleep
+12:50 < topolik:#liferay> ;)
+12:54 < jardineworks:#liferay> topolik, do you mind if I pm you on this one?
+12:54 < topolik:#liferay> pm?
+12:54 < topolik:#liferay> aah
+12:54 < topolik:#liferay> got it
+12:54 < topolik:#liferay> sure, do what you need
+12:55 < topolik:#liferay> jdcaddie, still here?
+12:55 < topolik:#liferay> I believe that it's possible when the users carry the groupName attribute in their LDAP entry
+12:57 < topolik:#liferay> then you should be able to create custom LDAP query in ldap.import.user.search.filter
+12:57 < topolik:#liferay> sth like: (|(objectClass=inetOrgPerson)(groupName=...))
+13:09 < Tar-Minyatur:#liferay> jardineworks: Thanks for your help. I call it a day now. :)
+13:10 < jardineworks:#liferay> Tar-Minyatur, np -- have a good night
+13:33 < jdcaddie:#liferay> topolik, I am here I had to step away
+13:34 < jdcaddie:#liferay> Side question, should I create a .properties file for configurations like this?
+13:35 < topolik:#liferay> you can either create portal-ext.properties and specify the LDAP connection there or configure it from UI
+13:35 < topolik:#liferay> once you change it from UI the settings are saved in DB and portal-ext.properties is ignored
+13:35 < jdcaddie:#liferay> When i configured ldap from my UI I broke local admin login functionallity
+13:39 < jdcaddie:#liferay> what is the table that contains the base DN in the database 'mysql'
+13:44 < topolik:#liferay> depends on portal version, try PortalPreferences table
+13:45 < jdcaddie:#liferay> I just reverted my snapshot
+13:45 < jdcaddie:#liferay> There was nothing in ProtalPreferences
+13:48 < topolik:#liferay> hmm, I think once you configure LDAP you require your users to authenticate against it, even portal admin, but I'm not sure
+13:50 < jardineworks:#liferay> does anyone know how to add the liferay/portlet_url.js to the list of javascript barebones files?
+13:50 < jardineworks:#liferay> I tried adding it in my portal-ext as javascript.barebones.file=liferay/portlet_url.js but I am still getting a Liferay.PortletURL is undefined.
+13:51 < topolik:#liferay> jardineworks: I think you have to regenerate the barebone file somehow
+14:02 < jdcaddie:#liferay> topolik, thank for the help in regards to ldap
+14:02 < jdcaddie:#liferay> I have another question for you
+14:02 < jardineworks:#liferay> topolik, restarting the portal wouldn't do that?
+14:02 < topolik:#liferay> jardineworks: no, the files are cached on server
+14:03 < jardineworks:#liferay> topolik, what about stopping the server, dumping temp/work dirs and then restarting?
+14:03 < topolik:#liferay> jardineworks: try to delete tomcat/work/Catalina/localhost/_aggregate/
+14:03 < topolik:#liferay> yeah
+14:03 < topolik:#liferay> I think you don't even need to stop the portal for this
+14:04 < topolik:#liferay> jdcaddie: shoot
+14:04 < jdcaddie:#liferay> ?
+14:04 < jdcaddie:#liferay> I have my portal up and I am trying to get social office installed, I have "purchased" it from the marketplace although when attemping to install it the status icon just spins
+14:05 < jardineworks:#liferay> topolik, too late! :)
+14:11 < jardineworks:#liferay> :(
+14:11 < jardineworks:#liferay> topolik, still getting undefined
+14:15 < jardineworks:#liferay> topolik, the files that you specify in the portal-ext -- are those appended to the ones in the portal.portperties?
+14:22 < topolik:#liferay> jdcaddie: anything in your log file?
+14:22 < topolik:#liferay> jardineworks: let me try
+14:23 < jardineworks:#liferay> topolik, I think I put an s on barebone .. trying to see if that fixes it
+14:25 < jardineworks:#liferay> topolik, yikes! looks like a replace.
+14:25 < topolik:#liferay> jardineworks: for 6.1. the minified content should be in tomcat/temp/liferay/minifier
+14:25 < jardineworks:#liferay> I have a ton of AUI errors now for the docbar
+14:25 < topolik:#liferay> aah, sorry, forgot to reploy :)
+14:26 < jardineworks:#liferay> so if I want to augment the barebones I have to copy the content from portal.properties and add mine to the end?!
+14:26 < topolik:#liferay> yes
+14:26 < topolik:#liferay> portal-ext.properties doesn't work like properties in hooks
+14:26 < jardineworks:#liferay> ugh
+14:26 < topolik:#liferay> it's injected by include-and-override=portal-ext.properties
+14:27 < jardineworks:#liferay> can I use a hook to add the value?!
+14:27 < jardineworks:#liferay> :)
+14:27 < topolik:#liferay> nope
+14:27 < jardineworks:#liferay> :(
+14:30 < jardineworks:#liferay> sooo.. I have to crack open the portal-impl, dig out the portal.properties file, find my setting and copy it over.
+14:30 < jardineworks:#liferay> yikes.
+14:30 < jardineworks:#liferay> that seems a little clumsy
+16:25 < topolik:#liferay> I'm going to bed, bye jardineworks, jdcaddie!
+16:26 < jdcaddie:#liferay> cya thanks for the help
+17:07 < jardineworks:#liferay> jhf are you around?
+17:07 <@jhf:#liferay> yeah but on concall
+17:08 < jardineworks:#liferay> jhf, full concentration required or can I ask you a serviceLocator question (rotty told me that you were the man to talk to for this stuff)
+17:09 < jardineworks:#liferay> jhf, my day is pretty well done to be honest. I need to go get my son so I'll check in with you tomorrow (if I don't figure it out tonight) ... :)
+17:10 <@jhf:#liferay> k
+17:10 <@jhf:#liferay> thx.. ill be around tomorrow
+17:10 <@jhf:#liferay> going to see Matisyahu tonight!
+17:12 < jardineworks:#liferay> jhf, just googled that. don't think I am jealous :)
+17:12 <@jhf:#liferay> hahah
+--- Log closed Wed Sep 18 00:00:25 2013

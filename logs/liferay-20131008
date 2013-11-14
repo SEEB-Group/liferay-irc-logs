@@ -1,0 +1,131 @@
+--- Log opened Tue Oct 08 00:00:53 2013
+02:32 < mroh69:#liferay> is there a way to let the maven service-build generate sources to generated-sources dir in target?
+02:59 < mroh69:#liferay> found it ou myself: no, there isnt, the path is hardcoded: from liferay-maven-support/plugins/liferay-maven-plugin/src/main/java/com/liferay/maven/plugins/ServiceBuilderMojo.java: apiDir = apiBaseDir.concat("/src/main/java")
+02:59 < mroh69:#liferay> grml
+04:03 < guli:#liferay> Hi !
+04:04 < guli:#liferay> Someone can tell me why when after login i'm redirected to a page the #p_58 hash is added to the url?
+06:18 < guli:#liferay> I've found why! The hash is in the login form action url.... :'(
+11:01 < jardineworks:#liferay> hey guys, is it possible to get all journal articles of a specific structure that also have a status of published? or do I need to do that as a secondary filter?
+11:56 < Tar-Minyatur:#liferay> jardineworks: Hey. Can't tell you any specifics, but I remember seeing something similar somewhere and there the articles were retrieved first and then while looping those not wanted were skipped.
+11:56 < Tar-Minyatur:#liferay> It might be possible to do something fancy with a dynamic query or something, but I'm not sure.
+13:24 < jardineworks:#liferay> Tar
+13:24 < jardineworks:#liferay> Tar-Minyatur, does a journal article with a status of approved map to a status of published?
+13:27 < Tar-Minyatur:#liferay> I have no clue. Sorry. :-( We don't use these publishing workflows at all.
+13:27 < Tar-Minyatur:#liferay> I'm not even sure if I ever even saw an article with an approved status.
+13:29 < jardineworks:#liferay> Tar-Minyatur, there doesn't appear to be a "published" status though so how do you know the articles you are showing are published?
+13:30 < Tar-Minyatur:#liferay> Another good question. And it seems like there should be some documentation for these states.
+13:30 < Tar-Minyatur:#liferay> I actually can't recall if I even did any status checks when I last tried to retrieve articles with Java.
+13:31 < Tar-Minyatur:#liferay> And sadly I can't access the code from home.
+14:03 < jardineworks:#liferay> Tar-Minyatur, Approved = Published.
+14:04 < jardineworks:#liferay> you can use ja.isPubliched() to check or compare the getStatus() to WorkflowConstants.STATUS_APPROVED
+15:01 < Tar-Minyatur:#liferay> How did you find out about that? Try and error?
+15:02 < Tar-Minyatur:#liferay> Or did you actually find some documentation??
+15:02 < jardineworks:#liferay> Tar-Minyatur, well, in the Web Content page of the control panel, content that is published is set to "Approved" for a status
+15:02 < jardineworks:#liferay> the thing to watch out for though is that it will give you ALL VERSIONS of the article.
+15:03 < Tar-Minyatur:#liferay> Ugh.
+15:03 < jardineworks:#liferay> so you need to use the JournalArticleContentLocalServiceUtil.getLatestVersion(... methods to make sure you onlyget one (assuming that is your use case)
+15:03 < Tar-Minyatur:#liferay> Sounds annoying.
+15:03 < Tar-Minyatur:#liferay> Interesting.
+15:03 < jardineworks:#liferay> if you have A LOT of a certain type I could see it being a bottle neck. Probably at that stage either you would use the SearchUtil or a DDL
+15:03 < Tar-Minyatur:#liferay> I wish I had the time to do some developing.
+15:04 < jardineworks:#liferay> who has time? this is all for my current work :)
+15:04 < Tar-Minyatur:#liferay> Well...what I meant was that I'm moving more towards technical project management now.
+15:05 < Tar-Minyatur:#liferay> At the moment all I do all day is some rough architectural concept stuff, finding solutions our out-sourced developers stumble upon and lots or organisational stuff.
+15:06 < Tar-Minyatur:#liferay> So no actual software development for me. Only reviewing and planning implementation...without really knowing the system.
+15:06 < Tar-Minyatur:#liferay> It's really weird.
+15:08 < jardineworks:#liferay> Tar-Minyatur, I did that for years and finally decided that I hated it. That is when I went out on my own.
+15:15 < Tar-Minyatur:#liferay> That's so not my thing...
+15:15 < Tar-Minyatur:#liferay> I hate having to deal with all the stuff you have to take care of when you are freelancing.
+15:16 < Tar-Minyatur:#liferay> It's a shitload of tax, insurance and loads of other stuff here in Germany.
+15:58 < jardineworks:#liferay> Tar-Minyatur, There is only one country in the world that pays more tax than Canada, and that's Sweden. And in Sweden EVERYTHING is covered... cradle to grave. So, forgive me if I have no sympathy for those around the world :)
+15:58 < jardineworks:#liferay> but I get what you are saying. It can be hard work for sure
+15:58 < jardineworks:#liferay> but if you are organized then it gets easier.
+15:58 < jardineworks:#liferay> and the freedom has no comparison
+15:58 < jardineworks:#liferay> AND ... for me anyway, the money is way better than working for a firm.
+15:59 < Tar-Minyatur:#liferay> I wasn't specifically talking about the amount of tax but rather the organizational effort that you have to deal with.
+15:59 < jardineworks:#liferay> there is still this myth that somehow there is more risk in it but I beg to differ. Companies have about as much loyalty to staff as staff do to companies. They'd dump you in a heartbeat if someone decided you were an expenditure.
+16:00 < jardineworks:#liferay> Tar-Minyatur, ah -- yeah, fair enough. Same here. The bureaucracy is painful. Fortunately it's only once a year and I hired an accountant to take care of it for me :D
+16:01 < jardineworks:#liferay> to each their own though. It took me a long time to do it. Basically, Oracle bought the company I was working for and I didn't want to work for Oracle, so I quit.
+16:02 < jardineworks:#liferay> looking for work turned into looking for contracts.
+16:03 < apucay:#liferay> jardine, have you ever gone the sub sub contracting route, where you > 1 level from the client?
+16:04 < jardineworks:#liferay> apucay, right now I am at level 4
+16:04 < jardineworks:#liferay> :)
+16:04 < jardineworks:#liferay> and I have done a lot at level 2.
+16:04 < jardineworks:#liferay> but I have a handful of clients that I work/worked with directly.
+16:04 < apucay:#liferay> geez louise
+16:04 < jardineworks:#liferay> apucay, needless to say... I carry a shit ton of insurance :)
+16:05 < apucay:#liferay> haha
+16:06 < Tar-Minyatur:#liferay> jardineworks: I'm not up-to-date on the conditions in other countries but in Germany is is VERY difficult for a company to fire somebody. Unless they can prove you stole from the company or something like that they pretty much can't end your contract.
+16:06 < apucay:#liferay> are clients even aware of the subcontracting depths? i mean, this preferred vendor stuff just seems to jack prices up for no reason
+16:06 < jardineworks:#liferay> Tar-Minyatur, same here. You need a history of problems
+16:06 < jardineworks:#liferay> Tar-Minyatur, but. making someones life miserable at work can also be pretty effective.
+16:08 < jardineworks:#liferay> apucay, well, in some cases the companies I work for don't mark up. They just want to mitigate risk (usually people i have worked with that know me, know my work, etc). For the sub contracting it comes up sometimes... BUT... usually people try it out for a month or so. Then the issue becomes MY client because their client will start asking for more time, but on condition that I be the one that they work with -- and sometime I am
+16:08 < jardineworks:#liferay> not available.
+16:08 < Tar-Minyatur:#liferay> jardineworks: True. It can be. But if you manage to prove it you are entitled to a HUGE payout.
+16:08 < chas:#liferay> idorenab
+16:09 < Tar-Minyatur:#liferay> Anyway...at the moment I can't imagine freelancing as a path for myself.
+16:10 < jardineworks:#liferay> apucay, it can be scary sometimes too though. I had a 4 month dry period last year. First two months were fun... but the second two started to get me worried.
+16:10 < Tar-Minyatur:#liferay> Although there is a huge potential for freelancers at the moment.
+16:10 < Tar-Minyatur:#liferay> The rates we pay at work for freelancers are ridiculous.
+16:14 < jardineworks:#liferay> Tar-Minyatur, people always say that though. But you have to consider that Freelancers don't necessarily have work 12 months a year. They also don't have pensions, health benefits... they have to cover business costs. I make more than I would working for a firm but only now that I have steady work. For about a year I was actually making less once all those additional costs are factored in.
+16:16 < Tar-Minyatur:#liferay> Sure.
+16:16 < npskirk:#liferay> People don't realize that independent contractors typically take less than half their revenue as actual personal income
+16:16 < Tar-Minyatur:#liferay> I'm aware of that. My father is working self-employed.
+16:17 < Tar-Minyatur:#liferay> The rates for freelancers have to be this high.
+16:17 < npskirk:#liferay> the rest is taxes and other overhead — then, on top of that, the half you do take is taxable income
+16:17 < Tar-Minyatur:#liferay> Still...it's incredible if you compare it to the rates usually used to calculate for inhouse developers.
+16:17 < npskirk:#liferay> true
+16:18 < npskirk:#liferay> but if you look into the total cost of employing someone, there's a lot of invisible cash flow going on too
+16:18 < jardineworks:#liferay> agreed
+16:19 < jardineworks:#liferay> exactly... typically 30% more than your salary to cover the cost of you as an employee... in some cases 40 or 50
+16:19 < npskirk:#liferay> right — plus the cost of administrative services (like doing all that tax paperwork and etc etc) which a freelancer does on his own time
+16:19 < npskirk:#liferay> but a biz pays people to do
+16:19 < jardineworks:#liferay> In Canada though, there are massive tax benefits to being self employed. So much so that they are changing the law so that if you work for the same client all the time you can no longer benefit from the breaks.
+16:20 < npskirk:#liferay> ah the US confronted that some time ago too.
+16:20 < jardineworks:#liferay> npskirk, are you solo?
+16:21 < npskirk:#liferay> the tax man is always on the lookout for situations where you are an employee who happens to be on a contract instead of as an employee
+16:21 < jardineworks:#liferay> npskirk, ... and you get WAY less sympathy than anyone else. US taxes (especially personal) are a shit ton lower than Canada. As far as we're concerned the reason you guys are so screwed financially is because the government isn't screwing you tax wise :)
+16:21 < npskirk:#liferay> I did it for about a year and a half
+16:22 < npskirk:#liferay> hehe… I tend to agree
+16:22 < apucay:#liferay> but if you are n levels deep, does the ultimate client count as the same client, or is it the entity writing you a check?
+16:22 < jardineworks:#liferay> to be in the 46% tax bracket in Canada you only have to make 86K a year.
+16:22 < jardineworks:#liferay> apucay, the one you bill.
+16:22 < apucay:#liferay> i see
+16:22 < jardineworks:#liferay> apucay, which is why it is important for me to keep more than a few on my roster.
+16:22 < apucay:#liferay> *nods head*
+16:23 < jardineworks:#liferay> apucay, the theory, as npskirk says, is that if you are always workign for the same client then you should be an employee. Its a bit of bs since you can't MAKE someone give you a job, but the law is in place to detract employers from laying off staff and hiring them back as contractors to save money.
+16:24 < apucay:#liferay> ah
+16:27 < apucay:#liferay> now i see why offshore is so appealing, i've heard about bargain basement rates
+16:30 < jardineworks:#liferay> apucay, myth.
+16:31 < jardineworks:#liferay> apucay, This is not a dig but 99 out of 100 times? compare my rates to an offshore. I am 4 - 5X the price. My work is 500X better. An you will need 5 of them to do what I do
+16:32 < jardineworks:#liferay> aside from which, my rate? on par with what you would pay for 2 offshore resources with a big company.
+16:32 < jardineworks:#liferay> but it is VERY hard to compete with. My solution is niche technologies that are very difficult to staff.
+16:33 < jardineworks:#liferay> AND... you also can't discount time difference, language barriers and work ethics. Fact of the matter is that people in India have a different work ethic (not better or worse) than people in North America... or Europe or Russia or wherever.
+16:33 < jardineworks:#liferay> all of these things also have an impact on bottom dollar.
+16:33 < jardineworks:#liferay> like npskirk said... hidden costs.
+16:34 < jardineworks:#liferay> most of the time I try to finish my clients works in 70% of the time allotted. That way there is additional benefit to them. Pay me less, and they are able to use the project output sooner which usually means ROI sooner.
+16:35 < apucay:#liferay> amen!
+16:36 < jardineworks:#liferay> I ran offshore teams for 7 years. My largest team was 140. Of that? about 20 were my go to people that pretty much delivered the entire project.
+16:36 < apucay:#liferay> and the other 120 were still billable?
+16:37 < jardineworks:#liferay> how do you think the company made money
+16:37 < jardineworks:#liferay> 35 million dollar projects -- hours have to come from somewhere.
+16:38 < apucay:#liferay> damn, i should stop messing with this liferay stuff and start my own body shop
+16:38 < jardineworks:#liferay> a near junior java developer (Associate Level 1) had a rate of 120 USD an hour.
+16:38 < jardineworks:#liferay> apucay, have you seen the latest gartner report? now is a good time to be liferay savvy :)
+16:39 < jardineworks:#liferay> I have been monitoring the job/contract market for the last year -- near daily. I was getting 2 - 3 postings every couple of days about a year aog. Now? I get more than a dozen
+16:39 < jardineworks:#liferay> it's picking up steam for sure
+16:41 < apucay:#liferay> and now these offshore dudes can jump in with guys who sat in a room and read LR in Action for 2 months, and charge 120 USD for them?
+16:41 < jardineworks:#liferay> perhaps... there will always be people who don't understand the true cost.
+16:42 < jardineworks:#liferay> but clients that have that mentality you don't WANT to work with anyway. They are .. how you say... dumb.
+16:42 < jardineworks:#liferay> :)
+16:42 < apucay:#liferay> *nods head again*
+16:43 < Tar-Minyatur:#liferay> Oh. *lol* I just realized they planned one hour for regstration and breakfast tomorrow on the DevCon. I was planning on arriving at 8 o'clock. Lucky me for reading the agenda again.
+16:44 < jardineworks:#liferay> Tar-Minyatur, so jealous that you are going to that.
+16:46 < Tar-Minyatur:#liferay> So happy I'm actually allowed to go.
+16:49 < Tar-Minyatur:#liferay> I didn't really expect it. I've been with the company for only two months.
+16:49 < Tar-Minyatur:#liferay> And by now I can't even guarantee that there will be any real benefit four our current project.
+16:51 < jardineworks:#liferay> hah --- of COURSE the days where I get to the stuff that rotty wrote, he is in germany.
+16:55 < Tar-Minyatur:#liferay> ;)
+16:55 < Tar-Minyatur:#liferay> They picked a good time, too. It's unsually warm here again.
+16:56 < Tar-Minyatur:#liferay> *unusually
+--- Log closed Wed Oct 09 00:00:54 2013

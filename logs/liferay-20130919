@@ -1,0 +1,766 @@
+--- Log opened Thu Sep 19 00:00:26 2013
+02:14 < avinashrbhat:#liferay> how can i add the aui:input element on runtime using javascript?
+04:36 < hufg:#liferay> :Z
+04:46 < hufg:#liferay> Tar-Minyatur: the caching problem in that kind of a setup can be related to configs and infrastructure also
+04:46 < hufg:#liferay> the cluster can seemingly work in liferay logs but cache replicating still doesn't work with certain infrastructure problems
+05:13 < Tar-Minyatur:#liferay> hufg: It's pretty obvious that we do have caching problems.
+05:14 < Tar-Minyatur:#liferay> The question is: How to solve them? Would it be enough to properly set up the clustering?
+06:44 < hufg:#liferay> Tar-Minyatur: a properly set up cluster does not have caching issues
+06:44 < hufg:#liferay> 8)
+06:45 < hufg:#liferay> i was trying to tell you there may be issues in the infrastructure if you have caching problems in a cluster
+06:46 < hufg:#liferay> i think liferay doesn't have much to do with caching in a cluster
+06:46 < hufg:#liferay> there is just the ehcache setup, cluster configuration and the underlying infrastructyure
+06:51 < hufg:#liferay> like i said it is possible to have the cluster "link" working without having a working cache replication ie. liferay finds cluster nodes in the server log and nothing is wrong in server log but still ehcache is not replicated
+06:51 < hufg:#liferay> this we have encountered with improper infrastructure setup
+06:53 < hufg:#liferay> mismatching ehcache/portal-ext.properties would  also do this
+06:53 < hufg:#liferay> mismatching/wrong
+06:57 < hufg:#liferay> do you even have a clustered setup or just a shared database? :D
+07:33 < Tar-Minyatur:#liferay> hufg: That's what I meant. We only have shared DB and shared DL.
+07:34 < Tar-Minyatur:#liferay> So I guess every node has its own cache and when something changes onle the node doing the change refreshes its cache.
+08:07 < hufg:#liferay> yes 8)
+08:08 < hufg:#liferay> yees yees so you pick up the admin guide and setup the cache and test like a motherfucker and then go into production np np
+08:08 < hufg:#liferay> :D
+08:08 < Tar-Minyatur:#liferay> *lol* I found a scheduer job in the project...every minute it checks if the cache should be cleared. By some totally idiotic mechanic...
+08:10 < hufg:#liferay> mm
+08:13 < Tar-Minyatur:#liferay> Apparently there is a PublishingListener somewhere that writes an entry into the database saying "server xy just published something!!".
+08:13 < hufg:#liferay> what version do you have?
+08:14 < Tar-Minyatur:#liferay> 6.1.0
+08:14 < Tar-Minyatur:#liferay> And it's heavily modified.
+08:14 < hufg:#liferay> i wouldn't be too confident to have a clustered liferay with older versions
+08:14 < hufg:#liferay> ehm clustered environment
+08:14 < hufg:#liferay> maybe 6.1.0 is ok
+08:14 < Tar-Minyatur:#liferay> Which is probably why they implemented this shit.
+08:14 < Tar-Minyatur:#liferay> Doesn't make it any better though.
+08:14 < hufg:#liferay> it may also be an infrastructure issue
+08:18 < hufg:#liferay> you need routers with multicast support and there may be all kinds of network setups that don't go well with that
+08:18 < Tar-Minyatur:#liferay> It's all Amazon EC2.
+08:18 < Tar-Minyatur:#liferay> So multicast is out of the question.
+08:19 < Tar-Minyatur:#liferay> And there isn't any clustering setup. As far as the official Liferay documentation goes, they did the first two steps...same DB and same S3 bucket for the DL. And nothing else. There they just stopped setting it up properly.
+08:19 < Tar-Minyatur:#liferay> And then comes the nasty stuff...custom modifications to the core to somehow track publishing and do weird cache clearing and whatnot. -.-
+08:21 < hufg:#liferay> if you can't have multicast then liferay clustering is out of question
+08:22 < hufg:#liferay> get a good loadbalancer, disable cache all is good!
+08:24 < hufg:#liferay> and buy a new server hehe
+08:25 < Tar-Minyatur:#liferay> Apparently it's possible to set up Liferay clusting with unicast as well.
+08:25 < Tar-Minyatur:#liferay> At least there are a lot of articles and forum entries about that.
+08:25 < hufg:#liferay> mmh ok no clue about that
+08:26 < Tar-Minyatur:#liferay> Another solution might be to get a proxy cluster and have only one Liferay instance.
+08:26 < hufg:#liferay> you will never upgrade with those customizations :D
+08:26 < hufg:#liferay> on the same environment
+08:27 < Tar-Minyatur:#liferay> Yeah. That's my main argument at the moment for why we should start over.
+08:27 < hufg:#liferay> mm
+08:28 < hufg:#liferay> you may still need an army of consultantas anyhow
+08:28 < hufg:#liferay> consultants
+08:28 < Tar-Minyatur:#liferay> Well...there is me...and two outsourced developers... -.-
+08:28 < hufg:#liferay> maybe liferay sharpens up the upgrade process in the future
+08:28 < hufg:#liferay> 6.1.x and further may be all right i suppose
+08:29 < hufg:#liferay> may 8)
+08:31 < hufg:#liferay> anyways that unicast clustering seems interesting didn't know it is possible
+08:33 < hufg:#liferay> http://www.liferay.com/community/forums/-/message_boards/message/7804513?_19_preview=false#_19_message_7804513
+08:34 < hufg:#liferay> seems to be good stuff
+08:34 < jardineworks:#liferay> morning
+08:38 < jardineworks:#liferay> Tar-Minyatur, still fighting with the cache?
+08:39 < Tar-Minyatur:#liferay> Hi jardineworks.
+08:39 < Tar-Minyatur:#liferay> Yeah.
+08:39 < Tar-Minyatur:#liferay> And with our lack of a proper clustering setup.
+08:39 < Tar-Minyatur:#liferay> (I hate having to deal with so many things at once. I never manage to finish something properly before the next issue pops up. -.-)
+08:40 < hufg:#liferay> hehe yeah
+08:40 < jardineworks:#liferay> Tar-Minyatur, One thing you can consider to help with the debugging.. to at least see what is happening with ehcache is to turn up the logging on ehcache specifically.
+08:40 < Tar-Minyatur:#liferay> I would consider that as soon as I get access to the logfiles. -.-
+08:40 < jardineworks:#liferay> Tar-Minyatur, out of curiosity.. and so I know what to avoid... what was the name of the company that made you fucked up application? :)
+08:41 < Tar-Minyatur:#liferay> That company is out of business now.
+08:41 < jardineworks:#liferay> Tar-Minyatur, you don't have access to the servers to set the cluster up. You don't have access to the files to debug. Dude, you have an impossible job.
+08:41 < jardineworks:#liferay> what WERE they called.
+08:41 < Tar-Minyatur:#liferay> Which makes it even more problematic, because we can't ask anybody.
+08:41 < Tar-Minyatur:#liferay> I won't point fingers. ;)
+08:41 < Tar-Minyatur:#liferay> And my boss probably would kill me for mentioning something like that in a public chat. ;)
+08:41 < jardineworks:#liferay> c'mon -- the rest of us can use this to find their clients and sell more work!
+08:42 < hufg:#liferay> :d
+08:42 < jardineworks:#liferay> we KNOW their LR projects are all messed up at least :)
+08:42 < hufg:#liferay> jardineworks: it's no use! i don't contract :((
+08:42 < hufg:#liferay> maybe i can start then
+08:44 < Tar-Minyatur:#liferay> jardineworks: I requested access to the production system for debugging purposes. That request is apparently still running through boards and whatnot.
+08:44 < Tar-Minyatur:#liferay> At some point I will probably get it...
+08:44 < dave_k:#liferay> hello all ... i'm wondering if it would be possible to restrict the "server" part of the control panel to the local subnet?
+08:44 < Tar-Minyatur:#liferay> There is till a tiny spark of hope that I will find a clear hint in there about what's going wrong.
+08:45 < jardineworks:#liferay> hufg, at least you would have a good lead to start :)
+08:45 < jardineworks:#liferay> dave_k, can you do that with url filters at the load balancer?
+08:46 < dave_k:#liferay> jardineworks: I assume yes
+08:46 < jardineworks:#liferay> Tar-Minyatur, without the tools? I would imagine that you are in for a frustrating journey.
+08:46 < jardineworks:#liferay> Tar-Minyatur, What is your workstation/laptop like?
+08:46 < Tar-Minyatur:#liferay> jardineworks: Bitemarks all over it.
+08:46 < hufg:#liferay> you should first setup a similiar env for further studying
+08:47 < dave_k:#liferay> but since all control panel stuff shares the same base url, I think, thats not that easy
+08:47 < hufg:#liferay> i think any debugging access for prod would be denied here
+08:47 < jardineworks:#liferay> maybe you could do what I do... I use Virtual Box and spin up several VMs to replicate production environments. If you were able to reproduce the same configuration on your local you could at least get an understanding of what happens with a non-cluster 5 vm environmnet with a single db
+08:47 < hufg:#liferay> and it's reasonable imho
+08:47 < hufg:#liferay> yes just dump the databases and build your env on virtual machines
+08:48 < hufg:#liferay> but then ofc you will spend next 2 months replicating the setup because of lack of documentation etc(?)
+08:48 < hufg:#liferay> see the questionmark, you have some hope hehe
+08:48 < jardineworks:#liferay> dave_k, I'm not  load balancing guru... but the url does have portlet id 137 in it. Would that help? I think p137 is the server administration portlet.
+08:49 < hufg:#liferay> though cloning servers is valid too but doesn't give much of insight in itself
+08:49 < dave_k:#liferay> jardineworks: would look like a bad hack, since the links would still show up
+08:50 < jardineworks:#liferay> Oh I see
+08:50 < dave_k:#liferay> jardineworks: and yes, 137 is the server admin portlet
+08:50 < jardineworks:#liferay> you want to hide it
+08:50 < jardineworks:#liferay> hmmm
+08:50 < jardineworks:#liferay> why based on IP instead of a group/role?
+08:51 < jardineworks:#liferay> I mean, if you know what IP people are at :)
+08:51 < jardineworks:#liferay> ... can't you put them in a group?
+08:51 < jardineworks:#liferay> or is it anyone on a subnet?
+08:51 < dave_k:#liferay> not only hide, but e.g. the JS function _137_saveServer('gc') should have no effect from the outside, even if maliciously constructed with the correct server session
+08:51 < jardineworks:#liferay> OU I know.
+08:52 < jardineworks:#liferay> JSP Hook and add the code to find their IP as a conditional c:if :)
+08:52 < jardineworks:#liferay> .. and wrap the whole page in the condition
+08:53 < Tar-Minyatur:#liferay> jardineworks: I already have a local setup of this awful abomination. Not clustered, of course, but otherwise very similar.
+08:54 < jardineworks:#liferay> Tar-Minyatur, so can you turn up the logging on ehcache locally and try to reproduce the problem?
+08:55 < dave_k:#liferay> jardineworks: ummm ... okay, I think I have to check what _137_saveServer('gc') actually does ... I'm assuming a POST on some URL ...
+08:55 < Tar-Minyatur:#liferay> I doubt it, because I don't have a clustered setup locally.
+08:55 < Tar-Minyatur:#liferay> I would have to setup a second box on the same db to simulate the issues.
+08:55 < dave_k:#liferay> jardineworks: ... with a Java class handler behind that, not done in JSP ...
+08:57 < dave_k:#liferay> Tar-Minyatur: I just did exactly that. Duplicated the VM, edited: /etc/hostname, /etc/hosts, Liferay JDBC and cluster config.
+08:57 < jardineworks:#liferay> dave_k, sure, I just meant that the JSP hook can be used to hide the entire section. I'm added my own sections before ... you can hook ROOT/html/portlet/control_panel_menu/view.jsp to blank it out based on what your Java class tells you
+08:57 < jardineworks:#liferay> clone is your friend.
+08:58 < dave_k:#liferay> jardineworks: ah, ok, got it ... you mean: blanking out requests on the loadbalancer to anything containing p_p_id=137 and adding a hook to hide it in the UI?
+09:01 < jardineworks:#liferay> dave_k, bingo.
+09:01 < jardineworks:#liferay> does anyone know whether or not it is possible to get all articles with a particular structure id?
+09:08 < dave_k:#liferay> umm ... re-reading all your comment, jardineworks ... would it be possible to restrict the server admin superuser logins to a certain IP range?
+09:09 < jardineworks:#liferay> dave_k, with a login hook I would imagine you could. You just set your own auth.pipeline.pre Action class
+09:09 < jardineworks:#liferay> do the checks and if it works, pass it on to the regular login process
+09:11 < dave_k:#liferay> jardineworks: the point of the network admin of the server hoster is: "no-one, and I mean no-one should be able to e.g. clear the database cache from outside our local network!"
+09:12 < dave_k:#liferay> in other words: he would be grateful if that would not even be possible via the web interface
+09:13 < jardineworks:#liferay> dave_k, why not just use a sticky session to route all admin traffic to ONE server, and restrict that servers access to the local network?
+09:13 < jardineworks:#liferay> I'm no network guy.. but I assume that could be done no?
+09:13 < dave_k:#liferay> okay, preAction stuff would be a method ... been there, done that
+09:14 < dave_k:#liferay> hum? sticky sessions? dunno about that
+09:15 < dave_k:#liferay> jardineworks: but reading your hint, I would assume that this would mean another tomcat instance? no can do.
+09:15 < jardineworks:#liferay> dave_k, how many do you have?
+09:15 < dave_k:#liferay> two
+09:15 < jardineworks:#liferay> ah
+09:15 < jardineworks:#liferay> ok
+09:15 < jardineworks:#liferay> nevermind
+09:15 < jardineworks:#liferay> lol
+09:15 < jardineworks:#liferay> you can't really pull one out of that pool :)
+09:15 < dave_k:#liferay> correct
+09:16 < jardineworks:#liferay> and you are saying no to the login hook/
+09:16 < jardineworks:#liferay> ?
+09:16 < dave_k:#liferay> nope, that would an option. only one minor point: needs to be developed, is not OOTB
+09:17 < jardineworks:#liferay> dave_k, correct. If you have the code that does the IP detection stuff tough, it would be a 30 minute job to write that hook.
+09:17 < jardineworks:#liferay> however, someone who is ip spoofing might be able to bypass it right?
+09:17 < dave_k:#liferay> OOTB is always easier to sell to the project manager. We're still evaluating whether to use Liferay or something else in the current project
+09:18 < jardineworks:#liferay> but if IP is how you are going to prevent the actions, spoofing will be a concern no matter what the approach.
+09:19 < jardineworks:#liferay> dave_k, well, truth be told, LR is not really made for this sort of thing. What you are talking about is application access right (outside of user accounts I mean)? normally those things are controlled outside as a barrier to the application server itself.
+09:19 < dave_k:#liferay> jardineworks: If the firewall/DMZ admin does his job, he would not let any packet with a local network address enter his network from the outside.
+09:19 < jardineworks:#liferay> dave_k, fair enough
+09:20 < jardineworks:#liferay> dave_k, why is an additional tomcat instance not an option? I mean you wouldn't need anyting more than a cheap desktop to manage the control panel load.
+09:22 < dave_k:#liferay> well, the project manager was a bit taken aback when he saw the server tab in the control panel and said that the network admin would like to have this stuff (run GC, clear caches, clear indices...) only permissible and possible from the command line
+09:23 < hufg:#liferay> Tar-Minyatur: we have now been trying to upgrade 6.1.1 GA2 ce to 6.1.2 GA3 ce for a week and it looks like a no go
+09:23 < hufg:#liferay> it's ridiculous
+09:24 < hufg:#liferay> this is what i mean by an army of consultants for liferay upgrade
+09:24 < dave_k:#liferay> jardineworks: because I ain't the network admin of the big data center where two tomcats are to be reserved for a tiny liferay instance (compared to all the other stuff that runs there). security is tight in that network.
+09:24 < jardineworks:#liferay> dave_k, you might want to see if you can get a hold of rotty3000. I think he works on the security team so he might be able to give you some good guidance that is outside my wheelhouse. All I know are tricks you can try with hooks and such -- but if you want sometrhing that is OOTB he would know better than me (I'm still learning a lot of stuff)
+09:25 < dave_k:#liferay> well, maybe he reads this later and catches me on twitter :)
+09:25 <@rotty3000:#liferay> what's up guys?
+09:25 < dave_k:#liferay> *lol*
+09:25 < dave_k:#liferay> hey rotty3000
+09:25 < hufg:#liferay> rotty3000: why don't you test your upgrades!
+09:25 < hufg:#liferay> 8)
+09:25 <@rotty3000:#liferay> uhmm, we test our upgrades..
+09:25 < hufg:#liferay> or is ce supposed to be unupgradeable
+09:26 <@rotty3000:#liferay> upgrades are complex our deployment matrix is vast..
+09:26 < hufg:#liferay> yeah
+09:26 <@rotty3000:#liferay> so it's quite easy to miss things, it's impossible to test all possible scenarios :(
+09:27 <@rotty3000:#liferay> factor: DB + app server + portal.properties options
+09:27 <@rotty3000:#liferay> and the number of variations is somewhere in the billions
+09:27 < hufg:#liferay> true true
+09:27 < hufg:#liferay> but it's frustrating nevertheless
+09:27 <@rotty3000:#liferay> absolutely
+09:29 < hufg:#liferay> there is some trouble with dl library and permissions with ce ga2 -> ga3 upgrade considering staging and publishing
+09:29 < hufg:#liferay> and no publishing is instant show stopper
+09:30 <@rotty3000:#liferay> so what's going on with permissions?
+09:30 < dave_k:#liferay> rotty3000: if you've got time after hufg ... have you got an idea on how to restrict the control panels "server" options and methods (both in UI and maliciously constructed requests) to the local network/a specific IP range OOTB? the network admin does not like that it's possible to e.g. delete the DB cache via web requests...
+09:31 < hufg:#liferay> ahh i can't use paste bin
+09:31 <@rotty3000:#liferay> dave_k: hmm.. if topolik was here, he would be the guy to ask, he's done work in that area
+09:31 < hufg:#liferay> ortlet_jsp:157] com.liferay.portal.kernel.lar.PortletDataException: com.liferay.portal.security.auth.PrincipalException
+09:31 <@rotty3000:#liferay> hufg: private gist (gist.github.com)?
+09:32 < dave_k:#liferay> ah, okay, thx, I hope to catch him before my vacation (which starts in a few hours ;)
+09:32 <@rotty3000:#liferay> dave_k: you may be able to use the urlfilter
+09:33 <@rotty3000:#liferay> dave_k: urlrewrite filter portal-web/docroot/WEB-INF/urlrewrite.xml
+09:33 <@rotty3000:#liferay> it has the capability to force requirements on urls, or redirect to somewhere else
+09:34 < hufg:#liferay> rotty3000: https://gist.github.com/anonymous/a1037af2a54c183fc65c
+09:34 < dave_k:#liferay> rotty3000: I was considering a similar option with jardineworks earlier. Might still seem like a hack to the network admin and still needs additional work for a plugin that hides it in the UI
+09:35 <@rotty3000:#liferay> dave_k: I'm trying to recall if the new AccessControl stuff is in 6.1 or 6.2 that has some url/host/domain restriction capabilities
+09:35 <@rotty3000:#liferay> dave_k: yeah, still might
+09:35 < hufg:#liferay> rotty3000: and https://gist.github.com/anonymous/4fa3436fa2a4e868b374
+09:35 < dave_k:#liferay> we're still evaluating and real project start would not be before last week of october
+09:36 <@rotty3000:#liferay> hufg: can you put the whole trace?
+09:36 <@rotty3000:#liferay> seems like the best part is missing (bottom)
+09:36 < dave_k:#liferay> ... so 6.2 might be a viable option.
+09:36 < hufg:#liferay> ahh gist refused the whole stack trace, ill try again
+09:37 <@rotty3000:#liferay> hufg: that's strange, must be anon limitation
+09:37 < hufg:#liferay> but anyways thats during publish from live to staging
+09:37 < hufg:#liferay> and local staging
+09:38 < hufg:#liferay> even if i uncheck the document library portlet
+09:39 <@rotty3000:#liferay> does the person publishing have all the correct permissions to add the assets on the import side?
+09:39 < hufg:#liferay> it's the portal admin user
+09:39 <@rotty3000:#liferay> right
+09:39 <@rotty3000:#liferay> local staging?
+09:40 < hufg:#liferay> yes no remote publish
+09:41 < hufg:#liferay> anyways our upgrade process was like this -> publish with GA2 running -> install GA3 -> make changes to articles and dl -> publish (this was ok) -> setup live virtualhost and staging virtualhost -> make changes to articles -> publish (fail) -> revert virtualhosts and article change -> publish (fail)
+09:41 <@rotty3000:#liferay> need the next part of the stack trace to understand the call path completely
+09:42 < hufg:#liferay> rotty3000: https://gist.github.com/anonymous/3a5bd10a28004f6d3bdd thats the situation now
+09:42 < hufg:#liferay> enough? :/
+09:43 < hufg:#liferay> and actually you need to upgrade dlfolder lastpostdate for this upgrade before publishing
+09:43 < hufg:#liferay> forgot to mention it
+09:44 < hufg:#liferay> rotty3000: why is there a huge GA3 commit on git?
+09:44 <@rotty3000:#liferay> :'( don't ask..
+09:44 < hufg:#liferay> some of the changes just point to the GA3 commit, impossible to track the real commit =(
+09:45 <@rotty3000:#liferay> I know.. I'm not sure what to say about that
+09:45 <@rotty3000:#liferay> hufg: about the stack trace
+09:45 <@rotty3000:#liferay> there is something interesting
+09:46 <@rotty3000:#liferay> consider the line https://gist.github.com/anonymous/3a5bd10a28004f6d3bdd#file-gistfile1-txt-L45
+09:46 < hufg:#liferay> i can't tell you why the dlfolder migration needs to be done and now i lost the issue, but dlfolder lastpostdate has a new default value which is the creation date and on publish it can't be null, in GA2 the default value is null
+09:46 <@rotty3000:#liferay> which leads to this line https://gist.github.com/anonymous/3a5bd10a28004f6d3bdd#file-gistfile1-txt-L24
+09:47 < hufg:#liferay> mm and?
+09:47 <@rotty3000:#liferay> that logic is clearly flawed.. a local service should never lead to a non local service call
+09:47 <@rotty3000:#liferay> non-local = authenticated                local = not authenticated
+09:48 <@rotty3000:#liferay> however, I would still expect it to at least work in this case because it was invoked by a logged in admin
+09:48 <@rotty3000:#liferay> which means the authentication context should have setup already
+09:50 < hufg:#liferay> mm
+09:50 <@rotty3000:#liferay> .. I have to dig into who made this change
+09:50 < hufg:#liferay> hehe
+09:50 <@rotty3000:#liferay> you have sources?
+09:50 < hufg:#liferay> yes
+09:51 <@rotty3000:#liferay> uhmm, never mind
+09:51 <@rotty3000:#liferay> I was going to suggest the change the the local service, but the method sig is different, and i wouldn't trust just flipping around to find one that matches
+09:52 <@rotty3000:#liferay> hufg: .. btw, it's like this even in master :facepalm:
+09:53 < hufg:#liferay> mm
+09:53 < hufg:#liferay> rotty3000: https://gist.github.com/anonymous/19dd16c96ae76df86b83 this is the previous permission error
+09:53 < hufg:#liferay> not the same method
+09:54 <@rotty3000:#liferay> same cause
+09:54 <@rotty3000:#liferay> a local method calling a non-local method
+09:54 < hufg:#liferay> similiar exception though
+09:54 <@rotty3000:#liferay> https://gist.github.com/anonymous/19dd16c96ae76df86b83#file-gistfile1-txt-L45 leading to https://gist.github.com/anonymous/19dd16c96ae76df86b83#file-gistfile1-txt-L24
+09:54 < hufg:#liferay> oh you think it's because of that?
+09:55 < hufg:#liferay> even with admin user
+09:55 < hufg:#liferay> and to further make things more complex it worked once...
+09:55 <@rotty3000:#liferay> it depends on the context.. if this is running in a background process.. and the security context isn't setup because the developer expected "hey, it's local... I don't need security.."
+09:55 <@rotty3000:#liferay> then it would fail
+09:56 < hufg:#liferay> ok
+09:56 < hufg:#liferay> so what can be done excluding modifications to liferay source? :D
+09:56 <@rotty3000:#liferay> so having the entire stack trace would really help
+09:57 < hufg:#liferay> well lets see
+09:57 <@rotty3000:#liferay> since I can't tell what the call context here
+10:01 < hufg:#liferay> rotty3000: ok now gist worked current: https://gist.github.com/anonymous/281bf6b594affd4f69a2 previous: https://gist.github.com/anonymous/10f6b64b93426b4b1fbb
+10:02 < hufg:#liferay> mm the previous one is incomplete didn't save it fully
+10:02 < hufg:#liferay> but current is the whole stack trace
+10:04 <@rotty3000:#liferay> I really hate glassfish logging.. the stack traces are truncated no matter what I think...
+10:05 < hufg:#liferay> :Z
+10:05 <@rotty3000:#liferay> however.. it looks like the security context should be setup
+10:06 <@rotty3000:#liferay> because the stack does seem to directly result from the action request made by the admin
+10:06 < hufg:#liferay> ok
+10:06 <@rotty3000:#liferay> vs. being a child thread or background callable
+10:07 <@rotty3000:#liferay> so yeah.. not sure why the permission error
+10:08 <@rotty3000:#liferay> and you're 100% certain this is the omni admin?
+10:08 < hufg:#liferay> yes
+10:08 < hufg:#liferay> it's the one created with setup wizard
+10:09 <@rotty3000:#liferay> k, so the only thing I can suggest is debugging past https://gist.github.com/anonymous/281bf6b594affd4f69a2#file-gistfile1-txt-L24
+10:10 <@rotty3000:#liferay> because the admin role is supposed to have it's logic short circuited to never reach the DB
+10:10 <@rotty3000:#liferay> so it should have nothing to do with DB data
+10:10 <@rotty3000:#liferay> it has to me a logic error
+10:10 < hufg:#liferay> hehe yeah we have been doing that
+10:10 < hufg:#liferay> but it will take some time
+10:11 <@rotty3000:#liferay> if you could only identify where it's actually returning the false return from the permission check, we could probably find if from there
+10:12 < hufg:#liferay> yeah
+10:18 <@rotty3000:#liferay> I sent an email to the guy that made those changes
+10:18 <@rotty3000:#liferay> btw, have you filled a ticket?
+10:18 <@rotty3000:#liferay> if so, link me? if not, create one and link me? I'll make Alex aware and give it a high priority
+10:18 < hufg:#liferay> no :/
+10:19 < hufg:#liferay> ok
+10:19 <@rotty3000:#liferay> there is clearly a design flaw either way
+10:20 <@rotty3000:#liferay> if the change was made to call a local service, there _would_ be no permission check... hence nothing to fail on
+10:23 < hufg:#liferay> mm
+10:23 < hufg:#liferay> we will debug it and create a ticket
+10:24 < Tar-Minyatur:#liferay> rotty3000: A quick question if I may...Is there some official position concerning Liferay clusters in Amazon EC2? There is sooo much different information out there that I don't know what to believe.
+10:25 <@rotty3000:#liferay> Tar-Minyatur: ha, I'm not entirely sure myself, but I can ask
+10:25 < Tar-Minyatur:#liferay> Apparently the default way to setup a cluster doesn't work because Multicast is not supported by EC2.
+10:26 <@rotty3000:#liferay> Tar-Minyatur: I will ask our lead GS consultant who I know for a fact has built large clusters on EC2
+10:26 < Tar-Minyatur:#liferay> The question is: Is there a reliable way to do it anyway or are these just "lucky" hacks.
+10:26 <@rotty3000:#liferay> Tar-Minyatur: I was going to say that
+10:26 <@rotty3000:#liferay> you need unicast
+10:26 < Tar-Minyatur:#liferay> Yeah. But all information I could find concerning that seems...dunno. Scattered, incomplete, dubious.
+10:27 <@rotty3000:#liferay> right, so if you can wait a little while for me to get some feedback, I can relay it to you
+10:27 < Tar-Minyatur:#liferay> Definitely. I would really appreciate it.
+10:27 <@rotty3000:#liferay> n/p
+10:29 < hufg:#liferay> rotty3000: tell us whats up with the GA3 commit! 8)
+10:29 <@rotty3000:#liferay> hufg: I honestly don't know what to make of it myself, so I will refrain from commenting if you don't mind
+10:30 < hufg:#liferay> hehe ok
+10:32 < hufg:#liferay> rotty3000: how long have you worked with liferay?
+10:32 <@rotty3000:#liferay> since 2005
+10:33 < hufg:#liferay> my only real complaint with liferay is the quality :/
+10:33 <@rotty3000:#liferay> I can't argue with that :(
+10:34 <@rotty3000:#liferay> it's been a long term mission of mine to improve it, and so I have pretty much moved away from "feature" development
+10:34 < hufg:#liferay> some rough edges around the corners is acceptable but some of the core functionality in liferay have it too
+10:34 <@rotty3000:#liferay> totally agree
+10:34 < hufg:#liferay> yeah we have been discussing it here, you should just feature freeze and grind those bugs down
+10:35 < hufg:#liferay> 8)
+10:35 <@rotty3000:#liferay> the core is so vitally important, it's really the future of our whole platform to drastically improve in that regard
+10:35 < hufg:#liferay> yes
+10:35 <@rotty3000:#liferay> and so that's my current primary goal
+10:35 < hufg:#liferay> ce GA3 seems to be a step into that direction at least looking at the jira issues
+10:36 < hufg:#liferay> mainly defects etc
+10:36 < hufg:#liferay> i'd like to see more of those kind of releases!
+10:42 < Tar-Minyatur:#liferay> Oh wow. I just realized that the DevCon will be here this year.
+10:42 <@rotty3000:#liferay> you mean Berlin ?
+10:42 < Tar-Minyatur:#liferay> Like 20 minutes from where I'm staying right now.
+10:42 < Tar-Minyatur:#liferay> Yes!
+10:42 <@rotty3000:#liferay> awesome, I will be there
+10:43 < hufg:#liferay> berlin is gr8
+10:43 < Tar-Minyatur:#liferay> I guess I should ask if my employer might consider sending me there.
+10:43 <@rotty3000:#liferay> I'm very excited, I've never been
+10:43 < Tar-Minyatur:#liferay> It's probably even better than having some Liferay training or something.
+10:44 < Tar-Minyatur:#liferay> Berlin is like every big city...bright and dark sides. ;)
+10:44 < Tar-Minyatur:#liferay> I actually moved here like 2 months ago, so I'm fairly new myself.
+10:47 < hufg:#liferay> Tar-Minyatur: but great clubs and great vibe!
+10:47 < hufg:#liferay> 8)
+10:47 < Tar-Minyatur:#liferay> No idea. Not really my thing. ;)
+10:48 < jardineworks:#liferay> rotty3000, are you speaking?
+10:48 <@rotty3000:#liferay> yes
+10:48 < jardineworks:#liferay> whats the topic?
+10:48 <@rotty3000:#liferay> security/osgi
+10:49 < jardineworks:#liferay> cool! will it be published online for all us poppers who won't make it to this one?
+10:49 <@rotty3000:#liferay> I believe so
+10:50 < jardineworks:#liferay> how many people are expected to attend?
+10:52 <@rotty3000:#liferay> the goal is 350
+10:52 < jardineworks:#liferay> one of these days I am going to hit up one of these events.
+10:52 < jardineworks:#liferay> you need to start lobbying for one in Canada!
+10:53 < jardineworks:#liferay> :)
+10:53 <@rotty3000:#liferay> jardineworks: the Berlin DevCon is our first devcon, totally developer centric
+10:53 <@rotty3000:#liferay> jardineworks: :)
+10:53 <@rotty3000:#liferay> you never know
+10:53 < jardineworks:#liferay> just not sudbury. Too many mosquitos.
+10:53 < jardineworks:#liferay> :)
+10:53 < Tar-Minyatur:#liferay> How come you chose Berlin?
+10:53 <@rotty3000:#liferay> hahaha, I was thinking Winnipeg
+10:53 < Tar-Minyatur:#liferay> Aren't you all from the US?
+10:53 < jardineworks:#liferay> LOL
+10:54 < jardineworks:#liferay> there'd never be another one again
+10:54 <@rotty3000:#liferay> jardineworks: j/k
+10:54 < jardineworks:#liferay> Tar-Minyatur, Rotty and I are in Canada
+10:54 < jardineworks:#liferay> I am in Toronto... he is in the middle of nowhere ;)
+10:54 < Tar-Minyatur:#liferay> North America then. ;)
+10:54 <@rotty3000:#liferay> Tar-Minyatur: yes, most of Liferay is in US, BUT most of our engineering is in Europe
+10:54 < jardineworks:#liferay> i didn't know that
+10:55 < Tar-Minyatur:#liferay> Neither did I. Interesting.
+10:55 < jardineworks:#liferay> i always assumed cali was a big presence for dev.
+10:55 <@rotty3000:#liferay> our largest engineering office is Spain, then Brazil, then US
+10:56 <@rotty3000:#liferay> bbib
+11:23 < dave_k:#liferay> ... hmmm ... what would happen if I cluster two liferay/tomcat instances onto the same DB, but the instances are not allowed to talk on cluster link? (b/c of a paranoid network admin?)
+11:24 < jardineworks:#liferay> dave_k, replication errors I would imagine
+11:24 < Tar-Minyatur:#liferay> You would end up with the same mess I'm in right now. ;)
+11:24 < jardineworks:#liferay> hahha
+11:24 < jardineworks:#liferay> but you'd have a partner to work through it with!
+11:25 < Tar-Minyatur:#liferay> Yay! :D
+11:26 < dave_k:#liferay> jardineworks: But would it actually diminish the functionality? (apart from doing the rendering work twice)
+11:26 < Tar-Minyatur:#liferay> It would, because your cache would not recognize changes done on the other instance.
+11:26 <@rotty3000:#liferay> dave_k: it would result in changes not being visible across nodes
+11:26 <@rotty3000:#liferay> because one node would not be aware that it's caches are invalid
+11:29 < dave_k:#liferay> okay, rotty3000 ... can I then do a static cluster link? i.e. not using multicast?
+11:29 <@rotty3000:#liferay> yes
+11:29 <@rotty3000:#liferay> I'm trying to find the info
+11:30 < dave_k:#liferay> good, b/c I did not find it ...
+11:30 < dave_k:#liferay> :)
+11:32 < jardineworks:#liferay> jhf, that skinny code you sent me yesterday ... will that produce a map as a result?
+11:33 <@jhf:#liferay> nope, but would be easy to fix it to do so.. right now it uses another class (which I didn't include) but its basically a map.
+11:33 <@jhf:#liferay> so here lemme edit the gist real quick to show you an example
+11:34 < jardineworks:#liferay> sorry.. I meant is the SkinnyJournalArticle just a map :)
+11:34 < jardineworks:#liferay> or an object with a map
+11:34 < jardineworks:#liferay> I mean
+11:34 < jardineworks:#liferay> ugh --- I think I need a coffee
+11:39 <@jhf:#liferay> ok updated https://gist.github.com/jamesfalkner/8726d3491a3f5b3a0ff2
+11:39 <@jhf:#liferay> so if u call getArticleMap() it gives you a map of the values from the article
+11:40 <@jhf:#liferay> be sure you import the right types
+11:40 <@jhf:#liferay> import com.liferay.portal.kernel.xml.Document;
+11:40 <@jhf:#liferay> import com.liferay.portal.kernel.xml.Element;
+11:40 <@jhf:#liferay> import com.liferay.portal.kernel.xml.SAXReaderUtil;
+11:40 < jardineworks:#liferay> jhf, cool -- but the thing is that I am trying to do this from a VM template with the regular web content portlet.  Is there a parser for XML in VM?
+11:40 < jardineworks:#liferay> oh
+11:40 < jardineworks:#liferay> I see
+11:41 <@jhf:#liferay> you can call those methods via velocity, with some careful translation :)
+11:41 < jardineworks:#liferay> oh i see, you are saying write my own plugin with that code and the service locator it?
+11:42 <@jhf:#liferay> you could re-write the gist above in velocity if you want, without needing to deploy a java plugin
+11:42 < hufg:#liferay> rotty3000: https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/com/liferay/portal/staging/permission/StagingPermissionImpl.java#L77
+11:42 < hufg:#liferay> there
+11:42 < hufg:#liferay> that is the failing permission check
+11:42 < hufg:#liferay> doesn't make much sense to me imo
+11:42 < jardineworks:#liferay> jhf, what about a JournalArticleServiceLocalImplWrapper ... err, wait, that might be dangerous.
+11:43 < hufg:#liferay> actionId is UPDATE, portletId 20, group is the live group thus. hasStagingGroup() -> true and portletId 20 is staged -> true ------> return false
+11:43 < jardineworks:#liferay> jhf, ok -- forgive my VM n00bness. so I would create a VM macro with that logic and then call the macro to get back a map?
+11:45 <@jhf:#liferay> that's one way to do it, but since I don't know much about macros I usually just write it inline. here are some tips:
+11:45 <@jhf:#liferay> to make a new map in velocity: #set ($newmap = $portal.getClass().forName("java.util.HashMap").newInstance())
+11:46 < jardineworks:#liferay> jhf, ok cool I get'ya
+11:47 <@jhf:#liferay> to get a handle to a util class that's not already given to you via WCM template framework:
+11:47 <@jhf:#liferay> #set ($saxUtil = $portal.getClass().forName("com.liferay.portal.kernel.xml.SAXReaderUtil"))
+11:47 <@jhf:#liferay> err
+11:47 < jardineworks:#liferay> jhf, one last question. Is there a faster way to develop templates? right now I am using the editor. I know I could use a file, but having to upload the file everytime doesn't seem faster than the editor. Both options suck.
+11:47 <@jhf:#liferay> #set ($saxUtilClass = $portal.getClass().forName("com.liferay.portal.kernel.xml.SAXReaderUtil"))
+11:48 <@jhf:#liferay> then $saxUtil.newInstance() to get an instance
+11:48 <@jhf:#liferay> err
+11:48 <@jhf:#liferay> $saxUtilClass.newInstance()
+11:48 <@jhf:#liferay> jardineworks: heh, you're right about that. I'm doing a talk at devcon on this very subject
+11:49 <@jhf:#liferay> so short answer is, out of the box, no there's no better way. what I do is use intellij IDEA
+11:49 <@jhf:#liferay> it has auto-completion, code syntax checking/highlighting for velocity
+11:49 <@jhf:#liferay> then I cut/paste into the editor
+11:49 <@jhf:#liferay> BUT
+11:50 <@jhf:#liferay> I'm developing a plugin that will let you manage your templates/structures via the document library, allowing you to mount (e.g. via webdav) and edit in place
+11:50 <@jhf:#liferay> without having to use the built-in editor at all
+11:50 < jardineworks:#liferay> that'd be nice
+11:50 <@jhf:#liferay> Monator (a partner company in europe) has already developed a plugin for this, but only for use with custom SpringMVC portlets that use Freemarker as a view technology
+11:50 <@jhf:#liferay> it doesn't do anything for the portal itself (e.g. the WCM templating system)
+11:50 <@jhf:#liferay> see http://www.monator.com/blog/-/blogs/making-freemarker-templates-truly-flexible-with-liferay-document-and-media-library
+11:51 < jardineworks:#liferay> alright. I'll just continue to grumpble for now.
+11:51 < jardineworks:#liferay> :)
+11:51 <@jhf:#liferay> I would seriously use an IDE to edit velocity
+11:52 <@jhf:#liferay> it has made my life a lot easier
+11:52 <@jhf:#liferay> intellij idea is free
+11:52 < jardineworks:#liferay> it is?
+11:52 < jardineworks:#liferay> I use eclipse
+11:52 < hufg:#liferay> eclipse velocity plugin somewhat works
+11:53 < jardineworks:#liferay> but I used to use Intellij a long time ago
+11:53 < jardineworks:#liferay> v4 I think
+11:54 <@jhf:#liferay> I think there is a velocity plugin for eclipse too
+12:00 < hufg:#liferay> yes it somewhat works
+12:00 < hufg:#liferay> i use a plugin
+12:01 < hufg:#liferay> it can detect some syntax errors but not all 8)
+12:03 <@rotty3000:#liferay> hufg: ok, that's good info about the error
+12:03 <@rotty3000:#liferay> clearly to me that calling of the non-local method is the problem
+12:16 < dave_k:#liferay> okay, last question for today: what happens if the cluster link is severed temporarily? I can envision two cases: Package loss on the link between two server hosting buildings and one instance going down/tomcat restarting.
+12:25 < dave_k:#liferay> damn. gotta go. cya all!
+13:29 < jardineworks:#liferay> hey jhf do you have a second for another VM question?
+13:29 <@jhf:#liferay> sure
+13:30 < jardineworks:#liferay> wait... just need to make sure its not stupid first :)
+13:38 < jardineworks:#liferay> jhf, ok -- so this line ... #set ($authorArticle = $journalArticleLocalService.getArticle($groupId, $authorid))
+13:39 < jardineworks:#liferay> both the scope id and author id have values.
+13:39 < jardineworks:#liferay> the service has values
+13:39 < jardineworks:#liferay> a value rather.
+13:39 < jardineworks:#liferay> ... but if I outout $authorArticle I get just the name
+13:39 < jardineworks:#liferay> and no stacktrace
+13:40 <@jhf:#liferay> try to use $getterUtil.getLong($groupId) instead of $groupId
+13:40 <@jhf:#liferay> also is it $authorid or $authorId
+13:41 < jardineworks:#liferay> oh yeah!
+13:46 < jardineworks:#liferay> negative :(
+13:48 <@jhf:#liferay> hmm
+13:48 <@jhf:#liferay> you sure articleId is correct (and is a string?)
+13:48 <@jhf:#liferay> i.e. you can see the article via control panel?
+13:48 <@jhf:#liferay> and it's not expired?
+13:49 <@jhf:#liferay> also, you can try $journalArticleLocalService.getLatestArticle($getterUtil.getLong($groupId), $authorId)
+13:50 < jardineworks:#liferay> oh
+13:51 < jardineworks:#liferay> published and in control panel ... the line you said to try no dice.
+13:51 < jardineworks:#liferay> I also tried getterUtil.getString($authorid) ... no dice.
+13:52 <@jhf:#liferay> hmm
+13:52 <@jhf:#liferay> how are you initializing journalArticleLocalService ?
+13:52 <@jhf:#liferay> also, no errors in the log file?
+13:52 <@jhf:#liferay> like a NoSuchArticleException perhaps?
+13:53 < jardineworks:#liferay> #set ($journalArticleLocalService = $portalBeanLocator.locate("com.liferay.portlet.journal.service.JournalArticleLocalService.velocity"))
+13:53 <@jhf:#liferay> and how are you initializing portalBeanLocator :)
+13:53 <@jhf:#liferay> no errors in the log file?
+13:53 < jardineworks:#liferay> nadda
+13:54 <@jhf:#liferay> can u cut and paste the entire template into a private gist?
+13:54 <@jhf:#liferay> (or public if ya want
+13:54 < jardineworks:#liferay> hahah
+13:54 < jardineworks:#liferay> fail
+13:54 < jardineworks:#liferay> I commented out the user stuff we did yesterday... including the portal bean
+13:55 < jardineworks:#liferay> that seems to be it
+13:57 < jardineworks:#liferay> my lord VM coding is slow.
+13:58 < jardineworks:#liferay> I use JRebel for regular development as a mechanism to speed up my efforts... I feel like this is 10 steps back
+14:10 < hufg-home:#liferay> rotty3000: my main man, any news on that permission thingy? 8)
+14:11 <@rotty3000:#liferay> just a comment from chief architect that it needs to be fixed
+14:11 <@jhf:#liferay> yeah it's not the greatest. free marker is better. I mean it's a templating language, not a full blown dev environment (I called out this "caveat" at https://www.liferay.com/web/james.falkner/blog/-/blogs/writing-liferay-apps-with-web-content-templat-1 )
+14:11 <@rotty3000:#liferay> the developer is not in our timezone, so it will take some time for him to respond
+14:11 < hufg-home:#liferay> ok
+14:12 <@jhf:#liferay> my most favorite thing about velocity apps is I don't have to deploy portlets :) which requires admin/IT intervention
+14:12 <@rotty3000:#liferay> (I think he's currently in China)
+14:12 < hufg-home:#liferay> i will tomorrow see if i can replicate the issue with a bundle
+14:12 < hufg-home:#liferay> i suppose it should still happen without the upgrade?
+14:12 < hufg-home:#liferay> ie. the upgrade is not the issue here
+14:12 <@rotty3000:#liferay> hufg-home: exactly
+14:27 < jardineworks:#liferay> jhf, Does that mean that, given the option, I should be opting for freemarker?
+14:27 < Tar-Minyatur:#liferay> Any of you up for another architectural discussion? I'm home so I finally can start thinking for once.
+14:28 < jardineworks:#liferay> Tar-Minyatur, throw it out there
+14:29 <@jhf:#liferay> so I don't know FM but all I've heard is it can do all that VM can do, and more, and that its awesome
+14:29 < jardineworks:#liferay> jhf, ugh... your sample code uses recursion. Is VM actually capable of somethin like that?
+14:29 <@jhf:#liferay> oh dang.. no it's not.
+14:29 < jardineworks:#liferay> maybe with a macro?
+14:29 <@jhf:#liferay> I doubt it.
+14:29 < jardineworks:#liferay> shoot
+14:30 < Tar-Minyatur:#liferay> Ok...here it goes: I'm thinking about making our new entities stageable. What we will have is this: CP portlet to CRUD entities.  Then we will have portlets that can be embedded in any page and render a JSON there to be consumed by some JS. The portal is staged, so any changes to the entities should only be visible in those latter portlets, if the entities have been published.
+14:30 < jardineworks:#liferay> well, in my case the strucutre is flat (underneath the root node) so maybe I can just do the one loop anyway.
+14:31 < Tar-Minyatur:#liferay> After discussing with our content guy...it happens way more often that entities have to change. Pages are touch less often. So it would be best to have a "publish" button in the CP portlet.
+14:32 < Tar-Minyatur:#liferay> What's the easier and more robust approach? Either we try leveraging Liferay's method of staging via groupId and whatnot...or we just have a "live" flag and the frontend portlet checks whether it's in staging or live to decide what to grab from the DB.
+14:32 < Tar-Minyatur:#liferay> </wallOfText>
+14:32 < jardineworks:#liferay> Tar-Minyatur, do your entities  have to be service builder? or could you model them as content? :)
+14:32 < Tar-Minyatur:#liferay> We decided on doing it "properly" with entities for several reasons. So that won't change.
+14:35 < jardineworks:#liferay> I would use the flag then
+14:35 < Tar-Minyatur:#liferay> Me too. Seems easier and less error-prone.
+14:35 < jardineworks:#liferay> if your services enable remoting then the flag, in the future, would allow you to do something similar without Liferay internal knowledge like group id and staging logic.
+14:36 < jardineworks:#liferay> less tightly coupled I think
+14:36 < jardineworks:#liferay> if you were only using it internally and would never use it outside of LR, then I might consider the staging with group id for consistency.
+14:37 < jardineworks:#liferay> jhf, http://freemarker.org/docs/ref_directive_visit.html
+14:37 < jardineworks:#liferay> awesome
+14:37 < Tar-Minyatur:#liferay> For now there will be the fronend portlet and a JSON interface to access the data.
+14:37 < Tar-Minyatur:#liferay> But you are right...might be that something will be added to that.
+14:38 < Tar-Minyatur:#liferay> And we explicitly defined that entities should not be published when a page is being published.
+14:38 < Tar-Minyatur:#liferay> 100% control over what is going live...not magic stuff.
+14:39 < Tar-Minyatur:#liferay> And it's perfectly possible to find out in a portlet if it's currently viewed in staging or in live, right?
+14:50 < jardineworks:#liferay> Tar-Minyatur, That I don't know about. I haven't done anything with staging (yet)
+14:51 < Tar-Minyatur:#liferay> If the dockbar is able to find out, so should my portlet. At least I hope so.
+14:54 < jardineworks:#liferay> jhf, if this work, #set ($authormap = $portal.getClass().forName("java.util.HashMap").newInstance()) and I output $authormap and see {} then it means that I should be able to do $authormap.put( x, x ) right?
+14:55 <@jhf:#liferay> yep
+14:55 < jardineworks:#liferay> and if all my put statements are rendered in the template?
+14:55 <@jhf:#liferay> you need to do this
+14:55 < jardineworks:#liferay> then it means it fails the put?
+14:55 <@jhf:#liferay> #set ($V = $authormap.put(x,x))
+14:55 <@jhf:#liferay> V standing for "void"
+14:55 <@jhf:#liferay> so that nothing is output in the result
+14:56 <@jhf:#liferay> otherwise, you'll get things like "true" or "1" or something in random places
+14:56 <@jhf:#liferay> whatever the return value of the .put is
+14:56 < jardineworks:#liferay> hah wow... do you have any idea how much money you are saving my clients right now? :)
+14:56 <@jhf:#liferay> I am keeping track
+14:56 <@jhf:#liferay> what's your billing address?
+14:56 < jardineworks:#liferay> so many beers I owe you and rotty
+14:56 <@jhf:#liferay> :)
+14:56 < jardineworks:#liferay> I hope you drink
+14:56 <@jhf:#liferay> there's one gotcha with the .put lemme go look it up
+14:56 <@jhf:#liferay> it took me forever to debug it
+14:56 <@jhf:#liferay> indeed
+14:57 <@jhf:#liferay> yeah for some reason when you call .get, if the "key" does not exist in the map, you still get something back
+14:58 <@jhf:#liferay> so only call "get" after first ensuring the key is there, via $map.containsKey(key)
+14:58 <@jhf:#liferay> I can't remember why but it really confused me
+14:58 < jardineworks:#liferay> k
+14:58 <@jhf:#liferay> so I have things like
+14:58 <@jhf:#liferay>     #if ($pluginscontributed.containsKey($appuid))
+14:58 <@jhf:#liferay>         #set ($appcount = $pluginscontributed.get($appuid))
+14:58 <@jhf:#liferay>         #set ($appcount = $appcount + 1)
+14:58 <@jhf:#liferay>         #set ($V = $pluginscontributed.put($appuid, $appcount))
+14:58 <@jhf:#liferay>     #else
+14:58 <@jhf:#liferay>         #set ($V = $pluginscontributed.put($appuid, 1))
+14:58 <@jhf:#liferay>     #end
+14:59 <@jhf:#liferay> meaning, I check that the pluginscontributed map has the appuid key first
+14:59 <@jhf:#liferay> I wasn't able to do things like
+14:59 <@jhf:#liferay> #set ($appcount = $pluginscontributed.get($appuid)
+14:59 <@jhf:#liferay> #if ($appcount == null) #then ....
+14:59 <@jhf:#liferay> because app count was never null
+14:59 <@jhf:#liferay> it was annnoying
+14:59 <@jhf:#liferay> maybe u can figure out why
+14:59 <@jhf:#liferay> :)
+15:00 < Tar-Minyatur:#liferay> Probably a Velocity problem, because of the weird way it handles null values.
+15:00 <@jhf:#liferay> yup
+15:00 <@jhf:#liferay> I was getting back the value from the *last* time I called .get if the key did not exist
+15:00 <@jhf:#liferay> which was like "wtf"
+15:00 < Tar-Minyatur:#liferay> Sounds about right.
+15:00 < jardineworks:#liferay> hahah'
+15:00 < jardineworks:#liferay> awesome
+15:01 < jardineworks:#liferay> I would love to know what was going through the developers mind
+15:01 < Tar-Minyatur:#liferay> Because if the get didn't work or yields null, Velocity will actually ignore the entire statement, I think.
+15:01 < jardineworks:#liferay> that sounds like something a disgruntled individual would do :)
+15:01 < Tar-Minyatur:#liferay> So if you are reusing a variable, it will have the value from before.
+15:02 < Tar-Minyatur:#liferay> I learned to always do #set( $myVar = "" ) before I do anything with a variable.
+15:02 < Tar-Minyatur:#liferay> Just to prevent it from reusing a previous value.
+15:05 < Tar-Minyatur:#liferay> I guess Velocity wasn't meant for developers, but for...dunno...designers, content editors or whatever. People who don't care about stuff not working, as long as it doesn't break the layout. ;)
+15:07 < Tar-Minyatur:#liferay> *sigh* I probably won't make it to the DevCon. I doubt I will get two days off for that when we have only like 8 weeks to rebuild the entire project.
+15:08 < jardineworks:#liferay> Tar-Minyatur, you could use it as a excuse to pick the brains of LR people for nothing (or virtually nothing) which could mitigate some of your 8 week project risk
+15:09 < jardineworks:#liferay> \o/
+15:09 < jardineworks:#liferay> it's working!
+15:10 < jardineworks:#liferay> thanks you so much guys
+15:10 <@jhf:#liferay> \o/
+15:10 < jardineworks:#liferay> this was one piece that I was really sweating
+15:10 < jardineworks:#liferay> because I didn't see a way to link content items
+15:11 <@jhf:#liferay> @Liferay @schtool @rotty3000 twitter IRC shoutout!
+15:13 < jardineworks:#liferay> jhf do you know how to use the serviceLocator stuff with freemarker?
+15:13 <@jhf:#liferay> nope
+15:22 < Tar-Minyatur:#liferay> You guys better bring warm clothes. It's cold in Berlin these days.
+15:32 < jardineworks:#liferay> Tar-Minyatur, whats the temp in Berlin?
+15:32 < Tar-Minyatur:#liferay> Around 10° C at the moment.
+15:33 < Tar-Minyatur:#liferay> It was stifling hot a few weeks ago...now winter is announcing itself.
+15:34 <@rotty3000:#liferay> Tar-Minyatur: as long as the market in Prenzlauer Berg still opens on Sunday, I'll be happy, plus I'm from Canada, so it will likely be warmer than where I came from
+15:35 <@rotty3000:#liferay> jhf: is something going on on Twitter?
+15:35 < Tar-Minyatur:#liferay> Can't tell you anything about Prenzlauer Berg...haven't been there yet. One of the directions I still have to go exploring. ;)
+15:36 <@jhf:#liferay> rotty3000: uhh
+15:36 <@jhf:#liferay> what do you mean?
+15:36 <@jhf:#liferay> like, is it down?
+15:36 <@rotty3000:#liferay> re the twitter shootout?
+15:36 < Tar-Minyatur:#liferay> And I guess you're pretty used to low temps, yes...I usually don't mind them either, but the drop was to quick.
+15:36 <@jhf:#liferay> ahh
+15:36 <@jhf:#liferay> shoutout
+15:36 <@jhf:#liferay> not shootout :)
+15:37 <@rotty3000:#liferay> OH, reading typo :-D
+15:37 <@rotty3000:#liferay> haha
+15:37 < Tar-Minyatur:#liferay> Good one, though. ;)
+15:41 <@rotty3000:#liferay> sigh.. 4 app servers done, ~5 to go
+15:41 <@rotty3000:#liferay> at 1 week per app server.. this is taking longer than I expected.
+15:41 < jardineworks:#liferay> Tar-Minyatur, where did you move to Berlin from?
+15:42 < Tar-Minyatur:#liferay> jardineworks: Dresden. Only like 250km or something.
+15:47 < jardineworks:#liferay> Tar-Minyatur, I should have gone to Germany this summer. We did France which was a fail. It sucked worse than I thought it would.
+15:48 < jardineworks:#liferay> we should have gone Scotland -> GERMANY -> Spain
+15:48 < Tar-Minyatur:#liferay> France has some very lovely places to visit.
+15:48 < Tar-Minyatur:#liferay> Where did you go?
+15:49 < jardineworks:#liferay> we went to all the wrong places. Paris -> Lyon -> Lamure sur azergu (for a wedding) -> Villefranche -> Mont Pellier
+15:49 < jardineworks:#liferay> Mont Pellier was probably the nicest, and we were only there for a day or so
+15:49 < jardineworks:#liferay> I would go back, but to the south only...
+15:49 < jardineworks:#liferay> Paris is gross.
+15:50 < jardineworks:#liferay> I don't see what all the fuss is about it
+15:50 < Tar-Minyatur:#liferay> It has some nice sites, but I don't get the entire city of love stuff.
+15:50 < jardineworks:#liferay> and I personally didn't find Parisians all that friendly. And it bothered me how snooty they are about their language.
+15:51 < Tar-Minyatur:#liferay> Well...that's something you have to expect. The French are weird like that.
+15:51 < Tar-Minyatur:#liferay> And in general Paris is just another big city.
+15:51 < jardineworks:#liferay> I speak French. Its not PERFECT because I don't live in France. But I don't sound like a tourist. Everytime I spoke to them they would try to answer me in English as if my French was terrible ( the look on their faces ... epic )... but their English was worse! lol
+15:51 < jardineworks:#liferay> true
+15:51 < jardineworks:#liferay> I didn't find the places we went very friendly for children.
+15:52 < jardineworks:#liferay> and my son is 3
+15:52 < jardineworks:#liferay> sooooooooo... kind of important
+15:52 < jardineworks:#liferay> I heard Germany is an awesome place to visit with kids.
+15:52 < Tar-Minyatur:#liferay> I don't know about that...not having kids myself...but Germany is quite versatile. A lot of different kinds of places to visit.
+15:53 < Tar-Minyatur:#liferay> You can pretty much find something enjoyable for everyone, I think.
+15:54 < Tar-Minyatur:#liferay> And I would always recommend Dresden over Berlin to be honest. ;)
+15:54 < jardineworks:#liferay> no bias of course
+15:55 < Tar-Minyatur:#liferay> Berlin is just a big city. Surprisingly green during the summer, but in general not particularly pretty.
+15:55 < Tar-Minyatur:#liferay> Not biased at all, no. ;)
+15:57 <@rotty3000:#liferay> I also hated Paris
+15:57 <@rotty3000:#liferay> when I was there 2 years ago, we were accosted 3 times in 2 days
+15:57 <@rotty3000:#liferay> My wife swore we would never go back
+15:57 <@rotty3000:#liferay> then we spent 1 week in Hamburg, it was Awesome!
+15:58 < Tar-Minyatur:#liferay> Hamburg is great. I love it.
+15:59 < Tar-Minyatur:#liferay> And people in the northern part of Germany are of a very friendly mindset in general, I would say.
+16:00 < Tar-Minyatur:#liferay> Often a little grumpy, but friendly.
+16:03 < jardineworks:#liferay> hey I'm like that!
+16:04 < jardineworks:#liferay> maybe I should move to Germany :)
+16:05 < Tar-Minyatur:#liferay> *lol* Somebody actually told me that I would be well off moving to Canada.
+16:05 < Tar-Minyatur:#liferay> Because I was complaining about the big temperature differences we have over here.
+16:06 < Tar-Minyatur:#liferay> He even mentioned a particular part of Canada, but I forgot which one. And I'm pretty bad at north american geography anyway...
+16:07 <@rotty3000:#liferay> :)
+16:07 <@rotty3000:#liferay> the temp variance here has increased over the past couple years..
+16:07 <@rotty3000:#liferay> it's not rare to see more than 30 degree from one day to the next
+16:08 <@rotty3000:#liferay> I recall in early spring we actually had one day -10C, and the next was like +29C
+16:09 <@jhf:#liferay> if it drops below 75F here, people break out sweaters and light fires
+16:09 <@rotty3000:#liferay> yeah
+16:09 < Tar-Minyatur:#liferay> ;)
+16:10 < Tar-Minyatur:#liferay> I would say that over here the weather has become more...extreme over the last years as well.
+16:10 <@rotty3000:#liferay> I always love checking the Californians when I visit in early december, it's like between 10C and 20C and everyone is like wearing winter cloths like in Canada, when it's -10C
+16:11 < Tar-Minyatur:#liferay> Well...usually I wouldn't be cold when it's 10° C. But because it was a lot warmer just recently, it feels like much less than 10° C.
+16:12 < jardineworks:#liferay> Tar-Minyatur, In this country, the weather is a topic of conversation... always. It's like the first thing you talk about when you meet someone new.
+16:12 < jardineworks:#liferay> rotty3000, Calgary has the wackiest weather with those shinooks
+16:13 < jardineworks:#liferay> Skiing on January 23, golfing on January 24th... its bananas
+16:13 <@rotty3000:#liferay> yeah
+16:13 < Tar-Minyatur:#liferay> Over here it's considered a little bit uncreative to talk about the weather. ;D But it's a preferred topic to complain about...and Germans are a bunch of very proficient complainers...
+16:14 < jardineworks:#liferay> I lived in LA for about 6 months and it was awesome that the weather was so nice all the time, but I personally, lost all concept of time. I think Canadians need seasons and temperatures to figure out what time of the year it is. :)
+16:15 < jardineworks:#liferay> weather is illogical and Germans are logical. Makes sense that they would complain about the weather :)
+16:15 <@rotty3000:#liferay> I have never been there, but my youngest brother was stationed  at CFB Shilo https://maps.google.ca/maps?f=q&source=s_q&hl=en&geocode=&q=Shilo,+Manitoba&aq=0&oq=Shilo+manitoba&sll=46.471916,-81.219177&sspn=1.182231,3.043213&vpsrc=6&ie=UTF8&hq=&hnear=Shilo,+Division+No.+7,+Manitoba&ll=46.103709,-95.141602&spn=19.043837,48.691406&t=m&z=5
+16:15 <@rotty3000:#liferay> and it may not seem like far north, but it's open plain. and the weather apparently gets SO COLD, like -50C
+16:16 <@rotty3000:#liferay> if your dog runs away today, you can still see it running away tomorrow
+16:16 <@rotty3000:#liferay> cause the land is so flat
+16:16 < jardineworks:#liferay> rotty3000, my last few years in Ottawa it was -54 for two weeks in January (with the wind chill) ... that was when I said f it... I am outta here@
+16:16 < jardineworks:#liferay> !
+16:16 <@rotty3000:#liferay> haha
+16:16 <@rotty3000:#liferay> yeah
+16:16 < Tar-Minyatur:#liferay> Dresden gets -20° C for about one week every year. That's quite cold enough for me and still a lot colder than it every gets around here in Berlin.
+16:17 < Tar-Minyatur:#liferay> *ever
+16:17 < jardineworks:#liferay> I have a buddy that works here: http://www.google.ca/imgres?imgurl=http://www.mining.com/wp-content/uploads/2012/06/DE-IMGP4342.jpg&imgrefurl=http://www.mining.com/diavik-diamond-mine/&h=4672&w=3104&sz=7341&tbnid=MrIQur-jYYD9KM:&tbnh=108&tbnw=72&zoom=1&usg=__avIEM94fyD5xqgp0LxPXKtVMiO4=&docid=KF3XPyqKsu9mBM&sa=X&ei=nls7Usu7KMiMyQHY84DgDQ&ved=0CHQQ9QEwDQ&dur=458
+16:17 < jardineworks:#liferay> he flies in for two weeks, then comes home to Penetang for 2 weeks.
+16:18 <@rotty3000:#liferay> :) fun!
+16:18 < jardineworks:#liferay> now THAT is the end of the earth
+16:18 < jardineworks:#liferay> lol
+16:18 <@rotty3000:#liferay> good pay though
+16:18 <@rotty3000:#liferay> yeah for sure
+16:18 < jardineworks:#liferay> industrial electrician... about 120k a year
+16:18 < jardineworks:#liferay> still doesn't seem like enough to go THERE.
+16:18 < jardineworks:#liferay> It looks like a sink hole!
+16:18 <@rotty3000:#liferay> I used to be an industrial mechanic
+16:18 < jardineworks:#liferay> really?!
+16:18 <@rotty3000:#liferay> :) yup
+16:19 < jardineworks:#liferay> and now you are a software arch? that sounds like a good beer story
+16:19 <@rotty3000:#liferay> actually, that career is still older than my new one
+16:19 <@rotty3000:#liferay> in terms of length I was doing it
+16:19 <@rotty3000:#liferay> it's a pretty good story
+16:20 <@rotty3000:#liferay> .. does involve some pain and suffering, but with a happy ending :)
+16:20 < Tar-Minyatur:#liferay> Every good story needs plenty of all these things. ;)
+16:20 <@rotty3000:#liferay> I usually have to tell it to the new people who joined the company whenever we have a company retreat
+16:21 <@rotty3000:#liferay> it's almost a tradition
+16:21 <@rotty3000:#liferay> oddly, I still fancy the smell of grease
+16:21 < jardineworks:#liferay> hahah
+16:22 < jardineworks:#liferay> well, I wanna hear it, but wait until I meet you at a symposium and I can buy you some of the 400 beers I owe you
+16:22 <@rotty3000:#liferay> haha
+16:22 <@rotty3000:#liferay> sure thing
+16:24 < jardineworks:#liferay> curious... do people at LR call you rotty or ray?
+16:25 < jardineworks:#liferay> I feel like if we met I woul dhave to call you rotty
+16:25 < jardineworks:#liferay> lol
+16:27 <@rotty3000:#liferay> :) Ray actually, although I do occasionally get a rotty or two
+16:27 < Tar-Minyatur:#liferay> It's always strange to meet people you met online. ;)
+16:28 < Tar-Minyatur:#liferay> A good friend of mine still keeps calling me "Tar" when he calls me. *lol*
+16:28 <@rotty3000:#liferay> you never really get the image just right :)
+16:28 < Tar-Minyatur:#liferay> He just can't get around to actually using my real name.
+16:29 < jardineworks:#liferay> Tar-Minyatur, What is your actual reasly name?
+16:29 < jardineworks:#liferay> real*
+16:29 < Tar-Minyatur:#liferay> Till.
+16:29 < Tar-Minyatur:#liferay> Way easier to remember than my nick. ;D
+16:30 < jardineworks:#liferay> hahah I jsut remember the first three letters and autocomplete the rest
+16:30 < Tar-Minyatur:#liferay> Quite reasonable to do that. ;D
+16:34 < Tar-Minyatur:#liferay> Are people as unreasonable over in Canada as they are here? As soon as it starts getting colder, people tend to refuse to wear proper clothes. Result: Office is almost half empty, because half of the staff is sick.
+16:35 <@rotty3000:#liferay> haha, (this might come off insulting, but it's not supposed to be) that mostly occurs with children
+16:36 <@rotty3000:#liferay> it seems I can drive through town (we don't call them cities here) and all the young folk are shivering on the sidewalks
+16:37 <@rotty3000:#liferay> too "cool" to dress warmly
+16:37 < Tar-Minyatur:#liferay> Winter clothes are not cool...exactly.
+16:37 <@rotty3000:#liferay> :)
+16:37 < Tar-Minyatur:#liferay> Which is pretty ridiculous from a language point of view. :D
+16:38 <@rotty3000:#liferay> exactly :)
+16:38 < Tar-Minyatur:#liferay> Well...over here the first wave of colds, coughs and worse illnesses usually announces the arrival of autumn. :D
+16:39 < Tar-Minyatur:#liferay> People stop shaking hands for a while...and then everything returns to normal. :D
+16:46 < jardineworks:#liferay> LOL
+16:46 < jardineworks:#liferay> to clarify... we do have cities in Canada... just not where rotty lives ;)
+16:46 <@rotty3000:#liferay> hahaha
+16:46 <@rotty3000:#liferay> we have one or two
+16:47 < Tar-Minyatur:#liferay> I do know large parts of Canada are pretty much empty. ;)
+16:47 <@rotty3000:#liferay> I have to think in terms of China as we have team there who I communicate with and their idea of a town and city is very different
+16:47 < Tar-Minyatur:#liferay> That's one of the reasons I wish to come and visit at some point.
+16:48 < Tar-Minyatur:#liferay> But there are soooo many places I wish to see...a very long list.
+16:48 <@rotty3000:#liferay> I live in a town of 1000 people, the nearby city.. is 150k people.. maybe
+16:48 < jardineworks:#liferay> 90% of this country is baron Tar-Minyatur ...if you look at a map of this country about 80% of the population live within 100 miles of the US border.
+16:49 <@rotty3000:#liferay> next largest city is 500km away (toronto)
+16:50 < Tar-Minyatur:#liferay> I grew up in a town with about 800 people. ;)
+16:52 < Tar-Minyatur:#liferay> That's probably why until today I prefer some quiet time over a noisy party.
+16:52 < Tar-Minyatur:#liferay> Much harder to find here in Berlin.
+16:56 < jardineworks:#liferay> Tar-Minyatur, I work from home now but for years I was in the office... usually the loudest guy, or one of them anyway. Now there are some days where I don't even play music... I just sit quietly by myself and work. My wife thinks that I am weird because I enjoy the silence so much. I tell her that before having a child I never appreciated how nice QUIET actually was.
+16:58 < Tar-Minyatur:#liferay> Quiet can be very soothing.
+16:59 < Tar-Minyatur:#liferay> I always wait for the first snow every year. Then I take a long walk through the woods and enjoy the silence.
+16:59 < Tar-Minyatur:#liferay> If that makes me weird...I just don't care. I still love it. :)
+16:59 <@rotty3000:#liferay> I work from home quietly
+16:59 <@rotty3000:#liferay> and listen to music in headphones 99% of the time
+17:00 <@rotty3000:#liferay> because my wife also works from home, and listenes to different music
+17:00 <@rotty3000:#liferay> we work in the same office
+17:00 <@rotty3000:#liferay> it's peaceful
+17:00 < jardineworks:#liferay> I have racoons that live under my office ... so I BLAST my music when I am grumpy and decide I hate them. :)
+17:00 < jardineworks:#liferay> sometimes I'll pick the worst stuff I can, put it on at 110dB and then go for a walk :D
+17:01 < Tar-Minyatur:#liferay> I work at a media agency...lots of people on the same floor...usually quite noisy. When I have to concentrate I need to use headphones...no other way.
+17:01 < Tar-Minyatur:#liferay> Not a particularly good setup for a software developer to be honest.
+17:01 < jardineworks:#liferay> Tar-Minyatur, what agency do you work for? a big one?
+17:02 < Tar-Minyatur:#liferay> I'm not an agency guy...can't say how well known they are. I'm working for Razorfish.
+17:02 < jardineworks:#liferay> Razorfish... I think they have a Toronto office
+17:03 < Tar-Minyatur:#liferay> Probably. They have offices all over the world.
+17:03 < jardineworks:#liferay> Pretty sure I know people who used to work there (a few years ago now mind you)
+17:03 < jardineworks:#liferay> Agencies are difficult to work for as a programmer -- mostly because of creatives :)
+17:03 < jardineworks:#liferay> they have no concept of deadlines or estimation.
+17:04 < jardineworks:#liferay> my wife is a designer and I bug her about it ALL the time
+17:04 < Tar-Minyatur:#liferay> I really needed a change a while ago...and coming here fit that requirement perfectly.
+17:04 < jardineworks:#liferay> you do get to build some cool stuff though. Much more exciting that traditional consulting.
+17:05 < Tar-Minyatur:#liferay> Actually...I feel like deadlines are much tougher now than on my last project.
+17:05 < jardineworks:#liferay> I've worked for all manner of companies. I never showcased any of my "consulting" gigs... but the creative stuff? I used to share that stuff all the time
+17:05 < Tar-Minyatur:#liferay> Because in digital media you can't waste time.
+17:06 < Tar-Minyatur:#liferay> Yeah. My last project was some boring, but very complex intranet application.
+17:06 < jardineworks:#liferay> sure, but I have always found that it was because the creatives were always late with their shit and the timeline could never be extended.
+17:06 < jardineworks:#liferay> looks like RF dropped Canada from the roster.
+17:07 < Tar-Minyatur:#liferay> I'm working with our London office at the moment.
+17:08 < Tar-Minyatur:#liferay> It's kinda nice to have this network. Feels like there are more possibilities.
+17:10 < Tar-Minyatur:#liferay> And I enjoy having colleagues from different countries right here in the agency. Finally I have a chance to speak English on a regular basis.
+17:10 < jardineworks:#liferay> well boys, that's it for me for today. Gotta go get jr. Thanks gain for the help with VM.
+17:10 < jardineworks:#liferay> have a good night
+17:10 < Tar-Minyatur:#liferay> Bye. :)
+17:10 <@rotty3000:#liferay> g.n :)
+--- Log closed Fri Sep 20 00:00:28 2013

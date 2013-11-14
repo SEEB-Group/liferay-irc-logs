@@ -1,0 +1,5 @@
+--- Log opened Sat Oct 05 00:00:49 2013
+06:33 < rocknroll_:#liferay> oh yeah, resolved my hook javascript issue
+06:34 < rocknroll_:#liferay> it's the custom-jsp-global -setting. if it's false (site specific hook) then the js does not get included
+12:30 < Tar-Minyatur:#liferay> Hey guys. If somebody is around: Is it possible to use the Amazon S3 utils Liferay that Liferay uses internally directly from within a plugin?
+--- Log closed Sun Oct 06 00:00:50 2013

@@ -1,0 +1,261 @@
+--- Log opened Thu Oct 24 00:00:42 2013
+01:26 -!- mode/#liferay [+o lundgren] by ChanServ
+04:34 < hufg:#liferay> really
+04:36 < hufg:#liferay> snif https://issues.liferay.com/browse/LPS-40416 is not getting fixed for 6.2?
+04:36 < hufg:#liferay> goood bye upgrade
+04:39 < hufg:#liferay> that's just crazy
+04:39 < hufg:#liferay> takes max 1 week to fix
+04:40 < hufg:#liferay> including testing and verification
+04:40 < topolik:#liferay> hufg: does it affect 6.2.x?
+04:41 < topolik:#liferay> if it does, I change the affected versions
+04:41 < hufg:#liferay> as far as i know it's still in the trunk i'm not 100% sure
+04:41 < hufg:#liferay> you can verify it yourself
+04:41 < hufg:#liferay> the steps are there
+04:41 < topolik:#liferay> yes, many steps :)
+04:41 < hufg:#liferay> i have marked affected version to GA3 because i have verified it with it
+04:42 < hufg:#liferay> topolik: there is also the grep in comments for your testing needs
+04:42 < topolik:#liferay> well, I'd be glad if you could test it
+04:42 < topolik:#liferay> I know that Liferay want's to have all 5s fixed for 6.2.x
+04:42 < hufg:#liferay> 5s?
+04:43 < topolik:#liferay> fix priority 5 - the highest
+04:43 < hufg:#liferay> ah cool
+04:43 < topolik:#liferay> and because there is missing 6.2.x in affected versions, the issues is not visible in reports
+04:43 < hufg:#liferay> well lets see maybe i can help
+04:43 < topolik:#liferay> that would really help
+04:44 < topolik:#liferay> thanks!
+04:44 < hufg:#liferay> you need to trace the nonlocal service calls in dl library from trunk
+04:44 < hufg:#liferay> thats how you verify the trunk
+04:44 < hufg:#liferay> i'd say 98% it's in the trunk
+04:45 < topolik:#liferay> I see, but are these important for this issue?
+04:45 < topolik:#liferay> it seems the grep is just going over all portal code
+04:46 < topolik:#liferay> I think in some cases it may make sense to call remote service from local one to check permissions
+04:47 < hufg:#liferay> topolik: rotty was 150% against it
+04:48 < hufg:#liferay> he said that local services do not check for permissions and shouldn't call nonlocal services precisely because of this
+04:48 < topolik:#liferay> that's possible
+04:51 < hufg:#liferay> anyways can  you upgrade GA2 to 6.2 latest rc?
+04:51 < hufg:#liferay> if you can do that it's easy to verify
+04:51 < topolik:#liferay> well, I didn't try it
+04:52 < topolik:#liferay> what's the issue?
+04:52 < topolik:#liferay> the permissions are broken after the upgrade?
+04:52 < topolik:#liferay> why the publishing worked before upgrade?
+04:53 < hufg:#liferay> yes permissions broken after update somehow
+04:53 < hufg:#liferay> and not like actual permission but some hack in permission staging util
+04:53 < topolik:#liferay> I try to reproduce on 6.2
+04:54 < hufg:#liferay> i think you may have symptons of this in another issue with latest EE
+04:54 < topolik:#liferay> as you wrote - upgrade from 6.1.1 to 6.2.0
+04:54 < hufg:#liferay> but the issue is missing in mah hed
+04:55 < topolik:#liferay> well, upgrades and publishing is not my cup of coffee but I try to help as much as I'm able to
+04:55 < hufg:#liferay> topolik: wait a sec
+04:55 < hufg:#liferay> now i have it
+04:56 < topolik:#liferay> ok
+04:57 < hufg:#liferay> https://issues.liferay.com/secure/attachment/79125/publish-1.txt
+04:57 < hufg:#liferay> the first commit probably fixed the other issues in other stack trace
+04:58 < hufg:#liferay> but this
+04:58 < hufg:#liferay> is imo not fixed
+04:59 < hufg:#liferay> just a sec
+04:59 < hufg:#liferay> lol i'm spamming github too much
+05:00 < hufg:#liferay> portal-impl/src/com/liferay/portlet/documentlibrary/service/impl/DLFileEntryLocalServiceImpl.java
+05:00 < hufg:#liferay> but the problem in the stacktrace imo persist in trunk in that class
+05:00 < hufg:#liferay> i do not know the root root cause of this but rotty's opinion was to fix the local using nonlocal service call
+05:02 < hufg:#liferay> 	at com.liferay.portlet.documentlibrary.service.impl.DLFileEntryLocalServiceImpl.updateFileEntry(DLFileEntryLocalServiceImpl.java:2145)
+05:03 < hufg:#liferay> in ga3
+05:03 < hufg:#liferay> ./portal-impl/src/com/liferay/portlet/documentlibrary/service/impl/DLFileEntryLocalServiceImpl.java:2124:dlFileEntryService.checkInFileEntry( ./portal-impl/src/com/liferay/portlet/documentlibrary/service/impl/DLFileEntryLocalServiceImpl.java:2145:dlFileEntryService.cancelCheckOut(fileEntryId);
+05:03 < hufg:#liferay> woops
+05:03 < hufg:#liferay> call:
+05:03 < hufg:#liferay> ./portal-impl/src/com/liferay/portlet/documentlibrary/service/impl/DLFileEntryLocalServiceImpl.java:2124:dlFileEntryService.checkInFileEntry(
+05:04 < hufg:#liferay> in ga3
+05:05 < hufg:#liferay> ^ that one in ga3
+05:05 < hufg:#liferay> can be mapped tot his one in master:
+05:05 < hufg:#liferay> ./portal-impl/src/com/liferay/portlet/documentlibrary/service/impl/DLFileEntryLocalServiceImpl.java:2356:dlFileEntryService.checkInFileEntry
+05:07 < hufg:#liferay> and IMO this was the cause in publish-1.txt
+05:07 < hufg:#liferay> in the issue the commit is only partial fix
+05:07 < hufg:#liferay> if you wish to investigate the root root cause you can do that
+05:08 < hufg:#liferay> to simplify the steps
+05:09 < hufg:#liferay> oh well they are pretty simple
+05:09 < hufg:#liferay> :D
+05:09 < hufg:#liferay> in issue
+05:10 < hufg:#liferay> topolik: the issue is marked as verified what does that mean?
+05:10 < topolik:#liferay> that it's waiting for fix
+05:11 < hufg:#liferay> anyways my opinion that it still exists in the trunk and it may be a showstopper for GA3 upgrade and definitively is a showstopper for GA2 upgrade
+05:11 < topolik:#liferay> it's a process where we throw away tickets that are not issues, for example forum questions or whatever else
+05:11 < topolik:#liferay> ok, then I set the affected version to include 6.2.x also
+05:13 < hufg:#liferay> topolik:  https://issues.liferay.com/browse/LPS-40418
+05:13 < hufg:#liferay> and this
+05:13 < hufg:#liferay> it's not as hard as the other one but still
+05:14 < hufg:#liferay> a problem but easy to fix
+05:14 < hufg:#liferay> will break GA2 -> 6.2 upgrade
+05:18 < topolik:#liferay> ok, I set both to 6.2.x
+05:19 < topolik:#liferay> I can't verify the second one as I don't the permission to set that ticket state :/
+05:19 < topolik:#liferay> *I don't have ...
+06:12 < hufg:#liferay> topolik: gr8
+06:17 < hufg:#liferay> topolik: yess this is the issue i was looking for
+06:17 < hufg:#liferay> https://issues.liferay.com/browse/LPS-32649
+06:17 < hufg:#liferay> it is the same sympton
+06:17 < hufg:#liferay> sympton
+06:17 < hufg:#liferay> symptom
+06:18 < hufg:#liferay> it should be fixed in trunk because of https://issues.liferay.com/browse/LPS-40416?page=com.atlassian.jira.plugins.jira-bitbucket-connector-plugin:dvcs-commits-tabpanel
+06:19 < hufg:#liferay> yees anyways it's pretty complicated
+06:20 < hufg:#liferay> we actually implemented the commit of lps40416 with bytecode manipulation only to discover DLFileEntryTypeLocalServiceImpl has nothing to do with https://issues.liferay.com/secure/attachment/79125/publish-1.txt
+06:20 < hufg:#liferay> hehe
+06:22 < hufg:#liferay> and this https://issues.liferay.com/browse/LPS-35445 so easy to fix but an annoying problem!
+06:22 < hufg:#liferay> we have fixed it with bytecode manipulation
+06:22 < hufg:#liferay> takes max 2day to clear lps-35445
+06:23 < hufg:#liferay> more like 0.5
+06:25 < hufg:#liferay> https://issues.liferay.com/browse/LPS-33633?focusedCommentId=305672&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-305672 more explanation there
+06:28 < hufg:#liferay> hehe i'm out of issues now
+07:20 < hufg:#liferay> topolik: ahh i was just thinking someone should investigate and make a proper guide how to optimize publishing on unix
+07:20 < hufg:#liferay> i don't have the time
+07:20 < hufg:#liferay> imo there are some 300-400% gains to be made with mounting /tmp in ram
+07:39 < topolik:#liferay> hufg, you can!
+07:39 < topolik:#liferay> I think it would be very interesting blog entry
+07:39 < hufg:#liferay> mann, but time!
+07:39 < hufg:#liferay> :D
+07:39 < hufg:#liferay> yes and useful
+07:40 < hufg:#liferay> i have tried with tmpfs on ubuntu, and it was around twice as fast and four times as fast compared to our current environment
+07:40 < hufg:#liferay> 4x current env <- ssd 2x <- tmpfs
+07:40 < hufg:#liferay> BUT
+07:41 < hufg:#liferay> it has totally slowed down now with more use
+07:41 < hufg:#liferay> so yeah mount ramdisk to /tmp and see what happens
+07:58 < hufg:#liferay> i'll make one if i get permission to spend a day for it
+08:50 < Tar-Minyatur:#liferay> Hey guys.
+08:50 < Tar-Minyatur:#liferay> Anyone of you a documents library guru?
+08:50 < Tar-Minyatur:#liferay> I want to use the custom thumbnail settings to have the document library create different resolutions of the same image for me.
+08:51 < Tar-Minyatur:#liferay> To feed them into a responsive layout.
+08:51 < Tar-Minyatur:#liferay> I found the settings dl.file.entry.thumbnail.custom1.max.height=100 and so on.
+08:51 < Tar-Minyatur:#liferay> But I can't find any documentation on how you can actually access these custom thumbnails.
+08:56 < Tar-Minyatur:#liferay> Uhm. *lol* When I use the "URL" I can obtain from the DL and append &imageThumbnail=1 it doesn't work. With the download URL, however, it works. I can also use 2 and 3 there to get my custom thumnails. Weird, but at least it works.
+09:39 < dblessing:#liferay> emails from liferay.com about commends don't contain any links to the post/comment?
+09:52 < hufg:#liferay> no idea
+09:55 < hufg:#liferay> anyone done any grand testing scripts with web crawlers?
+09:58 < hufg:#liferay> a long time ago had an idea to parse wget crawling debug messages to create robot test framework test cases
+09:58 < hufg:#liferay> and now i have that bastard nailed down
+09:59 < hufg:#liferay> perhaps it's useful perhaps not
+09:59 < Tar-Minyatur:#liferay> What does it do? Just basic availability tests?
+09:59 < Tar-Minyatur:#liferay> I can't image getting much more than "page is there" from wget somehow.
+09:59 < Tar-Minyatur:#liferay> *imagine
+09:59 < hufg:#liferay> Tar-Minyatur: it stores every request and associated http code and creates robot tests to validate the request
+10:00 < hufg:#liferay> for example let's say you are doing some stuff on virtualhost or whatever core filters it would validate the implementation
+10:01 < hufg:#liferay> or upgrade or for example software firewall configurations or load balancer configurations
+10:02 < hufg:#liferay> the idea came when a virtualhostfilter implementation blew up some links to documents and it was hard to detect
+10:03 < hufg:#liferay> yeah availability tests
+10:03 < hufg:#liferay> hehe
+10:03 < Tar-Minyatur:#liferay> Not a bad idea. :)
+10:04 < Tar-Minyatur:#liferay> I just solved a major problem we had with our architecture and now I have the next one...
+10:05 < Tar-Minyatur:#liferay> I'll just throw it our there again...maybe somebody has a good idea:
+10:06 < Tar-Minyatur:#liferay> We use Liferay pretty much only as "simple" CMS. All we do is manage pages. Web content articles are only used as parts of pages.
+10:06 < Tar-Minyatur:#liferay> On their own they don't mean anything.
+10:07 < Tar-Minyatur:#liferay> We also have some custom entities that contain data we need to show on several pages. There the stuff is rendered into the page as JSON.
+10:07 < Tar-Minyatur:#liferay> Now I need to find a way to adapt the search to our use-case.
+10:07 < Tar-Minyatur:#liferay> We don't need indexing for images and content. All we need is indexing for full pages.
+10:08 < hufg:#liferay> you need indexing for custom entities?
+10:09 < hufg:#liferay> or what
+10:09 < Tar-Minyatur:#liferay> I'm still not sure if we should even try adapting the Liferay search or it might not be a better solution to use some third-party-tool.
+10:09 < Tar-Minyatur:#liferay> No. Not necessarily.
+10:09 < Tar-Minyatur:#liferay> All the search should find is pages.
+10:09 < Tar-Minyatur:#liferay> I don't want content articles in the results.
+10:09 < Tar-Minyatur:#liferay> Neither should images be shown.
+10:09 < Tar-Minyatur:#liferay> All I need is a full-text search for the pages.
+10:11 < hufg:#liferay> uhh as if the whole page would be indexed?
+10:11 < hufg:#liferay> or just use web content and show link only?
+10:11 < Tar-Minyatur:#liferay> Yeah. Because only the final result after the page has been assembled is relevant for the search.
+10:11 < Tar-Minyatur:#liferay> The single pieces don't have any meaning on their own and should not be searchable.
+10:12 < hufg:#liferay> my gut tells me this is not possible
+10:12 < hufg:#liferay> i have seen this very same question somewhere
+10:13 < jardineworks:#liferay> unless you did a really gross hack and create a webcontent structure called "PageContent" and put all the content for a page in it and indexed it and then made one of the attributes the url for the page.
+10:13 < jardineworks:#liferay> :)
+10:13 < npskirk:#liferay> it may be possible, but since in liferay there's no direct relationship between a page and its content, this doesn't feel like a natural way to deal with thiings
+10:13 < jardineworks:#liferay> but that is gross.
+10:13 < jardineworks:#liferay> and has all sorts of problems if the content is not static
+10:13 < npskirk:#liferay> right… pages aren't static
+10:13 < Tar-Minyatur:#liferay> Well...I have a theory for how it might work. But I'm not sure if using a third-party-tool wouldn't be way easier.
+10:14 < jardineworks:#liferay> tell us the theory
+10:14 < jardineworks:#liferay> I love black magic
+10:14 < npskirk:#liferay> I suppose one _could_ build static pages and index them
+10:14 < Tar-Minyatur:#liferay> Okay. Here I go:
+10:15 < Tar-Minyatur:#liferay> Assumption 1: You can build custom indexers for Liferay's search.
+10:15 < Tar-Minyatur:#liferay> Assumption 2: Somehow Liferay has to finalize the HTML that is sent to the browser. So the code is there...somewhere.
+10:15 < jardineworks:#liferay> Assumption 1 is correct
+10:15 < Tar-Minyatur:#liferay> My idea would be to *somehow* trigger this final rendering of a page, take the result, put it into a document and hand this document to the indexer.
+10:16 < Tar-Minyatur:#liferay> And the document could have a custom type, which would allow to search only for those results.
+10:16 < jardineworks:#liferay> for number two... I think you would have to get the Layout and then process all the individual portlets and append their output together.
+10:16 < npskirk:#liferay> ok, so you would crawl your site, basically
+10:17 < Tar-Minyatur:#liferay> Yeah. Pretty much. That's why I keep coming back to third-party-tools.
+10:17 < jardineworks:#liferay> Tar-Minyatur, is the content static?
+10:17 < npskirk:#liferay> this depends on URLS being stable
+10:17 < Tar-Minyatur:#liferay> jardineworks: Yes. It changes only when a change is published.
+10:17 < Tar-Minyatur:#liferay> As I said...we use Liferay as page management only.
+10:17 < jardineworks:#liferay> oh, but the content of a page can be changed by an admin
+10:17 < Tar-Minyatur:#liferay> Most of Liferay's cool features are deactivated.
+10:18 < Tar-Minyatur:#liferay> Sure it can. But it has to be republished then
+10:18 < npskirk:#liferay> A given URL always has to create the same content
+10:18 < jardineworks:#liferay> how often does the content change?
+10:18 < Tar-Minyatur:#liferay> Maybe one a week or something. Only for a few pages though.
+10:18 < Tar-Minyatur:#liferay> Most of the content is almost never touches.
+10:18 < Tar-Minyatur:#liferay> *touched
+10:18 < jardineworks:#liferay> how many pages?
+10:19 < Tar-Minyatur:#liferay> No idea. A few hundred probably.
+10:19 < jardineworks:#liferay> ugh
+10:19 < jardineworks:#liferay> because the hack I proposed would probably work... they would just have to be sure to copy and paste the resulting page into the structure value and publish it to make it reindexed/searcheable.
+10:20 < npskirk:#liferay> Why is a "page" the organizing principle here?
+10:20 < jardineworks:#liferay> you could probably event write a script that would scrape a page and then use the API to create/update the content
+10:20 < jardineworks:#liferay> npskirk, because they're using it wrong :)
+10:20 < jardineworks:#liferay> because the creatives are retarded
+10:20 < jardineworks:#liferay> and they don't like portlets
+10:20 < hufg:#liferay> yeah you'd figure the existing search is "good enough"
+10:20 < npskirk:#liferay> yeah I get it.. but there must be a reason
+10:21 < jardineworks:#liferay> have you ever worked on an agency project?
+10:21 < jardineworks:#liferay> there is always a reason... sometimes more than one, but they are NEVER reasonable or valid.
+10:21 < jardineworks:#liferay> Creatives think that programmers also have a "magic wand" tool in our toolbox. (Thanks Adobe)
+10:22 < npskirk:#liferay> Let me put it this way.  What is the requirement that drives the need to have static-structure
+10:23 < npskirk:#liferay> and is that requirement incompatible with just having a simple static site
+10:30 < jardineworks:#liferay> npskirk, I hear your. Very rational approach. From what Tar tells me though their implementation is all botched. He's doing a "do over". So Liferay was chosen for CMS capabilities but the understanding of "page manager" vs ful JSR 170 was not understood. The client is sold (and has invested) in Liferay so you can't pull it out now. Then you end up with people designing a site that don't care about what technology was chosen or h
+10:30 < jardineworks:#liferay> ow it is supposed to work. They decide that is "your problem" to solve. Hence you end up with someone who has sold and installed a tool that is not the right choice (based on requirements) they want it to work in a way that it does not (probably because of the last tool they used and their omission to change). And in short -- a mess.
+10:32 < npskirk:#liferay> ya… been on a project with similar problems
+10:32 < jardineworks:#liferay> the problem with selling Liferay is that its greatest strength is also your worst enemy come requirements. The sell is easy -- plugin architecture makes it almost completely customizeable. People don't forget that statement and when you try to tell them that there is a proper way to leverage the tool they say "I don't care. Its customizeable. This is how _I_ want it."
+10:32 < npskirk:#liferay> they want wiki pages in liferay to correspond to top-level page navigation
+10:32 < jardineworks:#liferay> magic wand.
+10:34 < jardineworks:#liferay> My wife is probably one of only a handful of designers in the world that gets it... and only because she sat next to me and listened to me rant and SHOW her why her blue sky doesn't work. There is no such thing as a blue sky. Somewhere in the world, there is a cloud :)
+10:34 < npskirk:#liferay> Yeah I know… the people with the money are always hiding behind them  :)
+10:45 < Tar-Minyatur:#liferay> npskirk: We use Liferay to manage a customer's website.
+10:45 < jardineworks:#liferay> npskirk, two reasons I went out on my own. ONE: Charge a substantial rate so that people spend less time arguing with you, it's too expensive. TWO: Try to lead them down the right path but if they choose the wrong one, which results in more work for me? at least I get paid for it.
+10:45 < Tar-Minyatur:#liferay> The website only shows static information about products, the company, some currently running campaigns and so on.
+10:46 < Tar-Minyatur:#liferay> There is no user-interaction on the site except for facebook like buttons.
+10:46 < Tar-Minyatur:#liferay> They were looking for a free CMS they can use for this and decided on Liferay. I wasn't part of that decision.
+10:47 < jardineworks:#liferay> Tar-Minyatur, I wonder. If you have 3 web content portlets on a page. Make them indexable. Use your serach and find one of them... maybe you can use that portlet instance to determine the layout (page) and use that as the url for clickthrough?
+10:47 < Tar-Minyatur:#liferay> And whenever I try to explain some feature of Liferay, they start comparing with other CMS they used to work with, where you compose sites from site modules...whatever.
+10:49 < npskirk:#liferay> @tar-minyatur  It just seems to me you could use Web Content as the organizing principle here.
+10:49 < npskirk:#liferay> when they want to make a page, they create a web content
+10:49 < npskirk:#liferay> (you might provide them some templates)
+10:49 < Tar-Minyatur:#liferay> That's what they have been doing for a long time.
+10:49 < Tar-Minyatur:#liferay> Recently we moved to having several web contents per page.
+10:50 < Tar-Minyatur:#liferay> Because there usually are small pieces like sub menus etc. that can be re-used for several pages.
+10:50 < Tar-Minyatur:#liferay> The main issue, however, is: The search result should only contain links to pages. Nothing else.
+10:50 < Tar-Minyatur:#liferay> And to me it seems that this is sort of impossible.
+10:51 < Tar-Minyatur:#liferay> Because it's just not how Liferay was intended to be used.
+10:51 < Tar-Minyatur:#liferay> Liferay is centered around content...not pages.
+10:53 < npskirk:#liferay> In principle, a search result culminates in a set of URLs.  There's no reason that URL can't always point to the same page, with parameters that select the desired web-content for display.  I've never customized Liferay search, but others here might be able to state weather that approach is feasible
+11:00 < jardineworks:#liferay> Tar-Minyatur, What if each of your templates had a URL field that always pointed to the page that content was on (set manually by the admin). You can then index the content but in your serach results jsp you just provide the url field value.
+11:02 < Tar-Minyatur:#liferay> jardineworks: And what do I do for content that belongs to several pages?
+11:03 < Tar-Minyatur:#liferay> Put several URLs in there separated by a comma?
+11:03 < Tar-Minyatur:#liferay> I don't think so.
+11:03 < Tar-Minyatur:#liferay> It's an idea, but it's really hack-ish.
+11:04 < npskirk:#liferay> Is the page structure the same in all cases?  I.e., there are always three web content displays that always contain the same type of thing?
+11:05 < Tar-Minyatur:#liferay> Nah.
+11:05 < Tar-Minyatur:#liferay> We actually want to use Liferay as "normal" as possible.
+11:05 < Tar-Minyatur:#liferay> So there can be any number of portlets per page.
+11:05 < Tar-Minyatur:#liferay> Most of them are web content displays.
+11:09 < Tar-Minyatur:#liferay> Mhm mhm.
+11:09 < Tar-Minyatur:#liferay> We actually have an instance in the cloud where only the backend is being used.
+11:10 < Tar-Minyatur:#liferay> I probably could use that to do a full page crawl.
+11:10 < Tar-Minyatur:#liferay> I could maybe introduce a new filter that will trigger right before the content is sent to the browser.
+11:11 < Tar-Minyatur:#liferay> And when a certain setting is activated, it will put the entire page into the indexer before sending it to the browser.
+11:11 < Tar-Minyatur:#liferay> Sounds like a crazy workaround though.
+11:20 < Tar-Minyatur:#liferay> I think on most of our web content structures the "searchable" flag isn't set for most of the fields. *lol*
+11:32 < avinashrbhat:#liferay> hi, is there a way to map an sql 'char' type to the service builder
+11:32 < avinashrbhat:#liferay> ?
+11:52 < Tar-Minyatur:#liferay> avinashrbhat: You are thinking the wrong way around, if you ask me.
+11:52 < Tar-Minyatur:#liferay> Mapping something TO ServiceBuilder seems like the wrong approach.
+12:41 < Tar-Minyatur:#liferay> I really start to like me crazy idea.
+12:42 < Tar-Minyatur:#liferay> Because as long as I don't have an alternative, it's the best I've got. :D
+17:50 < cythrawll:#liferay> is there a job board somewhere?
+--- Log closed Fri Oct 25 00:00:43 2013

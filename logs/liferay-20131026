@@ -1,0 +1,70 @@
+--- Log opened Sat Oct 26 00:00:44 2013
+08:01 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Release Candidate 4: https://t.co/o2mzVzzNQS  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+08:01 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Mon Oct 14 16:18:26 2013]
+08:01 [Users #liferay]
+08:01 [@ChanServ   ] [ avinashrbhat] [ jardineworks] [ kermitt    ] [ mastro      ] [ Tm_T   ] 
+08:01 [@jhf        ] [ bijoo       ] [ jbonjean    ] [ kocka      ] [ pnutbutr_   ] [ wohnout] 
+08:01 [ adaro      ] [ cythrawll   ] [ josuebc     ] [ MagnoBooter] [ rocknroll_  ] 
+08:01 [ anteater1sa] [ Guest7377   ] [ Kaira-      ] [ marcoceppi ] [ Tar-Minyatur] 
+08:01 -!- Irssi: #liferay: Total of 22 nicks [2 ops, 0 halfops, 0 voices, 20 normal]
+08:01 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+08:01 -!- Irssi: Join to #liferay was synced in 7 secs
+22:46 -!- mode/#liferay [+o rotty3000] by ChanServ
+22:46 <@rotty3000:#liferay> anyone online right now?
+22:46 <@jhf:#liferay> rotty3000: !!
+22:46 <@jhf:#liferay> :)
+22:46 <@rotty3000:#liferay> :)
+22:46 <@rotty3000:#liferay> you following bchan on github?
+22:46 <@rotty3000:#liferay> if not, can you?
+22:47 <@jhf:#liferay> sure...
+22:47 <@jhf:#liferay> does he need more followers? :)
+22:47 <@rotty3000:#liferay> http://github.com/brianchandotcom
+22:47 <@rotty3000:#liferay> 2
+22:47 <@jhf:#liferay> ah right I remember
+22:47 <@jhf:#liferay> yep following..
+22:47 <@rotty3000:#liferay> were you already?
+22:48 <@jhf:#liferay> he's got 208 followers
+22:48 <@jhf:#liferay> https://github.com/brianchandotcom/followers
+22:48 <@jhf:#liferay> yeah I was
+22:48 <@rotty3000:#liferay> anyone else here want to follow bchan on github?
+22:48 <@rotty3000:#liferay> we only need 2 more followers
+22:49 <@jhf:#liferay> ... and then?
+22:49 <@rotty3000:#liferay> WooHoo 1 more!!!!
+22:49 <@rotty3000:#liferay> He will be the top committer on github
+22:49 <@jhf:#liferay> really!
+22:49 <@rotty3000:#liferay> he's at least 4000 commits more then the current leader
+22:49 <@rotty3000:#liferay> BIT
+22:49 <@rotty3000:#liferay> BUT
+22:50 <@rotty3000:#liferay> there is a follower threshold
+22:50 <@rotty3000:#liferay> of 210 to be considered
+22:50 <@rotty3000:#liferay> we need just 1 more now
+22:50 <@jhf:#liferay> some generous soul just followed. so 210!
+22:50 <@jhf:#liferay> https://github.com/brianchandotcom/followers
+22:51 <@jhf:#liferay> thank you benevolent yet silent partner!
+22:51 <@rotty3000:#liferay> WOOHOO!
+22:51 <@rotty3000:#liferay> so watch this space https://gist.github.com/paulmillr/2657075
+22:51 <@rotty3000:#liferay> that is the top list
+22:51 <@rotty3000:#liferay> updated once per week
+22:52 <@jhf:#liferay> Zeno is #14
+22:52 <@rotty3000:#liferay> thanks @chrisjarshant whever you are
+22:53 <@rotty3000:#liferay> and @eduardolundgren is ~64
+22:53 <@jhf:#liferay> dang javascript kiddies
+22:53 <@jhf:#liferay> :)
+22:53 <@rotty3000:#liferay> #61 to be exact
+22:53 <@rotty3000:#liferay> it looks like these are all time contribs
+22:54 <@rotty3000:#liferay> I bet Brian has actually more than 4000 above the current leader
+22:54 <@rotty3000:#liferay> since on his profile it shows 11k for only the past year
+22:54 <@rotty3000:#liferay> while this chart lits all time I believe
+22:54 <@rotty3000:#liferay> lists :)
+22:55 <@jhf:#liferay> well that will be interesting when this list gets updated.
+22:55 <@jhf:#liferay> tweet-worthy
+22:55 <@rotty3000:#liferay> definitely
+22:56 <@rotty3000:#liferay> wow, Linus Torvalds 2,220 Total contributions..
+22:57 <@rotty3000:#liferay> I would not have guessed that
+22:57 <@rotty3000:#liferay> but that's also only 1 year
+22:58 <@jhf:#liferay> is the linux kernel developed via git and github?
+22:58 <@rotty3000:#liferay> it is now
+22:58 <@rotty3000:#liferay> with a sync to kernel.org
+22:58 <@rotty3000:#liferay> and also I think bitbucket
+22:59 <@rotty3000:#liferay> but I do believe that a lot of actual work has recently been moving to github
+--- Log closed Sun Oct 27 00:00:46 2013

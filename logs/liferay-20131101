@@ -1,0 +1,156 @@
+--- Log opened Fri Nov 01 00:00:53 2013
+06:51 < hufg:#liferay> is domain startup time any indicator of performance? 8)
+06:51 < hufg:#liferay> i guess it can't be said that it is but still makes me wonder
+08:18 < hufg:#liferay> alloyui is raising my blood pressure, first time i'm trying to do something with it
+08:18 < hufg:#liferay> it happened like in 5min
+08:18 < hufg:#liferay> :d
+08:47 < jardineworks_:#liferay> +1 hufg
+08:47 < jardineworks_:#liferay> I love it and I hate it all at the same time
+08:47 < jardineworks_:#liferay> are you using the js or the taglibs?
+09:09 < hufg:#liferay> js
+09:10 < hufg:#liferay> well a bit of both
+10:46 < dblessing:#liferay> taglibs ftw - assuming they exist for that particular feature. otherwise it's a crap shoot
+11:13 < Tar-Minyatur:#liferay> Hi guys.
+11:13 < Tar-Minyatur:#liferay> Is there an easy way to clear the search index?
+11:14 < Tar-Minyatur:#liferay> It appears to be stale...it still finds pages for web content that has been deleted ages ago...
+11:14 < Tar-Minyatur:#liferay> Well...no clear, but rebuild.
+11:14 < Tar-Minyatur:#liferay> *not
+11:19 < jardineworks_:#liferay> Tar-Minyatur,
+11:19 < jardineworks_:#liferay> control panel > Server Administration
+11:19 < jardineworks_:#liferay> there is a re-index button there
+11:20 < Tar-Minyatur:#liferay> Much too obvious. *lol* Thanks.
+11:23 < jardineworks_:#liferay> np
+11:23 < jardineworks_:#liferay> there are a lot of buttons :)
+11:23 < Tar-Minyatur:#liferay> I must say...modifying existing portlets with hooks is much more annoying than writing new portlets...
+11:24 < jardineworks_:#liferay> Tar-Minyatur, depends on the portlets.
+11:24 < jardineworks_:#liferay> I've done a few for this project that if I were to try to reproduce the entire functionality would be a HUGE PITA.
+11:25 < Tar-Minyatur:#liferay> Yes. And I assume it's again a matter of our very annoying circumstances.
+11:25 < Tar-Minyatur:#liferay> Great. The Reindexing just yielded a 500.
+11:25 < Tar-Minyatur:#liferay> :-/
+11:26 < jardineworks_:#liferay> usually a nasty ass stack trace that will accompany that :)
+11:28 < Tar-Minyatur:#liferay> Nope. Looks like this is only from the Apache that acts as proxy.
+11:28 < Tar-Minyatur:#liferay> According to the output the server is still reindxing.
+11:28 < Tar-Minyatur:#liferay> 16:27:50,938 INFO  [ajp-bio-8011-exec-1][LuceneIndexer:130] Reindexing Lucene completed in 481 seconds
+11:28 < Tar-Minyatur:#liferay> Mhm.
+11:29 < Tar-Minyatur:#liferay> Somehow this didn't have any effect at all. Damn.
+11:29 < jardineworks_:#liferay> dump the apache front ender.
+11:29 < jardineworks_:#liferay> totally don't need it
+11:29 < jardineworks_:#liferay> that's a 1999 architecture ;)
+11:29 < Tar-Minyatur:#liferay> The project doesn't work without it.
+11:29 < jardineworks_:#liferay> according to my O'Reilly Tomcat book ... benchmarking shows that Tomcat actually serves static content faster than Apache.
+11:30 < Tar-Minyatur:#liferay> Too many weird redirects, mappings and proxy rule stuff.
+11:30 < jardineworks_:#liferay> and if you REALLY want to improve static content loading, you should be using a CDN anyway right?
+11:30 < Tar-Minyatur:#liferay> We're loading all our assets from an S3 bucket.
+11:31 < Tar-Minyatur:#liferay> Our audience is only people in Germany, so a true CDN wouldn't help. ;)
+11:32 < Tar-Minyatur:#liferay> This is really weird. The web content search finds two hits.
+11:32 < Tar-Minyatur:#liferay> The pages the hits lead to, still exist...but the web content doesn't any more.
+11:40 < jardineworks_:#liferay> what do you see when you go to the pages?
+11:40 < Tar-Minyatur:#liferay> Web content display portlets that state the web content doesn't exist any more.
+11:41 < Tar-Minyatur:#liferay> (We have quite a few of these orphaned pages, because there is some issue with deleting pages.)
+11:45 < hufg:#liferay> perhaps delete lucene index
+11:45 < hufg:#liferay> don't try it in prod first lol
+11:46 < hufg:#liferay> there is a property to reindex it on startup
+11:46 < hufg:#liferay> the documentation advices against enabling it in prod
+11:46 < hufg:#liferay> we have it enabled though
+11:46 < jardineworks_:#liferay> Tar-Minyatur, that sounds to me like the state is correct. You have a Layout (Page) and that page has portlet instances on it that need to be configured. Why can't you delete the pages?
+11:47 < jardineworks_:#liferay> hufg, I think the only reason they advise against is for performance reasons no?
+11:47 < hufg:#liferay> yes
+11:47 < hufg:#liferay> it takes a bit more time to start the domain
+11:48 < Tar-Minyatur:#liferay> jardineworks_: But I searched for keywords that existed in the web content that doesn't exist any more.
+11:48 < Tar-Minyatur:#liferay> So there should not be any hits.
+11:48 < hufg:#liferay> do you have clustered env?
+11:48 < Tar-Minyatur:#liferay> Locally? No.
+11:48 < hufg:#liferay> mm
+11:48 < Tar-Minyatur:#liferay> Currently experimenting with this on my local box.
+11:50 < Tar-Minyatur:#liferay> jardineworks_: At some point somebody removed the "delete missing pages" from the publishing dialog, because it "caused some issues"
+11:50 < Tar-Minyatur:#liferay> The system has been up for almost a year with weekly updates.
+11:51 < Tar-Minyatur:#liferay> The pages are deleted in staging, but triggering deletion on live was impossible.
+11:53 < hufg:#liferay> :-D
+11:53 < hufg:#liferay> what was the issue?
+11:54 < hufg:#liferay> in 6.1 ga2 you can delete everything else except selected page with it
+11:54 < Tar-Minyatur:#liferay> No clue.
+11:54 < hufg:#liferay> hilarious bug
+11:56 < Tar-Minyatur:#liferay> *lol*
+11:56 < Tar-Minyatur:#liferay> It deleted the homepage.
+11:56 < hufg:#liferay> do you have some kind of selection of pages with it?
+11:56 < hufg:#liferay> perhaps it's the same bug
+11:57 < Tar-Minyatur:#liferay> I published a single page and activated "delete missing pages" as well.
+11:57 < hufg:#liferay> yes that's exactly the issue
+11:57 < hufg:#liferay> do not select the single page
+11:58 < Tar-Minyatur:#liferay> I vaguely recall that I got an error message once when I tried publishing with no page selected an only the delete option checked.
+11:58 < hufg:#liferay> well you can try it in 30sec right? 8)
+11:58 < Tar-Minyatur:#liferay> Once I republished Home...yes. ;)
+11:59 < Tar-Minyatur:#liferay> *lol*
+11:59 < Tar-Minyatur:#liferay> I just saw for the first time that you can actually unpublish pages.
+12:00 < hufg:#liferay> someone should know why it got removed  right? :D
+12:00 < Tar-Minyatur:#liferay> I really should not listen to the rumors about Liferay that are travelling the office
+12:00 < hufg:#liferay> how is the dialog removed with hook or some sickening direct edit ?
+12:00 < Tar-Minyatur:#liferay> The original developers are not available any more.
+12:00 < hufg:#liferay> yes but some commit message whatever
+12:00 < hufg:#liferay> somewher
+12:00 < hufg:#liferay> e
+12:00 < Tar-Minyatur:#liferay> Nope. Nothing.
+12:00 < Tar-Minyatur:#liferay> No ticket either.
+12:01 < hufg:#liferay> direct edit of jsp then?
+12:01 < Tar-Minyatur:#liferay> Sure. One of our highly loved core hacks.
+12:03 < hufg:#liferay> :D
+12:03 < hufg:#liferay> Tar-Minyatur: when i started here there was this mythical aura surrounding liferay
+12:03 < hufg:#liferay> no one got shit done and only 100% bitching
+12:03 < hufg:#liferay> mythical aura of bullshit
+12:04 < Tar-Minyatur:#liferay> Yeah. People here are alyways telling everybody who would listen how shitty Liferay is...
+12:04 < hufg:#liferay> hehe exactly the same here
+12:04 < Tar-Minyatur:#liferay> They have no technical background so they assume...page broken? Liferay's fault.
+12:05 < Tar-Minyatur:#liferay> It seems to be a major issue with Liferay that there are A LOT of projects where it's just setup totally wrong.
+12:05 < hufg:#liferay> yeah but someone starts that bullshit
+12:06 < hufg:#liferay> some 1.5 years ago me and the lead dev said every one stops bitching about liferay right now and relax
+12:06 < hufg:#liferay> it has worked
+12:08 < hufg:#liferay> even though liferay is hard at times and shit just doesn't work but we have resolved every single issue encountered
+12:09 < Tar-Minyatur:#liferay> I hope people will change their attitude when we go live with our replacement system in December.
+12:09 < Tar-Minyatur:#liferay> Most of our current issues should be solved in the new setup.
+12:09 < hufg:#liferay> naah people change the attitude
+12:09 < hufg:#liferay> if it's not stellar i doubt much happens if someone doesn't push into other direction
+12:09 < hufg:#liferay> ie. the culture lives on
+12:09 < Tar-Minyatur:#liferay> The problem is that I don't really have a team to solve problems.
+12:09 < hufg:#liferay> once established no matter the truth
+12:09 < Tar-Minyatur:#liferay> It's only me.
+12:10 < Tar-Minyatur:#liferay> And three offshore developers.
+12:10 < Tar-Minyatur:#liferay> They chose to use Liferay to avoid needing developers all the time.
+12:10 < hufg:#liferay> hehe
+12:11 < Tar-Minyatur:#liferay> All they managed by setting it up in this totally messed up way is that now they need developers even for the smallest content changes.
+12:11 < hufg:#liferay> hehe nice
+12:11 < hufg:#liferay> our biggest problem is infrastructure
+12:11 < hufg:#liferay> those dudes just can't deliver
+12:12 < hufg:#liferay> 6months behind schedule and no one knows how infrastructure+liferay actually work
+12:12 < hufg:#liferay> works
+12:12 < Tar-Minyatur:#liferay> We have a very enthusiastic sys admin.
+12:12 < hufg:#liferay> this late into the project any major hurdle after setting it up is instant delay in launch date
+12:12 < Tar-Minyatur:#liferay> He's currently digging deep into AWS.
+12:13 < hufg:#liferay> there is some hilarious problem with quartz that brings down the whole cluster
+12:13 < hufg:#liferay> i hope that doesn't happen too often
+12:13 < Tar-Minyatur:#liferay> We have a dedicated instance that runs quartz jobs.
+12:14 < Tar-Minyatur:#liferay> It's not one of the nodes that actually deliver content.
+12:14 < hufg:#liferay> something goes wrong somewhere in quartz and all liferay instances die...
+12:14 < Tar-Minyatur:#liferay> Sounds odd.
+12:16 < hufg:#liferay> hmh ok not all just some nodes
+12:22 < hufg:#liferay> how do you handle different env configurations?
+12:22 < hufg:#liferay> we have this hilarious maven project with 73  pom files but it works great once you get the hang of it
+12:22 < Tar-Minyatur:#liferay> With separate builds.
+12:22 < hufg:#liferay> 8)
+12:22 < Tar-Minyatur:#liferay> We have an admin-instance.properties override.
+12:23 < Tar-Minyatur:#liferay> It's only included in one of the builds.
+12:23 < Tar-Minyatur:#liferay> And for local setups every developer defines his own override.
+12:23 < hufg:#liferay> hehe ok
+12:23 < Tar-Minyatur:#liferay> Not ideal, but it works.
+12:24 < Tar-Minyatur:#liferay> Our offshore developers set up a great Maven build with a very clear project structure.
+12:25 < hufg:#liferay> mmh it's very doable with filters and assembly plugin but not that pretty
+12:26 < Tar-Minyatur:#liferay> Well...we decided to keep everything in one module as long as it's related.
+12:26 < Tar-Minyatur:#liferay> And we had only a few days to get the project set up.
+12:26 < Tar-Minyatur:#liferay> No time for anything more fancy.
+12:26 < hufg:#liferay> 8)
+12:28 < hufg:#liferay> ok off to weekend bye!
+12:28 < Tar-Minyatur:#liferay> Bye. :)
+12:44 -!- mode/#liferay [+o lundgren] by ChanServ
+12:45 -!- mode/#liferay [+o lundgren] by ChanServ
+16:21 < jardineworks_:#liferay> does anyone know if it is possible to pass a value OUT of an Authenticator?
+16:45 < jardineworks_:#liferay> hey rotty3000 are you around for a quick security question?
+--- Log closed Sat Nov 02 00:00:54 2013

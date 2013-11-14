@@ -1,0 +1,330 @@
+--- Log opened Tue Aug 13 00:00:56 2013
+08:40 < jardineworks> good morning guys
+08:47 < hufg> hello i have a problem with the language portlet
+08:48 < hufg> it doesn't change the language and no redirections happen
+08:48 < hufg> reloads the same page and nothing happens
+08:48 < hufg> this happens randomly
+08:49 < hufg> some page it works and some not
+08:49 < hufg> can't say for sure but i have a vibe this started happening after i set the virtualhost
+08:51 < hufg> the requests have been made with the languageTag
+08:52 < hufg> $taglibLiferay.language(null, null, "languageId", $site_languages_array, 2)
+08:52 < hufg> or $taglibLiferay.language(null, null, "languageId", $site_languages_array, 1)
+08:54 < hufg> ridiculous
+09:06 < hufg> 304 Not Modified when it doesn't work
+09:09 < hufg> If-None-Match: "8074cbfa" in the non working request
+09:09 < hufg> header
+09:19 < hufg> okay it just returns stuff from cache without ever going through the portlet
+09:19 < hufg> why is this? 8)
+09:24 < sgeef> Hi there i'm looking for some help, i'd like to integrate kaleo workflow in a website that we have. but the website is fully based on Journal Articles used by different portlets. Which, then again, need to have different workflows.. but no idea where to start..
+09:25 < sgeef> anyone has a minut to push me in the right direction?
+09:31 < jardineworks> sgeef, EE or CE?
+09:32 < jardineworks> sgeef, Either way, http://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/workflow-with-kal-3
+09:32 < jardineworks> sgeef, but EE has a nice feature which allows you to generate the workflows using a gui tool
+09:33 < josuebc> topolik: Sorry for the late response. I just saw your answer to my question. Thank you! That's exactly what I was looking for.
+09:34 < topolik> josuebc: haha, y/w ;)
+09:35 < sgeef> yes i did read the link jardineworks, put that doesn't enable the workflow for my custom portlets.
+09:35 < sgeef> besides EE. i have the GUI.
+09:36 < sgeef> maby i'm not understanding the concept very well. But the fact is that my teammate has made the whole system build on Journal Article instead of seperated entities. what would be way easier to implement with Workflows.
+09:38 < Tar-Minyatur> Oh damn. :-/
+09:38 < Tar-Minyatur> I just recieved a list with all the files of the Liferay core that have been changed by the previous developers.
+09:38 < Tar-Minyatur> They changed everything!
+09:38 < Tar-Minyatur> Why would you even do that.. *cry*
+09:39 < josuebc> topolik: One more thing, If I get this correctly then the SecureFilter handles the auth and, the param jsonws.portlet. and the filter mapping tells liferay to register the portlet as a JSON WS, right?
+09:39 < sgeef> jardineworks: Besides that, i'm having the problem that kaleo workflow only offers the possibility to work with scripts that call basic Liferay methods. And that doesn't include update functions for the Journal Article. which are needed to recreate the versioning system.. And i really have no idea where to start.. because all information on the internet apply to custom entities..
+09:40 < josuebc> topolik: Beacuse I wouldn't like to create a service for this. I prefer to just use the current servlet that I have right now, which gets routed by the delegate servlet so I can access the session and all that.
+09:41 < topolik> josuebc: the filter will use configuration defined for jsonws.portlet. SecureFilter
+09:41 < topolik> but it won't register anything
+09:41 < topolik> you can remove that parameter from that
+09:42 < josuebc> topolik: Alright, yes that way the filter only handles auth, and if I have some servlet mapping after that filter then if the use is correctly authenticated liferay will then go to the servlet mappings, right?
+09:43 < jardineworks> sgeef -- I'm not sure I understand. Correct me if I have it wrong. You want to integrate a custom workflow into the creation of web content (journal articles). The problem you are having is in scripting the actions -- is that correct?
+09:43 < jardineworks> sgeef, I should qualify my help as saying that I am just starting to work with workflows myself right now :)
+09:43 < jardineworks> sgeef, but happy to try to work through it with you
+09:45 < sgeef> jardineworks == almost right.. the scripting is a part of it.. i want to create multiple workflows for the creation of web content. (the creation happends in different custom made portlets.)
+09:45 < sgeef> and no problem.. if your starting.. any help is apreciated.
+09:45 < sgeef> :)
+09:45 < topolik> josuebc: right. You can/should define basic_auth or digest_auth init parameters to tell the filter what authentication to require, I think the best you can do is to look into the sources to understand https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-impl/src/com/liferay/portal/servlet/filters/secure/SecureFilter.java
+09:46 < jardineworks> sgeef, ah I see... so lets say you have Structure A and Structure B ... you want to have two separate workflows that apply to each respectively. You then create Structure C, and you might create a new workflow, or use one of the existing ones... is that right?
+09:46 < sgeef> yes :) that's it. :)
+09:47 < josuebc> topolik: Alright, yes will do. Probably will use digest, since I want only users that are already signed on to the portal to use the servlet.
+09:47 < josuebc> topolik: Thanks
+09:48 < topolik> y/w
+09:48 < jardineworks> sgeef, can you send me one of your workflows (right now I only have the single approver one)
+09:48 < x9183111> x
+09:49 < jardineworks> sgeef, hmmmm.. I think I see your problem now
+09:49 < jardineworks> in the workflow configuration for Web Content you only have the option of choosing a single workflow
+09:49 < jardineworks> but you need to be able to assign a type of workflow when you create the content item
+09:49 < sgeef> jardineworks, to be honest.. i didn't come so far to make a workflow.. because i couldn't find a way to attach my code.
+09:50 < x9183111> x
+09:51 < sgeef> jardineworks, that is kinda the problem yes.. i don't have any idea how to assign it. The thing stays that they are separated in multiple portlets.. but i don't have no idea how to fix this.. I was thinking on hooking in. but can't reach the localServiceUtil class to custimize the updateStatus method.
+09:52 < sgeef> I think i have to make the types availble in the list, but all example are with separated custom entities.
+09:52 < sgeef> like this one: http://www.cignex.com/articles/applying-advanced-workflow-custom-assets-liferay-6
+09:52 < x9183111> x
+09:52 < jardineworks> one sec -- phone
+09:52 < sgeef> no problem. ;)
+10:13 < x9183111> xx
+10:13 < sgeef> xx?
+10:15 < sgeef> Are there anymore people here that have experiance with Workflow (Kaleo)
+10:16 < x9183111> sgeef: not sure, but go ahead and ask question
+10:18 < sgeef> already did, a while ago.. but i'll repeat ;)
+10:19 < x9183111> I see it
+10:19 < sgeef> i need to implement workflow in a application that is based on Web content (Journal ARticles), there are several portlets that all have the possibility to change a different structure..
+10:20 < x9183111> So you're wondering where to start, correct?
+10:20 < sgeef> all portlets need the possibility to attach a different or igual workflow. But i don't have no idea how to make this configurable. so that i can attach a workflow to each of one.. all the info on the internet is about custom entities.. not about Journa;l Articles
+10:20 < sgeef> x9183111, yes where to start,
+10:21 < sgeef> i think that i have seen every blog on the internet about the subject already..
+10:30 < sgeef> x9183111, i was saying that your correct. Indeed i don't know where to start. because of the lack of information.
+10:30 < x9183111> sgeef: Web Content (aka Journal Article) is same as Custom Entity
+10:31 < sgeef> yes but it's one custom entity.. on which i need to apply 4 workflows..
+10:31 < sgeef> because of the separation in structures..
+10:31 < x9183111> All in the same site or different sites?
+10:31 < sgeef> same site.
+10:31 < sgeef> different portlets.
+10:32 < x9183111> How are you differentiating between the Journal Articles?
+10:32 < x9183111> or Web Content*
+10:32 < x9183111> i.e. how do you know which workflow to apply?
+10:33 < sgeef> by the structures. (i agree my team mates didn't made it the right way. )
+10:33 < sgeef> there are 4 different structures for my Journal Articles.
+10:33 < sgeef> each of these 4 needs a different workflow.
+10:33 < x9183111> Ok; 1 workflow per entity per site; so you'll have to combine the logic in the workflows and put if-statement based on the structure-condition you mentioned.
+10:34 < sgeef> ok, that's something that i could try. and then i should apply it to the web content if i'm right no?
+10:34 < x9183111> Correct, it will be a bit messy though ;(
+10:35 < x9183111> But it's the only way I know for this
+10:35 < x9183111> Other ways are more difficult, I think.
+10:35 < sgeef> now the next question.. is there a possibility that i can change the updateStatus method of the WebContent module..
+10:35 < sgeef> i agree
+10:35 < sgeef> an other option is rebuilding the website..
+10:35 < sgeef> xD
+10:36 < x9183111> I believe so, but through an ext-plugin
+10:36 < sgeef> ok.. that's the information that i needed.  i was trying with hooks.. but couldn't figured it out.
+10:36 < sgeef> one last question, if you don't mind.
+10:37 < sgeef> If i make a kaleo workflow, can i base conditions on checkboxes from the page/portlet.
+10:37 < sgeef> i like to say on elements of a page.
+10:38 < x9183111> Of course, but you'd have to save them somewhere.
+10:38 < x9183111> One good way is in Expando table
+10:38 < x9183111> Create expando on Web Content class
+10:39 < x9183111> Are you familiar with Expando?
+10:39 < sgeef> ok, you like to say.. that i first have to save the choice of the user. and then update. so i can get the choice of the user..
+10:39 < sgeef> and no... i'm not.
+10:39 < sgeef> i will look it up ;)
+10:40 < x9183111> I could be wrong on this, please see this link:
+10:40 < x9183111> http://t.bvakili.com/workflow-context-variables
+10:41 < x9183111> They may be directly available
+10:41 < sgeef> by content.. you like to say?
+10:42 < sgeef> a no..
+10:42 < sgeef> wait.
+10:42 < sgeef> i don't nsee it in the list, i think your example of expando is beter..
+10:43 < x9183111> Checking for easier way than last one.
+10:43 < sgeef> but thanks for all this information already.. great! tnx.
+10:46 < x9183111> y/w, thanks goes to Liferay folks.
+10:50 < sgeef> x9183111, indeed but you took the time to help ;)
+10:50 < sgeef> thanks again, to both.
+10:50 < sgeef> bb
+11:51 < jardineworks> remind me please.. the "company" in 6.1 is synonymous with "site" right?
+11:51 <@jhf> jardineworks:  "community" (not company) became "site" in 6.1
+11:51 <@jhf> company is still a "thing"
+11:52 < jardineworks> right!
+11:52 < jardineworks> jhf, I've never actually tried ... is it possible to make additional companies?
+11:52 < jardineworks> nevermind
+11:52 < jardineworks> it must be
+11:52 <@jhf> yep. they are considered separate portal "instanceS"
+11:52 < jardineworks> lol
+11:52 <@jhf> it's used for "multi-tenancy"
+11:53 < jardineworks> right
+11:53 < jardineworks> that makes sense
+12:07 < Tar-Minyatur> jhf: Hi! My worst fears have been confirmed. I've got a list of Liferay core files that have been changed. It's like a third of them. :-/
+12:07 <@jhf> yeah I saw that note.. dang, what were they thinking??
+12:07 < Tar-Minyatur> So I'm actually not really dealing with Liferay anymore, I guess. *sighs*
+12:07 < Tar-Minyatur> A really good question. I'm strongly inclined to head over there and inflict some serious injuries...
+12:08 <@jhf> maybe they were just fixing LR bugs?
+12:09 < Tar-Minyatur> Nope.
+12:09 < Tar-Minyatur> There are all sorts of project related things in there.
+12:10 < Tar-Minyatur> Methods added to core classes, which are definitely related to project things...
+12:10 < Tar-Minyatur> It's a big mess.
+12:17 < topolik> Tar-Minyatur: I met one such project
+12:18 < topolik> you know, road to hell is paved with good intentions
+12:20 < jardineworks> topolik, from experience, there are so many things that are used for paving these days :)
+13:34 < Tar-Minyatur> Guys, a (hopefully) quick question: Is Liferay able to run in the Amazon Cloud?
+13:34 < Tar-Minyatur> And does it work properly with multiple instances?
+13:34 < Tar-Minyatur> Because they guys insist that they had to modify the core to make it work.
+13:35 < Tar-Minyatur> *the guys
+13:36 < jardineworks> Tar-Minyatur, I think so... I googled it the other day for EC3 and found it in the amazon store. One of those preconfigured image thingees.
+13:36 < jardineworks> and I have read a few blog posts that details how to do it on your own.
+13:38 <@jhf> yeah, it's able to run in amazon's cloud, both directly on EC2/EC3 (using the images jardineworks mentions), and also Elastic Beanstalk (the JVM managed container thingy)
+13:38 < npskirk> There's a Bitnami appliance too
+13:38 <@jhf> the trouble with earlier versions of amazon was that apps (war files) were prohibited from writing to the filesystem, so for example I had to modify the liferay war (but not touch source code) to make it work
+13:38 <@jhf> http://www.liferay.com/web/james.falkner/blog/-/blogs/liferay-on-amazon-elastic-beanstalk-and-ec2
+13:39 <@jhf> I've been meaning to re-try it
+13:39 <@jhf> npskirk: ! hey did you get your raspberry pi yet?
+13:39 < Tar-Minyatur> And there is no issue with scaling it up by having multiple instances?
+13:39 < Tar-Minyatur> They would be accessing the same database.
+13:39 < npskirk> Yam Just the other day — haven't even unwrapped it though, so busy
+13:39 < Tar-Minyatur> Anything special to know about that?
+13:39 <@jhf> phew - ok thanks. sorry it took so long.
+13:40 < npskirk> no worries, I know they're constantly backordered
+13:40 <@jhf> Tar-Minyatur: running multiple instances of LR that point to the same DB, but don't know about each other, sounds dangerous
+13:40 <@jhf> probably should be clustered together somehow.
+13:40 < npskirk> Think I can run Liferay on it?
+13:40 <@jhf> npskirk: yes, actually, you can!
+13:40 <@jhf> but it's rather slow.
+13:40 < Tar-Minyatur> I don't care if they know about each other. ;D
+13:40 <@jhf> https://twitter.com/bzz_hu/status/319806846674272258
+13:41 < Tar-Minyatur> If that helps, I'm totally fine with it.
+13:41 <@jhf> Zsolt is an engineer @ liferay that got LR to run on the Pi
+13:41 <@jhf> well, if they don't know about each other, they will likely overrun each other in the DB and really f things up
+13:41 < Tar-Minyatur> I would think that there could be some issues with the session handling in that case?
+13:41 < Tar-Minyatur> Oh well. This is all so messed up. *sighs*
+13:42 <@jhf> clustering 2 LR instances together isn't that big a deaql
+13:42 <@jhf> I am going to have to make it auto-scale very soon - I promised the Ubuntu guys I would give them a Juju charm that supports auto-scaling, which means i'll have to programmatically hook new LR instances up to each other when they are added to a cluster.
+13:42 <@jhf> but haven't done it yet. I assume it would apply to AWS too
+13:43 < Tar-Minyatur> Sounds good, but as we're totally unable to update Liferay...well...you know.
+13:43 < Tar-Minyatur> Feels like I should just try to fix the remaining issues and get the hell out as soon as it runs without errors.
+13:44 < Tar-Minyatur> I honestly fear for my sanity.
+13:44 < npskirk> @jhf  LOL, a raspberry pi Liferay cluster… wild thought
+13:45 <@jhf> it would be awesome, and totally doable.
+13:45 <@jhf> a great eye candy presentation with absolutely no real world use (yet)
+13:45 <@jhf> well I take that back
+13:45 <@jhf> we could sell liferay appliances.
+13:45 < Tar-Minyatur> *lol*
+13:46 < npskirk> I can see it now….    Toaster, powered by Liferay
+13:47 < topolik> ROFL
+13:48 < Tar-Minyatur> Smart home. Definitely a new application for Liferay.
+13:48 <@jhf> haha.. you can cook toast by uploading a large PDF to the doclib
+13:48 <@jhf> and use the heat from the CPUs while it renders its preview
+13:48 < npskirk> Toast a picture into the bread
+13:49 < Tar-Minyatur> :D
+13:49 <@jhf> haha
+13:49 <@jhf> hmmm
+13:49 < npskirk> Seriously though, a portal solution for home-oriented things could be pretty cool
+13:49 <@jhf> future gift giveaway: Liferay logo-shaped brands, for hamburgers and/or buns
+13:49 <@jhf> yeah it would be!
+13:49 < npskirk> Family calendar, Task lists, etc
+13:50 <@jhf> I mean, there are some out there now.
+13:50 < npskirk> with Liferay Sync you could consider apps to share it all out
+13:50 <@jhf> wife told me of some iPhone app that is supposed to manage family affairs
+13:50 <@jhf> groceries, sports, birthdays, dr. appointments, etc.
+13:51 < npskirk> yeah… we've been trying lots of things to try and achieve that in my family.. nothing quite fits yet
+13:51 < npskirk> There's plenty of stuff for, say, GTD methodology, but nobody quite has the sharing aspect down yet
+13:52 < topolik> I saw even a toliet app on a phone (http://akihabaranews.com/2013/08/07/article-en/japan%E2%80%99s-high-tech-satis-toilet-vulnerable-hacking-2028224472) , could be a nice portlet :D
+13:53 < npskirk> @topolik Kinda redifnes "portlet"  :)
+13:54 < topolik> well, talking about Liferay "Toasters" edition, we could have one even for toilet, right? :D
+13:56 < Tar-Minyatur> You can have this code base over here and actually build a toilet from it, I think. ;)
+14:11 <@rotty3000> hey guys, on Liferay-Pi/cloud/low footprint/low memory applications, this is a primary goal of the modularity work
+14:12 <@rotty3000> making the core of Liferay lean and mean will make it more amenable to all the scenarios you have mentioned above, including toasters
+14:12 <@rotty3000> if you are not familiar with it, Liferay contains a bundle OSGi container
+14:13 <@rotty3000> and one of the open source projects you may want to learn about is https://code.google.com/p/openhab/
+14:13 <@rotty3000> which is an osgi based home automation and integration stack built on osgi
+14:14 <@rotty3000> I'd like to get a working prototype of the twain connected together
+14:32 < jardineworks> does anyone know if there are any sites that have good examples of using Alloy? I mean other than http://alloyui.com/tutorials where the examples are different than what you need to do in Liferay proper?
+14:34 < npskirk> @rotty3000 thanks for that link
+14:35 < npskirk> @jardineworks I haven't found any.  The problem is all the great stuff on the alloy site doesn't seem to apply to Liferay… at least not yet.  The Liferay JS client is one place that could really use some documentation.
+14:37 < npskirk> @jardineworks I mean the client uses Alloy, but not the version of alloy (or even the version of YUI3) that you see on the alloy pages
+14:39 < jardineworks> npskirk, exactly what I am finding. Worse yet, I am no javascript ninja so trying to figure out how all this madness works is a brain twister.
+14:39 < npskirk> same for me.  I resorted to JSF/IceFaces
+14:39 < npskirk> … not happy there either
+14:47 <@jhf> uh oh.. issues.liferay.com DOWN!
+14:47 <@jhf> whew.. back up now
+15:25 < jardineworks> has anyone in here ever created an aui-tab?
+15:40 < jardineworks> does anyone know how to get it to render?
+15:40 < jardineworks> so confused.
+15:41 < jardineworks> I would have though var tabView = A.TabView({ contentNode:'#tab', items:[{label:'test', content:'test']}).render(); would do it.
+15:44 <@rotty3000> jardineworks: looking at the examples in LR, that does look like it should do it
+15:47 < jardineworks> rotty3000, hmm... for me it renders nothing.
+15:48 < jardineworks> rotty3000, I found an article with an easier way to do it, but I really want to understand how to use the Alloy JS stuff
+15:48 <@rotty3000> yeah, I hear ya!
+15:49 <@rotty3000> :(
+15:49 < jardineworks> MY KINGDOM FOR AN HOUR WITH NATE! lol
+15:50 <@rotty3000> :)
+16:05 < jardineworks> hey rotty3000 if you have two minutes ... can you try cutting and pasting that JS code into a portlet and tell me if it renders for you?
+16:06 <@rotty3000> sec
+16:08 <@rotty3000> finally! got the complete build down to 2:27
+16:09 <@rotty3000> have you tried in the js console?
+16:09 <@rotty3000> jardineworks: that last was for you
+16:10 <@rotty3000> note, you have to make sure the modules are loaded too right?
+16:10 < jardineworks> by loaded you mean the -- AUI().ready("aui-tabs", "node", function(A) {
+16:10 < jardineworks> right?
+16:10 <@rotty3000> yeah
+16:11 < jardineworks> ok -- doing that.
+16:13 <@rotty3000> ok, I started with this on the main page to give me something to work with:     AUI().one('#portlet_3').append("<div class='test'>HERE!</div>");
+16:14 <@rotty3000> moving onto the real test..
+16:23 <@rotty3000> hmm, I keep getting a               TypeError: Cannot call method 'toLowerCase' of undefined
+16:24 <@rotty3000> but It's a native error.. not sure what is causing it
+16:24 <@rotty3000> .. still trying
+16:25 <@rotty3000> success!!!!
+16:26 <@rotty3000> jardineworks: this worked!         AUI().use('aui-tabview', function(A) {new A.TabView({ contentBox: '#portlet_3 .test', children:[{label:'test', content:'test'}]}).render(); });
+16:26 <@rotty3000> note the 'new' keyword, and also the module being 'aui-tabview'
+16:27 <@rotty3000> also
+16:27 <@rotty3000> the syntax for the contents are            { contentBox: '#portlet_3 .test', children:[{label:'test', content:'test'}]}
+16:28 <@rotty3000> contentBox refers to the target node using a selector, and the children is an array of objects with fields label and content
+16:29 < jardineworks> rotty3000, so you can't use a contentBox that simply references a div on the page?
+16:30 <@rotty3000> oh yes
+16:30 <@rotty3000> I just didn't have one
+16:30 <@rotty3000> I created one
+16:30 < jardineworks> rotty3000, Do you know what this error is? -- TypeError: instance._setRender is not a function
+16:30 <@rotty3000> no idea
+16:32 < jardineworks> lol
+16:32 < jardineworks> hmmmm
+16:32 < jardineworks> whihc version of Alloy are you using?
+16:33 <@rotty3000> whatever is in master
+16:34 < jardineworks> when I try your example I get "A.TabView is not a constructor" which I think means that we might be on different versions of AUI. In my ROOT/html/js/aui folder I have no JS file for aui-tabview ... just aui-tabs
+16:34 <@rotty3000> ok
+16:34 <@rotty3000> then change only that module name, and the object name
+16:36 < jardineworks> done -- some progres.. I no longer have errors. It appears to try to render the tabs (I think) but all I see is a gray line that looks like a horizontal rule (empty content box?)
+16:36 <@rotty3000> ok, I'm gisting my code here https://gist.github.com/rotty3000/6225415
+16:36 <@rotty3000> I will test with the EE branch and see what I can scrounge up
+16:37 < jardineworks> ok -- I am on 6.1.1CEGA2 though
+16:37 <@rotty3000> yeah, I don't think the API changed at all during the 6.1 CE->EE
+16:38 < jardineworks> pretty sure I am not on alloy2.0 either. lemme donwload the latest bundle and see it if is in there.
+16:43 < jardineworks> yeah -- latest has alloy 2.0. Lemme get that in place and see if that makes a difference.
+16:44 <@rotty3000> hey jardineworks does this work?
+16:44 <@rotty3000> AUI().Get.script('https://gist.github.com/rotty3000/6225415/raw/707aca6601c9f8887bf84c9c9118482e8448b0e2/tabview-example-alloy-1.5.0.js');
+16:44 <@rotty3000> paste that whole line into the js console
+16:44 <@rotty3000> it should add a tab at the very top of any page
+16:44 <@rotty3000> the code is here https://gist.github.com/rotty3000/6225415/raw/707aca6601c9f8887bf84c9c9118482e8448b0e2/tabview-example-alloy-1.5.0.js
+16:45 <@rotty3000> the code was added as a new file to gist https://gist.github.com/rotty3000/6225415
+16:45 < jardineworks> rotty3000, that worked!
+16:46 < jardineworks> but I don't understand what is different... lol
+16:46 < jardineworks> oh
+16:47 <@rotty3000> updated the examples with two tabs just to make it clear
+16:47 <@rotty3000> the 1.5 adds a whole new set of tabs every time you call that
+16:47 <@rotty3000> the 2.0 API adds the tabs to the existing tabview, which is neat
+16:48 < jardineworks> the only difference I see between yours and mine is aui.use instead of aui.ready and you have a child element in your content box where I didn't
+16:49 <@rotty3000> the child is not important, it just wanted to a blank div
+16:49 <@rotty3000> the use vs ready IS significant
+16:49 <@rotty3000> .. I'm just not really sure exactly why
+16:49 < jardineworks> :S
+16:49 <@rotty3000> it's just the way I was taught to do it ;)
+16:49 < jardineworks> lol
+16:50 < jardineworks> by Nate?!
+16:50 <@rotty3000> quite probably or perhaps by Eduardo
+16:50 < jardineworks> so jealous.
+16:50 < jardineworks> well, since everyone seemed to be pretty excited about alloy 2.0 I might as well move up.
+16:50 < jardineworks> new project so no point is starting a version back!
+16:53 < jardineworks> thanks rotty3000
+16:53 < jardineworks> as always
+16:53 <@rotty3000> n/p
+16:54 < jardineworks> I promise that if I ever figure this out I'll do a blog series explaining each plugin one at a time :)
+17:12 < jardineworks> rotty3000, do you know what release Alloy 2 was introduced in?
+17:12 < jardineworks> GA2 I think is not it
+17:12 <@rotty3000> oh, I doubt it... I think 2.0 will only be in 6.2
+17:12 <@rotty3000> but I'm not sure
+17:12 <@rotty3000> I would expect that to be the case
+17:13 < jardineworks> ah -- and the master branch you referenced earlier... that is not the one that GA2 would have been built off of
+17:15 < jardineworks> .. I give up. Even with the aui.use instead, all I see if a gray line. It won;t render the content for me.
+17:27 < jardineworks> rotty3000, If I am specifying a contentBox that is within the view/jsp of my portlet, then why do the tabs go to the top of the screen?
+17:32 < jardineworks> ah -- contentBox: '#divid#
+17:37 <@rotty3000> :)
+17:46 < josuebc> Hi there. I am trying to use the securefilter to verify the indentity of a user and then let the user access a servlet. Here's my XML, the problem is that the request is not getting handleded by the filter first. Any ideas? http://pastebin.com/tTQbgY05
+17:48 <@rotty3000> josuebc: you have no filter mapping
+17:48 <@rotty3000> therefore the filter does not know which paths to apply to
+17:49 < josuebc> rotty3000: Duh, you are right. I forgot to add it.
+17:49 <@rotty3000> ;)
+17:53 < josuebc> rotty3000: Mmm... still the same error. Is it because I am using the DelegateServlet to call my Servlet class? I added the url-pattern : /delegate/api/*
+17:54 <@rotty3000> uhmm, yeah
+17:54 <@rotty3000> the delegate servlet is not in your plugin's context really
+17:55 <@rotty3000> you may need a hook which adds a filter to the portal context (and thereby to your "delegate" via the delegate path mapping) 8|
+17:56 < josuebc> rotty3000: Wait, but isn't the secureFilter already on the portal context?
+17:58 <@rotty3000> it is, but might not be mapped to the delegate servlet
+17:59 < josuebc> rotty3000: O yeah, I have it mapped to my custom class.
+17:59 < josuebc> So if I map the filter to /delegate/* it should work, right?
+17:59 <@rotty3000> theoretically!
+--- Log closed Wed Aug 14 00:00:57 2013

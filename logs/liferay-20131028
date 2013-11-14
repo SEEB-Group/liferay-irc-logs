@@ -1,0 +1,158 @@
+--- Log opened Mon Oct 28 00:00:47 2013
+05:55 < hufg:#liferay> helloo helloo
+06:08 < modd_:#liferay> ...I'm at a place called vertigo
+06:08 < modd_:#liferay> (U2 - Vertigo)
+06:58 < hufg:#liferay> there should be an easier way to disable oob liferay js and css
+08:32 < dblessing:#liferay> morning all. with liferay 6.2 and alloy has there been any talk of using bootstrap 3 instead of 2?
+08:40 -!- mode/#liferay [+o jhf] by ChanServ
+08:54 < Tar-Minyatur:#liferay> Hey guys...can anyone of you explain to me how you usually deal with the development of content changes and their deployment?
+08:55 < Tar-Minyatur:#liferay> We have the situation that there is a live system that is being reworked...but in the meantime there are still weekly changes applied to content on the live system.
+08:56 < Tar-Minyatur:#liferay> However, we have to develop some new features that will be implemented when the rework will go live and most of them require pages and web content to be created.
+08:56 < Tar-Minyatur:#liferay> I wonder what would be a proper way of integrating the new stuff into a fresh copy of the current live system.
+08:57 < Tar-Minyatur:#liferay> Is the import/export feature the right (or maybe even the only?) approach for that?
+09:22 < jardineworks:#liferay> Tar-Minyatur, I think import/export is probably your best bet
+09:23 < jardineworks:#liferay> Tar-Minyatur, I've had to do similar stuff in the past (with other systems) and we used to keep a UAT env. that was a mirror of PROD. We could clone PROD to UAT, make the necessary updates and then change the proxy settings to make UAT -> PROD and PROD became UAT.
+09:23 < jardineworks:#liferay> a little unorthodox but it worked flawlessly.
+09:24 < Tar-Minyatur:#liferay> Not a bad idea.
+09:24 < Tar-Minyatur:#liferay> But I think we don't always move all changed to live at once.
+09:29 < jardineworks:#liferay> thats the beauty of that model
+09:29 < jardineworks:#liferay> you can move it as often as you want because you just ping pong between two identical instances.
+09:30 < jardineworks:#liferay> dblessing, I wonder if you can do a diff with the one that ships with LR and what you download to see which version is used?
+09:30 < Tar-Minyatur:#liferay> Yes. But if several things were prepared simultaneously and only one should be pushed to live, we would be f***. ;)
+09:31 < dblessing:#liferay> jardineworks: i know it's using some form of bootstrap 2. i even saw a ticket for upgrading to bootstrap 2.3.2 or something. bootstrap 3 has huge changes that allow you to do all sorts of neat things with mobile devices. it's way better than 2. i'm sure it's too late in the cycle to upgrade
+09:33 < jardineworks:#liferay> Tar-Minyatur, prepared as in saved but not published?
+09:33 < Tar-Minyatur:#liferay> Yes.
+09:33 < jardineworks:#liferay> dblessing, if its backwards compatible then I am sure you could upgrade to 3 yourself and it would not matter.
+09:34 < Tar-Minyatur:#liferay> At the moment everything is done on the live environment. Because we don't have a way of pushing prepared content to the live instance.
+09:34 < Tar-Minyatur:#liferay> (In the Liferay staging area there.)
+09:34 < jardineworks:#liferay> Tar-Minyatur, so whats the issue? who cares if you push 7 changes if only one is published. Its the same thing no?
+09:34 < Tar-Minyatur:#liferay> Mhm.
+09:34 < Tar-Minyatur:#liferay> I guess so.
+09:35 < Tar-Minyatur:#liferay> Definitely worth thinking about it.
+09:35 < Tar-Minyatur:#liferay> Thanks for the idea. :)
+09:49 < hufg:#liferay> ahh i removed all liferay specific stuff from theme and the performance improvement was...0
+09:50 < Tar-Minyatur:#liferay> Performance as in browser or as in page loading time?
+09:50 < hufg:#liferay> well just tried to retrieve the page without cache 5k times
+09:50 < hufg:#liferay> rendering in browser takes some time also but it's probably neglible
+09:51 < hufg:#liferay> performance as in page loading time
+09:53 < hufg:#liferay> the removed stuff included all liferay javascript, styles and all jsp files included in theme
+09:53 < hufg:#liferay> and dynamicssfilter
+09:55 < hufg:#liferay> hmm
+09:55 < hufg:#liferay> i wonder if curl even retrieves that content just prints the html content
+09:55 < hufg:#liferay> probably not hehe
+09:56 < hufg:#liferay> no time to do proper testing with this kind of tinkering
+09:56 < dblessing:#liferay> jardineworks: nope, it's not backward compatible :)
+09:57 < jardineworks:#liferay> dblessing, do they use the same names? or can you mash the two together :)
+09:57 < dblessing:#liferay> jardineworks: unsure.
+09:57 < dblessing:#liferay> i'd have to dig in more. but possibly
+09:57 < jardineworks:#liferay> i doubt it ... most developers aren't that thoughtful :)
+09:57 < jardineworks:#liferay> though if you are not going to make it backwards compatible, really you should at least pre or post fix with a version
+09:59 < jardineworks:#liferay> dblessing, you could probably do that! You could add a v2 to each of the css class names and then do the same in the portal source... and then put bootstrap 2 and 3 in the same theme :)
+10:01 < hufg:#liferay> jardineworks: btw the neat site you are working on which version of liferay are you using? just out of curiousity
+10:06 < jardineworks:#liferay> hufg, 6.1.2 CE
+10:06 < hufg:#liferay> nice
+10:06 < hufg:#liferay> did you upgrade from ga2?
+10:07 < jardineworks:#liferay> actually... wait, we might be on 6.1.1 GA2 CE
+10:07 < jardineworks:#liferay> lemme check
+10:07 < jardineworks:#liferay> sorry yeah... 6.1.1
+10:07 < hufg:#liferay> any plans to upgrade?
+10:21 < jardineworks:#liferay> hufg, not just yet. We're about 6 - 7 weeks behind (read: everyone is 6 - 7 weeks giving me what I need) so priority right now is to get it done. Once we launch I think I'll pitch them on the idea of looking to upgrade right through to 6.2
+10:21 < hufg:#liferay> mm
+10:22 < jardineworks:#liferay> initial release is pretty barebones LR and more about integration with a few 3rd party systems.
+10:22 < jardineworks:#liferay> they are certainly using some of the LR stuff... but not enough that I worry much about upgrading. I'm just going to remain naive for now :)
+10:32 < Tar-Minyatur:#liferay> Wow. Liferay is totally the wrong tool for a page where functions have to be added quickly and in a very flexible manner. Oo
+10:33 < Tar-Minyatur:#liferay> I was just asked to estimate how much time it would take to implement a web form with some contact detail fields and two image uploads. Data should either be stored and available via CSV-Export or be sent to a webservice.
+10:34 < Tar-Minyatur:#liferay> And due to the very special form layout, probably the only solution would be to write a custom portlet for that...
+10:34 < Tar-Minyatur:#liferay> (Otherwise I would have shouted DDL immediately...but layout and webservice are a problem there.)
+10:36 < jardineworks:#liferay> Tar-Minyatur, custom portlet with AUI fields? that shouldn't take more than a few hours.
+10:36 < Tar-Minyatur:#liferay> AUI is a no-go.
+10:37 < Tar-Minyatur:#liferay> You should see the faces of our designers when they see a page built with AUI.
+10:37 < jardineworks:#liferay> I don'
+10:37 < jardineworks:#liferay> ?
+10:37 < jardineworks:#liferay> presentation just requires css
+10:37 < Tar-Minyatur:#liferay> The whole styling of the page hasn't been built around AlloyUI.
+10:37 < jardineworks:#liferay> the default look and feel of AUI doesn't mean anything.
+10:39 < jardineworks:#liferay> I was referring to the taglib ... not the JS framework
+10:40 < jardineworks:#liferay> you can virtually drag and drop to build the form and it'll auto namespace for you. All you have to do is write the action handler for the portlet.
+10:43 < Tar-Minyatur:#liferay> If only I had the time to get some Liferay development experience. *sigh*
+10:44 < Tar-Minyatur:#liferay> I don't know how they expect me to estimate how long implementation takes, if I never have the time to actually find out how long things take.
+10:44 < Tar-Minyatur:#liferay> In my mind it was like: Uh...image handling is always a hassle...styling the form the way they want it will take ages...and dealing with some unknown webservice...uuuuugh.
+10:52 < hufg:#liferay> jardineworks: an upgrade is doable once you put out the $$$
+10:52 < hufg:#liferay> i'm fairly sure you can throw oob ce out when upgrading
+10:53 < hufg:#liferay> or eheh you must
+10:54 < hufg:#liferay> i was just asking because i'm trying to battle for this https://issues.liferay.com/browse/LPS-41701 issue 8)
+10:55 < jardineworks:#liferay> ah yes... I was stalking that conversation between you and rotty
+10:55 < jardineworks:#liferay> says its fixed in 6.2 :)
+10:55 < jardineworks:#liferay> can you backport?
+10:56 < jardineworks:#liferay> rotty is looking at it today apparently
+10:56 < hufg:#liferay> uhh marked as fixed
+10:56 < hufg:#liferay> didn't notice that
+10:56 < hufg:#liferay> :D
+10:59 < hufg:#liferay> mmjh but from commits the nonlocal local stuff isn't being fixed
+10:59 < hufg:#liferay> they just dance around the issue because there isn't a test case
+10:59 < hufg:#liferay> it can be just our db but i doubt it
+11:00 < hufg:#liferay> we play very nice with liferay
+11:01 < hufg:#liferay> uh okay i was distracted by the api call name, the commit log says  If staging is enabled, use local services for file entry checkIn and cancelCheckout
+11:01 < hufg:#liferay> ok ok maybe it will get fixedx
+11:02 < jardineworks:#liferay> I was going to say.. I don't think rotty would approve that
+11:02 < jardineworks:#liferay> if I recall his primary beef was the local calling the nonlocal
+11:03 < hufg:#liferay> yes
+11:03 < hufg:#liferay> there seem to be different opinions floating around about that 8)
+11:05 < jardineworks:#liferay> I would think that the senior architects opinion matters the most. Especially when he is the reviewer :)
+11:05 < hufg:#liferay> indeed
+11:42 < hufg:#liferay> my task is to slim down the oob liferay, any great ideas? 8) i have removed unneeded portlets, filters and journal transformers
+13:17 -!- mode/#liferay [+o jhf] by ChanServ
+14:46 < jardineworks:#liferay> Does anyone know why contact.setBirthday( birthday ) (where contact was created using ContactLocalServiceUtil and birthday is a Date object) would give me a null pointer exception?
+14:47 < jardineworks:#liferay> I mean, the ContractModelImpl method is defined as 	public void setBirthday(Date birthday) {
+14:47 < jardineworks:#liferay> 		_birthday = birthday;
+14:47 < jardineworks:#liferay> 	}
+14:48 < jardineworks:#liferay> its shouldnt even care if I send a null in explicitly
+14:49 < jardineworks:#liferay> all the awesome stuff Liferay does. But it can't save a date. Awesome.
+14:59 < jardineworks:#liferay> or
+14:59 < jardineworks:#liferay> I'm a moron
+14:59 < jardineworks:#liferay> which is much more liekly :S
+15:08 < Tar-Minyatur:#liferay> Well...looks like the null pointer could only come from the contact, not the method call.
+15:08 < Tar-Minyatur:#liferay> If this is still an issue. ;)
+15:25 < jardineworks:#liferay> that was exactly it. if ( user.getContact() == null ) .. then I create a new contact. Issue was, the else was not defined. fail.
+15:25 < jardineworks:#liferay> I need more sleep and less work.
+15:26 < Tar-Minyatur:#liferay> :)
+17:32 < jardineworks:#liferay> can someone tell me how in the world I can get a &(*%#Q@#'ing AUI TLD Select tag to set the selected option. I think I am officially out of JSP, Java, JSTL options.
+17:32 < jardineworks:#liferay> is the selected attribute on an option not a true/false value?!
+17:35 < jardineworks:#liferay> ARGH! I HATE BROWSER CACHE!
+17:37 < apucay:#liferay> from looking at portal-web\docroot\html\taglib\aui\select\start.jsp, it looks like depends if listType is set or not
+17:44 < jardineworks:#liferay> apucay, that is even dumber. Is so I have to set it to "single" for it to actually output selected="true" on my element?
+17:49 < apucay:#liferay> actually, listtype is a table
+17:49 < jardineworks:#liferay> all it ever outputs is selected=""
+17:50 < apucay:#liferay> so i'm wondering if preselection is only intended for certain domain objects
+17:53 < jardineworks:#liferay> apucay, I don't understand what you are talking about. The option tag has a "selected" attribute that should be set (I would imagine) if the item is the one that should be selected right?
+17:54 < jardineworks:#liferay> so if I do selected="<%= (condition) %>" .. then it should either be true/false.
+17:54 < jardineworks:#liferay> and evaluate to selected="true" or selected="false"
+17:54 < jardineworks:#liferay> and the one that is set to true, should be the one that is rendered as the selected item
+17:54 < apucay:#liferay> is that on the <aui:select> or <aui:option>
+17:54 < apucay:#liferay> ?
+17:55 < jardineworks:#liferay> aui:option within an aui:select
+17:56 < apucay:#liferay> the based on the jsp, yes what you're saying should be true
+17:56 < apucay:#liferay> boolean selected = GetterUtil.getBoolean(String.valueOf(request.getAttribute("aui:option:selected")));
+17:57 < jardineworks:#liferay> apucay, I am trying to do it the other way.. I am trying to set the value to selected in the JSP
+17:58 < rterwedo:#liferay> Hey - anyone know any Liferay devs looking for work, please contact me.  ryan@cloudria.com   Prefer Europe or States
+17:59 < apucay:#liferay> yeah, i pasted what the <aui:option> tag was doing
+17:59 < apucay:#liferay> portal-web\docroot\html\taglib\aui\option\start.jsp
+18:01 < apucay:#liferay> jardine, in the rendered html you are seeing selected=""?
+18:02 < jardineworks:#liferay> apucay, I am... just don't understand why it renders that an not selected="true"
+18:03 < jardineworks:#liferay> and then for all the others, selected="" or selected="false" is not there.
+18:04 < apucay:#liferay> i thought the option tag only needed the word "selected" as one of its attributes
+18:04 < apucay:#liferay> not selected="true"
+18:07 < jardineworks:#liferay> agreed -- but I would have expected selected="true" to output "selected" not selected = ""
+18:08 < apucay:#liferay> i'm trying to find which code spits out selected = ""
+18:09 < apucay:#liferay> which version of LR?
+18:09 < apucay:#liferay> i'm looking at the 6.1.20 source
+18:10 < jardineworks:#liferay> 6.1.1 for me
+18:11 < jardineworks:#liferay> though I doubt that changed between the point releases :)
+18:11 < apucay:#liferay> oh maybe the tag isn't capturing it
+18:12 < apucay:#liferay> can you try literally trying selected='<%= "true" %>' in the aui:option, for shits and giggles
+18:12 < jardineworks:#liferay> I have it working now.. it was the stupid browser cache that was causing me pain
+18:12 < jardineworks:#liferay> though i still maintain that it should render "selected" not selected=""
+18:13 < apucay:#liferay> it should, hence my latest suggestion
+18:13 < apucay:#liferay> but if it selecting properly, then it's moot
+23:14 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Tue Oct 29 00:00:49 2013

@@ -1,0 +1,43 @@
+--- Log opened Wed Aug 21 00:00:07 2013
+04:06 < rajes> Any one can shed some light ... "This instance is inactive. Please contact the administrator"
+04:07 < rajes> Tried to delete some unused themes from db.
+04:15 < rajes> Tried to delete unused theme from db .. deleted layout, layoutset, group_, company records. Now it says - #No Group exists with the key {companyId=0, classNameId=10021, classPK=0}
+04:23 < rajes> Tried to delete unused theme from db .. deleted layout, layoutset, group_, company records. Now it says - #No Group exists with the key {companyId=0, classNameId=10021, classPK=0}
+04:46 < Tar-Minyatur> You fiddled around in the database manually?
+04:53 < rajes> Yes I did, Tar
+04:53 < rajes> Or else it just throws lot of theme not found things in the logs
+04:56 < olafk> technically it's too late for this, but the general rule of thumb is: SQL is good for reading the database. If you ever use it to manipulate it, prepare for upcoming issues (as you mentioned)
+04:57 < Tar-Minyatur> And always make a backup.
+04:57 < Tar-Minyatur> Liferay stores everything in the database...messing around with that by hand will most likely break something.
+04:57 < Tar-Minyatur> Unless you know EXACTLY what you are doing.
+05:10 < rajes> Thank you Tar, Can't do anything now, have to start a fresh instance
+05:10 < rajes> Will make a note of it and follow in future
+05:14 < Tar-Minyatur> Why do you have themes that need to be deleted like that anyway?
+05:14 < Tar-Minyatur> Every new theme should (in theory) be a plugin.
+05:15 < Tar-Minyatur> Thus, you could remove any theme by undeploying it from your appserver.
+05:29 < rajes> I tried to do a custom theme a few months back and today I have to scrap that one off and had to get on with other development.
+05:30 < rajes> Just went and un-deployed theme from tomcat. When I restarted the server, it still had references to the old theme.
+06:37 < olafk> rajes, you can identify what site references the theme and just choose an existing theme for that site to get rid of the references.
+06:38 < rajes> Will give a try, Thanks olafk !
+06:39 < olafk> ideally you've chosen a theme for the whole site (that's easily maintainable) instead of individual pages. If it's a high burden to change manually, scripting through the API might be a better solution, but that has its own complexity (e.g. you'll have to know the API)
+06:39 < olafk> but with the API you can iterate through the pages (layouts) and update the theme individually
+06:40 < rajes> Can you point me which table I need to look in for the sites ?
+06:45 < rajes> I think, I shoudn't have deleted any records from "layout" db table. Instead I would have pointed the groupid
+08:38 < Axxell> hey guys, trying to get nested groups in ldap group import to work in liferay; found this: http://www.liferay.com/community/forums/-/message_boards/message/4403960
+08:38 < Axxell> i tried to get that AD OID thing in my portal-ext.properties
+08:38 < Axxell> like this: ldap.group.mappings=groupName=cn\ndescription=description\nuser=Member:1.2.840.113556.1.4.1941:
+08:38 < Axxell> but it does not seem to work
+08:40 < Axxell> does anybody have any clues what i might do to correct that?
+09:37 < jardineworks> good morning guys
+09:37 < jardineworks> does anyone know if there is a place where you can scroll through a list of sites that are built on Liferay?
+10:07 < olafk> rajes, you shouldn't ever rely on the database - especially not when you try to manipulate it.
+10:09 < olafk> Axxell, in case you've configured LDAP once on the UI layer, that most likely takes precedence over the portal-ext.properties settings
+10:10 < olafk> If something is configured in both, the config file AND the database, the database wins (silently)
+10:10 < olafk> Maybe that's what you're running into
+10:36 -!- mode/#liferay [+o lundgren] by ChanServ
+11:30 -!- mode/#liferay [+o lundgren] by ChanServ
+12:17 < josuebc> Hi there. I am creating a custom template and I want to check for the Liferay.Session object with JavaScript but I the object doesn't seem to get created, Maybe I deleted some include on the template. Which file should I be looking for if I am missing the Session obj for javascript?
+12:32 < jardineworks> hey rotty3000 -- are you around?
+12:33 <@rotty3000> yeah.. but I'm in a deep trench right now
+12:33 < jardineworks> rotty3000, roger that. I'll try again later/tomorrow :)
+--- Log closed Thu Aug 22 00:00:09 2013

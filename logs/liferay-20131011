@@ -1,0 +1,57 @@
+--- Log opened Fri Oct 11 00:00:57 2013
+01:19 < hufg:#liferay> topolik: you are my only hope!
+01:19 < hufg:#liferay> how is the "context" of a jsp determined? ie. which group it belongs to on a given request
+01:19 < hufg:#liferay> status.jsp works funny
+01:20 < hufg:#liferay> virtualhost on works almost as expected but in staging it throws to the default group
+01:20 < hufg:#liferay> and with virtualhost malformed document library link will redirect to the root page which is wrong, it should at least attempt to use referer as a basis
+04:34 < Axxell:#liferay> hey guys, trying to get fileentries from the document and library with .getFileEntries (there are different classes for it), i need to get files only in a specifik folder
+04:35 < Axxell:#liferay> i cant find one that would work, how do you do that? btw do the orderby comparator work?
+07:14 < hufg:#liferay> aa any ideas how to get PermissionChecker in jsp without liferay-theme:defineObjects
+07:19 < hufg:#liferay> can't find a suitable bean either
+07:24 < hufg:#liferay> ít's defined in util-spring.xml but it's not usable from PortalBeanLocatorUtil in my jsp
+07:35 < hufg:#liferay> 404 and 500 error page handling seems a horrible hack
+07:35 < hufg:#liferay> i wonder if i'm doing it wrong hehe
+07:36 < hufg:#liferay> set 404.jsp and hook status.jsp, the behaviour of status.jsp is unexpected without virtualhost set and documentlibrary 404 errors are discarded
+07:40 < hufg:#liferay> yes yes found it great
+13:37 < jardineworks:#liferay> hey guys -- anyone around?
+13:38 < jardineworks:#liferay> I have a custom structure with a boolean field (set to Text Indexed).
+13:38 < jardineworks:#liferay> I saved the structure.
+13:38 < jardineworks:#liferay> created some content
+13:38 < jardineworks:#liferay> reindexed the search index (using the admin)
+13:38 < jardineworks:#liferay> but my search does not seem to have my boolean value as one of the fields.
+13:40 < jardineworks:#liferay> hah -- doesn't apply to old version of the article I guess.
+13:52 < modd:#liferay> you have to set the custom value as indexed/searchable in your control panel
+14:07 < jardineworks:#liferay> modd, I have .. I can see it now
+14:07 < jardineworks:#liferay> modd, but d you know how to apply a sort to the query?
+14:07 < jardineworks:#liferay> no matter what I try I always get the same results.
+14:08 < modd:#liferay> what kind of sorting?
+14:12 < jardineworks:#liferay> modd, I just want to sort my results by modeifiedDate (and I have a restriction of 0, 1 for start end so that I basically get 1 record that it the most recent)
+14:13 < jardineworks:#liferay> I have a custom structure with a feature flag. I have two of them Article 5 and Article 6. Both are marked as featured, and in this situation I want to pull back the most recently modified ... actually, probably most recently created
+14:15 < jardineworks:#liferay> hmm... I was using the SearchEngineUtil... but I see that there is a JournalArticleLocalServiceUtil.search as well.
+14:15 < modd:#liferay> hmm..the problem is, that you're using the default user model
+14:16 < jardineworks:#liferay> sorry?
+14:16 < modd:#liferay> you probably need to override the search provider for the model
+14:16 < jardineworks:#liferay> how come?
+14:17 < jardineworks:#liferay> I mean, I am getting results .. and I am filtering by the flag for is_featured without issue
+14:17 < jardineworks:#liferay> and createdDate is part of the raw model -- not a custom field.
+14:17 < jardineworks:#liferay> so I would assume that I could sort on it.
+14:19 < modd:#liferay> you could hook /html/portlet/search/main_serach.jspf
+14:20 < modd:#liferay> search*
+14:21 < jardineworks:#liferay> modd, this is for a custom portlet
+14:22 < jardineworks:#liferay> I am able to create the sort (I think) using this -- Sort dateSort = SortFactoryUtil.getSort( JournalArticle.class, "modifiedDate", "desc" );
+14:23 < jardineworks:#liferay> but then how am I supposed to add it to the query? through the search context?
+14:23 < modd:#liferay> searchContext.setSorts(dateSort);
+14:24 < jardineworks:#liferay> modd, and then -- Hits hits = SearchEngineUtil.search( searchContext, searchQuery );
+14:24 < jardineworks:#liferay> right?
+14:24 < modd:#liferay> Indexer indexer = FacetedSearcher.getInstance(); Hits hits = indexer.search(searchContext);
+14:25 < jardineworks:#liferay> FacetedSearcher?
+14:25 < jardineworks:#liferay> why can't I used the SerarchEngineUtil?
+14:25 < jardineworks:#liferay> and why not the IndexSearcher?
+14:28 < modd:#liferay> maybe you can
+14:39 < jardineworks:#liferay> modd, hah... helps if you use the right field name... modified not modifiedDate
+14:39 < modd:#liferay> ;)
+14:46 < jardineworks:#liferay> 			Sort[] querySorts = { SortFactoryUtil.getSort( JournalArticle.class, "modified", "desc" ) };
+14:46 < jardineworks:#liferay> 			searchContext.setSorts(  querySorts  );
+14:46 < jardineworks:#liferay> 			Hits hits = SearchEngineUtil.search( searchContext.getSearchEngineId(), themeDisplay.getCompanyId(), searchQuery, querySorts, 0, 1);
+14:47 < jardineworks:#liferay> tada!
+--- Log closed Sat Oct 12 00:00:58 2013

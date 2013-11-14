@@ -1,0 +1,437 @@
+--- Log opened Wed Sep 18 00:00:25 2013
+00:09 -!- mode/#liferay [+o lundgren] by ChanServ
+00:22 -!- mode/#liferay [+o lundgren] by ChanServ
+00:25 -!- mode/#liferay [+o lundgren] by ChanServ
+03:32 < Axxell:#liferay> hey guys, do you know if i can set som custom css for a porlet which is embedded in a theme with the portleturl parameters?
+03:38 < topolik1:#liferay> Axxell: Hi, there are problems with CSS for embedded portlets
+03:38 < avinashrbhat:#liferay> where can i find the documentation of tags in tld http://liferay.com/tld/ui?
+03:38 < Axxell:#liferay> topolik1: yeah i have the portlet in an iframe too
+03:39 < topolik1:#liferay> iframe?
+03:39 < topolik1:#liferay> if you embed it directly in the theme, you can write that CSS into the theme
+03:39 < topolik1:#liferay> but if you use iframe, that CSS must be included inside the iframe
+03:39 < Axxell:#liferay> 			<iframe frameborder="0" id="${locPortletId}custom_frame" src="${embeddedPortletURL.toString()}" scrolling="no" width="30%" class="language_iframe"></iframe>
+03:39 < Axxell:#liferay> yeah probably need to get rid of the iframe
+03:40 < topolik1:#liferay> iframes are good, they don't slow down rendering of the page
+03:40 < topolik1:#liferay> I think Ray wrote some interesting blog post regarding embedded portlets
+03:40 < topolik1:#liferay> https://www.liferay.com/web/raymond.auge/blog/-/blogs/embedding-portlets-in-themes-on-liferay
+03:41 < topolik1:#liferay> I don't know if it's still valid, but you can try
+03:41 < topolik1:#liferay> hmm, I see, you already go with one of the examples from there :D
+03:44 < Axxell:#liferay> yeah i used the second, recommended example
+03:44 < Axxell:#liferay> but because i dont seem to be able to get rid of the background of the portlet with css
+03:44 < Axxell:#liferay> illl probably include it in theme as they do in example 1
+03:45 < Axxell:#liferay> the language portlet should be fast, i hope
+03:54 -!- mode/#liferay [+o lundgren] by ChanServ
+03:56 < Axxell:#liferay> topolik1: do you know how i set the embedded portlet  borderless
+03:59 < topolik1:#liferay> hmmm
+03:59 < topolik1:#liferay> with example 2 ?
+04:00 < topolik1:#liferay> I think the Ray's code should work for it
+04:01 < Axxell:#liferay> example 1
+04:12 < Axxell:#liferay> topolik1: trying with this..
+04:12 < Axxell:#liferay> topolik1: #set ($portlet_id = '82') #set ($instance_id = 'E3j7') #set ($my_portlet_id = "${portlet_id}_INSTANCE_${instance_id})  #set ($VOID = $velocityPortletPreferences.setValue('portlet-setup-show-borders', 'false')) #set($renderedPortletContent = $theme.runtime($my_portlet_id, "", $velocityPortletPreferences.toString()))  $renderedPortletContent  #set ($VOID = $velocityPortletPreferences.reset())
+04:13 < topolik1:#liferay> does it work?
+04:28 < Axxell:#liferay> tried with #set ($VOID = $velocityPortletPreferences.setValue('portlet-setup-show-borders', 'false')) #set ($instanceId = 'E3j7') #set ($myPortletId = "82_INSTANCE_${instanceId}")$theme.runtime($myPortletId, '', $velocityPortletPreferences.toString()) #set ($VOID = $velocityPortletPreferences.reset())
+04:28 < Axxell:#liferay> and it displays the portlet
+04:28 < Axxell:#liferay> but it has the portlet topper etc visible
+04:28 < topolik1:#liferay> hmm
+04:31 < Axxell:#liferay> well ofcourse i can use css to hide it, but but
+04:31 < Axxell:#liferay> it should work
+04:35 < Axxell:#liferay> topolik1: i dont seem to be the only one https://www.liferay.com/community/forums/-/message_boards/message/21514926
+04:36 < hufg:#liferay> helloo helloo
+04:37 < hufg:#liferay> CE GA2 -> GA3 upgrade is broken/incomplete
+04:37 < hufg:#liferay> publish to live breaks
+04:38 < hufg:#liferay> there needs to be a db update for dlfolders, http://issues.liferay.com/browse/LPS-32710
+04:40 < hufg:#liferay> can't be arsed to track down the offending commit to publishing but it essentially changes date range check for folder from modified date to last post date
+04:41 < hufg:#liferay> prior to ga3 last post date is null by default, ie. on upgrade publishing breaks
+04:42 < hufg:#liferay> the default value is fixed in lps-32710 for ce 6.1.2 ga3
+07:22 < hufg:#liferay> yees yees and the my places portlet is broken linking to localhost:port
+07:59 < Axxell:#liferay> hmm intresting, ie9 seems to cache liferaypages and i cant figure out why
+08:26 -!- mode/#liferay [+o jhf] by ChanServ
+09:36 < Tar-Minyatur:#liferay> Hey guys. Anybody familiar with Liferay's clustering features?
+09:37 < Tar-Minyatur:#liferay> I just read that cluster.link.enabled=true would lead to synced Lucene indexes and distributed caching.
+09:37 < Tar-Minyatur:#liferay> But how does Liferay recognize others nodes?
+09:37 < Tar-Minyatur:#liferay> Does it do that automatically using the shared database?
+10:15 -!- mode/#liferay [+o lundgren] by ChanServ
+10:25 < avinashrbhat:#liferay> i have an entity like this http://pastie.org/private/uio7yi3bttz3ih8reqpy1g . after running the build-service target the finder method is not getting generated
+10:26 < avinashrbhat:#liferay> can anyone help me identify  what's wrong i'm doing
+10:27 < avinashrbhat:#liferay> i had run build-service previously without the finder. after that i removed all the generated files and still i'm getting the same thing
+10:35 < hufg:#liferay> Tar-Minyatur: http://www.jgroups.org/
+10:35 < hufg:#liferay> Tar-Minyatur: thats how
+10:35 < hufg:#liferay> multicast broadcasts etc
+10:35 < hufg:#liferay> you need to enable lucene write or something like that for every node
+10:36 < hufg:#liferay> perhaps you don't have every node writing in the cluster
+10:37 < hufg:#liferay> then you can do shared network drives and other stuff
+10:37 < hufg:#liferay> if you would fire up an environment with clustering configured youd see how it works
+10:40 < hufg:#liferay> just read the user guide it's enough to get you started
+10:42 < hufg:#liferay> lol i was so wrong on 6.1.1 GA2 -> 6.1.2 GA3 upgrade, this shit is not easy
+10:42 < hufg:#liferay> man you have only defect and pacl issues on jira and still the wierdest shit breaks
+10:44 < hufg:#liferay> no major features or anything like that and it's still fucked up
+10:51 < hufg:#liferay> even the goddamn motherfucking document library data migration was missing
+10:53 -!- mode/#liferay [+o lundgren] by ChanServ
+10:56 < jardineworks:#liferay> Tar-Minyatur, pm me your email -- I can send you a guide I have on how to do it with 6.1
+10:56 < jardineworks:#liferay> Tar-Minyatur, assumign I can find it that is :)
+11:06 < Tar-Minyatur:#liferay> So...we have five Liferay instances. They all use the same database.
+11:06 < Tar-Minyatur:#liferay> And the same S3 bucket.
+11:06 < Tar-Minyatur:#liferay> That's it for sharing between these instances. Can anybody take a guess at what problems might arise from that? Something related to caching maybe?
+11:07 < Tar-Minyatur:#liferay> Because to me it looks like there are some more things involved than just sharing data sources.
+11:26 < jardineworks:#liferay> Tar-Minyatur, are you asking because you have problems? or are you just assuming that you are going to have problems? :)
+11:28 < Tar-Minyatur:#liferay> Both. :D
+11:28 < Tar-Minyatur:#liferay> We actually have 5 live boxes set up the way I just said.
+11:28 < Tar-Minyatur:#liferay> And right now we have issues with publishing certain things from staging to live.
+11:29 < Tar-Minyatur:#liferay> They don't appear properly on all boxes.
+11:29 < Tar-Minyatur:#liferay> And I assume that this is some kind of caching issue.
+11:29 < jardineworks:#liferay> Tar-Minyatur, so page X appears differrently on each of the 5 boxes?
+11:29 < Tar-Minyatur:#liferay> Yeah. We actually have one of the boxes set up as admin instance.
+11:30 < Tar-Minyatur:#liferay> On the other four the CP is not accessible.
+11:30 < Tar-Minyatur:#liferay> And it often happens that the admin box looks just fine, but the other four boxes don't appear to notice the change.
+11:30 < Tar-Minyatur:#liferay> As they are on the same DB, it has to be some kind of caching.
+11:30 < jardineworks:#liferay> Tar-Minyatur, what happens if you go to the Control Panel > Server > Server Administration and clear the cache across the cluster?
+11:31 < jardineworks:#liferay> I'm curious if, when the cache is rebuilt, it appears correctly or not.
+11:31 < Tar-Minyatur:#liferay> So far that never helped when I tried it.
+11:31 < jardineworks:#liferay> hmmm
+11:31 < jardineworks:#liferay> not possible that it is browser cache?
+11:31 < Tar-Minyatur:#liferay> I'm not sure clearing across the cluster works if the cluster isn't properly set up.
+11:31 < Tar-Minyatur:#liferay> (Is having the same DB enough for that`?)
+11:32 < Tar-Minyatur:#liferay> Nah. We even started using different browsers and stuff to make absolutely sure it's not something locally.
+11:32 < jardineworks:#liferay> 5 servers pointing to the same DB but not knowing about each other? no
+11:32 < jardineworks:#liferay> the servers need to know about eachother
+11:32 < jardineworks:#liferay> I think anyway.
+11:32 < Tar-Minyatur:#liferay> Via the clustering setup we talked about earlier, I guess?
+11:32 < jardineworks:#liferay> I believe so. I would start there anyway
+11:33 < Tar-Minyatur:#liferay> *sigh* I wish I could.
+11:34 < Tar-Minyatur:#liferay> What happens if the clustering is not set up? Every box has its own cache and will never realize if one of the other boxes changed something, right?
+11:34 < jardineworks:#liferay> The cache is not just on the database right? I mean, the app servers have cache as well (in memory and disk I would assume) so if Server A does something but doesm't tell the other 4, then there is no way for them to know to update their instance. If that is the case and you LB a user to Server B - E then they will see an outdated version
+11:34 < Tar-Minyatur:#liferay> I'm actually not sure how EhCache works, but I don't think it's on the DB.
+11:34 < jardineworks:#liferay> agreed
+11:34 < Tar-Minyatur:#liferay> Because Hibernate uses it and caching database stuff in the database seems pointless.
+11:35 < jardineworks:#liferay> true -- but the database will also cache things on its own right?
+11:35 < jardineworks:#liferay> but that is separate from LR
+11:36 < Tar-Minyatur:#liferay> It's just MySQL (or Amazon RDS's varsion of it anyway). I'm not sure if that crutch even knows how to spell caching. :D
+11:36 < jardineworks:#liferay> haha
+11:36 < Tar-Minyatur:#liferay> And it wouldn't show up correctly on one instance and wrong on the others if it were a database caching problem, I think. ;)
+11:36 < jardineworks:#liferay> depends on what is cached.
+11:37 < Tar-Minyatur:#liferay> It has to be something on Liferay's end I think. Because that's what the guys messed up in this project.
+11:37 < jardineworks:#liferay> the result set being cached in a central DB migt go back properly to each of the servers, but a different JSP cached page might not use all of the attributes in a result set, where as other (newer cahced pages) would.
+11:37 < Tar-Minyatur:#liferay> Mhm mhm.
+11:37 < jardineworks:#liferay> you're probably right, but if you don't have the cluster configured then it will never work.
+11:38 < jardineworks:#liferay> replication is kinda important for your example.
+11:38 < Tar-Minyatur:#liferay> Well...as far as I've seen so far, the stuff from the DB is actually converted into a JSON and put directly into a page via a webcontent template, which contains the code for that.
+11:38 < jardineworks:#liferay> the only alternative would be to turn caching off altogether
+11:38 < Tar-Minyatur:#liferay> I would expect Liferay to have some kind of caching for templates or even for web content.
+11:39 < jardineworks:#liferay> the portal-impl contains several Cache* prefixed classes
+11:39 < Tar-Minyatur:#liferay> Oh. No. I'm wrong. It's not web content. It's a DDL template.
+11:39 < Tar-Minyatur:#liferay> A list template.
+11:39 < jardineworks:#liferay> for example, CacheUtil
+11:39 < Tar-Minyatur:#liferay> But there is caching for that, too, I think.
+11:40 < jardineworks:#liferay> which has a putCacheResponseData and a getCacheResponseData
+12:32 -!- mode/#liferay [+o lundgren] by ChanServ
+12:49 < Tar-Minyatur:#liferay> jardineworks: As usual...my thanks. I'm calling it a day.
+12:49 < Tar-Minyatur:#liferay> My head hurts...
+13:03 < jardineworks:#liferay> Tar-Minyatur, hah -- see you tomorrow
+13:03 < jardineworks:#liferay> there is always another day :)
+13:05 < Tar-Minyatur:#liferay> You should start with something I can help you with, so I'm not only leeching in here. ;)
+13:09 < jardineworks:#liferay> hah -- happy to help. Open Source is about the community right?
+13:09 < jardineworks:#liferay> I think Larry Ellison has enough money with his 47 billion.
+13:10 < jardineworks:#liferay> time for rotty3000 to cash in ;)
+13:21 -!- mode/#liferay [+o lundgren] by ChanServ
+13:38 < jardineworks:#liferay> I have a velocity question if anyone is around and has a minute -
+13:38 < jardineworks:#liferay> I have created a structure/template pairing. In my template I have added the following couple lines of code.
+13:38 < jardineworks:#liferay> #set ($userLocalService= $serviceLocator.findService("com.liferay.portal.service.UserLocalService"))
+13:38 < jardineworks:#liferay> #set ($user = $userLocalService.getUserById($request.get("theme-display").get("user-id")))
+13:38 < jardineworks:#liferay> #set ($emailAddress = $user.getEmailAddress())
+13:38 < jardineworks:#liferay> <div>Email: $emailAddress.data</div>
+13:39 < jardineworks:#liferay> I am logged in at the test@liferay.com so I would expect that I see "Email: test@liferay.com" ... but instead all I see is the variable name itself -- Email: $emailAddress.data.
+13:40 < jardineworks:#liferay> I have also tried withouth the .data, but that just renders $emailAddress.
+13:40 < jardineworks:#liferay> Not sure what I am doing wrong, does anyone have a hint for me?
+13:43 < Tar-Minyatur:#liferay> Have tried dumping $user?
+13:44 < Tar-Minyatur:#liferay> Maybe you need to do a typecast for the UserID. I had a similar issue at some point.
+13:58 < jardineworks:#liferay> good question... lemme try that.
+13:58 < jardineworks:#liferay> I thought you were going home? lol
+13:59 < jardineworks:#liferay> $user does the same thing. It just renders "$user" on the screen
+13:59 < jardineworks:#liferay> :(
+13:59 < Tar-Minyatur:#liferay> I am home. ;)
+14:00 < Tar-Minyatur:#liferay> Try to assign the ID to a variable first.
+14:01 < jardineworks:#liferay> you mean like this -- #set ($id = $request.get("theme-display").get("user-id"))
+14:01 < Tar-Minyatur:#liferay> There is a lot of annoying stuff going on in Velocity with variable types and stuff.
+14:01 < Tar-Minyatur:#liferay> Yeah.
+14:02 < Tar-Minyatur:#liferay> You also could establish logging there.
+14:02 < jardineworks:#liferay> same.
+14:02 < Tar-Minyatur:#liferay> Break it down further.
+14:02 < jardineworks:#liferay> you can log from a velocity template? I didn't know that!
+14:02 < Tar-Minyatur:#liferay> Something doesn't work (or has the wrong type).
+14:03 < Tar-Minyatur:#liferay> You can. It's a little messy, but possible.
+14:05 < Tar-Minyatur:#liferay> Can't show you the code.
+14:05 < Tar-Minyatur:#liferay> No code at home. ;)
+14:05 < jardineworks:#liferay> hah!
+14:05 < jardineworks:#liferay> #set ($logFactory = $portal.getClass().forName('com.liferay.portal.kernel.log.LogFactoryUtil'))
+14:05 < jardineworks:#liferay> 2#set ($log = $logFactory.getLog('mylog'))
+14:05 < jardineworks:#liferay> 3$log.error($msgCount)
+14:05 < jardineworks:#liferay> 4$log.error("Hi There")
+14:05 < Tar-Minyatur:#liferay> Yeah. Exactly. ;)
+14:05 < jardineworks:#liferay> totally works :)
+14:06 < Tar-Minyatur:#liferay> You will have to break down your expression into its single parts.
+14:06 < Tar-Minyatur:#liferay> One of them yields no result.
+14:06 < Tar-Minyatur:#liferay> Or the result has the wrong type.
+14:06 < Tar-Minyatur:#liferay> Velocity is annoying like this.
+14:10 < jardineworks:#liferay> LOL
+14:10 < jardineworks:#liferay> omg
+14:10 < jardineworks:#liferay> this is so great i have to share despite my stupidity.
+14:11 < jardineworks:#liferay> yesterday I was playing around with hook. I created a service wrapper hook for the UserLocalService. I guess I deployed it (i didn't think I had)... but I never actually DID anything with it
+14:11 < jardineworks:#liferay> so I think it is working, just that I don't have an override for the method I am calling.
+14:11 < jardineworks:#liferay> hah
+14:11 < Tar-Minyatur:#liferay> :D
+14:13 < Tar-Minyatur:#liferay> At least now you know how to log from a template. Totally worth it. ;D
+14:15 < jardineworks:#liferay> hahah true
+14:15 < jardineworks:#liferay> just funny. if i had chosen ANY other service class...
+14:19 -!- mode/#liferay [+o jhf] by ChanServ
+14:24 < jardineworks:#liferay> still doesn't work :(
+14:25 < jardineworks:#liferay> $user just keeps printing on the screen as is... and in the log I see a blank, so I guess that means null for the response from the service call
+14:25 < jardineworks:#liferay> but that is impossible since I am looking myself (the admin) up!
+14:26 < jardineworks:#liferay> jhf! just the man I was hoping would join today. I guess that concert didn't get too out of hand ;)
+14:26 < Tar-Minyatur:#liferay> jardineworks: Did you check the value and type of the ID you are using to retrieve the user?
+14:27 <@jhf:#liferay> hahaha
+14:27 <@jhf:#liferay> nope.. was pretty tame.
+14:27 <@jhf:#liferay> I mean, reggae crowds don't usually mosh or fight
+14:27 <@jhf:#liferay> they just get baked
+14:27 < jardineworks:#liferay> good point
+14:28 < jardineworks:#liferay> Tar-Minyatur, yeah -- id is 10196
+14:28 < jardineworks:#liferay> the UserLocalService pbject is the one that the serviceLocator finds
+14:28 < jardineworks:#liferay> but the getUserById doesn't appear to be getting the user
+14:28 < Tar-Minyatur:#liferay> Try casting the ID to Long. Could be that the method yields a String and that doesn't sit well with Services usually.
+14:30 < jardineworks:#liferay> the Long cast broke my template.
+14:31 < jardineworks:#liferay> jhf, this is related to what I wanted to ask you yesterday but you were on a call.
+14:32 <@jhf:#liferay> yup.. ok what's issue?
+14:32 < jardineworks:#liferay> I need to create a structure template that uses a serviceLocator (Journal) to look up a second piece of content based on a value in the first.
+14:32 < jardineworks:#liferay> basically, go get the Author content item that is related to the Article content item
+14:32 < jardineworks:#liferay> first time doing this so I am strating with an example that uses the UserLocalService to get a user.
+14:33 < jardineworks:#liferay> I can get the ID from the request, and I can get the service class, but when I get the user if appears to return blank ... because when I output $user, I get the name of the var iteself.
+14:34 <@jhf:#liferay> hmm.. first, make sure the template is set to NOT be cacheable (uncheck the box on the template edit screen)
+14:34 < jardineworks:#liferay> done
+14:35 <@jhf:#liferay> ok.. this is 6.1 right?
+14:35 <@jhf:#liferay> here's how I do it:
+14:35 < jardineworks:#liferay> it is
+14:35 < jardineworks:#liferay> 6.1.1
+14:36 <@jhf:#liferay> #set ($portalBeanLocator = $portal.getClass().forName("com.liferay.portal.kernel.bean.PortalBeanLocatorUtil"))
+14:36 <@jhf:#liferay> #set ($userLocalService = $portalBeanLocator.locate("com.liferay.portal.service.UserLocalService.velocity"))
+14:36 <@jhf:#liferay> #set ($user = $userLocalService.getUser($getterUtil.getLong($userid)))
+14:36 <@jhf:#liferay> (that's velocity code, not free marker, obvious)
+14:37 <@jhf:#liferay> where $userId is the id (either a string or a long, the getterUtil will make sure it's a long)
+14:37 < jardineworks:#liferay> ah -- I think it is the getterUtil stuff. That would do what Tar was saying without a cast.
+14:37 < jardineworks:#liferay> jhf, why is it UserLocalService.velocity?
+14:38 <@jhf:#liferay> it returns a version of the service that is more velocity-friendly.. has something to do with wrapping exceptions so as to not blow up or be silent on severe errors.
+14:39 <@jhf:#liferay> lemme go find the details of the .velocity suffix. there used to be an equivalent API
+14:41 < jardineworks:#liferay> \o/ hooray! that worked!
+14:44 <@jhf:#liferay> yeah if you suffix the bean name with .velocity it wraps the resulting bean with https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portal/bean/VelocityBeanHandler.java
+14:44 <@jhf:#liferay> which surrounds any invocation with a try..catch
+14:45 <@jhf:#liferay> and return null, instead of actually throwing the exception
+14:45 <@jhf:#liferay> which is good, and bad :)
+14:46 < Tar-Minyatur:#liferay> I hate Velocity for being quiet all the time.
+14:46 < Tar-Minyatur:#liferay> I wish there was like a debug mode or something.
+14:47 <@jhf:#liferay> yeah… I think free marker is much better in this regard
+14:48 < Tar-Minyatur:#liferay> No chance of switching my project to Freemarker. Having mixed templates is a bad idea.
+14:52 < jardineworks:#liferay> if the themeDisplay.getCompanyGroupId() the same thing as the groupid?
+14:55 <@jhf:#liferay> no, don't think so.
+14:55 <@jhf:#liferay> and if you're calling that from a WCM template, I don't think it'll work
+14:56 <@jhf:#liferay> I usually use this:
+14:56 <@jhf:#liferay> #set ($scopeGroupId = $getterUtil.getLong($request.theme-display.scope-group-id))
+14:56 <@jhf:#liferay> to get the group ID of group in which the article is being displaye
+14:56 <@jhf:#liferay> i'm not even sure what getCompanyGroupId() is :)
+14:56 < jardineworks:#liferay> jhf,  noted. However, at the moment I am just using a test-portlet to understand the journal article stuff, and how I can find a piece of content etc.
+14:58 <@jhf:#liferay> ah I see. I guess company's internally are represented as groups, so there is a group associated with it. I don't think it's the same as the groupId of a given page in a site.
+14:58 < jardineworks:#liferay> basically what I think I need to do is get the attribute $article-author-name.data and then use that to look up a separate journal article with that name as the title
+14:58 <@jhf:#liferay> I see..
+14:59 < jardineworks:#liferay> i feel as though this may be painful
+14:59 < jardineworks:#liferay> lol
+14:59 <@jhf:#liferay> that shouldn't be too difficult! but do you want to then 'render' the article inside another article?
+14:59 < jardineworks:#liferay> yeah
+14:59 <@jhf:#liferay> I remember you were trying this a few weeks ago.. or someone else was.
+14:59 < jardineworks:#liferay> imagine and article and then at the bottom the "author" mini profile
+14:59 <@jhf:#liferay> trying to render another article inside of an article tempalte
+14:59 < jardineworks:#liferay> i was trying to create related structures with this intention :)
+15:00 < jardineworks:#liferay> the closest I got, on rotty's advice, was a parent structure with a selection list of author names and then in the template for the article look up the author piece of content.
+15:01 < jardineworks:#liferay> eventually I would like to hook the Author field in the temaplate for adding an article and use JS to populate the field options rather than use a parent structure .. but that is pretty far off at the moment
+15:01 < jardineworks:#liferay> first things first... I need to figure out how to FIND the author content item though.
+15:02 < Tar-Minyatur:#liferay> The one with rendering an article within a template was me. I had to give it up, because it doesn't work in 6.1.0.
+15:02 < jardineworks:#liferay> :|
+15:02 < jardineworks:#liferay> don't say that
+15:02 < jardineworks:#liferay> this is lynchpin for me
+15:03 < Tar-Minyatur:#liferay> Well...you're on a more recent version.
+15:03 < jardineworks:#liferay> by a point
+15:03 < jardineworks:#liferay> lol
+15:03 < jardineworks:#liferay> what was the issue you had?
+15:03 < Tar-Minyatur:#liferay> There are like 1300 issues solved since 6.1.0.
+15:03 < Tar-Minyatur:#liferay> Just saying. ;)
+15:04 < jardineworks:#liferay> haha
+15:04 < Tar-Minyatur:#liferay> The problem was that retrieving an article content works differently for a basic web content and one with a structure.
+15:04 < jardineworks:#liferay> you were mixing the two?
+15:04 < Tar-Minyatur:#liferay> For basic web content it's ok, but if there is a template attached, it's not getting rendered properly.
+15:04 < jardineworks:#liferay> I am trying to get a structure from a structure template.
+15:05 < jardineworks:#liferay> but I am not relying on TWO templates... I just need the data.
+15:05 < Tar-Minyatur:#liferay> Only the structure?
+15:05 < jardineworks:#liferay> hmmm
+15:05 < Tar-Minyatur:#liferay> Well..that sounds possible.
+15:05 < jardineworks:#liferay> actually, I wonder if maybe this is better done as a service builder
+15:06 < jardineworks:#liferay> oh - but I need the user to be able to select the author in the structure.
+15:09 <@jhf:#liferay> oh all you need are the values from the author article? you don't need to render it?
+15:09 <@jhf:#liferay> yeah that should be even easier.
+15:10 <@jhf:#liferay> if you can get a reference to the author article, you can call things like
+15:10 <@jhf:#liferay> Document document = SAXReaderUtil.read(journalArticle.getContent());
+15:10 <@jhf:#liferay> that gives you a DOM-like thing for the article's values
+15:12 <@jhf:#liferay> then you can call document.getRootElement() to get the head of that structure and walk down it .  lemme show you a snippet of a plugin I use for this.
+15:13 < jardineworks:#liferay> jhf, Here is what I am planning. The Author as a seperate peice of "content" is just so that you don't have to enter the same author information over and over again. You create a new article, fill in the blanks and then choose from a drop down (originating from the parent strucutre) the author. Then in the article template I want to check that drop down value. If there is a value then I grab the author-name content item to which
+15:13 < jardineworks:#liferay> it corresponds and render the field data from it in whatever ARTICLE template was selected.
+15:14 < jardineworks:#liferay> So I used the author-name.data to look up a Author (structure) content item and then uses its values in the ARTICLE template.
+15:14 <@jhf:#liferay> so what's in the author structure?
+15:14 <@jhf:#liferay> just name and picture URL?
+15:14 <@jhf:#liferay> or name, bio, etc?
+15:15 < jardineworks:#liferay> The author structure is the complete author profile. The author-name parent is just so that you can have a prepolated drop down (across multiple child structure) and add names in one place
+15:15 < jardineworks:#liferay> name, title, email, phone, storeid, bio, picture (from documents and media) etc.
+15:16 <@jhf:#liferay> ok, but you are going to render those yourself, in the template for the articles themselves
+15:16 <@jhf:#liferay> right?
+15:16 < jardineworks:#liferay> though for this release there is no "author page" where you can see the full profile as a page. It is always nested as part of an article or event.
+15:16 <@jhf:#liferay> so all you need are the values from the author article.
+15:16 < jardineworks:#liferay> right -- article date + author data --> Article Template
+15:17 <@jhf:#liferay> sure.. so are you able to get a handle to the JournalArticle object representing the author article?
+15:17 < jardineworks:#liferay> right now I am planning on using the name -- assumign that this is unique.
+15:18 <@jhf:#liferay> yeah, that's fine. but once you get a handle on the JournalArticle object that represents the author article
+15:18 <@jhf:#liferay> you can use some code from here to parse it and get the values for the fields: https://gist.github.com/jamesfalkner/8726d3491a3f5b3a0ff2
+15:18 < Tar-Minyatur:#liferay> *lol* The guys developing the modules for our current project probably would have  put the author information in a DDL. :D
+15:18 <@jhf:#liferay> line 9-18 show how to get the content of the article and let the built-in SAXReaderUtil parse it
+15:18 <@jhf:#liferay> then the method below starting on line 25 shows you code that loops through the article (represented as parsed XML, in a DOM-like object) and extract the values
+15:19 <@jhf:#liferay> to fully understand this code, you should "download" one of your author articles and see what the underlying xml looks like
+15:19 <@jhf:#liferay> you can do this from the author article editing screen, there is a "download" button
+15:19 <@jhf:#liferay> which gives you the xml. it's ugly.
+15:20 < jardineworks:#liferay> I love this line of code -- #set ($scopeGroupId = $getterUtil.getLong($request.theme-display.scope-group-id))
+15:20 < jardineworks:#liferay> aw
+15:20 < jardineworks:#liferay> fail
+15:20 < jardineworks:#liferay> 	Element dynamicElementElement = element.element(
+15:20 < jardineworks:#liferay> "dynamic-content");
+15:20 < jardineworks:#liferay>  
+15:20 <@jhf:#liferay> heheh
+15:20 <@jhf:#liferay> I did not write that particular line :)
+15:20 < Tar-Minyatur:#liferay> Sounds like somebody has a stuttering problem. ;)
+15:21 <@jhf:#liferay> heh
+15:21 < jardineworks:#liferay> haha
+15:21 <@jhf:#liferay> well you'll like getUserGroupGroup API then
+15:21 <@jhf:#liferay> and UserGroupGroupRoleLocalServiceWrapper class
+15:21 <@jhf:#liferay> http://docs.liferay.com/portal/6.1/javadocs/com/liferay/portal/service/UserGroupGroupRoleLocalServiceWrapper.html
+15:21 <@jhf:#liferay> good times
+15:22 < Tar-Minyatur:#liferay> :D
+15:22 < jardineworks:#liferay> hah
+15:22 < jardineworks:#liferay> jhf, is it possible to retrieve a piece of content based on a field value?
+15:23 < Tar-Minyatur:#liferay> You'll just have to traverse the XML.
+15:23 < Tar-Minyatur:#liferay> Oh never mind.
+15:23 < Tar-Minyatur:#liferay> I just read "field name":
+15:23 <@jhf:#liferay> jardineworks: umm, no, not with any sort of performance. well you may be able to do a search.
+15:23 < Tar-Minyatur:#liferay> For whatever reason. ;D
+15:23 < jardineworks:#liferay> hmm
+15:23 <@jhf:#liferay> there may be a fancy search syntax that rotty3000 would know better than I
+15:24 < Tar-Minyatur:#liferay> Sounds to me like you would be better off not using articles for that, jardineworks.
+15:24 < jardineworks:#liferay> so basically, I load the article, then do a search for an author content item with the name, hope that one comes back, use the id from the saerch result to get the ACTUAL article and then render the fields.
+15:24 <@jhf:#liferay> yep, you could do that.
+15:24 < jardineworks:#liferay> filthy
+15:24 < jardineworks:#liferay> i like it.
+15:24 < jardineworks:#liferay> :)
+15:24 < Tar-Minyatur:#liferay> *lol*
+15:25 <@jhf:#liferay> the article metadata (id, etc) are indexed
+15:25 <@jhf:#liferay> so that would be relatively fast.
+15:25 < jardineworks:#liferay> jhf, just curious... how come LR doesn't support relationships between content items?
+15:25 <@rotty3000:#liferay> recap the problem? I'm really going crazy with work right now
+15:25 <@jhf:#liferay> jardineworks: you mean like foreign key relationship between db entities?
+15:25 < jardineworks:#liferay> rotty3000, this is what we were talking about last week with a structure referencing a structure
+15:26 < jardineworks:#liferay> I am useing your suggestion with the parent structure to populate a drop down. JUst talking through how in the template I would retrieve that parent structure.
+15:26 < jardineworks:#liferay> or related structure item rather.
+15:27 <@rotty3000:#liferay> it's part of the values map
+15:27 <@rotty3000:#liferay> and so you would reference the value just like you would any other value of the article
+15:27 <@rotty3000:#liferay> var1.var2.var3 (properties style)
+15:28 < jardineworks:#liferay> rotty3000, sure, but the article has a name, lets say Andrew. I need to look up an author piece of content where the name of the author content is Andrew and then use the data in that content item along side the article data in the article template.
+15:28 <@jhf:#liferay> yeah, he's trying to extract article values from another article, from within an article template.
+15:28 <@rotty3000:#liferay> why would you make the "value" an abstract detail like the author name?
+15:29 <@rotty3000:#liferay> why not set the value to be the ID and just the label to be the Author name
+15:29 <@rotty3000:#liferay> the label in the selection list can be different than the value of the entry in the selection list
+15:29 <@rotty3000:#liferay> there are two fields in creating a selection list of values in the structure "label" and "value"
+15:30 <@rotty3000:#liferay> .. maybe I'm missing something
+15:30 < jardineworks:#liferay> probably me that is missing something
+15:31 < jardineworks:#liferay> I created a parent structure called AuthorNames -- and in there is one multi valued field called "author" and the values in the field will be names -- Andrew, Ray, James, etc.
+15:32 < jardineworks:#liferay> The clients "Article" structure and "Event" structure both use AuthorName as a parent structure so that the drop down with the names is an option when they create content
+15:32 <@rotty3000:#liferay> uhmmm, only the labels should be the names
+15:32 <@rotty3000:#liferay> the values should be the whever the id is
+15:33 <@rotty3000:#liferay> unless the recent CMS maintainers did not role that ability into the new fancy "structure" editor???
+15:33 < jardineworks:#liferay> well, I have another structure called Author which is the full bio for an Author. So I was going to use the value of the AuthorName field to grab the Author content item with the same name
+15:33 <@jhf:#liferay> yeah jardineworks I think what dotty is saying is that the drop down would have the names of the authors as labels, but each label can also have a programmatic "value" and that would be set to the article ID of the article for that author.
+15:34 <@jhf:#liferay> heh.. not dotty :)
+15:34 < jardineworks:#liferay> rotty3000, no, I think you are right... when I add the entries there are two fields. I haven't looked closely, but one is a name, the othe is probably the id.
+15:34 <@rotty3000:#liferay> and so is that there the issue is?
+15:34 <@jhf:#liferay> well thats half the battle
+15:34 <@rotty3000:#liferay> or is it after you've gotten the correct author article
+15:34 <@jhf:#liferay> the other half is, once you have the ID, retrieving the article using that ID and getting the values of the fields
+15:34 <@rotty3000:#liferay> and then parsing that
+15:35 <@jhf:#liferay> yeah and I showed example code that parses the article to extract the article values (programmatically)
+15:35 <@rotty3000:#liferay> right, BUT do you really need to "parse" the article?
+15:35 < jardineworks:#liferay> jhf, sure that would work... just need to make sure that someone creates the Author content item first and then correctly copies the ID over to the AuthorName addition right?
+15:35 <@rotty3000:#liferay> why not just render that article inline?
+15:35 <@jhf:#liferay> he does, because he wants to render each field himself, rather than trying to render and article-in-an-article
+15:35 <@jhf:#liferay> jardineworks: yup
+15:36 <@jhf:#liferay> article-in-an-article rendering was found to be problematic, via Tar-Minyatur  a week or two ago
+15:36 <@rotty3000:#liferay> right, BUT you're just adding a TONE of complexity, it's doable
+15:36 < jardineworks:#liferay> rotty3000, reason being that I KNOW the creatives are going to have different templates for everything :)
+15:36 <@jhf:#liferay> unstructured articles "render" fine (and return just html), but structured articles don't render inline.
+15:36 <@rotty3000:#liferay> but why can't the template of the author article just format it like you want to start? there can't be that much varience?
+15:37 <@jhf:#liferay> rotty3000: because that author article cannot be rendered inline in another article.
+15:37 <@jhf:#liferay> at least no one could figure out how.
+15:37 <@rotty3000:#liferay> even if there is, you can have N templates for those articles, and just specify the template to use case by case
+15:37 <@jhf:#liferay> and I think you were in that discussion :)
+15:37 <@rotty3000:#liferay> uhmm.. ok
+15:37 <@rotty3000:#liferay> why not?
+15:37 <@rotty3000:#liferay> ok then
+15:37 <@jhf:#liferay> unstructured articles would render (there is an API to get the "display content" or something like that)
+15:37 <@rotty3000:#liferay> you'll have to parse..
+15:37 < jardineworks:#liferay> rotty3000, true. I could try that but I think Tar said that didn't work.
+15:37 <@jhf:#liferay> but structured articles did nt work.
+15:37 < jardineworks:#liferay> in 6.1.0 anyway
+15:38 < Tar-Minyatur:#liferay> (Just for having said it: Retrieving content didn't render templates properly in 6.1.0.)
+15:38 <@rotty3000:#liferay> wow.. what a stupid regression :facepalm:
+15:38 < jardineworks:#liferay> haha
+15:39 < Tar-Minyatur:#liferay> So far I haven't had time to revisit that topic on 6.1.2 again.
+15:39 <@rotty3000:#liferay> that funcationality has been there since version 3.0
+15:39 <@rotty3000:#liferay> anyway, parsing the content of the article is not that hard either
+15:39 <@jhf:#liferay> I put some example parsing code here https://gist.github.com/jamesfalkner/8726d3491a3f5b3a0ff2
+15:40 <@jhf:#liferay> it sucks that there's no API to get values for individual fields in the core API
+15:40 <@jhf:#liferay> you can only "getContent" and parse the xml
+15:40 <@rotty3000:#liferay> the other option is to get the indexed document
+15:41 <@rotty3000:#liferay> which would behave like a map of all the individual fields of the article
+15:41 <@rotty3000:#liferay> $document.get('authorName')
+15:41 <@rotty3000:#liferay> rather
+15:43 <@rotty3000:#liferay> argh.. forget that, stick with XML/XPATH parsing
+15:43 <@rotty3000:#liferay> it's probably simpler
+15:55 < Tar-Minyatur:#liferay> If any of you are up for a little discussion: We will have custom entities (ServiceBuilder) in the remake of our project. These need to be stageable.
+15:55 < Tar-Minyatur:#liferay> BUT: The are shown on different pages.
+15:56 < Tar-Minyatur:#liferay> And if they are changed, they should change everywhere at once. Therefore, I'd rather have a publish button in the administration portlet instead of having a portlet implementing PortletDataHandler.
+15:57 < Tar-Minyatur:#liferay> Because it's weird to have global changes only because you published a page.
+15:57 < Tar-Minyatur:#liferay> Is it even possible to shift custom entities between staging and live in a custom admin portlet?
+16:00 < Tar-Minyatur:#liferay> (And the entities change way more often than the pages, so having to go to a page and publish that everytime an entity was changed seems annoyingly complicated.)
+16:00 -!- mode/#liferay [+o lundgren] by ChanServ
+16:25 < jardineworks:#liferay> jhf, you weren't kidding man. This xml export is naaaaaaaaaaaaaaaaaaaaaaaaasty.
+16:25 <@jhf:#liferay> yup :/
+16:26 <@jhf:#liferay> I wrote a plugin that is soon to be on marketplace that creates a service that will do the parsing for you and give you back a nice object on which to call methods to get values.
+16:26 <@jhf:#liferay> (that snippet I showed is from that)
+16:27 < jardineworks:#liferay> how long before it hits the marketplace?
+16:27 <@jhf:#liferay> ehh probably a week or so
+16:28 < jardineworks:#liferay> awesome. I will likely be your first downloader.
+16:28 < jardineworks:#liferay> and if you need a beta tester between now and then, lemme know.
+16:28 <@jhf:#liferay> heh, cool!
+17:10 <@jhf:#liferay> holy f****** s****  apple approved my app within 24 hours
+17:11 <@jhf:#liferay> https://itunes.apple.com/us/app/liferay-events/id650199231?mt=8
+17:11 < jardineworks:#liferay> jhf, after their last launch? they need all the revenue they can muster :)
+17:11 <@jhf:#liferay> I expect you all to download and +5 rate it
+17:11 <@jhf:#liferay> heh i guess!
+17:11 <@jhf:#liferay> last two versions took 6-8 days to approve
+17:12 <@jhf:#liferay> this time it was just over 24 hours.
+17:12 <@jhf:#liferay> maybe I am on their christmas list now
+17:12 < jardineworks:#liferay> maybe they want a discount on EE
+17:12 <@jhf:#liferay> hahahahahaha
+17:13 < jardineworks:#liferay> you know... a little back scratching ;)
+17:13 <@jhf:#liferay> yup. well they have what, 20 billion dollars in the bank? not sure how much more revenue a little events app will generate.
+17:14 < jardineworks:#liferay> .. also not sure how much of a discount they need :)
+18:52 -!- mode/#liferay [+o jhf] by ChanServ
+20:29 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Sep 19 00:00:26 2013

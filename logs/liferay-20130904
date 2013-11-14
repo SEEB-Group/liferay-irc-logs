@@ -1,0 +1,141 @@
+--- Log opened Wed Sep 04 00:00:28 2013
+01:55 < Axxell:#liferay> hey guys, do you know if anything changed in liferay 6.1.2 ga3 with dynamic query with DLFileEntryLocalServiceUtil? I think im getting some sort of sql grammar error, with a portlet that worked with GA2
+02:05 < Axxell:#liferay> seems that hypersonic doesnt support some orderby queries
+03:18 < avinashrbhat:#liferay> i'm trying to include jquery into liferay 6.0 portlet the scripts are gettin loaded, but the css files are not getting imported
+03:18 < avinashrbhat:#liferay> here's what i' trying to do: in the liferay-portlet.xml i'm putting `<header-portal-css>/css/tabmanager/_jquery/jquery-ui.css</header-portal-css>`
+03:19 < avinashrbhat:#liferay> the file is in the correct place, but the resolved url is given as http://localhost:8080/css/tabmanager/_jquery/jquery-ui.css
+03:19 < avinashrbhat:#liferay> can anyone shed some light on what i'm missing?
+04:23 < Axxell:#liferay> Hmmm it seems that 6.1.2 versions of key portlets are not available on the marketplace
+04:23 < Axxell:#liferay> can i do anything to resolve those?
+05:35 < Axxell:#liferay> nice little problem with me trying to update my hooks and portlets to liferay 6.1.2 GA3: Even if i uninstall a hook it seems that the code remains, and the hooked assets remain broken, they do not revert to the original version of a portlet, but the hooked one remains
+05:35 < Axxell:#liferay> anybody have a clue how to fix that?
+08:25 < Axxell:#liferay> Hmm anybody know how to build url to an asset on another site
+08:53 -!- mode/#liferay [+o jhf] by ChanServ
+10:26 < jardineworks:#liferay> any LR folks around?
+10:27 < jardineworks:#liferay> or anyone around that has done any ConfigurationActionImpl work for plugins?
+10:28 < modd:#liferay> I've done it, but it may depend on your question if I can help^^
+10:31 < jardineworks:#liferay> modd, cool -- so I have created my own handler and configured the liferay-portlet.xml file. I put some logging in the class and I can see it working.
+10:32 < jardineworks:#liferay> modd, my configuration basically allows the user to set a "display type" so that based on where the portlet is positioned on the site they can choose a different rending format.
+10:32 < modd:#liferay> ok
+10:32 < modd:#liferay> so where's the problem?
+10:33 < jardineworks:#liferay> modd, in the configuration.jsp page, I pull the preference back and use it to set the selected value of the drop down. That works. In the VIEW.JSP... I have some JSTL that basically includes a jsp fragment based on the view you selected.
+10:33 < jardineworks:#liferay> the preference in the VIEW.JSP is coming back as blank
+10:33 < jardineworks:#liferay> I checked the database and the preferences for the portlet are empty as well (<portletPreferences/>)
+10:33 < jardineworks:#liferay> but I am using the preference in the configuration.jsp
+10:33 < jardineworks:#liferay> so I am confused.
+10:34 < modd:#liferay> so the problem is, that you have preferences set, can read it but will always be empty
+10:34 < modd:#liferay> I had exactly the same problem^^
+10:34 < modd:#liferay> and didn't find an answer :(
+10:35 < jardineworks:#liferay> damn
+10:35 < jardineworks:#liferay> lol
+10:35 < modd:#liferay> I hadn't the chance to try something different because I'm not working at this portlet anymore, so I can't help you in this case :(
+10:35 < jardineworks:#liferay> do you know where the *ConfigurationActionImpl saves them?
+10:35 < modd:#liferay> portletpreferences I guess
+10:36 < jardineworks:#liferay> but then why is it empty in the table?! :)
+10:36 < modd:#liferay> hmm. is it instancable?
+10:37 < jardineworks:#liferay> yes
+10:37 < jardineworks:#liferay> and i have just the one instance
+10:37 < jardineworks:#liferay> for the moment
+10:38 < modd:#liferay> my portlet was instancable, too, but the config was set for all instances
+10:38 < jardineworks:#liferay> ah
+10:39 < jardineworks:#liferay> but...
+10:39 < jardineworks:#liferay> how?
+10:39 < jardineworks:#liferay> if it is set to instanceable I thought that any save to preferences would automatically append the instance reference
+10:40 < modd:#liferay> hmm..wait a second. I have to remember^^
+10:42 < modd:#liferay> ok, it wasn't instanceable
+10:42 < jardineworks:#liferay> modd, hah I think you are right. I just dropped another portlet onto the page (same type) and when I went to the configurations, the setting for display was the same as the previous ( which is not the first item in the list)
+10:42 < modd:#liferay> but I used a trick to manipulate the view on every page
+10:43 < jardineworks:#liferay> what was your trick?
+10:43 < modd:#liferay> using the portlet name on the page^^
+10:43 < jardineworks:#liferay> I have a portlet that could exist on the same page twice though...
+10:43 < jardineworks:#liferay> hmmm
+10:44 < modd:#liferay> so it was like:
+10:44 < jardineworks:#liferay> so I can see two instances in the database. I am wondering if maybe _I_ have to specify the instance and the save to prefs is failing because I am not and it doesn't see a non-instance version in the database
+10:51 < jardineworks:#liferay> so maybe configuration mode is global portlet level -- regardless of whether or not the portlet is instanceable and the individual isntance configurations should be done through edit mode.
+10:52 < modd:#liferay> you could try to poke jhf ;)
+10:58 < jardineworks:#liferay> modd, interesting. I just changed my code to use the "preferences" for the portlet -- which actually makes more sense if you think about it -- and used the same logic and it worked. So that must mean that configurations are stored seperately and are not instance based.
+10:58 < jardineworks:#liferay> at least that is what it looks like.
+11:11 < jardineworks:#liferay> modd, PortletPreferences portletPreferences =
+11:11 < jardineworks:#liferay> 			PortletPreferencesFactoryUtil.getPortletSetup(
+11:11 < jardineworks:#liferay> 				actionRequest, portletResource);
+11:11 < jardineworks:#liferay> configuration saves it someplace else.
+11:12 < Tar-Minyatur:#liferay> Hey guys.
+11:12 < jardineworks:#liferay> I'll bet if I used the factory util and got the portlet setup in my JSP I would find the value.
+11:12 < jardineworks:#liferay> hey Tar-Minyatur
+11:16 < Tar-Minyatur:#liferay> Have you ever fiddled around with staging enabled for pages and web content?
+11:16 < Tar-Minyatur:#liferay> Because I'm really confused about how our Liferay behaves...
+11:16 < Tar-Minyatur:#liferay> I have a page with a web content view. I add web content and publish the page.
+11:16 < Tar-Minyatur:#liferay> When I edit the web content now, it changes on live and on staging.
+11:17 < Tar-Minyatur:#liferay> I would have expected that I have to publish the web content again to have the changes appear on live.
+11:18 < jardineworks:#liferay> Tar-Minyatur, you're about 2 - 3 weeks ahead of me. That's on my schedule for my current gig but I am not there yet.
+11:19 < Tar-Minyatur:#liferay> I guess I'll set up a clean instance of Liferay and compare the behaviour.
+11:19 < Tar-Minyatur:#liferay> Probably they messed around in that part of the core as well. -.-
+11:19 < Tar-Minyatur:#liferay> Ok. So...another question. How would you go about creating a contact form?
+11:20 < Tar-Minyatur:#liferay> Build a portlet for it?
+11:20 < Tar-Minyatur:#liferay> One requirement is that the labels for the form fields should be editable without redeploying the portlet.
+11:21 < Tar-Minyatur:#liferay> The design guys actually would love it if the entire form would be editable, but I can't see how that is supposed to work.
+11:31 < jardineworks:#liferay> check out the webforms portlet
+11:33 < Tar-Minyatur:#liferay> Yeah. I stumbled upon that.
+11:33 < Tar-Minyatur:#liferay> Did you ever use it?
+11:35 < jardineworks:#liferay> Personally no... but I did maintenance for a client that used it on his site all the time. He ran contests and used it to create the entry forms himself.
+11:39 < Tar-Minyatur:#liferay> The problem is that in this project basically everything is built layout first.
+11:39 < Tar-Minyatur:#liferay> Functionality has to be added after the designers came up with how it's supposed to look.
+11:40 < Tar-Minyatur:#liferay> So the generated form would have to be perfectly skinnable with CSS.
+11:41 < jardineworks:#liferay> well, the look and feel option of every portlet allows you to do that on a per instance basis. that might help
+11:42 < Tar-Minyatur:#liferay> If the form is rendered with enough classes etc. on the elements.
+11:42 < Tar-Minyatur:#liferay> We're talking about custom positioning of elements side-by-side and stuff like that.
+11:43 < jardineworks:#liferay> not sure what to tell you. Download the portlet, drop it on a page, make a form and see.
+11:43 < Tar-Minyatur:#liferay> Doing that right now. ;)
+11:57 < Tar-Minyatur:#liferay> *sigh*
+11:57 < Tar-Minyatur:#liferay> Liferay version too old.
+11:57 < Tar-Minyatur:#liferay> Annoying. -.-
+13:08 < jardineworks:#liferay> has anyone ever had an issue where they try to create a page template and it doesn't save (won't create it) but there are also no errors in the console?
+13:14 < Tar-Minyatur:#liferay> I never really saw any use in page templates, to be honest.
+13:21 < james314159:#liferay> maybe its a Javascript bug?  If you can provide a steps to reproduce the problem on a vanilla Liferay, that would be best.
+14:10 < LRAdminInNeed87:#liferay> when will 6.2 be released?
+14:25 <@jhf:#liferay> LRAdminInNeed59: no release date has been publicly announced. I am hopeful that it will appear this fall :)
+15:08 < jardineworks:#liferay> jhf, you there?
+15:08 <@jhf:#liferay> yup
+15:09 < jardineworks:#liferay> have you ever had an issue where creating a page template didn't work and didn't generate an error?
+15:09 <@jhf:#liferay> hmm.. nope.
+15:09 <@jhf:#liferay> searched the bug db?
+15:09 < jardineworks:#liferay> jhf -- it works on my laptop (same exact install)
+15:10 < jardineworks:#liferay> i even tired dropping the db and stasrting over... fresh install, fail.
+15:10 < jardineworks:#liferay> I wonder if it is realted to MariaDB
+15:10 <@jhf:#liferay> that is certainly a possibility - we don't support it (yet)
+15:10 <@jhf:#liferay> at least in 6.1
+15:10 <@jhf:#liferay> although, isn't it supposed to be some binary drop-in replacement for mysql
+15:10 < jardineworks:#liferay> i was told that it was identical (binaries) to MySQL though...
+15:10 < jardineworks:#liferay> exactly
+15:11 <@jhf:#liferay> yeah thats what I heard too
+15:11 <@jhf:#liferay> never have tried it though!
+15:11 < jardineworks:#liferay> its very ninja... though I personally haven't noticed any differences yet
+15:11 < jardineworks:#liferay> jhf, do you know which logger I should enable debug on to get more info from the page templates?
+15:11 <@jhf:#liferay> hmmmmmmmm
+15:12 <@jhf:#liferay> no not offhand but lemme dig around a bit.
+15:12 < jardineworks:#liferay> jhf, thanks
+15:20 <@jhf:#liferay> so jardineworks here's the initial commit that implemented page templates
+15:20 <@jhf:#liferay> https://github.com/liferay/liferay-portal/commit/8781b56c327303f20ecc35aa4e06fa48e62ed1d5
+15:21 <@jhf:#liferay> there were actually a handful of follow-on small changes
+15:21 <@jhf:#liferay> commit 91b8e6087dc69634973382211dbbba3ce465d3ae
+15:21 <@jhf:#liferay> commit d319c48442ee0292a620c367457ddca138427ac7
+15:21 <@jhf:#liferay> commit a3d9ac82a9e0f9259804de0e3f18704264d4dcab
+15:21 <@jhf:#liferay> commit 20acbe0d2be6fd9d004024a1e2ec2a72c09bc4e6
+15:21 <@jhf:#liferay> commit 062cba6fa949cfe03e36ca5831c1621815eace6f
+15:21 <@jhf:#liferay> commit dba7f27022da4e56047bdf1f5f27058bbefa5710
+15:21 <@jhf:#liferay> commit 8781b56c327303f20ecc35aa4e06fa48e62ed1d5
+15:21 <@jhf:#liferay> https://github.com/liferay/liferay-portal/commit/[ONE OF THOSE NUMBERS ABOVE] to see it
+15:21 <@jhf:#liferay> the classnames will tell you which debuggers might be useful
+15:22 < jardineworks:#liferay> oh wait
+15:22 < jardineworks:#liferay> jhf, it works in FF
+15:23 < jardineworks:#liferay> but not in Chrome
+15:23 < jardineworks:#liferay> I get a flash of a JS error I think
+15:23 < jardineworks:#liferay> but the page reloads
+15:23 <@jhf:#liferay> I thought you were experiencing some server-side failure
+15:23 <@jhf:#liferay> hmm
+15:23 < jardineworks:#liferay> "Cannot properyl read RULES of undefined" or soemthing
+15:23 <@jhf:#liferay> what version of LR?
+15:23 < jardineworks:#liferay> I thought I was too... but not logs
+15:23 < jardineworks:#liferay> 6.1.2CE
+20:41 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Sep 05 00:00:30 2013

@@ -1,0 +1,23 @@
+--- Log opened Sat Aug 17 00:00:02 2013
+06:46 < scribe> Hey guys.  Is there any layout in liferay which expands portlets to full page height and resizes them with the browser window?
+08:19 < musisa> .
+08:48 < scribe> Hey guys.  I have a very beginners level question for anyone.
+08:49 < scribe> Is anyone alive this Saturday afternoon?
+08:49 < scribe> Everything we have built with liferay has been as OpenSocial Gadgets.
+08:49 < scribe> Liferay is a great OpenSocial container.
+08:50 < scribe> But our users are complaining about the layouts of our gadgets and I need to write something a little more creative than what I get from liferay's provided page layouts.
+08:50 < scribe> So, I think I just need to create an  HTML page from scratch
+08:51 < scribe> and use slideout menues and panels and stuff.
+08:51 < scribe> But how do I encorporate this into a liferay page?
+08:51 < scribe> I know I can create a new page as 'embeddable' type and just give a URL to my html
+08:52 < scribe> but then how do I include a portlet on that page?
+08:52 < scribe> Basically, the problem our uses have is that our portlets have scrollbars, and the page has a scrollbar and it's just kludgy to use.
+08:53 < scribe> our uses have to scroll the page down to see some other portlets on the page.
+08:53 < scribe> I want a page which has 2 portlets full page height.
+08:53 < scribe> and a bottom slideup panel and a left slideout panel with 2 other portlets inside.
+08:54 < scribe> any suggestions?
+09:01 < musisa> url?
+09:39 < scribe> basically, how do I create a page with portlets that adjust to the browser height?
+16:51 < x9183111> bijoo_: are you there?
+16:54 < LRAdminInNeed75> bijoo_: are you there?
+--- Log closed Sun Aug 18 00:00:03 2013

@@ -1,0 +1,122 @@
+--- Log opened Tue Sep 24 00:00:33 2013
+04:31 < Tar-Minyatur:#liferay> Morning.
+04:46 < Tar-Minyatur:#liferay> Damn. Liferay gets stuck while verifying the documets library.
+04:46 < Tar-Minyatur:#liferay> So annoying.
+04:47 < Tar-Minyatur:#liferay> There are only 70 files in there. It really should not take that long...
+04:59 < hufg:#liferay> :Z
+04:59 < hufg:#liferay> what version
+05:00 < Tar-Minyatur:#liferay> I have a 6.1.0 database and I'm trying to start a 6.1.2 on that.
+05:00 < Tar-Minyatur:#liferay> It starts migrating to 6.1.1 and then gets stuck while validating the DL.
+05:01 < hufg:#liferay> you need to debug it probably if no stacktraces etc
+05:01 < hufg:#liferay> i suggest you upgrade to GA2
+05:02 < hufg:#liferay> 'but this may relate to the problem you are having https://issues.liferay.com/browse/LPS-40418
+05:02 < hufg:#liferay> it could freeze an incorrectly coded verifier
+05:02 < hufg:#liferay> although it passed when we tried it
+05:02 < hufg:#liferay> hmm nevermind it then
+05:03 < hufg:#liferay> yeah forget that just debug it
+05:03 < Tar-Minyatur:#liferay> I wouldn't even know where to start.
+05:03 < hufg:#liferay> do you have liferay source
+05:04 < Tar-Minyatur:#liferay> Probably. Somewhere.
+05:04 < hufg:#liferay> well clone liferay git and import to eclipse
+05:04 < hufg:#liferay> you will have remote debugging then
+05:04 < hufg:#liferay> there is the verify package which has all the verifiers
+05:05 < hufg:#liferay> you can see the started verifier in logs too
+05:05 < Tar-Minyatur:#liferay> Yeah. I know which class causes it.
+05:05 < hufg:#liferay> which one is it?
+05:05 < Tar-Minyatur:#liferay> Log says: 10:01:37,421 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+05:05 < Tar-Minyatur:#liferay> And then nothing else happens.
+05:06 < Tar-Minyatur:#liferay> Tomcat seems to be running, but nothing happens anymore.
+05:06 < Tar-Minyatur:#liferay> For almost an hour now.
+05:06 < hufg:#liferay> mm probably dead
+05:06 < Tar-Minyatur:#liferay> Without any error message?
+05:06 < hufg:#liferay> it can happen and has happened
+05:07 < hufg:#liferay> logging is not good in liferay
+05:07 < hufg:#liferay> imo
+05:07 < hufg:#liferay> no debug information is ever provided and exceptions are eaten away without logging
+05:08 < hufg:#liferay> or rethrown while obscuring the original exception
+05:08 < Guest26803:#liferay> Hi, I tried asking this question on Sunday but no one was around...
+05:08 < Guest26803:#liferay> Hi.  Is there a word/character limit when publishing a blog entry in Liferay 6.1.0?  I have a blog entry of over 750,000 characters that won't publish until I reduce it to this size.  I actually calculated the exact number of characters at the limit and I can supply that if that is important.  Any ideas?
+05:08 < Guest26803:#liferay> 757,120 characters.  If I put in 1 more character, Liferay refuses to publish the blog (saving a draft does work) but takes me to the New Blog Entry page instead.
+05:08 < hufg:#liferay> who knows but that is many characters
+05:09 < Guest26803:#liferay> Any idea where this limitation would be set?
+05:09 < Guest26803:#liferay> It doesn't seem to be the database.
+05:09 < hufg:#liferay> you could more easily to split it in two?
+05:09 < hufg:#liferay> the blog entry
+05:09 < hufg:#liferay> why bother with anything else
+05:10 < hufg:#liferay> this insanely long blog entry wont come cheap
+05:10 < Guest26803:#liferay> Of course I could split but there's no guarantee that other users would do that...
+05:10 < hufg:#liferay> there is no guarantee someone writes  a 20m blog entry anyhow
+05:10 < Guest26803:#liferay> There is no warning message that the blog is too long
+05:10 < hufg:#liferay> how many of your users do you think will write 757k+ blog entries?
+05:11 < Guest26803:#liferay> At least if there was some feedback for the user, lost content could be avoided...
+05:11 < Guest26803:#liferay> Well, I did!
+05:11 < hufg:#liferay> hehe yeah
+05:11 < hufg:#liferay> but seriously
+05:11 < hufg:#liferay> 0.001%? 5%?
+05:11 < hufg:#liferay> how many pages is that btw?
+05:12 < Guest26803:#liferay> Whatever the chances, the worst case is that the blog is lost... pages in what sense because I see that all on one page in Liferay?
+05:12 < Guest26803:#liferay> Again, I'm more concerned about lost content, in the event that this was to happen again...
+05:13 < hufg:#liferay> well see user guide for blog properties, i'd bet you will not find none
+05:13 < hufg:#liferay> then you have more costly options in hooking the portlet and what not
+05:13 < hufg:#liferay> then you could just live with this
+05:13 < hufg:#liferay> :D
+05:13 < hufg:#liferay> write a reminder somewhere
+05:14 < hufg:#liferay> instead of allowing bigger blogs just hook blog portlet and add your warning message on editing
+05:14 < Guest26803:#liferay> Where would be the best place to make a modification so that a warning message is given to users?  Like I've already mentioned... this only happens when attempting to publish the blog... draft seems to save fine.
+05:15 < hufg:#liferay> take the user guide and read about hooks
+05:15 < hufg:#liferay> then find blog portlet jsp
+05:15 < Guest26803:#liferay> OK... but why would there be a difference between saving a draft and actually publishing the blog?
+05:16 < hufg:#liferay> tons of reasons
+05:16 < hufg:#liferay> just get liferay source and research the issue a bit
+05:17 < hufg:#liferay> your best documentation is liferay user guide and liferay source
+05:17 < Guest26803:#liferay> Would you recommend filing a bug report about this - kind of like an extreme data test that's failed?
+05:18 < hufg:#liferay> no if you are not an EE customer
+05:20 < hufg:#liferay> 757k characters is such a fringe case :D
+05:20 < hufg:#liferay> that's like a book
+05:20 < hufg:#liferay> seriously how many pages
+05:20 < hufg:#liferay> 100?
+05:21 < hufg:#liferay> 1000?
+05:22 < Guest26803:#liferay> OK, let me turn this around a bit... isn't it possible that a similar problem could exist with the wiki portlet?  Character limitation for our wiki pages could lead to a whole heap of problems.  This issue has just make the whole situation uneasy; can we trust the portal to not lose our content...?  That's a key issue before considering a more specific commitment...
+05:22 < Guest26803:#liferay> As for pages, do you mean A4 style?
+05:23 < hufg:#liferay> 160 pages in A4
+05:23 < hufg:#liferay> that is crazy
+05:23 < hufg:#liferay> it should be a book entry not a blog entry
+05:24 < Guest26803:#liferay> If you were to understand our use case, maybe it wouldn't seem so crazy...
+05:24 < hufg:#liferay> true
+05:24 < Guest26803:#liferay> Educational environment, collecting research about numerous topics from various resources, including web pages...
+05:24 < hufg:#liferay> well if you have use cases of 1m characters or so then you have to research this
+05:25 < Guest26803:#liferay> Liferay has been excellent for collecting that content...
+05:25 < Guest26803:#liferay> First point is for users to collect into their individual blog entries...
+05:26 < Guest26803:#liferay> Forums used to sift through the various research in blogs to find the best content - discussions, arguments - just collaboration
+05:26 < Guest26803:#liferay> Then the agreed content is passed on to the group wiki...
+05:26 < Guest26803:#liferay> That's a general overview
+05:26 < Guest26803:#liferay> Due to this use case, the blogs is where the majority content gets stored... but the wikis will end up with a lot of content as well in the longer run
+05:28 < Guest26803:#liferay> As you've already suggested, multiple blog posts will have to be the reasonable solution...
+05:29 < Guest26803:#liferay> However, there is no way to tell that a problem has occurred... no warning, no error, draft seems to be saved (due to auto-save) but no published content...
+05:29 < hufg:#liferay> mm
+05:47 < Tar-Minyatur:#liferay> org.xml.sax.SAXParseException; systemId: file:/usr/local/apache-tomcat-liferay-new/webapps/ROOT/WEB-INF/classes/META-INF/portal-log4j-ext.xml; lineNumber: 1; columnNumber: 7; The processing instruction target matching "[xX][mM][lL]" is not allowed.
+05:47 < Tar-Minyatur:#liferay> Has somebody ever seen this?
+05:47 < Tar-Minyatur:#liferay> I'm trying to change some logging levels to get more information about a problem.
+05:48 < Tar-Minyatur:#liferay> This looks like it doesn't like the log4j.dtd?
+10:14 < Tar-Minyatur:#liferay> Mhm. I guess I really will have to invest the time to debug this validation stuff.
+10:14 < Tar-Minyatur:#liferay> Apparently Liferay cares way more if the DB is in perfect shape than I do. ;D
+10:30 < jardineworks:#liferay> hah
+10:30 < jardineworks:#liferay> nice
+10:30 < jardineworks:#liferay> :)
+10:30 < Tar-Minyatur:#liferay> Not really.
+10:30 < Tar-Minyatur:#liferay> I would be a happier man if Liferay would just start instead of freezing up and dieing.
+13:48 < jardineworks:#liferay> anyone still here?
+13:52 < Tar-Minyatur:#liferay> Feels like a deja vue.
+13:52 < Tar-Minyatur:#liferay> (Image some accents on those letter...whatever. :D)
+13:52 < Tar-Minyatur:#liferay> *Imagine -.-
+14:02 < jardineworks:#liferay> Tar-Minyatur, have you ever done any google oauth stuff?
+14:10 < Tar-Minyatur:#liferay> Nope. Back when I was doing a lot of webdev, oauth wasn't cool yet. And since then I've never had the questionable chance to do anything with it.
+16:45 < jardineworks:#liferay> does anyone know why I can't use PrefsPropsUtil from a hook project, but I can from a portlet project?
+16:45 < jardineworks:#liferay> I mean, I understand that the implementation class is in portal-impl... but still.
+16:46 < jardineworks:#liferay> In fact... what I can do, which is really odd to me, is use it from as JSP hook, but NOT from a struts action.
+16:46 < jardineworks:#liferay> rotty3000, could that be a defect?
+17:00 < jardineworks:#liferay> aha
+17:01 < jardineworks:#liferay> there are two of them!
+17:01 < jardineworks:#liferay> the kernel one lets you use it in a hook.
+19:55 -!- ServerMode/#liferay [+o rotty3000] by pratchett.freenode.net
+--- Log closed Wed Sep 25 00:00:35 2013

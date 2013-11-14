@@ -1,0 +1,36 @@
+--- Log opened Thu Jun 27 00:00:11 2013
+03:38 -!- ServerMode/#liferay [+oo jhf ChanServ] by verne.freenode.net
+09:17 <@rotty3000> hey All, if anyone sees Dev123 today, tell them enabling "anonymous comments" is done simply by granting Guest role permission to comment on things and the "partial registration" feature should kick in
+09:19 <@rotty3000> jhf, JIRA is down for you right?
+09:44 < modd_> rotty3000: JIRA seems down
+09:45 < modd_> you need a bot in here to handle these "tell xy that z..." notifications ;)
+09:46 <@rotty3000> we do :|
+09:47 <@rotty3000> oh sorry, I get it...
+09:47 <@rotty3000> yeah
+09:47 <@rotty3000> modd_: that's a good idea
+09:48 < modd_> I've written one for another channel that uses this syntrax: "!notify user message"
+09:48 < modd_> or "!notifyMe user" to get highlighted, when then user joins
+09:49 <@rotty3000> nice
+09:50 < modd_> it also handles a lot of links, so if someone needs to know, where to post bug reports, than one can do simply "!jira" will get the link posted by the bot
+09:51 < modd_> since we're using the bot, lots of things are easier
+09:54 <@rotty3000> very cool
+09:55 <@rotty3000> should tell jhf about it
+09:55 <@rotty3000> he manages the channel
+09:55 < modd_> !notify jhf ...^^
+09:55 <@rotty3000> ;)
+10:17 -!- Topic for #liferay: Liferay Community Discussion Channel!  Plz be patient - timezones matter :)  Congrats to our community verifier hall of fame! http://goo.gl/aOWji Marketplace App Contest http://goo.gl/H9oJb Liferay 6.2 Milestone 6: http://goo.gl/yqM4d Forum: http://forums.liferay.com Liferay 6.1 GA2: http://bit.ly/MbDcUF
+10:17 -!- Topic set by jhf [~cygnuseck@184.88.192.186] [Tue Jun 18 09:56:27 2013]
+10:17 [Users #liferay]
+10:17 [@ChanServ ] [ bijoo     ] [ guli    ] [ Kaira-   ] [ Magno8ooter^] [ Tm_T   ] 
+10:17 [@rotty3000] [ cedricbr  ] [ jbonjean] [ kocka    ] [ Naenyn_     ] [ topolik] 
+10:17 [ alecharp ] [ dblessing ] [ jcdang  ] [ lcanas   ] [ noqqe       ] [ uzzi   ] 
+10:17 [ bfarache ] [ floppyears] [ josuebc ] [ longbeach] [ OliverUK    ] [ volker ] 
+10:17 -!- Irssi: #liferay: Total of 24 nicks [2 ops, 0 halfops, 0 voices, 22 normal]
+10:17 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+10:17 -!- Irssi: Join to #liferay was synced in 15 secs
+12:15 -!- Irssi: You are now talking in #liferay
+12:15 < bijoo> =vto
+16:38 < josuebc> Hi guys. I have a portlet which processes some information from a DB and displays it. I want to create a content web portlet which can do an ajax call to this portlet and display the same info.
+16:38 < josuebc> I was thinking on usin servlets. Given the fact that I am using tomcat and have worked with servlets. But I don't know if this is a good idea and how to run servlets and porltes togeather.
+16:38 < josuebc> What do you think?
+--- Log closed Fri Jun 28 00:00:12 2013
