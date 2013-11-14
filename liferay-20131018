@@ -1,0 +1,32 @@
+--- Log opened Fri Oct 18 00:00:33 2013
+00:44 < rocknroll_:#liferay> the lack of documentatipn can be a little.. challenging :>
+02:04 < simon__:#liferay> hi
+05:03 < modd_:#liferay> rotty3000: I'm configurating a lr 6.2 rc4 test at the moment and I see, that the default db didn't change yet and the option to change it is still somehow "hidden" (just a small link while there's a big fat button to go on with the installation). :(
+05:56 < modd_:#liferay> hmm, 191 users on a fresh installation but it shows only 1 in the list
+06:13 < modd_:#liferay> the marketplace shows me "portlet not available" if I try to "purchase" a free app
+08:17 < imox1234:#liferay> hello I have the Image Gallery plugin and it is a little bit buggy :(
+08:29 < imox1234:#liferay> all pictures are overlaped and I can not sea the new uploaded pictures
+08:53 < hufg:#liferay> say whaaat
+08:58 < imox1234:#liferay> hufg: http://s14.directupload.net/images/131018/vxrl42uq.png
+09:13 < hufg:#liferay> blocked =(
+10:02 < avinashrbhat:#liferay> hi, is there a way to create a filter in the service builder?
+10:04 < jardineworks:#liferay> avinashrbhat, you mean a finder method?
+10:06 < avinashrbhat:#liferay> jardineworks, no finder finds only the rows which exactly matches the given value of the columns given, right?
+10:07 < avinashrbhat:#liferay> jardineworks, i need some equations over those values provided
+10:07 < jardineworks:#liferay> avinashrbhat, depends on how you code it .. but I suppose that is one of the ways
+10:07 < avinashrbhat:#liferay> like `date > somedate`
+10:07 < jardineworks:#liferay> avinashrbhat, you can define your own finder logic
+10:07 < avinashrbhat:#liferay> jardineworks, in service builder?
+10:07 < jardineworks:#liferay> You just modify the *LocalServiceImpl class and re-run the build-service target.
+10:08 < avinashrbhat:#liferay> hmm.
+10:08 < avinashrbhat:#liferay> ok
+10:08 < avinashrbhat:#liferay> jardineworks, thanks
+10:08 < jardineworks:#liferay> np
+10:08 < avinashrbhat:#liferay> i was looking if there was  anything other than that.
+10:08 < avinashrbhat:#liferay> :-)
+16:54 < LRAdminInNeed111:#liferay> test
+17:04 < LRAdminInNeed73:#liferay> test
+17:15 < LRAdminInNeed33:#liferay> test
+17:21 < LRAdminInNeed167:#liferay> test
+23:43 -!- mode/#liferay [+o lundgren] by ChanServ
+--- Log closed Sat Oct 19 00:00:35 2013

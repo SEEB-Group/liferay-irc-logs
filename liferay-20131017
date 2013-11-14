@@ -1,0 +1,222 @@
+--- Log opened Thu Oct 17 00:00:44 2013
+04:24 < hufg:#liferay> how can i edit wiki
+04:24 < hufg:#liferay> http://www.liferay.com/community/wiki/-/wiki/Main/How+to+configure+the+logs+in+Liferay
+04:24 < hufg:#liferay> this is plain wrong for glassfish
+04:24 < hufg:#liferay> the liferay forums make me want to shoot myself in the face
+04:25 < hufg:#liferay> people hoping for a quick win and nothing else
+04:27 < hufg:#liferay> topolik: how can the wiki be edited
+04:27 < topolik:#liferay> hi hufg, which wiki?
+04:28 < hufg:#liferay> http://www.liferay.com/community/wiki/-/wiki/Main/How+to+configure+the+logs+in+Liferay this is false for glassfish
+04:28 < topolik:#liferay> do you see the "Edit" link ?
+04:29 < hufg:#liferay> user account is all i need?
+04:29 < topolik:#liferay> aah, yes
+04:29 < topolik:#liferay> you need to register
+04:30 < hufg:#liferay> could you just update the portal-log4j-ext.xml path for gf 3.1.2 to be domain-dir/lib/classes/META-INF/portal-log4j-ext.xml
+04:31 < hufg:#liferay> and for your future domain classloading path needs:
+04:31 < hufg:#liferay> 		Enumeration<URL> en; 		try { 			en = getClass().getClassLoader().getResources("META-INF/test.txt"); 			while (en.hasMoreElements()) { 				LOGGER.fatal(en.nextElement().toString()); 			} 		} catch (IOException e) { 			// TODO Auto-generated catch block 			e.printStackTrace(); 		}
+04:31 < hufg:#liferay> woops
+04:31 < hufg:#liferay> https://gist.github.com/anonymous/6c9c2303f25e351b943e
+04:33 < topolik:#liferay> where should I update it?
+04:33 < hufg:#liferay>  Glassfish 3.1.1: This technique does not work for Glassfish. (See this forum post for an alternative)
+04:33 < hufg:#liferay> i'm willing to bet it works for 3.1.1 too
+04:34 < hufg:#liferay> i have 3.1.2
+04:34 < hufg:#liferay> 50euros that it works in 3.1.1
+04:34 < topolik:#liferay> so there I put: "domain-dir/lib/classes/META-INF/portal-log4j-ext.xml", right?
+04:34 < hufg:#liferay> it would be INCREDIBLE that a classloader would get the path wrong in 3.1.1, that would be some serious issues in the gf core
+04:34 < hufg:#liferay> yes
+04:35 < topolik:#liferay> ok and the second code?
+04:35 < hufg:#liferay> you can add confirmed in 3.1.2
+04:35 < hufg:#liferay> just add it to the comments
+04:35 < hufg:#liferay> :D
+04:35 < hufg:#liferay> if you wish
+04:35 < hufg:#liferay> you can print any path with that snippet
+04:35 < hufg:#liferay> deploy a portlet and see where it finds the file
+04:36 < hufg:#liferay> you don't need tho, it's just an easy way to get any path in any app server
+04:36 < hufg:#liferay> and print it with liferay logger
+04:36 < hufg:#liferay> for example in gf the choices are webapp deployment, domain/lib, domain/lib/ext, domain/lib/classes, glassfish/modules/
+04:37 < topolik:#liferay> https://www.liferay.com/community/wiki/-/wiki/Main/Configuring+Logs#section-Configuring+Logs-Creating+a+custom+configuration+file:+portal-log4j-ext.xml
+04:37 < topolik:#liferay> ok ?
+04:38 < hufg:#liferay> yes gr8
+04:38 < topolik:#liferay> I believe ppl with 3.1.1 try that too :)
+04:38 < topolik:#liferay> thanks!
+04:57 < hufg:#liferay> topolik: you work for liferay right?
+05:09 < topolik:#liferay> yes
+05:12 < hufg:#liferay> you have some internal stuff running on liferay?
+05:12 < hufg:#liferay> or perhaps liferay.com?
+05:19 < topolik:#liferay> yes, Liferay use both portal and SO internally
+06:14 < Mediii:#liferay> Hi there
+06:14 < Mediii:#liferay> I encounter a Plugin Deployment Troubleshooting  when I am trying to deploy some layout with liferay-portal-6.1.0 here is the stack trace http://pastie.org/8408778
+06:16 < Mediii:#liferay> the http://plugins.liferay.com seems to be down, anyone knows how can I disable the check on this url during plugin deployment in liferay ?
+06:42 < topolik:#liferay> Mediii: I think the error with http://plugins.liferay.com/community doesn't relate to the deployment issue
+06:43 < Mediii:#liferay> topolik:  do you mean it is proxy  issue on my server ?
+06:43 < topolik:#liferay> can be
+06:43 < topolik:#liferay> com.liferay.portal.kernel.xml.DocumentException: Connection timed out Nested exception: Connection timed out
+06:44 < topolik:#liferay> this means that the SAX parser is trying to load some XML definition but it's unable to connect to the server to get that definition file (XSD/DTD)
+06:44 < Mediii:#liferay> ok, anyway is it possible to disable this behaviour of the plugin installer ?
+06:45 < Mediii:#liferay> and force the deployment ? or these files are required and mandatory for the deployement process ?
+06:47 < topolik:#liferay> to disable the plugin installer set these properties to empty, default values are :
+06:47 < topolik:#liferay>     plugin.repositories.trusted=http://plugins.liferay.com/official
+06:47 < topolik:#liferay>     plugin.repositories.untrusted=http://plugins.liferay.com/community
+06:48 < topolik:#liferay> to finish the deployment you need your server to have an internet access
+06:49 < topolik:#liferay> or remove the DTD definition from your liferay-layout-templates.xml file
+06:57 < Mediii:#liferay> is it possible to increase the timeout ?
+06:58 < Mediii:#liferay> I have niticed that my server is very slow to connect to the plugins.liferay.com
+06:59 < Mediii:#liferay> and the timeout of the plugin installer is too short
+06:59 < Mediii:#liferay> how can I increase this timeout ?
+07:05 < topolik:#liferay> I think the problem is not related to plugins.liferay.com
+07:06 < topolik:#liferay> but to http://www.liferay.com/dtd/liferay-layout-templates_6_1_0.dtd
+07:06 < topolik:#liferay> to be precise
+07:08 < Mediii:#liferay> Yes I agree with that but it seems to be a network issue on my server and the best solution for me is to increase the plugin installer's timeout when it connect to the liferay repo
+07:08 < Mediii:#liferay> is ti possible to set the timeout ?
+07:08 < topolik:#liferay> looking at the stacktrace, it's dom4j's SAXReader who opens it
+07:11 < Mediii:#liferay> it is strange but I have copied the same liferay and its portlets/themes and layouts and it wokrs fine on my local machine
+07:11 < Mediii:#liferay> it is clearly a network issue
+07:11 < topolik:#liferay> yes, looking at the exception, it is a network issue :D
+07:12 < Mediii:#liferay> :)
+07:12 < Mediii:#liferay> So is it possible to set the timeout via portal-ext or other stuff ?
+07:13 < topolik:#liferay> ok
+07:13 < topolik:#liferay> try to set this to your portal-ext.properties: portlet.xml.validate=false
+07:14 < topolik:#liferay> oh, no, sorry
+07:14 < topolik:#liferay> xml.validation.enabled=false
+07:30 < ferrema:#liferay> morning all
+07:31 < ferrema:#liferay> have an issue with migration of LF 6.0.6
+07:32 < avinashrbhat:#liferay> why is that the code <ui:header title="location" backURL="<%= viewUrl %>" showBackURL="true"/> shows the back url only when i are using http://localhost:8080 and not when i use http://<myip>:8080 ?
+07:33 < ferrema:#liferay> we are in a situation where our db is messed up due to an earlier problem in LF 5.2.3 ( https://issues.liferay.com/browse/LPS-5545 )
+07:33 < ferrema:#liferay> now I am trying to migrate the checking algo to 6
+07:33 < ferrema:#liferay> and hit the problem
+07:33 < Mediii:#liferay> topolik:   xml.validation.enabled=false  => It works thank you very much  You just saved my life because the portal server is in Gabon  and customers began to get excited seriously when liferay was turned off
+07:34 < ferrema:#liferay> after digging all morning I found that the db has entries that prevent the update operation .
+07:34 < ferrema:#liferay> I have stuff in tables like "58'and'6670'='6670"
+07:34 < ferrema:#liferay> now ...
+07:35 < ferrema:#liferay> is there any chance I can put my hands on a database schema and start doing some cleanups ?
+07:59 < hufg:#liferay> where are you going to migrate
+07:59 < hufg:#liferay> to which version
+08:00 < hufg:#liferay> are you aware that an upgrade is really hard
+08:00 < hufg:#liferay> and yes there is always a chance
+08:03 < hufg:#liferay> even if you clear this problem it's highly likely that more issues will follow, you have to fix things liferay didn't get right
+08:10 < ferrema:#liferay> @huf : I am very well aware of this
+08:11 < ferrema:#liferay> we did it from V 5.3.2 to 6.0.6 and it was a pain
+08:11 < ferrema:#liferay> but we actually need to upgrade to at least 6.1.x
+08:12 < ferrema:#liferay> or we run the risk of our global network management to stop our services ( but this is another story ... )
+08:12 < ferrema:#liferay> what I am trying to achieve at the moment is to migrate the checking algorithm from 5 to 6
+08:12 < ferrema:#liferay> on liferay 6.0.6
+08:12 < hufg:#liferay> mm
+08:13 < ferrema:#liferay> this process made me discover that we have a problem on our database
+08:13 < ferrema:#liferay> and THIS is what I am trying to solve right now : how do I clean it up ?
+08:13 < hufg:#liferay> yeah well if you are sure you are doing the checking algorithm migration right your only choice is to clean the database
+08:13 < ferrema:#liferay> yeah
+08:13 < hufg:#liferay> i vaguely remember doing something like this
+08:13 < hufg:#liferay> there was shit like 1=1 in the db
+08:13 < ferrema:#liferay> but I have no idea of the relation between the tables ...
+08:14 < hufg:#liferay> like sql injections
+08:14 < ferrema:#liferay> yup
+08:14 < hufg:#liferay> and it messed up the migration sql query
+08:14 < ferrema:#liferay> indeed ! that's exactly what's happening
+08:14 < ferrema:#liferay> com.liferay.portal.convert.ConvertException: org.postgresql.util.PSQLException: ERROR: syntax error at or near "and9961"
+08:14 < ferrema:#liferay>   Position: 363
+08:15 < ferrema:#liferay> i guess it's getting that stuff from resourcecode table
+08:15 < ferrema:#liferay> ( the one I am currently seeing messed )
+08:16 < ferrema:#liferay> i was wondering if there was a way to get the rows that have nothing to do ( in reality ) with the rest of (say) portlets
+08:17 < ferrema:#liferay> i looked at service.xml in portal-impl but i really was not able to decipher it
+08:17 < ferrema:#liferay> the diagram looks even scarier ...
+08:19 < hufg:#liferay> yees yees i think i did this
+08:19 < hufg:#liferay> just look at the db values
+08:20 < hufg:#liferay> btw we never migrated
+08:20 < ferrema:#liferay> oh
+08:20 < hufg:#liferay> just look at the fucked up values and compare to the other values
+08:23 < hufg:#liferay> we had invalid values with certain pk values i think
+08:23 < hufg:#liferay> like for example values 700-800 were invalid and we deleted that range
+08:28 < ferrema:#liferay> ok..
+08:28 < ferrema:#liferay> will start doing it
+08:28 < ferrema:#liferay> thanks for you help !
+08:30 < hufg:#liferay> imo a more feasible migration might be a "partial" migration
+08:30 < hufg:#liferay> not sure though hehe
+08:33 < ferrema:#liferay> yeah .... but I have no idea how to accomplish that .
+08:33 < ferrema:#liferay> first step  : migrate algo
+08:33 < ferrema:#liferay> second : check that we can still do everything we did before
+08:33 < ferrema:#liferay> third : try to migrate to 6.1.x
+08:33 < ferrema:#liferay> ... stuck at step 0 :)
+09:40 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Release Candidate 4: https://t.co/o2mzVzzNQS  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+09:40 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Mon Oct 14 16:18:27 2013]
+09:40 [Users #liferay]
+09:40 [@ChanServ    ] [ dblessing   ] [ josuebc    ] [ pnutbutr_   ] 
+09:40 [@rotty3000   ] [ DbT_        ] [ Kaira-     ] [ Pr0tZ       ] 
+09:40 [ alecharp    ] [ ferrema     ] [ kocka      ] [ rocknroll_  ] 
+09:40 [ anteater1sa ] [ guli        ] [ MagnoBooter] [ Tar-Minyatur] 
+09:40 [ avinashrbhat] [ haba713     ] [ marcoceppi ] [ THITY       ] 
+09:40 [ b_52globe   ] [ hufg        ] [ mastro     ] [ Tm_T        ] 
+09:40 [ bijoo       ] [ jardineworks] [ Mediii     ] [ topolik     ] 
+09:40 [ cythrawll   ] [ jbonjean    ] [ Naenyn     ] [ wohnout     ] 
+09:40 [ dave_k      ] [ jdcaddie    ] [ npskirk    ] 
+09:40 -!- Irssi: #liferay: Total of 35 nicks [2 ops, 0 halfops, 0 voices, 33 normal]
+09:40 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+09:40 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log opened Thu Oct 17 09:43:33 2013
+09:43 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Release Candidate 4: https://t.co/o2mzVzzNQS  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+09:43 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Mon Oct 14 16:18:27 2013]
+09:43 [Users #liferay]
+09:43 [@ChanServ    ] [ bijoo    ] [ guli        ] [ josuebc    ] [ Mediii    ] [ Tar-Minyatur] 
+09:43 [@rotty3000   ] [ cythrawll] [ haba713     ] [ Kaira-     ] [ Naenyn    ] [ THITY       ] 
+09:43 [ alecharp    ] [ dave_k   ] [ hufg        ] [ kocka      ] [ npskirk   ] [ Tm_T        ] 
+09:43 [ anteater1sa ] [ dblessing] [ jardineworks] [ MagnoBooter] [ pnutbutr_ ] [ topolik     ] 
+09:43 [ avinashrbhat] [ DbT_     ] [ jbonjean    ] [ marcoceppi ] [ Pr0tZ     ] [ wohnout     ] 
+09:43 [ b_52globe   ] [ ferrema  ] [ jdcaddie    ] [ mastro     ] [ rocknroll_] 
+09:43 -!- Irssi: #liferay: Total of 35 nicks [2 ops, 0 halfops, 0 voices, 33 normal]
+09:43 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+09:43 -!- Irssi: Join to #liferay was synced in 6 secs
+09:44 < x9123:#liferay> Tsts
+10:03 < dave_k:#liferay> is it normal in 6.2.0-rc4 that switching from the welcome-theme to the classic theme takes forever to load?
+10:05 < dave_k:#liferay> I'm waiting for more than 5 minutes by now ... CPU is at 100% - 200%
+10:09 < dave_k:#liferay> okay. now it's done and everything's fast again ...
+10:26 -!- mode/#liferay [+o jhf] by ChanServ
+12:46 < jardineworks:#liferay> Can someone tell me which session object/scope maps to the equivalent of a user session?
+12:54 < jardineworks:#liferay> meaning, if I prefix my attribute with LIFERAY_SHARED_ -- I know that it is accessible in the portlets but with the value be unique PER user session? or will it be shared not just across portlets but across user sessions?
+13:19 < jardineworks:#liferay> wait -- that last part was not very well explained. User A logs in and is assinged a token (in a hook). User B signs in and is assigned a separate token. The token should be valid for their entire session and accessible by all portlets. Is that where I use LIFERAY_SHARED_ prefixes?
+16:20 < jardineworks:#liferay> is it possible to use the JSONFactoryUtil.deserialize method with custom classes?
+16:21 < jardineworks:#liferay> I am trying to do it with a random string but keep getting an exception -- 20:07:41,369 ERROR [http-bio-8080-exec-106][render_portlet_jsp:154] org.json.JSONException: JSONObject["javaClass"] not found.
+16:21 < jardineworks:#liferay> but I don't see any way to specify the java class I want to convert it to.
+16:23 < npskirk:#liferay> As I recall the JSONObject and JSONArray classes just go back and forth to Strings
+16:24 < npskirk:#liferay> It isn't like Grails or Play where the JSON helpers do validation an parsing to other types
+16:24 < jardineworks:#liferay> npskirk, right, but the API have a method called deserialize( String json ) that will yield an Object.
+16:24 < jardineworks:#liferay> I found instances in the portal source where it does.
+16:24 < jardineworks:#liferay> One for the Calendar portlet.
+16:24 < npskirk:#liferay> yeah, it gives you back a JSONObject or a JSONArray
+16:24 < npskirk:#liferay> then you access the fields through the interface those objects provide
+16:25 < jardineworks:#liferay> oh
+16:25 < jardineworks:#liferay> really?
+16:25 < npskirk:#liferay> ah, well if you have counter-examples, then I'm remembering wrong
+16:25 < npskirk:#liferay> been a while
+16:25 < jardineworks:#liferay> there is JSONFactoryUtil.createJSONObject(String json) which gives you a JSON object...
+16:26 < jardineworks:#liferay> but for example --
+16:26 < jardineworks:#liferay> _recurrenceObj = (TZSRecurrence)JSONFactoryUtil.deserialize(
+16:26 < jardineworks:#liferay> 					recurrence);
+16:26 < jardineworks:#liferay> is in the calendar portlet
+16:26 < jardineworks:#liferay> So I assume there is a way to do it.. but I can't find any examples on how to
+16:26 < jardineworks:#liferay> Maybe I need to use an external JSON library?
+16:30 < npskirk:#liferay> ok .. if you have a JSONObject with a field in it called, say "foo"
+16:30 < npskirk:#liferay> then you get the value in "foo" by saying something like jsonObject.getString("foo")
+16:32 < npskirk:#liferay> if the thing in "foo" is another JSON Object or JSON array then you get it with  jsonObject.getJSONObject("foo") or jsonObject.getJSONArray("foo")
+16:33 < npskirk:#liferay> Assuming you know the field contains a basic java type you can also 'getLong()', 'getDouble()' etc
+16:34 < npskirk:#liferay> hmm, the factoryUtil I don't think I've used
+16:35 < jardineworks:#liferay> npskirk, sure -- I have all that working but what I want to do is say Person p = (Person)JSONFactoryUtil.deserialize(json); where "name", "age" etc... all get mapped to name, age etc in the Person object.
+16:35 < npskirk:#liferay> yeah I get it
+16:38 < jardineworks:#liferay> in other frameworks I think you usually speicfy the class you want to deserialize to -- like JSONFactoryUtil.deserialize( Person.class, json )
+16:38 < jardineworks:#liferay> but there is no such animal in the LR classes
+16:39 < npskirk:#liferay> maybe public static <T> T http://docs.liferay.com/portal/6.1/javadocs/src-html/com/liferay/portal/kernel/json/JSONFactoryUtil.html#line.105(http://java.sun.com/javase/6/docs/api/java/lang/String.html?is-external=true json,
+16:39 < npskirk:#liferay>                                          http://java.sun.com/javase/6/docs/api/java/lang/Class.html?is-external=true<T> clazz)
+16:39 < npskirk:#liferay> oops
+16:40 < jardineworks:#liferay> woah
+16:40 < jardineworks:#liferay> lol
+16:40 < npskirk:#liferay> there are deserialize methods on JSONFactoryUtil that take a class parameter
+16:42 < jardineworks:#liferay> I see one for a String, and one for a JSONObject
+16:42 < jardineworks:#liferay> oh
+16:42 < jardineworks:#liferay> the looseDeserialize you mean?
+16:52 < npskirk:#liferay> yes
+16:54 < jardineworks:#liferay> I wish I knew waht looseDeserializeSafe vs looseDeserialize was.
+16:55 < npskirk:#liferay> a documented API you mean?
+16:56 < npskirk:#liferay> <snicker>
+16:56 < jardineworks:#liferay> :)
+16:56 < jardineworks:#liferay> you have to love the POC to work with this product :)
+16:56 < npskirk:#liferay> use the source Luke
+16:58 < jardineworks:#liferay> hahah -- I know. That is what I usually end up doing... checking all the impl classes.
+--- Log closed Fri Oct 18 00:00:33 2013

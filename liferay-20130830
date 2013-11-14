@@ -1,0 +1,20 @@
+--- Log opened Fri Aug 30 00:00:21 2013
+06:21 < avinashrbhat:#liferay> hi, i'm getting "login-portlet-6.1.1.1.war does not support this version of Liferay" error while deploying
+06:21 < avinashrbhat:#liferay> can anyone tell me what is there to be done?
+06:38 < Tar-Minyatur:#liferay> The portlet.xml (I think) contains a setting that specifies the Liferay version it's been written for.
+06:38 < Tar-Minyatur:#liferay> If that doesn't match your Liferay version, the plugin won't work.
+06:39 < Tar-Minyatur:#liferay> (Liferay being a more recent version than the portlet is usually ok.)
+06:41 < avinashrbhat:#liferay> @Tar-Minyatur so if i change the version in that it should work right?
+06:42 < Tar-Minyatur:#liferay> It would not be refused by Liferay...whether it WORKS is a completely different story.
+06:49 < avinashrbhat:#liferay> right now i've changed the version in liferay-portlet.xml and still the issue remains
+07:58 <@jhf:#liferay> bijoo: !
+07:59 -!- jhf changed the topic of #liferay to: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Beta: http://goo.gl/C4gc1e  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+10:07 < avinashrbhat:#liferay> is there a portlet that shows a tabbed GUI?
+10:09 < avinashrbhat:#liferay> what i need is like there will a navigation GUI on the left which can be configurable, upon clicking on the navigation item, through IPC the navidation portlet will send the URL to show, which the tab portlet will show in an iframe or something.
+10:10 < avinashrbhat:#liferay> * navigation
+11:58 < jardineworks:#liferay> jhf, are you around?
+11:58 <@jhf:#liferay> yessir
+11:59 < jardineworks:#liferay> jhf, mind if I pm you a design pattern question? I think I am suffering from a case of the friday brain farts
+11:59 <@jhf:#liferay> sure!
+13:18 < LRAdminInNeed148:#liferay> Thank you to all who helped with app contest.
+--- Log closed Sat Aug 31 00:00:22 2013

@@ -1,0 +1,207 @@
+--- Log opened Thu Aug 29 00:00:19 2013
+05:12 < Tar-Minyatur:#liferay> Morning.
+05:13 < Tar-Minyatur:#liferay> I just tried using //somehost.tld as cdn.host.http.
+05:13 < Tar-Minyatur:#liferay> Somehow Liferay messes up. -.-
+05:13 < Tar-Minyatur:#liferay> Sometimes it removes one of the leading slashes.
+05:13 < Tar-Minyatur:#liferay> Great "feature". :-/
+05:16 < Tar-Minyatur:#liferay> Apparently HtmlUtil.escape() removes double slashes.
+05:16 < Tar-Minyatur:#liferay> That's unpleasant...
+05:34 < topolik:#liferay> Tar-Minyatur: Hi, I think there are both cdn.host.http and cdn.host.https so you don't need to use double slashes
+05:36 < Tar-Minyatur:#liferay> I do, actually.
+05:37 < Tar-Minyatur:#liferay> Because our Liferay runs on multiple servers behind a load balancer.
+05:37 < Tar-Minyatur:#liferay> And the load balancer doesn't differentiate between HTTP and HTTPS.
+05:37 < Tar-Minyatur:#liferay> So Liferay always thinks it's running non-securely and therefore never uses cdn.host.https. :-/
+05:38 < Tar-Minyatur:#liferay> And this then causes the browser to not load JS files, because they are located in a non-secure context, when the page is being requested via HTTPS.
+05:40 < Tar-Minyatur:#liferay> topolik: Or do you know of a Liferay feature that might solve this mess?
+05:41 < topolik:#liferay> do you use HTTP or only HTTPS?
+05:41 < Tar-Minyatur:#liferay> Both.
+05:41 < Tar-Minyatur:#liferay> Most of the page is static content only. But there are some forms and stuff.
+05:41 < Tar-Minyatur:#liferay> In those cases the user is redirected to HTTPS.
+05:42 < topolik:#liferay> portal need to know the kind of the channel
+05:43 < Tar-Minyatur:#liferay> Yeah. Looks like that information gets lost due to the load balancer.
+05:43 < topolik:#liferay> this is problem of the envinroment configuration
+05:43 < topolik:#liferay> the app server somehow needs to recognize it
+05:43 < topolik:#liferay> and tell Liferay
+05:44 < topolik:#liferay> I believe the load balancer sends some header indicating original URL or at least the scheme
+05:44 < topolik:#liferay> I don't know which app server you use but you can try to configure it to recognize it
+05:45 < Tar-Minyatur:#liferay> Tomcat.
+05:45 < Tar-Minyatur:#liferay> I think the problem is that we would need the SSL certificate on all instances then.
+05:45 < Tar-Minyatur:#liferay> Which probably causes an extra load of problems...
+05:45 < topolik:#liferay> hmm, nope
+05:45 < topolik:#liferay> load balancer cannot decrypt the communication
+05:46 < topolik:#liferay> it's ok to terminate secured connection on the load ballancer
+05:46 < topolik:#liferay> but it should send the info to the servers
+05:46 < Tar-Minyatur:#liferay> Mhm.
+05:46 < topolik:#liferay> what load balancer do you use?
+05:46 < Tar-Minyatur:#liferay> Amazon ELB.
+05:47 < Tar-Minyatur:#liferay> It's a cloud application.
+05:47 < Tar-Minyatur:#liferay> (Don't ask me why...it's totally unnecessary...)
+05:47 < Tar-Minyatur:#liferay> I hate this server admin stuff. Somebody else should do this, who knows more about it than I do.
+05:48 < topolik:#liferay> http://docs.aws.amazon.com/ElasticLoadBalancing/latest/DeveloperGuide/elb-listener-config.html
+05:48 < topolik:#liferay> Using HTTP/HTTPS Protocol with Elastic Load Balancing
+05:48 < topolik:#liferay>  The load balancer uses the certificate to terminate and then decrypt requests before sending them to the back-end instances. Additionally, when you use HTTPS, the load balancer inserts or updates the X-Forwarded-* headers and can insert or update cookies for sticky sessions. For more information on X-Forwarded-* headers, see X-Forwarded-For.
+05:50 < topolik:#liferay> http://stackoverflow.com/questions/9925057/issue-with-https-to-http-redirection-by-elastic-load-balancer-to-tomcat-server
+05:50 < topolik:#liferay> http://stackoverflow.com/questions/5741210/handling-x-forwarded-proto-in-java-apache-tomcat
+05:50 < topolik:#liferay> these 2 things should help you
+05:52 < Tar-Minyatur:#liferay> Mhm...
+05:52 < Tar-Minyatur:#liferay> Thanks.
+05:52 < topolik:#liferay> y/w
+05:52 < Tar-Minyatur:#liferay> I guess I'll have to find somebody who I can talk to here.
+05:52 < topolik:#liferay> I'm sorry I don't have any experience with ELB
+05:52 < Tar-Minyatur:#liferay> I will definitely not start fiddling around with this on my own.
+05:53 < topolik:#liferay> btw, if you have HTTPS configured I believe ELB already sends that headers
+05:53 < topolik:#liferay> so the only thing you need is to configure tomcat's RemoteIpValve to recognize that and restart tomcat
+05:53 < Tar-Minyatur:#liferay> Yeah. Probably the Apache and Tomcat on our instances are not able to recognize it.
+05:53 < Tar-Minyatur:#liferay> Somewhere between Apache and Tomcat the information is lost.
+05:59 < Tar-Minyatur:#liferay> I wonder if it would be a quick fix to always use the https cdn.
+05:59 < Tar-Minyatur:#liferay> Mhm...
+06:57 < jardineworks:#liferay> topolik, are you still around?
+06:57 < topolik:#liferay> yes
+06:58 < jardineworks:#liferay> topolik, do you know when in the execution flow the VelocityVariables get added to the request attributes?
+06:58 < jardineworks:#liferay> just curious because inm both my service.events.pre and post when I try to pull it back it's null.
+06:59 < topolik:#liferay> uhmm, I think I don't understand
+06:59 < topolik:#liferay> velocity doesn't have any own variables
+06:59 < topolik:#liferay> all variables are stuffed from outside
+06:59 < topolik:#liferay> so that velocity templates can use them
+07:00 < jardineworks:#liferay> but you can access the map of the variables using request.getAttribute(WebKeys.VM_VARIABLES).... right?
+07:00 < jardineworks:#liferay> but the Map<String, Object> is null  until -- i guess -- very late in the call flow.
+07:03 < jardineworks:#liferay> well ... very late in the call flow for me. It's probably right where it should be :)
+07:04 < jardineworks:#liferay> not a huge deal, I was just looking to short circuit a pre hook... but its fast enough that I don't think it will matter.
+07:11 < kocka:#liferay> re
+07:12 < kocka:#liferay> before 6.1.2 CE was released
+07:12 < kocka:#liferay> did anyone tested it with multiple instances?
+07:12 < kocka:#liferay> i got a [VirtualHostFilter:83] java.lang.NullPointerException
+07:13 < kocka:#liferay> and a white blank page in the browser
+14:45 < jardineworks:#liferay> hey rotty3000  are you around?
+14:45 <@rotty3000:#liferay> yeah
+14:45 < jardineworks:#liferay> rotty3000, do you have a sec for a quick question?
+14:46 <@rotty3000:#liferay> sure
+14:47 < jardineworks:#liferay> rotty3000, I am trying something a little unorthodox. I have a hook project that I created and in it I am amplacing "framework" type code. Basically Util class and models that are shared across various other hooks and portlets. I set each of the other plugins to be dependent on the deployment context of my framework hook.
+14:48 <@rotty3000:#liferay> right
+14:48 < jardineworks:#liferay> rotty3000, My understanding is that this means that during build time, a JAR of the fremwork plugin will be generated and placed inside the lib folder of the other plugins -- meeting the dependency when deployed
+14:48 <@rotty3000:#liferay> yeah
+14:48 < jardineworks:#liferay> In my test portlet, I have specified TWO deployment context dependencies. One of them is producing the jar, (its a portlet project) but my hook framework is not.
+14:49 <@rotty3000:#liferay> but note you will also have duplication
+14:49 <@rotty3000:#liferay> right
+14:49 < jardineworks:#liferay> what do you mean duplication?
+14:49 <@rotty3000:#liferay> well, the "framework" jar will be reproduced in every dependent plugin, this can be ok in some cases, not ok in others
+14:50 <@rotty3000:#liferay> I just wanted to make sure that was clear
+14:50 < jardineworks:#liferay> oh
+14:50 <@rotty3000:#liferay> but anyhow, carry on
+14:50 < jardineworks:#liferay> yeah -- I see.. if I have 5 plugins, then I will have the jar 5 times. The alternative would be to produce my own jar and dump it in /lib/ext
+14:50 <@rotty3000:#liferay> so one is a portlet plugin, the other is a hook
+14:50 <@rotty3000:#liferay> exactly
+14:51 < jardineworks:#liferay> right... but only the portlet is being bundled. The hook dependency is not
+14:51 < jardineworks:#liferay> :(
+14:51 <@rotty3000:#liferay> the portlet is using service builder right?
+14:51 < jardineworks:#liferay> oh wait
+14:51 < jardineworks:#liferay> if I do a ant clean first maybe?
+14:51 <@rotty3000:#liferay> it's the service builder's "service" jar which is a copied to dependent plugins
+14:52 < jardineworks:#liferay> ah -- and there is the fly in the oitment
+14:52 < jardineworks:#liferay> buts
+14:52 < jardineworks:#liferay> bust*
+14:52 < jardineworks:#liferay> ... that's what I forgot. I was hoping it would bundle all the src into a jar and move it for me
+14:53 < jardineworks:#liferay> back to fighting with ant and classpath issues I guess
+14:53 <@rotty3000:#liferay> that would be nice
+14:53 <@rotty3000:#liferay> BUT
+14:53 <@rotty3000:#liferay> there may be an alternative of sorts
+14:53 < jardineworks:#liferay> i'm listening :)
+14:53 <@rotty3000:#liferay> which version of Liferay (and SDK) are you using
+14:53 < jardineworks:#liferay> 6.1.2
+14:54 <@rotty3000:#liferay> ok, look inside the SDK root folder
+14:54 <@rotty3000:#liferay> do you see a folder called "shared" ?
+14:54 < jardineworks:#liferay> no
+14:54 <@rotty3000:#liferay> ok, then forget I said anything
+14:54 < jardineworks:#liferay> lol
+14:54 < jardineworks:#liferay> tease
+14:55 <@rotty3000:#liferay> ;)
+14:55 <@rotty3000:#liferay> so you may simply need to force your build to push the dependency into the shared classpath of the app server
+14:55 <@rotty3000:#liferay> and restart
+14:55 < jardineworks:#liferay> right
+14:56 <@rotty3000:#liferay> this is one of the annoying pieces of our plugin handling which I trying to cure by moving the osgi
+14:56 <@rotty3000:#liferay> the whole issue just vanishes
+14:56 < jardineworks:#liferay> the issue I am having is that it's a separate java project... and as such I need to write my own build file.
+14:56 <@rotty3000:#liferay> because unlike Java EE web apps which is a flat plain classloader environment
+14:56 < jardineworks:#liferay> The issue right now is I can't get ant to resolve the classpath for javac so that it sees the portal/lib, tomcat/lib and tomcat/lib/ext
+14:56 <@rotty3000:#liferay> osgi is a graph
+14:57 <@rotty3000:#liferay> right
+14:57 < jardineworks:#liferay> I mean, ant -debug shows them under -classpath... but I get all sorts of unresolved class references.
+14:57 <@rotty3000:#liferay> right
+14:57 < jardineworks:#liferay> I would love to see an "api" plugin
+14:58 <@rotty3000:#liferay> yeah
+14:58 < jardineworks:#liferay> so that you can write headless hava code that can be accessed by all the plugins
+14:59 <@rotty3000:#liferay> one thing you could do...
+14:59 <@rotty3000:#liferay> during build time of your "framework" is to copy it to the <SDK>/lib folder
+14:59 <@rotty3000:#liferay> and there we have a rule which includes all of those jars into the build classpath of every plugin
+15:00 <@rotty3000:#liferay> included there are things like the servlet API, the portlet API, jsp, etc..
+15:01 < jardineworks:#liferay> sure... but if I get to the point where I am able to resolve the classpath issue in my build file and actually COMPILE the code, then it won't matter to me where it goes. I was just trying to be lazy since you guys have written so much ant stuff already :D
+15:01 <@rotty3000:#liferay> yeah :(
+15:01 < jardineworks:#liferay> son of a bitch. I just got it to work
+15:01 < jardineworks:#liferay> lol
+15:02 < jardineworks:#liferay> or not
+15:02 < jardineworks:#liferay> stupid empty jar files.
+15:02 < jardineworks:#liferay> so much promise and yet useless.
+15:02 <@rotty3000:#liferay> first thing just try moving the "framework" jar into the SDK lib folder and building some plugin which uses it
+15:03 <@rotty3000:#liferay> it _should_ compile and build no problem
+15:03 < jardineworks:#liferay> no no... sorry... the build not working was my java project one.
+15:03 < jardineworks:#liferay> but I just got it.. and the jar is full of beans! yay!
+15:03 <@rotty3000:#liferay> ok
+15:04 < jardineworks:#liferay> but I think I am going to take your advice and put the jar in the sdk/lib folder. That makes more sense than in tomcat/lib/ext since it will limit the scope to just the plugins
+15:05 <@rotty3000:#liferay> .. but at runtime, you'll still need it in the shared classloader, unless each plugin embeds it
+15:06 < jardineworks:#liferay> well.. good point
+15:07 <@rotty3000:#liferay> and if each plugin embeds it,, then you may as well just copy the jar into each one's own lib folder before individual is built
+15:07 < jardineworks:#liferay> all of my plugins are for the same client. They have a set of REST services that we need to hit to get info.
+15:07 < jardineworks:#liferay> my "framework" is a bridge between LR and their services.
+15:07 <@rotty3000:#liferay> yeah
+15:07 < jardineworks:#liferay> so all plugins, technically, would need the framework
+15:07 <@rotty3000:#liferay> so depending on how the "framework" deals with "state"
+15:08 <@rotty3000:#liferay> will depend on whether it can even be properly embedded many times of not in the JVM
+15:08 < jardineworks:#liferay> but by keeping it in the sdk folder, no one else can write and deploy a webapp on the server that would exploit it
+15:08 < jardineworks:#liferay> hmm
+15:08 <@rotty3000:#liferay> like if there is any Static references in the SDK, reproducing the jar will lead to problems
+15:09 <@rotty3000:#liferay> or if at some point a instance moves between the plugins, you'll get classloader problems
+15:09 <@rotty3000:#liferay> because the "framework" of each plugin can't share instances to other "framework" copies
+15:09 <@rotty3000:#liferay> all in all, it'
+15:10 <@rotty3000:#liferay> it's much simpler to have 1 single "Framework" visible to each "dependent"
+15:10 < jardineworks:#liferay> I see... and those are exactly issues I would have. lib/ext it is I guess.
+15:13 < jardineworks:#liferay> thanks rotty
+15:14 < jardineworks:#liferay> appreciate it
+15:14 < jardineworks:#liferay> I have other questions -- bbut I don't want to abuse the attention
+15:14 < jardineworks:#liferay> :)
+15:15 <@rotty3000:#liferay> :) good luck
+15:16 <@rotty3000:#liferay> .. that was "good luck" with your project.. not "good luck" not abusing my attention...
+15:16 < jardineworks:#liferay> hahah
+15:16 < jardineworks:#liferay> phew
+15:16 < jardineworks:#liferay> felt a bit like I was 18 and shown the door there
+15:16 <@rotty3000:#liferay> glad I clarified! :)
+16:11 < jardineworks:#liferay> hey rotty -- the MCVPorlet class. Is that not part of one of the jars in lib/ext?
+16:12 < jardineworks:#liferay> oops
+16:12 < jardineworks:#liferay> hey rotty3000 -- -- the MCVPorlet class. Is that not part of one of the jars in lib/ext?
+16:14 <@rotty3000:#liferay> it's in a jar added to each plugin's lib called util-bridges.jar
+16:14 < jardineworks:#liferay> hmmm
+16:15 < jardineworks:#liferay> thats what I thought. I have a TestPortlet class that extends <Client>Portlet ... and my <Client>Portlet is in my framework jar (lib/ext) and it extends MVCPortlet.
+16:15 < jardineworks:#liferay> but at run time... my TestPortlet is complaining about not being able to find MVCPortlet.
+16:16 < jardineworks:#liferay> util bridges appears in my /webapps/test-portlet/WEB-INF/lib.
+16:17 < jardineworks:#liferay> I wonder if its a red herring and the acutal whiner is the <Client>Portlet.
+16:18 <@rotty3000:#liferay> well, the extended class won't load since the super can't be found in the same or parent classloader
+16:19 < jardineworks:#liferay> rotty3000, any risk of putting the util-bridges.jar in lib/ext? meaning... is it bad? :)
+16:20 <@rotty3000:#liferay> well..
+16:21 <@rotty3000:#liferay> bridges depends on many other things which might start to cause problems
+16:21 <@rotty3000:#liferay> hmm.. so what to recommend..
+16:21 < jardineworks:#liferay> ext plugin?
+16:22 <@rotty3000:#liferay> I'm not sure why the MVCPortlet class itself isn't in portal-service.jar
+16:23 < jardineworks:#liferay> 6.2?
+16:23 < jardineworks:#liferay> :)
+16:23 <@rotty3000:#liferay> since it only depends on classes from that jar, or the portlet spec, which is also in shared classpath
+16:23 <@rotty3000:#liferay> if you make a ticket for it, you never know
+16:23 < jardineworks:#liferay> truth be told i don't REALLY need to have my <client>Portlet class... I just wanted to put it in there for future proofing.
+16:24 <@rotty3000:#liferay> right
+16:24 < jardineworks:#liferay> I'll put a ticket in.
+16:24 < jardineworks:#liferay> my first ever :)
+16:24 <@rotty3000:#liferay> if you have a way to avoid it, you should for now
+16:24 < jardineworks:#liferay> I don't even know the url
+16:24 < jardineworks:#liferay> how sad is that
+16:24 <@rotty3000:#liferay> I mean avoid putting the client portlet class globally
+16:24 <@rotty3000:#liferay> issues.liferay.com
+16:25 < jardineworks:#liferay> will do. It's an easy refactor if need be later.
+--- Log closed Fri Aug 30 00:00:21 2013

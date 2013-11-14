@@ -1,0 +1,73 @@
+--- Log opened Wed Nov 13 00:00:09 2013
+03:24 < hufg:#liferay> maan
+03:24 < hufg:#liferay> i have a crazy problem
+03:25 < hufg:#liferay> a user is missing admin controls but it has the exact same user group and roles as a working user
+03:25 < hufg:#liferay> an user
+03:35 < Tar-Minyatur:#liferay> Which controls are missing for him?
+03:35 < Tar-Minyatur:#liferay> Morning btw.
+03:37 < hufg:#liferay> morning!
+03:37 < hufg:#liferay> Tar-Minyatur: everything that counts
+03:37 < hufg:#liferay> was unable to reproduce the problem so it's solved
+03:37 < hufg:#liferay> very weird
+03:37 < hufg:#liferay> create user -> add user group -> everything works
+03:39 < Tar-Minyatur:#liferay> Strange. I was going to suggest checking if there are any special site roles or something.
+03:39 < Tar-Minyatur:#liferay> I personally think that the permission system can be quite confusing.
+04:43 < hufg:#liferay> yeah
+05:16 < lesnick:#liferay> hi ia m new to liferay
+05:17 < lesnick:#liferay> i want to develope a portlet using using liferay-maven-plugin with eclipse ..how to do this
+05:17 < lesnick:#liferay> could you send me a link
+05:17 < lesnick:#liferay> please
+07:42 < Jusle:#liferay> Hello. On the page http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/installing-liferay-on-tomcat-7-liferay-portal-6-2-user-guide-15-en is mentioned: "The Liferay .war file should be called liferay-portal-6.2.x-[date].war"
+07:42 < Jusle:#liferay> But, on the additional files page, Download-button for the war-file does not give war file.
+07:42 < Jusle:#liferay> for me
+07:43 < lesnick:#liferay> i am getting mojoexecuton exception
+07:43 < lesnick:#liferay> while trying to do mvn package
+07:43 < lesnick:#liferay> build failed
+07:44 < Jusle:#liferay> It downloads file liferay-portal-6.2.0-ce-ga1-20131101192857659.zip where I can't find the war file
+07:44 < Jusle:#liferay> Have I missed something or is there some wrong link in Liferay.com?
+08:21 < vsingleton:#liferay> lesnick: which package are you trying to build?
+08:41 < hufg:#liferay> Jusle: http://sourceforge.net/projects/lportal/files/Liferay%20Portal/
+09:20 < jardineworks:#liferay> good morning guys
+09:20 < jardineworks:#liferay> qq about asset publisher for anyone who is around.
+09:21 < jardineworks:#liferay> can I use the asset publisher to publish content (custom structure) based on a custom structure attribute value?
+09:30 < hufg:#liferay> evening
+09:40 -!- mode/#liferay [+o jhf] by ChanServ
+10:00 < LRAdminInNeed32:#liferay> hi
+10:00 < LRAdminInNeed32:#liferay> anybody know how to fix this error? Chat error: Liferay IMS is not connected to the Jabber server
+10:04 < LRAdminInNeed32:#liferay> /nick anormallu
+10:32 < imox1234:#liferay> Web Form is temporarily unavailable.
+10:32 < imox1234:#liferay> I moved the lifray from another server to a new server
+10:35 < jardineworks:#liferay> LRAdminInNeed32, look for the Instant Messenger section in the portal.properties and then provide your overrides in the portal-ext.properties
+11:49 < jardineworks:#liferay> anyone around still?
+12:29 < bradley_:#liferay> How do we figure out where JAVA_HOME= is
+12:29 < apucay:#liferay> bradley, do i know you?
+12:30 < apucay:#liferay> echo %JAVA_HOME% on windows
+12:31 < bradley_:#liferay> this is bradley wood
+12:31 < bradley_:#liferay> I'm on a mac
+12:31 < npskirk:#liferay> I think the question is "how do I know where Liferay thinks JAVA_HOME is?"
+12:32 < npskirk:#liferay> Which you can find by going to the control panel
+12:32 < npskirk:#liferay> in "Server Administration"
+12:32 < npskirk:#liferay> "Properties" tab
+12:32 < apucay:#liferay> ah
+12:32 < npskirk:#liferay> it is one of the env.* properties
+12:34 < npskirk:#liferay> but if you want to know what your logged in user's JAVA_HOME is on mac, you can use terminal
+12:35 < npskirk:#liferay> cat ENV | grep JAVA
+12:35 < npskirk:#liferay> oops, just 'env
+12:35 < npskirk:#liferay> 'env | grep JAVA'
+12:35 < npskirk:#liferay> sorry, fat fingers this morning
+12:38 < bradley_:#liferay> that doesn't seem to work
+12:40 < apucay:#liferay> well if you just executed env on the command line you can see if it's set at all
+12:41 < npskirk:#liferay> right
+12:42 < npskirk:#liferay> if you do 'env' and there's no JAVA_HOME, then the user who typed 'env' doesn't have it set
+12:42 < npskirk:#liferay> but the user's environment is probably not the environment that Liferay is running in anyway
+12:51 < jardineworks:#liferay> hey jhf, question. My Portlet class calls a Util class I created (static method call). That method then makes a call to the PrefsPropsUtil. When this happens at runtime though I am getting a java.lang.IllegalAccessError: tried to access method ...
+12:51 < jardineworks:#liferay> jhf, any idea why?
+12:52 <@jhf:#liferay> what's the full IllegalAccessError message?
+12:56 < jardineworks:#liferay> ill send it to you pvt to avoid the channel flood :)
+18:35 < darkos:#liferay> hey there @jhf are you there?
+20:39 -!- mode/#liferay [+o jhf_] by ChanServ
+22:59 < LRAdminInNeed155:#liferay> Hi, I'm trying to build the IDE; (why? https://issues.liferay.com/browse/IDE-1201 )
+23:00 < LRAdminInNeed155:#liferay> I've downloaded latest Eclipse; installed Eclipse SDK and Releng per https://www.liferay.com/community/wiki/-/wiki/Main/Liferay+IDE+Develop+from+Source
+23:01 < LRAdminInNeed155:#liferay> But references to com.android.* packages are missing...
+23:02 < LRAdminInNeed155:#liferay> Anyone know of an updated  guide?
+23:02 < LRAdminInNeed155:#liferay> Or any pointers as to the build?

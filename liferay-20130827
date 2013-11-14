@@ -1,0 +1,93 @@
+--- Log opened Tue Aug 27 00:00:16 2013
+03:37 -!- mode/#liferay [+o rotty3000] by ChanServ
+06:21 < sgeef:#liferay> @modd, sorry but yesterday i was already gone..
+06:22 < sgeef:#liferay> the question that i have abaut kaleo workflow, is if it's possible to retrieve variables from the workflow.. And also to send parameters from the page to the workflow to make decisions. like a checkbox or something like that.
+06:22 < modd:#liferay> yes, it is
+06:22 < modd:#liferay> it's really easy
+06:22 < sgeef:#liferay> it is?
+06:23 < modd:#liferay> just add your checkbox to your form, like the document upload form
+06:23 < modd:#liferay> this checkbox has a certain name
+06:23 < modd:#liferay> this name+value will be stored in the serviceContext of the workflow
+06:24 < sgeef:#liferay> o that's really easy.
+06:24 < modd:#liferay> yep
+06:24 < sgeef:#liferay> and to retrieve variables on a page.. For example i want to give the state draft fieldsEnabled = false. is this possible from the workflow?
+06:25 < sgeef:#liferay> so that i can disable the fields in my portlet? or do another action according to the variable
+06:26 < modd:#liferay> hmm
+06:27 < modd:#liferay> my experience was, that changing values from the workflow itself won't work. I guess, this is a bug and maybe it's fixed in 6.2
+06:28 < modd:#liferay> so it's better to make decisions on the data you can feed the workflow before it starts
+06:28 < sgeef:#liferay> if not.. no problem.. i'll make a custom configuration xml or something. the last thing that i'm searching for is how to generate the buttons dynamicly according to the state that a enity has. Is this possible.. I have been searching the source.. but i think it's not possible.
+06:28 < modd:#liferay> well, you can check for the state
+06:28 < sgeef:#liferay> thanks a lot already.. things so easy made me crazy.. haha
+06:29 < modd:#liferay> so you can simply do "if state!=draft {show buttons}
+06:29 < sgeef:#liferay> ok, but if i check the state and show the buttons, this will not be dynamic..
+06:30 < sgeef:#liferay> every new transition/state will need to have code changes..
+06:30 < modd:#liferay> it is dynamic because the state is dynamic
+06:31 < modd:#liferay> no, because your view-code will be called everytime someone calls the page
+06:31 < modd:#liferay> so it will build the buttons whether it is a draft or not
+06:32 < sgeef:#liferay> yes ok, but the thing that i was looking for is to retrieve the possible transitions, and to generate buttons witht he names of the transitions.
+06:33 < sgeef:#liferay> because then you won't need to change your viewcode. you understand what i'm trying to say/achieve
+06:33 < sgeef:#liferay> ?
+06:38 < modd:#liferay> "retrieve possible transitions"? the number of transitions is constant
+06:39 < sgeef:#liferay> Ok, i understand what you mean. i agree.
+06:39 < sgeef:#liferay> last question :) if you don't mind :)
+06:40 < modd:#liferay> if I can answer it^^
+06:40 < sgeef:#liferay> to start a workflow on a entity you always need to call a method no? .. don't remeber which was it on the moment.
+06:41 < sgeef:#liferay> Does this method start the workflow according to the state that the entity has? or does it always start on the beginning? (Start state which is defined in the kaleo xml?)
+06:42 < modd:#liferay> every workflow has an entry point
+06:42 < modd:#liferay> if you want to check how to start a workflow, you can check the code of portlets, which supports workflows, like the document library
+06:44 < sgeef:#liferay> ok thanks for the help ;)
+06:44 < modd:#liferay> np
+08:21 -!- mode/#liferay [+o jhf_] by ChanServ
+08:34 < jardineworks:#liferay> morning gents
+08:44 < Tar-Minyatur:#liferay> Hi there.
+08:44 < Tar-Minyatur:#liferay> Early start today?
+09:04 < jardineworks:#liferay> Tar-Minyatur, I usually start around 6:00 or 6:30 actually to try to get an hour or two in before the mayhem of children and wives starts.
+09:04 < jardineworks:#liferay> also lets me take a long lunch to prepare dinner
+09:06 < Tar-Minyatur:#liferay> :)
+09:06 < Tar-Minyatur:#liferay> Over here people start around 9:30 to 10:00.
+09:06 < jardineworks:#liferay> Tar-Minyatur, My wife is a designer. Her crew are the same. Lazy bastards.
+09:06 < Tar-Minyatur:#liferay> I'm usually one of the first to arrive around 9:00.
+09:06 < jardineworks:#liferay> ;)
+09:07 < jardineworks:#liferay> when I worked in a studio I used to go into the office for 7 / 7:30 and just enjoy the peace and quiet until the artists showed up around 10am. A few of the site devs were considered "early starters" at 930
+09:07 < jardineworks:#liferay> lol
+09:07 < Tar-Minyatur:#liferay> :D
+09:07 < jardineworks:#liferay> Tar-Minyatur, how goes the service builder battle?
+09:07 < Tar-Minyatur:#liferay> I consider it lost for now.
+09:08 < Tar-Minyatur:#liferay> Somehow I got stuck in between two different sources of information and by now I'm totally confused. ;)
+09:08 < Tar-Minyatur:#liferay> The official documentation somehow leaves out the whole part where they create the portlet with the input form.
+09:09 < Tar-Minyatur:#liferay> And the book I've been reading about Liferay seems pretty outdated and does a lot of stuff manually that Liferay can do itself by now.
+09:09 < Tar-Minyatur:#liferay> I guess I'll have to start fresh and try to figure out every step myself.
+09:09 < Tar-Minyatur:#liferay> Right now I switched to setting up a local development environment. And it's giving me a headache already...
+09:10 < Tar-Minyatur:#liferay> Somehow I get an inifinite loop in the FilterChain. No idea why.
+09:13 < jardineworks:#liferay> Tar-Minyatur, Are you using the bundle?
+09:14 < Tar-Minyatur:#liferay> Bundle?
+09:14 < Tar-Minyatur:#liferay> You mean Liferay + Appserver?
+09:16 < jardineworks:#liferay> Tar-Minyatur, yeah... like the Tomcat bundle download where you basically unzip and start the server
+09:16 < Tar-Minyatur:#liferay> Can't do that.
+09:16 < Tar-Minyatur:#liferay> Because of our custom Liferay version.
+09:17 < jardineworks:#liferay> Tar-Minyatur, But to just get a working example of service builder ...
+09:17 < Tar-Minyatur:#liferay> Yeah. I'm working on multiple things.
+09:17 < Tar-Minyatur:#liferay> For the service builder stuff I'm using a bundled setup.
+09:17 < jardineworks:#liferay> Tar-Minyatur, I can give you a 30 min tutorial on how to use it if you want... create the form, save the parameters, etc.
+09:18 < Tar-Minyatur:#liferay> Sounds great. Unfortunately my team lead decided that getting a local development environment set up has a higher priority right now.
+09:19 < Tar-Minyatur:#liferay> I agree with him kind of, but it's an annoying task...
+09:19 < Tar-Minyatur:#liferay> I tried following the official documentation earlier.
+09:20 < Tar-Minyatur:#liferay> At some point they start explaining model-hints.
+09:20 < Tar-Minyatur:#liferay> And I didn't even create a form at that point.
+09:20 < Tar-Minyatur:#liferay> Very confusing.
+09:21 < jardineworks:#liferay> Tar-Minyatur, you don't need to use model hints for a basic service builder.
+09:23 < Tar-Minyatur:#liferay> Well...I got the service builder running. I got the generated code for the entities and the service layer etc.
+09:23 < Tar-Minyatur:#liferay> That's pretty easy to do.
+09:24 < Tar-Minyatur:#liferay> I didn't get the relationship working we talked about yesterday, though.
+09:24 < Tar-Minyatur:#liferay> Somehow I always ended up with some kind of error when trying to get a one-sided relationship where only one Entity has a collection of the other one.
+10:49 < jardineworks:#liferay> Tar-Minyatur, I sent you a private message
+12:06 -!- mode/#liferay [+o jhf] by ChanServ
+12:17 < Tar-Minyatur:#liferay> Good evening guys.
+12:17 < Tar-Minyatur:#liferay> Has anyone of you ever used the remote publishing feature of Liferay?
+12:17 < Tar-Minyatur:#liferay> I wonder if it would be possible to have several remote instances to publish to.
+12:18 < Tar-Minyatur:#liferay> Right now we have two instances of Liferay with activated staging and the content guys just now realized, that there is no way to get their edited content from the QA instance to the Live instance except by copying everything manually from one CP to the other. :D
+12:45 < Tar-Minyatur:#liferay> I'll head home now. Still interested in the stuff I asked there, though. ;)
+17:39 < LRAdminInNeed119:#liferay> asd
+23:55 < kermitt:#liferay> join #binergy
+23:55 < kermitt:#liferay> exit
+--- Log closed Wed Aug 28 00:00:18 2013

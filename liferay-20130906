@@ -1,0 +1,21 @@
+--- Log opened Fri Sep 06 00:00:31 2013
+05:31 < Tar-Minyatur:#liferay> Morning.
+05:32 < Tar-Minyatur:#liferay> Any advice on why my portlet isn't being deployed? Tomcat says something like files have been copied, deployment will start in a few seconds.
+05:32 < Tar-Minyatur:#liferay> And then nothing happens.
+05:56 < Tar-Minyatur:#liferay> Yuck. Found it. Maven Dependency was configured incorrectly and thus was included in the WAR.
+07:39 -!- mode/#liferay [+o jhf] by ChanServ
+09:15 -!- mode/#liferay [+o jhf] by ChanServ
+16:17  * Naenyn:#liferay pokes rotty3000 
+16:17 <@rotty3000:#liferay> hey
+16:18 < Naenyn:#liferay> Yay, you're alive =]
+16:18 < Naenyn:#liferay> did you happen to see my question from yesterday..?
+16:18 <@rotty3000:#liferay> sorry, I'm trying to finish some major work with PACL
+16:18 < Naenyn:#liferay> oh!
+16:19 <@rotty3000:#liferay> app server and JVM compatibility
+16:19 < Naenyn:#liferay> ok, good luck =]
+16:19 <@rotty3000:#liferay> sorry dude, plus it's Friday and I'm about to take off for the weekend
+16:19 < Naenyn:#liferay> no problem. maybe we can talk next week
+16:19 < Naenyn:#liferay> have a weird situation I want to run by you =]
+16:19 <@rotty3000:#liferay> sure thing
+22:21 < antihuskergeek:#liferay> hello everyone
+--- Log closed Sat Sep 07 00:00:33 2013

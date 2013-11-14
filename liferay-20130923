@@ -1,0 +1,206 @@
+--- Log opened Mon Sep 23 00:00:32 2013
+03:35 -!- mode/#liferay [+o rotty3000] by ChanServ
+03:41 < hufg:#liferay> helloo helloo
+06:34 < Axxell:#liferay> hey guys, having trouble with liferay CE 6.1.2 GA3 showing older versions of a journal article after it has been edited to a new version
+06:55 < hufg:#liferay> Axxell: däng
+06:55 < hufg:#liferay> we have it in GA2 too
+06:55 < hufg:#liferay> was hoping it was fixed for GA3
+06:55 < hufg:#liferay> it worked fine for the first 2 months
+06:55 < hufg:#liferay> then bam
+07:06 < hufg:#liferay> it's very hard to replicate, booting the domain may fix it for a while then it resurfaces
+07:46 < avinashrbhat:#liferay> is there an way to get the details of the user from which request is generated in the processAction method of the custom portlet class?
+07:52 < avinashrbhat:#liferay> no prob guys got it ;-D
+08:24 < avinashrbhat:#liferay> ok, i've got a problem: i'm having two sites of which has common portlets. from my understanding of the servicebuilder, the data for both of the sites are stored in the same table. But I have to show the data of the sites as separate data. So i'm trying to get the SiteId in the custom portlet implementation. so how can i get that?
+08:27 < Tar-Minyatur:#liferay> Did you include groupId and companyId in your ServiceBuilder entities.
+08:27 < Tar-Minyatur:#liferay> I think that's the recommended way to have your custom portlets work for multi-site-instances.
+08:34 < avinashrbhat:#liferay> Tar-Minyatur, i'm updating my entities now to include siteId
+08:35 < avinashrbhat:#liferay> but how to get the siteId? http://pastie.org/private/nrf1jbuqtotlfag4bp3zw
+08:35 < Tar-Minyatur:#liferay> Should always be possible to get that from the request.
+08:35 < avinashrbhat:#liferay> as an attribute right?
+08:35 < Tar-Minyatur:#liferay> If you can't find another location, at least the themeDisplay should know it.
+08:36 < avinashrbhat:#liferay> Tar-Minyatur, themeDisplay?
+08:37 < Tar-Minyatur:#liferay> Yeah. That should be in the request somewhere.
+08:37 < Tar-Minyatur:#liferay> But there probably is a better way to get those IDs.
+08:37 < avinashrbhat:#liferay> okie, let me check
+08:37 < Tar-Minyatur:#liferay> The real Liferay devs will know once they appear. ;)
+08:38 < avinashrbhat:#liferay> Tar-Minyatur, `ThemeDisplay themeDisplay = (ThemeDisplay) request.getAttribute(WebKeys.THEME_DISPLAY);` ?
+08:39 < avinashrbhat:#liferay> is this the thing?
+08:40 < Tar-Minyatur:#liferay> Try it. That's where I always picked up those IDs.
+08:41 < avinashrbhat:#liferay> Tar-Minyatur, yeah but time is money, and i'm getting pauper by the second. So lets help each other. two armature is better than one expert ;D
+08:43 < Tar-Minyatur:#liferay> With software development being a team sport it's always better to have somebody to talk to...I agree.
+08:44 < jardineworks:#liferay> avinashrbhat, What is it you are looking for?
+08:49 < avinashrbhat:#liferay> jardineworks, as i said to Tar-Minyatur, while creating a portlet i forgot about the fact that i needed to add the siteId to the entities, so now I needed to get the siteId from the request. i'm using the code `((ThemeDisplay) request.getAttribute(WebKeys.THEME_DISPLAY)).getScopeGroupId()` for getting the siteId. Is this correct?
+08:56 < jardineworks:#liferay> nope
+08:56 < jardineworks:#liferay> avinashrbhat, almost though. I beleive the SiteId is actually the CompanyID... so themeDisplay.getCompanyID()
+08:56 < jardineworks:#liferay> ScopeGroupId is the groupID
+08:57 < hufg:#liferay> yeaah group id thats the one you need
+08:57 < avinashrbhat:#liferay> ok, that's great
+08:57 < avinashrbhat:#liferay> jardineworks, i got this now from https://www.liferay.com/community/forums/-/message_boards/message/29039070
+08:57 < avinashrbhat:#liferay> jardineworks, it's showing the code i mentioned before
+08:57 < hufg:#liferay> just use portalutil
+08:59 < jardineworks:#liferay> oh .. wait... companyID is the portal instance, not a site within the instance. my bad. Sorry about that.
+08:59 < hufg:#liferay> groupId is the site instance
+08:59 < hufg:#liferay> different for staging and live
+09:01 < hufg:#liferay> just get the correct stuff from request and all is good
+09:01 < avinashrbhat:#liferay> hufg, so I should use `PortalUtil.getScopeGroupId(request)` not `PortalUtil.getCompanyId(request)`
+09:01 < hufg:#liferay> yes getcompany id is definitively wrong
+09:02 < avinashrbhat:#liferay> hufg, thank you
+09:02 < hufg:#liferay> then just figure out if you want to wrap staging+live into one site or different stuff
+09:06 < avinashrbhat:#liferay> reminds me of the regex joke "now you got two problems" :-D
+09:09 < hufg:#liferay> 8)
+09:11 < hufg:#liferay> how can i validate p_p_auth
+09:11 < hufg:#liferay> grep is churning but maybe someone knows it here
+09:11 < hufg:#liferay> does p_p_auth depend on request parameters?
+09:11 < hufg:#liferay> yes?
+09:17 < hufg:#liferay> i want to add a parameter to theme to enable functionality but only if the parameter is accompanied with valid p_p_auth
+09:19 < hufg:#liferay> yes yes found it
+09:19 < hufg:#liferay> damn no for p_auth
+09:20 < denis___:#liferay> Someone here knows how to install a template?
+09:20 < hufg:#liferay> yees yees the user guide also knows
+09:22 < denis___:#liferay> onde se encontra o guia?
+09:22 < denis___:#liferay> where is the guide?
+09:22 < denis___:#liferay> haha
+09:23 < denis___:#liferay> where is the guide? Here is showing some errors, and I can not install .... errors are:
+09:24 < hufg:#liferay> liferay user guide into google 8/
+09:24 < hufg:#liferay> for example liferay 6.1 user guide
+09:24 < denis___:#liferay> checking for available updates. warn. Unable to communicate with repository.
+09:24 < hufg:#liferay> you wont get far if you can't find the guide man
+09:28 < denis___:#liferay> ok
+09:28 < denis___:#liferay> thank you
+09:28 < denis___:#liferay> ..
+09:31 < Tar-Minyatur:#liferay> Mhm. Is it possible to create a read-only user for Staging?
+09:34 <@rotty3000:#liferay> Tar-Minyatur: yes
+09:35 <@rotty3000:#liferay> Tar-Minyatur: only assign "Staging Reviewer" action from the Sites permissions
+09:41 <@rotty3000:#liferay> hufg: was this your bug from last week? https://issues.liferay.com/browse/LPS-40416
+09:41 <@rotty3000:#liferay> or was it Tar-Minyatur?
+09:43 < Tar-Minyatur:#liferay> Doesn't ring a bell.
+09:47 <@rotty3000:#liferay> ok
+09:49 < hufg:#liferay> rotty3000: mine
+09:50 <@rotty3000:#liferay> right, I just reviewed the pull request from the developer, it should be in master by this afternoon
+09:50 <@rotty3000:#liferay> just fyi
+09:50 < hufg:#liferay> thanks!
+09:50 < hufg:#liferay> grreat
+09:50 < hufg:#liferay> we will perhaps apply the patch with bytecode manipulation
+09:50 <@rotty3000:#liferay> change is small if you want to see https://github.com/brianchandotcom/liferay-portal/pull/14066
+09:51 < hufg:#liferay> in the project documentation it states that you have to kill a developer to modify liferay src even with ext plugin
+09:51 < hufg:#liferay> ie. over the technical leads body hehe
+09:52 <@rotty3000:#liferay> hufg: the sacrifice is often used to appease the gods yes...
+09:52 < hufg:#liferay> hehe
+09:52 <@rotty3000:#liferay> I hate ext with a passion like no other...
+09:52 < hufg:#liferay> how come?
+09:52 <@rotty3000:#liferay> it's my mission to eliminate it completely
+09:53 <@rotty3000:#liferay> it's just to totally wrong extension mechanism
+09:53 <@rotty3000:#liferay> it's far far too dangerous and painful
+09:53 < hufg:#liferay> i'm not that familiar with hooks and ext, to me it's like this: ext -> do anything, hook -> do a bit less in a controlled manner
+09:53 <@rotty3000:#liferay> it's like drugs, it' offers a short term satisfaction, but over the long run, you can suffer all kinds of side effects
+09:54 < hufg:#liferay> 8)
+09:54 <@rotty3000:#liferay> other extension mechanisms are not too bad
+09:54 < hufg:#liferay> rotty3000: any chances CE ever receiving patches after initial release?
+09:54 <@rotty3000:#liferay> like hooks etc
+09:54 < hufg:#liferay> 6.2 is right around the corner though
+09:54 <@rotty3000:#liferay> but the ext.. that's a legacy that I would have liked to have destroyed years ago
+09:55 < hufg:#liferay> but we need the upgrade now because of the virtual host bugs in GA2
+09:55 < hufg:#liferay> rotty3000: sounds reasonable
+09:55 <@rotty3000:#liferay> hufg: those are called GAs, you have to ask jhf for when those come
+09:55 <@rotty3000:#liferay> but we are moving to a place where we have what is known as "single core"
+09:56 < hufg:#liferay> i'm just saying that it's ehm.. not so great if GA3 is practically unupgradeable from GA2
+09:56 <@rotty3000:#liferay> :(
+09:56 <@rotty3000:#liferay> I agree
+09:56 < avinashrbhat:#liferay> is there any way to give the column length of the entity fields, than editing portlet-model-hints.xml?
+09:56 < hufg:#liferay> and it's such a small thing (probably)
+09:56 <@rotty3000:#liferay> so I am trying to drive a movement inside Liferay to change several ways we do engineering
+09:57 < hufg:#liferay> rotty3000: sounds good
+09:57 <@rotty3000:#liferay> avinashrbhat: no, that's it!
+09:57 < avinashrbhat:#liferay> :'(
+09:57 <@rotty3000:#liferay> avinashrbhat: what's the problem?
+09:58 < Tar-Minyatur:#liferay> rotty3000: Concerning the read-only user for Staging. I created a user group, added the group to the user and the site...and then set the site permissions "view" and "view staging" for that group Should do it, shouldn't it?
+09:59 <@rotty3000:#liferay> Tar-Minyatur: sounds like it should
+09:59 <@rotty3000:#liferay> Tar-Minyatur: although I'm not sure about the User Groups ever.. try a plain Site Role first
+09:59 < avinashrbhat:#liferay> rotty3000, i need to include that in vcs (git) so that i can give source to others to work without much configurations
+10:00 < avinashrbhat:#liferay> that's not possible now i guess
+10:00 <@rotty3000:#liferay> avinashrbhat: sure, and what's the problem?
+10:00 <@rotty3000:#liferay> avinashrbhat: we do it all the time!
+10:00 <@rotty3000:#liferay> look in our SDK.. those all have model hints
+10:00 < avinashrbhat:#liferay> checked in?
+10:00 < avinashrbhat:#liferay> ok
+10:01 <@rotty3000:#liferay> avinashrbhat: yes! Why not?
+10:01 < avinashrbhat:#liferay> rotty3000, sure
+10:01 <@rotty3000:#liferay> avinashrbhat: it's not generated on every build.. only first time, and then updated with new entities/col
+10:01 < hufg:#liferay> rotty3000: any ideas how risky it is to apply the LPS-40416 changes? doesn't seem too risky to me
+10:02 <@rotty3000:#liferay> hufg: I would say very low risk :)
+10:02 < hufg:#liferay> i'm pushing that we fix the issue and upgrade to GA3
+10:02 <@rotty3000:#liferay> hufg: no API was changed
+10:02 < hufg:#liferay> or at least test drive the GA3
+10:02 < hufg:#liferay> yes
+10:02 < hufg:#liferay> my point exactly
+10:02 < Tar-Minyatur:#liferay> rotty3000: I went for user groups because I couldn't find the "site permissions" thingy anywhere else.
+10:02 <@rotty3000:#liferay> Tar-Minyatur: on Site Role look under "General"
+10:05 <@rotty3000:#liferay> argh.. more ways we break the servlet spec :'(
+10:20 < Tar-Minyatur:#liferay> rotty3000: Uhm...was this permission added after 6.1.0?
+10:20 <@rotty3000:#liferay> Tar-Minyatur: I don't think so
+10:21 <@rotty3000:#liferay> it might not be exactly that name
+10:21 < Tar-Minyatur:#liferay> I create a new Site Role via Roles => Add => Site Role.
+10:21 < Tar-Minyatur:#liferay> When I click on that new role I can either change "Permissions" or "Define Permissions".
+10:21 <@rotty3000:#liferay> yes, then in the Declare permissions operation you should see some groupings near the top of the selection list
+10:22 <@rotty3000:#liferay> look through those
+10:22 <@rotty3000:#liferay> Define Permissions is what you want
+10:22 <@rotty3000:#liferay> and it
+10:22 <@rotty3000:#liferay> it should be in the groupings at the top of the selection list.. I don't work on the front end and that has evolved over time, so I don't remember the names
+10:29 < Tar-Minyatur:#liferay> Oh. Sneaky. It's hidden within "Site Administration".
+10:30 <@rotty3000:#liferay> ;)
+10:30 <@rotty3000:#liferay> sorry about that
+10:31 < Tar-Minyatur:#liferay> I would never have found it without you. Thanks. ;)
+10:32 < Tar-Minyatur:#liferay> So far we only had Site Admins.
+10:32 < Tar-Minyatur:#liferay> No need to deal with the permissions system. ;D
+10:34 < Tar-Minyatur:#liferay> It's incredible how many problems it causes when a workflow is the wrong way around.
+10:35 < Tar-Minyatur:#liferay> Starting with a finished HTML page and then integrating Liferay into it is something I really can't recommend...
+10:39 <@rotty3000:#liferay> Tar-Minyatur: can you explain your use case more? perhaps we can offer some recommendations that might clear things up
+10:43 < Tar-Minyatur:#liferay> Well...we have a responsive design. Very JS-heavy...lots of CSS.
+10:43 < Tar-Minyatur:#liferay> It was created as a standalone dummy.
+10:44 < Tar-Minyatur:#liferay> And then converted into a Liferay theme.
+10:44 < Tar-Minyatur:#liferay> => Inline editing doesn't work properly and especially it can't be hidden with the "Edit Controls" checkbox.
+10:57 < hufg:#liferay> rotty3000: does p_p_auth depend on request parameters? yes?
+10:58 <@rotty3000:#liferay> hufg: it does do some hashing on important parameters yes
+10:58 <@rotty3000:#liferay> to prevent spoofing
+11:19 < Tar-Minyatur:#liferay> A general question: We use web content articles only as pieces of pages. Alone they are totally meaningless.
+11:20 < Tar-Minyatur:#liferay> Therefore they should never show up in the search results. Only the pages should show up there.
+11:20 < Tar-Minyatur:#liferay> Is there any way to get the Liferay search to work that way?
+11:22 < Tar-Minyatur:#liferay> It pretty much should index only the finally rendered pages, never the single parts.
+11:42 < Tar-Minyatur:#liferay> rotty3000: If you can spare another minute...any idea about getting the search to only index fully rendered pages instead of having every single piece of a page in there?
+11:42 < Tar-Minyatur:#liferay> In the frontend nobody should be able to find a single web content article. It does't have any meaning without the page(s) it belongs to.
+11:43 <@rotty3000:#liferay> Tar-Minyatur: we don't have a page indexer ootb
+11:43 <@rotty3000:#liferay> but you can get page urls for web content
+11:43 <@rotty3000:#liferay> if you associated a web content with a page, then it's effectively a link to the page
+11:44 < Tar-Minyatur:#liferay> Mhm mhm.
+11:46 < Tar-Minyatur:#liferay> Is that something I can do in the search or would I have to modify the behaviour of the indexer?
+11:47 <@rotty3000:#liferay> to index full pages?
+11:47 <@rotty3000:#liferay> ... it's not a trivial thing. it would require some pretty deep knowledge, including a new indexer
+11:47 <@rotty3000:#liferay> but you are more than welcome to do that
+11:47 < Tar-Minyatur:#liferay> I mean having web content linked to the pages it's placed on rather than to the URL that shows only the web content.
+13:21 < jardineworks:#liferay> anyone around?
+13:22 < Tar-Minyatur:#liferay> I am. But I'm only good if you need entertainment. ;D
+13:23 < jardineworks:#liferay> haha
+13:23 < jardineworks:#liferay> maybe not :)
+13:23 < jardineworks:#liferay> do yo know what the difference (if any) there is between a BaseStruts extended action and a PortletStruts extended action?
+13:24 < Tar-Minyatur:#liferay> Nope sorry. So far I never even touches Struts.
+13:24 < jardineworks:#liferay> :(
+13:26 < jardineworks:#liferay> it's very interesting. I wrote a struts hook for facebook.. and the process APPEARS to be doing what I want it to, but my logging is not redering in the console and I can't attach a breakpoint so I feel like it's no rally using my hook.
+13:27 < Tar-Minyatur:#liferay> Magic!
+13:28 < jardineworks:#liferay> .. and if I undeploy my hook, the magic doesn't happen so... my hook must be invoked right? I think I am experiencing Monday mayhem.
+13:28 < Tar-Minyatur:#liferay> Sounds odd
+13:29 < Tar-Minyatur:#liferay> Or your logging is just set up wrong.
+13:29 < jardineworks:#liferay> setup the same as in my other hooks where it shows.
+13:32 < jardineworks:#liferay> interesting. my twitter hook isn;t showing the logs either
+13:32 < Tar-Minyatur:#liferay> Aahaa! ;)
+13:37 < jardineworks:#liferay> .. configuring the right  class might help :|
+13:42 < Tar-Minyatur:#liferay> That monday.
+14:24 < jardineworks:#liferay> does anyone know whether or not it is possible to determine is a particular hook is deployed (programatically)
+14:25 < jardineworks:#liferay> you can do it with portlets, so I assume you should be able to with hooks as well...
+14:35 < jardineworks:#liferay> hmmm -- maybe you can't
+15:07 <@rotty3000:#liferay> jardineworks: there is a way... but it's not well documented
+15:08 <@rotty3000:#liferay> all installed plugins are indexed in the search engine (and removed when undeployed)
+15:35 < jardineworks:#liferay> rotty3000, ah -- good to know. That was a filthy solution for what I was doing though :). I have individual hooks for social sign in stuff. problem is that they all hook the navigation.jsp so which ever was last determined what was displayed. I decided itd be better to add a tab to the authentication JSP with some checkboxes.
+15:35 < jardineworks:#liferay> then I can do one hook with the JSP changes and use the control panel settings to turn the links on and off
+15:35 < jardineworks:#liferay> as opposed to coding in checks for hooks
+15:35 <@rotty3000:#liferay> sounds good
+--- Log closed Tue Sep 24 00:00:33 2013

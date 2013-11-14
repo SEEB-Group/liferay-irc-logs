@@ -1,0 +1,215 @@
+--- Log opened Tue Sep 10 00:00:37 2013
+04:10 < neuro_sys:#liferay> was anyone able to successfully setup liferay with db2 express ?
+05:25 < neuro_sys:#liferay> Hello, I'll set up a complete box from scratch to run LifeRay on it with DB2.
+05:25 < neuro_sys:#liferay> What linux distro would you recommend?
+05:52 < wohnout:#liferay> Hi all. I have discovered strange behaviour. I'm developing using Liferay IDE and when I setup my theme for autodeploy everything is fine until I create liferay-hook.xml inside theme with language-properties Then I get this error 09:40:41,854 ERROR [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:246] com.liferay.portal.kernel.deploy.auto.AutoDeployException: The auto deploy listeners com.liferay.portal.deploy.auto.exploded.
+05:52 < wohnout:#liferay> tomcat.HookExplodedTomcatListener, com.liferay.portal.deploy.auto.exploded.tomcat.ThemeExplodedTomcatListener all deployed /data/workspace/liferay/liferay-portal-6.1.2-ce-ga3/deploy/p4b-main-theme.xml, but only one should have.
+05:52 < wohnout:#liferay> com.liferay.portal.kernel.deploy.auto.AutoDeployException: The auto deploy listeners com.liferay.portal.deploy.auto.exploded.tomcat.HookExplodedTomcatListener, com.liferay.portal.deploy.auto.exploded.tomcat.ThemeExplodedTomcatListener all deployed /data/workspace/liferay/liferay-portal-6.1.2-ce-ga3/deploy/p4b-main-theme.xml, but only one should have.
+08:18 < Axxell:#liferay> hey guys, is there anyway i can make the assetpublisher configuration option "enable permissions" to have that on as the default value?
+08:18 < jardineworks:#liferay> Axxell, is that a checkbox?
+08:18 < Axxell:#liferay> jardineworks: yup
+08:19 < jardineworks:#liferay> JSP override
+08:19 < jardineworks:#liferay> i don't think I recall seeing anything in the portal.properties for that.
+08:19 < Axxell:#liferay> mkay, thought there might have been an configuration option
+08:19 < Axxell:#liferay> oh well overide it is, already have it overridden so just a small change
+08:19 < jardineworks:#liferay> you could add one and use PrefsPropsUtil.get... and then a JSP override to let you toggle it on and off
+08:20 < jardineworks:#liferay> though I suppose unloading the hook would also provide the option to turn it off :)
+08:29 < Axxell:#liferay> hmm might be a stupid question but: how would i put the default value to be true for the checkbox, but the user would be able to uncheck it
+08:30 < Axxell:#liferay> they use boolean enablePermissions = GetterUtil.getBoolean(preferences.getValue("enablePermissions", null));
+08:30 < Axxell:#liferay> in init.jsp
+08:31 < Axxell:#liferay> it seems that the null value should be put to true
+08:31 < Axxell:#liferay> wonder in what form they want that
+08:33 < jardineworks:#liferay> just change the tag to be checked="true" or whatever
+08:34 < jardineworks:#liferay> or check the preferences in the portlet.xml... maybe you can set it there?
+08:35 < Axxell:#liferay> actually i did the following in init.jsp boolean enablePermissions = GetterUtil.getBoolean(preferences.getValue("enablePermissions", null),true);
+08:35 < Axxell:#liferay> where getterutil, can have a default value
+08:36 < Axxell:#liferay> if i put checked="true", i think it would make it on even if you would choose to disable it, i just want it to be on as default
+08:40 < Axxell:#liferay> seems to work, when i add a new assetpublisher the enable permissions has true as its default value
+08:44 < jardineworks:#liferay> nice :)
+08:44 < jardineworks:#liferay> Axxell, in the end, did you override the init.jsp or the main jsp (and just reset the value)?
+08:44 < Axxell:#liferay> it was init.jsp
+08:45 < Axxell:#liferay> so if no value exists for the portlet, it default value is true
+09:53 < kiuma:#liferay> hello
+10:04 -!- mode/#liferay [+o jhf] by ChanServ
+11:24 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Marketplace App Contest Winners: http://t.co/bQwsEjsvuh Liferay 6.2 Beta: http://goo.gl/C4gc1e  Forum: http://forums.liferay.com Liferay 6.1 CE GA3 http://goo.gl/zQysJb
+11:24 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Fri Aug 30 07:59:07 2013]
+11:24 [Users #liferay]
+11:24 [@ChanServ ] [ cythrawll ] [ james314159 ] [ kermitt     ] [ modd     ] [ speedieg    ] 
+11:24 [@jhf      ] [ dave_k    ] [ jardineworks] [ kgolebiowski] [ Naenyn   ] [ Tar-Minyatur] 
+11:24 [@rotty3000] [ dblessing ] [ jbonjean    ] [ kocka       ] [ neuro_sys] [ Tm_T        ] 
+11:24 [ b_52globe] [ floppyears] [ josuebc     ] [ lcanas      ] [ Pr0tZ    ] [ topolik     ] 
+11:24 [ bijoo    ] [ guli1     ] [ Jusle       ] [ MagnoBooter ] [ scribe   ] [ wohnout     ] 
+11:24 [ cedricbr ] [ haba7131  ] [ Kaira-      ] [ marcoceppi  ] [ smind    ] 
+11:24 -!- Irssi: #liferay: Total of 35 nicks [3 ops, 0 halfops, 0 voices, 32 normal]
+11:24 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+11:24 -!- Irssi: Join to #liferay was synced in 6 secs
+11:30 < jayJ:#liferay> good day liferay may I ask regarding user session? im beginning to learn liferay in the last 1.5 months now
+11:31 < jayJ:#liferay> i had service builder for retrieving data from my external DB, and I got Hook plugin that overrides the landing page depending on user's organization
+11:31 < jayJ:#liferay> my Question is how can i get the suer details that is currently login from my Service Builder?
+11:32 < jayJ:#liferay> thank in advance
+11:34 < jardineworks:#liferay> jayJ, ThemeDisplay display = (ThemeDisplay)request.getAttribute(WebKeys.THEME_DISPLAY);
+11:34 < jardineworks:#liferay> display.getUser().getUserId();
+11:35 < jayJ:#liferay> thanks jardine - but inside service builder impl class
+11:35 < jayJ:#liferay> we dont have the request object implicitly righT?
+11:36 < jardineworks:#liferay> jayJ, What exactly are you trying to do? if you need a user id in the impl class, then you can pass it in .. I am assuming that this is a finder method you are trying to write?
+11:38 < jayJ:#liferay> i have a custom login using Hook, from there I could get the login info and the user details but after login i want to pass the user details inside the service builder method  without doing something like getting the userid inside the service builder method
+11:38 < jayJ:#liferay> so when my json web service is called the data is filtered by user id
+11:39 < jardineworks:#liferay> where do you call the service builder method from?
+11:39 < jayJ:#liferay> in another portlet
+11:40 < jardineworks:#liferay> ok .. so why can't you pass the UserID into the service builder method?
+11:40 < jayJ:#liferay> i actually have this on my jsp file(portlet A)
+11:40 < jayJ:#liferay> User currentUser = PortalUtil.getUser(request);
+11:41 < jardineworks:#liferay> you don't need to do that in the JSP because the velocity variables provide the User object to you in the JSP already... as user.
+11:41 < jayJ:#liferay> is there a way i could get the same thing inside java class in service builder method?
+11:41 < jardineworks:#liferay> jayJ, I;m not understanding what you are tryign to do. The user logs in. Now they are on a page with another portlet. right?
+11:42 < jayJ:#liferay> yes
+11:42 < jayJ:#liferay> you're right with that Jardine
+11:42 < jardineworks:#liferay> ok what is that portlet for... help me have a bigger picture.
+11:42 < jardineworks:#liferay> like my favourite books? or recipes? or what?
+11:42 < jayJ:#liferay> sorry for confusion, the portlet A is for specific user that is login
+11:42 < jayJ:#liferay> is gives the user profiles page
+11:43 < jardineworks:#liferay> what is portletA... is taht what you have called it? or is it a real portlet?
+11:43 < jardineworks:#liferay> ok
+11:43 < jayJ:#liferay> profile page is = portlet A
+11:43 < jardineworks:#liferay> so portlet A has the users profile information
+11:43 < jardineworks:#liferay> got it
+11:43 < jayJ:#liferay> yes
+11:43 < jayJ:#liferay> :)
+11:43 < jardineworks:#liferay> and now the user does some action right? which goes to your portlet class?
+11:43 < jardineworks:#liferay> like a save for example?
+11:44 < jayJ:#liferay> yes
+11:44 < jardineworks:#liferay> ok
+11:44 < jardineworks:#liferay> side step. What is your service builder for?
+11:44 < jayJ:#liferay> its sole purpose is to get the user details and other data related to that user
+11:44 < jayJ:#liferay> which is in external database
+11:44 < jayJ:#liferay> not in lportal
+11:45 < jayJ:#liferay> i just linked it using custom field
+11:45 < jardineworks:#liferay> ok
+11:45 < jardineworks:#liferay> whats the name of your service builder util
+11:46 < jayJ:#liferay> UserSummaryByDayLocalUtil
+11:46 < jardineworks:#liferay> ok .. and the method you are trying to invoke/
+11:46 < jardineworks:#liferay> ?
+11:46 < jayJ:#liferay> getUserSalesByDay
+11:47 < jardineworks:#liferay> UserSummaryByDayLocalServiceUtil.getUserSalesByDate() -- are there any parameters?
+11:47 < jayJ:#liferay> yep
+11:47 < jardineworks:#liferay> ... and they are..
+11:47 < jayJ:#liferay> UserSummaryByDayLocalServiceUtil.getUserSalesByDate(date, summaryid)
+11:48 < jardineworks:#liferay> ok change the impl to have this -- UserSummaryByDayLocalServiceUtil.getUserSalesByDate(long, userId, date, summaryid)
+11:48 < jardineworks:#liferay> and then in your portlet you do --
+11:48 < jardineworks:#liferay> ThemeDisplay display = (ThemeDisplay)request.getAttribute(WebKeys.THEME_DISPLAY);
+11:48 < jardineworks:#liferay> long userId = display.getUser().getUserId();
+11:49 < jardineworks:#liferay> UserSummaryByDayLocalServiceUtil.getUserSalesByDate(userId, date, summaryId)
+11:49 < jardineworks:#liferay> and then you have your user id in the service builder method.
+11:49 < jayJ:#liferay> thanks Jardine that works
+11:49 < jardineworks:#liferay> yw
+11:49 < jayJ:#liferay> i shold just include ThemeDisplay on my init.jsp right?
+11:50 < jardineworks:#liferay> themeDisplay is the velocity variable that is given to you at the portal level already.
+11:50 < jayJ:#liferay> i tried putting it right now and its giving me an error
+11:51 < jardineworks:#liferay> did you re-run your ant build-service?
+11:51 < jayJ:#liferay> oh sorry about that
+11:51 < jardineworks:#liferay> oh for the jsp?
+11:51 < jardineworks:#liferay> I gotta run. good luck
+11:51 < jayJ:#liferay> i put it in scriplet
+11:51 < jayJ:#liferay> thanks
+11:51 < jayJ:#liferay> again
+16:05 < aj_:#liferay> hey guys
+16:06 < aj_:#liferay> anyone around that has a minute for a Content (Structure) question?
+16:06 < aj_:#liferay> jhf, maybe?
+16:07 < aj_:#liferay> jhf, rotty3000 I'll just ask. Do either of you know if it is possible when defining a structure to have a field that references another structure?
+16:07 < aj_:#liferay> so I have have and "Author" structure, in my "Article" structure I can use a picker to select the author
+16:15 <@rotty3000:#liferay> aj_
+16:16 <@rotty3000:#liferay> structures can be heirarchical if that's what you mean
+16:16 <@rotty3000:#liferay> and so child will inherit the fields of it's parent
+16:17 <@rotty3000:#liferay> fields of a structure can also have preset (or default) values
+16:17 <@rotty3000:#liferay> so I believe you can create a feature like you want
+16:17 < aj_:#liferay> rotty3000, thing is this isn't really a parent right? I want to create an article and then pick a author... but the author is a separate structure -- so its related, but not a parent.
+16:18 <@rotty3000:#liferay> could you define the authors in the structure of the article?
+16:18 <@rotty3000:#liferay> does it really need to be a different structure?
+16:19 <@rotty3000:#liferay> or to re-use it, could it not be a parent structure
+16:19 < aj_:#liferay> an author is a complex type with name, picture, etc. You don't want people to have to fill it in over and over right? so better to create a reference and then link it
+16:19 <@rotty3000:#liferay> or, do you mean the values come from other articles having a field author, and populated by those articles?
+16:19 < aj_:#liferay> if I use a parent structure then doesn't that mean I have to have a parent for each authro?
+16:19 <@rotty3000:#liferay> yeah
+16:19 <@rotty3000:#liferay> you can have a complex preset in the structure
+16:20 < aj_:#liferay> Right .. so here is what I want to do. 1. create an author structure. 2. Add a bunch of authors. 3. Create an article structure with a "content picker" field. 4. Create an article and pick an author content isntance.
+16:21 < aj_:#liferay> rotty3000, I'm not seeing how to set a "complex preset" ... not sure waht that means :)
+16:22 <@rotty3000:#liferay> I was thinking that you could use a parent structure of several fields
+16:23 <@rotty3000:#liferay> but it would not represent the way you want really
+16:23 <@rotty3000:#liferay> it would just repeat all those fields in the child form
+16:23 <@rotty3000:#liferay> so that's not ideal, unless you could preset a selection list with the details which are inclusive to represent the author
+16:24 <@rotty3000:#liferay> which it sounds like it's too complex
+16:24 <@rotty3000:#liferay> also, customizing the article "entry" form doesn't leave the options like you want either
+16:24 < aj_:#liferay> right -- which I don't want. How does the "related asset option" work when you create a piece of structured content?
+16:25 <@rotty3000:#liferay> the only thing I can suggest is to "reduce" the author reference to some identifier that can be used in a selection list (which you could define as preset select field in the form)
+16:25 <@rotty3000:#liferay> well, the relate asset really means just create an association between two assets
+16:26 <@rotty3000:#liferay> but the "criteria" of association, you have to understand that yourself
+16:26 <@rotty3000:#liferay> and so effectively there is no way to say "this spot right here -> [ ]  only put and author reference in it"
+16:26 <@rotty3000:#liferay> related asset doesnt fit that model
+16:27 <@rotty3000:#liferay> SO..
+16:27 <@rotty3000:#liferay> you may need to get creative
+16:27 <@rotty3000:#liferay> thinking just how
+16:28 < aj_:#liferay> is the related item available in the template (if a relation exists)?
+16:28 <@rotty3000:#liferay> does the article reference itself not have enough author information such that the template could create the desired "look" you need?
+16:29 <@rotty3000:#liferay> aj_, well not directly
+16:29 <@rotty3000:#liferay> you'd have to make the service calls to discover it
+16:29 <@rotty3000:#liferay> OR, is the author not directly related to the author information natively stored in an article?
+16:30 <@rotty3000:#liferay> i.e. articles have author fields and such (this doesn't work when the author isn't the person that did the actual article data entry)
+16:31 < aj_:#liferay> you're getting into waters that are still merky for me (not yet defined)
+16:31 < aj_:#liferay> my assumption
+16:31 < aj_:#liferay> they have personas... like "The Grill Master!"
+16:32 < aj_:#liferay> these are not users in the system but they are types... and these types represent REAL people so they have bios and such.
+16:32 < aj_:#liferay> so the Author structure with associated templates makes sense on the assumption that you can look at these profile pages.
+16:32 < aj_:#liferay> Now, a persona can publish a recipe.
+16:32 < aj_:#liferay> or an article about cooking is a better example
+16:33 < aj_:#liferay> (recipes come from another system)
+16:33 < aj_:#liferay> so I create an Article type with all the expected fields
+16:33 < aj_:#liferay> there needs to be a relationshipto the author I assume that makes it linkable from the article template to go to the authors bio page.
+16:34 < aj_:#liferay> I just need an ID (I suspect) for this but there could be 50 of them
+16:34 < aj_:#liferay> so rather than have the user look up the id and enter it by hand, they want to be able to "pick an author" where the list pops up
+16:34 <@rotty3000:#liferay> so I guess what I'm sort of heading toward is 1) each author/persona is declared in it's own article 2) in the referencing article structure, create a preset select box listing possible authors/personas (for maintenance could be a reusable parent structure) each referencing the article identifier of the persona       3) during render locate and show the author article with/in the referenceing articler
+16:34 < aj_:#liferay> and it'd be dynamic based on new items being added.
+16:35 <@rotty3000:#liferay> right
+16:35 <@rotty3000:#liferay> the tricky part is the "dynamic" list of ids that might exist
+16:35 < aj_:#liferay> rotty3000,  so create a parent with a single select field that has manually entered the different author names. Then in the view to a findByName sort of thing
+16:35 <@rotty3000:#liferay> we don't have something for that right OOTB
+16:36 <@rotty3000:#liferay> but you could make maintaining the list of "persona" ids, simpler by making purely a list in a parent structure
+16:37 <@rotty3000:#liferay> so the person managing the personas has two tasks 1) manager persona articles 2) make sure the persona selection structure is up to date
+16:37 < aj_:#liferay> ok -- so if I use the web content structure to pick an article.
+16:37 < aj_:#liferay> can I do the lookup in the template
+16:37 <@rotty3000:#liferay> exactly
+16:38 <@rotty3000:#liferay> the persona structure would put the right reference info into the template of the "referencer" to locate the persona
+16:38 < aj_:#liferay> can you do a lookup in a VM template
+16:38 <@rotty3000:#liferay> absolutely
+16:38 <@rotty3000:#liferay> assume that whatever you can do in java, there is a way to do in VM/Freemarker
+16:38 < aj_:#liferay> hah.. ok
+16:39 < aj_:#liferay> rotty3000, I reserve the right to harass you about this again in about a week :)
+16:39 <@rotty3000:#liferay> just ask jhf, have the community website is doing all manner of dynamic logic against this or that service ;)
+16:39 <@rotty3000:#liferay> s/have/half/
+16:39 < aj_:#liferay> hahah
+16:40 < aj_:#liferay> since I have you... and I saw your name on some code last night
+16:40 < aj_:#liferay> SOLR 4... totally not supported on CE?
+16:40 <@rotty3000:#liferay> CE 6.1? no I believe it's not BUT
+16:40 < aj_:#liferay> i tried to use it last night but for javabin errors (wrong SOLRJ version I think)
+16:40 <@rotty3000:#liferay> it's not supported in the sense that we don't have an impl of it
+16:40 <@rotty3000:#liferay> NOT that it can't be done
+16:41 < aj_:#liferay> it's on my list
+16:41 < aj_:#liferay> solr 4 is so good
+16:41 <@rotty3000:#liferay> if you wanted to grab the sol4 plugin from master (6.2x) and backport it, then you would have solr4
+16:41 < aj_:#liferay> I was just a little shocked at the solrj1.4 jars :)
+16:41 < aj_:#liferay> ou
+16:41 < aj_:#liferay> 6.2 in the trunk?
+16:42 < aj_:#liferay> err... master
+16:42 <@rotty3000:#liferay> we have both
+16:42 <@rotty3000:#liferay> for legacy reasons
+16:42 < aj_:#liferay> right -- I think I have the git repo pulled though, not the svn
+16:42 <@rotty3000:#liferay> if you have a whole scad of data in an old solr cluster
+16:42 <@rotty3000:#liferay> getting told it's not supported in the next version can be a kick in the pants
+16:43 <@rotty3000:#liferay> please ignore the SVN..
+16:43 < aj_:#liferay> true
+16:43 <@rotty3000:#liferay> there is nothing there worth looking at
+16:43 < aj_:#liferay> I am -- I have a ... distaste ... for svn
+16:43 <@rotty3000:#liferay> all the work is in github
+16:43 <@rotty3000:#liferay> even our EE is stuff is all now in private git repos
+16:44 <@rotty3000:#liferay> anyhow, I'm usually around, you just have to poke me (although sometimes I'm grumpy and may not respond right away ;) )
+20:57 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed Sep 11 00:00:38 2013

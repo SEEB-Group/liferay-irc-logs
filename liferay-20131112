@@ -1,0 +1,149 @@
+--- Log opened Tue Nov 12 00:00:08 2013
+04:42 < Tar-Minyatur:#liferay> Morning.
+04:42 < Tar-Minyatur:#liferay> Someone here who knows the scheduler tasks in Liferay well?
+04:42 < Tar-Minyatur:#liferay> I wonder if there is some way of setting a task up properly for a clustered environment.
+04:43 < Tar-Minyatur:#liferay> We have some tasks that should be run regularly, but only once for the entire cluster.
+04:44 < Tar-Minyatur:#liferay> Is it possible to either limit tasks to one node or maybe have some kind of locking mechanism that will prevent the task from running simultaneously on all nodes?
+05:00 < hufg:#liferay> helloo heloo
+05:12 < CorneA:#liferay> @Tar-Minyatur the <scheduler-entry> in a Portlet should be run only once if the cluster is properly setup
+05:13 < CorneA:#liferay> you might force it also with scheduler.enabled=false on one of the nodes
+05:15 < Tar-Minyatur:#liferay> I can't provide different configurations for separate nodes.
+05:15 < Tar-Minyatur:#liferay> They all have the same setup.
+05:16 < hufg:#liferay> any ideas if there is an aui tag/js thing that will render  a portlet with some params
+05:16 < CorneA:#liferay> look at memory.cluster.scheduler.lock.cache.enabled and memory.scheduler.org.quartz....
+05:17 < CorneA:#liferay> Anyway it should work fine OOTB which LR version do you use?
+07:12 < bentech4you:#liferay> how can i configure liferay6.2 with active directory?
+08:17 < emmeljay:#liferay> I am wondering can the process for uploading images in a Web Content portlet be simplified? Is the default folder configurable?
+08:19 < emmeljay:#liferay> When users want to upload a picture they have to identify a destination folder and the default destination folder isthe root folder which (understandably) gives an error message if user try to load their file into it.
+08:21 < emmeljay:#liferay> is there a way to configure the Web Content Portlet so that the default destination folder is the site folder?
+08:21 < emmeljay:#liferay> has anyone asked this question before?
+08:42 < hufg:#liferay> uhuh how do i load the Liferay.Util javascript..stuff?
+08:44 < hufg:#liferay> emmeljay: see portal.properties for your configuration needs
+08:44 < hufg:#liferay> if i had to guess it's not configurable
+08:45 < emmeljay:#liferay> hufg: cheers
+08:46 < emmeljay:#liferay> I was hoping you wouldn;t say that
+08:49 < hufg:#liferay> the fucking jsp tag, aui, liferay js combination pisses me off
+08:49 < hufg:#liferay> very complex :Z
+08:50 < Tar-Minyatur:#liferay> Why can't s3cmd do a recursive copy? Oo
+09:04 < jardineworks:#liferay> hufg, +1
+09:10 < hufg:#liferay> jardineworks: any ideas how to load Liferay.Util ?
+09:10 < hufg:#liferay> i'm trying to create a popup that shows control panel/workflow tasks screen
+09:11 < hufg:#liferay> i have the correct url just fighting with the popup :D
+09:11 < hufg:#liferay> doing it with aui-dialog breaks everything(??)
+09:13 < hufg:#liferay> i would like to try my luck with Liferay.Util.openWindow()
+09:17 < hufg:#liferay> css "leaks" on the page that opens the dialog
+09:17 < hufg:#liferay> at least seems like it
+09:21 < hufg:#liferay> http://www.liferay.com/community/wiki/-/wiki/Main/Using+Pop-up+in+Liferay?_36_pageResourcePrimKey=1379861
+09:22 < hufg:#liferay> the example  Floating Div Pop-up in 6.1 # results into the same behaviour
+09:22 < hufg:#liferay> http://www.liferay.com/community/wiki/-/wiki/Main/Using+Pop-up+in+Liferay#section-Using+Pop-up+in+Liferay-Floating+Div+Pop-up+in+6.1
+09:22 < hufg:#liferay> then there is the goddamned openWindow
+09:22 < hufg:#liferay> :D
+09:23 < hufg:#liferay> and yess there it is liferay-util-window
+09:24 < jardineworks:#liferay> I've never used it... you should ask dblessing... I know he was doing some popup stuff with alloy a while back.
+09:24 < jardineworks:#liferay> found another awesome bug. If you layout template name is the same as you page name, it won't apply. But it also won't show any errors
+09:24 < jardineworks:#liferay> in fact, it will tell you that is saved.
+09:27 < jardineworks:#liferay> hufg, what do you mean css leaks?
+09:27 < hufg:#liferay> jardineworks: it loads the dialog into a div and a css hell breaks loose
+09:28 < hufg:#liferay> the dialog happens to be portlet rendered in control_panel
+09:28 < hufg:#liferay> dialog content i mean
+09:29 < jardineworks:#liferay> hufg, so you're trying to provide inline admin functionality?
+09:29 < hufg:#liferay> essentially yes
+09:29 < hufg:#liferay> i have the url and params worked out
+09:30 < hufg:#liferay> it's such a far cry from anything humane editing jsp files in gedit and digging into liferay jsp tag tlds and js files :D
+09:31 < jardineworks:#liferay> hufg, I am assuming that you aren't using the same theme for your control panel right?
+09:31 < hufg:#liferay> yeah
+09:31 < jardineworks:#liferay> and that your current theme is not using control panel as a parent?
+09:32 < jardineworks:#liferay> if you dump one of your own portlets (that is skinned for your theme) is it still all screwed up?
+09:32 < dblessing:#liferay> popups in alloy :-\ not all that fun. but then i approach JS with nearly no knowledge
+09:32 < hufg:#liferay> dblessing: same here
+09:33 < hufg:#liferay> jardineworks: not sure what you mean, but anyways it's possible to get it working properly with Liferay.Util.openWindow the problem is just that i can't seem to get access to that particular method
+09:33 < hufg:#liferay> in the wiki the module is 'liferay-util-window'
+09:33 < hufg:#liferay> which i suppose should work like this <aui:script use="aui-node, liferay-util-window">
+09:33 < hufg:#liferay> but no
+09:35 < jardineworks:#liferay> hufg, I always use a regular scrip tag and then put the AUI().use('...')
+09:36 < jardineworks:#liferay> I have never been able to get the aui:script tag to work consistently for me and my JS knowledge isn't advanced enough (either) to troubleshoot :)
+09:38 < hufg:#liferay> hehe
+10:00 < hufg:#liferay> OK
+10:00 < hufg:#liferay> great success
+10:01 < hufg:#liferay> the problem was between the screen and chair
+10:01 < jardineworks:#liferay> PECAK
+10:01 < jardineworks:#liferay> problem exists between keyboard and chair
+10:01 < jardineworks:#liferay> what was it you were doing wrong?
+10:01 < hufg:#liferay> had a typo, you don't need to load Liferay.Util
+10:30 < imox1234:#liferay> how can I set the email settings?
+10:33 < jardineworks:#liferay> imox1234, the control panel
+10:33 < imox1234:#liferay> where :D
+10:33 < jardineworks:#liferay> imox1234, or I think you can set it in the portal-ext.properties
+10:33 < imox1234:#liferay> control panel sounds better
+10:34 < imox1234:#liferay> where in the panel?
+10:34 < jardineworks:#liferay> wow
+10:34 < jardineworks:#liferay> that is pretty lazy man
+10:34 < imox1234:#liferay> xD
+10:34 < jardineworks:#liferay> Portal > Portal Settings
+10:34 < jardineworks:#liferay> mail domain
+10:34 < imox1234:#liferay> hmm I don't have
+10:34 < imox1234:#liferay> mail domain
+10:35 < jardineworks:#liferay> what version
+10:35 < imox1234:#liferay> 6.0.6
+10:35 < jardineworks:#liferay> in the portal-ext.properties you can override the defaults with these properties --
+10:35 < jardineworks:#liferay>     #
+10:35 < jardineworks:#liferay>     # Set the properties used to create the Java Mail session. The property
+10:35 < jardineworks:#liferay>     # prefix "mail.session." will be removed before it is used to create the
+10:35 < jardineworks:#liferay>     # session object. These properties will only be read if the property
+10:35 < jardineworks:#liferay>     # "mail.session.jndi.name" is not set.
+10:35 < jardineworks:#liferay>     #
+10:35 < jardineworks:#liferay>     mail.session.mail.pop3.host=localhost
+10:35 < jardineworks:#liferay>     mail.session.mail.pop3.password=
+10:35 < jardineworks:#liferay>     mail.session.mail.pop3.port=110
+10:35 < jardineworks:#liferay>     mail.session.mail.pop3.user=
+10:35 < jardineworks:#liferay>     mail.session.mail.smtp.auth=false
+10:35 < jardineworks:#liferay>     mail.session.mail.smtp.host=localhost
+10:35 < imox1234:#liferay> why pop3?
+10:35 < jardineworks:#liferay>     mail.session.mail.smtp.password=
+10:35 < jardineworks:#liferay>     mail.session.mail.smtp.port=25
+10:36 < jardineworks:#liferay>     mail.session.mail.smtp.user=
+10:36 < jardineworks:#liferay>     mail.session.mail.store.protocol=pop3
+10:36 < jardineworks:#liferay>     mail.session.mail.transport.protocol=smtp
+10:36 < imox1234:#liferay> ok
+10:36 < imox1234:#liferay> jardineworks: not possible to set it in the control panel?
+10:36 < jardineworks:#liferay> (checking...)
+10:36 < jardineworks:#liferay> though I am on 6.1
+10:37 < jardineworks:#liferay> yes
+10:37 < jardineworks:#liferay> Server ? Server Administration > Mail tab
+10:40 < imox1234:#liferay> hmmm
+10:41 < imox1234:#liferay> I moved the this life ray to another server
+10:42 < imox1234:#liferay> and there are no settings in the properties files
+10:48 < imox1234:#liferay> jardineworks: have you any idea?
+10:55 < jardineworks:#liferay> your portal-ex.properties file is empty?
+10:55 < jardineworks:#liferay> did you copy the TOMCAT_HOME or LIFERAY_HOME?
+11:04 < imox1234:#liferay> the whole life ray folder and lifeay_home folder
+11:05 < imox1234:#liferay> yes my portal file is empty
+11:15 < imox1234:#liferay> jardineworks: ;) ?
+11:25 < jardineworks:#liferay> copy it
+11:25 < jardineworks:#liferay> from the other server and restart
+11:31 < imox1234:#liferay> ok I found it
+11:31 < imox1234:#liferay> the easiest way to test it ;) ?
+11:39 < imox1234:#liferay> jardineworks: hmmm http://pastebin.com/sH4qnw92
+11:45 < imox1234:#liferay> ok know works
+11:45 < imox1234:#liferay> thanks
+14:41 < vernon:#liferay> Congrats to David if he is here :-D
+15:03 < modd:#liferay> thx
+16:04 < darkos:#liferay> I am seeing a problem with 6.2 Dynamic Data Lists.
+16:06 < darkos:#liferay> I have added the dynamic data form add-on without issues.
+16:07 < darkos:#liferay> if I create a dynamic data list data definition, and use the form add-on to create data just using the definition, submissions seem to arrive properly.
+16:08 < darkos:#liferay> if I then create a template that uses some of the available widgets to group items together and give them a heading, it appears that none of the data in those grouped/nested elements is arriving in the data record upon form submission.
+16:09 < darkos:#liferay> eg: create a ddl data definition that has first_name, last_name, phone and email fields.
+16:10 < darkos:#liferay> but, in the template, create a group for 'name' and move the 'first_name' and 'last_name' fields to be within the 'name' container, and you will probably find that no values entered into the ddl form when using that template will arrive in the database.
+16:10 < darkos:#liferay> I have tried this on windows using both the glassfish and tomcat bundles, using jdk 7u45, and they both behave the same way.
+16:12 < darkos:#liferay> so, it appears that putting input fields nested within the container widgets causes marshalling issues
+16:15 < darkos:#liferay> oh, I should correct myself, by saying that data that is not within a containing widget *does* appear to make it to the database row.  only those items that are no longer at the root level fail to make it to the database.  in my example, that would be the first_name and last_name values.
+16:23 < darkos:#liferay> unless I am mistaken, I thought that this would be something that is intended to be done, based on the grouping widget not being available for the data definition side of things.
+17:53 -!- mode/#liferay [+o jhf] by ChanServ
+18:09 < darkos:#liferay> hey there James
+18:10 < darkos:#liferay> @jhf
+18:13 <@jhf:#liferay> yo
+18:13 <@jhf:#liferay> taking required harassment online training course
+18:14 <@jhf:#liferay> learned a few things!
+18:14 <@jhf:#liferay> but mostly snickered at the case studies. is that wrong?
+18:36 < npskirk:#liferay> Is there a limit on the number of attachments that can be put on a wiki page?
+--- Log closed Wed Nov 13 00:00:09 2013

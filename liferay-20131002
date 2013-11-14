@@ -1,0 +1,56 @@
+--- Log opened Wed Oct 02 00:00:44 2013
+04:16 < hufg:#liferay> helloo helloo!
+04:25 -!- mode/#liferay [+o rotty3000] by ChanServ
+04:45 -!- mode/#liferay [+o rotty3000] by ChanServ
+05:03 < hufg:#liferay> how does liferay set the "context" for links etc from request url
+05:03 < hufg:#liferay> ie. change /etc/hosts -> access liferay -> np
+05:03 < hufg:#liferay> seems to work flawlessly
+05:03 < hufg:#liferay> neat
+05:05 < hufg:#liferay> probably somewhere in MainServlet
+08:45 < jardineworks:#liferay> does anyone know if there are any issues with search-container results and Journal Articles in 6.1.1?
+08:45 < jardineworks:#liferay> I am binding a list to the container and for some reason I am getting a pile of extra stuff in the page AFTER the grid
+08:45 < jardineworks:#liferay> it looks like the structure definition
+10:02 < hufg:#liferay> jardineworks: have you checked preferences
+10:03 < hufg:#liferay> you can enable a preferences which will print all kind of wierd shit
+10:25 < jardineworks:#liferay> hufg, This is actually a custom portlet. I am just using the journal article local util to pull content of a certain type and then output it in the search-container table. I am doing it in the config mode to allow the user to choose the items to display.
+10:26 < jardineworks:#liferay> but right after the search container it is outputting this on the page --  urlTitle=liferay-1, description=, content= , type=general, structureId=190009, templateId=190011, layoutUuid=, displayDate=2013-10-01 19:00:00.0, expirationDate=null, reviewDate=null, indexable=true, smallImage=false, smallImageId=190070, smallImageURL=, status=0, statusByUserId=10196, statusByUserName=Test Test, statusDate=2013-10-01 19:02:07.0},{uuid=20b
+10:26 < jardineworks:#liferay> 6afee-24ef-4fc7-8d07-4a67afc340ee, id=190068, resourcePrimKey=190069, groupId=10180, companyId=10154, userId=10196, userName=Test Test, createDate=2013-10-01 19:00:45.0, modifiedDate=2013-10-01 19:00:46.0, classNameId=0, classPK=0, articleId=190067, version=1.0, title ... and more.
+10:28 < jardineworks:#liferay> the end of it finishes with smallImage=false, smallImageId=190090, smallImageURL=, status=0, statusByUserId=10196, statusByUserName=Test Test, statusDate=2013-10-01 19:01:47.0}" />
+10:29 < jardineworks:#liferay> which makes me think maybe there is an error with an open tag?
+10:29 < jardineworks:#liferay> hmm
+10:41 < jardineworks:#liferay> @#!(^$! I hate JSTL. Its such shit.
+10:42 < jardineworks:#liferay> you'd think that if you wanted to make a taglib that worked with OO that you would start by at least being able to properly evaluate NULL.
+16:07 < dblessing:#liferay> oi. our company decided to implement a drupal social site. i'm really would like to get them to go with social office. it would make my life so much easier. and i think there's no comparison between the 2
+16:11 < jardineworks:#liferay> drupal? ew.
+16:11 < jardineworks:#liferay> scale is your first argument.
+16:12 < jardineworks:#liferay> I helped a ompany start a practice around drupal. Most of our clients used them for marketing sites (events, contests etc). The only good thing? PHP developers are cheap.
+16:13 < dblessing:#liferay> php is not cheap on my side of the fence. it takes longer for us to deploy, it's more of a pain for us to manage, etc. it makes me grumpy haha
+16:13 < dblessing:#liferay> if you ask me to deploy a java app i can have that for you in minutes :)
+16:13 < dblessing:#liferay> anyway /rant
+16:19 < jardineworks:#liferay> dblessing, http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
+16:19 < jardineworks:#liferay> best. article. EVER.
+16:20 < scribe:#liferay> Hey guys.  Who's going to Liferay DevCon next week in Berlin?  I'm hoping to come out for the pre-conference, but probably will not stay for the full 3 days.  Would love to meet some of you in person.
+16:22 < dblessing:#liferay> jardineworks: love it. thanks
+16:24 < jardineworks:#liferay> dblessing, the analogy is my favourite part, BUT, the article also goes through some really indept analysis of why its shit.
+16:27 < Tar-Minyatur:#liferay> scribe: I'll be there...not for the Unconference though.
+16:27 < Tar-Minyatur:#liferay> And I still haven't signed up for the community meetup yet.
+16:29 < Tar-Minyatur:#liferay> dblessing: I actually love and hate PHP. I pretty much grew up with it...it's still my go-to language, if I need to do something fast.
+16:29 < Tar-Minyatur:#liferay> But I agree...it's a colorful collection of bad design choices.
+16:31 < Tar-Minyatur:#liferay> I can't really see why deploying PHP would be more difficult than Java. Both are pretty much just drag and drop.
+16:32 < jardineworks:#liferay> Tar-Minyatur, for enterprise deployment though I don't think you are comparing apples to apples.
+16:32 < jardineworks:#liferay> Every PHP developer loves to point out that Facebook uses PHP... which is true and not true.
+16:32 < jardineworks:#liferay> In fact, most of the large scale deployments, organizations have actually created libraries in compiled languages that they rely on more than PHP.
+16:34 < jardineworks:#liferay> don't get me wrong, Java has its share of frustrations ... bloat for one thing, but for scaled deployments? I personally think Java is a better choice.
+16:34 < dblessing:#liferay> Tar-Minyatur: yes you're right but we're largely a java shop. so we have a java pipeline that allows us to deploy rapidly. php is not part of that pipeline yet (and i am not sure i care for it to be). plus, tuning and all that are just so much more of a pain in php
+16:34 < dblessing:#liferay> i can get a java container to run circles around a php vm with the same system specs.
+16:37 < jardineworks:#liferay> dblessing, is social office available as a community edition?
+16:38 < Tar-Minyatur:#liferay> jardineworks: I agree...PHP is not a particularly wise choice for large-scale applications.
+16:39 < Tar-Minyatur:#liferay> But there definitely are thing that are just more quickly and more easily done with a scripting language. Also quality wise that will always cause problems.
+16:39 < Tar-Minyatur:#liferay> *things
+16:40 < Tar-Minyatur:#liferay> And all the frameworks, tools and other stuff surrounding Java still annoy me every time I have to deal with them. ;)
+16:41 < dblessing:#liferay> jardineworks: yeah it was last time i checked. but admittedly that was months ago
+16:43 < Tar-Minyatur:#liferay> Wow...our landlord is such a jerk.
+16:43 < dblessing:#liferay> jardineworks: yep goo.gl/VIuP6u
+16:43 < Tar-Minyatur:#liferay> Only because he always turns off the heating when he leaves his appartment, he expects us to do the same...when he was here this afternoon he turned off the heating and I didn't realize...
+16:46 < Tar-Minyatur:#liferay> Why would you do that manually, if there is an automatic timer thingy... *grabs another jacket*
+--- Log closed Thu Oct 03 00:00:46 2013

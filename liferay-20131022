@@ -1,0 +1,72 @@
+--- Log opened Tue Oct 22 00:00:39 2013
+05:07 < modd_:#liferay> hi topolik: can I download portlets like kaleo and mail for lr 6.2? I tried the mail portlet for 6.1 ga3 and changed the version and it deployed to 6.2 but doesn't work at all :\
+05:11 < topolik:#liferay> hi modd_
+05:12 < topolik:#liferay> I'm not sure if they were already adapted to the new version
+05:13 < modd_:#liferay> hmm :(
+05:14 < modd_:#liferay> I'll do a presentation about liferay at my former university and want to show a live demo. I'm using 6.2 rc4 for now
+05:14 < modd_:#liferay> and it would be nice to show some important points like the workflow system
+06:27 < Axxell:#liferay> hey guys, do you know if liferay 6.2 is design to support doing layouts on the page based on bootstraps way of doing layouts?
+06:27 < Axxell:#liferay> *designed
+07:04 < avinashrbhat:#liferay> hey guys, how to find the source of "java.awt.image.RasterFormatException: Incorrect scanline stride: " exception while deploying a theme.
+07:06 < hufg:#liferay> by using the newest jdk
+07:07 < hufg:#liferay> downgrade
+07:08 < hufg:#liferay> or read that https://issues.liferay.com/browse/LPS-37920
+07:25 < avinashrbhat:#liferay> hufg, thx
+07:28 < jardineworks:#liferay> hufg, I saw yesterday that the compatibility matrix lists jdk 7 for 6.1, but do you know if there is somewhere where you can find the update versions that are supported?
+07:30 < jardineworks:#liferay> topolik, that i18n issue I had yesterday? turned out that my user had a default language set to Samoan lol
+07:31 < topolik:#liferay> jardineworks: haha :D
+07:46 < hufg:#liferay> jardineworks: no idea, but i know for a fact that 7 u 21 works
+08:29 < hufg:#liferay> man the missing util jars in theme deployment make me furious
+08:29 < hufg:#liferay> whbat the fuck is that shit
+08:29 < hufg:#liferay> srsly
+10:50 < avinashrbhat:#liferay> hi, i have a weird problem happening when i try to remove a hook that my colleague created for testing. when i remove the hook the dockbar disappears and when th hook is restored, it comes back. has anyone seen similar issues with a hook?
+10:54 < jardineworks:#liferay> avinashrbhat, is the hook overriding soemthing in the docbar?
+10:54 < jardineworks:#liferay> avinashrbhat, I had this once with a custom jsp for login portlet. When I removed my hook for some reason it didn't restore the original JSP
+10:55 < jardineworks:#liferay> check and see, after removing the hook, that the JSP in the ROOT webapp is still there
+10:55 < avinashrbhat:#liferay> ok
+10:57 < avinashrbhat:#liferay> jardineworks, the hook is overriding the login page. there the doc bar is not shown when user is not logged in.
+10:58 < avinashrbhat:#liferay> jardineworks, so while removing the hook shouldn't it remove the custom jsp too?
+11:03 < jardineworks:#liferay> it should
+11:04 < jardineworks:#liferay> it should remove the custom JSP and put the regular one back
+12:41 < kermitt_:#liferay> Question: my company is noticing that SOLR in QA env vs. in the PROD env do not seem to be indexing articles the same: I assume this is a human error, but I am curious,
+12:42 < kermitt_:#liferay> is there a config file that would allow me to know/set when the SOLR runs its indexer?
+12:42 < apucay:#liferay> when you say the same, do you mean what's written to disk is different?
+12:43 < kermitt_:#liferay> Yes - the indexer is QA gets more but not all of the content.
+12:43 < kermitt_:#liferay> erm typos
+12:43 < apucay:#liferay> are the databases similar? same # users, articles, etc.?
+12:43 < kermitt_:#liferay> I restate: Yesm the indexer in QA gets most but not all of the content
+12:44 < apucay:#liferay> a lot of things are indexed upon creation/update
+12:44 < kermitt_:#liferay> They are supposed to be identical
+12:44 < apucay:#liferay> web content, blogs, wiki, users, docs
+12:44 < kermitt_:#liferay> ( but obs we have same delta )
+12:44 < kermitt_:#liferay> erm some delta
+12:45 < apucay:#liferay> one of the envs was stood up before the other
+12:45 < apucay:#liferay> which one was that?
+12:45 < kermitt_:#liferay> QA would have been first
+12:47 < apucay:#liferay> then why would Prod db have comparable data?
+12:48 < apucay:#liferay> i assumed that you refreshed QA from
+12:48 < apucay:#liferay> Prod or something
+12:48 < apucay:#liferay> anyway, there is a button in control panel that invokes a reindex of everything
+12:49 < kermitt_:#liferay> We have some process that is supposed to publish content from a 'content staging area'  into both QA and also PROD.
+12:49 < apucay:#liferay> in QA you can blow away the index on disk and click that buton
+12:49 < kermitt_:#liferay> Very awesome - thanks
+12:50 < apucay:#liferay> to me, the only way to know that content was not indexed properly is that if you can find it in the db, but a search from the UI as an admin fails
+12:51 < kermitt_:#liferay> huh - that would make sense.
+12:52 < kermitt_:#liferay> I'll ask my betters if I could get accesss to the DB to do that sort of forensic work.
+12:52 < apucay:#liferay> you don't have access to the QA db?
+12:52 < kermitt_:#liferay> In related news: http://wiki.apache.org/solr/SolrConfigXml   <---  that looks pretty interesting to me
+12:53 < kermitt_:#liferay>  Sadly, I do not.
+12:53 < apucay:#liferay> doh, stinker
+12:55 < apucay:#liferay> also, solr has it's own admin page where you can execute lucene queries
+12:55 < apucay:#liferay> so you can check if something is indexed or not
+12:56 < kermitt_:#liferay> ! oh cool. I did not know that....
+12:56 < kermitt_:#liferay> what would the url be?    Suppose I am on    https://liferay-qa.foo.com
+12:56 < apucay:#liferay> e.g. http://localhost:8983/solr/admin
+12:57 < kermitt_:#liferay> awesome
+12:57 < apucay:#liferay> yeah, but you would need the IP of the solr machine
+12:57 < kermitt_:#liferay> I can get that. :)
+12:57 < apucay:#liferay> unless you're saying the solr webapp is deployed to the same servlet container as liferay
+12:58 < kermitt_:#liferay> I'm not sure about that; I do not know that aspect of our topography.
+12:59 < apucay:#liferay> man, you've got some bad luck having the responsibility for troubleshooting this stuff and not given access and arch info
+13:00 < kermitt_:#liferay>  :) yar
+--- Log closed Wed Oct 23 00:00:40 2013

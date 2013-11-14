@@ -1,0 +1,94 @@
+--- Log opened Mon Aug 26 00:00:15 2013
+03:10 < sgeef:#liferay> Goodmorning.
+03:10 < sgeef:#liferay> Goodmorning
+03:11 < sgeef:#liferay> someone here has knowledge about kaleo workflow? And could tell me how i can pass parameters to my custom page from the workflow.
+03:27 < sgeef:#liferay> The thing is that i want to pass a different value for each parameter in each transition.
+06:02 < sgeef:#liferay> anyone here with knowledge about Kaleo workflow?
+07:28 < sgeef:#liferay> Does anyone have knowledge about kaleo workflow? *bump.
+07:39 < modd:#liferay> what do you need?
+11:03 < jardineworks:#liferay> good morning guys -- anyone around this morning?
+11:05 < Tar-Minyatur:#liferay> Hi there.
+11:05 < jardineworks:#liferay> Tar-Minyatur, hey -- have you done anything with Lanugage bundles yet?
+11:06 < Tar-Minyatur:#liferay> Not really. Except for adding an entry via a hook.
+11:07 < Tar-Minyatur:#liferay> We don't use the localization features.
+11:10 < Tar-Minyatur:#liferay> Btw...have you ever used a many-to-many relationship when working with ServiceBuilder?
+11:10 < Tar-Minyatur:#liferay> Because it seems like that doesn't work at all. Oo
+11:15 < jardineworks:#liferay> Tar-Minyatur, interesting. So I am doing the same thing. As part of my hook I defined my bundle Language_en.properties. In there I placed keys for the custom fields that I added through my JSP hook. All but ONE shows up, and the override that I am trying to provide for another isn't updating either.
+11:15 < Tar-Minyatur:#liferay> Mhm. I've only used Language.properties so far.
+11:15 < Tar-Minyatur:#liferay> Because - again - we don't use localization anyway.
+11:16 < Tar-Minyatur:#liferay> I added an entry to provide a name for my custom Asset Publisher display.
+11:16 < Tar-Minyatur:#liferay> Worked fine.
+11:17 < Tar-Minyatur:#liferay> Definitely sounds odd that one specifically wouldn't appear. I assume you already triple checked for different spelling?
+11:19 < jardineworks:#liferay> copy and pasted just to be sure.
+11:19 < jardineworks:#liferay> it's an aui:select field... and I expected the label property to be the one read out of the language bundle, but I am trying a few others just in case
+11:21 < Tar-Minyatur:#liferay> Maybe try displaying it with a message or something.
+11:22 < Tar-Minyatur:#liferay> Just to check whether it doesn't exist/wasn't changed or if maybe aui:select messes up.
+11:22 < Tar-Minyatur:#liferay> (Or works differently than expected.)
+11:30 < jardineworks:#liferay> hah
+11:30 < jardineworks:#liferay> fail on my part
+11:30 < jardineworks:#liferay> bundle name was Language_EN.properties. Hook defined as Language.properties
+11:30 < jardineworks:#liferay> works now :)
+11:38 < Tar-Minyatur:#liferay> ;)
+11:49 < Tar-Minyatur:#liferay> jardineworks: Did you see my question about ServiceBuilder earlier?
+11:50 < Tar-Minyatur:#liferay> Just curious if you ever encountered a similar problem.
+12:07 < jardineworks:#liferay> Tar-Minyatur, I didn't -- can you repeat it?
+12:09 < Tar-Minyatur:#liferay> I started fiddling around with ServiceBuilder.
+12:09 < Tar-Minyatur:#liferay> I tried building a simple example based on one of our current problems.
+12:09 < Tar-Minyatur:#liferay> Unfortunately it requires me to use a many-to-many relationship.
+12:10 < Tar-Minyatur:#liferay> And I can't get that to work at all.
+12:10 < Tar-Minyatur:#liferay> The code ServiceBuilder creates, is riddled with errors.
+12:11 < jardineworks:#liferay> Tar-Minyatur, what are the entities?
+12:11 < Tar-Minyatur:#liferay> I have products and categories.
+12:11 < Tar-Minyatur:#liferay> Every product can have any number of categories.
+12:12 < jardineworks:#liferay> Tar-Minyatur, So, lets say you convert it to one to many... as in One product can have many categories. You can fake the reverse relationship by create a findProductsInCategory on the product entity
+12:13 < jardineworks:#liferay> start by defining a Category entity. and then when you define the product, make the category relationship a Collection.
+12:13 < jardineworks:#liferay> that will five you the one to many right?
+12:13 < Tar-Minyatur:#liferay> So I would have a Collection of Categories in the product and nothing on the side of the product?
+12:13 < jardineworks:#liferay> you mean nothing on the side of the category right?
+12:14 < jardineworks:#liferay> and if that's what you meant, then yes, I think so.
+12:14 < Tar-Minyatur:#liferay> Uhm yeah. *lol*
+12:15 < jardineworks:#liferay> if you want all categories then you use the Category*ServiceUtil. If you want all products you use Product*ServiceUtil. If you want all product in a category you define a findProductByCategoryID on the Product*ServiceUtil.
+12:15 < jardineworks:#liferay> alternatively...
+12:16 < jardineworks:#liferay> never mind
+12:16 < jardineworks:#liferay> I don't think it would apply in this case :)
+12:16 < Tar-Minyatur:#liferay> Mhm. Good idea.
+12:16 < Tar-Minyatur:#liferay> I'll try that.
+12:17 < Tar-Minyatur:#liferay> I'm not even sure if I ever need the way from the category to the products.
+12:17 < Tar-Minyatur:#liferay> They're basically just used to create sections when all products are being shown. So I grab all products in that case anyway.
+12:17 < jardineworks:#liferay> (I was going to say that search engines repeat records rather than create joins -- joins are slow and filters are fast so you could omit the "relationship collection" and insert a product many times where each record has it's own category... but that would depend on whether or not you want your product records to be immutable most of the time)
+12:19 < Tar-Minyatur:#liferay> The products actually are subject to a lot of updates, so there shouldn't be many copies.
+12:19 < Tar-Minyatur:#liferay> I'll try you idea tomorrow.
+12:19 < Tar-Minyatur:#liferay> Sounds promising.
+12:20 < Tar-Minyatur:#liferay> If it works out, I have running prototypes for all three of my approaches to replace the messed-up DDL implementation we are using at the moment.
+12:21 < Tar-Minyatur:#liferay> Custom Entities, Original DDL implementation with hidden frontend Admin-Page and using web content articles together with Asset Publisher.
+12:22 < Tar-Minyatur:#liferay> And now I really should head home. Been here too long already. Again. ;) It's a sadness, that you appear only at the end of my work day. ;)
+12:22 < Tar-Minyatur:#liferay> But good for you, I guess. *g*
+12:26 < jardineworks:#liferay> hah -- tomezone conflict. Where are oyu located?
+12:26 < jardineworks:#liferay> you*
+12:26 < Tar-Minyatur:#liferay> Germany.
+12:27 < jardineworks:#liferay> 7 hours I think between us (Canada, Toronto here)
+12:28 < Tar-Minyatur:#liferay> Sounds about right, yeah.
+12:28 < Tar-Minyatur:#liferay> Almost a full work day of a difference. ;)
+12:28 < jardineworks:#liferay> hahah depends on how many hours you work ;)
+12:28 < jardineworks:#liferay> anyway... have a good night. Probably see you lurking tomorrow :)
+12:28 < Tar-Minyatur:#liferay> I'll probably hop in later tonight, when I'm home.
+12:29 < Tar-Minyatur:#liferay> The IRC addiction is too strong. ;D
+12:29 < jardineworks:#liferay> Liferay can also have an addictive property once you understand how to work with it :)
+12:29 < Tar-Minyatur:#liferay> Will take quite some time for me to reach that point.
+12:29 < Tar-Minyatur:#liferay> Everything is stained by the current project, which distorts my view on Liferay.
+12:30 < jardineworks:#liferay> ah but when you see how easy it is to clean up -- doing it properly I mean -- ,,, I hated LR at first. Took me 3 month to develop my stockholm condition :)
+12:30 < Tar-Minyatur:#liferay> *lol* I'll hold you to that. ;D
+12:31 < Tar-Minyatur:#liferay> At least I'm actually in a position where I can propose solutions.
+12:31 < Tar-Minyatur:#liferay> I just have to make sure that I understand enough to promote the right ideas. ;)
+12:32 < Tar-Minyatur:#liferay> Anyway. Heading out now. See you later or tomorrow or whenever. ;)
+12:32 < jardineworks:#liferay> 'night
+12:38 < jardineworks:#liferay> rotty3000, are you around?
+14:04 < jardineworks:#liferay> anyone around who has done some struts action overrides?
+14:47 < jardineworks:#liferay> jhf, any chance you are around?
+14:48 <@jhf:#liferay> yup. haven't done any struts action overrides though :)
+14:48 <@jhf:#liferay> I seem to recall a new feature in 6.1 that makes it easier though
+14:48 <@jhf:#liferay> https://www.liferay.com/web/mika.koivisto/blog/-/blogs/overriding-and-adding-struts-actions-from-hook-plugins
+14:52 < jardineworks:#liferay> jhf, That's what I was looking at -- but it doesn't touch on what I am trying to do (at least I don't think it does)
+14:52 < jardineworks:#liferay> I have the hook in place, and I can see my custom StrutsPortletAction working awat
+14:53 < jardineworks:#liferay> at the end of it I need to forward the user to the login action and I can't see to get it to work.
+--- Log closed Tue Aug 27 00:00:16 2013
