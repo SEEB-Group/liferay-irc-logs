@@ -28,3 +28,16 @@
 07:35 < hufg:#liferay> dunno dunno
 07:37 < hufg:#liferay> perhaps
 07:41 < imox1234:#liferay> ok moment please
+08:06 < imox1234:#liferay> hufg: are you still here ;) ?
+08:07 < rocknroll_:#liferay> i have an issue with the search portlet. search is ok and results display fine, but when I press "return to full page" the search portlet displays all the facets and the results. I only want to see the search field, not the previous results
+08:29 < hufg:#liferay> imox1234: yes yes
+08:29 < hufg:#liferay> any ideas how you can overwrite liferay's log4j FILE appender
+08:29 < hufg:#liferay> with portal-ext-log4j.xml
+08:29 < hufg:#liferay> uhh portal-log4j-ext.xml
+08:29 < hufg:#liferay> my guss is you can't
+08:30 < hufg:#liferay> guess
+08:49 < imox1234:#liferay> hufg: ok problems solved
+08:49 < imox1234:#liferay> thanks ;)
+08:49 < imox1234:#liferay> a jar file from rhino1_7R4 was missing
+08:50 < hufg:#liferay> imox1234: hehe great
+08:50 < hufg:#liferay> you were going to upgrade because of that?! 8)
