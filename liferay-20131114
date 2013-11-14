@@ -48,3 +48,14 @@
 09:50 < jardineworks:#liferay> hhahah -- wow.. I think I need to pat myself on the back for this most REVOLTING hack I just made :)
 09:51 < jardineworks:#liferay> its so gross I am going to put someone elses name on this file.
 09:53 < hufg:#liferay> hmm? 8)
+10:04  * Azrae|:#liferay waves, "Hi guys"
+10:04 < Azrae|:#liferay> I assume rather than asking if I can ask a question I should just ask a question and see what the reaction is. So this is the prefix to the question I'm about to ask...
+10:05 < Azrae|:#liferay> ... are there any workflow definitions people share somewhere for others to download? I want to try some other than the in-built 'single approver' workflow
+10:05 < jardineworks:#liferay> hufg, The IA for the project didn't bother to check whether or not the little boxes they drew ACTUALLY had data points. As a result, I am using the language bundle to set the text and the image path for each of the categories. I user the name of the category replacing the spaces with hyphens and wrapping it with two string to dynamcially generate the key
+10:05 < jardineworks:#liferay> so gross
+10:17 < rocknroll_:#liferay> yuck
+10:18 < rocknroll_:#liferay> I have resorted to similar desperate measures at times myself :)
+10:21 < jardineworks:#liferay> ok -- someone please tell me I am not mental. If you have a language bundle with key=somevalue... and then in a JSP you do LanguageUtil.get( themeDisplay.getLocale(), key ) ... you should get "somevalue" back right?
+10:49 < imox1234:#liferay> hufg: error again :(
+10:50 < imox1234:#liferay> hufg: http://pastebin.com/HtKeJpuE
+10:50 < imox1234:#liferay> have you any idea?
