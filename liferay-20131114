@@ -64,3 +64,12 @@
 11:59 < jardineworks:#liferay> apucay, I have an Object ... o lets say, I would rather not use the session to persist it across renderURLs, so I am trying to do it using request attributes.
 11:59 < jardineworks:#liferay> is that possible?
 12:00 < jardineworks:#liferay> for example, what does copyConcurrentRenderParams do?
+12:02 < jardineworks:#liferay> bah --- only works for render params
+12:03 < hufg:#liferay> imox1234: noo i'm blocked from pastebin
+12:04 < imox1234:#liferay> ok I found a solution
+12:04 < imox1234:#liferay> I needed a new version 5.3
+12:04 < imox1234:#liferay> from the web form
+12:26 < imox1234:#liferay> how can I test the mail settings
+12:31 < imox1234:#liferay> the web form do not sent an email :(
+12:43 < imox1234:#liferay> ok now it works fine
+12:43 < imox1234:#liferay> GREAT
