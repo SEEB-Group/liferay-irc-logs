@@ -41,3 +41,10 @@
 08:49 < imox1234:#liferay> a jar file from rhino1_7R4 was missing
 08:50 < hufg:#liferay> imox1234: hehe great
 08:50 < hufg:#liferay> you were going to upgrade because of that?! 8)
+09:32 < jardineworks:#liferay> hey guys
+09:32 < jardineworks:#liferay> does anyone know if it is possible to get a jstl variable in a scriptlet?
+09:32 < jardineworks:#liferay> I know... horrible...
+09:32 < jardineworks:#liferay> project almost due and we're in a sort of desperation mode :)
+09:50 < jardineworks:#liferay> hhahah -- wow.. I think I need to pat myself on the back for this most REVOLTING hack I just made :)
+09:51 < jardineworks:#liferay> its so gross I am going to put someone elses name on this file.
+09:53 < hufg:#liferay> hmm? 8)
