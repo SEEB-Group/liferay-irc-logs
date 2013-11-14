@@ -4,3 +4,27 @@
 04:00 < hufg:#liferay> bradley: whats a maven svn repo?
 06:21 < Tar-Minyatur:#liferay> ls
 06:21 < Tar-Minyatur:#liferay> Woops. Wrong terminal.
+07:13 < hufg:#liferay> https://issues.liferay.com/browse/LPS-40416 what does Blocked by: LPS-41782 comment mean there
+07:20 < imox1234:#liferay> hello I want to upgrade from 5.2 to the newest version what I have to do?
+07:27 < hufg:#liferay> get 100k in cash and hire consultants
+07:27 < hufg:#liferay> may not be enough
+07:27 < hufg:#liferay> better make it 150k
+07:28 < hufg:#liferay> or perhaps devote yourself to a god suitable for your liferay upgrade needs and pray for a miracle
+07:31 < imox1234:#liferay> what?
+07:31 < hufg:#liferay> or if you have enough calendar time start grinding through the upgrade process, first fix problems with liferay upgrade process then after you have it all down correctly start testing and fixing upcoming issues
+07:32 < imox1234:#liferay> ok
+07:32 < hufg:#liferay> imox1234: upgrade is REALLY hard
+07:33 < imox1234:#liferay> WTF
+07:33 < hufg:#liferay> :-)
+07:33 < hufg:#liferay> imox1234: for example you can't even upgrade 6.1GA2 to GA3
+07:33 < hufg:#liferay> it has showstoppers
+07:33 < hufg:#liferay> for us at least they exist
+07:34 < imox1234:#liferay> ok
+07:34 < hufg:#liferay> GA3 is a "simple" bug fix release and it still is unupgradeable
+07:34 < imox1234:#liferay> I have a problem with the web form plugin
+07:34 < imox1234:#liferay> :(
+07:34 < imox1234:#liferay> maybe can you help me to fix it ;)
+07:34 < hufg:#liferay> so you want to go through some 3-4 years of upgrades when even a year is zz pzz
+07:35 < hufg:#liferay> dunno dunno
+07:37 < hufg:#liferay> perhaps
+07:41 < imox1234:#liferay> ok moment please
