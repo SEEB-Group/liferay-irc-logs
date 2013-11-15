@@ -130,3 +130,4 @@
 14:18 <@jhf:#liferay> no more "hello world" and a login portlet. well you still get that :) but it's much prettier
 14:19 < modd:#liferay> we'll try to help them with their development (my company is lr gold partner since ~1 month)
 14:21 < jardineworks:#liferay> jhf, another one for you... if I use the liferay-portlet-url to create an actionURL in JS... is there a way to "fire" it, or do I have to use window.location.href=actionURL.toString()?
+14:22 <@jhf:#liferay> I suppose you could assign it to a button and then fire some JS event to trigger the button.. but location.href is probably easier.
