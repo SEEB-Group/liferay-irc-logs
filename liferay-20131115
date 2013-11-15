@@ -30,3 +30,4 @@
 10:41 < Tar-Minyatur:#liferay> AdminInNeed: Sorry. People keep drawing me into meetings...
 10:43 < Tar-Minyatur:#liferay> AdminInNeed: It's a really weird issue I can't make sense of.
 10:44 < Tar-Minyatur:#liferay> Could it be that the pages and articles were created before staging was activated and something went wrong when they switched?
+10:45 < Tar-Minyatur:#liferay> Because it sure looks like the article from staging is linked to the web content view on the page.
