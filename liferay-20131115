@@ -83,3 +83,7 @@
 13:13 < darkos:#liferay> ie: so that the heading shows up and within it are the first and last name fields
 13:14 < darkos:#liferay> you could just as easily name it 'name' and just have 'first' and 'last'
 13:14 < darkos:#liferay> ie: name for the fieldset
+13:16 <@jhf:#liferay> yep I get the same thing: the firstname/lastname doesn't show up: http://imgur.com/82gVgpL
+13:16 < darkos:#liferay> congratulations! and thank you
+13:16 <@jhf:#liferay> heh.. lemme look around a bit before filing any issue.
+13:17 <@jhf:#liferay> but yeah that's a bug.
