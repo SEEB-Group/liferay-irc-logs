@@ -20,3 +20,4 @@
 09:05 < AdminInNeed:#liferay> Tar-Minyatur: I'm going to check OOB real quick; so need to know exact version you have.
 09:07 < jardineworks:#liferay> AdminInNeed, I would guess GA1. mNot many people try to use a beta release in production.
 09:10 < AdminInNeed:#liferay> jardineworks: Thanks; I'll try that; but doubt that has issue. Liferay would have caught that in QA tests.
+09:11 < AdminInNeed:#liferay> Tar-Minyatur: is this remote staging or local one?
