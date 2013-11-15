@@ -66,3 +66,5 @@
 13:01 <@jhf:#liferay> ok. I am gonna try and see if I can reproduce it.
 13:02 <@jhf:#liferay> so you are creating a custom display template (not a form template) for displaying the data in the DDL right?
 13:03 <@jhf:#liferay> or are you making a form template (shown when users are entering new records)
+13:06 < darkos:#liferay> no
+13:06 < darkos:#liferay> I'm just concerned about the form template currently
