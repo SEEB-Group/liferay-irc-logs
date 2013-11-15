@@ -68,3 +68,5 @@
 13:03 <@jhf:#liferay> or are you making a form template (shown when users are entering new records)
 13:06 < darkos:#liferay> no
 13:06 < darkos:#liferay> I'm just concerned about the form template currently
+13:07 < darkos:#liferay> as in what's used when users submit data
+13:07 < darkos:#liferay> you see when you create the data definition, it's all about the field data.
