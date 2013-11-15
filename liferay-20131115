@@ -62,3 +62,4 @@
 12:53 <@jhf:#liferay> when you say "dynamic data form add-on" do you mean the 'kaleo forms' EE plugin?
 12:54 <@jhf:#liferay> err no wait.. apologies.. there is a ddl-forms plugin isn't there. checking...
 12:54 < darkos:#liferay> the one I'm talking about is the ddl-forms plugin
+12:55 < darkos:#liferay> I have not tried / do not know about the kaleo one.  that's a workflow engine, and I don't use it, have no interest so far in it.
