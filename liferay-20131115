@@ -60,3 +60,5 @@
 12:53 <@jhf:#liferay> (nar the bottom)
 12:53 < darkos:#liferay> the guts of it is that when you use the DDL form templates, if you burry input fields inside the container gui widgets for grouping, the form fails to save the data.
 12:53 <@jhf:#liferay> when you say "dynamic data form add-on" do you mean the 'kaleo forms' EE plugin?
+12:54 <@jhf:#liferay> err no wait.. apologies.. there is a ddl-forms plugin isn't there. checking...
+12:54 < darkos:#liferay> the one I'm talking about is the ddl-forms plugin
