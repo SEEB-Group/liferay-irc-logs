@@ -97,3 +97,4 @@
 13:26 <@jhf:#liferay> which I also encountered in my screenshot
 13:26 <@jhf:#liferay> I shall check the database
 13:26 <@jhf:#liferay> (which I think is what you were originally saying was wrong)
+13:27 <@jhf:#liferay> my guess is it's not in there and I further guess that it wasn't in the DB for the reporter of LPS-23689
