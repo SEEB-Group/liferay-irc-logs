@@ -92,3 +92,4 @@
 13:23 < darkos:#liferay> similar, but not the same
 13:23 < darkos:#liferay> it appears that this issue you found was with reference to display of data
 13:24 < darkos:#liferay> not to do with capture / storage of data
+13:24 < darkos:#liferay> looking at the steps to reproduce the issue, there's no mention of creating a form and capturing data
