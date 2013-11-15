@@ -74,3 +74,6 @@
 13:08 < darkos:#liferay> yep, the ddl-forms plugin has to be installed from the marketplace.  for some reason it's not bundled in
 13:09 <@jhf:#liferay> yeah but even without doing that, I see an option to create a new ddl form. and when I click on it, I get the GUI form editor.
 13:09 <@jhf:#liferay> i'm surprised, since I dnd't install the ddl-form plugin yet.
+13:10 < darkos:#liferay> ah, that's because it's part of the data definition aspect
+13:10 < darkos:#liferay> you can go ahead and create the form template I guess.
+13:10 <@jhf:#liferay> ok. and how did you group them? using a field set + paragraph (to contain your header)?
