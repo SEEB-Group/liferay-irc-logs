@@ -65,3 +65,4 @@
 12:55 < darkos:#liferay> I have not tried / do not know about the kaleo one.  that's a workflow engine, and I don't use it, have no interest so far in it.
 13:01 <@jhf:#liferay> ok. I am gonna try and see if I can reproduce it.
 13:02 <@jhf:#liferay> so you are creating a custom display template (not a form template) for displaying the data in the DDL right?
+13:03 <@jhf:#liferay> or are you making a form template (shown when users are entering new records)
