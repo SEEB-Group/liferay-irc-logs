@@ -1,1 +1,11 @@
 --- Log opened Fri Nov 15 00:00:12 2013
+04:42 < hufg:#liferay> helloo helloo
+04:42 < hufg:#liferay> any ideas how replicating lucene indexes across the cluster works?
+04:43 < hufg:#liferay> what if one node is down and no reindex on startup
+04:43 < hufg:#liferay> does it poll the cluster for newest indexes
+04:43 < hufg:#liferay> shutdown one node for 1 week start without reindex on startup and what happens?
+04:46 < hufg:#liferay> topolik ? 8)
+04:46 < topolik:#liferay> hi hufg
+04:46 < topolik:#liferay> I'm sorry, I knew that but I forgot :D
+04:47 < topolik:#liferay> there are 2 ways - the cluster sends only incremental changes or when new instance shows it sends everything
+04:47 < topolik:#liferay> but I'm not able to remember what's the right one :)
