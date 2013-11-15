@@ -103,3 +103,5 @@
 13:32 <@jhf:#liferay> or do you want the pleasure of filing :)
 13:32 <@jhf:#liferay> I guess the workaround is to not use a fieldset
 13:49 < jardineworks:#liferay> jhf, form question for you
+13:50 < jardineworks:#liferay> I have a page where I am dynamically generating select fields. Page A might have 2 of them, Page B 5 lets say
+13:50 < jardineworks:#liferay> they all relate back to the same thing .. Item options for an order item.
