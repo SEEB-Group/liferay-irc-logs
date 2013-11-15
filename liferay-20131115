@@ -81,3 +81,5 @@
 13:11 < darkos:#liferay> then, dragged the two existing fields so that they are inside the field set at the same depth.
 13:13 < darkos:#liferay> I also renamed the field set to 'about you'
 13:13 < darkos:#liferay> ie: so that the heading shows up and within it are the first and last name fields
+13:14 < darkos:#liferay> you could just as easily name it 'name' and just have 'first' and 'last'
+13:14 < darkos:#liferay> ie: name for the fieldset
