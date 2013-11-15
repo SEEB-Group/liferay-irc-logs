@@ -79,3 +79,5 @@
 13:10 <@jhf:#liferay> ok. and how did you group them? using a field set + paragraph (to contain your header)?
 13:11 < darkos:#liferay> just dragged the field-set to the right hand side
 13:11 < darkos:#liferay> then, dragged the two existing fields so that they are inside the field set at the same depth.
+13:13 < darkos:#liferay> I also renamed the field set to 'about you'
+13:13 < darkos:#liferay> ie: so that the heading shows up and within it are the first and last name fields
