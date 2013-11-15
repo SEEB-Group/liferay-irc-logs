@@ -108,3 +108,5 @@
 13:51 < jardineworks:#liferay> in some languages (.NET, php, etc) ... you can name these boxes name="orderItemOption[1]" where the value in the square bracket represents the order item option id.
 13:52 < jardineworks:#liferay> when the form is posted back to the server then it will allow you to retrieve orderItemOption as a list and then you can iterate over the list and for item with id 1, you get value <whatever>, move to the next etc.
 13:52 < jardineworks:#liferay> bascially allows you to dynamically process dynamic form fields :S
+13:53 < jardineworks:#liferay> do you know if LR supports that same [x] notation?
+13:53 <@jhf:#liferay> I don't think so, but i'll look around a bit.
