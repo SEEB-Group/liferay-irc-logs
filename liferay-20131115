@@ -105,3 +105,4 @@
 13:49 < jardineworks:#liferay> jhf, form question for you
 13:50 < jardineworks:#liferay> I have a page where I am dynamically generating select fields. Page A might have 2 of them, Page B 5 lets say
 13:50 < jardineworks:#liferay> they all relate back to the same thing .. Item options for an order item.
+13:51 < jardineworks:#liferay> in some languages (.NET, php, etc) ... you can name these boxes name="orderItemOption[1]" where the value in the square bracket represents the order item option id.
