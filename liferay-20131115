@@ -70,3 +70,5 @@
 13:06 < darkos:#liferay> I'm just concerned about the form template currently
 13:07 < darkos:#liferay> as in what's used when users submit data
 13:07 < darkos:#liferay> you see when you create the data definition, it's all about the field data.
+13:08 <@jhf:#liferay> ok. so, so far I created a new data definition (first name, last name, DOB, email), and created a list from it, and plopped it on a page using the "DDL Display" template - I can add new records. When I turn on edit controls at the bottom, I see an option to add a Form Template - but I have not yet installed the ddl-forms plugin.. I wonder why that is.
+13:08 < darkos:#liferay> yep, the ddl-forms plugin has to be installed from the marketplace.  for some reason it's not bundled in
