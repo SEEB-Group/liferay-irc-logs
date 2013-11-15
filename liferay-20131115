@@ -23,3 +23,6 @@
 09:11 < AdminInNeed:#liferay> Tar-Minyatur: is this remote staging or local one?
 09:28 -!- mode/#liferay [+o jhf] by ChanServ
 09:41 < AdminInNeed:#liferay> Tar-Minyatur: it's not without issue (e.g. https://issues.liferay.com/browse/LPS-23332 ) but works on the whole of it.
+09:42 < AdminInNeed:#liferay> Tar-Minyatur: could not reproduce what you described; that is, content is properly staged.
+09:42 < AdminInNeed:#liferay> Hi, why do automatic updates download flash plugin on headless ubuntu server?
+09:42 < AdminInNeed:#liferay> It seems like a waste since only lynx is installed; no ff, chrome, or etc.
