@@ -110,3 +110,4 @@
 13:52 < jardineworks:#liferay> bascially allows you to dynamically process dynamic form fields :S
 13:53 < jardineworks:#liferay> do you know if LR supports that same [x] notation?
 13:53 <@jhf:#liferay> I don't think so, but i'll look around a bit.
+14:03 <@jhf:#liferay> well can't find anything (and I'm not enough of a web developer to know by heart). closest I found was http://stackoverflow.com/questions/9074470/how-to-retrieve-multiple-select-value
