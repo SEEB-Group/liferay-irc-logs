@@ -111,3 +111,7 @@
 13:53 < jardineworks:#liferay> do you know if LR supports that same [x] notation?
 13:53 <@jhf:#liferay> I don't think so, but i'll look around a bit.
 14:03 <@jhf:#liferay> well can't find anything (and I'm not enough of a web developer to know by heart). closest I found was http://stackoverflow.com/questions/9074470/how-to-retrieve-multiple-select-value
+14:06 < jardineworks:#liferay> jhf, ok thanks. I appreciate the google... though you didn't have to do that for me :)
+14:06 < jardineworks:#liferay> above and beyond ;)
+14:06 <@jhf:#liferay> well I learn something every time :)
+14:06 <@jhf:#liferay> like, now I know how to handle multiple choice forms :)
