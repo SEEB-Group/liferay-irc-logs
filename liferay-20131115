@@ -10,3 +10,5 @@
 04:47 < topolik:#liferay> there are 2 ways - the cluster sends only incremental changes or when new instance shows it sends everything
 04:47 < topolik:#liferay> but I'm not able to remember what's the right one :)
 05:37 < spandana:#liferay> hi..am getting the following error while running a spring portlet hibernate application..can you please help me..The error i got is Initial SessionFactory creation failed.java.lang.IncompatibleClassChangeError: Implementing class
+07:19 < jardineworks:#liferay> topolik, hufg I'm not sure about the latest versions but I know that I had a problem for a client once on 5.2.3 around this. He had some shit code that caused the servers to crash every 15 minutes, so they were constantly restarting themselves. In fact the sysadmin had a script that would restart them every 10 minutes before they had a chance to crash. Anyway, one of the main issues was his search indices were always out of whack.
+07:20 < jardineworks:#liferay> ... so I would have guessed incremental changes for that version at least.
