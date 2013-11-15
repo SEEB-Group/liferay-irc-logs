@@ -19,3 +19,4 @@
 09:04 < AdminInNeed:#liferay> Tar-Minyatur: 6.1.0 GA1, 6.1.0 RC1, 6.1.0 B4, or 6.1.0 B3?
 09:05 < AdminInNeed:#liferay> Tar-Minyatur: I'm going to check OOB real quick; so need to know exact version you have.
 09:07 < jardineworks:#liferay> AdminInNeed, I would guess GA1. mNot many people try to use a beta release in production.
+09:10 < AdminInNeed:#liferay> jardineworks: Thanks; I'll try that; but doubt that has issue. Liferay would have caught that in QA tests.
