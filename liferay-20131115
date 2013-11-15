@@ -14,3 +14,4 @@
 07:20 < jardineworks:#liferay> ... so I would have guessed incremental changes for that version at least.
 08:14 < Tar-Minyatur:#liferay> Hey guys...has anyone of you ever experienced that Web Content Articles immediately go live despite staging being activated?
 08:14 < Tar-Minyatur:#liferay> We have some serious issues with that at the moment, because the content people try to prepare some updates and they show up on live immediately.
+08:58 < AdminInNeed:#liferay> Tar-Minyatur: no, never seen that before, which version?
