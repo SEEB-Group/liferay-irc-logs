@@ -46,3 +46,7 @@
 12:50 <@jhf:#liferay> https://www.google.com/search?q=glassfish+4+commercial&oq=glassfish+4+commercial
 12:50 < darkos:#liferay> could also be that much of the good stuff from GF is being rolled into WebLogic
 12:50 < darkos:#liferay> hmmmm
+12:51 <@jhf:#liferay> yeah I think the original vision during the sun transition was that GF and WL would be built on the same osgi foundation.
+12:51 <@jhf:#liferay> dunno if that ever made into reality though
+12:51 < darkos:#liferay> well, what I wanted to check with you on was regarding the DDL issue I stumbled upon
+12:51 <@jhf:#liferay> ok
