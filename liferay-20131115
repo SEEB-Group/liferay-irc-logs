@@ -40,3 +40,9 @@
 12:49 <@jhf:#liferay> oracle will not provide commercial support for GF anymore. only commercial support for Weblogic
 12:49 < darkos:#liferay> really?
 12:49 < darkos:#liferay> wow.
+12:50 < darkos:#liferay> perhaps they did too good a job with the community version
+12:50 <@jhf:#liferay> haha.. well they will continue to use GF as the JavaEE reference implementation and it'll remain open source (for the moment)
+12:50 <@jhf:#liferay> but they want their commercial users on Weblogic
+12:50 <@jhf:#liferay> https://www.google.com/search?q=glassfish+4+commercial&oq=glassfish+4+commercial
+12:50 < darkos:#liferay> could also be that much of the good stuff from GF is being rolled into WebLogic
+12:50 < darkos:#liferay> hmmmm
