@@ -132,3 +132,4 @@
 14:21 < jardineworks:#liferay> jhf, another one for you... if I use the liferay-portlet-url to create an actionURL in JS... is there a way to "fire" it, or do I have to use window.location.href=actionURL.toString()?
 14:22 <@jhf:#liferay> I suppose you could assign it to a button and then fire some JS event to trigger the button.. but location.href is probably easier.
 14:23 < jardineworks:#liferay> ok cool... just wasn;t sure if there was another jas util that I should be using to invoke the urls.
+22:41 < darkos:#liferay> hey @jhf thank you for creating that issue report.  I kinda got sidetracked.
