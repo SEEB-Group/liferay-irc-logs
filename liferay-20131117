@@ -1,1 +1,5 @@
 --- Log opened Sun Nov 17 00:00:15 2013
+05:48 < Sree:#liferay> Hi All,
+05:48 < Sree:#liferay> I am getting below error message
+05:48 < Sree:#liferay> Initial SessionFactory creation failed.java.lang.IncompatibleClassChangeError: Implementing class
+05:48 < Sree:#liferay> can any one help me how to resolve his issue
