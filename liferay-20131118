@@ -41,3 +41,5 @@
 08:13 < jardineworks:#liferay> one of these days when I have more time I am going to start blogging REAL scenarios.
 08:13 < jardineworks:#liferay> .. but until then. This sucks :)
 08:13 < hufg:#liferay> hehe
+08:15 < jardineworks:#liferay> I know for sharing vars in the session you can use LIFERAY_SHARED... and I also know that Public Render Parameters are stored in the session as well. In fact I can see the setting --
+08:15 < jardineworks:#liferay>  session.shared.attributes=COMPANY_,LIFERAY_SHARED_,org.apache.struts.action.LOCALE,PORTLET_RENDER_PARAMETERS_,PUBLIC_RENDER_PARAMETERS_POOL_,USER_
