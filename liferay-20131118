@@ -73,3 +73,5 @@
 09:24 < hufg:#liferay> it may be stored in the document library but not accessed from the document library though
 09:26 < hufg:#liferay> didn't investigate more jsut checked that the access url is different
 09:34 < Tar-Minyatur:#liferay> Yes. I saw the URLs as well.
+09:35 < hufg:#liferay> digg into sturts-config.xml and see what happens 8)
+09:35 < Tar-Minyatur:#liferay> Yuck
