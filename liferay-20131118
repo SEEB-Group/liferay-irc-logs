@@ -155,3 +155,4 @@
 12:17 < Tar-Minyatur:#liferay> I get the feeling that loading images and JSON files from the DL (which is configured to use S3) quickly could become a bottleneck..
 12:19 <@rotty3000:#liferay> aj_: ;)
 13:29 < aj_:#liferay> hey guys
+13:30 < aj_:#liferay> has anyone had a problem moving a theme that was originally deployed on a 1.6 jdk version of the portal/plugin to  a version of the portal that runs on 1.7?
