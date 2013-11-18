@@ -96,3 +96,4 @@
 10:13 <@rotty3000:#liferay> brb
 10:14 < aj_:#liferay> ok looks the same to me
 10:14 < aj_:#liferay> so the problem must be in how I set it.
+10:15 < aj_:#liferay> on my side what I do is in the search portlet I have an actionURL. The process action should set the render parameters right?
