@@ -85,3 +85,6 @@
 10:09 <@rotty3000:#liferay> right
 10:09 <@rotty3000:#liferay> sounds reasonable
 10:09 < aj_:#liferay> ,... either I am doing it wrong (most likely lol) or it doesnt't work :)
+10:10 <@rotty3000:#liferay> so, you need to declare the prp in every portlet
+10:10 <@rotty3000:#liferay> and the namespace has to be identical for all
+10:10 <@rotty3000:#liferay> I mean the URI namespace in the definition in portlet.xml
