@@ -122,3 +122,7 @@
 11:20 <@rotty3000:#liferay> you should uncomment it, and remove the lines at 34,35,36
 11:20 < aj_:#liferay> rotty3000, you mean the setParameter() statements?
 11:21 <@rotty3000:#liferay> yeah
+11:21 < aj_:#liferay> rotty3000, so that is the problem. I need those parameters to go to TWO portlets on the other layout
+11:21 < aj_:#liferay> when I was doing that, my target (nearbystores) portlet works, but the store details cant find a store id
+11:21 < aj_:#liferay> and when I output the public parameter map in BOTH portlets, both have a 0 list size.
+11:22 <@rotty3000:#liferay> so? both portlets will see the prp params even if they are directed to only one of them
