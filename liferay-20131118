@@ -64,3 +64,5 @@
 08:30 < jardineworks:#liferay> the search is on one layout (/stores/search)
 08:30 < jardineworks:#liferay> the other two on a separate layout -- stores/details.
 08:50 < hufg:#liferay> imo if you can get to the httprequest you can just use some api fcall to get the param
+08:53 < hufg:#liferay> when is deployment/undeployment of structures/templates coming!?
+08:53 < hufg:#liferay> would make life better imo
