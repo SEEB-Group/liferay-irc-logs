@@ -45,3 +45,5 @@
 08:15 < jardineworks:#liferay>  session.shared.attributes=COMPANY_,LIFERAY_SHARED_,org.apache.struts.action.LOCALE,PORTLET_RENDER_PARAMETERS_,PUBLIC_RENDER_PARAMETERS_POOL_,USER_
 08:17 < jardineworks:#liferay> also ,,, the parameters going to the nearby stores portlet is not being passed as a public param. I can tell that because when I output the Public Parameter Map in the render phase it has a size of 0
 08:17 < jardineworks:#liferay> so clearly it is only getting the values because I am passing them as portlet params
+08:21 < hufg:#liferay> mm
+08:21 < hufg:#liferay> a get paremeter with prefix and be done with it 8)
