@@ -7,3 +7,4 @@
 07:43 < jardineworks:#liferay> is anyone around who has done and had success with public render parameters? In particular I am trying to get them to work across layouts so that I can share information between portlets on different pages.
 07:50 < jardineworks:#liferay> Tar-Minyatur, any chance you are using this model on your project?
 07:56 < jardineworks:#liferay> topolik, are you back?
+08:00 < hufg:#liferay> jardineworks: i have seen some docs on it!
