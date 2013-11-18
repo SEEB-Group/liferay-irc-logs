@@ -104,3 +104,4 @@
 10:35 < aj_:#liferay> rotty3000, so then... once I do actionResonse.setRenderParameter(...) I can no longer redirect right? so then how do I redirect the user to the other layout?
 10:35 <@rotty3000:#liferay> you can create a render url in the processAction, and explicitely redirect to it
 10:41 < aj_:#liferay> but
+10:42 < aj_:#liferay> rotty3000, when I tried to do a response.sendRedirect (after setting the render parameters) I got an illegal state exception
