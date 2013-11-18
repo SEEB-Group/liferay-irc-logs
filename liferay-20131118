@@ -91,3 +91,6 @@
 10:11 < aj_:#liferay> right... so I have one portlet.xml file... and I have just before the closing portlet-app tag the definition. Then for each portlet I have the supported-... blah blah blah ... where the ids between the two match
 10:11 < aj_:#liferay> let me pastebin for you
 10:12 <@rotty3000:#liferay> here is a working example of a plugin using a PRP of the portal https://github.com/rotty3000/liferay-plugins/blob/master/portlets/wiki-navigation-portlet/docroot/WEB-INF/portlet.xml#L78
+10:13 < aj_:#liferay> rotty3000, http://pastebin.com/pkzNZpB9
+10:13 < aj_:#liferay> checking your link as well
+10:13 <@rotty3000:#liferay> brb
