@@ -136,3 +136,4 @@
 11:26 <@rotty3000:#liferay> so, when you get the resulting url, can you pastie it?
 11:29 < aj_:#liferay> sure one sec.
 11:29 < aj_:#liferay> you wanna see the render url right?
+11:32 < aj_:#liferay> rotty3000, URL: http://localhost:8080/web/guest/stores/details?p_p_id=nearbystores_WAR_storelocatorportlet&p_p_lifecycle=0&_nearbystores_WAR_storelocatorportlet_PUBLIC_PARAM_SELECTED_STORE_ID=4&_nearbystores_WAR_storelocatorportlet_PUBLIC_PARAM_SELECTED_STORE_LAT=33.6001826&_nearbystores_WAR_storelocatorportlet_PUBLIC_PARAM_SELECTED_STORE_LONG=-111.9786615
