@@ -50,3 +50,5 @@
 08:23 < jardineworks:#liferay> you mean do /store/details?storeId=...
 08:23 < jardineworks:#liferay> ?
 08:23 < hufg:#liferay> yes
+08:24 < jardineworks:#liferay> can you just use the ParamUtil.getString to pull it back?
+08:24 < hufg:#liferay> _500_storeId=123&_500_lat=123.1234.34&_500_long=23.324
