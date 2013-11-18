@@ -32,3 +32,5 @@
 08:08 < jardineworks:#liferay> Page A - Search portlet. Page B TWO portlets, a Details portlet and a Nearby portlet
 08:08 < jardineworks:#liferay> so right no in my action phase I get the layout and redirect the user to the nearby portlet iwth the 3 render parameters.
 08:08 < jardineworks:#liferay> that works
+08:09 < jardineworks:#liferay> problem is, the details portlet can't see the vars :(
+08:09 < jardineworks:#liferay> I have never gotten this to work... I remmeber trying it once before and after an entire day burned just giving up
