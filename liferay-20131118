@@ -105,3 +105,6 @@
 10:35 <@rotty3000:#liferay> you can create a render url in the processAction, and explicitely redirect to it
 10:41 < aj_:#liferay> but
 10:42 < aj_:#liferay> rotty3000, when I tried to do a response.sendRedirect (after setting the render parameters) I got an illegal state exception
+10:43 <@rotty3000:#liferay> don't call that method
+10:43 <@rotty3000:#liferay> set the param on the created url
+10:43 < aj_:#liferay> sorry? I'm not following.
