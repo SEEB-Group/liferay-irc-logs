@@ -58,3 +58,6 @@
 08:25 < jardineworks:#liferay> argh... where is a liferay employe when you need one! :)
 08:26 < hufg:#liferay> you are doing a "basic" portlet with render and action phases
 08:26 < hufg:#liferay> ?
+08:27 < jardineworks:#liferay> yeah
+08:27 < jardineworks:#liferay> well, I have 3 portlets
+08:27 < jardineworks:#liferay> one for the search, one for the details, and one for nearby stores
