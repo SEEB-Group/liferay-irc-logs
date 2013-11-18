@@ -118,3 +118,7 @@
 11:11 <@rotty3000:#liferay> is your snippet up to date?
 11:13 < aj_:#liferay> I just sent the portlet.xml... one sec I'll do my process action.
 11:14 < aj_:#liferay> http://pastebin.com/LQdGAwbi
+11:20 <@rotty3000:#liferay> aj_: the correct code is commented
+11:20 <@rotty3000:#liferay> you should uncomment it, and remove the lines at 34,35,36
+11:20 < aj_:#liferay> rotty3000, you mean the setParameter() statements?
+11:21 <@rotty3000:#liferay> yeah
