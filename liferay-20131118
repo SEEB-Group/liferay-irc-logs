@@ -36,3 +36,4 @@
 08:09 < jardineworks:#liferay> I have never gotten this to work... I remmeber trying it once before and after an entire day burned just giving up
 08:10 < hufg:#liferay> mm
 08:10 < jardineworks:#liferay> I know I could go the gross session route, but I feel like this is a situation MEANT for public params
+08:11 < jardineworks:#liferay> and I don't wnat to use IPC... overly comlex and the data is not private
