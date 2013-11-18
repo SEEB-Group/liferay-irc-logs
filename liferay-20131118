@@ -56,3 +56,5 @@
 08:25 < hufg:#liferay> by prefix i mean just clearly group the params
 08:25 < jardineworks:#liferay> I suppose ultimately you could get the underlying httprequest and pull out the query string
 08:25 < jardineworks:#liferay> argh... where is a liferay employe when you need one! :)
+08:26 < hufg:#liferay> you are doing a "basic" portlet with render and action phases
+08:26 < hufg:#liferay> ?
