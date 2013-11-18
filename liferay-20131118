@@ -23,3 +23,9 @@
 08:06 -!- Irssi: Join to #liferay was synced in 8 secs
 08:06 < jardineworks:#liferay> 3 strings
 08:06 < jardineworks:#liferay> its  store locator
+08:07 < jardineworks:#liferay> I am passing the store id and the lat and long
+08:07 < hufg:#liferay> how long are they?
+08:07 < jardineworks:#liferay> id is a couple of letters... and lat long ... the usual.
+08:07 < hufg:#liferay> im just saying if you can share them with get param no need for more complex stuff
+08:07 < hufg:#liferay> and this includes no lists etc and not too many characters and stuff like that
+08:07 < jardineworks:#liferay> well, here is what I have :)
