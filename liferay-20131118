@@ -61,3 +61,5 @@
 08:27 < jardineworks:#liferay> yeah
 08:27 < jardineworks:#liferay> well, I have 3 portlets
 08:27 < jardineworks:#liferay> one for the search, one for the details, and one for nearby stores
+08:30 < jardineworks:#liferay> the search is on one layout (/stores/search)
+08:30 < jardineworks:#liferay> the other two on a separate layout -- stores/details.
