@@ -126,3 +126,8 @@
 11:21 < aj_:#liferay> when I was doing that, my target (nearbystores) portlet works, but the store details cant find a store id
 11:21 < aj_:#liferay> and when I output the public parameter map in BOTH portlets, both have a 0 list size.
 11:22 <@rotty3000:#liferay> so? both portlets will see the prp params even if they are directed to only one of them
+11:22 <@rotty3000:#liferay> provided the prps are properly configured
+11:22 < aj_:#liferay> rotty3000,  that's what I thought... but its not what I am seeing :(
+11:22 < aj_:#liferay> rotty3000, did my portlet.xml look ok to you?
+11:22 <@rotty3000:#liferay> what does the resulting url look like when you do that?
+11:22 <@rotty3000:#liferay> sorry, checking
