@@ -132,3 +132,4 @@
 11:22 <@rotty3000:#liferay> what does the resulting url look like when you do that?
 11:22 <@rotty3000:#liferay> sorry, checking
 11:24 <@rotty3000:#liferay> btw.. why did you put your param in Liferay's uri namespace ? you should use one of your own naming to make sure there is no collisions
+11:25 <@rotty3000:#liferay> however, that's not the problem I don't think, just would be better
