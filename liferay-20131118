@@ -37,3 +37,7 @@
 08:10 < hufg:#liferay> mm
 08:10 < jardineworks:#liferay> I know I could go the gross session route, but I feel like this is a situation MEANT for public params
 08:11 < jardineworks:#liferay> and I don't wnat to use IPC... overly comlex and the data is not private
+08:13 < jardineworks:#liferay> I've tried several examples, but none of them work. My suspicion, like most Liferay blog posts, they show just hte most basic example. Two portlets on the same page.
+08:13 < jardineworks:#liferay> one of these days when I have more time I am going to start blogging REAL scenarios.
+08:13 < jardineworks:#liferay> .. but until then. This sucks :)
+08:13 < hufg:#liferay> hehe
