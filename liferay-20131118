@@ -79,3 +79,9 @@
 10:07 <@rotty3000:#liferay> hey, I can try to answer
 10:07 < aj_:#liferay> k thanks... here is what I have
 10:08 < aj_:#liferay> Layout A with Portlet A. This is a search that also shows the users the results. The user can select one of the results to go to a new layout -- a Details Layout. The Details layout has two portlets on it. The first is the details information .. the second are nearby locations (this is a store search)
+10:09 < aj_:#liferay> I need to get the storeId from Layout A to Layout B so that the portlets on Layout B will see it.
+10:09 <@rotty3000:#liferay> ok
+10:09 < aj_:#liferay> I have been trying to do this with public render parameters
+10:09 <@rotty3000:#liferay> right
+10:09 <@rotty3000:#liferay> sounds reasonable
+10:09 < aj_:#liferay> ,... either I am doing it wrong (most likely lol) or it doesnt't work :)
