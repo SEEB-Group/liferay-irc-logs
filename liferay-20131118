@@ -108,3 +108,4 @@
 10:43 <@rotty3000:#liferay> don't call that method
 10:43 <@rotty3000:#liferay> set the param on the created url
 10:43 < aj_:#liferay> sorry? I'm not following.
+11:00 < aj_:#liferay> rotty3000, when you say created url, you mean the PortalUtil.getCurrentURL( portletRequest) ?
