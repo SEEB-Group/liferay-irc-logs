@@ -153,3 +153,4 @@
 12:16 < Tar-Minyatur:#liferay> What a day...
 12:16 < Tar-Minyatur:#liferay> Do any of you know if Liferay has some kind of caching for file retrieval from the documents library?
 12:17 < Tar-Minyatur:#liferay> I get the feeling that loading images and JSON files from the DL (which is configured to use S3) quickly could become a bottleneck..
+12:19 <@rotty3000:#liferay> aj_: ;)
