@@ -71,3 +71,4 @@
 09:23 < hufg:#liferay> in 6.1GA2 they do not
 09:24 < hufg:#liferay> just add an image and see the url
 09:24 < hufg:#liferay> it may be stored in the document library but not accessed from the document library though
+09:26 < hufg:#liferay> didn't investigate more jsut checked that the access url is different
