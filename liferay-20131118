@@ -29,3 +29,6 @@
 08:07 < hufg:#liferay> im just saying if you can share them with get param no need for more complex stuff
 08:07 < hufg:#liferay> and this includes no lists etc and not too many characters and stuff like that
 08:07 < jardineworks:#liferay> well, here is what I have :)
+08:08 < jardineworks:#liferay> Page A - Search portlet. Page B TWO portlets, a Details portlet and a Nearby portlet
+08:08 < jardineworks:#liferay> so right no in my action phase I get the layout and redirect the user to the nearby portlet iwth the 3 render parameters.
+08:08 < jardineworks:#liferay> that works
