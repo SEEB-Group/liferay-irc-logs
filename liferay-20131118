@@ -88,3 +88,5 @@
 10:10 <@rotty3000:#liferay> so, you need to declare the prp in every portlet
 10:10 <@rotty3000:#liferay> and the namespace has to be identical for all
 10:10 <@rotty3000:#liferay> I mean the URI namespace in the definition in portlet.xml
+10:11 < aj_:#liferay> right... so I have one portlet.xml file... and I have just before the closing portlet-app tag the definition. Then for each portlet I have the supported-... blah blah blah ... where the ids between the two match
+10:11 < aj_:#liferay> let me pastebin for you
