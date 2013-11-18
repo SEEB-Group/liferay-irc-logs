@@ -114,3 +114,5 @@
 11:05 <@rotty3000:#liferay> then redirect to url.toString() after having set the prp on it
 11:05 < aj_:#liferay> rotty3000, ok,, I have that in the process action... and then I tried to do actionResponse.sendRedirect( url.toString() ); and that is when I got the erorr
 11:05 < aj_:#liferay> let me try it again in case I am mixing stuff up
+11:11 < aj_:#liferay> rotty3000, so when I try that I get this everytime -- java.lang.IllegalStateException: Set render parameter has already been called
+11:11 <@rotty3000:#liferay> is your snippet up to date?
