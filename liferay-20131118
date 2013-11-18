@@ -52,3 +52,7 @@
 08:23 < hufg:#liferay> yes
 08:24 < jardineworks:#liferay> can you just use the ParamUtil.getString to pull it back?
 08:24 < hufg:#liferay> _500_storeId=123&_500_lat=123.1234.34&_500_long=23.324
+08:25 < hufg:#liferay> i do not know but it would be strange not to get access to them?
+08:25 < hufg:#liferay> by prefix i mean just clearly group the params
+08:25 < jardineworks:#liferay> I suppose ultimately you could get the underlying httprequest and pull out the query string
+08:25 < jardineworks:#liferay> argh... where is a liferay employe when you need one! :)
