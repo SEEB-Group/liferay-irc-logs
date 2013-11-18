@@ -157,3 +157,5 @@
 13:29 < aj_:#liferay> hey guys
 13:30 < aj_:#liferay> has anyone had a problem moving a theme that was originally deployed on a 1.6 jdk version of the portal/plugin to  a version of the portal that runs on 1.7?
 15:05 < aj_:#liferay> rotty3000, will the public render parameter stuff work if I use friendly urls and a user bookmarks it?
+15:06 <@rotty3000:#liferay> yeah, it should
+15:06 < aj_:#liferay> rotty3000, sweet.... I haven't looked at the friendly url stuff. Scale of 1 - 10 (10 being painful) how hard to get it going quickly?
