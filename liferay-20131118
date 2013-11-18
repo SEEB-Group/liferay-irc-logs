@@ -78,3 +78,4 @@
 10:06 < aj_:#liferay> hey rotty3000 -- can I bug you about public render parameters for a minute?
 10:07 <@rotty3000:#liferay> hey, I can try to answer
 10:07 < aj_:#liferay> k thanks... here is what I have
+10:08 < aj_:#liferay> Layout A with Portlet A. This is a search that also shows the users the results. The user can select one of the results to go to a new layout -- a Details Layout. The Details layout has two portlets on it. The first is the details information .. the second are nearby locations (this is a store search)
