@@ -148,3 +148,4 @@
 06:37 < topolik:#liferay> this is clearly not a css file
 06:37 < topolik:#liferay> but SASS or something like this
 06:38 < topolik:#liferay> so it seems the file cannot be used as-is
+06:38 < topolik:#liferay> but requires pre-processing
