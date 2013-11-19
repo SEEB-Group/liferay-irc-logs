@@ -300,3 +300,4 @@
 11:43 < topolik:#liferay> https://github.com/topolik/FSRepo/blob/master/fsrepo/pom.xml#L11
 12:50 < pnutbutr_:#liferay> anyone here familiar with liferay REST services?
 12:50 < pnutbutr_:#liferay> In particular, if I turned them off, would that break things in Liferay?
+13:08 < topolik:#liferay> pnutbutr_: yes, it can break some functionalities
