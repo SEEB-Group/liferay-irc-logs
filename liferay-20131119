@@ -103,3 +103,4 @@
 06:12 < Tar-Minyatur:#liferay> Oh. On the file system. Mom.
 06:13 < Tar-Minyatur:#liferay> Doesn't look like it's in there.
 06:13 < Tar-Minyatur:#liferay> So the merging is done at build time?
+06:14 < Tar-Minyatur:#liferay> In my theme soucecode I see only import statements in main.css. In the theme deployed on the server the main.css is huge and contains no more import statements.
