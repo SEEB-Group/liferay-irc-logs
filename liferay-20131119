@@ -229,3 +229,5 @@
 08:58 < aj_:#liferay> when I output the value (in the log) of myVar ... I see $myVar. So I suspect that it is not actually assigning the variable
 08:59 < hufg:#liferay> the method is isNotNull
 09:00 < hufg:#liferay> --> false --> is null? 8)
+09:01 < aj_:#liferay> hufg, isNull evaluates to true... but it shouldn't is the point I am making :)
+09:01 < aj_:#liferay> because the object is thre.
