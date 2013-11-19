@@ -214,3 +214,5 @@
 08:32 < topolik:#liferay> create a custom action that overrides themeDisplay for control panel, and specify it in servlet.service.events.pre
 08:32 < topolik:#liferay> *override=overwrite
 08:35 < topolik:#liferay> do you know what I mean?
+08:50 < aj_:#liferay> anyon in here know how to check for a null value in velocity?
+08:50 < aj_:#liferay> none of the tricks I have found online seem to work.
