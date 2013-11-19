@@ -20,3 +20,4 @@
 04:55 < hufg:#liferay> no idea
 04:55 < Tar-Minyatur:#liferay> The file is correctly deployed...I can access it directly and see the change. But apparently the process behind this main.css stuff didn't recognize this change.
 04:55 < Tar-Minyatur:#liferay> I thought it should be deactivated when I shut off all this caching stuff. -.-
+05:07 < Tar-Minyatur:#liferay> Sometimes I think it would be cheaper to give all content editors HTML training and work with static pages only...
