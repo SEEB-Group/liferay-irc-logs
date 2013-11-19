@@ -33,3 +33,5 @@
 05:37 < topolik:#liferay> it should be something like http://portal/xxx-portlet/main.css?browserId=...&themeId=...t=...
 05:38 < topolik:#liferay> can you display that file in your browser and try force refresh? i.e. CTRL+F5?
 05:45 < Tar-Minyatur:#liferay> When I access the main.css?browser... directly, I get a bunch of import statements.
+05:46 < topolik:#liferay> and what you get without the query string, the same?
+05:47 < Tar-Minyatur:#liferay> The same but with some empty lines between the imports.
