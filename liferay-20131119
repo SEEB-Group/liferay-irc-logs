@@ -216,3 +216,4 @@
 08:35 < topolik:#liferay> do you know what I mean?
 08:50 < aj_:#liferay> anyon in here know how to check for a null value in velocity?
 08:50 < aj_:#liferay> none of the tricks I have found online seem to work.
+08:51 < aj_:#liferay> maybe the $validator...
