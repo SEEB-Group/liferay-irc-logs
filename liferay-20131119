@@ -79,3 +79,6 @@
 06:01 < Tar-Minyatur:#liferay> ./main/webapp/css/main.css:33:@import url(override.css);
 06:01 < topolik:#liferay> it's also possible that it's referenced directly from theme velocity templates like portal_normal.vm or so
 06:01 < topolik:#liferay> ok
+06:02 < Tar-Minyatur:#liferay> When I go to /mytheme/css/main.css I can't find it in there.
+06:02 < topolik:#liferay> is it deployed?
+06:02 < Tar-Minyatur:#liferay> Yes. I merely added one directive to the override.css and wanted it to be hotdeployed.
