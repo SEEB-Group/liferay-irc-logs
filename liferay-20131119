@@ -113,3 +113,7 @@
 06:21 < topolik:#liferay> it merges them but put the merged result into temp folder
 06:23 < Tar-Minyatur:#liferay> Okay. So I have to track down the guy how built out Maven project...
 06:23 < Tar-Minyatur:#liferay> Thanks!
+06:24 < Tar-Minyatur:#liferay> I have another issue, if you can spare some more time. Our dev system reports a 404 on /html//html/themes/control_panel/css/compass
+06:24 < Tar-Minyatur:#liferay> Uh. Sorry. /html/themes/control_panel/css/compass
+06:24 < Tar-Minyatur:#liferay> And I vaguely recall that compass is some CSS magic util.
+06:24 < Tar-Minyatur:#liferay> So it's probably wrong that the portal tries to retrieve this from the CDN, right?
