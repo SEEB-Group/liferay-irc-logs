@@ -5,3 +5,4 @@
 04:41 < Tar-Minyatur:#liferay> Our theme loads 40 JS files on every page.
 04:41 < Tar-Minyatur:#liferay> Tell me about massive.
 04:42 < Tar-Minyatur:#liferay> They were to dumb to do it properly and now there is all JS code embedded in the theme...and the different JS files use indexOf('some-url-snippet') to check if they should be run on the current page. So sad.
+04:47 < hufg:#liferay> Tar-Minyatur: hehe
