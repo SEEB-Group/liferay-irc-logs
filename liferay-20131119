@@ -44,3 +44,6 @@
 05:49 < Tar-Minyatur:#liferay> I can't find my change in the latter.
 05:49 < Tar-Minyatur:#liferay> But if I directly call the CSS file from the theem folder, the change is there.
 05:50 < topolik:#liferay> hmm
+05:51 < topolik:#liferay> which css file is it?
+05:51 < topolik:#liferay> the one imported?
+05:51 < topolik:#liferay> from main.css?
