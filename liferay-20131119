@@ -218,3 +218,5 @@
 08:50 < aj_:#liferay> none of the tricks I have found online seem to work.
 08:51 < aj_:#liferay> maybe the $validator...
 08:52 < hufg:#liferay> "$!var" == ""
+08:53 < hufg:#liferay> if true then empty or null
+08:53 < hufg:#liferay> would be hilarious if someone had overridden toString to empty
