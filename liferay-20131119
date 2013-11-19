@@ -284,3 +284,5 @@
 09:20 < aj_:#liferay> because it's not there :)
 09:21 < aj_:#liferay> soooooooooo the bull makes sense
 09:25 < aj_:#liferay> \o/
+09:46 < hufg:#liferay> hmm any ideas how to remove version numbers from layout deployments
+09:46 < hufg:#liferay> now they are deployed with layout-1.0.0 etc
