@@ -207,3 +207,5 @@
 08:08 < topolik:#liferay> and you save network latency/traffic/etc.
 08:08 < Tar-Minyatur:#liferay> I only put the CDN hostname into the config. Liferay decided to retrieve all JS and CSS from there for the control panel.
 08:10 < topolik:#liferay> I see
+08:11 < topolik:#liferay> Control panel don't need to be on CDN because it's not so frequently used
+08:11 < Tar-Minyatur:#liferay> Searching the forums reveals that a lot of people seem to have encountered that problem.
