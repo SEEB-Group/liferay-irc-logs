@@ -135,3 +135,9 @@
 06:34 < Tar-Minyatur:#liferay> Because the entire CP looks broken.
 06:34 < topolik:#liferay> does your CDN run the portat
 06:34 < topolik:#liferay> portal
+06:35 < Tar-Minyatur:#liferay> No. As I said...it's only an S3 bucket.
+06:35 < topolik:#liferay> aah, got it
+06:35 < topolik:#liferay> so there are only the CSS files
+06:35 < Tar-Minyatur:#liferay> We actually have the entire theme deployed there.
+06:35 < Tar-Minyatur:#liferay> I think they just extracted the theme war file there...
+06:35 < topolik:#liferay> got it
