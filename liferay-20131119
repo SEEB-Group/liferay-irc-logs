@@ -89,3 +89,8 @@
 06:08 < topolik:#liferay> there is sort of caching
 06:08 < Tar-Minyatur:#liferay> I'm fairly sure I deactivated the caching for everything I could find.
 06:08 < topolik:#liferay> ok
+06:09 < topolik:#liferay> what does this mean "/mytheme/css/main.css"?
+06:09 < topolik:#liferay> that the import statement is deployed on server?
+06:09 < topolik:#liferay> I meant: "When I go to /mytheme/css/main.css I can't find it in there."
+06:09 < Tar-Minyatur:#liferay> The VM template of the theme seems to link to that file.
+06:10 < Tar-Minyatur:#liferay> I found that in the sourcecode of the portal as it is delivered by Liferay.
