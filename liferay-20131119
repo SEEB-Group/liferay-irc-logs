@@ -187,3 +187,5 @@
 07:11 < topolik:#liferay> good luck! :)
 07:47 < hufg:#liferay> ach there is a horrible bug in 6.1GA2 with themedisplay getPathThemeImages
 07:50 < Tar-Minyatur:#liferay> topolik: About that compass stuff again...on my local Tomcat I have the unmodified CSS file deployed for the control panel theme.
+07:51 < Tar-Minyatur:#liferay> This seems to work.
+07:51 < Tar-Minyatur:#liferay> But pushing the same to the CDN doesn't seem to work properly. I'm confused.
