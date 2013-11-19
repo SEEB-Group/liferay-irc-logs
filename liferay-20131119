@@ -14,3 +14,5 @@
 04:50 < Tar-Minyatur:#liferay> Mhm. One of my frontend devs is complaining that CSS hotdeployment doesn't work.
 04:51 < Tar-Minyatur:#liferay> Is there an easy way to check if he disabled the CSS fast load stuff correctly?
 04:52 < hufg:#liferay> mm just see portal-ext.props
+04:52 < Tar-Minyatur:#liferay> I think he added -Dexternal-properties=portal-developer.properties to his Tomcat run configuration.
+04:52 < Tar-Minyatur:#liferay> This should pretty much disable all caching, shouldn't it?
