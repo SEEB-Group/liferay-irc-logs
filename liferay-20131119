@@ -169,3 +169,4 @@
 07:04 < daqSam:#liferay> is it? how is it dealt with in 6.2?
 07:04 < topolik:#liferay> per-site settings
 07:04 < topolik:#liferay> https://github.com/topolik/liferay-portal/commit/88707c9b0bf8c91a20de457fde8074a75f4bf936
+07:05 < topolik:#liferay> it's this feature: https://issues.liferay.com/browse/LPS-37886
