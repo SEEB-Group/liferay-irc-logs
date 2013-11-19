@@ -82,3 +82,4 @@
 06:02 < Tar-Minyatur:#liferay> When I go to /mytheme/css/main.css I can't find it in there.
 06:02 < topolik:#liferay> is it deployed?
 06:02 < Tar-Minyatur:#liferay> Yes. I merely added one directive to the override.css and wanted it to be hotdeployed.
+06:03 < Tar-Minyatur:#liferay> When I directly access the override.css I can see the new directive.
