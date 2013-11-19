@@ -226,3 +226,4 @@
 08:57 < aj_:#liferay> I am doing  #set (myVar = $request.getSession().getAttribute("xxx"))
 08:57 < aj_:#liferay> .. it evaluates to false with the $valdiator.isNotNull
 08:57 < aj_:#liferay> BUT
+08:58 < aj_:#liferay> when I output the value (in the log) of myVar ... I see $myVar. So I suspect that it is not actually assigning the variable
