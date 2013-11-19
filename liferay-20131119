@@ -156,3 +156,6 @@
 06:50 < daqSam:#liferay> LR 6.1.2
 07:00 < topolik:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/com/liferay/portlet/layoutsadmin/util/SitemapImpl.java#L251
 07:00 < topolik:#liferay> so it prints the sitemap using all available locales
+07:02 < daqSam:#liferay> @topolik: Liferay Portal Enterprise Edition 6.1.20 EE (Paton / Build 6120 / July 31, 2012)
+07:02 < topolik:#liferay> ah
+07:02 < topolik:#liferay> ok
