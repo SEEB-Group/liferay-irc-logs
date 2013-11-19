@@ -294,3 +294,5 @@
 11:24 < hufg:#liferay> my main man how do i strip layout version number on deployment, works if the artifact name has "-portlet" or "-theme"
 11:24 < hufg:#liferay> i want this exact same functionality for layout
 11:24 < hufg:#liferay> no maven build finalname
+11:25 < hufg:#liferay> my-layout-1.0.0-SNAPSHOT.war ---> my-layout-1.0.0-SNAPSHOT, my-layout-portlet-1.0.0-SNAPSHOT.war --> my-layout
+11:25 < hufg:#liferay> my-layout-portlet
