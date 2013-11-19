@@ -237,3 +237,11 @@
 09:02 < aj_:#liferay> usually when you see the var name that is because the assignment failed ... at least that is what I understand
 09:02 < hufg:#liferay> it may be null
 09:02 < aj_:#liferay> ah
+09:03 < aj_:#liferay> well... it also should not be null lol
+09:03 < hufg:#liferay> getAttribute almost certainly gives you null with invalid attribute name or unset attribute name
+09:03 < aj_:#liferay> right
+09:03 < aj_:#liferay> I wish I could inspect my sessoin object here to see for sure
+09:03 < hufg:#liferay> $!myVar is "" with null or unassigned velocity var
+09:03 < hufg:#liferay> actually i think unassigned velocity var == null
+09:03 < hufg:#liferay> yes yes
+09:03 < hufg:#liferay> it's like that
