@@ -52,3 +52,12 @@
 05:54 < Tar-Minyatur:#liferay> I can't find that anywhere in the page, so I guess it's included somewhere.
 05:54 < topolik:#liferay> yeah
 05:54 < topolik:#liferay> it should be included from main.css
+05:55 < topolik:#liferay> probably you know that themes CSS should be overridden using custom.css file
+05:55 < topolik:#liferay> themes work on inheritance
+05:55 < Tar-Minyatur:#liferay> Our theme is not built from a Liferay theme. :-(
+05:55 < topolik:#liferay> oh
+05:55 < Tar-Minyatur:#liferay> I have no clue how built this mess like this.
+05:55 < topolik:#liferay> you didn't use Plugins SDK?
+05:55 < Tar-Minyatur:#liferay> They took a ready HTML layout and "Liferayified" it.
+05:55 < topolik:#liferay> aaah
+05:56 < topolik:#liferay> uhm
