@@ -61,3 +61,8 @@
 05:55 < Tar-Minyatur:#liferay> They took a ready HTML layout and "Liferayified" it.
 05:55 < topolik:#liferay> aaah
 05:56 < topolik:#liferay> uhm
+05:56 < Tar-Minyatur:#liferay> We don't use plugins SDK. All our plugins are Maven projects.
+05:56 < topolik:#liferay> n/p, there is also maven plugins sdk
+05:56 < topolik:#liferay> but I'm not sure if you use it
+05:56 < topolik:#liferay> ok, so
+05:56 < topolik:#liferay> question
