@@ -172,3 +172,6 @@
 07:05 < topolik:#liferay> it's this feature: https://issues.liferay.com/browse/LPS-37886
 07:06 < daqSam:#liferay> i see... cool
 07:06 < daqSam:#liferay> thanks for the info
+07:07 < daqSam:#liferay> do u know of any workaround this for 6.1.2? Like some sort of hook or something?
+07:07 < topolik:#liferay> hmm, yes
+07:07 < topolik:#liferay> you can write a servlet filter in the hook
