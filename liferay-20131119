@@ -206,3 +206,4 @@
 08:08 < topolik:#liferay> so that the servers are geographically nearer to your users
 08:08 < topolik:#liferay> and you save network latency/traffic/etc.
 08:08 < Tar-Minyatur:#liferay> I only put the CDN hostname into the config. Liferay decided to retrieve all JS and CSS from there for the control panel.
+08:10 < topolik:#liferay> I see
