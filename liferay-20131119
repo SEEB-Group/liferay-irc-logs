@@ -203,3 +203,6 @@
 08:07 < Tar-Minyatur:#liferay> It just seems weird to me that Liferay tries to fetch all JS and CSS from the CDN.
 08:07 < topolik:#liferay> and then authenticated content
 08:07 < topolik:#liferay> well, "static content" should be served from CDN
+08:08 < topolik:#liferay> so that the servers are geographically nearer to your users
+08:08 < topolik:#liferay> and you save network latency/traffic/etc.
+08:08 < Tar-Minyatur:#liferay> I only put the CDN hostname into the config. Liferay decided to retrieve all JS and CSS from there for the control panel.
