@@ -200,3 +200,6 @@
 08:06 < topolik:#liferay> well, I don't know, I never did that :)
 08:06 < topolik:#liferay> I'd use something like curl to crawl the web site CSS files
 08:06 < topolik:#liferay> first for not authenticated users
+08:07 < Tar-Minyatur:#liferay> It just seems weird to me that Liferay tries to fetch all JS and CSS from the CDN.
+08:07 < topolik:#liferay> and then authenticated content
+08:07 < topolik:#liferay> well, "static content" should be served from CDN
