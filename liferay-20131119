@@ -159,3 +159,10 @@
 07:02 < daqSam:#liferay> @topolik: Liferay Portal Enterprise Edition 6.1.20 EE (Paton / Build 6120 / July 31, 2012)
 07:02 < topolik:#liferay> ah
 07:02 < topolik:#liferay> ok
+07:03 < daqSam:#liferay> The problem with this for us is that our portal is multilingual
+07:03 < daqSam:#liferay> but one specific site isn't
+07:03 < topolik:#liferay> uhm
+07:03 < daqSam:#liferay> and the localized sitemap is affection SEO
+07:03 < topolik:#liferay> I understand
+07:03 < daqSam:#liferay> *affecting even
+07:03 < topolik:#liferay> this is implemented in 6.2
