@@ -117,3 +117,5 @@
 06:24 < Tar-Minyatur:#liferay> Uh. Sorry. /html/themes/control_panel/css/compass
 06:24 < Tar-Minyatur:#liferay> And I vaguely recall that compass is some CSS magic util.
 06:24 < Tar-Minyatur:#liferay> So it's probably wrong that the portal tries to retrieve this from the CDN, right?
+06:32 < topolik:#liferay> uhm
+06:32 < topolik:#liferay> I don't understand it
