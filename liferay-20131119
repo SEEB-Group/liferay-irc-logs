@@ -16,3 +16,7 @@
 04:52 < hufg:#liferay> mm just see portal-ext.props
 04:52 < Tar-Minyatur:#liferay> I think he added -Dexternal-properties=portal-developer.properties to his Tomcat run configuration.
 04:52 < Tar-Minyatur:#liferay> This should pretty much disable all caching, shouldn't it?
+04:55 < hufg:#liferay> mm
+04:55 < hufg:#liferay> no idea
+04:55 < Tar-Minyatur:#liferay> The file is correctly deployed...I can access it directly and see the change. But apparently the process behind this main.css stuff didn't recognize this change.
+04:55 < Tar-Minyatur:#liferay> I thought it should be deactivated when I shut off all this caching stuff. -.-
