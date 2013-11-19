@@ -266,3 +266,4 @@
 09:08 < aj_:#liferay> I suppose I could get the list of attributes from the session and loop over them to ouput them.. but I was hoping to avoid that mjuch work hahah
 09:08 < hufg:#liferay> you may have a problem sharing the session with theme ?
 09:08 < hufg:#liferay> yeah
+09:10 -!- mode/#liferay [+o jhf] by ChanServ
