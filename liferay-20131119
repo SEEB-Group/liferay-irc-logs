@@ -119,3 +119,11 @@
 06:24 < Tar-Minyatur:#liferay> So it's probably wrong that the portal tries to retrieve this from the CDN, right?
 06:32 < topolik:#liferay> uhm
 06:32 < topolik:#liferay> I don't understand it
+06:33 < topolik:#liferay> I can't find comass directory there
+06:33 < topolik:#liferay> *compass
+06:33 < Tar-Minyatur:#liferay> Okay. More context: We are using a CDN (S3 bucket).
+06:33 < topolik:#liferay> uhm, I see - https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-web/docroot/html/themes/control_panel/_diffs/css/custom.css
+06:33 < Tar-Minyatur:#liferay> Liferay is configured to use this CDN.
+06:33 < topolik:#liferay> first line
+06:33 < topolik:#liferay> there is @import "compass";
+06:33 < Tar-Minyatur:#liferay> Yeah.
