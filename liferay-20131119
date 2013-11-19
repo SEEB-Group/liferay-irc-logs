@@ -220,3 +220,4 @@
 08:52 < hufg:#liferay> "$!var" == ""
 08:53 < hufg:#liferay> if true then empty or null
 08:53 < hufg:#liferay> would be hilarious if someone had overridden toString to empty
+08:56 < aj_:#liferay> haha
