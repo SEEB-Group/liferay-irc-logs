@@ -66,3 +66,5 @@
 05:56 < topolik:#liferay> but I'm not sure if you use it
 05:56 < topolik:#liferay> ok, so
 05:56 < topolik:#liferay> question
+05:57 < topolik:#liferay> is override.css  referenced from main.css using the import statement?
+05:57 < Tar-Minyatur:#liferay> Not in one of the two main.css references I found in the page.
