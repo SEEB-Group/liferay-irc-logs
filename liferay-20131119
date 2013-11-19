@@ -85,3 +85,7 @@
 06:03 < Tar-Minyatur:#liferay> When I directly access the override.css I can see the new directive.
 06:07 < Tar-Minyatur:#liferay> Looks to me like there is some kind of assembly task done that merges the CSS files?
 06:07 < Tar-Minyatur:#liferay> And this isn't triggered again when I only hotdeploy a single CSS file?
+06:08 < topolik:#liferay> depends
+06:08 < topolik:#liferay> there is sort of caching
+06:08 < Tar-Minyatur:#liferay> I'm fairly sure I deactivated the caching for everything I could find.
+06:08 < topolik:#liferay> ok
