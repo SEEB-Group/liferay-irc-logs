@@ -194,3 +194,5 @@
 08:02 < Tar-Minyatur:#liferay> The import "compass"; is removed when I retrieve the custom.css via HTTP.
 08:03 < Tar-Minyatur:#liferay> But this would mean that I can't deliver the CSS via the CDN.
 08:03 < Tar-Minyatur:#liferay> If that is the case, why does Liferay use the CDN host for CSS files then? Oo
+08:04 < topolik:#liferay> if you don't have portal running on your CDN you need to deliver already processed CSS files there
+08:04 < Tar-Minyatur:#liferay> I'm sure that I'm missing something here...
