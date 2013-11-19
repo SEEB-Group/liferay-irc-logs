@@ -152,3 +152,4 @@
 06:39 < daqSam:#liferay> Hello fellas! Does anyone here know how to inhibit sitemap.xml from having localization entries (http://mysite.url/page/pt, http://mysite.url/page/uk) when my site is English only? Tks
 06:40 < Tar-Minyatur:#liferay> topolik: Okay. So I have to review which files have been deployed and probably change the process. Thanks.
 06:41 < topolik:#liferay> Tar-Minyatur: y/w
+06:42 < topolik:#liferay> daqSam: which portal version do you use?
