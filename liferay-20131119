@@ -177,3 +177,5 @@
 07:07 < topolik:#liferay> you can write a servlet filter in the hook
 07:08 < topolik:#liferay> that would remove all the unnecessary entries from XML
 07:08 < daqSam:#liferay> I see... and that could be made site specific instead of portal wide? (sorry, not much exp in that area)
+07:09 < topolik:#liferay> sure
+07:09 < topolik:#liferay> you know what to remove and what to left there
