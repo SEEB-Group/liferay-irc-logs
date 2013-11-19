@@ -270,3 +270,6 @@
 09:11 < aj_:#liferay> hufg, I am pushing the details into the rquest (portal) session .. I thought that woul dbe enough to be honest.
 09:12 < hufg:#liferay> mm yeah
 09:14 < aj_:#liferay> awesome. Session attributes are an enumeration and velocity doesn't have a while loop. super.
+09:15 < hufg:#liferay> mm?
+09:15 < hufg:#liferay> 8)
+09:15 < hufg:#liferay> dont take it so hard just loop for ever and break i recall velocity having break
