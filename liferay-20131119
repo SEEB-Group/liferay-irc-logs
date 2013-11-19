@@ -210,3 +210,4 @@
 08:11 < topolik:#liferay> Control panel don't need to be on CDN because it's not so frequently used
 08:11 < Tar-Minyatur:#liferay> Searching the forums reveals that a lot of people seem to have encountered that problem.
 08:12 < Tar-Minyatur:#liferay> Maybe...but I can't deactivate the CDN for the CP.
+08:28 < topolik:#liferay> hmm, you could do it probably using Hook
