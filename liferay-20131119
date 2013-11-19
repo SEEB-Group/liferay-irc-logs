@@ -99,3 +99,5 @@
 06:10 < topolik:#liferay> the theme/css/main.css file on the server
 06:11 < topolik:#liferay> does it contain the @import url(override.css); ?
 06:11 < topolik:#liferay> here I mean the file on file system, not what you get by HTTP request
+06:12 < Tar-Minyatur:#liferay> No. It looks like the override.css has been merged into the main.css
+06:12 < Tar-Minyatur:#liferay> Oh. On the file system. Mom.
