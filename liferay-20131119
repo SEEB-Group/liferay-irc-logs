@@ -48,3 +48,7 @@
 05:51 < topolik:#liferay> the one imported?
 05:51 < topolik:#liferay> from main.css?
 05:53 < Tar-Minyatur:#liferay> I have no clue how main.css works.
+05:54 < Tar-Minyatur:#liferay> We have an override.css in our theme.
+05:54 < Tar-Minyatur:#liferay> I can't find that anywhere in the page, so I guess it's included somewhere.
+05:54 < topolik:#liferay> yeah
+05:54 < topolik:#liferay> it should be included from main.css
