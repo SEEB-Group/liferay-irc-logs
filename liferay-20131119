@@ -27,3 +27,6 @@
 05:32 < topolik:#liferay> Tar-Minyatur: Hi, well, CSS basics :)
 05:32 < topolik:#liferay> how can I help?
 05:33 < topolik:#liferay> I see, the previous conversation, right?
+05:36 < topolik:#liferay> so when you directly hit the http://portal/xxx-portlet/css/main.css the changes are there, right?
+05:36 < topolik:#liferay> but they are not visible on the page
+05:36 < topolik:#liferay> can you verify how is the CSS file linked from the page?
