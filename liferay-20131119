@@ -288,3 +288,9 @@
 09:46 < hufg:#liferay> now they are deployed with layout-1.0.0 etc
 10:53 < hufg:#liferay> maan i don't want to use maven finalName on build time
 10:53 < hufg:#liferay> if i add "portlet" or "theme" string to the layout artifact the version number is stripped
+11:24 < hufg:#liferay> is there perhaps a correct naming convention for layouts? :D
+11:24 < hufg:#liferay> topolik: !
+11:24 < topolik:#liferay> hufg: !
+11:24 < hufg:#liferay> my main man how do i strip layout version number on deployment, works if the artifact name has "-portlet" or "-theme"
+11:24 < hufg:#liferay> i want this exact same functionality for layout
+11:24 < hufg:#liferay> no maven build finalname
