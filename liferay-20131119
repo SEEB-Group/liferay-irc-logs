@@ -41,3 +41,5 @@
 05:47 < Tar-Minyatur:#liferay> The second is from the Theme.
 05:48 < topolik:#liferay> ah, right, one is portal default styles
 05:48 < Tar-Minyatur:#liferay> http://liferay.local/my-theme/css/main.css?browser...
+05:49 < Tar-Minyatur:#liferay> I can't find my change in the latter.
+05:49 < Tar-Minyatur:#liferay> But if I directly call the CSS file from the theem folder, the change is there.
