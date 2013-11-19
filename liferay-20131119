@@ -249,3 +249,5 @@
 09:04 < hufg:#liferay> now i remember
 09:04 < hufg:#liferay> because once the variable has been set in the context it cannot be removed (setting null)
 09:04 < hufg:#liferay> so it will be preserved
+09:05 < aj_:#liferay> hufg, but the value can change between page refereshes right?
+09:05 < hufg:#liferay> yes
