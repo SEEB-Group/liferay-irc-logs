@@ -251,3 +251,7 @@
 09:04 < hufg:#liferay> so it will be preserved
 09:05 < aj_:#liferay> hufg, but the value can change between page refereshes right?
 09:05 < hufg:#liferay> yes
+09:06 < aj_:#liferay> so essentially I am trying to hide/show an icon based on whether or not a user has a cart
+09:06 < hufg:#liferay> in theme or article template?
+09:06 < aj_:#liferay> so I am trying to grab the users order from the session and if there is on present, then I show the icon, otherwise hide it
+09:06 < aj_:#liferay> theme
