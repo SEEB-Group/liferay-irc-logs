@@ -24,3 +24,5 @@
 05:26 < Tar-Minyatur:#liferay> Mhm. I get a 404 for /html/themes/control_panel/css/compass, because it tries to retrieve that from our CDN.
 05:27 < Tar-Minyatur:#liferay> I would assume that this is some kind of CSS magic that does some optimization or something...and this definitely shouldn't be retrieved from the CDN...
 05:31 < Tar-Minyatur:#liferay> topolik: Hi there. I remember reading some CSS related things in your blog. Do you know your way around Liferay's CSS stuff?
+05:32 < topolik:#liferay> Tar-Minyatur: Hi, well, CSS basics :)
+05:32 < topolik:#liferay> how can I help?
