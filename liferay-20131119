@@ -276,3 +276,9 @@
 09:16 < hufg:#liferay> some doc is saying enumeration works with foreach
 09:18 < hufg:#liferay> rotty3000: why is not document library caching enabled in ehcache configuration by default?
 09:19 < hufg:#liferay> does it even matter?
+09:20 < aj_:#liferay> hufg, I think I figured it out
+09:20 < aj_:#liferay> to make the order available in the portal session you need to use one of the prefixes... for example, LIFERAY_SHARED_[myvar]
+09:20 < aj_:#liferay> I forgot about that
+09:20 < aj_:#liferay> then it can be shared across the portlets etc
+09:20 < hufg:#liferay> 8)
+09:20 < aj_:#liferay> because it's not there :)
