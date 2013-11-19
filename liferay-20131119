@@ -245,3 +245,7 @@
 09:03 < hufg:#liferay> actually i think unassigned velocity var == null
 09:03 < hufg:#liferay> yes yes
 09:03 < hufg:#liferay> it's like that
+09:04 < hufg:#liferay> this is why set a=1, set a=null --> a=1
+09:04 < hufg:#liferay> now i remember
+09:04 < hufg:#liferay> because once the variable has been set in the context it cannot be removed (setting null)
+09:04 < hufg:#liferay> so it will be preserved
