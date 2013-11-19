@@ -259,3 +259,10 @@
 09:07 < hufg:#liferay> $request
 09:07 < aj_:#liferay> $request is an object, $session is an object. but $session.getAttribute("xxx") is coming back null, BUT, it shouldn't when the user has a cart. For example, I am in the middle of the order process so it should be showing.
 09:07 < hufg:#liferay> or session object
+09:08 < aj_:#liferay> printing both gives me the tostring --
+09:08 < aj_:#liferay>  com.liferay.portal.kernel.servlet.ProtectedServletRequest@37b85be0
+09:08 < aj_:#liferay> same deal for the session
+09:08 < hufg:#liferay> ah ok
+09:08 < aj_:#liferay> I suppose I could get the list of attributes from the session and loop over them to ouput them.. but I was hoping to avoid that mjuch work hahah
+09:08 < hufg:#liferay> you may have a problem sharing the session with theme ?
+09:08 < hufg:#liferay> yeah
