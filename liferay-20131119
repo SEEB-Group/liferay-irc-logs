@@ -297,3 +297,4 @@
 11:25 < hufg:#liferay> my-layout-1.0.0-SNAPSHOT.war ---> my-layout-1.0.0-SNAPSHOT, my-layout-portlet-1.0.0-SNAPSHOT.war --> my-layout
 11:25 < hufg:#liferay> my-layout-portlet
 11:42 < topolik:#liferay> hufg: you have to change your war file name
+11:43 < topolik:#liferay> https://github.com/topolik/FSRepo/blob/master/fsrepo/pom.xml#L11
