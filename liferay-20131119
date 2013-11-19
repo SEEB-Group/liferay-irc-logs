@@ -213,3 +213,4 @@
 08:28 < topolik:#liferay> hmm, you could do it probably using Hook
 08:32 < topolik:#liferay> create a custom action that overrides themeDisplay for control panel, and specify it in servlet.service.events.pre
 08:32 < topolik:#liferay> *override=overwrite
+08:35 < topolik:#liferay> do you know what I mean?
