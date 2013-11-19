@@ -255,3 +255,7 @@
 09:06 < hufg:#liferay> in theme or article template?
 09:06 < aj_:#liferay> so I am trying to grab the users order from the session and if there is on present, then I show the icon, otherwise hide it
 09:06 < aj_:#liferay> theme
+09:07 < hufg:#liferay> jsut print the $request var and see whats there
+09:07 < hufg:#liferay> $request
+09:07 < aj_:#liferay> $request is an object, $session is an object. but $session.getAttribute("xxx") is coming back null, BUT, it shouldn't when the user has a cart. For example, I am in the middle of the order process so it should be showing.
+09:07 < hufg:#liferay> or session object
