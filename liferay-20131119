@@ -31,3 +31,4 @@
 05:36 < topolik:#liferay> but they are not visible on the page
 05:36 < topolik:#liferay> can you verify how is the CSS file linked from the page?
 05:37 < topolik:#liferay> it should be something like http://portal/xxx-portlet/main.css?browserId=...&themeId=...t=...
+05:38 < topolik:#liferay> can you display that file in your browser and try force refresh? i.e. CTRL+F5?
