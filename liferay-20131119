@@ -70,3 +70,4 @@
 05:57 < Tar-Minyatur:#liferay> Not in one of the two main.css references I found in the page.
 05:58 < Tar-Minyatur:#liferay> I couldn't find any mention of override.css in either of them.
 05:58 < topolik:#liferay> it should be in the http://liferay.local/my-theme/css/main.css file
+05:59 < topolik:#liferay> I'm afraid that if it's not referenced then it cannot be loaded
