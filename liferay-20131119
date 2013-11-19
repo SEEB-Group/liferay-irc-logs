@@ -150,3 +150,4 @@
 06:38 < topolik:#liferay> so it seems the file cannot be used as-is
 06:38 < topolik:#liferay> but requires pre-processing
 06:39 < daqSam:#liferay> Hello fellas! Does anyone here know how to inhibit sitemap.xml from having localization entries (http://mysite.url/page/pt, http://mysite.url/page/uk) when my site is English only? Tks
+06:40 < Tar-Minyatur:#liferay> topolik: Okay. So I have to review which files have been deployed and probably change the process. Thanks.
