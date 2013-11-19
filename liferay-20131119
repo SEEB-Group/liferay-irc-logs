@@ -190,3 +190,5 @@
 07:51 < Tar-Minyatur:#liferay> This seems to work.
 07:51 < Tar-Minyatur:#liferay> But pushing the same to the CDN doesn't seem to work properly. I'm confused.
 07:57 < topolik:#liferay> Tar-Minyatur: what is returned using HTTP request is the same compared to what is deployed?
+08:02 < Tar-Minyatur:#liferay> Yeah. Looks like Liferay somehow processes the files.
+08:02 < Tar-Minyatur:#liferay> The import "compass"; is removed when I retrieve the custom.css via HTTP.
