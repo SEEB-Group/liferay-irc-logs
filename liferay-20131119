@@ -9,3 +9,5 @@
 04:48 < hufg:#liferay> Tar-Minyatur: we use requirejs for that
 04:48 < hufg:#liferay> a few problems still exists but it's the right choice
 04:48 < Tar-Minyatur:#liferay> The problem is that refactoring this mess will be very difficult and time-consuming.
+04:49 < hufg:#liferay> 8)
+04:49 < hufg:#liferay> yeah it would have some work load
