@@ -228,3 +228,4 @@
 08:57 < aj_:#liferay> BUT
 08:58 < aj_:#liferay> when I output the value (in the log) of myVar ... I see $myVar. So I suspect that it is not actually assigning the variable
 08:59 < hufg:#liferay> the method is isNotNull
+09:00 < hufg:#liferay> --> false --> is null? 8)
