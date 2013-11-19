@@ -35,3 +35,7 @@
 05:45 < Tar-Minyatur:#liferay> When I access the main.css?browser... directly, I get a bunch of import statements.
 05:46 < topolik:#liferay> and what you get without the query string, the same?
 05:47 < Tar-Minyatur:#liferay> The same but with some empty lines between the imports.
+05:47 < Tar-Minyatur:#liferay> There is also another link to a main.css, which provides much more CSS.
+05:47 < topolik:#liferay> hmm
+05:47 < Tar-Minyatur:#liferay> The first is /html/css/main.css?browser....
+05:47 < Tar-Minyatur:#liferay> The second is from the Theme.
