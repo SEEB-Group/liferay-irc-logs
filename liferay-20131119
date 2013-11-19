@@ -108,3 +108,6 @@
 06:20 < topolik:#liferay> so it's the deployment process that merges the files together
 06:20 < topolik:#liferay> this way the CSS hot-deploy cannot work
 06:20 < Tar-Minyatur:#liferay> Looks like it...yes. Is that something Liferay does or has one of our guys implemented this?
+06:21 < topolik:#liferay> nope
+06:21 < topolik:#liferay> AFAIK portal doesn't touch the original CSS files
+06:21 < topolik:#liferay> it merges them but put the merged result into temp folder
