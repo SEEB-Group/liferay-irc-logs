@@ -94,3 +94,6 @@
 06:09 < topolik:#liferay> I meant: "When I go to /mytheme/css/main.css I can't find it in there."
 06:09 < Tar-Minyatur:#liferay> The VM template of the theme seems to link to that file.
 06:10 < Tar-Minyatur:#liferay> I found that in the sourcecode of the portal as it is delivered by Liferay.
+06:10 < Tar-Minyatur:#liferay> There are three different links to a main.css...one of them to the one in the theme.
+06:10 < topolik:#liferay> ok, still, I have the question
+06:10 < topolik:#liferay> the theme/css/main.css file on the server
