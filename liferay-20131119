@@ -275,3 +275,4 @@
 09:15 < hufg:#liferay> dont take it so hard just loop for ever and break i recall velocity having break
 09:16 < hufg:#liferay> some doc is saying enumeration works with foreach
 09:18 < hufg:#liferay> rotty3000: why is not document library caching enabled in ehcache configuration by default?
+09:19 < hufg:#liferay> does it even matter?
