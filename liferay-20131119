@@ -11,3 +11,4 @@
 04:48 < Tar-Minyatur:#liferay> The problem is that refactoring this mess will be very difficult and time-consuming.
 04:49 < hufg:#liferay> 8)
 04:49 < hufg:#liferay> yeah it would have some work load
+04:50 < Tar-Minyatur:#liferay> Mhm. One of my frontend devs is complaining that CSS hotdeployment doesn't work.
