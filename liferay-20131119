@@ -231,3 +231,9 @@
 09:00 < hufg:#liferay> --> false --> is null? 8)
 09:01 < aj_:#liferay> hufg, isNull evaluates to true... but it shouldn't is the point I am making :)
 09:01 < aj_:#liferay> because the object is thre.
+09:02 < aj_:#liferay> soooooooooooo... really, isNull should be false. And if I output the $myVar then I should seen the tostring for my object, not the var name right?
+09:02 < hufg:#liferay> yes
+09:02 < hufg:#liferay> if you see $myVar then it's unassigned in the velocity context or null
+09:02 < aj_:#liferay> usually when you see the var name that is because the assignment failed ... at least that is what I understand
+09:02 < hufg:#liferay> it may be null
+09:02 < aj_:#liferay> ah
