@@ -145,3 +145,6 @@
 06:36 < topolik:#liferay> I never created a CDN but I believe there should be the result CSS files, not the source ones
 06:36 < Tar-Minyatur:#liferay> Because Liferay prepends everything with the CDN host when the feature is activated.
 06:36 < topolik:#liferay> look at this: https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-web/docroot/html/themes/control_panel/_diffs/css/custom.css#L151,L160
+06:37 < topolik:#liferay> this is clearly not a css file
+06:37 < topolik:#liferay> but SASS or something like this
+06:38 < topolik:#liferay> so it seems the file cannot be used as-is
