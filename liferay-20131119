@@ -221,3 +221,8 @@
 08:53 < hufg:#liferay> if true then empty or null
 08:53 < hufg:#liferay> would be hilarious if someone had overridden toString to empty
 08:56 < aj_:#liferay> haha
+08:57 < aj_:#liferay> actually... the $validator seems to work as well
+08:57 < aj_:#liferay> BUT
+08:57 < aj_:#liferay> I am doing  #set (myVar = $request.getSession().getAttribute("xxx"))
+08:57 < aj_:#liferay> .. it evaluates to false with the $valdiator.isNotNull
+08:57 < aj_:#liferay> BUT
