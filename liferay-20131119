@@ -101,3 +101,5 @@
 06:11 < topolik:#liferay> here I mean the file on file system, not what you get by HTTP request
 06:12 < Tar-Minyatur:#liferay> No. It looks like the override.css has been merged into the main.css
 06:12 < Tar-Minyatur:#liferay> Oh. On the file system. Mom.
+06:13 < Tar-Minyatur:#liferay> Doesn't look like it's in there.
+06:13 < Tar-Minyatur:#liferay> So the merging is done at build time?
