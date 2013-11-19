@@ -127,3 +127,11 @@
 06:33 < topolik:#liferay> first line
 06:33 < topolik:#liferay> there is @import "compass";
 06:33 < Tar-Minyatur:#liferay> Yeah.
+06:34 < topolik:#liferay> but I believe this should be processed by Liferay on the CDN server
+06:34 < topolik:#liferay> and not returned in the output
+06:34 < Tar-Minyatur:#liferay> Probably.
+06:34 < Tar-Minyatur:#liferay> Looks like the wrong files were uploaded to the CDN.
+06:34 < topolik:#liferay> uhm
+06:34 < Tar-Minyatur:#liferay> Because the entire CP looks broken.
+06:34 < topolik:#liferay> does your CDN run the portat
+06:34 < topolik:#liferay> portal
