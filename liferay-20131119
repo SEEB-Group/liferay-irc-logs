@@ -197,3 +197,6 @@
 08:04 < topolik:#liferay> if you don't have portal running on your CDN you need to deliver already processed CSS files there
 08:04 < Tar-Minyatur:#liferay> I'm sure that I'm missing something here...
 08:05 < Tar-Minyatur:#liferay> And how to do that? Is there some special build goal for that?
+08:06 < topolik:#liferay> well, I don't know, I never did that :)
+08:06 < topolik:#liferay> I'd use something like curl to crawl the web site CSS files
+08:06 < topolik:#liferay> first for not authenticated users
