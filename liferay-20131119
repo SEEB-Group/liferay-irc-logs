@@ -175,3 +175,5 @@
 07:07 < daqSam:#liferay> do u know of any workaround this for 6.1.2? Like some sort of hook or something?
 07:07 < topolik:#liferay> hmm, yes
 07:07 < topolik:#liferay> you can write a servlet filter in the hook
+07:08 < topolik:#liferay> that would remove all the unnecessary entries from XML
+07:08 < daqSam:#liferay> I see... and that could be made site specific instead of portal wide? (sorry, not much exp in that area)
