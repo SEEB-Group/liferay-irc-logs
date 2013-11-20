@@ -138,3 +138,5 @@
 15:46 < jardineworks:#liferay> would a ext-hook backport fix it?
 15:46 <@jhf:#liferay> well, you could convert them all using a command line utility like imagemagick's "convert" command line
 15:46 <@jhf:#liferay> but yeah an ext-hook back port should also fix it.
+15:48 < jardineworks:#liferay> haha -- my coworker was just saying he was going to try with image magiks command line tool
+15:48 < jardineworks:#liferay> good first option... I don't really want to introduce an ext plugin
