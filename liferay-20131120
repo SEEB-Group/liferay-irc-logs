@@ -81,3 +81,7 @@
 11:46 < guli:#liferay> I have a custom portlet Service (MyPluginLocalService). In impl i call expandoValueLocalService.addValue(...).
 11:46 < guli:#liferay> After that an exception is thrown but the changs made to Expando values are not rolledBack....
 11:47 < guli:#liferay> samone has an idea on this ?
+15:22 < jardineworks:#liferay> jhf, rotty3000 -- do you guys know how to get around the scanline error? I upgraded us to 1.7 and 6.1.2GA3 but we are still getting it when we start our staging server
+15:22 <@jhf:#liferay> one workaround is to identify the offending images, and delete them :)
+15:22 <@jhf:#liferay> I know of three in liferay that cause it.. all tiny little images used to decorate the calendar that can be deleted as a workaround.
+15:22 < jardineworks:#liferay> jhf, dude... you've seen the site I am building. That is not an option lol
