@@ -31,3 +31,4 @@
 10:08 < Azrae|:#liferay> and I won't actually be doing any development in liferay, that'll be for my colleagues :)
 10:10 < hufg:#liferay> what will you be doing?
 10:12 < Azrae|:#liferay> hopefully nothing at all ;) because I'll be given stuff to do that I was hired to... however... coming back to reality... until we go live with a hosted solution I'm the one who installs our test server and keeps it going and hooks it up to ldap (and crashes ldap) etc.
+10:56 < Tar-Minyatur:#liferay> Having somebody who knows how to set up Liferay properly is important.
