@@ -126,3 +126,5 @@
 15:35 < jardineworks:#liferay> jhf, ran the command. all the offending files are aui images.
 15:35 < jardineworks:#liferay> :S
 15:35 <@jhf:#liferay> as in, AlloyUI, and shipped by Liferay?
+15:36 < jardineworks:#liferay> we ran it on our theme. our images come out clean but I am told that the aui images are the culprit
+15:36 < jardineworks:#liferay> can I use an ext hook to backport?
