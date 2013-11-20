@@ -128,3 +128,6 @@
 15:35 <@jhf:#liferay> as in, AlloyUI, and shipped by Liferay?
 15:36 < jardineworks:#liferay> we ran it on our theme. our images come out clean but I am told that the aui images are the culprit
 15:36 < jardineworks:#liferay> can I use an ext hook to backport?
+15:37 <@jhf:#liferay> yep, you could.
+15:37 < jardineworks:#liferay> jhf, wait... apparently we might have found one
+15:38 < jardineworks:#liferay> negative
