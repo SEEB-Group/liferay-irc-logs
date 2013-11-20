@@ -131,3 +131,10 @@
 15:37 <@jhf:#liferay> yep, you could.
 15:37 < jardineworks:#liferay> jhf, wait... apparently we might have found one
 15:38 < jardineworks:#liferay> negative
+15:46 < jardineworks:#liferay> jhf -- huge list. You want me to email it to you out of interest.
+15:46 < jardineworks:#liferay> ?
+15:46 <@jhf:#liferay> ehhh.. no thanks :)
+15:46 < jardineworks:#liferay> hahaha\
+15:46 < jardineworks:#liferay> would a ext-hook backport fix it?
+15:46 <@jhf:#liferay> well, you could convert them all using a command line utility like imagemagick's "convert" command line
+15:46 <@jhf:#liferay> but yeah an ext-hook back port should also fix it.
