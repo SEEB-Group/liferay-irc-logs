@@ -77,3 +77,6 @@
 11:31 < Tar-Minyatur:#liferay> Because "all" we do is exchange some of the underlying architecture.
 11:44 < guli:#liferay> hi everybody
 11:44 < guli:#liferay> i have an issue with Liferay :'(
+11:46 < Tar-Minyatur:#liferay> Don't we all? ;D
+11:46 < guli:#liferay> I have a custom portlet Service (MyPluginLocalService). In impl i call expandoValueLocalService.addValue(...).
+11:46 < guli:#liferay> After that an exception is thrown but the changs made to Expando values are not rolledBack....
