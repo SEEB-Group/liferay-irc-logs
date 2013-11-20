@@ -61,3 +61,9 @@
 11:16 < hufg:#liferay> what happened to that? 8)
 11:17 < Tar-Minyatur:#liferay> We considered it at some point.
 11:17 < hufg:#liferay> but?
+11:18 < Tar-Minyatur:#liferay> By now we will probably try to do it with memcache.
+11:18 < Tar-Minyatur:#liferay> This way we can use Amazon's ElastiCache.
+11:18 < Tar-Minyatur:#liferay> And we don't really need a clustering setup, because all instances use the same cache.
+11:18 < hufg:#liferay> hehe
+11:18 < Tar-Minyatur:#liferay> At least that's the theory.
+11:18 < Tar-Minyatur:#liferay> We will see how it pans out.
