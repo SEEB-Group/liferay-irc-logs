@@ -116,3 +116,4 @@
 15:29 <@jhf:#liferay> e.g. I can do this on my unix (mac os) system: file foo.png
 15:29 <@jhf:#liferay> and get "jhf-head.png: PNG image data, 82 x 84, 8-bit/color RGB, non-interlaced"
 15:29 <@jhf:#liferay> so it's in the RGB colorspace. the ones that were in the "gray+alpha" colorspace triggered the issue.
+15:31 < jardineworks:#liferay> jhf, ok there are a few guys on this project with macs... I'll get them to do it.
