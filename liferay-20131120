@@ -34,3 +34,5 @@
 10:56 < Tar-Minyatur:#liferay> Having somebody who knows how to set up Liferay properly is important.
 10:57 < Tar-Minyatur:#liferay> Our current live system has a broken cluster config and everything is a huge mess.
 10:57 < Tar-Minyatur:#liferay> We're trying to fix it, but Liferay infrastructure takes quite some research.
+10:58 < Azrae|:#liferay> looking after our IBM websphere stuff for a few years has been a nightmare, so we are hoping a hosted solution will mean we do nothing but sit back and eat biscuits all day
+10:59 < Tar-Minyatur:#liferay> Good luck with that. :D
