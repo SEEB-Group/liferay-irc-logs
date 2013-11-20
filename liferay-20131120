@@ -15,3 +15,4 @@
 09:08 < hufg:#liferay> 8)
 09:10 < hufg:#liferay> anyone got ideas on web content wrecking structure field data
 09:10 < hufg:#liferay> repeatable-field=field1, repeatable-field=field2, save --> field2 changes to field1
+09:12 < hufg:#liferay> i have a huge structure and template :Z
