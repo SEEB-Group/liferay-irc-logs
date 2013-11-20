@@ -42,3 +42,4 @@
 11:04 < hufg:#liferay> our hosting solution is a cljusterfuck
 11:04 < hufg:#liferay> they get nothing right
 11:05 < hufg:#liferay> the problem is that you'd need maintainers who know your liferay stuff intimately and this shit will never happen when hosted and maintained somewhere else
+11:06 < hufg:#liferay> the process should be like hey i want you to deploy this and then they'd know how to deploy a hook, theme, portlet and whatever may go wrong with it or a new configuration
