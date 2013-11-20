@@ -32,3 +32,5 @@
 10:10 < hufg:#liferay> what will you be doing?
 10:12 < Azrae|:#liferay> hopefully nothing at all ;) because I'll be given stuff to do that I was hired to... however... coming back to reality... until we go live with a hosted solution I'm the one who installs our test server and keeps it going and hooks it up to ldap (and crashes ldap) etc.
 10:56 < Tar-Minyatur:#liferay> Having somebody who knows how to set up Liferay properly is important.
+10:57 < Tar-Minyatur:#liferay> Our current live system has a broken cluster config and everything is a huge mess.
+10:57 < Tar-Minyatur:#liferay> We're trying to fix it, but Liferay infrastructure takes quite some research.
