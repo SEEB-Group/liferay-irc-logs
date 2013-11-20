@@ -122,3 +122,4 @@
 15:32 <@jhf:#liferay> https://issues.liferay.com/browse/LPS-37920
 15:32 <@jhf:#liferay> click the 'commits' tab
 15:32 <@jhf:#liferay> https://issues.liferay.com/browse/LPS-37920?page=com.atlassian.jira.plugins.jira-bitbucket-connector-plugin:dvcs-commits-tabpanel
+15:33 <@jhf:#liferay> yeah its fixed in 6.2, but I don't think 6.1.2
