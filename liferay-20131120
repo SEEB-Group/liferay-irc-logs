@@ -52,3 +52,6 @@
 11:13 < Azrae|:#liferay> but that shouldn't preclude us knowing as much as possible about how it works
 11:13 < hufg:#liferay> Tar-Minyatur: i think it's somewhat easy work but you absolutely need to have to exact infrastructure when the infrastructure is being designed/done
 11:13 < hufg:#liferay> the exact
+11:14 < hufg:#liferay> essentially a test environment where you can test everything
+11:14 < hufg:#liferay> from multicasting to whatever
+11:14 < hufg:#liferay> though clustering docs have come a long way probably
