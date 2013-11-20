@@ -55,3 +55,7 @@
 11:14 < hufg:#liferay> essentially a test environment where you can test everything
 11:14 < hufg:#liferay> from multicasting to whatever
 11:14 < hufg:#liferay> though clustering docs have come a long way probably
+11:16 < Tar-Minyatur:#liferay> We still don't have a working setup.
+11:16 < Tar-Minyatur:#liferay> Because multicast is impossible in the Amazon cloud.
+11:16 < hufg:#liferay> were you the guy that wanted to configure jgroups to unicast?
+11:16 < hufg:#liferay> what happened to that? 8)
