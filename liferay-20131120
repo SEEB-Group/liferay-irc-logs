@@ -85,3 +85,12 @@
 15:22 <@jhf:#liferay> one workaround is to identify the offending images, and delete them :)
 15:22 <@jhf:#liferay> I know of three in liferay that cause it.. all tiny little images used to decorate the calendar that can be deleted as a workaround.
 15:22 < jardineworks:#liferay> jhf, dude... you've seen the site I am building. That is not an option lol
+15:23 <@jhf:#liferay> the other workaround is to load the images into an image editor and re-save them
+15:23 < jardineworks:#liferay> jhf, I think I tried that without success
+15:23 < jardineworks:#liferay> the delete option I mean
+15:23 <@jhf:#liferay> with the RGB colorspace, not the one that they are currently in. can't remember. or make them jpgs or something.
+15:23 < jardineworks:#liferay> I thought the bug was fixed?
+15:23 <@jhf:#liferay> hmm.. yes in 6.2.. not sure about 6.1.2.. lemme go loko.
+15:23 <@jhf:#liferay> look.
+15:23 <@jhf:#liferay> (and loco :) )
+15:23 < jardineworks:#liferay> loco is what I am becoming right now :)
