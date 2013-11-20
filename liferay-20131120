@@ -80,3 +80,4 @@
 11:46 < Tar-Minyatur:#liferay> Don't we all? ;D
 11:46 < guli:#liferay> I have a custom portlet Service (MyPluginLocalService). In impl i call expandoValueLocalService.addValue(...).
 11:46 < guli:#liferay> After that an exception is thrown but the changs made to Expando values are not rolledBack....
+11:47 < guli:#liferay> samone has an idea on this ?
