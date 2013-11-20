@@ -59,3 +59,5 @@
 11:16 < Tar-Minyatur:#liferay> Because multicast is impossible in the Amazon cloud.
 11:16 < hufg:#liferay> were you the guy that wanted to configure jgroups to unicast?
 11:16 < hufg:#liferay> what happened to that? 8)
+11:17 < Tar-Minyatur:#liferay> We considered it at some point.
+11:17 < hufg:#liferay> but?
