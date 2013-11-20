@@ -112,3 +112,7 @@
 15:27 <@jhf:#liferay> also, when you say you have a zillion images - are they images in the doc library, or images as part of a theme?
 15:27 < jardineworks:#liferay> the issue is that the site uses a lot of png because there are so many layers of beauty
 15:28 < jardineworks:#liferay> images in the theme
+15:29 <@jhf:#liferay> ok. can you run the "file" command over all the images and see if any are in the "gray+alpha" colorspace (as opposed to RGB or RGBa)?
+15:29 <@jhf:#liferay> e.g. I can do this on my unix (mac os) system: file foo.png
+15:29 <@jhf:#liferay> and get "jhf-head.png: PNG image data, 82 x 84, 8-bit/color RGB, non-interlaced"
+15:29 <@jhf:#liferay> so it's in the RGB colorspace. the ones that were in the "gray+alpha" colorspace triggered the issue.
