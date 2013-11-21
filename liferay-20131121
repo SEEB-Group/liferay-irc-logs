@@ -65,3 +65,4 @@
 12:00 < guli1:#liferay> value.object.finder.thread.local.cache.max.size=0
 12:00 < guli1:#liferay> value.object.entity.thread.local.cache.max.size=0
 16:25 < jardineworks:#liferay> hey rotty3000 -- do you have a second for a cache question?
+16:27 < jardineworks:#liferay> or jhf maybe? -- I am pushing some collections I have (custom model objects) into the cache, but then after a few retrievals (which appear to work without issue) I start getting class cast exceptions
