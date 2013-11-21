@@ -39,3 +39,7 @@
 10:59 < jardineworks:#liferay> I assumed it was from that
 10:59 < jardineworks:#liferay> but maybe not
 10:59 < jardineworks:#liferay> actually... it looks like it is in ok
+11:00 < guli1:#liferay> jardineworks:     <!--[if lte IE 8]>
+11:00 < guli1:#liferay> 		<script src="$javascript_folder/respond.min.js"></script>
+11:00 < guli1:#liferay>     <![endif]-->
+11:00 < guli1:#liferay> jardineworks: i think that the [endif] is missing
