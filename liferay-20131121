@@ -113,3 +113,4 @@
 16:41 < jardineworks:#liferay> hmmm
 16:41 < jardineworks:#liferay> it might be
 16:41 < jardineworks:#liferay> but would the portlet exist on each server?
+16:42 <@jhf:#liferay> yes it would, but if you set a member variable in java, that won't propagate to the other JVMs unless you're using some super-fancy clustering thing that does that (they do exist, I just can't remember their name)
