@@ -92,3 +92,4 @@
 16:34 < jardineworks:#liferay> but I am not changing the model definition... hmmm
 16:35 <@jhf:#liferay> hmm is right! perhaps you're not fully deploying.. or liferay's cache doesn't get along with CI environments.
 16:36 < jardineworks:#liferay> probably the latter.
+16:37 < jardineworks:#liferay> question while I have you jhf. In this case I am pulling a list of categories from a service. I have them in a java.util.List. They're going to be the same for all users. I am caching them, but could I also, or would it be better maybe for me to store them in a static member variable for the portlet?
