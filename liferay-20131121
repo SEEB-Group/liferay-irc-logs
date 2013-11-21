@@ -90,3 +90,4 @@
 16:34 < jardineworks:#liferay> ...
 16:34 < jardineworks:#liferay> I am doing continous builds as I am actively developing so perhaps that is the issues
 16:34 < jardineworks:#liferay> but I am not changing the model definition... hmmm
+16:35 <@jhf:#liferay> hmm is right! perhaps you're not fully deploying.. or liferay's cache doesn't get along with CI environments.
