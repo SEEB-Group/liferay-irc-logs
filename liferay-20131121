@@ -28,3 +28,5 @@
 10:23 < jardineworks:#liferay> gotcha. ok thanks :)
 10:23 < topolik:#liferay>  n/p )
 10:24 < topolik:#liferay> guli1: just a question - in your transaction, do you use just one thread?
+10:25 < guli1:#liferay> i use PortletEntity service mixed with core Liferay services
+10:25 < guli1:#liferay> topolik: i can give you some code if you want
