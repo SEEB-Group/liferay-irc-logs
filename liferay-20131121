@@ -99,3 +99,9 @@
 16:38 < jardineworks:#liferay> like restart the server kind of often
 16:38 <@jhf:#liferay> well requiring a recompile/redeploy just to add a category sounds.. sub-optimal
 16:38 < jardineworks:#liferay> they could just redeploy the portlet irght? or I could put a configuration in to reload recipes.
+16:39 <@jhf:#liferay> if anything, I'd put it in a config properties file
+16:39 <@jhf:#liferay> not in compiled code
+16:39 <@jhf:#liferay> like a portlet.properties
+16:39 <@jhf:#liferay> then you can create a portlet-ext.properties to configure it later on
+16:39 < jardineworks:#liferay> oh! no no
+16:40 < jardineworks:#liferay> the categories come from a rest service
