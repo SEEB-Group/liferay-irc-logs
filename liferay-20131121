@@ -21,3 +21,4 @@
 10:14 < topolik:#liferay> jardineworks: I believe they are either the same or similar - except what's defined in init.vm
 10:14 < topolik:#liferay> guli1: uhm, I think I remember some issue
 10:14 < topolik:#liferay> guli1: let me search JIRA
+10:17 < guli1:#liferay> topolik: portal.transactional.cache is enabled .
