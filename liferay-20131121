@@ -30,3 +30,5 @@
 10:24 < topolik:#liferay> guli1: just a question - in your transaction, do you use just one thread?
 10:25 < guli1:#liferay> i use PortletEntity service mixed with core Liferay services
 10:25 < guli1:#liferay> topolik: i can give you some code if you want
+10:28 < guli1:#liferay> topolik: i continue searching and it seems that there is localCacheAvailable in EntityCacheImpl, so value is got from the localCache and not from the portalCache.
+10:28 < guli1:#liferay> topolik: the portalCache is transactional and not the local.
