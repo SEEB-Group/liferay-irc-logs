@@ -2,3 +2,4 @@
 02:58 < hufg:#liferay> here is the protip of today: do not write invalid html in article structure instructions
 02:58 < hufg:#liferay> if displayAsToolTip is true
 05:39 < lapache_:#liferay> Hello, does someone use liferay on debian's tomcat ? How to do this plz. I followed http://www.liferay.com/fr/documentation/liferay-portal/6.1/user-guide/-/ai/lp-6-1-ugen11-installing-liferay-on-tomcat-7-0 whithout results
+05:59 < lapache_:#liferay> If not how to update tomcat and liferay keeping my website working ?
