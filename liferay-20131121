@@ -18,3 +18,6 @@
 09:57 < guli1:#liferay> topolik: the transaction are well rollbacked but the cache is not...
 09:57 < guli1:#liferay> topolik: i search for documentation on this (dark) side of liferay but i didn't found.... :(
 09:58 < guli1:#liferay> sorry the initial issue is that data are not rollbacked when my service throws a PortalException...
+10:14 < topolik:#liferay> jardineworks: I believe they are either the same or similar - except what's defined in init.vm
+10:14 < topolik:#liferay> guli1: uhm, I think I remember some issue
+10:14 < topolik:#liferay> guli1: let me search JIRA
