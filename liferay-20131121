@@ -4,3 +4,4 @@
 05:39 < lapache_:#liferay> Hello, does someone use liferay on debian's tomcat ? How to do this plz. I followed http://www.liferay.com/fr/documentation/liferay-portal/6.1/user-guide/-/ai/lp-6-1-ugen11-installing-liferay-on-tomcat-7-0 whithout results
 05:59 < lapache_:#liferay> If not how to update tomcat and liferay keeping my website working ?
 06:13 < Tar-Minyatur:#liferay> Do you have a specific reason for using manual install over a bundle?
+06:37 < lapache_:#liferay> No i'm using a bundle, the website is developped on it, but my problem is that i want to know how to update this for avoid my server being exploited
