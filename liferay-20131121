@@ -128,3 +128,4 @@
 17:14 < jardineworks:#liferay> hmmm maybe this -- com.liferay.portal.util.PortalUtil.setPageTitle(String, title, HttpServletRequest request);
 17:18 <@jhf:#liferay> yeah, that should do it for that particular request. but no idea if Liferay overrides that at some other point, since every page (layout) has an html title associated with it via layout config.
 17:18 <@jhf:#liferay> bbl
+17:20 < jardineworks:#liferay> jhf, I just put it in the JSP at the top of the page.
