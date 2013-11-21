@@ -117,3 +117,10 @@
 16:43 <@jhf:#liferay> although, you don't need it to be synchronized across a cluster
 16:44 <@jhf:#liferay> you just need each node to load the same list at least once.
 16:44 < jardineworks:#liferay> jhf, sure. But in this case, lets say for arguments sake i use a static on PortletA. ServerA and ServerB have their own instances and each would pull the categories from the service and store them. Users have sticky sessions so they always go to the same box. You add categories. Redeploy the portlets and since they would go to both servers both servers would then call the service to refresh the list and store in the static member right?
+16:45 <@jhf:#liferay> yep,
+16:45 <@jhf:#liferay> yep!
+16:45 < jardineworks:#liferay> ok -- phew. I had a moment there man.
+16:45 < jardineworks:#liferay> :)
+16:45 <@jhf:#liferay> so the first time you need the categories list, check to see if you've fetched it. if not, fetch it. if so, just return it. standard dumb cache.
+16:45 < jardineworks:#liferay> at least I know the old ticker is still working.
+16:45 < jardineworks:#liferay> though it may have just skipped a couple.
