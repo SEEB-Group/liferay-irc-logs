@@ -140,3 +140,4 @@
 15:46 <@jhf:#liferay> but yeah an ext-hook back port should also fix it.
 15:48 < jardineworks:#liferay> haha -- my coworker was just saying he was going to try with image magiks command line tool
 15:48 < jardineworks:#liferay> good first option... I don't really want to introduce an ext plugin
+--- Log closed Thu Nov 21 00:00:21 2013
