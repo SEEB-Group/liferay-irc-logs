@@ -124,3 +124,4 @@
 16:45 <@jhf:#liferay> so the first time you need the categories list, check to see if you've fetched it. if not, fetch it. if so, just return it. standard dumb cache.
 16:45 < jardineworks:#liferay> at least I know the old ticker is still working.
 16:45 < jardineworks:#liferay> though it may have just skipped a couple.
+17:12 < jardineworks:#liferay> jhf, is it possible to set the page title programatically? for example any time the user goes to a sign in page I want the title bar to say Sign in... not the page tile for whereever they were..
