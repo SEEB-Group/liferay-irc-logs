@@ -59,3 +59,8 @@
 11:17 < jardineworks:#liferay> drop to client tomorrow... no time for experimentation to be honest :)
 11:34 < topolik:#liferay> jardineworks: guli1: guys, I'm sorry, I have some family obligations, will be back in about 2-3hrs, thanks
 11:59 < guli1:#liferay> topolik: no problem dude.
+12:00 < guli1:#liferay> topolik: i found a way to workaround this issue by disabling the local cache.
+12:00 < guli1:#liferay> using in portal.properties
+12:00 < guli1:#liferay> ##Disable local cache
+12:00 < guli1:#liferay> value.object.finder.thread.local.cache.max.size=0
+12:00 < guli1:#liferay> value.object.entity.thread.local.cache.max.size=0
