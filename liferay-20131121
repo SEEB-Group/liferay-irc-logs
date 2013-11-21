@@ -14,3 +14,6 @@
 09:22 < topolik:#liferay> guli1: perhaps, what's the issue?
 09:41 < jardineworks:#liferay> topolik, are variables declared in the theme available in the layout templates?
 09:56 < guli1:#liferay> topolik: hey topolik
+09:57 < guli1:#liferay> topolik: after 1 day of investigations i've found that the issue is linked to cache.
+09:57 < guli1:#liferay> topolik: the transaction are well rollbacked but the cache is not...
+09:57 < guli1:#liferay> topolik: i search for documentation on this (dark) side of liferay but i didn't found.... :(
