@@ -126,3 +126,5 @@
 16:45 < jardineworks:#liferay> though it may have just skipped a couple.
 17:12 < jardineworks:#liferay> jhf, is it possible to set the page title programatically? for example any time the user goes to a sign in page I want the title bar to say Sign in... not the page tile for whereever they were..
 17:14 < jardineworks:#liferay> hmmm maybe this -- com.liferay.portal.util.PortalUtil.setPageTitle(String, title, HttpServletRequest request);
+17:18 <@jhf:#liferay> yeah, that should do it for that particular request. but no idea if Liferay overrides that at some other point, since every page (layout) has an html title associated with it via layout config.
+17:18 <@jhf:#liferay> bbl
