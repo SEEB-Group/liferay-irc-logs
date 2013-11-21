@@ -110,3 +110,6 @@
 16:40 < jardineworks:#liferay> they are managed externally
 16:40 <@jhf:#liferay> is this in a cluster? cause then I don't think you can do that.
 16:40 <@jhf:#liferay> (put it in a static member var at runtime)
+16:41 < jardineworks:#liferay> hmmm
+16:41 < jardineworks:#liferay> it might be
+16:41 < jardineworks:#liferay> but would the portlet exist on each server?
