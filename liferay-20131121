@@ -115,3 +115,5 @@
 16:41 < jardineworks:#liferay> but would the portlet exist on each server?
 16:42 <@jhf:#liferay> yes it would, but if you set a member variable in java, that won't propagate to the other JVMs unless you're using some super-fancy clustering thing that does that (they do exist, I just can't remember their name)
 16:43 <@jhf:#liferay> although, you don't need it to be synchronized across a cluster
+16:44 <@jhf:#liferay> you just need each node to load the same list at least once.
+16:44 < jardineworks:#liferay> jhf, sure. But in this case, lets say for arguments sake i use a static on PortletA. ServerA and ServerB have their own instances and each would pull the categories from the service and store them. Users have sticky sessions so they always go to the same box. You add categories. Redeploy the portlets and since they would go to both servers both servers would then call the service to refresh the list and store in the static member right?
