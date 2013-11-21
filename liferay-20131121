@@ -73,3 +73,10 @@
 16:31 < jardineworks:#liferay> its random ... or so it seems
 16:31 < jardineworks:#liferay> like I said I get a few page refreshes in there no issue.
 16:31 <@jhf:#liferay> did you fix the image issue?
+16:32 < jardineworks:#liferay> yeah -- told the client to downgrade to 1.6
+16:32 < jardineworks:#liferay> hahah
+16:32 <@jhf:#liferay> hahah
+16:32 < jardineworks:#liferay> problem solved.
+16:32 < jardineworks:#liferay> ;)
+16:32 < jardineworks:#liferay> release to end client tomorrow so no time to dick around
+16:32 < jardineworks:#liferay> but we are going to put the image magick command line stuff into our build scripts to do it on the fly and hope that works... but release is coming so we need to stay on point.
