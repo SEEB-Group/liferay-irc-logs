@@ -51,3 +51,4 @@
 11:06 < guli1:#liferay> jardineworks: but you have <!--> that i did't have
 11:06 < guli1:#liferay> jardineworks: what do you add this?
 11:08 < Tar-Minyatur:#liferay> Is there a default Liferay webservice that can be used to retrieve a rendered journal article?
+11:09 < Tar-Minyatur:#liferay> I couldn't find one...retrieving structure, template and content separately does nothing for me.
