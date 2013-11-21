@@ -43,3 +43,8 @@
 11:00 < guli1:#liferay> 		<script src="$javascript_folder/respond.min.js"></script>
 11:00 < guli1:#liferay>     <![endif]-->
 11:00 < guli1:#liferay> jardineworks: i think that the [endif] is missing
+11:01 < jardineworks:#liferay> guli1, Nah, I just didn't paste the whole thing :)
+11:01 < jardineworks:#liferay>     <!--[if gte IE 8]><!-->
+11:01 < jardineworks:#liferay>         <script src="javascripts/vendor/jquery.parallax.min.js"></script>
+11:01 < jardineworks:#liferay>         <script src="javascripts/main-banner-parallax-ck.js"></script>
+11:01 < jardineworks:#liferay>     <!--<![endif]-->	
