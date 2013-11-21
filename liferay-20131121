@@ -64,3 +64,4 @@
 12:00 < guli1:#liferay> ##Disable local cache
 12:00 < guli1:#liferay> value.object.finder.thread.local.cache.max.size=0
 12:00 < guli1:#liferay> value.object.entity.thread.local.cache.max.size=0
+16:25 < jardineworks:#liferay> hey rotty3000 -- do you have a second for a cache question?
