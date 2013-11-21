@@ -32,3 +32,4 @@
 10:25 < guli1:#liferay> topolik: i can give you some code if you want
 10:28 < guli1:#liferay> topolik: i continue searching and it seems that there is localCacheAvailable in EntityCacheImpl, so value is got from the localCache and not from the portalCache.
 10:28 < guli1:#liferay> topolik: the portalCache is transactional and not the local.
+10:55 < jardineworks:#liferay> topolik, do you know how to include stuff like this <!--[if gte IE 8]><!--> in the portal_normal.vm?
