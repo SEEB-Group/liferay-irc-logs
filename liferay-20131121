@@ -52,3 +52,5 @@
 11:06 < guli1:#liferay> jardineworks: what do you add this?
 11:08 < Tar-Minyatur:#liferay> Is there a default Liferay webservice that can be used to retrieve a rendered journal article?
 11:09 < Tar-Minyatur:#liferay> I couldn't find one...retrieving structure, template and content separately does nothing for me.
+11:12 < Tar-Minyatur:#liferay> Or is /c/journal/view_article_content the right way to do it?
+11:12 < jardineworks:#liferay> guli1, i dunno.. that's a question for the guys :). Looks pointless to me ... but they did that a few places so I left it in.
