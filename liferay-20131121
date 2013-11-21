@@ -67,3 +67,9 @@
 16:25 < jardineworks:#liferay> hey rotty3000 -- do you have a second for a cache question?
 16:27 < jardineworks:#liferay> or jhf maybe? -- I am pushing some collections I have (custom model objects) into the cache, but then after a few retrievals (which appear to work without issue) I start getting class cast exceptions
 16:30 <@jhf:#liferay> yeah, sorry, that sounds like a rotty3000 question...
+16:31 <@jhf:#liferay> I would have to resort to googling :)
+16:31 <@jhf:#liferay> which I'm sure you've done..
+16:31 < jardineworks:#liferay> yeah
+16:31 < jardineworks:#liferay> its random ... or so it seems
+16:31 < jardineworks:#liferay> like I said I get a few page refreshes in there no issue.
+16:31 <@jhf:#liferay> did you fix the image issue?
