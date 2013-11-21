@@ -105,3 +105,8 @@
 16:39 <@jhf:#liferay> then you can create a portlet-ext.properties to configure it later on
 16:39 < jardineworks:#liferay> oh! no no
 16:40 < jardineworks:#liferay> the categories come from a rest service
+16:40 <@jhf:#liferay> oh I see
+16:40 < jardineworks:#liferay> there is just no point in calling it for every render
+16:40 < jardineworks:#liferay> they are managed externally
+16:40 <@jhf:#liferay> is this in a cluster? cause then I don't think you can do that.
+16:40 <@jhf:#liferay> (put it in a static member var at runtime)
