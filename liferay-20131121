@@ -34,3 +34,4 @@
 10:28 < guli1:#liferay> topolik: the portalCache is transactional and not the local.
 10:55 < jardineworks:#liferay> topolik, do you know how to include stuff like this <!--[if gte IE 8]><!--> in the portal_normal.vm?
 10:57 < guli1:#liferay> topolik: no idea of where i can get documentation on that point?
+10:58 < jardineworks:#liferay> i dunno.. the front end wizards put it in lol
