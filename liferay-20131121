@@ -83,3 +83,10 @@
 16:33 < jardineworks:#liferay> i'm gonna try an ext plugin patch too for fun i think
 16:33 < jardineworks:#liferay> .. the cache issue is only resolved by restarting the server which is BAAAAAAAAAAAAAAAAAAD...
 16:34 <@jhf:#liferay> so one restart fixes it forever?
+16:34 < jardineworks:#liferay> nope
+16:34 < jardineworks:#liferay> fixes it for a few more refreshes
+16:34 <@jhf:#liferay> ah
+16:34 < jardineworks:#liferay> ALTHOUGH
+16:34 < jardineworks:#liferay> ...
+16:34 < jardineworks:#liferay> I am doing continous builds as I am actively developing so perhaps that is the issues
+16:34 < jardineworks:#liferay> but I am not changing the model definition... hmmm
