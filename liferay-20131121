@@ -80,3 +80,6 @@
 16:32 < jardineworks:#liferay> ;)
 16:32 < jardineworks:#liferay> release to end client tomorrow so no time to dick around
 16:32 < jardineworks:#liferay> but we are going to put the image magick command line stuff into our build scripts to do it on the fly and hope that works... but release is coming so we need to stay on point.
+16:33 < jardineworks:#liferay> i'm gonna try an ext plugin patch too for fun i think
+16:33 < jardineworks:#liferay> .. the cache issue is only resolved by restarting the server which is BAAAAAAAAAAAAAAAAAAD...
+16:34 <@jhf:#liferay> so one restart fixes it forever?
