@@ -196,3 +196,4 @@
 14:16 < jardineworks:#liferay> thanks
 14:16 < jardineworks:#liferay> anything in there for the expando permissions? :)
 14:18 <@jhf:#liferay> heh... unfortunately no. I will take a crack at it later today though. you seem to be really close, but I just don't know enough about permissions to rattle off the needed code.
+14:29 < jardineworks:#liferay> jhf, can you think of a reason why the addUser method would appear to work (no errors) but the user would not be present?
