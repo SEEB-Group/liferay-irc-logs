@@ -89,3 +89,6 @@
 12:07 < Tar-Minyatur:#liferay> I actually have no clue how to publish an article.
 12:07 < Tar-Minyatur:#liferay> So far I only published pages containing articles.
 12:07 < Tar-Minyatur:#liferay> And there the article is always published as well.
+12:08 < jardineworks:#liferay> jhf, do you know if I can automatically set the UPDATE permissions on an Expando (User) value?
+12:08 < jardineworks:#liferay> I create it dynamically as a systemconfig hook... so it GETS there... but I need to set the permissions as well.
+12:08 < jardineworks:#liferay> right now I have to do it by hand which is crapass
