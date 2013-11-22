@@ -97,3 +97,6 @@
 12:13 < Tar-Minyatur:#liferay> Mhm. All articles?
 12:14 < Tar-Minyatur:#liferay> When I check "Web Content" in the publishing dialog for a page all articles are published to live?
 12:15 < jardineworks:#liferay> jhf, I have a application start up hook that I run to check configurations and stuff and use it to report missing/bad configs.
+12:16 < jardineworks:#liferay> jhf, http://pastebin.com/YPELrpiB
+12:16 < jardineworks:#liferay> I was originally doing it for just one field... but I need to do it for several.
+12:16 < jardineworks:#liferay> so maybe I remove the if?
