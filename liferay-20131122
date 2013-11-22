@@ -105,3 +105,4 @@
 12:20 <@jhf:#liferay> I'm looking at how LR does it in control panel.. I swore there was an easier way.
 12:23 < jardineworks:#liferay> doesn't seem to work
 12:24 < jardineworks:#liferay> I just remembered that it wasn't setting it for guest.
+12:25 < jardineworks:#liferay> maybe it should be addResourcePermission?
