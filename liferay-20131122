@@ -27,3 +27,5 @@
 04:50 < topolik:#liferay> uhm, interesting
 04:50 < topolik:#liferay> I know it didn't work in 6.0
 04:51 < topolik:#liferay> because both transactions were separate, because hibernate sessions were separate
+04:52 < topolik:#liferay> some of our architect in previous job tried that and he succeed using some artificial transaction in spring which held both transactions
+04:52 < topolik:#liferay> but this may be already fixed
