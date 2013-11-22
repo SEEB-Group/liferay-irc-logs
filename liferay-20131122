@@ -235,3 +235,7 @@
 14:45 <@jhf:#liferay> yeah.. well.. try these changes first then we can talk about exceptions
 14:45 <@jhf:#liferay> facebookId = 0
 14:46 <@jhf:#liferay> openId = ""
+14:46 <@jhf:#liferay> locale = LocaleUtil.getDefault()
+14:46 <@jhf:#liferay> middleName = ""
+14:46 <@jhf:#liferay> prefixId, sufixId = 0
+14:46 <@jhf:#liferay> jobTitle = ""
