@@ -221,3 +221,10 @@
 14:42 < jardineworks:#liferay> but I get no error from the add call
 14:42 <@jhf:#liferay> ok show me the code
 14:43 <@jhf:#liferay> to the add() call
+14:43 < jardineworks:#liferay> its ugly
+14:43 < jardineworks:#liferay> just warning you
+14:43 < jardineworks:#liferay> haha
+14:43 <@jhf:#liferay> yeah I'm sure it is.
+14:43 <@jhf:#liferay> :)
+14:43 < jardineworks:#liferay> http://pastebin.com/WfK6TvaP
+14:44 < jardineworks:#liferay> it was working until I started rtying to save the zip code (just realized today that I wasnt)
