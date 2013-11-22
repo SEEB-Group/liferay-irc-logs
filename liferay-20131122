@@ -187,3 +187,7 @@
 14:12 <@jhf:#liferay> }
 14:12 <@jhf:#liferay> so just use "" for the others :)
 14:14 < jardineworks:#liferay> I tried to used StringPool.BLANK ....
+14:15 < jardineworks:#liferay> but the validator caught it.
+14:15 <@jhf:#liferay> hmm.. ok. well I guess address1 is indeed required.
+14:15 <@jhf:#liferay> btw there's a bunch of code you may be interested in here https://www.liferay.com/web/james.falkner/blog/-/blogs/part-ii-7cogs-is-dead-long-live-7cogs-
+14:15 <@jhf:#liferay> programmatically creating all sorts of stuff
