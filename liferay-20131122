@@ -34,3 +34,4 @@
 04:54 < guli:#liferay> yep it works good except for the local cache that is not transactional
 04:54 < guli:#liferay> the portal cache is transactional
 05:03 < guli:#liferay> topolik: i see that a notification-portlet has been creted in liferay-plugin...
+05:11 < lapache_:#liferay> Hello, is there an automatic way for upgrade liferay/tomcat bundle ?
