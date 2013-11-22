@@ -59,3 +59,4 @@
 08:59 < Tar-Minyatur:#liferay> Would it work if I published a page that contains an asset publisher, which shows all of these articles?
 08:59 < Tar-Minyatur:#liferay> Because apparently you can't publish content articles independently, right?
 09:00 < Tar-Minyatur:#liferay> Or maybe I should just put all of the articles on separate pages and publish the parent page with "include descendant pages". This way they would be found by the search as well.
+09:02 < jardineworks:#liferay> I'm not sure to be honest -- I have limited asset publisher experience at the moment. The last one you said though with the descendent pages sounds promising
