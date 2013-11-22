@@ -239,3 +239,7 @@
 14:46 <@jhf:#liferay> middleName = ""
 14:46 <@jhf:#liferay> prefixId, sufixId = 0
 14:46 <@jhf:#liferay> jobTitle = ""
+14:47 <@jhf:#liferay> groupIds = new long[]{guestGroup.getGroupId()};
+14:47 <@jhf:#liferay> (where guestGroup is: Group guestGroup = GroupLocalServiceUtil.getGroup(
+14:47 <@jhf:#liferay>         companyId, GroupConstants.GUEST);
+14:47 <@jhf:#liferay> organization ids = new long[] {}
