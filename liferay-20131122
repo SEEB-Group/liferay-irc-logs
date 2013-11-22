@@ -154,3 +154,7 @@
 13:57 < modd:#liferay> yes
 13:57 < modd:#liferay> every time I'm logging in with a non-admin user
 13:59 < jardineworks:#liferay> jhf, Control Panel > Portal > Roles > Guest (Actions button is dead). Click on Guest, click Define Permissions... and then click the Add v  .. dead (for me)
+14:00 <@jhf:#liferay> hmm those all work for me using chrome. do you get any js errors in the developer console of your browser?
+14:00 <@jhf:#liferay> it sounds browser-related
+14:00 < jardineworks:#liferay> chrome
+14:00 < jardineworks:#liferay> is what I am using
