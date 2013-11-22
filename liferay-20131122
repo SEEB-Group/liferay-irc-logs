@@ -106,3 +106,5 @@
 12:23 < jardineworks:#liferay> doesn't seem to work
 12:24 < jardineworks:#liferay> I just remembered that it wasn't setting it for guest.
 12:25 < jardineworks:#liferay> maybe it should be addResourcePermission?
+12:32 < jardineworks:#liferay> jhf, which file are you looking at for the control poanel?
+12:32 <@jhf:#liferay> well control panel (when used to add/edit "custom fields") ends up in https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/expando/action/EditExpandoAction.java
