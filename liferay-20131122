@@ -74,3 +74,5 @@
 11:21 < jardineworks:#liferay> :)
 11:22 < jardineworks:#liferay> but I have toi work this weekend :(
 11:48 < Tar-Minyatur:#liferay> I think I found a solution for my problem.
+11:49 < Tar-Minyatur:#liferay> I will create a page and put all the different articles on there, which are loaded via AJAX.
+11:49 < Tar-Minyatur:#liferay> This page can be published to ensure the correct versions of the articles are live and available for the JS.
