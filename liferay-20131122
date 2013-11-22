@@ -45,3 +45,7 @@
 08:55 < Tar-Minyatur:#liferay> I tracked it down to the fact that apparently "cmd=preview" is not supported in 6.1.2.
 08:56 < Tar-Minyatur:#liferay> I considered rewriting the URLs to cmd=view, because then it works. BUT it turns out that they used the preview link, because they didn't find a way to publish the articles that are loaded via AJAX.
 08:56 < Tar-Minyatur:#liferay> So when I rewrite the URLs now, the articles show outdated content.
+08:57 < Tar-Minyatur:#liferay> The question now is: Can I find a different approach to load staged web content articles via a specific URL or is there some way to publish a bunch of articles that are not used on any page?
+08:57 < jardineworks:#liferay> you mean the preview shows outdated content?
+08:57 < Tar-Minyatur:#liferay> No. The cmd=view shows outdated content, because the articles have been changed, but not published.
+08:57 < jardineworks:#liferay> Tar-Minyatur, you could write your own hook maybe?
