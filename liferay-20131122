@@ -140,3 +140,8 @@
 13:52 < jardineworks:#liferay> I am tryign to add
 13:53 < jardineworks:#liferay> but javascript shows ;;
 13:53 < modd:#liferay> hey jhf, any information why a non-admin user on lr 6.2 will get a permission denied message after login but with another F5 it works fine?
+13:54 <@jhf:#liferay> modd: i've seen that in 6.1 because the welcome page hadn't finished loading/being resource-imports
+13:54 <@jhf:#liferay> but not in 6.2
+13:54 < modd:#liferay> hmm
+13:54 < modd:#liferay> weird
+13:54 <@jhf:#liferay> jardineworks: works for me.. which browser are you using?
