@@ -3,3 +3,4 @@
 04:06 < topolik:#liferay> hi guli, good, thanks you?
 04:08 < guli:#liferay> topolik: good thanks :)
 04:08 < guli:#liferay> i progress on my issue
+04:09 < guli:#liferay> topolik: i've found that the local cache was a first issue :) disabling the local cache works in the common case.
