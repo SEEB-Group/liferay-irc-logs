@@ -173,3 +173,4 @@
 14:09 < jardineworks:#liferay> lemme double checkl
 14:09 < jardineworks:#liferay> I have a bigger issue right now
 14:09 < jardineworks:#liferay> I can't seem to add a full user programatically.
+14:10 < jardineworks:#liferay> jhf,  if I do a User user = UserLocalServiceUtil.addUser( ... ) ... it adds my user to LR, but if I immediately after try to create an Address object and attach it to the user I get an error.
