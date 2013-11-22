@@ -216,3 +216,8 @@
 14:41 < jardineworks:#liferay> jhf, still fails
 14:41 < jardineworks:#liferay> wtf
 14:41 < jardineworks:#liferay> my default user id is 10158 or soemthing
+14:42 <@jhf:#liferay> what fails? the api call, or they just don't show up in the user listing?
+14:42 < jardineworks:#liferay> both
+14:42 < jardineworks:#liferay> but I get no error from the add call
+14:42 <@jhf:#liferay> ok show me the code
+14:43 <@jhf:#liferay> to the add() call
