@@ -68,3 +68,4 @@
 09:34 < Tar-Minyatur:#liferay> General question: When I build a Blog with Liferay, I have a page with an asset publisher to show the most recent entries.
 09:34 < Tar-Minyatur:#liferay> How would I publish the articles for the blog?
 09:35 < Tar-Minyatur:#liferay> All articles would be created on staging...how would I push them to live? The option to publish articles seems to be missing. Oo
+09:43 < Tar-Minyatur:#liferay> (I'm thinking about building some way to publish the lazy loaded articles instead of recreating this preview link stuff.)
