@@ -129,3 +129,4 @@
 17:18 <@jhf:#liferay> yeah, that should do it for that particular request. but no idea if Liferay overrides that at some other point, since every page (layout) has an html title associated with it via layout config.
 17:18 <@jhf:#liferay> bbl
 17:20 < jardineworks:#liferay> jhf, I just put it in the JSP at the top of the page.
+--- Log closed Fri Nov 22 00:00:22 2013
