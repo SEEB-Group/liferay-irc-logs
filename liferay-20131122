@@ -206,3 +206,8 @@
 14:33 <@jhf:#liferay> it's not a counter is it?
 14:33 <@jhf:#liferay> in my example in that blog I use UserLocalServiceUtil.getDefaultUserId(companyId)
 14:33 <@jhf:#liferay> which I think comes out to 1 or 0
+14:34 <@jhf:#liferay> yeah its the 'creatorUserId'
+14:34 <@jhf:#liferay> which in most cases should be that default user id
+14:34 <@jhf:#liferay> so yeah -1 should result in a usernotfound, it can't find the creator user id
+14:34 < jardineworks:#liferay> lemme try that
+14:35 < jardineworks:#liferay> you know what is weird though...
