@@ -58,3 +58,4 @@
 08:58 < jardineworks:#liferay> struts hooks are easy peasy to do in 6.1 -- they no longer require EXT plugins
 08:59 < Tar-Minyatur:#liferay> Would it work if I published a page that contains an asset publisher, which shows all of these articles?
 08:59 < Tar-Minyatur:#liferay> Because apparently you can't publish content articles independently, right?
+09:00 < Tar-Minyatur:#liferay> Or maybe I should just put all of the articles on separate pages and publish the parent page with "include descendant pages". This way they would be found by the search as well.
