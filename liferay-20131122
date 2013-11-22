@@ -170,3 +170,6 @@
 14:06 <@jhf:#liferay> works
 14:06 <@jhf:#liferay> that is odd.. no errors in the js console?
 14:07 <@jhf:#liferay> or any errors on the 'network' tab of the chrome dev console? like, unable to load some js or css file?
+14:09 < jardineworks:#liferay> lemme double checkl
+14:09 < jardineworks:#liferay> I have a bigger issue right now
+14:09 < jardineworks:#liferay> I can't seem to add a full user programatically.
