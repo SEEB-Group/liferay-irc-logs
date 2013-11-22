@@ -64,3 +64,4 @@
 09:08 < Tar-Minyatur:#liferay> So there is no non-ajax version of the different pages.
 09:08 < Tar-Minyatur:#liferay> In theory there would have to be hard copies of all the different pages than can be created by loading the content dynamically.
 09:09 < Tar-Minyatur:#liferay> But there isn't. Which also leads to the fact that the dynamically loaded content can't be found in the search...so fixing this and thereby also fixing the searching issue sounds like a good idea somehow.
+09:33 < Tar-Minyatur:#liferay> Mmmmhm.
