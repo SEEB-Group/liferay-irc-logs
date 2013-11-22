@@ -56,3 +56,5 @@
 08:58 < jardineworks:#liferay> how come?
 08:58 < Tar-Minyatur:#liferay> Seems like the wrong approach to me.
 08:58 < jardineworks:#liferay> struts hooks are easy peasy to do in 6.1 -- they no longer require EXT plugins
+08:59 < Tar-Minyatur:#liferay> Would it work if I published a page that contains an asset publisher, which shows all of these articles?
+08:59 < Tar-Minyatur:#liferay> Because apparently you can't publish content articles independently, right?
