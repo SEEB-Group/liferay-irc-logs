@@ -5,3 +5,4 @@
 04:08 < guli:#liferay> i progress on my issue
 04:09 < guli:#liferay> topolik: i've found that the local cache was a first issue :) disabling the local cache works in the common case.
 04:10 < guli:#liferay> topolik: have you any idea of the effect of disabling local cache?
+04:12 < topolik:#liferay> things will go slower for the entity you disabled
