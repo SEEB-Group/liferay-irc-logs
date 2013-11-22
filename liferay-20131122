@@ -42,3 +42,4 @@
 08:53 < Tar-Minyatur:#liferay> Liferay is driving me insane...
 08:54 < jardineworks:#liferay> Tar-Minyatur, that means you are using it properly :)
 08:54 < Tar-Minyatur:#liferay> Ok. Imagine this: On our old Liferay 6.1.0 we had several page, which loaded content via AJAX from /c/journal/view_article_content?cmd=preview... Now we migrated to 6.1.2 and all of a sudden these articles don't work anymore.
+08:55 < Tar-Minyatur:#liferay> I tracked it down to the fact that apparently "cmd=preview" is not supported in 6.1.2.
