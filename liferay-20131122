@@ -169,3 +169,4 @@
 14:06 < jardineworks:#liferay> jhf, try from the define permissions tab
 14:06 <@jhf:#liferay> works
 14:06 <@jhf:#liferay> that is odd.. no errors in the js console?
+14:07 <@jhf:#liferay> or any errors on the 'network' tab of the chrome dev console? like, unable to load some js or css file?
