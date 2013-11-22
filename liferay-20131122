@@ -211,3 +211,5 @@
 14:34 <@jhf:#liferay> so yeah -1 should result in a usernotfound, it can't find the creator user id
 14:34 < jardineworks:#liferay> lemme try that
 14:35 < jardineworks:#liferay> you know what is weird though...
+14:35 < jardineworks:#liferay> until I added the address stuff? -1 was working
+14:35 < jardineworks:#liferay> lol
