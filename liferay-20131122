@@ -130,3 +130,6 @@
 13:17 < Tar-Minyatur:#liferay> Uhm.
 13:17 < Tar-Minyatur:#liferay> Anyone ever tried to use Memcache with Liferay?
 13:18 < Tar-Minyatur:#liferay> I'm a little confused about the fact that the PortalCache interface defines a method registerCacheListener and the MemcachePortalCache throws an UnsupportedOperationException when this is called. Oo
+13:51 < jardineworks:#liferay> ummm 6.1.2 GA3 ... why are there buttons in the control panel that simply don't work?
+13:51 <@jhf:#liferay> jardineworks: which buttons
+13:51 < jardineworks:#liferay> jhf, well, the Add button for example
