@@ -139,3 +139,4 @@
 13:52 < jardineworks:#liferay> there are not on the User
 13:52 < jardineworks:#liferay> I am tryign to add
 13:53 < jardineworks:#liferay> but javascript shows ;;
+13:53 < modd:#liferay> hey jhf, any information why a non-admin user on lr 6.2 will get a permission denied message after login but with another F5 it works fine?
