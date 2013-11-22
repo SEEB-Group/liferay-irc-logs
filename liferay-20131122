@@ -32,3 +32,4 @@
 04:53 < guli:#liferay> it works good in 6.1
 04:53 < topolik:#liferay> only the cache
 04:54 < guli:#liferay> yep it works good except for the local cache that is not transactional
+04:54 < guli:#liferay> the portal cache is transactional
