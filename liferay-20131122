@@ -166,3 +166,6 @@
 14:02 < jardineworks:#liferay> I thought I saw a major bug in jira at one point for this
 14:02 <@jhf:#liferay> (out of the box with no customization)
 14:04 <@jhf:#liferay> jardineworks: http://i.imgur.com/HgdA3bD.png
+14:06 < jardineworks:#liferay> jhf, try from the define permissions tab
+14:06 <@jhf:#liferay> works
+14:06 <@jhf:#liferay> that is odd.. no errors in the js console?
