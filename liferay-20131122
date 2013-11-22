@@ -127,3 +127,5 @@
 12:59 < jardineworks:#liferay> fail
 13:00 < jardineworks:#liferay> resourceId =  0.... is that like a default for "this didn't work" or "recourse does not exist"??
 13:01 <@jhf:#liferay> (on con call for another 15 mins)
+13:17 < Tar-Minyatur:#liferay> Uhm.
+13:17 < Tar-Minyatur:#liferay> Anyone ever tried to use Memcache with Liferay?
