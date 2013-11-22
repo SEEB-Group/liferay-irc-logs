@@ -82,3 +82,5 @@
 11:55 < Tar-Minyatur:#liferay> jhf: Are you around? Maybe you can help me out with this stuff? I assume the Liferay page uses web content articles for blogging? Are you using staging there?
 11:56 <@jhf:#liferay> no, we use the standard 'blogs' portlet on liferay.com
 11:56 < Tar-Minyatur:#liferay> Mhm. :-(
+11:57 <@jhf:#liferay> we use the staging feature of liferay for some of the sites, but not all of them (and not for the liferay.com 'site' on .. liferay.com)
+11:57 < Tar-Minyatur:#liferay> Quick summary: How do you publish web content articles from staging to live, if they are not used on any page?
