@@ -37,3 +37,4 @@
 05:11 < lapache_:#liferay> Hello, is there an automatic way for upgrade liferay/tomcat bundle ?
 05:13 < topolik:#liferay> https://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/upgrading-lifer-5 or https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/upgrading-liferay-liferay-portal-6-2-user-guide-18-en
 05:46 < Axxell:#liferay> hey guys
+05:47 < Axxell:#liferay> I was under the impression that liferay 6.2 used bootstrap 3, now that ive looked at makin themes with it, it seems to be bootstrap 2.32
