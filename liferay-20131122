@@ -133,3 +133,9 @@
 13:51 < jardineworks:#liferay> ummm 6.1.2 GA3 ... why are there buttons in the control panel that simply don't work?
 13:51 <@jhf:#liferay> jardineworks: which buttons
 13:51 < jardineworks:#liferay> jhf, well, the Add button for example
+13:52 < jardineworks:#liferay> jhf, I am tryign to let my user set a password during account creation but I am getting a PACL (guess it is because they are not technically a logged in user yet?)
+13:52 < jardineworks:#liferay> I went in to see if I could resolve with permissios
+13:52 <@jhf:#liferay> hmmmmm
+13:52 < jardineworks:#liferay> there are not on the User
+13:52 < jardineworks:#liferay> I am tryign to add
+13:53 < jardineworks:#liferay> but javascript shows ;;
