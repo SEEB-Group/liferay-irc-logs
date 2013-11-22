@@ -100,3 +100,4 @@
 12:16 < jardineworks:#liferay> jhf, http://pastebin.com/YPELrpiB
 12:16 < jardineworks:#liferay> I was originally doing it for just one field... but I need to do it for several.
 12:16 < jardineworks:#liferay> so maybe I remove the if?
+12:17 <@jhf:#liferay> Tar-Minyatur: no, you first need to create/publish the article, then publish the site to live.. only when you publish the site do the articles actually appear in the 'live' scope.
