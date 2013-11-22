@@ -243,3 +243,7 @@
 14:47 <@jhf:#liferay> (where guestGroup is: Group guestGroup = GroupLocalServiceUtil.getGroup(
 14:47 <@jhf:#liferay>         companyId, GroupConstants.GUEST);
 14:47 <@jhf:#liferay> organization ids = new long[] {}
+14:48 <@jhf:#liferay> roleIds = new long[] {};
+14:48 <@jhf:#liferay> usergroupIds = new long[] {};
+14:48 < jardineworks:#liferay> ok one sec
+14:48 <@jhf:#liferay> try those
