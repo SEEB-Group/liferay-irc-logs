@@ -61,3 +61,5 @@
 09:00 < Tar-Minyatur:#liferay> Or maybe I should just put all of the articles on separate pages and publish the parent page with "include descendant pages". This way they would be found by the search as well.
 09:02 < jardineworks:#liferay> I'm not sure to be honest -- I have limited asset publisher experience at the moment. The last one you said though with the descendent pages sounds promising
 09:07 < Tar-Minyatur:#liferay> The problem is that they threw compatibility with Non-JS browsers out the window at some point.
+09:08 < Tar-Minyatur:#liferay> So there is no non-ajax version of the different pages.
+09:08 < Tar-Minyatur:#liferay> In theory there would have to be hard copies of all the different pages than can be created by loading the content dynamically.
