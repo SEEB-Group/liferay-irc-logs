@@ -248,3 +248,4 @@
 14:48 < jardineworks:#liferay> ok one sec
 14:48 <@jhf:#liferay> try those
 14:49 < jardineworks:#liferay> what about the contact? it skips over, saying it is not null, so I assume that means that a contact record (empty except for the id) is created?
+14:50 <@jhf:#liferay> yeah I believe one is created when the user is created. i'll go check.
