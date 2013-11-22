@@ -191,3 +191,7 @@
 14:15 <@jhf:#liferay> hmm.. ok. well I guess address1 is indeed required.
 14:15 <@jhf:#liferay> btw there's a bunch of code you may be interested in here https://www.liferay.com/web/james.falkner/blog/-/blogs/part-ii-7cogs-is-dead-long-live-7cogs-
 14:15 <@jhf:#liferay> programmatically creating all sorts of stuff
+14:16 <@jhf:#liferay> there's a part 1 as well with even more (see link at top of that blog post)
+14:16 < jardineworks:#liferay> bookmarked
+14:16 < jardineworks:#liferay> thanks
+14:16 < jardineworks:#liferay> anything in there for the expando permissions? :)
