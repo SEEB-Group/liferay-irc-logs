@@ -49,3 +49,10 @@
 08:57 < jardineworks:#liferay> you mean the preview shows outdated content?
 08:57 < Tar-Minyatur:#liferay> No. The cmd=view shows outdated content, because the articles have been changed, but not published.
 08:57 < jardineworks:#liferay> Tar-Minyatur, you could write your own hook maybe?
+08:58 < jardineworks:#liferay> put the preview back in?
+08:58 < jardineworks:#liferay> (with your own hook)
+08:58 < Tar-Minyatur:#liferay> Yes...maybe.
+08:58 < Tar-Minyatur:#liferay> Not a big fan of that, however.
+08:58 < jardineworks:#liferay> how come?
+08:58 < Tar-Minyatur:#liferay> Seems like the wrong approach to me.
+08:58 < jardineworks:#liferay> struts hooks are easy peasy to do in 6.1 -- they no longer require EXT plugins
