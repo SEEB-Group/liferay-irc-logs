@@ -228,3 +228,10 @@
 14:43 <@jhf:#liferay> :)
 14:43 < jardineworks:#liferay> http://pastebin.com/WfK6TvaP
 14:44 < jardineworks:#liferay> it was working until I started rtying to save the zip code (just realized today that I wasnt)
+14:45 <@jhf:#liferay> ok so here are some things to change (to align with what I know to be working code):
+14:45 < jardineworks:#liferay> it skips over the contact id
+14:45 < jardineworks:#liferay> and that is used by the address...
+14:45 < jardineworks:#liferay> but no exceptions?!
+14:45 <@jhf:#liferay> yeah.. well.. try these changes first then we can talk about exceptions
+14:45 <@jhf:#liferay> facebookId = 0
+14:46 <@jhf:#liferay> openId = ""
