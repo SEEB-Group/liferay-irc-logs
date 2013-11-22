@@ -14,3 +14,4 @@
 04:15 < guli:#liferay> and in this case the transaction is not used.... my service fail after doing some change and the changes are saved to DB
 04:26 < guli:#liferay> if think that it's caused by the fact that in socialrequestinterpreter you need to use *ServiceUtil and that the processConfirmation() method of the interpreter is called into a service
 04:27 < guli:#liferay> but i don't know how to do this in an other way....
+04:36 < topolik:#liferay> guli?
