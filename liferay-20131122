@@ -109,3 +109,9 @@
 12:32 < jardineworks:#liferay> jhf, which file are you looking at for the control poanel?
 12:32 <@jhf:#liferay> well control panel (when used to add/edit "custom fields") ends up in https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/expando/action/EditExpandoAction.java
 12:33 <@jhf:#liferay> there is an 'addExpando' method which ends up creating the column, through the "Expando Bridge" classes
+12:35 < jardineworks:#liferay> jhf, but are the columns that are created treated as "resources"?
+12:35 < jardineworks:#liferay> when you add it, the Owner gets the permission by default...
+12:35 < jardineworks:#liferay> whereever that happens, I need to repeat it for my other role.s
+12:35 <@jhf:#liferay> jardineworks: how about https://www.liferay.com/community/wiki/-/wiki/Main/Adding+an+custom+attribute+to+a+Community
+12:35 <@jhf:#liferay> it uses addResourcePermission
+12:36 <@jhf:#liferay> see the 'Setting Permissions for Community Members' bit
