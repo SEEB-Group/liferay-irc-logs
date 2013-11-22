@@ -202,3 +202,7 @@
 14:32 < jardineworks:#liferay> I change the first param from -1 to CounterLocalServiceUtil.increment() .. and now I get com.liferay.portal.NoSuchUserException: No User exists with the primary key 200023
 14:32 < jardineworks:#liferay> how does that make any sense? OF COURSE they don't exist... I am trying to ADD them
 14:32 < jardineworks:#liferay> :|
+14:33 <@jhf:#liferay> the first argument to UserLocalServiceUtil.addUser() ?
+14:33 <@jhf:#liferay> it's not a counter is it?
+14:33 <@jhf:#liferay> in my example in that blog I use UserLocalServiceUtil.getDefaultUserId(companyId)
+14:33 <@jhf:#liferay> which I think comes out to 1 or 0
