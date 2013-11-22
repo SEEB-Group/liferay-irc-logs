@@ -186,3 +186,4 @@
 14:12 <@jhf:#liferay>         11002, true, true);
 14:12 <@jhf:#liferay> }
 14:12 <@jhf:#liferay> so just use "" for the others :)
+14:14 < jardineworks:#liferay> I tried to used StringPool.BLANK ....
