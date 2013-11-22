@@ -18,3 +18,6 @@
 04:45 < guli:#liferay> topolik: so i discover that socialrequestinterpreter seems to have been removed from Liferay...
 04:46 < topolik:#liferay> guli: I'm sorry I don't know this part of Liferay
 04:47 < guli:#liferay> topolik: do you who i can contact?
+04:48 < topolik:#liferay> hmm, I can see socialrequestinterpreter in the latest master
+04:48 < guli:#liferay> yes i just see too
+04:48 < guli:#liferay> i tell that because in 6.1 in contacts-portlet (liferay-plugin) request are handled using socialrequestinterpreter
