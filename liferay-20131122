@@ -174,3 +174,8 @@
 14:09 < jardineworks:#liferay> I have a bigger issue right now
 14:09 < jardineworks:#liferay> I can't seem to add a full user programatically.
 14:10 < jardineworks:#liferay> jhf,  if I do a User user = UserLocalServiceUtil.addUser( ... ) ... it adds my user to LR, but if I immediately after try to create an Address object and attach it to the user I get an error.
+14:11 < jardineworks:#liferay> oh my god. address1 is a required field!? WHY!?
+14:11 <@jhf:#liferay> so it works with address1 ?
+14:11 < jardineworks:#liferay> why can't I just create a portion of an address
+14:11 < jardineworks:#liferay> I just checked the line number for the error.
+14:11 < jardineworks:#liferay> so aggaravating.
