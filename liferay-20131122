@@ -29,3 +29,6 @@
 04:51 < topolik:#liferay> because both transactions were separate, because hibernate sessions were separate
 04:52 < topolik:#liferay> some of our architect in previous job tried that and he succeed using some artificial transaction in spring which held both transactions
 04:52 < topolik:#liferay> but this may be already fixed
+04:53 < guli:#liferay> it works good in 6.1
+04:53 < topolik:#liferay> only the cache
+04:54 < guli:#liferay> yep it works good except for the local cache that is not transactional
