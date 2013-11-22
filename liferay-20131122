@@ -26,3 +26,4 @@
 04:50 < guli:#liferay> topolik: yes it works, i build a little project that calls my service from a controller and it works as expected.
 04:50 < topolik:#liferay> uhm, interesting
 04:50 < topolik:#liferay> I know it didn't work in 6.0
+04:51 < topolik:#liferay> because both transactions were separate, because hibernate sessions were separate
