@@ -198,3 +198,7 @@
 14:18 <@jhf:#liferay> heh... unfortunately no. I will take a crack at it later today though. you seem to be really close, but I just don't know enough about permissions to rattle off the needed code.
 14:29 < jardineworks:#liferay> jhf, can you think of a reason why the addUser method would appear to work (no errors) but the user would not be present?
 14:30 <@jhf:#liferay> can you log in as the user? if its just a matter of them not showing up in the list of users via control panel, I believe you need to re-index search indexes via control panel -> system administration
+14:32 < jardineworks:#liferay> yeah I tried that... they aren't there
+14:32 < jardineworks:#liferay> I change the first param from -1 to CounterLocalServiceUtil.increment() .. and now I get com.liferay.portal.NoSuchUserException: No User exists with the primary key 200023
+14:32 < jardineworks:#liferay> how does that make any sense? OF COURSE they don't exist... I am trying to ADD them
+14:32 < jardineworks:#liferay> :|
