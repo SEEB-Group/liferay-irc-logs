@@ -95,3 +95,5 @@
 12:09 <@jhf:#liferay> jardineworks: you should be able to set the permissions on it at creation time via some API. how are you creating it?
 12:10 <@jhf:#liferay> Tar-Minyatur: if Web Content Articles are set to be staged (configurable via Site Settings -> Staging), then when you publish the site to live, the articles should go along with it, even if they aren't part of a portlet.
 12:13 < Tar-Minyatur:#liferay> Mhm. All articles?
+12:14 < Tar-Minyatur:#liferay> When I check "Web Content" in the publishing dialog for a page all articles are published to live?
+12:15 < jardineworks:#liferay> jhf, I have a application start up hook that I run to check configurations and stuff and use it to report missing/bad configs.
