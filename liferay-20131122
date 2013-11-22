@@ -179,3 +179,10 @@
 14:11 < jardineworks:#liferay> why can't I just create a portion of an address
 14:11 < jardineworks:#liferay> I just checked the line number for the error.
 14:11 < jardineworks:#liferay> so aggaravating.
+14:12 < jardineworks:#liferay> all I need to do is store the zip for the moment.
+14:12 <@jhf:#liferay> I have used     AddressLocalServiceUtil.addAddress(user.getUserId(),
+14:12 <@jhf:#liferay>         Contact.class.getName(), user.getContactId(),
+14:12 <@jhf:#liferay>         street, "", "", city, zip, regionId, country.getCountryId(),
+14:12 <@jhf:#liferay>         11002, true, true);
+14:12 <@jhf:#liferay> }
+14:12 <@jhf:#liferay> so just use "" for the others :)
