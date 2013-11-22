@@ -152,3 +152,4 @@
 13:56 < modd:#liferay> web/guest/
 13:56 <@jhf:#liferay> and does it happen even after a while, like after everything is loaded and quiescent
 13:57 < modd:#liferay> yes
+13:57 < modd:#liferay> every time I'm logging in with a non-admin user
