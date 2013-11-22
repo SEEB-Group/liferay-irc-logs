@@ -76,3 +76,6 @@
 11:48 < Tar-Minyatur:#liferay> I think I found a solution for my problem.
 11:49 < Tar-Minyatur:#liferay> I will create a page and put all the different articles on there, which are loaded via AJAX.
 11:49 < Tar-Minyatur:#liferay> This page can be published to ensure the correct versions of the articles are live and available for the JS.
+11:50 < Tar-Minyatur:#liferay> And I create a rewrite rule, which will guide people that stumble upon this page (e.g. via the search) are redirected to the original page.
+11:50 < Tar-Minyatur:#liferay> -are redirected
+11:50 < Tar-Minyatur:#liferay> (It's getting late...my brain is getting all fuzzy.)
