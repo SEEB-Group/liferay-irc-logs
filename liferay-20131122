@@ -116,3 +116,4 @@
 12:35 <@jhf:#liferay> it uses addResourcePermission
 12:36 <@jhf:#liferay> see the 'Setting Permissions for Community Members' bit
 12:38 < jardineworks:#liferay> oooouu... that looks promising. Lemme try it.
+12:40 < jardineworks:#liferay> can't seem to resovle ExpandoBridgeImpl
