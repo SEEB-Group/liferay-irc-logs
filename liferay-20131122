@@ -103,3 +103,4 @@
 12:17 <@jhf:#liferay> Tar-Minyatur: no, you first need to create/publish the article, then publish the site to live.. only when you publish the site do the articles actually appear in the 'live' scope.
 12:20 <@jhf:#liferay> jardineworks: if that works for that one field, then yeah you can just do it for all by removing the if
 12:20 <@jhf:#liferay> I'm looking at how LR does it in control panel.. I swore there was an easier way.
+12:23 < jardineworks:#liferay> doesn't seem to work
