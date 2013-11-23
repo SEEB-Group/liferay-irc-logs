@@ -1,3 +1,4 @@
 --- Log opened Sat Nov 23 00:00:23 2013
 02:33 -!- mode/#liferay [+o rotty3000] by ChanServ
 03:41 -!- mode/#liferay [+o lundgren] by ChanServ
+12:59 < Andi`:#liferay> hello... i got a portlet that is opened in a dialog with Liferay.Util.openWindow ... when a certain event occurs, i want to perform a redirect and close the dialog... the problem is that the redirect works, but only inside the portlet that runs in the dialog.. i would need sth like window.location = ... but without javascript
