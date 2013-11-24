@@ -6,3 +6,5 @@
 16:59 < jardineworks:#liferay> I've personally never had an issue with performance
 16:59 < jardineworks:#liferay> but I also have never deployed a site the scale of Linked in.
 16:59 < jardineworks:#liferay> (on liferay)
+17:00 < axiomaticxx:#liferay> Is it true that liferay after a while always throw a ORMexception?
+17:01 < axiomaticxx:#liferay> I tried to find out that it is and it is just a normal exception in the liferay api
