@@ -1,3 +1,4 @@
 --- Log opened Sun Nov 24 00:00:25 2013
 16:42 < axiomaticxx:#liferay> is liferay suitable for a public facing website like linked-in? Any example?
 16:52 < jardineworks:#liferay> axiomaticxx, I would say so. I am currently using it to build a public facing ecommerce site
+16:55 < axiomaticxx:#liferay> I read on the internet that liferay has to be restarted multiple times when the amount of users gets big. Any experience?
