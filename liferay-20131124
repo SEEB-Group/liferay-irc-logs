@@ -8,3 +8,6 @@
 16:59 < jardineworks:#liferay> (on liferay)
 17:00 < axiomaticxx:#liferay> Is it true that liferay after a while always throw a ORMexception?
 17:01 < axiomaticxx:#liferay> I tried to find out that it is and it is just a normal exception in the liferay api
+17:07 < jardineworks:#liferay> axiomaticxx, I've seen it before, but it was a problem with my code not Liferay.
+17:07 < jardineworks:#liferay> once I fixed the error (can't recall exactly what it was) ... everything was fine
+17:07 < axiomaticxx:#liferay> jardineworks, thx lot. :-)
