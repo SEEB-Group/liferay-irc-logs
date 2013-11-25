@@ -6,3 +6,4 @@
 11:27 < jardineworks:#liferay> guli, it drives me bananas.
 11:28 < jardineworks:#liferay> I develop 80% of the time in debug mode for obvious reasons. Threads that end in the middle of coding force the debug view to pop up ...
 11:28 < jardineworks:#liferay> so annoying
+12:15 < jardineworks:#liferay> rotty3000, do you know how I can disable this worker thread stoppage in eclipse?
