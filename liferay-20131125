@@ -2,3 +2,4 @@
 10:16 < jardineworks:#liferay> does anyone know how, when you are debugging in eclipse, you can get the debugger to ignore the ThreadPoolExecutor stops?
 10:16 < jardineworks:#liferay> so annoying,.
 11:01 -!- mode/#liferay [+o jhf] by ChanServ
+11:16 < guli:#liferay> jardineworks: good question ! I don't know how and why it appears but it is very boring !
