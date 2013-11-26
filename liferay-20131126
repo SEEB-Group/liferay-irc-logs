@@ -76,3 +76,9 @@
 09:07 < hufg:#liferay> some indians moving them transistors
 09:07 < hufg:#liferay> mm yes that is strange
 09:08 < Tar-Minyatur:#liferay> Which theme does the Maven build use as parent?
+09:09 < Tar-Minyatur:#liferay> I can't find a setting for it.
+09:09 < hufg:#liferay> Tar-Minyatur: it's defined in build properties
+09:09 < jardineworks:#liferay> hufg, the only immediate differnce I can see is that the portlets that are repeating themselves are pulling content from the cache.
+09:09 < Tar-Minyatur:#liferay> I only have a pom.xml in there.
+09:09 < hufg:#liferay> are you using liferays maven theme plugin
+09:09 < hufg:#liferay> jardineworks: ok
