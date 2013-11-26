@@ -121,3 +121,8 @@
 09:56 < jardineworks:#liferay> its not an issue so much as an annoyance.
 09:56 < hufg:#liferay> ok
 09:56 < jardineworks:#liferay> I do most of my dev in debug mode so that I can step through it while I am working.. but when the threads finish the debugger alerts me (and I don't give a shit)
+09:57 < jardineworks:#liferay> just wondering is there is a way to disable that particular alert that you know of.
+09:57 < jardineworks:#liferay> I have added filters at both the package and the class level...
+09:57 < jardineworks:#liferay> I have put an explicit breakpoint and disabled it...
+09:57 < jardineworks:#liferay> but nothing seems to be happy
+09:58 < jardineworks:#liferay> happy meaning work. It's fine, I'm the one that is grumpy :)
