@@ -281,3 +281,4 @@
 14:19 < jardineworks:#liferay> well in there, if you do the examples you will see that the data gets pushed into the database in custom tables right? and then you use the XXXLocalServiceUtils to retrieve it. So if that servicebuilder jar is only in your one Portet then the utility class will only be accessible by that portlet. If you need it to be accessible by multiple portlets then you need to promote it to a global scope (TOMCAT_HOME/lib/ext) so that all of the portlet, hoo
 14:19 < jardineworks:#liferay> ks whatever can reference it
 14:19 < jardineworks:#liferay> that is one way to do it
+14:20 < jardineworks:#liferay> cotnent is native to the portal so there are already dozens of utility classes in place as part of the core api that you can use to retrieve content.
