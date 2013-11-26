@@ -75,3 +75,4 @@
 09:07 < jardineworks:#liferay> and it's not consistent as an issue which is very disconcerting. I mean the carousel portlet nearly always does it, but there are instances where it does not. And then I have some other portlets that never do it at all.
 09:07 < hufg:#liferay> some indians moving them transistors
 09:07 < hufg:#liferay> mm yes that is strange
+09:08 < Tar-Minyatur:#liferay> Which theme does the Maven build use as parent?
