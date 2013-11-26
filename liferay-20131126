@@ -326,3 +326,5 @@
 15:24 < Nudge:#liferay> the asset publisher might be a really good choice in my case
 15:24 <@jhf:#liferay> Liferay is designed to deal with custom, user-targeted content with its built-in features, that you don't always have to re-code yourself :)
 15:25 <@jhf:#liferay> many people do, and it gives you great flexibility, but takes some work to perfect.
+15:27 <@jhf:#liferay> asset publisher and web content in general is one of the "bread and butter" features of Liferay, so you get a bunch of ancillary features, like the ability to subscribe to an asset publisher's output, to get email or RSS feeds when new news items show up that match its filters.
+15:27 <@jhf:#liferay> and you can even customize the rendering of asset publisher - let IT do the filtering, and you write a custom template to render the result.
