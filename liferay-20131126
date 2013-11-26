@@ -88,3 +88,7 @@
 09:11 < hufg:#liferay> you may have a version that has it hardcoded
 09:11 < hufg:#liferay> in liferay-maven-plugin configuration
 09:11 < hufg:#liferay> parentTheme property
+09:13 < Tar-Minyatur:#liferay> <parentTheme>${liferay.theme.parent}</parentTheme>
+09:13 < Tar-Minyatur:#liferay> Ah!
+09:13 < Tar-Minyatur:#liferay> Getting closer.
+09:13 < Tar-Minyatur:#liferay> This is specified in the parent maven project of our actual theme project.
