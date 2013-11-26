@@ -35,3 +35,8 @@
 08:48 < hufg:#liferay> doesn't the user guide have instructions for every applicatio nserver
 08:48 < hufg:#liferay> then you have to figure out how to create jdbc resources for oracle in jboss7
 08:54 < hufg:#liferay> with jboss7+bundle your only trouble is to configure jdbc resources
+08:54 < Tar-Minyatur:#liferay> Mhm. Does anyone know what Liferay uses to build portlet.css?
+08:54 < hufg:#liferay> without looking i'm saying sass
+08:54 < hufg:#liferay> or what do you mean?
+08:54 < Tar-Minyatur:#liferay> Yes. I guess so.
+08:54 < Tar-Minyatur:#liferay> But where is the original.
