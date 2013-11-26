@@ -177,3 +177,8 @@
 12:37 < topolik:#liferay> yes,
 12:37 < topolik:#liferay> I believe
 12:37 < jardineworks:#liferay> good cover ;)
+12:38 < topolik:#liferay> but
+12:38 < jardineworks:#liferay> and then at the end I just say if there is a last path in the session, send the user there?
+12:38 < topolik:#liferay> there is one thing I need to check
+12:38 < topolik:#liferay> ah, yes
+12:38 < topolik:#liferay> it should be in the session even after log in
