@@ -161,3 +161,6 @@
 12:05 < jardineworks:#liferay> My authentication flow might in some cases go through several steps though.
 12:05 < jardineworks:#liferay> I know there is a saveLastPath value... does 0 mean DON'T ... as in don't overwrite what is there?
 12:31 < topolik:#liferay> jardineworks: let me see
+12:34 < topolik:#liferay> ok
+12:34 < topolik:#liferay> saveLastPath is true by default
+12:34 < topolik:#liferay> that means
