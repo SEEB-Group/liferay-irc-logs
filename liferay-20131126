@@ -20,3 +20,5 @@
 07:45 < hufg:#liferay> no
 07:46 < jardineworks:#liferay> I suppose it would depend how many, if any, logging statements you have in your render method :)
 07:46 < jardineworks:#liferay> I have a custom carousel portlet that loads 5 times!
+07:47 < jardineworks:#liferay> https://issues.liferay.com/browse/LPS-40984
+07:47 < jardineworks:#liferay> its listed as a minor big, but I would call it a little more severe than minor.
