@@ -16,3 +16,5 @@
 06:43 < hufg:#liferay> :D
 06:55 < hufg:#liferay> there are some lfieray security settings in play here
 06:59 < hufg:#liferay> no bug, feature!
+07:45 < jardineworks:#liferay> hufg, Tar-Minyatur -- have you guys encountered the bug where portlets in a custom them execute their render method multtiple times on one load?
+07:45 < hufg:#liferay> no
