@@ -2,3 +2,6 @@
 01:28 < kermitt:#liferay> .
 04:44 < hufg:#liferay> kermitt: see marketplace
 04:59 < Tar-Minyatur:#liferay> Good morning.
+05:00 < Tar-Minyatur:#liferay> Do you guys know what Liferay does when you provide all the JDBC connection settings instead of a JDBC pool name?
+05:00 < Tar-Minyatur:#liferay> Does Liferay create it's own connection pool?
+05:00 < Tar-Minyatur:#liferay> Because it looks like our Liferay opens way too many connections to the DB.
