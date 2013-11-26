@@ -294,3 +294,6 @@
 14:30 < Nudge:#liferay> So, is it possible to write VM templates outside a portlet? I guess, yes.
 14:55 <@jhf:#liferay> Nudge: scripting languages like velocity and freemarker are used in several places. mainly as a templating language for rendering web content, or used as a templating language for a site's theme (skin).
 14:58 <@jhf:#liferay> but it's safe to say that anywhere you can write template code, that code will have access to any underlying data from the database using the built-in objects made available to the context in which the script is evaluated.
+15:02 <@jhf:#liferay> so whether it's "inside a portlet" or not doesn't matter much. the only difference is the context in which it is evaluated. for example, if you are writing template code for a theme you'll have access to the servlet request/response object pair, as your template code is evaluated as part of a complete portal page request. if you're writing template code for rendering a single piece of web content, then you'll not have the same context, as it's evaluated only i
+15:02 <@jhf:#liferay> the context of that one web content piece (so for example you don't have access to the request/response objects, and a few other bits)
+15:03 < Nudge:#liferay> jhf: Thank you
