@@ -457,3 +457,4 @@
 16:25 < jardineworks:#liferay> "Please see the log." ... and then in the log I am gonna write "Please see the UI"
 16:25 <@jhf:#liferay> hahaha
 16:25 <@jhf:#liferay> good one
+16:36 < Nudge:#liferay> Is it possible to have DDL relations, e.g. select an item from one list as field value of another? or have at least a look at a generated id?
