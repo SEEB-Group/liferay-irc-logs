@@ -308,3 +308,6 @@
 15:11 < Nudge:#liferay> So the editor wants (either manually or automatically) use some db data (here: event table entry) to be displayed inside a web content display.
 15:14 <@jhf:#liferay> yeah.. so there are many ways to skin that cat :)
 15:14 < Nudge:#liferay> I guess if an editor came to me, I would start developing a portlet that allows him to input event data to a table, like the product example from the liferay-in-action.
+15:15 <@jhf:#liferay> one way is during registration (I think jardineworks suggested this) is that the "interests" are stored in an Expando data table, and then in your footer or web content template, look at the expando value and show the news items that match the value.
+15:15 < Nudge:#liferay> But if he/she would then ask me "And how can I use my events now in my pages" I would be lost.
+15:15 <@jhf:#liferay> BUT then you also have to code the "editor" application
