@@ -118,3 +118,6 @@
 09:54 < hufg:#liferay> http://stackoverflow.com/questions/6290470/eclipse-debugger-always-blocks-on-threadpoolexecutor-without-any-obvious-excepti
 09:55 < hufg:#liferay> no issues what so ever debugging liferay
 09:55 < hufg:#liferay> liferay running on glassfish
+09:56 < jardineworks:#liferay> its not an issue so much as an annoyance.
+09:56 < hufg:#liferay> ok
+09:56 < jardineworks:#liferay> I do most of my dev in debug mode so that I can step through it while I am working.. but when the threads finish the debugger alerts me (and I don't give a shit)
