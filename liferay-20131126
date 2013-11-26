@@ -56,3 +56,4 @@
 08:57 < hufg:#liferay> you can't precompile sass with maven theme plugin 6.1.1
 08:57 < hufg:#liferay> which means you either create your own compile and stab it into the heart of liferay maven theme plugin or let DynamicCssFilter do it's business
 08:58 < hufg:#liferay> anyways just copy portlet.css to the same path, my understanding is that this will override the original
+09:01 < gruntz:#liferay> hufg: thanks for help.
