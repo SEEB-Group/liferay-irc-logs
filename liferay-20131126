@@ -182,3 +182,4 @@
 12:38 < topolik:#liferay> there is one thing I need to check
 12:38 < topolik:#liferay> ah, yes
 12:38 < topolik:#liferay> it should be in the session even after log in
+12:39 < jardineworks:#liferay> so session.getAttribute("LAST_PATH"); will give me a url I can forward the user to?
