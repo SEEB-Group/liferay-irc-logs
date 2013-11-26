@@ -344,3 +344,5 @@
 15:36 <@jhf:#liferay> btw, asset publisher can display more than just web content articles - it can display any kind of "asset" (hence the name).
 15:36 < Nudge:#liferay> Your hints are very valuable for me. I will try these two next.
 15:36 <@jhf:#liferay> "asset" in this case is web content, blogs, wikis, forum posts, announcements, bookmarks, anything that Liferay considers an "asset"
+15:38 < Nudge:#liferay> One more question to "simple" web content: If an editor wants to write a simple paragraph, he creates a web content entry with it and selects it in a page that contains a web content display portlet, right?
+15:39 < Nudge:#liferay> What happens if he wants to reference to something dynamic inside the paragraph?
