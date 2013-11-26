@@ -219,3 +219,8 @@
 13:42 < Nudge:#liferay> Of course I would like to keep my structure clean, encapsulating services into separate portlets that can be hot-deployed independently, but on the other hand, the data should be usable in any part of the website.
 13:43 < Nudge:#liferay> I am unsure how to achieve this with liferay.
 13:45 < Nudge:#liferay> I want to find out if I could access a portlet's data from any vm template or if I could access data from a dynamic data list from a portlet and so on.
+13:46 < jardineworks:#liferay> Nudge, well, here is what I am hearing.
+13:46 < jardineworks:#liferay> 1. a user signs up and as part of their signup they pick stuff they like.
+13:46 < jardineworks:#liferay> 2. you create the user
+13:46 < jardineworks:#liferay> 3. as part of the user creation you set the expando properties to values based on their selection.
+13:46 < jardineworks:#liferay> 4. The user logs in
