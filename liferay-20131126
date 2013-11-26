@@ -311,3 +311,7 @@
 15:15 <@jhf:#liferay> one way is during registration (I think jardineworks suggested this) is that the "interests" are stored in an Expando data table, and then in your footer or web content template, look at the expando value and show the news items that match the value.
 15:15 < Nudge:#liferay> But if he/she would then ask me "And how can I use my events now in my pages" I would be lost.
 15:15 <@jhf:#liferay> BUT then you also have to code the "editor" application
+15:16 <@jhf:#liferay> Liferay has many built-in apps, one of which is the "Announcements" portlet which does exactly this.
+15:16 < jardineworks:#liferay> jhf easy peasy with the taglibs!
+15:16 < jardineworks:#liferay> there is a liferay ui taglib to render the expandos no?
+15:16 <@jhf:#liferay> yes, there is, but in this case Nudge wants to render the news items related to those expando values, not the expando values themselves
