@@ -325,3 +325,4 @@
 15:23 <@jhf:#liferay> if a user visits that page, they will only see news articles that "match" their interests, as asset publisher will filter and only show articles that match the user's value for that custom "interests" attribute
 15:24 < Nudge:#liferay> the asset publisher might be a really good choice in my case
 15:24 <@jhf:#liferay> Liferay is designed to deal with custom, user-targeted content with its built-in features, that you don't always have to re-code yourself :)
+15:25 <@jhf:#liferay> many people do, and it gives you great flexibility, but takes some work to perfect.
