@@ -323,3 +323,5 @@
 15:23 <@jhf:#liferay> so when a user signs up, they enter their interests, and this is stored as an expando "custom user attribute". then on any page, you can stick an asset publisher, and create web content articles categorized using the pre-defined set of interests.
 15:23 < Nudge:#liferay> I guess I need more time intimidating with all the functionality that already exists
 15:23 <@jhf:#liferay> if a user visits that page, they will only see news articles that "match" their interests, as asset publisher will filter and only show articles that match the user's value for that custom "interests" attribute
+15:24 < Nudge:#liferay> the asset publisher might be a really good choice in my case
+15:24 <@jhf:#liferay> Liferay is designed to deal with custom, user-targeted content with its built-in features, that you don't always have to re-code yourself :)
