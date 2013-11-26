@@ -331,3 +331,4 @@
 15:28 < Nudge:#liferay> nice
 15:28 <@jhf:#liferay> so then your "editor" will simply create web content articles, select one or more categories, and that's your "editor application".
 15:29 < Nudge:#liferay> Currently we use a cms that is very strong in combining a DDL-like data management with templates
+15:31 <@jhf:#liferay> yep, Liferay's DDL feature is very similar
