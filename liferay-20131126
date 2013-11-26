@@ -376,3 +376,4 @@
 15:54 < Nudge:#liferay> btw, that also relates to a question that came to my mind earlier today: Does liferay support "nested" templates?
 15:54 < Nudge:#liferay> Let's say I have a big-picture template for a pre-defined news-page layout.
 15:56 < Nudge:#liferay> with a headline, sub-headline, a picture and some text or main content area. Within the main content area, it should be possible to just select between a  handful paragraph templates, one just text, one ist text and small picture left, one is a picture centered without text. Is this possible?
+15:57 < Nudge:#liferay> The editor might add as many paragraphs as he likes.
