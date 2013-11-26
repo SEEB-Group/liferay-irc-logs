@@ -10,3 +10,5 @@
 06:27 < hufg:#liferay> i have a wicked problem with load balancer in front all redirects "fail" in liferay, 302 just doesn't happen and this affects the usability of the admin ui
 06:27 < hufg:#liferay> seems pretty far fetched that liferay has this kind of a bug
 06:29 < hufg:#liferay> essentially it's implying the host from request has some effect on liferay behavious
+06:29 < hufg:#liferay> behaviour
+06:29 < hufg:#liferay> doubt it :Z
