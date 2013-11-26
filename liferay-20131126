@@ -367,3 +367,4 @@
 15:47 <@jhf:#liferay> so http://super-long-random-page-url is defined to be "http://mysite.com/vanityurl"
 15:47 <@jhf:#liferay> then the editor COULD use the wysiwyg editor and use that pre-defined friendlyUrl which is guaranteed not to change, even if the page location changes
 15:47 <@jhf:#liferay> also useful for SEO
+15:48 < Nudge:#liferay> jhf: For the body-and-image-form: We use something similar as "section templates" today. I found this in liferay, it is very nice, I believe this will make our editors feel familiar with editing.
