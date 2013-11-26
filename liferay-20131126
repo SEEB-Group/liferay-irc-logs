@@ -421,3 +421,8 @@
 16:14 < jardineworks:#liferay> 	at com.liferay.portlet.StateAwareResponseImpl.setRenderParameter(StateAwareResponseImpl.java:177)
 16:14 <@jhf:#liferay> the names of the parameters must be namespaced so for example from jsps put <portlet:namespace />paramName
 16:14 <@jhf:#liferay> then from the action code access it with getParameter("paramName")
+16:15 < jardineworks:#liferay> these aren't parameters for the event though
+16:15 < jardineworks:#liferay> these are just for the current portlet
+16:15 < jardineworks:#liferay> lemme pastebin my method
+16:15 <@jhf:#liferay> k
+16:15 < jardineworks:#liferay> jhf,  http://pastebin.com/CnPGEUK5
