@@ -384,3 +384,6 @@
 15:59 <@jhf:#liferay> in the content field you can put tokens which are recognized by a custom template.
 15:59 < Nudge:#liferay> This might be okay, I think.
 15:59 <@jhf:#liferay> for example, if you put "< a href="[[LINK]]">page</a>" in the html (the editor would have to know to do this)
+16:00 <@jhf:#liferay> then the template could substitute the value of the link-to-page field in the template code.
+16:00 < Nudge:#liferay> I think this "knowledge" could be manageable
+16:00 <@jhf:#liferay> like <div class="mainContent">$stringUtil.replace("[[LINK]]", $link-to-page.data)</div>
