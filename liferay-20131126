@@ -201,3 +201,6 @@
 13:31 < jardineworks:#liferay> fire away!
 13:31 < Nudge:#liferay> especially I want to find out how to design my data storage best
 13:32 < Nudge:#liferay> I want to create some services and data entries that could be used throughout a portal
+13:32 < Nudge:#liferay> there is the feature of dynamic data lists
+13:32 < Nudge:#liferay> and there is also the possibility to encapsulate data within a portlet
+13:32 < jardineworks:#liferay> Nudge -- you may also be interested in Service Builder.
