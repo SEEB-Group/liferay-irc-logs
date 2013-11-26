@@ -320,3 +320,6 @@
 15:22 <@jhf:#liferay> I just don't think you need to code any custom editor application or deal with expando API at all unless you really want to.
 15:22 <@jhf:#liferay> for example
 15:22 <@jhf:#liferay> there is a feature in "Asset Publisher" that will display web content articles that match a pre-defined custom user attribute (which underneath uses expando)
+15:23 <@jhf:#liferay> so when a user signs up, they enter their interests, and this is stored as an expando "custom user attribute". then on any page, you can stick an asset publisher, and create web content articles categorized using the pre-defined set of interests.
+15:23 < Nudge:#liferay> I guess I need more time intimidating with all the functionality that already exists
+15:23 <@jhf:#liferay> if a user visits that page, they will only see news articles that "match" their interests, as asset publisher will filter and only show articles that match the user's value for that custom "interests" attribute
