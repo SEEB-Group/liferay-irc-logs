@@ -315,3 +315,5 @@
 15:16 < jardineworks:#liferay> jhf easy peasy with the taglibs!
 15:16 < jardineworks:#liferay> there is a liferay ui taglib to render the expandos no?
 15:16 <@jhf:#liferay> yes, there is, but in this case Nudge wants to render the news items related to those expando values, not the expando values themselves
+15:18 < jardineworks:#liferay> jhf, no no.. I meant for the "editor" application where someone could change them
+15:19 <@jhf:#liferay> yeah if you coded your own editor application, it could basically be an editor for the expando table, allowing an admin to change the values that the user originally selected during registration
