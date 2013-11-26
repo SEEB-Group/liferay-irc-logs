@@ -154,3 +154,4 @@
 12:00 < topolik:#liferay> like
 12:01 < topolik:#liferay> asdf <span class="myIcon" /> xxx
 12:01 < topolik:#liferay> and in the theme's CSS have sth like this:
+12:02 < topolik:#liferay> .myIcon {background-image: url('...'); display: block; width: XXpx; height: YYpx;...}
