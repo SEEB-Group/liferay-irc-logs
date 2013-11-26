@@ -51,3 +51,7 @@
 08:56 < Tar-Minyatur:#liferay> *of
 08:56 < hufg:#liferay> yes and how this happens totally depends on your theme b uild
 08:56 < Tar-Minyatur:#liferay>  Mhm. My maven build seems to generate the portlet.css...
+08:57 < hufg:#liferay> yes but it's still shitty, don't argue with me man!
+08:57 < hufg:#liferay> 8)
+08:57 < hufg:#liferay> you can't precompile sass with maven theme plugin 6.1.1
+08:57 < hufg:#liferay> which means you either create your own compile and stab it into the heart of liferay maven theme plugin or let DynamicCssFilter do it's business
