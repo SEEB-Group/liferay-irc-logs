@@ -217,3 +217,4 @@
 13:40 < Nudge:#liferay> Later I would like to expand this simple thing for example so that access to documents and web pages is restricted to those that belong to an interest.
 13:41 < Nudge:#liferay> So there will be some kind of foreign keys involved.
 13:42 < Nudge:#liferay> Of course I would like to keep my structure clean, encapsulating services into separate portlets that can be hot-deployed independently, but on the other hand, the data should be usable in any part of the website.
+13:43 < Nudge:#liferay> I am unsure how to achieve this with liferay.
