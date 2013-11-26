@@ -364,3 +364,6 @@
 15:46 <@jhf:#liferay> then the editor would choose the page
 15:46 <@jhf:#liferay> then in the template you'd have "<a href="$link_to_page.data">LINK</a>"
 15:46 <@jhf:#liferay> you can also define "friendlyUrls" to pages
+15:47 <@jhf:#liferay> so http://super-long-random-page-url is defined to be "http://mysite.com/vanityurl"
+15:47 <@jhf:#liferay> then the editor COULD use the wysiwyg editor and use that pre-defined friendlyUrl which is guaranteed not to change, even if the page location changes
+15:47 <@jhf:#liferay> also useful for SEO
