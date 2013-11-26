@@ -63,3 +63,5 @@
 09:02 < hufg:#liferay> oh no scratch that i already forgot about dynamiccssfilter
 09:02 < hufg:#liferay> no compiling
 09:03 < Tar-Minyatur:#liferay> Ok. I'll try that. Thanks.
+09:05 < hufg:#liferay> Tar-Minyatur: the maven plugin "overlays" the parent theme into your theme and keeps your files that are overlapping
+09:05 < hufg:#liferay> or thats how it's supposed to work
