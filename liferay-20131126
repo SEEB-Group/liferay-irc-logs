@@ -92,3 +92,4 @@
 09:13 < Tar-Minyatur:#liferay> Ah!
 09:13 < Tar-Minyatur:#liferay> Getting closer.
 09:13 < Tar-Minyatur:#liferay> This is specified in the parent maven project of our actual theme project.
+09:14 < Tar-Minyatur:#liferay> Ah. Found it. Our theme is built on top of _styled.
