@@ -228,3 +228,5 @@
 13:47 < jardineworks:#liferay> 6. you create a custom portlet, grab the user out of the ThemeDisplay, check the expandos and then use your own branch logic to determine wat they should see..
 13:47 < jardineworks:#liferay> pages, files, links. whatever.
 13:49 < Nudge:#liferay> This way, would it be possible to let an editor maintain the possible values?
+13:50 < jardineworks:#liferay> everything is based on ACLs. YOu can set the attributes so that a particular role can manage them, and you can set it so that a user can manage their own
+13:50 < jardineworks:#liferay> totally up to you
