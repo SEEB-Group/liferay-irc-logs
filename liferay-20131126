@@ -301,3 +301,5 @@
 15:04 <@jhf:#liferay> ;-)
 15:04 < Nudge:#liferay> If I had a small vm template for web content in the footer and would like to include something from my portlet's db data, how would I do that?
 15:05 <@jhf:#liferay> searching for a good example..
+15:06 < Nudge:#liferay> Do I always need to restart the liferay server so that my new service jar is reloaded? Or is there a general entity service service within liferay?
+15:06 < Nudge:#liferay> Okay, let me construct some weird example ... :-)
