@@ -152,3 +152,5 @@
 12:00 < topolik:#liferay> you can use some placeholder
 12:00 < topolik:#liferay> that you reference from the theme
 12:00 < topolik:#liferay> like
+12:01 < topolik:#liferay> asdf <span class="myIcon" /> xxx
+12:01 < topolik:#liferay> and in the theme's CSS have sth like this:
