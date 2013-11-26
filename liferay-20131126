@@ -373,3 +373,5 @@
 15:53 <@jhf:#liferay> i'll do some digging though.
 15:53 <@jhf:#liferay> it'd be weird if you wanted to insert some dynamic link, to have to write half a paragraph in each of two structured text boxes
 15:53 <@jhf:#liferay> plus, not very internationalizable
+15:54 < Nudge:#liferay> btw, that also relates to a question that came to my mind earlier today: Does liferay support "nested" templates?
+15:54 < Nudge:#liferay> Let's say I have a big-picture template for a pre-defined news-page layout.
