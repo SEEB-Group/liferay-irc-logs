@@ -160,3 +160,4 @@
 12:04 < jardineworks:#liferay> topolik, separate question though. I have a custom authenticator. After the user logs in I want to redirect them to where they were before they signed in (like LR does by default)
 12:05 < jardineworks:#liferay> My authentication flow might in some cases go through several steps though.
 12:05 < jardineworks:#liferay> I know there is a saveLastPath value... does 0 mean DON'T ... as in don't overwrite what is there?
+12:31 < topolik:#liferay> jardineworks: let me see
