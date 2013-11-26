@@ -263,3 +263,4 @@
 14:03 < jardineworks:#liferay> but there is a guy from Finland and Tar-Minyatur is in Germany
 14:03 < jardineworks:#liferay> so you are not alone
 14:03 < jardineworks:#liferay> ;)
+14:04 < Nudge:#liferay> jardineworks: Maybe you can help me with one very important question to me: Is it possible to have a data list somewhere (portlet, dynamic data list, wherever) and use the data entry's fields to feed a content template, so that each generates a page on its own? In our current CMS this feature is called content projection templates.
