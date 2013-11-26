@@ -289,3 +289,4 @@
 14:25 < Nudge:#liferay> Or maybe this is just a confusion and the restriction I think of does not apply at all.
 14:26 < Nudge:#liferay> So, a total newbie question first: There are these template languages in Liferay, VM, Freemarker and so on.
 14:27 < jardineworks:#liferay> Nudge, if you enable remote interfaces, then all of your service builder stuff can be accessed via SOAP, REST or JSON services.
+14:28 < Nudge:#liferay> jardineworks: Thanks for the hint, I will keep that in mind for later.
