@@ -437,3 +437,7 @@
 16:20 < jardineworks:#liferay> if the user doesn't enter a query string then it would be null.
 16:20 <@jhf:#liferay> looks like categoryIds may be null
 16:20 <@jhf:#liferay> or that :)
+16:21 < jardineworks:#liferay> 92 hours in 6 days
+16:21 < jardineworks:#liferay> thats my excuse
+16:21 <@jhf:#liferay> would've been nice if the error said "xxx is null"
+16:21 <@jhf:#liferay> :)
