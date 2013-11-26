@@ -170,3 +170,10 @@
 12:36 < jardineworks:#liferay> ok .. I do that
 12:36 < topolik:#liferay> then, this URL won't overwrite the last path
 12:36 < jardineworks:#liferay> soooo
+12:37 < jardineworks:#liferay> If I am on an order page for example.
+12:37 < jardineworks:#liferay> and I don't set the value ... it will save that location
+12:37 < jardineworks:#liferay> and then as I step through the other pages I set saveLastPath, 0 ... then the last path will continue to store my order page
+12:37 < jardineworks:#liferay> right?
+12:37 < topolik:#liferay> yes,
+12:37 < topolik:#liferay> I believe
+12:37 < jardineworks:#liferay> good cover ;)
