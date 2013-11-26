@@ -30,3 +30,4 @@
 08:01 < hufg:#liferay> you can see sass failures in the linked forum post
 08:04 < hufg:#liferay> anything is possible though but the correlation of custom theme and "duplicate" render request calls is a bit far fetched imho
 08:05 < hufg:#liferay> have you tried using the classic theme?
+08:07 < hufg:#liferay> i'm not saying you don't have problems just that the issue is very weak and lacks any insight, same for the forum post
