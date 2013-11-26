@@ -100,3 +100,6 @@
 09:17 < jardineworks:#liferay> hufg, when is your go live again?
 09:18 < Tar-Minyatur:#liferay> Too bad they totally disregarded that in our project...
 09:21 < hufg:#liferay> Tar-Minyatur: yes it's pretty impressive
+09:41 < Tar-Minyatur:#liferay> Is override.css something that Liferay suggests for themes to use or did the idiots who did ours invent this?
+09:41 < hufg:#liferay> no idea
+09:41 < Tar-Minyatur:#liferay> (There are loads of directives with !important in there, so I guess it's just a quick and dirty approach again.)
