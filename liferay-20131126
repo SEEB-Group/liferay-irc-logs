@@ -191,3 +191,4 @@
 12:52 < topolik:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/com/liferay/portal/struts/PortalRequestProcessor.java#L162,L163
 12:52 < topolik:#liferay> this means, you need to redirect to MainServlet after log in, but should not specify any struts action/mapping
 12:53 < topolik:#liferay> i.e. go to "/c"
+13:00 < jardineworks:#liferay> hmmm
