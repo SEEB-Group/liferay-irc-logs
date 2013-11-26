@@ -135,3 +135,7 @@
 11:16 < jardineworks:#liferay> can someone tell me what the proper way to reference an image (from the theme) in basic webcontent is?
 11:17 < jardineworks:#liferay> using /[themename war folder/image/... can't be the right way. If someone changes the theme all the references break
 11:38 < topolik:#liferay> jardineworks: themeDisplay.getPathImage() should be what you look for
+11:58 < jardineworks:#liferay> topolik, in a scriptlet right?
+11:58 < jardineworks:#liferay> that works for a jsp, but I cant use that in a piece of web content
+11:59 < topolik:#liferay> ah, from web content
+11:59 < jardineworks:#liferay> it actually prints out the themeDisplay.getPathThemeIamges()
