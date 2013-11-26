@@ -341,3 +341,6 @@
 15:33 < Nudge:#liferay> Of course the hard thing about this is that there is a massive list of (somtimes unused) templates
 15:34 <@jhf:#liferay> The "DDL Display Portlet" and "Web Content Display Portlet" function the same - to render one or more "records" (articles)
 15:35 <@jhf:#liferay> asset publisher just filters and displays "many" articles
+15:36 <@jhf:#liferay> btw, asset publisher can display more than just web content articles - it can display any kind of "asset" (hence the name).
+15:36 < Nudge:#liferay> Your hints are very valuable for me. I will try these two next.
+15:36 <@jhf:#liferay> "asset" in this case is web content, blogs, wikis, forum posts, announcements, bookmarks, anything that Liferay considers an "asset"
