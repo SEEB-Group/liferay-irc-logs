@@ -208,3 +208,7 @@
 13:33 < Nudge:#liferay> is there any long-term recommendation where to put what kind of data?
 13:34 < jardineworks:#liferay> Nudge, I'm not sure how to answer that. I mean, I suppose it depends on the data .. and how you use it, how you need it to be accessed (outside the portal maybe?)
 13:34 < Nudge:#liferay> let's say I have some user-related data like his/her interests in some of the topics the website offers.
+13:35 < jardineworks:#liferay> how big is the list?
+13:35 < jardineworks:#liferay> like a dozen fields? or hundreds?
+13:35 < Nudge:#liferay> lets start with something simple, perhaps 10 interests out of 20
+13:35 < Nudge:#liferay> the user can multi-select them on registering
