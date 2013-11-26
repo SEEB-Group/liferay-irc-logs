@@ -26,3 +26,5 @@
 07:58 < hufg:#liferay> you mean a portlet instantied in theme
 07:59 < hufg:#liferay> that is very strange
 07:59 < hufg:#liferay> we don't have a logging policy that would catch this
+08:01 < hufg:#liferay> doesn't seem too legit
+08:01 < hufg:#liferay> you can see sass failures in the linked forum post
