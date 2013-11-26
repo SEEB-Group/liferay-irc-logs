@@ -267,3 +267,6 @@
 14:06 < Nudge:#liferay> e.g. you have a list of events with title, location, date, time and description. And then for each entry there will be page with a template using those values.
 14:08 < jardineworks:#liferay> Nudge, you create a structure for each of your content types, and then you can create 0 - n templates for that type. When you add the content to a page you pick the content and the template to use. So a single event can use the same data but present itself differently depending on where you are on the site
 14:09 < Nudge:#liferay> Is it possible to let liferay generate the pages automatically?
+14:10 < jardineworks:#liferay> yes
+14:10 < jardineworks:#liferay> a page in liferay is referred to as a layout.
+14:10 < jardineworks:#liferay> which is essentially a virtual url that has a page layout assigned to it
