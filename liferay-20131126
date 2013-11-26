@@ -346,3 +346,4 @@
 15:36 <@jhf:#liferay> "asset" in this case is web content, blogs, wikis, forum posts, announcements, bookmarks, anything that Liferay considers an "asset"
 15:38 < Nudge:#liferay> One more question to "simple" web content: If an editor wants to write a simple paragraph, he creates a web content entry with it and selects it in a page that contains a web content display portlet, right?
 15:39 < Nudge:#liferay> What happens if he wants to reference to something dynamic inside the paragraph?
+15:42 <@jhf:#liferay> if it's a simple paragraph of HTML, he would create an 'unstructured' piece of web content, without any associated template, then add a 'web content display' portlet on a page, and configure it to show that specific piece of web content.
