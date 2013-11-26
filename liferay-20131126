@@ -84,3 +84,7 @@
 09:09 < hufg:#liferay> jardineworks: ok
 09:10 < Tar-Minyatur:#liferay> The pom.xml uses liferay-maven-plugin to execute theme-merge, build-css and build-thumbnail.
 09:10 < Tar-Minyatur:#liferay> But I can't find any setting that specifies which themes to merge.
+09:11 < hufg:#liferay> <parentTheme></parentTheme>
+09:11 < hufg:#liferay> you may have a version that has it hardcoded
+09:11 < hufg:#liferay> in liferay-maven-plugin configuration
+09:11 < hufg:#liferay> parentTheme property
