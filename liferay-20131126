@@ -111,3 +111,6 @@
 09:51 < hufg:#liferay> 8)
 09:52 < jardineworks:#liferay> hufg, do you use eclipse?
 09:52 < hufg:#liferay> yes
+09:53 < jardineworks:#liferay> hufg, do you know how to avoid eclipse stopping on the ThreadPoolExecutor breakpoint when in debug mode all the time? its so annoying.
+09:53 < hufg:#liferay> hmm
+09:53 < hufg:#liferay> whats that?
