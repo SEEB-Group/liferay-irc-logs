@@ -369,3 +369,7 @@
 15:47 <@jhf:#liferay> also useful for SEO
 15:48 < Nudge:#liferay> jhf: For the body-and-image-form: We use something similar as "section templates" today. I found this in liferay, it is very nice, I believe this will make our editors feel familiar with editing.
 15:51 < Nudge:#liferay> Could I create a link-to-page-structure that is styled display:inline and an editor could pick it into the unstructured web content or does he/she then always have to end the previous web content, display the link-to-page below and start with the new text below the link again?
+15:53 <@jhf:#liferay> very good question. I don't think it's possible to reference dynamic stuff from unstructured web content.
+15:53 <@jhf:#liferay> i'll do some digging though.
+15:53 <@jhf:#liferay> it'd be weird if you wanted to insert some dynamic link, to have to write half a paragraph in each of two structured text boxes
+15:53 <@jhf:#liferay> plus, not very internationalizable
