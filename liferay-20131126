@@ -272,3 +272,4 @@
 14:10 < jardineworks:#liferay> which is essentially a virtual url that has a page layout assigned to it
 14:11 < jardineworks:#liferay> you then drop your portlets into the layout
 14:11 < jardineworks:#liferay> the logic of your portlets will determine what shows.
+14:12 < Nudge:#liferay> Currently I don't understand much of your answer but I am happy that at least there is a way. One day I guess this sounds simple to me. :)
