@@ -284,3 +284,4 @@
 14:20 < jardineworks:#liferay> cotnent is native to the portal so there are already dozens of utility classes in place as part of the core api that you can use to retrieve content.
 14:22 < Nudge:#liferay> yes
 14:23 < Nudge:#liferay> I think I understand the local mechanics of the service builder inside one portlet.
+14:24 < Nudge:#liferay> When it comes to the access from outside of the portlet, I am struggling a bit.
