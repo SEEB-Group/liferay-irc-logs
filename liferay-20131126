@@ -377,3 +377,6 @@
 15:54 < Nudge:#liferay> Let's say I have a big-picture template for a pre-defined news-page layout.
 15:56 < Nudge:#liferay> with a headline, sub-headline, a picture and some text or main content area. Within the main content area, it should be possible to just select between a  handful paragraph templates, one just text, one ist text and small picture left, one is a picture centered without text. Is this possible?
 15:57 < Nudge:#liferay> The editor might add as many paragraphs as he likes.
+15:58 <@jhf:#liferay> I need to do some digging on that too - structures can "inherit" from other structures, but I believe when Liferay renders a single article, it does so using only a single template.
+15:58 <@jhf:#liferay> some folks on here tried to do a dynamic "include" of another article, but it was troublesome and I don't think they came to a good solution.
+15:58 < Nudge:#liferay> that would we very interesting to us.
