@@ -393,3 +393,8 @@
 16:05 < Nudge:#liferay> Would it be possible to write a dropdown or search widget in a link-to-page-structure where the editor can choose the page to be linked?
 16:05 < Nudge:#liferay> if its VM, maybe one can access liferay's content data base?
 16:06 <@jhf:#liferay> yes, that's easy - the trouble is how the editor specifies WHERE in the middle of his HTML does the link appear
+16:07 <@jhf:#liferay> there is already a 'link-to-page' field type for web content.
+16:07 <@jhf:#liferay> but if the editor is writing the content paragraph in html (using ckeditor) then they'd have to know to stick a link called "[[LINK]]" into the html
+16:07 < Nudge:#liferay> Well, I could image a field called ReplaceText, where the editor specifies the String he wants to be replaced with the url.
+16:07 <@jhf:#liferay> sure you could do that too!
+16:07 <@jhf:#liferay> that would be better than having to "know"
