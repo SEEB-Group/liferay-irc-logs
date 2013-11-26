@@ -278,3 +278,6 @@
 14:17 < jardineworks:#liferay> Nudge, that question doesn't really make sense :). You don't put data in a portlet really. You use a portlet to access the data. Best thing you can do is read the ServiceBuilder chapter in Liferay in Action. Chapter 3 I think it was
 14:17 < jardineworks:#liferay> that will help you understand the pattern that Liferay uses.
 14:17 < Nudge:#liferay> I did, indeed.
+14:19 < jardineworks:#liferay> well in there, if you do the examples you will see that the data gets pushed into the database in custom tables right? and then you use the XXXLocalServiceUtils to retrieve it. So if that servicebuilder jar is only in your one Portet then the utility class will only be accessible by that portlet. If you need it to be accessible by multiple portlets then you need to promote it to a global scope (TOMCAT_HOME/lib/ext) so that all of the portlet, hoo
+14:19 < jardineworks:#liferay> ks whatever can reference it
+14:19 < jardineworks:#liferay> that is one way to do it
