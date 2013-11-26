@@ -114,3 +114,6 @@
 09:53 < jardineworks:#liferay> hufg, do you know how to avoid eclipse stopping on the ThreadPoolExecutor breakpoint when in debug mode all the time? its so annoying.
 09:53 < hufg:#liferay> hmm
 09:53 < hufg:#liferay> whats that?
+09:54 < hufg:#liferay> never encountered this problem
+09:54 < hufg:#liferay> http://stackoverflow.com/questions/6290470/eclipse-debugger-always-blocks-on-threadpoolexecutor-without-any-obvious-excepti
+09:55 < hufg:#liferay> no issues what so ever debugging liferay
