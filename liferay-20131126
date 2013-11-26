@@ -350,3 +350,6 @@
 15:43 <@jhf:#liferay> it could only by HTML, with no dynamic stuff in it. for dynamic stuff, that's the job of a 'structured' web content article, with an associated template, written in velocity or free marker, which would access the 'fields' of the 'structure' (schema) of the web content article, and appropriately place them in HTML markup.
 15:43 <@jhf:#liferay> for example, suppose you had a web content structure that had three fields representing a news article: "header" and "body" and "image"
 15:43 < Nudge:#liferay> For the unstructured piece of HTML, I have seen the tinyMCE-like edit control. It is quite simple and when inserting a link, you can choose protocol, target and url. Is there some support to link to another liferay page using an internal id so that the link is resistent to url renaming?
+15:44 <@jhf:#liferay> when the editor goes to create a new 'news' article, they would not be faced with a generic WYSIWYG editor. they would be faced with a screen with three boxes for input.
+15:44 <@jhf:#liferay> in the first box, they would enter "Some Headline" (without any HTML markup)
+15:44 <@jhf:#liferay> for the "Image" box, they would click a select box, and choose an already-uploaded image (or upload one right then and there)
