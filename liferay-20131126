@@ -290,3 +290,4 @@
 14:26 < Nudge:#liferay> So, a total newbie question first: There are these template languages in Liferay, VM, Freemarker and so on.
 14:27 < jardineworks:#liferay> Nudge, if you enable remote interfaces, then all of your service builder stuff can be accessed via SOAP, REST or JSON services.
 14:28 < Nudge:#liferay> jardineworks: Thanks for the hint, I will keep that in mind for later.
+14:29 < Nudge:#liferay> At first I would like to dissolve my confusion about the "local" re-use of stored db data.
