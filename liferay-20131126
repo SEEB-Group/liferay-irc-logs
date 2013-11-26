@@ -165,3 +165,8 @@
 12:34 < topolik:#liferay> saveLastPath is true by default
 12:34 < topolik:#liferay> that means
 12:35 < topolik:#liferay> when you request a page, portal stores current URL into LAST_PATH request attribute and then into session
+12:36 < jardineworks:#liferay> ok -- so if I set LAST_PATH to 0 in a call, does that mean, don't save the current url?
+12:36 < topolik:#liferay> you need to set "saveLastPath=0" in a request parameter!
+12:36 < jardineworks:#liferay> ok .. I do that
+12:36 < topolik:#liferay> then, this URL won't overwrite the last path
+12:36 < jardineworks:#liferay> soooo
