@@ -46,3 +46,8 @@
 08:55 < hufg:#liferay> at least in 6.1 there are three themes, styled, unstyled and classic
 08:55 < hufg:#liferay> styled has admin ui styles predefined, unstyled has nothing(LOL) and classic is the showcase
 08:55 < hufg:#liferay> so you derive your theme from unstyled which has the portlet.css
+08:56 < Tar-Minyatur:#liferay> So I should be able to override some if the stuff and SASS will merge it with the original file from the classic theme?
+08:56 < hufg:#liferay> then because maven plugin is so shitty you let DynamicCssFilter compile it to sass at runtime
+08:56 < Tar-Minyatur:#liferay> *of
+08:56 < hufg:#liferay> yes and how this happens totally depends on your theme b uild
+08:56 < Tar-Minyatur:#liferay>  Mhm. My maven build seems to generate the portlet.css...
