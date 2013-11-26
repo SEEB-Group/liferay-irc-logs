@@ -426,3 +426,5 @@
 16:15 < jardineworks:#liferay> lemme pastebin my method
 16:15 <@jhf:#liferay> k
 16:15 < jardineworks:#liferay> jhf,  http://pastebin.com/CnPGEUK5
+16:19 <@jhf:#liferay> that error means the name or value passed to setRenderParameter is null
+16:19 <@jhf:#liferay> (looking at the source code to StateAwareResponseImpl)
