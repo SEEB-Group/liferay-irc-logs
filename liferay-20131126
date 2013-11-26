@@ -133,3 +133,4 @@
 10:00 < jardineworks:#liferay> the world before the internet must have been a really frustrating place.
 10:01 < hufg:#liferay> 8)
 11:16 < jardineworks:#liferay> can someone tell me what the proper way to reference an image (from the theme) in basic webcontent is?
+11:17 < jardineworks:#liferay> using /[themename war folder/image/... can't be the right way. If someone changes the theme all the references break
