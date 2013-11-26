@@ -306,3 +306,5 @@
 15:08 < Nudge:#liferay> The user registered and selected some of his favourite interests.
 15:10 < Nudge:#liferay> An editor creates some news or events that relate to this interests and wants to display this new information to each user in the footer, for example "Upcoming event for <interest-name>: On March 14th, 2014: Get-together in Paris".
 15:11 < Nudge:#liferay> So the editor wants (either manually or automatically) use some db data (here: event table entry) to be displayed inside a web content display.
+15:14 <@jhf:#liferay> yeah.. so there are many ways to skin that cat :)
+15:14 < Nudge:#liferay> I guess if an editor came to me, I would start developing a portlet that allows him to input event data to a table, like the product example from the liferay-in-action.
