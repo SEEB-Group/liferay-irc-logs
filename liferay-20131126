@@ -24,3 +24,5 @@
 07:47 < jardineworks:#liferay> its listed as a minor big, but I would call it a little more severe than minor.
 07:58 < hufg:#liferay> hmm portlets in a custom theme
 07:58 < hufg:#liferay> you mean a portlet instantied in theme
+07:59 < hufg:#liferay> that is very strange
+07:59 < hufg:#liferay> we don't have a logging policy that would catch this
