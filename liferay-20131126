@@ -34,3 +34,4 @@
 08:32 < gruntz:#liferay> Hi. There's a bunch of tutorials how to setup liferay's tomcat with oracle xe database, but merely none which metions how to do this with liferay+jboss7 bundle, any useful links or hints will be very much appreciated!
 08:48 < hufg:#liferay> doesn't the user guide have instructions for every applicatio nserver
 08:48 < hufg:#liferay> then you have to figure out how to create jdbc resources for oracle in jboss7
+08:54 < hufg:#liferay> with jboss7+bundle your only trouble is to configure jdbc resources
