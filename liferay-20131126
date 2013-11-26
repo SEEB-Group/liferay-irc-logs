@@ -65,3 +65,9 @@
 09:03 < Tar-Minyatur:#liferay> Ok. I'll try that. Thanks.
 09:05 < hufg:#liferay> Tar-Minyatur: the maven plugin "overlays" the parent theme into your theme and keeps your files that are overlapping
 09:05 < hufg:#liferay> or thats how it's supposed to work
+09:06 < jardineworks:#liferay> hufg, I haven't actually dug into it yet to be honest ... I was just curious if anyone else has seen it too. Next week I am hoping to get to it.
+09:06 < hufg:#liferay> hehe yeah
+09:06 < jardineworks:#liferay> I'll let  you know if I find anything out
+09:06 < jardineworks:#liferay> for now, the site still responds fast enough.
+09:06 < hufg:#liferay> someone bought us shitty machines
+09:07 < hufg:#liferay> no speed for me
