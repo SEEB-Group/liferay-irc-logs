@@ -428,3 +428,12 @@
 16:15 < jardineworks:#liferay> jhf,  http://pastebin.com/CnPGEUK5
 16:19 <@jhf:#liferay> that error means the name or value passed to setRenderParameter is null
 16:19 <@jhf:#liferay> (looking at the source code to StateAwareResponseImpl)
+16:20 <@jhf:#liferay> 		if ((name == null) || (value == null)) {
+16:20 <@jhf:#liferay> 			throw new IllegalArgumentException();
+16:20 <@jhf:#liferay> 		}
+16:20 < jardineworks:#liferay> oh
+16:20 < jardineworks:#liferay> hmmm
+16:20 < jardineworks:#liferay> I see
+16:20 < jardineworks:#liferay> if the user doesn't enter a query string then it would be null.
+16:20 <@jhf:#liferay> looks like categoryIds may be null
+16:20 <@jhf:#liferay> or that :)
