@@ -40,3 +40,9 @@
 08:54 < hufg:#liferay> or what do you mean?
 08:54 < Tar-Minyatur:#liferay> Yes. I guess so.
 08:54 < Tar-Minyatur:#liferay> But where is the original.
+08:55 < Tar-Minyatur:#liferay> There are loads of definitions in there, which I can't find anywhere.
+08:55 < hufg:#liferay> the styled theme is the original
+08:55 < Tar-Minyatur:#liferay> And the portlet.css only appears in the target/ folder.
+08:55 < hufg:#liferay> at least in 6.1 there are three themes, styled, unstyled and classic
+08:55 < hufg:#liferay> styled has admin ui styles predefined, unstyled has nothing(LOL) and classic is the showcase
+08:55 < hufg:#liferay> so you derive your theme from unstyled which has the portlet.css
