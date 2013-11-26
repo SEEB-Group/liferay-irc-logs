@@ -335,3 +335,5 @@
 15:31 <@jhf:#liferay> you define the data "schema" and the you (or users) enter "records" and then you can display them using custom templates
 15:31 <@jhf:#liferay> or export to a spreadsheet, etc
 15:31 < Nudge:#liferay> usually our editors are publishing a new page by inserting a new data entry, then creating a url and choosing a template and connect it to their new entry id.
+15:32 < Nudge:#liferay> if something similar is possible with liferay too, that would be great
+15:32 < Nudge:#liferay> This way, I could avoid writing all that data portlet stuff for each entity type
