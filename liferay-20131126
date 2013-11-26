@@ -353,3 +353,10 @@
 15:44 <@jhf:#liferay> when the editor goes to create a new 'news' article, they would not be faced with a generic WYSIWYG editor. they would be faced with a screen with three boxes for input.
 15:44 <@jhf:#liferay> in the first box, they would enter "Some Headline" (without any HTML markup)
 15:44 <@jhf:#liferay> for the "Image" box, they would click a select box, and choose an already-uploaded image (or upload one right then and there)
+15:45 <@jhf:#liferay> for the "body", they would be faced with a WYSIWYG field (if you wanted to give them that much editorial conttrol)
+15:45 <@jhf:#liferay> then the template would look like
+15:45 <@jhf:#liferay> <h1>
+15:45 <@jhf:#liferay> $header.data
+15:45 <@jhf:#liferay> </h1>
+15:45 <@jhf:#liferay> <img src="$image.data"/>
+15:45 <@jhf:#liferay> <p> $body.data </p>
