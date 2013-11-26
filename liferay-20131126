@@ -218,3 +218,4 @@
 13:41 < Nudge:#liferay> So there will be some kind of foreign keys involved.
 13:42 < Nudge:#liferay> Of course I would like to keep my structure clean, encapsulating services into separate portlets that can be hot-deployed independently, but on the other hand, the data should be usable in any part of the website.
 13:43 < Nudge:#liferay> I am unsure how to achieve this with liferay.
+13:45 < Nudge:#liferay> I want to find out if I could access a portlet's data from any vm template or if I could access data from a dynamic data list from a portlet and so on.
