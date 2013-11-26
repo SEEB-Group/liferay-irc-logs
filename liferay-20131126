@@ -293,3 +293,4 @@
 14:29 < Nudge:#liferay> At first I would like to dissolve my confusion about the "local" re-use of stored db data.
 14:30 < Nudge:#liferay> So, is it possible to write VM templates outside a portlet? I guess, yes.
 14:55 <@jhf:#liferay> Nudge: scripting languages like velocity and freemarker are used in several places. mainly as a templating language for rendering web content, or used as a templating language for a site's theme (skin).
+14:58 <@jhf:#liferay> but it's safe to say that anywhere you can write template code, that code will have access to any underlying data from the database using the built-in objects made available to the context in which the script is evaluated.
