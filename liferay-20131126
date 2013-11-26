@@ -117,3 +117,4 @@
 09:54 < hufg:#liferay> never encountered this problem
 09:54 < hufg:#liferay> http://stackoverflow.com/questions/6290470/eclipse-debugger-always-blocks-on-threadpoolexecutor-without-any-obvious-excepti
 09:55 < hufg:#liferay> no issues what so ever debugging liferay
+09:55 < hufg:#liferay> liferay running on glassfish
