@@ -185,3 +185,6 @@
 12:39 < jardineworks:#liferay> so session.getAttribute("LAST_PATH"); will give me a url I can forward the user to?
 12:40 < jardineworks:#liferay> or is there a way that post login, lr will do that for me? isn;t there a property for this?
 12:40 < jardineworks:#liferay> I feel like I have seen one before.
+12:51 < topolik:#liferay> yes
+12:51 < topolik:#liferay> it works OOTB
+12:51 < topolik:#liferay> but under some conditions
