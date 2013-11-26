@@ -155,3 +155,6 @@
 12:01 < topolik:#liferay> asdf <span class="myIcon" /> xxx
 12:01 < topolik:#liferay> and in the theme's CSS have sth like this:
 12:02 < topolik:#liferay> .myIcon {background-image: url('...'); display: block; width: XXpx; height: YYpx;...}
+12:04 < jardineworks:#liferay> that is some kid of magic that is beyond my front end science
+12:04 < jardineworks:#liferay> :)
+12:04 < jardineworks:#liferay> topolik, separate question though. I have a custom authenticator. After the user logs in I want to redirect them to where they were before they signed in (like LR does by default)
