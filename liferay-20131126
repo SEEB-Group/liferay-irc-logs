@@ -6,3 +6,4 @@
 05:00 < Tar-Minyatur:#liferay> Does Liferay create it's own connection pool?
 05:00 < Tar-Minyatur:#liferay> Because it looks like our Liferay opens way too many connections to the DB.
 05:12 < hufg:#liferay> goood morning
+05:35 < Tar-Minyatur:#liferay> Never mind. I found it.
