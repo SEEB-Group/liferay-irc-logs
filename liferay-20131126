@@ -304,3 +304,4 @@
 15:06 < Nudge:#liferay> Do I always need to restart the liferay server so that my new service jar is reloaded? Or is there a general entity service service within liferay?
 15:06 < Nudge:#liferay> Okay, let me construct some weird example ... :-)
 15:08 < Nudge:#liferay> The user registered and selected some of his favourite interests.
+15:10 < Nudge:#liferay> An editor creates some news or events that relate to this interests and wants to display this new information to each user in the footer, for example "Upcoming event for <interest-name>: On March 14th, 2014: Get-together in Paris".
