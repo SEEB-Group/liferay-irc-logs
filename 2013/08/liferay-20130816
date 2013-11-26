@@ -1,0 +1,236 @@
+--- Log opened Fri Aug 16 00:00:00 2013
+09:23 < jardineworks> good morning guys
+09:23 < jardineworks> dblessing, you actually there? :)
+09:24 < jardineworks> dblessing, I have some form-navigator questions if you are
+09:24 < dblessing> hey jardineworks. i'm lurking, yes :)
+09:24 < dblessing> jardineworks: i'll do my best. i haven't touched this stuff in a bit...
+09:24 < jardineworks> dblessing, haha -- you have time for two questions?
+09:24 < jardineworks> dblessing, I was using your blog post as my guide which is why you are the unfortunate soul to field these ;)
+09:25 < jardineworks> question #1: The sections. I get that the name of the section must match the name of the JSP. Do you know how I can introduce either underscores or hyphens into the section name and have it map properly? I have a "section" called apikeys .. but I wpuld prefer to name it api-keys if possible.
+09:26 < jardineworks> every time I introduce a space, hyphen or underscore though, it breaks -- in that the page does not render anything for the section
+09:35 < jardineworks> dblessing, ... processing? :)
+09:39 < dblessing> jardineworks: hrm. i'm not sure. let me take a look
+11:03 <@rotty3000> would you guys think -XX:MaxPermSize=512 a little high ??
+11:03 <@rotty3000> consering a -Xmx1024m ?
+11:11 < Tar-Minyatur> Mhm. If I could only remember...I think I read once that having both values the same actually increases the performance.
+11:11 < Tar-Minyatur> I investigated that stuff because of a shitty performing ColdFusing instance some months ago..
+11:13 <@rotty3000> uhmm, certainly not
+11:13 <@rotty3000> if your perm size ever became the same as your heap.. you're dead in the water
+11:13 < Tar-Minyatur> Maybe it was another value. Not sure at the moment.
+11:13 <@rotty3000> :)
+11:13 < Tar-Minyatur> I always get confused about all that stuff.
+11:14 < Tar-Minyatur> Especially when I didn't touch it for a while.
+11:14 <@rotty3000> yeah, initial and max being the same in production avoid memory churn
+11:14 < Tar-Minyatur> Oh right. Might have been that. Damn it. The way my brain confuses information sometimes...
+11:15 <@rotty3000> but the perm gen, and the heap have to have a non 1:1 ration.. I was thinking that 1:2 would be too much permgen
+11:15 <@rotty3000> I'm thinking more like max_perm=256 heap=1024 might be better
+11:16 < Tar-Minyatur> Mhm. Are you sure that it's even reasonable to have a general rule like that?
+11:16 < Tar-Minyatur> I would guess that it's very dependent on the application.
+11:16 <@rotty3000> the issue being that our packaging of Glassfish is setting the defaults to max_perm=512:heap=1025, which I think is not a good default
+11:16 <@rotty3000> absolutely
+11:17 <@rotty3000> but Liferay itself has minimums
+11:17 <@rotty3000> for instance, Liferay will simply not be able to use all its functions in less that heap<1024
+11:18 <@rotty3000> it's far too memory heavy to use less than that
+11:18 < Tar-Minyatur> I noticed. ;)
+11:18 <@rotty3000> just the permgen needing to be around 256 means that a heap anything less that 4x that amount is necessary
+11:19 <@rotty3000> sorry, "nothing less than.." is what I mean
+11:19 < Tar-Minyatur> Yeah. I think I heard that one before.
+11:20 < Tar-Minyatur> Uh! It's 5:20 already.
+11:20 < Tar-Minyatur> Damn. Have to get to the station.
+11:20 < Tar-Minyatur> Bye. Have a nice weekend. :)
+11:20 <@rotty3000> same to you!
+11:43 <@jhf> mr. rotty3000 how are things
+11:43 <@rotty3000> ughh...
+11:43 <@jhf> this window has been obscured all morning!
+11:44 <@rotty3000> I believe I have gotten a handle on the issues with GF
+11:44 <@rotty3000> still working out the solution, but I'm getting closer and it's all security related
+11:45 <@jhf> is that with GF 4.x?
+11:45 <@rotty3000> no
+11:45 <@rotty3000> but I think the same problems will arrise given the right circumstances
+11:45 <@jhf> yeah.. ok.. reason being, we are gonna make 6.2 bundles with GF 4.x as soon as we can
+11:45 <@rotty3000> so, the difference between what you guys were seeing, and what I was seeing
+11:45 <@jhf> (after it's tested of course, which would probably involve runnig into the issues you are seeing)
+11:46 <@rotty3000> is that I have this default set:           portal.security.manager.strategy=liferay
+11:46 <@rotty3000> and you guys have this:  portal.security.manager.strategy=smart
+11:46 <@jhf> lol
+11:46 <@jhf> that's kinda funny
+11:47 <@jhf> you want smart? or liferay?
+11:47 <@rotty3000> and there are different problems in both cases
+11:47 <@rotty3000> haha
+11:47 <@rotty3000> yeah, I didn't come up with the names..
+11:47 <@rotty3000> but yeah, I hear ya
+11:47 <@jhf> so why does none of this happen with tomcat?
+11:48 <@rotty3000> I believe the bug is actually in the jacax.servlet.jsp implementatin jar
+11:48 <@rotty3000> javax.servlet.jsp
+11:48 <@rotty3000> it holds a constant:             org.apache.jasper.Constants.IS_SECURITY_ENABLED
+11:48 <@rotty3000> it's set like so:           public static final boolean IS_SECURITY_ENABLED = (System.getSecurityManager() != null);
+11:49 <@rotty3000> that means, it's set once.. and once only for the whole JVM
+11:49 <@rotty3000> what that means is that security CANNOT be dynamically enabled
+11:50 <@rotty3000> if it doesn't happen before this constant is set.. you're in trouble
+11:50 <@rotty3000> because this controls all the JSP handling everywhere in the server
+11:50 <@rotty3000> which explains why even the admin app was breaking
+11:50 <@rotty3000> security was enabled, BUT this jar didn't think so, and so wasn't creating the JSP classloaders properly
+11:51 <@rotty3000> and was breaking in all the permission checks
+11:51 <@rotty3000> and giving us those bloody first hit errors
+11:51 <@rotty3000> those were first init of our app's jsp classloader
+11:52 <@rotty3000> it really is a bug in the jsp refrence impl
+11:52 <@rotty3000> it's totally stupid for it to hold a global constant like this
+11:52 <@rotty3000> the security API CLEARLY demonstrates that security can be dynamically enabled
+11:52 <@rotty3000> it's not a hack to do so
+11:53 <@rotty3000> so whichever app server uses the reference implementation of javax.servlet.jsp will likely suffer the same limitation :(
+11:54 <@rotty3000> I think tomcat has their own impl, of which the reference was a fork
+11:54 <@rotty3000> and so theirs might not hold this global constant
+11:54 <@rotty3000> haven't checked yet
+11:54 <@rotty3000> make sense?
+11:55 <@rotty3000> I haven't filled a bug yet
+11:55 <@rotty3000> jhf: do you have any insiders at the JCP who work on this implementation?
+11:55 <@jhf> reading...
+11:56 <@rotty3000> yeah, it is nausiatingly boring topic I know..
+11:56 <@jhf> so
+11:56 <@jhf> why does it not happen on second run? if its an in-memory setting
+11:57 <@rotty3000> because the jsp init already failed
+11:57 <@rotty3000> oh, you mean on the next startup?
+11:57 <@jhf> yeah
+11:57 <@jhf> everything seems to "just work" for me on second startup
+11:57 <@rotty3000> that I'm not sure, but I think it's effectively a race condition with "which apps start first"
+11:58 <@rotty3000> the second time, Liferay may be starting before anyone else gets a chance to set the constant.. and by that time, the security is already enabled
+11:58 <@rotty3000> note, you don't have security enabled at all yet.. since you are using "smart"
+11:58 <@jhf> well it certainly sounds plausible - variable set once that should be dynamic.
+11:59 <@rotty3000> and so security never actually kicked in
+11:59 <@rotty3000> to cause the utter failure
+11:59 <@rotty3000> however, the first time a plugin with PACL would be deployed ... well... BOOM!
+11:59 <@rotty3000> every app on the app server would fail
+12:00 <@rotty3000> not a nice scenario
+12:00 <@jhf> nope. btw this was reported https://java.net/jira/browse/GLASSFISH-19064 I commented on it too
+12:00 <@jhf> you may want to provide this add'l clarity
+12:00 <@jhf> I have glass fish insider access, but not JCP
+12:00 <@rotty3000> the different between "smart" and "liferay" is that "smart" waits for the first PACL plugin to register the SecurityManager
+12:00 <@rotty3000> "liferay" does it right away
+12:01 <@jhf> is there a way to force it via the jvm cmd line / system property / policy ?
+12:01 <@jhf> so it's enabled straight away
+12:01 <@rotty3000> oh yes
+12:01 <@jhf> and does that make everything work ?
+12:01 <@rotty3000> we can default the bundle to security on
+12:01 <@rotty3000> yeah, with some policy setting updates
+12:01 <@rotty3000> I'm working on that right now
+12:02 <@rotty3000> in fact, I think I just finished
+12:02 <@rotty3000> portal just came up properly
+12:03 <@jhf> ok.. so this wasn't an issue in ga2, because…. ?
+12:03 <@rotty3000> WOOHOO, admin app also working
+12:03 <@jhf> \o/
+12:03 <@jhf> too bad darkos isn't around
+12:03 <@jhf> maybe he'll see this in the log
+12:04 <@rotty3000> the change required is only in the bundle creation
+12:05 <@rotty3000> OR , I guess if you are deploying to an existing GF install
+12:05 <@jhf> yeah..
+12:05 <@jhf> only if you intend to deploy pack-enabled plugins?
+12:05 <@jhf> or is this required even without pacl?
+12:06 <@rotty3000> https://gist.github.com/rotty3000/6251182
+12:06 <@rotty3000> let me see what happens when I revert this, and set PACL to none, it should all work
+12:06 <@rotty3000> actually "default"
+12:07 <@rotty3000> it you never plan to enable PACL, you should set       portal.security.manager.strategy=default
+12:07 <@rotty3000> oops gist is incorrect
+12:08 <@rotty3000> refresh, now it's right
+12:08 <@rotty3000> if you plan to use pacl, or want to leave it so that Liferay can enable PACL dynamically later, these are required
+12:08 <@rotty3000> all to get around the bug in javax.servlet.jsp
+12:11 <@rotty3000> I think the reason we are seeing this how is because of how Liferay is creating the SecurityManager
+12:12 <@jhf> ok this all belongs in the glass fish section of the official docs! and modifying our bundles as necessary.
+12:12 <@rotty3000> we used to only create the SecurityManager at the time we want to set it, in "smart" mode, this meant we did not set it until the time a plugin was deployed
+12:12 <@rotty3000> however, now we create the SecurityManager right away... AND in case of "smart", we only "set" it later as the system securitymanager
+12:23 <@jhf> btw, will this be an issue with CE GA3 as well?
+12:24 <@jhf> oh also - is the PACL generator in CE GA3?
+12:25 <@rotty3000> pacl generator is in every version of Liferay since EE GA2, with updates and bug fixes along the way
+12:25 <@rotty3000> so far every version of Liferay has identical PACL impls
+12:25 <@jhf> \o/
+12:25 <@rotty3000> both 6.1 CE/EE and 6.2
+12:46 < jardineworks> hey guys -- do you know if it is possible to detect the omniAdmin in a CAS hook?
+13:00 <@jhf> jardineworks: should be! I think there's an isOmniAdmin() API somewhere accessible from hooks
+13:00 <@jhf> checking
+13:01 <@jhf> oh wait
+13:01 <@jhf> which user?
+13:01 <@jhf> for example, for 'model listener' hooks - they run independent of any particular user
+13:01 <@jhf> there's no request/response with which you can figure out which user 'triggered' the hook
+13:02 <@jhf> since hooks can be triggered outside of requests
+13:02 <@jhf> are you referring to an autologin hook?
+13:02 <@jhf> or a generic hook
+13:05 <@jhf> here's an example of "OmniadminUtil.isOmniadmin(userId);": https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portal/security/auth/LDAPAuth.java#L504
+13:05 <@jhf> thats from the ldap auth "hook" - cas would be similar
+13:05 <@jhf> or the same :)
+13:05 < jardineworks> jhf, Generic I think. I mean it is not an auto login hook, that's for sure. Basically what I am doing is hooking in and making a REST call to a client api. The authentication is done there and I bypass all checks, include the LR password check. However, I don't want to have to check for the admin in the client rest service.
+13:05 <@jhf> if you know which user you want to check, then see above
+13:06 < jardineworks> jhf, but I don't think I have a user id... OH WAIT... so I know for example user id = 100 ... so if I use that check it will check the username and pass for user id 100 in lr?
+13:07 < jardineworks> and I can use that to short circuit calls to the rest stuff
+13:07 <@jhf> it will simply tell you if the user with userId "100" has "OmniAdmin" privileges
+13:07 <@jhf> it does not use or require any passwords
+13:07 < jardineworks> see I think that is the rub
+13:07 < jardineworks> I have an email and password. I don't have a user id
+13:07 <@jhf> ah
+13:07 <@jhf> you can get the userid easily
+13:07 < jardineworks> and I don't look the user up in LR
+13:07 < jardineworks> but I suppose I could :)
+13:07 <@jhf> UserLocalServiceUtil.getUserByEmailAddress(addr)
+13:08 <@jhf> that gives you a User entity
+13:08 < jardineworks> right.
+13:08 <@jhf> then you can call .getUserId() or just pass the user entity to isOmniAdmin (I think it accepts a User too, would have to check)
+13:08 <@jhf> yeah it does
+13:08 <@jhf> it's in that LDAPAuth example
+13:08 < jardineworks> but noramlly I just go straight to the service. So this way I would do the user lookup, check for omni, if yes let them in, else do the rest stuff
+13:09 <@jhf> well your business logic is up to you :) (I still don't quite understand what you're trying to do)
+13:09 <@jhf> but thats how you can tell if user X is an omni admin, from java code in a hook in liferay
+13:12 < jardineworks> jhf, Sorry I know I am all over the place haha... Ok. User enters the normal username and passsword. THe client wants authentication to be done against their REST api, not the LR database. So I wrote a hook that takes calls their api. The api responds with a token that I use for all subsequent calls to the API. Now, if I am the admin user, the omni I mean, I don't have an account at the client (not sure why). But I still need to
+13:12 < jardineworks> access the portal.
+13:12 < jardineworks> really, I think they should just add the admin to their user accounts.
+13:12 < jardineworks> feels less kludgy
+13:12 < jardineworks> I think I'll push for that.
+13:12 <@jhf> ahh i see
+13:13 <@jhf> so you have passwords stored in LR still though, for each user, right? identical (hopefully) to the ones on the client's auth system?
+13:14 < jardineworks> yeah but I use the auth.pipeline.enable.liferay.check=false to bypass the password checks for LR
+13:14 <@jhf> ah.. so if you're omni admin, what are you gonna do - just let you in with no password?
+13:14 < jardineworks> I tried to get them to set up an LDAP
+13:14 < jardineworks> but they're a PHP shop -- guess that is too complicated for them :)
+13:16 < jardineworks> well, I am going to push them to add the admin to the list of users on their side. The token comes back and we track it as a [Client]Session using service builder stuff. In order for some of the portlets to work, I need to send the token back with subsequent calls. If I use an omniadmin and bypass the rest login then I won't have a token and the portlets won't work.
+13:16 <@jhf> yup, that sounds bad.. in the past, when I've done something like this with opensso (which similarly makes auth REST calls out, and then logs you into LR automagically) we always had an admin account
+13:17 < jardineworks> but -- opensso has a shared session for all logins. So when you SSO Logout, you kill all your sessions under the same IdP. In this case if I am logged in on my phone and my laptop I have two separate sessions that are linked. I can log out of my phone and my laptop remains active.
+13:17 < jardineworks> at least I think that is what they are doing
+13:18 <@jhf> ah
+13:18 <@jhf> yeah that sounds awesome
+13:18 <@jhf> I can do that with skype
+13:18 < jardineworks> awesome for me because I don'
+13:18 <@jhf> which is very useful
+13:18 < jardineworks> t have to link the sessions and make sure the carts are syched :)
+13:18 < jardineworks> shitty for them -- they do :D
+13:19 <@jhf> yeah, true!
+13:19 <@jhf> hahaha
+13:25 <@rotty3000> jhf, is there a ticket for the GF bundle bug?
+13:25 <@jhf> there are two
+13:25 <@jhf> one for security, one for admin console
+13:25 <@jhf> I shall retrieve both now. standby.
+13:26 <@rotty3000> thx
+13:26 <@jhf> securirt: http://issues.liferay.com/browse/LPS-39095
+13:26 <@jhf> admion console: http://issues.liferay.com/browse/LPS-38988
+13:26 <@jhf> wow I fat-fingered both of those
+13:26 <@jhf> (well the URLs are right)
+13:27 <@rotty3000> :) thx
+13:27 <@jhf> actually one sec
+13:27 <@jhf> for the security bug. I think there's a DUP that was filed way earlier
+13:27 <@jhf> lemme find it and DUP this one against that.
+13:27 <@jhf> yeah
+13:27 <@jhf> http://issues.liferay.com/browse/LPS-33917
+13:27 <@jhf> Igor filed and closed it as "a glass fish bug"
+13:28 <@jhf> so if you can, either use mine or Igor's, up to you, but one should be DUP'd against the other.
+13:30 <@rotty3000> k
+13:52 < jardineworks> hey guys -- I'm trying to do something tricky :). I have overridden the view.jsp for the control_panel_menu portlet and forced in a new section with my clients name... lets call it ClientX
+13:52 < jardineworks> I have modified my control panel portlet for their settings by adding it to the category
+13:53 < jardineworks> both name and category display (yay!)
+13:53 < jardineworks> however -- portlet conetent does not display because it says that I do not have permission to access this application (despite the fact that I am logged in as the highest level portal admin)
+13:57 <@rotty3000> jardineworks: you need a control panel entry
+13:58 <@rotty3000> jardineworks: check the liferay-portlet.xml DTD
+13:59 <@rotty3000> it may also be something to do with category permissions
+14:01 < jardineworks> rotty3000, I have the control panel entry because I see my portlet under the category on the left.
+14:02 < jardineworks> rotty3000, category permissions makes sense... though I thought at the root guy it would let me see it all.
+14:03 <@rotty3000> jardineworks: well, in a idea world. I'll look at the code if I get a chance in a bit
+14:03 <@rotty3000> s/idea/ideal/
+14:04 < jardineworks> rotty3000, ok thanks... I'll keep poking along, let me know when you have time. Thanks.
+15:49 <@jhf> hey rotty3000
+15:50 <@jhf> quick question: suppose I want to create some custom fields for users, some of which contain sensitive data (e.g. a U.S. social security number).  Can I create the field in such a way that only certain users assigned to a role (e.g. "HR Manager") can see the values for a given user, but other ordinary users cannot?
+--- Log closed Sat Aug 17 00:00:02 2013

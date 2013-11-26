@@ -1,0 +1,49 @@
+--- Log opened Fri Oct 04 00:00:47 2013
+04:29 < hufg:#liferay> anyway to access velocity variables sset in theme in article templates
+04:29 < hufg:#liferay> ?
+04:56 < rocknroll_:#liferay> i'd like to know why i cant seem to override javascript files in my hook
+06:12 < hufg:#liferay> what are you trying to override
+06:14 < rocknroll_:#liferay> /html/portlet/journal/js/main.js
+06:16 < hufg:#liferay> <!ELEMENT hook (portal-properties?, language-properties*, custom-jsp-dir?, custom-jsp-global?, indexer-post-processor*, service*, servlet-filter*, servlet-filter-mapping*, struts-action*)>
+06:17 < hufg:#liferay> not seeing custom-js-dir :Z
+06:17 < hufg:#liferay> maybe it can be done but just saying from the dtd it doesn't imply that you can override js
+06:18 < hufg:#liferay> though user guide says it can
+06:19 < hufg:#liferay> i'd use a working jsp hook as a template
+06:22 < rocknroll_:#liferay> my jsp:s are overridden just fine
+06:22 < rocknroll_:#liferay> and i know it's been done, at least people are claiming that they have done it
+06:24 < hufg:#liferay> mm yeah
+06:31 < hufg:#liferay> what hook configuration are you using?
+06:31 < hufg:#liferay> in liferay-hook.xml
+06:31 < hufg:#liferay> just out of curiousity
+06:32 < hufg:#liferay> does the custom-jsp-dir work for whatever files defined in that path
+06:32 < rocknroll_:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/30130915
+06:57 < hufg:#liferay> yeah but since none of the hook xml element names are descriptive enough which one did you choose?
+06:58 < hufg:#liferay> custom-jsp-dir is the best guess
+06:58 < hufg:#liferay> i guess? 8))
+06:59 < rocknroll_:#liferay> well yes, jsp files are workign
+06:59 < rocknroll_:#liferay> just not the js
+07:04 < hufg:#liferay> works fine :/
+07:04 < hufg:#liferay> you have the wrong path
+07:08 < hufg:#liferay> https://gist.github.com/anonymous/b11acab0f517896cf87b
+07:19 < rocknroll_:#liferay> aha
+07:30 < hufg:#liferay> "thanks mate" :)
+07:30 < hufg:#liferay> liferay may also fail not just the hook
+07:30 < hufg:#liferay> or you hehe
+07:31 < hufg:#liferay> it's not unheard of that liferay bails on you on some feature
+07:35 < rocknroll_:#liferay> sry, major network issues. but the directory is not the issue
+07:35 < rocknroll_:#liferay> this is journal specific js
+07:36 < rocknroll_:#liferay> and my files are in custom_jsps
+07:36 < rocknroll_:#liferay> all jsp files work, just not the javascript
+07:39 < hufg:#liferay> 8/
+07:41 < hufg:#liferay> gist liferay-hook.xml and tree project structure !
+10:17 < hufg:#liferay> helloo helloo after which filter can i access request webkeys attributes
+10:39 < hufg:#liferay> ah its in servicepreaction
+10:41 < hufg:#liferay> my hook is doomed
+10:51 < hufg:#liferay> dooooomed
+10:51 -!- mode/#liferay [+o jhf] by ChanServ
+15:00 < jardineworks:#liferay> rotty3000, jhf I know it is getting late on Friday but would one of you be around for a quick best practice discussion?
+15:00 <@jhf:#liferay> can't do it now - about to get on a 2 hr con call :(
+15:01 < jardineworks:#liferay> wow... that is a terrible way to finish your friday
+16:45 < jardineworks:#liferay> anyone left in here who has done some stuff with the struts-actions in 6.1?
+19:25 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Sat Oct 05 00:00:49 2013

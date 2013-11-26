@@ -1,0 +1,78 @@
+--- Log opened Wed Oct 16 00:00:42 2013
+03:26 < Axxell:#liferay> hey guys
+03:27 < Axxell:#liferay> a user had a problem with some controls so i found that there was a problem with liferay 6.1.1 to 6.1.2 upgrade
+03:27 < Axxell:#liferay> so i run liferay with verify.frequency=-1 and it screwed up my databas
+03:27 < Axxell:#liferay> e
+03:28 < Axxell:#liferay> PLEASE HELP, is there anything i can do to restore it to it previous state? i thought i had backups
+03:28 < Axxell:#liferay> but ofcourse not
+03:35 < hufg:#liferay> :Z
+03:35 < hufg:#liferay> wow
+03:35 < hufg:#liferay> you have ce?
+03:36 < hufg:#liferay> copy data, create lab env, revert back to 6.1.1 see what happens
+03:36 < hufg:#liferay> IMO no db modifications happen in ce GA2 -> GA3
+03:36 < hufg:#liferay> how did it screw the database?
+03:37 < Axxell:#liferay> it gives the error
+03:37 < Axxell:#liferay> The database contains changes from a previous upgrade attempt that failed. Please restore the old database and file system and retry the upgrade. A patch may be required if the upgrade failed due to a bug or an unforeseen data permutation that resulted from a corrupt database.
+03:37 < Axxell:#liferay> my assumption that a "verify" would just verify
+03:37 < Axxell:#liferay> not screw up the database
+03:37 < hufg:#liferay> mm no idea, yeah that is weird i'd look into it
+03:37 < Axxell:#liferay> hence i did not make a backup
+03:37 < hufg:#liferay> it may jsut be some weird check somewhere
+03:38 < hufg:#liferay> anyways your best bet is to see what changes happened and check if you can revert
+03:38 < Axxell:#liferay> there is a release_ table
+03:38 < Axxell:#liferay> where there is a state
+03:39 < Axxell:#liferay> there error comes at 	at com.liferay.portal.tools.DBUpgrader._checkReleaseState(DBUpgrader.java:300)
+03:39 < hufg:#liferay> yeah see a simple check it may be
+03:39 < Axxell:#liferay> the state is 2, and i do not knwo what that state should be
+03:39 < hufg:#liferay> that was poetic
+03:39 < hufg:#liferay> well start reading the source
+03:39 < Axxell:#liferay> state=1 would be a guess
+03:39 < hufg:#liferay> don't gues
+03:39 < hufg:#liferay> read
+03:40 < hufg:#liferay> it's your only hope that nothing really happened, otherwise it's fuckd
+03:40 < hufg:#liferay> that was crazy anyhow to upgrade a production environment even with backups
+03:41 < hufg:#liferay> it's like trying to win the lottery
+03:41 < Axxell:#liferay> apparently 0
+03:41 < Axxell:#liferay> http://grepcode.com/file/repo1.maven.org/maven2/com.liferay.portal/portal-service/6.1.1/com/liferay/portal/model/ReleaseConstants.java#ReleaseConstants.0DEFAULT_ID
+03:41 < hufg:#liferay> now create an environment where you can try this out
+03:41 < Axxell:#liferay> this wasnt an upgrade
+03:41 < hufg:#liferay> liferay 6.1.1 to 6.1.2 upgrade
+03:41 < Axxell:#liferay> this was trying to run a verify with an bad assumption
+03:42 < hufg:#liferay> i'm fairly sure you'll be fine
+03:42 < Axxell:#liferay> nope the upgrade was 6.1.1 to 6.1.2 which was made a long time ago
+03:42 < Axxell:#liferay> the error  a user had
+03:42 < Axxell:#liferay> led to an issue
+03:42 < hufg:#liferay> ah ok
+03:42 < Axxell:#liferay> which said that one should run
+03:42 < Axxell:#liferay>  a verify
+03:42 < hufg:#liferay> yes yes
+03:42 < Axxell:#liferay> my assumption was that a verify doesnt screw up databases
+03:43 < Axxell:#liferay> hence the world is burning
+03:43 < hufg:#liferay> a somewhat fair assumption
+03:44 < Axxell:#liferay> yup a bit of a screw up from me too, not about to deny it, but but
+03:45 < hufg:#liferay> mm yeah this is why you have a test environment
+03:45 < Axxell:#liferay> changing the state to 0, seems to have made it start and go beyond
+03:46 < hufg:#liferay> what db do you have?
+03:46 < hufg:#liferay> now get vagrant and get that virtual env going hehe
+03:46 < Axxell:#liferay> so lets hope that its ok, and i need to make sure stuff works a bit better
+03:46 < Axxell:#liferay> mysql
+03:53 < Axxell:#liferay> thanks for the help anyway
+07:38 < Axxell:#liferay> hey guys, do you know about some easy way to get some dynamic data into an portlet?
+07:38 < Axxell:#liferay> i mean an article
+07:47 < hufg:#liferay> what kind of data
+07:48 < hufg:#liferay> there are multiple ways
+07:48 < hufg:#liferay> aargh how come javascript.barebone.files is messing with autheticated user js files
+08:09 < Axxell:#liferay> well i need to be able to print it and/or export it to pdf
+08:09 < Axxell:#liferay> hufg: been trying with javascript functions in the "manage page" part of this page, and those dont appear to get into pdf exports or prints
+08:11 < Axxell:#liferay> at least not with the print and pdf export buttons of the webcontent portlet
+08:46 < modd_:#liferay> jhf: how do you like berlin? ;)
+09:18 <@jhf:#liferay> modd_: !!
+09:18 <@jhf:#liferay> Berlin… I saw about 2 hours of daylight outside the hotel the entire time I was there :)
+09:18 <@jhf:#liferay> next time I shall bake in some sightseeing time
+09:18 <@jhf:#liferay> food was really good though!
+09:18 <@jhf:#liferay> as was the beer.
+09:19 <@jhf:#liferay> and the leaves on the trees were beginning to turn fall colors - so was pretty (at least from the plane on arrival :) )
+09:30 < modd_:#liferay> ;)
+09:30 < modd_:#liferay> now I have one if these liferay bags and a t-shirt
+10:48 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Thu Oct 17 00:00:44 2013

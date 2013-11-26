@@ -1,0 +1,67 @@
+--- Log opened Tue Oct 29 00:00:49 2013
+05:11 < Axxell:#liferay> hey guys, im using a custom version of Multi Site Asset publisher on my liferay installation (https://www.liferay.com/marketplace/-/mp/application/26763568), however it doesnt seem to be able to load non-global categories to the category filter selection from a sites you select content, only global categories.. any clues why?
+05:52 < Axxell:#liferay> what ive think is happening is that edit query rule is getting categorizableGroupIds which
+05:54 < Axxell:#liferay> you get from configuration_dynamic.jsp
+05:54 < Axxell:#liferay> where they use GroupIds with _getCategorizableGroupIds(long[] groupIds)
+05:55 < Axxell:#liferay> GroupIds you get in init.jsp with: long[] groupIds = AssetPublisherUtil.getGroupIds(preferences, scopeGroupId, layout);
+05:56 < Axxell:#liferay> which apparently just gets global and the local sites groupIds
+06:03 < Axxell:#liferay> I am correct to assume that that would be where i need to change which groupIds are returned?
+08:19 < hufg:#liferay> helloo anyone ever noticed retrieval from dl is a bit slow?
+08:25 < jardineworks:#liferay> I don't know which will drive me to insanity first. AUI TLDs? or JSTL expressions.
+08:28 < jardineworks:#liferay> where is apucay when you need him lol
+08:32 < jardineworks:#liferay> ok -- for the audience. Am I insane or, if this expression sis true, it will output the word "true" and if it is not true then it will output nothing. right?
+08:32 < jardineworks:#liferay> <c:if test="${ userSate eq state }">true</c:if>
+08:37 < hufg:#liferay> yes
+08:42 < jardineworks:#liferay> hufg, so then... selected='<c:if test="${ userSate eq state }">true</c:if>' should produce selected='true' when the condition is "true" right?
+08:43 < hufg:#liferay> mm ytes
+08:43 < hufg:#liferay> i'm not sure about that eq but it looks vaguely familiar
+08:45 < hufg:#liferay> aand?
+08:49 < jardineworks:#liferay> hufg .. ok so then put it in an option tag... and it should make it the selected field in a select flag (when the condition is true) right?
+08:50 < hufg:#liferay> yes
+08:50 < jardineworks:#liferay> like so -- <aui:option value="${state}" selected='<c:if test="${ userSate eq state }">true</c:if>'>${state}</aui:option>
+08:50 < jardineworks:#liferay> so basically AUI is retarded.
+08:51 < hufg:#liferay> mmh?
+08:51 < jardineworks:#liferay> i mean if I c:out like soo.... <c:out value="${userState}"/> == <c:out value="${state}" /> ? <c:out value="${state eq userState}"/><br/>
+08:51 < jardineworks:#liferay> when I get to CA (the value I have hardcoded for the moment) I get CA == CA ? true
+08:52 < jardineworks:#liferay> which means that the condition in the if whould be evaluating to true at some point
+08:52 < jardineworks:#liferay> and should be outputting selected="true" ... which should make that item in them select "selected" ... but it doesn't.
+08:52 < jardineworks:#liferay> and the HTML in the page doesn't have a selected="" like it is supposed to for the "selected" value
+08:54 < hufg:#liferay> mmh
+08:54 < hufg:#liferay> btw someone suggested a neater way for that if in stackoverflow             <aui:option value="${city}" label="${city}" selected="${selectedCity == city}"/>
+08:54 < hufg:#liferay> btw you have userSate
+08:54 < hufg:#liferay> userState? 8)
+08:55 < jardineworks:#liferay> :|
+08:55 < jardineworks:#liferay> fail
+08:55 < hufg:#liferay> anyways instead of c:if ${userS(t)ate == state}
+09:00 < jardineworks:#liferay> sadly.. even with the type fixed, it doesn't work.
+09:00 < jardineworks:#liferay> which makes even less sense.
+09:08 < hufg:#liferay> have you tried hardcoding a true value
+09:09 -!- mode/#liferay [+o jhf] by ChanServ
+09:09 < jardineworks:#liferay> doing that now... and if that works I am going to try a choose-when-otherwise... which is ridiculous since this should be working.
+09:10 < jardineworks:#liferay> how much you wanna bet if I take the aui off of the tags and just use an option tag it works
+09:10 < hufg:#liferay> hehe
+09:12 < jardineworks:#liferay> hardcoded works
+09:14 < jardineworks:#liferay> choose-when-otherwise works.
+09:14 < jardineworks:#liferay> fuck it
+09:14 < jardineworks:#liferay> done.
+09:16 < jardineworks:#liferay> hufg, what do you use for a performance testing tool?
+09:16 < hufg:#liferay> neoload
+09:17 < jardineworks:#liferay> never heard of that one
+09:19 < hufg:#liferay> no idea if it's good or not, haven't actually used it
+09:19 < hufg:#liferay> at least we get some performance tests out of it 8)
+09:22 < hufg:#liferay> does the job
+09:33 -!- mode/#liferay [+o rotty3000] by ChanServ
+09:34 -!- mode/#liferay [+o rotty3000] by ChanServ
+10:21 < hufg:#liferay> maan if you render stuff from dl library it has some performance effects
+10:22 < hufg:#liferay> the load time could be outstanding without that
+10:22 < hufg:#liferay> any ideas how to speed it up?
+10:22 < hufg:#liferay> jcr in db :Z
+10:25 < dave_k:#liferay> is there any recommended way to uninstall and/or update ext plugins?
+11:51 < jardineworks:#liferay> does anyone know how to programatically (ie using the API) add an address to a users list of Addresses? I can see the AddressLocalServiceUtil.addAddress(long userid, ...) executing, and there are no exceptions thrown -- but the addess doesn't seem to be there.
+11:57 < jardineworks:#liferay> user.addAddress( address ); My kingdom for an explanation as to why that does not exist.
+12:00 < jardineworks:#liferay> or why user.getAddresses() produces an immutable list.
+17:02 < apucay:#liferay> anyone have an example, in your opinion, of well written mission and vision statement of a company?
+17:14 -!- ServerMode/#liferay [+o jhf] by leguin.freenode.net
+20:57 -!- mode/#liferay [+o rotty3000] by ChanServ
+21:47 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Wed Oct 30 00:00:50 2013

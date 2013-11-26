@@ -1,0 +1,120 @@
+--- Log opened Wed Oct 23 00:00:40 2013
+02:03 < Axxell:#liferay> hey guys, been trying to think about a way to make a bootstrap theme for liferay, that wouldnt use liferay layouts, but would use bootstraps way of doing layouts ie. rows and span1-12(bootstrap 2.3, called differently in 3). Any idea how one would be able to do that?
+02:19 < Tar-Minyatur:#liferay> Axxell: If I recall correctly, the new layout in 6.2 is built with Bootstrap.
+02:21 < Axxell:#liferay> Tar-Minyatur: the theme is made with bootstrap, but adding rows and defining portlet width with the bootstrap 12 column modell is not there.. based on liferay 6.2 rc5 it still uses fixed page layouts as all liferay versions have
+02:22 < Axxell:#liferay> Tar-Minyatur:  what i would like to do is add a bootstrap row, add a portlet to that row, define its width trough settings, and add portlets to that row until the sum of portlet widths are 12 columns
+02:22 < Axxell:#liferay> Tar-Minyatur: then that row would be "full" and a new row needs to be added to add more portlets..
+02:23 < Axxell:#liferay> Tar-Minyatur: ie the way bootstrap works
+02:23 < Tar-Minyatur:#liferay> Mhm. Never worked with Bootstrap myself...sounds like an interesting idea but implementing it...phew.
+02:24 < Axxell:#liferay> Tar-Minyatur: that gives total layout freedom
+02:24 < Tar-Minyatur:#liferay> I guess you could use the Look and Feel settings for each portlet for the "settings" part of what you want to do.
+02:25 < Axxell:#liferay> Tar-Minyatur: yup but adding rows.. and how to override how liferay handles portlet widths and such...
+02:25 < Tar-Minyatur:#liferay> For the handling of the rows you could try using Liferay's layouts...you would have to set the number of columns first though.
+02:25 < Tar-Minyatur:#liferay> Uhm. Number of rows, sorry.
+02:27 < Axxell:#liferay> Tar-Minyatur: yeah would like to have complete freedom with number of rows
+02:27 < Axxell:#liferay> *number of columns
+02:27 < Axxell:#liferay> Tar-Minyatur: could do my own version of nested portlet to add rows as i like to
+02:29 < Tar-Minyatur:#liferay> True. But the usability would probably suffer a bit.
+02:30 < Axxell:#liferay> well designing new layouts is easy enough with liferay ide.. would just be nice not to have
+02:30 < Axxell:#liferay> any restrictions on layout
+02:31 < Axxell:#liferay> would just add to look and feel bootstrap column width css classes
+02:31 < Axxell:#liferay> hmm well
+02:31 < Tar-Minyatur:#liferay> Can't say much on the topic...it's all just speculation.
+02:32 < Tar-Minyatur:#liferay> For my current project we have only 1-column layouts.
+02:32 < Axxell:#liferay> indeed, ill guess i put som time on to test if i can manage to do any of that
+02:32 < Tar-Minyatur:#liferay> And everybody keeps complaining that there even is the option to change the layout because it's "confusing".
+02:32 < Axxell:#liferay> mmmmf users
+02:32 < Tar-Minyatur:#liferay> They pretty much expect us to make Liferay follow 100% of the style guide automatically.
+02:33 < Axxell:#liferay> Margaritas ante porcos, they say
+02:34 < Axxell:#liferay> well users are funny creatures, they complain and complain, you make something to remedy what they complain about and they still complain
+02:34 < Axxell:#liferay> it has to do with them not actually wanting to work
+02:34 < Axxell:#liferay> as long as they find a scapegoat not to work, they will complain
+02:35 < Axxell:#liferay> at least this is my experience :D
+02:35 < Tar-Minyatur:#liferay> True.
+02:35 < Tar-Minyatur:#liferay> In our case the main problem is lack of communication.
+02:36 < Tar-Minyatur:#liferay> Instead of explaining to the developers what they wish to achieve, they just tell what we're supposed to do.
+02:36 < Tar-Minyatur:#liferay> So we often maneuver around Liferay instead of finding a proper solution with Liferay.
+02:37 < Axxell:#liferay> mmmf trying to bend the tools to fit the user is often a long and frustrating process, when it often doesnt fix anything
+02:37 < Tar-Minyatur:#liferay> I'm trying to get everybody on board, but old habits die hard.
+02:38 < Tar-Minyatur:#liferay> Alright...I'm off to work. Good luck with your layout idea. :)
+05:34 < rocknroll_:#liferay> hey all. jsonws question. i want to use a specific, dedicated user to fetch calendar events via jsonws
+05:35 < rocknroll_:#liferay> what sort of combination of permissions does this user need? I keep getting rg.hibernate.exception.SQLGrammarException: could not execute query
+05:36 < rocknroll_:#liferay> when i do this as myself, it works fine
+05:36 < rocknroll_:#liferay> it's an ajax call, with http basic auth
+05:37 < rocknroll_:#liferay> the actual error is  com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown column 'calEvent.type' in 'where clause'
+05:37 < rocknroll_:#liferay> which to me is pretty WTF
+05:55 < rocknroll_:#liferay> ok. looks like the calendar-user needs to be site owner?
+05:58 < rocknroll_:#liferay> or rather, calendar-user-role needs to have permisson "site owner[view]"
+06:18 < Tar-Minyatur:#liferay> Hey guys. Anybody got an idea how I could obtain the CDNHost in a journal template?
+06:18 < Tar-Minyatur:#liferay> I know I can use $portalUtil.getCDNHost() for that, but the method is deprecated and should be used with the secure parameter.
+06:19 < Tar-Minyatur:#liferay> But I don't know how to get the secure flag properly.
+06:19 < Tar-Minyatur:#liferay> Because $request.theme-display.secure doesn't work, because it has the wrong type.
+06:26 < topolik:#liferay> Tar-Minyatur: I think PortalUtil has a method - isSecure(request)
+06:27 < topolik:#liferay> so try sth like this: $portalUtil.getCDNHost($portalUtil.isSecure($request))
+06:27 < topolik:#liferay> what portal version do you use?
+06:30 < Tar-Minyatur:#liferay> 6.1.0
+06:30 < Tar-Minyatur:#liferay> Sadly.
+06:32 < topolik:#liferay> ok
+06:32 < topolik:#liferay> and your CDN supports HTTPS?\
+06:32 < Tar-Minyatur:#liferay> It's a S3 bucket.
+06:33 < topolik:#liferay> and your portal supports HTTPS?
+06:33 < Tar-Minyatur:#liferay> Not yet, but we're working on it. ;)
+06:33 < topolik:#liferay> aah, good! +1
+06:34 < topolik:#liferay> ok, then $portalUtil.getCDNHost($portalUtil.isSecure($request)) should be the best solution
+06:34 < topolik:#liferay> does it work?
+06:36 < Tar-Minyatur:#liferay> Looks like it doesn't work.
+06:36 < Tar-Minyatur:#liferay> I get a NullPointerException.
+06:36 < Tar-Minyatur:#liferay> #set( $isSecure = $portalUtil.isSecure($request) )
+06:36 < Tar-Minyatur:#liferay> #set( $cdnhost = $portalUtil.getCDNHost($isSecure) )
+06:36 < Tar-Minyatur:#liferay> That's what I tried.
+06:37 < Tar-Minyatur:#liferay> Invocation of method 'getCDNHost' in  class com.liferay.portal.util.PortalImpl threw exception java.lang.NullPointerException at 10154#75202#2466429[line 21, column 30]
+06:37 < Tar-Minyatur:#liferay> It's a velocity template.
+06:45 < topolik:#liferay> it's a theme?
+07:08 < topolik:#liferay> I tried it and it works in a theme velocity template
+07:31 < Tar-Minyatur:#liferay> Ah. No. It's not a theme. It's a journal template.
+11:14 < jardineworks:#liferay> topolik, you still there?
+11:25 < jardineworks:#liferay> maybe someone else is around. I am using the liferay-portlet-url js file to create a render url dynamically. I attach the function the the href of a <a> tag passing in the unique id.
+11:25 < jardineworks:#liferay> That works, the url is created and the parameter for the category Id is set.
+11:25 < jardineworks:#liferay> I now want to "call" the user so that it does the render phase and loads a new page.
+11:26 < jardineworks:#liferay> but everytime I click the link, I get the same page back
+12:01 < jardineworks:#liferay> hey topolik -- do you still have that code snippet handy that you shared with me that showed how to get a portlets id in js?
+14:49 < topolik:#liferay> jardineworks: Hi, uhm, I don't remember that snippet
+14:49 < jardineworks:#liferay> topolik, remember you were helping me with Portlet URLs in JS?
+14:50 < topolik:#liferay> no
+14:50 < topolik:#liferay> :D
+14:50 < jardineworks:#liferay> it was a few weeks back... and you help a lot of people so I am not surprised haha
+14:50 < topolik:#liferay> ok, what do you need?
+14:51 < topolik:#liferay> portlet id from a JS?
+14:51 < jardineworks:#liferay> yeah -- is there a way to get the portlet ID dynamically?
+14:51 < topolik:#liferay> hmm
+14:51 < jardineworks:#liferay> i have everything working, but I have my portlet id hard coded -- boo
+14:52 < topolik:#liferay> can you show me your code?
+14:53 < jardineworks:#liferay> paste it in here?
+14:53 < jardineworks:#liferay> you wanna see just the js?
+14:53 < topolik:#liferay> let's start with the JS
+14:54 < topolik:#liferay> can you make it public, e.g. using pastie?
+14:54 < jardineworks:#liferay> sure one sec
+14:54 < jardineworks:#liferay> http://pastie.org/8424845
+14:56 < topolik:#liferay> hmm, I see
+14:56 < topolik:#liferay> the problem is that the function is public
+14:57 < topolik:#liferay> the function doesn't know who calls it
+14:57 < jardineworks:#liferay> topolik, you mean I should be using either aui:script or prefixing with <portlet:namespace/>
+14:57 < jardineworks:#liferay> ?
+14:58 < topolik:#liferay> don't know, it depends on your requirements
+14:58 < topolik:#liferay> but I think it's good to put all JS into a separate file
+14:59 < topolik:#liferay> Liferay use stateful objects with _config parameters
+14:59 < topolik:#liferay> in short - can you provide the portletID as just another parameter to the function?
+15:00 < jardineworks:#liferay> oh -- well, I can probably pass it into this one as well. I thought you had something that was a shortcut that let you do it in JS
+15:13 < topolik:#liferay> well, I think there is some variable that holds all portlet ids on the page
+15:13 < topolik:#liferay> but how do you know which one to use?
+15:13 < topolik:#liferay> you could also take that portletId from some variable that is initialized from the portlet itself
+15:13 < jardineworks:#liferay> it's in the themedisplay I think right? I could always <%= portletId %> as a parameter in the function.
+15:14 < jardineworks:#liferay> I just thought that there was a way to get it using the JS
+15:14 < topolik:#liferay> don't know of anything, but I'm not a JS guy so that doesn't mean there isn't any :)
+15:15 < jardineworks:#liferay> fair enough. deadlines are deadlines and this code isn't moving (nor is the porlet name changing) so for now .. constant it is!
+15:15 < jardineworks:#liferay> :)
+18:07 -!- mode/#liferay [+o lundgren] by ChanServ
+18:07 -!- mode/#liferay [+o lundgren] by ChanServ
+19:29 -!- mode/#liferay [+o lundgren] by ChanServ
+23:24 < avinashrbhat:#liferay> what use is the attribute accessor (on column node)  do in service builder?
+--- Log closed Thu Oct 24 00:00:42 2013

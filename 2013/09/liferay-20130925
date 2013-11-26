@@ -1,0 +1,112 @@
+--- Log opened Wed Sep 25 00:00:35 2013
+03:44 < hufg:#liferay> helloo helloo
+03:45 < Tar-Minyatur:#liferay> Morning.
+04:11 < rocknroll_:#liferay> hi all. I'm havign major issues with locale & search
+04:11 < hufg:#liferay> oo u b fuckd
+04:11 < rocknroll_:#liferay> lol
+04:11 < rocknroll_:#liferay> thought so
+04:13 < hufg:#liferay> hehe no idea
+04:13 < hufg:#liferay> whats your problem?
+04:13 < rocknroll_:#liferay> search is not finding anything
+04:13 < hufg:#liferay> what serach
+04:13 < hufg:#liferay> serach
+04:13 < hufg:#liferay> search
+04:13 < rocknroll_:#liferay> and I have figured out its a locale issue. just the regular search portlet
+04:14 < rocknroll_:#liferay> I've unfortunately been messing with things :D
+04:14 < rocknroll_:#liferay> it seems that my web content is not found because of some locale issue.
+04:15 < rocknroll_:#liferay> i'm going to mess around some more and get back to you...
+04:15 < hufg:#liferay> there are two search portlets
+04:16 < Axxell:#liferay> hey guys, im trying to find the part in asset publishers display directorys full_content.jsp, where it creates the icon and the title in the content... just cant figure out which part it is
+04:22 < rocknroll_:#liferay> Axxell let me look it up, been messing with that lately as well :)
+04:31 < rocknroll_:#liferay> dont actually have an icon there
+04:33 < rocknroll_:#liferay> but I suggest you check out the generated html and find some css class name that is related to whatever element you are lookign for and then search for that
+04:40 < rocknroll_:#liferay> oh yeah, got my locale issue resolved. search is working now. dont ask me what or how..
+04:41 < Axxell:#liferay> rocknroll_: hmm yeah problem is that the nearest div class is .asset-resource-info all the divs and other tags beneath it do not have a class..
+05:55 < hufg:#liferay> is the liferay-plugin-package.properties really necessary?
+05:55 < hufg:#liferay> if you only have name, module-group-id, module-incremental-version, page-url, author
+06:11 < Tar-Minyatur:#liferay> You also need this file if your plugin has dependencies to other JAR files, if I recall correctly.
+06:17 < hufg:#liferay> yes but it if it hasn't
+06:17 < hufg:#liferay> and no market place etc security information
+06:28 < hufg:#liferay> can i force compatibility check when deploying a hook?
+06:29 < hufg:#liferay> can't see anything related to in liferay-hook.dtd
+06:34 < hufg:#liferay> i want to lock it to predefined version
+06:46 < rocknroll_:#liferay> any decent links to how to customize the search results
+06:47 < rocknroll_:#liferay> i dont want tags and categories displayed under the asset link
+07:31 < hufg:#liferay> maan theme resources load slow
+07:31 < hufg:#liferay> i hope it isn't so in the prod environment
+07:32 < hufg:#liferay> require.js 3.5s ehh ehh
+07:33 < hufg:#liferay> main.css from classic theme 4s+
+07:34 < hufg:#liferay> i'd bet it's that fucking retarded dynamiccss filter
+07:34 < hufg:#liferay> and js filter
+07:37 < hufg:#liferay> could be infrastructure also
+07:38 < hufg:#liferay> jquery-ui.css 8s woah
+09:09 < hufg:#liferay> sorry sorry it's the infrastructure
+09:09 < hufg:#liferay> was on liferay hate mode :(
+09:10 < hufg:#liferay> i had an idea
+09:11 < hufg:#liferay> to boost morale the glassfish user should have a script in profile which echoes once a day great quotes ie. "I love the smell of Liferay in the mornings" "I'm here to kick ass and chew bubblegum, and i'm all out of bubblegum."
+09:12 < hufg:#liferay> sudo su - glassfish-user -> echo "I love the smell of Liferay in the mornings" now that's a sure way to raise productivity
+09:13 < hufg:#liferay> of course the script is an external file that gets sourced, we shall internally fix the once a day quote limit with sed or some awkward way without storing to file
+09:13 < hufg:#liferay> great success!
+09:26 < hufg:#liferay> now this is some self modifying cs shit right here hah
+16:14 < jardineworks:#liferay> hey rotty3000 are you around?
+16:15 <@rotty3000:#liferay> somewhat
+16:16 < jardineworks:#liferay> rotty3000, are you tres busy or do you have a second for a quick question with struts hooks?
+16:16 <@rotty3000:#liferay> shoot
+16:17 < jardineworks:#liferay> rotty3000, I have a hook I wrote for twitter oauth. The whole process is bananas, but suffice to say that my flow is Login > Twitter > TwitterOAuth hook > create account
+16:18 < jardineworks:#liferay> my Twitter OAuth is a BaseStrutsAction
+16:18 < jardineworks:#liferay> disclaimer* I have limited exposure to struts but I think I get the gist of it
+16:18 <@rotty3000:#liferay> basically a mapping from path to an impl
+16:18 < jardineworks:#liferay> if all goes well in my TwitterOAuth class I try to do a response.sendRedirect to the /create_account  url ...
+16:19 < jardineworks:#liferay> but I am getting a PortletRequestProcessor error
+16:19 <@rotty3000:#liferay> yeah
+16:19 <@rotty3000:#liferay> what's the mapping you're using?
+16:19 <@rotty3000:#liferay> in the hook config?
+16:19 < jardineworks:#liferay> one sec
+16:20 <@rotty3000:#liferay> that API needs a little work
+16:20 < jardineworks:#liferay> the hook for the create_account JSP override and custom action is actually in another hook project.
+16:20 <@rotty3000:#liferay> sure, but what's the mapping?
+16:20 < jardineworks:#liferay> <struts-action-path>/login/create_account</struts-action-path>
+16:20 <@rotty3000:#liferay> .. and therein lies the issue
+16:21 < jardineworks:#liferay> :|
+16:21 <@rotty3000:#liferay> this API has a "convention" which is that unless an action is mapped with a prefix of /portal it will be treated as a portlet action
+16:21 < jardineworks:#liferay> oh
+16:21 <@rotty3000:#liferay> portlet actions can only be invoked within the context of a portlet request
+16:21 < jardineworks:#liferay> I didn't know that
+16:22 <@rotty3000:#liferay> so you can't hit it directly from the main servlet /c/blah
+16:22 <@rotty3000:#liferay> also, for the other thing that wants to target it
+16:22 < jardineworks:#liferay> so if I changed my class to be BaseStrutsPortletAction
+16:22 <@rotty3000:#liferay> you have to prepend /c
+16:22 <@rotty3000:#liferay> since in the portal, the main servlet which handles struts is at /c
+16:22 <@rotty3000:#liferay> so...   /c/portal/blajh
+16:23 <@rotty3000:#liferay> if you change it to the portlet base class
+16:23 < jardineworks:#liferay> ok so two options .. mapping to /c/portal/login/create_account or change the base class of the TwitterOAuth
+16:23 <@rotty3000:#liferay> you'll have to actually make a full portlet url with one parameter being      &_portletId_struts_action=/blah
+16:24 <@rotty3000:#liferay> I'm guessing you want to hit it directly...
+16:24 <@rotty3000:#liferay> so change the base class to portal, and change the mapping as well
+16:24 <@rotty3000:#liferay> to be /portal/login/create_account
+16:24 < jardineworks:#liferay> my base class right now is BaseStrutsAction
+16:25 <@rotty3000:#liferay> yup
+16:25 <@rotty3000:#liferay> should be good
+16:25 < jardineworks:#liferay> giving that a shot. Jesus... if this works you just save me hours.
+16:26 <@rotty3000:#liferay> :)
+16:26 < jardineworks:#liferay> Shit.. that was it. Thanks so much man
+16:26 <@rotty3000:#liferay> the API should be more self describing
+16:26 < jardineworks:#liferay> I just need to learn more about struts. I'm such a n00b to it
+16:26 < jardineworks:#liferay> is there a best practice when deciding portlet vs portal struts actions?
+16:27 <@rotty3000:#liferay> mostly when you need an external endpoint (external host access) you want a portal action
+16:28 < jardineworks:#liferay> hmm.. that's not really what I am doing though so maybe I should be changing it to a portlet struts action
+16:28 <@rotty3000:#liferay> when it's a client already interfacing with a portal session it's better to isolate via a portlet
+16:28 <@rotty3000:#liferay> put it this way
+16:28 <@rotty3000:#liferay> all our own oauth uses portal actions
+16:28 <@rotty3000:#liferay> if that tells you anything
+16:28 < jardineworks:#liferay> done.
+16:28 < jardineworks:#liferay> lol
+16:28 < jardineworks:#liferay> does 6.2 introduce OAuth?
+16:29 < jardineworks:#liferay> like twitter, linked in, and google along with FB?
+16:29 <@rotty3000:#liferay> our oauth support is handled via plugins
+16:29 < jardineworks:#liferay> but CE doesn't have any right now
+16:29 <@rotty3000:#liferay> .. you're right
+16:30 < jardineworks:#liferay> alright .. well if I ever clean this stuff up maybe I can share :). Thanks again rotty
+16:31 < jardineworks:#liferay> +1 to thebeer list
+16:31 <@rotty3000:#liferay> :) n/p
+--- Log closed Thu Sep 26 00:00:36 2013

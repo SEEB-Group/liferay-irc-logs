@@ -1,0 +1,26 @@
+--- Log opened Wed Jun 26 15:42:34 2013
+15:42 -!- Irssi: You are now talking in #liferay
+15:43 < bijoo> Is it ok to publish these chat logs?
+15:43 < bijoo> Many questions are answered here too; answers would behoove the community.
+15:48 -!- Irssi: You are now talking in #liferay
+15:49 < josuebc> Alright, another question. I have created a custom theme and now I just want to apply a custom Layout to the theme. But I can't figure out where to do this. Help appreciated. Thanks
+15:49 < bijoo> josuebc: apply custom layout to page, not theme?
+15:50 < josuebc> If I go to contorl panel > Polugin setup. I can see my custom layout, just don't know how to appy it to a specific page or theme.
+15:50 < bijoo> josuebc: are you using 6.1GA2?
+15:50 < josuebc> bijoo: If I go to pages I can only apply a theme, not a layout. Do I just created the wrong type of project?
+15:51 < bijoo> josuebc: no, try this: control panel->site pages->(click on site)->Page
+15:51 < josuebc> bijoo: Nope, we haven't done the upgrade. Still on 6.0
+15:52 < bijoo> josuebc: ok; should be the same on 6.0 too.
+15:53 < josuebc> bijoo: Yah, but I can only choose a Theme, not a layout, and custom CSS also
+15:54 < bijoo> josuebc: do you see the page shown in this picture? http://t.bvakili.com/layout-page
+15:57 < josuebc> bijoo: Well, it is the same path, but it's called Pages and not Site Pages, and it doesn't has the layout options
+16:00 < bijoo> josuebc: In 6.0.6, it is called Page Layouts
+16:01 < bijoo> josuebc: have you tried clicking, Manage->Page Layout?
+16:02 < bijoo>  http://t.bvakili.com/manage-page-layout-liferay-6.0.6
+16:02 < josuebc> bijoo: Hahaha... Alright, yes I have it under manage. Sorry about this.
+16:02 < josuebc> And thank you!
+16:03 < bijoo> enjoy; thanks to the Liferay team for this.
+16:04 < josuebc> True, hehe
+16:04 < bijoo> 6.2 looks amazing from what I have seen. The theme, the new control panel, just great!
+16:07 < josuebc> Should be upgrading in a couple months. Cant wait!
+--- Log closed Thu Jun 27 00:00:11 2013

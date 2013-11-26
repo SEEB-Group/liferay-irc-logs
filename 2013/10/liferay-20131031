@@ -1,0 +1,157 @@
+--- Log opened Thu Oct 31 00:00:51 2013
+02:25 -!- mode/#liferay [+o lundgren] by ChanServ
+02:47 -!- mode/#liferay [+o rotty3000] by ChanServ
+04:29 < LRAdminInNeed176:#liferay> xxccc
+09:01 < hufg:#liferay> maan the performance of document library is some 7x worse in the actual env compared to my local machine
+09:01 < hufg:#liferay> what is this?!
+09:01 < hufg:#liferay> :D
+09:03 < hufg:#liferay> excluding transfer times
+09:05 < Tar-Minyatur:#liferay> Special hufg troll mode. ;)
+09:06 < Tar-Minyatur:#liferay> Thanks again for the hint about the web content search portlet, btw.
+09:06 < Tar-Minyatur:#liferay> Looks pretty much perfect. I only wonder why it never came up before.
+09:29 < Tar-Minyatur:#liferay> Mmmmhm.
+09:29 < Tar-Minyatur:#liferay> There is no plugin SDK 6.1.2 right?
+09:29 < Tar-Minyatur:#liferay> I have to use the 6.1.1 one for 6.1.2 portlets, right?
+09:30 < Tar-Minyatur:#liferay> Because I get a deployment error that I need to install the compat hook first.
+09:31 < hufg:#liferay> uhm?
+09:32 < Tar-Minyatur:#liferay> Sorry...I'm trying to deploy a hook.
+09:32 < hufg:#liferay> Tar-Minyatur: there is a lot of stuff, easy to miss something 8)
+09:32 < Tar-Minyatur:#liferay> I created it using the latest SDK from liferay.com and it tells me to install the compat hook first.
+09:34 < hufg:#liferay> ok weird
+09:34 < hufg:#liferay> haven't used the sdk
+09:34 < hufg:#liferay> you don't actually need it for hooks
+09:35 < hufg:#liferay> or uhuh dunno with ant and whatever you can use
+09:35 < hufg:#liferay> maven4life
+09:36 < Tar-Minyatur:#liferay> Well...using the SDK it's very easy to quickly create a hook.
+09:36 < Tar-Minyatur:#liferay> Because you have a search tool for all portal JSPs for example.
+09:37 < hufg:#liferay> ah ok
+09:37 < hufg:#liferay> i have no clue
+09:37 < hufg:#liferay> :D
+09:37 < hufg:#liferay> i just have two monitors and one of them contains liferay src
+09:37 < hufg:#liferay> hehe
+09:37 < hufg:#liferay> and grep!
+09:38 < Tar-Minyatur:#liferay> Yeah well...that works too I guess. ;)
+09:38 < Tar-Minyatur:#liferay> I will need a Maven project in the end anyway.
+09:38 < Tar-Minyatur:#liferay> For the CI.
+09:38 < hufg:#liferay> there are maven archetypes
+09:38 < hufg:#liferay> for liferay plugins
+09:38 < Tar-Minyatur:#liferay> But for a quick prototype I had hopes to skip the hassle.
+09:39 < hufg:#liferay> 8)
+09:39 < Tar-Minyatur:#liferay> I just wanted to check quickly if I can bend the search thingy to meet our requirements.
+09:40 < hufg:#liferay> mm
+09:40 < hufg:#liferay> stab the jsp files on dev env
+09:40 < hufg:#liferay> directly
+09:40 < Tar-Minyatur:#liferay> My dev setup is pretty broken, because I'm usually busy with organizational stuff...I wish I had more time for actual development...
+09:40 < hufg:#liferay> i'd say lr hooks are reliable if you understand the limitations
+09:41 < hufg:#liferay> for example overriding a jsp is np
+09:42 < hufg:#liferay> Tar-Minyatur: get bundle for prototyping? 8)
+09:42 < hufg:#liferay> bundle is not realiable btw
+09:42 < hufg:#liferay> reliable
+09:43 < Tar-Minyatur:#liferay> My Liferay is working fine.
+09:43 < Tar-Minyatur:#liferay> It set it up a while ago manually.
+09:43 < hufg:#liferay> hehe ok ok
+09:43 < Tar-Minyatur:#liferay> But the IDE, SDK, Maven etc. are somehow not properly configured to work nicely with each other.
+09:44 < Tar-Minyatur:#liferay> And I realize that only when I need them. ;D
+09:44 < Tar-Minyatur:#liferay> Well...I will try with a Maven project again later.
+09:46 < hufg:#liferay> that's why you slim it down to...maven!
+09:54 < hufg:#liferay> Tar-Minyatur: np, great that the web content search worked out for you
+09:56 < jardineworks:#liferay> 'morning guys
+09:58 < dblessing:#liferay> hey guys
+09:58 < dblessing:#liferay> in your experience, how does rc6 feel?
+09:58 < dblessing:#liferay> i'm feeling it's a bit buggy on the UI side. i'm especially seeing some JS errors loading the ckeditor
+10:10 < hufg:#liferay> haven't tried rc6 :Z
+10:18 < modd_:#liferay> again another rc build?
+10:21 < dblessing:#liferay> modd_: yeah, came out a day or 2 ago
+10:22 < modd_:#liferay> way too fast. a day after I tried rc4 rc5 came out and now rc6...
+10:41 < jardineworks:#liferay> modd_, I guess they are trying really hard to hit the "fall" timeframe for a release.
+10:42 < dblessing:#liferay> jardineworks: hopefully they focus more on stable than get it out the door, but i understand both sides
+10:42 < dblessing:#liferay> as with any liferay release, it seems drug out so they are sensitive to that i'm sure
+10:43 < dblessing:#liferay> jardineworks: i was able to get zurb foundation to work on top of bootstrap with a new theme. i decided to do foundation instead of bootstrap3.
+10:56 -!- mode/#liferay [+o lundgren] by ChanServ
+11:05 < jardineworks:#liferay> dblessing, foundation is what I am using on my project (though this is a 6.1.1. version I am using)
+11:05 < jardineworks:#liferay> when you use it with the unstyled theme, its almost perfect.
+11:06 < jardineworks:#liferay> I keep dragging my window between large and small because I love to see the responsiveness :)
+11:09 -!- mode/#liferay [+o lundgren] by ChanServ
+11:26 < dblessing:#liferay> jardineworks: indeed. love foundation. everyone is on a bootstrap craze though :)
+11:32 < jardineworks:#liferay> foundation is built on top of bootstrap (I was told)
+11:33 < dblessing:#liferay> jardineworks: i don't think that's right haha.
+11:41 < hufg:#liferay> the document library is not really cached ?
+11:44 < hufg:#liferay> can't see much difference, although it is possible that they got cached ages ago and the "no cache"  portlet-ext.properties configurations don't really apply for it
+11:49 < hufg:#liferay> hmm ok it's not in ehcache by default
+11:54 < jardineworks:#liferay> hey guys -- sanity check. If I have a portlet where the <name> in the liferay-portlet.xml is carousel.. then the identifier to embed it is carousel_WAR_carouselportlet right?
+12:09 < hufg:#liferay> there is probably a reason document library is not in the cache by default?
+12:14 -!- mode/#liferay [+o lundgren] by ChanServ
+12:18 -!- mode/#liferay [+o lundgren] by ChanServ
+13:25 < jardineworks:#liferay> hey g uys
+13:25 < jardineworks:#liferay> guys*
+13:25 < jardineworks:#liferay> is there anything special that I need to configure somewhere to embed a portlet in a layout template?
+13:26 < jardineworks:#liferay> I am using $processor.processPortlet("58") (since I know that is the login portlet and it should work) but I keep getting exceptions in the log.
+13:26 < jardineworks:#liferay> NullPointers ...
+13:29 < jardineworks:#liferay> ()!@$~!
+13:29 < jardineworks:#liferay> Bug in Liferay 6.1
+13:29 < jardineworks:#liferay> great.
+13:29 < jardineworks:#liferay> http://www.liferay.com/community/forums/-/message_boards/message/18287655?_19_redirect=http%3A%2F%2Fwww.liferay.com%2Fcommunity%2Fforums%2F-%2Fmessage_boards%2Fsearch%3F_19_keywords%3Dembed%2Ba%2Bportlet%2Bin%2Ba%2Blayout%26_19_searchCategoryId%3D0%26_19_breadcrumbsCategoryId%3D0%26_19_redirect%3Dhttp%253A%252F%252Fwww.liferay.com%252Fcommunity%252Fforums%253Fp_p_id%253D19%2526p_p_lifecycle%253D0%2526p_p_state%253Dnormal%2526p_p_m
+13:29 < jardineworks:#liferay> ode%253Dview%2526p_p_col_id%253Dcolumn-1%2526p_p_col_count%253D1%26_19_formDate%3D1383240420775
+13:33 < jardineworks:#liferay> has nayone ever tried to use the RuntimePortletUtil in a layout template?
+13:52 < scribe:#liferay> Hey guys.  Is there anything I can set in a liferay login hook which I could later access from javascript?
+13:53 < jardineworks:#liferay> scribe, you mean like a session variable or something?
+13:53 < jardineworks:#liferay> I mean, you could dump something in the session and the write it out in the JSP before the JS runs later.
+13:53 < scribe:#liferay> I am establishing a session with external web services and receive a session token from these services.  When I call these services from my javascript, I need to pass this token for authentication.
+13:54 < jardineworks:#liferay> or use JS to make a serveResource call to check the session value
+13:54 < jardineworks:#liferay> do you call them via a serverResource call? or are you calling them directly from the JS?
+13:54 < scribe:#liferay> I'm calling then directly from the js.
+13:55 < scribe:#liferay> I was wondering if I could set something in USER_INFO
+13:55 < scribe:#liferay> is there standard js calls to allow me to access info from USER_INFO?
+13:55 < jardineworks:#liferay> hmmm -- personally I don't normally do that for security reasons. You could store it in the portal session under an attribute that is prefixed with LIFERAY_SHARED_
+13:56 < jardineworks:#liferay> then it will be accessible to all the plugins in your application.
+13:56 < scribe:#liferay> jardineworks, Well, all my 'plugins' are js-only (they are opensocial gadgets).
+13:57 < jardineworks:#liferay> js makes a resource call .. and then on the java side (for your plugin -- assuming this is a portlet) you can get the details out of the session and make the call
+13:57 < jardineworks:#liferay> oh
+13:57 < jardineworks:#liferay> I've never done anything with that
+13:57 < scribe:#liferay> Well, I have access to 'parent.Liferay' from javascript.
+13:57 < jardineworks:#liferay> what's parent.Liferay contain?
+13:58 < scribe:#liferay> a zillion methods.
+13:58 < jardineworks:#liferay> bet you didn't think coming in here looking for help would result in you providing a lesson haha :)
+13:58 < scribe:#liferay> :)
+13:58 < jardineworks:#liferay> probably maps to PortalUtil maybe?
+13:58 < jardineworks:#liferay> can you store it in a cookie?
+13:58 < jardineworks:#liferay> or maybe a simple service builder?
+13:58 < scribe:#liferay> parent.Liferay is the Liferay javascript object which basically wraps all the jsonws calls and more
+13:59 < scribe:#liferay> I could probably store it in a cookie, but not sure if I have access to cookies set by my portal domain when my gadget is running from another domain.  Hmmmm.
+13:59 < jardineworks:#liferay> best to put it as a hang off of the user object ... like an expando maybe? but I don't think the user object is available in a post login hook. I remember trying to do soemthing like this once and rotty explained to me it was not ready yet (post login) for security reasons
+14:00 < jardineworks:#liferay> Can you put it in the session and then have a service pre hook that moves it to the User expando?
+14:00 < jardineworks:#liferay> and then you can use the parent.Liferay to call the UserLocalServiceUtils ..
+14:00 < jardineworks:#liferay> though you probably have a user object in your js right?
+14:01 < scribe:#liferay> ok, well, standard Portlet spec lets me put stuff in USER_INFO object, e.g., session.setAttribute("USER_MYCRAP", crap);
+14:02 < scribe:#liferay> then I can access this from any Portlet with something like:
+14:03 < scribe:#liferay> Map userInfoMap = (Map) request.getAttribute(PortletRequest.USER_INFO);
+14:03 < scribe:#liferay> String myCrap = (String) userInfoMap.get("MYCRAP");
+14:03 < scribe:#liferay> But I don't know if Liferay JS gives me access to the USER_INFO map.
+14:04 < jardineworks:#liferay> scribe, but with the jsonws you could pull the user back from the UserLocalService right?
+14:04 < jardineworks:#liferay> oh I see
+14:04 < jardineworks:#liferay> you are trying to do it without an extra plugin to move it
+14:04 < jardineworks:#liferay> which is a little gross I admit
+14:04 < scribe:#liferay> Well, yes, and per session, not per user
+14:05 < scribe:#liferay> your idea about putting it in the User expando thingy is good though.
+14:05 < scribe:#liferay> I don't know what a service pre hook is though.
+14:07 < jardineworks:#liferay> ]oen sec
+14:07 < scribe:#liferay> I guess it doesn't matter if the user logs in twice from two different browsers and I override the value.  The latter token will be just as valid as the first.
+14:14 < jardineworks:#liferay> scribe, you can use a service.pre.event that is run with every service call.
+14:14 < jardineworks:#liferay> I was told that they are stored in memory so the fact that they run over and over doesn't matter.
+14:14 < scribe:#liferay> jardineworks, ok, what exactly is a 'service call'?
+14:14 < jardineworks:#liferay> they're super fast. Just don't put any logging info in the plugin because if soemoen saw how oftern it was run they would think it was an issue :)
+14:15 < jardineworks:#liferay> every request
+14:15 < jardineworks:#liferay> and then some
+14:15 < scribe:#liferay> :)
+14:15 < jardineworks:#liferay> I usesd it recently for a token type situation as well. I just had the logic to short circuit right off the bat. That way it was in and out in no time.
+14:16 < jardineworks:#liferay> so basically...
+14:16 < jardineworks:#liferay> 1. In your post login hook, add a variable to the session.
+14:16 < jardineworks:#liferay> 2. create a service pre hook
+14:16 < jardineworks:#liferay> 3. In the service pre hook check the session for the variable and return if it is null. Else, get the User object and add it to the expandos.
+14:17 < jardineworks:#liferay> deploy.
+14:17 < jardineworks:#liferay> and then in your JS .. if you can use the jsonws to get the user object back then you can (I assume) get the expandos with it and you have your token.
+14:18 < jardineworks:#liferay> you might even want to find a place to do this once and store the token somehow in the js (hidden field or something maybe?) so that you don't have to keep going back and forth.
+14:18 < jardineworks:#liferay>  
+17:14 -!- mode/#liferay [+o jhf] by ChanServ
+17:59 -!- mode/#liferay [+o lundgren] by ChanServ
+--- Log closed Fri Nov 01 00:00:53 2013

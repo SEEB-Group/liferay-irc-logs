@@ -1,0 +1,51 @@
+--- Log opened Mon Sep 09 00:00:36 2013
+03:07 < wolfied:#liferay> hi anyone here i want to ask something about liferay ?
+03:13 < wolfied:#liferay> hey anyone here ?
+08:09 < Tar-Minyatur:#liferay> Hi guys.
+08:09 < Tar-Minyatur:#liferay> Situation: Staging is activated (for Web Content as well). When I look at the live view of a page, I see Edit-Buttons in a Web Content Viewer. (Nothing else though.)
+08:11 < Tar-Minyatur:#liferay> Why is a web content editable on live when staging is activated? Is that bug or a feature?
+08:33 < Tar-Minyatur:#liferay> Nice. Looks like the article isn't staged.
+08:33 < Tar-Minyatur:#liferay> What the... ?!
+08:33 < Tar-Minyatur:#liferay> I can edit it either from live or from staging...changes are visible immdiately on both.
+08:34 < Tar-Minyatur:#liferay> That's not how I expected staging to work.
+09:10 -!- mode/#liferay [+o jhf] by ChanServ
+09:18 < kiuma:#liferay> hellowwww!!!
+09:18 < kiuma:#liferay> holydays finished :(
+10:30 < kiuma:#liferay> can anybody tell me why sometime the image thumbnail is not created ?
+10:30 < kiuma:#liferay> it there a way to make thumbnail generation a synchronous process ?
+10:57 < scribe:#liferay> Hey guys.  Anyone going to Liferay DevCon Berlin next month?  Thanks for the heads up about it.  We're thinking of attending.
+11:11 < fliplink:#liferay> Hello, Im having issues using webdav, we are currently using LDAP with basic, but weddav wont allow us to connect or map to it. anyone with similar issues?
+12:46 < Naenyn:#liferay> rotty3000: Good morning =] Could you ping me when you have a moment to talk..? centr0 and I have some questions about wiring up liferay to work with an external pdf service.
+12:46 <@rotty3000:#liferay> shoot
+12:46 <@rotty3000:#liferay> liferay version?
+12:46 < Naenyn:#liferay> rotty3000: 6.1.20 GA2
+12:47 < Naenyn:#liferay> We are using pdfcrowd.com to generate pdfs for some content in our custom portlets
+12:48 < Naenyn:#liferay> and previously, everything was working great.. just rendering the content how we want, then passing pdfcrowd a link to the content. However, some time recently, the behaviour has changed (without us changing any code) .. where pdfcrowd is now getting a liferay login page instead of the content we want to have pdf'd.
+12:48 < Naenyn:#liferay> so we're kinda baffled as to why this is happening now, why it was working in the first place, and how we should really be doing it..
+12:49 <@rotty3000:#liferay> what is the "content" you speak of?
+12:49 <@rotty3000:#liferay> you sure the remote service has "permission" to view said content?
+12:49 < Naenyn:#liferay> basically, data in our custom portlets for reporting purposes.. all retrieved via javascript and ajax calls.
+12:50 < Naenyn:#liferay> That's what is weird.. pdfcrowd seems to have lost permission .. and honestly now that I've had it explained to me how we're doing the pdf'ing, I don't see how it ever worked in the first place
+12:50 <@rotty3000:#liferay> if you use curl, can you see the content properly using the same urls?
+12:50 < Naenyn:#liferay> we're basically passing pdfcrowd a url for them to hit and generate the pdf .. and instead of seeing the portlet content like we used to, we're now getting a pdf back of the liferay login screen =]
+12:51 < Naenyn:#liferay> good question, haven't tried that.
+12:51 < Naenyn:#liferay> centr0: do you have a url handy that we're passing to pdfcrowd?
+12:52 < centr0:#liferay> i can get it, one sec
+12:53 < centr0:#liferay> http://stagecol.pearsonschoolimprovement.com/en/web/forward-elementary-test-site/survey-results?p_p_id=forwardsurveyadminportlet_WAR_forwardsurveyportlet&p_p_lifecycle=0&p_p_state=exclusive&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_forwardsurveyadminportlet_WAR_forwardsurveyportlet_action=viewPrintFriendlyReport#/print/1/1/all/all/all
+12:56 < Naenyn:#liferay> rotty3000: my curl-fu is weak.. any suggestions on what I should be passing it other than the url?
+12:57 < Naenyn:#liferay> I get nothing when just passing the url..
+13:02 <@rotty3000:#liferay> ok, I get a login from the browser on that url
+13:02 <@rotty3000:#liferay> so likely the same reason the remote service is also getting one
+13:03 <@rotty3000:#liferay> if I remove all the params and just use the root url, I also get the login screen
+13:04 <@rotty3000:#liferay> so perhaps the page is not even public (permissions? )
+13:05 < Naenyn:#liferay> That's the thing.. it wasn't ever public.
+13:05 < centr0:#liferay> but it worked (still works on prod, not staging)
+13:05 < Naenyn:#liferay> wait, still works on prod? I thought prod was broken too.
+13:39  * flip1:#liferay slaps fliplink around a bit with a large trout
+13:40 < ArTeS:#liferay> zaa
+13:40 < ArTeS:#liferay> xd
+13:40 < ArTeS:#liferay> :D
+14:10 -!- mode/#liferay [+o lundgren] by ChanServ
+19:09 -!- mode/#liferay [+o jhf_] by ChanServ
+20:03 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Tue Sep 10 00:00:37 2013

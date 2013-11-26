@@ -1,0 +1,160 @@
+--- Log opened Thu Aug 22 00:00:09 2013
+10:16 < cythrawll> we're having hella cache problems.
+10:16 < cythrawll> the blocking cache is on by default... everything performs pretty well with it. but our servers hang and deadlock threads often
+10:17 < cythrawll> so we turned it off, now the site is slow as hell
+10:17 < cythrawll> all the bugs pertaining to this say fixed for 6.1... but obviously that's not the case
+10:17 < cythrawll> and there's no clear patch listed in the bugs
+10:18 < cythrawll> https://issues.liferay.com/browse/LPS-15754
+10:21 <@rotty3000> cythrawll: are you on 6.1EE ?
+10:22 < cythrawll> no
+10:22 < cythrawll> CE
+10:23 <@rotty3000> so sadly, when the tickets say "fixed for 6.1" it typically means somewhere along the EE track
+10:23 <@rotty3000> and I can see from the resolutions that this is indeed the case here
+10:23 <@rotty3000> the code is in 6.2 or master however
+10:24 <@rotty3000> so it will be in the next CE release
+10:24 < cythrawll> it does say CE in the ticket
+10:25 < cythrawll> :|
+10:25 <@rotty3000> it's says                Fix Version/s:--Sprint - SP, 6.1.0 CE RC1
+10:25 <@rotty3000> that doesn't mean it made the CE release
+10:26 <@rotty3000> I know that's confusing.
+10:27 <@rotty3000> but I see 5 associated tickets to which the resolutions are actually attached
+10:27 < cythrawll> :<
+10:27 <@rotty3000> and those resolutions are actually provided as hotfixes for the EE release
+10:27 <@rotty3000> and so those would be in the EE fixpacks and GA releases
+10:27 < cythrawll> meh
+10:27 <@rotty3000> and also in the next CE to come
+10:28 <@rotty3000> :(
+10:28 <@rotty3000> I could give you the ticket numbers and that would let you trace the commits in the master repo
+10:28 <@rotty3000> from which you could build a patch
+10:29 < cythrawll> yeah we might have to do that... i dunno
+10:29 < cythrawll> we're still seeing if we can fix our issue
+10:30 < cythrawll> because our stuff is now unusably slow
+10:30 < cythrawll> it's like it's not cacheing at all anymore
+10:31 < cythrawll> kind of surprised liferay would only put the patch in EE when it's a show stopping bug for CE
+10:33 < cythrawll> rotty3000, maybe I can get my developer on here, and maybe we can get help with that patch?
+10:34 <@rotty3000> I can offer a little support, but I can't guarantee anything
+10:35 <@rotty3000> we can try
+10:35 < cythrawll> rochad meet rotty
+10:35 < cythrawll> rotty, rochad
+10:36 < rochadt> hey
+10:36 <@rotty3000> btw, I think this is the patch https://github.com/liferay/liferay-portal/commit/9845e72f5747ef19f9a52ea06b8a87aab5c4c682
+10:36 <@rotty3000> hey
+10:37 <@rotty3000> it's possible to search the commit comments easily if you checkout/fork the repo locally
+10:37 <@rotty3000> it's quite easy with most git clients
+10:37 < rochadt> good to know!
+10:37 < rochadt> so LPS-15754 never made it into 6.1 ga1?
+10:38 <@rotty3000> checking
+10:39 <@rotty3000> strange, in fact it says "Precedes: 6.1.0-b1"
+10:39 <@rotty3000> which means it's container in that tag.. which one would thing would have preceeded the GAs
+10:39 < rochadt> that's why I was wondering
+10:40 <@rotty3000> in fact it does... so perhaps you're seeing a different issue altogether
+10:40 < rochadt> I have the 6.1 ga1 source, I'm just going to verify these changes to be sure
+10:40 -!- mode/#liferay [+o jhf] by ChanServ
+10:41 < cythrawll> basically we're seeing this same thing: https://issues.liferay.com/browse/LPS-19861
+10:41 <@rotty3000> rochadt, cythrawll: btw, is there a ticket which exactly describes your issue?
+10:42 < cythrawll> yeah the one I just posted
+10:42 <@rotty3000> right, hmm.. the resolution is the same as the other ticket in the commit I posted
+10:42 < cythrawll> except response times don't creep up
+10:42 < cythrawll> it just completely deadlocks the threads
+10:42 < cythrawll> and requests don't complete at all
+10:43 < cythrawll> they just spin forever
+10:43 < cythrawll> actually that's happening in a TP-Processor497 ... ours are happening in the tomcat executor threads
+10:44 <@rotty3000> can you show me how you disabled it?
+10:44 < cythrawll> rochadt, can
+10:46 < rochadt> ok sorry about that...
+10:46 < rochadt> yes that patch is definitely in 6.1
+10:46 < rochadt> and we disabled the blocking cache with a portal property, hcache.blocking.cache.allowed=false
+10:47 < rochadt> ehcache**
+10:48 < dave_k> hello all
+10:48 <@rotty3000> try permissions.object.blocking.cache=false instead
+10:50 < rochadt> ok rotty, thank you I will try that now
+10:50 <@rotty3000> rochadt: cythrawll also under the heading "## Value Object" in portal properties, there is a whole slew of caching flags
+10:51 <@rotty3000> rochadt: cythrawll including per entity cache settings
+10:51 <@rotty3000> cache type, etc..
+10:54 < rochadt> Ah I've never noticed these settings before
+10:54 < rochadt> I also noticed that when we did the jstack thread dumps
+10:54 < rochadt> we had a lot of replication threads...
+10:56 < dave_k> we're having a strange request ... using one liferay instance, we want to deliver multiple sites/organizations, but keep the users of the different sites completely disconnected, i.e. one user (one email address) has to sign up for each of these sites. But he should not be able to see that he is actually on the same liferay instance. Is that possible in any way?
+10:56 < cythrawll> rochadt, I think that's the side effect of the default ehcache distribution
+10:56 < cythrawll> have to get the EE version for the light thread replication I guess
+10:57 <@rotty3000> dave_k: that's called portal instances, Liferay supports that OOTB
+10:57 < dave_k> rotty3000: Thanks. Why didn't I see that? *selfslap*
+10:58 <@rotty3000> dave_k: it's like a virtual hosting built into liferay, each "instance" is isolated from each other
+10:58 <@rotty3000> :)
+10:58 < dave_k> ... and clustering would work on top of that?
+10:59 <@rotty3000> dave_k: I have one suggestion however.. if you plan to scale really really large.. I would suggest, actual separate Liferay deployments
+10:59 <@rotty3000> dave_k: yes
+10:59 < dave_k> i.e. the clustering config is orthogonal to the Portal instance config?
+10:59 <@rotty3000> all Liferay features work in that mode
+10:59 <@rotty3000> exactly
+11:00 < dave_k> wheeeeee!
+11:00 <@rotty3000> again, the limit then becomes a problem of "Data structures"
+11:00 <@rotty3000> no matter how good code is,, it has limits for concurrency
+11:00 < dave_k> and how about plugin deployment?
+11:01 <@rotty3000> so if you plan to have each "instance" with 1 million users, and 500 instances
+11:01 <@rotty3000> then please use separate nodes :)
+11:01 < dave_k> (we actually plan multiple liferay instances on multiple tomcats on multiple hardware)
+11:01 <@rotty3000> great
+11:01 <@rotty3000> sure
+11:02 < dave_k> plugins would need to be deployed to each tomcat instance separately, I gather?
+11:02 <@rotty3000> exactly
+11:04 <@rotty3000> cythrawll: re threading... good question, not even sure myself
+11:04 < dave_k> okay. what about different plugin versions for liferay instances on the same tomcat? (i.e. a hook that behaves differently for instance A and B) ... I think that that must be a configuration option in the plugin, yes?
+11:05 <@rotty3000> dave_k: correct! although it's planned to support actual plugin versions in future versions of Lifeay (to a degree)
+11:06 < dave_k> okay, I think we have a winner! :)
+11:06 <@rotty3000> good luck dave_k!
+11:07 < dave_k> we already had luck with a small-scale liferay installation over a two-server cluster serving one site. no onto something bigger :)
+11:07 < dave_k> *now
+11:08 < dave_k> thanks, rotty3000. very helpful answers!
+11:08 <@rotty3000> cythrawll: rochadt, you may be interested in simply trying the 6.1.x branch of liferay
+11:09 <@rotty3000> dave_k: n/p
+11:09 <@rotty3000> https://github.com/liferay/liferay-portal/tree/6.1.x
+11:10 < rochadt> we may look into moving to GA3
+11:11 < rochadt> 6.2 will be released fairly soon though, no?
+11:12 <@rotty3000> rochadt: man I hope so!
+11:12 < rochadt> right!
+11:12 < rochadt> :D
+11:12 <@jhf> rochadt: I am hoping for GA3 to be out in the next 7 days. testing is complete, we are just updating the marketplace portlets so that they claim compatibility with GA3.
+11:13 <@jhf> but don't rely on that "hope" :)
+11:13 < rochadt> well thank you for the heads up
+11:13 <@jhf> 6.2 is targeted at "this autumn"
+11:13 <@jhf> but you also must not rely on that :)
+11:23 < rochadt> rotty3000: thank you again for helping with this issue, we're going to have to keep an eye on it for a while.
+11:35 < dave_k> hmmm ... Just seeing GA3 ... Does that have the UI updates as of 6.2-B2?
+11:35 <@jhf> nope
+11:35 <@jhf> GA3 does not have the bootstrap-ificaiton that occurred in 6.2
+11:35 < dave_k> ok, understandable :)
+11:35 <@jhf> yeah.. being a "patch" release and all :)
+11:51 < cythrawll> there seems to be something holding requests to portal resources (static files are fine) for almost exactly 5 seconds
+11:51 < cythrawll> does that sound like anything? maybe a timeout somewhere?
+11:51 < cythrawll> we're getting 5 second load tiems or more very consistently
+11:57 < cythrawll> bootstrapification for liferay?
+11:57 < cythrawll> does that mean it'll be mobile friendly by default?
+11:57 < cythrawll> :p
+11:58 < cythrawll> our UX team will be happy to hear that.
+11:58 < cythrawll> they been pestering us with responsive design for a bit now :p
+12:08 < rochadt> yea it seems like something is still locking the cache entity
+12:08 < rochadt> If I hit a css file being returned from the theme for example
+12:09 < rochadt> most of the time it will load ~8ms
+12:09 < rochadt> then on some for no apparent reason it takes 5.01 seconds...
+12:26 < jardineworks> any liferay people around
+12:26 < jardineworks> I need a moment of help... I have no idea what is wrong with the build scripts
+12:26 < jardineworks> I have a class MyAuthenticator extends Authenticator.
+12:27 < jardineworks> I have implmented the methods with @Override
+12:27 < jardineworks> but the ant compile task keeps telling me that i need to override the superclass methods?!
+12:29 < rochadt> I think you are compiling with the 1.5 jdk
+12:30 < rochadt> in your build.properties in the liferay sdk
+12:31 < rochadt> what are you ant.build.javac target and source?
+12:31 < jardineworks> rochadt, nope -- actually, and this is crazy, I have a lib reference (from another project in the same workspace) that was wrong. Why on earth that results in THAT error, I have no idea.
+12:31 < rochadt> strange
+12:34 < jardineworks> very
+12:50 < cythrawll> jardineworks, does each method match the signature of each method you overwritten?
+13:18 < jardineworks> cythrawll, 100%.. I used eclipse to generate them
+14:21 < jardineworks> anyone awake in here written they own custom authenticator before?
+14:23 < jardineworks> I have written my class and inserted it into the authentication pipeline.
+14:24 < jardineworks> The validation (externally) works, and I return Authenticator.SUCCESS ... but the portal seems stuck. It just keeps "loading" and doesn't render a pagfe for me
+14:48 < jardineworks> hmmmm I just stepped through the AutPipeline code and at every turn Authenticator.SUCCESS is returned.
+14:59 <@jhf> jardineworks: can you 'jstack' it to see what the stuck thread is?
+15:01 < jardineworks> it just worked.
+15:01 < jardineworks> I have no idea what made it start working lol
+--- Log closed Fri Aug 23 00:00:10 2013
