@@ -266,3 +266,4 @@
 14:04 < Nudge:#liferay> jardineworks: Maybe you can help me with one very important question to me: Is it possible to have a data list somewhere (portlet, dynamic data list, wherever) and use the data entry's fields to feed a content template, so that each generates a page on its own? In our current CMS this feature is called content projection templates.
 14:06 < Nudge:#liferay> e.g. you have a list of events with title, location, date, time and description. And then for each entry there will be page with a template using those values.
 14:08 < jardineworks:#liferay> Nudge, you create a structure for each of your content types, and then you can create 0 - n templates for that type. When you add the content to a page you pick the content and the template to use. So a single event can use the same data but present itself differently depending on where you are on the site
+14:09 < Nudge:#liferay> Is it possible to let liferay generate the pages automatically?
