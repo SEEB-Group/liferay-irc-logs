@@ -230,3 +230,6 @@
 13:49 < Nudge:#liferay> This way, would it be possible to let an editor maintain the possible values?
 13:50 < jardineworks:#liferay> everything is based on ACLs. YOu can set the attributes so that a particular role can manage them, and you can set it so that a user can manage their own
 13:50 < jardineworks:#liferay> totally up to you
+13:51 < Nudge:#liferay> that sound great
+13:51 < Nudge:#liferay> but it's hard for me to imagine how this is working out (technically)
+13:51 < jardineworks:#liferay> hire soemone who knows Liferay to show you :)
