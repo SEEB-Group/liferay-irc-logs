@@ -410,3 +410,10 @@
 16:11 <@jhf:#liferay> yeah we have a lot of customers that do 'best of breed' combinations
 16:12 < Nudge:#liferay> Using the cms and its template, then feeding the results into Liferay, and let liferay "enrich" the more or less static content with customer ratings, comments and so on.
 16:12 < jardineworks:#liferay> hey jhf can you not set render parameters in an IPC event handler?
+16:13 < jardineworks:#liferay> sorry
+16:13 <@jhf:#liferay> yeah you should be able to. make sure they are namespaced!
+16:13 < jardineworks:#liferay> I am in an action handler
+16:13 < jardineworks:#liferay> and I am firing an event
+16:13 < jardineworks:#liferay> but I am also trying to set render parameters
+16:13 < Nudge:#liferay> jhf: But before we enslave to such a complex situation, I think we should evaluate Liferay as-is (as single point of failure ;-))
+16:13 < jardineworks:#liferay> but I keep getting an illegal argument exception
