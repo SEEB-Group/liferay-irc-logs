@@ -212,3 +212,5 @@
 13:35 < jardineworks:#liferay> like a dozen fields? or hundreds?
 13:35 < Nudge:#liferay> lets start with something simple, perhaps 10 interests out of 20
 13:35 < Nudge:#liferay> the user can multi-select them on registering
+13:36 < jardineworks:#liferay> if you have a manageable size then what I have done in the past, for this exact example, is use the Expando attribtues on the User Model object that comes in Liferay
+13:36 < Nudge:#liferay> does that mean "dynamic" fields to the user entity?
