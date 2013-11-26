@@ -408,3 +408,5 @@
 16:11 <@jhf:#liferay> well, give Liferay a shot, I'd be interested in seeing how it compares (as would our sales people I am sure)
 16:11 < Nudge:#liferay> So actually we are also thinking about a combination.
 16:11 <@jhf:#liferay> yeah we have a lot of customers that do 'best of breed' combinations
+16:12 < Nudge:#liferay> Using the cms and its template, then feeding the results into Liferay, and let liferay "enrich" the more or less static content with customer ratings, comments and so on.
+16:12 < jardineworks:#liferay> hey jhf can you not set render parameters in an IPC event handler?
