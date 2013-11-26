@@ -224,3 +224,6 @@
 13:46 < jardineworks:#liferay> 2. you create the user
 13:46 < jardineworks:#liferay> 3. as part of the user creation you set the expando properties to values based on their selection.
 13:46 < jardineworks:#liferay> 4. The user logs in
+13:47 < jardineworks:#liferay> 5. You can access (in code) the users expando settings to determine which ones they selected.
+13:47 < jardineworks:#liferay> 6. you create a custom portlet, grab the user out of the ThemeDisplay, check the expandos and then use your own branch logic to determine wat they should see..
+13:47 < jardineworks:#liferay> pages, files, links. whatever.
