@@ -297,3 +297,6 @@
 15:02 <@jhf:#liferay> so whether it's "inside a portlet" or not doesn't matter much. the only difference is the context in which it is evaluated. for example, if you are writing template code for a theme you'll have access to the servlet request/response object pair, as your template code is evaluated as part of a complete portal page request. if you're writing template code for rendering a single piece of web content, then you'll not have the same context, as it's evaluated only i
 15:02 <@jhf:#liferay> the context of that one web content piece (so for example you don't have access to the request/response objects, and a few other bits)
 15:03 < Nudge:#liferay> jhf: Thank you
+15:04 <@jhf:#liferay> yw! and welcome, we're here to help! and to confuse, occasionally
+15:04 <@jhf:#liferay> ;-)
+15:04 < Nudge:#liferay> If I had a small vm template for web content in the footer and would like to include something from my portlet's db data, how would I do that?
