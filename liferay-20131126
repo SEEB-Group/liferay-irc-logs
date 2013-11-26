@@ -275,3 +275,6 @@
 14:12 < Nudge:#liferay> Currently I don't understand much of your answer but I am happy that at least there is a way. One day I guess this sounds simple to me. :)
 14:13 < Nudge:#liferay> Where would you put such data best? Into a portlet (with a model and service) or would you use a DDL schema here?
 14:16 < Nudge:#liferay> Ah, does that mean I would create a layout with an dynamic url such as /<interest-name>/events/<id> and drop my portlet into that? Then the portlet examines the url pattern, extracts parameters from it and renders a corresponding entry's data?
+14:17 < jardineworks:#liferay> Nudge, that question doesn't really make sense :). You don't put data in a portlet really. You use a portlet to access the data. Best thing you can do is read the ServiceBuilder chapter in Liferay in Action. Chapter 3 I think it was
+14:17 < jardineworks:#liferay> that will help you understand the pattern that Liferay uses.
+14:17 < Nudge:#liferay> I did, indeed.
