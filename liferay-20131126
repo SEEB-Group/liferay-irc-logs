@@ -337,3 +337,5 @@
 15:31 < Nudge:#liferay> usually our editors are publishing a new page by inserting a new data entry, then creating a url and choosing a template and connect it to their new entry id.
 15:32 < Nudge:#liferay> if something similar is possible with liferay too, that would be great
 15:32 < Nudge:#liferay> This way, I could avoid writing all that data portlet stuff for each entity type
+15:33 <@jhf:#liferay> Liferay's DDL and Web Content concepts are very similar -- you define the "schema" and a "template" to render it, and you (or users) enter "records" -- in the DDL case, it is actually called a "record" but for web content it's the same concept only called "articles"
+15:33 < Nudge:#liferay> Of course the hard thing about this is that there is a massive list of (somtimes unused) templates
