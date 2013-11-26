@@ -214,3 +214,4 @@
 13:35 < Nudge:#liferay> the user can multi-select them on registering
 13:36 < jardineworks:#liferay> if you have a manageable size then what I have done in the past, for this exact example, is use the Expando attribtues on the User Model object that comes in Liferay
 13:36 < Nudge:#liferay> does that mean "dynamic" fields to the user entity?
+13:40 < Nudge:#liferay> Later I would like to expand this simple thing for example so that access to documents and web pages is restricted to those that belong to an interest.
