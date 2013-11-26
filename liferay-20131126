@@ -194,3 +194,5 @@
 13:00 < jardineworks:#liferay> hmmm
 13:01 < jardineworks:#liferay> topolik, so if I have a custom authenticator that returns TRUE (assumign the user passed the checks), how do I do it? specify a redirect parameter in the inital call of "/c"?
 13:03 < jardineworks:#liferay> topolik, hmmm.. but I need to make sure that the default landing page attribute is not set then right?
+13:20 < jardineworks:#liferay> topolik, got it! including the oauth and rest login actions :)
+13:20 < jardineworks:#liferay> thank you!
