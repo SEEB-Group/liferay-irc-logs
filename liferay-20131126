@@ -390,3 +390,5 @@
 16:01 <@jhf:#liferay> err
 16:01 <@jhf:#liferay> <div class="mainContent">$stringUtil.replace($content.data, "[[LINK]]", $link-to-page.data)</div>
 16:01 <@jhf:#liferay> it sucks because the editor would not be given a user-friendly UI for selecting the "[[LINK]]" - they would have to know what the token name was.
+16:05 < Nudge:#liferay> Would it be possible to write a dropdown or search widget in a link-to-page-structure where the editor can choose the page to be linked?
+16:05 < Nudge:#liferay> if its VM, maybe one can access liferay's content data base?
