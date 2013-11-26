@@ -142,3 +142,13 @@
 11:59 < topolik:#liferay> if you were in a web content template, it would work
 11:59 < jardineworks:#liferay> sure...
 11:59 < topolik:#liferay> uhm, it's not very clean way, but you could use javascript
+12:00 < jardineworks:#liferay> I could do that I suppose .. but seems silly to create an entire template for that
+12:00 < jardineworks:#liferay> ew
+12:00 < jardineworks:#liferay> :)
+12:00 < topolik:#liferay> :)
+12:00 < jardineworks:#liferay> I think I will just use a template.
+12:00 < jardineworks:#liferay> no worries
+12:00 < topolik:#liferay> or
+12:00 < topolik:#liferay> you can use some placeholder
+12:00 < topolik:#liferay> that you reference from the theme
+12:00 < topolik:#liferay> like
