@@ -139,3 +139,6 @@
 11:58 < jardineworks:#liferay> that works for a jsp, but I cant use that in a piece of web content
 11:59 < topolik:#liferay> ah, from web content
 11:59 < jardineworks:#liferay> it actually prints out the themeDisplay.getPathThemeIamges()
+11:59 < topolik:#liferay> if you were in a web content template, it would work
+11:59 < jardineworks:#liferay> sure...
+11:59 < topolik:#liferay> uhm, it's not very clean way, but you could use javascript
