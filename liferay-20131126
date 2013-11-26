@@ -317,3 +317,6 @@
 15:16 <@jhf:#liferay> yes, there is, but in this case Nudge wants to render the news items related to those expando values, not the expando values themselves
 15:18 < jardineworks:#liferay> jhf, no no.. I meant for the "editor" application where someone could change them
 15:19 <@jhf:#liferay> yeah if you coded your own editor application, it could basically be an editor for the expando table, allowing an admin to change the values that the user originally selected during registration
+15:22 <@jhf:#liferay> I just don't think you need to code any custom editor application or deal with expando API at all unless you really want to.
+15:22 <@jhf:#liferay> for example
+15:22 <@jhf:#liferay> there is a feature in "Asset Publisher" that will display web content articles that match a pre-defined custom user attribute (which underneath uses expando)
