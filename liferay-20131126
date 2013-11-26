@@ -287,3 +287,4 @@
 14:24 < Nudge:#liferay> When it comes to the access from outside of the portlet, I am struggling a bit.
 14:25 < Nudge:#liferay> That's why I want to find out what data can be accessed from where.
 14:25 < Nudge:#liferay> Or maybe this is just a confusion and the restriction I think of does not apply at all.
+14:26 < Nudge:#liferay> So, a total newbie question first: There are these template languages in Liferay, VM, Freemarker and so on.
