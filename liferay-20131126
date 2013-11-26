@@ -164,3 +164,4 @@
 12:34 < topolik:#liferay> ok
 12:34 < topolik:#liferay> saveLastPath is true by default
 12:34 < topolik:#liferay> that means
+12:35 < topolik:#liferay> when you request a page, portal stores current URL into LAST_PATH request attribute and then into session
