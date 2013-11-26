@@ -360,3 +360,7 @@
 15:45 <@jhf:#liferay> </h1>
 15:45 <@jhf:#liferay> <img src="$image.data"/>
 15:45 <@jhf:#liferay> <p> $body.data </p>
+15:46 <@jhf:#liferay> for your question about resistance to url renaming, yes, you can do that, but not directly in the WYSIWYG editor. you would define a "link to page" field in the web content structure
+15:46 <@jhf:#liferay> then the editor would choose the page
+15:46 <@jhf:#liferay> then in the template you'd have "<a href="$link_to_page.data">LINK</a>"
+15:46 <@jhf:#liferay> you can also define "friendlyUrls" to pages
