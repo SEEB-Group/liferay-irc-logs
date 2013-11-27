@@ -19,3 +19,4 @@
 06:42 < hufg:#liferay> and it needs to come easily hehe ie. no complex db queries or anything like that
 06:44 < Tar-Minyatur:#liferay> Hm. But there has to be some request data available.
 06:44 < Tar-Minyatur:#liferay> Worst case: $xmlRequest
+06:47 < hufg:#liferay> yeah but it's not guaranteed it contains the article id
