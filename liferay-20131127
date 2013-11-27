@@ -35,3 +35,4 @@
 10:43 < jardineworks:#liferay> I have a site import from my dev that I am pulling into my staging. I know I can do it from the control panel, obviously, but is there a way to do it from the command line? ... basically make is a build step?
 16:28 < jardineworks:#liferay> hey jhf -- can you think of a reason why a web content display portlet, that has the permissions set to VIEW for guest, on content, structure and template, would not be appearing unless a user is logged in?
 17:04 < Nudge:#liferay> Hello everybody
+17:05 < Nudge:#liferay> A question from me for tonight: Is there a possibility to create a template to display a _single_ DDL entry?
