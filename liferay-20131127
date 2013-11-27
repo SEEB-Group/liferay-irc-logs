@@ -5,3 +5,4 @@
 06:32 < hufg:#liferay> i want to show article id in web content
 06:32 < hufg:#liferay> ie. create article -> put article on page -> it shows the article id
 06:33 < Tar-Minyatur:#liferay> I would assume that you have to extract it from the request.
+06:34 < Tar-Minyatur:#liferay> $request should be available in a template.
