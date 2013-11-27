@@ -32,3 +32,4 @@
 07:05 < Tar-Minyatur:#liferay> Mhm mhm.
 10:42 < jardineworks:#liferay> rotty3000, or jhf  are you guys around for a qq?
 10:42 < jardineworks:#liferay> topolik,  you're on the list too!
+10:43 < jardineworks:#liferay> I have a site import from my dev that I am pulling into my staging. I know I can do it from the control panel, obviously, but is there a way to do it from the command line? ... basically make is a build step?
