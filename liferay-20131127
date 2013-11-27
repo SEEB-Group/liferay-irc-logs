@@ -11,3 +11,4 @@
 06:36 < hufg:#liferay> but the enclosing div from web content display has it
 06:36 < hufg:#liferay> <div id="article_10156_10556_127512_1.0" class="journal-content-article">
 06:36 < hufg:#liferay> which is just as fine
+06:37 < hufg:#liferay> just needs some more jquery trickery
