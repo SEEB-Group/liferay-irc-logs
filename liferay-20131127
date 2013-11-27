@@ -7,3 +7,7 @@
 06:33 < Tar-Minyatur:#liferay> I would assume that you have to extract it from the request.
 06:34 < Tar-Minyatur:#liferay> $request should be available in a template.
 06:35 < Tar-Minyatur:#liferay> There is also $layout I think, which might contain the information as well, but I'm not sure.
+06:36 < hufg:#liferay> it's not there
+06:36 < hufg:#liferay> but the enclosing div from web content display has it
+06:36 < hufg:#liferay> <div id="article_10156_10556_127512_1.0" class="journal-content-article">
+06:36 < hufg:#liferay> which is just as fine
