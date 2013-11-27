@@ -21,3 +21,4 @@
 06:44 < Tar-Minyatur:#liferay> Worst case: $xmlRequest
 06:47 < hufg:#liferay> yeah but it's not guaranteed it contains the article id
 06:49 < Tar-Minyatur:#liferay> Mhm. But the request has to contain the article ID. How else would Liferay know what to render?
+06:50 < hufg:#liferay> the "portlet" configuration of each layout is in db it can come from there
