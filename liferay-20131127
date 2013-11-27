@@ -1,2 +1,6 @@
 --- Log opened Wed Nov 27 00:00:29 2013
 06:18 < hufg:#liferay> is there a token to display article id in content template
+06:32 < Tar-Minyatur:#liferay> It should be somwhere in the request, shouldn't it?
+06:32 < hufg:#liferay> hmm
+06:32 < hufg:#liferay> i want to show article id in web content
+06:32 < hufg:#liferay> ie. create article -> put article on page -> it shows the article id
