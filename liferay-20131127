@@ -24,3 +24,6 @@
 06:50 < hufg:#liferay> the "portlet" configuration of each layout is in db it can come from there
 06:53 < hufg:#liferay> my use case is the following: mark certain special articles with html/css, add article id to content --> this marking and article id will allow me to make some shortcuts for the user
 06:53 < hufg:#liferay> then i can do like: hey here is a special article, ooh it has an article id of xxx --> here is your shortcut to xxx
+06:57 < hufg:#liferay> $reserved-article-id.data
+06:57 < hufg:#liferay> yes
+06:57 < hufg:#liferay> a token for journal transformers would be even better
