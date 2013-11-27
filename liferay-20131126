@@ -466,3 +466,4 @@
 22:13 < Guest82375:#liferay> Hi
 22:13 < circ-user-kj3z7:#liferay> Hi
 22:14 < circ-user-kj3z7:#liferay> Does anybody is having trouble in using open remote json services in Liferay 6.2 CE?
+22:17 < circ-user-kj3z7:#liferay> In Liferay 6.1 CE GA3 I was able to access my remote json services without authentication. Now I'm trying to configure a 6.2 project without success. Does anybody managed to do it?
