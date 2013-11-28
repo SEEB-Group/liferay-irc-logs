@@ -37,3 +37,4 @@
 17:04 < Nudge:#liferay> Hello everybody
 17:05 < Nudge:#liferay> A question from me for tonight: Is there a possibility to create a template to display a _single_ DDL entry?
 17:06 < Nudge:#liferay> The display templates seems to render the whole list and the form display does not allow me to write vm.
+--- Log closed Thu Nov 28 00:00:30 2013
