@@ -30,3 +30,8 @@
 10:33 < Tar-Minyatur:#liferay> Or something like that.
 10:33 < jardineworks:#liferay> Tar-Minyatur, no doubt that is a common approach -- I think the sort of defacto implementation is to use Apache as a proxy anyway to serve static resources right?
 10:33 < Tar-Minyatur:#liferay> I guess so, yes.
+10:34 < Tar-Minyatur:#liferay> Although I think I read a study somewhere that Tomcat is faster to deliver static assets than Apache.
+10:34 < jardineworks:#liferay> I was telling you that maybe :)
+10:34 < Tar-Minyatur:#liferay> But I think it's a question of configuration.
+10:34 < jardineworks:#liferay> I read it in a Tomcat book I have (O'Reilly)
+10:34 < Tar-Minyatur:#liferay> Could be, yes. ;)
