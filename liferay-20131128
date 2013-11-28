@@ -79,3 +79,8 @@
 11:40 < jardineworks:#liferay> ok -- so lets say you have structure a
 11:40 < Tar-Minyatur:#liferay> Well...a lot of pages only use basic web content and contain a big HTML blog.
 11:40 < Tar-Minyatur:#liferay> *blob
+11:41 < jardineworks:#liferay> and it has "Field One" as the name of an element
+11:41 < Tar-Minyatur:#liferay> But we are reworking them to use proper structure-template-combinations.
+11:41 < jardineworks:#liferay> do you know what that gets translated to for the template? is it $field-one.data?
+11:41 < Tar-Minyatur:#liferay> You can specify a name and a title for a structure element.
+11:41 < jardineworks:#liferay> i mean, you can't reference is as $file one.data
