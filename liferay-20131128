@@ -119,3 +119,4 @@
 12:32 < jardineworks:#liferay> the down side.. is the name. I think in 6.0 it did a toLower() and a replace(" ", "-").
 12:33 < Tar-Minyatur:#liferay> Maybe you have different users than I do...but our users shut down their brain when they see something that looks technical.
 12:33 < jardineworks:#liferay> lol
+12:34 < Tar-Minyatur:#liferay> So our fields have names like "teaser1-img" or "teaser2-image-alt-text" and then there are Titles for both fields that clearly describe what the field is about. And usually there also is a tooltip explaining the kind of values that should be put in.
