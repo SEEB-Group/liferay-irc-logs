@@ -73,3 +73,9 @@
 11:36 < Tar-Minyatur:#liferay> Custom structure?
 11:36 < Tar-Minyatur:#liferay> Do you mean web content structures or something else?
 11:39 < jardineworks:#liferay> Tar-Minyatur, custom web content structures maybe? :)
+11:40 < jardineworks:#liferay> the ones where you specify the field name/type/search ... and then you create a template (or multiple template) associations
+11:40 < Tar-Minyatur:#liferay> Our entire page is built upon these.
+11:40 < jardineworks:#liferay> cool
+11:40 < jardineworks:#liferay> ok -- so lets say you have structure a
+11:40 < Tar-Minyatur:#liferay> Well...a lot of pages only use basic web content and contain a big HTML blog.
+11:40 < Tar-Minyatur:#liferay> *blob
