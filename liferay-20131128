@@ -102,3 +102,5 @@
 12:02 < Tar-Minyatur:#liferay> There might be some kind of Util to access the fields.
 12:02 < Tar-Minyatur:#liferay> Because when you have nested fields you can do things like $parentField.getChildNode('child node') or something.
 12:03 < Tar-Minyatur:#liferay> Maybe there is something similar to get the parent node.
+12:15 < Tar-Minyatur:#liferay> But to be honest...the displayed name and the internally used name SHOULD be different.
+12:15 < Tar-Minyatur:#liferay> So no need to use spaces anyway.
