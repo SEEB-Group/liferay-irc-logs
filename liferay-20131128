@@ -98,3 +98,6 @@
 11:44 < Tar-Minyatur:#liferay> No idea. We never used spaces in the names. Only in the titles.
 11:44 < jardineworks:#liferay> I don't mean the actual values when you create content... I mean the names of the fields when you define the structures.
 11:59 < Tar-Minyatur:#liferay> Sure.
+12:02 < Tar-Minyatur:#liferay> I never put any spaces there, because for me these are technical names and those should adhere to typical variable name conventions.
+12:02 < Tar-Minyatur:#liferay> There might be some kind of Util to access the fields.
+12:02 < Tar-Minyatur:#liferay> Because when you have nested fields you can do things like $parentField.getChildNode('child node') or something.
