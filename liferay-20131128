@@ -25,3 +25,5 @@
 10:19 < jardineworks:#liferay> your welcome. :)
 10:19 < Tar-Minyatur:#liferay> It was worth a try. ;)
 10:31 < Tar-Minyatur:#liferay> I'm thinking about a different solution at the moment.
+10:32 < Tar-Minyatur:#liferay> Instead of using Liferay's CDN settings, we could use redirects.
+10:32 < Tar-Minyatur:#liferay> In a proxy/webserver that sits in front of Liferay we could bend all paths that point to /img or /images to the CDN.
