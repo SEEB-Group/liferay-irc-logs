@@ -104,3 +104,4 @@
 12:03 < Tar-Minyatur:#liferay> Maybe there is something similar to get the parent node.
 12:15 < Tar-Minyatur:#liferay> But to be honest...the displayed name and the internally used name SHOULD be different.
 12:15 < Tar-Minyatur:#liferay> So no need to use spaces anyway.
+12:24 < jardineworks:#liferay> Tar-Minyatur, I think we're talking about different things. When I create a structure, I add the name of the field right? This is the name that is shown to the user when they are creating content as well, so a "friendly" version would say soemthing like "Promo Title"
