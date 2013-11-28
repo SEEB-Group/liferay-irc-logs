@@ -4,3 +4,4 @@
 08:36 < Tar-Minyatur:#liferay> Hey guys...anyone got experience with using CDN in Liferay?
 08:37 < Tar-Minyatur:#liferay> Apparently there is a bug that leads to SCSS being retrieved from CDN even when cdn.dynamic.resources.enabled=false is set.
 09:36 < jardineworks:#liferay> Tar-Minyatur, is there an issue reported on jira?
+09:37 < jardineworks:#liferay> Tar-Minyatur, I haven't configured our CDN yet but I will be shortly... this might be something I need to look into as well.
