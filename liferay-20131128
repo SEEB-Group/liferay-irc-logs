@@ -114,3 +114,6 @@
 12:31 < jardineworks:#liferay> Tar-Minyatur, well, it does make sense. lets say you have a field called Title.
 12:31 < jardineworks:#liferay> if you choose the wrong name you will get an error telling you that name is already in use
 12:31 < jardineworks:#liferay> so what I choose to do is prefix every field with the type of the content
+12:32 < jardineworks:#liferay> two things this does. 1. eliminates the dupe field name issue. 2. Actually makes it more obvious to a user that is not paying attention what type of content they are creating
+12:32 < Tar-Minyatur:#liferay> That's what titles and tooltips are for.
+12:32 < jardineworks:#liferay> the down side.. is the name. I think in 6.0 it did a toLower() and a replace(" ", "-").
