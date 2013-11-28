@@ -117,3 +117,5 @@
 12:32 < jardineworks:#liferay> two things this does. 1. eliminates the dupe field name issue. 2. Actually makes it more obvious to a user that is not paying attention what type of content they are creating
 12:32 < Tar-Minyatur:#liferay> That's what titles and tooltips are for.
 12:32 < jardineworks:#liferay> the down side.. is the name. I think in 6.0 it did a toLower() and a replace(" ", "-").
+12:33 < Tar-Minyatur:#liferay> Maybe you have different users than I do...but our users shut down their brain when they see something that looks technical.
+12:33 < jardineworks:#liferay> lol
