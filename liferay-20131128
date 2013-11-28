@@ -36,3 +36,5 @@
 10:34 < jardineworks:#liferay> I read it in a Tomcat book I have (O'Reilly)
 10:34 < Tar-Minyatur:#liferay> Could be, yes. ;)
 10:35 < jardineworks:#liferay> but the latest version of apache, being all event driven and stuff now is supposed to be pretty fast
+10:37 < Tar-Minyatur:#liferay> A friend of mine has been configuring Apache for about 12 years now.
+10:38 < Tar-Minyatur:#liferay> He says that you can pretty much achieve any performance goal you wish, if you invest enough time.
