@@ -35,3 +35,4 @@
 10:34 < Tar-Minyatur:#liferay> But I think it's a question of configuration.
 10:34 < jardineworks:#liferay> I read it in a Tomcat book I have (O'Reilly)
 10:34 < Tar-Minyatur:#liferay> Could be, yes. ;)
+10:35 < jardineworks:#liferay> but the latest version of apache, being all event driven and stuff now is supposed to be pretty fast
