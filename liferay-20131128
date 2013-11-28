@@ -49,3 +49,8 @@
 11:01 < jardineworks:#liferay> what do you mean "exteact it"?
 11:01 < Tar-Minyatur:#liferay> Well...we have to upload the Liferay stuff to the CDN anyway.
 11:01 < jardineworks:#liferay> I don't think so.
+11:02 < jardineworks:#liferay> I think if it is working properly, Liferay does it for you doesn't it?
+11:02 < Tar-Minyatur:#liferay> Liferay does what?
+11:02 < jardineworks:#liferay> I am pretty sure that it handles the synch... you just add the stuff to LR and because you have the CDN configured (at least I thought I read this somewhere) it manages a synched repo or something
+11:02 < jardineworks:#liferay> but maybe I have been hanging out with our mayor.
+11:02 < jardineworks:#liferay> :)
