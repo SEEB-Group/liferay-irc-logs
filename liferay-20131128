@@ -92,3 +92,6 @@
 11:42 < Tar-Minyatur:#liferay> *When
 11:42 < Tar-Minyatur:#liferay> But when you create an artice and select the structure, you can also edit the structure right there.
 11:43 < jardineworks:#liferay> oh right
+11:43 < Tar-Minyatur:#liferay> This interface is much more feature-rich and also allows you to specify a title, tooltip etc. for the fields.
+11:43 < Tar-Minyatur:#liferay> Just set a proper technical name for the field and then add a human-readable title as well.
+11:43 < jardineworks:#liferay> but I assume that if you don't edit the structure when you are isntantiating the portlet that by default LR must conver the names using some fomula... like fieldName.repace(" ", "-") or soemthing
