@@ -7,3 +7,5 @@
 09:37 < jardineworks:#liferay> Tar-Minyatur, I haven't configured our CDN yet but I will be shortly... this might be something I need to look into as well.
 09:44 < Tar-Minyatur:#liferay> I haven't found anything in the issue tracker yet.
 09:45 < Tar-Minyatur:#liferay> Our offshore developer suggested to either implement a hook to fix that or to build a new portal-web.war with the capability to deal with SCSS on the fly...or something like that.
+09:47 < jardineworks:#liferay> Tar-Minyatur, I wonder if maybe that property you referenced is colliding, or is dependent or whatever on the localized css property? There is another one for dynamic css... one sec.
+09:47 < jardineworks:#liferay> com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter=false
