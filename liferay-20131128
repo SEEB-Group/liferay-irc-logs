@@ -110,3 +110,7 @@
 12:25 < jardineworks:#liferay> surely Promo Title is automatically translated to something that allows you to use it in the template
 12:26 < jardineworks:#liferay> hey rotty3000, topolik  are one you around to answer a security question?
 12:30 < Tar-Minyatur:#liferay> jardineworks: We are talking about the same thing. I'm just curious that spaces are even allowed there. They shouldn't be.
+12:31 < Tar-Minyatur:#liferay> Switch to 6.2...there you will have a palette with all available variables. :D
+12:31 < jardineworks:#liferay> Tar-Minyatur, well, it does make sense. lets say you have a field called Title.
+12:31 < jardineworks:#liferay> if you choose the wrong name you will get an error telling you that name is already in use
+12:31 < jardineworks:#liferay> so what I choose to do is prefix every field with the type of the content
