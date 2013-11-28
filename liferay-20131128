@@ -44,3 +44,5 @@
 10:39 < jardineworks:#liferay> get someone with the right amount of knowlege, give them enough time and money and you can get what you want.
 10:39 < jardineworks:#liferay> Life is pretty much like that I suppose :)
 10:39 < Tar-Minyatur:#liferay> True. ;)
+11:00 < Tar-Minyatur:#liferay> jardineworks: Our offshore developer explained his idea about the portal-web.war...his idea was to extract it, run SASS etc. via Maven on it and then upload the result to the CDN.
+11:00 < Tar-Minyatur:#liferay> Sounds reasonable to me.
