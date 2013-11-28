@@ -54,3 +54,9 @@
 11:02 < jardineworks:#liferay> I am pretty sure that it handles the synch... you just add the stuff to LR and because you have the CDN configured (at least I thought I read this somewhere) it manages a synched repo or something
 11:02 < jardineworks:#liferay> but maybe I have been hanging out with our mayor.
 11:02 < jardineworks:#liferay> :)
+11:03 < Tar-Minyatur:#liferay> I can't imagine how this should work.
+11:03 < Tar-Minyatur:#liferay> We only specified an URL.
+11:03 < Tar-Minyatur:#liferay> There are not authentication credentials to allow any uploading.
+11:03 < jardineworks:#liferay> ... crack it is!
+11:03 < jardineworks:#liferay> :)
+11:04 < jardineworks:#liferay> oh I know. sorry
