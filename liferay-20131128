@@ -101,3 +101,4 @@
 12:02 < Tar-Minyatur:#liferay> I never put any spaces there, because for me these are technical names and those should adhere to typical variable name conventions.
 12:02 < Tar-Minyatur:#liferay> There might be some kind of Util to access the fields.
 12:02 < Tar-Minyatur:#liferay> Because when you have nested fields you can do things like $parentField.getChildNode('child node') or something.
+12:03 < Tar-Minyatur:#liferay> Maybe there is something similar to get the parent node.
