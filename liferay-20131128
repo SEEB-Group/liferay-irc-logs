@@ -84,3 +84,11 @@
 11:41 < jardineworks:#liferay> do you know what that gets translated to for the template? is it $field-one.data?
 11:41 < Tar-Minyatur:#liferay> You can specify a name and a title for a structure element.
 11:41 < jardineworks:#liferay> i mean, you can't reference is as $file one.data
+11:42 < Tar-Minyatur:#liferay> There are two different views to edit structures.
+11:42 < jardineworks:#liferay> right, but if you specify the name with a space in it, /....
+11:42 < jardineworks:#liferay> eh?
+11:42 < jardineworks:#liferay> really?
+11:42 < Tar-Minyatur:#liferay> Wenn du go to structure -> edit you can only specify the name.
+11:42 < Tar-Minyatur:#liferay> *When
+11:42 < Tar-Minyatur:#liferay> But when you create an artice and select the structure, you can also edit the structure right there.
+11:43 < jardineworks:#liferay> oh right
