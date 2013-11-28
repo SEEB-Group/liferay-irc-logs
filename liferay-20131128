@@ -27,3 +27,6 @@
 10:31 < Tar-Minyatur:#liferay> I'm thinking about a different solution at the moment.
 10:32 < Tar-Minyatur:#liferay> Instead of using Liferay's CDN settings, we could use redirects.
 10:32 < Tar-Minyatur:#liferay> In a proxy/webserver that sits in front of Liferay we could bend all paths that point to /img or /images to the CDN.
+10:33 < Tar-Minyatur:#liferay> Or something like that.
+10:33 < jardineworks:#liferay> Tar-Minyatur, no doubt that is a common approach -- I think the sort of defacto implementation is to use Apache as a proxy anyway to serve static resources right?
+10:33 < Tar-Minyatur:#liferay> I guess so, yes.
