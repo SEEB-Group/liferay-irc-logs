@@ -16,3 +16,6 @@
 09:57 < Tar-Minyatur:#liferay> Sounds to me like this would just deactivate some stuff in Liferay if we wanted to deliver the stuff ourselves or something.
 09:58 < jardineworks:#liferay> Tar-Minyatur, I think so, but sometimes these filters get blended... or have unexpected dependencies. It would only take a minute to try it, and you never know!
 09:58 < jardineworks:#liferay> :)
+10:15 < Tar-Minyatur:#liferay> Oh man. I'm so stupid.
+10:15 < Tar-Minyatur:#liferay> I totally forgot that I could also just try it on my local box.
+10:15 < Tar-Minyatur:#liferay> I was so involved with setting up the test system over the past days...totally messing with my head.
