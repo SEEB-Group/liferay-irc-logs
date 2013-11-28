@@ -143,3 +143,4 @@
 12:52 < Tar-Minyatur:#liferay> Sure looked like it on the DevCon....yeah.
 12:53 < Tar-Minyatur:#liferay> Still haven't had time to play with 6.2. :(
 13:01 < jardineworks:#liferay> Tar-Minyatur, me neither. I'm hoping to set a lab up with it over the holidays though
+13:12 < topolik:#liferay> jardineworks: yes, when you disable p_auth token you disable whole CSRF protection
