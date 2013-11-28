@@ -38,3 +38,6 @@
 10:35 < jardineworks:#liferay> but the latest version of apache, being all event driven and stuff now is supposed to be pretty fast
 10:37 < Tar-Minyatur:#liferay> A friend of mine has been configuring Apache for about 12 years now.
 10:38 < Tar-Minyatur:#liferay> He says that you can pretty much achieve any performance goal you wish, if you invest enough time.
+10:38 < jardineworks:#liferay> no doubt
+10:38 < Tar-Minyatur:#liferay> Optimizing Apache apparently is an art.
+10:38 < jardineworks:#liferay> I think most open source is like that right?
