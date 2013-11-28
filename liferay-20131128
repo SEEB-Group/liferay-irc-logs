@@ -108,3 +108,4 @@
 12:25 < jardineworks:#liferay> content admin loads the add web content page for the structure and they see Promo Title with a text field.
 12:25 < jardineworks:#liferay> now I know that you can modify the template var to call it andrews_promo_title or whatever, but lets say you don't do that.
 12:25 < jardineworks:#liferay> surely Promo Title is automatically translated to something that allows you to use it in the template
+12:26 < jardineworks:#liferay> hey rotty3000, topolik  are one you around to answer a security question?
