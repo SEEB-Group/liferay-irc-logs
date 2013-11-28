@@ -11,3 +11,4 @@
 09:47 < jardineworks:#liferay> com.liferay.portal.servlet.filters.dynamiccss.DynamicCSSFilter=false
 09:49 < Tar-Minyatur:#liferay> Mhm.
 09:49 < Tar-Minyatur:#liferay> I guess it's worth a try.
+09:51 < jardineworks:#liferay> Tar-Minyatur, let me know if that helps at all. Need to know whether or not I need to add something to my list.
