@@ -97,3 +97,4 @@
 11:43 < jardineworks:#liferay> but I assume that if you don't edit the structure when you are isntantiating the portlet that by default LR must conver the names using some fomula... like fieldName.repace(" ", "-") or soemthing
 11:44 < Tar-Minyatur:#liferay> No idea. We never used spaces in the names. Only in the titles.
 11:44 < jardineworks:#liferay> I don't mean the actual values when you create content... I mean the names of the fields when you define the structures.
+11:59 < Tar-Minyatur:#liferay> Sure.
