@@ -129,3 +129,4 @@
 12:39 < topolik:#liferay> jardineworks: shoot now I'll  answer later :) Just mention me in the message, thx!
 12:40 < Tar-Minyatur:#liferay> jardineworks: Create an empty structure and open the XML editor for it. Than paste this into it: http://pastie.org/private/ylvn3egfqahv3opyehfq - Now have a look at the form when you create an article with this structure.
 12:40 < Tar-Minyatur:#liferay> Just to make sure that you actually know what I'm talking about.
+12:42 < jardineworks:#liferay> topolik, OK thanks. This has to do with that horrible "Forbidden resource" exception that you get sometimes. I am looking at the code and that in conjunction with this post http://www.liferay.com/community/forums/-/message_boards/message/8839061 I think means that its a stale session. If I disable this property -- auth.token.check.enabled=false -- am I asking for trouble?
