@@ -74,3 +74,4 @@
 12:03 < jardineworks:#liferay> cool! :)
 12:03 < jardineworks:#liferay> we're doing something similar to get around the RasterImage exception
 12:03 < jardineworks:#liferay> so we can use JDK 7 with the 6.1.2 GA3
+12:04 < jardineworks:#liferay> even though we don't really need it. Security weirdos... they don't even get that the fixes in that JDK are for applets and web start applications -- completely N/A for us.
