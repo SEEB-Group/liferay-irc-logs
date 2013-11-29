@@ -31,3 +31,4 @@
 04:40 < hufg:#liferay> what publishing functionality do you need?
 04:40 < hufg:#liferay> staging remote, staging local, no publishing(only live site)
 05:07 < hufg:#liferay> whatever you do don't pick staging remote
+05:07 < hufg:#liferay> the best pracitce is to implement yourself hehe
