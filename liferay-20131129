@@ -20,3 +20,7 @@
 04:15 < Jamali:#liferay> what is best practice to implement GIS by liferay ?
 04:35 -!- mode/#liferay [+o rotty3000] by ChanServ
 04:35 < hufg:#liferay> Jamali: you should take a few weeks to poc
+04:36 < hufg:#liferay> impossible to give you a straight answer without having done a gis with liferay
+04:36 < hufg:#liferay> who knows
+04:36 < hufg:#liferay> maybe it's shit or maybe it's great idk
+04:36 < hufg:#liferay> do a few use cases and figure out how to do it with liferay
