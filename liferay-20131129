@@ -69,3 +69,5 @@
 11:57 < Tar-Minyatur:#liferay> jardineworks: To keep you updated on the CDN issue: We are going with a custom build process that will preprocess the SCSS files and build a deployment package for S3.
 11:58 < Tar-Minyatur:#liferay> Our offshore developer estimated 1-2 days implementation time. We will know next week, if this is a feasible solution.
 11:58 < jardineworks:#liferay> Tar-Minyatur, when does the prepocess process run?
+12:00 < Tar-Minyatur:#liferay> During build time.
+12:00 < Tar-Minyatur:#liferay> It will take the portal-web.war from the Liferay source, extract the assets, preprocess them and push them to the S3 bucket.
