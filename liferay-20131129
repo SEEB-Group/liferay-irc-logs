@@ -66,3 +66,4 @@
 11:41 < jardineworks:#liferay> I already did what you did :)
 11:41 < jardineworks:#liferay> just wondering if I could have used this instead
 11:42 < hufg:#liferay> hehe
+11:57 < Tar-Minyatur:#liferay> jardineworks: To keep you updated on the CDN issue: We are going with a custom build process that will preprocess the SCSS files and build a deployment package for S3.
