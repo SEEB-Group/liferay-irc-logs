@@ -71,3 +71,6 @@
 11:58 < jardineworks:#liferay> Tar-Minyatur, when does the prepocess process run?
 12:00 < Tar-Minyatur:#liferay> During build time.
 12:00 < Tar-Minyatur:#liferay> It will take the portal-web.war from the Liferay source, extract the assets, preprocess them and push them to the S3 bucket.
+12:03 < jardineworks:#liferay> cool! :)
+12:03 < jardineworks:#liferay> we're doing something similar to get around the RasterImage exception
+12:03 < jardineworks:#liferay> so we can use JDK 7 with the 6.1.2 GA3
