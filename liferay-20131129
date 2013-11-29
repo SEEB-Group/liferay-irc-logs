@@ -55,3 +55,6 @@
 11:38 < hufg:#liferay> no
 11:39 < hufg:#liferay> we had plans for it but ditched it and made similiar stuff ourself
 11:39 < hufg:#liferay> just tag based retrieval of articles
+11:40 < jardineworks:#liferay> hufg, ok ... do you know whether or not it is possible to retrieve content based on one of the structure attribute values?
+11:40 < jardineworks:#liferay> i don't really see how to be honest
+11:40 < jardineworks:#liferay> so I am guessing not
