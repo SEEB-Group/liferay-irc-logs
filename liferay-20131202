@@ -1,1 +1,2 @@
 --- Log opened Mon Dec 02 00:00:36 2013
+05:53 < Axxell:#liferay> hey guys, been trying to do a "classic" theme with liferay 6.2. Now theres a problem, when the menu is collapsed, ie made to a button for small resolution devices, the menu show/hide functionality of that button does not work, ie nothing happens when you push that button, the menu is hidden thou
