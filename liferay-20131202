@@ -59,3 +59,4 @@
 16:02 < aj_:#liferay> but the issue is we need this to be soemthing that doesn't occur because otherwise, if our client makes a mistake, it could wreak havoc on the site.
 16:21 < aj_:#liferay> !!!!
 16:22 < aj_:#liferay> I think I found the cause.
+16:22 < aj_:#liferay> if I don't set the currentURL then it happens. If I set it .. for any of the portlets on the page... then it doesn't repeat itself
