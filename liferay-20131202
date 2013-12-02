@@ -26,3 +26,5 @@
 10:42 < aj_:#liferay> but all I ever get is a null when I try to pull it out of the request, httprequest or the originalhttprequeest
 10:44 < hufg:#liferay> mm no i havent
 10:44 < hufg:#liferay> what does the request look like?
+10:45 < aj_:#liferay> there is a query string but is has just two parameters in it
+10:46 < hufg:#liferay> should be fairly straightforward as long as liferay adds the query param
