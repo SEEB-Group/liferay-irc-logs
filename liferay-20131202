@@ -56,3 +56,4 @@
 16:01 < aj_:#liferay> So doing things like adding an item to a cart is happening multiple times.
 16:01 < aj_:#liferay> jhf, rotty3000 I would love any insight you guy have as well.
 16:01 < aj_:#liferay> we were baffled by the behaviour but one of the guys on my team said this happened to him once before. We fixed the broken images and then the behaviour returned to normal
+16:02 < aj_:#liferay> but the issue is we need this to be soemthing that doesn't occur because otherwise, if our client makes a mistake, it could wreak havoc on the site.
