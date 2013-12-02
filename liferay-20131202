@@ -24,3 +24,5 @@
 10:41 < aj_:#liferay> the child pages should all go to the parent page, but pass a parameter to do an implied search
 10:42 < aj_:#liferay> I have set the children to "Link to Page" .. picked the parent, and then under advacned set the query parameter to be category=[name]
 10:42 < aj_:#liferay> but all I ever get is a null when I try to pull it out of the request, httprequest or the originalhttprequeest
+10:44 < hufg:#liferay> mm no i havent
+10:44 < hufg:#liferay> what does the request look like?
