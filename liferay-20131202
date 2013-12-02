@@ -28,3 +28,8 @@
 10:44 < hufg:#liferay> what does the request look like?
 10:45 < aj_:#liferay> there is a query string but is has just two parameters in it
 10:46 < hufg:#liferay> should be fairly straightforward as long as liferay adds the query param
+10:46 < aj_:#liferay> I haven't had time to creawl through the layout code to see where it is supposed to be added...
+10:46 < hufg:#liferay> imo key=value as normal get param should work as expected
+10:46 < aj_:#liferay> yeah, I suspect that this is eaiter a bug (doubtful) or I am violating some rule.
+10:46 < aj_:#liferay> ok -- I was just wondering if you had used it. Thanks anyway
+10:46 < hufg:#liferay> np np
