@@ -37,3 +37,5 @@
 10:53 < hufg:#liferay> can't see any params anywhere
 10:53 < hufg:#liferay> :(
 10:53 < hufg:#liferay> firebugs net is very handy for quick header inspection
+10:57 < aj_:#liferay> yeah -- i even tried stepping through with a debugger
+10:58 < aj_:#liferay> I thought maybe it had to be a public render parameter... but that didn't work either
