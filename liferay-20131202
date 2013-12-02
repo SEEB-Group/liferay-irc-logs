@@ -51,3 +51,5 @@
 15:59 < aj_:#liferay> topolik!
 15:59 < aj_:#liferay> help!
 15:59 < aj_:#liferay> I have a crazy issue right now and no idea how to even look at it
+16:00 < aj_:#liferay> If I have any missing resources on my page .. for example an image reference that is missing (say a bad url) ... then the server is REPEATING the request
+16:00 < aj_:#liferay> its terrible from a performance perspective but its much worse than that on pages where I have submitted an action ... the action is firing multiple times.
