@@ -16,3 +16,9 @@
 08:48 -!- Irssi: Join to #liferay was synced in 6 secs
 08:55 < hufg:#liferay> anyone tried browserstack?
 10:07 < aj_:#liferay> hufg -- you there?
+10:41 < hufg:#liferay> yees
+10:41 < hufg:#liferay> still here
+10:41 < aj_:#liferay> \o/
+10:41 < aj_:#liferay> ny chance that you have ever done anything in the Managed Pages with passing query strings?
+10:41 < aj_:#liferay> I have a top level category that has several children
+10:41 < aj_:#liferay> the child pages should all go to the parent page, but pass a parameter to do an implied search
