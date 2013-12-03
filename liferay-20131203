@@ -73,3 +73,4 @@
 09:14 < Azrae|:#liferay> googling shows a few others with similar errors, but no solutions or answers
 09:14 < hufg:#liferay> there is a sample portlet https://github.com/liferay/liferay-plugins/tree/master/portlets/sample-php-portlet
 09:14 < hufg:#liferay> have you checked it out?
+09:15 < Azrae|:#liferay> looked it over, but not sure if it helps.
