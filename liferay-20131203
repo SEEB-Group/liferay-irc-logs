@@ -40,3 +40,4 @@
 06:45 < hufg:#liferay> naming the image as text is a bit schizophrenic but at a glance it may be it
 06:45 < hufg:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-impl/src/com/liferay/portal/webserver/WebServerServlet.java#L427
 06:46 < hufg:#liferay> i need to do some actual work now hehe
+07:49 < vsingleton:#liferay> liferay forums are responding very slowly right now ... anyone else seeing that?
