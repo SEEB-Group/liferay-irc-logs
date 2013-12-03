@@ -10,3 +10,4 @@
 06:14 < hufg:#liferay> bentech4you: http://www.opensourceforlife.com/2012/05/liferay-61-ldap-config-from-portal.html
 06:14 < hufg:#liferay> maybe that helkp
 06:14 < hufg:#liferay> Tar-Minyatur: no idea, tell me if you know 8)
+06:15 < hufg:#liferay> Tar-Minyatur: get the struts path to retrieve images, see struts-config.xml, check implementation of configured class
