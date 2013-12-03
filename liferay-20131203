@@ -11,3 +11,5 @@
 06:14 < hufg:#liferay> maybe that helkp
 06:14 < hufg:#liferay> Tar-Minyatur: no idea, tell me if you know 8)
 06:15 < hufg:#liferay> Tar-Minyatur: get the struts path to retrieve images, see struts-config.xml, check implementation of configured class
+06:16 < hufg:#liferay> what is the struts path?
+06:17 < Tar-Minyatur:#liferay> I vaguely remember that I already tried looking it up.
