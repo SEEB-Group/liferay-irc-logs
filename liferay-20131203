@@ -7,3 +7,6 @@
 05:21 < Tar-Minyatur:#liferay> I'm asking, because the URL is different from images uploaded to the documents & media library. It uses /image/ rather than /documents/ and I wonder if the image uploader uses the DL nonetheless.
 05:21 < Tar-Minyatur:#liferay> I assume it does, but I would prefer knowing.
 05:31 < bentech4you:#liferay> anyone please help me to integrate my liferay with active directory
+06:14 < hufg:#liferay> bentech4you: http://www.opensourceforlife.com/2012/05/liferay-61-ldap-config-from-portal.html
+06:14 < hufg:#liferay> maybe that helkp
+06:14 < hufg:#liferay> Tar-Minyatur: no idea, tell me if you know 8)
