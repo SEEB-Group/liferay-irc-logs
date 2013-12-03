@@ -80,3 +80,5 @@
 09:25 < aj_:#liferay> does anyone know how to use a language key in a web content template?
 09:32 < hufg:#liferay> hmm?
 09:33 < hufg:#liferay> javascript
+09:34 < hufg:#liferay> there is a filter that will make retrieval of language keys with js a server side operation
+09:34 < hufg:#liferay> in case you care hehe
