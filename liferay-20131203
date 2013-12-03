@@ -35,3 +35,5 @@
 06:37 < hufg:#liferay> woops i was a bit hasty but the answer is there
 06:39 < hufg:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-impl/src/com/liferay/portal/webserver/WebServerServlet.java#L384
 06:40 < hufg:#liferay> that is the actual retrieval
+06:44 < hufg:#liferay> uhuh
+06:45 < hufg:#liferay> not sure but i'd put my money on IMAGE table on db and TEXT column
