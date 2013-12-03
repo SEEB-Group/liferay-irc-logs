@@ -75,3 +75,5 @@
 09:14 < hufg:#liferay> have you checked it out?
 09:15 < Azrae|:#liferay> looked it over, but not sure if it helps.
 09:16 < Azrae|:#liferay> Was hoping someone here had done/seen such things before and would know if standard php functions are supposed to work, if I need to import in some php libraries, or something..
+09:20 < Azrae|:#liferay> maybe I need to read up http://wiki.apache.org/tomcat/UsingPhp
+09:20 < Azrae|:#liferay> could be unrelated to liferay
