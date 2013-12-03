@@ -26,3 +26,4 @@
 06:23 < hufg:#liferay> mm true
 06:25 < Tar-Minyatur:#liferay> I would greatly prefer the image uploader, because we often have assets that are relevant for only one page.
 06:25 < hufg:#liferay> com.liferay.portal.webserver.WebServerServlet
+06:26 < hufg:#liferay> that's the servlet sitting there
