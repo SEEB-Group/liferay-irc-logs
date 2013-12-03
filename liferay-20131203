@@ -6,3 +6,4 @@
 05:20 < Tar-Minyatur:#liferay> Do you know where Liferay stores images that have been uploaded via a "Image Upload" field in a web content structure?
 05:21 < Tar-Minyatur:#liferay> I'm asking, because the URL is different from images uploaded to the documents & media library. It uses /image/ rather than /documents/ and I wonder if the image uploader uses the DL nonetheless.
 05:21 < Tar-Minyatur:#liferay> I assume it does, but I would prefer knowing.
+05:31 < bentech4you:#liferay> anyone please help me to integrate my liferay with active directory
