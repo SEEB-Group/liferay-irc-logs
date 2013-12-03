@@ -69,3 +69,7 @@
 09:13 < Azrae|:#liferay> yeah, been there, seen that :D
 09:13 < hufg:#liferay> hehe
 09:13 < hufg:#liferay> i'd be somewhat amazed if it actually works...php portlets
+09:14 < Azrae|:#liferay> but the first php function my code hits, throws an error 'Fatal Error: 'ldap_connect' is an unknown function.'
+09:14 < Azrae|:#liferay> googling shows a few others with similar errors, but no solutions or answers
+09:14 < hufg:#liferay> there is a sample portlet https://github.com/liferay/liferay-plugins/tree/master/portlets/sample-php-portlet
+09:14 < hufg:#liferay> have you checked it out?
