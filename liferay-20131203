@@ -90,3 +90,4 @@
 09:42 < hufg:#liferay> forums suggest $languageUtil.get($locale, "key")
 09:53 < hufg:#liferay> someone from liferay coerce someone to make a blog post about optimizing publishing with /tmp optimization srsly like tmpfs vs ram disk vs ssd vs hd srsly someone do this srsly 8)
 09:53 < hufg:#liferay> srsly?=
+09:54 < hufg:#liferay> i can tell you that tmpfs is a serious speed improvement but it will die after a few publishings in ubuntu
