@@ -21,3 +21,5 @@
 06:19 < hufg:#liferay> do you use some structure to enable image upload?
 06:19 < hufg:#liferay> it's so long ago can't remember
 06:21 < hufg:#liferay> ah image_uploader
+06:22 < Tar-Minyatur:#liferay> The path looks like this: /image/journal/article?img_id=2535409&t=1386069661840
+06:22 < Tar-Minyatur:#liferay> And I can't find /image/ in struts-config.xml
