@@ -87,3 +87,4 @@
 09:39 < hufg:#liferay> i wonder if you can use the premade macros in templates
 09:39 < hufg:#liferay> it's a really zz pzz to track down the functionality of templates/velocity
 09:40 < hufg:#liferay> theme is somewhat easy
+09:42 < hufg:#liferay> forums suggest $languageUtil.get($locale, "key")
