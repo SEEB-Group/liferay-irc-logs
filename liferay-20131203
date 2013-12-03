@@ -59,3 +59,9 @@
 09:11 < hufg:#liferay> or you want to create php portlets and use them
 09:11 < Azrae|:#liferay> No, I have some php pages, I zip them up and deploy in liferay, and it becomes a usable application
 09:11 < hufg:#liferay> yes so you want php portlets
+09:12 < Azrae|:#liferay> ok, yes :)
+09:12 < hufg:#liferay> have no clue i just have seen some documentation etc that it should be possible 8)
+09:12 < Azrae|:#liferay> ditto
+09:12 < hufg:#liferay> http://www.liferay.com/community/wiki/-/wiki/Main/PHP+Portlets
+09:12 < Azrae|:#liferay> and, have deployed one, and it worked (installed and lets me add to a page)
+09:12 < hufg:#liferay> 8)
