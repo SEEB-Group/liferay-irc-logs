@@ -93,3 +93,5 @@
 09:54 < hufg:#liferay> i can tell you that tmpfs is a serious speed improvement but it will die after a few publishings in ubuntu
 09:55 < hufg:#liferay> this would also speed up lucene reindexing
 09:57 < hufg:#liferay> rotty3000: let's do this!
+10:28 < aj_:#liferay> hufg,  looks like the #language macro works in the web content templates.
+10:28 < hufg:#liferay> cuul
