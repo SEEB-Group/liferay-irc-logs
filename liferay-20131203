@@ -82,3 +82,4 @@
 09:33 < hufg:#liferay> javascript
 09:34 < hufg:#liferay> there is a filter that will make retrieval of language keys with js a server side operation
 09:34 < hufg:#liferay> in case you care hehe
+09:38 < aj_:#liferay> hufg,  the theme has a macro function... #language -- which I think is linked to the $languageUtil variable... I was just wondering if the templates in web content did the sma thing. I supposed I could load it into my own var... I was just being lazy :)
