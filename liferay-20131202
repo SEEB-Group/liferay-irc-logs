@@ -60,3 +60,4 @@
 16:21 < aj_:#liferay> !!!!
 16:22 < aj_:#liferay> I think I found the cause.
 16:22 < aj_:#liferay> if I don't set the currentURL then it happens. If I set it .. for any of the portlets on the page... then it doesn't repeat itself
+20:49 -!- mode/#liferay [+o jhf] by ChanServ
