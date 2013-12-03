@@ -88,3 +88,5 @@
 09:39 < hufg:#liferay> it's a really zz pzz to track down the functionality of templates/velocity
 09:40 < hufg:#liferay> theme is somewhat easy
 09:42 < hufg:#liferay> forums suggest $languageUtil.get($locale, "key")
+09:53 < hufg:#liferay> someone from liferay coerce someone to make a blog post about optimizing publishing with /tmp optimization srsly like tmpfs vs ram disk vs ssd vs hd srsly someone do this srsly 8)
+09:53 < hufg:#liferay> srsly?=
