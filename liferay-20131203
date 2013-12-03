@@ -29,3 +29,6 @@
 06:26 < hufg:#liferay> that's the servlet sitting there
 06:30 < hufg:#liferay> FileEntry fileEntry = DLAppServiceUtil.getFileEntryByUuidAndGroupId( 							uuid, groupId);
 06:30 < hufg:#liferay> that is your image
+06:32 < hufg:#liferay> Tar-Minyatur: https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-impl/src/com/liferay/portal/webserver/WebServerServlet.java#L251
+06:32 < hufg:#liferay> there
+06:32 < Tar-Minyatur:#liferay> Argh. Next meeting. I'll take a look later. Thanks!
