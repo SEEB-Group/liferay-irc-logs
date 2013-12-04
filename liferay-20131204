@@ -10,3 +10,6 @@
 04:51 < hufg:#liferay> although if you are concerned about the cluster it probably doesn't matter
 04:51 < hufg:#liferay> i'm more interested in performance
 05:00 < hufg:#liferay> some 500ms retrieval from dl is alright but zz pzz 8)
+05:07 < Tar-Minyatur:#liferay> Yes. That's true.
+05:07 < Tar-Minyatur:#liferay> I'm not a big fan of storing images in the DB.
+05:07 < Tar-Minyatur:#liferay> Damn it. I definitely have too much stuff to do at the moment.
