@@ -4,3 +4,4 @@
 04:41 < hufg:#liferay> Tar-Minyatur: did you find out the image thing?
 04:42 < hufg:#liferay> it's curious that the image gallery still exists in some form but is mostly unaccessable
 04:43 < Tar-Minyatur:#liferay> hufg: I didn't have time to dig into it. From what I've seen it looked like the stuff in stored in the DL.
+04:44 < Tar-Minyatur:#liferay> And where else should it be stored anyway without breaking down entirely if a Liferay cluster is being used.
