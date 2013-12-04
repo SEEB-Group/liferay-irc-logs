@@ -38,3 +38,5 @@
 15:20 < aj_:#liferay> 		return getService()
 15:20 < aj_:#liferay> 				   .addValue(companyId, className, tableName, columnName,
 15:20 < aj_:#liferay> 			classPK, data);
+15:21 < aj_:#liferay> if that returned a stack trace... could it be the result of databsase permissions
+15:21 < aj_:#liferay> sorry -- stack trace is pretty vague hahah
