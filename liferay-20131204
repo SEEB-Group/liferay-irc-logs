@@ -40,3 +40,5 @@
 15:20 < aj_:#liferay> 			classPK, data);
 15:21 < aj_:#liferay> if that returned a stack trace... could it be the result of databsase permissions
 15:21 < aj_:#liferay> sorry -- stack trace is pretty vague hahah
+15:22 < aj_:#liferay> 19:27:21,455 ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ExpandoBridgeImpl:507] com.liferay.portal.security.auth.PrincipalException: PermissionChecker not initialized
+15:22 < aj_:#liferay> com.liferay.portal.security.auth.PrincipalException: PermissionChecker not initialized
