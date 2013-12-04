@@ -25,3 +25,4 @@
 05:23 < hufg:#liferay> removals, additions but no renaming
 08:06 < hufg:#liferay> anyone having annoying deployment problems with 6.1 GA2 ? util libs and liferay tlds are not copied into the portlet
 08:06 < hufg:#liferay> or theme
+13:32 < scribe:#liferay> Hi guys.  Any reports on the general state of 6.2GA1 CE?  We're reaching a point where we can realistically consider updating our system and wanted to hear if people are generally happy with 6.2 or if we should wait for a bug fix release?
