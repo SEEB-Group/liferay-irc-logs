@@ -9,3 +9,4 @@
 04:49 < hufg:#liferay> dl and db are not the same thing
 04:51 < hufg:#liferay> although if you are concerned about the cluster it probably doesn't matter
 04:51 < hufg:#liferay> i'm more interested in performance
+05:00 < hufg:#liferay> some 500ms retrieval from dl is alright but zz pzz 8)
