@@ -32,3 +32,4 @@
 14:23 < aj_:#liferay> partly enough to answer some questions? :)
 14:36 < topolik:#liferay> if you don't need the answers instantly ;)
 14:58 < aj_:#liferay> topolik, first question -- I have a custom attribute on my user. Its configured, and it works (I am using it) but when I go to the user and go to custom attributes, its not there?
+15:19 < topolik:#liferay> aj_: did you create it with the default table? Isn't it hidden?
