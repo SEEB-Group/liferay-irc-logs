@@ -7,3 +7,5 @@
 04:44 < Tar-Minyatur:#liferay> And where else should it be stored anyway without breaking down entirely if a Liferay cluster is being used.
 04:49 < hufg:#liferay> in db
 04:49 < hufg:#liferay> dl and db are not the same thing
+04:51 < hufg:#liferay> although if you are concerned about the cluster it probably doesn't matter
+04:51 < hufg:#liferay> i'm more interested in performance
