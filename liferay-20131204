@@ -17,3 +17,5 @@
 05:11 < Tar-Minyatur:#liferay> Quick question: What happens to articles when I change the structure the article has been built with?
 05:18 < hufg:#liferay> imo you have to support the previous structure
 05:18 < hufg:#liferay> ie. only additions
+05:19 < hufg:#liferay> i have tested it a long long time ago
+05:19 < hufg:#liferay> the reason i'm saying is that structures have no versioning ie. a certain structure cannot be tarcked to certain article id
