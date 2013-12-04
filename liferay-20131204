@@ -20,3 +20,4 @@
 05:19 < hufg:#liferay> i have tested it a long long time ago
 05:19 < hufg:#liferay> the reason i'm saying is that structures have no versioning ie. a certain structure cannot be tarcked to certain article id
 05:20 < hufg:#liferay> it probably tries to fill the structure values how it can
+05:21 < hufg:#liferay> so if you remove or add stuff to structure it's just some extra stuff in db and nothing actually happens
