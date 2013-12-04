@@ -23,3 +23,5 @@
 05:21 < hufg:#liferay> so if you remove or add stuff to structure it's just some extra stuff in db and nothing actually happens
 05:23 < hufg:#liferay> so forget that only additions statement hehe
 05:23 < hufg:#liferay> removals, additions but no renaming
+08:06 < hufg:#liferay> anyone having annoying deployment problems with 6.1 GA2 ? util libs and liferay tlds are not copied into the portlet
+08:06 < hufg:#liferay> or theme
