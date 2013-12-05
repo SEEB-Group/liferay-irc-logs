@@ -107,3 +107,4 @@
 13:27 < aj_:#liferay> topolik, 8:25:55,825 INFO  [http-bio-8080-exec-26][RecipePortlet:70] ****Category: null
 13:27 < aj_:#liferay> :(
 13:27 < aj_:#liferay> could it be because I am using the MVC portlet?
+13:30 < topolik:#liferay> aj_: I try it, but I doubt
