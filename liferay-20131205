@@ -74,3 +74,4 @@
 13:01 <@jhf:#liferay> AP is just a "display" tool, it doesn't do any registration that I know of
 13:01 < aj_:#liferay> jhf, I'm using the wrong terms. I think what I meant was adding more template options. So I have in my list, table, abstract, ... the liferay ones, but then I also have the ones for our project (featured article, badge, etc)
 13:01 < topolik:#liferay> aj_: works on 6.1.2 - https://gist.github.com/topolik/7810203
+13:02 < scribe:#liferay> Hey guys, anyone know how to retrieve the user's current Liferay locale from javascript?
