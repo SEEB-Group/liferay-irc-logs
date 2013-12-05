@@ -29,3 +29,5 @@
 12:18 < aj_:#liferay> here it is
 12:18 < topolik:#liferay> sorry I didn't respond yesterday or when it was
 12:19 < topolik:#liferay> when I got back to laptop you were already off
+12:20 < aj_:#liferay> topolik, I have a parent navigation item -- Recipes. Underneath this parent I have several children. Each child represents a -- shocking I know -- type of recipe. Wehn the user click the Recipe "parent" they go to a portlet page. Done. When the user clicks one of the children they go to the recipe page as well, with the child category applied. I have made the children "link to page" and picked recipes. Then under advanced, I addred a query strin
+12:20 < aj_:#liferay> g in the text field category=[category]. But It doesn't seem to make it
