@@ -70,3 +70,5 @@
 12:54 < aj_:#liferay> That feels like a job that is best served for the asset publisher no?
 12:54 <@jhf:#liferay> yep, definitely
 12:56 < aj_:#liferay> ok -- so this is where it gets harder for me because to date I have only been a cheater and have never used the asset publisher. I did spend a couple of hours the other night poking around with it though and I managed to get it to register different templates for the user. \o/ ... question is, how do I get my fields from my journal article to populte the template? or is that where the asset renderer comes in?
+13:00 <@jhf:#liferay> not quite sure what you mean when you say you got the AP to "register different templates for the user"
+13:01 <@jhf:#liferay> AP is just a "display" tool, it doesn't do any registration that I know of
