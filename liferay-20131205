@@ -45,3 +45,6 @@
 12:33 < topolik:#liferay> ok
 12:38 < topolik:#liferay> PortalUtil.getOriginalServletRequest(PortalUtil.getHttpServletRequest(renderRequest)).getParameter("category")
 12:38 < topolik:#liferay> or PortalUtil.getOriginalServletRequest(request).getParameter("category")
+12:39 < aj_:#liferay> the first
+12:39 < topolik:#liferay> just make sure you specify category=... in the query string field, not cateRgory=[name]
+12:39 < aj_:#liferay> but I do the inner call to first get the HTTP Servlet Request from the portlet request
