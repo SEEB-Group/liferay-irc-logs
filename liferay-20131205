@@ -33,3 +33,4 @@
 12:20 < aj_:#liferay> g in the text field category=[category]. But It doesn't seem to make it
 12:21 < aj_:#liferay> I stepped through the portal impl last night and I can see the query string being added in one case (there are a few portlets on that page)... but no mater which portlet I dig into it is never there.
 12:22 < aj_:#liferay> I am using String category = PortalUtil.getOriginalServletRequest(PortalUtil.getHttpServletRequest(renderRequest)).getParameter("category");
+12:22 < aj_:#liferay> I inspected the request as well and the query string only ever seems to contain the layout id and the virtual layout id
