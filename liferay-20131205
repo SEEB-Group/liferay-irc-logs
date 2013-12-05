@@ -37,3 +37,4 @@
 12:23 < topolik:#liferay> aj_: that's because there is an internal redirect from friendly urls into /c/portal/layout?p_l_id=...
 12:23 < aj_:#liferay> right -- and that is where I saw it append the query string
 12:23 < aj_:#liferay> I mean that value certainly looks familiar
+12:24 < aj_:#liferay> so how am I supposed to get it?
