@@ -100,3 +100,6 @@
 13:10 < aj_:#liferay> but that shouldn't matter right?
 13:10 <@jhf:#liferay> ok bbl
 13:10 <@jhf:#liferay> meetin' time
+13:17 < aj_:#liferay> topolik,  so you created a portlet page. Then yo ucreate a child under it with type Link To Page and under advanced you set the query string to category=topolik ... then on the parent (portlet) page you dropped a portlet and in it you add that code in the render method and it worked.
+13:17 < aj_:#liferay> wtf
+13:17 < aj_:#liferay> lol
