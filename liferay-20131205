@@ -94,3 +94,5 @@
 13:08 <@jhf:#liferay> but in 6.2 we moved that into the UI, via "Asset Display Templates"
 13:08 < scribe:#liferay> got it: Liferay.ThemeDisplay.getLanguageId()
 13:08 <@jhf:#liferay> but when you use asset publisher to render web content articles, it will use your template for the "full" view
+13:09 <@jhf:#liferay> but when asset publisher is used to publish a blog post, it will use the default renderer
+13:09 <@jhf:#liferay> so if you use asset publisher to render multiple types of assets (e.g. blog posts AND web content) you'll get the same thing as if you'd used a blog portlet on top of a web content display portlet.
