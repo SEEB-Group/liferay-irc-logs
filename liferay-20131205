@@ -48,3 +48,9 @@
 12:39 < aj_:#liferay> the first
 12:39 < topolik:#liferay> just make sure you specify category=... in the query string field, not cateRgory=[name]
 12:39 < aj_:#liferay> but I do the inner call to first get the HTTP Servlet Request from the portlet request
+12:42 < aj_:#liferay> topolik, it worked for you?
+12:42 < topolik:#liferay> yes, but I test it on 6.2
+12:42 < topolik:#liferay> I can try on 6.1.2
+12:42 < aj_:#liferay> ah man... please :)
+12:42 < aj_:#liferay> lol
+12:42 < aj_:#liferay> I am on 6.1.2 GA3
