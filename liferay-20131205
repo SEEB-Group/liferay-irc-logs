@@ -9,3 +9,5 @@
 09:42 < hufg:#liferay> so yeah basically the publish range does not work at all for dl maybe it works at later staging but the same writes happen
 10:18 < Tar-Minyatur:#liferay> I can't believe that there is no proper documentation on how to setup a Liferay cluster on Amazon EC2.
 10:18 < Tar-Minyatur:#liferay> We can't be the only ones who want to do this. Oo
+10:19 < hufg:#liferay> :D
+10:19 < hufg:#liferay> better believe it
