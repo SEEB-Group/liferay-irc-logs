@@ -119,3 +119,8 @@
 13:40 < aj_:#liferay> soooo... you're just one click away ;)
 13:40 < topolik:#liferay> hehe :)
 13:40 < aj_:#liferay> it sounds like we're doing the same thing
+13:41 < aj_:#liferay> there aren't any property settings or anything I should need right?
+13:41 < topolik:#liferay> nope
+13:41 < topolik:#liferay> I just edited the page, went to "Advanced" and in Query String I filled: category=xxx
+13:41 < topolik:#liferay> added the test portlet on the page
+13:41 < topolik:#liferay> and refreshed
