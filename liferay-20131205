@@ -82,3 +82,5 @@
 13:04 < aj_:#liferay> topolik, my portlet class
 13:04 < aj_:#liferay> in the render method
 13:04 < topolik:#liferay> ah, ok, I try
+13:06 < aj_:#liferay> jhf, can you create your own custom asset renderers?
+13:07 <@jhf:#liferay> aj_: in 6.2 yes :)
