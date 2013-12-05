@@ -66,3 +66,6 @@
 12:52 < aj_:#liferay> good cover
 12:53 < aj_:#liferay> I think there are a pile of options for us -- but I want to use the one that is most inline with the portal to make upgrade somewhat easier.
 12:53 < aj_:#liferay> Basically the client has "Aticles" .. and we have several article templates.
+12:54 < aj_:#liferay> Right now for the one off placements, we have been using the web content display -- but ths issue is that when you click them they should take you to the full view.
+12:54 < aj_:#liferay> That feels like a job that is best served for the asset publisher no?
+12:54 <@jhf:#liferay> yep, definitely
