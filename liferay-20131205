@@ -6,3 +6,4 @@
 09:35 < hufg:#liferay> there is a huge write of small files to tmp either way
 09:36 < hufg:#liferay> i think some 800mb with our dl
 09:36 < hufg:#liferay> not sure
+09:42 < hufg:#liferay> so yeah basically the publish range does not work at all for dl maybe it works at later staging but the same writes happen
