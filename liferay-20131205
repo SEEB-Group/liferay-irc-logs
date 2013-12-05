@@ -78,3 +78,7 @@
 13:03 < scribe:#liferay> I see Liferay.Language.get, which will return to me a localized string.
 13:03 < scribe:#liferay> But I want the name of the localization.
 13:03 < aj_:#liferay> topolik, the only difference I can see here is that you are doing it in th eJSP... I was trying to do it on the server. Can you not do it on the server?
+13:04 < topolik:#liferay> server?
+13:04 < aj_:#liferay> topolik, my portlet class
+13:04 < aj_:#liferay> in the render method
+13:04 < topolik:#liferay> ah, ok, I try
