@@ -43,3 +43,5 @@
 12:26 < topolik:#liferay> how does your query string look like?
 12:29 < aj_:#liferay> just catergory=[name] ... so category=main-dish or category=appetizer
 12:33 < topolik:#liferay> ok
+12:38 < topolik:#liferay> PortalUtil.getOriginalServletRequest(PortalUtil.getHttpServletRequest(renderRequest)).getParameter("category")
+12:38 < topolik:#liferay> or PortalUtil.getOriginalServletRequest(request).getParameter("category")
