@@ -89,3 +89,8 @@
 13:07 <@jhf:#liferay> but in 6.1 the only thing you can custom-render are web content articles via a template
 13:07 < aj_:#liferay> hmm
 13:07 <@jhf:#liferay> well.. you could override the blog renderer JSP
+13:08 < topolik:#liferay> aj_: works - https://gist.github.com/topolik/7810283
+13:08 < aj_:#liferay> jhf, I am trying to do this for custom web content though
+13:08 <@jhf:#liferay> but in 6.2 we moved that into the UI, via "Asset Display Templates"
+13:08 < scribe:#liferay> got it: Liferay.ThemeDisplay.getLanguageId()
+13:08 <@jhf:#liferay> but when you use asset publisher to render web content articles, it will use your template for the "full" view
