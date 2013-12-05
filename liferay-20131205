@@ -96,3 +96,7 @@
 13:08 <@jhf:#liferay> but when you use asset publisher to render web content articles, it will use your template for the "full" view
 13:09 <@jhf:#liferay> but when asset publisher is used to publish a blog post, it will use the default renderer
 13:09 <@jhf:#liferay> so if you use asset publisher to render multiple types of assets (e.g. blog posts AND web content) you'll get the same thing as if you'd used a blog portlet on top of a web content display portlet.
+13:10 < aj_:#liferay> topolik, ?!@@! that is what I am doing. Except my portlet is extending the MVC portlet
+13:10 < aj_:#liferay> but that shouldn't matter right?
+13:10 <@jhf:#liferay> ok bbl
+13:10 <@jhf:#liferay> meetin' time
