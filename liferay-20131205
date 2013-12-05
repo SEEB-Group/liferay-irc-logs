@@ -84,3 +84,8 @@
 13:04 < topolik:#liferay> ah, ok, I try
 13:06 < aj_:#liferay> jhf, can you create your own custom asset renderers?
 13:07 <@jhf:#liferay> aj_: in 6.2 yes :)
+13:07 <@jhf:#liferay> for example, for rending a blog post differently than the "default"
+13:07 < aj_:#liferay> but I can't do that in 6.1.2?
+13:07 <@jhf:#liferay> but in 6.1 the only thing you can custom-render are web content articles via a template
+13:07 < aj_:#liferay> hmm
+13:07 <@jhf:#liferay> well.. you could override the blog renderer JSP
