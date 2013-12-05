@@ -11,3 +11,7 @@
 10:18 < Tar-Minyatur:#liferay> We can't be the only ones who want to do this. Oo
 10:19 < hufg:#liferay> :D
 10:19 < hufg:#liferay> better believe it
+10:20 < hufg:#liferay> isn't jgroups unicast the only way?
+10:20 < hufg:#liferay> if multicast is not supported
+10:20 < Tar-Minyatur:#liferay> I honestly don't know the details of how EHCache works.
+10:21 < Tar-Minyatur:#liferay> There is stuff like JDBC_PING and S3_PING for node-detection.
