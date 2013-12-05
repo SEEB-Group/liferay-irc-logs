@@ -104,3 +104,6 @@
 13:17 < aj_:#liferay> wtf
 13:17 < aj_:#liferay> lol
 13:20 < olafk:#liferay> jhf: don't steal my lines :)
+13:27 < aj_:#liferay> topolik, 8:25:55,825 INFO  [http-bio-8080-exec-26][RecipePortlet:70] ****Category: null
+13:27 < aj_:#liferay> :(
+13:27 < aj_:#liferay> could it be because I am using the MVC portlet?
