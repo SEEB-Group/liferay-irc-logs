@@ -18,3 +18,4 @@
 10:21 < Tar-Minyatur:#liferay> But I have no clue if that would be sufficient.
 10:21 < hufg:#liferay> or  some crazy stuff on ehcache+san drives for lucene and dl
 10:22 < hufg:#liferay> without knowing anything i'd go for jgroups unicast
+10:23 < hufg:#liferay> :)
