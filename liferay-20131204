@@ -42,3 +42,4 @@
 15:21 < aj_:#liferay> sorry -- stack trace is pretty vague hahah
 15:22 < aj_:#liferay> 19:27:21,455 ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]][ExpandoBridgeImpl:507] com.liferay.portal.security.auth.PrincipalException: PermissionChecker not initialized
 15:22 < aj_:#liferay> com.liferay.portal.security.auth.PrincipalException: PermissionChecker not initialized
+--- Log closed Thu Dec 05 00:00:40 2013
