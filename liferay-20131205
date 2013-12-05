@@ -15,3 +15,5 @@
 10:20 < hufg:#liferay> if multicast is not supported
 10:20 < Tar-Minyatur:#liferay> I honestly don't know the details of how EHCache works.
 10:21 < Tar-Minyatur:#liferay> There is stuff like JDBC_PING and S3_PING for node-detection.
+10:21 < Tar-Minyatur:#liferay> But I have no clue if that would be sufficient.
+10:21 < hufg:#liferay> or  some crazy stuff on ehcache+san drives for lucene and dl
