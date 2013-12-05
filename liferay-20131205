@@ -4,3 +4,5 @@
 09:22 < hufg:#liferay> topolik:
 09:23 < hufg:#liferay> how come multiple publishings does not apparently decrease the disk writes from dl?
 09:35 < hufg:#liferay> there is a huge write of small files to tmp either way
+09:36 < hufg:#liferay> i think some 800mb with our dl
+09:36 < hufg:#liferay> not sure
