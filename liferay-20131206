@@ -24,3 +24,7 @@
 13:22 <@jhf:#liferay> what did u mean by "all options for this page were gone" ?
 13:30 < modd:#liferay> on left side you have the new options menu and one of the buttons shows the page options
 13:30 < modd:#liferay> this dialog is empty
+13:31 < modd:#liferay> it's the same when going to control panel and showing the options for the page there
+13:31 < modd:#liferay> it's simply empty
+13:31 < modd:#liferay> the exception is a stringindexoutofbound exception: -1
+13:31 < modd:#liferay> that's because the friendlyurl is somehow broken
