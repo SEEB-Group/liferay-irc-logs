@@ -16,3 +16,4 @@
 12:55 < modd:#liferay> after changing the title of the guest landing page from "welcome" to "home" all options for this page were gone
 12:55 < modd:#liferay> and we see an exception in layout_admin/edit_layout.jsp
 12:56 < modd:#liferay> selLayout.getFriendlyURL() fails
+12:59 <@jhf:#liferay> uh oh.. /me tries it
