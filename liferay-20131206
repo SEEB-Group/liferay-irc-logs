@@ -42,3 +42,7 @@
 13:46 <@jhf:#liferay> ok gonna try postgres.
 13:47 < modd:#liferay> you don't need to to do it now, I'll try to find reproduction steps next week
 13:50 < modd:#liferay> btw, is it possible, that..let's say a random pulse award winner (^^) get's a special acocunt flag at liferay.com to see LPE bugs? (I don't have a EE account anymore :( )
+14:15 <@jhf:#liferay> modd: actually that's an interesting proposal, I will ask around
+14:15 < modd:#liferay> cool^^
+14:15 <@jhf:#liferay> we've talked about giving for example EE discounts for high volume contributors
+14:15 <@jhf:#liferay> this is sorta the same thing.
