@@ -31,3 +31,5 @@
 13:41 < haba713:#liferay> hi! when adding documents to liferay 6.1 doclib with service api, must also asset entries be created? have you got any examples?
 13:42 <@jhf:#liferay> there are 4 buttons: "Add" (in the shape of a "+"), Preview (looks like a computer monitor), "Edit" (looks like a pencil), and a button to toggle "Edit COntrols"
 13:42 <@jhf:#liferay> which one are you pressing to get the exception
+13:43 < modd:#liferay> go to your control panel and open the tree view for the site
+13:43 < modd:#liferay> and then click on the page title in the tree
