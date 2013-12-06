@@ -22,3 +22,5 @@
 13:00 < modd:#liferay> yep
 13:21 <@jhf:#liferay> so after logging in, I clicked the "Edit" button on the left, and changed the page title from Welcome to Home. nothing appears broken.
 13:22 <@jhf:#liferay> what did u mean by "all options for this page were gone" ?
+13:30 < modd:#liferay> on left side you have the new options menu and one of the buttons shows the page options
+13:30 < modd:#liferay> this dialog is empty
