@@ -5,3 +5,6 @@
 12:00 < aj_:#liferay> does anyone know why when I initiate a resource request (using the javascript libraries) from a page under web/guest to a portlet that is on another page it chooses to use /grop/guest instead of /web/guest?
 12:01 < aj_:#liferay> ah... because if you do setPlid( "plid", plid) instead of setPlid(plid);
 12:36 < anteater_sa:#liferay> q
+12:37 < anteater_sa:#liferay> I'm trying to write a portlet in python but am getting an error with this line:
+12:37 < anteater_sa:#liferay> obc = OrderByComparatorFactory.create('AssetCategory','name',True)
+12:37 < anteater_sa:#liferay> any ideas?
