@@ -12,3 +12,5 @@
 12:43 < anteater_sa:#liferay> that's the problem, I just get
 12:43 < anteater_sa:#liferay> An unexpected error occurred.
 12:53 -!- mode/#liferay [+o jhf] by ChanServ
+12:54 < modd:#liferay> jhf: we found a strange bug in 6.2 EE^^
+12:55 < modd:#liferay> after changing the title of the guest landing page from "welcome" to "home" all options for this page were gone
