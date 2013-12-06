@@ -33,3 +33,6 @@
 13:42 <@jhf:#liferay> which one are you pressing to get the exception
 13:43 < modd:#liferay> go to your control panel and open the tree view for the site
 13:43 < modd:#liferay> and then click on the page title in the tree
+13:45 <@jhf:#liferay> ok everything seems right http://imgur.com/X9StqGy
+13:45 <@jhf:#liferay> what DB are you using?
+13:45 < modd:#liferay> postgres
