@@ -8,3 +8,4 @@
 12:37 < anteater_sa:#liferay> I'm trying to write a portlet in python but am getting an error with this line:
 12:37 < anteater_sa:#liferay> obc = OrderByComparatorFactory.create('AssetCategory','name',True)
 12:37 < anteater_sa:#liferay> any ideas?
+12:42 < aj_:#liferay> whats the error
