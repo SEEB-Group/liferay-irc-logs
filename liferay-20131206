@@ -36,3 +36,7 @@
 13:45 <@jhf:#liferay> ok everything seems right http://imgur.com/X9StqGy
 13:45 <@jhf:#liferay> what DB are you using?
 13:45 < modd:#liferay> postgres
+13:46 <@jhf:#liferay> 9.x?
+13:46 < modd:#liferay> not sure, I'm not at work anymore :\
+13:46 < modd:#liferay> but that's exactly the page
+13:46 <@jhf:#liferay> ok gonna try postgres.
