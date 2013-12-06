@@ -14,3 +14,4 @@
 12:53 -!- mode/#liferay [+o jhf] by ChanServ
 12:54 < modd:#liferay> jhf: we found a strange bug in 6.2 EE^^
 12:55 < modd:#liferay> after changing the title of the guest landing page from "welcome" to "home" all options for this page were gone
+12:55 < modd:#liferay> and we see an exception in layout_admin/edit_layout.jsp
