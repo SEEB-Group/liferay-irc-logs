@@ -3,3 +3,4 @@
 07:40 < Keferoff:#liferay> Is there a way to export users phone numbers for specific portal?
 11:59 < aj_:#liferay> hey guys
 12:00 < aj_:#liferay> does anyone know why when I initiate a resource request (using the javascript libraries) from a page under web/guest to a portlet that is on another page it chooses to use /grop/guest instead of /web/guest?
+12:01 < aj_:#liferay> ah... because if you do setPlid( "plid", plid) instead of setPlid(plid);
