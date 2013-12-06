@@ -17,3 +17,6 @@
 12:55 < modd:#liferay> and we see an exception in layout_admin/edit_layout.jsp
 12:56 < modd:#liferay> selLayout.getFriendlyURL() fails
 12:59 <@jhf:#liferay> uh oh.. /me tries it
+13:00 <@jhf:#liferay> is this w/tomcat?
+13:00 < modd:#liferay> I didn't have time to try to reproduce it on another system
+13:00 < modd:#liferay> yep
