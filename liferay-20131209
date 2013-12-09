@@ -2,3 +2,5 @@
 03:53 < hufg:#liferay> hello!
 05:32 < Axxell:#liferay> Hey guys, has anyone tried to do themes in liferay 6.2? got som problems with the navbars
 06:13 < Axxell:#liferay> anyone?
+10:15 < aj_:#liferay> hey guys -- can anyone tell me if there are any known issues with setting up a tomcat version of Liferay (6.1.2 GA3) on centos?
+10:15 < aj_:#liferay> I can't think of WHY there would be problems to be honest...
