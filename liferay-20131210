@@ -33,3 +33,4 @@
 10:00 < hufg:#liferay> the libs are not loaded without exec
 10:00 < hufg:#liferay> it actually may be some hardening which had tmp as noexec
 10:00 < hufg:#liferay> and you wont see in default centos
+10:01 < hufg:#liferay> anyways mount /tmp as exec and you are good
