@@ -29,3 +29,7 @@
 09:57 < jardineworks:#liferay> hufg, any issue doing the setup? or was that someone elses problem :)
 09:59 < hufg:#liferay> some
 09:59 < hufg:#liferay> related to dynamiccssfilter and dynamic sass parsing which uses some zz pzz libraries
+10:00 < hufg:#liferay> this involved mounting tmp as exec mount
+10:00 < hufg:#liferay> the libs are not loaded without exec
+10:00 < hufg:#liferay> it actually may be some hardening which had tmp as noexec
+10:00 < hufg:#liferay> and you wont see in default centos
