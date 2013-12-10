@@ -47,3 +47,5 @@
 10:13 < hufg:#liferay> jardineworks: btw how are you building your theme with dynamiccssfilter disabled?
 10:13 < hufg:#liferay> to get precompiled sass
 10:14 < hufg:#liferay> i bet you have dynamiccssfilter on, it's a pain in the ass if it's off
+10:16 < jardineworks:#liferay> lemme double check
+10:16 < jardineworks:#liferay> I must be confusing it with soemthing else
