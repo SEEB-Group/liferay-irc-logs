@@ -27,3 +27,5 @@
 09:53 < hufg:#liferay> so yes 8)
 09:57 < jardineworks:#liferay> hmmm
 09:57 < jardineworks:#liferay> hufg, any issue doing the setup? or was that someone elses problem :)
+09:59 < hufg:#liferay> some
+09:59 < hufg:#liferay> related to dynamiccssfilter and dynamic sass parsing which uses some zz pzz libraries
