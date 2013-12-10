@@ -40,3 +40,4 @@
 10:08 < jardineworks:#liferay> hufg, I think we have the dynsmic css filter disaabled though. So shouldn't that bypass the issue?
 10:09 < hufg:#liferay> yes
 10:10 < hufg:#liferay> uh uh it will run perfectly fine on centos
+10:11 < hufg:#liferay> centos is the free version of rhel
