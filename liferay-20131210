@@ -35,3 +35,4 @@
 10:00 < hufg:#liferay> and you wont see in default centos
 10:01 < hufg:#liferay> anyways mount /tmp as exec and you are good
 10:02 < hufg:#liferay> it's easy to verify, there will be an error msg with any theme when you log in, the admin ui css will be broken and you can see sass in css files
+10:04 < hufg:#liferay> cat /proc/mounts|grep /tmp
