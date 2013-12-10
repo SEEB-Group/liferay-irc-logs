@@ -17,3 +17,5 @@
 09:27 < jardineworks:#liferay> qq for you. What OS are you guys using for your deployment?
 09:30 < Tar-Minyatur:#liferay> All our boxes are running ubuntu server, I think.
 09:30 < Tar-Minyatur:#liferay> (Amazon EC2 images.)
+09:33 < jardineworks:#liferay> Tar-Minyatur, but you don't know which OS your images are running on?
+09:33 < Tar-Minyatur:#liferay> Linux. Ubuntu Server.
