@@ -4,3 +4,4 @@
 03:54 < Tar-Minyatur:#liferay> Why is there no way to get from a page in "Site Pages" to the actual site? Oo
 04:59 < Tar-Minyatur:#liferay> What the...!?
 05:00 < Tar-Minyatur:#liferay> When I try to publish some pages in 6.1.2 I don't get a confirmation that the publishing succeeded...instead Liferay loads the "Site Pages" portlet inside of the publishing dialog. Oo
+05:12 < Axxell:#liferay> hmm anyone know where i would find how aui:navbar is used?
