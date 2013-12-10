@@ -38,3 +38,4 @@
 10:04 < hufg:#liferay> cat /proc/mounts|grep /tmp
 10:08 < jardineworks:#liferay> hufg, interesting. I'll pass that along. Our partner is saying that it can't be run on centOS .. I assumed that it was security related since centOS (I have no experience with it) is supposed to be enterprise grade right? ...
 10:08 < jardineworks:#liferay> hufg, I think we have the dynsmic css filter disaabled though. So shouldn't that bypass the issue?
+10:09 < hufg:#liferay> yes
