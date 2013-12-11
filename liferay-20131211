@@ -41,3 +41,7 @@
 07:00 < hufg:#liferay> mm no idea
 07:00 < Tar-Minyatur:#liferay> I always have a bad feeling, when files are stored somewhere and tracked in a database.
 07:00 < Tar-Minyatur:#liferay> This just has to get out of sync at some point.
+07:01 < hufg:#liferay> personally i would look into this satanic spawn of mutated migration where you read the to be migrated data with liferay api, generate your choice of data structure of it and read it back into fresh updated install through liferay api
+07:01 < hufg:#liferay> i have absolutely no clue if this is feasible
+07:01 < Tar-Minyatur:#liferay> Liferay even has a verification process in the upgrade mechanism for the entire DL...unfortunately that's incredibly slow, because it does loads of requests to the S3 bucket.
+07:01 < hufg:#liferay> the verification is bullshit
