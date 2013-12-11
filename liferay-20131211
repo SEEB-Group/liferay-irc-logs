@@ -65,3 +65,4 @@
 07:14 < Axxell:#liferay> have anybody tried bootstrap navbars
 07:21 < Axxell:#liferay> in liferay 6.2? im having a lot of troube to get the collapsed responsive menu button to work
 07:21 < Axxell:#liferay> i just cant figure out what the problem is
+07:22 < Axxell:#liferay> (ive made a working model for the page im trying to do in pure bootstrap, and am trying to make a theme of that, everything else seems to work, but "collapse" is causing troubles
