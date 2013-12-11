@@ -59,3 +59,5 @@
 07:04 < hufg:#liferay> i wrote some upgrade issues maybe they help
 07:04 < hufg:#liferay> imo it's highly likely they affect your upgrade, although they are all for dl
 07:04 < hufg:#liferay> https://support.liferay.com/browse/LPS-40416?page=com.atlassian.jira.plugins.jira-bitbucket-connector-plugin:dvcs-commits-tabpanel
+07:05 < hufg:#liferay> https://support.liferay.com/browse/LPS-40416
+07:05 < hufg:#liferay> https://support.liferay.com/browse/LPS-40418
