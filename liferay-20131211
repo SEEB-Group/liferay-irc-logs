@@ -8,3 +8,7 @@
 06:49 < hufg:#liferay> Tar-Minyatur: the default here is to implement your own publishing
 06:49 < hufg:#liferay> but it costs a lot and needs a lot of testing
 06:50 < hufg:#liferay> the problem is that even with like 99% reliability you will end up in situations where you need to recover from publishing failures
+06:51 < hufg:#liferay> have you modified liferay src?
+06:51 < hufg:#liferay> and which staging implementation
+06:51 < hufg:#liferay> in GA2 local publishing has worked fairly well
+06:51 < hufg:#liferay> so far
