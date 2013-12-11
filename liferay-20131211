@@ -28,3 +28,8 @@
 06:57 < hufg:#liferay> as in a showstopper
 06:57 < Tar-Minyatur:#liferay> I just saw some kind of S3 error in the log after getting a publishing error.
 06:57 < Tar-Minyatur:#liferay> What's the approach here? Remove everything from the DL?
+06:58 < hufg:#liferay> the only way to make a liferay upgrade is to 1) get some 150k in cash and army of consultants 2) pray for a miracle 3) clear some 6 months of your calendar and pray for a miracle
+06:58 < hufg:#liferay> not sure haven't looked into it
+06:58 < hufg:#liferay> but yes to wipe out(not migrate) the dl
+06:58 < Tar-Minyatur:#liferay> *sigh* Couldn't you have told me that 3 months ago? :-/
+06:59 < hufg:#liferay> :(
