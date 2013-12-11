@@ -37,3 +37,7 @@
 06:59 < Tar-Minyatur:#liferay> But apparently the publishing is messed up now.
 06:59 < hufg:#liferay> yes yes that's the problem you will end up with broken features and what not and it's impossible to test
 06:59 < hufg:#liferay> what's the error?
+07:00 < Tar-Minyatur:#liferay> 11:46:43,957 ERROR [ajp-bio-8009-exec-3][render_portlet_jsp:157] com.liferay.portal.kernel.lar.PortletDataException: com.liferay.portal.kernel.exception.SystemException: org.jets3t.service.S3ServiceException: S3 Error Message. -- ResponseCode: 404, ResponseStatus: Not Found
+07:00 < hufg:#liferay> mm no idea
+07:00 < Tar-Minyatur:#liferay> I always have a bad feeling, when files are stored somewhere and tracked in a database.
+07:00 < Tar-Minyatur:#liferay> This just has to get out of sync at some point.
