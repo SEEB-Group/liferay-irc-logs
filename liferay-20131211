@@ -33,3 +33,7 @@
 06:58 < hufg:#liferay> but yes to wipe out(not migrate) the dl
 06:58 < Tar-Minyatur:#liferay> *sigh* Couldn't you have told me that 3 months ago? :-/
 06:59 < hufg:#liferay> :(
+06:59 < Tar-Minyatur:#liferay> So far the content migration has worked quite well.
+06:59 < Tar-Minyatur:#liferay> But apparently the publishing is messed up now.
+06:59 < hufg:#liferay> yes yes that's the problem you will end up with broken features and what not and it's impossible to test
+06:59 < hufg:#liferay> what's the error?
