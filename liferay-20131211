@@ -23,3 +23,8 @@
 06:56 < hufg:#liferay> and that's a fact
 06:56 < Tar-Minyatur:#liferay> That would be ok, I think...because we have next to nothing in there.
 06:57 < hufg:#liferay> hehe ok
+06:57 < Tar-Minyatur:#liferay> But that's a good point.
+06:57 < hufg:#liferay> butt next to nothing can destroy your publishing
+06:57 < hufg:#liferay> as in a showstopper
+06:57 < Tar-Minyatur:#liferay> I just saw some kind of S3 error in the log after getting a publishing error.
+06:57 < Tar-Minyatur:#liferay> What's the approach here? Remove everything from the DL?
