@@ -55,3 +55,7 @@
 07:02 < hufg:#liferay> you can sometimes fix something
 07:03 < Tar-Minyatur:#liferay> And there still doesn't seem to be a reasonable solution to transfer content from one Liferay to another.
 07:03 < hufg:#liferay> hmm?
+07:04 < Tar-Minyatur:#liferay> Which is exactly why we opted for using the old database.
+07:04 < hufg:#liferay> i wrote some upgrade issues maybe they help
+07:04 < hufg:#liferay> imo it's highly likely they affect your upgrade, although they are all for dl
+07:04 < hufg:#liferay> https://support.liferay.com/browse/LPS-40416?page=com.atlassian.jira.plugins.jira-bitbucket-connector-plugin:dvcs-commits-tabpanel
