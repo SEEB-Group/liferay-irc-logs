@@ -45,3 +45,11 @@
 07:01 < hufg:#liferay> i have absolutely no clue if this is feasible
 07:01 < Tar-Minyatur:#liferay> Liferay even has a verification process in the upgrade mechanism for the entire DL...unfortunately that's incredibly slow, because it does loads of requests to the S3 bucket.
 07:01 < hufg:#liferay> the verification is bullshit
+07:02 < Tar-Minyatur:#liferay> Somehow it sounds like a lot of Liferay is bullshit.
+07:02 < hufg:#liferay> bottom line upgrade is really hard, a pain in the ass to test and you need to do a lot of praying
+07:02 < hufg:#liferay> no no you just have to know which part
+07:02 < hufg:#liferay> parts
+07:02 < hufg:#liferay> :(
+07:02 < Tar-Minyatur:#liferay> But there is no way of finding our what's broken.
+07:02 < hufg:#liferay> yes it's too complex
+07:02 < hufg:#liferay> you can sometimes fix something
