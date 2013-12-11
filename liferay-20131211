@@ -12,3 +12,10 @@
 06:51 < hufg:#liferay> and which staging implementation
 06:51 < hufg:#liferay> in GA2 local publishing has worked fairly well
 06:51 < hufg:#liferay> so far
+06:55 < Tar-Minyatur:#liferay> We are on the latest 6.1.2
+06:55 < hufg:#liferay> remote publish?
+06:55 < Tar-Minyatur:#liferay> But we migrated a DB from 6.1.0 and I'm starting to get the feeling that we also copied some bad states.
+06:55 < Tar-Minyatur:#liferay> No. Local publishing.
+06:55 < hufg:#liferay> ;-D
+06:55 < hufg:#liferay> so you made an upgrade
+06:55 < hufg:#liferay> good luck with that
