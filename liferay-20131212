@@ -46,3 +46,5 @@
 12:04 <@jhf:#liferay> modd: nope, does not use JIRA as a backend - it's a custom LR service implemented in Liferay
 12:05 < modd:#liferay> so completely done in liferay.
 12:05 < modd:#liferay> we're thinking currently how to do something like this
+12:06 < modd:#liferay> we have some jira integration in some portlets, but it's not as easy to allow a more general purpose
+12:06 < modd:#liferay> it may be easier to integrate OTRS
