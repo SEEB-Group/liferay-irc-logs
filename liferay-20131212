@@ -49,3 +49,8 @@
 12:06 < modd:#liferay> we have some jira integration in some portlets, but it's not as easy to allow a more general purpose
 12:06 < modd:#liferay> it may be easier to integrate OTRS
 12:08 <@jhf:#liferay> yeah.. possibly. I'm not 100% about why we switched from JIRA to our own.. guess we had too many customization requirements maybe?
+12:09 < modd:#liferay> yeah, jira sucks at integrationability^^
+12:09 <@jhf:#liferay> http://cmsreport.com/articles/liferay-releases-liferay-enterprise-support-application-2798
+12:09 <@jhf:#liferay> guess we also did not like JIRA's UX :)
+12:09 <@jhf:#liferay> I can believe that. customers faced with tons of fields with weird names.
+12:09 < modd:#liferay> would be nice to see it at your market place^^
