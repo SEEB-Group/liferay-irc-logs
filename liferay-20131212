@@ -16,3 +16,5 @@
 09:37 < hufg:#liferay> Tar-Minyatur: staging is a bit risky but local staging without migrations has worked for us so far
 09:37 < hufg:#liferay> in GA2
 09:37 < hufg:#liferay> remote staging is a baaad mistake
+09:39 < hufg:#liferay> Tar-Minyatur: https://gist.github.com/anonymous/825713844e351e175531 run that script on bashrc, single 500% morale boost every day
+09:40 < hufg:#liferay> no need for echo on line 17 :(
