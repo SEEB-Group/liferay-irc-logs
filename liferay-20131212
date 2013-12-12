@@ -44,3 +44,5 @@
 12:04 < modd:#liferay> hey jhf, I have a question about the liferay.com EE lesa ticket system/portlet
 12:04 < modd:#liferay> is it tied to an internal jira?
 12:04 <@jhf:#liferay> modd: nope, does not use JIRA as a backend - it's a custom LR service implemented in Liferay
+12:05 < modd:#liferay> so completely done in liferay.
+12:05 < modd:#liferay> we're thinking currently how to do something like this
