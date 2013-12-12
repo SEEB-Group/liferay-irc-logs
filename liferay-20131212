@@ -11,3 +11,8 @@
 09:14 < Tar-Minyatur:#liferay> Feels like using staging is similar to being suicidal.
 09:36 < hufg:#liferay> i can give you a script that prints liferay related quotes when you use your terminal
 09:36 < hufg:#liferay> 500% morale boost
+09:37 < hufg:#liferay> I love the smell of Liferay in the morning!
+09:37 < hufg:#liferay> 'very nice
+09:37 < hufg:#liferay> Tar-Minyatur: staging is a bit risky but local staging without migrations has worked for us so far
+09:37 < hufg:#liferay> in GA2
+09:37 < hufg:#liferay> remote staging is a baaad mistake
