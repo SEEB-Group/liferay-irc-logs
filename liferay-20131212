@@ -29,3 +29,4 @@
 10:59 < Tar-Minyatur:#liferay> I hate this. Why does Liferay even do anything with the DL when I publish something that doesn't even have anything to do with the DL? -.-
 11:11 < Tar-Minyatur:#liferay> hufg: You still around?
 11:12 < timmy_:#liferay> jhf: do you know if it possible to publish web content by default with view permission for guests?
+11:13 <@jhf:#liferay> timmy_: yes this is possible, we do this on liferay.com as well.. just trying to think where the setting is.
