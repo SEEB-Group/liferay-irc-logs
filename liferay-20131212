@@ -38,3 +38,4 @@
 11:45 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/resource-actions/journal.xml#L79
 11:45 <@jhf:#liferay> what am I missing?
 11:51 < timmy_:#liferay> Is this overridden in an ext plugin?
+11:57 < jardineworks:#liferay> timmy_, I think that is a question you would answer for us :)
