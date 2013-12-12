@@ -48,3 +48,4 @@
 12:05 < modd:#liferay> we're thinking currently how to do something like this
 12:06 < modd:#liferay> we have some jira integration in some portlets, but it's not as easy to allow a more general purpose
 12:06 < modd:#liferay> it may be easier to integrate OTRS
+12:08 <@jhf:#liferay> yeah.. possibly. I'm not 100% about why we switched from JIRA to our own.. guess we had too many customization requirements maybe?
