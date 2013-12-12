@@ -40,3 +40,4 @@
 11:51 < timmy_:#liferay> Is this overridden in an ext plugin?
 11:57 < jardineworks:#liferay> timmy_, I think that is a question you would answer for us :)
 11:58 < jardineworks:#liferay> or do you mean COULD this be overridden? In which case I would hazard a guess at yes since you can pretty much override anything with an EXT.
+11:59 <@jhf:#liferay> yeah the only way to override this for the OOTB portlets is with an ext plugin. unless something's changed in 6.2.
