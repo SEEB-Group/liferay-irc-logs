@@ -37,3 +37,4 @@
 11:44 <@jhf:#liferay> timmy_: so I'm looking at the default resource permissions for new journal articles. I believe the "Guest" role has permissions to VIEW newly created articles.
 11:45 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/resource-actions/journal.xml#L79
 11:45 <@jhf:#liferay> what am I missing?
+11:51 < timmy_:#liferay> Is this overridden in an ext plugin?
