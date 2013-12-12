@@ -31,3 +31,5 @@
 11:12 < timmy_:#liferay> jhf: do you know if it possible to publish web content by default with view permission for guests?
 11:13 <@jhf:#liferay> timmy_: yes this is possible, we do this on liferay.com as well.. just trying to think where the setting is.
 11:25 < Tar-Minyatur:#liferay> Wow. Apparently some of these issues with the publishing dialog are due to overly long request URIs. What the...!?
+11:30 < timmy_:#liferay> jhf: thanks, I could not find it either
+11:30 <@jhf:#liferay> still looking timmy_ - got sidetracked. it's most likely some impossible to remember portal property
