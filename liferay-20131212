@@ -39,3 +39,4 @@
 11:45 <@jhf:#liferay> what am I missing?
 11:51 < timmy_:#liferay> Is this overridden in an ext plugin?
 11:57 < jardineworks:#liferay> timmy_, I think that is a question you would answer for us :)
+11:58 < jardineworks:#liferay> or do you mean COULD this be overridden? In which case I would hazard a guess at yes since you can pretty much override anything with an EXT.
