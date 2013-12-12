@@ -28,3 +28,4 @@
 10:46 < timmy_:#liferay> is it possible to publish content with default "guest view" permission?
 10:59 < Tar-Minyatur:#liferay> I hate this. Why does Liferay even do anything with the DL when I publish something that doesn't even have anything to do with the DL? -.-
 11:11 < Tar-Minyatur:#liferay> hufg: You still around?
+11:12 < timmy_:#liferay> jhf: do you know if it possible to publish web content by default with view permission for guests?
