@@ -34,3 +34,4 @@
 11:30 < timmy_:#liferay> jhf: thanks, I could not find it either
 11:30 <@jhf:#liferay> still looking timmy_ - got sidetracked. it's most likely some impossible to remember portal property
 11:32 < timmy_:#liferay> ok, as long as it's not some custom hook or so?
+11:44 <@jhf:#liferay> timmy_: so I'm looking at the default resource permissions for new journal articles. I believe the "Guest" role has permissions to VIEW newly created articles.
