@@ -2,3 +2,6 @@
 03:43 < hufg:#liferay> what is the document library file rank?
 03:50 < Tar-Minyatur:#liferay> Good morning.
 04:16 < Tar-Minyatur:#liferay> Hey guys...has anyone of you every used /c/journal/view_article_content?
+04:17 < Tar-Minyatur:#liferay> In 6.1.0 we were using &version=latest, but apparently this is being ignored on 6.1.2
+04:17 < Tar-Minyatur:#liferay> "latest" doesn't work any more. I can only use an actual version number.
+04:17 < Tar-Minyatur:#liferay> Any ideas how I could get the latest version this way?
