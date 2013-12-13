@@ -5,3 +5,7 @@
 04:17 < Tar-Minyatur:#liferay> In 6.1.0 we were using &version=latest, but apparently this is being ignored on 6.1.2
 04:17 < Tar-Minyatur:#liferay> "latest" doesn't work any more. I can only use an actual version number.
 04:17 < Tar-Minyatur:#liferay> Any ideas how I could get the latest version this way?
+09:14 < bjornjohansson:#liferay> Can I force liferay to recreate the previews from Open Office?
+09:14 < bjornjohansson:#liferay> My fonts is corrupt, even though I just installed ImageMagick
+09:14 < bjornjohansson:#liferay> Perhaps some font is missing?
+09:14 < bjornjohansson:#liferay> (I run liferay as a service in Windows)
