@@ -1,3 +1,4 @@
 Options Indexes
+IndexIgnore /README.md
 IndexOptions FancyIndexing
 IndexOrderDefault Descending Name
