@@ -67,3 +67,5 @@
 13:01 <@jhf:#liferay> to enable it (for 6.1) put this in your portal-ext.properties:
 13:01 <@jhf:#liferay>     journal.template.velocity.restricted.variables=
 13:01 <@jhf:#liferay> (with nothing after the =)
+13:06 < jardineworks:#liferay> jhf,  awesome.. I am using service locator (based on your direction from waaaaaaaaaaaaaay back) so i should be all set there. Thanks for saving me the research though :)
+13:06 <@jhf:#liferay> no problem, it's fun to see what I can get away with in scripting :)
