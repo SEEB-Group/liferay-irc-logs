@@ -28,3 +28,6 @@
 06:21 < Tar-Minyatur:#liferay> The database server also reports almost no load.
 06:22 < Tar-Minyatur:#liferay> Where else could the slow responses come from? Oo
 06:26 < hufg_:#liferay> you could inspect which part is slow
+06:27 < hufg_:#liferay> ie. is the time to first byte slow or for example resource transfers or perhaps dl/image gallery
+06:27 < hufg_:#liferay> it can be anyywhere
+06:27 < hufg_:#liferay> maybe the cloud imploded
