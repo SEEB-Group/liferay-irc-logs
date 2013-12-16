@@ -14,3 +14,5 @@
 05:03 < bjornjohansson:#liferay> installed it
 05:03 < bjornjohansson:#liferay> put the path inside portal-ext.properties and enabled ImageMagick
 05:03 < bjornjohansson:#liferay> But nothing happens
+05:04 < bjornjohansson:#liferay> and I can't see any errors either
+05:04 < bjornjohansson:#liferay> in catalina.out
