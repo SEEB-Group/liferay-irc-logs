@@ -63,3 +63,7 @@
 12:45 <@jhf:#liferay> just fine tuning it.
 12:45 < jardineworks:#liferay> awesome thanks jhf
 13:00 <@jhf:#liferay> jardineworks: http://pastebin.com/F7ap2ASy
+13:01 <@jhf:#liferay> this requires the use of serviceLocator which is disabled by default
+13:01 <@jhf:#liferay> to enable it (for 6.1) put this in your portal-ext.properties:
+13:01 <@jhf:#liferay>     journal.template.velocity.restricted.variables=
+13:01 <@jhf:#liferay> (with nothing after the =)
