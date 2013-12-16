@@ -16,3 +16,5 @@
 05:03 < bjornjohansson:#liferay> But nothing happens
 05:04 < bjornjohansson:#liferay> and I can't see any errors either
 05:04 < bjornjohansson:#liferay> in catalina.out
+05:05 < bjornjohansson:#liferay> imagemagick.enabled=true
+05:05 < bjornjohansson:#liferay> imagemagick.global.search.path[windows]=C:\\Program Files\\ImageMagick
