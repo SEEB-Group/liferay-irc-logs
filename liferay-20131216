@@ -19,3 +19,4 @@
 05:05 < bjornjohansson:#liferay> imagemagick.enabled=true
 05:05 < bjornjohansson:#liferay> imagemagick.global.search.path[windows]=C:\\Program Files\\ImageMagick
 05:07 < bjornjohansson:#liferay> So i'm pretty stucked, don't know how to progress
+05:11 < bjornjohansson:#liferay> Do I need Xuggler for xls-files?
