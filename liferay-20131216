@@ -22,3 +22,7 @@
 05:11 < bjornjohansson:#liferay> Do I need Xuggler for xls-files?
 05:14 < bjornjohansson:#liferay> oh and by the way, my enviorment: Liferay Portal Community Edition 6.1.1 CE GA2 (Paton / Build 6101 / July 31, 2012)
 06:06 < avinashrbhat:#liferay> is there any way to run a custom piece of code while a portlet is being deployed? like generating an entry in a database or shared map? or should i use web.xml/servlet for that?
+06:21 < Tar-Minyatur:#liferay> Wow. I'm confused.
+06:21 < Tar-Minyatur:#liferay> Our Liferay cloud instances are awfully slow.
+06:21 < Tar-Minyatur:#liferay> But neither the memory, nor the CPUs are under heavy load.
+06:21 < Tar-Minyatur:#liferay> The database server also reports almost no load.
