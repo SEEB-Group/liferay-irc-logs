@@ -60,3 +60,5 @@
 12:35 <@jhf:#liferay> cause I don't remember the APIs either :)
 12:44 < jardineworks:#liferay> ah -- but there is no reserved variable or anything for it?
 12:44 <@jhf:#liferay> nope. but I have a solution for you. you have to call the category service.
+12:45 <@jhf:#liferay> just fine tuning it.
+12:45 < jardineworks:#liferay> awesome thanks jhf
