@@ -20,3 +20,4 @@
 05:05 < bjornjohansson:#liferay> imagemagick.global.search.path[windows]=C:\\Program Files\\ImageMagick
 05:07 < bjornjohansson:#liferay> So i'm pretty stucked, don't know how to progress
 05:11 < bjornjohansson:#liferay> Do I need Xuggler for xls-files?
+05:14 < bjornjohansson:#liferay> oh and by the way, my enviorment: Liferay Portal Community Edition 6.1.1 CE GA2 (Paton / Build 6101 / July 31, 2012)
