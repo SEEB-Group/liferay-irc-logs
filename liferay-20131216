@@ -18,3 +18,4 @@
 05:04 < bjornjohansson:#liferay> in catalina.out
 05:05 < bjornjohansson:#liferay> imagemagick.enabled=true
 05:05 < bjornjohansson:#liferay> imagemagick.global.search.path[windows]=C:\\Program Files\\ImageMagick
+05:07 < bjornjohansson:#liferay> So i'm pretty stucked, don't know how to progress
