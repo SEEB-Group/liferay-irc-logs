@@ -10,3 +10,7 @@
 04:17 < Bhushan:#liferay> cool. Thanks for help :)
 04:57 -!- ServerMode/#liferay [+oo rotty3000 ChanServ] by morgan.freenode.net
 05:02 < bjornjohansson:#liferay> anyone here that has experience using ImageMagick with preview generation for xls-files?
+05:03 < bjornjohansson:#liferay> I downloaded ImageMagick (for windows 64bit)
+05:03 < bjornjohansson:#liferay> installed it
+05:03 < bjornjohansson:#liferay> put the path inside portal-ext.properties and enabled ImageMagick
+05:03 < bjornjohansson:#liferay> But nothing happens
