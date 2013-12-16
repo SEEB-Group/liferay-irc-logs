@@ -2,3 +2,6 @@
 03:33 < Bhushan:#liferay> hi
 03:36 < Bhushan:#liferay> does liferay portal have anything to stream and upload videos for users of portal?
 03:56 < Tar-Minyatur:#liferay> Bhushan: I couldn't find anything. At least not out-of-the-box.
+03:57 < Tar-Minyatur:#liferay> You can upload videos to the documents library, but that's about it. From there you can only offer them as download.
+03:57 < Tar-Minyatur:#liferay> Anything else you either need to build yourself or look for a plugin.
+03:57 < Tar-Minyatur:#liferay> (I'm not sure if 6.2. has something. Haven't had the time to look into it yet.)
