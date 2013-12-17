@@ -92,3 +92,6 @@
 17:00 <@jhf:#liferay> yeah that just adds the custom table for the User entity, where is the code that adds the columns to said table?
 17:05 < jardineworks:#liferay> oh --  I never got that working. I have a huge commented out block though with probably mroe than one attempted approach. one sec..
 17:06 < jardineworks:#liferay> jhf, http://pastebin.com/1TPDwkhC
+17:13 <@jhf:#liferay> if you re-index, do they appear?
+17:13 <@jhf:#liferay> go to control panel -> server administration
+17:13 <@jhf:#liferay> click 'reindex all search indices'
