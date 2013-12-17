@@ -96,3 +96,4 @@
 17:13 <@jhf:#liferay> go to control panel -> server administration
 17:13 <@jhf:#liferay> click 'reindex all search indices'
 17:20 < jardineworks:#liferay> nope
+17:21 < jardineworks:#liferay> I'll try it again later and have a look at the db to see if they are added there
