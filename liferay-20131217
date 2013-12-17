@@ -55,3 +55,7 @@
 15:30 <@jhf:#liferay> nope
 15:31 < rkanakam:#liferay> nice
 15:31 <@jhf:#liferay> but I don't know why :) i'm not familiar with this code, just inspecting the change that introduced it.
+15:32 <@jhf:#liferay> also, one question: do you really need to call NavItems.fromLayouts ?
+15:32 <@jhf:#liferay> isn't there a variable already prepared called $navItems ?
+15:32 <@jhf:#liferay> that you can use?
+15:32 <@jhf:#liferay> from velocity and/or freemarker
