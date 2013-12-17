@@ -37,3 +37,5 @@
 15:12 < rkanakam:#liferay> yes
 15:13 < rkanakam:#liferay> i happened to see it
 15:13 <@jhf:#liferay> ok so before, you passed a templateContext object? e.g. in Liferay 6.1?
+15:15 < rkanakam:#liferay> this was the usage in 6.1 ,navItems = NavItem.fromLayouts(rv, newMainLayouts); rv==RequestVars and newMainLayouts==List<Layout>
+15:15 <@jhf:#liferay> hmm
