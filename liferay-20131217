@@ -24,3 +24,4 @@
 09:55 <@jhf:#liferay> which is 10am US/Eastern
 09:55 < jardineworks:#liferay> better make sure I am not late for work then!
 14:57 < Nudge:#liferay> hello
+14:58 < Nudge:#liferay> does anybody know why most of a site's links still point to localhost:8080/web/... even after setting a virtual host url? I am using 6.2 GA1
