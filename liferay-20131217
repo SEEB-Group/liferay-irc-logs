@@ -7,3 +7,5 @@
 07:13 < hufg_:#liferay> maan anyone know how to get jta datasource working properly using jpa+hibernate
 07:13 < hufg_:#liferay> if i got this correctly you can have container managed transactions ie. no need to start and end transactions
 07:14 < hufg_:#liferay> but no
+07:31 < bjornjohansson:#liferay> I can't find a solution for this, https://www.liferay.com/community/forums/-/message_boards/message/16574035
+07:31 < bjornjohansson:#liferay> I have exact the same problem
