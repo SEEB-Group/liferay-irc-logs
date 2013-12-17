@@ -48,3 +48,4 @@
 15:25 <@jhf:#liferay> what if you just pass a null rkanakam ?
 15:25 <@jhf:#liferay> for the template parameter
 15:26 < platzhirsch:#liferay> Any idea what the difference between Liferay and Drupal is?
+15:27 < rkanakam:#liferay> not a bad idea to try. however I see two reference to template object in Navitem class
