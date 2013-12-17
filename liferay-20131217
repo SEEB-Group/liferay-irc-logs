@@ -45,3 +45,5 @@
 15:18 <@jhf:#liferay> gonna go look at sample themes and see what they had to change to account for this
 15:20 < rkanakam:#liferay> fyi..i am calling a service (which works with NavItem.*) from vm template.
 15:20 < rkanakam:#liferay> thanks jhf for your time
+15:25 <@jhf:#liferay> what if you just pass a null rkanakam ?
+15:25 <@jhf:#liferay> for the template parameter
