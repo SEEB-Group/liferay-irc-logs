@@ -61,3 +61,4 @@
 15:32 <@jhf:#liferay> from velocity and/or freemarker
 15:33 < rkanakam:#liferay> yes that is correct. let me try that too
 16:36 < jardineworks:#liferay> hey jhf do you know if there is a bug in 6.1.2 for custom attributes? where it basically doesn;t allow you to create them in the control panel?
+16:37 < jardineworks:#liferay> i just tried to add one and I get the success message saying that it created it... but it is not listed in the table.
