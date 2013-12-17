@@ -50,3 +50,6 @@
 15:26 < platzhirsch:#liferay> Any idea what the difference between Liferay and Drupal is?
 15:27 < rkanakam:#liferay> not a bad idea to try. however I see two reference to template object in Navitem class
 15:30 <@jhf:#liferay> yes I do too! just curious if it'd work for you.
+15:30 <@jhf:#liferay> oh there's also a tool written by our friends in spain to convert themes for 6.2. I bet it must've dealt with this too. lemme check that.
+15:30 < rkanakam:#liferay> ohh okay.you didn't hit the NPE scenario?
+15:30 <@jhf:#liferay> nope
