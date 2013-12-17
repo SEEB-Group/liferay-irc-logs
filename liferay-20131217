@@ -75,3 +75,5 @@
 16:42 < jardineworks:#liferay> :)
 16:42 <@jhf:#liferay> weren't you monkeying with permissions related to custom fields a couple of weeks ago :)
 16:43 <@jhf:#liferay> did you edit a jsp perhaps? o
+16:44 < jardineworks:#liferay> hhahah - I was but I never got that to work so I rolled it all back.
+16:44 < jardineworks:#liferay> I have some fields in place already, but they are a result of when I added them on 6.1.1 ... I haven't tried to add since. Maybe I'll see if my hook will do it for me
