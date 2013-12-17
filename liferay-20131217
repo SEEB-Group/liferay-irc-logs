@@ -34,3 +34,5 @@
 15:11 < rkanakam:#liferay> well, I don't know how to get the Template object
 15:11 < rkanakam:#liferay> yes, I was digging 6.2 source code since this morning
 15:11 <@jhf:#liferay> it was added as part of https://issues.liferay.com/browse/LPS-33264
+15:12 < rkanakam:#liferay> yes
+15:13 < rkanakam:#liferay> i happened to see it
