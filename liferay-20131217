@@ -71,3 +71,6 @@
 16:41 < jardineworks:#liferay> hmm -- db shouldn't matter though right? I mean my user has full rights and I am creating records and such without issue
 16:41 <@jhf:#liferay> are you doing this as an OmniAdmin ?
 16:42 <@jhf:#liferay> it shouldn't
+16:42 < jardineworks:#liferay> "interests"
+16:42 < jardineworks:#liferay> :)
+16:42 <@jhf:#liferay> weren't you monkeying with permissions related to custom fields a couple of weeks ago :)
