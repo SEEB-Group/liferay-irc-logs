@@ -31,3 +31,6 @@
 15:09 <@jhf:#liferay> are you wondering what to pass for this object?
 15:10 < rkanakam:#liferay> yes, I did refer to that topic in forums.
 15:10 <@jhf:#liferay> according to https://github.com/liferay/liferay-portal/blame/master/portal-service/src/com/liferay/portal/theme/NavItem.java
+15:11 < rkanakam:#liferay> well, I don't know how to get the Template object
+15:11 < rkanakam:#liferay> yes, I was digging 6.2 source code since this morning
+15:11 <@jhf:#liferay> it was added as part of https://issues.liferay.com/browse/LPS-33264
