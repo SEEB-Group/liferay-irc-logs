@@ -26,3 +26,4 @@
 14:57 < Nudge:#liferay> hello
 14:58 < Nudge:#liferay> does anybody know why most of a site's links still point to localhost:8080/web/... even after setting a virtual host url? I am using 6.2 GA1
 15:07 < rkanakam:#liferay> hi there! I am migrating a theme to Liferay 6.2 and facing difficulty to figure out a way to call NavItem.fromLayouts(javax.servlet.http.HttpServletRequest request, List<Layout> layouts, Template template) method
+15:08 < rkanakam:#liferay> the problem is with the Template object. This is due to the fact in change of API's for VelocityEngine etc in 6.2. Can anybody guide me in the right direction.
