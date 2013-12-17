@@ -85,3 +85,5 @@
 16:47 < jardineworks:#liferay> meh -- end goal acheived :)
 16:47 <@jhf:#liferay> if you look in the jsp that renders it, it's probably got some permission if/else that prevents it
 16:49 < jardineworks:#liferay> but if I were being blocked by permissions (I am logged in as the admin though so that shouldn;t be it right?) shouldn't it at least show me an error instead of the success message?
+16:50 <@jhf:#liferay> hmmmm
+16:50 <@jhf:#liferay> can you show me the code you are using to add the custom fields again?
