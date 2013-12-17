@@ -66,3 +66,8 @@
 16:38 <@jhf:#liferay> not aware of that.
 16:39 <@jhf:#liferay> I can give it a go right now. standby.
 16:39 < rkanakam:#liferay> I am here
+16:41 <@jhf:#liferay> worked for me jardineworks - but I'm using hsql (out of the box)
+16:41 <@jhf:#liferay> any weird characters in the name?
+16:41 < jardineworks:#liferay> hmm -- db shouldn't matter though right? I mean my user has full rights and I am creating records and such without issue
+16:41 <@jhf:#liferay> are you doing this as an OmniAdmin ?
+16:42 <@jhf:#liferay> it shouldn't
