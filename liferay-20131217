@@ -77,3 +77,5 @@
 16:43 <@jhf:#liferay> did you edit a jsp perhaps? o
 16:44 < jardineworks:#liferay> hhahah - I was but I never got that to work so I rolled it all back.
 16:44 < jardineworks:#liferay> I have some fields in place already, but they are a result of when I added them on 6.1.1 ... I haven't tried to add since. Maybe I'll see if my hook will do it for me
+16:45 <@jhf:#liferay> ok. perhaps your programmatic hook code that add(ed) them didn't set enough permissions for that jsp that renders the table to 'see' them
+16:45 <@jhf:#liferay> are they actually in the DB though?
