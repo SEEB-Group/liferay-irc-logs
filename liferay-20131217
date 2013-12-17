@@ -53,3 +53,5 @@
 15:30 <@jhf:#liferay> oh there's also a tool written by our friends in spain to convert themes for 6.2. I bet it must've dealt with this too. lemme check that.
 15:30 < rkanakam:#liferay> ohh okay.you didn't hit the NPE scenario?
 15:30 <@jhf:#liferay> nope
+15:31 < rkanakam:#liferay> nice
+15:31 <@jhf:#liferay> but I don't know why :) i'm not familiar with this code, just inspecting the change that introduced it.
