@@ -29,3 +29,5 @@
 15:08 < rkanakam:#liferay> the problem is with the Template object. This is due to the fact in change of API's for VelocityEngine etc in 6.2. Can anybody guide me in the right direction.
 15:09 <@jhf:#liferay> rkanakam: not sure but you're not the only one wondering: https://www.liferay.com/community/forums/-/message_boards/message/32129531
 15:09 <@jhf:#liferay> are you wondering what to pass for this object?
+15:10 < rkanakam:#liferay> yes, I did refer to that topic in forums.
+15:10 <@jhf:#liferay> according to https://github.com/liferay/liferay-portal/blame/master/portal-service/src/com/liferay/portal/theme/NavItem.java
