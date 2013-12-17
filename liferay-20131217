@@ -82,3 +82,5 @@
 16:46 < jardineworks:#liferay> \o/
 16:46 < jardineworks:#liferay> hook adds them no problem
 16:46 < jardineworks:#liferay> just the add interface that doesn't seem to like me today
+16:47 < jardineworks:#liferay> meh -- end goal acheived :)
+16:47 <@jhf:#liferay> if you look in the jsp that renders it, it's probably got some permission if/else that prevents it
