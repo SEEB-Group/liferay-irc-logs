@@ -39,3 +39,7 @@
 15:13 <@jhf:#liferay> ok so before, you passed a templateContext object? e.g. in Liferay 6.1?
 15:15 < rkanakam:#liferay> this was the usage in 6.1 ,navItems = NavItem.fromLayouts(rv, newMainLayouts); rv==RequestVars and newMainLayouts==List<Layout>
 15:15 <@jhf:#liferay> hmm
+15:17 < rkanakam:#liferay> fromLayouts(HttpServletRequest request, List<Layout> layouts, Template template)
+15:17 < rkanakam:#liferay> as you saw the signature is changed to this now
+15:17 <@jhf:#liferay> yeah.. the new arg was added in https://issues.liferay.com/browse/LPS-27796
+15:18 <@jhf:#liferay> gonna go look at sample themes and see what they had to change to account for this
