@@ -49,3 +49,15 @@
 11:55 < wednesday_questi:#liferay> Tar-Minyatur, check the global classpath ${CATALINA_HOME}/lib/ext/ and portlet's class path ${PORTLET_DIR}/WEB-INF/lib ; if not there, then need to put in plugin'- properties to request that jar from portal's lib.
 11:57 < wednesday_questi:#liferay> Slagwag:  don't know since Bloomfire not opensource.
 11:59 < Tar-Minyatur:#liferay> wednesday_questi: Which jar would that be? sax2.jar or something else?
+12:19 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA1 RELEASE http://goo.gl/XMZiG3   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe
+12:19 -!- Topic set by jhf [~cygnuseck@72.239.1.42] [Mon Nov  4 09:34:40 2013]
+12:19 [Users #liferay]
+12:19 [@ChanServ   ] [ bijoo     ] [ jardineworks] [ marcoceppi] [ rocknroll_  ] [ topolik   ] 
+12:19 [@jhf        ] [ cythrawll ] [ jbonjean    ] [ mastro    ] [ Slagwag     ] [ vsingleton] 
+12:19 [@rotty3000  ] [ dblessing ] [ josuebc     ] [ modd      ] [ sm``        ] 
+12:19 [ alecharp   ] [ floppyears] [ Kaira-      ] [ Naenyn    ] [ smind       ] 
+12:19 [ anteater1sa] [ guli      ] [ lapache_    ] [ pnutbutr  ] [ Tar-Minyatur] 
+12:19 [ apucay     ] [ hufg_     ] [ MagnoBooter ] [ rkanakam  ] [ Tm_T        ] 
+12:19 -!- Irssi: #liferay: Total of 32 nicks [3 ops, 0 halfops, 0 voices, 29 normal]
+12:19 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+12:19 -!- Irssi: Join to #liferay was synced in 7 secs
