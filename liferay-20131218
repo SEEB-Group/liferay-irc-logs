@@ -72,3 +72,5 @@
 13:46 < jardineworks:#liferay> jhf, I want to see what fields are on a record so I can see what is "searchable". Tags and categories in particular :)
 13:46 < jardineworks:#liferay> I assume they are, but curiosity is now betting the better of me
 13:46 < jardineworks:#liferay> rotty3000, looks like he is away
+13:47 <@jhf:#liferay> i'll look around the source and see if there's an obvious lucene_schema_for_liferay.<something>
+13:47 <@jhf:#liferay> :)
