@@ -66,3 +66,5 @@
 12:27 < Tar-Minyatur:#liferay> This time it's "Caused by: java.lang.NoClassDefFoundError: org/w3c/dom/ElementTraversal".
 13:14 -!- ServerMode/#liferay [+o jhf] by kornbluth.freenode.net
 13:39 < jardineworks:#liferay> hey jhf -- do you know where I can find the schema for the lucene index OOTB?
+13:45 <@jhf:#liferay> jardineworks: hmmmm
+13:45 <@jhf:#liferay> nope, do not.. rotty3000 would know though.
