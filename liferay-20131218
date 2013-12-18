@@ -79,3 +79,4 @@
 13:54 <@jhf:#liferay> jardineworks: https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/kernel/search/Field.java ?
 13:54 <@jhf:#liferay> these seem to be used when indexing content, e.g. in the blogs portlet: https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/blogs/util/BlogsIndexer.java#L98
 13:54 <@jhf:#liferay> some docs on using fields for searching here: https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/searching-for-content-in-liferay-liferay-portal-6-2-user-guide-06-en
+13:55 <@jhf:#liferay> from there: "Note: You can identify available indexed fields by enabling the Search portlet’s Display Results in Document Form configuration setting and then expanding individual results by clicking the + symbol to the left of their titles."
