@@ -30,3 +30,6 @@
 11:15 < hufg_:#liferay> or reads
 11:16 < hufg_:#liferay> wednesday_questi: yes yes i have seen it on my own eyes it tries to update on the cluster whether this actually works or not idk
 11:16 < hufg_:#liferay> on startup
+11:17 < hufg_:#liferay> with out index.on.startup
+11:17 < hufg_:#liferay> or are you asking if index.on.startup=true on single node updates all, it does not work like taht
+11:17 < hufg_:#liferay> or perhaps it does hehe
