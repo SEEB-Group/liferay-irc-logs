@@ -48,3 +48,4 @@
 11:53 < Tar-Minyatur:#liferay> I can't understand how that is possible. XML parsing is done everywhere in Liferay. How can the SAXParser not be available all of a sudden?
 11:55 < wednesday_questi:#liferay> Tar-Minyatur, check the global classpath ${CATALINA_HOME}/lib/ext/ and portlet's class path ${PORTLET_DIR}/WEB-INF/lib ; if not there, then need to put in plugin'- properties to request that jar from portal's lib.
 11:57 < wednesday_questi:#liferay> Slagwag:  don't know since Bloomfire not opensource.
+11:59 < Tar-Minyatur:#liferay> wednesday_questi: Which jar would that be? sax2.jar or something else?
