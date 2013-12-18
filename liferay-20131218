@@ -39,3 +39,4 @@
 11:24 < wednesday_questi:#liferay> com.liferay.portal.search.lucene.LuceneIndexer.reindex()
 11:28 < jardineworks:#liferay> hufg_, hmmm right now we have the dynamic css setting disabled because we have been having issues with it. We have the js one turned on, but I haven't done any resource monitoring to make sure that nothing whacky is happening. Now you have me concerend :)
 11:28 < wednesday_questi:#liferay> hufg_: another way to do same thing is this : com.liferay.portal.search.lucene.LuceneHelperUtil.startup(long)
+11:30 < wednesday_questi:#liferay> Tagging this discussion for log searcher: #indexing #clustered #solr
