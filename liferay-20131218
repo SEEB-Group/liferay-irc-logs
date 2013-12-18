@@ -6,3 +6,6 @@
 05:11 < hufg_:#liferay> rotty3000: minifier filter needs a major rework
 05:11 < hufg_:#liferay> it caches per request which is nuts
 05:11 < bjornjohansson:#liferay> Someone who has experience with open office and liferay?
+05:12 < hufg_:#liferay> and the limited file cache does not work(???)
+05:12 < bjornjohansson:#liferay> My soffice crasch from time to time and thus breaking the function of creating previews, downloading pdfs etc from the document portlet
+05:12 < hufg_:#liferay> it filled a 10G /tmp like nothiing
