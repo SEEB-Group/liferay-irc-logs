@@ -68,3 +68,7 @@
 13:39 < jardineworks:#liferay> hey jhf -- do you know where I can find the schema for the lucene index OOTB?
 13:45 <@jhf:#liferay> jardineworks: hmmmm
 13:45 <@jhf:#liferay> nope, do not.. rotty3000 would know though.
+13:46 <@jhf:#liferay> also, I'm not a search expert. I didn't even know there was a schema :)
+13:46 < jardineworks:#liferay> jhf, I want to see what fields are on a record so I can see what is "searchable". Tags and categories in particular :)
+13:46 < jardineworks:#liferay> I assume they are, but curiosity is now betting the better of me
+13:46 < jardineworks:#liferay> rotty3000, looks like he is away
