@@ -33,3 +33,4 @@
 11:17 < hufg_:#liferay> with out index.on.startup
 11:17 < hufg_:#liferay> or are you asking if index.on.startup=true on single node updates all, it does not work like taht
 11:17 < hufg_:#liferay> or perhaps it does hehe
+11:18 < hufg_:#liferay> find the spot where the cluster gets updated and debug and tell me what happens?!
