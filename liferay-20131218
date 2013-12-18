@@ -28,3 +28,5 @@
 11:14 < hufg_:#liferay> and it may be that they have been recorded with the wrong settings
 11:15 < hufg_:#liferay> the thing is that our /tmp resides in san network disk and this will not change and we do not like those /tmp writes
 11:15 < hufg_:#liferay> or reads
+11:16 < hufg_:#liferay> wednesday_questi: yes yes i have seen it on my own eyes it tries to update on the cluster whether this actually works or not idk
+11:16 < hufg_:#liferay> on startup
