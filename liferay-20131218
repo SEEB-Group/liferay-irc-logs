@@ -114,3 +114,7 @@
 14:06 < jardineworks:#liferay> so I enbale this -- "Display Results in Document Form "
 14:06 < jardineworks:#liferay> then do a search?
 14:06 <@jhf:#liferay> yep. and each "hit" will have a little + button next to it
+14:07 < jardineworks:#liferay> awesome!
+14:07 <@jhf:#liferay> click the + and it shows each field used to index that particular doc type
+14:07 <@jhf:#liferay> that's how you find out which fields can be used to search for specific doc types..
+14:07 <@jhf:#liferay> guess there's no giant xml somewhere that lists them all... it's in the java code.
