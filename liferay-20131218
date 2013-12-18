@@ -121,3 +121,8 @@
 14:09 < jardineworks:#liferay> this is sweet. Thanks man :)
 14:09 <@jhf:#liferay> n/p have fun!
 15:08 < jardineworks:#liferay> hey jhf -- I have another question for you :)
+15:09 <@jhf:#liferay> k
+15:09 < jardineworks:#liferay> I have a structure that has a field -- "isFeatured" which is a true/false. In the index the value that is being written contains the instance value --
+15:09 < jardineworks:#liferay> web_content/article_is_featured/LlUKX8wY:true
+15:09 < jardineworks:#liferay> for example
+15:09 < jardineworks:#liferay> do you know if it is possible to wildcard part of the saerch term?
