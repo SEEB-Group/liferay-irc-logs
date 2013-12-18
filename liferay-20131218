@@ -43,3 +43,6 @@
 11:35 < Slagwag:#liferay> hmm anyone ever use Bloomfire? i keep seeing it on liferay websites
 11:35 < Slagwag:#liferay> as an alternative
 11:35 < Slagwag:#liferay> but it seems too well reviewed
+11:53 < Tar-Minyatur:#liferay> Wow. Odd. Did any of you ever encountered an exception that the class SAXParser could not be found?
+11:53 < Tar-Minyatur:#liferay> One of our custom portlets causes this exception.
+11:53 < Tar-Minyatur:#liferay> I can't understand how that is possible. XML parsing is done everywhere in Liferay. How can the SAXParser not be available all of a sudden?
