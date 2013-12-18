@@ -3,3 +3,6 @@
 02:29 < hufg_:#liferay> perhaps even all custom fields
 04:13 -!- ServerMode/#liferay [+o jhf] by card.freenode.net
 04:23 -!- ServerMode/#liferay [+o jhf] by card.freenode.net
+05:11 < hufg_:#liferay> rotty3000: minifier filter needs a major rework
+05:11 < hufg_:#liferay> it caches per request which is nuts
+05:11 < bjornjohansson:#liferay> Someone who has experience with open office and liferay?
