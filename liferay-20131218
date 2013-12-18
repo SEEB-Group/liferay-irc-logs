@@ -22,3 +22,7 @@
 10:52 < Tar-Minyatur:#liferay> It sure is.
 10:53 < wednesday_questi:#liferay> Clustered Liferay 6.1GA2; configured with Solr index system. Setting "index.on.startup=true" on all nodes forces re-index; but is this done on all the nodes' startup? If so, I should definitely not.
 10:56 < jardineworks:#liferay> hufg_,  your comment earlier about the minifier... was that just for css or for the js as well?
+11:14 < hufg_:#liferay> both
+11:14 < hufg_:#liferay> but it may be that the request params were wrong in the sense that this does not really happen
+11:14 < hufg_:#liferay> the requests are recorded
+11:14 < hufg_:#liferay> and it may be that they have been recorded with the wrong settings
