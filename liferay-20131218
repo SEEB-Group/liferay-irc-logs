@@ -20,3 +20,4 @@
 10:49 < hufg_:#liferay> Tar-Minyatur: i  may be wrong there may be a flaw in the tests but anyways we still would like to disable the filters
 10:49 < hufg_:#liferay> but it's haard
 10:52 < Tar-Minyatur:#liferay> It sure is.
+10:53 < wednesday_questi:#liferay> Clustered Liferay 6.1GA2; configured with Solr index system. Setting "index.on.startup=true" on all nodes forces re-index; but is this done on all the nodes' startup? If so, I should definitely not.
