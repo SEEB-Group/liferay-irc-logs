@@ -26,3 +26,5 @@
 11:14 < hufg_:#liferay> but it may be that the request params were wrong in the sense that this does not really happen
 11:14 < hufg_:#liferay> the requests are recorded
 11:14 < hufg_:#liferay> and it may be that they have been recorded with the wrong settings
+11:15 < hufg_:#liferay> the thing is that our /tmp resides in san network disk and this will not change and we do not like those /tmp writes
+11:15 < hufg_:#liferay> or reads
