@@ -118,3 +118,5 @@
 14:07 <@jhf:#liferay> click the + and it shows each field used to index that particular doc type
 14:07 <@jhf:#liferay> that's how you find out which fields can be used to search for specific doc types..
 14:07 <@jhf:#liferay> guess there's no giant xml somewhere that lists them all... it's in the java code.
+14:09 < jardineworks:#liferay> this is sweet. Thanks man :)
+14:09 <@jhf:#liferay> n/p have fun!
