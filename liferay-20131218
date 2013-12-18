@@ -36,3 +36,4 @@
 11:18 < hufg_:#liferay> find the spot where the cluster gets updated and debug and tell me what happens?!
 11:22 < wednesday_questi:#liferay> Thanks hufg_ ; right, I meant "index.on.startup" on all nodes;
 11:23 < wednesday_questi:#liferay> hufg_: and the related piece of code is this:  https://t.seebgroup.com/github-liferay-lucene-helper-reindex-method
+11:24 < wednesday_questi:#liferay> com.liferay.portal.search.lucene.LuceneIndexer.reindex()
