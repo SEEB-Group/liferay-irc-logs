@@ -85,3 +85,6 @@
 13:56 <@jhf:#liferay> add search portlet to a page, go to its configuration, turn on "show results in document form"
 13:56 <@jhf:#liferay> then search for something
 13:56 <@jhf:#liferay> there's a little + button next to each result showing all the fields for that type of document
+13:57 < jardineworks:#liferay> jhf, is this 6.2 specific?
+13:57 < jardineworks:#liferay> i am on 6.1.2
+13:57 <@jhf:#liferay> hmm
