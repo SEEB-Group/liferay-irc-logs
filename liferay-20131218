@@ -63,3 +63,4 @@
 12:19 -!- Irssi: Join to #liferay was synced in 7 secs
 12:26 < Tar-Minyatur:#liferay> Mhm.
 12:26 < Tar-Minyatur:#liferay> Adding the xerces library leads to the next exception.
+12:27 < Tar-Minyatur:#liferay> This time it's "Caused by: java.lang.NoClassDefFoundError: org/w3c/dom/ElementTraversal".
