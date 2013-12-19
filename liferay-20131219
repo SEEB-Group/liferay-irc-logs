@@ -7,3 +7,4 @@
 10:24 < Tar-Minyatur:#liferay> Has one of you ever tried to use log4jdbc with Liferay?
 10:24 < Tar-Minyatur:#liferay> I need to take a look at the SQL query timings and extract a few statements for performance testing.
 10:25 < Tar-Minyatur:#liferay> But apparently Liferay does some connection pool voodoo, which makes using log4jdbc impossible. :-/
+11:11 < jardineworks:#liferay> Tar-Minyatur, I wonder if turning debug level on for the Hibernate targets would revel something for you?
