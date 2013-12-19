@@ -8,3 +8,5 @@
 10:24 < Tar-Minyatur:#liferay> I need to take a look at the SQL query timings and extract a few statements for performance testing.
 10:25 < Tar-Minyatur:#liferay> But apparently Liferay does some connection pool voodoo, which makes using log4jdbc impossible. :-/
 11:11 < jardineworks:#liferay> Tar-Minyatur, I wonder if turning debug level on for the Hibernate targets would revel something for you?
+11:12 < jardineworks:#liferay> i know its not exactly what you are looking for... but it might provide some insight
+11:12 < jardineworks:#liferay> are you looking for a specific one? or do you suspect some are taking too long and you want to identify them?
