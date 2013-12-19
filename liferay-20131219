@@ -1,1 +1,2 @@
 --- Log opened Thu Dec 19 00:00:59 2013
+04:25 < avinashrbhat:#liferay> hi, anyone know how to show custom roles in the porlet permission configuration. I've been able to bring the custom permissions using https://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/security-and-permissions, but i'm not being able to do the same for roles. any idea?
