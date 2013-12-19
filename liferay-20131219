@@ -4,3 +4,5 @@
 06:39 < balakrishna:#liferay> give the best sites for alloy UI example
 08:08 < Tar-Minyatur:#liferay> Wow. I just activated SQL logging.
 08:08 < Tar-Minyatur:#liferay> The amount of queries issued by Liferay is staggering...
+10:24 < Tar-Minyatur:#liferay> Has one of you ever tried to use log4jdbc with Liferay?
+10:24 < Tar-Minyatur:#liferay> I need to take a look at the SQL query timings and extract a few statements for performance testing.
