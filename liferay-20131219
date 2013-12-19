@@ -14,3 +14,4 @@
 11:33 < Tar-Minyatur:#liferay> Everything that hasn't been coded by us is extremely slow.
 11:33 < Tar-Minyatur:#liferay> And according to cloud watch neither CPU load, nor memory usage are responsible.
 11:33 < Tar-Minyatur:#liferay> The database also doesn't show a lot of strain.
+11:34 < Tar-Minyatur:#liferay> So I assume that either network connections are too slow, the database responds slowly despite low load (for whatever reason) or Liferay default functions are just fucking slow. ;)
