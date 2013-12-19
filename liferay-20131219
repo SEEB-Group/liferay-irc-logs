@@ -10,3 +10,7 @@
 11:11 < jardineworks:#liferay> Tar-Minyatur, I wonder if turning debug level on for the Hibernate targets would revel something for you?
 11:12 < jardineworks:#liferay> i know its not exactly what you are looking for... but it might provide some insight
 11:12 < jardineworks:#liferay> are you looking for a specific one? or do you suspect some are taking too long and you want to identify them?
+11:33 < Tar-Minyatur:#liferay> We have performance issues in general.
+11:33 < Tar-Minyatur:#liferay> Everything that hasn't been coded by us is extremely slow.
+11:33 < Tar-Minyatur:#liferay> And according to cloud watch neither CPU load, nor memory usage are responsible.
+11:33 < Tar-Minyatur:#liferay> The database also doesn't show a lot of strain.
