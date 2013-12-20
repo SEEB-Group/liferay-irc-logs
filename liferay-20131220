@@ -3,3 +3,5 @@
 09:18 < hufg:#liferay> has anyone ever removed dynamiccssfilter successfully?
 09:54 < hufg:#liferay> whats up
 09:54 <@jhf:#liferay> hey hufg
+09:55 <@jhf:#liferay> isn't there a portal properties to disable the dynamiccssfilter?
+09:55 < hufg:#liferay> jhf: yes but you will  wreck a lot of things in the process
