@@ -60,3 +60,7 @@
 10:28 < hufg:#liferay> we came up with a killer strategy though if combo servlet doesn't ruin our shit which i doubt
 10:29 < jardineworks:#liferay> hufg, I think I was confusing the dynamic css filter with the fast load.
 10:29 < jardineworks:#liferay> pretty sure our dynamic css is on.
+10:31 < jardineworks:#liferay> hufg, yeah, our DynamicCSSFilter is true (not overriding the property)
+10:31 < hufg:#liferay> yeah it's a pain in the ass
+10:31 < hufg:#liferay> i have a intense dislike of both filters
+10:31 < hufg:#liferay> an intense
