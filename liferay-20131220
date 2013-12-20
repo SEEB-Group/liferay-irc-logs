@@ -13,3 +13,4 @@
 09:58 <@jhf:#liferay> yeah, apparently it wrecks anything that uses the OOTB themes, since they rely on sass (according to Mika - https://www.liferay.com/community/forums/-/message_boards/message/16130226)
 10:01 <@jhf:#liferay> I'm reading an internal report and it confirms its not possible to disable, unless you write a custom theme for control panel
 10:01 <@jhf:#liferay> JanHajovsky !!
+10:02 <@jhf:#liferay> usually we have jardineworks on but he must be busy (working on some project) - also I think dhrutika will show up (I hope)
