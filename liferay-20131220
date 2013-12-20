@@ -58,3 +58,5 @@
 10:28 < hufg:#liferay> and disabling dynamiccssfilter wrecks combo servlet
 10:28 < hufg:#liferay> jardineworks: how have you disabled it? :D
 10:28 < hufg:#liferay> we came up with a killer strategy though if combo servlet doesn't ruin our shit which i doubt
+10:29 < jardineworks:#liferay> hufg, I think I was confusing the dynamic css filter with the fast load.
+10:29 < jardineworks:#liferay> pretty sure our dynamic css is on.
