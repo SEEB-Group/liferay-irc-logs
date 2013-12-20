@@ -8,3 +8,6 @@
 09:56 <@jhf:#liferay> also - in 5 minutes we will be doing a drawing for the last quarter's top contributors https://www.liferay.com/community/special-projects/top-contributor-awards-2013
 09:56 <@jhf:#liferay> winners get either a free training seat at an upcoming Liferay training class, a free ticket to an upcoming conference, or a USD 200 gift card (or its equivalent in local currency)
 09:56 <@jhf:#liferay> checking on dynamiccssfilter
+09:58 < hufg:#liferay> you will wreck parent themes css, combo servlet, internal css(?), journal
+09:58 < hufg:#liferay> woops internal css journal etcv(?)
+09:58 <@jhf:#liferay> yeah, apparently it wrecks anything that uses the OOTB themes, since they rely on sass (according to Mika - https://www.liferay.com/community/forums/-/message_boards/message/16130226)
