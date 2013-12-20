@@ -11,3 +11,5 @@
 09:58 < hufg:#liferay> you will wreck parent themes css, combo servlet, internal css(?), journal
 09:58 < hufg:#liferay> woops internal css journal etcv(?)
 09:58 <@jhf:#liferay> yeah, apparently it wrecks anything that uses the OOTB themes, since they rely on sass (according to Mika - https://www.liferay.com/community/forums/-/message_boards/message/16130226)
+10:01 <@jhf:#liferay> I'm reading an internal report and it confirms its not possible to disable, unless you write a custom theme for control panel
+10:01 <@jhf:#liferay> JanHajovsky !!
