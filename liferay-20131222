@@ -1,2 +1,4 @@
 --- Log opened Sun Dec 22 00:00:03 2013
 14:22 < mordonez:#liferay> Hi guys, I have downloadded the jetty bundled dist and I get a permgen size error
+14:23 < mordonez:#liferay> I have tried several ways and now I have this
+14:23 < mordonez:#liferay> http://pastebin.com/zhLGdkez
