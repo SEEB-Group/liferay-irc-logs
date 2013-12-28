@@ -8,3 +8,4 @@
 17:59 < rkanakam:#liferay> hi there. a qq about export/import LAR files in LR 6.1 GA3 EE. I constantly keep getting  No LayoutSet exists with the key {groupId=10591, privateLayout=false} error while importing a LAR that is exported from 6.1 GA3 EE to same from different instances.
 18:01 < rkanakam:#liferay> I see this irrespective of Data strategies I select during import. any suggestions/ideas are appreciated. Thanks!
 18:02 < rkanakam:#liferay> FYI..these two instance are exactly same copies. No customizations are in place. You can think of same copy placed in two different folders.
+--- Log closed Sat Dec 28 00:00:12 2013
