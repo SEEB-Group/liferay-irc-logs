@@ -63,3 +63,4 @@
 11:21 < jardineworks:#liferay> the service layer doesn't build portlet class files./
 11:22 < jardineworks:#liferay> you would have a HolidayLocalServiceImpl ... HolidayLocalService, HolidayService, HolidayServiceImpl, etc.
 11:22 < jardineworks:#liferay> if you created an mvc portlet then the liferay MVCPortlet class is what would be rendering your portlet
+11:23 < jardineworks:#liferay> you would need to modify the portlet.xml to specify a new class (and package) to a class that extends the MVCPortlet and then add/override your logic.
