@@ -50,3 +50,5 @@
 08:52 < whatsoever:#liferay> if its not working, ill just use 6.1.1
 08:56 < hufg_:#liferay> i think i will try to device some uber hack to fix the ga2 dl+staging+publishing to ga3
 09:06 < jardineworks:#liferay> hufg, if you can find the fix in the 6.2 code, you might be able to backport it as an ext plugin
+09:08 < hufg_:#liferay> hehe yeah but ext plugin is zz ozz
+09:08 < hufg_:#liferay> pzz
