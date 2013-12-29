@@ -58,3 +58,4 @@
 11:13 < whatsoever_:#liferay> where can i put my java code now ? :(
 11:18 < jardineworks:#liferay> whatsoever_, sorry? I'm not sure I understand what you mean
 11:18 < whatsoever_:#liferay> i build my service layer, and i normally had a file where i could put my java code -> if the servicelayer is called holiday, the file was holidayportlet.java
+11:19 < whatsoever_:#liferay> but this file is missing :(
