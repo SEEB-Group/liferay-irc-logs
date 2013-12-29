@@ -61,3 +61,5 @@
 11:19 < whatsoever_:#liferay> but this file is missing :(
 11:20 < whatsoever_:#liferay> afk for some minutes :/
 11:21 < jardineworks:#liferay> the service layer doesn't build portlet class files./
+11:22 < jardineworks:#liferay> you would have a HolidayLocalServiceImpl ... HolidayLocalService, HolidayService, HolidayServiceImpl, etc.
+11:22 < jardineworks:#liferay> if you created an mvc portlet then the liferay MVCPortlet class is what would be rendering your portlet
