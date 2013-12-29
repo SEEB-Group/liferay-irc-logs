@@ -36,3 +36,8 @@
 08:47 < whatsoever:#liferay> well i never did it the old way... just used eclipse, added server and sdk and it worked ^_^
 08:49 < whatsoever:#liferay> ok just found a thread that 6.1.2 sdk isnt for free -_-
 08:49 < whatsoever:#liferay> jardineworks : do you have a license or how did you manage it?
+08:50 < jardineworks:#liferay> 6.1.1 works with 6.1.2
+08:50 < jardineworks:#liferay> sdk I mean
+08:50 < whatsoever:#liferay> ok
+08:50 < jardineworks:#liferay> I was looking for it too then I found a post on the forum that said you use the same one :)
+08:50 < whatsoever:#liferay> just change liferay-plugin-package.properties ?
