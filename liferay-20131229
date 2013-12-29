@@ -14,3 +14,6 @@
 08:35 < hufg_:#liferay> no issues with dl?
 08:35 < hufg_:#liferay> or ahh you don't have staging/publishing?
 08:35 < jardineworks:#liferay> I have a few issues in the CP as well, but I think mine might be related to other browser plugins.
+08:36 < whatsoever:#liferay> http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.2%20GA3/   <- 2nd link?
+08:36 < jardineworks:#liferay> right now we aren't using the stage/publish
+08:36 < jardineworks:#liferay> and our DL is really limited to just some images that are used in content.
