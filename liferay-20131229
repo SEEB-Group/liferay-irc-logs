@@ -17,3 +17,5 @@
 08:36 < whatsoever:#liferay> http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.1.2%20GA3/   <- 2nd link?
 08:36 < jardineworks:#liferay> right now we aren't using the stage/publish
 08:36 < jardineworks:#liferay> and our DL is really limited to just some images that are used in content.
+08:37 < whatsoever:#liferay> + theres only plugins sdk for 6.1.1 ?
+08:37 < hufg_:#liferay> jardineworks:ahh yes it's because of lack of stage/publish
