@@ -53,3 +53,4 @@
 09:08 < hufg_:#liferay> hehe yeah but ext plugin is zz ozz
 09:08 < hufg_:#liferay> pzz
 10:58 < whatsoever_:#liferay> hum how could i change the height of an aui:input? size is for length, what was the comment for the heights?
+11:09 < jardineworks:#liferay> whatsoever_, you should use css instead of tag properties.
