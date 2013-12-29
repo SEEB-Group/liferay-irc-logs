@@ -69,3 +69,4 @@
 13:27 < jardineworks:#liferay> whatsoever_, http://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/service-build-2
 13:27 < jardineworks:#liferay> maybe refresh your memory on service builder :)
 13:28 < whatsoever_:#liferay> well yeah, as i said, half a year is a long time^^ ill read it
+13:29 < whatsoever_:#liferay> BookLocalServiceImpl - local service implementation. This is the only class within the local service that you will be able to modify manually. Your business logic will be here.
