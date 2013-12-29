@@ -31,3 +31,5 @@
 08:43 < hufg_:#liferay> or perhaps maven plugins?
 08:43 < whatsoever:#liferay> well now i am totally confused
 08:45 < whatsoever:#liferay> i was used to use tomcat + sdk
+08:46 < hufg_:#liferay> me too
+08:46 < hufg_:#liferay> isn't the sdk some commandline tools and ant builds
