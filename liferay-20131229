@@ -71,3 +71,4 @@
 13:28 < whatsoever_:#liferay> well yeah, as i said, half a year is a long time^^ ill read it
 13:29 < whatsoever_:#liferay> BookLocalServiceImpl - local service implementation. This is the only class within the local service that you will be able to modify manually. Your business logic will be here.
 15:36 < jardineworks:#liferay> hey jhf  are you around?
+15:47 < whatsoever_:#liferay> meh i still dont get it :( on my old versions, i had a addmemberportlet.java that was like this:  public class AddmemberPortlet extends MVCPortlet {   (addmember was the name of the portlet)
