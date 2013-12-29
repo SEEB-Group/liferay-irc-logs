@@ -55,3 +55,4 @@
 10:58 < whatsoever_:#liferay> hum how could i change the height of an aui:input? size is for length, what was the comment for the heights?
 11:09 < jardineworks:#liferay> whatsoever_, you should use css instead of tag properties.
 11:11 < whatsoever_:#liferay> well i have a way bigger problem.. i included a service layer, but the xxxportlet.java is missing -____-
+11:13 < whatsoever_:#liferay> where can i put my java code now ? :(
