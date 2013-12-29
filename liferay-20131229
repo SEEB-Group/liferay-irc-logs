@@ -73,3 +73,5 @@
 15:36 < jardineworks:#liferay> hey jhf  are you around?
 15:47 < whatsoever_:#liferay> meh i still dont get it :( on my old versions, i had a addmemberportlet.java that was like this:  public class AddmemberPortlet extends MVCPortlet {   (addmember was the name of the portlet)
 15:57 < jardineworks:#liferay> its the same in 6.2 .. but that has nothing to do with service builder.
+15:58 < whatsoever_:#liferay> well i start off new now, maybe i missed sth
+15:58 < whatsoever_:#liferay> i created a portlet, now i do my jsp
