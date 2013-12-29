@@ -78,3 +78,4 @@
 15:59 < whatsoever_:#liferay> now , use default portlet or create new portlet (default => MVCportlet) ?
 15:59 < whatsoever_:#liferay> maybe i missed it there^^
 16:02 < whatsoever_:#liferay> ok jsp are working, everything seems fine
+16:03 < whatsoever_:#liferay> and now i wanna use the service layer to connect my portlet to the database?
