@@ -75,3 +75,5 @@
 15:57 < jardineworks:#liferay> its the same in 6.2 .. but that has nothing to do with service builder.
 15:58 < whatsoever_:#liferay> well i start off new now, maybe i missed sth
 15:58 < whatsoever_:#liferay> i created a portlet, now i do my jsp
+15:59 < whatsoever_:#liferay> now , use default portlet or create new portlet (default => MVCportlet) ?
+15:59 < whatsoever_:#liferay> maybe i missed it there^^
