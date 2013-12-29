@@ -41,3 +41,7 @@
 08:50 < whatsoever:#liferay> ok
 08:50 < jardineworks:#liferay> I was looking for it too then I found a post on the forum that said you use the same one :)
 08:50 < whatsoever:#liferay> just change liferay-plugin-package.properties ?
+08:51 < jardineworks:#liferay> but you have to make sure your plugin configuration is 6.1.1+ compatible (as a setting)
+08:51 < jardineworks:#liferay> whatsoever, right
+08:51 < hufg_:#liferay> what do you do with the sdk?
+08:51 < jardineworks:#liferay> pretty sure I have incompatible version errors on deployment before I changed it (even though I changed nothing else)
