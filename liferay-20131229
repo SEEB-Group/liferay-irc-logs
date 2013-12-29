@@ -6,3 +6,11 @@
 08:30 < whatsoever:#liferay> hmm well havent work with liferay for half a year and was pretty excited about the new version.. which one is the last stable one? need it for my work :-/
 08:32 < hufg_:#liferay> :Z
 08:34 < jardineworks:#liferay> whatsoever, I am working with 6.1.2 GA3. Its not perfect but I have only come across a few major issues. Could be though that I am not using the more unstable peices.
+08:35 < whatsoever:#liferay> ok i will try that
+08:35 < hufg_:#liferay> yeah that is probably the most stable
+08:35 < hufg_:#liferay> jardineworks:did you upgrade from ga2?
+08:35 < jardineworks:#liferay> whatsoever, I would recommend tunring the logging up on your 6.2 to see if you can get something a little more detailed for output. Seems odd that you would be getting that
+08:35 < jardineworks:#liferay> hufg, We went from 6.1.1 GA2 to 6.1.2 GA3
+08:35 < hufg_:#liferay> no issues with dl?
+08:35 < hufg_:#liferay> or ahh you don't have staging/publishing?
+08:35 < jardineworks:#liferay> I have a few issues in the CP as well, but I think mine might be related to other browser plugins.
