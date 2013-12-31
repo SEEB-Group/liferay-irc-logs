@@ -9,3 +9,8 @@
 04:09 < topolik:#liferay> which files?
 04:09 < topolik:#liferay> what dependencies?
 04:09 < hufg:#liferay> from /tmp/liferay/com/liferay/portal/deploy/dependencies
+04:10 < hufg:#liferay> https://gist.github.com/anonymous/011c9f235d56b7ff6870
+04:10 < hufg:#liferay> these files
+04:10 < topolik:#liferay> hmm
+04:10 < topolik:#liferay> got it
+04:10 < topolik:#liferay> read/write permissions?
