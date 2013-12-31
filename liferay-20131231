@@ -23,3 +23,4 @@
 04:11 < hufg:#liferay> you can see this by deleting the files manually and then deploying stuff
 04:12 < hufg:#liferay> for example util-java.jar will result into missing PortletBeanLocator class
 04:12 < hufg:#liferay> error message in log
+04:14 < hufg:#liferay> there is some room for improvement imo
