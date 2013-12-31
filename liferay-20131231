@@ -60,3 +60,4 @@
 06:12 < hufg:#liferay> how come setting jvm param prevents it?
 06:20 < hufg:#liferay> ah
 06:20 < hufg:#liferay> so you want to change temp dir
+06:21 < hufg:#liferay> it has to be /tmp
