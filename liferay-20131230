@@ -9,3 +9,4 @@
 21:31 < nicholasdipiazza:#liferay> i just read the clustering documentation and my conclusion is yes you can share the jackrabbit storage with filesystem over NFS... OR you can also use the database journaling based jackrabbit by configuring the repostiory.xml appropriately.
 21:32 < nicholasdipiazza:#liferay> which do you prefer? why?
 21:32 < nicholasdipiazza:#liferay> i do not have a fancy SAN
+--- Log closed Tue Dec 31 00:00:16 2013
