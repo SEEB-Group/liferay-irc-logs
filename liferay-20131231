@@ -45,3 +45,6 @@
 04:56 < hufg:#liferay> hehe ok
 04:56 < hufg:#liferay> cronjob to copy dependencies yyyeah!
 05:05 < topolik:#liferay> I see that the default GF bundle doesn't have java.io.tmpdir set
+05:08 < topolik:#liferay> you can set it to other location than /tmp
+05:08 < topolik:#liferay> to prevent the removal
+05:08 < topolik:#liferay> I didn't find any code that should delete the content of /tmp/liferay/com/.../dependencies
