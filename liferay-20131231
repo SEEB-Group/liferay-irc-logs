@@ -57,3 +57,4 @@
 05:33 < topolik:#liferay> hufg: https://issues.liferay.com/browse/LPS-43187
 06:10 < hufg:#liferay> topolik: rhel
 06:11 < hufg:#liferay> topolik: ok thanks
+06:12 < hufg:#liferay> how come setting jvm param prevents it?
