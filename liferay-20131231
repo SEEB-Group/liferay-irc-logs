@@ -55,3 +55,4 @@
 05:12 < topolik:#liferay> or add java.io.tmpdir among GF java startup parameters (-Djava.io.tmpdir=...)
 05:19 < topolik:#liferay> hufg: what distro do you use?
 05:33 < topolik:#liferay> hufg: https://issues.liferay.com/browse/LPS-43187
+06:10 < hufg:#liferay> topolik: rhel
