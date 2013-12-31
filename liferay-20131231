@@ -24,3 +24,4 @@
 04:12 < hufg:#liferay> for example util-java.jar will result into missing PortletBeanLocator class
 04:12 < hufg:#liferay> error message in log
 04:14 < hufg:#liferay> there is some room for improvement imo
+04:15 < hufg:#liferay> at which point these files disappear i don't know
