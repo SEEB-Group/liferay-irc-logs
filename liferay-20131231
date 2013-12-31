@@ -14,3 +14,10 @@
 04:10 < topolik:#liferay> hmm
 04:10 < topolik:#liferay> got it
 04:10 < topolik:#liferay> read/write permissions?
+04:11 < hufg:#liferay> irrelevant, first they exist and then they don't
+04:11 < topolik:#liferay> ok
+04:11 < hufg:#liferay> basedeployer does not take this into account
+04:11 < topolik:#liferay> I dive into code
+04:11 < hufg:#liferay> thus the deployment is succesful but
+04:11 < hufg:#liferay> but they don't work
+04:11 < hufg:#liferay> you can see this by deleting the files manually and then deploying stuff
