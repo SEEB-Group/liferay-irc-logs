@@ -1,2 +1,4 @@
 --- Log opened Tue Dec 31 00:00:16 2013
 03:31 < hufg:#liferay> rotty3000: topolik
+03:32 < hufg:#liferay> any ideas why deployment fails because deployment dependencies are missing from /tmp?
+03:32 < hufg:#liferay> anyone? 8)
