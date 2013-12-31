@@ -4,3 +4,6 @@
 16:09 < nicholasdipiazza:#liferay> when clustering liferay, does a single liferay_home folder need to be shared between the nodes?
 16:10 < nicholasdipiazza:#liferay> in jackrabbit, usually the filesystem is shared right?
 16:19 < nicholasdipiazza:#liferay> i just read the clustering documentation and my conclusion is yes you can share the jackrabbit storage with filesystem over NFS... OR you can also use the database journaling based jackrabbit by configuring the repostiory.xml appropriately.
+21:31 < nicholasdipiazza:#liferay> when clustering liferay, does a single liferay_home folder need to be shared between the nodes?
+21:31 < nicholasdipiazza:#liferay> in jackrabbit, usually the filesystem is shared right?
+21:31 < nicholasdipiazza:#liferay> i just read the clustering documentation and my conclusion is yes you can share the jackrabbit storage with filesystem over NFS... OR you can also use the database journaling based jackrabbit by configuring the repostiory.xml appropriately.
