@@ -44,3 +44,4 @@
 04:35 < topolik:#liferay> I'm going to try to reproduce it
 04:56 < hufg:#liferay> hehe ok
 04:56 < hufg:#liferay> cronjob to copy dependencies yyyeah!
+05:05 < topolik:#liferay> I see that the default GF bundle doesn't have java.io.tmpdir set
