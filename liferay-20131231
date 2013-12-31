@@ -58,3 +58,5 @@
 06:10 < hufg:#liferay> topolik: rhel
 06:11 < hufg:#liferay> topolik: ok thanks
 06:12 < hufg:#liferay> how come setting jvm param prevents it?
+06:20 < hufg:#liferay> ah
+06:20 < hufg:#liferay> so you want to change temp dir
