@@ -42,3 +42,5 @@
 04:31 < hufg:#liferay> so no :(
 04:32 < hufg:#liferay> it's actually a non issue you can fix by manually copying the filöes
 04:35 < topolik:#liferay> I'm going to try to reproduce it
+04:56 < hufg:#liferay> hehe ok
+04:56 < hufg:#liferay> cronjob to copy dependencies yyyeah!
