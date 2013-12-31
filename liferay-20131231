@@ -62,3 +62,4 @@
 06:20 < hufg:#liferay> so you want to change temp dir
 06:21 < hufg:#liferay> it has to be /tmp
 06:29 < hufg:#liferay> yes yes you are right it's some os configuration
+06:30 < hufg:#liferay> it may have been a mistake to not change temp dir
