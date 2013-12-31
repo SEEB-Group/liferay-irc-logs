@@ -48,3 +48,4 @@
 05:08 < topolik:#liferay> you can set it to other location than /tmp
 05:08 < topolik:#liferay> to prevent the removal
 05:08 < topolik:#liferay> I didn't find any code that should delete the content of /tmp/liferay/com/.../dependencies
+05:09 < topolik:#liferay> but I see once it's gone, the resources are not copied into plugins during deploy
