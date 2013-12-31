@@ -53,3 +53,4 @@
 05:10 < topolik:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-impl/src/com/liferay/portal/tools/deploy/BaseDeployer.java#L282,L283
 05:12 < topolik:#liferay> so the very simple solution is to set java.io.tmpdir=/opt/your_GF_bundle/temp into system-ext.properties
 05:12 < topolik:#liferay> or add java.io.tmpdir among GF java startup parameters (-Djava.io.tmpdir=...)
+05:19 < topolik:#liferay> hufg: what distro do you use?
