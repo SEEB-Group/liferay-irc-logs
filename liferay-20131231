@@ -3,3 +3,9 @@
 03:32 < hufg:#liferay> any ideas why deployment fails because deployment dependencies are missing from /tmp?
 03:32 < hufg:#liferay> anyone? 8)
 04:08 < topolik:#liferay> hi hufg
+04:09 < hufg:#liferay> topolik: i have a very zz pzz bug, there are  no issues
+04:09 < hufg:#liferay> do you have any insights how the files could disappear?
+04:09 < topolik:#liferay> I'm not sure I understand
+04:09 < topolik:#liferay> which files?
+04:09 < topolik:#liferay> what dependencies?
+04:09 < hufg:#liferay> from /tmp/liferay/com/liferay/portal/deploy/dependencies
