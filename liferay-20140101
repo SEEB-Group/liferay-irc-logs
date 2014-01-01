@@ -9,3 +9,4 @@
 09:19 < webczat:#liferay> like ldap. still the same error when testing users. wrrr
 09:19 < webczat:#liferay> and still cannot access the server admin pages except the first
 13:05 < webczat:#liferay> Hello. I have ldap enabled in liferay 6.2 ga, the problem is that it actually does not work. user export works, import causes an exception and authentication probably does not occur at all. wtf? like I now have slapd running with max debug and even though ldap is enabled, it is not possible to authenticate and I don't see anyy ldap connection coming
+14:45 -!- mode/#liferay [+o rotty3000] by ChanServ
