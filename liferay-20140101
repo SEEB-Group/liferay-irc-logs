@@ -4,3 +4,4 @@
 07:08 < webczat:#liferay> I heart the last one was fixed but either it the bug returned or this was another version. I still get NamingException about object not being a context
 07:09 < webczat:#liferay> and also required ldap auth is not enforced, at least not on the default admin account from portal-ext.properties... unless this admin account can always login with his password no matter what?
 07:44 < webczat:#liferay> ...
+08:45 < webczat:#liferay> how to build a war?
