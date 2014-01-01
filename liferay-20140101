@@ -5,3 +5,6 @@
 07:09 < webczat:#liferay> and also required ldap auth is not enforced, at least not on the default admin account from portal-ext.properties... unless this admin account can always login with his password no matter what?
 07:44 < webczat:#liferay> ...
 08:45 < webczat:#liferay> how to build a war?
+09:19 < webczat:#liferay> hmm, it doesn't work even after checking it out from git and compiling
+09:19 < webczat:#liferay> like ldap. still the same error when testing users. wrrr
+09:19 < webczat:#liferay> and still cannot access the server admin pages except the first
