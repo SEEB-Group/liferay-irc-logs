@@ -1,3 +1,4 @@
 --- Log opened Wed Jan 01 00:00:18 2014
 06:31 < webczat:#liferay> Hello!
 06:32 < webczat:#liferay> I have a problem with liferay-6.2 GA1, ldap does not work for me and I also cannot access server admin pages.
+07:08 < webczat:#liferay> I heart the last one was fixed but either it the bug returned or this was another version. I still get NamingException about object not being a context
