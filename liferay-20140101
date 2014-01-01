@@ -3,3 +3,4 @@
 06:32 < webczat:#liferay> I have a problem with liferay-6.2 GA1, ldap does not work for me and I also cannot access server admin pages.
 07:08 < webczat:#liferay> I heart the last one was fixed but either it the bug returned or this was another version. I still get NamingException about object not being a context
 07:09 < webczat:#liferay> and also required ldap auth is not enforced, at least not on the default admin account from portal-ext.properties... unless this admin account can always login with his password no matter what?
+07:44 < webczat:#liferay> ...
