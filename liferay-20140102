@@ -178,3 +178,8 @@
 15:20 < jardineworks:#liferay> so there is no portlet request either?
 15:20 <@jhf:#liferay> nope.. at least, not accessible from a web content template..
 15:20 < jardineworks:#liferay> I did it elsewhere using JS
+15:21 < jardineworks:#liferay> but I don't want the link to show javascript:xxx()
+15:21 <@jhf:#liferay> yeah there is an easy way to do that with JS
+15:21 < jardineworks:#liferay> Liferay.PortletURL...
+15:21 < jardineworks:#liferay> yeah that workes, but its not very seo friendly
+15:21 <@jhf:#liferay> yeah..
