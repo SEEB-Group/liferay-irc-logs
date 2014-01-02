@@ -24,3 +24,5 @@
 10:35 <@jhf:#liferay> FYI for the 6.2 release we had a few blind users help us test out Liferay's accessibility
 10:36 < webczat:#liferay> mhm, actually columns are not announced unless nvda is a stupid piece of crap. I also have other accessibility problems, I have netbook and when the browser is not maximized, I need to expand things in the dock to see anything like sign in. no problem. but i'm unable to expand anything when it comes to for example page administration, like trying to expand this thing that shows the add child...
 10:36 < webczat:#liferay> ...page/export/etc buttons. when the browser is maximized there is no problem here.
+10:37 <@jhf:#liferay> are you using 6.2?
+10:37 < webczat:#liferay> then there is the problem with adding portlets using the add button instead of dragging. :)
