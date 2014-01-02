@@ -160,3 +160,4 @@
 15:08 < jardineworks:#liferay> jhf, hmmm... ok I'll ask. Is it possible to generate a render url in a journal article template?
 15:09 < jardineworks:#liferay> I think the answer is yes... but I found a few forum posts where people are asking the same and there are no answers
 15:09 <@jhf:#liferay> yes I believe it is possible, since I know it is possible to generate a resource URL. lemme take a look.
+15:10 <@jhf:#liferay> yeah.. $request.render-url
