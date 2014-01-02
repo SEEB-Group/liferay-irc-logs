@@ -232,3 +232,5 @@
 16:07 < jardineworks:#liferay> i guess I could do this -- http://www.liferay.com/community/forums/-/message_boards/message/978000 -- and then append the public render parameter manually
 16:21 < webczat:#liferay> I deployed liferay on wildfly (like jboss-8). it works but says that hot deploy isn't supported while it managed to deploy the marketplace thing. wtf?
 16:22 < apucay:#liferay> jardine, are you looking for JournalUtil._populateTokens()
+16:24 < jardineworks:#liferay> apucay, looks like it... though since it is a map of strings, no point in overriding that, might as well just use the request attribtues as proposed by rotty in that link
+16:24 < webczat:#liferay> like autodeploy works
