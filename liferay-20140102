@@ -145,3 +145,5 @@
 14:08 < webczat:#liferay> how are portlets lait out when you add them by the add button instead of dragging?
 14:21 <@jhf:#liferay> ah. to understand that, first, be aware that typical Portal pages are rectilinear (they are boxes of portlets laid out in one or more sets of columns on a page, resulting in what is described as "rectilinear" - lots of boxes, straight lights, 90-degree angles, etc0.  For any portal Page (called a "Layout" internally), there is a "Layout Template" that controls these columns and their widths.
 14:21 <@jhf:#liferay> when you "add" them, I believe it will simply insert the new portlet into the first position of the first column.
+14:22 <@jhf:#liferay> as defined by the layout template.
+14:22 <@jhf:#liferay> layout templates: https://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/creating-liferay-layout-templates-liferay-portal-6-2-dev-guide-09-en
