@@ -83,3 +83,5 @@
 13:12 < apucay:#liferay> when you say guest, do you mean unauthenticated user, or an authenticated user who is not a member of a site?
 13:14 < webczat:#liferay> the first
 13:16 < apucay:#liferay> you experience being able to add porlets to a page, out of the box, as an unauthenticated user?
+13:20 < webczat:#liferay> no
+13:20 < webczat:#liferay> but I see the permission summary as an admin
