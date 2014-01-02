@@ -201,3 +201,9 @@
 15:45 <@jhf:#liferay> you *could* stick it in manually before even starting the portal, but that's hacky
 15:46 < jardineworks:#liferay> jhf, and the request changes from click to click :)
 15:47 <@jhf:#liferay> yeah. well you don't inject an instance or a string, you inject a java object whose methods you can call from your template
+15:48 < jardineworks:#liferay> jhf,
+15:48 < jardineworks:#liferay> oops
+15:48 < jardineworks:#liferay> OR... just dump the request in :)
+15:48 < jardineworks:#liferay> / store the hashmap under the webkey variable. Liferay will merge this in with the other
+15:48 < jardineworks:#liferay> 		// vm variables that have already been defined.
+15:48 < jardineworks:#liferay> 		request.setAttribute( WebKeys.VM_VARIABLES, velocityVariables );
