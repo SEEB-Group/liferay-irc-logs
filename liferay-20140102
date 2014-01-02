@@ -85,3 +85,5 @@
 13:16 < apucay:#liferay> you experience being able to add porlets to a page, out of the box, as an unauthenticated user?
 13:20 < webczat:#liferay> no
 13:20 < webczat:#liferay> but I see the permission summary as an admin
+13:22 < apucay:#liferay> and Guest is checked for ADD_TO_PAGE?
+13:22 < apucay:#liferay> or what is that even available, you're saying?
