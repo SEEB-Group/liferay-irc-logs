@@ -229,3 +229,4 @@
 16:04 < jardineworks:#liferay> apucay, or anyone... do you know what class adds the variables to the velocity context for the journal article templates?
 16:04 < webczat:#liferay> o, another thing. how too make good templates :D
 16:06 < webczat:#liferay> I mean templates for structures. it was about the blind side, not the technical one
+16:07 < jardineworks:#liferay> i guess I could do this -- http://www.liferay.com/community/forums/-/message_boards/message/978000 -- and then append the public render parameter manually
