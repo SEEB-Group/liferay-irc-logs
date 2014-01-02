@@ -222,3 +222,5 @@
 15:53 < jardineworks:#liferay> hmmm.. but it would need a request object as well
 15:54 < jardineworks:#liferay> unless I had a list of constants -- gross.
 15:54 < jardineworks:#liferay> why isn't the full request object in there anyway? ... seems like something that is totally reasonable.
+15:55 < apucay:#liferay> curious, if you want a render url for a portlet on a different page, why not just link to the page? unless you need the portlet maximized
+15:55 <@jhf:#liferay> one sec.. concall
