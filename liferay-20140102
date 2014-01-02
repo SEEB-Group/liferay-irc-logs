@@ -147,3 +147,4 @@
 14:21 <@jhf:#liferay> when you "add" them, I believe it will simply insert the new portlet into the first position of the first column.
 14:22 <@jhf:#liferay> as defined by the layout template.
 14:22 <@jhf:#liferay> layout templates: https://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/creating-liferay-layout-templates-liferay-portal-6-2-dev-guide-09-en
+14:24 < webczat:#liferay> whatabout next added portlets? I had the impression it adds bottom-up
