@@ -8,3 +8,6 @@
 10:24 < webczat:#liferay> how to do this?
 10:25 <@jhf:#liferay> since Liferay's user interface is 99% through the browser, all of its interfaces are standard components (for example, you can press the tab button to cycle through input fields, etC)
 10:25 <@jhf:#liferay> you interact with Liferay in the same way you interact with any other web site
+10:26 < webczat:#liferay> hmm i actually meant things like
+10:26 < webczat:#liferay> I'm adding a portlet and cannot change it's position w/o the mouse
+10:26 <@jhf:#liferay> ahh I see..
