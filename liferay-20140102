@@ -46,3 +46,8 @@
 10:52 <@jhf:#liferay> hmm.. what happens if you go to Control Panel -> Server Administration?
 10:52 < webczat:#liferay> like the initial resources page shows up. clicking execute on anything or selecting another tab (inccluding the same resources tab) makes very strange things. the bottom of the page gets invisible, the last thing I see is the configuration menu and logs say something about invalid paths
 10:52 <@jhf:#liferay> dang looks like Julio is on holiday till next Monday
+10:53 <@jhf:#liferay> hmm.. have not seen that. lemme search bug database (you can also search this at issues.liferay.com)
+10:53 < webczat:#liferay> you will find something. I've reported it yesterday haha
+10:53 < webczat:#liferay> but wanted to ask if it's not my stupidity
+10:53 <@jhf:#liferay> hahaha
+10:53 <@jhf:#liferay> which LPS # is it?
