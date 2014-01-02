@@ -79,3 +79,4 @@
 13:00 < webczat:#liferay> actually there is a role called owner
 13:00 < webczat:#liferay> although not described in the docs, it exists
 13:00 < webczat:#liferay> and the description says that it gives permissions to hmm object creators probably
+13:09 < webczat:#liferay> I'll research that. the last questions: if guests can not have pages, why they have permissions like add to page for most apps?
