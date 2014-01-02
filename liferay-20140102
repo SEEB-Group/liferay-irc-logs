@@ -43,3 +43,6 @@
 10:48 <@jhf:#liferay> ok webczat email sent
 10:50 < webczat:#liferay> ack
 10:51 < webczat:#liferay> btw, can you access server administration pages in 6.2? i can't. :D
+10:52 <@jhf:#liferay> hmm.. what happens if you go to Control Panel -> Server Administration?
+10:52 < webczat:#liferay> like the initial resources page shows up. clicking execute on anything or selecting another tab (inccluding the same resources tab) makes very strange things. the bottom of the page gets invisible, the last thing I see is the configuration menu and logs say something about invalid paths
+10:52 <@jhf:#liferay> dang looks like Julio is on holiday till next Monday
