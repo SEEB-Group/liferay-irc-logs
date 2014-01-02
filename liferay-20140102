@@ -191,3 +191,6 @@
 15:23 <@jhf:#liferay> or do you want to find a way to do it with the OOTB stuff? it may be possible, but will take digging
 15:24 < jardineworks:#liferay> OOTB would be preferred to be honest. Teh way you are suggesting I would need to service-pre and inject the full request object with each page load right?
 15:36 < jardineworks:#liferay> jhf, are the variables added to the VelocityContext available in the journal templates?
+15:44 <@jhf:#liferay> jardineworks: yep
+15:44 <@jhf:#liferay> there's a way to declare them in a portal properties setting
+15:44 < jardineworks:#liferay> :O
