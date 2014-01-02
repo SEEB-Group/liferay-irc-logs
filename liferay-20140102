@@ -62,3 +62,4 @@
 12:43 <@jhf:#liferay> post-holiday laziness for me
 12:45 < webczat:#liferay> :D I have a question regarding permissions
 12:45 < webczat:#liferay> because I like to understand what I'm really doing
+12:46 < webczat:#liferay> what would happen if power user didn't have those permissions assignments like media add document etc? isn't it handled on the media portlet permission level?
