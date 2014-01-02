@@ -19,3 +19,4 @@
 10:30 <@jhf:#liferay> Julio would know for sure the best way to do what you ask. in the meantime lemme look around a bit and see if there's a tool you can use.
 10:31 <@jhf:#liferay> have you tried Windows 7's "MouseKeys" ? http://www.bbc.co.uk/accessibility/guides/keyboard_mouse/computer/win/win7/index.shtml
 10:32 < webczat:#liferay> haha just not sure how could I know what column I'm adding the portlet to, although mouse keys could work, not sure
+10:33 <@jhf:#liferay> without having tried it myself, I do not know, but I know Liferay developers go to great lengths to ensure we use the proper metadata when constructing the portal, so for example the CSS used for classifying columns is most likely using an ARIA tag, so it may announce the columns as you "move" a portlet around
