@@ -80,3 +80,4 @@
 13:00 < webczat:#liferay> although not described in the docs, it exists
 13:00 < webczat:#liferay> and the description says that it gives permissions to hmm object creators probably
 13:09 < webczat:#liferay> I'll research that. the last questions: if guests can not have pages, why they have permissions like add to page for most apps?
+13:12 < apucay:#liferay> when you say guest, do you mean unauthenticated user, or an authenticated user who is not a member of a site?
