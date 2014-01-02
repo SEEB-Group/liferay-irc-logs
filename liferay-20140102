@@ -211,3 +211,7 @@
 15:49 < jardineworks:#liferay> I thought that was just in the theme
 15:50 <@jhf:#liferay> hmm.. dang you might be right.
 15:50 <@jhf:#liferay> there's gotta be a way to make portlet URLs without all these shenanigans
+15:51 < jardineworks:#liferay> I think I know
+15:51 < jardineworks:#liferay> make a class as you say...
+15:51 < jardineworks:#liferay> put it in TOMCAT/lib/ext
+15:51 < jardineworks:#liferay> so it is available to the portal...
