@@ -6,3 +6,5 @@
 10:08 < webczat:#liferay> I'm a blind user and have the following question: is it at all possible for me to lay out webpages without using the mouse?
 10:24 <@jhf:#liferay> webczat: yes, it is possible without using the mouse, but it is highly dependent on your browser and its interaction with your operating system (w/r/t keyboard shortcuts)
 10:24 < webczat:#liferay> how to do this?
+10:25 <@jhf:#liferay> since Liferay's user interface is 99% through the browser, all of its interfaces are standard components (for example, you can press the tab button to cycle through input fields, etC)
+10:25 <@jhf:#liferay> you interact with Liferay in the same way you interact with any other web site
