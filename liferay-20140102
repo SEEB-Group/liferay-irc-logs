@@ -199,3 +199,4 @@
 15:45 < jardineworks:#liferay> you don't need a hook?
 15:45 <@jhf:#liferay> no, you will need a hook.. since what you are declaring is a java class, it must get onto the class path somehow.
 15:45 <@jhf:#liferay> you *could* stick it in manually before even starting the portal, but that's hacky
+15:46 < jardineworks:#liferay> jhf, and the request changes from click to click :)
