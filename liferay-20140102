@@ -168,3 +168,6 @@
 15:12 <@jhf:#liferay> don't know.. doing some research (also known as google.com)
 15:13 < jardineworks:#liferay> lol
 15:13 < jardineworks:#liferay> hopefully your research skills are better than mine.
+15:16 <@jhf:#liferay> so there is this $portletURLFactory object that could be used.
+15:16 <@jhf:#liferay> investigating what it would take to pass it the right junk.
+15:16 <@jhf:#liferay> 'cause it's never obvious from web content templates :)
