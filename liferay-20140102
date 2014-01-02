@@ -26,3 +26,5 @@
 10:36 < webczat:#liferay> ...page/export/etc buttons. when the browser is maximized there is no problem here.
 10:37 <@jhf:#liferay> are you using 6.2?
 10:37 < webczat:#liferay> then there is the problem with adding portlets using the add button instead of dragging. :)
+10:38 < webczat:#liferay> yes.
+10:38 < webczat:#liferay> and have ldap + other issues but I have workarounds for most
