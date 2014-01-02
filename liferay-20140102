@@ -207,3 +207,5 @@
 15:48 < jardineworks:#liferay> / store the hashmap under the webkey variable. Liferay will merge this in with the other
 15:48 < jardineworks:#liferay> 		// vm variables that have already been defined.
 15:48 < jardineworks:#liferay> 		request.setAttribute( WebKeys.VM_VARIABLES, velocityVariables );
+15:49 < jardineworks:#liferay> that one? is accessible in the template?
+15:49 < jardineworks:#liferay> I thought that was just in the theme
