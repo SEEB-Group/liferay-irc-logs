@@ -209,3 +209,5 @@
 15:48 < jardineworks:#liferay> 		request.setAttribute( WebKeys.VM_VARIABLES, velocityVariables );
 15:49 < jardineworks:#liferay> that one? is accessible in the template?
 15:49 < jardineworks:#liferay> I thought that was just in the theme
+15:50 <@jhf:#liferay> hmm.. dang you might be right.
+15:50 <@jhf:#liferay> there's gotta be a way to make portlet URLs without all these shenanigans
