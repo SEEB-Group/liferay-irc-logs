@@ -30,3 +30,5 @@
 10:38 < webczat:#liferay> and have ldap + other issues but I have workarounds for most
 10:39 < webczat:#liferay> and I didn't see any need for workarounds for non-administrative content for now.
 10:39 < webczat:#liferay> my email is webczat_200@poczta.onet.pl
+10:40 <@jhf:#liferay> yeah.. it is possible to build a non-accessible site with Liferay :) but if our administrative UIs are not accessible, that is a problem
+10:40 < webczat:#liferay> hmm they are not so bad.
