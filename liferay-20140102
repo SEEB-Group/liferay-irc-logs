@@ -68,3 +68,4 @@
 12:51 < webczat:#liferay> is iit the same for personal sites?
 12:52 < apucay:#liferay> well the only member of a personal site is the person
 12:52 < apucay:#liferay> looks like there are defaults for site members
+12:53 < webczat:#liferay> hmm if a site member has the permission to do something, it applies to the whole site right? isn't it usually handled like on the object level like the created object assigns permissions to members instead?
