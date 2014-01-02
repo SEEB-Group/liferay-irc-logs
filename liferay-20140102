@@ -171,3 +171,10 @@
 15:16 <@jhf:#liferay> so there is this $portletURLFactory object that could be used.
 15:16 <@jhf:#liferay> investigating what it would take to pass it the right junk.
 15:16 <@jhf:#liferay> 'cause it's never obvious from web content templates :)
+15:20 < jardineworks:#liferay> no real request object
+15:20 <@jhf:#liferay> exactly
+15:20 < jardineworks:#liferay> but maybe renderRequest?
+15:20 <@jhf:#liferay> no, it also has to be "real"
+15:20 < jardineworks:#liferay> so there is no portlet request either?
+15:20 <@jhf:#liferay> nope.. at least, not accessible from a web content template..
+15:20 < jardineworks:#liferay> I did it elsewhere using JS
