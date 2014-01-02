@@ -224,3 +224,5 @@
 15:54 < jardineworks:#liferay> why isn't the full request object in there anyway? ... seems like something that is totally reasonable.
 15:55 < apucay:#liferay> curious, if you want a render url for a portlet on a different page, why not just link to the page? unless you need the portlet maximized
 15:55 <@jhf:#liferay> one sec.. concall
+16:03 < jardineworks:#liferay> apucay, that's the issue... I need to target a portlet on a layout.
+16:03 < jardineworks:#liferay> apucay, so I need to generate a render url and then add a public render parameter to it
