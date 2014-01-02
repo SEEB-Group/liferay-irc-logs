@@ -76,3 +76,6 @@
 12:57 <@jhf:#liferay> note: that particular role is scoped to "site", so when you assign it to someone you have to choose a site AND a person to assign.
 12:58 <@jhf:#liferay> ("scoping" of roles and permissions is discussed in that doc link above)
 12:58 <@jhf:#liferay> (and is an important thing to understand and also answers your previous question)
+13:00 < webczat:#liferay> actually there is a role called owner
+13:00 < webczat:#liferay> although not described in the docs, it exists
+13:00 < webczat:#liferay> and the description says that it gives permissions to hmm object creators probably
