@@ -183,3 +183,5 @@
 15:21 < jardineworks:#liferay> Liferay.PortletURL...
 15:21 < jardineworks:#liferay> yeah that workes, but its not very seo friendly
 15:21 <@jhf:#liferay> yeah..
+15:22 <@jhf:#liferay> so there is always one "brute force" way - which is to inject a custom java object into the velocity execution context
+15:22 <@jhf:#liferay> which does whatever you want it to do, and would then be accessible from web content templates
