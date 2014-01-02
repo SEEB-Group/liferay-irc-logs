@@ -220,3 +220,5 @@
 15:53 < jardineworks:#liferay> like this -- $portal.getClass().forName('com.liferay.portal.kernel.log.LogFactoryUtil'))
 15:53 < jardineworks:#liferay> but with my class instead
 15:53 < jardineworks:#liferay> hmmm.. but it would need a request object as well
+15:54 < jardineworks:#liferay> unless I had a list of constants -- gross.
+15:54 < jardineworks:#liferay> why isn't the full request object in there anyway? ... seems like something that is totally reasonable.
