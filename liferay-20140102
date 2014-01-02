@@ -65,3 +65,5 @@
 12:46 < webczat:#liferay> what would happen if power user didn't have those permissions assignments like media add document etc? isn't it handled on the media portlet permission level?
 12:50 < apucay:#liferay> well the defaults perms you can find in resource-actions\documentlibrary.xml
 12:50 < apucay:#liferay> portal-impl\src\resource-actions\documentlibrary.xml
+12:51 < webczat:#liferay> is iit the same for personal sites?
+12:52 < apucay:#liferay> well the only member of a personal site is the person
