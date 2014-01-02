@@ -21,3 +21,4 @@
 10:32 < webczat:#liferay> haha just not sure how could I know what column I'm adding the portlet to, although mouse keys could work, not sure
 10:33 <@jhf:#liferay> without having tried it myself, I do not know, but I know Liferay developers go to great lengths to ensure we use the proper metadata when constructing the portal, so for example the CSS used for classifying columns is most likely using an ARIA tag, so it may announce the columns as you "move" a portlet around
 10:34 <@jhf:#liferay> Julio would be a really great resource for you to contact. if you send me an email james.falkner@liferay.com and I can put you in contact.
+10:35 <@jhf:#liferay> FYI for the 6.2 release we had a few blind users help us test out Liferay's accessibility
