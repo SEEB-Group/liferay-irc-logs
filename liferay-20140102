@@ -70,3 +70,5 @@
 12:52 < apucay:#liferay> looks like there are defaults for site members
 12:53 < webczat:#liferay> hmm if a site member has the permission to do something, it applies to the whole site right? isn't it usually handled like on the object level like the created object assigns permissions to members instead?
 12:55 < webczat:#liferay> erm okay, another question: what is the role called owner?
+12:56 < apucay:#liferay> i think its for the user who created the entity
+12:56 <@jhf:#liferay> webczat: https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/roles-and-permissions-liferay-portal-6-2-user-guide-16-en
