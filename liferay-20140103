@@ -492,3 +492,5 @@
 14:00 <@jhf:#liferay> then superLongVar is replaced with 'b' everywhere :)
 14:00 <@jhf:#liferay> and so forth.. and so on..
 14:01 < webczat:#liferay> nevermind
+14:09 < webczat:#liferay> there is even a bug in the editor. if I'll add a link and then try to read this line, reading will stop at the link
+14:09 < webczat:#liferay> I will not hear what the link is unless I use arrows
