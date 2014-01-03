@@ -139,3 +139,4 @@
 09:34 < jardineworks:#liferay>  defaultReservedParameters.put("p_p_lifecycle", "0");
 09:34 < jardineworks:#liferay> perhaps that should be overriden for me to 1
 09:37 < topolik1:#liferay> yeah
+09:38 < topolik1:#liferay> but that should be done with the lifecycle implicit param
