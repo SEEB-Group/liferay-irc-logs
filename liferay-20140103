@@ -350,3 +350,5 @@
 12:20 <@jhf:#liferay> when I first click on Manage->Structures
 12:20 <@jhf:#liferay> I see a box at the top, with two icons on the right
 12:20 <@jhf:#liferay> a magnifying glass (search) and a three-horizontal-stripe button
+12:21 <@jhf:#liferay> when I click the three-horizontal-stripe button, it reveals a small menu, on which there is only one option: "Add"
+12:21 <@jhf:#liferay> only when I click on the magnifying glass button do I see the search entry box that you show in your screenshot
