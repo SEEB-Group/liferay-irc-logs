@@ -136,3 +136,5 @@
 09:30 < jardineworks:#liferay> so see.. if I just put the javax.portlet.action and the p_p_lifecycle as implicit parameters ... then my search fails
 09:30 < jardineworks:#liferay> meaning the search action is never fired...
 09:31 < jardineworks:#liferay> my portlet:actionURL seems to become a renderURL
+09:34 < jardineworks:#liferay>  defaultReservedParameters.put("p_p_lifecycle", "0");
+09:34 < jardineworks:#liferay> perhaps that should be overriden for me to 1
