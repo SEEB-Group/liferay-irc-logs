@@ -54,3 +54,4 @@
 08:13 < topolik1:#liferay> ok
 08:14 < jardineworks:#liferay> topolik1, liferay-portlet.xml --> http://pastebin.com/AyNArx3v
 08:15 < jardineworks:#liferay> topolik1, recipe-search-friendly-url-routes.xml --> http://pastebin.com/EmuJUJHw
+08:16 < jardineworks:#liferay> (fixing the pattern to be /)
