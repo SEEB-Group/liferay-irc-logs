@@ -392,3 +392,10 @@
 12:46 < webczat:#liferay> okay so it's what I thought. I add bottom-up. it's uncomfortable :D
 12:46 <@jhf:#liferay> that's weird.. hmm.. maybe it behaves differently in a small screen. testing..
 12:46 < webczat:#liferay> top of the first column
+12:47 < webczat:#liferay> I understood it as like it adds it always on the top
+12:47 < webczat:#liferay> and this would mean that the second added portlet is above the first
+12:47 <@jhf:#liferay> nope it also adds to the top of column 1 for me, even on small screens
+12:47 <@jhf:#liferay> right, that's how it should work.
+12:47 <@jhf:#liferay> does it not work like that for you?
+12:47 < webczat:#liferay> hmm wait
+12:47 < webczat:#liferay> the first portlet is added at the top of column1
