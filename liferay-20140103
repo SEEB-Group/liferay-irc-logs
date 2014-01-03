@@ -269,3 +269,5 @@
 11:40 < webczat:#liferay> it seems then like a classic theme can be thought as "accessible mostly" and it's better not to use the mobile theme if you can. good to know. because now I can try to find more permanent workarounds.
 11:42 < webczat:#liferay> I'm trying to find a platform to build my site, not just testing. and this one seems wonderful in the terms of available functions. but I wouldn't choose something that I cannot use
 11:43 < webczat:#liferay> ok, still trying
+11:44 <@jhf:#liferay> yeah, understood.. the 'classic' theme is one that, as of 6.2, has 'responsive design' - so it's designed to work across a range of screen sizes. It's not a "mobile theme" in that it doesn't detect your device type (like android vs. iOS vs. something else)
+11:44 <@jhf:#liferay> it just changes its layout and uses modern html/js/css techniques to fit itself to whatever screen size you happen to be using (which is why I can easily emulate a 1024x600 netbook screen, even on my high resolution desktop, and see what happens)
