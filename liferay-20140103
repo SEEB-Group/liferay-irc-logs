@@ -522,3 +522,7 @@
 14:27 < webczat:#liferay> or rather that here's a link. sometimes you know it because of the context of the sentence and sometimes you don't
 14:27 < webczat:#liferay> editor menus/dialogs work.
 14:29 < webczat:#liferay> what does liferay actually use?
+14:30 <@jhf:#liferay> ckeditor 4.0.6
+14:30 <@jhf:#liferay> err
+14:30 <@jhf:#liferay> 4.0.3
+14:30 < webczat:#liferay> mhm
