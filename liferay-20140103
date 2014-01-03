@@ -346,3 +346,7 @@
 12:17 <@jhf:#liferay> before that, I see the 'three horizontal stripe' button next to the magnifying glass icon
 12:17 <@jhf:#liferay> if I trigger a search, then click 'outside' the search box, the long search entry box disappears and the original two buttons (magnifying glass and three-horizontal-stripe) come back
 12:17 < webczat:#liferay> I am able to get to the search box
+12:20 < webczat:#liferay> and where do you see the add button then?
+12:20 <@jhf:#liferay> when I first click on Manage->Structures
+12:20 <@jhf:#liferay> I see a box at the top, with two icons on the right
+12:20 <@jhf:#liferay> a magnifying glass (search) and a three-horizontal-stripe button
