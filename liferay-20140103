@@ -455,3 +455,5 @@
 13:24 < webczat:#liferay> yes, I could. ie has a strange issue like it does not allow me to log in, liferay says that I should enable cookies while they are enabled. chrome hmm has probably the same accessibility problems + the next one because in chrome I don't see a label of many menus.
 13:24 < webczat:#liferay> but I'm not sure if chrome is a very good browser for accessibility in general, although I could use it.
 13:25 < webczat:#liferay> problems over problems :D
+13:26 < webczat:#liferay> when liferay started it's accessibility work as a whole?
+13:27 <@jhf:#liferay> a long time ago, actually.. it began with a "section 508 theme"
