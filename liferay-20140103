@@ -285,3 +285,5 @@
 11:47 <@jhf:#liferay> I would suggest filing a bug (if you haven't already)
 11:48 < webczat:#liferay> any chances to fix those in 6.2? this one was reported by me today and I'm using 6.2.x git branch, not a GA release, so I will be able to use any fixes you give
 11:48 <@jhf:#liferay> if they get fixed, they will most likely be fixed in trunk, but would probably be trivial to back port to 6.2.x
+11:49 < webczat:#liferay> mhm not going to use trunk because I don't want unknown undocumented features in unknown places with unknown bugs from the development version
+11:49 <@jhf:#liferay> the only time Liferay back ports to an earlier release (like 6.2) is either a) because a customer needs a patch, or b) we are going to do another 6.2 CE release (e.g. 6.2.1)
