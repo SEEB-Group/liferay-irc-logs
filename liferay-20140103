@@ -128,3 +128,6 @@
 09:27 < jardineworks:#liferay> so I would have to do <implicit-parameter name="p_p_mode">view</implicit-parameter> for example right?
 09:27 < jardineworks:#liferay> oh
 09:27 < jardineworks:#liferay> but if you don't specify it at all, it will be left in the url no?
+09:28 < topolik1:#liferay> there are some ignored by default
+09:28 < jardineworks:#liferay> oh
+09:28 < jardineworks:#liferay> I didn;t know that
