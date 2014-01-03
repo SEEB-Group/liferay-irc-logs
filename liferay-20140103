@@ -236,3 +236,11 @@
 11:28 <@jhf:#liferay> yeah..
 11:28 <@jhf:#liferay> what's the resolution of your screen?
 11:28 < webczat:#liferay> who knows? erm
+11:29 <@jhf:#liferay> when I squeeze down my browser window (to emulate a mobile device) the 'add' button disappears
+11:29 < webczat:#liferay> and how do you expand it?
+11:29 <@jhf:#liferay> I have to click the little button with 3 horizontal stripes to see the 'add' function
+11:29 <@jhf:#liferay> do you 'see' a button next to the search button?
+11:29 < webczat:#liferay> ahha so... is it a tcheme changing?
+11:29 <@jhf:#liferay> yeah.. my guess is your netbook screen is small enough to trigger the responsive layout changes
+11:29 < webczat:#liferay> hmmmmm wait a while
+11:29 <@jhf:#liferay> and so stuff gets moved around and collapsed into mobile-friendly big buttons
