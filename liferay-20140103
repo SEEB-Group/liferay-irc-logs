@@ -120,3 +120,4 @@
 09:21 < topolik1:#liferay> overridden-parameter - a parameter that should be set to a certain value when a URL is recognized
 09:22 < topolik1:#liferay> generated-parameter - a parameter that will be generated from other parameters when a URL is recognized
 09:23 < topolik1:#liferay> so only implicit-parameter should be used to recognize the url to be built into friendly url
+09:24 < jardineworks:#liferay> topolik1, if I ignore all those parameters but set the javax.portlet.action as <implicit-parameter name="javax.portlet.action">searchRecipes</implicit-parameter> it should match... and the search recipes should still be passed in the parameter map
