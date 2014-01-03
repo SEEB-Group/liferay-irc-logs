@@ -430,3 +430,5 @@
 13:05 < mvlach:#liferay> [java] Parsed /home/mvlach/liferay-plugins-sdk-6.2.0/themes/JVTheme-theme/docroot/css/dockbar.css in 95 ms
 13:08 < apucay:#liferay> are your theme files not in the _diffs folder/
 13:08 < apucay:#liferay> ?
+13:12 < webczat:#liferay> jhf: what theme does liferay itself have?
+13:12 <@jhf:#liferay> you mean liferay.com  (the website)?
