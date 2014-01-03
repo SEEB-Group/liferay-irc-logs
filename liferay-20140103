@@ -283,3 +283,5 @@
 11:47 < webczat:#liferay> and i can never guarantee this before testing
 11:47 <@jhf:#liferay> yeah, it sounds like there is an accessibility bug in the classic theme.
 11:47 <@jhf:#liferay> I would suggest filing a bug (if you haven't already)
+11:48 < webczat:#liferay> any chances to fix those in 6.2? this one was reported by me today and I'm using 6.2.x git branch, not a GA release, so I will be able to use any fixes you give
+11:48 <@jhf:#liferay> if they get fixed, they will most likely be fixed in trunk, but would probably be trivial to back port to 6.2.x
