@@ -436,3 +436,4 @@
 13:13 <@jhf:#liferay> it's a custom theme that's not open source :)
 13:14 <@jhf:#liferay> also, liferay.com currently runs Liferay Portal 6.1 EE
 13:14 < mvlach:#liferay> apucay: yes - my files are in _diff folder
+13:15 < webczat:#liferay> okay, now a question. if an app says it's requirement is 6.1, does it mean 6.1 up so 6.2 too, or 6.1 only?
