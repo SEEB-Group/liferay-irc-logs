@@ -412,3 +412,6 @@
 12:56 < webczat:#liferay> would be great
 12:56 <@jhf:#liferay> what if there are 3 columns?
 12:56 < webczat:#liferay> what if you would add a selection of columns? like set a column, set where, set what etc
+12:57 <@jhf:#liferay> there's another wrinkle: layout templates can also contain multiple sets of columns. so for example you have three columns at the top of the page, then a single column below that, then below that are two columns. so it's more like a grid from that perspective.
+12:57 <@jhf:#liferay> 3-1-2
+12:57 <@jhf:#liferay> or 3-2-3 or something.
