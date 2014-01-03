@@ -81,3 +81,5 @@
 08:31 < jardineworks:#liferay> and when I remove the friendly url and look at the full url query string, my q parameter is not there
 08:34 < topolik1:#liferay> jardineworks: uhm
 08:34 < jardineworks:#liferay> am I asking a dumb question? :)
+08:35 < topolik1:#liferay> no
+08:35 < topolik1:#liferay> so in the action phase you set render parameter but the render parameter is not present in the render url, which is the nice friendly url ?
