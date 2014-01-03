@@ -608,3 +608,4 @@
 15:41 < webczat:#liferay> and let's resolve the problem of structures that i cannot create. luckily I can create site/page templates and also I'm able to edit structures in xml I believe
 15:41 <@jhf:#liferay> just depends on how much leeway and editorial control you wish to give to your site owners
 15:41 <@jhf:#liferay> I mean you can just stick and unstructured web content article on there, and let site owners go nuts with html/css/js, but then you might end up with myspace.com all over again
+15:43 < webczat:#liferay> it's just like: 1. write a short description. 2. bugtracker is hosted on our bugzilla, git is hosted on our gerrit, maven is more global and hosted somewhere else in our server. it's actually my personal website but I like doing such things. I don't currently expect others to edit it, but I'd like to make it possible.
