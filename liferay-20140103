@@ -421,3 +421,8 @@
 13:00 < webczat:#liferay> answering your question: it is possible to once ask how does this layout look like or something, then I can do what I want
 13:02 <@jhf:#liferay> when you add a portlet to a page, it is done via client-side ajax and DOM manipulation.. I imagine screen readers don't take too kindly to that kind of in-place surgery?
 13:03 < webczat:#liferay> no problem with it suddenly appearing, really
+13:04 < mvlach:#liferay> hi all
+13:04 < mvlach:#liferay> i have problem with thema
+13:04 < webczat:#liferay> aye
+13:04 < mvlach:#liferay> i created custom design and I want do use dockbar.css
+13:05 < mvlach:#liferay> but the build remove this definition from css file
