@@ -479,3 +479,4 @@
 13:35 < webczat:#liferay> popups work. the problem is just when they are resized to the mobile standards
 13:36 < webczat:#liferay> so not sure what are my options excluding switching to things like drupal (at least temporarily) or something
 13:36 < webczat:#liferay> or to previous version of liferay
+13:37 <@jhf:#liferay> I would see if you can make progress with Julio - my guess is it's a really simple fix, but I don't know anything about ARIA or accessibility so have to rely on the experts.
