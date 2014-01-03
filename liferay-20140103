@@ -605,3 +605,6 @@
 15:39 <@jhf:#liferay> ah cool. then yeah page templates, site templates, and structured web content is the way to go.
 15:40 <@jhf:#liferay> they all serve the same purpose - scalable website creation and management :)
 15:40 < webczat:#liferay> not sure if I shoult make a structured web content at all, or just a description header with web content portlet, below a related links header with another portlet etc
+15:41 < webczat:#liferay> and let's resolve the problem of structures that i cannot create. luckily I can create site/page templates and also I'm able to edit structures in xml I believe
+15:41 <@jhf:#liferay> just depends on how much leeway and editorial control you wish to give to your site owners
+15:41 <@jhf:#liferay> I mean you can just stick and unstructured web content article on there, and let site owners go nuts with html/css/js, but then you might end up with myspace.com all over again
