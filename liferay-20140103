@@ -315,3 +315,5 @@
 12:01 <@jhf:#liferay> i'll give you a hint: pin 5 is GND
 12:01 <@jhf:#liferay> the rest you have to reverse engineer
 12:01 < webczat:#liferay> of course
+12:02 < webczat:#liferay> I should now thank you by disabling a20 on your running ddevice. I just don't see from this distance if it's x86 or not haha
+12:02 < webczat:#liferay> where to upload this image? forgot the url
