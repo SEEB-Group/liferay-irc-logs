@@ -496,3 +496,5 @@
 14:09 < webczat:#liferay> I will not hear what the link is unless I use arrows
 14:13 < webczat:#liferay> this is a minor issue when editing, major when you read something
 14:15 < webczat:#liferay> because you don't know that you hit a link
+14:16 <@jhf:#liferay> so you mean when your screenreader tries to read the content inside the WYSIWYG editor?
+14:16 <@jhf:#liferay> what if you publish it out to a 'real' webpage, does it work as epxected?
