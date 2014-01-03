@@ -135,3 +135,4 @@
 09:30 < topolik1:#liferay> I think they should be ignored or have a default value
 09:30 < jardineworks:#liferay> so see.. if I just put the javax.portlet.action and the p_p_lifecycle as implicit parameters ... then my search fails
 09:30 < jardineworks:#liferay> meaning the search action is never fired...
+09:31 < jardineworks:#liferay> my portlet:actionURL seems to become a renderURL
