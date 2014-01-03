@@ -597,3 +597,5 @@
 15:29 < webczat:#liferay> nevermind. looks like I'll need to wait for those issues to be resolved or something
 15:31 < webczat:#liferay> I wanted to make a structure with things like a description header, etc. or maybe ... better to have a page template in this case? like a project page containing project descriptions, links to it's forum, developer instructions, etc...
 15:31 < webczat:#liferay> I'm completely unexperienced in any form of webpage development or normal content editing
+15:33 <@jhf:#liferay> ok.. site and page templates are useful when you know you'll be creating many copies of the same (or very similar) pages.
+15:33 <@jhf:#liferay> or set of pages (i.e. a site)
