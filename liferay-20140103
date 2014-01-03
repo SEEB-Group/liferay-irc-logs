@@ -79,3 +79,5 @@
 08:28 < topolik1:#liferay> you should be able to configure static parameters for any friendly URL in the XML
 08:30 < jardineworks:#liferay> topolik1,  in my code I forward the user at the end of the action to the render phase. before doing so I setParameter ... so sorry, not renderParameters, but basically parameters that are not appearing in the loooooooooong url. Specifically, I want to put the query into the url ... so if someone searches for meat sauce then I want it to show /recipe/-/search/meat-sauce ... right now it only shows /recipe/-/search
 08:31 < jardineworks:#liferay> and when I remove the friendly url and look at the full url query string, my q parameter is not there
+08:34 < topolik1:#liferay> jardineworks: uhm
+08:34 < jardineworks:#liferay> am I asking a dumb question? :)
