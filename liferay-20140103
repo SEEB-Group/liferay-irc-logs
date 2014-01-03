@@ -287,3 +287,7 @@
 11:48 <@jhf:#liferay> if they get fixed, they will most likely be fixed in trunk, but would probably be trivial to back port to 6.2.x
 11:49 < webczat:#liferay> mhm not going to use trunk because I don't want unknown undocumented features in unknown places with unknown bugs from the development version
 11:49 <@jhf:#liferay> the only time Liferay back ports to an earlier release (like 6.2) is either a) because a customer needs a patch, or b) we are going to do another 6.2 CE release (e.g. 6.2.1)
+11:50 <@jhf:#liferay> so then you would need to back port it to 6.2.x once it's fixed on trunk (it would probably be trivial, like a one-liner somewhere)
+11:50 <@jhf:#liferay> or wait for the next CE release :)
+11:50 < webczat:#liferay> or I should download another theme
+11:50 < webczat:#liferay> as I sait, it is few commits ahead of the GA1 thing
