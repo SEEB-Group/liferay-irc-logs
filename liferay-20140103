@@ -343,3 +343,6 @@
 12:16 <@jhf:#liferay> when I click on the search button (at your screen res, this appears to be as a magnifying glass icon), I see what you have in that screenshot
 12:16 <@jhf:#liferay> a search entry box that takes up the whole width of the popup
 12:16 <@jhf:#liferay> however, I only get that if I actually click on the magnifying glass button
+12:17 <@jhf:#liferay> before that, I see the 'three horizontal stripe' button next to the magnifying glass icon
+12:17 <@jhf:#liferay> if I trigger a search, then click 'outside' the search box, the long search entry box disappears and the original two buttons (magnifying glass and three-horizontal-stripe) come back
+12:17 < webczat:#liferay> I am able to get to the search box
