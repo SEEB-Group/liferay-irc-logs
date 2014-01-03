@@ -146,3 +146,5 @@
 09:41 < jardineworks:#liferay> it doesn't go to the action phase.
 09:42 < jardineworks:#liferay> it executes my render url
 09:43 < jardineworks:#liferay> sorry -- render method
+09:50 < topolik1:#liferay> hmm
+09:50 < topolik1:#liferay> do you need the portlet id prefix for friendly urls?
