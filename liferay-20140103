@@ -384,3 +384,4 @@
 12:39 < webczat:#liferay> and so everything except the gzip filter (probably wildfly bug that I've reported) and except hot deploy works normally
 12:39 <@jhf:#liferay> and don't call it j2ee - you'll get in big trouble with the head java ee boss people
 12:40 < webczat:#liferay> I know javaee7 was just finalized. and I just had to use it. I'm not a javaee7 developer (or actually not a javaee developer) but I'm going to learn it in the future.
+12:41 < webczat:#liferay> and I have some basic knowledge about the theory
