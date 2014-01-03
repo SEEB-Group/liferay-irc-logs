@@ -613,3 +613,5 @@
 15:47 < webczat:#liferay> one of the newest is the windows api integration for java that I believe does not really exist
 16:53 < pnutbutr:#liferay> anyone know if liferay supports active directory authentication?
 16:53 < pnutbutr:#liferay> or more specifically, I'm trying to create a portlet that communicates with a third party which authenticates using active directory
+16:54 < pnutbutr:#liferay> I'd like to authenticate once in liferay against active directory, and have that same authentication session be applied to the third party I'm communicating with in my portlet
+16:54 < pnutbutr:#liferay> any suggestions where I could look for resources on how to implement this?
