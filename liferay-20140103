@@ -485,3 +485,6 @@
 13:50 < webczat:#liferay> and always show the reduced theme so you never know what you miss unless it's as trivial as an add button
 13:51 < webczat:#liferay> maybe portal.properties can disable or change a way the theme resizes?
 13:55 < webczat:#liferay> btw what's minification? :D
+13:59 <@jhf:#liferay> magnification? it is the stripping of whitespace and changing long variable names to short variable names
+13:59 <@jhf:#liferay> from content that goes across the wire in textual form (e.g. css and javascript)
+13:59 <@jhf:#liferay> the idea is to minimize network traffic and parsing effort
