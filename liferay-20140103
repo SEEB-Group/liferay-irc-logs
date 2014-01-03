@@ -589,3 +589,4 @@
 15:24 < webczat:#liferay> hmm going to disable helo verification. I believe liferay fails helo verification
 15:25 < webczat:#liferay> like liferay.com sending emails to my server
 15:26 < webczat:#liferay> alright! :D
+15:27 < webczat:#liferay> like I use the email I gave you, but I registered on liferay.com using the email from my domain because the liferay portal instance works on it
