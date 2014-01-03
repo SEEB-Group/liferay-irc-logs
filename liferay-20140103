@@ -590,3 +590,7 @@
 15:25 < webczat:#liferay> like liferay.com sending emails to my server
 15:26 < webczat:#liferay> alright! :D
 15:27 < webczat:#liferay> like I use the email I gave you, but I registered on liferay.com using the email from my domain because the liferay portal instance works on it
+15:28 <@jhf:#liferay> I see..
+15:28 < webczat:#liferay> and liferay.com couldn't send emails to me probably failing helo verification server-side
+15:28 < webczat:#liferay> but not sure if it still does.
+15:28 < webczat:#liferay> I know that sender verification passes
