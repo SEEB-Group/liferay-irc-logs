@@ -339,3 +339,7 @@
 12:12 < webczat:#liferay> It would be hard for me to do something if I would be forced to uninstall liferay or something. if I'll be able to use it then I will probably try to fix the translation manually. and if I'll ever do, I'll share it.
 12:15 < webczat:#liferay> do you see something?
 12:15 < webczat:#liferay> http://s27.postimg.org/muiwo3per/screenshot.png
+12:16 <@jhf:#liferay> yep. it appears you have triggered a search
+12:16 <@jhf:#liferay> when I click on the search button (at your screen res, this appears to be as a magnifying glass icon), I see what you have in that screenshot
+12:16 <@jhf:#liferay> a search entry box that takes up the whole width of the popup
+12:16 <@jhf:#liferay> however, I only get that if I actually click on the magnifying glass button
