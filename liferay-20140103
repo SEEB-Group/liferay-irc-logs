@@ -488,3 +488,6 @@
 13:59 <@jhf:#liferay> magnification? it is the stripping of whitespace and changing long variable names to short variable names
 13:59 <@jhf:#liferay> from content that goes across the wire in textual form (e.g. css and javascript)
 13:59 <@jhf:#liferay> the idea is to minimize network traffic and parsing effort
+14:00 <@jhf:#liferay> so 'var superLongVar = 2 ;" becomes "var b=2;"
+14:00 <@jhf:#liferay> then superLongVar is replaced with 'b' everywhere :)
+14:00 <@jhf:#liferay> and so forth.. and so on..
