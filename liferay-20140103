@@ -46,3 +46,7 @@
 08:10 < jardineworks:#liferay> and the magic still seems to be sleeping
 08:11 < topolik1:#liferay> ok, let's wake it up :)
 08:11 < topolik1:#liferay> I know children knows good wake-up spells
+08:12 < jardineworks:#liferay> I think i understand how the mapper works (based on what I got working last night) .. but maybe if I could walk you through what I have...
+08:12 < topolik1:#liferay> ok
+08:12 < jardineworks:#liferay> my son could be a witch.
+08:12 < jardineworks:#liferay> ok -- so first, my url http://localhost:8080/web/guest/recipes?p_auth=jU4TIJGH&p_p_id=recipesearch_WAR_recipeportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
