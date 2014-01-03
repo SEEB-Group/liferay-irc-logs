@@ -389,3 +389,6 @@
 12:44 < webczat:#liferay> like how it lays out content
 12:45 <@jhf:#liferay> for me, in 6.2, when I click the 'add' button, it's always added at the top of column 1
 12:45 <@jhf:#liferay> (based on the layout template). most layout templates have 2 or 3 columns total, so apps always get added to the top of the first (left-most) column
+12:46 < webczat:#liferay> okay so it's what I thought. I add bottom-up. it's uncomfortable :D
+12:46 <@jhf:#liferay> that's weird.. hmm.. maybe it behaves differently in a small screen. testing..
+12:46 < webczat:#liferay> top of the first column
