@@ -375,3 +375,5 @@
 12:33 < webczat:#liferay> anyway
 12:33 < webczat:#liferay> I have the deployment scanner enabled, working etc. and as I sait marketplace has been deployed
 12:34 < webczat:#liferay> also the deployment scanner in liferay is active
+12:36 < webczat:#liferay> I actually have an additional test portal instance in my liferay installation with default passwords :D
+12:37 <@jhf:#liferay> unfortunately, you happen to be on the bleeding edge of Liferay: brand new (unsupported) app server, polish language, relying on accessibility, and a netbook to boot. it's really great to see this!
