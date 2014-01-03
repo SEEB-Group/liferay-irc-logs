@@ -123,3 +123,8 @@
 09:24 < jardineworks:#liferay> topolik1, if I ignore all those parameters but set the javax.portlet.action as <implicit-parameter name="javax.portlet.action">searchRecipes</implicit-parameter> it should match... and the search recipes should still be passed in the parameter map
 09:25 -!- mode/#liferay [+o jhf] by ChanServ
 09:26 < topolik1:#liferay> jardineworks: I'm not sure that you need to ignore all the other params
+09:27 < jardineworks:#liferay> topolik1, but when you set somethin to implicit, then you need to specify the value right?
+09:27 < topolik1:#liferay> or you don't need to specify it at all
+09:27 < jardineworks:#liferay> so I would have to do <implicit-parameter name="p_p_mode">view</implicit-parameter> for example right?
+09:27 < jardineworks:#liferay> oh
+09:27 < jardineworks:#liferay> but if you don't specify it at all, it will be left in the url no?
