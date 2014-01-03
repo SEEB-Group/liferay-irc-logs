@@ -118,3 +118,4 @@
 09:21 < topolik1:#liferay> ignored-parameter - Ignored parameters do not effect URL recognition.
 09:21 < topolik1:#liferay> implicit-parameter -  is not present in the route pattern.
 09:21 < topolik1:#liferay> overridden-parameter - a parameter that should be set to a certain value when a URL is recognized
+09:22 < topolik1:#liferay> generated-parameter - a parameter that will be generated from other parameters when a URL is recognized
