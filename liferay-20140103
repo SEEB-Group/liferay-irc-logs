@@ -498,3 +498,4 @@
 14:15 < webczat:#liferay> because you don't know that you hit a link
 14:16 <@jhf:#liferay> so you mean when your screenreader tries to read the content inside the WYSIWYG editor?
 14:16 <@jhf:#liferay> what if you publish it out to a 'real' webpage, does it work as epxected?
+14:17 < webczat:#liferay> it's just html. it would be really strange if it would not work
