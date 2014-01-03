@@ -229,3 +229,6 @@
 11:26 <@jhf:#liferay> yeah there is a link on the left of that bar, entitled "Add" (with a plus button next to the word Add)
 11:26 <@jhf:#liferay> it's a "real" link (not a javascript weird thing)
 11:26 <@jhf:#liferay> so would be surprised if your screen reader does not "see" it
+11:27 <@jhf:#liferay> when I hit 'tab' key, it's the first thing that gets highlighted
+11:27 <@jhf:#liferay> however, if I try to use the spacebar to 'click' on the link, it doesn't worjk.
+11:27 < webczat:#liferay> ha and i don't see the link. popups are problematic at least on my small netbook screen
