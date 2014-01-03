@@ -87,3 +87,7 @@
 08:38 < topolik1:#liferay> ok
 08:38 < topolik1:#liferay> and that URL does not have the parameter?
 08:39 < jardineworks:#liferay> well, I have not mapped it in my routes file so if it was there it should be showing (I think) .. but it is not.
+08:50 < topolik1:#liferay> hmm, I need to try
+08:50 < topolik1:#liferay> from code it seems it should work
+08:50 < topolik1:#liferay> jardineworks: 6.1.2?
+08:50 < jardineworks:#liferay> yep
