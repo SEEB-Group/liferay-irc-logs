@@ -52,3 +52,4 @@
 08:12 < jardineworks:#liferay> ok -- so first, my url http://localhost:8080/web/guest/recipes?p_auth=jU4TIJGH&p_p_id=recipesearch_WAR_recipeportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
 08:13 < jardineworks:#liferay> (let me pastie a couple of things)
 08:13 < topolik1:#liferay> ok
+08:14 < jardineworks:#liferay> topolik1, liferay-portlet.xml --> http://pastebin.com/AyNArx3v
