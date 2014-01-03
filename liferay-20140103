@@ -274,3 +274,8 @@
 11:45 <@jhf:#liferay> it is possible though to do traditional 'mobile device detection' and, for example, redirect foo.com to m.foo.com (which has a different, mobile-dedicated theme)
 11:45 <@jhf:#liferay> that's different than using a universal 'responsive' theme though (like what we currently have by default, wit the "classic" theme)
 11:45 < webczat:#liferay> I thought the mobile theme is a separate one.
+11:46 < webczat:#liferay> okay. so what to do now...
+11:46 <@jhf:#liferay> you can assign a mobile theme to be used when a particular device (or set of device families) is detected.
+11:46 < webczat:#liferay> actually I'd be happy to disable responsiveness
+11:46 <@jhf:#liferay> but the 'classic' theme as shipped with liferay doesn't do that - instead it uses special CSS classes to 'respond' to the size of the screen on which it is rendered.
+11:46 <@jhf:#liferay> you could perhaps download and use a non-responsive theme from liferay.com/marketplace
