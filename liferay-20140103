@@ -441,3 +441,6 @@
 13:17 < webczat:#liferay> because it doesn't have a version for 6.2 but it may be compatiblee
 13:17 <@jhf:#liferay> webczat: Marketplace apps, when they say "6.1+" means any 6.1, but NOT 6.2
 13:17 <@jhf:#liferay> and when you're talking themes, it is most likely NOT going to work in 6.2 if it was built in 6.1.
+13:18 <@jhf:#liferay> because of the major UI changes in 6.2 and associated incompatible css/js/html changes in themes.
+13:18 < webczat:#liferay> oh my. so what now? was any theme created for 6.2 yet?
+13:18 <@jhf:#liferay> it happens every release, unfortunately. themes are one of the last bastions of "too hard to really make compatible from release to release" however there is a tool that our UI team wrote to do most of the conversion from 6.1 to 6.2 if interested.
