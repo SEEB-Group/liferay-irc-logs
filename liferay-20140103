@@ -457,3 +457,8 @@
 13:25 < webczat:#liferay> problems over problems :D
 13:26 < webczat:#liferay> when liferay started it's accessibility work as a whole?
 13:27 <@jhf:#liferay> a long time ago, actually.. it began with a "section 508 theme"
+13:27 <@jhf:#liferay> way back in like 2007
+13:27 < webczat:#liferay> mhm it's possible 6.1 was accessible. not sure though
+13:27 <@jhf:#liferay> also, you may be interested in Julio's blog post: https://www.liferay.com/web/julio.camarero/blog/-/blogs/liferay-accessible-websites
+13:27 <@jhf:#liferay> listing accessible sites built on Liferay
+13:28 <@jhf:#liferay> and some other useful links
