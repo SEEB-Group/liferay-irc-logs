@@ -483,3 +483,4 @@
 13:49 < webczat:#liferay> i'm just very impatient
 13:50 < webczat:#liferay> those popups are problematic, impossible to disable completely
 13:50 < webczat:#liferay> and always show the reduced theme so you never know what you miss unless it's as trivial as an add button
+13:51 < webczat:#liferay> maybe portal.properties can disable or change a way the theme resizes?
