@@ -444,3 +444,5 @@
 13:18 <@jhf:#liferay> because of the major UI changes in 6.2 and associated incompatible css/js/html changes in themes.
 13:18 < webczat:#liferay> oh my. so what now? was any theme created for 6.2 yet?
 13:18 <@jhf:#liferay> it happens every release, unfortunately. themes are one of the last bastions of "too hard to really make compatible from release to release" however there is a tool that our UI team wrote to do most of the conversion from 6.1 to 6.2 if interested.
+13:19 < webczat:#liferay> I'm not going to do any more hacks
+13:19 <@jhf:#liferay> I don't think so, but work is in progress to upgrade the existing themes (at least those written by Liferay) to be 6.2 compatible.
