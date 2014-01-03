@@ -279,3 +279,7 @@
 11:46 < webczat:#liferay> actually I'd be happy to disable responsiveness
 11:46 <@jhf:#liferay> but the 'classic' theme as shipped with liferay doesn't do that - instead it uses special CSS classes to 'respond' to the size of the screen on which it is rendered.
 11:46 <@jhf:#liferay> you could perhaps download and use a non-responsive theme from liferay.com/marketplace
+11:47 < webczat:#liferay> of course. but this is a problem because it should also be accessible
+11:47 < webczat:#liferay> and i can never guarantee this before testing
+11:47 <@jhf:#liferay> yeah, it sounds like there is an accessibility bug in the classic theme.
+11:47 <@jhf:#liferay> I would suggest filing a bug (if you haven't already)
