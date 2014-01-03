@@ -96,3 +96,4 @@
 08:55 < jardineworks:#liferay> which would explain the parameters missing probably
 09:04 < hufg:#liferay> anyone ever realized how absolutely amazing glassfish command line tooling is?
 09:05 < hufg:#liferay> i could start selling liferay domain installation scripts like it's nothing!
+09:06 < jardineworks:#liferay> topolik1, This is like mad science. How would you create a map for this url? http://localhost:8080/web/guest/recipes?p_auth=jU4TIJGH&p_p_id=recipesearch_WAR_recipeportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
