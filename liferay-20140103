@@ -132,3 +132,6 @@
 09:28 < jardineworks:#liferay> oh
 09:28 < jardineworks:#liferay> I didn;t know that
 09:29 < topolik1:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-service/src/com/liferay/portal/kernel/portlet/DefaultFriendlyURLMapper.java#L55,L67
+09:30 < topolik1:#liferay> I think they should be ignored or have a default value
+09:30 < jardineworks:#liferay> so see.. if I just put the javax.portlet.action and the p_p_lifecycle as implicit parameters ... then my search fails
+09:30 < jardineworks:#liferay> meaning the search action is never fired...
