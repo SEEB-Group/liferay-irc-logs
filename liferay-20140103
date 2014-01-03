@@ -169,3 +169,5 @@
 10:01 < jardineworks:#liferay> of luck.
 10:02 < jardineworks:#liferay> add in the friendly url mapping to liferay-portlet.xml --> http://pastebin.com/AyNArx3v
 10:03 < jardineworks:#liferay> add in the route mapping --> http://pastebin.com/dLBNNQpH
+10:04 < jardineworks:#liferay> url in the page source is now -- http://localhost:8080/web/guest/recipes/-/recipe/search?p_auth=jU4TIJGH&p_p_lifecycle=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
+10:05 < jardineworks:#liferay> which makes sense... all the default stuff is being hidden
