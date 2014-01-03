@@ -472,3 +472,5 @@
 13:30 <@jhf:#liferay> although ,the theme is definitely simpler than the 6.2 one.. but there is also a separate theme for control panel, which you don't see on liferay.com, and it's likely not nearly as accessible
 13:30 < webczat:#liferay> actually liferay's control panel is 100% accessible, site admin pages have problems, etc. popups have problems because they are mobile when the rest of the page is not
 13:30 <@jhf:#liferay> ah so its the popups.. yeah 6.1 has much less popups.
+13:31 < webczat:#liferay> not only but mainly. it's the theme's adaptive behaviour, not popups. popups itself are nice.
+13:31 < webczat:#liferay> eee wait a while buhaha
