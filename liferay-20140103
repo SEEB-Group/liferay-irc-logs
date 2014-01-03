@@ -271,3 +271,6 @@
 11:43 < webczat:#liferay> ok, still trying
 11:44 <@jhf:#liferay> yeah, understood.. the 'classic' theme is one that, as of 6.2, has 'responsive design' - so it's designed to work across a range of screen sizes. It's not a "mobile theme" in that it doesn't detect your device type (like android vs. iOS vs. something else)
 11:44 <@jhf:#liferay> it just changes its layout and uses modern html/js/css techniques to fit itself to whatever screen size you happen to be using (which is why I can easily emulate a 1024x600 netbook screen, even on my high resolution desktop, and see what happens)
+11:45 <@jhf:#liferay> it is possible though to do traditional 'mobile device detection' and, for example, redirect foo.com to m.foo.com (which has a different, mobile-dedicated theme)
+11:45 <@jhf:#liferay> that's different than using a universal 'responsive' theme though (like what we currently have by default, wit the "classic" theme)
+11:45 < webczat:#liferay> I thought the mobile theme is a separate one.
