@@ -222,3 +222,10 @@
 11:25 <@jhf:#liferay> there is a bar at the top on the left of the bar is an "Add" link
 11:25 < webczat:#liferay> ahm so I probably don't see the bar
 11:25 <@jhf:#liferay> (on the right of the bar is a search box)
+11:26 <@jhf:#liferay> manage->structures is in a popup
+11:26 < webczat:#liferay> I see something that when I click on pulls the search box. no bar
+11:26 <@jhf:#liferay> so yeah this sounds like an accessibility issue..
+11:26 < webczat:#liferay> I know. and that may be a problem
+11:26 <@jhf:#liferay> yeah there is a link on the left of that bar, entitled "Add" (with a plus button next to the word Add)
+11:26 <@jhf:#liferay> it's a "real" link (not a javascript weird thing)
+11:26 <@jhf:#liferay> so would be surprised if your screen reader does not "see" it
