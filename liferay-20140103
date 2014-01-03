@@ -148,3 +148,4 @@
 09:43 < jardineworks:#liferay> sorry -- render method
 09:50 < topolik1:#liferay> hmm
 09:50 < topolik1:#liferay> do you need the portlet id prefix for friendly urls?
+09:53 < jardineworks:#liferay> topolik1, not sure -- Liferay is just adding it for me
