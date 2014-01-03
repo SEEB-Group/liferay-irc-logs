@@ -138,3 +138,4 @@
 09:31 < jardineworks:#liferay> my portlet:actionURL seems to become a renderURL
 09:34 < jardineworks:#liferay>  defaultReservedParameters.put("p_p_lifecycle", "0");
 09:34 < jardineworks:#liferay> perhaps that should be overriden for me to 1
+09:37 < topolik1:#liferay> yeah
