@@ -235,3 +235,4 @@
 16:24 < jardineworks:#liferay> apucay, looks like it... though since it is a map of strings, no point in overriding that, might as well just use the request attribtues as proposed by rotty in that link
 16:24 < webczat:#liferay> like autodeploy works
 16:43 < webczat:#liferay> agh
+--- Log closed Fri Jan 03 00:00:20 2014
