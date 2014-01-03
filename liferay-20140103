@@ -266,3 +266,4 @@
 11:39 <@jhf:#liferay> and the 'add' link is gone (it's under the button with three horizontal stripes)
 11:39 < webczat:#liferay> mhm
 11:39 <@jhf:#liferay> so this sounds like an accessibility issue.
+11:40 < webczat:#liferay> it seems then like a classic theme can be thought as "accessible mostly" and it's better not to use the mobile theme if you can. good to know. because now I can try to find more permanent workarounds.
