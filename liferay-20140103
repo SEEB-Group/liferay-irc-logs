@@ -216,3 +216,9 @@
 11:22 <@jhf:#liferay> you logged in with sufficient privileges?
 11:23 < webczat:#liferay> yes. it may be a pure accessibility issue
 11:23 < webczat:#liferay> so if you see it and I don't...
+11:25 <@jhf:#liferay> from the front page, I click on Admin->Content
+11:25 <@jhf:#liferay> then click "Web Content"
+11:25 <@jhf:#liferay> then "Manage" drop-down, pick "Structures"
+11:25 <@jhf:#liferay> there is a bar at the top on the left of the bar is an "Add" link
+11:25 < webczat:#liferay> ahm so I probably don't see the bar
+11:25 <@jhf:#liferay> (on the right of the bar is a search box)
