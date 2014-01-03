@@ -594,3 +594,4 @@
 15:28 < webczat:#liferay> and liferay.com couldn't send emails to me probably failing helo verification server-side
 15:28 < webczat:#liferay> but not sure if it still does.
 15:28 < webczat:#liferay> I know that sender verification passes
+15:29 < webczat:#liferay> nevermind. looks like I'll need to wait for those issues to be resolved or something
