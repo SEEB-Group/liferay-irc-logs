@@ -109,3 +109,7 @@
 09:18 < topolik1:#liferay> thinking of it (trying to remember) - there are 2 processes
 09:18 < topolik1:#liferay> 1. from params to friendly url
 09:19 < topolik1:#liferay> 2. from friendly url to params
+09:19 < topolik1:#liferay> implicit parameters seem to be hidden in URL but used in parameters
+09:19 < jardineworks:#liferay> i see
+09:19 < topolik1:#liferay> by "params" I mean parameters map
+09:20 < jardineworks:#liferay> and the map only applies if ALL the parameters in the route definition are matched right?
