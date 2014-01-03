@@ -491,3 +491,4 @@
 14:00 <@jhf:#liferay> so 'var superLongVar = 2 ;" becomes "var b=2;"
 14:00 <@jhf:#liferay> then superLongVar is replaced with 'b' everywhere :)
 14:00 <@jhf:#liferay> and so forth.. and so on..
+14:01 < webczat:#liferay> nevermind
