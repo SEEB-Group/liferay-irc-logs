@@ -73,3 +73,6 @@
 08:26 < topolik1:#liferay> well, it seems that I  use only L2 caches :D
 08:26 < jardineworks:#liferay> topolik1, do you know if it is possible to put render parameters in the resulting friendly url?
 08:26 < jardineworks:#liferay> haha
+08:27 < topolik1:#liferay> what do you mean by the resulting friendly url?
+08:27 < topolik1:#liferay> all parameters you append to the friendly URL should be OK
+08:27 < topolik1:#liferay> and (on the other hand)
