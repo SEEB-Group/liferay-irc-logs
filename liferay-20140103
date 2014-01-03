@@ -140,3 +140,7 @@
 09:34 < jardineworks:#liferay> perhaps that should be overriden for me to 1
 09:37 < topolik1:#liferay> yeah
 09:38 < topolik1:#liferay> but that should be done with the lifecycle implicit param
+09:41 < jardineworks:#liferay> topolik1, ok .. so if I have nothing bu <route><pattern>/</pattern></route> ... then I see the p_p_id, p_p_col_id, etc removed and my form url is set to
+09:41 < jardineworks:#liferay> http://localhost:8080/web/guest/recipes/-/search/?p_auth=jU4TIJGH&p_p_lifecycle=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
+09:41 < jardineworks:#liferay> but, when I click it...
+09:41 < jardineworks:#liferay> it doesn't go to the action phase.
