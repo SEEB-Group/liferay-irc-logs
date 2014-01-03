@@ -616,3 +616,4 @@
 16:54 < pnutbutr:#liferay> I'd like to authenticate once in liferay against active directory, and have that same authentication session be applied to the third party I'm communicating with in my portlet
 16:54 < pnutbutr:#liferay> any suggestions where I could look for resources on how to implement this?
 16:55 < pnutbutr:#liferay> most of the docs I've found are for integrating liferay to active directory for authentication, but not passing that authentication to a third party through a portlet
+18:57 < apucay:#liferay> what do you mean by passing that authentication to a third party?
