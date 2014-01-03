@@ -180,3 +180,6 @@
 10:07 < jardineworks:#liferay> update the route file to --> http://pastebin.com/H16cXQtM
 10:08 < jardineworks:#liferay> and the url in the page source is --> http://localhost:8080/web/guest/recipes/-/recipe/search?p_auth=jU4TIJGH
 10:08 < jardineworks:#liferay> which is right since now I am hiding the action and the lifecycle.
+10:09 < jardineworks:#liferay> and the search works
+10:09 < jardineworks:#liferay> :S
+10:09 < jardineworks:#liferay> apparently I just needed to type out everything I was doing.
