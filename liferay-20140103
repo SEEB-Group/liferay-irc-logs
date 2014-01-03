@@ -499,3 +499,7 @@
 14:16 <@jhf:#liferay> so you mean when your screenreader tries to read the content inside the WYSIWYG editor?
 14:16 <@jhf:#liferay> what if you publish it out to a 'real' webpage, does it work as epxected?
 14:17 < webczat:#liferay> it's just html. it would be really strange if it would not work
+14:18 < webczat:#liferay> but in the editor, using arrows to read it triggers the bug. if you know that it's a link there you can use left/right and navigate to it and then it will work.
+14:18 < webczat:#liferay> like I could edit links that I created in my mail notifications
+14:18 <@jhf:#liferay> so when you said "major issue when you read something" - someone who is only reading something presumably is NOT using a WYSIWYG editor, but just reading the webpage as a traditional webpage, no?
+14:19 < webczat:#liferay> but I couldn't see them when navigating line by line
