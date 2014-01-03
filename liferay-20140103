@@ -512,3 +512,7 @@
 14:23 < webczat:#liferay> I just want to make a website. So not sure if I want/can wait so long. not like it's time-constrained because it isn't. but it just took too long for me to set up my vm for it, I'm a lazy person :)
 14:23 <@jhf:#liferay> coeditor is supposedly super-accessible
 14:23 < webczat:#liferay> hm? :D
+14:24 <@jhf:#liferay> http://ckeditor.com/blog/CKEditor-4.0.1-Released
+14:24 <@jhf:#liferay> "CKEditor has a reputation for caring about accessibility, so this version includes numerous updates as well as improved Inline Editing compatibility with the JAWS screen reader."
+14:24 <@jhf:#liferay> sooo
+14:24 <@jhf:#liferay> maybe they don't test with NVDA :/
