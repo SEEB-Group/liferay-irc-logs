@@ -86,3 +86,4 @@
 08:38 < jardineworks:#liferay> well, I am not setting it as a render parameter anymore... I was, but now I am creating a liferay portlet url and setting the parameter on it. Then at the end of the action, I am redirecting to that url.
 08:38 < topolik1:#liferay> ok
 08:38 < topolik1:#liferay> and that URL does not have the parameter?
+08:39 < jardineworks:#liferay> well, I have not mapped it in my routes file so if it was there it should be showing (I think) .. but it is not.
