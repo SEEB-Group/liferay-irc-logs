@@ -113,3 +113,5 @@
 09:19 < jardineworks:#liferay> i see
 09:19 < topolik1:#liferay> by "params" I mean parameters map
 09:20 < jardineworks:#liferay> and the map only applies if ALL the parameters in the route definition are matched right?
+09:20 < topolik1:#liferay> ok, looking at the DRD
+09:20 < topolik1:#liferay> DTD
