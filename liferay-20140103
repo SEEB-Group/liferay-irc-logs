@@ -370,3 +370,4 @@
 12:30 < webczat:#liferay> ehm what a cool name for the portal.properties property. :D with a comment like "set to true if you want to use very advanced settings that override the autodetection logic"
 12:30 <@jhf:#liferay> haha is there an override?? i did not know that.
 12:30 <@jhf:#liferay> here's the code that attempts to detect hot deploy-ness: https://github.com/liferay/liferay-portal/blob/5a8640237521b2b8d68dd4a4fdfc478aa7426cf5/portal-impl/src/com/liferay/portal/server/capabilities/JBossServerCapabilities.java
+12:31 < webczat:#liferay> mhm
