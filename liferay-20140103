@@ -131,3 +131,4 @@
 09:28 < topolik1:#liferay> there are some ignored by default
 09:28 < jardineworks:#liferay> oh
 09:28 < jardineworks:#liferay> I didn;t know that
+09:29 < topolik1:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-service/src/com/liferay/portal/kernel/portlet/DefaultFriendlyURLMapper.java#L55,L67
