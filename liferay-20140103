@@ -481,3 +481,5 @@
 13:36 < webczat:#liferay> or to previous version of liferay
 13:37 <@jhf:#liferay> I would see if you can make progress with Julio - my guess is it's a really simple fix, but I don't know anything about ARIA or accessibility so have to rely on the experts.
 13:49 < webczat:#liferay> i'm just very impatient
+13:50 < webczat:#liferay> those popups are problematic, impossible to disable completely
+13:50 < webczat:#liferay> and always show the reduced theme so you never know what you miss unless it's as trivial as an add button
