@@ -361,3 +361,5 @@
 12:26 <@jhf:#liferay> which app server are you using?
 12:26 <@jhf:#liferay> or servlet container (e.g. Tomcat?)
 12:26 < webczat:#liferay> hmm wildfly. it's ... you would say jboss8 if you don't know what wildfly is
+12:27 < webczat:#liferay> compatible enough to run liferay properly with one exception: some bug in one or the other forced me to comment the gzip filter in web.xml :) but apart from that all instructions from jboss7 work
+12:27 <@jhf:#liferay> ah yeah, that's a known issue - I don't think jboss8 (wildfly) is supported yet.
