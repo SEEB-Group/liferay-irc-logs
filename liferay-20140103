@@ -467,3 +467,6 @@
 13:28 <@jhf:#liferay> yay!
 13:28 <@jhf:#liferay> it's actually easier to make an accessible website as compared to making Liferay itself accessible :)
 13:28 < webczat:#liferay> but too bad I don't have any theme
+13:29 <@jhf:#liferay> well I imagine if you tried to access the administrative interfaces on liferay.com you'd run into issues.
+13:29 < webczat:#liferay> maybe, but not necessarily
+13:30 <@jhf:#liferay> although ,the theme is definitely simpler than the 6.2 one.. but there is also a separate theme for control panel, which you don't see on liferay.com, and it's likely not nearly as accessible
