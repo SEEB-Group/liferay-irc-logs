@@ -363,3 +363,6 @@
 12:26 < webczat:#liferay> hmm wildfly. it's ... you would say jboss8 if you don't know what wildfly is
 12:27 < webczat:#liferay> compatible enough to run liferay properly with one exception: some bug in one or the other forced me to comment the gzip filter in web.xml :) but apart from that all instructions from jboss7 work
 12:27 <@jhf:#liferay> ah yeah, that's a known issue - I don't think jboss8 (wildfly) is supported yet.
+12:28 <@jhf:#liferay> the thing that detects whether hot deploy is enabled or not doesn't know about jboss8 .. yet.
+12:28 <@jhf:#liferay> and it's long story as to why marketplace-portlet was able to be deployed :)
+12:28 < webczat:#liferay> I would understand that it's not supported. but can't I tell the app that hot deploy is supported no matter what it thinks?
