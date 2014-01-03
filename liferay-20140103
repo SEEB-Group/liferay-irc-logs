@@ -611,3 +611,5 @@
 15:43 < webczat:#liferay> it's just like: 1. write a short description. 2. bugtracker is hosted on our bugzilla, git is hosted on our gerrit, maven is more global and hosted somewhere else in our server. it's actually my personal website but I like doing such things. I don't currently expect others to edit it, but I'd like to make it possible.
 15:45 < webczat:#liferay> like I'd like to host my own ideas on it, no matter what will it look like later, I'm an amateur programmer and didn't finish any of my larger ideas, but I can still try :D
 15:47 < webczat:#liferay> one of the newest is the windows api integration for java that I believe does not really exist
+16:53 < pnutbutr:#liferay> anyone know if liferay supports active directory authentication?
+16:53 < pnutbutr:#liferay> or more specifically, I'm trying to create a portlet that communicates with a third party which authenticates using active directory
