@@ -356,3 +356,8 @@
 12:24 <@jhf:#liferay> that sounds like an accessibility problem - somewhere we are missing an important (likely related to ARIA) tag somewhere in the responsive classic theme
 12:25 < webczat:#liferay> and...
 12:25 < webczat:#liferay> I'm not sure what theme can I use.
+12:26 < webczat:#liferay> and I'm not sure why liferay was able to deploy marketplace, but says that hot deploy is disabled
+12:26 < webczat:#liferay> like unsupported, not disabled
+12:26 <@jhf:#liferay> which app server are you using?
+12:26 <@jhf:#liferay> or servlet container (e.g. Tomcat?)
+12:26 < webczat:#liferay> hmm wildfly. it's ... you would say jboss8 if you don't know what wildfly is
