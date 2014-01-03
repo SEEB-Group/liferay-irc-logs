@@ -154,3 +154,16 @@
 09:59 < topolik1:#liferay> strange
 10:00 < jardineworks:#liferay> ok -- from the top.
 10:00 < jardineworks:#liferay> no friendly url configuration in the liferay-portlet.xml
+10:01 < jardineworks:#liferay> in the page source for the action I see -- <form name="fm" method="post" action="http://localhost:8080/web/guest/recipes?p_auth=jU4TIJGH&amp;p_p_id=recipesearch_WAR_recipeportlet&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-1&amp;p_p_col_count=1&amp;_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes"> <div class="chalkboard-large-content-container"> <div class="chalkboard-filter-container"> <div class=
+10:01 < jardineworks:#liferay> "row"> <div class="large-9 column"> <div class="row"> <div class="large-12 medium-12 small-12 columns"> <h3>Recipe Categories</h3> </div> </div> <div class="row"> <ul class="chalkboard-filter-checkbox-list"> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="979" id="ck1" name="category"> <label for="ck1">Appetizer</label> </li> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="983" id="ck2" name="cat
+10:01 < jardineworks:#liferay> egory"> <label for="ck2">Dessert</label> </li> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="988" id="ck3" name="category"> <label for="ck3">Main Dish</label> </li> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="989" id="ck4" name="category"> <label for="ck4">Side Dish</label> </li> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="990" id="ck5" name="category"> <lab
+10:01 < jardineworks:#liferay> el for="ck5">Snack</label> </li> <li class="large-4 medium-4 small-12 columns"> <input type="checkbox" value="1008" id="ck6" name="category"> <label for="ck6">Beverage</label> </li> </ul> </div> </div> <div class="large-3 column"> <div class="filter-checkbox-list"> <div class="row"> <div class="large-12 medium-12 small-12 columns"> <h3>Ingredients</h3> </div> </div> <p>Enter the ingredients you want to search for, separated by commas.</p> <fieldset> <in
+10:01 < jardineworks:#liferay> put name="query" id="query" type="text" value=""> <a class="button small search" href="#">Apply</a> <script type="text/javascript">(function(b){var a=b(".chalkboard-large-container form");b("a.search",a).on("click",funct
+10:01 < jardineworks:#liferay> woah
+10:01 < jardineworks:#liferay> sorry
+10:01 < jardineworks:#liferay> http://localhost:8080/web/guest/recipes?p_auth=jU4TIJGH&p_p_id=recipesearch_WAR_recipeportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_recipesearch_WAR_recipeportlet_javax.portlet.action=searchRecipes
+10:01 < hufg:#liferay> cheers! bye!
+10:01 < jardineworks:#liferay> and when I do the search, it works
+10:01 < jardineworks:#liferay> bye hufg  -- best o fluck
+10:01 < jardineworks:#liferay> haha
+10:01 < jardineworks:#liferay> of luck.
