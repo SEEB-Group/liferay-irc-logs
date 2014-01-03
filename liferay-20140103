@@ -354,3 +354,5 @@
 12:21 <@jhf:#liferay> only when I click on the magnifying glass button do I see the search entry box that you show in your screenshot
 12:24 < webczat:#liferay> so why I see the one but not the other? two unlabelled clickable icons >>>  one unlabelled and one invisible
 12:24 <@jhf:#liferay> that sounds like an accessibility problem - somewhere we are missing an important (likely related to ARIA) tag somewhere in the responsive classic theme
+12:25 < webczat:#liferay> and...
+12:25 < webczat:#liferay> I'm not sure what theme can I use.
