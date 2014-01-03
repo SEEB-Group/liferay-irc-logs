@@ -604,3 +604,4 @@
 15:39 < webczat:#liferay> because I'll host several projects
 15:39 <@jhf:#liferay> ah cool. then yeah page templates, site templates, and structured web content is the way to go.
 15:40 <@jhf:#liferay> they all serve the same purpose - scalable website creation and management :)
+15:40 < webczat:#liferay> not sure if I shoult make a structured web content at all, or just a description header with web content portlet, below a related links header with another portlet etc
