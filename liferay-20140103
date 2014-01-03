@@ -600,3 +600,7 @@
 15:33 <@jhf:#liferay> ok.. site and page templates are useful when you know you'll be creating many copies of the same (or very similar) pages.
 15:33 <@jhf:#liferay> or set of pages (i.e. a site)
 15:34 <@jhf:#liferay> but for individual parts of a page, such as a list of links or developer instructions, you'd probably want to create a structure/template (which serves the same purpose as page templates - a way to make something once and make it easy to be repeated later)
+15:39 < webczat:#liferay> actually it is going to later be a site template
+15:39 < webczat:#liferay> because I'll host several projects
+15:39 <@jhf:#liferay> ah cool. then yeah page templates, site templates, and structured web content is the way to go.
+15:40 <@jhf:#liferay> they all serve the same purpose - scalable website creation and management :)
