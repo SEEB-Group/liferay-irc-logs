@@ -263,3 +263,6 @@
 11:38 < webczat:#liferay> I'm going to try hard to enforce classic theme on mobile devices. or at least on my account
 11:38 < webczat:#liferay> not sure if possible
 11:38 <@jhf:#liferay> ok yeah when I run in that resolution, the theme changes to mobile-like
+11:39 <@jhf:#liferay> and the 'add' link is gone (it's under the button with three horizontal stripes)
+11:39 < webczat:#liferay> mhm
+11:39 <@jhf:#liferay> so this sounds like an accessibility issue.
