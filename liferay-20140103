@@ -102,3 +102,6 @@
 09:16 < topolik1:#liferay> jardineworks: I don't remember, honestly :/
 09:16 < jardineworks:#liferay> :9
 09:16 < topolik1:#liferay> but the important params are p_p_lifecycle and javax.portlet.action
+09:17 < jardineworks:#liferay> topolik1, ok -- so the issue is that I need the javax.portlet.action to be visible ... so how do I include it, but hide it?
+09:17 < topolik1:#liferay> you should match these 2
+09:17 < jardineworks:#liferay> implicit?
