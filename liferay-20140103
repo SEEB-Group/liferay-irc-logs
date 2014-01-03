@@ -399,3 +399,6 @@
 12:47 <@jhf:#liferay> does it not work like that for you?
 12:47 < webczat:#liferay> hmm wait
 12:47 < webczat:#liferay> the first portlet is added at the top of column1
+12:48 < webczat:#liferay> the secon dportlet is where? below the first? or above the first?
+12:48 <@jhf:#liferay> it should be above the first
+12:48 < webczat:#liferay> so it's bottom-up adding. :D
