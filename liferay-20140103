@@ -371,3 +371,6 @@
 12:30 <@jhf:#liferay> haha is there an override?? i did not know that.
 12:30 <@jhf:#liferay> here's the code that attempts to detect hot deploy-ness: https://github.com/liferay/liferay-portal/blob/5a8640237521b2b8d68dd4a4fdfc478aa7426cf5/portal-impl/src/com/liferay/portal/server/capabilities/JBossServerCapabilities.java
 12:31 < webczat:#liferay> mhm
+12:33 < webczat:#liferay> what a hack...
+12:33 < webczat:#liferay> anyway
+12:33 < webczat:#liferay> I have the deployment scanner enabled, working etc. and as I sait marketplace has been deployed
