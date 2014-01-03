@@ -552,3 +552,7 @@
 15:01 <@jhf:#liferay> translations are done through an automated website: translate.liferay.com
 15:01 <@jhf:#liferay> http://translate.liferay.com/pootle/pl/portal/
 15:01 <@jhf:#liferay> there are 11,017 words awaiting your contribution
+15:02 <@jhf:#liferay> you ARE considering contributing, right? :)
+15:02 <@jhf:#liferay> lets find that broken translation
+15:02 <@jhf:#liferay> http://translate.liferay.com/pootle/pl/portal/Language_pl.properties/translate/?search=przejd%C5%BA+do+komentarzy&sfields=source&sfields=target
+15:03 <@jhf:#liferay> someone didn't know what content meant (vs. commentary)
