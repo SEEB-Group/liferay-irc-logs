@@ -208,3 +208,5 @@
 10:53 < jardineworks:#liferay> breaks?! lazy canadians.
 11:16 < webczat:#liferay> hey, anyone here?
 11:19 < webczat:#liferay> I have another, problem without a workaround, I cannot add structures, like I don't find any function to do it
+11:21 <@jhf:#liferay> webczat: 6.2? I believe in 6.2, the underlying mechanism supporting web content structures moved to the DDM infrastructure/libraries.
+11:21 < webczat:#liferay> actually I see the site administration thing, manage structures and it displays a list of structures (empty at first) ant what else? nothing. I can search for structures, but cannot add them
