@@ -428,3 +428,5 @@
 13:05 < mvlach:#liferay> but the build remove this definition from css file
 13:05 < mvlach:#liferay> know somebody why ?
 13:05 < mvlach:#liferay> [java] Parsed /home/mvlach/liferay-plugins-sdk-6.2.0/themes/JVTheme-theme/docroot/css/dockbar.css in 95 ms
+13:08 < apucay:#liferay> are your theme files not in the _diffs folder/
+13:08 < apucay:#liferay> ?
