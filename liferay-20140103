@@ -377,3 +377,4 @@
 12:34 < webczat:#liferay> also the deployment scanner in liferay is active
 12:36 < webczat:#liferay> I actually have an additional test portal instance in my liferay installation with default passwords :D
 12:37 <@jhf:#liferay> unfortunately, you happen to be on the bleeding edge of Liferay: brand new (unsupported) app server, polish language, relying on accessibility, and a netbook to boot. it's really great to see this!
+12:37 <@jhf:#liferay> (to see that you've gotten that far).. we're not perfect, but this is a really useful test case. so I really appreciate you trying everything out :)
