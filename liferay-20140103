@@ -599,3 +599,4 @@
 15:31 < webczat:#liferay> I'm completely unexperienced in any form of webpage development or normal content editing
 15:33 <@jhf:#liferay> ok.. site and page templates are useful when you know you'll be creating many copies of the same (or very similar) pages.
 15:33 <@jhf:#liferay> or set of pages (i.e. a site)
+15:34 <@jhf:#liferay> but for individual parts of a page, such as a list of links or developer instructions, you'd probably want to create a structure/template (which serves the same purpose as page templates - a way to make something once and make it easy to be repeated later)
