@@ -518,3 +518,6 @@
 14:24 <@jhf:#liferay> maybe they don't test with NVDA :/
 14:25 < webczat:#liferay> maybe
 14:26 < webczat:#liferay> but when you read text, it's pretty good. as I sait, I know what I edit if it's not a link. and if I know where a link is, and navigate to it by character/etc, it says it's a link, i can see it, edit it etc
+14:27 < webczat:#liferay> tested. worse if you don't know that you edit a link
+14:27 < webczat:#liferay> or rather that here's a link. sometimes you know it because of the context of the sentence and sometimes you don't
+14:27 < webczat:#liferay> editor menus/dialogs work.
