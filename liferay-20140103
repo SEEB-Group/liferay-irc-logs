@@ -618,3 +618,4 @@
 16:55 < pnutbutr:#liferay> most of the docs I've found are for integrating liferay to active directory for authentication, but not passing that authentication to a third party through a portlet
 18:57 < apucay:#liferay> what do you mean by passing that authentication to a third party?
 18:59 < apucay:#liferay> i think all LDAP auth does is check that there is a user is on the LDAP server with the user/pass combo that you give it
+19:03 < apucay:#liferay> you can create an auto login hook modeled after RequestHeaderAutoLogin
