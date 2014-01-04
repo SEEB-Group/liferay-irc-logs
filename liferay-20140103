@@ -619,3 +619,4 @@
 18:57 < apucay:#liferay> what do you mean by passing that authentication to a third party?
 18:59 < apucay:#liferay> i think all LDAP auth does is check that there is a user is on the LDAP server with the user/pass combo that you give it
 19:03 < apucay:#liferay> you can create an auto login hook modeled after RequestHeaderAutoLogin
+--- Log closed Sat Jan 04 00:00:22 2014
