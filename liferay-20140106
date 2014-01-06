@@ -28,3 +28,5 @@
 15:34 < Tar-Minyatur:#liferay> But the people working with the old system still have to be able to get their stuff published...otherwise I wouldn't even bother.
 15:35 < Tar-Minyatur:#liferay> I guess I'll try some more combinations tomorrow and see if anything can be used as workaround.
 15:44 < olafk_:#liferay> how about setting up a proper cluster on the existing machines?
+15:46 < Tar-Minyatur:#liferay> Impossible.
+15:46 < Tar-Minyatur:#liferay> The guys who set that up did major changes to the Liferay core.
