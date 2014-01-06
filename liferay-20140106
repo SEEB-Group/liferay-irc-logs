@@ -23,3 +23,4 @@
 11:47 < Tar-Minyatur:#liferay> We're using a broken clustering setup with a whacky implementation via Quartz that checks for the last publishing action and supposedly flushes the cache.
 11:48 < Tar-Minyatur:#liferay> The odd thing is that I created a new page with a new article using a new template and only retaining the structure...and still the same thing happens. Really odd.
 15:01 < jardineworks:#liferay> hey rotty3000  -- do you have a minute for a question?
+15:33 < olafk_:#liferay> Tar-Minyatur using a "broken clustering setup" should give enough hints that who-knows-what might happen in the cache. If you reproduce with a proper clustering setup or on a single node, this would be more valuable
