@@ -30,3 +30,4 @@
 15:44 < olafk_:#liferay> how about setting up a proper cluster on the existing machines?
 15:46 < Tar-Minyatur:#liferay> Impossible.
 15:46 < Tar-Minyatur:#liferay> The guys who set that up did major changes to the Liferay core.
+15:57 < olafk_:#liferay> ouch. Now there's another hint what might have gone wrong. Especially if nobody else is experiencing this behaviour. You didn't mention the version that you are running yet, right? But with major changes to the core it might be hard to update shortly (and it might be what you're already working on)...
