@@ -5,3 +5,8 @@
 09:27 < Tar-Minyatur:#liferay> So there is the same number of templates and structures.
 09:36 < jardineworks:#liferay> Tar-Minyatur, do any of your structures have more than one template?
 09:36 < Tar-Minyatur:#liferay> No.
+09:38 < Tar-Minyatur:#liferay> So weird. One article is consequently rendered with the wrong template.
+09:38 < Tar-Minyatur:#liferay> When I look into the DB, the article is actually associated with the correct template.
+09:38 < jardineworks:#liferay> any chance the default template id in the database is wrong?
+09:38 < jardineworks:#liferay> alright then
+09:38 < jardineworks:#liferay> lol
