@@ -20,3 +20,4 @@
 11:22 < Tar-Minyatur:#liferay> Great first day of work. *sigh*
 11:42 < olafk:#liferay> Tar-Minyatur, if it's a caching issue, you can flush the caches in Controlpanel and try again. Also, what version are you on? Do you have a cluster or single machine?
 11:46 < Tar-Minyatur:#liferay> Sadly I don't have access to the control panels on all nodes.
+11:47 < Tar-Minyatur:#liferay> We're using a broken clustering setup with a whacky implementation via Quartz that checks for the last publishing action and supposedly flushes the cache.
