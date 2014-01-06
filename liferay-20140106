@@ -3,3 +3,5 @@
 09:26 < Tar-Minyatur:#liferay> Has anyone of you ever encountered that Liferay renders articles with the wrong template?
 09:26 < Tar-Minyatur:#liferay> I have a couple of templates and each template has a dedicated structure.
 09:27 < Tar-Minyatur:#liferay> So there is the same number of templates and structures.
+09:36 < jardineworks:#liferay> Tar-Minyatur, do any of your structures have more than one template?
+09:36 < Tar-Minyatur:#liferay> No.
