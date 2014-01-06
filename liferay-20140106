@@ -10,3 +10,8 @@
 09:38 < jardineworks:#liferay> any chance the default template id in the database is wrong?
 09:38 < jardineworks:#liferay> alright then
 09:38 < jardineworks:#liferay> lol
+09:41 < Tar-Minyatur:#liferay> Mhm.
+09:41 < Tar-Minyatur:#liferay> Might be a caching issue.
+09:41 < Tar-Minyatur:#liferay> It actually shows up correctly on live and staging...but only on the box the article was published on.
+09:41 < Tar-Minyatur:#liferay> The others show it rendered with the wrong template.
+09:41 < Tar-Minyatur:#liferay> Very strange.
