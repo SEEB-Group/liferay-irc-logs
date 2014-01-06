@@ -22,3 +22,4 @@
 11:46 < Tar-Minyatur:#liferay> Sadly I don't have access to the control panels on all nodes.
 11:47 < Tar-Minyatur:#liferay> We're using a broken clustering setup with a whacky implementation via Quartz that checks for the last publishing action and supposedly flushes the cache.
 11:48 < Tar-Minyatur:#liferay> The odd thing is that I created a new page with a new article using a new template and only retaining the structure...and still the same thing happens. Really odd.
+15:01 < jardineworks:#liferay> hey rotty3000  -- do you have a minute for a question?
