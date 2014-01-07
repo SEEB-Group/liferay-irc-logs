@@ -89,3 +89,7 @@
 11:40 < topolik:#liferay> send that most general rule (/filter) down and try http://localhost:8080/web/guest/healthy-living-resources/-/article/filter/Gluten-Free
 11:41 < topolik:#liferay> btw. I saw that you have articleTagCheckbox parameter in the URL above twice?!
 11:41 < jardineworks:#liferay> topolik, that's because the filters are an array of values.
+11:42 < topolik:#liferay> and also I'm not sure that ignoring that parameter in the XML config is OK when you create URLs with this parameters
+11:42 < topolik:#liferay> array?
+11:42 < topolik:#liferay> hmm, how to put it into URL
+11:42 < jardineworks:#liferay> ok -- but then which type of parameter should I be using?
