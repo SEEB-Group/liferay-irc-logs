@@ -99,3 +99,4 @@
 11:59 < Tar-Minyatur:#liferay> Hey guys...maybe one of you can help me with this. I'm currently trying to extract from the database a list of all pages that are currently present on the live environment. That's easy enough and done now. But I'd also like to show some information about the corresponding page in the staging environment. Unfortunately I can't find a relationship in the DB between layouts that are staging and live version of the same page. Any hints where I need to look?
 12:00 < Tar-Minyatur:#liferay> I thought maybe they have the same layoutId but different groupId...but that doesn't seem to be working.
 12:01 < jardineworks:#liferay> Tar-Minyatur,  can you use the layout names?
+12:02 < jardineworks:#liferay> (assuming they are the same)
