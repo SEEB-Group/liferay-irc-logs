@@ -87,3 +87,5 @@
 11:38 < topolik:#liferay> you should put the most general rules as last
 11:40 < jardineworks:#liferay> oh ok
 11:40 < topolik:#liferay> send that most general rule (/filter) down and try http://localhost:8080/web/guest/healthy-living-resources/-/article/filter/Gluten-Free
+11:41 < topolik:#liferay> btw. I saw that you have articleTagCheckbox parameter in the URL above twice?!
+11:41 < jardineworks:#liferay> topolik, that's because the filters are an array of values.
