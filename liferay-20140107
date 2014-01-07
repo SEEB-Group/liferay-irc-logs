@@ -37,3 +37,4 @@
 09:33 < jardineworks:#liferay> jhf, One of the im particular is driving me bonkers. A pagination link .. it picks up page/X ... and then I apply a filter which should map /[filter]/page/X ... and it keeps mapping page/X/?filter=whatever.
 09:33 < jardineworks:#liferay> the filter is added to the url using the copyCurrentRenderParameters="yes" which is maybe the  issue?
 09:34 < jardineworks:#liferay> because it is added after the friendly url is built? could that be it? lol
+09:35 <@jhf:#liferay> ok you'll hate me for this, but.. what do you mean "it picks up page/X" ? what are you typing into the address field of your browser, or what link are you clicking on?
