@@ -48,3 +48,4 @@
 11:16 < jardineworks:#liferay> topolik, do you know how the route for a friendly url is decided?
 11:17 < jardineworks:#liferay> I thought it was based on the parameters in the url but i just can't get it to work
 11:22 < topolik:#liferay> jardineworks: I'm not sure, I guess it's based on the URL pattern in the XML definition
+11:23 < jardineworks:#liferay> topolik, I think the issue for me is that the parameters specified in the route are not actually being passed. Do you know which kind of parameters I should be using? I assumed it was ignored-parameter(s)
