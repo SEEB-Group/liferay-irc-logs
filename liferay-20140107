@@ -85,3 +85,5 @@
 11:35 < jardineworks:#liferay> http://localhost:8080/web/guest/healthy-living-resources?articleTagCheckbox=Gluten-Free
 11:35 < jardineworks:#liferay> @#!$%
 11:38 < topolik:#liferay> you should put the most general rules as last
+11:40 < jardineworks:#liferay> oh ok
+11:40 < topolik:#liferay> send that most general rule (/filter) down and try http://localhost:8080/web/guest/healthy-living-resources/-/article/filter/Gluten-Free
