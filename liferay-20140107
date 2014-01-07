@@ -74,3 +74,8 @@
 11:32 < jardineworks:#liferay> 	</route>	
 11:33 < jardineworks:#liferay> but it keeps giving me the same url with a query string
 11:33 < jardineworks:#liferay> which means I think that it is matching a separate route in the file...
+11:34 < jardineworks:#liferay> this one --
+11:34 < jardineworks:#liferay> 	<route>
+11:34 < jardineworks:#liferay> 		<pattern>/filter</pattern>
+11:34 < jardineworks:#liferay> 	</route>
+11:34 < topolik:#liferay> I guess this most general rule is the last one in the XML file, is it?
