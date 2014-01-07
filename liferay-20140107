@@ -15,3 +15,6 @@
 09:22 < jardineworks:#liferay> 2. Then I _THINK_ (would love for someone to confirm) it matches the route to use based on the parameters in the request vs. the ones defined in the <route/> configuration
 09:23 <@jhf:#liferay> aren't friendlyUrls configured via the GUI? where do you place this friendlyUrl definition file?
 09:23 < jardineworks:#liferay> 3. By default, all the implicit ones are handled on your behalf -- seen in one of the classes
+09:24 < jardineworks:#liferay> jhf, liferay-portlet.xml -- you can specify friendly urls for your plugins
+09:24 <@jhf:#liferay> ah
+09:24 <@jhf:#liferay> ok. was not aware of this :)
