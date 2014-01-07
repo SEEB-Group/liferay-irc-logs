@@ -51,3 +51,5 @@
 11:23 < jardineworks:#liferay> topolik, I think the issue for me is that the parameters specified in the route are not actually being passed. Do you know which kind of parameters I should be using? I assumed it was ignored-parameter(s)
 11:24 < topolik:#liferay> I guess it's following:
 11:24 < topolik:#liferay> first are parameters in the url
+11:25 < topolik:#liferay> they can be replaced by overridden-parameter
+11:25 < topolik:#liferay> + there should be all the implicit-parameter
