@@ -5,3 +5,4 @@
 09:14 -!- mode/#liferay [+o jhf] by ChanServ
 09:14 < Tar-Minyatur:#liferay> Another template is used for it. When I directly click "Edit Template" on the Web Content View, the right template is shown.
 09:14 < Tar-Minyatur:#liferay> What the...?!
+09:17 < jardineworks:#liferay> Tar-Minyatur, are you sure that your request is being routed to the same server? going on what Olaf said yesterday --- maybe the display is your busted cluster box and the admin is the working one?
