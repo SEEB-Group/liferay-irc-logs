@@ -38,3 +38,7 @@
 09:33 < jardineworks:#liferay> the filter is added to the url using the copyCurrentRenderParameters="yes" which is maybe the  issue?
 09:34 < jardineworks:#liferay> because it is added after the friendly url is built? could that be it? lol
 09:35 <@jhf:#liferay> ok you'll hate me for this, but.. what do you mean "it picks up page/X" ? what are you typing into the address field of your browser, or what link are you clicking on?
+09:36 <@jhf:#liferay> i have never ever configured friendlyUrls so I am reading documentation as I type this :)
+09:36 < jardineworks:#liferay> jfh, sorry -- I'm all over the place because this is driving me bananas. I can show you maybe?
+09:36 <@jhf:#liferay> but perhaps my stupid n00b questions might trigger an "aha!" moment in your head
+09:36 < jardineworks:#liferay> might be easier than trying to explain here with just words
