@@ -73,3 +73,4 @@
 11:32 < jardineworks:#liferay> 		<ignored-parameter name="articleTagCheckbox"/>
 11:32 < jardineworks:#liferay> 	</route>	
 11:33 < jardineworks:#liferay> but it keeps giving me the same url with a query string
+11:33 < jardineworks:#liferay> which means I think that it is matching a separate route in the file...
