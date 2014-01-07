@@ -67,3 +67,9 @@
 11:29 < topolik:#liferay> *transfer = transform
 11:29 < jardineworks:#liferay> ok one sec
 11:30 < topolik:#liferay> and I think the parameter must be in the URL file name, not as param, as you wrote: /filter/gluten-free
+11:32 < jardineworks:#liferay> here is the url -- http://localhost:8080/web/guest/healthy-living-resources/-/article/filter?articleTagCheckbox=Education&articleTagCheckbox=Gluten-Free
+11:32 < jardineworks:#liferay> here is my route -- 	<route>
+11:32 < jardineworks:#liferay> 		<pattern>/filter/{articleTagCheckbox}</pattern>
+11:32 < jardineworks:#liferay> 		<ignored-parameter name="articleTagCheckbox"/>
+11:32 < jardineworks:#liferay> 	</route>	
+11:33 < jardineworks:#liferay> but it keeps giving me the same url with a query string
