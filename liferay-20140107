@@ -100,3 +100,7 @@
 12:00 < Tar-Minyatur:#liferay> I thought maybe they have the same layoutId but different groupId...but that doesn't seem to be working.
 12:01 < jardineworks:#liferay> Tar-Minyatur,  can you use the layout names?
 12:02 < jardineworks:#liferay> (assuming they are the same)
+12:03 < Tar-Minyatur:#liferay> Mhm. Maybe.
+12:03 < Tar-Minyatur:#liferay> Seems a little messy though.
+12:03 < apucay:#liferay> maybe there are type settings you can use and pluck out last-publish date or something
+12:03 < Tar-Minyatur:#liferay> But I'll try.
