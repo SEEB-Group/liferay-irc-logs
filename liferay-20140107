@@ -55,3 +55,9 @@
 11:25 < topolik:#liferay> + there should be all the implicit-parameter
 11:26 < topolik:#liferay> reading the doc I think ignored parameters are not used when parsing URL and generating the parameter map
 11:26 < jardineworks:#liferay> topolik, I am using the DefaultFriendlyuRLMapper... basically, my user is submitting  a form with a field value (call it filter=gluten-free)
+11:27 < topolik:#liferay> ok
+11:27 < jardineworks:#liferay> I want the resulting url to show /filter/gluten-free ... so I defined a route with a pattern /filter/{filter}
+11:27 < topolik:#liferay> uhm, I'm not sure it works like this
+11:27 < jardineworks:#liferay> but no matter what I do, it ALWAYS picks up the default one
+11:27 < topolik:#liferay> first, you send form data
+11:27 < topolik:#liferay> that (I guess) means POST request
