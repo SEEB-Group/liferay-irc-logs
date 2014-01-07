@@ -26,3 +26,6 @@
 09:28 < jardineworks:#liferay> jhf, http://pastebin.com/jxytXVQ0
 09:28 < jardineworks:#liferay> jhf,  adjeusting for your package of course.
 09:28 < Tar-Minyatur:#liferay> I'll tackle this again later. No clue what's going on there.
+09:29 < jardineworks:#liferay> the http://localhost:8080/this/is/my/page/-/[friendly-url--mapping]
+09:29 < jardineworks:#liferay> is what that will do ... and it should automagically remove all the portlet garbage in the url. Well, not garbage to liferay developers, but garbage to the rest of the world.
+09:29 < jardineworks:#liferay> Tar-Minyatur, is all the cache complete disabled?
