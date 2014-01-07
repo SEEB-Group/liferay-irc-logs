@@ -61,3 +61,5 @@
 11:27 < jardineworks:#liferay> but no matter what I do, it ALWAYS picks up the default one
 11:27 < topolik:#liferay> first, you send form data
 11:27 < topolik:#liferay> that (I guess) means POST request
+11:28 < topolik:#liferay> => the filter parameter is sent in HTTP body, not in URL
+11:28 < jardineworks:#liferay> yes -- but maybe I make it a GET
