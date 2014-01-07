@@ -79,3 +79,8 @@
 11:34 < jardineworks:#liferay> 		<pattern>/filter</pattern>
 11:34 < jardineworks:#liferay> 	</route>
 11:34 < topolik:#liferay> I guess this most general rule is the last one in the XML file, is it?
+11:35 < jardineworks:#liferay> first
+11:35 < jardineworks:#liferay> and I just remvoed it to see
+11:35 < jardineworks:#liferay> and now I get --
+11:35 < jardineworks:#liferay> http://localhost:8080/web/guest/healthy-living-resources?articleTagCheckbox=Gluten-Free
+11:35 < jardineworks:#liferay> @#!$%
