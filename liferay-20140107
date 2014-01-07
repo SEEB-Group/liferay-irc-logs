@@ -10,3 +10,5 @@
 09:20 <@jhf:#liferay> sure! but I warn you ahead of time I don't know how friendlyUrls work internally
 09:20 < jardineworks:#liferay> MAKES TWO OF US
 09:21 < jardineworks:#liferay> lol
+09:21 < jardineworks:#liferay> here is what I understand.
+09:21 < jardineworks:#liferay> 1. I get that you configure the class that is used to generate them and that you give it a file with the definitions.
