@@ -53,3 +53,5 @@
 11:24 < topolik:#liferay> first are parameters in the url
 11:25 < topolik:#liferay> they can be replaced by overridden-parameter
 11:25 < topolik:#liferay> + there should be all the implicit-parameter
+11:26 < topolik:#liferay> reading the doc I think ignored parameters are not used when parsing URL and generating the parameter map
+11:26 < jardineworks:#liferay> topolik, I am using the DefaultFriendlyuRLMapper... basically, my user is submitting  a form with a field value (call it filter=gluten-free)
