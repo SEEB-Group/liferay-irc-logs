@@ -1,3 +1,7 @@
 --- Log opened Tue Jan 07 00:00:26 2014
 09:13 < Tar-Minyatur:#liferay> What the...something is totally messing with me right now.
 09:13 < Tar-Minyatur:#liferay> I add a web content display to a page, then I select a web content to be shown.
+09:14 < Tar-Minyatur:#liferay> The rendered output looks completely wrong.
+09:14 -!- mode/#liferay [+o jhf] by ChanServ
+09:14 < Tar-Minyatur:#liferay> Another template is used for it. When I directly click "Edit Template" on the Web Content View, the right template is shown.
+09:14 < Tar-Minyatur:#liferay> What the...?!
