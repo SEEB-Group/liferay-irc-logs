@@ -46,3 +46,4 @@
 09:58 -!- mode/#liferay [+o rotty3000] by ChanServ
 11:03 < jardineworks:#liferay> rotty3000, can I ask you a question about friendly url mapping? I'm sure that I am missing some simple but I just can't get it to work
 11:16 < jardineworks:#liferay> topolik, do you know how the route for a friendly url is decided?
+11:17 < jardineworks:#liferay> I thought it was based on the parameters in the url but i just can't get it to work
