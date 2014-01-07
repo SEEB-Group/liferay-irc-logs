@@ -23,3 +23,6 @@
 09:25 < jardineworks:#liferay> :)
 09:27 < jardineworks:#liferay> if you have a plugin handy, add these lines to the liferay-portlet.xml (under the <icon/> tag)
 09:27 < Tar-Minyatur:#liferay> jardineworks: I'm accessing the box directly at the moment. No routing involved. It's really confusing. I feel like I'm losing my mind.
+09:28 < jardineworks:#liferay> jhf, http://pastebin.com/jxytXVQ0
+09:28 < jardineworks:#liferay> jhf,  adjeusting for your package of course.
+09:28 < Tar-Minyatur:#liferay> I'll tackle this again later. No clue what's going on there.
