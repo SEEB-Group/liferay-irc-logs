@@ -18,3 +18,6 @@
 09:24 < jardineworks:#liferay> jhf, liferay-portlet.xml -- you can specify friendly urls for your plugins
 09:24 <@jhf:#liferay> ah
 09:24 <@jhf:#liferay> ok. was not aware of this :)
+09:25 < jardineworks:#liferay> so for example, my pagination ... istead of .....?p_p_id=...&p_p_lifecyle=0&....page=2&pagesize=10 ... I can have /view/page/2
+09:25 < jardineworks:#liferay> awesome... how about you let me teach you what I know so far and then maybe you can help me figure out what I am doing wrong.
+09:25 < jardineworks:#liferay> :)
