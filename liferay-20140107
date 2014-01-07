@@ -12,3 +12,4 @@
 09:21 < jardineworks:#liferay> lol
 09:21 < jardineworks:#liferay> here is what I understand.
 09:21 < jardineworks:#liferay> 1. I get that you configure the class that is used to generate them and that you give it a file with the definitions.
+09:22 < jardineworks:#liferay> 2. Then I _THINK_ (would love for someone to confirm) it matches the route to use based on the parameters in the request vs. the ones defined in the <route/> configuration
