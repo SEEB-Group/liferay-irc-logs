@@ -32,3 +32,5 @@
 09:31 <@jhf:#liferay> jardineworks: so what happens? what are you doing that makes you think it's not working?
 09:31 <@jhf:#liferay> is it simply not working? or halfway working? or just not working as expected?
 09:31 < jardineworks:#liferay> jhf, half I think?
+09:32 < jardineworks:#liferay> jhf, the issue I am facing is that I need to have multiple route definitions... but it doesn't seem to be picking them up properly and I can't figure out why.
+09:32 <@jhf:#liferay> does it pick up any of them properly?
