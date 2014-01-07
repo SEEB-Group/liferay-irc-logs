@@ -33,3 +33,4 @@
 15:57 < olafk_:#liferay> ouch. Now there's another hint what might have gone wrong. Especially if nobody else is experiencing this behaviour. You didn't mention the version that you are running yet, right? But with major changes to the core it might be hard to update shortly (and it might be what you're already working on)...
 15:58 < olafk_:#liferay> I've never seen this behaviour. That doesn't say it's not a problem in Liferay, just a (to me) uncommon problem. But it sounds like one that should have been shared by many if it was present in the unmodified product
 16:01 < jardineworks:#liferay> anyone in here happen to be knowledgeable on friendly urls? I am stuck on something.
+19:08 -!- mode/#liferay [+o rotty3000] by ChanServ
