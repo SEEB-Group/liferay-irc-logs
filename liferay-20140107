@@ -66,3 +66,4 @@
 11:29 < topolik:#liferay> if you are able to transfer the form into HTTP GET and include that parameter in the URL, then I think it should work
 11:29 < topolik:#liferay> *transfer = transform
 11:29 < jardineworks:#liferay> ok one sec
+11:30 < topolik:#liferay> and I think the parameter must be in the URL file name, not as param, as you wrote: /filter/gluten-free
