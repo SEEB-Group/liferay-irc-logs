@@ -7,3 +7,4 @@
 09:18 < Tar-Minyatur:#liferay> We actually restarted the boxes now and still the article is rendered with the wrong template.
 09:18 < Tar-Minyatur:#liferay> One instance is rendering it correctly, the other four don't. They all use the same database.
 09:18 < Tar-Minyatur:#liferay> I don't understand how this can even happen...
+09:29 < jardineworks:#liferay> Tar-Minyatur, Do you have your environment setup to let you step through the portal code?
