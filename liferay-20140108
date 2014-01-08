@@ -59,3 +59,5 @@
 10:11 < Tar-Minyatur:#liferay> The thing I described above is something I noticed on my local box just now.
 10:11 < jardineworks:#liferay> oh! well then turn the logging up and setup the portal source with a debugger man! :)
 10:11 < Tar-Minyatur:#liferay> I doubt I'll get this up and running. Never worked before.
+10:12 < jardineworks:#liferay> well, if you have the site running on your local you can at least turn the logging level up
+10:12 < jardineworks:#liferay> do you know where to get to it in the control panel?
