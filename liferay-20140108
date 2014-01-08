@@ -96,3 +96,6 @@
 11:37 < rrapozo:#liferay> no, but the upload bar doesn't work
 11:37 <@jhf:#liferay> does the file get uploaded?
 11:37 < rrapozo:#liferay> the file is uploaded but the upload bar don't show the progress
+11:38 <@jhf:#liferay> ok. and you are trying this in a portlet you have developed?
+11:38 < rrapozo:#liferay> yes!!!
+11:38 <@jhf:#liferay> I'll give it a go in about 20 minutes and see if I can get it to work. what version of Liferay are you using?
