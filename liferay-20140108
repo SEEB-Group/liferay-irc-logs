@@ -78,3 +78,4 @@
 10:20 < Tar-Minyatur:#liferay> *merely
 10:20 < jardineworks:#liferay> a lot of logging is done using AOP ... you won't always find a "log.debug" or whatever in the source.
 10:20 < Tar-Minyatur:#liferay> And JournalContent is only an interface and sadly the JavaDoc doesn't say which classes implement it.
+10:27 < jardineworks:#liferay> Tar-Minyatur, it would be implemented (likely) by JournalContentImpl  which I would guess then becomes a base class for content.
