@@ -34,3 +34,5 @@
 09:53 < bjornjohansson:#liferay> Tar-Minyatur: cache? ;)
 09:53 < Tar-Minyatur:#liferay> Can't be. I just started the system.
 09:53 < bjornjohansson:#liferay> Okey
+09:56 < jardineworks:#liferay> Tar-Minyatur,  When you look at the content item that is rendering incorrectly... how many template options are there?
+09:56 < Tar-Minyatur:#liferay> The usual four.
