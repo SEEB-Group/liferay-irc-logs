@@ -71,3 +71,4 @@
 10:14 < jardineworks:#liferay> you could maybe add a category as well
 10:15 < Tar-Minyatur:#liferay> Hm. The output I get for that is totally useless to me.
 10:15 < jardineworks:#liferay> JournalContentUtil.getDisplay() is the method I used last night to apply a template to a content item
+10:16 < jardineworks:#liferay> JournalArticleDisplay jad = JournalContentUtil.getDisplay( themeDisplay.getScopeGroupId(), ja.getArticleId(), PortletMode.VIEW.toString(), themeDisplay.getLanguageId(), themeDisplay );
