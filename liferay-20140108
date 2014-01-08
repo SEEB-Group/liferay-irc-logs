@@ -40,3 +40,7 @@
 09:57 < Tar-Minyatur:#liferay> We have a couple of modules. A couple for TV spots, a couple for image teasers etc.
 09:57 < Tar-Minyatur:#liferay> All of them exist in three flavors.
 09:57 < Tar-Minyatur:#liferay> Small, Medium and Large.
+09:58 < Tar-Minyatur:#liferay> When I add a medium Image teaser, it's rendered with the Medium Image Teaser template.
+09:58 < Tar-Minyatur:#liferay> *When I add a medium Image teaser, it's rendered with the Medium TV Teaser template.
+09:58 < Tar-Minyatur:#liferay> And when I use a small image teaser, it's rendered with the small TV teaser template.
+09:58 < Tar-Minyatur:#liferay> What the...?!
