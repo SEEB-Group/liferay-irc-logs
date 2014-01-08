@@ -73,3 +73,8 @@
 10:15 < jardineworks:#liferay> JournalContentUtil.getDisplay() is the method I used last night to apply a template to a content item
 10:16 < jardineworks:#liferay> JournalArticleDisplay jad = JournalContentUtil.getDisplay( themeDisplay.getScopeGroupId(), ja.getArticleId(), PortletMode.VIEW.toString(), themeDisplay.getLanguageId(), themeDisplay );
 10:19 < Tar-Minyatur:#liferay> No Logger in there.
+10:20 < jardineworks:#liferay> you're looking at the source?
+10:20 < Tar-Minyatur:#liferay> And it's mere an adapter for JournalContent anyway.
+10:20 < Tar-Minyatur:#liferay> *merely
+10:20 < jardineworks:#liferay> a lot of logging is done using AOP ... you won't always find a "log.debug" or whatever in the source.
+10:20 < Tar-Minyatur:#liferay> And JournalContent is only an interface and sadly the JavaDoc doesn't say which classes implement it.
