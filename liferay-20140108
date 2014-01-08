@@ -86,3 +86,4 @@
 10:32 < Tar-Minyatur:#liferay> I modified both templates now and nothing at all happens.
 10:33 < Tar-Minyatur:#liferay> This feels like quicksand.
 10:52 < rrapozo:#liferay>  Hello everyone someone can help me in a progress bar gor a upload file in liferay 6.1? :D
+11:13 <@jhf:#liferay> rrapozo: check out https://www.liferay.com/community/wiki/-/wiki/Main/How+to+add+a+progress+bar+to+my+portlet to get started
