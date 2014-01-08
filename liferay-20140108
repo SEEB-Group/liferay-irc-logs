@@ -89,3 +89,6 @@
 11:13 <@jhf:#liferay> rrapozo: check out https://www.liferay.com/community/wiki/-/wiki/Main/How+to+add+a+progress+bar+to+my+portlet to get started
 11:14 <@jhf:#liferay> and some working code (haven't tried it myself) at http://lauraliparulo.altervista.org/liferay-upload-file-portlet-working-example-with-upload-progress-bar/
 11:19 < Tar-Minyatur:#liferay> *lol* By now it looks like Liferay randomly selects some template to render this article.
+11:20 < Tar-Minyatur:#liferay> I have half a mind to just build a HTML generator and have the content editors copy & paste the stuff into basic web content instead of using this kind of modular setup. Just to save me the hassle...
+11:20 < rrapozo:#liferay> jhf: I tried that one but does not work with me
+11:20 < rrapozo:#liferay> :(
