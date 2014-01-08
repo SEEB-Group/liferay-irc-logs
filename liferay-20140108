@@ -36,3 +36,7 @@
 09:53 < bjornjohansson:#liferay> Okey
 09:56 < jardineworks:#liferay> Tar-Minyatur,  When you look at the content item that is rendering incorrectly... how many template options are there?
 09:56 < Tar-Minyatur:#liferay> The usual four.
+09:57 < Tar-Minyatur:#liferay> This is getting out of hand.
+09:57 < Tar-Minyatur:#liferay> We have a couple of modules. A couple for TV spots, a couple for image teasers etc.
+09:57 < Tar-Minyatur:#liferay> All of them exist in three flavors.
+09:57 < Tar-Minyatur:#liferay> Small, Medium and Large.
