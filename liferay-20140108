@@ -10,3 +10,5 @@
 09:29 < jardineworks:#liferay> Tar-Minyatur, Do you have your environment setup to let you step through the portal code?
 09:30 < Tar-Minyatur:#liferay> Nope. Never managed it.
 09:31 < jardineworks:#liferay> shoot. I think that might be your best bet as a next step to be honest. I am assuming that you have turned the logging up as well to see what Liferay is spitting out?
+09:33 < Tar-Minyatur:#liferay> I'm currently dumping the DB to try and reconstruct the problem locally.
+09:33 < Tar-Minyatur:#liferay> Most likely I will not be able to reproduce the issue. At least that's usually what happens
