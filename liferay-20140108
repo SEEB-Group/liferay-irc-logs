@@ -12,3 +12,7 @@
 09:31 < jardineworks:#liferay> shoot. I think that might be your best bet as a next step to be honest. I am assuming that you have turned the logging up as well to see what Liferay is spitting out?
 09:33 < Tar-Minyatur:#liferay> I'm currently dumping the DB to try and reconstruct the problem locally.
 09:33 < Tar-Minyatur:#liferay> Most likely I will not be able to reproduce the issue. At least that's usually what happens
+09:34 < jardineworks:#liferay> Tar-Minyatur, do you have access to the logs?
+09:34 < Tar-Minyatur:#liferay> Sadly, no.
+09:34 < jardineworks:#liferay> because if you do then you can turn the logging up in the control panel ... ther eare probably a few classes specific to Journal Articles and Templates that you could enable ALL as a setting and then see what is reported
+09:34 < jardineworks:#liferay> jesus
