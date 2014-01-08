@@ -80,3 +80,4 @@
 10:20 < Tar-Minyatur:#liferay> And JournalContent is only an interface and sadly the JavaDoc doesn't say which classes implement it.
 10:27 < jardineworks:#liferay> Tar-Minyatur, it would be implemented (likely) by JournalContentImpl  which I would guess then becomes a base class for content.
 10:29 < Tar-Minyatur:#liferay> Interesting. When I modify the template that is used instead of the correct one, nothing happens.
+10:30 < jardineworks:#liferay> that probably requiers some cache clearing and such
