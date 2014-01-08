@@ -84,3 +84,4 @@
 10:31 < jardineworks:#liferay> anytime I do anyting in the web content section, my next step is to go to the Serve Administration and clearn VM cache, clear database cache, etc.
 10:32 < Tar-Minyatur:#liferay> That doesn't do anything.
 10:32 < Tar-Minyatur:#liferay> I modified both templates now and nothing at all happens.
+10:33 < Tar-Minyatur:#liferay> This feels like quicksand.
