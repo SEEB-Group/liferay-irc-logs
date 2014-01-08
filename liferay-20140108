@@ -93,3 +93,6 @@
 11:20 < rrapozo:#liferay> jhf: I tried that one but does not work with me
 11:20 < rrapozo:#liferay> :(
 11:33 <@jhf:#liferay> (sorry, on conference call) rrapozo so what happens when you try it? any errors?
+11:37 < rrapozo:#liferay> no, but the upload bar doesn't work
+11:37 <@jhf:#liferay> does the file get uploaded?
+11:37 < rrapozo:#liferay> the file is uploaded but the upload bar don't show the progress
