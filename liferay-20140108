@@ -49,3 +49,7 @@
 10:08 < Tar-Minyatur:#liferay> There is a <li class="video"> in there. And the other template has a <li class="row"> instead
 10:08 < Tar-Minyatur:#liferay> It's very easy to distinguish.
 10:08 < Tar-Minyatur:#liferay> And the rendered output definitely doesn't correspond to the template I'm shown when I click "Edit Template".
+10:10 < Tar-Minyatur:#liferay> I wonder what happens when I remove the template that is used incorrectly.
+10:10 < jardineworks:#liferay> I was going to ask that -- if you are allowed to
+10:10 < jardineworks:#liferay> remove it, and then add it back?
+10:11 < Tar-Minyatur:#liferay> On my box I can do whatever I want. Here I'm god...it's a small world, but it's MINE! ;)
