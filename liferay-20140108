@@ -3,3 +3,7 @@
 05:33 < rrapozo:#liferay> Hello everyone someone can help me in a progress bar gor a upload file in liferay 6.1? :D
 07:05 < rrapozo:#liferay> Hello everyone someone can help me in a progress bar gor a upload file in liferay 6.1? :D
 09:17 < Tar-Minyatur:#liferay> Ahoy.
+09:18 < Tar-Minyatur:#liferay> This rendering issue really irks me.
+09:18 < Tar-Minyatur:#liferay> We actually restarted the boxes now and still the article is rendered with the wrong template.
+09:18 < Tar-Minyatur:#liferay> One instance is rendering it correctly, the other four don't. They all use the same database.
+09:18 < Tar-Minyatur:#liferay> I don't understand how this can even happen...
