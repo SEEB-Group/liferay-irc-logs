@@ -88,3 +88,4 @@
 10:52 < rrapozo:#liferay>  Hello everyone someone can help me in a progress bar gor a upload file in liferay 6.1? :D
 11:13 <@jhf:#liferay> rrapozo: check out https://www.liferay.com/community/wiki/-/wiki/Main/How+to+add+a+progress+bar+to+my+portlet to get started
 11:14 <@jhf:#liferay> and some working code (haven't tried it myself) at http://lauraliparulo.altervista.org/liferay-upload-file-portlet-working-example-with-upload-progress-bar/
+11:19 < Tar-Minyatur:#liferay> *lol* By now it looks like Liferay randomly selects some template to render this article.
