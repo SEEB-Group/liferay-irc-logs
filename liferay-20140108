@@ -53,3 +53,9 @@
 10:10 < jardineworks:#liferay> I was going to ask that -- if you are allowed to
 10:10 < jardineworks:#liferay> remove it, and then add it back?
 10:11 < Tar-Minyatur:#liferay> On my box I can do whatever I want. Here I'm god...it's a small world, but it's MINE! ;)
+10:11 < jardineworks:#liferay> or even assign the cotnent item to a new template, publish, and then switch it to the correct one publish
+10:11 < jardineworks:#liferay> you are able to reproduce on your box?
+10:11 < Tar-Minyatur:#liferay> Yes.
+10:11 < Tar-Minyatur:#liferay> The thing I described above is something I noticed on my local box just now.
+10:11 < jardineworks:#liferay> oh! well then turn the logging up and setup the portal source with a debugger man! :)
+10:11 < Tar-Minyatur:#liferay> I doubt I'll get this up and running. Never worked before.
