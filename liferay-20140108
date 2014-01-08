@@ -46,3 +46,6 @@
 09:58 < Tar-Minyatur:#liferay> What the...?!
 09:59 < Tar-Minyatur:#liferay> There is NO connection between these. Liferay can't even know this....
 10:07 < jardineworks:#liferay> Tar-Minyatur, grasping here... but did you try diffing the template contents (from the editor) ? .. I once had made the mistake of copying and pasting into the wrong one which resulted in the same thing.
+10:08 < Tar-Minyatur:#liferay> There is a <li class="video"> in there. And the other template has a <li class="row"> instead
+10:08 < Tar-Minyatur:#liferay> It's very easy to distinguish.
+10:08 < Tar-Minyatur:#liferay> And the rendered output definitely doesn't correspond to the template I'm shown when I click "Edit Template".
