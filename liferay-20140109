@@ -71,3 +71,5 @@
 11:03 < dawn:#liferay> A quick question, I am not able to import a LAR that was exported from LR 6.2 GA1 of different instance. The error says missing Document that was refered in Asset publisher. The manifest file in lAR has some missing references. Now how do I trace those to a particular asset publisher on a web page, Any help is appreciated.
 11:05 < dawn:#liferay> here is how a sample entry looks like
 11:05 < dawn:#liferay> 		<missing-reference class-name="com.liferay.portlet.documentlibrary.model.DLFileEntryType" class-pk="10710" display-name="ba453c62-80b2-4166-b197-654061d600b7" group-id="10682" type="dependency" referrer-class-name="com.liferay.portal.model.Portlet" referrer-display-name="101" uuid="ba453c62-80b2-4166-b197-654061d600b7" company-id="10154" preloaded="false" file-entry-type-key="SALES PRESENTATION"/>
+11:16 < jardineworks:#liferay> jhf, I think I figured out this friendly url crap
+11:17 <@jhf:#liferay> yay!!
