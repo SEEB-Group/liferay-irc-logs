@@ -118,3 +118,7 @@
 12:34 < jardineworks:#liferay> on the way back, why can't the resulting url be /-/friendlyurl/view/name/john/doe?
 12:34 < jardineworks:#liferay> the parameters are there now right?
 12:34 < topolik:#liferay> what do you mean by the resulting URL?
+12:35 < topolik:#liferay> there is a redirect on the server side
+12:35 < topolik:#liferay> which sends browser to another address
+12:35 < topolik:#liferay> ?
+12:35 < jardineworks:#liferay> maybe (probably) I am not understanding how this works. The map goes two ways right?
