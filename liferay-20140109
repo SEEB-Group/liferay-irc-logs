@@ -154,3 +154,7 @@
 12:43 < topolik:#liferay> yeah
 12:44 < topolik:#liferay> this can be also solved using JS
 12:44 -!- mode/#liferay [+o rotty3000] by ChanServ
+12:45 < topolik:#liferay> for example /-/friendlyurl/blablabla/value1-value2-value3-value4
+12:45 < jardineworks:#liferay> right
+12:45 < jardineworks:#liferay> ok
+12:45 < jardineworks:#liferay> on to refactoring
