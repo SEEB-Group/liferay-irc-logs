@@ -167,3 +167,22 @@
 14:06 <@jhf:#liferay> if you change it to not be ALL, does it work?
 14:06 < dawn:#liferay> change to some random value?
 14:07 <@jhf:#liferay> hmmm.. I doubt a random value would work, I guess I"m asking how do you know that the ALL is causing the problem?
+14:09 < dawn:#liferay> while importing it to different LR instance, I get this exception
+14:09 < dawn:#liferay> 16:45:32,473 ERROR [liferay/background_task-1][BackgroundTaskMessageListener:133] Unable to execute background task
+14:09 < dawn:#liferay> com.liferay.portal.kernel.lar.PortletDataException: java.lang.IllegalArgumentException: Invalid scope ID ALL
+14:09 < dawn:#liferay> 	at com.liferay.portal.kernel.lar.BasePortletDataHandler.processImportPortletPreferences(BasePortletDataHandler.java:542)
+14:09 < dawn:#liferay> 	at com.liferay.portal.lar.PortletImporter.importPortletPreferences(PortletImporter.java:1159)
+14:09 < dawn:#liferay> 	at com.liferay.portal.lar.LayoutImporter.doImportLayouts(LayoutImporter.java:599)
+14:09 < dawn:#liferay> 	at com.liferay.portal.lar.LayoutImporter.importLayouts(LayoutImporter.java:118)
+14:09 < dawn:#liferay> 	at com.liferay.portal.service.impl.LayoutLocalServiceImpl.importLayouts(LayoutLocalServiceImpl.java:1756)
+14:09 < dawn:#liferay> 	at com.liferay.portal.service.impl.LayoutLocalServiceImpl.importLayouts(LayoutLocalServiceImpl.java:1805)
+14:09 < dawn:#liferay> 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+14:09 < dawn:#liferay> 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+14:09 < dawn:#liferay> 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+14:09 < dawn:#liferay> 	at java.lang.reflect.Method.invoke(Method.java:597)
+14:09 < dawn:#liferay> 	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:115)
+14:09 < dawn:#liferay> 	at com.liferay.portal.service.impl.LayoutLocalServiceVirtualLayoutsAdvice.invoke(LayoutLocalServiceVirtualLayoutsAdvice.java:179)
+14:09 < dawn:#liferay> 	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:111)
+14:09 < dawn:#liferay> 	at com.liferay.portal.service.impl.LayoutLocalServiceStagingAdvice.invoke(LayoutLocalServiceStagingAdvice.java:141)
+14:09 < dawn:#liferay> 	at com.liferay.portal.spring.aop.ServiceBeanMethodInvocation.proceed(ServiceBeanMethodInvocation.java:111)
+14:10 < dawn:#liferay> 	at com.liferay.portal.spring.transaction.DefaultTransactionExecutor.execute(DefaultTransactionExecutor.java:62)
