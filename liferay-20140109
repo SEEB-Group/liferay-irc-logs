@@ -133,3 +133,12 @@
 12:38 < topolik:#liferay> if it's a render URL, portal renders page
 12:38 < topolik:#liferay> and the URL is still the same
 12:38 < topolik:#liferay> ?first=joe&last=doe
+12:39 < jardineworks:#liferay> use an action url right?
+12:39 < jardineworks:#liferay> :)
+12:39 < topolik:#liferay> yes, this should work
+12:39 < topolik:#liferay> there you can send redirect
+12:39 < jardineworks:#liferay> so action url, create a reder url and redirect
+12:39 < topolik:#liferay> and specify the URL
+12:39 < topolik:#liferay> right
+12:39 < topolik:#liferay> and I guess the render URL will be the one you need
+12:39 < jardineworks:#liferay> yeah
