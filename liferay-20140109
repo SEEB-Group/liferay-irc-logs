@@ -145,3 +145,7 @@
 12:40 < jardineworks:#liferay> bugger it... now I have to refactor some (one elses) code... was trying to avoid that. shit.
 12:40 < topolik:#liferay> or you need to manually construct the URL before submitting the form
 12:40 < topolik:#liferay> and change that URL so that it can be matched
+12:41 < topolik:#liferay> JavaScript is your friend ;)
+12:41 < jardineworks:#liferay> you mean action the button using JS and use the Lfieray.PortletURL
+12:41 < topolik:#liferay> you don't need Liferay.PortletURL
+12:41 < topolik:#liferay> you are building a specific solution
