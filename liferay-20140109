@@ -163,3 +163,4 @@
 13:51 < jardineworks:#liferay> jhf, I can only speak for myself, but I abandoned the javadocs long ago :). I usually cruise the soruce when I am trying to understand what I need to do.
 13:53 < dawn:#liferay> jhf, same here
 13:55 < dawn:#liferay> providing API changelog during new release might help sometimes.
+13:57 < dawn:#liferay> jhf, I have a question regarding scopeIds. I created a LAR file and one of the portlet has scopeIds as "ALL" under preferences which is not available in receiving LR instance. any ideas are appreicated?
