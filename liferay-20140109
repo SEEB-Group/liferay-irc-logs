@@ -212,3 +212,5 @@
 14:10 < dawn:#liferay> 	at com.liferay.portal.kernel.lar.BasePortletDataHandler.processImportPortletPreferences(BasePortletDataHandler.java:535)
 14:10 < dawn:#liferay> 	... 29 more
 14:11 < dawn:#liferay> :(
+14:13 <@jhf:#liferay> also dawn what version of Liferay are you using?
+14:13 < dawn:#liferay> 6.2 GA1 EE
