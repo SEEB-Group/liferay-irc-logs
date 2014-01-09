@@ -99,3 +99,9 @@
 12:29 < jardineworks:#liferay> makes sense, those params are part of the url
 12:29 < jardineworks:#liferay> now
 12:30 < topolik:#liferay> wait pls
+12:30 < jardineworks:#liferay> sure
+12:30 < topolik:#liferay> so when you create the portlet  render url it is /-/portlet_name/view/name/first/last, right?
+12:30 < jardineworks:#liferay> right
+12:30 < jardineworks:#liferay> in my case, /-/friendlyurl.view/name/john/doe
+12:30 < topolik:#liferay> and when you click on the URL it is matched and translated back, right?
+12:30 < jardineworks:#liferay> yes
