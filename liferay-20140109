@@ -75,3 +75,8 @@
 11:17 <@jhf:#liferay> yay!!
 11:17 <@jhf:#liferay> what was the cognitive leap you made to this nirvana ?
 11:17 < jardineworks:#liferay> well... still stepping through to be sure :)
+11:18 < jardineworks:#liferay> but the DefaultFriendlyURLMapper doesn't appear to add submitted form parameters to the route parameters before it tries to match the friendly url.
+11:18 < jardineworks:#liferay> I'm still on the way in, so maybe this makes sense...
+11:18 < jardineworks:#liferay> we'll see
+11:18 <@jhf:#liferay> ok. i'm heading to lunch with some visiting brazillians, so will be back in about.. oh.. 4 or 5 hours :)
+11:18 < jardineworks:#liferay> lol
