@@ -126,3 +126,6 @@
 12:36 < jardineworks:#liferay> I assumed that the latter happens as part of the response process, but maybe I am wrong
 12:36 < topolik:#liferay> depends
 12:36 < topolik:#liferay> the URL -> parameters is automatic
+12:37 < jardineworks:#liferay> so basically, there is no way to have form submitted values place into the url without using url rewritting?
+12:37 < topolik:#liferay> ... but the parameters -> URL is on demand
+12:37 < topolik:#liferay> there is a way
