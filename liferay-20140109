@@ -73,3 +73,5 @@
 11:05 < dawn:#liferay> 		<missing-reference class-name="com.liferay.portlet.documentlibrary.model.DLFileEntryType" class-pk="10710" display-name="ba453c62-80b2-4166-b197-654061d600b7" group-id="10682" type="dependency" referrer-class-name="com.liferay.portal.model.Portlet" referrer-display-name="101" uuid="ba453c62-80b2-4166-b197-654061d600b7" company-id="10154" preloaded="false" file-entry-type-key="SALES PRESENTATION"/>
 11:16 < jardineworks:#liferay> jhf, I think I figured out this friendly url crap
 11:17 <@jhf:#liferay> yay!!
+11:17 <@jhf:#liferay> what was the cognitive leap you made to this nirvana ?
+11:17 < jardineworks:#liferay> well... still stepping through to be sure :)
