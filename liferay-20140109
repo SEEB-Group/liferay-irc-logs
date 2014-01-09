@@ -129,3 +129,7 @@
 12:37 < jardineworks:#liferay> so basically, there is no way to have form submitted values place into the url without using url rewritting?
 12:37 < topolik:#liferay> ... but the parameters -> URL is on demand
 12:37 < topolik:#liferay> there is a way
+12:38 < topolik:#liferay> first - when you submit the browser to such ?first=joe&last=doe URL, it is submitted to this URL
+12:38 < topolik:#liferay> if it's a render URL, portal renders page
+12:38 < topolik:#liferay> and the URL is still the same
+12:38 < topolik:#liferay> ?first=joe&last=doe
