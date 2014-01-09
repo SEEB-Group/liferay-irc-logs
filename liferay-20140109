@@ -31,3 +31,4 @@
 07:49 < rrapozo:#liferay> ok
 07:50 <@jhf:#liferay> but you'll need to set the maximum size limit higher (via Control Panel).
 07:50 <@jhf:#liferay> also, are you operating entirely on localhost? e.g. there's no "real" networking between your browser and server?
+07:51 < rrapozo:#liferay> yes, I can try in a network
