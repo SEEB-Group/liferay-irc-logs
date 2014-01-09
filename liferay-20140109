@@ -149,3 +149,4 @@
 12:41 < jardineworks:#liferay> you mean action the button using JS and use the Lfieray.PortletURL
 12:41 < topolik:#liferay> you don't need Liferay.PortletURL
 12:41 < topolik:#liferay> you are building a specific solution
+12:42 < topolik:#liferay> you have the comfort to make it simple
