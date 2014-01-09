@@ -57,3 +57,5 @@
 10:29 < rrapozo:#liferay> jhf: I don't understand! Just worked 1 time!
 10:33 < rrapozo:#liferay> And I tried with large files in a network
 10:33 < rrapozo:#liferay> :(
+10:34 <@jhf:#liferay> hey rrapozo there's one thing you can try, that I suspect may also be an issue with the browser
+10:34 <@jhf:#liferay> locate the file tomcat-7.0.40/webapps/ROOT/html/portal/upload_progress_poller.jsp
