@@ -150,3 +150,5 @@
 12:41 < topolik:#liferay> you don't need Liferay.PortletURL
 12:41 < topolik:#liferay> you are building a specific solution
 12:42 < topolik:#liferay> you have the comfort to make it simple
+12:43 < jardineworks:#liferay> alright... I think I need to use the action anyway so I can generate the filters. Remember the other day I showed you the url it had the same var in it twice but with different values.
+12:43 < topolik:#liferay> yeah
