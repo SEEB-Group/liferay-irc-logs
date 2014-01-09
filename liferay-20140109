@@ -115,3 +115,6 @@
 12:33 < jardineworks:#liferay> ok so on the way in I can see why it can't map it because it depends what the user chooses
 12:33 < topolik:#liferay> yes, you need to construct the URL manually
 12:34 < jardineworks:#liferay> BUT
+12:34 < jardineworks:#liferay> on the way back, why can't the resulting url be /-/friendlyurl/view/name/john/doe?
+12:34 < jardineworks:#liferay> the parameters are there now right?
+12:34 < topolik:#liferay> what do you mean by the resulting URL?
