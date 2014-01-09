@@ -122,3 +122,7 @@
 12:35 < topolik:#liferay> which sends browser to another address
 12:35 < topolik:#liferay> ?
 12:35 < jardineworks:#liferay> maybe (probably) I am not understanding how this works. The map goes two ways right?
+12:36 < jardineworks:#liferay> url -> parameters... and then parameter -> url
+12:36 < jardineworks:#liferay> I assumed that the latter happens as part of the response process, but maybe I am wrong
+12:36 < topolik:#liferay> depends
+12:36 < topolik:#liferay> the URL -> parameters is automatic
