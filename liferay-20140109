@@ -34,3 +34,7 @@
 07:51 < rrapozo:#liferay> yes, I can try in a network
 07:59 <@jhf:#liferay> I believe what's happening is that over the local network (localhost), when Tomcat attempts to parse the incoming HTTP POST (containing the binary payload), it is able to read the entire file before handing back to Liferay, so Liferay never sees "progress" until 100%. I think with a huge file, and/or using a "real" network link, Tomcat won't see all the bits so fast, and will hand control back to Liferay to process the stream and "see" progress.
 08:00 <@jhf:#liferay> so, in other words, it "works" but progress isn't shown nicely.
+08:01 < rrapozo:#liferay> ok, I will test now
+08:01 <@jhf:#liferay> To increase the max allowed file size, go to Control Panel -> Server Administration (its near the bottom of Control Panel in 6.1).
+08:01 <@jhf:#liferay> then click the "File Uploads" tab
+08:01 <@jhf:#liferay> and change the first setting ("Overall Maximum File Size") to something huge.
