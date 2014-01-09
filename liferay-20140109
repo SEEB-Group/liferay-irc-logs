@@ -90,3 +90,7 @@
 12:27 < jardineworks:#liferay> the route parameters are built based only on url params, not on the entire parameter map.
 12:27 < jardineworks:#liferay> at least, that is my understanding.
 12:27 < topolik:#liferay> hehe, I'm lost :D
+12:28 < topolik:#liferay> so
+12:28 < jardineworks:#liferay> ok - I have a form with two fields. First and Last name.
+12:28 < topolik:#liferay> ok
+12:28 < jardineworks:#liferay> I have a route with a pattern /view/name/{first}/{last}
