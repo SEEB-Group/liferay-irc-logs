@@ -6,3 +6,4 @@
 07:39 <@jhf:#liferay> first off, which browser are you using?
 07:40 < rrapozo:#liferay> I tried with firefox and chromium
 07:40 <@jhf:#liferay> hmm ok.. and on firefox, do you see the progress bar at all (even if it does not actually move with the progress)?
+07:41 <@jhf:#liferay> what I found was that I could not see it on Chrome, but always saw it on FF. further, depending on the size of the file, it sometimes never updated because Tomcat caches the entire file first before handing it off to Liferay, so by the time Liferay code "sees" the upload, it's already 100% done.
