@@ -218,3 +218,7 @@
 14:15 < topolik:#liferay> dawn: I don't have much time, but try "Group_default"
 14:16 < dawn:#liferay> topolik,Yes, I am trying that
 14:17 <@jhf:#liferay> yeah topolik !
+14:18 <@jhf:#liferay> if that works we need to find where the ALL was inserted
+14:18 <@jhf:#liferay> I assume you created the LAR file from the identical Liferay version?
+14:18 < dawn:#liferay> jhf and topolik, That works!! Yes I am using same versions
+14:19 <@jhf:#liferay> cool. I'll go see where that ALL was inserted.
