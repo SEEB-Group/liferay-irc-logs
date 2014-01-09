@@ -222,3 +222,4 @@
 14:18 <@jhf:#liferay> I assume you created the LAR file from the identical Liferay version?
 14:18 < dawn:#liferay> jhf and topolik, That works!! Yes I am using same versions
 14:19 <@jhf:#liferay> cool. I'll go see where that ALL was inserted.
+14:19 < dawn:#liferay> I found some discrepancy with asset publisher categories selection thought. Not sure if that is related. The category selections are not carried over.
