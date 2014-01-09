@@ -65,3 +65,5 @@
 10:35 < rrapozo:#liferay> ok
 10:35 <@jhf:#liferay> this is the function that causes the progress bar to update itself once a second. I found that in some cases it didn't actually trigger a call back to the server because browsers cache pages
 10:35 <@jhf:#liferay> but the (true) forces it to always go back to the server.
+10:36 <@jhf:#liferay> btw, this is completely redesigned (in a better way) in Liferay 6.2 :)
+10:36 <@jhf:#liferay> bbi10
