@@ -59,3 +59,9 @@
 10:33 < rrapozo:#liferay> :(
 10:34 <@jhf:#liferay> hey rrapozo there's one thing you can try, that I suspect may also be an issue with the browser
 10:34 <@jhf:#liferay> locate the file tomcat-7.0.40/webapps/ROOT/html/portal/upload_progress_poller.jsp
+10:35 <@jhf:#liferay> there is a line near the end that reads "setTimeout(window.location.reload, 1000);
+10:35 <@jhf:#liferay> change it to
+10:35 <@jhf:#liferay> setTimeout(function() {window.location.reload(true);}, 1000);
+10:35 < rrapozo:#liferay> ok
+10:35 <@jhf:#liferay> this is the function that causes the progress bar to update itself once a second. I found that in some cases it didn't actually trigger a call back to the server because browsers cache pages
+10:35 <@jhf:#liferay> but the (true) forces it to always go back to the server.
