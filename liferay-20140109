@@ -10,3 +10,5 @@
 07:42 <@jhf:#liferay> when I change the max upload size in Liferay to something huge (like 100GB) then upload, say, a 4GB file, it works for me,.
 07:42 < rrapozo:#liferay> yes, it happens! The progress bar show but dont move
 07:42 <@jhf:#liferay> ok. can you first try it agin, but with a file that is ~ 99MB (the default max upload size is 100MB I believe)
+07:43 < rrapozo:#liferay> ok!
+07:43 < rrapozo:#liferay> can you send the code java em html please?
