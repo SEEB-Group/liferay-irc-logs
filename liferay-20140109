@@ -82,3 +82,4 @@
 11:18 < jardineworks:#liferay> lol
 12:20 < jardineworks:#liferay> topolik, still fighting with the friendly url stuff. I think I know the issue but not sure how to solve it. The issue for me is that the form fields are not added to the route parameters before the route selection in made. I tried to override by creating a custom mapper (extending the default one) but the problem is that the form parameters are in the PARENT parameter map, which is private so I can't get to it.
 12:20 < jardineworks:#liferay> topolik, do you have any ideas? ... I'm nearing pure desperation here.
+12:23 < topolik:#liferay> jardineworks: Hi
