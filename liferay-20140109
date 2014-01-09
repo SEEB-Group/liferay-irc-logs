@@ -239,3 +239,4 @@
 15:16 <@jhf:#liferay> dawn I cannot find anywhere in asset publisher portlet where the scope name might end up as "ALL" in an exported .LAR file.
 15:16 <@jhf:#liferay> have you created any site named ALL ?
 15:16 <@jhf:#liferay> and if you change the preference on the affected asset publisher portlet to something else, does it work (and not fail the import)?
+15:17 < dawn:#liferay> jhf No, I don't have a site with name ALL
