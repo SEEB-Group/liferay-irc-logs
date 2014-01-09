@@ -158,3 +158,4 @@
 12:45 < jardineworks:#liferay> right
 12:45 < jardineworks:#liferay> ok
 12:45 < jardineworks:#liferay> on to refactoring
+13:19 < dawn:#liferay> hi topolik, I have a question regarding scopeIds. I created a LAR file and one of the portlet has scopeIds as "ALL" under preferences which is not available in receiving LR instance. any ideas are appreicated?
