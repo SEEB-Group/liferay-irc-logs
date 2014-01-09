@@ -240,3 +240,4 @@
 15:16 <@jhf:#liferay> have you created any site named ALL ?
 15:16 <@jhf:#liferay> and if you change the preference on the affected asset publisher portlet to something else, does it work (and not fail the import)?
 15:17 < dawn:#liferay> jhf No, I don't have a site with name ALL
+15:20 < dawn:#liferay> also this particular site is Navigation site whose web pages are linked to another site pages. So the portlets are not directly added to Navigation site pages
