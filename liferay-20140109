@@ -84,3 +84,6 @@
 12:20 < jardineworks:#liferay> topolik, do you have any ideas? ... I'm nearing pure desperation here.
 12:23 < topolik:#liferay> jardineworks: Hi
 12:24 < topolik:#liferay> I thought the route is chosen based on the URL, isn't it? Regardless of provided parameters
+12:26 < jardineworks:#liferay> topolik, it is.. but the url is assembled from parameters before the match is made.
+12:26 < jardineworks:#liferay> so I am getting back /test/view?first=jonh&last=doe ...
+12:26 < jardineworks:#liferay> but I want to get back /test/view/john/doe
