@@ -152,3 +152,5 @@
 12:42 < topolik:#liferay> you have the comfort to make it simple
 12:43 < jardineworks:#liferay> alright... I think I need to use the action anyway so I can generate the filters. Remember the other day I showed you the url it had the same var in it twice but with different values.
 12:43 < topolik:#liferay> yeah
+12:44 < topolik:#liferay> this can be also solved using JS
+12:44 -!- mode/#liferay [+o rotty3000] by ChanServ
