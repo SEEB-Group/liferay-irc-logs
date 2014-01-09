@@ -159,3 +159,4 @@
 12:45 < jardineworks:#liferay> ok
 12:45 < jardineworks:#liferay> on to refactoring
 13:19 < dawn:#liferay> hi topolik, I have a question regarding scopeIds. I created a LAR file and one of the portlet has scopeIds as "ALL" under preferences which is not available in receiving LR instance. any ideas are appreicated?
+13:26 <@jhf:#liferay> quick poll: of all the Liferay Java APIs, which one would you want to be javadoc'd that isn't already?
