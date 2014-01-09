@@ -116,3 +116,4 @@
 18:23 < dawn:#liferay> hi
 18:26 < dawn:#liferay> I am not able to import a LAR that was exported from LR 6.2 GA1 of different instance. The error says missing Document that was refered in Asset publisher. Upon unzipping the LAR and grepping for document Id, i found it is refereeing to Document library package files. Any help is appreciated.
 20:10 < bijoo_:#liferay> Tar-Minyatur: hey, are you still having the issues there?
+21:55 -!- mode/#liferay [+o rotty3000] by ChanServ
