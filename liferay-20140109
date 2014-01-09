@@ -68,3 +68,4 @@
 10:36 <@jhf:#liferay> btw, this is completely redesigned (in a better way) in Liferay 6.2 :)
 10:36 <@jhf:#liferay> bbi10
 10:50 < rrapozo:#liferay> One question James. Do you know have the liferay IDE for the 6.2 version?
+11:03 < dawn:#liferay> A quick question, I am not able to import a LAR that was exported from LR 6.2 GA1 of different instance. The error says missing Document that was refered in Asset publisher. The manifest file in lAR has some missing references. Now how do I trace those to a particular asset publisher on a web page, Any help is appreciated.
