@@ -94,3 +94,8 @@
 12:28 < jardineworks:#liferay> ok - I have a form with two fields. First and Last name.
 12:28 < topolik:#liferay> ok
 12:28 < jardineworks:#liferay> I have a route with a pattern /view/name/{first}/{last}
+12:29 < topolik:#liferay> ok
+12:29 < jardineworks:#liferay> if I create a <portlet:renderURL><portlet:param name="fitrst"... etc... then that route is found and matched
+12:29 < jardineworks:#liferay> makes sense, those params are part of the url
+12:29 < jardineworks:#liferay> now
+12:30 < topolik:#liferay> wait pls
