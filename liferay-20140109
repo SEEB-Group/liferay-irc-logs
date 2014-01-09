@@ -236,3 +236,6 @@
 14:39 < dawn:#liferay> jhf,regarding LAR file I am not allowed to share, let me know if I can help you in any other way.
 14:54 <@jhf:#liferay> dawn: was this liferay instance ever upgraded from a prior version of Liferay?
 14:55 < dawn:#liferay> Yes,I upgraded from 6.1GA3 to 6.2GA1
+15:16 <@jhf:#liferay> dawn I cannot find anywhere in asset publisher portlet where the scope name might end up as "ALL" in an exported .LAR file.
+15:16 <@jhf:#liferay> have you created any site named ALL ?
+15:16 <@jhf:#liferay> and if you change the preference on the affected asset publisher portlet to something else, does it work (and not fail the import)?
