@@ -229,3 +229,4 @@
 14:32 < dawn:#liferay> jhf, any idea why I am losing asset publisher configuration?
 14:34 <@jhf:#liferay> when you are exporting, are you selecting the "Configuration" checkbox ?
 14:35 <@jhf:#liferay> also, is it possible to send me the resulting LAR (the one that was "broken") ?
+14:37 < dawn:#liferay> jhf, I am selecting All Applications under App Conf tab which I believe should take care of it?
