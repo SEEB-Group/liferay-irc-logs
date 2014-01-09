@@ -241,3 +241,11 @@
 15:16 <@jhf:#liferay> and if you change the preference on the affected asset publisher portlet to something else, does it work (and not fail the import)?
 15:17 < dawn:#liferay> jhf No, I don't have a site with name ALL
 15:20 < dawn:#liferay> also this particular site is Navigation site whose web pages are linked to another site pages. So the portlets are not directly added to Navigation site pages
+15:24 <@jhf:#liferay> can you look inside the resulting .LAR file after export? It is a zip file you can unzip (you may need to rename it to have a .zip extension if you are on windows).  there will be many files. you are looking for files that store preferences for the AssetPublisher portlet, named under a directory with 101_INSTANCE ("101" is the "name" of the Asset Publisher portlet).
+15:24 <@jhf:#liferay> for example I have a file called ./group/10184/portlet/101_INSTANCE_6bBV99rlByWR/preferences/layout/0/11650/portlet-preferences.xml
+15:24 <@jhf:#liferay> it contains
+15:24 <@jhf:#liferay>         <preference>
+15:24 <@jhf:#liferay>                 <name>scopeIds</name>
+15:24 <@jhf:#liferay>                 <value>[$COMPANY_GROUP_SCOPE_ID$]</value>
+15:24 <@jhf:#liferay>         </preference>
+15:24 <@jhf:#liferay> I want to know if yours actually says ALL for the <value></value>
