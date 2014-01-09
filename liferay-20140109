@@ -227,3 +227,4 @@
 14:26 <@jhf:#liferay> I created a LAR with 6.2 and picked the global scope as one of the filters, and this ended up in the LAR:                 <value>Group_default</value>
 14:26 <@jhf:#liferay> sooooo...
 14:32 < dawn:#liferay> jhf, any idea why I am losing asset publisher configuration?
+14:34 <@jhf:#liferay> when you are exporting, are you selecting the "Configuration" checkbox ?
