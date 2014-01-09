@@ -40,3 +40,4 @@
 08:01 <@jhf:#liferay> and change the first setting ("Overall Maximum File Size") to something huge.
 08:02 <@jhf:#liferay> and click Save
 08:02 <@jhf:#liferay> then try again with a larger file, say, 2GB or more
+08:08 < rrapozo:#liferay> Nice!!! I will read slowly and understant everything but one think is that the progress worked with a file 98.9MB
