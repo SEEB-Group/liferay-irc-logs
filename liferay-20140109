@@ -112,3 +112,6 @@
 12:31 < jardineworks:#liferay> I enter John and Doe in the form and submit.
 12:32 < jardineworks:#liferay> what I get back is /-/friendlyurl/view?first=john&last=doe
 12:32 < topolik:#liferay> yes, this is how HTML forms work
+12:33 < jardineworks:#liferay> ok so on the way in I can see why it can't map it because it depends what the user chooses
+12:33 < topolik:#liferay> yes, you need to construct the URL manually
+12:34 < jardineworks:#liferay> BUT
