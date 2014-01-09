@@ -110,3 +110,5 @@
 12:31 < jardineworks:#liferay> BUT!
 12:31 < jardineworks:#liferay> lets say now I have a form. my action="<portlet:renderURL var="applyFilters" />
 12:31 < jardineworks:#liferay> I enter John and Doe in the form and submit.
+12:32 < jardineworks:#liferay> what I get back is /-/friendlyurl/view?first=john&last=doe
+12:32 < topolik:#liferay> yes, this is how HTML forms work
