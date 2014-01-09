@@ -164,3 +164,5 @@
 13:53 < dawn:#liferay> jhf, same here
 13:55 < dawn:#liferay> providing API changelog during new release might help sometimes.
 13:57 < dawn:#liferay> jhf, I have a question regarding scopeIds. I created a LAR file and one of the portlet has scopeIds as "ALL" under preferences which is not available in receiving LR instance. any ideas are appreicated?
+14:06 <@jhf:#liferay> if you change it to not be ALL, does it work?
+14:06 < dawn:#liferay> change to some random value?
