@@ -21,3 +21,11 @@
 07:47 <@jhf:#liferay> java code: https://gist.github.com/anonymous/8333579
 07:47 <@jhf:#liferay> my JSP: https://gist.github.com/anonymous/8333586
 07:48 <@jhf:#liferay> I was playing with setting the progress attribute directly (via getPortletSession().setAttribute()) but I don't actually think this is needed.
+07:49 <@jhf:#liferay> rrapozo:
+07:49 <@jhf:#liferay> java code: https://gist.github.com/anonymous/8333579
+07:49 <@jhf:#liferay> [7:45am] <jhf>
+07:49 <@jhf:#liferay> my JSP: https://gist.github.com/anonymous/8333586
+07:49 <@jhf:#liferay> [7:46am] <jhf>
+07:49 <@jhf:#liferay> I was playing with setting the progress attribute directly (via getPortletSession().setAttribute()) but I don't actually think this is needed.
+07:49 <@jhf:#liferay> if it doesn't work with 99MB we'll try something larger
+07:49 < rrapozo:#liferay> ok
