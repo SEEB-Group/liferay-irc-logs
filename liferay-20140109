@@ -166,3 +166,4 @@
 13:57 < dawn:#liferay> jhf, I have a question regarding scopeIds. I created a LAR file and one of the portlet has scopeIds as "ALL" under preferences which is not available in receiving LR instance. any ideas are appreicated?
 14:06 <@jhf:#liferay> if you change it to not be ALL, does it work?
 14:06 < dawn:#liferay> change to some random value?
+14:07 <@jhf:#liferay> hmmm.. I doubt a random value would work, I guess I"m asking how do you know that the ALL is causing the problem?
