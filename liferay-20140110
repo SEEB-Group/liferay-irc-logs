@@ -16,3 +16,4 @@
 13:20 < jardineworks:#liferay> topolik, I think i have withered it down to the end problem. we might have already discussed this.. i'm losing ttrack along with my mind. If I don't put the tags and categories in the route as ignored parameters then they make it over to the server. As soon as I add them (to get them out of the url) they stop gettting over.
 13:30 < jardineworks:#liferay> topolik, another update. I have the custom mapper working but the copy from parent to inheritting class doesn't work. By the time we get there they're out of the parent :( .. maybe I can save them
 13:35 < jardineworks:#liferay> nope.
+15:50 < rfonseca:#liferay> Hi, I'm trying to download documents from a remote liferay server. I'm able to get the FileEntry, but how do I get the file's content?
