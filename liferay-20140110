@@ -3,3 +3,5 @@
 06:41 < sl33k:#liferay> I am using JkMount in my tomcat app, but try as i may, mod_jk is refusing to load the path to my css and js. its a liferay app. and the css/js are in a themes folder which is basically still a webapp folde. I am also using JkMount /* ajp13
 06:41 < sl33k:#liferay> (12:33:34 PM) sl33k: anyone with a clue on what to do?
 06:41 < sl33k:#liferay> happy new year to you all btw
+07:54 < jardineworks:#liferay> topolik, I am so close to getting this url thing working -- but I have one thing not working. I've been starting at it for nearly a day with no joy. Any chance you have time to play a second set of eyes?
+07:54 < topolik:#liferay> hi jardineworks, sure
