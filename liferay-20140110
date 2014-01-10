@@ -21,3 +21,4 @@
 16:00 < rfonseca:#liferay> apucay: yeah. What's the right way to do it?
 16:01 < rfonseca:#liferay> I tried via http, but maybe I'm not using the right URL. I can't get past the login screen
 16:05 < apucay:#liferay> are you trying to get the data from within a browser, or code running on the server side?
+16:08 < rfonseca:#liferay> apucay: code running on the client side
