@@ -14,3 +14,4 @@
 08:05 < jardineworks:#liferay> topolik, I sent you a pm in case you didn't notice
 13:06 < jardineworks:#liferay> topolik, unbelievable. If I move the SAME custom friendly url mapper to my dummy portlet, it breaks where the point is set. If I put it in the article portlet... its like its not even there.
 13:20 < jardineworks:#liferay> topolik, I think i have withered it down to the end problem. we might have already discussed this.. i'm losing ttrack along with my mind. If I don't put the tags and categories in the route as ignored parameters then they make it over to the server. As soon as I add them (to get them out of the url) they stop gettting over.
+13:30 < jardineworks:#liferay> topolik, another update. I have the custom mapper working but the copy from parent to inheritting class doesn't work. By the time we get there they're out of the parent :( .. maybe I can save them
