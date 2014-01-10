@@ -1,2 +1,5 @@
 --- Log opened Fri Jan 10 00:00:30 2014
 05:38 < rrapozo:#liferay> jhf: I can say how you help me!!! Thanks a lot! The progress bar it working perfectly in liferay 6.2
+06:41 < sl33k:#liferay> I am using JkMount in my tomcat app, but try as i may, mod_jk is refusing to load the path to my css and js. its a liferay app. and the css/js are in a themes folder which is basically still a webapp folde. I am also using JkMount /* ajp13
+06:41 < sl33k:#liferay> (12:33:34 PM) sl33k: anyone with a clue on what to do?
+06:41 < sl33k:#liferay> happy new year to you all btw
