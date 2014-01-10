@@ -18,3 +18,5 @@
 13:35 < jardineworks:#liferay> nope.
 15:50 < rfonseca:#liferay> Hi, I'm trying to download documents from a remote liferay server. I'm able to get the FileEntry, but how do I get the file's content?
 15:56 < apucay:#liferay> hmmm, i don't think the getFileAsStream methods are exposed
+16:00 < rfonseca:#liferay> apucay: yeah. What's the right way to do it?
+16:01 < rfonseca:#liferay> I tried via http, but maybe I'm not using the right URL. I can't get past the login screen
