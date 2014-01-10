@@ -12,3 +12,4 @@
 08:00 < jardineworks:#liferay> yeah
 08:00 < jardineworks:#liferay> :)
 08:05 < jardineworks:#liferay> topolik, I sent you a pm in case you didn't notice
+13:06 < jardineworks:#liferay> topolik, unbelievable. If I move the SAME custom friendly url mapper to my dummy portlet, it breaks where the point is set. If I put it in the article portlet... its like its not even there.
