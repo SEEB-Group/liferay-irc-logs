@@ -5,3 +5,4 @@
 06:41 < sl33k:#liferay> happy new year to you all btw
 07:54 < jardineworks:#liferay> topolik, I am so close to getting this url thing working -- but I have one thing not working. I've been starting at it for nearly a day with no joy. Any chance you have time to play a second set of eyes?
 07:54 < topolik:#liferay> hi jardineworks, sure
+07:56 < jardineworks:#liferay> I wrote the js function and it builds the url. I started with fabricating the values I wanted and then doing the maps. Works fine. Then I added in the concatenationation of the selected ctegories. I added the fields to the route... but for some reason they are not coming out on the other side.
