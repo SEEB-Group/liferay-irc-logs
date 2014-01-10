@@ -7,3 +7,5 @@
 07:54 < topolik:#liferay> hi jardineworks, sure
 07:56 < jardineworks:#liferay> I wrote the js function and it builds the url. I started with fabricating the values I wanted and then doing the maps. Works fine. Then I added in the concatenationation of the selected ctegories. I added the fields to the route... but for some reason they are not coming out on the other side.
 07:57 < jardineworks:#liferay> can I screen share with you? might be easiest -- or I can offer you a million pastebin links hahaha
+07:59 < topolik:#liferay> ok, how was that program called, I always forget :D
+07:59 < topolik:#liferay> mikogo?
