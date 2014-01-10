@@ -17,3 +17,4 @@
 13:30 < jardineworks:#liferay> topolik, another update. I have the custom mapper working but the copy from parent to inheritting class doesn't work. By the time we get there they're out of the parent :( .. maybe I can save them
 13:35 < jardineworks:#liferay> nope.
 15:50 < rfonseca:#liferay> Hi, I'm trying to download documents from a remote liferay server. I'm able to get the FileEntry, but how do I get the file's content?
+15:56 < apucay:#liferay> hmmm, i don't think the getFileAsStream methods are exposed
