@@ -245,3 +245,4 @@
 15:19 < jardineworks:#liferay> ah -- thats what I thought maybe.. api change.
 15:19 < jardineworks:#liferay> is the count check really necesasry?
 15:19 < jardineworks:#liferay> performance stuff I am guessing?
+15:20 <@rotty3000:#liferay> it's a check to see if the preferences exist.. you don't want to update the prefs on every hit that's for sure
