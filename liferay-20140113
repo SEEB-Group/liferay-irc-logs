@@ -112,3 +112,4 @@
 10:34 < Tar-Minyatur:#liferay> You would go through so much work!
 10:36 <@rotty3000:#liferay> jardineworks: yeah, it expects XML output :(
 10:36 <@rotty3000:#liferay> you can look at the portal examples to see how we do it
+10:37 < rfonseca:#liferay> topolik: hmm, I'll take a look into it, thanks.
