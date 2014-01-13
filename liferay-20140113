@@ -141,3 +141,5 @@
 12:03 < jardineworks:#liferay> Tar-Minyatur, That sounds right to me. In the past I have had to remove an old theme reference from a page and I just went into that table and deleted the column value.
 12:10 < Tar-Minyatur:#liferay> Yeah. Sure looks like that's correct. At least that seems to be what Liferay is doing when I change a page back to "use look and feel of public pages".
 13:22 < jardineworks:#liferay> rotty3000, I am embedding the search portlet in my theme. is it possible to pass configruation options into it? I know I can disable the Impl classes in the portal ext but I also want to remove one of the facets and enable the OpenSearch
+13:23 <@rotty3000:#liferay> how are you embedding?
+13:23 < jardineworks:#liferay> $theme.search()
