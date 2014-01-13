@@ -249,3 +249,7 @@
 15:21 <@rotty3000:#liferay> change it too getPortletPreferences(...).size()
 15:21 <@rotty3000:#liferay> after the first hit the query will be cached and should be cheap
 15:21 <@rotty3000:#liferay> since it's a memory only operation
+15:22 <@rotty3000:#liferay> $ppLocalService.getPortletPreferences($ppIds.ownerType, $ppIds.plid, $ppIds.portletId).size()
+15:22 < jardineworks:#liferay> ok --
+15:22 < jardineworks:#liferay> another question
+15:22 <@rotty3000:#liferay> actually
