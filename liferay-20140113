@@ -93,3 +93,5 @@
 10:24 <@rotty3000:#liferay> so make a default constructor, and print a debug line there to make sure it's getting loaded
 10:24 < jardineworks:#liferay> k
 10:25 < jardineworks:#liferay> rotty3000, it is. during deployment I see 15:23:06,270 INFO  [localhost-startStop-35][FlyerOpenSearchImpl:31] *****FlyerOpenSearchImpl loaded.
+10:26 < jardineworks:#liferay> ah
+10:26 < jardineworks:#liferay> I was overriding the UserId serach method... I just added the GroupId method and see it now.
