@@ -45,3 +45,8 @@
 10:11 <@rotty3000:#liferay> and the engines can be multiple solr/lucene/other as long as the intration all conform to the API
 10:11 <@rotty3000:#liferay> exactly
 10:11 <@rotty3000:#liferay> now
+10:12 <@rotty3000:#liferay> there is a gotcha from the UI
+10:12 <@rotty3000:#liferay> there is no current UI that provides a means to say "get me results from all engines"
+10:12 < jardineworks:#liferay> 3 days -- which is probably more like 1.5 days because other stuff keeps coming up.
+10:12 <@rotty3000:#liferay> it effectively only searches the default "SYSTEM_ENGINE"
+10:12 <@rotty3000:#liferay> however
