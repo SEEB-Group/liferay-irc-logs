@@ -139,3 +139,4 @@
 11:38 < Tar-Minyatur:#liferay> I want to change that make all pages use the default instead.
 11:39 < Tar-Minyatur:#liferay> Looks like I have to set the themeId to "" for all pages, but I'm not sure.
 12:03 < jardineworks:#liferay> Tar-Minyatur, That sounds right to me. In the past I have had to remove an old theme reference from a page and I just went into that table and deleted the column value.
+12:10 < Tar-Minyatur:#liferay> Yeah. Sure looks like that's correct. At least that seems to be what Liferay is doing when I change a page back to "use look and feel of public pages".
