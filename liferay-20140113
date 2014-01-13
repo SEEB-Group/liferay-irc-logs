@@ -187,3 +187,4 @@
 13:38 <@rotty3000:#liferay> default is here https://github.com/rotty3000/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/search/dependencies/facet_configuration.json
 13:38 < jardineworks:#liferay> cool -- I'll check that out. Thanks again rotty3000
 13:38 <@rotty3000:#liferay> n/p
+13:40 < jardineworks:#liferay> that won't enable the perferences for OpenSearch though ...
