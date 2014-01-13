@@ -3,3 +3,6 @@
 04:17 < Tar-Minyatur:#liferay> Good morning.
 04:17 < Tar-Minyatur:#liferay> Wow...macro names in velocity templates have to be unique?
 04:52 < avinashrbhat:#liferay> hmm, odd, I just found about this macros :-)
+04:55 < avinashrbhat:#liferay> Tar-Minyatur, do you know how to include a macro into the portlet theme?
+04:55 < Tar-Minyatur:#liferay> A macro is nothing but a subroutine inside a velocity template.
+04:55 < Tar-Minyatur:#liferay> You can define them in there and use them.
