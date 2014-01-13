@@ -204,3 +204,6 @@
 14:09 < jardineworks:#liferay> $theme.runtime("3", "", $velocityPortletPreferences) -- that's a good sign! :)
 14:21 < jardineworks:#liferay> rotty3000, is there possibly a typo in what you gave me? should $velocityPortletPreferences perhaps be $portletPreferences?
 14:40 < jardineworks:#liferay> rotty3000, I get some awesome results :) ... it directs me to the full view with the search results (preferences not being applied -- but I have an error in the console)... but the search box in the nav bar is ALSO showing the results lol... so its... umm messed :)
+14:56 < jardineworks:#liferay> rotty3000, I am getting this error -- 19:52:36,146 ERROR [http-bio-8080-exec-83][velocity:151] Left side ($ppLocalService.getPortletPreferencesCount($ppIds.ownerType, $ppIds.plid, $ppIds.portletId)) of '<' operation has null value at sprouts-v1-theme_SERVLET_CONTEXT_/templates/navigation_web.vm[line 233, column 139]
+14:56 < jardineworks:#liferay> but its because the method name is getPortletPreferencesesCount
+14:56 < jardineworks:#liferay> typo :)
