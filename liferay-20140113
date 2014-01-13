@@ -210,3 +210,7 @@
 14:57 < jardineworks:#liferay> preferencessesesssesssseeesisis...ses.
 14:58 < jardineworks:#liferay> and there appear to be no parameters ?
 15:10 <@rotty3000:#liferay> hey jardineworks you still having problems?
+15:10 < jardineworks:#liferay> rotty3000, yeah -- sorry, this is not my strong point :)
+15:10 < jardineworks:#liferay> velocity is still something i muddle through
+15:10 < jardineworks:#liferay> I get that error above.. which I think means it fails to set my preferences
+15:10 <@rotty3000:#liferay> can you just print out this?    $ppLocalService
