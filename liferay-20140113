@@ -239,3 +239,4 @@
 15:15 < jardineworks:#liferay> so I checked the PortletPreferencesLocalServiceUtil ...
 15:15 < jardineworks:#liferay> and I found the typo -- and it has not parameters.
 15:15 < jardineworks:#liferay> I couldn't find a method with that name/sig
+15:18 <@rotty3000:#liferay> right
