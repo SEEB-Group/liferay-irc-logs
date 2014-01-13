@@ -260,3 +260,8 @@
 15:24 < jardineworks:#liferay> actually.. I didn't try that :)
 15:24 < jardineworks:#liferay> lol
 15:24 < jardineworks:#liferay> let me trying the list size check
+15:26 < jardineworks:#liferay> ok -- error gone .. size of 1. But now, if I want to change the preferences I need to comment out that check, deploy, run, then put the check back right?
+15:26 <@rotty3000:#liferay> Better yet     $ppLocalService.getPortletPreferences($ppIds.ownerId, $ppIds.ownerType, $ppIds.plid, $ppIds.portletId)
+15:26 <@rotty3000:#liferay> check for null against that
+15:26 <@rotty3000:#liferay> cheaper query yet
+15:26 <@rotty3000:#liferay> that's sort of the issue yeah
