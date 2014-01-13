@@ -196,3 +196,4 @@
 13:58 < jardineworks:#liferay> not a big deal with the facets, I can remove them from my new template anyway...
 13:59 < jardineworks:#liferay> but the open search is kinda important :)
 13:59 <@rotty3000:#liferay> https://gist.github.com/rotty3000/4287391
+14:01 < jardineworks:#liferay> "displayOpenSearchResultsCheckbox", "true" ?
