@@ -137,3 +137,4 @@
 11:37 < Tar-Minyatur:#liferay> There is this column themeId.
 11:38 < Tar-Minyatur:#liferay> My problem now is that for some stupid reason nobody ever switched the theme for the public pages but rather set the theme on every single page.
 11:38 < Tar-Minyatur:#liferay> I want to change that make all pages use the default instead.
+11:39 < Tar-Minyatur:#liferay> Looks like I have to set the themeId to "" for all pages, but I'm not sure.
