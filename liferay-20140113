@@ -230,3 +230,6 @@
 15:13 <@rotty3000:#liferay> what about dumping        $ppLocalService.getPortletPreferencesCount($ppIds.ownerType, $ppIds.plid, $ppIds.portletId)
 15:13 < jardineworks:#liferay> (one sec)
 15:13 <@rotty3000:#liferay> ok
+15:14 < jardineworks:#liferay> rotty3000, I get itself echoed back
+15:14 < jardineworks:#liferay> and that, with the < 0 check generates that error above
+15:14 <@rotty3000:#liferay> ok, so the method is either not identified
