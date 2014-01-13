@@ -170,3 +170,8 @@
 13:33 < jardineworks:#liferay> you have to set it that way per page it seems
 13:33 < jardineworks:#liferay> werid
 13:33 <@rotty3000:#liferay> and the one I gave will also give you problems
+13:34 <@rotty3000:#liferay> right, prefers are scoped per page?
+13:34 < jardineworks:#liferay> yes?
+13:34 < jardineworks:#liferay> :)
+13:34 < jardineworks:#liferay> can I change that (for just this portlet)?
+13:34 <@rotty3000:#liferay> the scope?
