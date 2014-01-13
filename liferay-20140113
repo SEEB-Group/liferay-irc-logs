@@ -113,3 +113,5 @@
 10:36 <@rotty3000:#liferay> jardineworks: yeah, it expects XML output :(
 10:36 <@rotty3000:#liferay> you can look at the portal examples to see how we do it
 10:37 < rfonseca:#liferay> topolik: hmm, I'll take a look into it, thanks.
+10:42 <@rotty3000:#liferay> jardineworks: https://github.com/rotty3000/liferay-portal/blob/master/portal-service/src/com/liferay/portal/kernel/search/HitsOpenSearchImpl.java
+10:42 <@rotty3000:#liferay> basically, your results can come back in any form, as long as what the opensearch returns to the caller is XML string
