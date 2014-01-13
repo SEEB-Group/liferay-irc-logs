@@ -183,3 +183,7 @@
 13:36 <@rotty3000:#liferay> sec
 13:37 <@rotty3000:#liferay> so, the default facets can be overridden by placing a file in ROOT/WEB-INF/classes
 13:37 <@rotty3000:#liferay> com/liferay/portlet/search/dependencies/facet_configuration.json
+13:38 < jardineworks:#liferay> oh
+13:38 <@rotty3000:#liferay> default is here https://github.com/rotty3000/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/search/dependencies/facet_configuration.json
+13:38 < jardineworks:#liferay> cool -- I'll check that out. Thanks again rotty3000
+13:38 <@rotty3000:#liferay> n/p
