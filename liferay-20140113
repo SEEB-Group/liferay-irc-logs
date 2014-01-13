@@ -163,3 +163,5 @@
 13:31 < jardineworks:#liferay> no sir... in context.
 13:31 <@rotty3000:#liferay> ok then don't use that embedding method
 13:31 <@rotty3000:#liferay> use this one:
+13:32 <@rotty3000:#liferay> $theme.runtime("portletID", "", "default preferences")
+13:32 < jardineworks:#liferay> oh .. maybe I got it
