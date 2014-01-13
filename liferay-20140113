@@ -6,3 +6,6 @@
 04:55 < avinashrbhat:#liferay> Tar-Minyatur, do you know how to include a macro into the portlet theme?
 04:55 < Tar-Minyatur:#liferay> A macro is nothing but a subroutine inside a velocity template.
 04:55 < Tar-Minyatur:#liferay> You can define them in there and use them.
+04:56 < Tar-Minyatur:#liferay> It's something that only happens in the template. The portlet doesn't even know about it.
+04:56 < Tar-Minyatur:#liferay> (If your portlet even uses velocity templates.)
+04:56 < avinashrbhat:#liferay> ok, I was looking a way to combine the docbar and nav bar
