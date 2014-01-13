@@ -31,3 +31,6 @@
 10:02 < jardineworks:#liferay> cool
 10:04 < jardineworks:#liferay> rotty3000, So my project needs a form of federated search. I know that portlet #3 can support this using OpenSearch -- but I have never done it before. Web Content comes out of LR but there are several entities (which could probably be in Liferay but are not) that I have to call a REST service to search. The REST services suck donkey balls. The best I can hope for is a JSON response. I have basically 3 days to do this. The options I see a
 10:04 < jardineworks:#liferay> re...
+10:05 < jardineworks:#liferay> 1. User #3 and plug in open search interfaces for flyers, recipes (when the impl classes call the services)
+10:05 < jardineworks:#liferay> 2. Create a custom portlet that uses the Search APIs and then merges those results with service call results.
+10:05 < jardineworks:#liferay> .. and I feel like there was a third but I forgot it :)
