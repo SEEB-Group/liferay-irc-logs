@@ -79,3 +79,5 @@
 10:19 <@rotty3000:#liferay> otherwise, you're going to use you're own APIs, and build your own UI logic
 10:19 <@rotty3000:#liferay> OR use OpenSearch
 10:19 <@rotty3000:#liferay> which is not very nice either, but might be "closest" the end goal from what I'm hearing
+10:20 < jardineworks:#liferay> rotty3000, OpenSearch I thought was the possible answer but I added <open-search-class/> to one of my portlets last night and added logging statement to the interface methods... no matter what I do, I never see them output. So I don't think it is working.
+10:21 <@rotty3000:#liferay> check that the search portlet is actually calling open searches?
