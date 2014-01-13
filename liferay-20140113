@@ -294,3 +294,5 @@
 15:33 <@rotty3000:#liferay> sec
 15:33 <@rotty3000:#liferay> new approach
 15:39 <@rotty3000:#liferay> update gist
+15:40 <@rotty3000:#liferay> uses a persistent flag in the preferences to trigger an update'
+15:40 <@rotty3000:#liferay> when the prefs stored flag is missing or doesn't match checked value, update the references and persist the flag to this value
