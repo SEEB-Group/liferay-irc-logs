@@ -278,3 +278,6 @@
 15:30 <@rotty3000:#liferay> OH, I remeber why I added the count...
 15:30 <@rotty3000:#liferay> remember, it's because getPortletPreferences auto generates a preference if missing
 15:30 <@rotty3000:#liferay> so you'll need the hash check no matter what
+15:31 < jardineworks:#liferay> i removed the conditionals and no matter what I set, I always get 1 as a size
+15:32 < jardineworks:#liferay> shouldn't this ---
+15:32 < jardineworks:#liferay> 	#set ($preferences = $ppLocalService.getPreferences($ppIds))
