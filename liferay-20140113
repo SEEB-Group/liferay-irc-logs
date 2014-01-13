@@ -233,3 +233,9 @@
 15:14 < jardineworks:#liferay> rotty3000, I get itself echoed back
 15:14 < jardineworks:#liferay> and that, with the < 0 check generates that error above
 15:14 <@rotty3000:#liferay> ok, so the method is either not identified
+15:15 < jardineworks:#liferay> right
+15:15 <@rotty3000:#liferay> or the params are wrong cast
+15:15 <@rotty3000:#liferay> and so matching method is found
+15:15 < jardineworks:#liferay> so I checked the PortletPreferencesLocalServiceUtil ...
+15:15 < jardineworks:#liferay> and I found the typo -- and it has not parameters.
+15:15 < jardineworks:#liferay> I couldn't find a method with that name/sig
