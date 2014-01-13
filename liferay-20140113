@@ -317,3 +317,7 @@
 15:52 < jardineworks:#liferay> while that is going... do you know if it is possible to have the result separate from the search bar? because when I switch modes, the search bar is gone.
 15:53 < jardineworks:#liferay> and you have to "go back" to get back to it
 15:53 < jardineworks:#liferay> .. and the layout is all f'ed up
+15:54 < jardineworks:#liferay> it looks like I have two search results overlapping eachother
+15:54 <@rotty3000:#liferay> use the old embed method
+15:54 <@rotty3000:#liferay> with the new code for setting the preferences
+15:54 <@rotty3000:#liferay> it should work
