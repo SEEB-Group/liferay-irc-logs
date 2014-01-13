@@ -299,3 +299,6 @@
 15:41 <@rotty3000:#liferay> subesequent request to this page won't update since the flag matches...
 15:41 <@rotty3000:#liferay> need to update the preferences... just toggle the flag and redeploy the theme
 15:41 <@rotty3000:#liferay> the changes will lazily update as people visit pages
+15:42 <@rotty3000:#liferay> but won't continue to update needlessly
+15:42 <@rotty3000:#liferay> oops.. error in the if clause
+15:42 <@rotty3000:#liferay> updated https://gist.github.com/rotty3000/4287391
