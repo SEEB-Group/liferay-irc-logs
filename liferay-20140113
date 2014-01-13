@@ -81,3 +81,7 @@
 10:19 <@rotty3000:#liferay> which is not very nice either, but might be "closest" the end goal from what I'm hearing
 10:20 < jardineworks:#liferay> rotty3000, OpenSearch I thought was the possible answer but I added <open-search-class/> to one of my portlets last night and added logging statement to the interface methods... no matter what I do, I never see them output. So I don't think it is working.
 10:21 <@rotty3000:#liferay> check that the search portlet is actually calling open searches?
+10:21 < jardineworks:#liferay> rotty3000, the search results, at least, are tabbed by "search engine" ...
+10:21 <@rotty3000:#liferay> it's a configuration option
+10:21 < jardineworks:#liferay> rotty3000, I added the tag, and in the search portlet I enabled OpenSearch.
+10:21 <@rotty3000:#liferay> hmm..
