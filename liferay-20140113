@@ -203,3 +203,4 @@
 14:05 < jardineworks:#liferay> (fingers crossed)
 14:09 < jardineworks:#liferay> $theme.runtime("3", "", $velocityPortletPreferences) -- that's a good sign! :)
 14:21 < jardineworks:#liferay> rotty3000, is there possibly a typo in what you gave me? should $velocityPortletPreferences perhaps be $portletPreferences?
+14:40 < jardineworks:#liferay> rotty3000, I get some awesome results :) ... it directs me to the full view with the search results (preferences not being applied -- but I have an error in the console)... but the search box in the nav bar is ALSO showing the results lol... so its... umm messed :)
