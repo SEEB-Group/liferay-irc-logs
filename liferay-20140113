@@ -246,3 +246,6 @@
 15:19 < jardineworks:#liferay> is the count check really necesasry?
 15:19 < jardineworks:#liferay> performance stuff I am guessing?
 15:20 <@rotty3000:#liferay> it's a check to see if the preferences exist.. you don't want to update the prefs on every hit that's for sure
+15:21 <@rotty3000:#liferay> change it too getPortletPreferences(...).size()
+15:21 <@rotty3000:#liferay> after the first hit the query will be cached and should be cheap
+15:21 <@rotty3000:#liferay> since it's a memory only operation
