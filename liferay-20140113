@@ -312,3 +312,6 @@
 15:51 <@rotty3000:#liferay> blows up?
 15:51 < jardineworks:#liferay> made a mistake on my side.
 15:51 < jardineworks:#liferay> one sec
+15:52 <@rotty3000:#liferay> note I didn't test the code
+15:52 < jardineworks:#liferay> deploying
+15:52 < jardineworks:#liferay> while that is going... do you know if it is possible to have the result separate from the search bar? because when I switch modes, the search bar is gone.
