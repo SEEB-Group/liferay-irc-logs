@@ -201,3 +201,4 @@
 14:03 <@rotty3000:#liferay> that's just a wrapper element to the real hidden field
 14:03 <@rotty3000:#liferay> "displayOpenSearchResults", "true"
 14:05 < jardineworks:#liferay> (fingers crossed)
+14:09 < jardineworks:#liferay> $theme.runtime("3", "", $velocityPortletPreferences) -- that's a good sign! :)
