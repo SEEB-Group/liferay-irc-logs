@@ -117,3 +117,6 @@
 10:42 <@rotty3000:#liferay> basically, your results can come back in any form, as long as what the opensearch returns to the caller is XML string
 10:43 <@rotty3000:#liferay> as you can see from the class I posted, the results are our search Documents, which we read and convert into an XML
 10:45 <@rotty3000:#liferay> you probably want to extend at least BaseOpenSearchImpl
+10:48 < jardineworks:#liferay> rotty3000, right now I am extending HitsOpenSearchImpl
+10:48 < jardineworks:#liferay> which is extending base
+10:48 <@rotty3000:#liferay> k
