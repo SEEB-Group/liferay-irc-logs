@@ -69,3 +69,5 @@
 10:16 <@rotty3000:#liferay> so the downside is that we don't have a nice story for the "multi-search" use case right now so I can't even point you at a white paper or dev docs
 10:16 < Tar-Minyatur:#liferay> Either you do your QA yourself (in your free time) or you hand over possibly broken stuff.
 10:16 < jardineworks:#liferay> starting to feel like a custom search portlet :)
+10:17 <@rotty3000:#liferay> the best I can do is tell you that there IS support for multiple engines, you don't need to change the query logic at all.. you only need to supply the registered ID of the new engine
+10:17 < jardineworks:#liferay> Tar-Minyatur, I have been developing at break neck speed and I told them that a lot of the stuff would be minimally tested because I have to move on to the next. They complain when I take longer to deliver (because I am testing it) ... they complain when they find bugs. I work more hours, they complain about what they are paying me. Some people on this planet, you just cant please.
