@@ -98,3 +98,4 @@
 10:28 < jardineworks:#liferay> rotty3000, the other option I was wondering... possibly using a structs action override for the #3 portlet and then appending to it my logic to call the services ... returning 3 result sets. I could then forward to a custom JSP and just output my logic (in place of trying to provide a JSP override for the #3 view).
 10:28 < jardineworks:#liferay> but I wasn't sure if that was a good idea.
 10:28 <@rotty3000:#liferay> sure thing, that would work
+10:29 <@rotty3000:#liferay> can't wait for you guys to see how simple this type of override will be in 7.0
