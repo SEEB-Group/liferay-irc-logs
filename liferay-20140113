@@ -85,3 +85,7 @@
 10:21 <@rotty3000:#liferay> it's a configuration option
 10:21 < jardineworks:#liferay> rotty3000, I added the tag, and in the search portlet I enabled OpenSearch.
 10:21 <@rotty3000:#liferay> hmm..
+10:22 < jardineworks:#liferay> rotty3000, no need to restart or anything right?
+10:22 < jardineworks:#liferay> just redeploy the portlet?
+10:22 <@rotty3000:#liferay> shouldn't need to,...
+10:22 < jardineworks:#liferay> I assumed the hot deployment would see the config and register the class somewhere
