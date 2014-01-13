@@ -189,3 +189,6 @@
 13:38 <@rotty3000:#liferay> n/p
 13:40 < jardineworks:#liferay> that won't enable the perferences for OpenSearch though ...
 13:56 <@rotty3000:#liferay> jardineworks: true!
+13:57 <@rotty3000:#liferay> the only othere way is to actually set the preferences in velocity code... doable, but blehck...
+13:57 <@rotty3000:#liferay> I think I have an example of that in gist form
+13:57 < jardineworks:#liferay> that would be awesome
