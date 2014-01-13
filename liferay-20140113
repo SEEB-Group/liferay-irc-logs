@@ -305,3 +305,4 @@
 15:46 < jardineworks:#liferay> rotty3000,  trying...
 15:47 < jardineworks:#liferay> wow -- refereshed too soon (theme mid deploy) ... Liferay gets mad :)
 15:47 < jardineworks:#liferay> lol
+15:49 <@rotty3000:#liferay> yeah, I've been wanting to fix that race condition for a while
