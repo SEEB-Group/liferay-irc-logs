@@ -120,3 +120,4 @@
 10:48 < jardineworks:#liferay> rotty3000, right now I am extending HitsOpenSearchImpl
 10:48 < jardineworks:#liferay> which is extending base
 10:48 <@rotty3000:#liferay> k
+10:49 < jardineworks:#liferay> so based on what I am looking at... I have no indexer so i would skip all that. I basically call the service with the query. I can request that the server respond to me in XML .. but I highly doubt it is ATOM compliant.
