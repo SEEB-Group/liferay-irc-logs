@@ -265,3 +265,8 @@
 15:26 <@rotty3000:#liferay> check for null against that
 15:26 <@rotty3000:#liferay> cheaper query yet
 15:26 <@rotty3000:#liferay> that's sort of the issue yeah
+15:27 <@rotty3000:#liferay> youi need to force update it
+15:27 <@rotty3000:#liferay> and do it for every page
+15:27 <@rotty3000:#liferay> :(
+15:27 < jardineworks:#liferay> well, in my case it is in the theme header... so once is enough for all pages.
+15:28 <@rotty3000:#liferay> but the prefs are stored per page...
