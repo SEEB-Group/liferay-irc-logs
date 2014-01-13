@@ -253,3 +253,7 @@
 15:22 < jardineworks:#liferay> ok --
 15:22 < jardineworks:#liferay> another question
 15:22 <@rotty3000:#liferay> actually
+15:23 < jardineworks:#liferay> since this is an instanceable portlet, shouldn't I be giving it an instance id?
+15:23 <@rotty3000:#liferay> it's instanceable
+15:23 <@rotty3000:#liferay> instanceable means you can add it to a page more than once
+15:24 < jardineworks:#liferay> right
