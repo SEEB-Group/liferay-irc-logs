@@ -40,3 +40,8 @@
 10:09 < jardineworks:#liferay> Tomcat 7 / Lucene (OOTB) / MySQL
 10:09 < jardineworks:#liferay> actually, MariaDB
 10:10 <@rotty3000:#liferay> ok so there is a feature to register N search engines conforming to the SearchEngine API
+10:11 <@rotty3000:#liferay> the API also allows your queries to be sent to any of the registered engines
+10:11 < jardineworks:#liferay> and is that just a case of implementing an interface and then providing my custom logic?
+10:11 <@rotty3000:#liferay> and the engines can be multiple solr/lucene/other as long as the intration all conform to the API
+10:11 <@rotty3000:#liferay> exactly
+10:11 <@rotty3000:#liferay> now
