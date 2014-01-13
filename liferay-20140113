@@ -143,3 +143,4 @@
 13:22 < jardineworks:#liferay> rotty3000, I am embedding the search portlet in my theme. is it possible to pass configruation options into it? I know I can disable the Impl classes in the portal ext but I also want to remove one of the facets and enable the OpenSearch
 13:23 <@rotty3000:#liferay> how are you embedding?
 13:23 < jardineworks:#liferay> $theme.search()
+13:25 <@rotty3000:#liferay> ok, so this is wonky..
