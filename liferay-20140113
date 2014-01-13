@@ -323,3 +323,4 @@
 15:54 <@rotty3000:#liferay> it should work
 15:55 < jardineworks:#liferay> http://postimg.org/image/yjgxu6mht/f82f1c79/
 15:55 < jardineworks:#liferay> sorry? so you mean everthing except the $theme.runtine... and instead do $theme.search()?
+15:56 <@rotty3000:#liferay> exactly
