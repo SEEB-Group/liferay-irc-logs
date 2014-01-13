@@ -281,3 +281,12 @@
 15:31 < jardineworks:#liferay> i removed the conditionals and no matter what I set, I always get 1 as a size
 15:32 < jardineworks:#liferay> shouldn't this ---
 15:32 < jardineworks:#liferay> 	#set ($preferences = $ppLocalService.getPreferences($ppIds))
+15:32 < jardineworks:#liferay> 						
+15:32 < jardineworks:#liferay> 						#set ($VOID = $preferences.setValue("advancedConfiguration","true"))
+15:32 < jardineworks:#liferay> 						#set ($VOID = $preferences.setValue("searchConfiguration","{'facets': [ { 'displayStyle': 'asset_tags', 'static': false, 'weight': 1.4, 'order': 'OrderHitsDesc', 'data': { 'displayStyle': 'list', 'maxTerms': 10, 'frequencyThreshold': 1, 'showAssetCount': true }, 'className': 'com.liferay.portal.kernel.search.facet.MultiValueFacet', 'label': 'tag', 'fieldName': 'assetTagNames' }, { 'displayStyle': 'asset_tags', 'static': false, 'weig
+15:32 < jardineworks:#liferay> ht': 1.3, 'order': 'OrderHitsDesc', 'data': { 'displayStyle': 'list', 'maxTerms': 10, 'frequencyThreshold': 1, 'showAssetCount': true }, 'className': 'com.liferay.portal.kernel.search.facet.MultiValueFacet', 'label': 'category', 'fieldName': 'assetCategoryTitles' } ]}"))
+15:32 < jardineworks:#liferay> 						#set ($VOID = $preferences.setValue("displayOpenSearchResults","true"))
+15:32 < jardineworks:#liferay> 						#set ($VOID = $preferences.store())
+15:32 < jardineworks:#liferay> give me a size of 3?
+15:32 <@rotty3000:#liferay> no
+15:32 <@rotty3000:#liferay> the entire set of preferences is one single object
