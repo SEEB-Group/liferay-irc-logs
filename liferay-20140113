@@ -95,3 +95,6 @@
 10:25 < jardineworks:#liferay> rotty3000, it is. during deployment I see 15:23:06,270 INFO  [localhost-startStop-35][FlyerOpenSearchImpl:31] *****FlyerOpenSearchImpl loaded.
 10:26 < jardineworks:#liferay> ah
 10:26 < jardineworks:#liferay> I was overriding the UserId serach method... I just added the GroupId method and see it now.
+10:28 < jardineworks:#liferay> rotty3000, the other option I was wondering... possibly using a structs action override for the #3 portlet and then appending to it my logic to call the services ... returning 3 result sets. I could then forward to a custom JSP and just output my logic (in place of trying to provide a JSP override for the #3 view).
+10:28 < jardineworks:#liferay> but I wasn't sure if that was a good idea.
+10:28 <@rotty3000:#liferay> sure thing, that would work
