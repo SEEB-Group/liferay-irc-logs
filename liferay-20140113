@@ -25,3 +25,4 @@
 04:59 < Tar-Minyatur:#liferay> Theme not built correctly, core modified to no end and everything is just used in the wrong way.
 04:59 < Tar-Minyatur:#liferay> Lucky you.
 05:00 < avinashrbhat:#liferay> I had a similar project before, (not liferay though), had to rebuild from scratch.
+05:01 < avinashrbhat:#liferay> man, the GUI was so ugly and complicated, that if you click on any of the links while the page loaded, the session goes out of the window.
