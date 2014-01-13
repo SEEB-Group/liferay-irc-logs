@@ -110,3 +110,5 @@
 10:33 < jardineworks:#liferay> Tar-Minyatur, I'd have to raise my rate.
 10:33 < jardineworks:#liferay> :)
 10:34 < Tar-Minyatur:#liferay> You would go through so much work!
+10:36 <@rotty3000:#liferay> jardineworks: yeah, it expects XML output :(
+10:36 <@rotty3000:#liferay> you can look at the portal examples to see how we do it
