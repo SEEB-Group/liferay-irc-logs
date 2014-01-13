@@ -127,3 +127,6 @@
 10:54 < jardineworks:#liferay> that's just a string right? so I could return the JSON and deserialize it rather than XML
 10:54 < jardineworks:#liferay> because chances are I am not going to be using a search container.
 11:10 <@rotty3000:#liferay> yup
+11:20 < jardineworks:#liferay> rotty3000, ok thanks for the hints. I'm gonna do a poc and see what I can come up with.
+11:20 < jardineworks:#liferay> rotty3000, I reserve the right to harass you further :)
+11:20 <@rotty3000:#liferay> good luck!
