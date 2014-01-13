@@ -75,3 +75,7 @@
 10:18 < Tar-Minyatur:#liferay> jardineworks: Yes...definitely. The developers are always expected to achieve miracles on a daily basis.
 10:18 < jardineworks:#liferay> rotty3000, so basically, my SearchEngineUtil class I would tell is "use the recipe engine" ... oh .. shit with no docs that feels risky for me.
 10:19 < jardineworks:#liferay> I mean, I would love to do it... feels right, but I don't think I have the time.
+10:19 < Tar-Minyatur:#liferay> But I think the problem it that most of us like being the one who achieves miracles...and we make stuff work under the most impossible circumstances. People get used to that.
+10:19 <@rotty3000:#liferay> otherwise, you're going to use you're own APIs, and build your own UI logic
+10:19 <@rotty3000:#liferay> OR use OpenSearch
+10:19 <@rotty3000:#liferay> which is not very nice either, but might be "closest" the end goal from what I'm hearing
