@@ -39,3 +39,4 @@
 10:08 < jardineworks:#liferay> 6.1.2 GA3 CE
 10:09 < jardineworks:#liferay> Tomcat 7 / Lucene (OOTB) / MySQL
 10:09 < jardineworks:#liferay> actually, MariaDB
+10:10 <@rotty3000:#liferay> ok so there is a feature to register N search engines conforming to the SearchEngine API
