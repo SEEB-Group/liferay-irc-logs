@@ -9,3 +9,11 @@
 04:56 < Tar-Minyatur:#liferay> It's something that only happens in the template. The portlet doesn't even know about it.
 04:56 < Tar-Minyatur:#liferay> (If your portlet even uses velocity templates.)
 04:56 < avinashrbhat:#liferay> ok, I was looking a way to combine the docbar and nav bar
+04:57 < avinashrbhat:#liferay> Tar-Minyatur, actually I was creating a theme. ;-)
+04:57 < Tar-Minyatur:#liferay> So theme, not portlet.
+04:57 < avinashrbhat:#liferay> yup
+04:57 < avinashrbhat:#liferay> bootstrap one
+04:57 < Tar-Minyatur:#liferay> You can use macros in the velocity templates of your theme as well.
+04:57 < Tar-Minyatur:#liferay> I'm not too sure about the details, though.
+04:57 < avinashrbhat:#liferay> hmm, thx
+04:57 < Tar-Minyatur:#liferay> Never built a theme myself...had to work with the crappy one we've got.
