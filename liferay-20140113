@@ -226,3 +226,7 @@
 15:12 < jardineworks:#liferay> 					$ppIds.portletId<br/>
 15:12 < jardineworks:#liferay> give me 3, 10650, 3
 15:12 <@rotty3000:#liferay> great
+15:13 < jardineworks:#liferay> if I output -- $ppLocalService.getPortletPreferencesesCount($ppIds.ownerType, $ppIds.plid, $ppIds.portletId)
+15:13 <@rotty3000:#liferay> what about dumping        $ppLocalService.getPortletPreferencesCount($ppIds.ownerType, $ppIds.plid, $ppIds.portletId)
+15:13 < jardineworks:#liferay> (one sec)
+15:13 <@rotty3000:#liferay> ok
