@@ -165,3 +165,8 @@
 13:31 <@rotty3000:#liferay> use this one:
 13:32 <@rotty3000:#liferay> $theme.runtime("portletID", "", "default preferences")
 13:32 < jardineworks:#liferay> oh .. maybe I got it
+13:33 <@rotty3000:#liferay> oh ok
+13:33 < jardineworks:#liferay> ah no
+13:33 < jardineworks:#liferay> you have to set it that way per page it seems
+13:33 < jardineworks:#liferay> werid
+13:33 <@rotty3000:#liferay> and the one I gave will also give you problems
