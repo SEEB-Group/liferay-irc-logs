@@ -37,3 +37,5 @@
 10:06 < jardineworks:#liferay> rotty3000, I see your name all over the search code and forums .. so any advice you have would be great
 10:08 <@rotty3000:#liferay> which portal version?
 10:08 < jardineworks:#liferay> 6.1.2 GA3 CE
+10:09 < jardineworks:#liferay> Tomcat 7 / Lucene (OOTB) / MySQL
+10:09 < jardineworks:#liferay> actually, MariaDB
