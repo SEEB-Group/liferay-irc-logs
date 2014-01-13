@@ -276,3 +276,5 @@
 15:28 < jardineworks:#liferay> well, once I know the preferences are set properly (locally) when I put to the server the check+settings should be fine
 15:29 <@rotty3000:#liferay> sec, formulating a plan
 15:30 <@rotty3000:#liferay> OH, I remeber why I added the count...
+15:30 <@rotty3000:#liferay> remember, it's because getPortletPreferences auto generates a preference if missing
+15:30 <@rotty3000:#liferay> so you'll need the hash check no matter what
