@@ -89,3 +89,4 @@
 10:22 < jardineworks:#liferay> just redeploy the portlet?
 10:22 <@rotty3000:#liferay> shouldn't need to,...
 10:22 < jardineworks:#liferay> I assumed the hot deployment would see the config and register the class somewhere
+10:23 <@rotty3000:#liferay> .. can't wait for proper lifecycle support for all hooks/extensions... so hard to debug simple things like if impls are initd or destroyed properlty
