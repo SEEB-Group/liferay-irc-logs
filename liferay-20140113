@@ -34,3 +34,4 @@
 10:05 < jardineworks:#liferay> 1. User #3 and plug in open search interfaces for flyers, recipes (when the impl classes call the services)
 10:05 < jardineworks:#liferay> 2. Create a custom portlet that uses the Search APIs and then merges those results with service call results.
 10:05 < jardineworks:#liferay> .. and I feel like there was a third but I forgot it :)
+10:06 < jardineworks:#liferay> rotty3000, I see your name all over the search code and forums .. so any advice you have would be great
