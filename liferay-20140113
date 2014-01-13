@@ -121,3 +121,5 @@
 10:48 < jardineworks:#liferay> which is extending base
 10:48 <@rotty3000:#liferay> k
 10:49 < jardineworks:#liferay> so based on what I am looking at... I have no indexer so i would skip all that. I basically call the service with the query. I can request that the server respond to me in XML .. but I highly doubt it is ATOM compliant.
+10:53 < jardineworks:#liferay> rotty3000, I see... the open_search.jspf loops over the portlet checking for OpenSearch definitions and if it finds one, then it executes. So for my external services, I would need to JSP override this file to provide my custom look and feel.
+10:53 <@rotty3000:#liferay> yup
