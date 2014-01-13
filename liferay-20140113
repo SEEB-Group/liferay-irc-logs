@@ -71,3 +71,7 @@
 10:16 < jardineworks:#liferay> starting to feel like a custom search portlet :)
 10:17 <@rotty3000:#liferay> the best I can do is tell you that there IS support for multiple engines, you don't need to change the query logic at all.. you only need to supply the registered ID of the new engine
 10:17 < jardineworks:#liferay> Tar-Minyatur, I have been developing at break neck speed and I told them that a lot of the stuff would be minimally tested because I have to move on to the next. They complain when I take longer to deliver (because I am testing it) ... they complain when they find bugs. I work more hours, they complain about what they are paying me. Some people on this planet, you just cant please.
+10:18 <@rotty3000:#liferay> then you could actually iterate through all the engines. and then merge the results
+10:18 < Tar-Minyatur:#liferay> jardineworks: Yes...definitely. The developers are always expected to achieve miracles on a daily basis.
+10:18 < jardineworks:#liferay> rotty3000, so basically, my SearchEngineUtil class I would tell is "use the recipe engine" ... oh .. shit with no docs that feels risky for me.
+10:19 < jardineworks:#liferay> I mean, I would love to do it... feels right, but I don't think I have the time.
