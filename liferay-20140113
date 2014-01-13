@@ -175,3 +175,7 @@
 13:34 < jardineworks:#liferay> :)
 13:34 < jardineworks:#liferay> can I change that (for just this portlet)?
 13:34 <@rotty3000:#liferay> the scope?
+13:35 <@rotty3000:#liferay> yeah, but only with mod to an XML in the core
+13:35 < jardineworks:#liferay> ugh
+13:35 < jardineworks:#liferay> rather not if there is an alternative.
+13:35 < jardineworks:#liferay> would the preferences string just be a JSON?
