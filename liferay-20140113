@@ -29,3 +29,5 @@
 10:02 < jardineworks:#liferay> hey rotty3000 -- can I ask yo ua design question around some search requirements I have?
 10:02 <@rotty3000:#liferay> shoot
 10:02 < jardineworks:#liferay> cool
+10:04 < jardineworks:#liferay> rotty3000, So my project needs a form of federated search. I know that portlet #3 can support this using OpenSearch -- but I have never done it before. Web Content comes out of LR but there are several entities (which could probably be in Liferay but are not) that I have to call a REST service to search. The REST services suck donkey balls. The best I can hope for is a JSON response. I have basically 3 days to do this. The options I see a
+10:04 < jardineworks:#liferay> re...
