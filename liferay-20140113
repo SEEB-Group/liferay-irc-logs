@@ -181,3 +181,5 @@
 13:35 < jardineworks:#liferay> would the preferences string just be a JSON?
 13:36 <@rotty3000:#liferay> wait...
 13:36 <@rotty3000:#liferay> sec
+13:37 <@rotty3000:#liferay> so, the default facets can be overridden by placing a file in ROOT/WEB-INF/classes
+13:37 <@rotty3000:#liferay> com/liferay/portlet/search/dependencies/facet_configuration.json
