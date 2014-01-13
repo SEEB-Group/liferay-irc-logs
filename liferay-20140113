@@ -214,3 +214,9 @@
 15:10 < jardineworks:#liferay> velocity is still something i muddle through
 15:10 < jardineworks:#liferay> I get that error above.. which I think means it fails to set my preferences
 15:10 <@rotty3000:#liferay> can you just print out this?    $ppLocalService
+15:11 <@rotty3000:#liferay> it should output a class instance id
+15:11 < jardineworks:#liferay> class com.liferay.portlet.PortletPreferencesFactoryUtil
+15:11 < jardineworks:#liferay> class com.liferay.portal.service.PortletPreferencesLocalServiceUtil
+15:11 < jardineworks:#liferay> com.liferay.portal.model.PortletPreferencesIds@24c99cdc
+15:11 < jardineworks:#liferay> that is the first three lines printed out
+15:11 <@rotty3000:#liferay> ok
