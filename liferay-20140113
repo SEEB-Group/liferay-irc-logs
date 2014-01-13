@@ -240,3 +240,8 @@
 15:15 < jardineworks:#liferay> and I found the typo -- and it has not parameters.
 15:15 < jardineworks:#liferay> I couldn't find a method with that name/sig
 15:18 <@rotty3000:#liferay> right
+15:19 <@rotty3000:#liferay> it doesn't exist in that version
+15:19 <@rotty3000:#liferay> ... checking options
+15:19 < jardineworks:#liferay> ah -- thats what I thought maybe.. api change.
+15:19 < jardineworks:#liferay> is the count check really necesasry?
+15:19 < jardineworks:#liferay> performance stuff I am guessing?
