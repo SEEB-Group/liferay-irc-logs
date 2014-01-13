@@ -202,3 +202,4 @@
 14:03 <@rotty3000:#liferay> "displayOpenSearchResults", "true"
 14:05 < jardineworks:#liferay> (fingers crossed)
 14:09 < jardineworks:#liferay> $theme.runtime("3", "", $velocityPortletPreferences) -- that's a good sign! :)
+14:21 < jardineworks:#liferay> rotty3000, is there possibly a typo in what you gave me? should $velocityPortletPreferences perhaps be $portletPreferences?
