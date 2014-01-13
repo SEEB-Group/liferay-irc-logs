@@ -150,3 +150,6 @@
 13:26 <@rotty3000:#liferay> since the preferences are scoped to the site, the one embedded in the theme should retain the settings
 13:26 < jardineworks:#liferay> and it's embedded.
 13:26 < jardineworks:#liferay> so add it as another another instance? configured it? and delete it?
+13:27 <@rotty3000:#liferay> yeah ;|
+13:27 < jardineworks:#liferay> haha
+13:27 < jardineworks:#liferay> awesome
