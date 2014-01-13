@@ -144,3 +144,9 @@
 13:23 <@rotty3000:#liferay> how are you embedding?
 13:23 < jardineworks:#liferay> $theme.search()
 13:25 <@rotty3000:#liferay> ok, so this is wonky..
+13:26 <@rotty3000:#liferay> the only way to configure the search portlet in that scenario is to add the portlet to the page, configure it, remove it from the page...
+13:26 < jardineworks:#liferay> lol
+13:26 < jardineworks:#liferay> so I am on my home pge.
+13:26 <@rotty3000:#liferay> since the preferences are scoped to the site, the one embedded in the theme should retain the settings
+13:26 < jardineworks:#liferay> and it's embedded.
+13:26 < jardineworks:#liferay> so add it as another another instance? configured it? and delete it?
