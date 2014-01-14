@@ -200,3 +200,5 @@
 16:17 <@rotty3000:#liferay> but I think you'd have to calculate the appropriate url yourself, which shouldn't be overly hard
 16:23 < timmy_:#liferay> alright, that should work
 16:24 < timmy_:#liferay> is there a way to specify the default image thumbnail size?
+16:27 <@rotty3000:#liferay> I think there is via the props
+16:27 < Tar-Minyatur:#liferay> dl.file.entry.thumbnail.max.height=128
