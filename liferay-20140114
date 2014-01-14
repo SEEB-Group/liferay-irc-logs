@@ -142,3 +142,5 @@
 14:35 < jardineworks:#liferay> explains why I have not seen this issue locally... I have 32GB of ram on my laptop
 14:35 <@rotty3000:#liferay> yeah :)
 14:49 < jardineworks:#liferay> does anyone know if it is possible to set the "default template" for a structure? So that when I create a new piece of webcontent of type X it automatically selects Template Y?
+14:50 < Tar-Minyatur:#liferay> Doesn't it do that anyway?
+14:50 < Tar-Minyatur:#liferay> Or does this happen only when there is a single template associated with the structure?
