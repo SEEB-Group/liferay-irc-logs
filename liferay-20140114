@@ -95,3 +95,8 @@
 13:24 < jardineworks:#liferay> this is someone elses witchcraft that I am not allowed to change.
 13:24 < jardineworks:#liferay> if I run ./jstatd though ... I can see the process running
 13:25 <@rotty3000:#liferay> http://i.imgur.com/MmorPUK.png
+13:26 <@rotty3000:#liferay> jstatd is supposed to be part of the JDK bundle
+13:26 <@rotty3000:#liferay> perhaps you are using the Oracle JDK with bad symlinks?
+13:26 <@rotty3000:#liferay> however
+13:26 <@rotty3000:#liferay> running it from within the JDK's own bin folder should work fine
+13:26 <@rotty3000:#liferay> as long as it can find it's libs
