@@ -100,3 +100,4 @@
 13:26 <@rotty3000:#liferay> however
 13:26 <@rotty3000:#liferay> running it from within the JDK's own bin folder should work fine
 13:26 <@rotty3000:#liferay> as long as it can find it's libs
+13:27 < jardineworks:#liferay> we are using oracle.. and it is there.. It must be starting because I can see the process running right?
