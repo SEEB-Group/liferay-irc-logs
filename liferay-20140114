@@ -78,3 +78,5 @@
 13:16 <@rotty3000:#liferay> all I did was run sudo jstatd -J-Djava.security.policy=all.policy     (as described here http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstatd.html)
 13:16 <@rotty3000:#liferay> in visualvm on my desktop I added connection to my laptop, and it saw the java processes right away and let me connect to them
 13:16 <@rotty3000:#liferay> cool!! learn something new every day! :)
+13:20 < jardineworks:#liferay> rotty3000, hmm .. i need to do ./jstatd ... you ran it outright?
+13:21 < jardineworks:#liferay> without the ./ I mean
