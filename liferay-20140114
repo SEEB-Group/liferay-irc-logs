@@ -193,3 +193,6 @@
 16:04 < timmy_:#liferay> it works great for the abstract image
 16:05 <@rotty3000:#liferay> timmy_: not sure
 16:15 <@rotty3000:#liferay> timmy_: sorry, was on a call but I don't think those images are stored in the same way
+16:16 <@rotty3000:#liferay> and so they don't pass through the same service
+16:16 < timmy_:#liferay> there is no way to get a thumbnail from an image that is stored in your web content structure?
+16:16 <@rotty3000:#liferay> not if it's an image which is directly associated to an article
