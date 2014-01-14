@@ -180,3 +180,6 @@
 15:03 < Tar-Minyatur:#liferay> Didn't have the time to continue searching myself.
 15:03 < Tar-Minyatur:#liferay> They probably debugged it with a stepper or something.
 15:03 < jardineworks:#liferay> ah
+15:04 < jardineworks:#liferay> that's how I caught mine... stepping through just about every line of code in a request... then all of the sudden I noticed the portlet id was the wrong one... then the light went off
+15:04 < Tar-Minyatur:#liferay> We're actually coming very close to a release now.
+15:04 < Tar-Minyatur:#liferay> Current plan: Going live by the end of this month.
