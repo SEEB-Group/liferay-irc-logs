@@ -1,2 +1,4 @@
 --- Log opened Tue Jan 14 00:00:36 2014
 04:15 < lapache:#liferay> Hello, i lost the liferay admin access because of ldap configuration. How can i set 'omni admins' in portal-ext.properties plz? i didn't find clearly how to set user:pw in this file ...
+04:47 < topolik:#liferay> lapache: omniadmin.users=10154
+04:47 < topolik:#liferay> exchange the userId for some existing user id
