@@ -176,3 +176,7 @@
 15:02 < Tar-Minyatur:#liferay> There is some way to manipulate this behavior.
 15:02 < jardineworks:#liferay> how did you find it?
 15:02 < Tar-Minyatur:#liferay> But I just opted to prefix all macros with some abbreviation of the template name.
+15:03 < Tar-Minyatur:#liferay> Good question. I have no clue. I handed it over to our offshore developers.
+15:03 < Tar-Minyatur:#liferay> Didn't have the time to continue searching myself.
+15:03 < Tar-Minyatur:#liferay> They probably debugged it with a stepper or something.
+15:03 < jardineworks:#liferay> ah
