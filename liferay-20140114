@@ -80,3 +80,4 @@
 13:16 <@rotty3000:#liferay> cool!! learn something new every day! :)
 13:20 < jardineworks:#liferay> rotty3000, hmm .. i need to do ./jstatd ... you ran it outright?
 13:21 < jardineworks:#liferay> without the ./ I mean
+13:21 <@rotty3000:#liferay> yeah, on Linux java is a system install app with the tools in the path already
