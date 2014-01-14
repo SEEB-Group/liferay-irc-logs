@@ -53,3 +53,10 @@
 13:05 <@rotty3000:#liferay> when I want to remote debug though I just add this:     -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
 13:05 < jardineworks:#liferay> rotty3000, its less about debugging and more I need to see what's happening in the JVM. All of the sudden today we started getting out of memory issues
 13:05 <@rotty3000:#liferay> as long as the firewall allows that port, then it should be a cinch in VisualVM to connect
+13:06 <@rotty3000:#liferay> yeah, you can monitor the JVM resources through the debug connection
+13:06 < jardineworks:#liferay> oh
+13:06 < jardineworks:#liferay> so I add that to the tomcat setenv.sh?
+13:06 <@rotty3000:#liferay> the instrumentation is probably as little higher for propose of debugging though
+13:06 <@rotty3000:#liferay> yeah
+13:06 < jardineworks:#liferay> and then how do you attach to that?
+13:06 <@rotty3000:#liferay> change the port as necessary
