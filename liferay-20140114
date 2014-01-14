@@ -113,3 +113,6 @@
 14:21 < jardineworks:#liferay> basically... the JVM just uses those flags as a ceiling right? it doesn't check to see if the memory is ACTUALLY available -- etc.
 14:22 <@rotty3000:#liferay> absolutely yes you've dedicated too much memory to the JVM
 14:22 < jardineworks:#liferay> I think its supposed to be set to 2048 and 512
+14:23 <@rotty3000:#liferay> on server you should always dedicated a fixed sized heap that is less than the total amount of memory which is required to run the OS, other services, plus the Java App
+14:23 < jardineworks:#liferay> right -- I think someone "tweaked" this not understanding what it meant maybe
+14:24 <@rotty3000:#liferay> otherwise memory will become contented, and you'll see the OS swapping a lot
