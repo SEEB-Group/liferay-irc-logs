@@ -155,3 +155,8 @@
 14:57 < jardineworks:#liferay> that -- sucks.
 14:59 < Tar-Minyatur:#liferay> You could try to achieve that with a hook.
 15:00 < Tar-Minyatur:#liferay> Change the link to add web content so that it includes the templateId.
+15:00 < Tar-Minyatur:#liferay> But covering all points where you can create web content will be tricky.
+15:00 < jardineworks:#liferay> I'll put it on the list
+15:00 < jardineworks:#liferay> for now I'll just get my portlet to pull a specific template :D
+15:00 < Tar-Minyatur:#liferay> ;)
+15:00 < jardineworks:#liferay> (not using the asset publisher -- so I can brute force it)
