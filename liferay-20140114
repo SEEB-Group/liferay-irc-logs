@@ -32,3 +32,5 @@
 09:51 < jardineworks:#liferay> com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (Errno::ENOENT) /home/liferay/current/liferay/tomcat/temp/liferay/sass/872d681b648c002e43216d2221408cf0927bddd4/main.cssc
 09:51 <@jhf:#liferay> yep I think Liferay depends much more heavily on that filter than one would think.
 09:51 < jardineworks:#liferay> that looks like someone is trying to precompile the Liferay css
+09:52 <@jhf:#liferay> I'm not sure if things are better in 6.2, issues.liferay.com is currently down :(
+09:52 < jardineworks:#liferay> lol -- where do you report that? :)
