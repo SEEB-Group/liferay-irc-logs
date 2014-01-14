@@ -3,3 +3,4 @@
 04:47 < topolik:#liferay> lapache: omniadmin.users=10154
 04:47 < topolik:#liferay> exchange the userId for some existing user id
 05:37 < lapache:#liferay> Thank you topolik, but the omni admin can't modify options. Liferay says "You doesn't have suffisent rights"
+06:19 < topolik:#liferay> lapache: do you have just one company/portal instance or more?
