@@ -103,3 +103,6 @@
 13:27 < jardineworks:#liferay> we are using oracle.. and it is there.. It must be starting because I can see the process running right?
 13:29 <@rotty3000:#liferay> then I'm out of ideas, are you sure you are granting all permissions? perhaps it has no rights to the processes you need to monitor?
 13:30 <@rotty3000:#liferay> apparently it may be iptables (firewall)
+13:31 < jardineworks:#liferay> sudo ufw open XXXX
+13:31 < jardineworks:#liferay> thats about as much as I know :)
+13:31 < jardineworks:#liferay> I have the same policy file
