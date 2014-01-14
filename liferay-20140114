@@ -198,3 +198,5 @@
 16:16 <@rotty3000:#liferay> not if it's an image which is directly associated to an article
 16:17 <@rotty3000:#liferay> it might be possible if it's an image referenced from the doclib
 16:17 <@rotty3000:#liferay> but I think you'd have to calculate the appropriate url yourself, which shouldn't be overly hard
+16:23 < timmy_:#liferay> alright, that should work
+16:24 < timmy_:#liferay> is there a way to specify the default image thumbnail size?
