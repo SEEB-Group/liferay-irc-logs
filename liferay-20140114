@@ -62,3 +62,8 @@
 13:06 <@rotty3000:#liferay> change the port as necessary
 13:07 <@rotty3000:#liferay> same type of connection in VisualVM
 13:07 <@rotty3000:#liferay> .. not an expert.. I do 99.99% of my work locally
+13:10 < jardineworks:#liferay> hmmm
+13:10 <@rotty3000:#liferay> reading the docs...
+13:10 < jardineworks:#liferay> ok -- restarting the server with that line.
+13:10 <@rotty3000:#liferay> you do need jstatd to find the remote processes..
+13:10 <@rotty3000:#liferay> but never used it
