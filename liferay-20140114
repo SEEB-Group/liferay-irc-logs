@@ -128,3 +128,6 @@
 14:27 < jardineworks:#liferay> 512 too high?
 14:27 <@rotty3000:#liferay> yeah
 14:28 <@rotty3000:#liferay> 256 should be enough
+14:28 <@rotty3000:#liferay> go up slowly from there in increments of about 32Mb if you encounter problems
+14:28 <@rotty3000:#liferay> finally, set the max and min heap sizes to the same value
+14:28 <@rotty3000:#liferay> so that the heap doesn't ever resize
