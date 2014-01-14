@@ -183,3 +183,5 @@
 15:04 < jardineworks:#liferay> that's how I caught mine... stepping through just about every line of code in a request... then all of the sudden I noticed the portlet id was the wrong one... then the light went off
 15:04 < Tar-Minyatur:#liferay> We're actually coming very close to a release now.
 15:04 < Tar-Minyatur:#liferay> Current plan: Going live by the end of this month.
+15:05 < Tar-Minyatur:#liferay> And we totally turned away from using a Liferay cluster.
+15:05 < Tar-Minyatur:#liferay> That was sort of the crucial point that put us back on track.
