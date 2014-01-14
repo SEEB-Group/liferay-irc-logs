@@ -191,3 +191,4 @@
 16:02 < jardineworks:#liferay> hey rotty3000 -- the xmlRequest paramater in  JournalContentUtil.getDisplay(...)  -- the one with the template id --- is that just the JournalArticle content field? the xml-i-fied version of the content?
 16:03 < timmy_:#liferay> rotty3000: is there a way to use the Liferay autoscaling of images to images of a structure in web content?
 16:04 < timmy_:#liferay> it works great for the abstract image
+16:05 <@rotty3000:#liferay> timmy_: not sure
