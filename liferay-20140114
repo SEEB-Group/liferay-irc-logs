@@ -131,3 +131,6 @@
 14:28 <@rotty3000:#liferay> go up slowly from there in increments of about 32Mb if you encounter problems
 14:28 <@rotty3000:#liferay> finally, set the max and min heap sizes to the same value
 14:28 <@rotty3000:#liferay> so that the heap doesn't ever resize
+14:29 <@rotty3000:#liferay> that will make GC much more consistent
+14:29 <@rotty3000:#liferay> since it'
+14:29 <@rotty3000:#liferay> it doesn't have to give/take with the system memory manager
