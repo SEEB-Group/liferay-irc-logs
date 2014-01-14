@@ -329,3 +329,5 @@
 15:57 <@rotty3000:#liferay> :)
 16:04 < jardineworks:#liferay> and I have the open search wired now and calling the REST services... just templates to go and this is looking pretty good.
 16:04 < jardineworks:#liferay> though the next thing I have to figure out is the facets
+21:42 < Jusle:#liferay> Hi! I'd like to ask, is here on the channel anyone who has experience integrating Liferay and Magento, and would like to share her/him opinion about integrating these two? E.g. is it easy or horrible to do, is there something to avoid, what do you prefer as integrating method when we want to Magento look like standard part of Liferay? Or do you prefer some other some other ecommerce solution
+21:42 < Jusle:#liferay> on Liferay? Thanks in advance.
