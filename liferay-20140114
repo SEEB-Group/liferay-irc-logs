@@ -71,3 +71,7 @@
 13:11 < jardineworks:#liferay> shoot
 13:13 < jardineworks:#liferay> rotty3000, locally, I can see a lot of replication threads.
 13:13 < jardineworks:#liferay> could that be an issue?
+13:14 < jardineworks:#liferay> .. and they all appear to be sleeping
+13:14 <@rotty3000:#liferay> it worked for me
+13:14 <@rotty3000:#liferay> no trouble
+13:14 <@rotty3000:#liferay> I just connected to my laptop from my desktop
