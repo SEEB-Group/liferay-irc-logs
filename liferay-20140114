@@ -145,3 +145,8 @@
 14:50 < Tar-Minyatur:#liferay> Doesn't it do that anyway?
 14:50 < Tar-Minyatur:#liferay> Or does this happen only when there is a single template associated with the structure?
 14:51 < Tar-Minyatur:#liferay> I'm pretty sure I saw that happen in our Liferay...but we always have only one template.
+14:54 < jardineworks:#liferay> Tar-Minyatur, yep -- but I have multiple
+14:54 < jardineworks:#liferay> in some cases I have up to 6
+14:54 < jardineworks:#liferay> but I want the default to be one of them
+14:54 < jardineworks:#liferay> right now for some of my items the default is one that is not commonly used
+14:54 < jardineworks:#liferay> so its a pain in th ebutt
