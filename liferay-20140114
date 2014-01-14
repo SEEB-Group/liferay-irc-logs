@@ -46,3 +46,4 @@
 12:32 < Tar-Minyatur:#liferay> Just wondering if Liferay can do that or if I need to set a redirect in the proxy sitting in front of Liferay.
 12:55 < jardineworks:#liferay> hey rotty3000 -- are you around for a performance related question? actually monitoring more than perf...
 12:57 <@rotty3000:#liferay> a bit yeah
+13:01 < jardineworks:#liferay> rotty3000, I am trying to setup the server so that I can attach VisualVM to it to monitor resources. I have the jstatd running on 1099 and have opened the port in the firewall. I create the Remote host in visual vm, but nothing is showing up.
