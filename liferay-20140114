@@ -5,3 +5,4 @@
 05:37 < lapache:#liferay> Thank you topolik, but the omni admin can't modify options. Liferay says "You doesn't have suffisent rights"
 06:19 < topolik:#liferay> lapache: do you have just one company/portal instance or more?
 06:21 < lapache:#liferay> i have one. I was searching for a couple user:password setting in the portal-ext file ...
+07:37 < topolik:#liferay> lapache: what version do you use?
