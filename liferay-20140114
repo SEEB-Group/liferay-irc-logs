@@ -134,3 +134,5 @@
 14:29 <@rotty3000:#liferay> that will make GC much more consistent
 14:29 <@rotty3000:#liferay> since it'
 14:29 <@rotty3000:#liferay> it doesn't have to give/take with the system memory manager
+14:30 <@rotty3000:#liferay> you should only use floating heap size in apps that start up and then shutdown intermintently, like desktop apps
+14:30 <@rotty3000:#liferay> but long lived apps should have fixed heap scaled to their usage characteristics
