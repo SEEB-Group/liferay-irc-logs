@@ -11,3 +11,5 @@
 09:00 < sm`:#liferay> i tried this so far:
 09:00 < sm`:#liferay> String lang = LanguageUtil.getLanguageId(request); - doesnt return the right lang
 09:01 < sm`:#liferay> and from a cookie GUEST_LANGUAGE_ID but again im not getting the right/most recent value
+09:03 < sm`:#liferay> is there any way to get the themeDisplay in my servlet
+09:03 < sm`:#liferay> ?
