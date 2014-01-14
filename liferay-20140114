@@ -167,3 +167,12 @@
 15:01 < jardineworks:#liferay> :O
 15:01 < jardineworks:#liferay> I had the same issue with my feiendly urls!
 15:01 < Tar-Minyatur:#liferay> Apparently Liferay has some kind of cache for Velocity macros.
+15:02 < jardineworks:#liferay> I had separate plugin projects but was using the same friendly mapping name in more than one
+15:02 < Tar-Minyatur:#liferay> And there is no name scoping for macros within templates.
+15:02 < jardineworks:#liferay> I guess it stores them in a map so i was getting the wrong one out!
+15:02 < jardineworks:#liferay> damn
+15:02 < Tar-Minyatur:#liferay> Yeah. Probably.
+15:02 < jardineworks:#liferay> wow
+15:02 < Tar-Minyatur:#liferay> There is some way to manipulate this behavior.
+15:02 < jardineworks:#liferay> how did you find it?
+15:02 < Tar-Minyatur:#liferay> But I just opted to prefix all macros with some abbreviation of the template name.
