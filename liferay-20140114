@@ -81,3 +81,7 @@
 13:20 < jardineworks:#liferay> rotty3000, hmm .. i need to do ./jstatd ... you ran it outright?
 13:21 < jardineworks:#liferay> without the ./ I mean
 13:21 <@rotty3000:#liferay> yeah, on Linux java is a system install app with the tools in the path already
+13:22 < jardineworks:#liferay> rotty3000, I am on ubuntu ... java works from everywhere, but jstatd doesn't
+13:22 <@rotty3000:#liferay> [rotty@rotty-laptop ~]$ which jstatd
+13:22 <@rotty3000:#liferay> /usr/lib/jvm/java-7-openjdk-amd64/bin/jstatd
+13:22 < jardineworks:#liferay> even when I am in the bin/ folder and I hit jstatd ... it comes back with command not found.
