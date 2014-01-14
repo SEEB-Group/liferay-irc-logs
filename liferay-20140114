@@ -202,3 +202,5 @@
 16:24 < timmy_:#liferay> is there a way to specify the default image thumbnail size?
 16:27 <@rotty3000:#liferay> I think there is via the props
 16:27 < Tar-Minyatur:#liferay> dl.file.entry.thumbnail.max.height=128
+16:28 < Tar-Minyatur:#liferay> You can even specify more than one image size.
+16:28 < Tar-Minyatur:#liferay> We're using that for our responsive design actually.
