@@ -6,3 +6,5 @@
 06:19 < topolik:#liferay> lapache: do you have just one company/portal instance or more?
 06:21 < lapache:#liferay> i have one. I was searching for a couple user:password setting in the portal-ext file ...
 07:37 < topolik:#liferay> lapache: what version do you use?
+08:59 < sm`:#liferay> ello every1
+08:59 < sm`:#liferay> i have a question... im trying to get the visitors lang in a servlet
