@@ -116,3 +116,5 @@
 14:23 <@rotty3000:#liferay> on server you should always dedicated a fixed sized heap that is less than the total amount of memory which is required to run the OS, other services, plus the Java App
 14:23 < jardineworks:#liferay> right -- I think someone "tweaked" this not understanding what it meant maybe
 14:24 <@rotty3000:#liferay> otherwise memory will become contented, and you'll see the OS swapping a lot
+14:24 <@rotty3000:#liferay>  you do NOT want a server to ever use swap
+14:24 < jardineworks:#liferay> makes sense
