@@ -39,3 +39,4 @@
 10:36 < Tar-Minyatur:#liferay> Hi guya. Time and time again I stumble upon the problem that I need to retrieve the CDN host from within a CMS VM template.
 10:36 < Tar-Minyatur:#liferay> I really should write that down where I can easily find it again.
 11:37 < Tar-Minyatur:#liferay> Maybe one of you needed something like this already: Can I somehow use Liferay to force the user on the SSL version of a certain page?
+11:43 < jardineworks:#liferay> prefis the url with https? :)
