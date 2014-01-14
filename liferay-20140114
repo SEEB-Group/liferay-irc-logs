@@ -60,3 +60,5 @@
 13:06 <@rotty3000:#liferay> yeah
 13:06 < jardineworks:#liferay> and then how do you attach to that?
 13:06 <@rotty3000:#liferay> change the port as necessary
+13:07 <@rotty3000:#liferay> same type of connection in VisualVM
+13:07 <@rotty3000:#liferay> .. not an expert.. I do 99.99% of my work locally
