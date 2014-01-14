@@ -139,3 +139,5 @@
 14:32 <@rotty3000:#liferay> one more thing that most people don't realize... the JVM threads, the cost of their memory is not figured into the heap size
 14:33 <@rotty3000:#liferay> so, when you allocate memory to the JVM you have to figure (OS + other apps + Java heap + Java threads)
 14:34 <@rotty3000:#liferay> which is why you can sometimes see the JVM taking up more memory that the heap is set too..
+14:35 < jardineworks:#liferay> explains why I have not seen this issue locally... I have 32GB of ram on my laptop
+14:35 <@rotty3000:#liferay> yeah :)
