@@ -67,3 +67,5 @@
 13:10 < jardineworks:#liferay> ok -- restarting the server with that line.
 13:10 <@rotty3000:#liferay> you do need jstatd to find the remote processes..
 13:10 <@rotty3000:#liferay> but never used it
+13:11 <@rotty3000:#liferay> I mean I've never had to do that personally
+13:11 < jardineworks:#liferay> shoot
