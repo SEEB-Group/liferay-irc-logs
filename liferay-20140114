@@ -160,3 +160,10 @@
 15:00 < jardineworks:#liferay> for now I'll just get my portlet to pull a specific template :D
 15:00 < Tar-Minyatur:#liferay> ;)
 15:00 < jardineworks:#liferay> (not using the asset publisher -- so I can brute force it)
+15:01 < Tar-Minyatur:#liferay> We found the cause for our weird "rendered with wrong template" issue btw.
+15:01 < jardineworks:#liferay> although I suppose the asset publisher would make this easier because I could just pick the template to use
+15:01 < Tar-Minyatur:#liferay> The problem was templates containing macros with the same name.
+15:01 < jardineworks:#liferay> OH WHAT WAS IT!!
+15:01 < jardineworks:#liferay> :O
+15:01 < jardineworks:#liferay> I had the same issue with my feiendly urls!
+15:01 < Tar-Minyatur:#liferay> Apparently Liferay has some kind of cache for Velocity macros.
