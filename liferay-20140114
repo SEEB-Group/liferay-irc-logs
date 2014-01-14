@@ -44,3 +44,4 @@
 12:31 < Tar-Minyatur:#liferay> We have relative URLs everywhere, so the user stays on whatever http(s) he is.
 12:31 < Tar-Minyatur:#liferay> This is ok, but for the pages containing forms we'd like to enforce SSL.
 12:32 < Tar-Minyatur:#liferay> Just wondering if Liferay can do that or if I need to set a redirect in the proxy sitting in front of Liferay.
+12:55 < jardineworks:#liferay> hey rotty3000 -- are you around for a performance related question? actually monitoring more than perf...
