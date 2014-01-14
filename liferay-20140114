@@ -75,3 +75,6 @@
 13:14 <@rotty3000:#liferay> it worked for me
 13:14 <@rotty3000:#liferay> no trouble
 13:14 <@rotty3000:#liferay> I just connected to my laptop from my desktop
+13:16 <@rotty3000:#liferay> all I did was run sudo jstatd -J-Djava.security.policy=all.policy     (as described here http://docs.oracle.com/javase/6/docs/technotes/tools/share/jstatd.html)
+13:16 <@rotty3000:#liferay> in visualvm on my desktop I added connection to my laptop, and it saw the java processes right away and let me connect to them
+13:16 <@rotty3000:#liferay> cool!! learn something new every day! :)
