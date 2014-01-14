@@ -16,3 +16,7 @@
 09:04 < sm`:#liferay> or maybe you have a better suggestion
 09:31 < jardineworks:#liferay> hey Tar-Minyatur are you around?
 09:41 < jardineworks:#liferay> hey topolik, jhf rotty3000 .. do either or you know what the DynamicCSSFilter does?
+09:42 <@jhf:#liferay> doesn't that compile SASS into CSS before delivery to client?
+09:42 <@jhf:#liferay> something to do with SASS.
+09:42 <@jhf:#liferay> you can't disable it, I know that much
+09:43 <@jhf:#liferay> I mean there is a portal.properties option to disable it, but it also blows up control panel (at least in 6.1)
