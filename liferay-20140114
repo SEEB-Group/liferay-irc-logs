@@ -107,3 +107,4 @@
 13:31 < jardineworks:#liferay> thats about as much as I know :)
 13:31 < jardineworks:#liferay> I have the same policy file
 13:32 < jardineworks:#liferay> LR is not using the system java install... JAVA HOME is set at startup to a JDK 1.6 (oracle)... so I am starting the jstatd for that jvm
+14:16 < jardineworks:#liferay> @#%$!#%$# firewall. what a waste of 2 hours.
