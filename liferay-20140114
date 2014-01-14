@@ -94,3 +94,4 @@
 13:23 <@rotty3000:#liferay> I would simply make sure that the JDK is installed correctly
 13:24 < jardineworks:#liferay> this is someone elses witchcraft that I am not allowed to change.
 13:24 < jardineworks:#liferay> if I run ./jstatd though ... I can see the process running
+13:25 <@rotty3000:#liferay> http://i.imgur.com/MmorPUK.png
