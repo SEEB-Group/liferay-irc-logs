@@ -120,3 +120,6 @@
 14:24 < jardineworks:#liferay> makes sense
 14:25 < jardineworks:#liferay> right now in the conrtrol panel I see the resources not maxed out at all.. but htop on the server shows it basically at threshold, or near it
 14:26 <@rotty3000:#liferay> what resources? CPU may be low. but still have issues with memory
+14:26 <@rotty3000:#liferay> what about memory?
+14:26 <@rotty3000:#liferay> anyhow.. your JVM should never take up all the physical memory
+14:26 < jardineworks:#liferay> the memory is not fully used either (in the control panel)
