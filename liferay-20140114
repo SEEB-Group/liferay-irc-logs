@@ -8,3 +8,5 @@
 07:37 < topolik:#liferay> lapache: what version do you use?
 08:59 < sm`:#liferay> ello every1
 08:59 < sm`:#liferay> i have a question... im trying to get the visitors lang in a servlet
+09:00 < sm`:#liferay> i tried this so far:
+09:00 < sm`:#liferay> String lang = LanguageUtil.getLanguageId(request); - doesnt return the right lang
