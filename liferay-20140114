@@ -69,3 +69,5 @@
 13:10 <@rotty3000:#liferay> but never used it
 13:11 <@rotty3000:#liferay> I mean I've never had to do that personally
 13:11 < jardineworks:#liferay> shoot
+13:13 < jardineworks:#liferay> rotty3000, locally, I can see a lot of replication threads.
+13:13 < jardineworks:#liferay> could that be an issue?
