@@ -27,3 +27,8 @@
 09:50 < jardineworks:#liferay> unlink at org/jruby/RubyFile.java:1793
 09:50 < jardineworks:#liferay> _retrieve at /home/liferay/current/liferay/tomcat/temp/liferay/ruby/gems/sass-3.2.1/lib/sass/cache_stores/filesystem.rb:26
 09:50 < jardineworks:#liferay> retrieve at /home/liferay/current/liferay/tomcat/temp/liferay/ruby/gems/sass-
+09:51 < jardineworks:#liferay> sorry -- few lines above as well --
+09:51 < jardineworks:#liferay> 13:31:41,059 ERROR [http-bio-8080-exec-69][DynamicCSSFilter:185] Unable to parse SASS on CSS /home/liferay/current/liferay/tomcat/webapps/ROOT/html/css/main.css
+09:51 < jardineworks:#liferay> com.liferay.portal.kernel.scripting.ScriptingException: java.util.concurrent.ExecutionException: org.jruby.embed.EvalFailedException: (Errno::ENOENT) /home/liferay/current/liferay/tomcat/temp/liferay/sass/872d681b648c002e43216d2221408cf0927bddd4/main.cssc
+09:51 <@jhf:#liferay> yep I think Liferay depends much more heavily on that filter than one would think.
+09:51 < jardineworks:#liferay> that looks like someone is trying to precompile the Liferay css
