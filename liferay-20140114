@@ -144,3 +144,4 @@
 14:49 < jardineworks:#liferay> does anyone know if it is possible to set the "default template" for a structure? So that when I create a new piece of webcontent of type X it automatically selects Template Y?
 14:50 < Tar-Minyatur:#liferay> Doesn't it do that anyway?
 14:50 < Tar-Minyatur:#liferay> Or does this happen only when there is a single template associated with the structure?
+14:51 < Tar-Minyatur:#liferay> I'm pretty sure I saw that happen in our Liferay...but we always have only one template.
