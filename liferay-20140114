@@ -85,3 +85,10 @@
 13:22 <@rotty3000:#liferay> [rotty@rotty-laptop ~]$ which jstatd
 13:22 <@rotty3000:#liferay> /usr/lib/jvm/java-7-openjdk-amd64/bin/jstatd
 13:22 < jardineworks:#liferay> even when I am in the bin/ folder and I hit jstatd ... it comes back with command not found.
+13:23 < jardineworks:#liferay> mmy which command comes back blank?!
+13:23 <@rotty3000:#liferay> so you might not have the JDK completely installed correctly
+13:23 < jardineworks:#liferay> which java returns usr/bin/java
+13:23 < jardineworks:#liferay> so maybe I need a symlink
+13:23 <@rotty3000:#liferay> uhmm..
+13:23 <@rotty3000:#liferay> I wouldn't do that
+13:23 <@rotty3000:#liferay> I would simply make sure that the JDK is installed correctly
