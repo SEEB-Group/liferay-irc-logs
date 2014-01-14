@@ -48,3 +48,6 @@
 12:57 <@rotty3000:#liferay> a bit yeah
 13:01 < jardineworks:#liferay> rotty3000, I am trying to setup the server so that I can attach VisualVM to it to monitor resources. I have the jstatd running on 1099 and have opened the port in the firewall. I create the Remote host in visual vm, but nothing is showing up.
 13:03 <@rotty3000:#liferay> hmm...
+13:04 <@rotty3000:#liferay> I'm not familiar with jstatd usage
+13:04 < jardineworks:#liferay> rotty3000, is there another way to do it?
+13:05 <@rotty3000:#liferay> when I want to remote debug though I just add this:     -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
