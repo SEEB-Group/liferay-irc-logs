@@ -123,3 +123,8 @@
 14:26 <@rotty3000:#liferay> what about memory?
 14:26 <@rotty3000:#liferay> anyhow.. your JVM should never take up all the physical memory
 14:26 < jardineworks:#liferay> the memory is not fully used either (in the control panel)
+14:27 <@rotty3000:#liferay> also permgen should not be so high
+14:27 < jardineworks:#liferay> but I suspect LR is trying to grab more as the application is used.
+14:27 < jardineworks:#liferay> 512 too high?
+14:27 <@rotty3000:#liferay> yeah
+14:28 <@rotty3000:#liferay> 256 should be enough
