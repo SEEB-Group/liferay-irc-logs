@@ -153,3 +153,5 @@
 14:56 < Tar-Minyatur:#liferay> Seems to be a missing feature.
 14:57 < jardineworks:#liferay> ugh
 14:57 < jardineworks:#liferay> that -- sucks.
+14:59 < Tar-Minyatur:#liferay> You could try to achieve that with a hook.
+15:00 < Tar-Minyatur:#liferay> Change the link to add web content so that it includes the templateId.
