@@ -188,3 +188,4 @@
 15:09 < jardineworks:#liferay> rotty3000, everywhere I look in the source these days I see your name lol ... how many lines do you think you have written in your tenure?
 15:11 <@rotty3000:#liferay> oh man...
 15:11 <@rotty3000:#liferay> too many
+16:02 < jardineworks:#liferay> hey rotty3000 -- the xmlRequest paramater in  JournalContentUtil.getDisplay(...)  -- the one with the template id --- is that just the JournalArticle content field? the xml-i-fied version of the content?
