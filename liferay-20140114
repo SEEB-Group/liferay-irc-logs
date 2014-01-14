@@ -108,3 +108,6 @@
 13:31 < jardineworks:#liferay> I have the same policy file
 13:32 < jardineworks:#liferay> LR is not using the system java install... JAVA HOME is set at startup to a JDK 1.6 (oracle)... so I am starting the jstatd for that jvm
 14:16 < jardineworks:#liferay> @#%$!#%$# firewall. what a waste of 2 hours.
+14:21 < jardineworks:#liferay> rotty3000,  when you have a second (this is not a domain expertise for me). I finally have it attached. First thing I noticed, the tomcat jvm args have 4096 as the XmX and PermGen of 1024. The server itself has just 4096 MB RAM -- and it is hosting Liferay, the Database and a few other things. Could our issue be that the JVM is trying to gobble up more more memory -- not having reached its threshold for memory manangement and it results i
+14:21 < jardineworks:#liferay> n taking it all over and not having resources to release it?
+14:21 < jardineworks:#liferay> basically... the JVM just uses those flags as a ceiling right? it doesn't check to see if the memory is ACTUALLY available -- etc.
