@@ -196,3 +196,5 @@
 16:16 <@rotty3000:#liferay> and so they don't pass through the same service
 16:16 < timmy_:#liferay> there is no way to get a thumbnail from an image that is stored in your web content structure?
 16:16 <@rotty3000:#liferay> not if it's an image which is directly associated to an article
+16:17 <@rotty3000:#liferay> it might be possible if it's an image referenced from the doclib
+16:17 <@rotty3000:#liferay> but I think you'd have to calculate the appropriate url yourself, which shouldn't be overly hard
