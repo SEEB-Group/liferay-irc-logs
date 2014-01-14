@@ -136,3 +136,4 @@
 14:29 <@rotty3000:#liferay> it doesn't have to give/take with the system memory manager
 14:30 <@rotty3000:#liferay> you should only use floating heap size in apps that start up and then shutdown intermintently, like desktop apps
 14:30 <@rotty3000:#liferay> but long lived apps should have fixed heap scaled to their usage characteristics
+14:32 <@rotty3000:#liferay> one more thing that most people don't realize... the JVM threads, the cost of their memory is not figured into the heap size
