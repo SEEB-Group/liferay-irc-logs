@@ -321,3 +321,6 @@
 12:29 < bijoo_:#liferay> nicolas_FR: check permissinos on file and the folder
 12:29 < nicolas_FR:#liferay> folder : drwxr-xr-x
 12:29 < nicolas_FR:#liferay> link is lrwxrwxrwx
+12:30 < nicolas_FR:#liferay> robots.txt -> robots.txt
+12:30 < bijoo_:#liferay> nicolas_FR: okay, I'm updating the pastebin file.
+12:30 < nicolas_FR:#liferay> and robots file in the "true" directory is -rw-r--r--
