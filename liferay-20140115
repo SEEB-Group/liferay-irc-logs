@@ -442,3 +442,5 @@
 18:14 < dawn:#liferay> bijoo_: sorry if I misunderstood the error. my understanding of  "missing reference" error was that the artifact is missing in current site.
 18:15 < dawn:#liferay> bijoo_: i thought by importing the LAR it would create the categories in current site
 18:16 < dawn:#liferay> am i wrong here?
+18:33 < bijoo_:#liferay> data__: yes it should create the categories; I think this means the data's corrupted...
+18:33 < bijoo_:#liferay> data__: can you try not exporting some portlets?
