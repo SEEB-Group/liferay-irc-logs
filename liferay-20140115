@@ -23,3 +23,9 @@
 09:27 < jardineworks:#liferay> For our custom styles we're SASSing it all before we put it into the theme
 09:27 <@rotty3000:#liferay> right
 09:28 <@jhf:#liferay> rotty3000: would agree -after playing with themes for a while (for my webinar later today) I've come to the conclusion that sass is a good idea but not for runtime :)
+09:30 < Tar-Minyatur:#liferay> rotty3000: I think even for using it in portlets it would be preferable, if SASS compilation would just be integrated into the build process.
+09:30 <@rotty3000:#liferay> alright.. I'm sold..
+09:30 < Tar-Minyatur:#liferay> We've been wondering about the whole on-the-fly SASS compilation since we started working with Liferay.
+09:30 < Tar-Minyatur:#liferay> It's especially annoying when you want to use a CDN.
+09:30 <@rotty3000:#liferay> I was hoping there would be no backlash from anyone in the community
+09:30 < jardineworks:#liferay> yeah yeah! make it a OPTIONAL build step... like "build-service" :)
