@@ -366,3 +366,5 @@
 14:30 < rterwedo:#liferay> Good webcast
 14:30 <@jhf:#liferay> I also plugged Content Targeting, which was a mistake cause I do't know when it'll be released :)
 14:30 < rterwedo:#liferay> haha
+14:31 <@jhf:#liferay> but it is super-cool
+14:31 < rterwedo:#liferay> So u know, abstracting away search would be cool too...  Then we could do things like:  http://aws.amazon.com/cloudsearch/
