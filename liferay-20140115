@@ -239,3 +239,8 @@
 11:49 < bijoo_:#liferay> nicolas_FR: well that returned a 404 instead
 11:49 < nicolas_FR:#liferay> yes
 11:49 < bijoo_:#liferay> but this is waiting on response long time
+11:51 < bijoo_:#liferay> nicolas_FR: http://pastebin.com/DVbYBxXF
+11:51 < bijoo_:#liferay> nicolas_FR: try that, it should redirect to google.com
+11:51 < bijoo_:#liferay> nicolas_FR: just trying to see if we're hitting it
+11:51 < bijoo_:#liferay> RedirectMatch permanent ^/robots.txt$ https://www.google.com
+11:51 < nicolas_FR:#liferay> will try
