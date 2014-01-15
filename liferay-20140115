@@ -263,3 +263,6 @@
 11:57 < nicolas_FR:#liferay> bijoo_: ok done, so I'm now changing my internet-ssl
 11:57 < bijoo_:#liferay> nicolas_FR: right just need to add the one on line 8
 11:58 < nicolas_FR:#liferay> bijoo_: can I remove the permanent redirect to google ?
+12:00 < nicolas_FR:#liferay> still the same
+12:00 < nicolas_FR:#liferay> =(
+12:00 < bijoo_:#liferay> nicolas_FR: yes, please remove the google redirect;
