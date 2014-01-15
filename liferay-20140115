@@ -187,3 +187,4 @@
 11:04 < nicolas_FR:#liferay> in etc/apache2/modules/mod_proxy.so
 11:05 < bijoo_:#liferay> nicolas_FR: okay, no problem, so that can't be it. What do you see in the internet-ssl
 11:05 < bijoo_:#liferay> nicolas_FR: mask out anything sensitive, and put it on pastebin
+11:06 < nicolas_FR:#liferay> bijoo_: hold on
