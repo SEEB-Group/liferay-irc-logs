@@ -431,3 +431,8 @@
 18:02 < dawn:#liferay> bijoo_:http://postimg.org/image/olbpz4oql/ look for the errors complaining about categories.
 18:04 < bijoo_:#liferay> dawn: back, I can see the export is correct. Now I'll try to import it in a site.
 18:05 < dawn:#liferay> bijoo_:sure
+18:06 < bijoo_:#liferay> "LAR build number 6210 does not match portal build number 6200"
+18:06 < bijoo_:#liferay> dawn: yikes, looks like you have new version, I don't.
+18:06 < dawn:#liferay> yes. 6.2GA1 EE
+18:06 < bijoo_:#liferay> dawn: let my try to spoof it and it might work.
+18:06 < bijoo_:#liferay> me*
