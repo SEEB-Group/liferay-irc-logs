@@ -101,3 +101,5 @@
 10:29 < nicolas_FR:#liferay> Tar-Minyatur: yes
 10:30 < Tar-Minyatur:#liferay> When I change the value in the template drop down it only affects the current page?
 10:30 < nicolas_FR:#liferay> Tar-Minyatur: by example, an article that would be set 2 times on your site. 1st as a short introduction, with a link to the full article. Same article, 2 templates
+10:32 < nicolas_FR:#liferay> Tar-Minyatur: We're using L5.2.3 here, we achieve this by clinking the "gear" button of your article, and then selecting the template you want
+10:32 < bijoo_:#liferay> nicolas_FR: I don't see robots.txt support; that is in 5.2.3 portal source code. Are you using apache web server?
