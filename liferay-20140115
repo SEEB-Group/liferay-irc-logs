@@ -176,3 +176,7 @@
 11:00 < bijoo_:#liferay> find . | xargs grep VirtualHost
 11:00 < nicolas_FR:#liferay> bijoo_: yes : /etc/apache2/sites-available/
 11:00 < bijoo_:#liferay> nicolas_FR: okay, good, do you have file list to check?
+11:01 < bijoo_:#liferay> find /etc/apache2/ | xargs grep -ls VirtualHost
+11:01 < bijoo_:#liferay> That should give you filelist to check for it
+11:01 < nicolas_FR:#liferay> bijoo_: there is a long list of output here
+11:02 < bijoo_:#liferay> nicolas_FR: okay, now try this one instead
