@@ -22,3 +22,4 @@
 09:27 < jardineworks:#liferay> its a PITA on our project right now
 09:27 < jardineworks:#liferay> For our custom styles we're SASSing it all before we put it into the theme
 09:27 <@rotty3000:#liferay> right
+09:28 <@jhf:#liferay> rotty3000: would agree -after playing with themes for a while (for my webinar later today) I've come to the conclusion that sass is a good idea but not for runtime :)
