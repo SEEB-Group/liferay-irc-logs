@@ -160,3 +160,8 @@
 10:56 < nicolas_FR:#liferay> Well I'm looking in the apache.conf, where we set the Alias, and no proxypass
 10:56 < bijoo_:#liferay> nicolas_FR: it may not be in apache.conf
 10:56 < Tar-Minyatur:#liferay> jardineworks: Doesn't work either. Sad day.
+10:57 < bijoo_:#liferay> nicolas_FR: find the portal configuration part
+10:57 < bijoo_:#liferay> nicolas_FR: which version apache are you using?
+10:57 < bijoo_:#liferay> apache2ctl -version
+10:57 < nicolas_FR:#liferay> 2.2.9
+10:57 < nicolas_FR:#liferay> on Debian
