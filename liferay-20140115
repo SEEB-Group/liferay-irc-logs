@@ -259,3 +259,6 @@
 11:56 < nicolas_FR:#liferay> bijoo_: so might not be accessible from web
 11:56 < bijoo_:#liferay> nicolas_FR: run this command to make symbolic link
 11:56 < bijoo_:#liferay> ln -s /usr/share/apache2/robots/robots.txt /var/www/robots/robots.txt
+11:57 < bijoo_:#liferay> http://pastebin.com/iBnQ05Lf
+11:57 < nicolas_FR:#liferay> bijoo_: ok done, so I'm now changing my internet-ssl
+11:57 < bijoo_:#liferay> nicolas_FR: right just need to add the one on line 8
