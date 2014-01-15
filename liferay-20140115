@@ -334,3 +334,5 @@
 12:34 < bijoo_:#liferay> nicolas_FR: try putting them in quotes on line 2
 12:34 < nicolas_FR:#liferay> if the symbolic link is a problem, I will just copy the original robots.txt to the www directory
 12:34 < bijoo_:#liferay> so "/var/www/robots"
+12:35 < bijoo_:#liferay> "/var/www/robots/"
+12:35 < nicolas_FR:#liferay> still not
