@@ -45,3 +45,6 @@
 09:33 < jardineworks:#liferay> best kill me of the day -- check out what I have to do to calculate the number of rows required for a bananas search results layout --
 09:33 < jardineworks:#liferay> <c:set var="totalRows" value="${ fn:substring(totalItems / 4 + ((totalItems mod 4 > 0) ? 1: 0), 0, 1) }"/>
 09:33 < jardineworks:#liferay> i love designers.
+09:34 < Tar-Minyatur:#liferay> We have a situation where we are supposed to integrate one part of a Liferay page into another one. And sadly the default template doesn't work for that, so we want to propose creating a second template and then load the content using this template via /c/journal/view_article_content.
+09:34 < Tar-Minyatur:#liferay> But it seems like switching the template isn't possible there... :-(
+09:34 < jardineworks:#liferay> "'ll just put a box here, and another one here... and OU! let's overlap them by 1.5 px ... and... OH! I KNOW! different siszes! ... but they have to line up of course. Done."
