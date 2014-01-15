@@ -444,3 +444,4 @@
 18:16 < dawn:#liferay> am i wrong here?
 18:33 < bijoo_:#liferay> data__: yes it should create the categories; I think this means the data's corrupted...
 18:33 < bijoo_:#liferay> data__: can you try not exporting some portlets?
+18:34 < bijoo_:#liferay> data__: so the scenario I think happened: (1) create category A, (2) create web content article and select category A, (3) delete category A, (4) export all site data including portlet that has reference to category A which doesn't exist
