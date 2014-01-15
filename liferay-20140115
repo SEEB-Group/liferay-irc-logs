@@ -224,3 +224,5 @@
 11:40 < bijoo_:#liferay> nicolas_FR: I'm using Rewrite rules, conds, etc. as well; so I know it does not interfere. However, I'll take another look there.
 11:41 < nicolas_FR:#liferay> is it normal to be deny from all in the directory setting ?
 11:41 < bijoo_:#liferay> nicolas_FR: by the way, what URL do you see? That is, when hit robots.txt.
+11:42 < nicolas_FR:#liferay> try it : https://www.interiale.fr/robots.txt
+11:42 < nicolas_FR:#liferay> it's waiting forever
