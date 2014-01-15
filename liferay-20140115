@@ -9,3 +9,4 @@
 05:23 < Tar-Minyatur:#liferay> Does somebody know if this issue has been fixed in any version of Liferay? -> https://www.liferay.com/de/web/kzhang/blog/-/blogs/solving-performance-issue-in-liferay-6-1-staging
 07:59 < nicolas_FR:#liferay> hi, we're using liferay 5.2.3 on tomcat 6.0 and we seems to have cache issue (gtmetrix report : http://gtmetrix.com/reports/www.interiale.fr/fujrtHH8). Any advices ?
 08:48 < nicolas_FR:#liferay> anyone know how to get the robots.txt file from liferay 5.2.3 ? I would like to be able to access it through : http://[server]/robots.txt
+08:49 <@rotty3000:#liferay> Quick Poll: How Many people use SASS anywhere other than themes?
