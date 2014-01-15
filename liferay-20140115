@@ -108,3 +108,8 @@
 10:35 < nicolas_FR:#liferay> bijoo_: I would really appreciate the right settings for that yes
 10:35 < Tar-Minyatur:#liferay> nicolas_FR: Awesome! Would be nice if that was possible using /c/journal/view_article_content as well...but I guess I'll take it this way for now.
 10:35 < bijoo_:#liferay> nicolas_FR: okay, I'll send that to you in a minute there.
+10:37 < bijoo_:#liferay> nicolas_FR: can you open Apache config files?
+10:37 < bijoo_:#liferay> nicolas_FR: the location changes by the version.
+10:37 < nicolas_FR:#liferay> kyes
+10:37 < nicolas_FR:#liferay> bijoo_: yes, the apache.conf file right ?
+10:37 < bijoo_:#liferay> nicolas_FR: it depends on version, I mean for site.
