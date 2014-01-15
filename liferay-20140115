@@ -74,3 +74,4 @@
 09:53 < whatsoever:#liferay> well i have a meeting next week, does not help me much atm ^_^
 09:55 < whatsoever:#liferay> well just gonna make it with my own service layer and see whats happening ^_^
 09:58 < jardineworks:#liferay> whatsoever, either way, you should probably be making the API calls from the portlet class (the .java file(s)) .. not the JSP.
+09:59 < whatsoever:#liferay> hmm.. gonna be working in some cases, but when i have a table that shows information about user (for example), i cant do it over the .java file?)
