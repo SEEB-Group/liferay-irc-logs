@@ -314,3 +314,4 @@
 12:26 < nicolas_FR:#liferay> JkMount /robots.txt decideur
 12:26 < nicolas_FR:#liferay> what I have at the end of the file
 12:26 < bijoo_:#liferay> Note it should be JkUnMount , not that
+12:27 < bijoo_:#liferay> nicolas_FR: okay, that should work too, but change the JkMount to JkUnMount
