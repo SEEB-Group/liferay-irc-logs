@@ -194,3 +194,5 @@
 11:12 < bijoo_:#liferay> nicolas_FR: checking the file now
 11:12 < nicolas_FR:#liferay> bijoo_: http://pastebin.com/SkXM9nWm
 11:14 < bijoo_:#liferay> nicolas_FR: okay, the second one makes more sense. Hmm, above these lines place the Alias?
+11:15 < bijoo_:#liferay> nicolas_FR: restart apache and still no effect?
+11:15 < nicolas_FR:#liferay> bijoo_: well, give me one minut, I'm asking for permissions to do that here
