@@ -228,3 +228,6 @@
 11:42 < nicolas_FR:#liferay> it's waiting forever
 11:44 < bijoo_:#liferay> nicolas_FR: whoops, good catch there; should be "Deny from None"
 11:44 < bijoo_:#liferay> nicolas_FR: "Deny from none"
+11:45 < bijoo_:#liferay> nicolas_FR: case shouldn't matter though, so long as "none"
+11:45 < nicolas_FR:#liferay> was going to ask :)
+11:45 < nicolas_FR:#liferay> nothing changed
