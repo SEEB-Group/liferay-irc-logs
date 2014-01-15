@@ -188,3 +188,5 @@
 11:05 < bijoo_:#liferay> nicolas_FR: okay, no problem, so that can't be it. What do you see in the internet-ssl
 11:05 < bijoo_:#liferay> nicolas_FR: mask out anything sensitive, and put it on pastebin
 11:06 < nicolas_FR:#liferay> bijoo_: hold on
+11:09 < nicolas_FR:#liferay> bijoo_: we have RewriteEngine on, http://pastebin.com/CDCH8Ebr
+11:09 < nicolas_FR:#liferay> and more redirect for some other sites
