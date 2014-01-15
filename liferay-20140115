@@ -214,3 +214,4 @@
 11:34 < nicolas_FR:#liferay> I saved the internet-ssl file and apache restarting is done in a blink. Testing, and if it goes wrong I'll set it back quickly. It sucks, but actually we have no other ways to do
 11:34 < bijoo_:#liferay> nicolas_FR: yikes, well, I assume this is only change.
 11:35 < bijoo_:#liferay> nicolas_FR: that is, no one edited that file right? So this should be only change for restart.
+11:36 < nicolas_FR:#liferay> ok .. cross fingers
