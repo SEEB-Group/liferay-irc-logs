@@ -68,3 +68,6 @@
 09:49 < whatsoever:#liferay> well i cant use his code anyway, its just about getting a connection to the API to use the classes
 09:49 < jardineworks:#liferay> after including the services.xml in your plugin project, did you run the build-service ant target?
 09:50 < whatsoever:#liferay> well that was a point i was worried about: is services.xml a servicelayer? if i just copy the services.xml , i have no option to run the build.service
+09:51 < whatsoever:#liferay> but if i create a service layer on my own, its called service.xml, not serviceS.xml, not too sure about the difference though
+09:51 < jardineworks:#liferay> oh I see --
+09:51 < jardineworks:#liferay> why not ask your coworker what he did?
