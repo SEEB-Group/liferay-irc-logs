@@ -1,2 +1,3 @@
 --- Log opened Wed Jan 15 00:00:37 2014
 03:55 < nicolas_FR:#liferay> hi there
+03:57 < nicolas_FR:#liferay> we have browser caching problems with liferay 5.2.3. Here is the gtmetrix report : http://gtmetrix.com/reports/www.interiale.fr/lMUGc9tc. Anyone got advices on configuration ?
