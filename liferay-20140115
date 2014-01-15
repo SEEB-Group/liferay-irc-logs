@@ -97,3 +97,5 @@
 10:27 < nicolas_FR:#liferay> we were thinking about switching to 6.1 but it will take time, and waiting for that we have no robots.txt, which is a priority
 10:28 < Tar-Minyatur:#liferay> Did you find a way to get Liferay to render your stuff with different templates as you wish?
 10:28 < nicolas_FR:#liferay> Tar-Minyatur: you can set liferay to use a specific template for an article in a particular page, if it is what you need
+10:29 < Tar-Minyatur:#liferay> I can use the same article on different pages and have Liferay use a different template?
+10:29 < nicolas_FR:#liferay> Tar-Minyatur: yes
