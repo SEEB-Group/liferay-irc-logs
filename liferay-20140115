@@ -182,3 +182,5 @@
 11:02 < bijoo_:#liferay> nicolas_FR: okay, now try this one instead
 11:02 < nicolas_FR:#liferay> bijoo_: I think the good one is internet-ssl or internet
 11:02 < bijoo_:#liferay> find /etc/apache2/ | xargs grep -sl ProxyPass
+11:03 < bijoo_:#liferay> nicolas_FR: okay, open up that file and check it
+11:03 < nicolas_FR:#liferay> only one : mod_proxy.so
