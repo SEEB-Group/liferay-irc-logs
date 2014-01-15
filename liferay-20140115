@@ -106,3 +106,5 @@
 10:33 < nicolas_FR:#liferay> bijoo: we're using an apache in front, and then we have a tomcat for liferay
 10:34 < bijoo_:#liferay> nicolas_FR: okay, are you familiar with that? If not, I can give you the right settings; so that you can map robots.txt.
 10:35 < nicolas_FR:#liferay> bijoo_: I would really appreciate the right settings for that yes
+10:35 < Tar-Minyatur:#liferay> nicolas_FR: Awesome! Would be nice if that was possible using /c/journal/view_article_content as well...but I guess I'll take it this way for now.
+10:35 < bijoo_:#liferay> nicolas_FR: okay, I'll send that to you in a minute there.
