@@ -12,3 +12,5 @@
 08:49 <@rotty3000:#liferay> Quick Poll: How Many people use SASS anywhere other than themes?
 08:54 < whatsoever:#liferay> hey anyone ever used the jsp to connect to another API?
 09:11 < jardineworks:#liferay> rotty3000, outside of a theme -- you mean in a plugin itself?
+09:19 <@rotty3000:#liferay> yeah, or otherwise?
+09:19 <@rotty3000:#liferay> like in a plugin's own CSS files for instance, inline CSS, etc
