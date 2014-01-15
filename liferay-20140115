@@ -383,3 +383,5 @@
 14:33 < rterwedo:#liferay> Yahoo
 14:33 < rterwedo:#liferay> --->  I would love to transition that away somehow or migrate
 14:34 < rterwedo:#liferay> I registered in 07 or 08 or something
+14:37 <@jhf:#liferay> yeah
+14:37 <@jhf:#liferay> you're probably coming out of the "legacy" database @ yahoo - i.e. the slow one that works half the time.
