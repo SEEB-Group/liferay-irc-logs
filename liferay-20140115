@@ -29,3 +29,12 @@
 09:30 < Tar-Minyatur:#liferay> It's especially annoying when you want to use a CDN.
 09:30 <@rotty3000:#liferay> I was hoping there would be no backlash from anyone in the community
 09:30 < jardineworks:#liferay> yeah yeah! make it a OPTIONAL build step... like "build-service" :)
+09:31 < jardineworks:#liferay> +1 beer for this
+09:31 < jardineworks:#liferay> -1 hanging
+09:31 <@rotty3000:#liferay> :)
+09:31 <@jhf:#liferay> hey rotty3000 does that mean one could get rid of DynamicCSSFilter then?
+09:31 <@jhf:#liferay> or would it just not do the sass bit
+09:31 <@rotty3000:#liferay> jhf, yeah
+09:31 < Tar-Minyatur:#liferay> I would be odd to see Liferay using SCSS itself, but not having it available for your own portlets.
+09:31 <@jhf:#liferay> there's an option in portal.properties to disable it, but LR itself depends on it
+09:31 <@rotty3000:#liferay> but just the sass part
