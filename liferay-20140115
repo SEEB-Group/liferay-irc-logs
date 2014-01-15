@@ -63,3 +63,7 @@
 09:48 < jardineworks:#liferay> chances are what he has done in the portlet (.java file) you can do in the jsp. Just copy and paste the code into a <% ... %>
 09:48 < jardineworks:#liferay> :)
 09:48 < whatsoever:#liferay> yeah that were my toughts , as you can use any java code in jsp
+09:49 < jardineworks:#liferay> right -- but not really a best practice
+09:49 < whatsoever:#liferay> but i fail to connect to the API, due i am not sure if i can use serviceS.xml?
+09:49 < whatsoever:#liferay> well i cant use his code anyway, its just about getting a connection to the API to use the classes
+09:49 < jardineworks:#liferay> after including the services.xml in your plugin project, did you run the build-service ant target?
