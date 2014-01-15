@@ -157,3 +157,6 @@
 10:54 < nicolas_FR:#liferay> in the apache conf ?
 10:55 < bijoo_:#liferay> nicolas_FR: in the VirtualHost that's for the portal
 10:55 < nicolas_FR:#liferay> no I don't think so
+10:56 < nicolas_FR:#liferay> Well I'm looking in the apache.conf, where we set the Alias, and no proxypass
+10:56 < bijoo_:#liferay> nicolas_FR: it may not be in apache.conf
+10:56 < Tar-Minyatur:#liferay> jardineworks: Doesn't work either. Sad day.
