@@ -287,3 +287,6 @@
 12:12 < nicolas_FR:#liferay> so the only results I have are : sites-enabled/internet-ssl
 12:12 < nicolas_FR:#liferay> and etc/apache2/ports.conf
 12:12 < bijoo_:#liferay> nicolas_FR: check ports.conf, but I think that's just a comment
+12:13 < nicolas_FR:#liferay> NameVirtualHost *:80
+12:13 < nicolas_FR:#liferay> and 443
+12:13 < nicolas_FR:#liferay> and listen to 80 and 443
