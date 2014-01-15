@@ -6,3 +6,4 @@
 04:40 < lapache:#liferay> Hello, i perform an ldap auth with my liferay 6.1.1 instance, but i have a question. Is it possible that all the user's dependant informations are stored inside the ldap ? like secret answer, roles etc... ?
 04:47 < Tar-Minyatur:#liferay> lapache: If I recall correctly, Liferay only syncs it's user database with LDAP. I don't think you can completely replace the user database with LDAP ootb.
 04:47 < Tar-Minyatur:#liferay> *its
+05:23 < Tar-Minyatur:#liferay> Does somebody know if this issue has been fixed in any version of Liferay? -> https://www.liferay.com/de/web/kzhang/blog/-/blogs/solving-performance-issue-in-liferay-6-1-staging
