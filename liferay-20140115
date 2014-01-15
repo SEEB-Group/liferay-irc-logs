@@ -326,3 +326,7 @@
 12:30 < nicolas_FR:#liferay> and robots file in the "true" directory is -rw-r--r--
 12:31 < nicolas_FR:#liferay> should we chmod ?
 12:31 < bijoo_:#liferay> http://pastebin.com/daWLC956
+12:32 < bijoo_:#liferay> nicolas_FR: no, that should be plenty, check out pastebin.
+12:32 < bijoo_:#liferay> I updated lines 2-6
+12:32 < bijoo_:#liferay> should work
+12:32 < nicolas_FR:#liferay> FollowSymLinks
