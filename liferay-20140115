@@ -278,3 +278,8 @@
 12:10 < nicolas_FR:#liferay> bijoo_: found internet internet-ssl and ports.conf
 12:10 < bijoo_:#liferay> nicolas_FR: yes, I'm in EST timezone right now.
 12:10 < bijoo_:#liferay> nicolas_FR: okay, open up internet one now,
+12:11 < bijoo_:#liferay> Search for 443
+12:11 < bijoo_:#liferay> is it active there?
+12:11 < nicolas_FR:#liferay> sorry wait
+12:11 < bijoo_:#liferay> It shouldn't be, I think, it's weird it is.
+12:11 < nicolas_FR:#liferay> where we should search is in sites-enabled, not available
