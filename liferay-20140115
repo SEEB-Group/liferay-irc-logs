@@ -207,3 +207,5 @@
 11:31 < bijoo_:#liferay> mkdir -p /var/www/robots
 11:31 < bijoo_:#liferay> echo "my robots txt" > /var/www/robots/robots.txt
 11:31 < bijoo_:#liferay> nicolas_FR: so then restart apache and test it
+11:32 < nicolas_FR:#liferay> bijoo_: ok  /me shivers
+11:32 < bijoo_:#liferay> nicolas_FR: is this on a production  site that's live?
