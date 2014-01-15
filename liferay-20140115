@@ -298,3 +298,5 @@
 12:19 < bijoo_:#liferay> nicolas_FR: line 51 is doing most of work
 12:20 < nicolas_FR:#liferay> bijoo_: =( still the same
 12:21 < bijoo_:#liferay> nicolas_FR: okay, is there anything else in there?
+12:21 < bijoo_:#liferay> nicolas_FR: any other directives in the file?
+12:21 < bijoo_:#liferay> nicolas_FR: if not please paste apache.conf then. Of course mask sensitive information.
