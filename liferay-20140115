@@ -151,3 +151,7 @@
 10:52 < Tar-Minyatur:#liferay> We could, however, change the template in the article and then change the template to use on the page that shows the article.
 10:52 < Tar-Minyatur:#liferay> That should work, I guess.
 10:52 < Tar-Minyatur:#liferay> I'll try that.
+10:54 < bijoo_:#liferay> nicolas_FR: got it, do you have proxypass in there?
+10:54 < bijoo_:#liferay> ProxyPass /robots.txt !
+10:54 < bijoo_:#liferay> nicolas_FR: need to tell it not to proxy that file.
+10:54 < nicolas_FR:#liferay> in the apache conf ?
