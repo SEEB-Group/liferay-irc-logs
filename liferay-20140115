@@ -128,3 +128,7 @@
 10:40 < bijoo_:#liferay> nicolas_FR: it should work, I'll try it out and tell you.
 10:40 < nicolas_FR:#liferay> bijoo_: so might be some interference with our apache configuration (we have redirects from http > https etc.)
 10:42 < nicolas_FR:#liferay> jardineworks: no, nothing in control panel in 5.2.3. (nothing that I know so far)
+10:43 < bijoo_:#liferay> nicolas_FR: I've reproduced the same issue here; that is, I have https=> http too.
+10:43 < nicolas_FR:#liferay> jardineworks: If you know how to pass the templateId in the url, you might answer this unanswered thread in the way :) http://www.liferay.com/fr/community/forums/-/message_boards/message/17889413
+10:43 < Tar-Minyatur:#liferay> jardineworks: When I use the groupId of staging, the articleId and templateId, it still uses the default template.
+10:43 < bijoo_:#liferay> nicolas_FR: one second, I'll ping an update real soon.
