@@ -345,3 +345,5 @@
 12:38 < nicolas_FR:#liferay> many many many thanks bijoo_  :)
 12:38 < nicolas_FR:#liferay> They all will be happy at marketing tomorrow
 12:38 < bijoo_:#liferay> nicolas_FR: sure avoir my friend, have a good one.
+12:39 < nicolas_FR:#liferay> btw.. as I see you're quite a big boy here... :) are you fine with 404 redirection ? :p
+12:39 < nicolas_FR:#liferay> I've done it and it works on a test server, but impossible to make it live in production. We assumed it was a apache/tomcat problem, but as you saw, I'm not the man of the situation for servers configuration
