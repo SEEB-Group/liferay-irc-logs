@@ -122,3 +122,8 @@
 10:39 < bijoo_:#liferay> Alias /robots.txt /path/to/robots.txt
 10:39 < Tar-Minyatur:#liferay> jardineworks: nicolas_FR sort of answered my question already. Unless you have an idea how to make the same work with /c/journal/view_article_content. ;)
 10:39 < nicolas_FR:#liferay> bijoo_: I already tried the Alias setting, but was not working
+10:40 < jardineworks:#liferay> Tar-Minyatur, I think you can pass the templateId you want to use in the URL as well.
+10:40 < Tar-Minyatur:#liferay> Didn't seem to work when I tried it just now.
+10:40 < nicolas_FR:#liferay> bijoo_: the browser was waiting for long for an answer, that's it. Nothing happened
+10:40 < bijoo_:#liferay> nicolas_FR: it should work, I'll try it out and tell you.
+10:40 < nicolas_FR:#liferay> bijoo_: so might be some interference with our apache configuration (we have redirects from http > https etc.)
