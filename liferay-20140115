@@ -255,3 +255,7 @@
 11:54 < bijoo_:#liferay> nicolas_FR: make the directory and add Directory directive like we did for /var/www/robots/
 11:55 < bijoo_:#liferay> mkdir -p /var/www/interiale/
 11:55 < bijoo_:#liferay> nicolas_FR: nevermind, instead just set the DocumentRoot "/var/www/robots/"
+11:56 < nicolas_FR:#liferay> bijoo_: for information, my robots.txt file is in /usr/share/apache2/robots/robots.txt
+11:56 < nicolas_FR:#liferay> bijoo_: so might not be accessible from web
+11:56 < bijoo_:#liferay> nicolas_FR: run this command to make symbolic link
+11:56 < bijoo_:#liferay> ln -s /usr/share/apache2/robots/robots.txt /var/www/robots/robots.txt
