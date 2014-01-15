@@ -146,3 +146,8 @@
 10:51 < Tar-Minyatur:#liferay> jardineworks: It feels really weird that you can't supply a templateId when yesterday we spoke about the fact that Liferay doesn't have a default template setting for structures.
 10:51 < Tar-Minyatur:#liferay> But on the other hand...every article clearly has one template assigned to it.
 10:52 < jardineworks:#liferay> Tar-Minyatur, it does
+10:52 < jardineworks:#liferay>  but YOU can't set it
+10:52 < jardineworks:#liferay> it appears to be whatever template you created with an association to the structure first :)
+10:52 < Tar-Minyatur:#liferay> We could, however, change the template in the article and then change the template to use on the page that shows the article.
+10:52 < Tar-Minyatur:#liferay> That should work, I guess.
+10:52 < Tar-Minyatur:#liferay> I'll try that.
