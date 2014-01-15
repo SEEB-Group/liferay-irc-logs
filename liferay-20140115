@@ -73,3 +73,4 @@
 09:51 < jardineworks:#liferay> why not ask your coworker what he did?
 09:53 < whatsoever:#liferay> well i have a meeting next week, does not help me much atm ^_^
 09:55 < whatsoever:#liferay> well just gonna make it with my own service layer and see whats happening ^_^
+09:58 < jardineworks:#liferay> whatsoever, either way, you should probably be making the API calls from the portlet class (the .java file(s)) .. not the JSP.
