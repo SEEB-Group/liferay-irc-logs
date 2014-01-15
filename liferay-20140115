@@ -290,3 +290,5 @@
 12:13 < nicolas_FR:#liferay> NameVirtualHost *:80
 12:13 < nicolas_FR:#liferay> and 443
 12:13 < nicolas_FR:#liferay> and listen to 80 and 443
+12:14 < bijoo_:#liferay> nicolas_FR: okay, I'll continue with the pastebin.
+12:14 < nicolas_FR:#liferay> ok
