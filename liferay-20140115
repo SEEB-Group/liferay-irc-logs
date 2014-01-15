@@ -407,3 +407,4 @@
 15:39 < jardineworks:#liferay> that should be a marketplace plugin
 15:39 < rterwedo:#liferay> Id buy the "Get Young Again" plugin
 17:02 < dawn:#liferay> hey jhf, can I ask you a question.how to export site pages (as LAR file) with categories included in 6.2 version? I was able to do it without hassle in earlier version. Thanks!
+17:22 < bijoo_:#liferay> dawn: I have 6.2 and I see option. In Export, under Content, it is there.
