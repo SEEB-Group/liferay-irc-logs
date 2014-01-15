@@ -226,3 +226,5 @@
 11:41 < bijoo_:#liferay> nicolas_FR: by the way, what URL do you see? That is, when hit robots.txt.
 11:42 < nicolas_FR:#liferay> try it : https://www.interiale.fr/robots.txt
 11:42 < nicolas_FR:#liferay> it's waiting forever
+11:44 < bijoo_:#liferay> nicolas_FR: whoops, good catch there; should be "Deny from None"
+11:44 < bijoo_:#liferay> nicolas_FR: "Deny from none"
