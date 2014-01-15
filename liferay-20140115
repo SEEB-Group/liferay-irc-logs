@@ -310,3 +310,7 @@
 12:25 < nicolas_FR:#liferay> as I see we're using JkMount /*.jpg / js / png / gif
 12:25 < nicolas_FR:#liferay> don't know if it's needed
 12:25 < bijoo_:#liferay> JkUnMount /robots.txt ajp13w
+12:26 < bijoo_:#liferay> JkUnMount /robots.txt ajp13
+12:26 < nicolas_FR:#liferay> JkMount /robots.txt decideur
+12:26 < nicolas_FR:#liferay> what I have at the end of the file
+12:26 < bijoo_:#liferay> Note it should be JkUnMount , not that
