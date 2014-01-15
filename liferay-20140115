@@ -275,3 +275,6 @@
 12:08 < bijoo_:#liferay> nicolas_FR: try this
 12:08 < bijoo_:#liferay> find /etc/apache2/ | xargs egrep -ls "VirtualHost.*443"
 12:08 < nicolas_FR:#liferay> bijoo_: I don't know for apache knowing about liferay. The person in charge of the servers will be here tomorrow, but we're in europe and I bet you're usa ?
+12:10 < nicolas_FR:#liferay> bijoo_: found internet internet-ssl and ports.conf
+12:10 < bijoo_:#liferay> nicolas_FR: yes, I'm in EST timezone right now.
+12:10 < bijoo_:#liferay> nicolas_FR: okay, open up internet one now,
