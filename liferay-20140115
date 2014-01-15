@@ -244,3 +244,8 @@
 11:51 < bijoo_:#liferay> nicolas_FR: just trying to see if we're hitting it
 11:51 < bijoo_:#liferay> RedirectMatch permanent ^/robots.txt$ https://www.google.com
 11:51 < nicolas_FR:#liferay> will try
+11:52 < bijoo_:#liferay> nicolas_FR: so if we redirect, we're in right place
+11:52 < bijoo_:#liferay> nicolas_FR: if not, then we're working on wrong part there
+11:52 < nicolas_FR:#liferay> it's working
+11:52 < nicolas_FR:#liferay> redirected to google
+11:52 < bijoo_:#liferay> nicolas_FR: okay, good, then we're in right place right now
