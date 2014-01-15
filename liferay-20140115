@@ -53,3 +53,5 @@
 09:42 < jardineworks:#liferay> whatsoever, can you elaborate?
 09:42 < jardineworks:#liferay> nicolas_FR, what do you mean "get"?
 09:42 < jardineworks:#liferay> you mean you want to see what is in it?
+09:44 < whatsoever:#liferay> jardineworks, i need to connect my portlet to the API of my firms software, i  got the developers documentation with all classes, but i have no clue how to connect to the API
+09:44 < whatsoever:#liferay> it is running on a tomcat as far as i know
