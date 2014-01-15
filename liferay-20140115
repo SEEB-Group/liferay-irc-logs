@@ -418,3 +418,5 @@
 17:37 < bijoo_:#liferay> dawn: that looks like a bug, but export works fine.
 17:38 < dawn:#liferay> bijoo_: can you try to import that LAR. Because that is how I came to know the categories were missing
 17:38 < bijoo_:#liferay> dawn: I did; I imported to same instance; but just a different site and it worked.
+17:39 < bijoo_:#liferay> dawn: here, I'm sending you the lar export.
+17:39 < bijoo_:#liferay> It just has a couple pages and stuff.
