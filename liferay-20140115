@@ -201,3 +201,5 @@
 11:22 <@rotty3000:#liferay> thx :)
 11:25 < nicolas_FR:#liferay> bijoo_: could you look at this file http://pastebin.com/5AeWM7x6. As I need to modify it I prefer to be exhaustive with its content, just in case.
 11:26 < bijoo_:#liferay> nicolas_FR: checking the file now
+11:30 < bijoo_:#liferay> nicolas_FR: see new version of the same file here http://pastebin.com/DmhDCDEp
+11:30 < bijoo_:#liferay> Added a Directory directive and the Alias as one of first few active lines in VirtualHost directive
