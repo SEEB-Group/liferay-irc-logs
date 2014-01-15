@@ -15,3 +15,4 @@
 09:19 <@rotty3000:#liferay> yeah, or otherwise?
 09:19 <@rotty3000:#liferay> like in a plugin's own CSS files for instance, inline CSS, etc
 09:23 < jardineworks:#liferay> rotty3000, I have not had to do that yet, but I can defintiely think of cases where I would.
+09:24 <@rotty3000:#liferay> wondering because we want to actually eliminate all runtime SASS compilation
