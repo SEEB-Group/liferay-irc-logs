@@ -413,3 +413,5 @@
 17:30 < dawn:#liferay> here is the url for categories I have http://postimg.org/image/t6fetkrq5/
 17:30 < bijoo_:#liferay> dawn: I'll test it out on mine and let you know (although I'm running  6.2.0 CE RC6 )
 17:32 < dawn:#liferay> in this image I pointed out the discrepancy http://postimg.org/image/nh5xjb5u3/
+17:36 < bijoo_:#liferay> dawn: I just tried it and it works fine here.
+17:36 < bijoo_:#liferay> dawn: yes, for mine it didn't show the number.
