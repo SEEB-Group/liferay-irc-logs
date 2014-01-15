@@ -4,3 +4,5 @@
 04:23 < haba713:#liferay> hi! can you open service.xml with your liferay ide? i get an error message "Failed to create the part's controls". i've installed eclipse again and liferay ide into it. i created a new workspace but i get still the same error.
 04:24 < haba713:#liferay> ah... it's maybe this issue: https://support.liferay.com/browse/IDE-1360
 04:40 < lapache:#liferay> Hello, i perform an ldap auth with my liferay 6.1.1 instance, but i have a question. Is it possible that all the user's dependant informations are stored inside the ldap ? like secret answer, roles etc... ?
+04:47 < Tar-Minyatur:#liferay> lapache: If I recall correctly, Liferay only syncs it's user database with LDAP. I don't think you can completely replace the user database with LDAP ootb.
+04:47 < Tar-Minyatur:#liferay> *its
