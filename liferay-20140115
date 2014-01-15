@@ -93,3 +93,5 @@
 10:25 < nicolas_FR:#liferay> or 6.1
 10:25 < bijoo_:#liferay> nicolas_FR: not necessarily, just not in site settings, I'm checking the code base for 5.2.3 right now.
 10:25 < bijoo_:#liferay> 6.2 is both EE and CE.
+10:27 < Tar-Minyatur:#liferay> jardineworks: Are you still around? I vaguely recall that you were fiddling around with multiple templates per article.
+10:27 < nicolas_FR:#liferay> we were thinking about switching to 6.1 but it will take time, and waiting for that we have no robots.txt, which is a priority
