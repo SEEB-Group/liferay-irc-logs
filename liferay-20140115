@@ -103,3 +103,4 @@
 10:30 < nicolas_FR:#liferay> Tar-Minyatur: by example, an article that would be set 2 times on your site. 1st as a short introduction, with a link to the full article. Same article, 2 templates
 10:32 < nicolas_FR:#liferay> Tar-Minyatur: We're using L5.2.3 here, we achieve this by clinking the "gear" button of your article, and then selecting the template you want
 10:32 < bijoo_:#liferay> nicolas_FR: I don't see robots.txt support; that is in 5.2.3 portal source code. Are you using apache web server?
+10:33 < nicolas_FR:#liferay> bijoo: we're using an apache in front, and then we have a tomcat for liferay
