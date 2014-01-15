@@ -155,3 +155,5 @@
 10:54 < bijoo_:#liferay> ProxyPass /robots.txt !
 10:54 < bijoo_:#liferay> nicolas_FR: need to tell it not to proxy that file.
 10:54 < nicolas_FR:#liferay> in the apache conf ?
+10:55 < bijoo_:#liferay> nicolas_FR: in the VirtualHost that's for the portal
+10:55 < nicolas_FR:#liferay> no I don't think so
