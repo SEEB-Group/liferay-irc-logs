@@ -38,3 +38,4 @@
 09:31 < Tar-Minyatur:#liferay> I would be odd to see Liferay using SCSS itself, but not having it available for your own portlets.
 09:31 <@jhf:#liferay> there's an option in portal.properties to disable it, but LR itself depends on it
 09:31 <@rotty3000:#liferay> but just the sass part
+09:32 < Tar-Minyatur:#liferay> *It
