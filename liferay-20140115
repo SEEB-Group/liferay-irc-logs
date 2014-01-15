@@ -221,3 +221,4 @@
 11:38 < bijoo_:#liferay> nicolas_FR: so no change from before or now error?
 11:39 < bijoo_:#liferay> nicolas_FR: oh "stilll" I see, okay so no change there
 11:39 < nicolas_FR:#liferay> bijoo_: yep, it's the same
+11:40 < bijoo_:#liferay> nicolas_FR: I'm using Rewrite rules, conds, etc. as well; so I know it does not interfere. However, I'll take another look there.
