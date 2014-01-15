@@ -300,3 +300,4 @@
 12:21 < bijoo_:#liferay> nicolas_FR: okay, is there anything else in there?
 12:21 < bijoo_:#liferay> nicolas_FR: any other directives in the file?
 12:21 < bijoo_:#liferay> nicolas_FR: if not please paste apache.conf then. Of course mask sensitive information.
+12:22 < nicolas_FR:#liferay> bijoo_: plenty of Redirect /particular/url https://another/url
