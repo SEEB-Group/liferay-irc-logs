@@ -318,3 +318,6 @@
 12:28 < nicolas_FR:#liferay> ah ! forbidden
 12:28 < nicolas_FR:#liferay> right now
 12:28 < bijoo_:#liferay> nicolas_FR: looks like it worked, got forbidden error.
+12:29 < bijoo_:#liferay> nicolas_FR: check permissinos on file and the folder
+12:29 < nicolas_FR:#liferay> folder : drwxr-xr-x
+12:29 < nicolas_FR:#liferay> link is lrwxrwxrwx
