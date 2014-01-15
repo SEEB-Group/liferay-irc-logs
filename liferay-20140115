@@ -165,3 +165,8 @@
 10:57 < bijoo_:#liferay> apache2ctl -version
 10:57 < nicolas_FR:#liferay> 2.2.9
 10:57 < nicolas_FR:#liferay> on Debian
+10:59 < nicolas_FR:#liferay> bijoo_: btw thanks for your time, I'm not the person in charge of the servers, but he's away and all people are on me for that now ... :)
+10:59 < bijoo_:#liferay> nicolas_FR: okay, need to find the VirtualHost
+10:59 < bijoo_:#liferay> nicolas_FR: run these commands
+10:59 < bijoo_:#liferay> cd /etc/
+10:59 < bijoo_:#liferay> find . | xargs grep VirtualHost
