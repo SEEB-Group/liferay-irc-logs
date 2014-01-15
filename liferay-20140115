@@ -249,3 +249,4 @@
 11:52 < nicolas_FR:#liferay> it's working
 11:52 < nicolas_FR:#liferay> redirected to google
 11:52 < bijoo_:#liferay> nicolas_FR: okay, good, then we're in right place right now
+11:53 < nicolas_FR:#liferay> shouldn't we exclude the robots.txt from the general redirect to home page ?
