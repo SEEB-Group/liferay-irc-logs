@@ -55,3 +55,4 @@
 09:42 < jardineworks:#liferay> you mean you want to see what is in it?
 09:44 < whatsoever:#liferay> jardineworks, i need to connect my portlet to the API of my firms software, i  got the developers documentation with all classes, but i have no clue how to connect to the API
 09:44 < whatsoever:#liferay> it is running on a tomcat as far as i know
+09:45 < jardineworks:#liferay> whatsoever, does your firms software have external access? meaning --  are there services exposed that you can call?
