@@ -301,3 +301,6 @@
 12:21 < bijoo_:#liferay> nicolas_FR: any other directives in the file?
 12:21 < bijoo_:#liferay> nicolas_FR: if not please paste apache.conf then. Of course mask sensitive information.
 12:22 < nicolas_FR:#liferay> bijoo_: plenty of Redirect /particular/url https://another/url
+12:23 < nicolas_FR:#liferay> all those redirect are from out previous site (some month ago)
+12:23 < nicolas_FR:#liferay> then we have JkMount with a lot of /url
+12:24 < bijoo_:#liferay> nicolas_FR: ah! JkMount! That's the Liferay portion.
