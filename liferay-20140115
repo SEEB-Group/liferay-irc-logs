@@ -410,3 +410,5 @@
 17:22 < bijoo_:#liferay> dawn: I have 6.2 and I see option. In Export, under Content, it is there.
 17:24 < dawn:#liferay> bijoo_: Yes, I do see it. However I don't think the categories are getting exported. I tried All Content and choose content and then selecting categories
 17:26 < dawn:#liferay> one other observation is that, I see the # of items getting exported beside the content type. But for categories I don't see any..
+17:30 < dawn:#liferay> here is the url for categories I have http://postimg.org/image/t6fetkrq5/
+17:30 < bijoo_:#liferay> dawn: I'll test it out on mine and let you know (although I'm running  6.2.0 CE RC6 )
