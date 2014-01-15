@@ -357,3 +357,5 @@
 13:00 < dawn:#liferay> anyone know how to export site pages as LAR file with categories included in 6.2 version? I was able to do it without hassle in earlier version. Thanks!
 13:07 < Tar-Minyatur:#liferay> Wow. We just achieved an incredible performance improvement.
 13:07 < Tar-Minyatur:#liferay> The entire control panel is almost 10 times faster than before now.
+13:08 < Tar-Minyatur:#liferay> We're talking 45s loading time reduced to abou 5s.
+13:08 < Tar-Minyatur:#liferay> One of our developers found a ton of old pages hidden somewhere deep in the page tree. Over 1600 of them...associated with a myriad of web content articles. Removing them was definitely an eye-opener. :D
