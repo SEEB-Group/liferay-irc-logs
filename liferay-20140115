@@ -170,3 +170,9 @@
 10:59 < bijoo_:#liferay> nicolas_FR: run these commands
 10:59 < bijoo_:#liferay> cd /etc/
 10:59 < bijoo_:#liferay> find . | xargs grep VirtualHost
+11:00 < bijoo_:#liferay> nicolas_FR: should give you a list of the files to check
+11:00 < bijoo_:#liferay> nicolas_FR: oh, quick adjustment
+11:00 < bijoo_:#liferay> cd /etc/apache2
+11:00 < bijoo_:#liferay> find . | xargs grep VirtualHost
+11:00 < nicolas_FR:#liferay> bijoo_: yes : /etc/apache2/sites-available/
+11:00 < bijoo_:#liferay> nicolas_FR: okay, good, do you have file list to check?
