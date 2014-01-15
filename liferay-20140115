@@ -91,3 +91,5 @@
 10:24 < nicolas_FR:#liferay> so .. no robots.txt in previous versions ?
 10:24 < nicolas_FR:#liferay> is 6.2 community ?
 10:25 < nicolas_FR:#liferay> or 6.1
+10:25 < bijoo_:#liferay> nicolas_FR: not necessarily, just not in site settings, I'm checking the code base for 5.2.3 right now.
+10:25 < bijoo_:#liferay> 6.2 is both EE and CE.
