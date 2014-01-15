@@ -315,3 +315,6 @@
 12:26 < nicolas_FR:#liferay> what I have at the end of the file
 12:26 < bijoo_:#liferay> Note it should be JkUnMount , not that
 12:27 < bijoo_:#liferay> nicolas_FR: okay, that should work too, but change the JkMount to JkUnMount
+12:28 < nicolas_FR:#liferay> ah ! forbidden
+12:28 < nicolas_FR:#liferay> right now
+12:28 < bijoo_:#liferay> nicolas_FR: looks like it worked, got forbidden error.
