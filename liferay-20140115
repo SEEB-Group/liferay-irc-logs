@@ -236,3 +236,6 @@
 11:47 < nicolas_FR:#liferay> bijoo_: we had this timing out even before our modifications
 11:48 < bijoo_:#liferay> nicolas_FR: right; portal would not time out here though. It would redirect to an error page; something like this: 'the  page could not be found'
 11:49 < nicolas_FR:#liferay> bijoo_: well it happens if you enter a wrong url : https://www.interiale.fr/ots.txt
+11:49 < bijoo_:#liferay> nicolas_FR: well that returned a 404 instead
+11:49 < nicolas_FR:#liferay> yes
+11:49 < bijoo_:#liferay> but this is waiting on response long time
