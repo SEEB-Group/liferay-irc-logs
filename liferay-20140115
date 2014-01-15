@@ -127,3 +127,4 @@
 10:40 < nicolas_FR:#liferay> bijoo_: the browser was waiting for long for an answer, that's it. Nothing happened
 10:40 < bijoo_:#liferay> nicolas_FR: it should work, I'll try it out and tell you.
 10:40 < nicolas_FR:#liferay> bijoo_: so might be some interference with our apache configuration (we have redirects from http > https etc.)
+10:42 < nicolas_FR:#liferay> jardineworks: no, nothing in control panel in 5.2.3. (nothing that I know so far)
