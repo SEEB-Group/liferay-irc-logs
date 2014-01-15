@@ -250,3 +250,6 @@
 11:52 < nicolas_FR:#liferay> redirected to google
 11:52 < bijoo_:#liferay> nicolas_FR: okay, good, then we're in right place right now
 11:53 < nicolas_FR:#liferay> shouldn't we exclude the robots.txt from the general redirect to home page ?
+11:54 < bijoo_:#liferay> nicolas_FR: yes, that's correct, let's try something here. Add this as first element of VirtualHost
+11:54 < bijoo_:#liferay> DocumentRoot "/var/www/interiale/"
+11:54 < bijoo_:#liferay> nicolas_FR: make the directory and add Directory directive like we did for /var/www/robots/
