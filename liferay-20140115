@@ -75,3 +75,4 @@
 09:55 < whatsoever:#liferay> well just gonna make it with my own service layer and see whats happening ^_^
 09:58 < jardineworks:#liferay> whatsoever, either way, you should probably be making the API calls from the portlet class (the .java file(s)) .. not the JSP.
 09:59 < whatsoever:#liferay> hmm.. gonna be working in some cases, but when i have a table that shows information about user (for example), i cant do it over the .java file?)
+10:04 < nicolas_FR:#liferay> jardineworks: what we want to achieve is letting the browser get the file robots.txt (which seems to be created by liferay)
