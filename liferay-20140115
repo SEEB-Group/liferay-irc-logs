@@ -270,3 +270,5 @@
 12:01 < bijoo_:#liferay> nicolas_FR: we just have to update the RegEx now.
 12:02 < nicolas_FR:#liferay> bijoo_: update the regex ?
 12:03 < bijoo_:#liferay> nicolas_FR: yes, I'll post the pastebin in a minute.
+12:07 < bijoo_:#liferay> nicolas_FR: something doesn't add up here, question: how does apache know about liferay?
+12:07 < bijoo_:#liferay> nicolas_FR: I think we're missing a piece of puzzle.
