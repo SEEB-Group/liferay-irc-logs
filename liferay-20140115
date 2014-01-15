@@ -113,3 +113,9 @@
 10:37 < nicolas_FR:#liferay> kyes
 10:37 < nicolas_FR:#liferay> bijoo_: yes, the apache.conf file right ?
 10:37 < bijoo_:#liferay> nicolas_FR: it depends on version, I mean for site.
+10:38 < jardineworks:#liferay> Tar-Minyatur, yep still ehre
+10:38 < nicolas_FR:#liferay> bijoo_: what do you need to know from the conf ?
+10:38 < bijoo_:#liferay> nicolas_FR: for 2.4.4, it's in /etc/apache/sites-enabled/*
+10:38 < bijoo_:#liferay> nicolas_FR: find the VirtualHost that's handling Liferay traffic
+10:38 < bijoo_:#liferay> add this directive to the VirtualHost
+10:38 < jardineworks:#liferay> nicolas_FR, I don't have a 5.2.3 instance up but in 6 you can configure the robots.txt in the control panel I think. Maybe its the same in 5.2.3?
