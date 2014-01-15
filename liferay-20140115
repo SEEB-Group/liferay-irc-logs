@@ -266,3 +266,5 @@
 12:00 < nicolas_FR:#liferay> still the same
 12:00 < nicolas_FR:#liferay> =(
 12:00 < bijoo_:#liferay> nicolas_FR: yes, please remove the google redirect;
+12:01 < bijoo_:#liferay> nicolas_FR: okay, I expected the same result.
+12:01 < bijoo_:#liferay> nicolas_FR: we just have to update the RegEx now.
