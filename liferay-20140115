@@ -429,3 +429,4 @@
 17:54 < dawn:#liferay> bijoo_: here is the lar file with only categories from my instance http://www.filedropper.com/publicpages-201401152247
 18:01 < dawn:#liferay> http://postimg.org/image/olbpz4oql/ look for the errors complaining about categories.
 18:02 < dawn:#liferay> bijoo_:http://postimg.org/image/olbpz4oql/ look for the errors complaining about categories.
+18:04 < bijoo_:#liferay> dawn: back, I can see the export is correct. Now I'll try to import it in a site.
