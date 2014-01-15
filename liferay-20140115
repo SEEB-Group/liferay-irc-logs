@@ -253,3 +253,5 @@
 11:54 < bijoo_:#liferay> nicolas_FR: yes, that's correct, let's try something here. Add this as first element of VirtualHost
 11:54 < bijoo_:#liferay> DocumentRoot "/var/www/interiale/"
 11:54 < bijoo_:#liferay> nicolas_FR: make the directory and add Directory directive like we did for /var/www/robots/
+11:55 < bijoo_:#liferay> mkdir -p /var/www/interiale/
+11:55 < bijoo_:#liferay> nicolas_FR: nevermind, instead just set the DocumentRoot "/var/www/robots/"
