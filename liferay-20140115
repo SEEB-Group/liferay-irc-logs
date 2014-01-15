@@ -211,3 +211,5 @@
 11:32 < bijoo_:#liferay> nicolas_FR: is this on a production  site that's live?
 11:33 < bijoo_:#liferay> nicolas_FR: if so, I wouldn't mess with it right now.
 11:33 < nicolas_FR:#liferay> bijoo_: yes it's a production site, as we only have this particular configuration (apache + tomcat) in production
+11:34 < nicolas_FR:#liferay> I saved the internet-ssl file and apache restarting is done in a blink. Testing, and if it goes wrong I'll set it back quickly. It sucks, but actually we have no other ways to do
+11:34 < bijoo_:#liferay> nicolas_FR: yikes, well, I assume this is only change.
