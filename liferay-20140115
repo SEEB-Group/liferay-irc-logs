@@ -11,3 +11,4 @@
 08:48 < nicolas_FR:#liferay> anyone know how to get the robots.txt file from liferay 5.2.3 ? I would like to be able to access it through : http://[server]/robots.txt
 08:49 <@rotty3000:#liferay> Quick Poll: How Many people use SASS anywhere other than themes?
 08:54 < whatsoever:#liferay> hey anyone ever used the jsp to connect to another API?
+09:11 < jardineworks:#liferay> rotty3000, outside of a theme -- you mean in a plugin itself?
