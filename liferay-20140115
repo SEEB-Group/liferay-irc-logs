@@ -305,3 +305,8 @@
 12:23 < nicolas_FR:#liferay> then we have JkMount with a lot of /url
 12:24 < bijoo_:#liferay> nicolas_FR: ah! JkMount! That's the Liferay portion.
 12:24 < nicolas_FR:#liferay> the JkMount are on the shorts url we use
+12:25 < nicolas_FR:#liferay> should be JkMount /*.txt ?
+12:25 < bijoo_:#liferay> nicolas_FR: well, most likely JkMount is for ajp13
+12:25 < nicolas_FR:#liferay> as I see we're using JkMount /*.jpg / js / png / gif
+12:25 < nicolas_FR:#liferay> don't know if it's needed
+12:25 < bijoo_:#liferay> JkUnMount /robots.txt ajp13w
