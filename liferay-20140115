@@ -59,3 +59,7 @@
 09:46 < jardineworks:#liferay> also -- what kind of software is it? is it just a webapp that accesses a data store?
 09:46 < whatsoever:#liferay> well not too sure what you mean: another employee managed to do it with vaadin, but i wanna use JSP for it. well dont know how i can explain my problem exactly ^_^
 09:47 < whatsoever:#liferay> he used a services.xml to connect to the API (like that:          <import resource="classpath*:rmi/auth_rmi-client-services.xml" />  )
+09:48 < whatsoever:#liferay> and stuff like that: (  <bean class="de.metasonic.support.context.ApplicationContextUtil" /> )
+09:48 < jardineworks:#liferay> chances are what he has done in the portlet (.java file) you can do in the jsp. Just copy and paste the code into a <% ... %>
+09:48 < jardineworks:#liferay> :)
+09:48 < whatsoever:#liferay> yeah that were my toughts , as you can use any java code in jsp
