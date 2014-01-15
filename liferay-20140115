@@ -441,3 +441,4 @@
 18:10 < bijoo_:#liferay> dawn: my site doesn't have it's referenecs; as such, I cannot import the lar file.
 18:14 < dawn:#liferay> bijoo_: sorry if I misunderstood the error. my understanding of  "missing reference" error was that the artifact is missing in current site.
 18:15 < dawn:#liferay> bijoo_: i thought by importing the LAR it would create the categories in current site
+18:16 < dawn:#liferay> am i wrong here?
