@@ -209,3 +209,5 @@
 11:31 < bijoo_:#liferay> nicolas_FR: so then restart apache and test it
 11:32 < nicolas_FR:#liferay> bijoo_: ok  /me shivers
 11:32 < bijoo_:#liferay> nicolas_FR: is this on a production  site that's live?
+11:33 < bijoo_:#liferay> nicolas_FR: if so, I wouldn't mess with it right now.
+11:33 < nicolas_FR:#liferay> bijoo_: yes it's a production site, as we only have this particular configuration (apache + tomcat) in production
