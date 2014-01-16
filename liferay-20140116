@@ -136,3 +136,4 @@
 12:47 < nicolas_FR:#liferay> nothing changed =(
 12:50 < nicolas_FR:#liferay> well I need to go, I'll post something tomorrow on the forums. Thanks for help
 12:51 < bijoo_:#liferay> nicolas_FR: Okay my friend. I'll check. Have a good night.
+13:39 < jardineworks:#liferay> jhf,   do have an asset renderer (I think). I am overriding the JSPs for the federated serach portlet. I am using the JSP sciptlet for a search container row and then just dumping the search container and outputting the valeus in my own foreach loop.
