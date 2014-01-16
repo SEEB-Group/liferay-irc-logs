@@ -54,3 +54,8 @@
 10:21 < jardineworks:#liferay> less crashy is what I am after for sure
 10:21 < jardineworks:#liferay> and it looks like it supprts JRebel which is also a requirement
 10:21 <@jhf:#liferay> yup it does (but I don't ever use jrebel)
+10:22 <@jhf:#liferay> eclipse (well.. Liferay IDE 2) has freemarker debugging though
+10:22 < Tar-Minyatur:#liferay> I personally enjoyed the maven integration most after I switched.
+10:22 <@jhf:#liferay> so that's cool. but only works for free marker themes
+10:22 < jardineworks:#liferay> jrebel is awesome ...
+10:22 < jardineworks:#liferay> it has saved me hundreds of hours.
