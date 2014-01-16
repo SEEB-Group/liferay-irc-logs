@@ -129,3 +129,5 @@
 12:35 < nicolas_FR:#liferay> (well I mean the css minified)
 12:36 < bijoo_:#liferay> nicolas_FR: I doubt it is, need to review the theme. Check the main.css file in the theme. All css should be imported through that file. Rebuild the theme with the new portal settings in place now. Clearing temp/* and work/* wont hurt; but redeploy after checking the theme?
 12:37 < nicolas_FR:#liferay> theme seems good. all css are @import in main.css file
+12:38 < bijoo_:#liferay> nicolas_FR: hmm, good point there. May want to clear cache. That's the best idea without details.
+12:38 < nicolas_FR:#liferay> bijoo_: browser cache ? Or temp/work folders ?
