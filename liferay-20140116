@@ -5,3 +5,4 @@
 02:23 < dm-o:#liferay> i got a hopefully simple question. Is it possible to use life ray as a system for quality management? we`ve got hundreds of documents in revisions and want an automated process for release of new documents or sending em back for changes to the author by a user.
 02:26 < satheesh:#liferay> dm-o: Yeah. Its possible
 02:27 < dm-o:#liferay> hi satheesh thank you for your answer. Is it a "build-in" feature of the community edition? I did not found any examples via google.
+02:28 < dm-o:#liferay> we need it for document control with company header on each document and foot print etc.
