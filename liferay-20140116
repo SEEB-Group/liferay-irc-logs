@@ -138,3 +138,6 @@
 12:51 < bijoo_:#liferay> nicolas_FR: Okay my friend. I'll check. Have a good night.
 13:39 < jardineworks:#liferay> jhf,   do have an asset renderer (I think). I am overriding the JSPs for the federated serach portlet. I am using the JSP sciptlet for a search container row and then just dumping the search container and outputting the valeus in my own foreach loop.
 13:40 < jardineworks:#liferay> the template for each item is your typical floating image on the left, title (linked to full view) synopsis and tags. The OOTB has it all, except the image
+13:47 <@jhf:#liferay> hmm
+13:47 <@jhf:#liferay> but what if the search result isn't an image?
+13:47 < jardineworks:#liferay> jhf, I think we have our wires crossed. I want to display a thumbnail of an image that is already on the piece of content (if specified)
