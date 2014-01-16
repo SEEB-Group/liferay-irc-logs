@@ -202,3 +202,4 @@
 17:28 < dawn:#liferay> jhf: yes I tried by removing missing entries in manifest and it worked
 17:30 <@jhf:#liferay> ok dawn I filed https://issues.liferay.com/browse/LPS-43567
 17:30 <@jhf:#liferay> feel free to add yourself as a watcher, and/or comment on the ticket
+17:32 < dawn:#liferay> jhf: thank you
