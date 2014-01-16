@@ -159,3 +159,13 @@
 13:52 < jardineworks:#liferay> then I am doing all sorts of black magic to create tabbed results :)
 13:52 < jardineworks:#liferay> small image works
 13:52 < jardineworks:#liferay> how do you get it from the asset rendere though?
+13:53 <@jhf:#liferay> one sec.. con call dang it
+13:53 <@jhf:#liferay> can't get it from asset renderer
+13:53 <@jhf:#liferay> you'd need a handle to the article object
+13:53 <@jhf:#liferay> JournalArticle
+13:53 <@jhf:#liferay> then there should be some kind of getSmallImage() or something easy
+13:53 < jardineworks:#liferay> right ... so I have ti user the *LocalServiceUtil to get the whole article.
+13:53 <@jhf:#liferay> not sure
+13:53 <@jhf:#liferay> yeah.
+13:53 <@jhf:#liferay> the id should be in the "Hit"
+13:53 < jardineworks:#liferay> does asset renderer provide me with the article id?
