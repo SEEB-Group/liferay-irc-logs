@@ -199,3 +199,4 @@
 17:24 < dawn:#liferay> jhf: In my case I couldn't make it work by creating those missing categories in new site. Do you think i can get away by tweaking the manifest file?
 17:24 <@jhf:#liferay> you can try to remove that one missing reference from manifest.xml look for lines beginning with <missing-reference class-name="com.liferay.portlet.asset.model.AssetCategory"
 17:25 <@jhf:#liferay> well, remove all of them (that start with the above)
+17:28 < dawn:#liferay> jhf: yes I tried by removing missing entries in manifest and it worked
