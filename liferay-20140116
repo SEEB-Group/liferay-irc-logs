@@ -105,3 +105,5 @@
 11:53 < nicolas_FR:#liferay> bijoo: we now have theme.css.fast.load to true, but, our minifyCSS note is still bad (like 5/10)
 11:53 < nicolas_FR:#liferay> any way to optimise css minify / compression ?
 12:08 < bijoo_:#liferay> nicolas_FR: yes, I'll follow up with you in a sec. I'm in middle of something else right now.
+12:26 < bijoo_:#liferay> nicolas_FR: https://t.seebgroup.com/nicolas_FR-web-page-test-20140116
+12:26 < bijoo_:#liferay> The page size is 1MB my friend.
