@@ -37,3 +37,4 @@
 09:48 < jardineworks:#liferay> nicolas_FR, there is an omniadmin setting for the portal-ext file
 09:49 < nicolas_FR:#liferay> jardineworks: sorry what is it related to ? Got disconnected
 09:51 < jardineworks:#liferay> nicolas_FR, logging in when sso is enabled
+09:52 < jardineworks:#liferay> I think that is the only way, unless you have an admin account on the SSO end that matches the admin account in LR (obviously)
