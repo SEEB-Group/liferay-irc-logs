@@ -31,3 +31,5 @@
 09:37 < avinashrbhat:#liferay> ya that one itself
 09:40 < avinashrbhat:#liferay> jhf, is there any way to find the image that causes this?
 09:40 <@jhf:#liferay> yeah, but you have to either run it in a debugger or insert some SOP's into Liferay code
+09:41 <@jhf:#liferay> AFAIK there is no debug statements in this area, so no way to just turn on debugging to find it.
+09:41 < avinashrbhat:#liferay> :-)
