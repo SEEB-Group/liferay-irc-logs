@@ -147,3 +147,12 @@
 13:50 < jardineworks:#liferay> If I don't make them searcheable to begin with for example right?
 13:50 <@jhf:#liferay> yeah that's one way. you can also do something with facet definition I think.
 13:50 < jardineworks:#liferay> so if I have content type A, B, C, D .... and I only want A and B in my results, I can just make C and D "not searcheable right?
+13:51 <@jhf:#liferay> I... think so..
+13:51 < jardineworks:#liferay> right
+13:51 <@jhf:#liferay> :)
+13:51 < jardineworks:#liferay> you can specify JounralArticle as a type
+13:51 <@jhf:#liferay> so what kind of asset will you get? just web content?
+13:51 <@jhf:#liferay> ok. so web content articles have this one well-defined field called "small image"
+13:51 <@jhf:#liferay> could you use that?
+13:51 <@jhf:#liferay> then it might be even easier to get the image you're seeking
+13:51 < jardineworks:#liferay> yeah -- so what we are doing is surfacing web content store in LR (of particular structure types). Then I have two OpenSeachImpl for searches to those REST services.
