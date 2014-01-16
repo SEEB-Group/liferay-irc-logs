@@ -114,3 +114,8 @@
 12:29 < nicolas_FR:#liferay> well.. fact is we use a lot of images... :)
 12:29 < bijoo_:#liferay> nicolas_FR: seriously, don't worry css
 12:30 < nicolas_FR:#liferay> I'm not, but GTMetrix is, and our guys from marketing - want - gtmetrix to give us a good note, as it uses Page speed (google) and they want a good SEO
+12:31 < bijoo_:#liferay> nicolas_FR: i can think for only one css: why have navigation, base, layout, application, etc. css load separately
+12:31 < nicolas_FR:#liferay> fact is, if you look at http://gtmetrix.com/reports/www.interiale.fr/It3M6uEb, we have bad notes for minify css and enable gzip compression
+12:31 < nicolas_FR:#liferay> and we don't know why
+12:31 < bijoo_:#liferay> nicolas_FR: liferay combines those so should be just one file
+12:31 < nicolas_FR:#liferay> bijoo_: I know it should be, but it isn't, and I don't know why
