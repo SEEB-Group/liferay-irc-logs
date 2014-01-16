@@ -93,3 +93,4 @@
 11:17 < nicolas_FR:#liferay> we have a bad note on "minify css". Is there anything to do to get minify css to work in production in liferay 5.2.3 ?
 11:27 < nicolas_FR:#liferay> is theme.css.fast.load=true the default setting ?
 11:28 < nicolas_FR:#liferay> because we don't have it in our portal-ext.properties file, and it seems we're loading all the css from themes instead of the compressed one...
+11:33 < nicolas_FR:#liferay> anyone ?
