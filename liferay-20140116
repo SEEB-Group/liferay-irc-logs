@@ -132,3 +132,4 @@
 12:38 < bijoo_:#liferay> nicolas_FR: hmm, good point there. May want to clear cache. That's the best idea without details.
 12:38 < nicolas_FR:#liferay> bijoo_: browser cache ? Or temp/work folders ?
 12:39 < bijoo_:#liferay> nicolas_FR: temp/work folders; then restart the portal.
+12:41 < nicolas_FR:#liferay> cleared, restarting
