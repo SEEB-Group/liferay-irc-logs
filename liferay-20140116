@@ -192,3 +192,4 @@
 16:21 <@jhf:#liferay> just try to re-import
 16:22 <@jhf:#liferay> (I had to manually create the vocabularies and categories first)
 16:24 < dawn:#liferay> jhf: I did try multiple times before and after creating them. You must be very lucky to get it to work on second attempt. any other settings to be done?
+17:19 <@jhf:#liferay> ok dawn I think the problem is that exporting of categories doesn't export them properly (they are in the LAR file but also marked as 'missing' in the manifest.xml)
