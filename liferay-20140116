@@ -127,3 +127,4 @@
 12:34 < nicolas_FR:#liferay> now, we got it, BUT I did not clear work/ and temp/ folders. Might it be that ?
 12:35 < nicolas_FR:#liferay> liferay still working with old temp/ work/ files, and thus not using the theme.css.fast.load= true parameter
 12:35 < nicolas_FR:#liferay> (well I mean the css minified)
+12:36 < bijoo_:#liferay> nicolas_FR: I doubt it is, need to review the theme. Check the main.css file in the theme. All css should be imported through that file. Rebuild the theme with the new portal settings in place now. Clearing temp/* and work/* wont hurt; but redeploy after checking the theme?
