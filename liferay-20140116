@@ -108,3 +108,8 @@
 12:26 < bijoo_:#liferay> nicolas_FR: https://t.seebgroup.com/nicolas_FR-web-page-test-20140116
 12:26 < bijoo_:#liferay> The page size is 1MB my friend.
 12:27 < nicolas_FR:#liferay> I know
+12:29 < bijoo_:#liferay> nicolas_FR: "time spent pre content type" images: 64.58%!! , script 21.29%, CSS 11.63%, HTML 2.5%
+12:29 < nicolas_FR:#liferay> bijoo_: I don't know why all css files are loaded, I though only one should be
+12:29 < bijoo_:#liferay> nicolas_FR: I'd say you should focus on images
+12:29 < nicolas_FR:#liferay> well.. fact is we use a lot of images... :)
+12:29 < bijoo_:#liferay> nicolas_FR: seriously, don't worry css
