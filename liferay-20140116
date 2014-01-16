@@ -68,3 +68,6 @@
 10:28 <@jhf:#liferay> you mean the plugins that turn Eclipse into Liferay IDE?
 10:30 < nicolas_FR:#liferay> anyone got knowledge about liferay 5.2.3 custom 404 error page ? We have one working on a test server (tomcat) but it's not working on our production server (apache+tomcat). Any idea ?
 10:31 < jardineworks:#liferay> jhf, yeah... so you have "liferay context" kinda thing
+10:33 <@jhf:#liferay> yeah.. nope, you get none of that in intellij
+10:33 <@jhf:#liferay> still waiting for someone to write a plugin or two for intellij :)
+10:33 <@jhf:#liferay> for like the last 5 years
