@@ -33,3 +33,4 @@
 09:40 <@jhf:#liferay> yeah, but you have to either run it in a debugger or insert some SOP's into Liferay code
 09:41 <@jhf:#liferay> AFAIK there is no debug statements in this area, so no way to just turn on debugging to find it.
 09:41 < avinashrbhat:#liferay> :-)
+09:42 <@jhf:#liferay> which images did you change? are you sure you changed the right (runtime) images?
