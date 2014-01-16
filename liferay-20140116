@@ -16,3 +16,5 @@
 02:49 < dm-o:#liferay> :help
 03:12 < satheesh:#liferay> cool
 03:48 < quercus:#liferay> is just me or do you get proxy error also from here: https://repository.liferay.com/nexus/content/groups/liferay-ce/com/liferay/portal/portal-client/6.2.0-ga1/portal-client-6.2.0-ga1.pom ?
+04:10 < satheesh:#liferay> quercus: I'm getting the proxy error
+04:10 < satheesh:#liferay> https://repository.liferay.com/nexus/content/groups/liferay-ce/com/liferay/portal/portal-client/6.2.0-ga1/
