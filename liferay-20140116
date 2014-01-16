@@ -186,3 +186,7 @@
 16:12 <@jhf:#liferay> looking into it.. in the meantime, after creating the blank site, but BEFORE import, could you first re-create those missing categories (under the same vocabularies)? that might be one workaround.
 16:13 < dawn:#liferay> jhf:let me try that. will update you
 16:15 < dawn:#liferay> jhf: No luck. it still complains about those artifacts
+16:21 <@jhf:#liferay> hmm
+16:21 <@jhf:#liferay> I tried it again, and it worked
+16:21 <@jhf:#liferay> can you try again?
+16:21 <@jhf:#liferay> just try to re-import
