@@ -169,3 +169,8 @@
 13:53 <@jhf:#liferay> yeah.
 13:53 <@jhf:#liferay> the id should be in the "Hit"
 13:53 < jardineworks:#liferay> does asset renderer provide me with the article id?
+13:54 <@jhf:#liferay> the search result should have something in it
+13:54 <@jhf:#liferay> like an id
+13:54 < jardineworks:#liferay> rootEntryClassPK=[240616],
+13:54 < jardineworks:#liferay> ?
+13:54 <@jhf:#liferay> yeah... probably :)
