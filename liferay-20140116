@@ -94,3 +94,4 @@
 11:27 < nicolas_FR:#liferay> is theme.css.fast.load=true the default setting ?
 11:28 < nicolas_FR:#liferay> because we don't have it in our portal-ext.properties file, and it seems we're loading all the css from themes instead of the compressed one...
 11:33 < nicolas_FR:#liferay> anyone ?
+11:36 < bijoo_:#liferay> nicolas_FR: hey my bad, I know you're in France. I'm back.
