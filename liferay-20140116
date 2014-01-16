@@ -90,3 +90,4 @@
 10:55 < nicolas_FR:#liferay> bijoo_:  bijoo_ ! I waited sooooo long for you today ;)
 11:01 < jardineworks:#liferay> does anyone know how to display an image (for an item) in a search result?
 11:05 <@jhf:#liferay> jardineworks: do you get back a handle to an asset? if so you could use its asset renderer to get a 'displayURL' and possibly show that in a popup or div.
+11:17 < nicolas_FR:#liferay> we have a bad note on "minify css". Is there anything to do to get minify css to work in production in liferay 5.2.3 ?
