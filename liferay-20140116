@@ -141,3 +141,5 @@
 13:47 <@jhf:#liferay> hmm
 13:47 <@jhf:#liferay> but what if the search result isn't an image?
 13:47 < jardineworks:#liferay> jhf, I think we have our wires crossed. I want to display a thumbnail of an image that is already on the piece of content (if specified)
+13:48 < jardineworks:#liferay> not necessarily an "image" piece of conetnt
+13:48 <@jhf:#liferay> you are overriding the search portlet though, which may return results that aren't images OR web content. what if it's a bookmark or a forum post?
