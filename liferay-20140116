@@ -73,3 +73,4 @@
 10:33 <@jhf:#liferay> for like the last 5 years
 10:37 < jardineworks:#liferay> jhf, intellij is OSGi compliant right?
 10:37 < jardineworks:#liferay> I thought most of the plugins you could dump in eclipse you could dump into intellij
+10:40 <@jhf:#liferay> jardineworks: that I do not know, but I don't think intellij is osgi compliant (and even if it was - I seriously doubt it's API compatible with eclipse plugins)
