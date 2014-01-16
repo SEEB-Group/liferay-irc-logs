@@ -6,3 +6,5 @@
 02:26 < satheesh:#liferay> dm-o: Yeah. Its possible
 02:27 < dm-o:#liferay> hi satheesh thank you for your answer. Is it a "build-in" feature of the community edition? I did not found any examples via google.
 02:28 < dm-o:#liferay> we need it for document control with company header on each document and foot print etc.
+02:30 < satheesh:#liferay> 1. Document Versioning
+02:30 < satheesh:#liferay> 2. Single Approver workflow
