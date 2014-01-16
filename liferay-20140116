@@ -156,3 +156,6 @@
 13:51 <@jhf:#liferay> could you use that?
 13:51 <@jhf:#liferay> then it might be even easier to get the image you're seeking
 13:51 < jardineworks:#liferay> yeah -- so what we are doing is surfacing web content store in LR (of particular structure types). Then I have two OpenSeachImpl for searches to those REST services.
+13:52 < jardineworks:#liferay> then I am doing all sorts of black magic to create tabbed results :)
+13:52 < jardineworks:#liferay> small image works
+13:52 < jardineworks:#liferay> how do you get it from the asset rendere though?
