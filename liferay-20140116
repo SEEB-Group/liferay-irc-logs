@@ -98,3 +98,6 @@
 11:37 < bijoo_:#liferay> nicolas_FR: Easiest way to check is as such: Login as administrative user. Go to Control Panel -> Server Administration -> Properties
 11:37 < bijoo_:#liferay> nicolas_FR: look for the property theme.css.fast.load
 11:38 < nicolas_FR:#liferay> hey bijoo_ :) found it
+11:39 < bijoo_:#liferay> nicolas_FR: so was it turned off there or is it on?
+11:39 < nicolas_FR:#liferay> it was not present in the portal-ext file
+11:40 < nicolas_FR:#liferay> I thought it was true by default but just read it was false
