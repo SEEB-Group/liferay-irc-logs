@@ -144,3 +144,6 @@
 13:48 < jardineworks:#liferay> not necessarily an "image" piece of conetnt
 13:48 <@jhf:#liferay> you are overriding the search portlet though, which may return results that aren't images OR web content. what if it's a bookmark or a forum post?
 13:49 < jardineworks:#liferay> neither or those exist on my site -- but I understand the point. I am hoping to put a conditional that will filter out any results that aren't of type X
+13:50 < jardineworks:#liferay> If I don't make them searcheable to begin with for example right?
+13:50 <@jhf:#liferay> yeah that's one way. you can also do something with facet definition I think.
+13:50 < jardineworks:#liferay> so if I have content type A, B, C, D .... and I only want A and B in my results, I can just make C and D "not searcheable right?
