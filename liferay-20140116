@@ -125,3 +125,5 @@
 12:33 < bijoo_:#liferay> nicolas_FR: in Custom Theme Development, here: http://www.liferay.com/community/forums/-/message_boards/category/239389
 12:34 < nicolas_FR:#liferay> btw, we had no theme.css.fast.load in configuration before our restart
 12:34 < nicolas_FR:#liferay> now, we got it, BUT I did not clear work/ and temp/ folders. Might it be that ?
+12:35 < nicolas_FR:#liferay> liferay still working with old temp/ work/ files, and thus not using the theme.css.fast.load= true parameter
+12:35 < nicolas_FR:#liferay> (well I mean the css minified)
