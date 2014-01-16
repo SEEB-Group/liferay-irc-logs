@@ -97,3 +97,4 @@
 11:36 < bijoo_:#liferay> nicolas_FR: hey my bad, I know you're in France. I'm back.
 11:37 < bijoo_:#liferay> nicolas_FR: Easiest way to check is as such: Login as administrative user. Go to Control Panel -> Server Administration -> Properties
 11:37 < bijoo_:#liferay> nicolas_FR: look for the property theme.css.fast.load
+11:38 < nicolas_FR:#liferay> hey bijoo_ :) found it
