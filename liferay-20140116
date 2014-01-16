@@ -95,3 +95,5 @@
 11:28 < nicolas_FR:#liferay> because we don't have it in our portal-ext.properties file, and it seems we're loading all the css from themes instead of the compressed one...
 11:33 < nicolas_FR:#liferay> anyone ?
 11:36 < bijoo_:#liferay> nicolas_FR: hey my bad, I know you're in France. I'm back.
+11:37 < bijoo_:#liferay> nicolas_FR: Easiest way to check is as such: Login as administrative user. Go to Control Panel -> Server Administration -> Properties
+11:37 < bijoo_:#liferay> nicolas_FR: look for the property theme.css.fast.load
