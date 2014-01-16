@@ -26,3 +26,6 @@
 09:03 < nicolas_FR:#liferay> not here
 09:35 <@jhf:#liferay> avinashrbhat: yep thats a known issue
 09:35 <@jhf:#liferay> it's due to a change in one of the JDK runtime libraries that Liferay was not expecting :)
+09:37 <@jhf:#liferay> see https://issues.liferay.com/browse/LPS-37433 for workarounds and details
+09:37 < avinashrbhat:#liferay> jhf, hmm, saw the issue myself, i have changed all the grayscale images to RGB, still no changes
+09:37 < avinashrbhat:#liferay> ya that one itself
