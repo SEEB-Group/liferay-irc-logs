@@ -29,3 +29,5 @@
 09:37 <@jhf:#liferay> see https://issues.liferay.com/browse/LPS-37433 for workarounds and details
 09:37 < avinashrbhat:#liferay> jhf, hmm, saw the issue myself, i have changed all the grayscale images to RGB, still no changes
 09:37 < avinashrbhat:#liferay> ya that one itself
+09:40 < avinashrbhat:#liferay> jhf, is there any way to find the image that causes this?
+09:40 <@jhf:#liferay> yeah, but you have to either run it in a debugger or insert some SOP's into Liferay code
