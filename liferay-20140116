@@ -177,3 +177,4 @@
 13:55 < jardineworks:#liferay> there also appears to be entryClassPK with the same value
 13:58 < jardineworks:#liferay> hah -- even better -- localized_title_en_US=[frozen foods], articleId=[240614]
 13:58 < jardineworks:#liferay> :)
+15:56 < dawn:#liferay> jhf: a quick question. I am trying to import a LAR file, but unable due to this error. http://postimg.org/gallery/1k2qf5lw/051ec570/. I opened up the LAR and was able to find all three categories mentioned. Not sure what is causing this error.
