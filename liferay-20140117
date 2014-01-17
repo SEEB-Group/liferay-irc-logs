@@ -150,3 +150,6 @@
 15:15 < modd:#liferay> same steps here
 15:16 < modd:#liferay> and it works..but not with all files^^
 15:16 < modd:#liferay> btw: liferay sync doesn't work with the new doclib (not tested, heard it today)
+15:17 <@jhf:#liferay> the desktop version(s) of sync do not yet work with 6.2
+15:17 <@jhf:#liferay> the mobile version(s) do though
+15:17 < modd:#liferay> I'm also about to test liferay ide 2.0 the next days
