@@ -7,3 +7,5 @@
 06:01 < Axxell:#liferay> thats im using in freemarker
 06:27 <@jhf:#liferay> Axxell: how did you define footercontentid  ?
 06:29 <@jhf:#liferay> also, what error are you getting?
+08:04 < Axxell:#liferay> jhf: the error is Caused by: freemarker.core.InvalidReferenceException: Error on line 5, column 1 in Axxell.fi-2014.7-fm-styled-theme_SERVLET_CONTEXT_/templates/menusystem.ftl_journalContentUtil.getContent(10194, "10982" ,"view","sv_SE",themeDisplay) is undefined._It cannot be assigned to footercontent [Sanitized]
+08:04 < Axxell:#liferay> jhf: i didnt define it beforehand, it should be a string..
