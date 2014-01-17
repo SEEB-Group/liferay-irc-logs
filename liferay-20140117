@@ -97,3 +97,4 @@
 14:16 < jardineworks:#liferay> right -- I have a facet for the JournalArticles only already (entryClassName)... and my example above should provide an extension to the query to further filter by structure
 14:16 <@jhf:#liferay> and use that name
 14:16 <@jhf:#liferay> hopefully
+14:17 <@jhf:#liferay> brb
