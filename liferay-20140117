@@ -64,3 +64,14 @@
 14:09 <@jhf:#liferay> wait ignore that
 14:10 <@jhf:#liferay> I suppose you could implement a custom facet if the OOTB facets can't be configured appropriately to restrict to a specific structure ID
 14:11 < jardineworks:#liferay> my fieldName would probably be structureId ...
+14:11 < jardineworks:#liferay> the values[] you are saying would be my list of structure ids?
+14:11 < jardineworks:#liferay> i see
+14:11 < jardineworks:#liferay> so this --
+14:11 < jardineworks:#liferay> {
+14:11 < jardineworks:#liferay> 	"displayStyle": "asset_entries",
+14:11 < jardineworks:#liferay> 	"static": true,
+14:11 < jardineworks:#liferay> 	"weight": 1.5,
+14:11 < jardineworks:#liferay>    	"order": "OrderHitsDesc",
+14:11 < jardineworks:#liferay> 	"data": {
+14:11 < jardineworks:#liferay> 		"values": [
+14:12 < jardineworks:#liferay> 			"bmp", "gif", "jpeg", "jpg", "odg", "png", "svg"
