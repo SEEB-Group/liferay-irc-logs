@@ -5,3 +5,4 @@
 06:01 < Axxell:#liferay> but i cant get it to work..
 06:01 < Axxell:#liferay> <#assign footercontent = journalContentUtil.getContent(axxellCompany, footercontentid ,null,"locale",theme_display) />
 06:01 < Axxell:#liferay> thats im using in freemarker
+06:27 <@jhf:#liferay> Axxell: how did you define footercontentid  ?
