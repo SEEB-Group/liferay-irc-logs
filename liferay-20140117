@@ -98,3 +98,9 @@
 14:16 <@jhf:#liferay> and use that name
 14:16 <@jhf:#liferay> hopefully
 14:17 <@jhf:#liferay> brb
+14:29 < jardineworks:#liferay> jhf, I think maybe my configuration is not being picked up
+14:29 < jardineworks:#liferay> if it were then I would see it in the query right?
+14:29 < jardineworks:#liferay> right now I have this --
+14:29 < jardineworks:#liferay> +(+(companyId:10154) +((+(entryClassName:com.liferay.portlet.journal.model.JournalArticle) +(status:0)))) +(assetCategoryTitles:*blueberries* assetCategoryTitles_en_US:*blueberries* assetTagNames:*blueberries* comments:blueberries content:blueberries description:blueberries properties:blueberries title:blueberries url:blueberries userName:*blueberries* classPK:blueberries content_en_US:blueberries description_en_US:blueberries entryClassP
+14:29 < jardineworks:#liferay> K:blueberries title_en_US:blueberries type:blueberries) uid
+14:29 < jardineworks:#liferay> but I would expect to see structureId
