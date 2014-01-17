@@ -164,3 +164,5 @@
 15:29 < modd:#liferay> btw, my problems with dynamic data lists and non-admin users after login are gone after switching from hsql to mysql. (please change hsql as a default or make the option 200times bigger, so one see it)
 15:29 < modd:#liferay> nope, just libre office
 15:42 <@jhf:#liferay> 6.2 finally starting up on windows 8
+15:44 <@jhf:#liferay> amazingly it started with no errors
+15:44 <@jhf:#liferay> trying drag/drop..
