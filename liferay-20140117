@@ -43,3 +43,4 @@
 10:47 < nicolas_FR:#liferay> bijoo_: ok, will try that on the test server. should be back in 15min
 11:00 < nicolas_FR:#liferay> bijoo_: ack did not see you wanted the fresh logs from server restart.. trying to get you that
 11:12 < nicolas_FR:#liferay> bijoo_: I replied to your answer on the forum
+11:13 < nicolas_FR:#liferay> bijoo_: looking at chrome developer tools, I have 2 sources for css : base.css and main.css. Both are not minified
