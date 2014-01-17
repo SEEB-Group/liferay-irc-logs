@@ -149,3 +149,4 @@
 15:15 <@jhf:#liferay> how are you dropping them? I just made a new page, put the "Documents and Media" app on it, then dropped the file into it
 15:15 < modd:#liferay> same steps here
 15:16 < modd:#liferay> and it works..but not with all files^^
+15:16 < modd:#liferay> btw: liferay sync doesn't work with the new doclib (not tested, heard it today)
