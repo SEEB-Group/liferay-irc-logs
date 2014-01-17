@@ -50,3 +50,4 @@
 12:31 < jardineworks:#liferay> There is a facet configuration that lets you specify "JournalArticle" but i need to go deeper than that and specify the individual structures so that thins like "testimonials" don't surface in the results.
 13:58 <@jhf:#liferay> jardineworks
 13:59 <@jhf:#liferay> ya know that is probable possibly with a fancy facet definition or something. have you read through https://www.liferay.com/web/raymond.auge/blog/-/blogs/faceted-search-in-liferay-6-1
+14:04 < jardineworks:#liferay> jhf, I have -- but I'm not sure I toally understand
