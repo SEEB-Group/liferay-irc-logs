@@ -34,3 +34,5 @@
 09:08 < Tar-Minyatur:#liferay> jardineworks: I'm not 100% sure, to be honest. Our developers experimented with the built-in export functionality and came up with the problem that global CSS isn't used for PDF rendering...and they were unable to add header and footer to it.
 09:08 < Tar-Minyatur:#liferay> Didn't have time to investigate any further yet.
 09:16 < jardineworks:#liferay> Tar-Minyatur, I would share the itext code with you but I have no idea where it is now. It was not very difficult to do though. I doubt that is the best approach for you though -- for me I was generating a pdf of a report which didn't realyl change. I would guess that Open Office integration is what you need.
+10:44 < Tar-Minyatur:#liferay> jardineworks: The main issue about this whole PDF thing is the styling, not the generation itself. I'm still not entirely sure about it.
+10:44 < Tar-Minyatur:#liferay> The default "This article as PDF" button just renders the article with it's template into a PDF.
