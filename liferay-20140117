@@ -11,3 +11,4 @@
 08:04 < Axxell:#liferay> jhf: i didnt define it beforehand, it should be a string..
 08:06 < Axxell:#liferay> jhf: how is it supposed to be done?
 08:14 < modd_:#liferay> hi. is there any limitation to the drag&drop feature of the doclib? it works perfectly for jpeg but fails for xls/xlsx
+08:16 < Axxell:#liferay> topolik: any ideas what im doing wrong?
