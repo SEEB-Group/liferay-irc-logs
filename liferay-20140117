@@ -31,3 +31,5 @@
 09:02 < jardineworks:#liferay> I've never done the Open Office integration but I have read that it is supposed to be easy peasy
 09:03 < nicolas_FR:#liferay> satheesh : so you think I'm missing the minifier.enabled= true parameter ?
 09:04 < nicolas_FR:#liferay> satheesh: fact is I have theme.css.fast.load=true (I double checked in liferay portal admin page) and it doesn't seems to be in fast load mode..
+09:08 < Tar-Minyatur:#liferay> jardineworks: I'm not 100% sure, to be honest. Our developers experimented with the built-in export functionality and came up with the problem that global CSS isn't used for PDF rendering...and they were unable to add header and footer to it.
+09:08 < Tar-Minyatur:#liferay> Didn't have time to investigate any further yet.
