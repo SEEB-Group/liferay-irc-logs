@@ -128,3 +128,5 @@
 15:05 <@jhf:#liferay> i.e. you don't need to parse xml to get their values
 15:06 < jardineworks:#liferay> jhf, I was going to ask that... but then I must be looking at the wrong thing because I don't see getters for them
 15:06 <@jhf:#liferay> http://docs.liferay.com/portal/6.1/javadocs/com/liferay/portlet/journal/model/JournalArticleModel.html
+15:07 < jardineworks:#liferay> bust -- I was looking at JournalArticleImpl
+15:07 <@jhf:#liferay> well you're not supposed to look under the kimono !
