@@ -133,3 +133,7 @@
 15:10 < modd:#liferay> is it possible, that there's some kind of extension property for drag&drop in the doclib? I can't drop doc/docx etc. but I can drop e.g. jpeg/pdf (lr 6.2)
 15:12 < jardineworks:#liferay> haha
 15:12 < jardineworks:#liferay> (that was for jhf... i wasn't laughing at your hardship modd)
+15:13 <@jhf:#liferay> modd: checking
+15:13 <@jhf:#liferay> I believe there is but doc/docx should be on the VIP list
+15:13 < modd:#liferay> I know there's a property for doclib and I know these extensions are part of it
+15:13 < modd:#liferay> that's why I'm confused
