@@ -16,3 +16,4 @@
 08:18 < Tar-Minyatur:#liferay> Anyone around who has experience with PDF/RTF/DOC generation in Liferay?
 08:18 < Axxell:#liferay> @jhf: isnt journalContentUtil already available to use in freemarker without anything extra?
 08:19 < Tar-Minyatur:#liferay> We need to export web content articles in different file formats...but we want to influence the way these are rendered.
+08:19 < Tar-Minyatur:#liferay> Especially: Add a header and footer to the exported documents.
