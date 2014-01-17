@@ -194,3 +194,4 @@
 16:28 < pnutbutr:#liferay> think I found the answer.  that won't work at the portlet level.
 16:29 < pnutbutr:#liferay> you can only affect the PortletResponse by forwarding using the PortletRequestDispatcher.
 16:29 < pnutbutr:#liferay> won't work on the page level
+16:30 -!- mode/#liferay [+o jhf_] by ChanServ
