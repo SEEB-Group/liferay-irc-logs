@@ -29,3 +29,4 @@
 09:01 < jardineworks:#liferay> Tar-Minyatur, are you guys using open office integration?
 09:01 < jardineworks:#liferay> Tar-Minyatur, I did PDF gneration once a few years ago (from Liferay) but I built something custom using iText.
 09:02 < jardineworks:#liferay> I've never done the Open Office integration but I have read that it is supposed to be easy peasy
+09:03 < nicolas_FR:#liferay> satheesh : so you think I'm missing the minifier.enabled= true parameter ?
