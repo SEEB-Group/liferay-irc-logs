@@ -62,3 +62,5 @@
 14:09 <@jhf:#liferay> so I wonder if the facet responsible for searching assets can somehow be "configured" to only show assets that are web content and have a specific structure ID
 14:09 <@jhf:#liferay> oh yeah there is a com.liferay.portlet.journal.util.JournalIndexer
 14:09 <@jhf:#liferay> wait ignore that
+14:10 <@jhf:#liferay> I suppose you could implement a custom facet if the OOTB facets can't be configured appropriately to restrict to a specific structure ID
+14:11 < jardineworks:#liferay> my fieldName would probably be structureId ...
