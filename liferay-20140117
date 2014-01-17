@@ -153,3 +153,6 @@
 15:17 <@jhf:#liferay> the desktop version(s) of sync do not yet work with 6.2
 15:17 <@jhf:#liferay> the mobile version(s) do though
 15:17 < modd:#liferay> I'm also about to test liferay ide 2.0 the next days
+15:18 < modd:#liferay> another point: there's a new feature: a site can have sub sites now
+15:18 < modd:#liferay> and you can share the content of the parent site to the child sites
+15:18 < modd:#liferay> this sharing/inheritance doesn't work at all in our tests^^
