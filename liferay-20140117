@@ -189,3 +189,5 @@
 16:16 <@jhf:#liferay> please add yourself as a watcher if interested
 16:23 < pnutbutr:#liferay> is it possible to forward to another url from a portlet response?
 16:23 < pnutbutr:#liferay> not a redirect that's visible to the browser
+16:24 < pnutbutr:#liferay> but say a request comes in for /some/url, have a portlet respond by forwarding to a different url internal to the server?
+16:24 < pnutbutr:#liferay> transparent to the browser?
