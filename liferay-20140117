@@ -191,3 +191,4 @@
 16:23 < pnutbutr:#liferay> not a redirect that's visible to the browser
 16:24 < pnutbutr:#liferay> but say a request comes in for /some/url, have a portlet respond by forwarding to a different url internal to the server?
 16:24 < pnutbutr:#liferay> transparent to the browser?
+16:28 < pnutbutr:#liferay> think I found the answer.  that won't work at the portlet level.
