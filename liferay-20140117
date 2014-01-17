@@ -86,3 +86,11 @@
 14:12 < jardineworks:#liferay> label: structures
 14:14 < jardineworks:#liferay> jhf, lemme try this... that might do it for me.
 14:14 <@jhf:#liferay> that's what i'd try
+14:15 <@jhf:#liferay> in that image example from ray
+14:15 <@jhf:#liferay> he has 2 facets
+14:15 < jardineworks:#liferay> I'll report back in a few mins (need to restart)
+14:15 < jardineworks:#liferay> server
+14:15 <@jhf:#liferay> the first one see4ms to say "just give me DL entries"
+14:15 <@jhf:#liferay> and the second says "give me images with extensions [x,y,z]"
+14:15 <@jhf:#liferay> so instead you do the same, but with journal article and structureId
+14:15 <@jhf:#liferay> you will need to know the name of the field that holds structure IDs in the returned search results for journalarticles
