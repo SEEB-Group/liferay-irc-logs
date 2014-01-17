@@ -144,3 +144,8 @@
 15:14 <@jhf:#liferay> I knew it!
 15:15 <@jhf:#liferay> hmm.. can you try a diff browser while I fire up windows 8?
 15:15 < modd:#liferay> the files shows up in the list, but with a red "x" icon in front of it
+15:15 <@jhf:#liferay> hmm
+15:15 < modd:#liferay> tried chrome/firefox/IE
+15:15 <@jhf:#liferay> how are you dropping them? I just made a new page, put the "Documents and Media" app on it, then dropped the file into it
+15:15 < modd:#liferay> same steps here
+15:16 < modd:#liferay> and it works..but not with all files^^
