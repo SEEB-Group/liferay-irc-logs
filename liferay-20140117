@@ -36,3 +36,7 @@
 09:16 < jardineworks:#liferay> Tar-Minyatur, I would share the itext code with you but I have no idea where it is now. It was not very difficult to do though. I doubt that is the best approach for you though -- for me I was generating a pdf of a report which didn't realyl change. I would guess that Open Office integration is what you need.
 10:44 < Tar-Minyatur:#liferay> jardineworks: The main issue about this whole PDF thing is the styling, not the generation itself. I'm still not entirely sure about it.
 10:44 < Tar-Minyatur:#liferay> The default "This article as PDF" button just renders the article with it's template into a PDF.
+10:45 < jardineworks:#liferay> Tar-Minyatur, sure... but I would guess you could use media queries to create a "pdf view"
+10:45 < bijoo_:#liferay> nicolas_FR: hey, try removing all except this one: base.css, from the main.css file. Rebuild and redeploy, check if it's minified.
+10:45 < Tar-Minyatur:#liferay> If this template uses CSS classes and doesn't contain style definitions, no styling is applied.
+10:45 < bijoo_:#liferay> nicolas_FR: also, I replied to your post just now. Please post the log file to the same thread/post.
