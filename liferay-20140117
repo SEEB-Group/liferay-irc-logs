@@ -187,3 +187,5 @@
 16:06 <@jhf:#liferay> yep I get the same thing modd
 16:16 <@jhf:#liferay> modd: I filed https://issues.liferay.com/browse/LPS-43597
 16:16 <@jhf:#liferay> please add yourself as a watcher if interested
+16:23 < pnutbutr:#liferay> is it possible to forward to another url from a portlet response?
+16:23 < pnutbutr:#liferay> not a redirect that's visible to the browser
