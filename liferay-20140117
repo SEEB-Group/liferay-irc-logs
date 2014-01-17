@@ -48,3 +48,5 @@
 12:26 < jardineworks:#liferay> topolik, are you around this evening?
 12:30 < jardineworks:#liferay> jhf, maybe you can help -- I'm trying to figure out if it is possible to use the federated search (portlet #3) but specify the structureIds that are valid for the search.
 12:31 < jardineworks:#liferay> There is a facet configuration that lets you specify "JournalArticle" but i need to go deeper than that and specify the individual structures so that thins like "testimonials" don't surface in the results.
+13:58 <@jhf:#liferay> jardineworks
+13:59 <@jhf:#liferay> ya know that is probable possibly with a fancy facet definition or something. have you read through https://www.liferay.com/web/raymond.auge/blog/-/blogs/faceted-search-in-liferay-6-1
