@@ -52,3 +52,7 @@
 13:59 <@jhf:#liferay> ya know that is probable possibly with a fancy facet definition or something. have you read through https://www.liferay.com/web/raymond.auge/blog/-/blogs/faceted-search-in-liferay-6-1
 14:04 < jardineworks:#liferay> jhf, I have -- but I'm not sure I toally understand
 14:05 < jardineworks:#liferay> jhf, so you're saying I need to add another facet to my search query, but that this facet will specify the structure ids?
+14:07 <@jhf:#liferay> ok so first, I have never used any of this and just have barely an understanding of faceted search :)
+14:07 < jardineworks:#liferay> jhf, I think we're at the same point then...
+14:07 < jardineworks:#liferay> lol
+14:07 <@jhf:#liferay> but from ray's post he show's an example of making a pre-configured search portlet to only return images
