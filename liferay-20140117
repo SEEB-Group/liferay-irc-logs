@@ -59,3 +59,6 @@
 14:08 <@jhf:#liferay> using one facet only
 14:08 < jardineworks:#liferay> Oct 16 2012 update?
 14:08 <@jhf:#liferay> configured for getting results from doclib and FURTHER configuring a list of extensions so only imgs are returned
+14:09 <@jhf:#liferay> so I wonder if the facet responsible for searching assets can somehow be "configured" to only show assets that are web content and have a specific structure ID
+14:09 <@jhf:#liferay> oh yeah there is a com.liferay.portlet.journal.util.JournalIndexer
+14:09 <@jhf:#liferay> wait ignore that
