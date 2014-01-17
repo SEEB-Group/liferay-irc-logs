@@ -156,3 +156,5 @@
 15:18 < modd:#liferay> another point: there's a new feature: a site can have sub sites now
 15:18 < modd:#liferay> and you can share the content of the parent site to the child sites
 15:18 < modd:#liferay> this sharing/inheritance doesn't work at all in our tests^^
+15:19 <@jhf:#liferay> juan f did a blog post with an example of setting up child sites with sharing: https://www.liferay.com/web/juan.fernandez/blog/-/blogs/liferay-6-2-new-mobile-features-pt-2- can you walk though that and see if it really doesn't work?
+15:19 <@jhf:#liferay> that would be a serious issue if so
