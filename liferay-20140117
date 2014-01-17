@@ -75,3 +75,12 @@
 14:11 < jardineworks:#liferay> 	"data": {
 14:11 < jardineworks:#liferay> 		"values": [
 14:12 < jardineworks:#liferay> 			"bmp", "gif", "jpeg", "jpg", "odg", "png", "svg"
+14:12 < jardineworks:#liferay> 		],
+14:12 < jardineworks:#liferay> 		"frequencyThreshold": 0
+14:12 < jardineworks:#liferay>    	},
+14:12 < jardineworks:#liferay> 	"className": "com.liferay.portal.kernel.search.facet.MultiValueFacet",
+14:12 < jardineworks:#liferay> 	"label": "images",
+14:12 < jardineworks:#liferay> 	"fieldName": "extension"
+14:12 < jardineworks:#liferay> }
+14:12 < jardineworks:#liferay> but with structureId, and "55325", "55321", etc
+14:12 < jardineworks:#liferay> label: structures
