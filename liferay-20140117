@@ -121,3 +121,8 @@
 14:47 < jardineworks:#liferay> 3 search engines, 2 shitty services, 0 understanding, 3 facet configuration. working frankensearch results? priceless
 15:04 < jardineworks:#liferay> jhf, I have another one for you. I want to use 3 reserved elements for the search results so that I know for sure, regardless of the structure type returned, those elements are available (evn if not filled in).
 15:04 < jardineworks:#liferay> jhf, the three I want to use are title, description (which I think maps to summary on the abstract) and small image url (from the abstract)
+15:05 < jardineworks:#liferay> in my frankensearch (JSP) I have the article object -- the full one.
+15:05 < jardineworks:#liferay> hmm.. maybe I don;t need the fill one.
+15:05 < jardineworks:#liferay> full*
+15:05 <@jhf:#liferay> those fields I think are part of the Java API for the JournalArticle
+15:05 <@jhf:#liferay> i.e. you don't need to parse xml to get their values
