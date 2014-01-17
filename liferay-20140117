@@ -137,3 +137,10 @@
 15:13 <@jhf:#liferay> I believe there is but doc/docx should be on the VIP list
 15:13 < modd:#liferay> I know there's a property for doclib and I know these extensions are part of it
 15:13 < modd:#liferay> that's why I'm confused
+15:14 <@jhf:#liferay> ok I was able to drag/drop a .docx into the doclib
+15:14 < modd:#liferay> hmm..
+15:14 <@jhf:#liferay> what OS are you on?
+15:14 < modd:#liferay> windows
+15:14 <@jhf:#liferay> I knew it!
+15:15 <@jhf:#liferay> hmm.. can you try a diff browser while I fire up windows 8?
+15:15 < modd:#liferay> the files shows up in the list, but with a red "x" icon in front of it
