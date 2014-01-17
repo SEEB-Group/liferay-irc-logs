@@ -40,3 +40,4 @@
 10:45 < bijoo_:#liferay> nicolas_FR: hey, try removing all except this one: base.css, from the main.css file. Rebuild and redeploy, check if it's minified.
 10:45 < Tar-Minyatur:#liferay> If this template uses CSS classes and doesn't contain style definitions, no styling is applied.
 10:45 < bijoo_:#liferay> nicolas_FR: also, I replied to your post just now. Please post the log file to the same thread/post.
+10:47 < nicolas_FR:#liferay> bijoo_: ok, will try that on the test server. should be back in 15min
