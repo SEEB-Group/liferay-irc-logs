@@ -17,3 +17,5 @@
 08:18 < Axxell:#liferay> @jhf: isnt journalContentUtil already available to use in freemarker without anything extra?
 08:19 < Tar-Minyatur:#liferay> We need to export web content articles in different file formats...but we want to influence the way these are rendered.
 08:19 < Tar-Minyatur:#liferay> Especially: Add a header and footer to the exported documents.
+08:49 < nicolas_FR:#liferay> hi all
+08:49 < nicolas_FR:#liferay> still on our minify css problem :( Please take a look at https://www.liferay.com/fr/community/forums/-/message_boards/message/33252429 if you know about minify css, gzip and so on. Thanks
