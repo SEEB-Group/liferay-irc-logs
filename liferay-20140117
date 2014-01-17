@@ -130,3 +130,4 @@
 15:06 <@jhf:#liferay> http://docs.liferay.com/portal/6.1/javadocs/com/liferay/portlet/journal/model/JournalArticleModel.html
 15:07 < jardineworks:#liferay> bust -- I was looking at JournalArticleImpl
 15:07 <@jhf:#liferay> well you're not supposed to look under the kimono !
+15:10 < modd:#liferay> is it possible, that there's some kind of extension property for drag&drop in the doclib? I can't drop doc/docx etc. but I can drop e.g. jpeg/pdf (lr 6.2)
