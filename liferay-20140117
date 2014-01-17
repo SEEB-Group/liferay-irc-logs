@@ -163,3 +163,4 @@
 15:29 <@jhf:#liferay> I wonder if windows tries to do weird things when moving those kinds of files, perhaps when office is installed. dunno. in the process of extracting 6.2 now on a windows 8 vm
 15:29 < modd:#liferay> btw, my problems with dynamic data lists and non-admin users after login are gone after switching from hsql to mysql. (please change hsql as a default or make the option 200times bigger, so one see it)
 15:29 < modd:#liferay> nope, just libre office
+15:42 <@jhf:#liferay> 6.2 finally starting up on windows 8
