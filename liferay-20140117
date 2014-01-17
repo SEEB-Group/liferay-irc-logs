@@ -56,3 +56,6 @@
 14:07 < jardineworks:#liferay> jhf, I think we're at the same point then...
 14:07 < jardineworks:#liferay> lol
 14:07 <@jhf:#liferay> but from ray's post he show's an example of making a pre-configured search portlet to only return images
+14:08 <@jhf:#liferay> using one facet only
+14:08 < jardineworks:#liferay> Oct 16 2012 update?
+14:08 <@jhf:#liferay> configured for getting results from doclib and FURTHER configuring a list of extensions so only imgs are returned
