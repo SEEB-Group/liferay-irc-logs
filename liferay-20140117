@@ -21,3 +21,7 @@
 08:49 < nicolas_FR:#liferay> still on our minify css problem :( Please take a look at https://www.liferay.com/fr/community/forums/-/message_boards/message/33252429 if you know about minify css, gzip and so on. Thanks
 08:51 < satheesh:#liferay> nicolas_FR: Which web server you are using?
 08:51 < nicolas_FR:#liferay> apache 2.2.9 + tomcat 6.0
+08:55 < satheesh:#liferay> Okay
+08:55 < satheesh:#liferay> theme.css.fast.load=true
+08:55 < satheesh:#liferay> minifier.enabled=true
+08:55 < satheesh:#liferay> This is the recommended way for minifying
