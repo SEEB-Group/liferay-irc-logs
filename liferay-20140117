@@ -1,3 +1,7 @@
 --- Log opened Fri Jan 17 00:00:40 2014
 03:21 -!- mode/#liferay [+o jhf] by ChanServ
 05:22 < nicollas_FR:#liferay> hi there
+06:01 < Axxell:#liferay> hey guys im trying to do the following velocity thingy in freemarker: #set($footer-content=$journalContentUtil.getContent($axxellCompany, $footer-content-id ,null,"$locale",$theme_display))
+06:01 < Axxell:#liferay> but i cant get it to work..
+06:01 < Axxell:#liferay> <#assign footercontent = journalContentUtil.getContent(axxellCompany, footercontentid ,null,"locale",theme_display) />
+06:01 < Axxell:#liferay> thats im using in freemarker
