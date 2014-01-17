@@ -25,3 +25,4 @@
 08:55 < satheesh:#liferay> theme.css.fast.load=true
 08:55 < satheesh:#liferay> minifier.enabled=true
 08:55 < satheesh:#liferay> This is the recommended way for minifying
+08:56 < satheesh:#liferay> If web server is configured in proper way, it takes care of gzipping
