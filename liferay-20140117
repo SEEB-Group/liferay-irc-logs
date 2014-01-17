@@ -104,3 +104,5 @@
 14:29 < jardineworks:#liferay> +(+(companyId:10154) +((+(entryClassName:com.liferay.portlet.journal.model.JournalArticle) +(status:0)))) +(assetCategoryTitles:*blueberries* assetCategoryTitles_en_US:*blueberries* assetTagNames:*blueberries* comments:blueberries content:blueberries description:blueberries properties:blueberries title:blueberries url:blueberries userName:*blueberries* classPK:blueberries content_en_US:blueberries description_en_US:blueberries entryClassP
 14:29 < jardineworks:#liferay> K:blueberries title_en_US:blueberries type:blueberries) uid
 14:29 < jardineworks:#liferay> but I would expect to see structureId
+14:34 < jardineworks:#liferay> :O
+14:34 < jardineworks:#liferay> I think I see it!
