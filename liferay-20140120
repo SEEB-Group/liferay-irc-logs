@@ -78,3 +78,6 @@
 18:00 <@jhf:#liferay> whenever you login, we will forcefully redirect any http to https
 18:00 <@jhf:#liferay> even have an ssl CDN
 18:00 <@jhf:#liferay> which is separate from the non-SSL one!
+18:01 <@jhf:#liferay> but synced. I think.
+18:01 < jardineworks:#liferay> but if the content is not "sensitive" then yo uare doing a lot of encrypting for nadda no?
+18:01 <@jhf:#liferay> well when you are logged in, there are sensitive things in cookies that one may be able to exploit in ways we do not know about. and there are forms that need ssl.
