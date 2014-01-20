@@ -10,3 +10,4 @@
 03:04 < Axxell:#liferay> satheesh: yeah
 03:05 < Axxell:#liferay> satheesh: like this <#assign menucontent1 = journalContentUtil.getContent(axxellCompany, menucontentid1 ,"",locale,theme_display)!"no article with that id">
 03:06 < Axxell:#liferay> satheesh: where axxellCompany is the site group id and mencontentid1 is the article id
+03:07 < satheesh:#liferay> Axxell: got it. Congrats. If you using with categories, unit test under various scenario based on your requirement
