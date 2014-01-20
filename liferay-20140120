@@ -31,3 +31,11 @@
 16:29 < jardineworks:#liferay> :)
 16:29 < jardineworks:#liferay> B.C. baby?
 16:30 <@jhf:#liferay> some religions believe in the afterlife.. so we wanted to take that into consideration.
+16:31 < jardineworks:#liferay> haha
+16:31 <@jhf:#liferay> :)
+16:31 < jardineworks:#liferay> strange though that I can't NOT set a birthday
+16:31 < jardineworks:#liferay> meh -- 1900 I guess will work.
+16:31 < jardineworks:#liferay> anyone who is 114 years old probably isn't doing their shopping online ;)
+16:31 <@jhf:#liferay> did you consider overriding the JSP to not show values for the fields unless it is > 1970 or something?
+16:31 <@jhf:#liferay> yeah I remember some site asked for age verification, I put like 120, and they had some smart ass retort
+16:31 <@jhf:#liferay> it was pretty funny
