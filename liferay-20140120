@@ -43,3 +43,8 @@
 17:55 < jardineworks:#liferay> hey jhf -- are you around for an ssl question?
 17:55 <@jhf:#liferay> yeah..
 17:55 <@jhf:#liferay> shoot
+17:56 <@jhf:#liferay> whoops.. look at the time. gotta run! bbl
+17:56 < jardineworks:#liferay> ok -- not exactly an area of expertise but jsut want to validate a couple things. 1. SSL is not a Liferay thing, its a tomcat thing 2. You cn set the entire portal to run using SSL but to piece meal it, some things ssl, some not, you need to wire that into the links 3. One approach rather than hardcoding links is to offload SSL at the proxy so the request up to the proxy and back is ssl, but the proxy to the tomcat is clear
+17:56 <@jhf:#liferay> j/k
+17:56 <@jhf:#liferay> :)
+17:57 < jardineworks:#liferay> LOL
