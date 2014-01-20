@@ -8,3 +8,4 @@
 03:02 < Axxell:#liferay> ok, no more help needed.. two things wrong: freemarker does not know about null values they are instead just empty.., you can not assign an empty value to a variable, you need to handle if an method returns an empty value
 03:03 < satheesh:#liferay> Axxell: You are able to retrieve article dynamically?
 03:04 < Axxell:#liferay> satheesh: yeah
+03:05 < Axxell:#liferay> satheesh: like this <#assign menucontent1 = journalContentUtil.getContent(axxellCompany, menucontentid1 ,"",locale,theme_display)!"no article with that id">
