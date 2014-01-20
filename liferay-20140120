@@ -56,3 +56,8 @@
 17:57 <@jhf:#liferay> you can frontend LR with apache, so that apache (and not tomcat) handles ALL ssl
 17:57 < jardineworks:#liferay> ok -- but there is not "make this portlet secure and this one not" type config right?
 17:57 <@jhf:#liferay> (and can even offload it to hardware for performance)
+17:58 <@jhf:#liferay> that's the easiest thing to do
+17:58 < jardineworks:#liferay> i've never seen it and can find no indication
+17:58 <@jhf:#liferay> then apache<->tomcat connection is "in the clear" but it's totally private over local sockets
+17:58 <@jhf:#liferay> nope, not without a lot of fancy apache and/or tomcat config
+17:58 < jardineworks:#liferay> ok cool
