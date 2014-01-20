@@ -6,3 +6,4 @@
 02:22 < Axxell:#liferay> the error it gives is: No signature of method getContent matches the arguments, which would imply that there is a wrong number of arguments or something is of the wrong type
 02:29 < Axxell:#liferay> any help would be appreciated
 03:02 < Axxell:#liferay> ok, no more help needed.. two things wrong: freemarker does not know about null values they are instead just empty.., you can not assign an empty value to a variable, you need to handle if an method returns an empty value
+03:03 < satheesh:#liferay> Axxell: You are able to retrieve article dynamically?
