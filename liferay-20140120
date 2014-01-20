@@ -39,3 +39,4 @@
 16:31 <@jhf:#liferay> did you consider overriding the JSP to not show values for the fields unless it is > 1970 or something?
 16:31 <@jhf:#liferay> yeah I remember some site asked for age verification, I put like 120, and they had some smart ass retort
 16:31 <@jhf:#liferay> it was pretty funny
+16:32 < jardineworks:#liferay> I am overriding the JSP ... but I have the frankenarchtiecture to deal with
