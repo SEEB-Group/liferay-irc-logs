@@ -19,3 +19,4 @@
 11:34 <@jhf:#liferay> for 6.1 the default is SHA-1
 11:34 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/portal.properties#L3761
 11:34 < cr3:#liferay> jhf: exactly what I was looking for, thanks so much!
+11:35 <@jhf:#liferay> \o/ yer welcome!
