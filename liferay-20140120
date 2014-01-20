@@ -1,3 +1,4 @@
 --- Log opened Mon Jan 20 00:00:44 2014
 01:41 < Axxell:#liferay> Hey guys, trying today again to get to load journalcontent into my theme, ive done it before in velocity the same way its done in example two in this article http://www.e-kon.be/blog/item/two-ways-to-embed-web-content-in-liferay-themes
 01:42 < Axxell:#liferay> ie. in velocity it looks like: #set ($footerContent = $journalContentUtil.getContent($group_id, $footerArticleId, null, "$locale", $theme_display))
+01:43 < Axxell:#liferay> now im trying to do the same thing in freemarker, and cant get it to work, doing it like this <#assign footercontent = journalContentUtil.getContent(10194, "10982" ,"view","sv_SE",themeDisplay)/>
