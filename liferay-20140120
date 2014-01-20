@@ -21,3 +21,8 @@
 11:34 < cr3:#liferay> jhf: exactly what I was looking for, thanks so much!
 11:35 <@jhf:#liferay> \o/ yer welcome!
 11:48 < jihedamine:#liferay> I was able to debug and get more details: when upgrading from 6.0, 6.1 liferay doesn't find fileEntryId column in DLFileVersion table. This column was supposed to be added during schema upgrade but wasn't. My portal-ext.properties declares upgrade.processes with all the existing upgrade process versions (6_0_0 until 6_1_1)
+16:28 < jardineworks:#liferay> lol -- jhf I just got something awesome
+16:28 <@jhf:#liferay> oh?
+16:28 < jardineworks:#liferay> I am creating a user and of course I WAS using Jan 1 1970 for the birthday
+16:28 < jardineworks:#liferay> BUT
+16:28 < jardineworks:#liferay> they want it to be blank until the user sets one in the profile
