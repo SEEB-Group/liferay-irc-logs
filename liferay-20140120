@@ -11,3 +11,4 @@
 03:05 < Axxell:#liferay> satheesh: like this <#assign menucontent1 = journalContentUtil.getContent(axxellCompany, menucontentid1 ,"",locale,theme_display)!"no article with that id">
 03:06 < Axxell:#liferay> satheesh: where axxellCompany is the site group id and mencontentid1 is the article id
 03:07 < satheesh:#liferay> Axxell: got it. Congrats. If you using with categories, unit test under various scenario based on your requirement
+05:30 < nicolas_FR:#liferay> hi there. I still have minify css problems, and I don't know why. forum post : http://tinyurl.com/kjk3y49. (theme.css.fast.load is set to true)
