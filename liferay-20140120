@@ -14,3 +14,5 @@
 05:30 < nicolas_FR:#liferay> hi there. I still have minify css problems, and I don't know why. forum post : http://tinyurl.com/kjk3y49. (theme.css.fast.load is set to true)
 11:25 < cr3:#liferay> what's the password encryption used in liferay 6.1? I see in the 6.2 changelog that it was SHA, but I can't find in the documentation whether it used to be SHA1, 224, 256, etc.
 11:27 < jihedamine:#liferay> Hi. I'm trying to upgrade from 6.0 EE to 6.1 GA3 EE, v6_0_12_to_6_1_0.UpgradeDocumentLibrary causes an exception "UpgradeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'fileEntryId' in 'where clause'". Can anyone help with that please ?
+11:33 <@jhf:#liferay> cr3: the default is now PBKDF2WithHmacSHA1/160/128000 generating 160 bit hashes using 128k rounds
+11:33 <@jhf:#liferay> sorry that's for 6.2
