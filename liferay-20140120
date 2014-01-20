@@ -9,3 +9,4 @@
 03:03 < satheesh:#liferay> Axxell: You are able to retrieve article dynamically?
 03:04 < Axxell:#liferay> satheesh: yeah
 03:05 < Axxell:#liferay> satheesh: like this <#assign menucontent1 = journalContentUtil.getContent(axxellCompany, menucontentid1 ,"",locale,theme_display)!"no article with that id">
+03:06 < Axxell:#liferay> satheesh: where axxellCompany is the site group id and mencontentid1 is the article id
