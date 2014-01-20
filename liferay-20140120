@@ -71,3 +71,10 @@
 17:59 < jardineworks:#liferay> sure ... and if you do that then you piss off the browsers. Particularly IE
 17:59 <@jhf:#liferay> yep
 17:59 <@jhf:#liferay> big time.
+18:00 < jardineworks:#liferay> cool -- so the answer is "its someone elses responsibility " :)
+18:00 < jardineworks:#liferay> i like it
+18:00 <@jhf:#liferay> yeah!!
+18:00 <@jhf:#liferay> we recently instituted this on liferay.com
+18:00 <@jhf:#liferay> whenever you login, we will forcefully redirect any http to https
+18:00 <@jhf:#liferay> even have an ssl CDN
+18:00 <@jhf:#liferay> which is separate from the non-SSL one!
