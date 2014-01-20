@@ -48,3 +48,11 @@
 17:56 <@jhf:#liferay> j/k
 17:56 <@jhf:#liferay> :)
 17:57 < jardineworks:#liferay> LOL
+17:57 < jardineworks:#liferay> as.
+17:57 < jardineworks:#liferay> ass.
+17:57 < jardineworks:#liferay> lol
+17:57 < jardineworks:#liferay> iw as totally just saying "wiat wait! I'm hitting enter!"
+17:57 <@jhf:#liferay> yea you got it right
+17:57 <@jhf:#liferay> you can frontend LR with apache, so that apache (and not tomcat) handles ALL ssl
+17:57 < jardineworks:#liferay> ok -- but there is not "make this portlet secure and this one not" type config right?
+17:57 <@jhf:#liferay> (and can even offload it to hardware for performance)
