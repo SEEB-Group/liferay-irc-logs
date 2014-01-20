@@ -16,3 +16,6 @@
 11:27 < jihedamine:#liferay> Hi. I'm trying to upgrade from 6.0 EE to 6.1 GA3 EE, v6_0_12_to_6_1_0.UpgradeDocumentLibrary causes an exception "UpgradeException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'fileEntryId' in 'where clause'". Can anyone help with that please ?
 11:33 <@jhf:#liferay> cr3: the default is now PBKDF2WithHmacSHA1/160/128000 generating 160 bit hashes using 128k rounds
 11:33 <@jhf:#liferay> sorry that's for 6.2
+11:34 <@jhf:#liferay> for 6.1 the default is SHA-1
+11:34 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/portal.properties#L3761
+11:34 < cr3:#liferay> jhf: exactly what I was looking for, thanks so much!
