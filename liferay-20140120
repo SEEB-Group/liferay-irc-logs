@@ -61,3 +61,13 @@
 17:58 <@jhf:#liferay> then apache<->tomcat connection is "in the clear" but it's totally private over local sockets
 17:58 <@jhf:#liferay> nope, not without a lot of fancy apache and/or tomcat config
 17:58 < jardineworks:#liferay> ok cool
+17:59 < jardineworks:#liferay> jsut wanted to make sure the "normal" approach was still a valid one :D
+17:59 < jardineworks:#liferay> thanks
+17:59 <@jhf:#liferay> I mean, when you request a portal page, it is all transmitted to you either encrypted (ssl), or not.
+17:59 <@jhf:#liferay> well I take that back
+17:59 <@jhf:#liferay> you CAN have mixed content
+17:59 <@jhf:#liferay> but it is not recommended
+17:59 <@jhf:#liferay> and not really useful IMO given the processing and network speeds of today
+17:59 < jardineworks:#liferay> sure ... and if you do that then you piss off the browsers. Particularly IE
+17:59 <@jhf:#liferay> yep
+17:59 <@jhf:#liferay> big time.
