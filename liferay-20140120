@@ -81,3 +81,8 @@
 18:01 <@jhf:#liferay> but synced. I think.
 18:01 < jardineworks:#liferay> but if the content is not "sensitive" then yo uare doing a lot of encrypting for nadda no?
 18:01 <@jhf:#liferay> well when you are logged in, there are sensitive things in cookies that one may be able to exploit in ways we do not know about. and there are forms that need ssl.
+18:02 <@jhf:#liferay> so it's not so much the content, but the other junk (cookies, form data, etc) that MAY be sensitive. but you are right we end up encrypting 90% of stuff that's not really "sensitive"
+18:02 <@jhf:#liferay> but the alternative is too much of a headacke
+18:02 <@jhf:#liferay> and increases attack surfaces
+18:02 <@jhf:#liferay> so we just said screw it
+18:02 <@jhf:#liferay> and went 100% ssl :)
