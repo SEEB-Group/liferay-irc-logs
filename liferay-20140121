@@ -11,3 +11,5 @@
 10:22 < nicolas_FR:#liferay> hi there
 10:24 < bradley:#liferay> with alloyui how do I load in multiple js files?
 10:24 < bijoo_:#liferay> nicolas_FR: Hey there, long time no see; I've been busy.
+10:25 < nicolas_FR:#liferay> I'm back with my minified css problem :) More informations : same theme.war is deployed in production and in test. Test and Prod server have the same portal-ext.properties. When using chrome source view, test server serves 1 main.css minified file, when prod server serves all css not minified. If I go in tomcat/temp/../minifier/theme/css, both prod and test server have the main.css file minified.
+10:25 < nicolas_FR:#liferay> hi bijoo_ :) look at those fresh news, maybe it will get us more solutions ?
