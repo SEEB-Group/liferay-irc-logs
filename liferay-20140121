@@ -21,3 +21,6 @@
 10:29 < bijoo_:#liferay> nicolas_FR: unminified js and css
 10:29 < nicolas_FR:#liferay> indeed
 10:29 < bijoo_:#liferay> nicolas_FR: something is wrong altogether it seems: https://www.interiale.fr/home?css_fast_load=1&js_fast_load=1
+10:30 < bijoo_:#liferay> nicolas_FR: that should minify it whatsoever
+10:30 < bijoo_:#liferay> nicolas_FR: did you say you have access to the logs
+10:30 < bijoo_:#liferay> ?
