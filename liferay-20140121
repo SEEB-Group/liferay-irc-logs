@@ -18,3 +18,6 @@
 10:27 < bijoo_:#liferay> nicolas_FR: yes, to eliminate that as issue.
 10:27 < nicolas_FR:#liferay> just did it, same thing
 10:28 < nicolas_FR:#liferay> bijoo_: btw you can try, just visit www.interiale.fr and look at sources tab in chrome dev tools
+10:29 < bijoo_:#liferay> nicolas_FR: unminified js and css
+10:29 < nicolas_FR:#liferay> indeed
+10:29 < bijoo_:#liferay> nicolas_FR: something is wrong altogether it seems: https://www.interiale.fr/home?css_fast_load=1&js_fast_load=1
