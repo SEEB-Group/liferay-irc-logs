@@ -44,3 +44,5 @@
 11:30 < Tar-Minyatur:#liferay> Is is possible to restrict access to the documents library folders for different roles?
 11:30 < Tar-Minyatur:#liferay> I want certain roles to only be able to upload into certain folders.
 12:39 < bijoo_:#liferay> Tar-Minyatur: yes, have you seen set permissions for roles?
+12:40 < bijoo_:#liferay> nicolas_FR: I'm back; did you post the log files here?
+12:40 < Tar-Minyatur:#liferay> bijoo_: I just found out that permissions per folder apparently were introduced in 6.1.2
