@@ -27,3 +27,6 @@
 10:31 < nicolas_FR:#liferay> bijoo_: yes I have access to the logs
 10:31 < bijoo_:#liferay> nicolas_FR: post the last 1000 lines on pastebin.
 10:32 < bijoo_:#liferay> tail -n 1000 > /tmp/catalina.t1000.out
+10:32 < nicolas_FR:#liferay> bijoo_: just wondering... in the tomcat/temp/minify folder, you have all projects which require minify
+10:32 < bijoo_:#liferay> tail -n 1000 catalina.out > /tmp/catalina.t1000.out
+10:32 < nicolas_FR:#liferay> the name of the projects I see there should be what ? the <theme id="interiale-theme" name="Interiale Theme"> from liferay-look-and-feel.xml ?
