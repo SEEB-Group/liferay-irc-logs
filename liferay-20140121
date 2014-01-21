@@ -40,3 +40,6 @@
 10:36 < nicolas_FR:#liferay> bijoo_: well.. it's only not working on the prod... :) damn me. And, beside greping the tail from logs, you won't find anything in all the logs the prod is writing
 10:37 < bijoo_:#liferay> nicolas_FR: I'll be back in a couple of hours.
 10:37 < nicolas_FR:#liferay> ok
+11:30 < Tar-Minyatur:#liferay> Hey guys.
+11:30 < Tar-Minyatur:#liferay> Is is possible to restrict access to the documents library folders for different roles?
+11:30 < Tar-Minyatur:#liferay> I want certain roles to only be able to upload into certain folders.
