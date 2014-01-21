@@ -24,3 +24,6 @@
 10:30 < bijoo_:#liferay> nicolas_FR: that should minify it whatsoever
 10:30 < bijoo_:#liferay> nicolas_FR: did you say you have access to the logs
 10:30 < bijoo_:#liferay> ?
+10:31 < nicolas_FR:#liferay> bijoo_: yes I have access to the logs
+10:31 < bijoo_:#liferay> nicolas_FR: post the last 1000 lines on pastebin.
+10:32 < bijoo_:#liferay> tail -n 1000 > /tmp/catalina.t1000.out
