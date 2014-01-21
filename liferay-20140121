@@ -33,3 +33,6 @@
 10:33 < bijoo_:#liferay> nicolas_FR: hmm 5.2.3 setup is different than mine
 10:33 < bijoo_:#liferay> nicolas_FR: I can check though, it may take time
 10:33 < nicolas_FR:#liferay> because I think I don't have the theme folder in minify in the prod server
+10:34 < bijoo_:#liferay> nicolas_FR: shouldn't need to manually; post logs.
+10:34 < nicolas_FR:#liferay> so logs from now from prod server ?
+10:34 < nicolas_FR:#liferay> prod has busy logs
