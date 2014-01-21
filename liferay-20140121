@@ -38,3 +38,5 @@
 10:34 < nicolas_FR:#liferay> prod has busy logs
 10:35 < bijoo_:#liferay> nicolas_FR: well, anywhere where it won't work correct; try to avoid Prod if you can my friend.
 10:36 < nicolas_FR:#liferay> bijoo_: well.. it's only not working on the prod... :) damn me. And, beside greping the tail from logs, you won't find anything in all the logs the prod is writing
+10:37 < bijoo_:#liferay> nicolas_FR: I'll be back in a couple of hours.
+10:37 < nicolas_FR:#liferay> ok
