@@ -30,3 +30,6 @@
 10:32 < nicolas_FR:#liferay> bijoo_: just wondering... in the tomcat/temp/minify folder, you have all projects which require minify
 10:32 < bijoo_:#liferay> tail -n 1000 catalina.out > /tmp/catalina.t1000.out
 10:32 < nicolas_FR:#liferay> the name of the projects I see there should be what ? the <theme id="interiale-theme" name="Interiale Theme"> from liferay-look-and-feel.xml ?
+10:33 < bijoo_:#liferay> nicolas_FR: hmm 5.2.3 setup is different than mine
+10:33 < bijoo_:#liferay> nicolas_FR: I can check though, it may take time
+10:33 < nicolas_FR:#liferay> because I think I don't have the theme folder in minify in the prod server
