@@ -85,3 +85,11 @@
 11:41 < modd:#liferay> the only way to do it, was to use asset publisher, but I can use it even without content sharing
 11:42 < modd:#liferay> a simple example with screenshots in a blogpost would be great
 11:42 < modd:#liferay> I could try it then and maybe it's a bug, or I'm simply stupid^^
+11:43 <@jhf:#liferay> well yes you can use asset publisher, or web content display to display shared content
+11:43 <@jhf:#liferay> also, for child sites, you can restrict memberships based on membership in the parent site
+11:43 < modd:#liferay> maybe, if I know the exact date, you can convince olaf to talk about  it on liferayradio^^
+11:43 <@jhf:#liferay> like you can require any member of child to also be member of parent
+11:43 <@jhf:#liferay> yeah that'd be awesome! will it be in German?
+11:43 < modd:#liferay> yes
+11:43 <@jhf:#liferay> I recently did one (last week) on 6.2
+11:43 < modd:#liferay> I know ;)
