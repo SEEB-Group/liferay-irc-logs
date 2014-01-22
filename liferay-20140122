@@ -55,3 +55,5 @@
 11:06 < jardineworks:#liferay> jhf, its not a huge deal really. SSL is slowet because of the network latency I think right? all those extra ACK SYN requests. I imagine the proxy and the server will be pretty close together :)
 11:07 <@jhf:#liferay> yeah it's definitely slower, but unless you've got huge traffic it's probably not noticeable.
 11:07 <@jhf:#liferay> plus you can get one of those cool "secure" badges that mean nothing
+11:08 <@jhf:#liferay> I'm pretty sure your private ssl key is sitting in your tomcat directory unprotected
+11:08 <@jhf:#liferay> ;-)
