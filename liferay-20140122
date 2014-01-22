@@ -104,3 +104,4 @@
 11:53 <@jhf:#liferay> you can do that selectively for each site
 11:53 < modd:#liferay> doesn't affect the asset publisher
 11:53 < modd:#liferay> as I said, I can use any site as scope, even if it's not a sub-site
+11:55 <@jhf:#liferay> when I turn off 'content sharing' on the parent site, I can no longer choose that site when configuring AP on the child site
