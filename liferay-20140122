@@ -26,3 +26,4 @@
 08:00 < Axxell:#liferay> the first part of enviroment setup with some parent pom, works..
 08:01 < Axxell:#liferay> but when i try to compile the main pom it says "Non-resolvable parent POM:"
 08:08 < gittish:#liferay> Axxell: see if you can find it, otherwise you can most likely remove the parent pom reference
+08:10 < Axxell:#liferay> gittish: never used maven before, they write: "This project uses some open source libraries that are not available in the default Maven central (repo1.maven.org). All linked artifacts are available in repository http://oss.arcusys.com/mvn/content/groups/public. That repository is specified in element of this project, but because our parent pom is also located in that repository, we need to fetch it first by invoking a special 'bootstra
