@@ -2,3 +2,4 @@
 05:19 < Axxell:#liferay> hey guys, im really bad at aui, and im trying to do a function in my theme for opening modal windows with webcontent...
 05:20 < Axxell:#liferay> what ive done is this in my main.js: http://pastebin.com/8vEWvGW5
 05:20 < Axxell:#liferay> needless to say its now working, any clues?
+05:28 < Axxell:#liferay> the error it gives is undefined is not a function
