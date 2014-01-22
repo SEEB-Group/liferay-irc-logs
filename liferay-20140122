@@ -24,3 +24,4 @@
 07:59 < Axxell:#liferay> https://github.com/arcusys/liferay-vaadin-plugin
 07:59 < Axxell:#liferay> cant get it to work
 08:00 < Axxell:#liferay> the first part of enviroment setup with some parent pom, works..
+08:01 < Axxell:#liferay> but when i try to compile the main pom it says "Non-resolvable parent POM:"
