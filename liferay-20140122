@@ -99,3 +99,4 @@
 11:48 <@jhf:#liferay> I don't think content is 'automatically' and transparently shared the way you are thikning
 11:49 < modd:#liferay> but for asset publisher it's useless, because I can use other sites as scopes, even if it's not a sub-site (btw. it fixes one of my old tickets in jira)
 11:49 <@jhf:#liferay> yeah. when I just tried it with blogs, i was hoping the 'scope' tab would now allow selection of multiple scopes (sites) the way asset publisher does
+11:50 < modd:#liferay> in web content I can change the scope and show a web content of another page for all users, even if the content shouldn't be visible because of permissions^^
