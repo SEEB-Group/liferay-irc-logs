@@ -30,3 +30,4 @@
 08:11 < Axxell:#liferay> gittish: that thing i can run, and it completes ok, but when the main pom.xml is run it gets that error about parent pom, and i think its point to whatever that earlier command did
 08:11 < Axxell:#liferay> gittish:"    <parent>         <groupId>com.arcusys</groupId>         <artifactId>arcusys-oss-project</artifactId>         <version>13.3.1</version>     </parent>"
 08:16 < Axxell:#liferay> i really have no clue how to set this thing up, followed the instructions, but im guessing that there is more that needs to be configured to compile that thing
+08:22 < Axxell:#liferay> gittish: btw the relative path of the parent pom is not specified in pom.xml
