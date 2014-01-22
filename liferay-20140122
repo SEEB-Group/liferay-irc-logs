@@ -48,3 +48,5 @@
 10:47 <@jhf:#liferay> well that is interesting.
 10:47 <@jhf:#liferay> *checks source code*
 10:50 -!- mode/#liferay [+o rotty3000] by ChanServ
+11:01 < jardineworks:#liferay> jhf, I set up my server to support both ssl and non and depending on the context with which I access it, I get the http or https ... its not a big issue but it means we can't REALLY do full SSL termination at apache.
+11:01 < jardineworks:#liferay> unless we hardcode the page asset links *barf*
