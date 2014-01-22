@@ -44,3 +44,4 @@
 09:48 < gittish:#liferay> Axxell: try -Dliferay.version=6.2.0 (or whatever) on the maven command line
 09:48 < gittish:#liferay> or define in out m2 settings files
 09:53 < jardineworks:#liferay> jhf, learned something interesting yesterday for the ssl stuff
+09:54 < jardineworks:#liferay> jhf, the themeDisplay.getPathThemeImages() takes whatever protocol/host comes in on the request. So that means to avoid mixed content for pages that are rewritten to use SSL I have to pass SSL down from apache to tomcat.
