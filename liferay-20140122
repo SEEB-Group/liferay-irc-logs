@@ -15,3 +15,5 @@
 07:38 < modd_:#liferay> hey topolik1, will your filesystemhook for the doclib work with 6.2?
 07:53 < gittish:#liferay> I get " Unable to extend session for admin-web-configurator-portlet".
 07:54 < gittish:#liferay> How can I get rid of it?
+07:54 < gittish:#liferay> The port let is only used on startup.
+07:54 < gittish:#liferay> and we have auto extend on for sessions
