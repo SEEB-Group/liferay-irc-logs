@@ -53,3 +53,5 @@
 11:02 <@jhf:#liferay> dang. yeah I see that this changed in 6.0 to consider the protocol/host - see https://github.com/liferay/liferay-portal/commit/f5f22289ddf289d92b64a6d18ec200ee41d0ec6f
 11:02 <@jhf:#liferay> that's why that wiki page doesn't show the full path - it was based on 5.2 output
 11:06 < jardineworks:#liferay> jhf, its not a huge deal really. SSL is slowet because of the network latency I think right? all those extra ACK SYN requests. I imagine the proxy and the server will be pretty close together :)
+11:07 <@jhf:#liferay> yeah it's definitely slower, but unless you've got huge traffic it's probably not noticeable.
+11:07 <@jhf:#liferay> plus you can get one of those cool "secure" badges that mean nothing
