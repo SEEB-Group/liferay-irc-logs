@@ -83,3 +83,5 @@
 11:40 <@jhf:#liferay> also, for sharing - basically, child sites can 'see' content from the parent site. this includes web content articles, documents, etc.
 11:41 <@jhf:#liferay> you have to configure it to display - it does not, for example, 'inherit' pages or layouts (that's what site templates and page templates are for)
 11:41 < modd:#liferay> the only way to do it, was to use asset publisher, but I can use it even without content sharing
+11:42 < modd:#liferay> a simple example with screenshots in a blogpost would be great
+11:42 < modd:#liferay> I could try it then and maybe it's a bug, or I'm simply stupid^^
