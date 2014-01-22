@@ -97,3 +97,5 @@
 11:46 < modd:#liferay> like I say, maybe I'm doing something wrong and it will work if I try an example
 11:48 <@jhf:#liferay> yes, that looks right. I think the 'sharing' only applies to apps that have been coded to support it, like asset publisher, web content display.
 11:48 <@jhf:#liferay> I don't think content is 'automatically' and transparently shared the way you are thikning
+11:49 < modd:#liferay> but for asset publisher it's useless, because I can use other sites as scopes, even if it's not a sub-site (btw. it fixes one of my old tickets in jira)
+11:49 <@jhf:#liferay> yeah. when I just tried it with blogs, i was hoping the 'scope' tab would now allow selection of multiple scopes (sites) the way asset publisher does
