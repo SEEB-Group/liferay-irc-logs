@@ -43,3 +43,4 @@
 09:13 < wela:#liferay> any idea how to make it refersh only the needed portlet??
 09:48 < gittish:#liferay> Axxell: try -Dliferay.version=6.2.0 (or whatever) on the maven command line
 09:48 < gittish:#liferay> or define in out m2 settings files
+09:53 < jardineworks:#liferay> jhf, learned something interesting yesterday for the ssl stuff
