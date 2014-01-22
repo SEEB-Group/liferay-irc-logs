@@ -108,3 +108,4 @@
 11:58 < modd:#liferay> weird
 11:59 < modd:#liferay> I'll check that again
 13:26 < grahamh__:#liferay> Hello, I'm attempting to run through the official Liferay developer documentation. Specifically the hooks portion, and I just can't seem to satisfy a dependency: "Project 'marketplace-portlet-master' is missing required Java project: 'portal-master'	marketplace-portlet-master"
+13:29 < grahamh__:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/creating-a-hook-liferay-portal-6-2-dev-guide-10-en just after the first "Note"
