@@ -17,3 +17,4 @@
 07:54 < gittish:#liferay> How can I get rid of it?
 07:54 < gittish:#liferay> The port let is only used on startup.
 07:54 < gittish:#liferay> and we have auto extend on for sessions
+07:55 < modd_:#liferay> lr 6.2?
