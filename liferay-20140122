@@ -94,3 +94,4 @@
 11:43 <@jhf:#liferay> I recently did one (last week) on 6.2
 11:43 < modd:#liferay> I know ;)
 11:45 < modd:#liferay> if I've let's say a blog post on site A there site B is a sub site of and content share is active, and the user is part of site B but not A, he don't see the blog post on site B, even if it's visible for guests
+11:46 < modd:#liferay> like I say, maybe I'm doing something wrong and it will work if I try an example
