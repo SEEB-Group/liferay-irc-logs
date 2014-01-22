@@ -8,3 +8,4 @@
 06:06 < Axxell:#liferay> doing it like this http://pastebin.com/3TwmEpt8
 06:07 < Axxell:#liferay> any clues how to get a url to display only a webcontent without anything extra?
 06:11 < Axxell:#liferay> it just shows an empty webcontent display, with no web content chosen
+06:32 < Axxell:#liferay> mkay got it to work, the building of the url was wrong in the example
