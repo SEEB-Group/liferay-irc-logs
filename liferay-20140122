@@ -33,3 +33,5 @@
 08:22 < Axxell:#liferay> gittish: btw the relative path of the parent pom is not specified in pom.xml
 08:23 < Axxell:#liferay> if anybody feels like trying to compile that thing, please do :) im getting nowhere
 08:26 < gittish:#liferay> the parent pom is looked up using you local repo and your repository settings
+08:27 < gittish:#liferay> it could be anywhere
+08:27 < gittish:#liferay> so referring to that repo should work, but I don't know this project
