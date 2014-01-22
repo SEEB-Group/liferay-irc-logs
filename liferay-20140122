@@ -13,3 +13,5 @@
 07:20 < Axxell:#liferay> does anyone have a prebuilt version of Vaadin control panel for liferay 6.2? the one liferay marketplace is for liferay 6.1 only
 07:24 < modd_:#liferay> not me, sry
 07:38 < modd_:#liferay> hey topolik1, will your filesystemhook for the doclib work with 6.2?
+07:53 < gittish:#liferay> I get " Unable to extend session for admin-web-configurator-portlet".
+07:54 < gittish:#liferay> How can I get rid of it?
