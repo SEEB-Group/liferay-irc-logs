@@ -47,3 +47,4 @@
 09:54 < jardineworks:#liferay> jhf, the themeDisplay.getPathThemeImages() takes whatever protocol/host comes in on the request. So that means to avoid mixed content for pages that are rewritten to use SSL I have to pass SSL down from apache to tomcat.
 10:47 <@jhf:#liferay> well that is interesting.
 10:47 <@jhf:#liferay> *checks source code*
+10:50 -!- mode/#liferay [+o rotty3000] by ChanServ
