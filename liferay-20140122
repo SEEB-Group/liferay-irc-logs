@@ -36,3 +36,5 @@
 08:27 < gittish:#liferay> it could be anywhere
 08:27 < gittish:#liferay> so referring to that repo should work, but I don't know this project
 08:29 < gittish:#liferay> maven also remembers fail sure to find items for a while, so sometimes you may want to cleanup parts of the .m2 directory in order to retry quickly
+08:40 < wela:#liferay> I tried to setup liferay on opensuse, but i get the following error
+08:40 < wela:#liferay> Unable to set localhost. This prevents creation of a GUID. Cause was
