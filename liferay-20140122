@@ -110,3 +110,4 @@
 13:26 < grahamh__:#liferay> Hello, I'm attempting to run through the official Liferay developer documentation. Specifically the hooks portion, and I just can't seem to satisfy a dependency: "Project 'marketplace-portlet-master' is missing required Java project: 'portal-master'	marketplace-portlet-master"
 13:29 < grahamh__:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/creating-a-hook-liferay-portal-6-2-dev-guide-10-en just after the first "Note"
 14:18 < grahamh__:#liferay> I figured out how to satisfy my dependency issue by importing the plug-ins repo as an eclipse project, and finding the missing jars and patching them in manually, but now that project has 9300+ java problems. So I did it wrong. How am I supposed to do this?
+15:41 < grahamh__:#liferay> still trying to find the magic import recipe
