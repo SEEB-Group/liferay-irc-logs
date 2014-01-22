@@ -38,3 +38,4 @@
 08:29 < gittish:#liferay> maven also remembers fail sure to find items for a while, so sometimes you may want to cleanup parts of the .m2 directory in order to retry quickly
 08:40 < wela:#liferay> I tried to setup liferay on opensuse, but i get the following error
 08:40 < wela:#liferay> Unable to set localhost. This prevents creation of a GUID. Cause was
+08:41 < Axxell:#liferay> i got it to compile some more but it now things the following "[ERROR]     'dependencies.dependency.version' for com.liferay.portal:portal-serv ice:jar must be a valid version but is '${liferay.version}'. @ line 86, column 2 2"
