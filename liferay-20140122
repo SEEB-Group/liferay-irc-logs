@@ -31,3 +31,4 @@
 08:11 < Axxell:#liferay> gittish:"    <parent>         <groupId>com.arcusys</groupId>         <artifactId>arcusys-oss-project</artifactId>         <version>13.3.1</version>     </parent>"
 08:16 < Axxell:#liferay> i really have no clue how to set this thing up, followed the instructions, but im guessing that there is more that needs to be configured to compile that thing
 08:22 < Axxell:#liferay> gittish: btw the relative path of the parent pom is not specified in pom.xml
+08:23 < Axxell:#liferay> if anybody feels like trying to compile that thing, please do :) im getting nowhere
