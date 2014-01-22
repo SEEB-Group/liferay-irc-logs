@@ -6,3 +6,4 @@
 06:05 < Axxell:#liferay> okey now i can get the dialog to open
 06:05 < Axxell:#liferay> but i cant get the url to be built correctly
 06:06 < Axxell:#liferay> doing it like this http://pastebin.com/3TwmEpt8
+06:07 < Axxell:#liferay> any clues how to get a url to display only a webcontent without anything extra?
