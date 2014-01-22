@@ -61,3 +61,4 @@
 11:20 < jardineworks:#liferay> jhf, we'll probably used a self signed cert between apache and tomcat anyway :)
 11:21 <@jhf:#liferay> well you'll need a real cert unless you want your end users to get warnings/failured!
 11:21 <@jhf:#liferay> between apache and the world
+11:25 < topolik1:#liferay> modd: hi
