@@ -41,3 +41,5 @@
 08:41 < Axxell:#liferay> i got it to compile some more but it now things the following "[ERROR]     'dependencies.dependency.version' for com.liferay.portal:portal-serv ice:jar must be a valid version but is '${liferay.version}'. @ line 86, column 2 2"
 09:13 < wela:#liferay> all the pre-installed liferay portlets refersh the whole page on any action
 09:13 < wela:#liferay> any idea how to make it refersh only the needed portlet??
+09:48 < gittish:#liferay> Axxell: try -Dliferay.version=6.2.0 (or whatever) on the maven command line
+09:48 < gittish:#liferay> or define in out m2 settings files
