@@ -68,3 +68,6 @@
 11:31 < modd:#liferay> I used it back at my former company and today I found a project at my new company, there they use it too and I have a new project, which could also use it..but this time it's lr 6.2
 11:31 < modd:#liferay> so it seems, that a lot of people are using it
 11:31 < modd:#liferay> jhf: can you explain to me, how content sharing between parent- and sub-sites work? I don't get it^^
+11:32 < modd:#liferay> maybe a blog post, so others can use it, too
+11:32 <@jhf:#liferay> sure, one sec, lemme run through it an ensure it works the way I think it does :)
+11:32 < modd:#liferay> because I didn't find any good information, how it actually works
