@@ -101,3 +101,6 @@
 11:49 <@jhf:#liferay> yeah. when I just tried it with blogs, i was hoping the 'scope' tab would now allow selection of multiple scopes (sites) the way asset publisher does
 11:50 < modd:#liferay> in web content I can change the scope and show a web content of another page for all users, even if the content shouldn't be visible because of permissions^^
 11:52 <@jhf:#liferay> one thing you can do is to turn OFF sharing, so that the child site's asset publisher cannot see the parent site's content
+11:53 <@jhf:#liferay> you can do that selectively for each site
+11:53 < modd:#liferay> doesn't affect the asset publisher
+11:53 < modd:#liferay> as I said, I can use any site as scope, even if it's not a sub-site
