@@ -62,3 +62,4 @@
 11:21 <@jhf:#liferay> well you'll need a real cert unless you want your end users to get warnings/failured!
 11:21 <@jhf:#liferay> between apache and the world
 11:25 < topolik1:#liferay> modd: hi
+11:26 < topolik1:#liferay> if you want I can adapt it for 6.2
