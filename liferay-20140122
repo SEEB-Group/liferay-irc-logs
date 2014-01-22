@@ -107,3 +107,4 @@
 11:55 <@jhf:#liferay> when I turn off 'content sharing' on the parent site, I can no longer choose that site when configuring AP on the child site
 11:58 < modd:#liferay> weird
 11:59 < modd:#liferay> I'll check that again
+13:26 < grahamh__:#liferay> Hello, I'm attempting to run through the official Liferay developer documentation. Specifically the hooks portion, and I just can't seem to satisfy a dependency: "Project 'marketplace-portlet-master' is missing required Java project: 'portal-master'	marketplace-portlet-master"
