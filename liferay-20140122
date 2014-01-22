@@ -81,3 +81,5 @@
 11:40 <@jhf:#liferay> modd: oh?? that's cool! i'd not heard of that! when will the webinar be?
 11:40 < modd:#liferay> mid february, I guess..not sure
 11:40 <@jhf:#liferay> also, for sharing - basically, child sites can 'see' content from the parent site. this includes web content articles, documents, etc.
+11:41 <@jhf:#liferay> you have to configure it to display - it does not, for example, 'inherit' pages or layouts (that's what site templates and page templates are for)
+11:41 < modd:#liferay> the only way to do it, was to use asset publisher, but I can use it even without content sharing
