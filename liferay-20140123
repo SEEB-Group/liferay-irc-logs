@@ -56,3 +56,4 @@
 10:05 <@jhf:#liferay> first, any errors in the tomcat log?
 10:06 < jardineworks:#liferay> jhf, one sec
 10:06 < jardineworks:#liferay> I don't think so, but I might be looking in the wrong place
+10:07 < jardineworks:#liferay> i just realized I am tailing catalina.out which is probably wrong
