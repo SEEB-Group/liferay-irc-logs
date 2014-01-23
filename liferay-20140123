@@ -17,3 +17,4 @@
 02:10 < Axxell:#liferay> continiuing from yesterday: trying to compile https://github.com/arcusys/liferay-vaadin-plugin with maven, using maven for the first time. Still using the instructions provided on that page, will not compile the plugin. If i use the option -llr it starts to compile but gets problems with liferay portal-impl.jar
 02:10 < Axxell:#liferay> it seems that a liferay.version=6.2.0 does not exist
 02:10 < Axxell:#liferay> what seems to exist is liferay.version=6.2.0-RC5
+02:11 < Axxell:#liferay> nor does liferay.version=6.2.0-ga1 exist
