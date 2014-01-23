@@ -47,3 +47,5 @@
 10:03 < jardineworks:#liferay> this works without issue on all pages -- EXCEPT the Vegetarian page.
 10:03 < jardineworks:#liferay> on that page I get a 400 nad request
 10:03 < jardineworks:#liferay> and my AJAX call of course never completes.
+10:04 < jardineworks:#liferay> I checked the urls... and they ae identical, save the layout name (gluten-free vs. vegetarian)
+10:04 < jardineworks:#liferay> The code that makes the ajax call is a JS function and is the same function for all of these calls.
