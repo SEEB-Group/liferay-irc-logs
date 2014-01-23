@@ -7,3 +7,6 @@
 00:10 < bradley:#liferay> then you might need styles that will work with any theme
 00:11 < bijoo_:#liferay> "Layout Templates allow you to choose how portlets will be arranged on a page. They are simple table or CSS-based containers into which portlets can be dropped and sit within the body of the page. Liferay Portal comes with several built-in layout templates, but if you require a more complex page layout you may wish to use this custom layout template. A thumbnail is displayed when the end user clicks Layout Template from the Dock menu. C
 00:12 < bradley:#liferay> I'm creating a custom layout
+00:13 < bradley:#liferay> I had to put css styles at the top of the .tpl files
+00:13 < bradley:#liferay> such as .full-width .portlet-body #main { padding-left:0; padding-right:0;}
+00:13 < bijoo_:#liferay> bradley: okay, I see; my mistake there my friend.
