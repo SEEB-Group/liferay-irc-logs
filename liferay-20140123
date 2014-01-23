@@ -49,3 +49,8 @@
 10:03 < jardineworks:#liferay> and my AJAX call of course never completes.
 10:04 < jardineworks:#liferay> I checked the urls... and they ae identical, save the layout name (gluten-free vs. vegetarian)
 10:04 < jardineworks:#liferay> The code that makes the ajax call is a JS function and is the same function for all of these calls.
+10:05 < jardineworks:#liferay> Questions --
+10:05 < jardineworks:#liferay> 1/ has anyone seen something like this before?
+10:05 < jardineworks:#liferay> 2/ does anyone know how I can get more details from a 400 server error?
+10:05 <@jhf:#liferay> this should be easy to debug
+10:05 <@jhf:#liferay> first, any errors in the tomcat log?
