@@ -75,3 +75,6 @@
 10:10 < jardineworks:#liferay> because the server is protected
 10:11 < jardineworks:#liferay> I'm not sure what I should be looking for in the headers... it all looks fine to me
 10:25 < bijoo_:#liferay> jhf: Hey there my friend, what's going on?
+10:29 <@jhf:#liferay> hey bijoo_ quick question whats the best way to search the IRC log?
+10:29 <@jhf:#liferay> I can get each file (probably ALL of them with a script) and grep
+10:29 <@jhf:#liferay> but thought there might be an easier way
