@@ -22,3 +22,5 @@
 02:32 < Axxell:#liferay> ok so the official maven repo only has liferay 6.2.0-rc5 jars, but if use the following profile with the url to the liferay repo, it compiles ok http://pastebin.com/C1BDbGCZ
 04:44 < Axxell:#liferay> so has somebody tried to get vaadin 7 to work on liferay 6.2? Im trying to get a liferay IDE created vaadin portlet to work... i got it to compile but it seems that it killed liferay 500 error
 04:49 < Rajesh:#liferay> Hello friends
+04:50 < Guest65878:#liferay> can you please tell me, how to add set  portlet for an organization?
+04:51 < Guest65878:#liferay> I wanna to assign a specific portlet to specific organization.
