@@ -54,3 +54,5 @@
 10:05 < jardineworks:#liferay> 2/ does anyone know how I can get more details from a 400 server error?
 10:05 <@jhf:#liferay> this should be easy to debug
 10:05 <@jhf:#liferay> first, any errors in the tomcat log?
+10:06 < jardineworks:#liferay> jhf, one sec
+10:06 < jardineworks:#liferay> I don't think so, but I might be looking in the wrong place
