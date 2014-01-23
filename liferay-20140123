@@ -78,3 +78,4 @@
 10:29 <@jhf:#liferay> hey bijoo_ quick question whats the best way to search the IRC log?
 10:29 <@jhf:#liferay> I can get each file (probably ALL of them with a script) and grep
 10:29 <@jhf:#liferay> but thought there might be an easier way
+10:48 < bijoo_:#liferay> jhf: Sorry for the delay; there are two ways: https://t.seebgroup.com/liferay-irc-github and https://t.seebgroup.com/liferay-irc-search-php
