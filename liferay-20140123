@@ -5,3 +5,4 @@
 00:10 < bradley:#liferay> I'm saying you should be able to add a main.css file like any other plugin
 00:10 < bradley:#liferay> because if you have an external layout
 00:10 < bradley:#liferay> then you might need styles that will work with any theme
+00:11 < bijoo_:#liferay> "Layout Templates allow you to choose how portlets will be arranged on a page. They are simple table or CSS-based containers into which portlets can be dropped and sit within the body of the page. Liferay Portal comes with several built-in layout templates, but if you require a more complex page layout you may wish to use this custom layout template. A thumbnail is displayed when the end user clicks Layout Template from the Dock menu. C
