@@ -61,3 +61,10 @@
 10:08 <@jhf:#liferay> anyway, if no errors then can you open "chrome developer tools" in chrome (or firebug in firefox)?
 10:08 <@jhf:#liferay> you can see the actual url that the ajax call tries to request, the headers sent and received, etc
 10:08 < jardineworks:#liferay> jhf,  nothing in the log
+10:09 <@jhf:#liferay> if you are using IE then you're dead to me
+10:09 < jardineworks:#liferay> haha
+10:09 < jardineworks:#liferay> linux
+10:09 < jardineworks:#liferay> no ie
+10:09 < jardineworks:#liferay> windows is dead to me
+10:09 < jardineworks:#liferay> here is the 400 bad error link.. (it happens for two of the four vegetarian and this one)
+10:09 < jardineworks:#liferay> http://sprouts.twelpful.net/topics/sprouts-brand?p_p_id=shoppinglist_WAR_shoppinglistportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_resource_id=getShoppingListItem&p_p_cacheability=cacheLevelPage&no_cache=1390489556867
