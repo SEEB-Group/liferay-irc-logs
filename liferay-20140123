@@ -43,3 +43,7 @@
 10:01 <@jhf:#liferay> btw if anyone is interested in getting notified of new and exciting Liferay Marketplace apps, follow @LiferayApps on twitter. we just set this up yesterday.
 10:01 < jardineworks:#liferay> The three portlets. -- one web content display, one "custom search results" and one "reated products"
 10:02 < jardineworks:#liferay> the page itself is driven by a tag -- so for eaxmple page A is "Gluten-Free"  page B is "Vegetarian"
+10:03 < jardineworks:#liferay> in the theme for my site I have a portlet embedded. When you click a link in the nav (where it is embedded) an overlay displays. As part of this process a AJAX call to the embedded portlet is made.
+10:03 < jardineworks:#liferay> this works without issue on all pages -- EXCEPT the Vegetarian page.
+10:03 < jardineworks:#liferay> on that page I get a 400 nad request
+10:03 < jardineworks:#liferay> and my AJAX call of course never completes.
