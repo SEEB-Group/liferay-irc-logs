@@ -42,3 +42,4 @@
 10:01 < jardineworks:#liferay> I have two pages -- both pages have the exact same portlet configuration (I know, terrible, not my doing)
 10:01 <@jhf:#liferay> btw if anyone is interested in getting notified of new and exciting Liferay Marketplace apps, follow @LiferayApps on twitter. we just set this up yesterday.
 10:01 < jardineworks:#liferay> The three portlets. -- one web content display, one "custom search results" and one "reated products"
+10:02 < jardineworks:#liferay> the page itself is driven by a tag -- so for eaxmple page A is "Gluten-Free"  page B is "Vegetarian"
