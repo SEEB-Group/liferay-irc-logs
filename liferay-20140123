@@ -84,3 +84,4 @@
 14:10 < topolik1:#liferay> dawn: I see 2 commits for this ticket, both changing JVM startup parameters: https://github.com/liferay/liferay-portal/commit/0064e693a44755e1756717d532719297b11ce8fa#diff-0 https://github.com/liferay/liferay-portal/commit/aaea8a6b5558c987d0abc3a053e2f50e0772cd88#diff-0
 14:11 < topolik1:#liferay> try to change your setenv.bat/.sh
 14:24 < dawn:#liferay> topolik1: yes, changing the setevn helped. Thank you.
+14:25 < topolik1:#liferay> y/w
