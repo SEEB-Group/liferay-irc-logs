@@ -28,3 +28,4 @@
 05:09 < avinashrbhat:#liferay> hi, has anyone used jbpm in liferay?
 05:10 < avinashrbhat:#liferay> Guest65878, from my knowledge, there is no way to do that. instead you can set the site containing that portlet as the organization's private site.
 05:18 < Guest65878:#liferay> what is jbpm?
+05:22 < Guest65878:#liferay> how to set a portlet for a specific user login ?
