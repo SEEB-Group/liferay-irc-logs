@@ -57,3 +57,7 @@
 10:06 < jardineworks:#liferay> jhf, one sec
 10:06 < jardineworks:#liferay> I don't think so, but I might be looking in the wrong place
 10:07 < jardineworks:#liferay> i just realized I am tailing catalina.out which is probably wrong
+10:08 <@jhf:#liferay> no that's the right log file
+10:08 <@jhf:#liferay> anyway, if no errors then can you open "chrome developer tools" in chrome (or firebug in firefox)?
+10:08 <@jhf:#liferay> you can see the actual url that the ajax call tries to request, the headers sent and received, etc
+10:08 < jardineworks:#liferay> jhf,  nothing in the log
