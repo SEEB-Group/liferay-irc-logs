@@ -19,3 +19,4 @@
 02:10 < Axxell:#liferay> what seems to exist is liferay.version=6.2.0-RC5
 02:11 < Axxell:#liferay> nor does liferay.version=6.2.0-ga1 exist
 02:23 < Axxell:#liferay> i do believe it tries to download from the official maven repository, but i havent found info yet how to configure it to use another repository, maybe liferay has its own?
+02:32 < Axxell:#liferay> ok so the official maven repo only has liferay 6.2.0-rc5 jars, but if use the following profile with the url to the liferay repo, it compiles ok http://pastebin.com/C1BDbGCZ
