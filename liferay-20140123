@@ -2,3 +2,6 @@
 --- Day changed Thu Jan 23 2014
 00:00 < bradley:#liferay> is it possible to add css to a layout template?
 00:09 < bijoo_:#liferay> bradley: probably not since it's only layout; also no fields for that in (com.liferay.portal.model.LayoutTemplatecom.liferay.portal.model.LayoutTemplatecom.liferay.portal.model.LayoutTemplate) and/or in (file:///opt/lr/62rc6/liferay-portal-src-6.2.0-ce-rc6/definitions/liferay-layout-templates_6_2_0.dtd )
+00:10 < bradley:#liferay> I'm saying you should be able to add a main.css file like any other plugin
+00:10 < bradley:#liferay> because if you have an external layout
+00:10 < bradley:#liferay> then you might need styles that will work with any theme
