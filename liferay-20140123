@@ -10,3 +10,4 @@
 00:13 < bradley:#liferay> I had to put css styles at the top of the .tpl files
 00:13 < bradley:#liferay> such as .full-width .portlet-body #main { padding-left:0; padding-right:0;}
 00:13 < bijoo_:#liferay> bradley: okay, I see; my mistake there my friend.
+00:14 < bijoo_:#liferay> bradley: I know what you mean now; yea, that makes sense.
