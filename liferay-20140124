@@ -24,3 +24,7 @@
 11:37 < jardineworks:#liferay> jhf, still showing {} ... i'm just outputting $request
 11:37 < jardineworks:#liferay> I thought I saw a JIRA issue around this for 6.1 but maybe I am thinking of soemthing else.
 11:42 < jardineworks:#liferay> jhf,  here it is... it was a while ago though https://support.liferay.com/browse/LPS-32074
+11:43 <@jhf:#liferay> hmmm
+11:43 <@jhf:#liferay> so you're showing it an an asset publisher eh.. lemme try that real quick.
+11:43 < jardineworks:#liferay> oh no
+11:43 < jardineworks:#liferay> sorry
