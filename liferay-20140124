@@ -30,3 +30,4 @@
 11:43 < jardineworks:#liferay> sorry
 11:44 < jardineworks:#liferay> I just have a custom portlet that uses the API to retrieve JournalArticleDisplay objects ... it makes a list and then I dump it on the page
 11:44 <@jhf:#liferay> well that bug does exist in 6.1.2 (I added my test article to an asset publisher, and indeed $request is {} )
+11:45 < jardineworks:#liferay> but is that a bug specific to the asset publisher? or would it be applicable to anything that uses the journal article display objects?
