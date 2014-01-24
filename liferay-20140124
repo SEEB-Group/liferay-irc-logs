@@ -39,3 +39,5 @@
 11:49 <@jhf:#liferay> yes, but it might not do it by default in the API you are using. which APIs are you using?
 11:50 < jardineworks:#liferay> JournalArticle, JournalArticleLocalServiceUtil, JournalArticleDisplay....
 11:50 <@jhf:#liferay> and how are you calling JournalArticleLocalServiceUtil.get???
+11:51 < jardineworks:#liferay> lemme pastebin
+11:51 < jardineworks:#liferay> uno minuto
