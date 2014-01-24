@@ -31,3 +31,6 @@
 11:44 < jardineworks:#liferay> I just have a custom portlet that uses the API to retrieve JournalArticleDisplay objects ... it makes a list and then I dump it on the page
 11:44 <@jhf:#liferay> well that bug does exist in 6.1.2 (I added my test article to an asset publisher, and indeed $request is {} )
 11:45 < jardineworks:#liferay> but is that a bug specific to the asset publisher? or would it be applicable to anything that uses the journal article display objects?
+11:47 <@jhf:#liferay> hmm that I do not know. not sure if AP uses that particular API or not, or if it is different than how it is used when the article is displayed in a Web Content Display portlet
+11:47 <@jhf:#liferay> ok now here's something interesting
+11:47 <@jhf:#liferay> I re-configured asset publisher to show "full content" and it works (previously it was configured to show "Abstracts" only, the default)
