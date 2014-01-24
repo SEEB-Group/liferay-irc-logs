@@ -45,3 +45,4 @@
 11:52 < jardineworks:#liferay> (remember I'm not allowed to use asset publisher)
 11:53 < jardineworks:#liferay> this one applies the template to the JournalArticle so I get just the raw HTML to output.
 11:53 < jardineworks:#liferay> http://pastebin.com/McRmtHDN
+11:53 < jardineworks:#liferay> then in my jsp I have a <c:forEach/> that just prints the strings.
