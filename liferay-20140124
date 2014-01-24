@@ -37,3 +37,5 @@
 11:48 <@jhf:#liferay> so I bet there's some API to say "give me the full deal"
 11:48 < jardineworks:#liferay> jhf,  you lost me. Aren't I depending on LR to push that request map into the journal template scope for me?
 11:49 <@jhf:#liferay> yes, but it might not do it by default in the API you are using. which APIs are you using?
+11:50 < jardineworks:#liferay> JournalArticle, JournalArticleLocalServiceUtil, JournalArticleDisplay....
+11:50 <@jhf:#liferay> and how are you calling JournalArticleLocalServiceUtil.get???
