@@ -1,2 +1,3 @@
 --- Log opened Fri Jan 24 00:00:50 2014
 05:23 < Axxell:#liferay> hey guys a more or less stupid question again: Liferay.PortletURL.createRenderURL only creates the URI not the URL it seems.. how do i create the full url?
+06:28 < Axxell:#liferay> sry got my terms wrong i cant get the URL just the URN
