@@ -15,3 +15,4 @@
 11:13 <@jhf:#liferay> works for me with 6.1.2
 11:18 < jardineworks:#liferay> just unchecked it... but I guess I have to clear some caches too now?
 11:18 <@jhf:#liferay> shouldn't have to.. are you doing anything weird, like trying to embed a web content article in something else?
+11:23 <@jhf:#liferay> and does it happen for all templates, or just that one?
