@@ -28,3 +28,5 @@
 11:43 <@jhf:#liferay> so you're showing it an an asset publisher eh.. lemme try that real quick.
 11:43 < jardineworks:#liferay> oh no
 11:43 < jardineworks:#liferay> sorry
+11:44 < jardineworks:#liferay> I just have a custom portlet that uses the API to retrieve JournalArticleDisplay objects ... it makes a list and then I dump it on the page
+11:44 <@jhf:#liferay> well that bug does exist in 6.1.2 (I added my test article to an asset publisher, and indeed $request is {} )
