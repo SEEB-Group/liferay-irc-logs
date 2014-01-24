@@ -2,3 +2,9 @@
 05:23 < Axxell:#liferay> hey guys a more or less stupid question again: Liferay.PortletURL.createRenderURL only creates the URI not the URL it seems.. how do i create the full url?
 06:28 < Axxell:#liferay> sry got my terms wrong i cant get the URL just the URN
 11:08 < jardineworks:#liferay> jhf, I need the velocity master when he has a minute
+11:09 <@jhf:#liferay> ok, go for it
+11:09 < jardineworks:#liferay> jhf, do you know if there was a problem with one of the the $request object in journal templates in 6.1.2?
+11:09 <@jhf:#liferay> there are bugs, yes, but not sure what you're referring to :)
+11:09 < jardineworks:#liferay> this is not working for me -- #set ($layoutId = $request.get("theme-display").get("plid"))
+11:09 <@jhf:#liferay> the request object is really just a hashmap
+11:10 < jardineworks:#liferay> I think my request object is showing {}
