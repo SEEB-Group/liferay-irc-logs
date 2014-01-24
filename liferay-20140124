@@ -34,3 +34,5 @@
 11:47 <@jhf:#liferay> hmm that I do not know. not sure if AP uses that particular API or not, or if it is different than how it is used when the article is displayed in a Web Content Display portlet
 11:47 <@jhf:#liferay> ok now here's something interesting
 11:47 <@jhf:#liferay> I re-configured asset publisher to show "full content" and it works (previously it was configured to show "Abstracts" only, the default)
+11:48 <@jhf:#liferay> so I bet there's some API to say "give me the full deal"
+11:48 < jardineworks:#liferay> jhf,  you lost me. Aren't I depending on LR to push that request map into the journal template scope for me?
