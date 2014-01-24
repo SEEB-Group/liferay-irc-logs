@@ -16,3 +16,7 @@
 11:18 < jardineworks:#liferay> just unchecked it... but I guess I have to clear some caches too now?
 11:18 <@jhf:#liferay> shouldn't have to.. are you doing anything weird, like trying to embed a web content article in something else?
 11:23 <@jhf:#liferay> and does it happen for all templates, or just that one?
+11:32 < jardineworks:#liferay> jhf, sorry... had to help unload a new staircase.
+11:32 < jardineworks:#liferay> nope nothing odd... lemme try one more time
+11:32 <@jhf:#liferay> you can try clearing all caches too
+11:32 <@jhf:#liferay> perhaps something is gummed up deep down in the gears
