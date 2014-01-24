@@ -20,3 +20,6 @@
 11:32 < jardineworks:#liferay> nope nothing odd... lemme try one more time
 11:32 <@jhf:#liferay> you can try clearing all caches too
 11:32 <@jhf:#liferay> perhaps something is gummed up deep down in the gears
+11:37 < jardineworks:#liferay> negative
+11:37 < jardineworks:#liferay> jhf, still showing {} ... i'm just outputting $request
+11:37 < jardineworks:#liferay> I thought I saw a JIRA issue around this for 6.1 but maybe I am thinking of soemthing else.
