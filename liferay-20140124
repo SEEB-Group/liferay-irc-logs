@@ -12,3 +12,4 @@
 11:10 <@jhf:#liferay> (assuming plid is right - i'll check if it works for me)
 11:10 < jardineworks:#liferay> request for me is returning {} in the journal templates
 11:11 <@jhf:#liferay> hmm.. can you un-check the "cacheable' option?
+11:13 <@jhf:#liferay> works for me with 6.1.2
