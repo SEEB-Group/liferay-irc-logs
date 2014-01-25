@@ -46,3 +46,4 @@
 11:53 < jardineworks:#liferay> this one applies the template to the JournalArticle so I get just the raw HTML to output.
 11:53 < jardineworks:#liferay> http://pastebin.com/McRmtHDN
 11:53 < jardineworks:#liferay> then in my jsp I have a <c:forEach/> that just prints the strings.
+22:29 < jer_:#liferay> hi, everyone! i'm seeking advice on setting up a facade for a redmine server. it seems silly to ask our users to use liferay for some stuff but then switch to redmine for the good stuff it serves up. isn't there an easy way to have liferay proxy redmine?
