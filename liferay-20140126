@@ -1,1 +1,5 @@
 --- Log opened Sun Jan 26 00:00:52 2014
+14:45 < wench_:#liferay> I downloaded liferay with glassfish, and each time i try to start glassfish I get the error "There is a process already using the admin port"
+14:45 < wench_:#liferay> I changed the port multiple times and still the same error
+14:45 < wench_:#liferay> I tried to search for any process that uses this process, but can't find any!!
+14:45 < wench_:#liferay> any ideas?
