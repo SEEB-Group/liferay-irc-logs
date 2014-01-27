@@ -5,3 +5,5 @@
 11:18 < jardineworks:#liferay> more of a feature availability than an actual problem to solve.
 11:20 < jardineworks:#liferay> topolik, The auditing feature of LR. Looking at the comparison matrix between EE and CE it seems to suggest that it is not available in CE. But I can see the filter flag in the portal-ext and I can see the Audit* objects in the portal source. So is the thing that is not available basically the nice portlet that allows you to review the audit records?
 12:22 < centr0:#liferay> After deleting a theme, Liferay is still trying to reference this theme pushing warnings in catalina. WARN  [http-bio-8080-exec-95][ThemeLocalServiceImpl:149] No theme found for specified theme id summer_WAR_summertheme. Not allowing us to change the theme to a new one.  Any ideas on how to fix?
+12:34 < jardineworks:#liferay> centr0, only way I have solved that one is to remove the references from the Layout table.
+12:34 < jardineworks:#liferay> basically, go run an update setting the theme to blank ("") where the name is <bad theme id here>
