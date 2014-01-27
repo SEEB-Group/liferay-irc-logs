@@ -16,3 +16,7 @@
 14:14 < jardineworks:#liferay> http://usefulliferaytips.blogspot.ca/2012/11/performance-tuning.html
 14:15 < jardineworks:#liferay> but outside of this you need to identify the bottlenecks. Memory may help, .. how much memory have you assigned to the JVM?
 14:22 < wench_:#liferay> 1536
+14:23 < wench_:#liferay> thx jardineworks, i modified catalina.sh
+14:23 < jardineworks:#liferay> wench_, best practice is to do that stuff in a setenv.sh
+14:23 < wench_:#liferay> and i modified the jvmoptions only if the commadn is startup
+14:23 < jardineworks:#liferay> startup/catalina look for it by default.
