@@ -3,3 +3,4 @@
 05:00 < wench_:#liferay> ??
 11:18 < jardineworks:#liferay> hey topolik are you around for a quick question?
 11:18 < jardineworks:#liferay> more of a feature availability than an actual problem to solve.
+11:20 < jardineworks:#liferay> topolik, The auditing feature of LR. Looking at the comparison matrix between EE and CE it seems to suggest that it is not available in CE. But I can see the filter flag in the portal-ext and I can see the Audit* objects in the portal source. So is the thing that is not available basically the nice portlet that allows you to review the audit records?
