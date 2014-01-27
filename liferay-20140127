@@ -14,3 +14,4 @@
 14:13 < jardineworks:#liferay> wench_, There are several defacto things you can do ... let me see if I can find the link for you
 14:14 < jardineworks:#liferay> wench_, there are dozens of people all posting essentially the same thing. Here is an example of some things you can do --
 14:14 < jardineworks:#liferay> http://usefulliferaytips.blogspot.ca/2012/11/performance-tuning.html
+14:15 < jardineworks:#liferay> but outside of this you need to identify the bottlenecks. Memory may help, .. how much memory have you assigned to the JVM?
