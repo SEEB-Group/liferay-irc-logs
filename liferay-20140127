@@ -22,3 +22,5 @@
 14:23 < jardineworks:#liferay> startup/catalina look for it by default.
 14:24 < jardineworks:#liferay> then you don't have to do that check you just referenced.
 14:24 < wench_:#liferay> mmm, ok i'll move it
+16:10 < wench_:#liferay> hello, I need ur help guys. I have a fresh installation of Liferay 6.2 on tomcat, and I increase mem to 2 G. on these config i still have bad performance
+16:10 < wench_:#liferay> switching between dash & profile takes around 7 to 15 sec
