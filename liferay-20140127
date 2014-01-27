@@ -20,3 +20,5 @@
 14:23 < jardineworks:#liferay> wench_, best practice is to do that stuff in a setenv.sh
 14:23 < wench_:#liferay> and i modified the jvmoptions only if the commadn is startup
 14:23 < jardineworks:#liferay> startup/catalina look for it by default.
+14:24 < jardineworks:#liferay> then you don't have to do that check you just referenced.
+14:24 < wench_:#liferay> mmm, ok i'll move it
