@@ -8,3 +8,6 @@
 12:34 < jardineworks:#liferay> centr0, only way I have solved that one is to remove the references from the Layout table.
 12:34 < jardineworks:#liferay> basically, go run an update setting the theme to blank ("") where the name is <bad theme id here>
 12:52 < centr0:#liferay> jardineworks: Thanks! I'll look into it.
+13:46 < wench_:#liferay> hi, i need to to boost the performance of liferay on tomcat
+13:46 < wench_:#liferay> so what is the recommended config for that?
+13:46 < wench_:#liferay> will increasing memory be enough?
