@@ -17,3 +17,4 @@
 11:29 < Tar-Minyatur:#liferay> Hey guys.
 11:30 < Tar-Minyatur:#liferay> Is there a known issue that Liferay's Documents & Media library freezes occasionally when used with S3 buckets as storage?
 12:29 < jardineworks:#liferay> I think I might actually hate mysql.
+14:24 < jardineworks:#liferay> Uncaught Error: WidgetPosition needs to be added to the Widget, before WidgetPositionAlign is added  -- awesome. Can't even get past the "basic configuration" screen with 6.2
