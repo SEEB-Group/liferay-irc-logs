@@ -5,3 +5,5 @@
 04:16 < w4l:#liferay> I got a nice theme and I need to install to liferay, but can't find how to install
 04:16 < w4l:#liferay> appreciate ur help
 04:20 < bjornjohansson_:#liferay> I think you can put the themes war-file directly under the deploy-folder
+05:07 < Axxell:#liferay> Hey guys, just realied
+05:07 < Axxell:#liferay> *Hey guys, just realised that liferay 6.2 has a welcome page.. that i seem to be unable to delete... it does not have the normal editing options as other pages have
