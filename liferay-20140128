@@ -19,3 +19,5 @@
 12:29 < jardineworks:#liferay> I think I might actually hate mysql.
 14:24 < jardineworks:#liferay> Uncaught Error: WidgetPosition needs to be added to the Widget, before WidgetPositionAlign is added  -- awesome. Can't even get past the "basic configuration" screen with 6.2
 14:34 < scribe:#liferay> Just got a call about a Liferay gig in NYC if anyone is interested.  The East coast doesn't sound appealing to me right now as I sit in the sunshine by the pool in AZ.
+14:57 < jbonjean:#liferay> hi guys, do you know if there is a way to define multiple virtual hosts for a single community ?
+14:57 < jbonjean:#liferay> or it's just with mod rewrite ?
