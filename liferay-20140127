@@ -39,3 +39,7 @@
 22:34 < jardineworks:#liferay> easiest work around is to use 1.6
 22:34 < jardineworks:#liferay> or use a very early update version of 1.7
 22:34 < jardineworks:#liferay> I think pre u14
+22:36 < charith:#liferay> jardineworks: thanks, actually issue was I hv not set up JDK
+22:36 < charith:#liferay> i only had jre
+22:36 < charith:#liferay> not it is ok
+22:36 < charith:#liferay> but still i m getting an array out of bound exception
