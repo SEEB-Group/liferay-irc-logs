@@ -2,3 +2,5 @@
 00:16 < bradley:#liferay> does anyone know in velocity how when clicked to set a layout for the page
 01:03 < Ababab:#liferay> Hi. Any ideas why my Liferay is suddenly running very slowly. I was on 6.1GA2 when this started, but I upgraded to GA3 to see if the problems would disappear. Something must have updated itself I guess.. If I take a thread dump, a thread called RubyExecutor is doing lot of work all the time
 04:15 < w4l:#liferay> does anyone know to apply a bootstrap theme to liferay 6.2?
+04:16 < w4l:#liferay> I got a nice theme and I need to install to liferay, but can't find how to install
+04:16 < w4l:#liferay> appreciate ur help
