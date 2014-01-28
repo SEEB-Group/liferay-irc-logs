@@ -47,3 +47,4 @@
 22:37 < charith:#liferay> sure
 22:39 < charith:#liferay> jardineworks: http://apaste.info/31Nt
 22:40 < jardineworks:#liferay> charith, I don't actually have the 5.2.3 source on this machine. What is happening around line 273?
+22:41 < jardineworks:#liferay> in my 6.1.2 source its processing the css
