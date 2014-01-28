@@ -15,3 +15,4 @@
 07:55 < w4l:#liferay> tried to create theme, got error for UNRESOLVED DEPENDENCIES
 07:56 < w4l:#liferay> is there a manual config for LF ide to create new theme ?
 11:29 < Tar-Minyatur:#liferay> Hey guys.
+11:30 < Tar-Minyatur:#liferay> Is there a known issue that Liferay's Documents & Media library freezes occasionally when used with S3 buckets as storage?
