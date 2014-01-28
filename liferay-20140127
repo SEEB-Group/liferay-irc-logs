@@ -32,3 +32,6 @@
 16:59 < wench_:#liferay> https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/performance-tuning-liferay-portal-6-2-user-guide-20-en
 17:52 < centr0:#liferay> still having a warning message on catalina after removing themeIds from the db: WARN  [http-bio-8080-exec-1][ThemeLocalServiceImpl:149] No theme found for specified theme id . Returning the default theme. Any other ideas? :)
 21:42 < charith:#liferay> hello
+21:43 < charith:#liferay> liferay 5.2.3 is not working with java 1.7
+21:43 < charith:#liferay> it gives me No ClassLoaders found for: com.sun.image.codec.jpeg.ImageFormatException
+21:43 < charith:#liferay> any easy workaround?
