@@ -4,3 +4,4 @@
 04:15 < w4l:#liferay> does anyone know to apply a bootstrap theme to liferay 6.2?
 04:16 < w4l:#liferay> I got a nice theme and I need to install to liferay, but can't find how to install
 04:16 < w4l:#liferay> appreciate ur help
+04:20 < bjornjohansson_:#liferay> I think you can put the themes war-file directly under the deploy-folder
