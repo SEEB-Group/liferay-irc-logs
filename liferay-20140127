@@ -52,3 +52,4 @@
 22:45 < jardineworks:#liferay> can you enable debug for the strip filter and see what url it is stripping?
 22:45 < jardineworks:#liferay> (before the error occurs I mean)
 22:45 < charith:#liferay> ok, what point should i consider in it
+22:49 < jardineworks:#liferay> if you go to the admin you can set the logging level for the StripFilter (I think) to ALL. Save and rerun your test and if should log some debug level info for that class
