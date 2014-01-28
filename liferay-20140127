@@ -31,3 +31,4 @@
 16:51 < wench_:#liferay> hope it helps who may need it.
 16:59 < wench_:#liferay> https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/performance-tuning-liferay-portal-6-2-user-guide-20-en
 17:52 < centr0:#liferay> still having a warning message on catalina after removing themeIds from the db: WARN  [http-bio-8080-exec-1][ThemeLocalServiceImpl:149] No theme found for specified theme id . Returning the default theme. Any other ideas? :)
+21:42 < charith:#liferay> hello
