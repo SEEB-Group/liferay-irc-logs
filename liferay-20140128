@@ -9,3 +9,4 @@
 05:07 < Axxell:#liferay> *Hey guys, just realised that liferay 6.2 has a welcome page.. that i seem to be unable to delete... it does not have the normal editing options as other pages have
 05:11 < Axxell:#liferay> Is this normal? Havent seen this in any older versions of liferay, what could the problem be? How do i fix it?
 05:14 < Axxell:#liferay> the error i get is Current URL /group/control_panel/manage?p_p_auth=akLkWyI5&p_p_id=156&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_cacheability=cacheLevelPage&doAsGroupId=10181&refererPlid=10636&controlPanelCategory=sites&_156_treeId=layoutsTree&_156_groupId=10181&_156_tabs1=public-pages&_156_viewLayout=true&_156_redirect=%2Fgroup%2Fcontrol_panel%3FrefererPlid%3D10636%26p_p_id%3D134&_156_struts_action=%2Fgroup_pages%2Fedit_l
+05:15 < Axxell:#liferay> generates exception: String index out of range: -1
