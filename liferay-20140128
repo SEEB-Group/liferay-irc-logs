@@ -7,3 +7,4 @@
 04:20 < bjornjohansson_:#liferay> I think you can put the themes war-file directly under the deploy-folder
 05:07 < Axxell:#liferay> Hey guys, just realied
 05:07 < Axxell:#liferay> *Hey guys, just realised that liferay 6.2 has a welcome page.. that i seem to be unable to delete... it does not have the normal editing options as other pages have
+05:11 < Axxell:#liferay> Is this normal? Havent seen this in any older versions of liferay, what could the problem be? How do i fix it?
