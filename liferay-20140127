@@ -36,3 +36,6 @@
 21:43 < charith:#liferay> it gives me No ClassLoaders found for: com.sun.image.codec.jpeg.ImageFormatException
 21:43 < charith:#liferay> any easy workaround?
 22:33 < jardineworks:#liferay> charith, that is not a 5.2.3 issue... that is a java 1.7 issue
+22:34 < jardineworks:#liferay> easiest work around is to use 1.6
+22:34 < jardineworks:#liferay> or use a very early update version of 1.7
+22:34 < jardineworks:#liferay> I think pre u14
