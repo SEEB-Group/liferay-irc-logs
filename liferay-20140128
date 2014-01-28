@@ -11,3 +11,4 @@
 05:14 < Axxell:#liferay> the error i get is Current URL /group/control_panel/manage?p_p_auth=akLkWyI5&p_p_id=156&p_p_lifecycle=2&p_p_state=maximized&p_p_mode=view&p_p_cacheability=cacheLevelPage&doAsGroupId=10181&refererPlid=10636&controlPanelCategory=sites&_156_treeId=layoutsTree&_156_groupId=10181&_156_tabs1=public-pages&_156_viewLayout=true&_156_redirect=%2Fgroup%2Fcontrol_panel%3FrefererPlid%3D10636%26p_p_id%3D134&_156_struts_action=%2Fgroup_pages%2Fedit_l
 05:15 < Axxell:#liferay> generates exception: String index out of range: -1
 05:41 < Axxell:#liferay> apparently this is an open issue, can be resolved by updating db by hand https://www.liferay.com/community/forums/-/message_boards/message/32478430
+07:55 < w4l:#liferay> I have Liferay installed with LF 6.3 CE and I can't get the IDE to work correctly
