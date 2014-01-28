@@ -49,3 +49,6 @@
 22:40 < jardineworks:#liferay> charith, I don't actually have the 5.2.3 source on this machine. What is happening around line 273?
 22:41 < jardineworks:#liferay> in my 6.1.2 source its processing the css
 22:42 < charith:#liferay> jardineworks: http://grepcode.com/file/repo1.maven.org/maven2/com.liferay.portal/portal-impl/5.2.3/com/liferay/portal/servlet/filters/strip/StripFilter.java/
+22:45 < jardineworks:#liferay> can you enable debug for the strip filter and see what url it is stripping?
+22:45 < jardineworks:#liferay> (before the error occurs I mean)
+22:45 < charith:#liferay> ok, what point should i consider in it
