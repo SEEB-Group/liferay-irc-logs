@@ -35,3 +35,4 @@
 21:43 < charith:#liferay> liferay 5.2.3 is not working with java 1.7
 21:43 < charith:#liferay> it gives me No ClassLoaders found for: com.sun.image.codec.jpeg.ImageFormatException
 21:43 < charith:#liferay> any easy workaround?
+22:33 < jardineworks:#liferay> charith, that is not a 5.2.3 issue... that is a java 1.7 issue
