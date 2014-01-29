@@ -20,3 +20,6 @@
 10:45 < modd_:#liferay> but it throws this error
 10:45 < modd_:#liferay> we've solved it for now by adding that file to and ext and implementing it by ourself
 10:54 < gok_:#liferay> hi channel for alloyui?
+12:25 < jardineworks:#liferay> hey topolik... if I share a stacktrace with you, can you help me try to figure out the root cause?
+12:25 < jardineworks:#liferay> I can't seem to find the problem
+12:25 < jardineworks:#liferay> something inside Liferay is mad at me :)
