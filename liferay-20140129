@@ -75,3 +75,7 @@
 15:21 <@jhf:#liferay> hmm
 15:21 <@jhf:#liferay> can you try new TwitterApi.Authenticate().getClass() (instead of ".class")
 15:22 <@jhf:#liferay> not sure why your original doesn't work, it seems right to me
+15:23 <@jhf:#liferay> or possibly Class.forName("org.scribe.builder.api.TwitterApi.Authenticate")
+15:23 < jardineworks:#liferay> k -- just rebooting... but I'll try those.
+15:23 <@jhf:#liferay> k
+15:23 < jardineworks:#liferay> why it can't resolve the type though, when it is in the same package, doesn't make sense to me
