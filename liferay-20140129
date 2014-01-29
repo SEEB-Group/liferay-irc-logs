@@ -31,3 +31,11 @@
 15:06 <@jhf:#liferay> hey :)
 15:06 <@jhf:#liferay> in california this week so a bit disconnected
 15:06 <@jhf:#liferay> let's hear your dumb question!
+15:08 < jardineworks:#liferay> jhf, california! lucky bastard... its been -30 degrees celcius 3 days in a row here!
+15:08 <@jhf:#liferay> hahaha
+15:08 <@jhf:#liferay> well it's snow-mageddon in Atlanta
+15:08 <@jhf:#liferay> dang global warming
+15:08 < jardineworks:#liferay> jhf, ok.. I have a jsp override for the navigation.jsp ... and it adds login options for twitter and google.
+15:08 <@jhf:#liferay> k
+15:08 < jardineworks:#liferay> for both I am using the scribe API
+15:08 <@jhf:#liferay> you mean navigation.vm ?
