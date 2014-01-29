@@ -4,3 +4,8 @@
 08:09 < ferrema:#liferay> namely
 08:09 < ferrema:#liferay> it looks like there are some images missing for the image gallery
 08:09 < ferrema:#liferay> and that's causing the migration to stop
+08:10 < ferrema:#liferay> com.liferay.portlet.documentlibrary.NoSuchFileException: /home/ferrema/devel/migration/liferay-portal-6.1.2/data/document_library/0/0/11/95/119551.png/119551_1.0.png
+08:10 < ferrema:#liferay> ...
+08:10 < ferrema:#liferay> [more images missing]
+08:10 < ferrema:#liferay> Stopping the server due to unexpected startup errors
+08:10 < ferrema:#liferay> any idea on how to circumvent this ?
