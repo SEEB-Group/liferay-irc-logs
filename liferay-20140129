@@ -46,3 +46,13 @@
 15:09 <@jhf:#liferay> ok
 15:09 < jardineworks:#liferay> I have a scriptlet that tries to get a request token from tiwtter
 15:09 < jardineworks:#liferay> I use the scribe api for this
+15:10 <@jhf:#liferay> ok
+15:10 < jardineworks:#liferay> everything was woking fine untul jan 14 when stupid twitter made https mandatory
+15:10 <@jhf:#liferay> do
+15:10 < jardineworks:#liferay> so.. looking at the scribe api...
+15:10 <@jhf:#liferay> doh
+15:10 < jardineworks:#liferay> TwitterApi.class has a static inner class called Authenticate -- that version uses https
+15:10 < jardineworks:#liferay> soooooooo..
+15:10 < jardineworks:#liferay> OAuthService service = new ServiceBuilder().provider(TwitterApi.class).....
+15:10 < jardineworks:#liferay> becomes
+15:11 < jardineworks:#liferay> OAuthService service = new ServiceBuilder().provider(TwitterApi.Authenticate.class)......
