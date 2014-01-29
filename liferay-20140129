@@ -17,3 +17,5 @@
 10:39 < topolik:#liferay> I don't understand
 10:41 < topolik:#liferay> looking at the code, STRING_LOCALIZED is not specified => liferay tries to cast the argument to Map<Locale, ?>, which should be a map with localized strings
 10:44 < modd_:#liferay> the content of that field is something like {en_GB=foo;ja_JP=bar}
+10:45 < modd_:#liferay> but it throws this error
+10:45 < modd_:#liferay> we've solved it for now by adding that file to and ext and implementing it by ourself
