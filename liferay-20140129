@@ -56,3 +56,6 @@
 15:10 < jardineworks:#liferay> OAuthService service = new ServiceBuilder().provider(TwitterApi.class).....
 15:10 < jardineworks:#liferay> becomes
 15:11 < jardineworks:#liferay> OAuthService service = new ServiceBuilder().provider(TwitterApi.Authenticate.class)......
+15:11 < jardineworks:#liferay> BUT
+15:11 < jardineworks:#liferay> the jsp is telling me -- "TwitterApi.Authenticate cannot be resolved to a type
+15:11 < jardineworks:#liferay> "
