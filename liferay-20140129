@@ -67,3 +67,5 @@
 15:13 < jardineworks:#liferay> "
 15:13 < jardineworks:#liferay> but The import org.scribe.builder.api.TwitterApi does resolve :S
 15:13 <@jhf:#liferay> hmmm
+15:14 <@jhf:#liferay> as usual, I will have to do some googling because I can't ever remember the proper syntax for referring to this stuff
+15:14 <@jhf:#liferay> perhaps its supported in the VM but not in the jsp compiler.. hmm.
