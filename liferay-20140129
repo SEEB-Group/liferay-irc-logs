@@ -19,3 +19,4 @@
 10:44 < modd_:#liferay> the content of that field is something like {en_GB=foo;ja_JP=bar}
 10:45 < modd_:#liferay> but it throws this error
 10:45 < modd_:#liferay> we've solved it for now by adding that file to and ext and implementing it by ourself
+10:54 < gok_:#liferay> hi channel for alloyui?
