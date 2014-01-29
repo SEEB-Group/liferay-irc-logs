@@ -91,3 +91,4 @@
 15:37 <@jhf:#liferay> yup I bet that'll do it too
 15:37 <@jhf:#liferay> I think your issue is some jsp syntax thing
 15:39 < jardineworks:#liferay> now to figure out where the hell to find the latest jar (assuming the update is in there)
+15:49 < bradley:#liferay> does anyone know how to change page layout via a link in portal_normal.vm in velocity?
