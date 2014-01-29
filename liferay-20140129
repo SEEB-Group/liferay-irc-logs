@@ -39,3 +39,10 @@
 15:08 <@jhf:#liferay> k
 15:08 < jardineworks:#liferay> for both I am using the scribe API
 15:08 <@jhf:#liferay> you mean navigation.vm ?
+15:09 < jardineworks:#liferay> no -- the one in the login portlet
+15:09 < jardineworks:#liferay> the one that has facebook, etc.
+15:09 < jardineworks:#liferay> I override and added a few more
+15:09 <@jhf:#liferay> ahh
+15:09 <@jhf:#liferay> ok
+15:09 < jardineworks:#liferay> I have a scriptlet that tries to get a request token from tiwtter
+15:09 < jardineworks:#liferay> I use the scribe api for this
