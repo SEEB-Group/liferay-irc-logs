@@ -73,3 +73,4 @@
 15:15 < jardineworks:#liferay> one sec
 15:15 < jardineworks:#liferay> https://github.com/fernandezpablo85/scribe-java
 15:21 <@jhf:#liferay> hmm
+15:21 <@jhf:#liferay> can you try new TwitterApi.Authenticate().getClass() (instead of ".class")
