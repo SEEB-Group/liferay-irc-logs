@@ -82,3 +82,5 @@
 15:24 <@jhf:#liferay> me neither!
 15:29 < jardineworks:#liferay> @#!%
 15:29 <@jhf:#liferay> also is the class on the class path from the calling code's perspective? :)
+15:31 < jardineworks:#liferay> well, it is inside the TwitterApi.class which does not have any complaints.
+15:31 < jardineworks:#liferay> just to be sure I moved the scribe.jar into TOMCAT/lib/ext
