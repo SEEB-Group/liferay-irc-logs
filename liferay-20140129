@@ -86,3 +86,7 @@
 15:31 < jardineworks:#liferay> just to be sure I moved the scribe.jar into TOMCAT/lib/ext
 15:34 < jardineworks:#liferay> "TwitterApi.Authenticate cannot be resolved to a type"
 15:34 < jardineworks:#liferay> ultimately, I need to resolve the import --
+15:37 < jardineworks:#liferay> hmm.. git history seems to show that it was updated in the last couple of days to make TwitterApi.class use SSL be default.
+15:37 < jardineworks:#liferay> maybe new lib is the answer.
+15:37 <@jhf:#liferay> yup I bet that'll do it too
+15:37 <@jhf:#liferay> I think your issue is some jsp syntax thing
