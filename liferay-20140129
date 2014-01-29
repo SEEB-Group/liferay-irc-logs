@@ -13,3 +13,5 @@
 09:08 < modd_:#liferay> hi topolik: do you mind to have a look at this: https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/expando/service/impl/ExpandoValueLocalServiceImpl.java?source=cc#L542 - I guess STRING_LOCALIZED is missing. I'm getting a string cannot convert to map
 09:14 < modd_:#liferay> maybe it's a question for rotty3000, seems like he did write this class^^
 09:21 < modd_:#liferay> STRING_ARRAY_LOCALIZED is missing, too
+10:39 < topolik:#liferay> Hi modd_
+10:39 < topolik:#liferay> I don't understand
