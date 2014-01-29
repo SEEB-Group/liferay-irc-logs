@@ -63,3 +63,7 @@
 15:12 < jardineworks:#liferay> but that gives me a different error!
 15:12 < jardineworks:#liferay> clearly I am doing something, or not doing something wrong.
 15:12 < jardineworks:#liferay> but I can't figure out what it is... feels like chicken and egg
+15:13 < jardineworks:#liferay> the other error (the import one) is "The import org.scribe.builder.api.TwitterApi.Authenticate cannot be resolved
+15:13 < jardineworks:#liferay> "
+15:13 < jardineworks:#liferay> but The import org.scribe.builder.api.TwitterApi does resolve :S
+15:13 <@jhf:#liferay> hmmm
