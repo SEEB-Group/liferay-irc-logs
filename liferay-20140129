@@ -59,3 +59,7 @@
 15:11 < jardineworks:#liferay> BUT
 15:11 < jardineworks:#liferay> the jsp is telling me -- "TwitterApi.Authenticate cannot be resolved to a type
 15:11 < jardineworks:#liferay> "
+15:12 < jardineworks:#liferay> so I tried -- <%@ page import="org.scribe.builder.api.TwitterApi.Authenticate" %>
+15:12 < jardineworks:#liferay> but that gives me a different error!
+15:12 < jardineworks:#liferay> clearly I am doing something, or not doing something wrong.
+15:12 < jardineworks:#liferay> but I can't figure out what it is... feels like chicken and egg
