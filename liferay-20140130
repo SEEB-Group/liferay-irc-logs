@@ -47,3 +47,4 @@
 11:51 < jardineworks:#liferay> I basically want to trap the exception though and redirect the user to a general error page.
 11:52 < jardineworks:#liferay> modd, the lowest (liferay) point in the stack trace appears to be com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:79)
 12:21 < modd:#liferay> well, the lowest is not the best...I can't remember when it was the best..ever^^
+12:23 < jardineworks:#liferay> modd, lol -- fair point.
