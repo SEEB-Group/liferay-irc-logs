@@ -16,3 +16,4 @@
 03:18 < Axxell:#liferay> topolik: thanks, whatever i do it allways says that expression is undefined
 03:26 < Axxell:#liferay> ok, topolik, i got it to work with the following: http://pastebin.com/M1EfXkbf
 03:27 < Axxell:#liferay> topolik: allthough i would have liked to be able to have some sort of thumb of previewpic instead of the full version of the pics
+03:28 < topolik:#liferay> try to append &imageThumbnail=1 or &imagePreview=1 to the image URL
