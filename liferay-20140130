@@ -9,3 +9,4 @@
 02:39 < topolik:#liferay> Axxell: to be honest I haven't worked with ADT yet, but I try to look at it ;)
 02:43 < Axxell:#liferay> topolik: I added the following to portal-ext.properties: velocity.engine.restricted.classes= velocity.engine.restricted.variables= freemarker.engine.restricted.classes= freemarker.engine.restricted.variables=
 02:43 < Axxell:#liferay> toplik: allthough that didnt help..
+02:45 < Axxell:#liferay> topolik: dont know why i cant use those classes
