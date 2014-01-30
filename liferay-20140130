@@ -8,3 +8,4 @@
 02:31 < Axxell:#liferay> im a little new to freemarker too, when trying to do this:  <#assign assetPublisherUtil = utilLocator.findUtil("com.liferay.portlet.assetpublisher.util.AssetPublisherUtil")>          <#assign entryClasses = assetPublisherUtil.getClassName(entry.getAssetRendererFactory())> , I get the error: Expression assetPublisherUtil.getClassName is undefined
 02:39 < topolik:#liferay> Axxell: to be honest I haven't worked with ADT yet, but I try to look at it ;)
 02:43 < Axxell:#liferay> topolik: I added the following to portal-ext.properties: velocity.engine.restricted.classes= velocity.engine.restricted.variables= freemarker.engine.restricted.classes= freemarker.engine.restricted.variables=
+02:43 < Axxell:#liferay> toplik: allthough that didnt help..
