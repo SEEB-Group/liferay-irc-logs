@@ -6,3 +6,4 @@
 01:49 < Axxell:#liferay> topolik: maybe you have something, you allways do :)
 01:50 < Axxell:#liferay> @jhf: or maybe you have some good examples how that would be done
 02:31 < Axxell:#liferay> im a little new to freemarker too, when trying to do this:  <#assign assetPublisherUtil = utilLocator.findUtil("com.liferay.portlet.assetpublisher.util.AssetPublisherUtil")>          <#assign entryClasses = assetPublisherUtil.getClassName(entry.getAssetRendererFactory())> , I get the error: Expression assetPublisherUtil.getClassName is undefined
+02:39 < topolik:#liferay> Axxell: to be honest I haven't worked with ADT yet, but I try to look at it ;)
