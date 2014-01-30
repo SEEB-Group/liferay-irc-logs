@@ -45,3 +45,4 @@
 11:34 < modd:#liferay> it will check all portlets and demand their render-output to create the html for the user
 11:51 < jardineworks:#liferay> modd, right now I am looking at the render_portlet.jsp since that looks like a point in the stacktrace that you are talking about
 11:51 < jardineworks:#liferay> I basically want to trap the exception though and redirect the user to a general error page.
+11:52 < jardineworks:#liferay> modd, the lowest (liferay) point in the stack trace appears to be com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:79)
