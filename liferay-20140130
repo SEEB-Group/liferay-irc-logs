@@ -31,3 +31,8 @@
 09:01 < ferrema:#liferay> hi there
 09:02 < ferrema:#liferay> i was wondering if there is someone that can enlight me
 09:02 < ferrema:#liferay> i am trying to migrate an image gallery in LF 6.0.6 in order to have as little issues as possible during the migration to LF6.1x and 6.2
+09:03 < ferrema:#liferay> i am recieving an SQL error that looks like this
+09:03 < ferrema:#liferay> com.liferay.portal.convert.ConvertException: org.postgresql.util.PSQLException: ERROR: zero-length delimited identifier at or near """"
+09:03 < ferrema:#liferay> checked the sources
+09:03 < ferrema:#liferay> and in doConvert() in ConvertImageGallery.java i see the following :
+09:03 < ferrema:#liferay> 				db.runSQL("update Image set text_ = \"\"");
