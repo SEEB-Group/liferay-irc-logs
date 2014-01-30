@@ -48,3 +48,4 @@
 11:52 < jardineworks:#liferay> modd, the lowest (liferay) point in the stack trace appears to be com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:79)
 12:21 < modd:#liferay> well, the lowest is not the best...I can't remember when it was the best..ever^^
 12:23 < jardineworks:#liferay> modd, lol -- fair point.
+12:24 < jardineworks:#liferay> modd, I actually have a jsp override for portlet_error.jsp ... I am hoping to be able to rediect there.
