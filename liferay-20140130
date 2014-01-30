@@ -39,3 +39,4 @@
 09:04 < ferrema:#liferay> which is not going to work in something that is not MYSQL (Postgres in my case)
 09:04 < ferrema:#liferay> am I missing something here ?
 09:05 < ferrema:#liferay> or is it just a test that was not considered (aka a bug) and I can safely hard code '' instead of  \"\" ?
+09:43 < ferrema:#liferay> fyi : i changed the call and the library was migrated in a couple of seconds
