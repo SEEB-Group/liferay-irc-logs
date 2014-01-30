@@ -36,3 +36,5 @@
 09:03 < ferrema:#liferay> checked the sources
 09:03 < ferrema:#liferay> and in doConvert() in ConvertImageGallery.java i see the following :
 09:03 < ferrema:#liferay> 				db.runSQL("update Image set text_ = \"\"");
+09:04 < ferrema:#liferay> which is not going to work in something that is not MYSQL (Postgres in my case)
+09:04 < ferrema:#liferay> am I missing something here ?
