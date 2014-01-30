@@ -51,3 +51,4 @@
 12:24 < jardineworks:#liferay> modd, I actually have a jsp override for portlet_error.jsp ... I am hoping to be able to rediect there.
 12:33 < jardineworks:#liferay> or -- just change the jsp duh.
 12:33 < jardineworks:#liferay> is it friday yet?
+12:58 < denissignoretto:#liferay> Hi, just a question about Liferay 6.2 installation on an application server, with Java2 security already enabled on already deployed webapp. Is there documentation how to set security grants selecting only the components needed by Liferay? (sysadmins has rejected java.security.AllPermission grant)
