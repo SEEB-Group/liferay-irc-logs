@@ -18,3 +18,4 @@
 03:27 < Axxell:#liferay> topolik: allthough i would have liked to be able to have some sort of thumb of previewpic instead of the full version of the pics
 03:28 < topolik:#liferay> try to append &imageThumbnail=1 or &imagePreview=1 to the image URL
 03:45 < Axxell:#liferay> topolik: the imageThumbnail=1 one worked, but was a little low res so i put: dl.file.entry.thumbnail.max.width in portal-ext.properties
+03:48 < Axxell:#liferay> topolik: did also custom thumbnails so my thumbnail=2 was of suitable size
