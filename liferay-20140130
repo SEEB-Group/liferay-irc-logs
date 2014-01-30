@@ -24,3 +24,4 @@
 04:31 < charith:#liferay> hello
 04:31 < charith:#liferay> is there a way to disable "source" button in edit web content ?
 04:37 < modd_:#liferay> charith: you can drop it from the view
+04:38 < charith:#liferay> modd_: i want to disable it for some users, what you mean by view?
