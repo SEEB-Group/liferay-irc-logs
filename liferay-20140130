@@ -14,3 +14,5 @@
 03:16 < Axxell:#liferay> topolik: what about using some liferay classes?
 03:17 < topolik:#liferay> oh, I try
 03:18 < Axxell:#liferay> topolik: thanks, whatever i do it allways says that expression is undefined
+03:26 < Axxell:#liferay> ok, topolik, i got it to work with the following: http://pastebin.com/M1EfXkbf
+03:27 < Axxell:#liferay> topolik: allthough i would have liked to be able to have some sort of thumb of previewpic instead of the full version of the pics
