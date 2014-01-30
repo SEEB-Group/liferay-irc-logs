@@ -1,3 +1,6 @@
 --- Log opened Thu Jan 30 00:00:58 2014
 01:15 -!- mode/#liferay [+o jhf] by ChanServ
 01:47 < Axxell:#liferay> Hey guys, do any of you have an example how to make an asset publisher fremarker ftl that would only display images? Cant seem to find how to get the type of an assetentry when making an application display templates?
+01:49 < Axxell:#liferay> what i would like to do, is loop through all content that is about to be shown, and only if an asset is an image, display that image
+01:49 < Axxell:#liferay> topolik
+01:49 < Axxell:#liferay> topolik: maybe you have something, you allways do :)
