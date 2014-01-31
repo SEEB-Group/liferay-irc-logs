@@ -91,3 +91,4 @@
 12:44 < modd:#liferay> ..with option to extend^^
 12:44 <@jhf:#liferay> if it was security-related, yes. but there might be other reasons. in any case, the code fix itself is open.
 12:45 < modd:#liferay> active testing won't end after 1 year ;)
+12:47 < modd:#liferay> testing both CE and EE is a good idea because it might be fixed already in EE, so one can mention in the ticket, that it wasn't reproducible in EE but in CE...
