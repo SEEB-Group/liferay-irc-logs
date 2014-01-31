@@ -118,3 +118,5 @@
 16:48 <@jhf:#liferay> if so you may be able to get what you need via http://docs.liferay.com/portal/6.1/javadocs/com/liferay/portal/util/PortalUtil.html
 16:49 <@jhf:#liferay> but somehow I think you'll need the request
 16:51 < Tar-Minyatur:#liferay> We noticed something very odd today in our Liferay btw...we have staging and versioning enabled...and we had the problem that articles didn't get published.
+16:51 < Tar-Minyatur:#liferay> Turns out that they actually got published, but Web Content Display always shows the most recent version of an article.
+16:51 < Tar-Minyatur:#liferay> And we actually found in the DB that the max version of most articles was lower on live than on staging.
