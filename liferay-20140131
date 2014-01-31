@@ -149,3 +149,4 @@
 17:22 <@jhf:#liferay> hmm it says it was fixed in 6.1.1
 17:23 < Tar-Minyatur:#liferay> Mhm. Our developers found out that web content publishing changed between 6.1.0 and 6.1.2
 17:25 < Tar-Minyatur:#liferay> Okay.
+17:26 < Tar-Minyatur:#liferay> So apparently on 6.1.0 (our old version) when you published unmodified web content, it still created a new version on live.
