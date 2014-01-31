@@ -154,3 +154,5 @@
 17:27 < Tar-Minyatur:#liferay> What a mess.
 17:29 < Tar-Minyatur:#liferay> "As a solution we propose to synchronize staging and live versions programmatically: Delete all live entries that have greater version then the max staging entry's version. Set content from the latest live version to the version that equals max staging entry version."
 17:29 < Tar-Minyatur:#liferay> That sounds like fun. Ugh.
+17:55 < Tar-Minyatur:#liferay> Phew.
+17:55 < Tar-Minyatur:#liferay> I have no clue what we would be doing without our off-shore dev team.
