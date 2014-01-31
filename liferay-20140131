@@ -11,3 +11,4 @@
 06:27 < modd_:#liferay> try it with a copied version first
 06:35 < Krugger:#liferay> most people seem to have less problems with mysql than postgresql, so it seems it is a bad idea to change the database during this upgrade, right?
 06:43 < modd_:#liferay> yes^^
+08:46 < tom235321:#liferay> hello, last days I had problems with my Liferay Server. Its MySQL Backend has too many open connections, so liferay stop serving content. I am using hibernate without connection pools. Is it a known behavior?
