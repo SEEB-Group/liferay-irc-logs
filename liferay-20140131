@@ -150,3 +150,5 @@
 17:23 < Tar-Minyatur:#liferay> Mhm. Our developers found out that web content publishing changed between 6.1.0 and 6.1.2
 17:25 < Tar-Minyatur:#liferay> Okay.
 17:26 < Tar-Minyatur:#liferay> So apparently on 6.1.0 (our old version) when you published unmodified web content, it still created a new version on live.
+17:27 < Tar-Minyatur:#liferay> In 6.1.2 this has been fixed but of course now we have all these unnecessary versions on our live system and publishing in 6.1.2 only overwrites one of these exiting versions, which usually aren't the highest ones.
+17:27 < Tar-Minyatur:#liferay> What a mess.
