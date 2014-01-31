@@ -84,3 +84,7 @@
 12:42 < modd:#liferay> and "dev licenses" isn't necessary "dev license" would do the trick ;)
 12:42 < modd:#liferay> I think all top contributors could use these, so it would be some kind of give-back to the contributors
 12:42 <@jhf:#liferay> heh yeah. that's not a problem. but, giving access to private tickets (other than security-related tickets) I'm afraid isn't going to be allowed.
+12:43 <@jhf:#liferay> yeah, I think that all contributors should get a 1 year EE dev license. I'll see if that's doable (I think it will be).
+12:43 <@jhf:#liferay> as reward for contribution!
+12:43 < denissignoretto1:#liferay> hi guys, I left you, I'm goning to go back fighting the error "accessDeclaredMembers : Access denied (java.lang.RuntimePermission accessDeclaredMembers)" even though in liferay was.policy ear file I explicity added "permission java.lang.RuntimePermission "accessDeclaredMembers"; and permission java.security.AllPermission;" :( (sysadmin will never enable security on all server profile like in docs)
+12:43 < modd:#liferay> but after a private LPS ticket was fixed it'S supposed to be non-private...
