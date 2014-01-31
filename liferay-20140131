@@ -115,3 +115,4 @@
 16:47 < Tar-Minyatur:#liferay> I don't have a Liferay at hand to test.
 16:47 < Tar-Minyatur:#liferay> Already started into the weekend. ;)
 16:47 <@jhf:#liferay> jardineworks: can you get to portalUtil ?
+16:48 <@jhf:#liferay> if so you may be able to get what you need via http://docs.liferay.com/portal/6.1/javadocs/com/liferay/portal/util/PortalUtil.html
