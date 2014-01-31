@@ -141,3 +141,5 @@
 16:55 < jardineworks:#liferay> is xmlRequest basically the content for the journal article?
 16:56 <@jhf:#liferay> no, I think it's the xml-ified (serialized) request object. I think.
 17:02 < jardineworks:#liferay> jhf, do you know hwo I get that?
+17:20 < Tar-Minyatur:#liferay> https://issues.liferay.com/browse/LPS-25166
+17:20 < Tar-Minyatur:#liferay> Looks like that's actually an issue.
