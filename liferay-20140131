@@ -152,3 +152,5 @@
 17:26 < Tar-Minyatur:#liferay> So apparently on 6.1.0 (our old version) when you published unmodified web content, it still created a new version on live.
 17:27 < Tar-Minyatur:#liferay> In 6.1.2 this has been fixed but of course now we have all these unnecessary versions on our live system and publishing in 6.1.2 only overwrites one of these exiting versions, which usually aren't the highest ones.
 17:27 < Tar-Minyatur:#liferay> What a mess.
+17:29 < Tar-Minyatur:#liferay> "As a solution we propose to synchronize staging and live versions programmatically: Delete all live entries that have greater version then the max staging entry's version. Set content from the latest live version to the version that equals max staging entry version."
+17:29 < Tar-Minyatur:#liferay> That sounds like fun. Ugh.
