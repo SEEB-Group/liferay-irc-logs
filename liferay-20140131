@@ -88,3 +88,5 @@
 12:43 <@jhf:#liferay> as reward for contribution!
 12:43 < denissignoretto1:#liferay> hi guys, I left you, I'm goning to go back fighting the error "accessDeclaredMembers : Access denied (java.lang.RuntimePermission accessDeclaredMembers)" even though in liferay was.policy ear file I explicity added "permission java.lang.RuntimePermission "accessDeclaredMembers"; and permission java.security.AllPermission;" :( (sysadmin will never enable security on all server profile like in docs)
 12:43 < modd:#liferay> but after a private LPS ticket was fixed it'S supposed to be non-private...
+12:44 < modd:#liferay> ..with option to extend^^
+12:44 <@jhf:#liferay> if it was security-related, yes. but there might be other reasons. in any case, the code fix itself is open.
