@@ -53,3 +53,4 @@
 12:33 < jardineworks:#liferay> is it friday yet?
 12:58 < denissignoretto:#liferay> Hi, just a question about Liferay 6.2 installation on an application server, with Java2 security already enabled on already deployed webapp. Is there documentation how to set security grants selecting only the components needed by Liferay? (sysadmins has rejected java.security.AllPermission grant)
 21:27 < charith:#liferay> hello
+21:28 < charith:#liferay> is there a way to disable "source" button in edit web content ?
