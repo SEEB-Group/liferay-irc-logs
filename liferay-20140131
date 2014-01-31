@@ -102,3 +102,4 @@
 12:53 <@jhf:#liferay> whoops, wrong button
 13:11 < modd:#liferay> jhf: cool, thanks!
 16:39 < jardineworks:#liferay> jhf, do you happen to know off the top of your head how you get the current url in a VM template?
+16:40 <@jhf:#liferay> $request.attributes.CURRENT_URL ?
