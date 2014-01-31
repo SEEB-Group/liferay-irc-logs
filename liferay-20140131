@@ -1,3 +1,4 @@
 --- Log opened Fri Jan 31 00:00:00 2014
 03:04 < avinashrbhat:#liferay> has anyone used liferay 6,2 GA1?
 03:28 < avinashrbhat:#liferay> the liferay 6.2 is noticeably slower. does anyone know why it is so?
+06:04 < Krugger:#liferay> hi, just got an old 5.2 liferay portal under my care and would like to upgrade it to the latest 6.2. Is there an upgrade guide? Still reading through the documentation, but haven't seen an update chapter yet.
