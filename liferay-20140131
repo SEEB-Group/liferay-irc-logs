@@ -9,3 +9,4 @@
 06:27 < modd_:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/upgrading-liferay-liferay-portal-6-2-user-guide-18-en
 06:27 < modd_:#liferay> well, you shouldn't do it simply on your production db and data without backups
 06:27 < modd_:#liferay> try it with a copied version first
+06:35 < Krugger:#liferay> most people seem to have less problems with mysql than postgresql, so it seems it is a bad idea to change the database during this upgrade, right?
