@@ -70,3 +70,5 @@
 12:35 <@jhf:#liferay> just the ones they file
 12:35 < modd:#liferay> but customers use lesa tickets
 12:35 < modd:#liferay> I'm talking about tickets at issues.liferay.com, so jira tickets without customer context
+12:36 < modd:#liferay> and a dev license would be great for testing/finding/fixing bugs
+12:36 <@jhf:#liferay> most LPS tickets marked private are either a) security tickets (and you can volunteer to join the community security team to get access to those), or b) internal-use-only tickets like for internal QA processes, etc.
