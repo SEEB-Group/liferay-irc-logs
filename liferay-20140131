@@ -139,3 +139,4 @@
 16:55 < jardineworks:#liferay> 															);
 16:55 < jardineworks:#liferay> to return something other than null.
 16:55 < jardineworks:#liferay> is xmlRequest basically the content for the journal article?
+16:56 <@jhf:#liferay> no, I think it's the xml-ified (serialized) request object. I think.
