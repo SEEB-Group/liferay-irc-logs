@@ -13,3 +13,4 @@
 06:43 < modd_:#liferay> yes^^
 08:46 < tom235321:#liferay> hello, last days I had problems with my Liferay Server. Its MySQL Backend has too many open connections, so liferay stop serving content. I am using hibernate without connection pools. Is it a known behavior?
 09:33 -!- mode/#liferay [+o jhf] by ChanServ
+10:19 < Krugger:#liferay> tom235321: I just got my hands on liferay so I have near zero experience in liferay, but I noticed you can control the amount of connection to the database in the portal-ext.properties file
