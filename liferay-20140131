@@ -124,3 +124,18 @@
 16:52 < Tar-Minyatur:#liferay> Is that by any chance a known issue?
 16:54 <@jhf:#liferay> haven't heard of that one Tar-Minyatur
 16:54 <@jhf:#liferay> search issues.liferay.com ?
+16:55 < Tar-Minyatur:#liferay> I took a quick look and didn't find anything.
+16:55 < jardineworks:#liferay> sorry guys
+16:55 < jardineworks:#liferay> new issue
+16:55 < Tar-Minyatur:#liferay> Couldn't spend much time though.
+16:55 < jardineworks:#liferay> I would love to know how to get JournalContentUtil.getDisplay(themeDisplay.getScopeGroupId(),
+16:55 < jardineworks:#liferay> 																articleId,
+16:55 < jardineworks:#liferay> 																templateId,
+16:55 < jardineworks:#liferay> 																PortletMode.VIEW.toString(),
+16:55 < jardineworks:#liferay> 																themeDisplay.getLanguageId(), 																
+16:55 < jardineworks:#liferay> 																themeDisplay,
+16:55 < jardineworks:#liferay> 																1,
+16:55 < jardineworks:#liferay> 																article.getContent()
+16:55 < jardineworks:#liferay> 															);
+16:55 < jardineworks:#liferay> to return something other than null.
+16:55 < jardineworks:#liferay> is xmlRequest basically the content for the journal article?
