@@ -5,3 +5,4 @@
 06:24 < modd_:#liferay> hi rotty3000, I've created a ticket for my problem I mentioned last time: LPS-43932 (the formating is a bit wrong but I can't edit it anymore :\)
 06:24 < modd_:#liferay> Krugger: yep, there's a upgrade guide
 06:25 < Krugger:#liferay> but the upgrade instruction are just like decompress the new version and point it to your database, is it really that simple?
+06:26 < Krugger:#liferay> I am thinking of testing it out in a VM before I destroy production
