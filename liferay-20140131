@@ -75,3 +75,6 @@
 12:37 <@jhf:#liferay> hmm.. dev licenses I could probably do.
 12:37 < modd:#liferay> yep. after patching these tickets it would be nice to see them
 12:38 < modd:#liferay> lps tickets are hidden for eternity^^
+12:38 <@jhf:#liferay> security tickets are *supposed* to be un-hidden (and sanitized) after the issue is resolved for customers.
+12:38 <@jhf:#liferay> but if they are not, you can email cst@liferay.com
+12:38 <@jhf:#liferay> (community security team)
