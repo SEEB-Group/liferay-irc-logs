@@ -6,3 +6,6 @@
 06:24 < modd_:#liferay> Krugger: yep, there's a upgrade guide
 06:25 < Krugger:#liferay> but the upgrade instruction are just like decompress the new version and point it to your database, is it really that simple?
 06:26 < Krugger:#liferay> I am thinking of testing it out in a VM before I destroy production
+06:27 < modd_:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/upgrading-liferay-liferay-portal-6-2-user-guide-18-en
+06:27 < modd_:#liferay> well, you shouldn't do it simply on your production db and data without backups
+06:27 < modd_:#liferay> try it with a copied version first
