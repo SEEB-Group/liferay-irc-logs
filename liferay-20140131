@@ -39,3 +39,9 @@
 12:14 < modd:#liferay> yes
 12:14 <@jhf:#liferay> also, doclib was disabled for general use due to security issues discovered last year. so yeah you can still upload files like images but other types I believe are not allowed and will fail.
 12:14 < modd:#liferay> it's some kind of security issue so I thought it's a good idea to tell you
+12:15 < modd:#liferay> didn't try anything else
+12:15 <@jhf:#liferay> yeah.... people were uploading malicious .swf files and then sending links to them with XSS attacks in the URLs
+12:15 < denissignoretto1:#liferay> thank you modd, 2013 has been a great year, I was at DevCon and it was a really powerful experience!
+12:15 < modd:#liferay> but on the other hand, using it for such things like screenshots would be nice
+12:15 < modd:#liferay> devcon? in berlin?
+12:15 <@jhf:#liferay> yeah. it's possible in the blog editor but you can't get to a page with a document library portlet on it.
