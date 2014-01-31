@@ -45,3 +45,7 @@
 12:15 < modd:#liferay> but on the other hand, using it for such things like screenshots would be nice
 12:15 < modd:#liferay> devcon? in berlin?
 12:15 <@jhf:#liferay> yeah. it's possible in the blog editor but you can't get to a page with a document library portlet on it.
+12:16 < modd:#liferay> but I can get the files via link
+12:16 < denissignoretto1:#liferay> jhf and modd, about blog, I was able to upload small images
+12:16 <@jhf:#liferay> yes, that's by design - for embedding images into your blog posts
+12:16 < denissignoretto1:#liferay> yes modd, in Berlin
