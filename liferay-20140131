@@ -107,3 +107,8 @@
 16:44 < Tar-Minyatur:#liferay> jardineworks: Theme oder journal template?
 16:44 < jardineworks:#liferay> journal template
 16:45 <@jhf:#liferay> well.. without the request object.. I don't see how you could get it, except with client-side javascript / window.location kind of stuff
+16:46 <@jhf:#liferay> can you call services like *LocalServiceUtil and PortalUtil.* ?
+16:46 < Tar-Minyatur:#liferay> Velocity provides a LinkTool that has getURI().
+16:46 < Tar-Minyatur:#liferay> Is that available in journal templates?
+16:46 <@jhf:#liferay> we do insert *some* VelocityTools
+16:46 <@jhf:#liferay> dunno if we have a linkTool though.. checking
