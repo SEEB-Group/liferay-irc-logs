@@ -60,3 +60,7 @@
 12:29 < modd:#liferay> so yes, some kind of top contributor ticket access^^
 12:30 < modd:#liferay> and dev ee license to do testings..currently I'm testing remote with the dev portal of a customer :\
 12:30 < modd:#liferay> like with my last ticket from above
+12:33 <@jhf:#liferay> hey modd so in that ticket (LPS-43932) it should be fixed in an upcoming service pack for 6.2. But it's not yet available.
+12:33 <@jhf:#liferay> and which private ticket does your ticket reference?
+12:33 < modd:#liferay> no, not this time
+12:33 < modd:#liferay> some weeks ago, as I asked the first time for it, I had a ticket I couldn't check out
