@@ -104,3 +104,5 @@
 16:39 < jardineworks:#liferay> jhf, do you happen to know off the top of your head how you get the current url in a VM template?
 16:40 <@jhf:#liferay> $request.attributes.CURRENT_URL ?
 16:42 < jardineworks:#liferay> @(*&$! -- but remember I have the issue where my $request object is empty!
+16:44 < Tar-Minyatur:#liferay> jardineworks: Theme oder journal template?
+16:44 < jardineworks:#liferay> journal template
