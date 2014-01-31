@@ -122,3 +122,5 @@
 16:51 < Tar-Minyatur:#liferay> And we actually found in the DB that the max version of most articles was lower on live than on staging.
 16:52 < Tar-Minyatur:#liferay> => Publishing lead to an overwrite of an older version on live and thus the change didn't show.
 16:52 < Tar-Minyatur:#liferay> Is that by any chance a known issue?
+16:54 <@jhf:#liferay> haven't heard of that one Tar-Minyatur
+16:54 <@jhf:#liferay> search issues.liferay.com ?
