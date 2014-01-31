@@ -94,3 +94,6 @@
 12:47 < modd:#liferay> testing both CE and EE is a good idea because it might be fixed already in EE, so one can mention in the ticket, that it wasn't reproducible in EE but in CE...
 12:48 < modd:#liferay> maybe even find the patch note in EE patches
 12:48 < modd:#liferay> or if it's a problem in both versions it's a good informatino for lr to fix it for the customers
+12:50 < modd:#liferay> I don't need access to lesa tickets in such cases but I can mark the ticket as private/security, if it's an issue in EE, too
+12:50 < modd:#liferay> ..if it's security related of course
+12:51 <@jhf:#liferay> yeah, that's always a good idea so would appreciate it if you mark it security (even if it's CE only bug)
