@@ -112,3 +112,6 @@
 16:46 < Tar-Minyatur:#liferay> Is that available in journal templates?
 16:46 <@jhf:#liferay> we do insert *some* VelocityTools
 16:46 <@jhf:#liferay> dunno if we have a linkTool though.. checking
+16:47 < Tar-Minyatur:#liferay> I don't have a Liferay at hand to test.
+16:47 < Tar-Minyatur:#liferay> Already started into the weekend. ;)
+16:47 <@jhf:#liferay> jardineworks: can you get to portalUtil ?
