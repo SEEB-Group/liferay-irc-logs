@@ -143,3 +143,6 @@
 17:02 < jardineworks:#liferay> jhf, do you know hwo I get that?
 17:20 < Tar-Minyatur:#liferay> https://issues.liferay.com/browse/LPS-25166
 17:20 < Tar-Minyatur:#liferay> Looks like that's actually an issue.
+17:21 < Tar-Minyatur:#liferay> So we proabably need to patch our Liferay with that fix.
+17:21 <@jhf:#liferay> what version are you on?
+17:21 < Tar-Minyatur:#liferay> 6.1.2
