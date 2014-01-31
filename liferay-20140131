@@ -90,3 +90,4 @@
 12:43 < modd:#liferay> but after a private LPS ticket was fixed it'S supposed to be non-private...
 12:44 < modd:#liferay> ..with option to extend^^
 12:44 <@jhf:#liferay> if it was security-related, yes. but there might be other reasons. in any case, the code fix itself is open.
+12:45 < modd:#liferay> active testing won't end after 1 year ;)
