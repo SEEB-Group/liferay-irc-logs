@@ -35,3 +35,7 @@
 12:07 < modd:#liferay> the editor^^
 12:09 < modd:#liferay> I also wonder if there are any news on having access to non-public tickets and/or a EE dev license
 12:12 < modd:#liferay> denissignoretto1: congrats on the new title ;)
+12:14 <@jhf:#liferay> modd: were you authoring a blog post? because the forum post editor doesn't have this.
+12:14 < modd:#liferay> yes
+12:14 <@jhf:#liferay> also, doclib was disabled for general use due to security issues discovered last year. so yeah you can still upload files like images but other types I believe are not allowed and will fail.
+12:14 < modd:#liferay> it's some kind of security issue so I thought it's a good idea to tell you
