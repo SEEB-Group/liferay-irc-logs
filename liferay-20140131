@@ -147,3 +147,4 @@
 17:21 <@jhf:#liferay> what version are you on?
 17:21 < Tar-Minyatur:#liferay> 6.1.2
 17:22 <@jhf:#liferay> hmm it says it was fixed in 6.1.1
+17:23 < Tar-Minyatur:#liferay> Mhm. Our developers found out that web content publishing changed between 6.1.0 and 6.1.2
