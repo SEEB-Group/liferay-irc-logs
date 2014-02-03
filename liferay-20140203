@@ -47,3 +47,8 @@
 13:17 < whatsoever:#liferay> im trying the first way now, ty and second
 13:18 < whatsoever:#liferay> nice, seems to work :D
 13:19 < whatsoever:#liferay> now another problem: i need a PortletContext / ApplicationContext: i used actionRequest to get it and it worked: But when i use actionrequest , ive always had an form where i pressed a button ... any other ways to do that?
+13:27 < jardineworks:#liferay> whatsoever, I think you can get the context from the renderRequest as well which is available in the jsp already as "renderRequest"
+13:27 < jardineworks:#liferay> without the quotes obviously
+13:27 < whatsoever:#liferay> hm well
+13:27 < whatsoever:#liferay> i dont want to use the jsp to connect to the API, so i want to do it in functions
+13:27 < whatsoever:#liferay> its looking like that atm: http://pastebin.com/JcgQUfGe
