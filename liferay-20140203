@@ -52,3 +52,4 @@
 13:27 < whatsoever:#liferay> hm well
 13:27 < whatsoever:#liferay> i dont want to use the jsp to connect to the API, so i want to do it in functions
 13:27 < whatsoever:#liferay> its looking like that atm: http://pastebin.com/JcgQUfGe
+13:31 < whatsoever:#liferay> hmmm, can i get the context in my jsp and call the function with the context?
