@@ -45,3 +45,4 @@
 13:16 < jardineworks:#liferay> then tc.[yourmethodname]()
 13:16 < jardineworks:#liferay> whatsoever, or, make the method static and just do TestConnect.[yourmethodname]();
 13:17 < whatsoever:#liferay> im trying the first way now, ty and second
+13:18 < whatsoever:#liferay> nice, seems to work :D
