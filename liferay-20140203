@@ -15,3 +15,5 @@
 12:30 < jardineworks:#liferay> I know you can use the PortalUtil to set the description and the page title dynamically, but I can't seem to find a way to add meta-tags.
 12:30 < jardineworks:#liferay> would it just be portletResponse.setHeader("...", "...");??
 12:31 < jardineworks:#liferay> wait -- that doesn't make sense.
+12:53 < _pier:#liferay> @jardineworks you can use <liferay-util:html-top />
+12:54 < _pier:#liferay> portletResponse.setHeader is for HTTP headers
