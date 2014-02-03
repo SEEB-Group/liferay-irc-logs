@@ -12,3 +12,5 @@
 12:05 -!- mode/#liferay [+o rotty3000] by ChanServ
 12:09 -!- mode/#liferay [+o jhf] by ChanServ
 12:25 < jardineworks:#liferay> jhf, rotty3000 do either of you know if it is possible to set meta tags in a page programatically (from the portlets on the page?)
+12:30 < jardineworks:#liferay> I know you can use the PortalUtil to set the description and the page title dynamically, but I can't seem to find a way to add meta-tags.
+12:30 < jardineworks:#liferay> would it just be portletResponse.setHeader("...", "...");??
