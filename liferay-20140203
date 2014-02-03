@@ -60,3 +60,6 @@
 13:57 < modd:#liferay> yep
 13:57 < whatsoever:#liferay> kk
 14:08 -!- ServerMode/#liferay [+o ChanServ] by sendak.freenode.net
+14:30 < bijoo_:#liferay> Hi, I'm compiling list of upgrade tasks. We have one big portlet project, one theme. They are tightly coupled and need other. Project has dozens of portlets and hooks; dozens of service builder entities.
+14:30 < bijoo_:#liferay> 1) Liferay Services API changes (minimal)
+14:30 < bijoo_:#liferay> 2) Upgrade theme since 6.2 uses Bootstrap
