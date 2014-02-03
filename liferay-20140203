@@ -36,3 +36,5 @@
 13:00 < _pier:#liferay> have a look at the html source :D
 13:00 < _pier:#liferay> *of a project
 13:11 < whatsoever:#liferay> hi guys, how can i call a function from my .java file in my (e.g) view.jsp ?
+13:15 < whatsoever:#liferay> my java  file is called "TestConnect.java", so i did an import: <%@page import="com.test.TestConnect" %>   is that right? if i wanna call a function from the java file, it says: The method getProcesses() is undefined for the type   __2F_testApi_2D_portlet_2F_docroot_2F_html_2F_testconnect_2F_view_2E_jsp
+13:15 < jardineworks:#liferay> _pier, awesome. Just what I am looking for. Thanks.
