@@ -23,3 +23,5 @@
 12:56 < _pier:#liferay> there’s also liferay-util:html-bottom
 12:56 < _pier:#liferay> which puts content just before the body closes,
 12:56 < _pier:#liferay> if I remember correctly
+12:57 < jardineworks:#liferay> _pier, so if I do <liferay-util:html-top><meta name="og:title" value="this is my title"/></liferay-util:html-top> then it'll add that tag to the <head></head> section?
+12:57 < jardineworks:#liferay> and I can do that from any jsp in a plugin?
