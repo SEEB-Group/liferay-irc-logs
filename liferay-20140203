@@ -65,3 +65,5 @@
 14:30 < bijoo_:#liferay> 2) Upgrade theme since 6.2 uses Bootstrap
 14:31 < bijoo_:#liferay> 3) Update hook overrides to 6.2
 14:32 < bijoo_:#liferay> 4) I just found in the User Guide, this piece: http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/upgrading-liferay-liferay-portal-6-2-user-guide-18-en
+14:33 < bijoo_:#liferay> It's strange PortalUtil.renderPage was taken out and not deprecated (from 6.1 -> 6.2)
+14:33 < bijoo_:#liferay> But then again, that question's been answered : http://www.liferay.com/community/forums/-/message_boards/message/31373152
