@@ -56,3 +56,5 @@
 13:34 < whatsoever:#liferay> ohoh, what the f*** is this O_O java.lang.OutOfMemoryError: PermGen space
 13:49 < whatsoever:#liferay> anything to do with renderRequest?
 13:55 < modd:#liferay> whatsoever: that happens if you deploy too many times
+13:56 < whatsoever:#liferay> so restart everything ?
+13:57 < modd:#liferay> yep
