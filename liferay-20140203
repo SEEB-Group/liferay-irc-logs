@@ -18,3 +18,8 @@
 12:53 < _pier:#liferay> @jardineworks you can use <liferay-util:html-top />
 12:54 < _pier:#liferay> portletResponse.setHeader is for HTTP headers
 12:54 < jardineworks:#liferay> _pier, right -- I realized your second comment as soon as I wrote it. It has nothing to do with the document :). I'll check out the first one though! I didn't know about that one.
+12:56 < _pier:#liferay> It’s a buffer which injects the buffered content into the WebKeys.HTML_TOP request attribute
+12:56 < _pier:#liferay> which is then spit out in the html head
+12:56 < _pier:#liferay> there’s also liferay-util:html-bottom
+12:56 < _pier:#liferay> which puts content just before the body closes,
+12:56 < _pier:#liferay> if I remember correctly
