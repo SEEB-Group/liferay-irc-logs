@@ -63,3 +63,4 @@
 14:30 < bijoo_:#liferay> Hi, I'm compiling list of upgrade tasks. We have one big portlet project, one theme. They are tightly coupled and need other. Project has dozens of portlets and hooks; dozens of service builder entities.
 14:30 < bijoo_:#liferay> 1) Liferay Services API changes (minimal)
 14:30 < bijoo_:#liferay> 2) Upgrade theme since 6.2 uses Bootstrap
+14:31 < bijoo_:#liferay> 3) Update hook overrides to 6.2
