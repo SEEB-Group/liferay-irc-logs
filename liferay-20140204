@@ -18,3 +18,5 @@
 09:52 < Tar-Minyatur:#liferay> Does Liferay stream the content from S3 to the user or is the user being redirected to S3?
 09:52 <@jhf:#liferay> Tar-Minyatur: it redirects to S3 I believe. checking.
 09:52 <@jhf:#liferay> also I am assuming you are referring to the use of the S3 document library storage hook
+09:53 < Tar-Minyatur:#liferay> Yes, exactly.
+09:53 < Tar-Minyatur:#liferay> From what I can see, there is no redirect...Liferay sends a 200 und then I'm receiving the file.
