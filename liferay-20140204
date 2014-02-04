@@ -36,3 +36,8 @@
 09:58 <@jhf:#liferay> yeah, I guess yer right. so when you click on 'download' you want it to be a URL directly to the S3 storage location, not copied to a temp directory and served via liferay (or liferay's web server that fronts it)
 09:59 < Tar-Minyatur:#liferay> It would also be okay if Liferay replied with a Location header and a 301 or something.
 10:00 < Tar-Minyatur:#liferay> Because the idea is to have a permanent URL for the document, which is totally unrelated to the actual storage location.
+10:02 <@jhf:#liferay> yeah I'm not seeing that option. presumably the connection to S3 requires auth (I see settings for keys and such in portal.propertieS) and the end user (and their browser) can't currently supply this
+10:02 <@jhf:#liferay> so the data must be accessed from the (configured for auth) server?
+10:02 < Tar-Minyatur:#liferay> You can set an S3 to public.
+10:02 < Tar-Minyatur:#liferay> We do that actually.
+10:02 < Tar-Minyatur:#liferay> Any user can access any file on there if he knows the URL.
