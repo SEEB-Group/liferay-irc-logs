@@ -13,3 +13,5 @@
 07:35 < ferrema:#liferay> i was wondering if there was a way of setting liferay.home in the startup script (eg. catalina.sh)
 09:31 -!- mode/#liferay [+o jhf] by ChanServ
 09:50 < Tar-Minyatur:#liferay> Hey guys.
+09:51 < Tar-Minyatur:#liferay> Anyone got experience with using S3 with Liferay?
+09:51 < Tar-Minyatur:#liferay> I'm currently wondering what exactly happens when a document is being requested that is actually stored on S3.
