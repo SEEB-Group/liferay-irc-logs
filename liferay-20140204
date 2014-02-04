@@ -57,3 +57,7 @@
 11:02 <@jhf:#liferay> denissignoretto: !
 11:03 <@jhf:#liferay> _pier was here yesterday but freenode was DDoS'd so we had to postpone the drawing.
 11:03 <@jhf:#liferay> _pier: !
+11:04 < _pier:#liferay> here we are :D
+11:04 <@jhf:#liferay> ok guys thanks for showing up. the way this works is that I am going to write down the names of each contributor in a string, and SHA-1 hash it and tell you the hash
+11:04 <@jhf:#liferay> then I am going to ask a volunteer to pick a random number
+11:04 <@jhf:#liferay> and then I will reveal the original string (which you can confirm via your own SHA-1 calculation)
