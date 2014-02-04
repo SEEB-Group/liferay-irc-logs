@@ -74,3 +74,8 @@
 11:07 <@jhf:#liferay> brb got a conference call.
 11:07 < jardineworks:#liferay> hahah
 11:07 < jardineworks:#liferay> suspenseful!
+11:08 <@jhf:#liferay> hahaha j/k the winner is meera!!! sorry _pier and denis, tanks for all you for us.
+11:08 <@jhf:#liferay> the string was "pier=1,denis=2,meera=3 and this is so you cant cheat"
+11:08 <@jhf:#liferay> echo -n 'pier=1,denis=2,meera=3 and this is so you cant cheat' | openssl sha1
+11:08 <@jhf:#liferay> (stdin)= 3d44e6f219449c762226d3b0768a85e12d1262fd
+11:08 <@jhf:#liferay> dang I was hoping it would be one of the guys that showed up here today!
