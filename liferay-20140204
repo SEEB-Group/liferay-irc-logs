@@ -35,3 +35,4 @@
 09:57 < Tar-Minyatur:#liferay> Which seems to be just as bad.
 09:58 <@jhf:#liferay> yeah, I guess yer right. so when you click on 'download' you want it to be a URL directly to the S3 storage location, not copied to a temp directory and served via liferay (or liferay's web server that fronts it)
 09:59 < Tar-Minyatur:#liferay> It would also be okay if Liferay replied with a Location header and a 301 or something.
+10:00 < Tar-Minyatur:#liferay> Because the idea is to have a permanent URL for the document, which is totally unrelated to the actual storage location.
