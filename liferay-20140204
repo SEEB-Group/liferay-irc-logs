@@ -20,3 +20,8 @@
 09:52 <@jhf:#liferay> also I am assuming you are referring to the use of the S3 document library storage hook
 09:53 < Tar-Minyatur:#liferay> Yes, exactly.
 09:53 < Tar-Minyatur:#liferay> From what I can see, there is no redirect...Liferay sends a 200 und then I'm receiving the file.
+09:54 <@jhf:#liferay> hmm
+09:54 <@jhf:#liferay> yeah I think yer right!
+09:54 < Tar-Minyatur:#liferay> That's not good. -.-
+09:54 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/4215f8c402c4753dc8fab7c89f06562b6dc8aa8e/portal-impl/src/com/liferay/portlet/documentlibrary/store/S3Store.java#L194
+09:54 < Tar-Minyatur:#liferay> This will cause some f*ed up traffic increase on our Liferay.
