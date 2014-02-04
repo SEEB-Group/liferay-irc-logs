@@ -41,3 +41,4 @@
 10:02 < Tar-Minyatur:#liferay> You can set an S3 to public.
 10:02 < Tar-Minyatur:#liferay> We do that actually.
 10:02 < Tar-Minyatur:#liferay> Any user can access any file on there if he knows the URL.
+10:05 <@jhf:#liferay> yeah I'm not seeing a possibility to configure the store to give you a direct URL vs. streaming the file
