@@ -45,3 +45,9 @@
 10:41 < jardineworks:#liferay> jhf,  since you guys are on the subject in a way. Is it possible to access an item that is in the document library (image) outside the portal context? Is that a WebDAV thingee?
 10:46 <@jhf:#liferay> jardineworks: that's one way, yeah. I mean, it's still Liferay (via a webdav library) that is serving the file.
 10:46 <@jhf:#liferay> so sorta/kinda in the "portal context" still but not really.
+10:54 < jardineworks:#liferay> jhf, is there another way?
+10:54 < jardineworks:#liferay> I'm looking for the easiest possible here
+10:54 <@jhf:#liferay> what do you mean "outside the portal context"
+10:54 <@jhf:#liferay> there is a URL you can get via DL
+10:54 <@jhf:#liferay> is that URL acceptable?
+10:54 <@jhf:#liferay> it goes through the doclib portlet I believe.
