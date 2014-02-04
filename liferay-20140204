@@ -42,3 +42,4 @@
 10:02 < Tar-Minyatur:#liferay> We do that actually.
 10:02 < Tar-Minyatur:#liferay> Any user can access any file on there if he knows the URL.
 10:05 <@jhf:#liferay> yeah I'm not seeing a possibility to configure the store to give you a direct URL vs. streaming the file
+10:41 < jardineworks:#liferay> jhf,  since you guys are on the subject in a way. Is it possible to access an item that is in the document library (image) outside the portal context? Is that a WebDAV thingee?
