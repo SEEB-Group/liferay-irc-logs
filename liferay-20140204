@@ -28,3 +28,8 @@
 09:55 <@jhf:#liferay> wonder if there is a config to disable straming
 09:55 <@jhf:#liferay> streaming..
 09:55 <@jhf:#liferay> since there seems to be a non-streamed access code in there too
+09:57 < Tar-Minyatur:#liferay> I only see getFile() instead of getFileAsStream().
+09:57 < Tar-Minyatur:#liferay> So you see something I don't?
+09:57 <@jhf:#liferay> I see both
+09:57 < Tar-Minyatur:#liferay> Because getFile() seems to download the file and then return it.
+09:57 < Tar-Minyatur:#liferay> Which seems to be just as bad.
