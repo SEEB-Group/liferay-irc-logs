@@ -54,3 +54,4 @@
 10:57 < jardineworks:#liferay> jhf, well, I am looking to embed the image in a og:image for facebook... so I need it to be http://host.com/... blah blah blah
 10:57 < jardineworks:#liferay> right now the image url I am getting from the journal article is /documents.....
 10:57 <@jhf:#liferay> sure, you can prepend it with the portal URL no?
+11:02 <@jhf:#liferay> denissignoretto: !
