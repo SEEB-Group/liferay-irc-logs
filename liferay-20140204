@@ -61,3 +61,7 @@
 11:04 <@jhf:#liferay> ok guys thanks for showing up. the way this works is that I am going to write down the names of each contributor in a string, and SHA-1 hash it and tell you the hash
 11:04 <@jhf:#liferay> then I am going to ask a volunteer to pick a random number
 11:04 <@jhf:#liferay> and then I will reveal the original string (which you can confirm via your own SHA-1 calculation)
+11:05 <@jhf:#liferay> and the (hopefully) random number will reveal the winner :)
+11:05 < _pier:#liferay> cool :)
+11:05 <@jhf:#liferay> it's not fool proof, because the person picking the number MIGHT be under my influence, but I haven't found a good way to escrow a random number choice
+11:05 <@jhf:#liferay> sooooo jardineworks want to be the person to pick the number (not yet though)?
