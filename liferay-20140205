@@ -7,3 +7,4 @@
 06:16 < ferrema:#liferay> as far as I can understand latest stable solr is 4.6.1
 06:17 < ferrema:#liferay> looking at the solr-web plugin I can see that the solr libs refer to solr 1.4.1
 06:17 < ferrema:#liferay> this leads to errors when trying to index : Invalid version or the data in not in 'javabin' format
+06:18 < ferrema:#liferay> which is likely due to the fact that solr-core and solr-solrj that the plugin refers to are the wrong version
