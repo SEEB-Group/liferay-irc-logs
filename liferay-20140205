@@ -8,3 +8,7 @@
 06:17 < ferrema:#liferay> looking at the solr-web plugin I can see that the solr libs refer to solr 1.4.1
 06:17 < ferrema:#liferay> this leads to errors when trying to index : Invalid version or the data in not in 'javabin' format
 06:18 < ferrema:#liferay> which is likely due to the fact that solr-core and solr-solrj that the plugin refers to are the wrong version
+06:19 < ferrema:#liferay> trying to merely update the jars leads to compilation problems (eg): ERROR in /home/ferrema/devel/liferay6.1/workspace/liferay-plugins/webs/solr-web/docroot/WEB-INF/src/com/liferay/portal/search/solr/server/SolrServerFactoryImpl.java (at line 22)
+06:19 < ferrema:#liferay>     [javac] 	import org.apache.solr.client.solrj.SolrServer;
+06:19 < ferrema:#liferay> so the question is :
+06:19 < ferrema:#liferay> is there any chance to get an updated solr-web plugin ?
