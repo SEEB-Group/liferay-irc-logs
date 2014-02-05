@@ -36,3 +36,8 @@
 16:39 <@jhf:#liferay> not as pretty though
 16:39 < jardineworks:#liferay> cool!
 16:39 < jardineworks:#liferay> wait... 6.1.2?
+16:40 <@jhf:#liferay> yeah
+16:40 < jardineworks:#liferay> so you have a request object in your version?
+16:40 <@jhf:#liferay> yep, it's (almost) always there.
+16:40 <@jhf:#liferay> remember there's that one bug that makes it not show up when viewing it in asset publisher, unless "full content" view mode is selected.
+16:40 < jardineworks:#liferay> do you know what causes it to not be there the unalmost times?
