@@ -12,3 +12,4 @@
 06:19 < ferrema:#liferay>     [javac] 	import org.apache.solr.client.solrj.SolrServer;
 06:19 < ferrema:#liferay> so the question is :
 06:19 < ferrema:#liferay> is there any chance to get an updated solr-web plugin ?
+06:20 < ferrema:#liferay> alternatively : which version of apache-solr server is needed for liferay 6.1.3 ?
