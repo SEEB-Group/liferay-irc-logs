@@ -22,3 +22,5 @@
 14:16 < Redxross:#liferay> anyone every try doing something like that? using play app's as a port let?
 14:41 < Redxross:#liferay> anyone home?
 14:41 < Tar-Minyatur:#liferay> Yes, but I can't really help you.
+14:42 < Tar-Minyatur:#liferay> Haven't done much with play.
+14:42 < Tar-Minyatur:#liferay> I would assume that you will have to wrap your applications in the necessary portlet code.
