@@ -5,3 +5,5 @@
 06:14 < ferrema:#liferay> i am trying to integrate solr into liferay 6.1
 06:15 < ferrema:#liferay> i *think* the liferay plugin for solr (forked from git, version 6.1.3) is linked with an out dated solr
 06:16 < ferrema:#liferay> as far as I can understand latest stable solr is 4.6.1
+06:17 < ferrema:#liferay> looking at the solr-web plugin I can see that the solr libs refer to solr 1.4.1
+06:17 < ferrema:#liferay> this leads to errors when trying to index : Invalid version or the data in not in 'javabin' format
