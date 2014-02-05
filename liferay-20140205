@@ -32,3 +32,7 @@
 16:37 <@jhf:#liferay> see the bottom of https://www.liferay.com/community/forums/-/message_boards/message/33824647 to see a screenshot and get a pointer to the script
 16:37 <@jhf:#liferay> here's the script: https://gist.github.com/jamesfalkner/8832377
 16:38 <@jhf:#liferay> didn't try it on 6.1 yet, just 6.2, but gonna try 6.1 now
+16:39 <@jhf:#liferay> works on 6.1 too, yay
+16:39 <@jhf:#liferay> not as pretty though
+16:39 < jardineworks:#liferay> cool!
+16:39 < jardineworks:#liferay> wait... 6.1.2?
