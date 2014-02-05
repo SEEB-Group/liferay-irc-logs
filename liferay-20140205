@@ -28,3 +28,4 @@
 15:51 <@jhf:#liferay> jardineworks:
 16:35 < jardineworks:#liferay> jhf!
 16:35 < jardineworks:#liferay> whats up?
+16:37 <@jhf:#liferay> just wanted to let you know I went crazy and made a "dump everything that's available" freemarker script to dump all variables and values in web content templates, themes, etc.
