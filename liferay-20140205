@@ -25,3 +25,4 @@
 14:42 < Tar-Minyatur:#liferay> Haven't done much with play.
 14:42 < Tar-Minyatur:#liferay> I would assume that you will have to wrap your applications in the necessary portlet code.
 14:51 < Redxross:#liferay> would love to see an example of that.. doesn't have to be play.. just liferay portlet being used to wrap something running in another container
+15:51 <@jhf:#liferay> jardineworks:
