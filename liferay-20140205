@@ -1,3 +1,5 @@
 --- Log opened Wed Feb 05 00:00:07 2014
 00:25 < bijoo_:#liferay> \quit
 01:15 < Axxell:#liferay> hey guys, im having problems with liferay 6.1 and vaadin 6.7.4.. apparently IE11 doesnt like vaadin ajax loading itself
+06:14 < ferrema:#liferay> good morning
+06:14 < ferrema:#liferay> i am trying to integrate solr into liferay 6.1
