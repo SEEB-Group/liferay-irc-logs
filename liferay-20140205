@@ -14,3 +14,4 @@
 06:19 < ferrema:#liferay> is there any chance to get an updated solr-web plugin ?
 06:20 < ferrema:#liferay> alternatively : which version of apache-solr server is needed for liferay 6.1.3 ?
 06:38 < ferrema:#liferay> looks like solr 1.4 server is working with the plugin
+07:07 < Axxell:#liferay> anyone know about vaadin trouble with ie11?
