@@ -32,3 +32,4 @@
 15:59 <@jhf:#liferay> if you're using tomcat, it's in tomcat-xx.xx.xx/logs/catalina.out
 16:00 < kim____:#liferay> got a portlet with some webservices using SSO-token for Authentication, might be some issues with Cookie domains there
 16:00 < kim____:#liferay> I'm able to login using SSO
+16:01 <@jhf:#liferay> is the portlet making the call to the web services from the server side, or client side?
