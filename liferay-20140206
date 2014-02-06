@@ -8,3 +8,4 @@
 09:11 < modd_:#liferay> and it works, I can create users without email
 09:11 < modd_:#liferay> but if these users try to login, they have to add an email or they can't do anything
 09:11 < modd_:#liferay> seems like it recognize an email with the given suffix as invalid :\
+09:18 < modd_:#liferay> found a ticket: https://support.liferay.com/browse/LPS-21083
