@@ -1,1 +1,2 @@
 --- Log opened Thu Feb 06 00:00:08 2014
+05:07 < Axxell:#liferay> Hey guys, trying to get my theme to load fast and get a better performance grade.. css and jss files are in 9 seperate files, i do have in ext-portal.properties javascript.fast.load=true theme.css.fast.load=true, but still these 9 files do not combine? How do i do that?
