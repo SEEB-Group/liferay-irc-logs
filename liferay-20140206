@@ -30,3 +30,5 @@
 15:57 < kim____:#liferay> "Test OpenSSO Configuration" is now loading forever...
 15:59 <@jhf:#liferay> also watch the Liferay log file for clues
 15:59 <@jhf:#liferay> if you're using tomcat, it's in tomcat-xx.xx.xx/logs/catalina.out
+16:00 < kim____:#liferay> got a portlet with some webservices using SSO-token for Authentication, might be some issues with Cookie domains there
+16:00 < kim____:#liferay> I'm able to login using SSO
