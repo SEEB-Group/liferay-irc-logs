@@ -17,3 +17,6 @@
 13:05 <@jhf:#liferay> no one turned it off, it just quietly died :)
 13:05 <@jhf:#liferay> (presumably someone changed a script somewhere in the build system, and didn't think about the impact on the nightlies)
 13:05 <@jhf:#liferay> dang script kiddies
+14:52 < kim____:#liferay> How can i debug sso issues? "10.241.42.32
+14:52 < kim____:#liferay> -ip
+14:52 < kim____:#liferay> "Liferay has failed to connect to the OpenSSO server. Please check your configuration and verify that the OpenSSO server is running."
