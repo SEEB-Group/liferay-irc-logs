@@ -21,3 +21,5 @@
 14:52 < kim____:#liferay> -ip
 14:52 < kim____:#liferay> "Liferay has failed to connect to the OpenSSO server. Please check your configuration and verify that the OpenSSO server is running."
 14:57 <@jhf:#liferay> kim____: turn on debugging via Control Panel -> Server Administration -> Log Levels
+14:58 <@jhf:#liferay> for log com.liferay.portal.security.auth and com.liferay.portal.servlet.filters.sso turn them both to the ALL log level
+14:58 <@jhf:#liferay> (add them if those two loggers aren't listed on the log levels screen)
