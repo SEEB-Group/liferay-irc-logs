@@ -23,3 +23,4 @@
 14:57 <@jhf:#liferay> kim____: turn on debugging via Control Panel -> Server Administration -> Log Levels
 14:58 <@jhf:#liferay> for log com.liferay.portal.security.auth and com.liferay.portal.servlet.filters.sso turn them both to the ALL log level
 14:58 <@jhf:#liferay> (add them if those two loggers aren't listed on the log levels screen)
+15:01 < kim____:#liferay> Thanks!
