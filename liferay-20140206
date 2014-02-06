@@ -5,3 +5,6 @@
 06:45 < Axxell:#liferay> please help fellow mamals!
 09:08 < modd_:#liferay> hi there
 09:10 < modd_:#liferay> I have a LR6.0.6 here which should use users.email.address.required=false
+09:11 < modd_:#liferay> and it works, I can create users without email
+09:11 < modd_:#liferay> but if these users try to login, they have to add an email or they can't do anything
+09:11 < modd_:#liferay> seems like it recognize an email with the given suffix as invalid :\
