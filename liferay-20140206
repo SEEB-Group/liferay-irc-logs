@@ -20,3 +20,4 @@
 14:52 < kim____:#liferay> How can i debug sso issues? "10.241.42.32
 14:52 < kim____:#liferay> -ip
 14:52 < kim____:#liferay> "Liferay has failed to connect to the OpenSSO server. Please check your configuration and verify that the OpenSSO server is running."
+14:57 <@jhf:#liferay> kim____: turn on debugging via Control Panel -> Server Administration -> Log Levels
