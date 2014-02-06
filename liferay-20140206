@@ -24,3 +24,5 @@
 14:58 <@jhf:#liferay> for log com.liferay.portal.security.auth and com.liferay.portal.servlet.filters.sso turn them both to the ALL log level
 14:58 <@jhf:#liferay> (add them if those two loggers aren't listed on the log levels screen)
 15:01 < kim____:#liferay> Thanks!
+15:05 <@jhf:#liferay> are you really using OpenSSO (i.e. the product from Sun Microsystems)?
+15:05 <@jhf:#liferay> Or OpenAM (or Oracle Identity Manager)?
