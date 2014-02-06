@@ -47,3 +47,4 @@
 16:43 <@jhf:#liferay> also have to fix this jsp for 'full content' view mode: https://github.com/liferay/liferay-portal/commit/5279b6afd747feb9b9ea71cb42b96e75537ba288#diff-1
 16:45 < jardineworks:#liferay> hah -- that is a different line change from the last one we tried last week
 16:45 < jardineworks:#liferay> I'll have to give that a shot later.
+22:36 < bijoo_:#liferay> \q
