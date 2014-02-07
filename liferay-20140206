@@ -37,3 +37,4 @@
 16:09 <@jhf:#liferay> I've never done that before - you'd have to make the call from your java code (on Liferay server) to the external server, and add the necessary authorization headers, which I'm not sure is possible since the authorization headers are only good when the call is coming from the client.. I think
 16:09 <@jhf:#liferay> in other words, the liferay server isn't SSO-signed in, only the user is. I think that's how it works. I could be wrong.
 16:20 < kim____:#liferay> you might be correct
+--- Log closed Fri Feb 07 00:00:09 2014
