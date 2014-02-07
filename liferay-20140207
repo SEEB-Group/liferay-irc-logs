@@ -2,3 +2,4 @@
 03:53 < noctua:#liferay> is there a difference between freenode.com and freenode.net?
 03:53 < noctua:#liferay> because the official channel is on *.com and this one on *.net
 05:44 < wohnout:#liferay> Hi, is there any possibility to ship web content structure and template directly with portlet? So it will be available with portlet deployment
+05:45 < wohnout:#liferay> and also updated with portlet update
