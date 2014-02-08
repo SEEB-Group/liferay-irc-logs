@@ -1,1 +1,2 @@
 --- Log opened Sat Feb 08 00:00:11 2014
+02:57 < kim____:#liferay> I have setup apache in front of liferay, but seems like some requests goes directly to backend. How can this be fixed?
