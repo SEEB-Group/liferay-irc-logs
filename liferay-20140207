@@ -6,3 +6,4 @@
 10:28 < npskirk:#liferay> @wohout I'm pretty sure this is possible, but I don't recall the strategy.  It might be to implement a hook that installs the resources at portlet installation time.
 10:28 < npskirk:#liferay> oops,
 10:28 < npskirk:#liferay> @wohnout I'm pretty sure this is possible, but I don't recall the strategy.  It might be to implement a hook that installs the resources at portlet installation time.
+--- Log closed Sat Feb 08 00:00:11 2014
