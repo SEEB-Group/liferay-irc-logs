@@ -1,1 +1,3 @@
 --- Log opened Sun Feb 09 00:00:12 2014
+06:06 < bradley:#liferay> I forget how to grab the localized version of a variable in velocity
+06:06 < bradley:#liferay> the string comes out with all of the locales
