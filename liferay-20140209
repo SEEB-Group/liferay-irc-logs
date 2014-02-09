@@ -12,3 +12,5 @@
 13:04 -!- Irssi: #liferay: Total of 27 nicks [3 ops, 0 halfops, 0 voices, 24 normal]
 13:04 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 13:04 -!- Irssi: Join to #liferay was synced in 7 secs
+17:10 < bradley:#liferay> in theme velocity how can I create a dynamic instance portlet id?
+17:10 < bradley:#liferay> I was trying to use the randomizer
