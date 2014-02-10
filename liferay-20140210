@@ -4,3 +4,5 @@
 09:01 <@jhf:#liferay> I always say i am going to do it more often, and never do :(
 09:10 -!- mode/#liferay [+o rotty3000] by ChanServ
 09:11 -!- mode/#liferay [+o jhf] by ChanServ
+09:22 < Tar-Minyatur:#liferay> Hi guys.
+09:22 < Tar-Minyatur:#liferay> Can one of you explain to me how I would use /api/jsonws/journalarticle/get-article-content when I have to supply a themeDisplay?
