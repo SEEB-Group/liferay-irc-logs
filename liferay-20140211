@@ -58,3 +58,4 @@
 14:04 < modd:#liferay> and type message board into the searchbox
 14:17 < AhmadElMelegy:#liferay> I want to edit it, modd
 14:18 < modd:#liferay> you can hook it
+14:19 < bijoo_:#liferay> AhmadElMelegy: so yes, modd is correct as well here; the code for the JSPs are here: (assuming you are using tomcat there) ${CATALINA_HOME}/webapps/ROOT/html/portlets/messageboards/
