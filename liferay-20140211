@@ -20,3 +20,4 @@
 10:10 < jardineworks:#liferay> cr3, I think the convention is driven by maven style projects which usually use src/main/ for the main source tree and src/test for the unit test branch.
 10:11 < cr3:#liferay> jardineworks: I'm still using ant but I'd like to eventually migrate to maven, so I should probably adopt maven practices in preparation for the future
 10:14 < jardineworks:#liferay> cr3, I'm an ANT guy myself (for Liferay) but the structure for maven is one that I have adopted because I think it makes sense.
+12:40 < AhmadElMelegy:#liferay> Is there a Question&Answers portlet like stackoverflow or askubuntu ?
