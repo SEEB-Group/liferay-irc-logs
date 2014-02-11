@@ -37,3 +37,5 @@
 13:13 <@jhf:#liferay> k
 13:13 <@jhf:#liferay> just FYI, the basic idea is that the built-in message boards portlet consists of a bunch of JSPs. you can "override" any of the JSPs to change anything in there.
 13:14 <@jhf:#liferay> so for example, a JSP might declare a button like <aui:button type="submit" value="move-thread" />
+13:15 <@jhf:#liferay> you can override the jsp by copying the original code, and changing it to something like                 <aui:button type="submit" value="MOVE IT" />
+13:15 <@jhf:#liferay> to change the text (but not the behavior) on the button
