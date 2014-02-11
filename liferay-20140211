@@ -31,3 +31,4 @@
 12:58 < AhmadElMelegy:#liferay> thank you very much :)
 13:01 <@jhf:#liferay> no problem, that is a very common thing to want to do, so there are lots of examples around
 13:04 < AhmadElMelegy:#liferay> jhf: I am new to liferay, Can you show me an open-source example of this please
+13:08 <@jhf:#liferay> here is a step-by-step guide for creating a hook: http://www.opensourceforlife.com/2012/07/create-liferay-hook-using-liferay-ide.html
