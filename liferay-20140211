@@ -33,3 +33,6 @@
 13:04 < AhmadElMelegy:#liferay> jhf: I am new to liferay, Can you show me an open-source example of this please
 13:08 <@jhf:#liferay> here is a step-by-step guide for creating a hook: http://www.opensourceforlife.com/2012/07/create-liferay-hook-using-liferay-ide.html
 13:08 <@jhf:#liferay> I would work through that first, and ensure it "works"
+13:13 < AhmadElMelegy:#liferay> thanks, I'll be back if something went wrong :)
+13:13 <@jhf:#liferay> k
+13:13 <@jhf:#liferay> just FYI, the basic idea is that the built-in message boards portlet consists of a bunch of JSPs. you can "override" any of the JSPs to change anything in there.
