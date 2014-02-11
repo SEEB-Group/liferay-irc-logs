@@ -17,3 +17,4 @@
 10:03 < cr3:#liferay> jardineworks: I haven't done any junit testing though, so I'd like to adopt a directory that people are likely to find easily :)
 10:05 < bodik:#liferay> jardineworks: thanks
 10:05 < bodik:#liferay> jardineworks: si think i have to create one by myself ;|
+10:10 < jardineworks:#liferay> cr3, I think the convention is driven by maven style projects which usually use src/main/ for the main source tree and src/test for the unit test branch.
