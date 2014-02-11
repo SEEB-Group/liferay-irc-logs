@@ -49,3 +49,5 @@
 13:47 < bijoo_:#liferay> AhmadElMelegy: you can clone the repo, it's easy then; it will take about 4.5 GB
 13:50 < AhmadElMelegy:#liferay> it this valid for LifeRay 6.2 CE GA1 ?
 13:51 < AhmadElMelegy:#liferay> https://github.com/liferay/liferay-portal/tree/master/portal-web/docroot/html/portlet/message_boards
+13:57 < modd:#liferay> AhmadElMelegy: message boards are part of the default installation
+13:57 < modd:#liferay> so you have it already in your portal
