@@ -26,3 +26,4 @@
 12:49 < AhmadElMelegy:#liferay> please anyone can help ?
 12:50 <@jhf:#liferay> AhmadElMelegy: if you want to change what the buttons say, you can override its JSPs using a "Hook" plugin
 12:51 < AhmadElMelegy:#liferay> is there any tutorial about something like that ?
+12:52 <@jhf:#liferay> https://www.liferay.com/web/raymond.auge/blog/-/blogs/jsp-include-buffer
