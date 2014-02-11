@@ -36,3 +36,4 @@
 13:13 < AhmadElMelegy:#liferay> thanks, I'll be back if something went wrong :)
 13:13 <@jhf:#liferay> k
 13:13 <@jhf:#liferay> just FYI, the basic idea is that the built-in message boards portlet consists of a bunch of JSPs. you can "override" any of the JSPs to change anything in there.
+13:14 <@jhf:#liferay> so for example, a JSP might declare a button like <aui:button type="submit" value="move-thread" />
