@@ -11,3 +11,4 @@
 09:52 < bodik:#liferay> hi
 09:52 < cr3:#liferay> hi folks, I'd like to write junit tests for the models of a liferay portlet but I don't know where to start. for example, where should I put the files, under ./docroot/WEB-INF/test or ./docroot/tests or somewhere else?
 09:52 < bodik:#liferay> is there something like "pastebin portlet" ? i cannt find anything like that ...
+10:01 < jardineworks:#liferay> cr3, I think it's more a case of preference than requirement. I personally put them under WEB-INF/src/test
