@@ -39,3 +39,4 @@
 13:14 <@jhf:#liferay> so for example, a JSP might declare a button like <aui:button type="submit" value="move-thread" />
 13:15 <@jhf:#liferay> you can override the jsp by copying the original code, and changing it to something like                 <aui:button type="submit" value="MOVE IT" />
 13:15 <@jhf:#liferay> to change the text (but not the behavior) on the button
+13:22 < AhmadElMelegy:#liferay> great, but where I can found the original code of message boards portlet ?
