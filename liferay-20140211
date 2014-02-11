@@ -47,3 +47,5 @@
 13:46 < bijoo_:#liferay> AhmadElMelegy: it's in portal-web/html/portlet/messageboards
 13:46 < bijoo_:#liferay> AhmadElMelegy: note you'll have to select the right version
 13:47 < bijoo_:#liferay> AhmadElMelegy: you can clone the repo, it's easy then; it will take about 4.5 GB
+13:50 < AhmadElMelegy:#liferay> it this valid for LifeRay 6.2 CE GA1 ?
+13:51 < AhmadElMelegy:#liferay> https://github.com/liferay/liferay-portal/tree/master/portal-web/docroot/html/portlet/message_boards
