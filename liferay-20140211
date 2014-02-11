@@ -21,3 +21,5 @@
 10:11 < cr3:#liferay> jardineworks: I'm still using ant but I'd like to eventually migrate to maven, so I should probably adopt maven practices in preparation for the future
 10:14 < jardineworks:#liferay> cr3, I'm an ANT guy myself (for Liferay) but the structure for maven is one that I have adopted because I think it makes sense.
 12:40 < AhmadElMelegy:#liferay> Is there a Question&Answers portlet like stackoverflow or askubuntu ?
+12:43 <@jhf:#liferay> AhmadElMelegy: yes, the "Message Boards" portlet is the closest
+12:43 < AhmadElMelegy:#liferay> how can I edit it to rename the buttons etc..
