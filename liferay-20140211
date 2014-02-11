@@ -15,3 +15,5 @@
 10:02 < jardineworks:#liferay> bodik, I've never seen a pastebin portlet. YOu could fake it though by allowing guest users to create web content and then using the asset publisher to show them.
 10:02 < jardineworks:#liferay> probably not what you want (ultimately) but it'd be a place to start.
 10:03 < cr3:#liferay> jardineworks: I haven't done any junit testing though, so I'd like to adopt a directory that people are likely to find easily :)
+10:05 < bodik:#liferay> jardineworks: thanks
+10:05 < bodik:#liferay> jardineworks: si think i have to create one by myself ;|
