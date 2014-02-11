@@ -61,3 +61,5 @@
 14:19 < bijoo_:#liferay> AhmadElMelegy: so yes, modd is correct as well here; the code for the JSPs are here: (assuming you are using tomcat there) ${CATALINA_HOME}/webapps/ROOT/html/portlets/messageboards/
 14:20 < bijoo_:#liferay> AhmadElMelegy: but to answer your question, no, that's not; but all you have to do is select "tag" : https://github.com/liferay/liferay-portal/tree/6.1.1-ga2/portal-web/docroot/html/portlet/message_boards
 14:20 < bijoo_:#liferay> whoops that's the link for 6.1.1 GA2
+14:21 < bijoo_:#liferay> 6.2.0-GA1 is here:
+14:21 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/tree/6.2.0-ga1/portal-web/docroot/html/portlet/message_boards
