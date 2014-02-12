@@ -1,1 +1,2 @@
 --- Log opened Wed Feb 12 00:00:16 2014
+01:28 < leroy:#liferay> hi all! I have a theme for 6.2. It works fine on tomcat, but on Glassfish it doesn't work. No errors in logs, no errors in Chrome devtools console. Any ideas?
