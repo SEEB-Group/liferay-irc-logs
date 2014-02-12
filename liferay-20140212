@@ -27,3 +27,4 @@
 14:19 < modd:#liferay> check this: http://portals.apache.org/pluto/portlet-1.0-apidocs/javax/portlet/PortletSession.html#setAttribute%28java.lang.String,%20java.lang.Object,%20int%29
 14:19 < modd:#liferay> the method setAttribute is overloaded
 14:23 < marrk:#liferay> hm ok, so object can be everything?
+14:25 -!- mode/#liferay [+o jhf] by ChanServ
