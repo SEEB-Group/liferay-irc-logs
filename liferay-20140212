@@ -2,3 +2,4 @@
 01:28 < leroy:#liferay> hi all! I have a theme for 6.2. It works fine on tomcat, but on Glassfish it doesn't work. No errors in logs, no errors in Chrome devtools console. Any ideas?
 05:50 < charith:#liferay> hello
 05:50 < charith:#liferay> is there a way to disable responsiveness in the page?
+09:37 -!- mode/#liferay [+o rotty3000] by ChanServ
