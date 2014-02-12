@@ -55,3 +55,7 @@
 14:39 < modd:#liferay> das ist inter portlet communication^^
 14:40 < marrk:#liferay> jo bin halt nach dem link vorgegangen
 14:40 < marrk:#liferay> http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472
+14:42 < modd:#liferay> du versuchst die erste variante...kann man machen, aber die zweite variante ist die übliche
+14:42 < marrk:#liferay> ok
+14:42 < modd:#liferay> im ersten fall musst du glaub ich in beiden portlets die private session attributes auf false setzen
+14:43 < marrk:#liferay> soweit ich es verstanden habe nicht
