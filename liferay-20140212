@@ -10,3 +10,5 @@
 13:31 < marrk:#liferay> i am using this instruction: http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472
 14:06 < modd:#liferay> marrk: the order is important
 14:12 < marrk:#liferay> well i tryed kinda every order :X
+14:13 < modd:#liferay> check your file...one of the first line contains a link to the description, how to build the xml file
+14:13 < modd:#liferay> it will tell you the exact order
