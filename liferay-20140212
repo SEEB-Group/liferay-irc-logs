@@ -22,3 +22,7 @@
 14:16 < marrk:#liferay> the guide says, .setattribute is like: session.setAttribute("sessionValue", some-value ,PortletSession.APPLICATION_SCOPE);
 14:16 < marrk:#liferay> but it tells me, to be (string, obj)
 14:18 < modd:#liferay> well, that's true for PortletSession..not sure, what the code tries to do
+14:19 < modd:#liferay> oh wait
+14:19 < modd:#liferay> SET, not GET
+14:19 < modd:#liferay> check this: http://portals.apache.org/pluto/portlet-1.0-apidocs/javax/portlet/PortletSession.html#setAttribute%28java.lang.String,%20java.lang.Object,%20int%29
+14:19 < modd:#liferay> the method setAttribute is overloaded
