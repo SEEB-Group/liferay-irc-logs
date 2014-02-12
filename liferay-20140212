@@ -37,3 +37,4 @@
 14:32 < marrk:#liferay> if i say sth like :     session.setAttribute("sessionValue", userprocesses[0][2] ,PortletSession.APPLICATION_SCOPE);
 14:32 < marrk:#liferay> The method setAttribute(String, Object) in the type HttpSession is not applicable for the arguments (String,
 14:32 < marrk:#liferay>  String, int)
+14:34 < modd:#liferay> httpsession? wasn't it portletsession?
