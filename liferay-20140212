@@ -44,3 +44,8 @@
 14:36 < modd:#liferay> second? sekunde? german?^^
 14:36 < marrk:#liferay> ja deutsch
 14:36 < marrk:#liferay> ;)
+14:37 < modd:#liferay> ;)
+14:37 < marrk:#liferay> gibts ne möglichkeit zu testen ob er das richtig abgespeichert hat?
+14:37 < modd:#liferay> wie abgespeichert?
+14:37 < marrk:#liferay> weil wenn ich es mit 	String sessionId = (String)ps.getAttribute("sessionValue ",PortletSession.APPLICATION_SCOPE);
+14:37 < marrk:#liferay>  in einem anderen portlet aufrufe, sagt er dass der wert null wäre
