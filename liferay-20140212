@@ -14,3 +14,8 @@
 14:13 < modd:#liferay> it will tell you the exact order
 14:14 < marrk:#liferay> if i insert the line, the <portlet> is red and says only (about 100 things) are allowed to be inside
 14:14 < marrk:#liferay> http://pastebin.com/Ayb7B9PG  its like that
+14:15 < modd:#liferay> yep, that means, the position is wrong
+14:15 < marrk:#liferay> ah ok , got it
+14:15 < marrk:#liferay> needs to be between icon and header
+14:15 < modd:#liferay> possible
+14:15 < marrk:#liferay> well 2nd question ;-) :
