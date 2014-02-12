@@ -8,3 +8,4 @@
 13:30 < marrk:#liferay> hi anyone can help me about portlet session?
 13:31 < marrk:#liferay> if i want to add "<private-session-attributes>false</private-session-attributes>" to liferay-portlet.xml, it says thats not possible :/
 13:31 < marrk:#liferay> i am using this instruction: http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472
+14:06 < modd:#liferay> marrk: the order is important
