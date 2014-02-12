@@ -59,3 +59,9 @@
 14:42 < marrk:#liferay> ok
 14:42 < modd:#liferay> im ersten fall musst du glaub ich in beiden portlets die private session attributes auf false setzen
 14:43 < marrk:#liferay> soweit ich es verstanden habe nicht
+14:43 < marrk:#liferay> sondern nur im "schreibenden
+14:43 < marrk:#liferay> "
+14:43 < modd:#liferay> aber wie gesagt, session ist eigentlich böse
+14:43 < marrk:#liferay> ok
+14:43 < marrk:#liferay> also ich will im endeffekt abhängig davon, welchen link mal drückt, etwas an das andere portlet mitgeben
+14:43 < marrk:#liferay> ist das mit dem 2. machbar?
