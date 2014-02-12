@@ -34,3 +34,6 @@
 14:27 < modd:#liferay> np :)
 14:29 < marrk:#liferay> well thats bad, i just need to give a string :( means i have to do a string array to put it into session?
 14:30 < modd:#liferay> a string is also an object
+14:32 < marrk:#liferay> if i say sth like :     session.setAttribute("sessionValue", userprocesses[0][2] ,PortletSession.APPLICATION_SCOPE);
+14:32 < marrk:#liferay> The method setAttribute(String, Object) in the type HttpSession is not applicable for the arguments (String,
+14:32 < marrk:#liferay>  String, int)
