@@ -12,3 +12,5 @@
 14:12 < marrk:#liferay> well i tryed kinda every order :X
 14:13 < modd:#liferay> check your file...one of the first line contains a link to the description, how to build the xml file
 14:13 < modd:#liferay> it will tell you the exact order
+14:14 < marrk:#liferay> if i insert the line, the <portlet> is red and says only (about 100 things) are allowed to be inside
+14:14 < marrk:#liferay> http://pastebin.com/Ayb7B9PG  its like that
