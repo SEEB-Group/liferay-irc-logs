@@ -49,3 +49,4 @@
 14:37 < modd:#liferay> wie abgespeichert?
 14:37 < marrk:#liferay> weil wenn ich es mit 	String sessionId = (String)ps.getAttribute("sessionValue ",PortletSession.APPLICATION_SCOPE);
 14:37 < marrk:#liferay>  in einem anderen portlet aufrufe, sagt er dass der wert null wäre
+14:38 < modd:#liferay> versuchst du inter portlet communication?
