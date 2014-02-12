@@ -28,3 +28,4 @@
 14:19 < modd:#liferay> the method setAttribute is overloaded
 14:23 < marrk:#liferay> hm ok, so object can be everything?
 14:25 -!- mode/#liferay [+o jhf] by ChanServ
+14:26 < modd:#liferay> object can be everything except of primitve types like int, long, etc
