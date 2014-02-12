@@ -38,3 +38,6 @@
 14:32 < marrk:#liferay> The method setAttribute(String, Object) in the type HttpSession is not applicable for the arguments (String,
 14:32 < marrk:#liferay>  String, int)
 14:34 < modd:#liferay> httpsession? wasn't it portletsession?
+14:35 < marrk:#liferay> it should be portletsession
+14:35 < modd:#liferay> for httpsession it will not work: http://docs.oracle.com/cd/E17802_01/webservices/webservices/docs/1.6/api/javax/servlet/http/HttpSession.html#setAttribute%28java.lang.String,%20java.lang.Object%29
+14:35 < marrk:#liferay> ah had a small mistake, second ;)
