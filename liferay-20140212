@@ -19,3 +19,5 @@
 14:15 < marrk:#liferay> needs to be between icon and header
 14:15 < modd:#liferay> possible
 14:15 < marrk:#liferay> well 2nd question ;-) :
+14:16 < marrk:#liferay> the guide says, .setattribute is like: session.setAttribute("sessionValue", some-value ,PortletSession.APPLICATION_SCOPE);
+14:16 < marrk:#liferay> but it tells me, to be (string, obj)
