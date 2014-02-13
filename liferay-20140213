@@ -65,3 +65,5 @@
 17:34 < AhmadElMelegy:#liferay> ok I'll try then come back, thanks :)
 17:35 <@jhf:#liferay> ok. sorry you've having trouble, but I think it's some kind of corruption somewhere possibly caused by those earlier errors about running multiple Liferay's.
 17:35 <@jhf:#liferay> still though, if that's all it takes to make it fail, then that's not good.
+17:37 < AhmadElMelegy:#liferay> I tried to run liferay in eclipse and it was already run in the browser
+17:37 < AhmadElMelegy:#liferay> then the error of running multiple Liferay's appears
