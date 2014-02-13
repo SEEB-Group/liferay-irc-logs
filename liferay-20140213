@@ -61,3 +61,4 @@
 17:24 < AhmadElMelegy:#liferay> jhf:
 17:31 <@jhf:#liferay> hmm well it looks like in the past you may have started multiple liferays (I see errors about "address already in use (8080)" and some lucene errors because it was probably trying to write to the same location as another process. but the last bit of your log file looks relatively clean, other than the fact that you tried to deploy a plugin from an old version of Liferay (version 5.2.3??) and that clearly failed, but I see nothing specific to configuration of
 17:31 <@jhf:#liferay> message boards
+17:32 <@jhf:#liferay> I would recommend you start over, wipe everything out, re-unzip the fresh distribution, and try again, and see if you can get a "clean" log file and startup.
