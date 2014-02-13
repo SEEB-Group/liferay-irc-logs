@@ -69,3 +69,5 @@
 17:37 < AhmadElMelegy:#liferay> then the error of running multiple Liferay's appears
 17:38 <@jhf:#liferay> ok. I am wondering if that caused some kind of corruption.
 17:38 <@jhf:#liferay> causing the message boards error. unlikely, but you never know. hsql isn't exactly "enterprise-grade" :)
+18:04 < AhmadElMelegy:#liferay> jhf: it works, thank you :)
+18:04 <@jhf:#liferay> great!
