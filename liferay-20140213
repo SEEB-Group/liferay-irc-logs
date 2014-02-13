@@ -4,3 +4,4 @@
 01:33 < rocknroll_:#liferay> how do I add an article to this portlet via jsonws?
 07:37 < noctua_:#liferay> hi, I am trying to use JFreeChart for a Liferay Portlet. The problem is, that i can't see the Image. for example, i used the code from http://tinyurl.com/kjjoomc
 07:38 < noctua_:#liferay> hope someone can help me
+08:23 < rocknroll_:#liferay> noctua_ what does your server log say
