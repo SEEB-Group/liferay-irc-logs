@@ -33,3 +33,4 @@
 11:43 < barrie:#liferay> Anyone know if there is a way to use resources-importer from a portlet or hook? I'm looking to import web content into existing sites.
 12:48 < AhmadElMelegy:#liferay> Can I add separate message board into every community ?
 12:53 < barrie:#liferay> Each community (site) can have it's own Message Board, Wiki, etc.. and it's data is stored separately
+12:59 < AhmadElMelegy:#liferay> thanks :)
