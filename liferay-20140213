@@ -24,3 +24,5 @@
 08:56 < noctua_:#liferay> Yes .. there is no Image .... but ecplise show's me that there hase to be one by showing me the "here should be an image" image
 08:57 < noctua_:#liferay> i mean ... if i looc at the code than there is only an <img src> tag
 08:58 < noctua_:#liferay> without content
+08:58 < rocknroll_:#liferay> so the src="" is empty?
+08:58 < noctua_:#liferay> yes
