@@ -18,3 +18,5 @@
 08:39 < noctua_:#liferay> if i put another portlet, which is "brocken" than there is an output
 08:41 < noctua_:#liferay> i can give you the log when i deploy it. If you want
 08:42 < noctua_:#liferay> http://pastebin.com/eF29bjBm
+08:43 < rocknroll_:#liferay> and when you try to view the image, there is nothing in the log? just a 404?
+08:43 < rocknroll_:#liferay> or is the image there but it's broken?
