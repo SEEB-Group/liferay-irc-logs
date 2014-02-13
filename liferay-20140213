@@ -30,3 +30,4 @@
 09:16 < noctua_:#liferay> I coppied the code 1:1 from http://learnliferay.wikidot.com/resource-serving-example
 09:17 < noctua_:#liferay> i think it's hard to debugg even with the code ^^
 09:36 -!- mode/#liferay [+o rotty3000] by ChanServ
+11:43 < barrie:#liferay> Anyone know if there is a way to use resources-importer from a portlet or hook? I'm looking to import web content into existing sites.
