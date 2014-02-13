@@ -57,3 +57,5 @@
 17:13 <@jhf:#liferay> nope.. so am I.
 17:14 <@jhf:#liferay> can you look in your log file and see if there are obvious stack trace/errors ?
 17:14 <@jhf:#liferay> it's in tomcat-xx.xx.xx/logs/catalina.out
+17:24 < AhmadElMelegy:#liferay> this is catalina.out : http://pastebin.com/3QihJ9iz
+17:24 < AhmadElMelegy:#liferay> jhf:
