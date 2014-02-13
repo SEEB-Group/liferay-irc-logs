@@ -42,3 +42,6 @@
 15:01 < AhmadElMelegy:#liferay> anyone can help me ?
 15:01 < AhmadElMelegy:#liferay> configurations of message board are not saved
 15:02 < AhmadElMelegy:#liferay> every time I change them they restored to default automatically !
+16:07 <@jhf:#liferay> AhmadElMelegy: what version of Liferay are you using?
+16:07 < AhmadElMelegy:#liferay> CE 6.2
+16:07 <@jhf:#liferay> and was it a fresh install, or upgrade? and have you made any configuration changes? or should I be able to reproduce this by installing a fresh 6.2 ?
