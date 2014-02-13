@@ -2,3 +2,4 @@
 01:31 < rocknroll_:#liferay> hey all
 01:32 < rocknroll_:#liferay> I have a set of pages (layouts) with a web content display portlet on it
 01:33 < rocknroll_:#liferay> how do I add an article to this portlet via jsonws?
+07:37 < noctua_:#liferay> hi, I am trying to use JFreeChart for a Liferay Portlet. The problem is, that i can't see the Image. for example, i used the code from http://tinyurl.com/kjjoomc
