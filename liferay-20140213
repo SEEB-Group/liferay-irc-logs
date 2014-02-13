@@ -22,3 +22,5 @@
 08:43 < rocknroll_:#liferay> or is the image there but it's broken?
 08:44 < rocknroll_:#liferay> I dont know this JFreeChart, so just guessing
 08:56 < noctua_:#liferay> Yes .. there is no Image .... but ecplise show's me that there hase to be one by showing me the "here should be an image" image
+08:57 < noctua_:#liferay> i mean ... if i looc at the code than there is only an <img src> tag
+08:58 < noctua_:#liferay> without content
