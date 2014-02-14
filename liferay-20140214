@@ -7,3 +7,4 @@
 06:41 < AhmadElMelegy:#liferay> How can I override the Language.properties File of message board portlet ?
 06:41 < AhmadElMelegy:#liferay> I want to rename the buttons
 08:11 < rocknroll_:#liferay> you can create a hook and override the language strings
+08:12 < rocknroll_:#liferay> http://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/overriding-a-language-properties-file
