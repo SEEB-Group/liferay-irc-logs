@@ -47,3 +47,4 @@
 12:01 < barrie:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/content/Language.properties
 12:02 < barrie:#liferay> you'll just need to look on the screen for the text.. and then search for it in the language file
 12:03 < barrie:#liferay> everything is in one big file
+12:16 < AhmadElMelegy:#liferay> I am sorry but the zip file I downloaded from liferay doesn't contain this directory "/ portal-impl / src / content "
