@@ -38,3 +38,4 @@
 11:43 < barrie:#liferay> you need to find the name used in the jsp.. and put that in the file with your new name
 11:44 < barrie:#liferay> it will only override the entries you add
 11:45 < barrie:#liferay> or you can look for the currnt name in the LIferay language properties and copy the entry into your empty file
+11:46 < AhmadElMelegy:#liferay> sorry but it's my first time to use LifeRay, is there any tutorial or page explaining this ?
