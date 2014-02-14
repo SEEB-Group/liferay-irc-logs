@@ -72,3 +72,8 @@
 12:25 < jardineworks:#liferay> you can use github to see all of them -- for example...
 12:25 < jardineworks:#liferay> https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/content/Language.properties
 12:25 < jardineworks:#liferay> and do a find for "Message"
+12:26 < AhmadElMelegy:#liferay> ok thanks :)
+12:26 < AhmadElMelegy:#liferay> I'll do that
+12:26 < jardineworks:#liferay> alternatively, if you know the JSP with the button you can look it up inside ROOT/html/portlet etc and then find the liferay-ui:message key=""
+12:26 < jardineworks:#liferay> for the button
+12:26 < AhmadElMelegy:#liferay> if something went wrong I'll back :D
