@@ -15,3 +15,6 @@
 10:22 < barrie:#liferay> I'm guessing I could just include the appropriate files.. but not sure if the deployment would happen correctly
 10:22 < barrie:#liferay> and if not.. how do you handle a MarketPlace app that may also have a theme involved? Is there a special packing that needs to be done?
 10:27 <@jhf:#liferay> hey barrie you can include any plugin types in a single app - they will all be deployed when the app is installed (though not in any particular order) - if there are inter-dependencies, be sure to declare them in the properties file
+10:30 < barrie:#liferay> jhf: thanks.. I also found the docs at https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/lp-6-1-dgen10-developing-and-publishing-apps-0 -- guess I should read them too :-)
+10:30 <@jhf:#liferay> yeah, it's a good idea :)
+10:30 <@jhf:#liferay> i've seen a few plugins that bundle more than one plugin type (namely Valamis) and things seem to get wired together properly
