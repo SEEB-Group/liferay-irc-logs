@@ -499,3 +499,4 @@
 13:16 < AhmadElMelegy:#liferay> I depolyed the new file using eclipse
 13:16 < AhmadElMelegy:#liferay> but nothing changed in liferay !
 13:17 < jardineworks:#liferay> why did the build fail?
+13:27 < bijoo_:#liferay> "Lean", I think Liferay can be Lean, don't you? Is that an argument against Liferay? Going towards OSGi is great; but even now, you can turn off features; deactivate OOB portlets too.
