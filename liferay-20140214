@@ -22,3 +22,5 @@
 11:13 < AhmadElMelegy:#liferay> I created a hook to modify the buttons names of message boards but I don't know where to create my new language file
 11:21 < barrie:#liferay> in your Hook (if using the IDE) you can pick  "New Liferay Hook COnfiguration" and there you can pick "Language Properties"
 11:22 < AhmadElMelegy:#liferay> yes I did that
+11:23 < AhmadElMelegy:#liferay> but where to put the new names of the message board buttons ?
+11:23 < AhmadElMelegy:#liferay> barrie:
