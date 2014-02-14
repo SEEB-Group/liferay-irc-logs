@@ -55,3 +55,7 @@
 12:20 < AhmadElMelegy:#liferay> yes I use Eclipse
 12:20 < jardineworks:#liferay> AhmadElMelegy, have you installed the liferay ide plugins?
 12:20 < AhmadElMelegy:#liferay> yes
+12:21 < jardineworks:#liferay> ok -- so do this .. File > New > Liferay Project ... and select a Hook project type. Called in language-overrides or something
+12:21 < jardineworks:#liferay> then when you have the project right click on it and choose New > Liferay Hook
+12:21 < AhmadElMelegy:#liferay> yes I did this
+12:21 < jardineworks:#liferay> from the resulting window you choose language bundle or something like that
