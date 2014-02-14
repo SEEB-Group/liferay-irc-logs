@@ -24,3 +24,4 @@
 11:22 < AhmadElMelegy:#liferay> yes I did that
 11:23 < AhmadElMelegy:#liferay> but where to put the new names of the message board buttons ?
 11:23 < AhmadElMelegy:#liferay> barrie:
+11:26 < barrie:#liferay> it should have created you files under WEB-INF/src/content
