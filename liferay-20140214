@@ -32,3 +32,5 @@
 11:34 < AhmadElMelegy:#liferay> from docroot then liferay-hook.xml then add new language properties
 11:34 < AhmadElMelegy:#liferay> is this right ?
 11:38 < barrie:#liferay> I always just click at the top level of the project - not sure if it makes a difference
+11:42 < AhmadElMelegy:#liferay> I restarted the IDE the it appeared finally
+11:42 < barrie:#liferay> great!
