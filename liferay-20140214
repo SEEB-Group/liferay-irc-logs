@@ -20,3 +20,4 @@
 10:30 <@jhf:#liferay> i've seen a few plugins that bundle more than one plugin type (namely Valamis) and things seem to get wired together properly
 10:38 < barrie:#liferay> WHat's the latest on PACL for apps?
 11:13 < AhmadElMelegy:#liferay> I created a hook to modify the buttons names of message boards but I don't know where to create my new language file
+11:21 < barrie:#liferay> in your Hook (if using the IDE) you can pick  "New Liferay Hook COnfiguration" and there you can pick "Language Properties"
