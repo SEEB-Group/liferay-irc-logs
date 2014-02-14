@@ -36,3 +36,4 @@
 11:42 < barrie:#liferay> great!
 11:43 < AhmadElMelegy:#liferay> I don't know till know how to rename the message board buttons using this new empty file
 11:43 < barrie:#liferay> you need to find the name used in the jsp.. and put that in the file with your new name
+11:44 < barrie:#liferay> it will only override the entries you add
