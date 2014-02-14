@@ -495,3 +495,4 @@
 12:42 < jardineworks:#liferay> this is what I wanted to paste --
 12:42 < jardineworks:#liferay> login=Login
 12:42 < jardineworks:#liferay> so if you put login=Login Now! into that file in your hook and deploy then the button will now show Login Now!
+12:44 < AhmadElMelegy:#liferay> I tried it but when I wrote ant deploy in terminal it said build failed
