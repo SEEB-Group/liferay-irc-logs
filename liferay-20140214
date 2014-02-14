@@ -28,3 +28,4 @@
 11:29 < AhmadElMelegy:#liferay> WEB-INF/src directory is empty
 11:30 < barrie:#liferay> hmm.. not sure the.. that the location it should put them.. just verified in my IDE
 11:31 < barrie:#liferay> maybe it's an IDE bug if you are using a different version.. but I've used it across versions and I haven seen that. Can you try it again
+11:32 < AhmadElMelegy:#liferay> ok I'll retry
