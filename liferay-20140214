@@ -10,3 +10,5 @@
 08:12 < rocknroll_:#liferay> http://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/overriding-a-language-properties-file
 09:11 < mtsr:#liferay> Hi, quick question, I'm creating a new com.liferay.portal.kernel.mail.MailMessage, which I can set the subjet for fine, but as soon as I .setTo(new InternetAddress("aaa@bbb.com")) nothing more happens. My code doesn't run past that line.
 10:19 < barrie:#liferay> Morning...
+10:20 < barrie:#liferay> What is the best way to package an app for the MarketPlace that contains portlets, hooks and layouts?
+10:20 < barrie:#liferay> portlets and hooks are easy.. but not sure on adding the layout
