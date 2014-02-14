@@ -59,3 +59,7 @@
 12:21 < jardineworks:#liferay> then when you have the project right click on it and choose New > Liferay Hook
 12:21 < AhmadElMelegy:#liferay> yes I did this
 12:21 < jardineworks:#liferay> from the resulting window you choose language bundle or something like that
+12:22 < jardineworks:#liferay> it will create a src/content/Language.properties file
+12:22 < jardineworks:#liferay> in there you put the <language-key>=You new label
+12:22 < jardineworks:#liferay> Your*
+12:22 < jardineworks:#liferay> and then deploy it
