@@ -68,3 +68,4 @@
 12:23 < jardineworks:#liferay> you just need to know the key
 12:23 < jardineworks:#liferay> and then add it
 12:23 < jardineworks:#liferay> it will only override the ones you specify, all the others will be the same as the original found in the portal-impl.jar
+12:24 < AhmadElMelegy:#liferay> how to know the keys of of message board ?
