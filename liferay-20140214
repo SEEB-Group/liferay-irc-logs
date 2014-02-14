@@ -18,3 +18,4 @@
 10:30 < barrie:#liferay> jhf: thanks.. I also found the docs at https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/lp-6-1-dgen10-developing-and-publishing-apps-0 -- guess I should read them too :-)
 10:30 <@jhf:#liferay> yeah, it's a good idea :)
 10:30 <@jhf:#liferay> i've seen a few plugins that bundle more than one plugin type (namely Valamis) and things seem to get wired together properly
+10:38 < barrie:#liferay> WHat's the latest on PACL for apps?
