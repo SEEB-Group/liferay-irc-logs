@@ -12,3 +12,5 @@
 10:19 < barrie:#liferay> Morning...
 10:20 < barrie:#liferay> What is the best way to package an app for the MarketPlace that contains portlets, hooks and layouts?
 10:20 < barrie:#liferay> portlets and hooks are easy.. but not sure on adding the layout
+10:22 < barrie:#liferay> I'm guessing I could just include the appropriate files.. but not sure if the deployment would happen correctly
+10:22 < barrie:#liferay> and if not.. how do you handle a MarketPlace app that may also have a theme involved? Is there a special packing that needs to be done?
