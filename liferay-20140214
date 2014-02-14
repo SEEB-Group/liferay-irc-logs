@@ -42,3 +42,4 @@
 11:48 < barrie:#liferay> not sure.. but you can see all the languag keys at
 11:48 < barrie:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.x/portal-impl/src/content/Language.properties
 11:48 < barrie:#liferay>  for example
+11:51 < AhmadElMelegy:#liferay> I can't find the Language.properties for message board
