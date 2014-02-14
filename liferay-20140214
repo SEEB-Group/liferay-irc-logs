@@ -49,3 +49,5 @@
 12:03 < barrie:#liferay> everything is in one big file
 12:16 < AhmadElMelegy:#liferay> I am sorry but the zip file I downloaded from liferay doesn't contain this directory "/ portal-impl / src / content "
 12:17 < AhmadElMelegy:#liferay> Am I supposed to download liferay from github ?
+12:19 < AhmadElMelegy:#liferay> barrie:
+12:19 < jardineworks:#liferay> AhmadElMelegy, what you downloaded is probably the bundle. If you download the source (it has src in the file name) you'll find it in that archive.
