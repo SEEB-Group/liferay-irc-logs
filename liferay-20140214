@@ -490,3 +490,8 @@
 12:41 < jardineworks:#liferay> 3564
 12:41 < jardineworks:#liferay> 3565
 12:42 < jardineworks:#liferay> 35
+12:42 < jardineworks:#liferay> woah~
+12:42 < jardineworks:#liferay> yikes sorry about that :S
+12:42 < jardineworks:#liferay> this is what I wanted to paste --
+12:42 < jardineworks:#liferay> login=Login
+12:42 < jardineworks:#liferay> so if you put login=Login Now! into that file in your hook and deploy then the button will now show Login Now!
