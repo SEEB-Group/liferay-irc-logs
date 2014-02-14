@@ -45,3 +45,4 @@
 11:51 < AhmadElMelegy:#liferay> I can't find the Language.properties for message board
 11:52 < AhmadElMelegy:#liferay> I am using liferay 6.2 CE
 12:01 < barrie:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/content/Language.properties
+12:02 < barrie:#liferay> you'll just need to look on the screen for the text.. and then search for it in the language file
