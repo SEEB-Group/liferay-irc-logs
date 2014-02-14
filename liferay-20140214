@@ -1,1 +1,3 @@
 --- Log opened Fri Feb 14 00:00:19 2014
+04:24 < bjornjohansson:#liferay> I'm not so much into security things but Liferay have the possibility to add Javascript to portlets… isn't that adding a xss security flaw?
+04:24 < bjornjohansson:#liferay> (i'm a newbie about security issues and just curious)
