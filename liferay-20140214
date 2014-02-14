@@ -8,3 +8,4 @@
 06:41 < AhmadElMelegy:#liferay> I want to rename the buttons
 08:11 < rocknroll_:#liferay> you can create a hook and override the language strings
 08:12 < rocknroll_:#liferay> http://www.liferay.com/documentation/liferay-portal/6.0/development/-/ai/overriding-a-language-properties-file
+09:11 < mtsr:#liferay> Hi, quick question, I'm creating a new com.liferay.portal.kernel.mail.MailMessage, which I can set the subjet for fine, but as soon as I .setTo(new InternetAddress("aaa@bbb.com")) nothing more happens. My code doesn't run past that line.
