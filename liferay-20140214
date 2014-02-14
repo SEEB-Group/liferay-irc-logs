@@ -6,3 +6,4 @@
 04:32 < topolik:#liferay> e.g. reading strings from URL and writing into HTML DOM
 06:41 < AhmadElMelegy:#liferay> How can I override the Language.properties File of message board portlet ?
 06:41 < AhmadElMelegy:#liferay> I want to rename the buttons
+08:11 < rocknroll_:#liferay> you can create a hook and override the language strings
