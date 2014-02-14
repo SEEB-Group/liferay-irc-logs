@@ -77,3 +77,23 @@
 12:26 < jardineworks:#liferay> alternatively, if you know the JSP with the button you can look it up inside ROOT/html/portlet etc and then find the liferay-ui:message key=""
 12:26 < jardineworks:#liferay> for the button
 12:26 < AhmadElMelegy:#liferay> if something went wrong I'll back :D
+12:27 < jardineworks:#liferay> AhmadElMelegy, Just take the label off the button and do a find for it... for example if I search for Login I can find the key.
+12:27 < AhmadElMelegy:#liferay> Ok I got it, thanks :)
+12:27 < jardineworks:#liferay> 3157
+12:27 < jardineworks:#liferay> 3158
+12:27 < jardineworks:#liferay> 3159
+12:27 < jardineworks:#liferay> 3160
+12:27 < jardineworks:#liferay> 3161
+12:27 < jardineworks:#liferay> 3162
+12:27 < jardineworks:#liferay> 3163
+12:27 < jardineworks:#liferay> 3164
+12:27 < jardineworks:#liferay> 3165
+12:27 < jardineworks:#liferay> 3166
+12:27 < jardineworks:#liferay> 3167
+12:27 < jardineworks:#liferay> 3168
+12:27 < jardineworks:#liferay> 3169
+12:27 < jardineworks:#liferay> 3170
+12:27 < jardineworks:#liferay> 3171
+12:27 < jardineworks:#liferay> 3172
+12:27 < jardineworks:#liferay> 3173
+12:28 < jardineworks:#liferay> 3174
