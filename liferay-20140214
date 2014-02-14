@@ -3,3 +3,4 @@
 04:24 < bjornjohansson:#liferay> (i'm a newbie about security issues and just curious)
 04:31 < topolik:#liferay> with good programing practices is using JS from portlets safe
 04:31 < topolik:#liferay> JavaScript can create DOM based XSS
+04:32 < topolik:#liferay> e.g. reading strings from URL and writing into HTML DOM
