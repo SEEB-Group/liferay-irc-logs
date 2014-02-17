@@ -1,1 +1,2 @@
 --- Log opened Mon Feb 17 00:00:23 2014
+04:56 < mtsr:#liferay> Good morning. I'm having a weird issue with file uploads. I'm trying to generate an error message for the user when he tries to upload too large a file. Instead of an exception or anything, my serveResource() method gets called with a request without any included file uploads (while there was one that was way to big). I would expect some way to get info about the failed upload at least.
