@@ -1,2 +1,3 @@
 --- Log opened Tue Feb 18 00:00:25 2014
 09:38 < nicolas_FR_:#liferay> hi there
+09:41 < nicolas_FR_:#liferay> I would like to have a page in Liferay that would directly link to an external website without redirect. For now I have "socialPage" of type "URL" with value "www.facebook.fr/socialPage" and a short url "site/facebook", but site goes to site/facebook and then www.facebook.fr/socialPage.. we want to avoid the redirect. Any idea ?
