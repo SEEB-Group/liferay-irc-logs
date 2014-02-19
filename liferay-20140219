@@ -2,3 +2,4 @@
 07:47 < leroy:#liferay> In liferay 6.1 I could use http://localhost:8080/c/journal/view_article_content?groupId=10199&articleId=11316 to view an article. In 6.2 the blank page is shown. How can I view the article in Liferay 6.2?
 08:05 < _leroy_:#liferay> In liferay 6.1 I could use http://localhost:8080/c/journal/view_article_content?groupId=10199&articleId=11316 to view an article. In 6.2 the blank page is shown. How can I view the article in Liferay 6.2?
 11:42 < marrk:#liferay> hallo
+11:44 < marrk:#liferay> is IPC working with 2 different projects aswell? or do both portlets have to be in the same project?
