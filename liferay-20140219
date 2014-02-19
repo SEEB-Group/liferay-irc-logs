@@ -10,3 +10,4 @@
 12:15 < marrk:#liferay> ok thanks
 12:21 < marrk:#liferay> so i need a link to a function that uses ActionResponse? or is it possible to set the parameters in a jsp ?
 12:22 < marrk:#liferay> i need a link that goes to a new page + setting a parameter for the IPC
+12:31 <@jhf:#liferay> you can construct the link's URL using the built-in taglibs and <portlet:param> to specify render parameters. here are some examples: http://www.liferaysavvy.com/2013/11/working-with-liferay-urls.html
