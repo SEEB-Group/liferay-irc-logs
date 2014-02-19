@@ -6,3 +6,4 @@
 12:08 <@jhf:#liferay> marrk: IPC can cross project boundaries (I assume you are referring to IDE concept of "projects"?). But even if you're referring to plugins, IPC can also cross plugin boundaries.
 12:09 < marrk:#liferay> well i have 2 projects in my eclipse(each project for a site) and i want to communicate within those projects (portlets)
 12:09 < marrk:#liferay> can i do it the way its written here? http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472   (2.1 IPC)
+12:11 <@jhf:#liferay> yep. JSR 286 IPC (via public render parameters or events) can be done between two portlets even if they're not in the same eclipse project
