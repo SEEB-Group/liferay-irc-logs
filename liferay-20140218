@@ -3,3 +3,4 @@
 09:41 < nicolas_FR_:#liferay> I would like to have a page in Liferay that would directly link to an external website without redirect. For now I have "socialPage" of type "URL" with value "www.facebook.fr/socialPage" and a short url "site/facebook", but site goes to site/facebook and then www.facebook.fr/socialPage.. we want to avoid the redirect. Any idea ?
 14:33 < AhmadElMelegy:#liferay> Is there something like message-boards that enables to make something like conclusion in the end of every topic ?
 20:23 < scribe:#liferay> Hey guys.  I'm about to try a local upgrade of our portal from 6.1 to 6.2 and notice that there is a 6.2EE SP1 dated this month.  Does this mean there will be a 6.2CE GA2 soon?
+--- Log closed Wed Feb 19 00:00:26 2014
