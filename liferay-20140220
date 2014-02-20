@@ -3,3 +3,6 @@
 01:29 < hufg:#liferay> jardineworks wazap?!
 06:58 < _leroy_:#liferay> Hi! In Liferay 6.1 I can get an article using this URL, http://localhost:8080/c/journal/view_article_content?groupId=10184&articleId=WELCOME In Liferay 6.2 an empty page is shown. If change the articleId or GroupId we'll get a 404 error response. Is it a bug, feature, or... else?
 09:16 < hufg:#liferay> helloo helloo
+09:34 < jardineworks:#liferay> hufg! \o/
+09:34 < jardineworks:#liferay> how's the non-military service?!
+09:34 < hufg:#liferay> very nice!
