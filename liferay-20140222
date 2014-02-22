@@ -1,3 +1,4 @@
 --- Log opened Sat Feb 22 00:00:30 2014
 03:34 < bhuvana:#liferay> hai quercus
 08:41 < red5_:#liferay> hi guys!
+08:42 < red5_:#liferay> i have a question. is it possible to pass a list with objects from jsp to portlet action in liferay?
