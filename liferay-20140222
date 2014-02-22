@@ -3,3 +3,4 @@
 08:41 < red5_:#liferay> hi guys!
 08:42 < red5_:#liferay> i have a question. is it possible to pass a list with objects from jsp to portlet action in liferay?
 08:44 < red5_:#liferay> The liferay make the mapping from jsp to action. p.ex. i have a form with a person's list (person[0].name, person[0].age) when i submit it, how a grab the values from jsp ?
+12:34 < arcee:#liferay> hello?
