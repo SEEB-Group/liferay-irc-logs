@@ -3,3 +3,4 @@
 20:03 < AhmadElMelegy:#liferay> I want to migrate wordpress to liferay, I tried this https://www.liferay.com/community/forums/-/message_boards/message/34820743
 20:04 < AhmadElMelegy:#liferay> but I get an error messge "Wordpress Importer is temporarily unavailable."
 20:04 < AhmadElMelegy:#liferay> any help ?
+21:51 < bradley:#liferay> any way to access theme velocity variables in a hook
