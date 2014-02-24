@@ -4,3 +4,4 @@
 09:50 < kameshs:#liferay> lets say i have a page that displays 4 custom portlets and i have  a asset publisher, the asset publisher needs to display the related assets based on the custom portlets metadata
 16:39 < marrk:#liferay> hey someone here that can help me with actionrequest?
 16:39 < marrk:#liferay> *actionresponse
+16:40 < marrk:#liferay> i want to use "actionResponse.sendRedirect" and its not working when i use "actionResponse.setRenderParameter" before
