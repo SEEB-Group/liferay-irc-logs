@@ -4,3 +4,6 @@
 05:46 < Salazar:#liferay> hello! I am trying to setup an corporate portal and I am still experimenting with Liferay. Can some please help with a couple of issues I am facing?
 10:10 -!- mode/#liferay [+o rotty3000] by ChanServ
 10:35 -!- mode/#liferay [+o jhf] by ChanServ
+10:37 < Tar-Minyatur:#liferay> Hey guys.
+10:37 < Tar-Minyatur:#liferay> Are there any known issues with Liferay and S3?
+10:37 < Tar-Minyatur:#liferay> I feel like the whole S3 implementation is somewhat shaky.
