@@ -7,3 +7,5 @@
 10:37 < Tar-Minyatur:#liferay> Hey guys.
 10:37 < Tar-Minyatur:#liferay> Are there any known issues with Liferay and S3?
 10:37 < Tar-Minyatur:#liferay> I feel like the whole S3 implementation is somewhat shaky.
+10:38 < Tar-Minyatur:#liferay> We have Liferay going down completely from time to time...and it looks like it has something to do with the media library.
+10:38 < Tar-Minyatur:#liferay> Also, sometimes entire folders in the media library become uneditable for longer periods of time after something has been changed in there.
