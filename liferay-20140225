@@ -9,3 +9,6 @@
 10:37 < Tar-Minyatur:#liferay> I feel like the whole S3 implementation is somewhat shaky.
 10:38 < Tar-Minyatur:#liferay> We have Liferay going down completely from time to time...and it looks like it has something to do with the media library.
 10:38 < Tar-Minyatur:#liferay> Also, sometimes entire folders in the media library become uneditable for longer periods of time after something has been changed in there.
+11:28 < AhmadElMelegy:#liferay> I want to migrate form wordpress  to liferay
+11:28 < AhmadElMelegy:#liferay> I tried this method https://www.liferay.com/community/forums/-/message_boards/message/34820743
+11:29 < AhmadElMelegy:#liferay> but it's not working on CE 6.2
