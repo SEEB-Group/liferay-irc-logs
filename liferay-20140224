@@ -6,3 +6,4 @@
 16:39 < marrk:#liferay> *actionresponse
 16:40 < marrk:#liferay> i want to use "actionResponse.sendRedirect" and its not working when i use "actionResponse.setRenderParameter" before
 20:19 < marrk:#liferay> hm anyonehere that can help me with "java.lang.IllegalStateException: Set render parameter has already been called" ?
+--- Log closed Tue Feb 25 00:00:34 2014
