@@ -5,3 +5,4 @@
 16:39 < marrk:#liferay> hey someone here that can help me with actionrequest?
 16:39 < marrk:#liferay> *actionresponse
 16:40 < marrk:#liferay> i want to use "actionResponse.sendRedirect" and its not working when i use "actionResponse.setRenderParameter" before
+20:19 < marrk:#liferay> hm anyonehere that can help me with "java.lang.IllegalStateException: Set render parameter has already been called" ?
