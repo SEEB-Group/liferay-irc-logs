@@ -51,3 +51,7 @@
 15:23 <@jhf:#liferay> it in turn uses liferay-ui:input-field
 15:23 <@jhf:#liferay> which is here: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/input_field/page.jsp
 15:23 < Tobias_Sammet:#liferay> nice i fix it
+15:24 <@jhf:#liferay> ridiculous how much JSP is used for a single <input> field eh? :0
+15:24 <@jhf:#liferay> :)
+15:24 <@jhf:#liferay> Tobias_Sammet: congrats
+15:24 < Tobias_Sammet:#liferay> thanks jhf
