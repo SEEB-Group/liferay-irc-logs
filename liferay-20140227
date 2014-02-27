@@ -29,3 +29,4 @@
 14:06 <@jhf:#liferay>  int delta = portletPreferences.getValue("delta", 20);
 14:10 < Tobias_Sammet:#liferay> mm let me see
 15:08 < ra2:#liferay> hi guys! I wanna know is it possible to set event handler for added dynamically on portlet's form?
+15:09 < ra2:#liferay> i want to use the validation behavior on my input fields
