@@ -44,3 +44,5 @@
 15:19 <@jhf:#liferay> how about onChange
 15:19 <@jhf:#liferay> or any of the on* handlers one can attach to form fields
 15:19 < ra2:#liferay> i'll try it
+15:20 < ra2:#liferay> do u know where the template used to render the ui:input  on github ?
+15:20 <@jhf:#liferay> yeah.. one sec.
