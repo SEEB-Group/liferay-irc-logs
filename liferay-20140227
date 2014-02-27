@@ -6,3 +6,7 @@
 13:45 < Tobias_Sammet:#liferay> can i ask about a development with searchcontainer ?
 13:45 < Tobias_Sammet:#liferay> hi jhf
 13:46 <@jhf:#liferay> yep, go for it
+13:46 <@jhf:#liferay> but IANAE
+13:46 <@jhf:#liferay> (I am not an expert) :)
+13:46 < Tobias_Sammet:#liferay> okay thanks here is the question
+13:46 < Tobias_Sammet:#liferay> i have a portlet with preferences and y save the delta value for the searchcontainer
