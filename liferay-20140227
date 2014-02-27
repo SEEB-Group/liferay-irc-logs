@@ -37,3 +37,4 @@
 15:13 < ra2:#liferay> i have some fields added by javascript
 15:13 <@jhf:#liferay> are you on liferay 6.2?
 15:13 < ra2:#liferay> yes
+15:14 < ra2:#liferay> and in this field the events (onblur)  was not fired
