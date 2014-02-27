@@ -33,3 +33,7 @@
 15:10 <@jhf:#liferay> ra2: are you using AlloyUI? it has built-in validation for all form fields.
 15:10 <@jhf:#liferay> or are you using Liferay's built-in web forms portlet?
 15:12 < ra2:#liferay> @jhf yes
+15:13 < ra2:#liferay> @jhf i'm using aui:input
+15:13 < ra2:#liferay> i have some fields added by javascript
+15:13 <@jhf:#liferay> are you on liferay 6.2?
+15:13 < ra2:#liferay> yes
