@@ -19,3 +19,5 @@
 13:50 <@jhf:#liferay> liferay itself has many instances of this. I shall now look through the source code for a good example. standby
 13:54 < Tobias_Sammet:#liferay> ok
 13:54 < Tobias_Sammet:#liferay> paste the code here?
+13:56 <@jhf:#liferay> one question: why do you want to access the value that the user chose in your doView?
+13:56 <@jhf:#liferay> the search container's JSPs will handle showing the correct # of results
