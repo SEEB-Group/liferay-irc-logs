@@ -24,3 +24,4 @@
 13:58 < Tobias_Sammet:#liferay> because i need that the administrator configures the delta value of the search container
 13:58 < Tobias_Sammet:#liferay> for example i need that delta be configured to 10 results per page as default
 13:58 < Tobias_Sammet:#liferay> or 20
+13:59 < Tobias_Sammet:#liferay> i made a custom search container for journalarticles
