@@ -38,3 +38,5 @@
 15:13 <@jhf:#liferay> are you on liferay 6.2?
 15:13 < ra2:#liferay> yes
 15:14 < ra2:#liferay> and in this field the events (onblur)  was not fired
+15:15 <@jhf:#liferay> when you add the <aui:input> element in javascript, can't you set its onBlur attribute?
+15:15 <@jhf:#liferay> to some JS method name?
