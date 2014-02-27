@@ -28,3 +28,4 @@
 14:02 <@jhf:#liferay> so I don't know if I quite understand why you would need to do anything in java in a doView method - can you just do <liferay-ui:search-container delta="<%= delta %>"
 14:06 <@jhf:#liferay>  int delta = portletPreferences.getValue("delta", 20);
 14:10 < Tobias_Sammet:#liferay> mm let me see
+15:08 < ra2:#liferay> hi guys! I wanna know is it possible to set event handler for added dynamically on portlet's form?
