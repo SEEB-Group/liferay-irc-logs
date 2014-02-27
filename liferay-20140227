@@ -16,3 +16,4 @@
 13:49 < Tobias_Sammet:#liferay> how i read the select value from the search container portlet from the doview?
 13:49 < Tobias_Sammet:#liferay> in the doview method....
 13:49 < Tobias_Sammet:#liferay> ?
+13:50 <@jhf:#liferay> liferay itself has many instances of this. I shall now look through the source code for a good example. standby
