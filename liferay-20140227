@@ -25,3 +25,4 @@
 13:58 < Tobias_Sammet:#liferay> for example i need that delta be configured to 10 results per page as default
 13:58 < Tobias_Sammet:#liferay> or 20
 13:59 < Tobias_Sammet:#liferay> i made a custom search container for journalarticles
+14:02 <@jhf:#liferay> so I don't know if I quite understand why you would need to do anything in java in a doView method - can you just do <liferay-ui:search-container delta="<%= delta %>"
