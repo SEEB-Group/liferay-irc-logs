@@ -11,3 +11,4 @@
 13:46 < Tobias_Sammet:#liferay> okay thanks here is the question
 13:46 < Tobias_Sammet:#liferay> i have a portlet with preferences and y save the delta value for the searchcontainer
 13:47 < Tobias_Sammet:#liferay> then i create the searchcontainer and set the delta value from the preferences like this... int delta = Integer.parseInt(prefs.getValue("deltaCantidadContactos", "0"));
+13:48 < Tobias_Sammet:#liferay> the problem is the next... when im in the portlet and press the option results per page
