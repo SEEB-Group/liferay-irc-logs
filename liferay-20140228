@@ -1,3 +1,4 @@
 --- Log opened Fri Feb 28 00:00:39 2014
 09:11 < ra2:#liferay> how i disabled the minifier for may javascripts on liferay ?
 09:14 < ra2:#liferay> other thing! where is the source-code for button submit on aui:form ?
+09:24 < ra2:#liferay> how to disable required validator to one field on form by Javascript ?
