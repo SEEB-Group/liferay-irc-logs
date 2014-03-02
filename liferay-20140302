@@ -8,3 +8,4 @@
 11:30 < AhmadElMelegy:#liferay> anyone can help me !
 11:31 < AhmadElMelegy:#liferay> In wordpress as an admin I can add posts with the name of other users
 11:31 < AhmadElMelegy:#liferay> Can I do this with Liferay ?
+12:50 < Tar-Minyatur:#liferay> AhmadElMelegy: Using the "Users and Groups" interface you can impersonate other users.
