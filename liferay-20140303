@@ -57,3 +57,4 @@
 10:03 < nicolas_FR:#liferay> hi there
 10:13 < nicolas_FR:#liferay> Question on liferay 5.2.3 + struts bridge : all our sources are packaged in the WEB-INF/src directory when creating a war from ant script. Any idea how to remove them ?
 10:34 < topolik:#liferay> nicolas_FR: try this: https://www.liferay.com/community/forums/-/message_boards/message/24164305
+10:37 < nicolas_FR:#liferay> topolik: hi, thanks but I already saw this post. Fact is this property is 6.1.1, and we're on 5.2.3 actually
