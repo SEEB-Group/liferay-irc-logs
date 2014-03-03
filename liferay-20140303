@@ -61,3 +61,7 @@
 10:48 < topolik:#liferay> nicolas_FR: build-common-plugin.xml, line 228, add: excludes="${plugins.war.excludes}"
 10:48 < topolik:#liferay> or redefine "war" task in your build.xml
 10:55 < nicolas_FR:#liferay> topolik : thanks ! Where could I see the declaration of variables ? like ${plugins.war.excludes}"
+10:56 < topolik:#liferay> add it into build.<username>.properties
+10:56 < topolik:#liferay> this one is not declared (in 5.2.3) ;)
+10:56 < topolik:#liferay> you find the others in build.properties
+10:56 < nicolas_FR:#liferay> ok thanks
