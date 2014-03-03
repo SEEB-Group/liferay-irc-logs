@@ -67,3 +67,4 @@
 10:56 < nicolas_FR:#liferay> ok thanks
 10:57 < nicolas_FR:#liferay> something like this ? : plugins.war.excludes=**/WEB-INF/src/*
 10:59 < nicolas_FR:#liferay> topolik : plugins.war.excludes=**/WEB-INF/src/* removed my .properties files, but all directories and .java are still presents
+11:00 < topolik:#liferay> add plugins.war.excludes=**/WEB-INF/service/**,**/WEB-INF/src/** into "build.<username>.properties"
