@@ -53,3 +53,4 @@
 09:53 < sm`:#liferay> compiling process is fine
 09:54 < sm`:#liferay> but i get a java.lang.ClassNotFoundException when deployed on server
 09:54 < sm`:#liferay> the project is added int the properties -> buildpath... the order is checked and everything
+10:01 < sm`:#liferay> i also tried adding the project in properties -> project references
