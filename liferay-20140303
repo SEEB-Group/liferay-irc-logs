@@ -65,3 +65,4 @@
 10:56 < topolik:#liferay> this one is not declared (in 5.2.3) ;)
 10:56 < topolik:#liferay> you find the others in build.properties
 10:56 < nicolas_FR:#liferay> ok thanks
+10:57 < nicolas_FR:#liferay> something like this ? : plugins.war.excludes=**/WEB-INF/src/*
