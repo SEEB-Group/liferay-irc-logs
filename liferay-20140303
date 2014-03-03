@@ -51,3 +51,5 @@
 09:53 < sm`:#liferay> hello... i'm trying to reference two liferay portlet project and in the liferay ide (eclipse) everything looks fine
 09:53 < sm`:#liferay> the intelisense is right
 09:53 < sm`:#liferay> compiling process is fine
+09:54 < sm`:#liferay> but i get a java.lang.ClassNotFoundException when deployed on server
+09:54 < sm`:#liferay> the project is added int the properties -> buildpath... the order is checked and everything
