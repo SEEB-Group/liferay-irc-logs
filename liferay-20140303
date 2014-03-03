@@ -79,3 +79,6 @@
 11:11 < sm`:#liferay> ?
 11:18 < topolik:#liferay> sm`: sorry, I don't neither liferay ide nor eclipse :/
 11:18 < topolik:#liferay> *use
+11:20 < sm`:#liferay> :)
+11:20 < sm`:#liferay> but you dont see a 'logic' issue by referencing two liferay portlet projects
+11:20 < sm`:#liferay> and use classes from the referenced one
