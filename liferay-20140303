@@ -75,3 +75,5 @@
 11:04 < topolik:#liferay> or better, ** means multiple levels, * is just one
 11:04 < topolik:#liferay> n/p ;)
 11:07 -!- mode/#liferay [+o rotty3000] by ChanServ
+11:11 < sm`:#liferay> any idea about my problem i've tried all the suggesting (adding to build path, changing order, adding to deployment assembly, reference projcects...)
+11:11 < sm`:#liferay> ?
