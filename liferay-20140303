@@ -55,3 +55,4 @@
 09:54 < sm`:#liferay> the project is added int the properties -> buildpath... the order is checked and everything
 10:01 < sm`:#liferay> i also tried adding the project in properties -> project references
 10:03 < nicolas_FR:#liferay> hi there
+10:13 < nicolas_FR:#liferay> Question on liferay 5.2.3 + struts bridge : all our sources are packaged in the WEB-INF/src directory when creating a war from ant script. Any idea how to remove them ?
