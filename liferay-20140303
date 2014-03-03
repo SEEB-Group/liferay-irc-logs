@@ -71,3 +71,6 @@
 11:03 < nicolas_FR:#liferay> topolik : just so I know, what does ** means ? Why 2 * ?
 11:03 < nicolas_FR:#liferay> when I see : plugins.includes=*
 11:03 < topolik:#liferay> ** includes subdirs
+11:04 < nicolas_FR:#liferay> ok thanks :)
+11:04 < topolik:#liferay> or better, ** means multiple levels, * is just one
+11:04 < topolik:#liferay> n/p ;)
