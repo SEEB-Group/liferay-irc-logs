@@ -19,3 +19,4 @@
 11:01 < eL_LoK0:#liferay> but an error is returned.... Caused by: org.jabsorb.serializer.MarshallException: Unable to match field searchContainer
 11:01 < eL_LoK0:#liferay> can someone help me please?
 11:46 < avinashrbhat:#liferay> eL_LoK0, i think you will have to serialize it by yourself/provide some mapping over that class
+12:08 < eL_LoK0:#liferay> hi avinashrbhat
