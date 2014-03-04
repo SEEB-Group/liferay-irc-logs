@@ -5,3 +5,5 @@
 05:11 < avinashrbhat:#liferay> i have a question regarding the use of taglibs in freemarker: how can i use a tabglib whose tag has '-' character? like using <@aui.nav-item> gives me exception
 05:48 < avinashrbhat:#liferay> anyone here?
 08:34 < Tar-Minyatur:#liferay> Hey guys.
+08:35 < Tar-Minyatur:#liferay> Anyone ever used the web forms portlet?
+08:35 < Tar-Minyatur:#liferay> It looks kinda neglected.
