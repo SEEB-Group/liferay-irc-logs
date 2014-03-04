@@ -16,3 +16,5 @@
 11:00 < eL_LoK0:#liferay> i've tried to do something like ... String jsonString = "";
 11:00 < eL_LoK0:#liferay> jsonString = JSONFactoryUtil.serialize(airportContainerList);
 11:00 < eL_LoK0:#liferay> response.getPortletOutputStream().write(jsonString.getBytes());
+11:01 < eL_LoK0:#liferay> but an error is returned.... Caused by: org.jabsorb.serializer.MarshallException: Unable to match field searchContainer
+11:01 < eL_LoK0:#liferay> can someone help me please?
