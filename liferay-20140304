@@ -3,3 +3,4 @@
 01:38 < Axxell_:#liferay>  to write a shorter version of what i wrote before: Cant get vaadin to log to normal tomcat, liferay logs, how do i do that?
 05:09 < avinashrbhat:#liferay> anyone knowledgeable in freemarker freemarker templates here?
 05:11 < avinashrbhat:#liferay> i have a question regarding the use of taglibs in freemarker: how can i use a tabglib whose tag has '-' character? like using <@aui.nav-item> gives me exception
+05:48 < avinashrbhat:#liferay> anyone here?
