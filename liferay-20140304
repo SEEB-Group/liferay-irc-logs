@@ -20,3 +20,4 @@
 11:01 < eL_LoK0:#liferay> can someone help me please?
 11:46 < avinashrbhat:#liferay> eL_LoK0, i think you will have to serialize it by yourself/provide some mapping over that class
 12:08 < eL_LoK0:#liferay> hi avinashrbhat
+12:12 < avinashrbhat:#liferay> eL_LoK0, try https://www.liferay.com/community/wiki/-/wiki/Main/JSON+Serialization
