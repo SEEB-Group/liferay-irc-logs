@@ -8,3 +8,5 @@
 08:35 < Tar-Minyatur:#liferay> Anyone ever used the web forms portlet?
 08:35 < Tar-Minyatur:#liferay> It looks kinda neglected.
 09:46 -!- mode/#liferay [+o rotty3000] by ChanServ
+09:58 < avinashrbhat:#liferay> hello, I asked this question before: how can i use a tabglib whose tag has '-' character? like using <@aui.nav-item> gives me exception.
+09:58 < avinashrbhat:#liferay> this is for freemarker template
