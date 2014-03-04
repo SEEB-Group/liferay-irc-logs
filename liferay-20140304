@@ -1,3 +1,4 @@
 --- Log opened Tue Mar 04 00:00:44 2014
 01:26 < Axxell_:#liferay> Hello mamals, trying to get logging to work on vaadin with liferay, tried to use SLF4J but the book of vaadin and its advice is somewhat lacking. It says "The basic way to go about this is to add the SLF4J JAR file as well as the  jul-to-slf4j.jar file, which implements the bridge from java.util.logging, to SLF4J. ", well there is no such thing as a SLF4J jar file, just a heck of a bunch of different files starting with SLF4j, now whi
 01:38 < Axxell_:#liferay>  to write a shorter version of what i wrote before: Cant get vaadin to log to normal tomcat, liferay logs, how do i do that?
+05:09 < avinashrbhat:#liferay> anyone knowledgeable in freemarker freemarker templates here?
