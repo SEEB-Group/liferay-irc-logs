@@ -3,3 +3,4 @@
 02:57 < wench:#liferay> I have a custom login module and I need Liferay to work with IT as well\
 02:57 < wench:#liferay> what is the needed steps for that
 02:57 < wench:#liferay> appreciate ur help,
+06:19 < Jusle:#liferay> Hello! I'd like to have a feature that Liferay opens correct language based on quest user location. For example, if the user comes from Spain, Liferay shows Spanish version, if from Finland, Finnish version etc. How I can have this feature on Liferay? Thanks in advance.
