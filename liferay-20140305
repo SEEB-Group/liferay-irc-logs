@@ -1,2 +1,5 @@
 --- Log opened Wed Mar 05 00:00:46 2014
 02:56 < wench:#liferay> hi guys, I need some help with JAAS configuration with Liferay
+02:57 < wench:#liferay> I have a custom login module and I need Liferay to work with IT as well\
+02:57 < wench:#liferay> what is the needed steps for that
+02:57 < wench:#liferay> appreciate ur help,
