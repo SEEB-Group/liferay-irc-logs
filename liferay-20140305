@@ -13,3 +13,4 @@
 09:23 < topolik:#liferay> nicolas_FR: upgrade to 6.2
 09:24 < nicolas_FR:#liferay> topolik: thanks for the advice, but I was looking for a quick solution, not something like migrating all our portlets + portal to 6.2
 09:28 < topolik:#liferay> https://issues.liferay.com/browse/LPS-8374 - there are patches included
+09:39 < nicolas_FR_:#liferay> thanks topolik , got disconnected did not see your last post until I checked logs of the channel
