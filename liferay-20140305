@@ -11,3 +11,4 @@
 09:20 < nicolas_FR:#liferay> some security problem here : we just saw that - anyone - (guest user) can see our directory portlet by just adding ?p_p_id=2&p_p_state=maximized&_2_struts_action=/directory/view to our portal URL. this is a big flaw here. Any quick advice ? We're on Liferay 5.2.3
 09:21 < nicolas_FR:#liferay> And btw changing rights of the directory portlets through plugin configuration menu in liferay admin did not change anything (guest still can access this page. We did not reboot the server btw)
 09:23 < topolik:#liferay> nicolas_FR: upgrade to 6.2
+09:24 < nicolas_FR:#liferay> topolik: thanks for the advice, but I was looking for a quick solution, not something like migrating all our portlets + portal to 6.2
