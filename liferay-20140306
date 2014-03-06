@@ -14,3 +14,4 @@
 09:53 < ra2:#liferay> jardineworks: :)
 10:11 < Jusle:#liferay> I want to add code inside html <head></head> of my fresh Liferay 6.2 tomcat bundle installation with welcome-theme. I cannot find proper answer how to do that?
 10:22 < Jusle:#liferay> just add it to portal_normal.vm in the welcome-theme directory?
+10:30 < nicolas_FR:#liferay> hi there
