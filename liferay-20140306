@@ -9,3 +9,4 @@
 09:25 < jardineworks:#liferay> ra2, javascript?
 09:25 < jardineworks:#liferay> or you could do it server side I suppose and simply reload the page with a message if it is missing
 09:27 < ra2:#liferay> jardineworks: on jsp.
+09:28 < ra2:#liferay> jardineworks: i found the solution. it's only set  attribute required="true" on aui:select
