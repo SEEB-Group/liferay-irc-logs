@@ -19,3 +19,4 @@
 11:46 < ra2:#liferay> jardineworks: it's soo excellent ! lol
 11:47 < ra2:#liferay> jardineworks: i hate to stop and start my server every time
 11:47 < ra2:#liferay> jardineworks: thx
+11:53 < ra2:#liferay> jardineworks: what's the flag to disable the Minifier ? com.liferay.portal.servlet.filters.minifier.MinifierFilter ?
