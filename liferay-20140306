@@ -16,3 +16,4 @@
 10:22 < Jusle:#liferay> just add it to portal_normal.vm in the welcome-theme directory?
 10:30 < nicolas_FR:#liferay> hi there
 10:31 < nicolas_FR:#liferay> I'm trying to access some portal-ext.properties key value from ServicePreAction using : String[] controlPanelRoles = StringUtils.split(PropsUtil.get("control.panel.roles"),',');, but it always returns null. Any idea ?
+--- Log closed Fri Mar 07 00:00:48 2014
