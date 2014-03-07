@@ -21,3 +21,4 @@
 11:47 < ra2:#liferay> jardineworks: thx
 11:53 < ra2:#liferay> jardineworks: what's the flag to disable the Minifier ? com.liferay.portal.servlet.filters.minifier.MinifierFilter ?
 11:56 < lfdev:#liferay> Hello there Liferay mates! :)
+11:57 < lfdev:#liferay> Does anyone know where can I define permission for site teams in LF 6.2.0?
