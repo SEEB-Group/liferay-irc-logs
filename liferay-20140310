@@ -17,3 +17,10 @@
 08:49 < Axxell:#liferay> and i want to create the url to these assetentrys
 08:49 < Axxell:#liferay> to that default view page
 08:49 < Axxell:#liferay> and i just cant find an example how to
+08:50 < Axxell:#liferay> there is assetRenderer.getURLViewInContext(liferayPortletRequest, liferayPortletResponse, "");
+08:50 < Axxell:#liferay> but in vaadin i dont know how to get liferayportletrequest
+08:50 < Axxell:#liferay> o response
+08:50 < kripkorn:#liferay> are we talking about renderURL?
+08:50 < Axxell:#liferay> i think we are
+08:50 < kripkorn:#liferay> have u try using theme service?
+08:50 < kripkorn:#liferay> or u can create the URL manualy if u know the id
