@@ -50,3 +50,6 @@
 09:01 < kripkorn:#liferay> ic
 09:02 < kripkorn:#liferay> so the will be a lot of link that point to each of asset landing page
 09:02 < Axxell:#liferay> yes thats it
+09:03 < kripkorn:#liferay> why not juz use the friendly url
+09:03 < Axxell:#liferay>  String friendlyURL = themeDisplay.getPortalURL()+ "/-/" + myRenderer.getUrlTitle(); ?
+09:03 < Axxell:#liferay> just found that thing
