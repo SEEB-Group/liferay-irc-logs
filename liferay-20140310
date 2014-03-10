@@ -24,3 +24,6 @@
 08:50 < Axxell:#liferay> i think we are
 08:50 < kripkorn:#liferay> have u try using theme service?
 08:50 < kripkorn:#liferay> or u can create the URL manualy if u know the id
+08:51 < Axxell:#liferay> does it go to the default view page even if i create it manuly?
+08:51 < kripkorn:#liferay> yes it does
+08:51 < Axxell:#liferay> and no do you have an example of how to do it with themeservice
