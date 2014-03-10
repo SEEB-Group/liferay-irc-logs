@@ -71,3 +71,5 @@
 12:03 < kripkorn:#liferay> anyone know how to use notification api
 13:56 < wench:#liferay> hi guys, I've my own jaas loginmodule and I configured liferay to authenticate using this loginmodule
 13:56 < wench:#liferay> what I need to do now is, if the user authenticated succefully I'll add him to liferay
+13:57 < wench:#liferay> is that possible??
+13:57 < wench:#liferay> and what is the recommended way to do it
