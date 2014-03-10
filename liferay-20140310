@@ -38,3 +38,4 @@
 08:56 < kripkorn:#liferay> i sory
 08:56 < kripkorn:#liferay> i dont really get it
 08:56 < Axxell:#liferay> well how would you build an url for the asset entry?
+08:57 < kripkorn:#liferay> usually iusing PortletURL
