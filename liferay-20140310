@@ -67,3 +67,5 @@
 10:29 < mtsr:#liferay> Hi, I'm having an issue with MailEngine. MailEngine.send() is basically not doing anything for me, even though password resets and the like work fine.
 10:30 < mtsr:#liferay> Any suggestions what could be wrong?
 10:35 < mtsr:#liferay> Interestingly enough, it's not actually MailEngine.send() that's failing, but MailMessage.setFrom(new InternetAddress("aaa@bbb.com", "aaa bbb")) that fails to return.
+12:03 < kripkorn:#liferay> hello
+12:03 < kripkorn:#liferay> anyone know how to use notification api
