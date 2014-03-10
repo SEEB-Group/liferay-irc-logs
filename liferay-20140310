@@ -8,3 +8,6 @@
 08:44 < kripkorn:#liferay> anyone here know about notification
 08:44 < kripkorn:#liferay> or userevent
 08:45 < Axxell:#liferay> nope, sry
+08:48 < kripkorn:#liferay> what u want to ask axxell
+08:48 < Axxell:#liferay> Im doing a portlet in vaadin which needs to have links to assetentrys
+08:48 < Axxell:#liferay> which in this case are webcontent items
