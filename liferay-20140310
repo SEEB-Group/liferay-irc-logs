@@ -11,3 +11,9 @@
 08:48 < kripkorn:#liferay> what u want to ask axxell
 08:48 < Axxell:#liferay> Im doing a portlet in vaadin which needs to have links to assetentrys
 08:48 < Axxell:#liferay> which in this case are webcontent items
+08:49 < kripkorn:#liferay> ok
+08:49 < Axxell:#liferay> these webcontent items (journal article) ha a default view page
+08:49 < kripkorn:#liferay> so what the problem there
+08:49 < Axxell:#liferay> and i want to create the url to these assetentrys
+08:49 < Axxell:#liferay> to that default view page
+08:49 < Axxell:#liferay> and i just cant find an example how to
