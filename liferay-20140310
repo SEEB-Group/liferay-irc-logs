@@ -40,3 +40,4 @@
 08:56 < Axxell:#liferay> well how would you build an url for the asset entry?
 08:57 < kripkorn:#liferay> usually iusing PortletURL
 08:58 < Axxell:#liferay> ok, and if doing it manually?
+08:59 < Axxell:#liferay> http://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/lp-6-1-ugen03-display-settings-0
