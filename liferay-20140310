@@ -69,3 +69,4 @@
 10:35 < mtsr:#liferay> Interestingly enough, it's not actually MailEngine.send() that's failing, but MailMessage.setFrom(new InternetAddress("aaa@bbb.com", "aaa bbb")) that fails to return.
 12:03 < kripkorn:#liferay> hello
 12:03 < kripkorn:#liferay> anyone know how to use notification api
+13:56 < wench:#liferay> hi guys, I've my own jaas loginmodule and I configured liferay to authenticate using this loginmodule
