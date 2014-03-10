@@ -41,3 +41,10 @@
 08:57 < kripkorn:#liferay> usually iusing PortletURL
 08:58 < Axxell:#liferay> ok, and if doing it manually?
 08:59 < Axxell:#liferay> http://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/lp-6-1-ugen03-display-settings-0
+09:01 < kripkorn:#liferay> ok did u mean like this, u create a page that contain assetenry in there
+09:01 < kripkorn:#liferay> then from another portlet u want a link to that page
+09:01 < kripkorn:#liferay> is it?
+09:01 < Axxell:#liferay> yyp
+09:01 < Axxell:#liferay> yeah
+09:01 < Axxell:#liferay> each asset would have a different display page
+09:01 < kripkorn:#liferay> ic
