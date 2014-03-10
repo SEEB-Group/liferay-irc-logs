@@ -57,3 +57,10 @@
 09:04 < kripkorn:#liferay> that could work
 09:04 < kripkorn:#liferay> juz change the parameter at the back according to ur page
 09:04 < Axxell:#liferay> i have the localhost set for the site so i dont have that /web/quest/ part in the url
+09:05 < kripkorn:#liferay> web/guest is site url
+09:05 < kripkorn:#liferay> change it according to ur side
+09:05 < kripkorn:#liferay> site*
+09:05 < Axxell:#liferay> ok, thanks it seems to work
+09:05 < kripkorn:#liferay> orait
+09:05 < Axxell:#liferay> or lets hope so, remains to be seen
+09:06 < Axxell:#liferay> :)
