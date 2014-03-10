@@ -53,3 +53,7 @@
 09:03 < kripkorn:#liferay> why not juz use the friendly url
 09:03 < Axxell:#liferay>  String friendlyURL = themeDisplay.getPortalURL()+ "/-/" + myRenderer.getUrlTitle(); ?
 09:03 < Axxell:#liferay> just found that thing
+09:04 < kripkorn:#liferay> yea
+09:04 < kripkorn:#liferay> that could work
+09:04 < kripkorn:#liferay> juz change the parameter at the back according to ur page
+09:04 < Axxell:#liferay> i have the localhost set for the site so i dont have that /web/quest/ part in the url
