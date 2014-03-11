@@ -12,3 +12,5 @@
 06:02 < wench:#liferay> check this out: https://www.liferay.com/community/forums/-/message_boards/message/17237198
 06:07 < Axxell:#liferay> yeah got it to work that far, but it only sorts with assetentry column types, i need to find out how i would sort according to article structure fields
 07:05 < Axxell:#liferay> hey, wasnt there a tag of sorts to split an article, a webcontent, int multiple pages in the web content display?
+07:20 < Axxell:#liferay> never mind, found it, it was @page_break@
+07:20 < Axxell:#liferay> wench: btw ended up doing a new class for my data and using sorting with lists
