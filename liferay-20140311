@@ -3,3 +3,5 @@
 05:05 < Axxell:#liferay> Hey guys im trying to find out what you can use for sorting in  assetEntryQuery.setOrderByCol1, what i want to use are some of the fields i have in my structure
 05:20 < Axxell:#liferay> anyone?
 05:54 < wench:#liferay> Axxell try the forums, this channel is not active most of the time
+05:55 < Axxell:#liferay> wench: been trying to find any info from before, the forums dont seem much better with getting answers from... usually no answers and if any answers come its more weeks than days
+05:55 < wench:#liferay> unfortunately, I help you cause I don't have any information regarding assetEntry
