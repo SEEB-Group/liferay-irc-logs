@@ -11,3 +11,4 @@
 05:59 < Axxell:#liferay> yeah what ive done is have a structure for an article, one of the fields is a date. Now i want to sort the articles by that date in the structure
 06:02 < wench:#liferay> check this out: https://www.liferay.com/community/forums/-/message_boards/message/17237198
 06:07 < Axxell:#liferay> yeah got it to work that far, but it only sorts with assetentry column types, i need to find out how i would sort according to article structure fields
+07:05 < Axxell:#liferay> hey, wasnt there a tag of sorts to split an article, a webcontent, int multiple pages in the web content display?
