@@ -1,3 +1,4 @@
 --- Log opened Tue Mar 11 00:00:54 2014
 01:57 -!- mode/#liferay [+o jhf] by ChanServ
 05:05 < Axxell:#liferay> Hey guys im trying to find out what you can use for sorting in  assetEntryQuery.setOrderByCol1, what i want to use are some of the fields i have in my structure
+05:20 < Axxell:#liferay> anyone?
