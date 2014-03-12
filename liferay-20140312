@@ -18,3 +18,5 @@
 13:46 < marrk:#liferay> so renderURl is going to work for the same page all day long? or do i have to set it every time i call a function ?
 13:48 < modd:#liferay> how do you call the second page?
 13:48 < marrk:#liferay> with actionResponse.sendRedirect
+13:50 < modd:#liferay> and then?actionResponse.sendRedirect(redirectURL.toString()); ?
+13:50 < marrk:#liferay> actionResponse.sendRedirect("/web/guest/process?id=" +id);
