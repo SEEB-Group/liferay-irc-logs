@@ -20,3 +20,5 @@
 13:48 < marrk:#liferay> with actionResponse.sendRedirect
 13:50 < modd:#liferay> and then?actionResponse.sendRedirect(redirectURL.toString()); ?
 13:50 < marrk:#liferay> actionResponse.sendRedirect("/web/guest/process?id=" +id);
+13:51 < modd:#liferay> a portlet gets scoped parameters...the scope is the id of the portlet
+13:51 < modd:#liferay> so it will not "see" the id parameter
