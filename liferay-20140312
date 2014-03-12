@@ -26,3 +26,4 @@
 13:52 < marrk:#liferay> but when i do a setrenderparameter on the 2nd page, URL is changed
 13:53 < modd:#liferay> have a look at this https://www.liferay.com/de/community/forums/-/message_boards/message/13969225
 13:54 < modd:#liferay> afk for some minutes
+13:55 < marrk:#liferay> well the other problem is: the page should be used several times at the same moment, so using an ID in the URL was pretty much perfect, because like renderParameter is overwritten every time
