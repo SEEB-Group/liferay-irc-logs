@@ -29,3 +29,4 @@
 13:55 < marrk:#liferay> well the other problem is: the page should be used several times at the same moment, so using an ID in the URL was pretty much perfect, because like renderParameter is overwritten every time
 13:59 < marrk:#liferay> well brb
 14:19 < modd:#liferay> "the page should be used several times at the same moment" ??
+14:37 < marrk:#liferay> its a page about processhandling, so a user should be able to do more then 1 process at the same time
