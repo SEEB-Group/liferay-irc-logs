@@ -37,3 +37,5 @@
 19:40 < apucay:#liferay> the service utils are the ways to update the database
 19:41 < marrk:#liferay> well yeah, i use xxxLocalServiceUtil.updatexxx and its working
 19:41 < marrk:#liferay> but if i call the parameter later, i get an old one
+19:44 < marrk:#liferay> i need to refresh my portlets to get the actual values, no command line to "refresh" the database values manually?
+19:44 < marrk:#liferay> i think its a cashe problem from liferay though :/
