@@ -31,3 +31,4 @@
 14:19 < modd:#liferay> "the page should be used several times at the same moment" ??
 14:37 < marrk:#liferay> its a page about processhandling, so a user should be able to do more then 1 process at the same time
 14:38 < marrk:#liferay> is it possible to use actionRequest.getPortletSession() over 2 pages?
+14:46 < marrk:#liferay> i am not too sure how the solution in your link should help me :/
