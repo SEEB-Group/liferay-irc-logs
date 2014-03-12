@@ -22,3 +22,5 @@
 13:50 < marrk:#liferay> actionResponse.sendRedirect("/web/guest/process?id=" +id);
 13:51 < modd:#liferay> a portlet gets scoped parameters...the scope is the id of the portlet
 13:51 < modd:#liferay> so it will not "see" the id parameter
+13:52 < marrk:#liferay> well as long as the url is like that, i can call the id
+13:52 < marrk:#liferay> but when i do a setrenderparameter on the 2nd page, URL is changed
