@@ -4,3 +4,4 @@
 04:39 < Axxell:#liferay> closer inspection reveals that it might not be corruption of the data, but the interface which is not working as its suppposed to in the control panel, anybody know anything about the javascript bugging when you edit categories in the control panel for the global scope?
 04:41 < Axxell:#liferay> ie when choosing categories while working with categories or files, everything works as its supposed to, only the category editing thing is showing the category tree wrong for one vocabulary
 06:23 < Axxell:#liferay> So about yesterdays problem: Does anybody know how to sort an assetentryquery by a filed in the assets structure, ie i have an article with at structure that has a date field, i want to do a assetentryquery and sort with that field?
+13:35 < marrk:#liferay> modd hier? :)
