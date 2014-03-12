@@ -33,3 +33,4 @@
 14:38 < marrk:#liferay> is it possible to use actionRequest.getPortletSession() over 2 pages?
 14:46 < marrk:#liferay> i am not too sure how the solution in your link should help me :/
 15:25 < marrk:#liferay> modd : did you understand my problem here? :/
+19:38 < marrk:#liferay> hey, is there any posibility to update the Database ? if i call some functions using localserviceutil, they are not the same as written in the database :/
