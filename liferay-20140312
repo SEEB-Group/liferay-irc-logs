@@ -35,3 +35,5 @@
 15:25 < marrk:#liferay> modd : did you understand my problem here? :/
 19:38 < marrk:#liferay> hey, is there any posibility to update the Database ? if i call some functions using localserviceutil, they are not the same as written in the database :/
 19:40 < apucay:#liferay> the service utils are the ways to update the database
+19:41 < marrk:#liferay> well yeah, i use xxxLocalServiceUtil.updatexxx and its working
+19:41 < marrk:#liferay> but if i call the parameter later, i get an old one
