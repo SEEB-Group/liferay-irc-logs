@@ -1,1 +1,2 @@
 --- Log opened Wed Mar 12 00:00:55 2014
+03:05 < Ababab:#liferay> Hi. My autodeploy works fine, but can I set it to clean the unpacked folder before it deploys the new version? I'm having problems with Spring if I move a bean from a package to another, as it causes name conflicts
