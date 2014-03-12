@@ -28,3 +28,4 @@
 13:54 < modd:#liferay> afk for some minutes
 13:55 < marrk:#liferay> well the other problem is: the page should be used several times at the same moment, so using an ID in the URL was pretty much perfect, because like renderParameter is overwritten every time
 13:59 < marrk:#liferay> well brb
+14:19 < modd:#liferay> "the page should be used several times at the same moment" ??
