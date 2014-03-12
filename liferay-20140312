@@ -39,3 +39,5 @@
 19:41 < marrk:#liferay> but if i call the parameter later, i get an old one
 19:44 < marrk:#liferay> i need to refresh my portlets to get the actual values, no command line to "refresh" the database values manually?
 19:44 < marrk:#liferay> i think its a cashe problem from liferay though :/
+19:46 < marrk:#liferay> well. solved it with 	CacheRegistryUtil.clear();
+19:46 < marrk:#liferay> prob not the best solution, but its working ;)
