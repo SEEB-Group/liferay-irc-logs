@@ -16,3 +16,5 @@
 13:45 < marrk:#liferay> but i need to give a parameter from 1st to 2nd so i use "http://localhost:7070/web/guest/process?id=45"
 13:45 < modd:#liferay> you have to read your parameter and set it again into your renderURL
 13:46 < marrk:#liferay> so renderURl is going to work for the same page all day long? or do i have to set it every time i call a function ?
+13:48 < modd:#liferay> how do you call the second page?
+13:48 < marrk:#liferay> with actionResponse.sendRedirect
