@@ -9,3 +9,5 @@
 13:42 < modd:#liferay> marrk: what's the problem?
 13:42 < marrk:#liferay> du konntest doch deutsch?:)
 13:42 < modd:#liferay> jop, ist den anderen aber ungerecht gegenüber, ist immerhin ein internationaler channel
+13:43 < marrk:#liferay> hi, i am using an url id to communicate between 2 pages at the moment (like this: view.jsp?id=x but when i set a renderparameter on the 2nd page, the url is changed and i cant use my id anymore,  anyway to solve this problem or do i need another solution to communicate between those 2 pages?
+13:43 < marrk:#liferay> did cp earlier post
