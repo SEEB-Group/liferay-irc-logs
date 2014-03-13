@@ -15,3 +15,4 @@
 07:56 < modd_:#liferay> forgot about ResourcePermissionLocalServiceUtil.getResourcePermissions to get the information out of the resource...
 09:43 < mtsr:#liferay> wow, ok thanks!
 11:14 -!- mode/#liferay [+o jhf] by ChanServ
+11:40 < barrie:#liferay> Any good info out there on using multiple AUI (of the same type - like video/audio) components on the same page? For me they try to aggregate my audio or video into the last one defined. They are in Web Content templates.. so each has a copy of the script - and each has a unique bounding box based in the portlet instance id.
