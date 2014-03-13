@@ -12,3 +12,4 @@
 07:54 < modd_:#liferay> mtsr: you have to get the resource for your file out of ResourceLocalServiceUtil
 07:55 < modd_:#liferay> then change the action id
 07:55 < modd_:#liferay> and write it back with ResourcePermissionServiceUtil.setIndividualResourcePermissions
+07:56 < modd_:#liferay> forgot about ResourcePermissionLocalServiceUtil.getResourcePermissions to get the information out of the resource...
