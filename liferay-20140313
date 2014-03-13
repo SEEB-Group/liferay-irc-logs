@@ -14,3 +14,4 @@
 07:55 < modd_:#liferay> and write it back with ResourcePermissionServiceUtil.setIndividualResourcePermissions
 07:56 < modd_:#liferay> forgot about ResourcePermissionLocalServiceUtil.getResourcePermissions to get the information out of the resource...
 09:43 < mtsr:#liferay> wow, ok thanks!
+11:14 -!- mode/#liferay [+o jhf] by ChanServ
