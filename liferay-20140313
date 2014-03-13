@@ -16,3 +16,14 @@
 09:43 < mtsr:#liferay> wow, ok thanks!
 11:14 -!- mode/#liferay [+o jhf] by ChanServ
 11:40 < barrie:#liferay> Any good info out there on using multiple AUI (of the same type - like video/audio) components on the same page? For me they try to aggregate my audio or video into the last one defined. They are in Web Content templates.. so each has a copy of the script - and each has a unique bounding box based in the portlet instance id.
+13:10 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA1 RELEASE http://goo.gl/XMZiG3   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+13:10 -!- Topic set by jhf [~cygnuseck@72.239.30.49] [Thu Feb  6 12:56:33 2014]
+13:10 [Users #liferay]
+13:10 [@ChanServ   ] [ avinashrbhat] [ guli        ] [ MagnoBooter] [ punster   ] [ Tar-Minyatur] 
+13:10 [@rotty3000  ] [ barrie      ] [ jabakbakker ] [ marcoceppi ] [ quercus   ] [ Tm_T        ] 
+13:10 [ Ababab     ] [ bijoo       ] [ jardineworks] [ Naenyn     ] [ rocknrol1_] [ wohnout     ] 
+13:10 [ anteater1sa] [ dawn        ] [ jbonjean    ] [ olafk      ] [ Slagwag   ] [ zeno__      ] 
+13:10 [ apucay     ] [ Gorith      ] [ josuebc     ] [ Pr0tZ      ] [ smind     ] 
+13:10 -!- Irssi: #liferay: Total of 29 nicks [2 ops, 0 halfops, 0 voices, 27 normal]
+13:10 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+13:10 -!- Irssi: Join to #liferay was synced in 7 secs
