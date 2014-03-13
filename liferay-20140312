@@ -41,3 +41,4 @@
 19:44 < marrk:#liferay> i think its a cashe problem from liferay though :/
 19:46 < marrk:#liferay> well. solved it with 	CacheRegistryUtil.clear();
 19:46 < marrk:#liferay> prob not the best solution, but its working ;)
+--- Log closed Thu Mar 13 00:00:57 2014
