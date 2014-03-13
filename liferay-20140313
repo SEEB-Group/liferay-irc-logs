@@ -1,1 +1,2 @@
 --- Log opened Thu Mar 13 00:00:57 2014
+04:30 < noctua:#liferay> Hey, I am trying to set a cookie from a Liferay Protlet (extending MVCPrtlet) and used two methods (from this site http://stackoverflow.com/questions/3749199/how-to-set-a-cookie-in-liferay-portlet ) ... but it's not working
