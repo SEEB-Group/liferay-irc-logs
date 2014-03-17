@@ -1,3 +1,4 @@
 --- Log opened Mon Mar 17 00:00:03 2014
 04:45 < mtsr> Is there a hook for User Signup so that I can for example send a notification when a user signs up? I cannot find it in the documentation.
 04:48 < huffg> :Z
+06:06 < Alex_____> Hello! Quick question: How do I set the permissions in a folder so that users only see their own documents in there?
