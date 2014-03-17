@@ -36,3 +36,4 @@
 09:28 < huffg> CGdM: monitor your /tmp to see if something happens, i have a feeling it writes shit there
 09:28 < huffg> df -h /tmp or -hs can't remeber
 09:29 < huffg> CGdM: what version?
+09:29 < huffg> and remote/live staging?
