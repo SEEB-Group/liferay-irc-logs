@@ -61,3 +61,4 @@
 10:35 < mtsr> If you figure that out let me know too :)
 10:36 < Alex_____> hehe! I did manage to break it too!
 10:39 < mtsr> maaaaan, documentation sucks
+10:42 < mtsr> wow, so from the code, by default it seems kaleo exposes only taskComments to the template
