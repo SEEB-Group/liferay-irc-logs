@@ -59,3 +59,4 @@
 10:33 < Alex_____> mtsr: have you managed to make a workflow that only notifies? I would be interested in this! (sorry, I cant help with your question)
 10:35 < mtsr> Ehr no, so far my workflow is not much different from the single-approver one. Although I did try removing the extra state, but all that did was break it :P
 10:35 < mtsr> If you figure that out let me know too :)
+10:36 < Alex_____> hehe! I did manage to break it too!
