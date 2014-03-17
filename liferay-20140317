@@ -34,3 +34,4 @@
 09:27 < huffg> are you on linux/unix?
 09:27 < CGdM> linux
 09:28 < huffg> CGdM: monitor your /tmp to see if something happens, i have a feeling it writes shit there
+09:28 < huffg> df -h /tmp or -hs can't remeber
