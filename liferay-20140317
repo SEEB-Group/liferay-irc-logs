@@ -57,3 +57,4 @@
 09:48 < Alex_____> there must be a way! I cant be the only one who ever needed this scenario... I just cant get how to display the other roles in there
 10:32 < mtsr> Is there a way to link back to the workflow in a kaleo notification?
 10:33 < Alex_____> mtsr: have you managed to make a workflow that only notifies? I would be interested in this! (sorry, I cant help with your question)
+10:35 < mtsr> Ehr no, so far my workflow is not much different from the single-approver one. Although I did try removing the extra state, but all that did was break it :P
