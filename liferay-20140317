@@ -47,3 +47,4 @@
 09:32 < huffg> CGdM: i'm fairly sure the staging activation will work but publishing may be zz pzz depending on your site and on the position of stars
 09:33 < Alex_____> huffg: Is there a way to set a document type to be publish-able by two roles but viewable only by one?!! What I am trying to do is have the members of the board submit their proposals but not be able to see the other members' proposal - only their own. (sorry about the bad English)
 09:34 < huffg> mm no idea
+09:35 < huffg> Alex_____: the idea of default permission for document type sounds like a plan
