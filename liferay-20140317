@@ -44,3 +44,4 @@
 09:31 < CGdM> after that, pass in PRODUCTION
 09:31 < huffg> you should do extensive testing
 09:31 < huffg> publishing is such a pain in the ass
+09:32 < huffg> CGdM: i'm fairly sure the staging activation will work but publishing may be zz pzz depending on your site and on the position of stars
