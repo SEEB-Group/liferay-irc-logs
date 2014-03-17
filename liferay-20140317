@@ -41,3 +41,4 @@
 09:30 < huffg> ok
 09:30 < huffg> CGdM: publishing can take a lot of time after you activate staging
 09:30 < CGdM> Ok... now try in my test env....
+09:31 < CGdM> after that, pass in PRODUCTION
