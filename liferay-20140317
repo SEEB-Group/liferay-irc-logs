@@ -18,3 +18,4 @@
 09:23 < huffg> it can be np
 09:23 < Alex_____> huffg: Oh I have fiddled alright!!! I get all or nothing! I think the right way to do it is by making a new document type with default permissions. Any thoughts on that?
 09:23 < huffg> yes perhaps
+09:24 < huffg> CGdM: just get your sandbox/test env going and try it
