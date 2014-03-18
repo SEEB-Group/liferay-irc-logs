@@ -5,3 +5,4 @@
 06:09 < Axxell_> Hey guys, im trying to get logging to work in an vaadin app in liferay, tried just about everything, it just wont log
 06:12 < Axxell_> tried org.apache.commons.logging.Log, org.apache.log4j.Logger, org.slf4j.logger, using logging.properties, log4j.properties
 06:12 < Axxell_> nothing will log anything under any circumstances
+06:33 < Axxell_> btw nothing is giving errors either, but nothing gets in the tomcat logs nor in any created files
