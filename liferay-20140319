@@ -3,3 +3,4 @@
 09:24 < Alex_____:#liferay> hi! does anyone know how to delete the last private page? I get the error that I need at least one...
 10:57 < jardineworks:#liferay> Alex_____, sounds like you need at least one. What's the big deal with just having it?
 10:57 < jardineworks:#liferay> I imagine that it is because you have to have at least one user, the admin right?
+10:58 < jardineworks:#liferay> you can disable private pages altogether so that they are not used, but at least one must exist it seems.
