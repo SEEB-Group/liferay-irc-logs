@@ -5,3 +5,4 @@
 13:53 < nicolas_FR:#liferay> got a problem with struts + liferay (and maybe session sharing). Got 2 portlets which are form pages. 1st portlet got some info from user. 2nd portlet create a form and populate it with datas from the 1st portlet (this form is bigger than 1st portlet). When submiting 2nd portlet form, I can see using firebug the post data being sent are ok, but when in my action, the form is empty
 13:54 < nicolas_FR:#liferay> 2+ days that I'm stuck with this problem. I'm left with no more ideas
 13:55 < nicolas_FR:#liferay> sorry form is not empty, but only contents datas from 1st portlet, which were populated in the 2nd portlet through the first action (creating the DynaActionForm in the action and setting the key/value, then stocking in session)
+16:10 < aqquadro:#liferay> hello there,
