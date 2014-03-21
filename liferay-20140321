@@ -68,3 +68,4 @@
 06:45 < modd_:#liferay> are these informations user related?
 06:46 < nicolas_FR_:#liferay> yes
 06:47 < modd_:#liferay> then you could add expandos to the user model. portletA gets informations from the form and fills the expando fields, portletB gets these informations with currentUser.getexpandobridge().getattribute("foo")
+06:50 < nicolas_FR_:#liferay> oh but currentUser will be a guest
