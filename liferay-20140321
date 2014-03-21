@@ -18,3 +18,4 @@
 06:15 < modd_:#liferay> let your form load the data from the request. if no data is there you'll have empty values. add another hidden input into the form named redirectTo with the current url of the page. after the first submit get post informations, set these informations into the actionResponse and make a actionResponse.sendRedirect(redirectTo); in your method. the second time the form will be shown oit's a fresh page, but this time with the additional i
 06:16 < modd_:#liferay> the part with the redirectTo is my way of avoiding the f5 reload error
 06:17 < modd_:#liferay> it's simple and clean
+06:17 < nicolas_FR_:#liferay> but it's not a f5 error to me. 2nd submit actually has informations in the post data
