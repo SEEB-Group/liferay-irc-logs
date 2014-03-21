@@ -15,3 +15,4 @@
 06:11 < modd_:#liferay> well yes, it's like you submit a form and then press f5 an you'll get the same parameters, eventhough you didn't fill the form the second time
 06:12 < nicolas_FR_:#liferay> why ?
 06:12 < nicolas_FR_:#liferay> Because : 1 - I change the action url. 2 - my form is filled with new fields. 3 - post data from firebug are good : every fields are filled.
+06:15 < modd_:#liferay> let your form load the data from the request. if no data is there you'll have empty values. add another hidden input into the form named redirectTo with the current url of the page. after the first submit get post informations, set these informations into the actionResponse and make a actionResponse.sendRedirect(redirectTo); in your method. the second time the form will be shown oit's a fresh page, but this time with the additional i
