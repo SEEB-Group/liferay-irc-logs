@@ -11,3 +11,4 @@
 06:07 < nicolas_FR_:#liferay> I've got 1 form.jsp page
 06:08 < nicolas_FR_:#liferay> this page will be submitted 2 times. 1st submit to 1 actionA.do, 2nd submit to another actionB.do. Same DynaValidatorForm, same success page (the form.jsp).
 06:10 < modd_:#liferay> submitted two times? how? why?
+06:10 < nicolas_FR_:#liferay> First submit is succesfull, actionA gets the form's data and everybody is happy. I then display again the form.jsp with datas from the session form, and I continue to fill my fields. Second submit (changing form action with javascript) is a failure : I enter the action, but my form object is still with parameters from 1st submit. Nothing more.
