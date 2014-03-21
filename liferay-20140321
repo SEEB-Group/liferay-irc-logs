@@ -55,3 +55,4 @@
 06:40 < modd_:#liferay> so it will work
 06:41 < nicolas_FR_:#liferay> cool. So. Now... I should not create my form in the prepareAction and set the values using "renderResponse.setParameter("foo", foo);"... right ?
 06:42 < modd_:#liferay> you can do so, it's not a problem, but you will need to define the ipc methods and messages
+06:42 < nicolas_FR_:#liferay> ipc ?
