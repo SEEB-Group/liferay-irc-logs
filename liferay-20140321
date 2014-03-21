@@ -20,3 +20,4 @@
 06:17 < modd_:#liferay> it's simple and clean
 06:17 < nicolas_FR_:#liferay> but it's not a f5 error to me. 2nd submit actually has informations in the post data
 06:17 < nicolas_FR_:#liferay> form is actually sent to the action, post data are full of completed fields (which would not happend with a f5 right ?)
+06:18 < modd_:#liferay> well, but it's not supposed to be there. with f5 the form is not filled but the data is sent anyways.
