@@ -10,3 +10,4 @@
 06:07 < nicolas_FR_:#liferay> sure
 06:07 < nicolas_FR_:#liferay> I've got 1 form.jsp page
 06:08 < nicolas_FR_:#liferay> this page will be submitted 2 times. 1st submit to 1 actionA.do, 2nd submit to another actionB.do. Same DynaValidatorForm, same success page (the form.jsp).
+06:10 < modd_:#liferay> submitted two times? how? why?
