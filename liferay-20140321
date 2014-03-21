@@ -40,3 +40,4 @@
 06:29 < modd_:#liferay> first I'll fill foo and bar and submit, then I'll just fill baz
 06:30 < modd_:#liferay> after sending foo and bar I'll get these values passed back to my form
 06:30 < modd_:#liferay> forget about "value="<%=baz %>"" in the form, it doesn exist..copy paste error ;)
+06:32 < nicolas_FR_:#liferay> so what's the difference between renderResponse.sendRedirect, and me doing a mapping.findforward ?
