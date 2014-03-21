@@ -50,3 +50,4 @@
 06:36 < nicolas_FR_:#liferay> complete view : Users will go through 2 portlets : portletA and portletB. PortletA is a form and gathers some info on user. If users want, after completing portletA, he can continue to portletB, which is another form (the one we're talking about).
 06:37 < nicolas_FR_:#liferay> First action in my portletB was a prepareAction, creating my DynaValidationForm in the action, and settings some fields with informations from the portletA (using shared session).
 06:39 < nicolas_FR_:#liferay> so when user click on "continue to portletB", they have a new form with some of the data from the portletA. Then they fills some info, submit (so marketing is happy getting some early info), display the form again with their submitted info, complete the form and submit another time (and this one is broken).
+06:39 < nicolas_FR_:#liferay> is your solution applicable so ? (dumb question I bet but I don't really get where my problem is :(
