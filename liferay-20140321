@@ -83,3 +83,4 @@
 07:14 < modd_:#liferay> the problem is with IE9 in IE8 document mode
 07:14 < modd_:#liferay> when adding a new page in the frontend, in IE9 doc mode it works fine
 07:15 < modd_:#liferay> in IE8 doc mode it loads the edit_layout.jsp as a complete page without theme etc. instead of loading the page
+10:33 < plof:#liferay> guys is there a way to disable the chat in liferay 6.2 ?
