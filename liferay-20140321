@@ -59,3 +59,4 @@
 06:42 < modd_:#liferay> inter portlet communication
 06:43 < modd_:#liferay> liferay has a "baseball-portlet" as an example with "pitcher" and "catcher"
 06:43 < modd_:#liferay> I'm sure it's in the web somewhere
+06:43 < nicolas_FR_:#liferay> for now I save datas I need from portlet A in the session, and portlet B gets the info from the portletA from the session (as it's shared). Isn't it good already ?
