@@ -19,3 +19,4 @@
 06:16 < modd_:#liferay> the part with the redirectTo is my way of avoiding the f5 reload error
 06:17 < modd_:#liferay> it's simple and clean
 06:17 < nicolas_FR_:#liferay> but it's not a f5 error to me. 2nd submit actually has informations in the post data
+06:17 < nicolas_FR_:#liferay> form is actually sent to the action, post data are full of completed fields (which would not happend with a f5 right ?)
