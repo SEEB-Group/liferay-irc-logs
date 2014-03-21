@@ -13,3 +13,4 @@
 06:10 < modd_:#liferay> submitted two times? how? why?
 06:10 < nicolas_FR_:#liferay> First submit is succesfull, actionA gets the form's data and everybody is happy. I then display again the form.jsp with datas from the session form, and I continue to fill my fields. Second submit (changing form action with javascript) is a failure : I enter the action, but my form object is still with parameters from 1st submit. Nothing more.
 06:11 < modd_:#liferay> well yes, it's like you submit a form and then press f5 an you'll get the same parameters, eventhough you didn't fill the form the second time
+06:12 < nicolas_FR_:#liferay> why ?
