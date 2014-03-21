@@ -42,3 +42,4 @@
 06:30 < modd_:#liferay> forget about "value="<%=baz %>"" in the form, it doesn exist..copy paste error ;)
 06:32 < nicolas_FR_:#liferay> so what's the difference between renderResponse.sendRedirect, and me doing a mapping.findforward ?
 06:32 < modd_:#liferay> I'm redirecting the the page like it was before submitting anything. so the post data is gone
+06:33 < nicolas_FR_:#liferay> ok, but the data will still be in the forms right ?
