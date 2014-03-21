@@ -2,3 +2,4 @@
 04:48 < nicolas_FR:#liferay> hi there
 04:50 < nicolas_FR:#liferay> problem with a form not being populated : https://www.liferay.com/community/forums/-/message_boards/message/35932749
 04:50 < nicolas_FR:#liferay> If you have any ideas, I'll take them !
+05:16 < nicolas_FR_:#liferay> I have a long jsp with lots of fields, and 2 steps I want to submit info. 1st step is in the middle of the jsp, last one at the end. It's 1 big DynaValidatorForm, and 1st step is here to update some database and go back to the same jsp. Is there any traps doing so ?
