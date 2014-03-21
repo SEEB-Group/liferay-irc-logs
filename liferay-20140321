@@ -36,3 +36,4 @@
 06:21 < modd_:#liferay> don't use it this way, pass all the informations you need by hand
 06:22 < nicolas_FR_:#liferay> all the informations I need ? But it's user's input...not me
 06:22 < modd_:#liferay> moment
+06:29 < modd_:#liferay> some pseudo code: http://pastebin.com/MzyxPwER
