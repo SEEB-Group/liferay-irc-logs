@@ -81,3 +81,4 @@
 07:06 < modd_:#liferay> sadly it's IE related :\
 07:12 < topolik:#liferay> modd_: You can try, but I can't promise anything :)
 07:14 < modd_:#liferay> the problem is with IE9 in IE8 document mode
+07:14 < modd_:#liferay> when adding a new page in the frontend, in IE9 doc mode it works fine
