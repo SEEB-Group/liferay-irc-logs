@@ -70,3 +70,5 @@
 06:47 < modd_:#liferay> then you could add expandos to the user model. portletA gets informations from the form and fills the expando fields, portletB gets these informations with currentUser.getexpandobridge().getattribute("foo")
 06:50 < nicolas_FR_:#liferay> oh but currentUser will be a guest
 06:50 < modd_:#liferay> so it's not user related^^
+06:50 < nicolas_FR_:#liferay> and btw information sharing between the 2 portlets already works..
+06:50 < nicolas_FR_:#liferay> sorry I though user related : information specific to the end user : name, address, etc.
