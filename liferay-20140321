@@ -24,3 +24,4 @@
 06:18 < modd_:#liferay> your problem is indirectly linked to this one
 06:19 < modd_:#liferay> don't rely on hidden post data, fill the informations you need by yourself
 06:19 < nicolas_FR_:#liferay> ok.. I can try btw.. so.. clearly ...
+06:19 < modd_:#liferay> do it explicit insteal of implicit
