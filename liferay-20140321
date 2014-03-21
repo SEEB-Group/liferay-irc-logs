@@ -60,3 +60,4 @@
 06:43 < modd_:#liferay> liferay has a "baseball-portlet" as an example with "pitcher" and "catcher"
 06:43 < modd_:#liferay> I'm sure it's in the web somewhere
 06:43 < nicolas_FR_:#liferay> for now I save datas I need from portlet A in the session, and portlet B gets the info from the portletA from the session (as it's shared). Isn't it good already ?
+06:44 < modd_:#liferay> it's one way of doing it. I don't think I can say if it's the best way or the worst or whatever...it depends on what you need, what you want and what you can
