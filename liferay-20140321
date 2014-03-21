@@ -74,3 +74,4 @@
 06:50 < nicolas_FR_:#liferay> sorry I though user related : information specific to the end user : name, address, etc.
 06:51 < modd_:#liferay> well, then let it in the session of the user
 06:55 < modd_:#liferay> it should work anyway, because you have session stored values and values that are passed from one request to the next. try it
+06:55 < nicolas_FR_:#liferay> ok thanks
