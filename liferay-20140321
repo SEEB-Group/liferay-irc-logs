@@ -48,3 +48,4 @@
 06:34 < modd_:#liferay> in the action method I'm setting the values back into the response so they are available in the request
 06:35 < nicolas_FR_:#liferay> give me a moment so I give you the entire view, and then you say me if I'm saved or not :)
 06:36 < nicolas_FR_:#liferay> complete view : Users will go through 2 portlets : portletA and portletB. PortletA is a form and gathers some info on user. If users want, after completing portletA, he can continue to portletB, which is another form (the one we're talking about).
+06:37 < nicolas_FR_:#liferay> First action in my portletB was a prepareAction, creating my DynaValidationForm in the action, and settings some fields with informations from the portletA (using shared session).
