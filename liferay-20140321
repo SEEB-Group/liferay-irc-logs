@@ -57,3 +57,4 @@
 06:42 < modd_:#liferay> you can do so, it's not a problem, but you will need to define the ipc methods and messages
 06:42 < nicolas_FR_:#liferay> ipc ?
 06:42 < modd_:#liferay> inter portlet communication
+06:43 < modd_:#liferay> liferay has a "baseball-portlet" as an example with "pitcher" and "catcher"
