@@ -75,3 +75,4 @@
 06:51 < modd_:#liferay> well, then let it in the session of the user
 06:55 < modd_:#liferay> it should work anyway, because you have session stored values and values that are passed from one request to the next. try it
 06:55 < nicolas_FR_:#liferay> ok thanks
+07:03 < topolik:#liferay> modd_: Hi, 6.1 is complete with good quality, czech UG guys are working on translating 6.2, it's not complete yet (we have a small community, only several active members) :)
