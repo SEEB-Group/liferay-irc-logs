@@ -30,3 +30,4 @@
 06:20 < modd_:#liferay> your form input fields have default values
 06:20 < nicolas_FR_:#liferay> I don't understand the solution actually
 06:20 < modd_:#liferay> set these values with the content of the parameters you'll get from the request
+06:20 < modd_:#liferay> these parameters are empty on the first load
