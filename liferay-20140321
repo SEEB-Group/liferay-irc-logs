@@ -33,3 +33,4 @@
 06:20 < modd_:#liferay> these parameters are empty on the first load
 06:20 < modd_:#liferay> but filled on the second
 06:20 < nicolas_FR_:#liferay> isn't it automatic with form being in session ?
+06:21 < modd_:#liferay> don't use it this way, pass all the informations you need by hand
