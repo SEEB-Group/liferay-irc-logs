@@ -46,3 +46,4 @@
 06:33 < modd_:#liferay> and well, it's just my suggestion, you don't have to use it ;)
 06:33 < modd_:#liferay> the data will be passed back to the form after the reload
 06:34 < modd_:#liferay> in the action method I'm setting the values back into the response so they are available in the request
+06:35 < nicolas_FR_:#liferay> give me a moment so I give you the entire view, and then you say me if I'm saved or not :)
