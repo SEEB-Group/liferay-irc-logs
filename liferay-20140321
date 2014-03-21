@@ -5,3 +5,4 @@
 05:16 < nicolas_FR_:#liferay> I have a long jsp with lots of fields, and 2 steps I want to submit info. 1st step is in the middle of the jsp, last one at the end. It's 1 big DynaValidatorForm, and 1st step is here to update some database and go back to the same jsp. Is there any traps doing so ?
 05:17 < nicolas_FR_:#liferay> the 2 submits have differents actions, so I set 1st action in the form action attribute, and I generate 2nd action url in a html:link, which href I copy to the form action. Any problem with that ?
 05:29 < modd_:#liferay> hi topolik, just a short question. how's the quality of the czech language file?
+06:05 < nicolas_FR_:#liferay> anyone know why post data would not appear in the action form ?
