@@ -1,3 +1,4 @@
 --- Log opened Sat Mar 22 00:00:10 2014
 10:32 < namredips:#liferay> When using service builder and a many-to-many relationship, is there any way to define what the key field names should be? Currently I have one such relationship set up. However, the generated SQL sets both key names the same (e.g. 'id')
 10:33 < namredips:#liferay> for example: 	id LONG not null,
+10:33 < namredips:#liferay> 	id LONG not null,
