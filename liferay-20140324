@@ -12,3 +12,4 @@
 17:01 <@rotty3000:#liferay> so it shouldn't be and overly complex exercise
 17:01 < Naenyn:#liferay> I think the thing I'm most concerned with is how to associate users in the external system with users in the local liferay system.
 17:02 <@rotty3000:#liferay> there are 3 known identifiers, and they are all reachable from our auth'n apis
+17:02 <@rotty3000:#liferay> email, userId, screenName
