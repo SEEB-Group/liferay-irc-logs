@@ -21,3 +21,4 @@
 17:05 <@rotty3000:#liferay> <same>
 17:05 <@rotty3000:#liferay> my skilz there are not resplendant
 17:07 < Naenyn:#liferay> Login hook functionality doesn't change when adding in an external SSO system to the mix, does it? User still gets auth'ed by external system, then liferay fires login hook(s)..?
+17:07 <@rotty3000:#liferay> exactly
