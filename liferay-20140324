@@ -10,3 +10,4 @@
 17:00 < Naenyn:#liferay> I still need to do that. I've been focused on reading up on the proprietary system first.. then will switch to looking at how Liferay integrates with CAS and figuring out how to get these systems to play nice with eachother. =]
 17:00 <@rotty3000:#liferay> yeah, we have quite a few SSO impls
 17:01 <@rotty3000:#liferay> so it shouldn't be and overly complex exercise
+17:01 < Naenyn:#liferay> I think the thing I'm most concerned with is how to associate users in the external system with users in the local liferay system.
