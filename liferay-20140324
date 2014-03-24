@@ -8,3 +8,4 @@
 16:59 < Naenyn:#liferay> Not yet. Just getting prepared for some upcoming work.
 16:59 <@rotty3000:#liferay> looked at our current CAS impls.. etc.
 17:00 < Naenyn:#liferay> I still need to do that. I've been focused on reading up on the proprietary system first.. then will switch to looking at how Liferay integrates with CAS and figuring out how to get these systems to play nice with eachother. =]
+17:00 <@rotty3000:#liferay> yeah, we have quite a few SSO impls
