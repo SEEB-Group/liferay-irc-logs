@@ -15,3 +15,4 @@
 17:02 <@rotty3000:#liferay> email, userId, screenName
 17:02 <@rotty3000:#liferay> you have to choose which one most closely matches the external system
 17:03 <@rotty3000:#liferay> userId: is a number, email: is .. an email address, screenName: is a string (limit charset)
+17:04 < Naenyn:#liferay> Makes sense. That'd be email, in our case. Our Liferay instance currently exists on its own.. but once we add in the proprietary auth system, we'll need to update both Liferay and the external system appropriately with user information when the user logs in the first time..
