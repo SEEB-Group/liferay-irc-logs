@@ -14,3 +14,4 @@
 17:02 <@rotty3000:#liferay> there are 3 known identifiers, and they are all reachable from our auth'n apis
 17:02 <@rotty3000:#liferay> email, userId, screenName
 17:02 <@rotty3000:#liferay> you have to choose which one most closely matches the external system
+17:03 <@rotty3000:#liferay> userId: is a number, email: is .. an email address, screenName: is a string (limit charset)
