@@ -23,3 +23,4 @@
 17:07 < Naenyn:#liferay> Login hook functionality doesn't change when adding in an external SSO system to the mix, does it? User still gets auth'ed by external system, then liferay fires login hook(s)..?
 17:07 <@rotty3000:#liferay> exactly
 17:11 < Naenyn:#liferay> so it sounds like all I'd really need to do is pretend our external system is a CAS system and hook Liferay in to it as normal.. then code up some hooks for the extra stuff we need to do to handle the proprietary part.
+17:20 <@rotty3000:#liferay> yes, that sounds right
