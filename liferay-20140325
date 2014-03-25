@@ -3,3 +3,4 @@
 03:16 -!- mode/#liferay [+o rotty3000] by ChanServ
 05:30 < hufg:#liferay> helloo helloo
 05:32 < hufg:#liferay> someone who is deep in the liferay game https://issues.liferay.com/browse/LPS-42402 there is not much info there
+05:33 < hufg:#liferay> the symptom is identified through ui dialog butt butt could it be that in 6.1 also the range is ignored or there is some insane inefficiency handling the discarding of already published stuff
