@@ -9,3 +9,4 @@
 05:36 < hufg:#liferay> seems to me that it's like --> dump everything on disk -> parse files -> get published data -> import
 05:36 < hufg:#liferay> not like -> make db query -> create import -> import
 13:08 < Tar-Minyatur:#liferay> Hey guys. Anyone around? Did you ever encounter that a hook is not deployed correctly?
+13:09 < Tar-Minyatur:#liferay> We have a hook that modified the top_head.jsp and from time to time it just doesn't get applied correctly. It shows up as being installed, but the top_head.jsp is not changed correctly.
