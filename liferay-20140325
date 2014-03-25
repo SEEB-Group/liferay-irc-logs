@@ -5,3 +5,4 @@
 05:32 < hufg:#liferay> someone who is deep in the liferay game https://issues.liferay.com/browse/LPS-42402 there is not much info there
 05:33 < hufg:#liferay> the symptom is identified through ui dialog butt butt could it be that in 6.1 also the range is ignored or there is some insane inefficiency handling the discarding of already published stuff
 05:34 < hufg:#liferay> because as far as i remember using "last published date" as range will result into serious r/w in /tmp even though you make minor modifications ie. single article single document libraray addition
+05:34 < hufg:#liferay> and it's slooow
