@@ -10,3 +10,4 @@
 05:36 < hufg:#liferay> not like -> make db query -> create import -> import
 13:08 < Tar-Minyatur:#liferay> Hey guys. Anyone around? Did you ever encounter that a hook is not deployed correctly?
 13:09 < Tar-Minyatur:#liferay> We have a hook that modified the top_head.jsp and from time to time it just doesn't get applied correctly. It shows up as being installed, but the top_head.jsp is not changed correctly.
+18:01 < Naenyn:#liferay> When adding an external CAS-based auth'n system.. and wanting to keep the existing users in Liferay functional.. assuming the same users exist in the CAS-based system, what is the recommended approach to update liferay such that SSO'ing from CAS will provide Liferay with the right values such that Liferay can figure out what user is logging in?
