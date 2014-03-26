@@ -17,3 +17,4 @@
 21:00 < jardineworks:#liferay> I did the synch as part of the auth hook... so basically..
 21:00 < jardineworks:#liferay> 1. Call system and auth
 21:01 < jardineworks:#liferay> 2. If result is "good" then check for user in Liferay
+21:01 < jardineworks:#liferay> 3. If user in Liferay, return true, else try to add user
