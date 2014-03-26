@@ -25,3 +25,4 @@
 21:38 < jardineworks:#liferay> If you have a look at the LDAP authentication stuff though it would probably provide you with some insight similar to what you are trying to accomplish. The LDAP hook has an export (push Liferay users to DS) and import (pull users in from DS) feature.
 21:39 < Naenyn:#liferay> hmm, ok, I will check that out.
 21:39 < Naenyn:#liferay> In my case, if the user is in liferay, we definitely want to link up the external user with the internal one. Probably each time they log in.. so a hook would make sense.
+--- Log closed Wed Mar 26 00:00:15 2014
