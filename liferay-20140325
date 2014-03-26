@@ -18,3 +18,4 @@
 21:00 < jardineworks:#liferay> 1. Call system and auth
 21:01 < jardineworks:#liferay> 2. If result is "good" then check for user in Liferay
 21:01 < jardineworks:#liferay> 3. If user in Liferay, return true, else try to add user
+21:01 < jardineworks:#liferay> 4. If add user success return true, else return false.
