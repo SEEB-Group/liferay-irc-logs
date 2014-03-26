@@ -1,2 +1,3 @@
 --- Log opened Wed Mar 26 00:00:15 2014
 09:16 < jardineworks:#liferay> Naenyn, to synchronize them you should definitely look at the LDAP code. Alternatively, only allow registration in one system. In our case the "registration" was also done using the services of the external system so there was never a case where the user would already exist in LR.
+09:17 < jardineworks:#liferay> LR registration was hooked to force it to occur in the external system
