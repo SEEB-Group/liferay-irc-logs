@@ -19,3 +19,4 @@
 21:01 < jardineworks:#liferay> 2. If result is "good" then check for user in Liferay
 21:01 < jardineworks:#liferay> 3. If user in Liferay, return true, else try to add user
 21:01 < jardineworks:#liferay> 4. If add user success return true, else return false.
+21:34 < Naenyn:#liferay> jardineworks: Hm, the steps you listed don't appear to account for users that exist in liferay that haven't been updated by the external system.. but I'd assume it would mean a change to #3.
