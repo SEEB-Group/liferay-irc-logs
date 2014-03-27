@@ -4,3 +4,4 @@
 13:07 < Naenyn:#liferay> jardineworks: that's one thing I haven't considered yet.. self-reg. I know we plan to use our bulk user import tool, but that'll have code that handles both liferay and our external system.. I will check out that ldap code you mentioned.
 20:16 < longwuyuan:#liferay> hi, is any commercial support available here for new deployment of liferay
 20:28 < longwuyuan:#liferay> hi please help. we are a university and want to get a team to move us to liferay
+20:28 < longwuyuan:#liferay> remote is fine
