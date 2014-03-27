@@ -4,3 +4,4 @@
 13:32 < juan_:#liferay> is there some special porlet for modifying it?
 13:50 < jardineworks:#liferay> juan_, in the control panel you can set the various authentication mechanims -- including one for OpenSSO
 13:51 < jardineworks:#liferay> juan_, otherwise you may need to write hooks to provide your own method
+17:18 < Naenyn:#liferay> so, when adding a hook.. you can write a hook for any property that is listed in portal.properties?
