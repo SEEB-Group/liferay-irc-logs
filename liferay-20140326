@@ -2,3 +2,4 @@
 09:16 < jardineworks:#liferay> Naenyn, to synchronize them you should definitely look at the LDAP code. Alternatively, only allow registration in one system. In our case the "registration" was also done using the services of the external system so there was never a case where the user would already exist in LR.
 09:17 < jardineworks:#liferay> LR registration was hooked to force it to occur in the external system
 13:07 < Naenyn:#liferay> jardineworks: that's one thing I haven't considered yet.. self-reg. I know we plan to use our bulk user import tool, but that'll have code that handles both liferay and our external system.. I will check out that ldap code you mentioned.
+20:16 < longwuyuan:#liferay> hi, is any commercial support available here for new deployment of liferay
