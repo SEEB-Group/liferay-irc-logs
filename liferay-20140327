@@ -2,3 +2,4 @@
 11:38 -!- mode/#liferay [+o rotty3000] by ChanServ
 13:32 < juan_:#liferay> does anyone has any idea of how to modify the auth session system of liferay?
 13:32 < juan_:#liferay> is there some special porlet for modifying it?
+13:50 < jardineworks:#liferay> juan_, in the control panel you can set the various authentication mechanims -- including one for OpenSSO
