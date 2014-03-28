@@ -6,3 +6,4 @@
 13:51 < jardineworks:#liferay> juan_, otherwise you may need to write hooks to provide your own method
 17:18 < Naenyn:#liferay> so, when adding a hook.. you can write a hook for any property that is listed in portal.properties?
 17:26 < Naenyn:#liferay> any property that contains a classname, anyway
+--- Log closed Fri Mar 28 00:00:18 2014
