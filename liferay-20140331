@@ -23,3 +23,4 @@
 08:25 < marrk:#liferay> By adding the following property in portal-ext.properties, we can enable portlets to send and receive events from other portlets that are on different pages
 08:25 < marrk:#liferay> modd_ : why cant i use this in my case?
 08:37 < modd_:#liferay> which following property?
+08:38 < modd_:#liferay> I'm not sure, ipc never worked on different pages but I didn't test deeper than just the baseball example portlet
