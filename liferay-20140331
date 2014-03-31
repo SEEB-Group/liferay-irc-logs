@@ -18,3 +18,4 @@
 08:10 < marrk:#liferay> but request.getcookies is possible.. weird :/
 08:15 < Tar-Minyatur:#liferay> Hey guys. Anyone here who has had problems with hooks not deploying correctly?
 08:16 < Tar-Minyatur:#liferay> We have a hook that changes the top_head.jsp...and every now and then during a fresh deployment this hooks seems to be not applied correctly.
+08:16 < marrk:#liferay> seems response.addProperty(cookieParam); is working:
