@@ -1,3 +1,4 @@
 --- Log opened Mon Mar 31 00:00:22 2014
 06:18 < sm`:#liferay> hello
 06:18 < sm`:#liferay> im having issues with connection pooling
+06:19 < sm`:#liferay> it seems some of the apps/portlets are not closing connections or have transaction that hangs
