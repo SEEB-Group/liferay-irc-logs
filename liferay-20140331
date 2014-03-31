@@ -26,3 +26,4 @@
 08:38 < modd_:#liferay> I'm not sure, ipc never worked on different pages but I didn't test deeper than just the baseball example portlet
 08:38 < marrk:#liferay> http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472
 08:38 < marrk:#liferay>     portlet.event.distribution=layout-set
+08:39 < marrk:#liferay> well its kinda important for me HOW portlet communicate, so cookies are working, but its not the way i want them to communicate
