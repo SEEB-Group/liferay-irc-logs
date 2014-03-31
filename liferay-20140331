@@ -50,3 +50,4 @@
 13:32 < modd:#liferay> in the java controller class it doesn't work at all using the language util
 13:32 < modd:#liferay> and this seems to be new in 6.2
 13:32 < modd:#liferay> I didn't find any similiar tickets or whatever
+13:33 < modd:#liferay> but a collegue found the same problems so it can't be just me
