@@ -42,3 +42,4 @@
 13:29 < modd:#liferay> btw found some new problems with 6.2^^
 13:29 <@jhf:#liferay> oh no... what now?
 13:29 < modd:#liferay> today I've created one ticket
+13:29 < modd:#liferay> adding pages in the frontend in IE8 doesn't work
