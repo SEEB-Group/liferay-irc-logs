@@ -5,3 +5,4 @@
 06:19 < sm`:#liferay> is there a tool/way how i can monitor this and monitor the connections
 06:19 < sm`:#liferay> we are using tomcat + liferay + c3p0 pooling
 06:19 < sm`:#liferay> + oracle
+07:52 < marrk:#liferay> hi, anyone can help me with qname -> setevent?
