@@ -16,3 +16,4 @@
 08:07 < marrk:#liferay> modd_ : is there any way to do it so i could use different parameters on 2 different tabs?
 08:09 < marrk:#liferay> for cookies: "response.addCookie(cookieParam);" its not working
 08:10 < marrk:#liferay> but request.getcookies is possible.. weird :/
+08:15 < Tar-Minyatur:#liferay> Hey guys. Anyone here who has had problems with hooks not deploying correctly?
