@@ -24,3 +24,4 @@
 08:25 < marrk:#liferay> modd_ : why cant i use this in my case?
 08:37 < modd_:#liferay> which following property?
 08:38 < modd_:#liferay> I'm not sure, ipc never worked on different pages but I didn't test deeper than just the baseball example portlet
+08:38 < marrk:#liferay> http://www.liferay.com/de/community/wiki/-/wiki/Main/Portlet+to+Portlet+Communication?_36_pageResourcePrimKey=6629472
