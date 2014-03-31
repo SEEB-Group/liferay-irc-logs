@@ -20,3 +20,4 @@
 08:16 < Tar-Minyatur:#liferay> We have a hook that changes the top_head.jsp...and every now and then during a fresh deployment this hooks seems to be not applied correctly.
 08:16 < marrk:#liferay> seems response.addProperty(cookieParam); is working:
 08:25 < marrk:#liferay> In JSR-286 JSR 286 (Portlet 2.0) defines a lifecycle for events, so that eventing is possible between portlets that are in different web applications.
+08:25 < marrk:#liferay> By adding the following property in portal-ext.properties, we can enable portlets to send and receive events from other portlets that are on different pages
