@@ -47,3 +47,4 @@
 13:30 < modd:#liferay> another problem, which I don't know if it's a problem, I wanted to talk about it with you
 13:30 < modd:#liferay> some of my portlet localization doesn't work and I don't understand why
 13:31 < modd:#liferay> using liferay-ui:message with keys from the portlet language.porperties works in normal jsps but in my config jsp it doesn't, if the key does not exist in the PORTAL language.properties
+13:32 < modd:#liferay> in the java controller class it doesn't work at all using the language util
