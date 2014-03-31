@@ -8,3 +8,4 @@
 07:52 < marrk:#liferay> hi, anyone can help me with qname -> setevent?
 07:55 < marrk:#liferay> i got 2 pages, on the first one i set the event with actionResponse.setEvent(qname,"x") + redirect on the 2nd page, where i got a function with @ProcessEvent ("{...}..")  but this function is not called
 08:01 < modd_:#liferay> ipc does work on the same page, not on 2 different pages
+08:03 < modd_:#liferay> hey topolik1 - any liferay event at the moment, the whole liferay staff is missing here^^
