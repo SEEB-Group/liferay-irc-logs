@@ -54,3 +54,4 @@
 14:50 < paranoid:#liferay> Hi, I have a problem. I have Liferay portal 6.2 and a vaadin portlet(usees vaadin charts) created in eclipse. I deployed war file from eclipse to deploy folder of liferay. when i add a portlet to liferay, the content says: widgetset com.caadin.defaultWidgetset does not contain implementation for com.vaaddin.addon.charts.Chart....
 14:50 < paranoid:#liferay> I have installed Vaadin configuration addon for liferay and recompiled widgetset
 14:51 < paranoid:#liferay> vaadin portlet without charts are shown normally
+15:24 < Naenyn:#liferay> aw, no rotty..
