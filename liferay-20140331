@@ -10,3 +10,4 @@
 08:01 < modd_:#liferay> ipc does work on the same page, not on 2 different pages
 08:03 < modd_:#liferay> hey topolik1 - any liferay event at the moment, the whole liferay staff is missing here^^
 08:04 < marrk:#liferay> modd_ : what else could i use in this case? do cookies work?
+08:04 < modd_:#liferay> cookies are not bad for such things..or store it in the user session
