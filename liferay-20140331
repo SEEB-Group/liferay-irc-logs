@@ -22,3 +22,4 @@
 08:25 < marrk:#liferay> In JSR-286 JSR 286 (Portlet 2.0) defines a lifecycle for events, so that eventing is possible between portlets that are in different web applications.
 08:25 < marrk:#liferay> By adding the following property in portal-ext.properties, we can enable portlets to send and receive events from other portlets that are on different pages
 08:25 < marrk:#liferay> modd_ : why cant i use this in my case?
+08:37 < modd_:#liferay> which following property?
