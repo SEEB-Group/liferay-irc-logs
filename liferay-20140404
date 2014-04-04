@@ -23,3 +23,4 @@
 07:00 < modd_:#liferay> If I add these keyvalue pairs to the portal Language_xx.properties, it will also work in the controller
 07:01 <@jhf:#liferay> so are you interested in retrieving your own custom localizations, from your own properties files,  from your controller class? or are you interested in re-using LIferay's localization strings?
 07:02 < modd_:#liferay> I need to get a localized string out of the portlets language files
+07:02 <@jhf:#liferay> ok
