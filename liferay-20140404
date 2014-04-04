@@ -7,3 +7,5 @@
 06:50 < modd_:#liferay> hi jhf, sorry to bother you...did you test that portlet? was it reproducible?
 06:51 <@jhf:#liferay> nope, sorry, haven't had a chance to test it this week.. did you happen to file a ticket for that issue?
 06:52 < Axxell:#liferay> makes the added pages which were not visible before visible again
+06:52 < Axxell:#liferay> so somebody has made a big no-no.. hard coded maxnumber of childpages
+06:52 < Axxell:#liferay> visible under site pages?
