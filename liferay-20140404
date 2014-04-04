@@ -19,3 +19,4 @@
 06:58 <@jhf:#liferay> ok so the problem is you can't retrieve localization strings from Liferay's collection of localizations, from your configuration jsp (whereas the same works from "normal" jsp) ?
 06:59 < modd_:#liferay> in the view jsp by using the liferay ui message tag I'll get the value for the key
 06:59 < modd_:#liferay> but in the controller class it doesn't work
+06:59 < Axxell:#liferay> looking at the html the "site pages" page outputs, there is a "load more results" link but its invisible
