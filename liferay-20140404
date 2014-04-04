@@ -30,3 +30,4 @@
 07:04 <@jhf:#liferay> yes. I think I know what the problem is. one sec. I ran into this a couple of years ago.
 07:04 < modd_:#liferay> my current workaround is a hook for the portal language_xx.properties files and adding all my portlet related keyvalue into it
 07:07 < Axxell:#liferay> apparently this is a known bug...
+07:07 <@jhf:#liferay> I believe the fix is here: http://www.marconapolitano.it/en/liferay/32-text-localization-in-a-custom-portlet.html
