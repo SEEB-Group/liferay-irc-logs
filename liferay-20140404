@@ -9,3 +9,4 @@
 06:52 < Axxell:#liferay> makes the added pages which were not visible before visible again
 06:52 < Axxell:#liferay> so somebody has made a big no-no.. hard coded maxnumber of childpages
 06:52 < Axxell:#liferay> visible under site pages?
+06:52 < Axxell:#liferay> can anybody suggest a fix?
