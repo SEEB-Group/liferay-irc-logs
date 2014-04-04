@@ -10,3 +10,4 @@
 06:52 < Axxell:#liferay> so somebody has made a big no-no.. hard coded maxnumber of childpages
 06:52 < Axxell:#liferay> visible under site pages?
 06:52 < Axxell:#liferay> can anybody suggest a fix?
+06:54 < modd_:#liferay> jhf: nope, no ticket. I'm really not sure if it's my problem or liferays, because I can't find anything related on google etc., as if I'm the only one
