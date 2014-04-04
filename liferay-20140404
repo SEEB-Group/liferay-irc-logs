@@ -28,3 +28,4 @@
 07:02 <@jhf:#liferay> trying your sample ..
 07:03 < modd_:#liferay> I need these values in the controller because I have another portlet which makes use of the new notifications-portlet and sending the text to it so a user get's a notification, can click on it and will see the localized string
 07:04 <@jhf:#liferay> yes. I think I know what the problem is. one sec. I ran into this a couple of years ago.
+07:04 < modd_:#liferay> my current workaround is a hook for the portal language_xx.properties files and adding all my portlet related keyvalue into it
