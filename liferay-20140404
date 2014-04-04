@@ -20,3 +20,4 @@
 06:59 < modd_:#liferay> in the view jsp by using the liferay ui message tag I'll get the value for the key
 06:59 < modd_:#liferay> but in the controller class it doesn't work
 06:59 < Axxell:#liferay> looking at the html the "site pages" page outputs, there is a "load more results" link but its invisible
+07:00 < modd_:#liferay> If I add these keyvalue pairs to the portal Language_xx.properties, it will also work in the controller
