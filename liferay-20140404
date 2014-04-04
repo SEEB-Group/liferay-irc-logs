@@ -17,3 +17,4 @@
 06:55 < modd_:#liferay> the portlet is also build with 6.2 sdk
 06:56 < modd_:#liferay> I guess it will fail on EE, too, if it's a liferay problem
 06:58 <@jhf:#liferay> ok so the problem is you can't retrieve localization strings from Liferay's collection of localizations, from your configuration jsp (whereas the same works from "normal" jsp) ?
+06:59 < modd_:#liferay> in the view jsp by using the liferay ui message tag I'll get the value for the key
