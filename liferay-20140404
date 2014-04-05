@@ -38,3 +38,4 @@
 07:09 <@jhf:#liferay> try that and let me know.. i gotta run and take kids to school
 07:22 < Axxell:#liferay> apparently it is this bug https://issues.liferay.com/browse/LPS-44087?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel
 07:23 < Axxell:#liferay> and seems to be fixed in the next version, so i apparently should update
+16:25 -!- mode/#liferay [+o jhf] by ChanServ
