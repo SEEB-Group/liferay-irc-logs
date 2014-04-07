@@ -12,3 +12,4 @@
 08:09 < d-tail:#liferay> I'm trying to share data between ajaxable portlets through portlet session, but I don't want to store the data between "real" page loads
 08:35 < modd_:#liferay> jhf: using portletConfig helped but I can't use it in my localservice as it's not related to genericportlet. :\
 13:05 -!- mode/#liferay [+o jhf_] by ChanServ
+16:49 < Naenyn:#liferay> jhf: any idea when rotty will be back? =]
