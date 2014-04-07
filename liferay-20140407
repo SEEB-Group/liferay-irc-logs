@@ -36,3 +36,4 @@
 17:03 < Naenyn:#liferay> For example, I'm having trouble telling what point(s) I can hook in to during the user creation process. I need to be able to, at the end of user creation, connect to an external system to do some magic and then update the newly created LR user accordingly.
 17:03 < Naenyn:#liferay> I've found some documentation on the hook points available.. but it isn't clear to me where those exist in the flow.
 17:04 < Naenyn:#liferay> I've gotten so used to saying, "I'll just go ask Ray on irc.." =]
+17:06 < barrie_:#liferay> if you want to hook into user creation .. you can use a hook and implement a UserLocalServiceWrapper
