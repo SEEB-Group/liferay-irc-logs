@@ -44,3 +44,4 @@
 17:13 < Naenyn:#liferay> As long as I can understand where and how to hook, I am good. =]
 17:14 < Naenyn:#liferay> All of the hooks I've written so far have been jsp changes.. with one exception.. a post login hook. Hm, need to look at that one again.
 17:29 < barrie_:#liferay> Naenyn: https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/overriding-a-portal-servi-4
+17:29 < barrie_:#liferay> it actually uses a USerLocalServiceWrapper
