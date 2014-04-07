@@ -34,3 +34,4 @@
 17:02 < Naenyn:#liferay> Mmm.. it's more like questions on how things work that I can't find answers for in the documentation.
 17:03 <@jhf:#liferay> well if something's not working as expected and there're no docs, I'd consider that a "bug" to some degree :)
 17:03 < Naenyn:#liferay> For example, I'm having trouble telling what point(s) I can hook in to during the user creation process. I need to be able to, at the end of user creation, connect to an external system to do some magic and then update the newly created LR user accordingly.
+17:03 < Naenyn:#liferay> I've found some documentation on the hook points available.. but it isn't clear to me where those exist in the flow.
