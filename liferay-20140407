@@ -1,1 +1,11 @@
 --- Log opened Mon Apr 07 00:00:32 2014
+02:08 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA1 RELEASE http://goo.gl/XMZiG3   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+02:08 -!- Topic set by jhf [~cygnuseck@72.239.30.49] [Thu Feb  6 12:56:33 2014]
+02:08 [Users #liferay]
+02:08 [@ChanServ] [ anteater_sa] [ jardineworks] [ MagnoBooter] [ rocknroll_  ] [ topolik] 
+02:08 [@jhf     ] [ bijoo      ] [ jbonjean2   ] [ marcoceppi ] [ Tar-Minyatur] [ wohnout] 
+02:08 [ adaro   ] [ Gorith     ] [ josuebc     ] [ quercus    ] [ Tm_T        ] 
+02:08 -!- Irssi: #liferay: Total of 17 nicks [2 ops, 0 halfops, 0 voices, 15 normal]
+02:08 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+02:08 -!- Irssi: Join to #liferay was synced in 8 secs
+08:08 < d-tail:#liferay> Hi all! Is there any way to reset a single portlet session variable on every page load (not ajax requests, though)
