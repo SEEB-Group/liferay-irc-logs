@@ -47,3 +47,4 @@
 17:29 < barrie_:#liferay> it actually uses a USerLocalServiceWrapper
 17:30 < Naenyn:#liferay> barrie_: thank you!
 17:31 < barrie_:#liferay> Naenyn: np .. good luck
+17:31 < Naenyn:#liferay> another related question.. is it possible to disable the normal user creation section of the control panel?
