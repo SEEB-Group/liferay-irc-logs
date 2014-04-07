@@ -10,3 +10,4 @@
 02:08 -!- Irssi: Join to #liferay was synced in 8 secs
 08:08 < d-tail:#liferay> Hi all! Is there any way to reset a single portlet session variable on every page load (not ajax requests, though)
 08:09 < d-tail:#liferay> I'm trying to share data between ajaxable portlets through portlet session, but I don't want to store the data between "real" page loads
+08:35 < modd_:#liferay> jhf: using portletConfig helped but I can't use it in my localservice as it's not related to genericportlet. :\
