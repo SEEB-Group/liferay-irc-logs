@@ -40,3 +40,4 @@
 17:06 <@jhf:#liferay> you can create a 'model listener hook' for the User model.. then put your code in the 'onAfterCreate' hook, and at the end, call something like UserLocalSeviceUtil.updateUser(user)
 17:07 < barrie_:#liferay> Wrapper is a bit cleaner.. if you can use it..
 17:12 < Naenyn:#liferay> What I was stuck on was knowing what to hook in to. the user model thing makes sense, but is there a list somewhere of what all the places are that can be .. hook-able? At one point I had a list (I think from portal.properties) but I can't seem to find it at the moment.
+17:13 < Naenyn:#liferay> barrie_: regarding the wrapper, sort of the same question.. could you perhaps point me at an example wrapper?
