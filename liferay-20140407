@@ -37,3 +37,4 @@
 17:03 < Naenyn:#liferay> I've found some documentation on the hook points available.. but it isn't clear to me where those exist in the flow.
 17:04 < Naenyn:#liferay> I've gotten so used to saying, "I'll just go ask Ray on irc.." =]
 17:06 < barrie_:#liferay> if you want to hook into user creation .. you can use a hook and implement a UserLocalServiceWrapper
+17:06 <@jhf:#liferay> you can create a 'model listener hook' for the User model.. then put your code in the 'onAfterCreate' hook, and at the end, call something like UserLocalSeviceUtil.updateUser(user)
