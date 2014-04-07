@@ -20,3 +20,4 @@
 16:52 < barrie_:#liferay> Exception in thread "main" java.lang.NoClassDefFoundError: CE
 16:52 < barrie_:#liferay> Caused by: java.lang.ClassNotFoundException: CE
 16:52 < barrie_:#liferay>         at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+16:54 <@jhf:#liferay> that IS bizarre
