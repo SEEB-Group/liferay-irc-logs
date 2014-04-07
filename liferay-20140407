@@ -25,3 +25,4 @@
 16:55 < barrie_:#liferay> On a Mac - Mavericks 10.9.2
 16:55 < barrie_:#liferay> THis is with a liferay 6.2 CE GA2 bundle
 16:56 < Naenyn:#liferay> jhf: on a side note.. if I had developer-related questions on how to implement something for one of my clients and wasn't able to find the answer here or on the forums, would it be appropriate to ask via Liferay's support ticketing system?
+16:57 <@jhf:#liferay> if the client is an EE subscriber, then yes :)
