@@ -18,3 +18,5 @@
 16:50 < Naenyn:#liferay> I have hook questions!
 16:52 < barrie_:#liferay> anyone ever get this when trying to enable security on Tomcat?
 16:52 < barrie_:#liferay> Exception in thread "main" java.lang.NoClassDefFoundError: CE
+16:52 < barrie_:#liferay> Caused by: java.lang.ClassNotFoundException: CE
+16:52 < barrie_:#liferay>         at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
