@@ -42,3 +42,4 @@
 17:12 < Naenyn:#liferay> What I was stuck on was knowing what to hook in to. the user model thing makes sense, but is there a list somewhere of what all the places are that can be .. hook-able? At one point I had a list (I think from portal.properties) but I can't seem to find it at the moment.
 17:13 < Naenyn:#liferay> barrie_: regarding the wrapper, sort of the same question.. could you perhaps point me at an example wrapper?
 17:13 < Naenyn:#liferay> As long as I can understand where and how to hook, I am good. =]
+17:14 < Naenyn:#liferay> All of the hooks I've written so far have been jsp changes.. with one exception.. a post login hook. Hm, need to look at that one again.
