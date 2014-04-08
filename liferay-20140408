@@ -46,3 +46,5 @@
 13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#addLayout,\
 13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#getFriendlyURLLayout,\
 13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#getLayouts,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#updateLayout,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.UserLocalService#getDefaultUser,\
