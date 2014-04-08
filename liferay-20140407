@@ -49,3 +49,5 @@
 17:31 < barrie_:#liferay> Naenyn: np .. good luck
 17:31 < Naenyn:#liferay> another related question.. is it possible to disable the normal user creation section of the control panel?
 17:32 < barrie_:#liferay> Naenyn: for who? Don't think you want to do it for super admin
+17:54 -!- mode/#liferay [+o jhf] by ChanServ
+20:56 < Naenyn:#liferay> eep, I had to step away and he left. Anyway, we're still trying to decide how to handle user creation, considering we're syncing up with an external system (CAS-ish).
