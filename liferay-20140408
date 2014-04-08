@@ -54,3 +54,4 @@
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#getCategory,\
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#getChildCategories,\
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#getVocabularyCategories,\
+13:26 < modd:#liferay> -> pastebin.com
