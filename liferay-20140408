@@ -17,3 +17,4 @@
 07:51 < itman:#liferay> I can't found google unfortunatly
 08:02 < wohnout:#liferay> Is somehow possible to trigger login.events.post when using CustomLoginAction?
 08:10 < modd_:#liferay> does PropsUtil not work?
+08:11 < jardineworks:#liferay> wohnout, What do you mean trigger? if it is configured in the portal-ext then it should fire
