@@ -12,3 +12,4 @@
 05:57 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:57 -!- Irssi: Join to #liferay was synced in 8 secs
 07:13 < modd_:#liferay> hi. as far as I see here https://github.com/liferay/liferay-portal/blob/master/definitions/liferay-workflow-definition_6_2_0.xsd the onTimer execution type is not available at all, or did I miss something?
+07:48 < itman:#liferay> Hi guys
