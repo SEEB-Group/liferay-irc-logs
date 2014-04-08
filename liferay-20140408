@@ -39,3 +39,4 @@
 13:25 < barrie:#liferay> PACL question...
 13:25 < barrie:#liferay> I got this error
 13:25 < barrie:#liferay> Caused by: java.security.AccessControlException: Access denied (com.liferay.portal.kernel.security.pacl.permission.PortalServicePermission service#portal#com.liferay.portlet.asset.service.AssetTagLocalService getGroupTags)
+13:25 <@jhf:#liferay> hey, rotty3000 is back!
