@@ -62,3 +62,4 @@
 13:43 < barrie:#liferay> one at the top... and one where it was before...
 13:43 < barrie:#liferay> is PACL order sensitive?
 13:43 < barrie:#liferay> or a possible bug
+13:50 < barrie:#liferay> I removed the top one.. and tested again .. and it worked.. so maybe just a fluke
