@@ -22,3 +22,4 @@
 08:21 < modd_:#liferay> read the value of this property in your custom action and create and call the class by hand
 08:23 < wohnout:#liferay> modd_: that PropsUtil was on me ? :)
 08:23 < wohnout:#liferay> that PropsUtil answer
+08:25 < modd_:#liferay> I thought you are were asking how to get the value of the property...sry
