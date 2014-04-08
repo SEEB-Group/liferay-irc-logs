@@ -61,3 +61,4 @@
 13:43 < barrie:#liferay> and it now has two entries for  com.liferay.portlet.asset.service.AssetTagLocalService#getGroupTags
 13:43 < barrie:#liferay> one at the top... and one where it was before...
 13:43 < barrie:#liferay> is PACL order sensitive?
+13:43 < barrie:#liferay> or a possible bug
