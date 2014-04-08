@@ -1,3 +1,13 @@
 --- Log opened Tue Apr 08 00:00:33 2014
 05:25 < wohnout:#liferay> Hi all, I have proprietary SSO service from liferay to external apps. I'm trying to redirect to external app after successful login. Everything works great except that I need to open portal once before the login is propagated to external app
 05:25 < wohnout:#liferay> do you have any advice what to call to "start" session
+05:57 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA1 RELEASE http://goo.gl/XMZiG3   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+05:57 -!- Topic set by jhf [~cygnuseck@72.239.30.49] [Thu Feb  6 12:56:33 2014]
+05:57 [Users #liferay]
+05:57 [@ChanServ   ] [ aqquadro] [ guli        ] [ longbeach  ] [ quercus     ] [ wench  ] 
+05:57 [@jhf        ] [ bijoo   ] [ jardineworks] [ MagnoBooter] [ rocknroll_  ] [ wohnout] 
+05:57 [ adaro      ] [ d-tail  ] [ jbonjean    ] [ marcoceppi ] [ smind       ] 
+05:57 [ anteater1sa] [ Gorith  ] [ josuebc     ] [ Naenyn     ] [ Tar-Minyatur] 
+05:57 -!- Irssi: #liferay: Total of 22 nicks [2 ops, 0 halfops, 0 voices, 20 normal]
+05:57 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:57 -!- Irssi: Join to #liferay was synced in 8 secs
