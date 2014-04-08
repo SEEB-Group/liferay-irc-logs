@@ -49,3 +49,4 @@
 13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#updateLayout,\
 13:25 < barrie:#liferay>     com.liferay.portal.service.UserLocalService#getDefaultUser,\
 13:25 < barrie:#liferay>     com.liferay.portal.service.UserLocalService#getDefaultUserId,\
+13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#addCategory,\
