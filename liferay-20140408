@@ -42,3 +42,7 @@
 13:25 <@jhf:#liferay> hey, rotty3000 is back!
 13:25 < barrie:#liferay> but have this in my PACL definition
 13:25 < barrie:#liferay>    com.liferay.portal.service.GroupLocalService#fetchGroup,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.GroupLocalService#getGroup,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#addLayout,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#getFriendlyURLLayout,\
+13:25 < barrie:#liferay>     com.liferay.portal.service.LayoutLocalService#getLayouts,\
