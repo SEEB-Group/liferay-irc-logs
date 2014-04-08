@@ -52,3 +52,4 @@
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#addCategory,\
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#dynamicQuery,\
 13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#getCategory,\
+13:25 < barrie:#liferay>     com.liferay.portlet.asset.service.AssetCategoryLocalService#getChildCategories,\
