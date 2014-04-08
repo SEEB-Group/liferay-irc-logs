@@ -29,3 +29,4 @@
 08:28 < wohnout:#liferay> and EventsProcessorUtil.process can't be called from CustomLoginAction
 10:55 -!- mode/#liferay [+o rotty3000] by ChanServ
 12:23 < barrie:#liferay> Quick question.. what version of 6.1 is the first to fully support PACL for Marketplace apps?
+13:13 <@jhf:#liferay> it was introduced in 6.1 CE GA2 but had many issues which were resolved in 6.1 CE GA3 (and 6.2 CE GA1)
