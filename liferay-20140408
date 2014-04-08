@@ -20,3 +20,4 @@
 08:11 < jardineworks:#liferay> wohnout, What do you mean trigger? if it is configured in the portal-ext then it should fire
 08:18 < wohnout:#liferay> Well I'm redirecting to external application upon login but if I use redirect parameter then there is no call to Main Servlet so the login.events.post is not triggered.
 08:21 < modd_:#liferay> read the value of this property in your custom action and create and call the class by hand
+08:23 < wohnout:#liferay> modd_: that PropsUtil was on me ? :)
