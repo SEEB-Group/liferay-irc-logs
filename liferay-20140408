@@ -27,3 +27,5 @@
 08:25 < modd_:#liferay> *
 08:25 < wohnout:#liferay> nono I need to call that action
 08:28 < wohnout:#liferay> and EventsProcessorUtil.process can't be called from CustomLoginAction
+10:55 -!- mode/#liferay [+o rotty3000] by ChanServ
+12:23 < barrie:#liferay> Quick question.. what version of 6.1 is the first to fully support PACL for Marketplace apps?
