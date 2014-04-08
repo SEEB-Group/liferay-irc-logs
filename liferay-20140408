@@ -1,1 +1,2 @@
 --- Log opened Tue Apr 08 00:00:33 2014
+05:25 < wohnout:#liferay> Hi all, I have proprietary SSO service from liferay to external apps. I'm trying to redirect to external app after successful login. Everything works great except that I need to open portal once before the login is propagated to external app
