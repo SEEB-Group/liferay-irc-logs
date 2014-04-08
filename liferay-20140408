@@ -16,3 +16,4 @@
 07:49 < itman:#liferay> can someone help me connect ruby 2.0 with liferay 6.1
 07:51 < itman:#liferay> I can't found google unfortunatly
 08:02 < wohnout:#liferay> Is somehow possible to trigger login.events.post when using CustomLoginAction?
+08:10 < modd_:#liferay> does PropsUtil not work?
