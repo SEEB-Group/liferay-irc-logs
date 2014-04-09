@@ -1,0 +1,2 @@
+--- Log opened Wed Apr 09 00:00:35 2014
+04:47 < Axxell> Hey guys, i want to create a hook for a the web form portlet, but in liferay 6.2 the web form portlet is obtained from the app store, how do i create a hook for that portlet?
