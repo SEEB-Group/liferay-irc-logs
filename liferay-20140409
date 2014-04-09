@@ -3,3 +3,4 @@
 05:31 < Axxell> ok, apparently i need to make my own version? downloaded from svn the web forms portlet, trying to convert it to a liferay project, i can import it to eclipse, but can not convert it to a liferay portlet
 05:37 < Axxell> Anybody how do i import a portlet from http://svn.liferay.com/repos/public/plugins/branches/6.1.x/portlets/web-form-portlet/ into eclipse and make it a liferayproject?
 05:37 < Axxell> this guide is not helping: https://www.liferay.com/community/wiki/-/wiki/Main/Liferay+IDE+Importing+Existing+Projects
+05:48 < Axxell> Anybody?
