@@ -7,3 +7,4 @@
 05:48 < Axxell> Is there any guide how to customize a portlet like the web-form portlet
 05:49 < Axxell> cant import it into eclipse in any form
 07:08 < topolik> Axxell: When I need sth like this I just copy the downloaded project into standard Plugins SDK folder structure
+07:08 < Axxell> yup but it still just wont make itself a liferay project?
