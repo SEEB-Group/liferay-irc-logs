@@ -2,3 +2,4 @@
 04:47 < Axxell> Hey guys, i want to create a hook for a the web form portlet, but in liferay 6.2 the web form portlet is obtained from the app store, how do i create a hook for that portlet?
 05:31 < Axxell> ok, apparently i need to make my own version? downloaded from svn the web forms portlet, trying to convert it to a liferay project, i can import it to eclipse, but can not convert it to a liferay portlet
 05:37 < Axxell> Anybody how do i import a portlet from http://svn.liferay.com/repos/public/plugins/branches/6.1.x/portlets/web-form-portlet/ into eclipse and make it a liferayproject?
+05:37 < Axxell> this guide is not helping: https://www.liferay.com/community/wiki/-/wiki/Main/Liferay+IDE+Importing+Existing+Projects
