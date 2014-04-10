@@ -4,3 +4,4 @@
 13:55 < Naenyn> rotty3000: I'm in need of doing some custom stuff to a user immediately after it is created in liferay. Would it be best to extend the UserLocalServiceWrapper or is there a better hook location? On a related note, I still don't understand what all the places are that I can hook in to...
 14:24 < apucay> i think the other day someone mentioned model listeners
 15:42 < barrie_> Just FYI - I asked about PACL in 6.1 and it was mentioned it was OK with 6.1 GA3
+15:42 < barrie_> however I've had no luck... and found this
