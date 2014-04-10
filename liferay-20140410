@@ -5,3 +5,4 @@
 14:24 < apucay> i think the other day someone mentioned model listeners
 15:42 < barrie_> Just FYI - I asked about PACL in 6.1 and it was mentioned it was OK with 6.1 GA3
 15:42 < barrie_> however I've had no luck... and found this
+15:42 < barrie_> https://issues.liferay.com/browse/LPS-44320
