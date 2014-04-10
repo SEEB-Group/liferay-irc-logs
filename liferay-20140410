@@ -2,3 +2,4 @@
 11:12 < d-tail> is there any way to load ajaxable portlets sequentially?
 13:26 -!- mode/#liferay [+o jhf] by ChanServ
 13:55 < Naenyn> rotty3000: I'm in need of doing some custom stuff to a user immediately after it is created in liferay. Would it be best to extend the UserLocalServiceWrapper or is there a better hook location? On a related note, I still don't understand what all the places are that I can hook in to...
+14:24 < apucay> i think the other day someone mentioned model listeners
