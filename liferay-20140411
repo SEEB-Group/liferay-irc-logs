@@ -7,3 +7,5 @@
 09:29 < Tar-Minyatur> Hi guys. Somebody reading here? I'm trying to find a way to change the default settings for the publishing dialog. Any ideas about that?
 09:49 -!- mode/#liferay [+o jhf] by ChanServ
 11:47 < jardineworks>  apucay, Naenyn or you could write a struts hook for the action. Extend the existing one, call the parent first, then apply your custom logic before forwarding on.
+13:22 -!- mode/#liferay [+o jhf] by ChanServ
+13:29 < Naenyn> I'm just confused what the actual list of places is that I can hook in to. It sounds like any *LocalServiceUtil can be wrapped.. but I thought there was a list of events, too.
