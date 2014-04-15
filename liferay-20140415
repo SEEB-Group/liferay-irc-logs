@@ -22,3 +22,4 @@
 13:26 < Naenyn> Hmm.. so, in general, what are the places that can be hooked in to?
 13:26 <@rotty3000> service wrappers allow complete integration no matter if it's web services, or the UI's of the portal
 13:27 < jardineworks> rotty3000, good point.
+13:27 < Naenyn> I have a feeling the service wrapper is the way I'd need to go, then.. because I need to support the same account generation from (at least) two places.
