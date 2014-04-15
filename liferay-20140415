@@ -16,3 +16,4 @@
 13:24 < Naenyn> Yep, it does. What I was hoping for was a list of places I can hook in to. And does it have to be struts? I've zero struts experience. =\
 13:24 < jardineworks> mine is almost non-existent as well, but you don't need to know it to do this.
 13:24 <@rotty3000> Naenyn: jardineworks is correct, that's one way, you could also use a SerivceWrapper hook on the UserLocalService and basically do AOP like around/before/after on specific method calls
+13:24 < Naenyn> another user mentioned a wrapper
