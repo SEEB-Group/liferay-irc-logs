@@ -1,2 +1,3 @@
 --- Log opened Tue Apr 15 00:00:43 2014
 06:38 < GeoPlace-Tom> Hello, I'm having a spot of bother with some LDAP config. Originally I set it to use the username from our AD as the login name (eg flintstonef) but now it's been decided we should use the email address (eg fred.flintstone@example.org). I've changed the 'Screen Name' option in the LDAP config but of course all the old users are still showing as the short name. Does anyone know the right way to force a reimport?
+11:11 < dave_k> I've got a liferay 6.2.1 instance that's running hot ... 100% CPU without any apparent workload. How can I debug what it's doing wrong?
