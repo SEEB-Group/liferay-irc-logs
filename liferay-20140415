@@ -56,3 +56,4 @@
 18:19 <@rotty3000> you simply extend BaseStrutsPortletAction and you'll see there is a method that can call out the existing impl, this way you can go around the impl
 18:21 <@rotty3000> there is a method for each major part of the portlet lifecycle
 18:21 < Naenyn> ahh
+18:21 < Naenyn> is that in the wiki somewhere?
