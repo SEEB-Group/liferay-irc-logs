@@ -14,3 +14,4 @@
 13:23 < jardineworks> Naenyn, Struts hook on the create_account struts action.
 13:23 < jardineworks> then you can inject calls to your external system to add the user there as well (assuming it has an external api that you can access?)
 13:24 < Naenyn> Yep, it does. What I was hoping for was a list of places I can hook in to. And does it have to be struts? I've zero struts experience. =\
+13:24 < jardineworks> mine is almost non-existent as well, but you don't need to know it to do this.
