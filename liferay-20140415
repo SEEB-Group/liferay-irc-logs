@@ -36,3 +36,4 @@
 13:31 < Naenyn> When I was googling for this, I read something about portal.properties having a list.. but that wasn't clear to me when I looked through it.
 13:32 < jardineworks> rotty3000, no worries, if you are around I'll give you a shout. Thanks :)
 13:32 < Naenyn> rotty3000: jardineworks: and thanks to you both for the info. =]
+13:32 < jardineworks> Naenyn, easiest thing for you to do for the hooks. to see them anyway? install the Liferay IDE and create a hook project. There will be a dialogue that lets you pick the hook you want to write.
