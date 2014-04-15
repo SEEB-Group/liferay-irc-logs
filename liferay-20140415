@@ -19,3 +19,4 @@
 13:24 < Naenyn> another user mentioned a wrapper
 13:25 <@rotty3000> Naenyn: jardineworks is correct again about struts, you don't really need to know struts, you only need to understand the servlet/portlet lifecycle depending which one you hook into
 13:26 < jardineworks> you can even really cheat by just cloning the liferay class, giving it your own name, and then adding the java you need to add the user in your system :)
+13:26 < Naenyn> Hmm.. so, in general, what are the places that can be hooked in to?
