@@ -25,3 +25,4 @@
 13:27 < Naenyn> I have a feeling the service wrapper is the way I'd need to go, then.. because I need to support the same account generation from (at least) two places.
 13:28 <@rotty3000> creating a service wrapper on UserLocalService in a hook is as simple as extending UserLocalServiceWrapper and then registering that in the hook xml
 13:28 < jardineworks> Naenyn, If you are using the IDE you can see the hooks. Starting in 6.1 you can hook struts actions which introduced a whole whack of additional options.
+13:28 <@rotty3000> yeah, from the IDE, both mechanisms are pretty simple
