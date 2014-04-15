@@ -3,3 +3,4 @@
 11:11 < dave_k> I've got a liferay 6.2.1 instance that's running hot ... 100% CPU without any apparent workload. How can I debug what it's doing wrong?
 11:12 < dave_k> or at least which plugin is responsible?
 11:17 < dave_k> Trying kill -3 PID gives me a thread dump, but apparently no hint which thread is always busy...
+13:18 < Naenyn> rotty3000: you alive? =]
