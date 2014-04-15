@@ -17,3 +17,4 @@
 13:24 < jardineworks> mine is almost non-existent as well, but you don't need to know it to do this.
 13:24 <@rotty3000> Naenyn: jardineworks is correct, that's one way, you could also use a SerivceWrapper hook on the UserLocalService and basically do AOP like around/before/after on specific method calls
 13:24 < Naenyn> another user mentioned a wrapper
+13:25 <@rotty3000> Naenyn: jardineworks is correct again about struts, you don't really need to know struts, you only need to understand the servlet/portlet lifecycle depending which one you hook into
