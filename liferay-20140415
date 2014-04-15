@@ -44,3 +44,5 @@
 13:37 < Naenyn> another question.. is the "sign in" link (normally located in the top-right in the classic theme) the only way out of the box that Liferay can connect to an external system for authentication? The login portlet is only for local auth, right?
 13:37 < Naenyn> found out today I might have to write my own login portlet because of that.
 15:44 < Naenyn> doesn't look like the login portlet can be configured to use a different service..
+17:08 -!- mode/#liferay [+o rotty3000] by ChanServ
+17:28 < jardineworks> Naenyn, YOu can hook the login action and override it with your own logic as well.
