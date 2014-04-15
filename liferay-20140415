@@ -41,3 +41,4 @@
 13:34 < Naenyn> I hadn't realized it did that.. I will have to check it out for sure. Although at this point, I think the service wrapper approach will be best.. considering that I need to add behavior for both the normal user creation flow and the new bulk user import I'm writing..
 13:34 < Naenyn> ah nice, didn't think about a DTD
 13:35 <@rotty3000> our DTDs have traditionally been our best docs
+13:37 < Naenyn> another question.. is the "sign in" link (normally located in the top-right in the classic theme) the only way out of the box that Liferay can connect to an external system for authentication? The login portlet is only for local auth, right?
