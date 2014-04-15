@@ -40,3 +40,4 @@
 13:34 < jardineworks> Naenyn, or have a look for the DTD version corresponding to your install. Here is one from 6.0 -- http://www.liferay.com/community/wiki/-/wiki/Main/Hook+DTD+-+6.0
 13:34 < Naenyn> I hadn't realized it did that.. I will have to check it out for sure. Although at this point, I think the service wrapper approach will be best.. considering that I need to add behavior for both the normal user creation flow and the new bulk user import I'm writing..
 13:34 < Naenyn> ah nice, didn't think about a DTD
+13:35 <@rotty3000> our DTDs have traditionally been our best docs
