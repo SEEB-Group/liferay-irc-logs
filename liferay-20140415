@@ -13,3 +13,4 @@
 13:22 < Naenyn> basically, when liferay sees a user creation request, it handles it as normal but then does some extra stuff.
 13:23 < jardineworks> Naenyn, Struts hook on the create_account struts action.
 13:23 < jardineworks> then you can inject calls to your external system to add the user there as well (assuming it has an external api that you can access?)
+13:24 < Naenyn> Yep, it does. What I was hoping for was a list of places I can hook in to. And does it have to be struts? I've zero struts experience. =\
