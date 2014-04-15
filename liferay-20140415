@@ -51,3 +51,4 @@
 17:55 < Naenyn> I kinda get how pre/post event hooking works.. but not completely overriding the action itself.
 17:59 < Naenyn> https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/performing-a-custom-acti-4
 17:59 < Naenyn> guessing that's what you're talking about.
+18:00 < Naenyn> altho that example is a pre..
