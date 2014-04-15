@@ -54,3 +54,4 @@
 18:00 < Naenyn> altho that example is a pre..
 18:18 < Naenyn> jardineworks: rotty3000: So I guess my question is.. how do you override an existing action (in this case, the login action) with a hook?
 18:19 <@rotty3000> you simply extend BaseStrutsPortletAction and you'll see there is a method that can call out the existing impl, this way you can go around the impl
+18:21 <@rotty3000> there is a method for each major part of the portlet lifecycle
