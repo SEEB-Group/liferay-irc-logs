@@ -11,3 +11,4 @@
 13:20 < Naenyn> \o/
 13:21 < Naenyn> so I need to hook in to user creation such that both the standard user creation flow and a custom user creation portlet I'm writing can handle creating users in Liferay as well as creating the associated users in our external CAS-based system. I'm not sure what points I can hook in to, though. I got some general info from other users in here, but could definitely use some specifics on how to determine where I can hook in to.
 13:22 < Naenyn> basically, when liferay sees a user creation request, it handles it as normal but then does some extra stuff.
+13:23 < jardineworks> Naenyn, Struts hook on the create_account struts action.
