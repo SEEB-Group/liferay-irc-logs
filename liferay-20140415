@@ -26,3 +26,4 @@
 13:28 <@rotty3000> creating a service wrapper on UserLocalService in a hook is as simple as extending UserLocalServiceWrapper and then registering that in the hook xml
 13:28 < jardineworks> Naenyn, If you are using the IDE you can see the hooks. Starting in 6.1 you can hook struts actions which introduced a whole whack of additional options.
 13:28 <@rotty3000> yeah, from the IDE, both mechanisms are pretty simple
+13:29 <@rotty3000> I would go with struts more in the case you need to affect the UI, and service wrappers where you need to affect the business logic
