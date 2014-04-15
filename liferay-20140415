@@ -38,3 +38,4 @@
 13:32 < Naenyn> rotty3000: jardineworks: and thanks to you both for the info. =]
 13:32 < jardineworks> Naenyn, easiest thing for you to do for the hooks. to see them anyway? install the Liferay IDE and create a hook project. There will be a dialogue that lets you pick the hook you want to write.
 13:34 < jardineworks> Naenyn, or have a look for the DTD version corresponding to your install. Here is one from 6.0 -- http://www.liferay.com/community/wiki/-/wiki/Main/Hook+DTD+-+6.0
+13:34 < Naenyn> I hadn't realized it did that.. I will have to check it out for sure. Although at this point, I think the service wrapper approach will be best.. considering that I need to add behavior for both the normal user creation flow and the new bulk user import I'm writing..
