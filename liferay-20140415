@@ -47,3 +47,4 @@
 17:08 -!- mode/#liferay [+o rotty3000] by ChanServ
 17:28 < jardineworks> Naenyn, YOu can hook the login action and override it with your own logic as well.
 17:29 < jardineworks> that is the most common approach, but the login action is also a struts mapping so I suppose you could go that route as well -- easiest way is to implement your own login action though
+17:44 < Naenyn> jardineworks: would this be a struts action hook?
