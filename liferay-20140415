@@ -52,3 +52,4 @@
 17:59 < Naenyn> https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/performing-a-custom-acti-4
 17:59 < Naenyn> guessing that's what you're talking about.
 18:00 < Naenyn> altho that example is a pre..
+18:18 < Naenyn> jardineworks: rotty3000: So I guess my question is.. how do you override an existing action (in this case, the login action) with a hook?
