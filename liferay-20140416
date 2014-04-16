@@ -1,3 +1,4 @@
 --- Log opened Wed Apr 16 00:00:45 2014
 07:13 < modd_> I'm look for some overview page of LR and JSRs. especially I'm looking for JSR 333
 07:14 < modd_> or at least jsr 283
+08:36 < jardineworks> modd_, https://www.liferay.com/products/liferay-portal/tech-specs -- do a find in the page for "Standards"
