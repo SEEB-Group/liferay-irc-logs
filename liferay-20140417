@@ -12,3 +12,4 @@
 20:04 < bijoo__> Naenyn: then in Eclipse, Ctrl+Shift+R "tiles-defs.xml" look for 'edit_user"'
 20:04 < bijoo__> Naenyn: rather, Ctrl+Shift+R "struts-config.xml" look for 'edit_user"'
 20:05 < bijoo__> Naenyn: and it's mapped to EditUserAction
+20:08 < Naenyn> bijoo__: Hm.. think I'm missing where you jumped to that from the user add form.
