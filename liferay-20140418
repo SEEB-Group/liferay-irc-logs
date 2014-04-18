@@ -7,3 +7,4 @@
 10:21 < namredips> The issue is that for an account, administrator account, when editing the account profile screen name and password are always in the (modified) state
 10:21 < namredips> so in order to make a change at all, both fields must be updated with new data. then i don’t an error
 10:22 < namredips> is there someplace to change the state of those fields, seems like something is out of sync
+12:25 < bijoo__> mojo: will check it out in few minutes
