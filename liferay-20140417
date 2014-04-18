@@ -7,3 +7,4 @@
 20:00 < bijoo__> com.liferay.portlet.usersadmin.action.EditUserAction.addUser(ActionRequest)
 20:01 < bijoo__> Naenyn: that's from 6.1GA2 though, may check.
 20:01 < Naenyn> bijoo__: how'd you find that out?
+20:02 < bijoo__> Naenyn: Import the liferay source into eclipse; in eclipse, press Ctrl+Shift+R; search for "EditUserAction.java" and open it.
