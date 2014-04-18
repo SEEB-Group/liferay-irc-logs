@@ -10,3 +10,4 @@
 20:02 < bijoo__> Naenyn: Import the liferay source into eclipse; in eclipse, press Ctrl+Shift+R; search for "EditUserAction.java" and open it.
 20:03 < bijoo__> Naenyn: other way : press Ctrl+Shift+R , search "*users_*/*" select edit_user. See the line "<portlet:actionURL><portlet:param name="struts_action" value="/users_admin/edit_user" /></portlet:actionURL>");"
 20:04 < bijoo__> Naenyn: then in Eclipse, Ctrl+Shift+R "tiles-defs.xml" look for 'edit_user"'
+20:04 < bijoo__> Naenyn: rather, Ctrl+Shift+R "struts-config.xml" look for 'edit_user"'
