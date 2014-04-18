@@ -11,3 +11,4 @@
 20:03 < bijoo__> Naenyn: other way : press Ctrl+Shift+R , search "*users_*/*" select edit_user. See the line "<portlet:actionURL><portlet:param name="struts_action" value="/users_admin/edit_user" /></portlet:actionURL>");"
 20:04 < bijoo__> Naenyn: then in Eclipse, Ctrl+Shift+R "tiles-defs.xml" look for 'edit_user"'
 20:04 < bijoo__> Naenyn: rather, Ctrl+Shift+R "struts-config.xml" look for 'edit_user"'
+20:05 < bijoo__> Naenyn: and it's mapped to EditUserAction
