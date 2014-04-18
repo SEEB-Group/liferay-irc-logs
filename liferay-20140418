@@ -2,3 +2,4 @@
 03:31 < Naenyn> bijoo__: thanks so much!
 09:36 < predy> hi
 09:59 < mojo> hi. i have a issue with asset publisher. i can't open any document listet inside of it. the page is only refreshing. anyone got a clue?
+10:01 < mojo> lifrey version 6.2 ga2, tomcat 7, using guest role and link behaviour is show full content, asset publisher has not been hooked
