@@ -4,3 +4,4 @@
 19:57 < bijoo__> Naenyn: it's supposed to override the methods?
 19:58 < Naenyn> It overrides two (add and create) .. I'm guessing I'm missing a piece of the puzzle. Maybe it should have been extending the UserServiceWrapper instead.. Does the normal user creation process via the control panel use UserLocalService or UserService?
 20:00 < bijoo__> UserServiceUtil
+20:00 < bijoo__> com.liferay.portlet.usersadmin.action.EditUserAction.addUser(ActionRequest)
