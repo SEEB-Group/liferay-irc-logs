@@ -15,3 +15,5 @@
 20:08 < Naenyn> bijoo__: Hm.. think I'm missing where you jumped to that from the user add form.
 20:11 < Naenyn> still not too good at figuring out what gets called on form submits. =]
 20:48 < bijoo__> Naenyn: general process is something like this: (1) find jsp, (2) find form struts action - check form url and/or portlet render/action/resource url (3)  lookup the struts path in struts-config.xml (4) open the referenced mapped Action class
+22:13 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Fri Apr 18 00:00:36 2014
