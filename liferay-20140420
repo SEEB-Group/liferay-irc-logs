@@ -3,3 +3,4 @@
 15:33 < predy> <- mojo
 16:34 < mojo1> i have another problem. im adding categories and documents programmatically. categories are added, group and guest permission are added for them. documents are added but i think im missing something. in documents and media ( and dam display) i can select documents by categories but not by asset publisher.
 16:35 < mojo1> but categories are shown in asset pulisher
+16:36 < mojo1> but when i am going to edit a document categories are not shown in edit window
