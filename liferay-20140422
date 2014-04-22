@@ -25,3 +25,4 @@
 12:56 < bijoo__> 				AssetPublisherUtil.addAndStoreSelection(
 12:57 < bijoo__> 					actionRequest, DLFileEntry.class.getName(),
 12:57 < bijoo__> 					fileEntry.getFileEntryId(), -1);
+12:57 < bijoo__> 			}
