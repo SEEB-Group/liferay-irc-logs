@@ -22,3 +22,4 @@
 12:56 < bijoo__> 				fileEntry = DLAppServiceUtil.addFileEntry(
 12:56 < bijoo__> 					repositoryId, folderId, sourceFileName, contentType, title,
 12:56 < bijoo__> 					description, changeLog, inputStream, size, serviceContext);
+12:56 < bijoo__> 				AssetPublisherUtil.addAndStoreSelection(
