@@ -16,3 +16,4 @@
 12:56 < bijoo__> mojo2: okay, that doesn't use Asset framework
 12:56 < bijoo__> com.liferay.portlet.documentlibrary.action.EditFileEntryAction.updateFileEntry(PortletConfig, ActionRequest, ActionResponse)
 12:56 < bijoo__> Check the above implementation there
+12:56 < bijoo__> mojo2: i		FileEntry fileEntry = null;
