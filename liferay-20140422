@@ -17,3 +17,4 @@
 12:56 < bijoo__> com.liferay.portlet.documentlibrary.action.EditFileEntryAction.updateFileEntry(PortletConfig, ActionRequest, ActionResponse)
 12:56 < bijoo__> Check the above implementation there
 12:56 < bijoo__> mojo2: i		FileEntry fileEntry = null;
+12:56 < bijoo__> 			if (cmd.equals(Constants.ADD)) {
