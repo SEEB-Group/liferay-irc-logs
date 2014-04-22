@@ -18,3 +18,6 @@
 12:56 < bijoo__> Check the above implementation there
 12:56 < bijoo__> mojo2: i		FileEntry fileEntry = null;
 12:56 < bijoo__> 			if (cmd.equals(Constants.ADD)) {
+12:56 < bijoo__> 				// Add file entry
+12:56 < bijoo__> 				fileEntry = DLAppServiceUtil.addFileEntry(
+12:56 < bijoo__> 					repositoryId, folderId, sourceFileName, contentType, title,
