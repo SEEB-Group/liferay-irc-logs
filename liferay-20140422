@@ -10,3 +10,4 @@
 12:52 < bijoo__> mojo2: what's the code snipped for add the DL?
 12:52 < bijoo__> snippet*
 12:53 < mojo2> second....starting ide
+12:54 < mojo2> fileEntry = DLFileEntryLocalServiceUtil.addFileEntry(userId, groupId, repositoryId, folderId,
