@@ -43,3 +43,4 @@
 12:57 < bijoo__> 			AssetPublisherUtil.addRecentFolderId(
 12:57 < bijoo__> 				actionRequest, DLFileEntry.class.getName(), folderId);
 12:57 < bijoo__> whoops, I should use pastebin; sorry bout that.
+12:58 < bijoo__> mojo2: https://github.com/liferay/liferay-portal/blob/6.2.1-ga2/portal-impl/src/com/liferay/portlet/documentlibrary/action/EditFileEntryAction.java#L949
