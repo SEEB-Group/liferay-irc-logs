@@ -14,3 +14,4 @@
 12:54 < mojo2>                                             filename, MimeTypesUtil.getContentType(strFile), clearTitle(filename), description,
 12:54 < mojo2>                                             changelog, fileentrytypeId, fieldsMap, srcfile, null, bytes.length, serviceContext);
 12:56 < bijoo__> mojo2: okay, that doesn't use Asset framework
+12:56 < bijoo__> com.liferay.portlet.documentlibrary.action.EditFileEntryAction.updateFileEntry(PortletConfig, ActionRequest, ActionResponse)
