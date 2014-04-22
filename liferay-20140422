@@ -11,3 +11,4 @@
 12:52 < bijoo__> snippet*
 12:53 < mojo2> second....starting ide
 12:54 < mojo2> fileEntry = DLFileEntryLocalServiceUtil.addFileEntry(userId, groupId, repositoryId, folderId,
+12:54 < mojo2>                                             filename, MimeTypesUtil.getContentType(strFile), clearTitle(filename), description,
