@@ -28,3 +28,4 @@
 12:57 < bijoo__> 			}
 12:57 < bijoo__> 			else if (cmd.equals(Constants.UPDATE_AND_CHECKIN)) {
 12:57 < bijoo__> 				// Update file entry and checkin
+12:57 < bijoo__> 				fileEntry = DLAppServiceUtil.updateFileEntryAndCheckIn(
