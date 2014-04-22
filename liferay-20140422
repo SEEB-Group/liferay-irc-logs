@@ -41,3 +41,4 @@
 12:57 < bijoo__> 					serviceContext);
 12:57 < bijoo__> 			}
 12:57 < bijoo__> 			AssetPublisherUtil.addRecentFolderId(
+12:57 < bijoo__> 				actionRequest, DLFileEntry.class.getName(), folderId);
