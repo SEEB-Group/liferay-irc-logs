@@ -31,3 +31,4 @@
 12:57 < bijoo__> 				fileEntry = DLAppServiceUtil.updateFileEntryAndCheckIn(
 12:57 < bijoo__> 					fileEntryId, sourceFileName, contentType, title,
 12:57 < bijoo__> 					description, changeLog, majorVersion, inputStream, size,
+12:57 < bijoo__> 					serviceContext);
