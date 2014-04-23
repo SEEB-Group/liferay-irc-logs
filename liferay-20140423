@@ -19,3 +19,4 @@
 10:17 < queaker> but now i got the save exception calling prefs.save() issued fromt the MyGreetingPortlet, instead from the jsp file
 10:17 < queaker> save == same
 10:18 < queaker> com.liferay.samples.MyGreetingPortlet.processAction(MyGreetingPortlet.java:20)  contails the line „prefs.store();“
+10:59 < bijoo_> quaker: still having issues there with this?
