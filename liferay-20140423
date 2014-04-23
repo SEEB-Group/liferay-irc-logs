@@ -18,3 +18,4 @@
 10:17 < queaker> i moved the pref.save() call from the jsp filte to the MyGreetingPortlet class, as described in http://www.liferay.com/de/documentation/liferay-portal/6.2/development/-/ai/understand-portlet-execution-phases-liferay-portal-6-2-dev-guide-03-en
 10:17 < queaker> but now i got the save exception calling prefs.save() issued fromt the MyGreetingPortlet, instead from the jsp file
 10:17 < queaker> save == same
+10:18 < queaker> com.liferay.samples.MyGreetingPortlet.processAction(MyGreetingPortlet.java:20)  contails the line „prefs.store();“
