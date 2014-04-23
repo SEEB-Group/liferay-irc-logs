@@ -5,3 +5,4 @@
 08:40 < queaker> i worked thru the first howto and rewrite the „My Greeting Portlet“ from http://www.liferay.com/de/documentation/liferay-portal/6.2/development/-/ai/writing-the-my-greeting-portlet-liferay-portal-6-2-dev-guide-03-en
 08:41 < queaker> but everything i got is an exception when trying to save the prefs in the edit.jsp
 08:41 < queaker> 12:34:26,393 ERROR [http-bio-8080-exec-50][PortletRequestDispatcherImpl:115] org.apache.jasper.JasperException: An exception occurred processing JSP page /edit.jsp at line 14__11: _12: if (greeting != null) {_13:     prefs.setValue("greeting", greeting);_14:     prefs.store();_15:     _16: %>_17: ___Stacktrace: [Sanitized]
+08:41 < queaker> org.apache.jasper.JasperException: An exception occurred processing JSP page /edit.jsp at line 14__11: _12: if (greeting != null) {_13:     prefs.setValue("greeting", greeting);_14:     prefs.store();_15:     _16: %>_17: ___Stacktrace: [Sanitized]
