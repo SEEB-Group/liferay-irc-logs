@@ -55,3 +55,4 @@
 11:34 < jardineworks> just stop the portal, delete the hypersonic file and restart the portal. That should reset everything.
 11:34 < DotHack> ok
 11:35 < jardineworks> delete the hsql folder in LIFERAY_HOME/data
+11:36 < DotHack> yeah found that already
