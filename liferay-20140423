@@ -25,3 +25,4 @@
 11:26 < DotHack> i think i disabled the global site of login page now i get an browser error when trying to enter the portal
 11:26 < jardineworks> what udrl are you using?
 11:27 < jardineworks> what happens if you go to /c/portal/login
+11:27 < DotHack> jardineworks: what do you mean? im just using http://servername:8080
