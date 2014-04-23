@@ -8,3 +8,4 @@
 08:41 < queaker> org.apache.jasper.JasperException: An exception occurred processing JSP page /edit.jsp at line 14__11: _12: if (greeting != null) {_13:     prefs.setValue("greeting", greeting);_14:     prefs.store();_15:     _16: %>_17: ___Stacktrace: [Sanitized]
 08:41 < queaker> 	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:568)
 08:41 < queaker> 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:470)
+08:41 < queaker> i’ve no clue how to get this fixed
