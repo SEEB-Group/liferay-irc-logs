@@ -9,3 +9,5 @@
 08:41 < queaker> 	at org.apache.jasper.servlet.JspServletWrapper.handleJspException(JspServletWrapper.java:568)
 08:41 < queaker> 	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:470)
 08:41 < queaker> i’ve no clue how to get this fixed
+09:02 -!- mode/#liferay [+o jhf] by ChanServ
+09:36 < bijoo_> queaker: may you post whole stack trace pastebin.com?
