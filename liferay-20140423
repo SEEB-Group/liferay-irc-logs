@@ -20,3 +20,4 @@
 10:17 < queaker> save == same
 10:18 < queaker> com.liferay.samples.MyGreetingPortlet.processAction(MyGreetingPortlet.java:20)  contails the line „prefs.store();“
 10:59 < bijoo_> quaker: still having issues there with this?
+10:59 < bijoo_> queaker*
