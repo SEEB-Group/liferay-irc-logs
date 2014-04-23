@@ -53,3 +53,4 @@
 11:34 < jardineworks> hypersonic? or have you configured a db?
 11:34 < DotHack> hypersonic
 11:34 < jardineworks> just stop the portal, delete the hypersonic file and restart the portal. That should reset everything.
+11:34 < DotHack> ok
