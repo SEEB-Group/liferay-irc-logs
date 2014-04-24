@@ -3,3 +3,4 @@
 10:07 < sm`> anyone around to help me out with exposing custom json web serivice from existing liferay plugin?
 10:10 < bijoo_> sm`: have you added  @WebService here?
 10:10 < sm`> here's my exception, web.xml and service.xml
+10:10 < sm`> http://pastebin.com/43vYTfPj
