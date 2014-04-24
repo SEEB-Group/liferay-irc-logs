@@ -107,3 +107,4 @@
 11:01 < topolik> bijoo_: these won't help with the spring issue
 11:02 < sm`> k, move the applicationContext.xml in the same dir with the .xmls SB generated
 11:02 < bijoo_> topolik: true; for spring, I think maybe restart over.
+11:02 < sm`> and added the file to spring.configs
