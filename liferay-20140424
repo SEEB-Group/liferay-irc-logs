@@ -36,3 +36,4 @@
 10:21 < topolik> the problem with UserImpl seems to be related to session serialization
 10:22 < topolik> com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet
 10:22 < topolik> This is a problem in your spring definition
+10:24 < topolik> I'm not sure now how it is when you have your custom spring definition + use ServiceBuilder, which also use Spring config files, but other config files
