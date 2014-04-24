@@ -38,3 +38,4 @@
 10:22 < topolik> This is a problem in your spring definition
 10:24 < topolik> I'm not sure now how it is when you have your custom spring definition + use ServiceBuilder, which also use Spring config files, but other config files
 10:24 < sm`> im using my own applicationContext.xml which defines my spring beans
+10:24 < sm`> i have <context:component-scan base-package="com.iwmn.storefinder" />
