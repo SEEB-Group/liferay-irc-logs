@@ -101,3 +101,4 @@
 10:59 < sm`> i assume no, cuz it generates new service.rpoperties
 10:59 < sm`> without my change
 10:59 < topolik> exactly :D
+10:59 < topolik> and it would also help to check the generated web.xml in the tomcat/webapps/your-portlet/WEB-INF
