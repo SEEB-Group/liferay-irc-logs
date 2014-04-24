@@ -21,3 +21,4 @@
 10:14 < topolik> sm`: what URL do you call?
 10:14 < topolik> from the documentation: "There are two ways to access a plugin’s JSON Web Services. We’ll call them, ingeniously, Option 1 and Option 2."
 10:17 < sm`> topolik: http://dwww/StoreFinder-portlet/api/jsonws/storefinderapi/get-store-types?p_auth=caeP8svu
+10:17 < topolik> this is the "Option 1"
