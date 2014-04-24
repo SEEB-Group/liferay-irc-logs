@@ -110,3 +110,4 @@
 11:02 < sm`> and added the file to spring.configs
 11:02 < bijoo_> maybe start with a real simple portlet; and then add-on to that the extra stuff; e.g. LiferayMVC portlet there
 11:03 < sm`> cant do that
+11:03 < sm`> i have an existing portlet
