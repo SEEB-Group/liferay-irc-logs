@@ -56,3 +56,4 @@
 10:32 < sm`> topolik, but i dont see ext-spring.xml in the WEB-INF dir
 10:33 < topolik> service builder should generate it into WEB-INF/src/META-INF/ext-spring.xml
 10:33 < sm`> maybe i can add my spring conf
+10:33 < sm`> in the service.rpoperties file
