@@ -50,3 +50,4 @@
 10:29 < bijoo_> sm`: note you'd have to have service.js
 10:29 < sm`> topolic, basically move my contents from my app.xml to ext-spring.xml, right?
 10:30 < sm`> bijoo_, thats not the issue bro the web method is throwing me different exception
+10:30 < sm`> i can see the method and the webservice there, yies
