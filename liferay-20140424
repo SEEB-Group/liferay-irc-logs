@@ -49,3 +49,4 @@
 10:28 < bijoo_> sm`: go to your portal, open up console; type in Liferay.Service.(press tab)  ; see if your service is registered there.
 10:29 < bijoo_> sm`: note you'd have to have service.js
 10:29 < sm`> topolic, basically move my contents from my app.xml to ext-spring.xml, right?
+10:30 < sm`> bijoo_, thats not the issue bro the web method is throwing me different exception
