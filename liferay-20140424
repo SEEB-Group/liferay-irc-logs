@@ -84,3 +84,4 @@
 10:47 < sm`> i get the exception when i try to run it
 10:48 < bijoo_> sm`: oh I see what you mean here; okay.
 10:48 < bijoo_> sm`: yea so agree with topolik on beans; likely a wiring issue here
+10:50 < sm`> no luck with changing spring.configs=
