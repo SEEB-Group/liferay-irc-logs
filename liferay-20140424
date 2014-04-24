@@ -44,3 +44,4 @@
 10:27 < bijoo_> sm`: another approach is more simpler: Liferay.Service.*.*.method
 10:27 < topolik> there could 2 ways, don't know which would work :)
 10:28 < topolik> can you try to remove the ContextLoaderListener and /WEB-INF/applicationContext.xml from your web.xml
+10:28 < topolik> and declare the spring beans in ext-spring.xml file?
