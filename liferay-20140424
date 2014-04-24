@@ -33,3 +33,4 @@
 10:19 < sm`> topolik: http://pastebin.com/43vYTfPj you can see the exception, web.xml and service.xml here
 10:20 < sm`> [not sure if i should paste here] ;]
 10:20 < topolik> that's ok
+10:21 < topolik> the problem with UserImpl seems to be related to session serialization
