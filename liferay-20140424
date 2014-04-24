@@ -94,3 +94,4 @@
 10:58 < topolik> e.g. move it into src/META-INF so that it's together with the other configs
 10:58 < sm`> yeah
 10:58 < topolik> and then change the spring.configs to include it?
+10:58 < sm`> good idea
