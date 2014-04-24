@@ -90,3 +90,4 @@
 10:56 < topolik> don't forget to remove the declarations from web.xml
 10:57 < sm`> tried em both
 10:57 < sm`> should i rebuild the service
+10:58 < topolik> hmm, can you try to move WEB-INF/applicationContext.xml to the src dir so that it's on classpath?
