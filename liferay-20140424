@@ -15,3 +15,4 @@
 10:12 < sm`> and deployed it
 10:12 < bijoo_> sm`: okay, have you tried it while login there? Try logging in as the Admin and try.
 10:12 < sm`> i can see the service its there, but when i try to make a call to it, i get the exception
+10:13 < sm`> bijoo, i did, im logged in as admin
