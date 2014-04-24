@@ -35,3 +35,4 @@
 10:20 < topolik> that's ok
 10:21 < topolik> the problem with UserImpl seems to be related to session serialization
 10:22 < topolik> com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet
+10:22 < topolik> This is a problem in your spring definition
