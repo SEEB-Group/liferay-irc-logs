@@ -54,3 +54,4 @@
 10:31 < topolik> sm`: yup, it's possible that your spring declaration collides with service builder spring declarations
 10:31 < bijoo_> sm`: right that way it abstracts little details; you may want to try it that way to check.
 10:32 < sm`> topolik, but i dont see ext-spring.xml in the WEB-INF dir
+10:33 < topolik> service builder should generate it into WEB-INF/src/META-INF/ext-spring.xml
