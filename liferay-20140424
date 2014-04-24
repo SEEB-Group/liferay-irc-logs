@@ -74,3 +74,4 @@
 10:42 < sm`> honest*
 10:45 < bijoo_> sm`: so own spring+hibernate for all the things? so just using SB for the JSON?
 10:45 < bijoo_> so no local SB persistence then? if so need to set 'local-service="false"' in service.xml
+10:46 < bijoo_> sm`: then maybe it'lll behave with those chopped off
