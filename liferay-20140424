@@ -88,3 +88,4 @@
 10:52 < sm`> btw i dont see ext-spring.xml in META-INF, only: base-spring.xml, cluster-spring.xml, dynamic-data-source-spring.xml, hibernate-spring.xml, portlet-hbm.xml, portlet-model-hintes.xml, portlet-orm.xml, portlet-sring.xml, shard-data-source-spring.xml
 10:53 < bijoo_> sm`: I think you have to create that if need.
 10:56 < topolik> don't forget to remove the declarations from web.xml
+10:57 < sm`> tried em both
