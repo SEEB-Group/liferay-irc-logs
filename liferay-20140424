@@ -86,3 +86,4 @@
 10:48 < bijoo_> sm`: yea so agree with topolik on beans; likely a wiring issue here
 10:50 < sm`> no luck with changing spring.configs=
 10:52 < sm`> btw i dont see ext-spring.xml in META-INF, only: base-spring.xml, cluster-spring.xml, dynamic-data-source-spring.xml, hibernate-spring.xml, portlet-hbm.xml, portlet-model-hintes.xml, portlet-orm.xml, portlet-sring.xml, shard-data-source-spring.xml
+10:53 < bijoo_> sm`: I think you have to create that if need.
