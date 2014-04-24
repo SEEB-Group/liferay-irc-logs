@@ -42,3 +42,4 @@
 10:25 < sm`> the service pkg is under that one
 10:27 < topolik> hmm
 10:27 < bijoo_> sm`: another approach is more simpler: Liferay.Service.*.*.method
+10:27 < topolik> there could 2 ways, don't know which would work :)
