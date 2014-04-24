@@ -103,3 +103,4 @@
 10:59 < topolik> exactly :D
 10:59 < topolik> and it would also help to check the generated web.xml in the tomcat/webapps/your-portlet/WEB-INF
 11:00 < topolik> to see that there is only liferay PortletContextListener or PluginContextListener or what's used in 6.1
+11:00 < bijoo_> sm`: may also want to check these properties http://pastebin.com/71iRAy7Z
