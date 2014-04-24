@@ -89,3 +89,4 @@
 10:53 < bijoo_> sm`: I think you have to create that if need.
 10:56 < topolik> don't forget to remove the declarations from web.xml
 10:57 < sm`> tried em both
+10:57 < sm`> should i rebuild the service
