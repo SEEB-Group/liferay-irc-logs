@@ -91,3 +91,4 @@
 10:57 < sm`> tried em both
 10:57 < sm`> should i rebuild the service
 10:58 < topolik> hmm, can you try to move WEB-INF/applicationContext.xml to the src dir so that it's on classpath?
+10:58 < topolik> e.g. move it into src/META-INF so that it's together with the other configs
