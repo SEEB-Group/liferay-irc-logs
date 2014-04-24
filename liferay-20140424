@@ -82,3 +82,4 @@
 10:47 < bijoo_> sm`: and you said you went to 'http://localhost:8080/[plugin-context]/api/jsonws' and saw the services listed?
 10:47 < sm`> yes
 10:47 < sm`> i get the exception when i try to run it
+10:48 < bijoo_> sm`: oh I see what you mean here; okay.
