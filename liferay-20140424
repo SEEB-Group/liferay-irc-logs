@@ -53,3 +53,4 @@
 10:30 < sm`> i can see the method and the webservice there, yies
 10:31 < topolik> sm`: yup, it's possible that your spring declaration collides with service builder spring declarations
 10:31 < bijoo_> sm`: right that way it abstracts little details; you may want to try it that way to check.
+10:32 < sm`> topolik, but i dont see ext-spring.xml in the WEB-INF dir
