@@ -10,3 +10,4 @@
 10:11 < sm`> edited service.xml, built the service
 10:12 < sm`> added @JSONWebService on the ServiceImpl class
 10:12 < sm`> edited web.xml like the documentation says
+10:12 < sm`> rebuilt the service again
