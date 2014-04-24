@@ -1,3 +1,4 @@
 --- Log opened Thu Apr 24 00:00:44 2014
 10:07 < sm`> Hello
 10:07 < sm`> anyone around to help me out with exposing custom json web serivice from existing liferay plugin?
+10:10 < bijoo_> sm`: have you added  @WebService here?
