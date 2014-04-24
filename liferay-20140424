@@ -64,3 +64,4 @@
 10:37 < sm`> wow, do i really need all this .xml configurations in the META-INF folder?
 10:38 < sm`> :D
 10:38 < topolik> hmm, that's a good point!
+10:39 < topolik> I'm not sure how exactly JSONWS works but as long as you don't use DB, transactions, *Util classes and use only the service for JSONWS, you could delete most of the stuff
