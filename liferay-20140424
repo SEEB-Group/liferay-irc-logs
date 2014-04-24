@@ -99,3 +99,4 @@
 10:59 < sm`> should i rebuild the service
 10:59 < topolik> hmm, i'm not sure
 10:59 < sm`> i assume no, cuz it generates new service.rpoperties
+10:59 < sm`> without my change
