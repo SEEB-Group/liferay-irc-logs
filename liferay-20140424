@@ -96,3 +96,4 @@
 10:58 < topolik> and then change the spring.configs to include it?
 10:58 < sm`> good idea
 10:58 < sm`> afte i change service.properties
+10:59 < sm`> should i rebuild the service
