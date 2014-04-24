@@ -66,3 +66,4 @@
 10:38 < topolik> hmm, that's a good point!
 10:39 < topolik> I'm not sure how exactly JSONWS works but as long as you don't use DB, transactions, *Util classes and use only the service for JSONWS, you could delete most of the stuff
 10:40 < topolik> but I'd not touch it until it's working :)
+10:40 < bijoo_> sm`: great question; I tread that as black magic. It'd be nice to have better docs on that.
