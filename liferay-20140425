@@ -130,3 +130,4 @@
 08:20 < GevatterJan> 	<servlet>
 08:20 < GevatterJan> 		<servlet-name>JSON Web Service Servlet</servlet-name>
 08:21 < GevatterJan> 		<servlet-class>com.liferay.portal.kernel.servlet.PortalClassLoaderServlet</servlet-class>
+08:21 < GevatterJan> 		<init-param>
