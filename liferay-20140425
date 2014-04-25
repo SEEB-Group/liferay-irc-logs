@@ -79,3 +79,4 @@
 07:12 < sm`> and im officially lost ;]
 07:55 < twen> Hello.. I'm discovering Liferay, as we will use it in the next month in prod
 07:56 < twen> I'm wondering: I created a private site. and added 2 public pages. Are these pages viewable to non members ? or should I put these page to private... in this private site ?
+08:00 < GevatterJan> Hey twen.  idea of Private and Publc scope is:
