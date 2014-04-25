@@ -14,3 +14,4 @@
 06:17 < sm`> i found some suggestions on the forum
 06:17 < sm`> to use <listener-class>com.liferay.portal.kernel.spring.context.PortletContextLoaderListener</listener-class>
 06:18 < topolik> the PortletContextLoaderListener should be added during auto deploy
+06:18 < sm`> but when i do this, my portlet is not working ie my appcontext is not loaded corectly
