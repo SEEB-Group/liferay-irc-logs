@@ -59,3 +59,4 @@
 06:44 < topolik> ok, at least we know it's not related :)
 06:45 < sm`> haha
 06:45 < sm`> true
+06:47 < topolik> can you please share content of the service.properties, all the spring config files and deployed web.xml (the rewritten one)?
