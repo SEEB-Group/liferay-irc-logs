@@ -13,3 +13,4 @@
 06:16 < sm`> i have <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> in my web.xml
 06:17 < sm`> i found some suggestions on the forum
 06:17 < sm`> to use <listener-class>com.liferay.portal.kernel.spring.context.PortletContextLoaderListener</listener-class>
+06:18 < topolik> the PortletContextLoaderListener should be added during auto deploy
