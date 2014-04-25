@@ -335,3 +335,4 @@
 19:00 < bijoo_> Naenyn: to tie it together, here's one way: first define an Authentictar ( http://www.liferay.com/community/wiki/-/wiki/Main/Liferay+Authentation+Process )
 19:01 < bijoo_> Naenyn: Make CASUserThreadLocal class; add to it a field for user id. In the custom filter, set the value. In the Authenticator, retrieve it; and finally reset value once done.
 19:04 < Naenyn> hmm.. that is definitely going to take some chewing. =]
+19:18 < Naenyn> bijoo_: would you happen to know where liferay's CAS support fits in that auth process diagram?
