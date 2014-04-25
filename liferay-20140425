@@ -338,3 +338,4 @@
 19:18 < Naenyn> bijoo_: would you happen to know where liferay's CAS support fits in that auth process diagram?
 19:21 < Naenyn> hm.. and at what point is the user known in that flow?
 19:21 < Naenyn> seems like it'd be back around the LoginAction/LoginUtil
+19:28 < Naenyn> I ask because we won't know who the user is until the little post-cas saml hook does its job.. at that point I'd either need to look up the user by the id returned by the saml call or set the id to threadlocal as you said or the session or something.. and then get the user at the appropriate point in that auth flow. basically what I'm trying to say is .. the normal auth flow won't work right for CAS logins.. so if there are user lookups before the
