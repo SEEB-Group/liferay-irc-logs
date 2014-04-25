@@ -228,3 +228,4 @@
 08:50 < GevatterJan> BeanLocator has not been set for servlet context StoreFinder-portlet
 08:50 < GevatterJan> These are always a p... i. t.. a..
 08:51 < sm`> http://pastebin.com/m4zDqaA5
+08:51 < sm`> web.xml, custom spring conf i need for the protlets, service.properties
