@@ -93,3 +93,4 @@
 08:10 < sm`> topolik, yes and i cant understand why
 08:11 < sm`> because
 08:11 < sm`> public class PortletContextLoaderListener extends org.springframework.web.context.ContextLoaderListener
+08:11 < sm`> http://docs.liferay.com/portal/6.1/javadocs-all/com/liferay/portal/spring/context/PortletContextLoaderListener.html
