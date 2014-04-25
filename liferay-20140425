@@ -213,3 +213,4 @@
 08:47 < sm`> [13:12:10] <sm`> http://pastebin.com/z4BzkGiL
 08:47 < jardineworks> wait... when you say everything works fine, does that mean that you are able to call the service and get a result, but the calling process also dumps an exception?
 08:48 < jardineworks> sm`, both have been removed (apparently)
+08:48 < GevatterJan> This paste has been removed!
