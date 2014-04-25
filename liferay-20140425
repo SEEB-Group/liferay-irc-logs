@@ -82,3 +82,4 @@
 08:00 < GevatterJan> Hey twen.  idea of Private and Publc scope is:
 08:00 < GevatterJan> Private is only accessible by members of the group.
 08:00 < GevatterJan> Public is available to everyone.
+08:01 < sm`> topolik, any idea how my portlets dont initialize with com.liferay.portal.kernel.spring.context.PortletContextLoaderListener
