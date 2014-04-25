@@ -96,3 +96,4 @@
 08:11 < sm`> http://docs.liferay.com/portal/6.1/javadocs-all/com/liferay/portal/spring/context/PortletContextLoaderListener.html
 08:11 < modd> e.g. you can give guests view permissions on a page of a private site but a non-registred user can't access this page because he's not a member of the site
 08:11 < modd> so private/pubic sites is only about member or not
+08:12 < modd> while pages will work with the other roles and permissions of liferay
