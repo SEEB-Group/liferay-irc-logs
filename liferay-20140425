@@ -145,3 +145,4 @@
 08:21 < GevatterJan> 		<url-pattern>/api/secure/jsonws/*</url-pattern>
 08:21 < GevatterJan> 	</servlet-mapping>	
 08:21 < GevatterJan>   	<servlet-mapping>
+08:21 < GevatterJan>     	<servlet-name>ViewRendererServlet</servlet-name>
