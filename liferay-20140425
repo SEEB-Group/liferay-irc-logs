@@ -177,3 +177,4 @@
 08:32 < sm`>      </listener>
 08:32 < sm`>      <listener>
 08:32 < sm`>              <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+08:32 < sm`>      </listener>
