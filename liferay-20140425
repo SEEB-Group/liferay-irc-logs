@@ -51,3 +51,4 @@
 06:39 < sm`> ./tomcat-7.0.27.mac/work/Catalina/localhost/StoreFinder-portlet/SESSIONS.ser
 06:40 < sm`> let me remove that one
 06:40 < sm`> and start the tomcat again
+06:42 < sm`> that fixed the exceptions on statup
