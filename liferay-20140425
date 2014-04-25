@@ -278,3 +278,4 @@
 09:00 < sm`> Do i really need all those classes and all those spring xmls ?
 09:01 < sm`> i assume no ;]
 09:01 < GevatterJan> The problem is something different I think. AFAIK it is not possible to integrate the Liferay Core Services into your POrtlet Context.
+09:01 < GevatterJan> I think this has something to so with classloader issues...
