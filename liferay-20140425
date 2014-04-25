@@ -154,3 +154,4 @@
 08:22 < GevatterJan>     	<load-on-startup>1</load-on-startup>
 08:22 < GevatterJan>   	</servlet>
 08:22 < GevatterJan>   	<servlet-mapping>
+08:22 < GevatterJan> 	    <servlet-name>webservices</servlet-name>
