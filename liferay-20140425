@@ -60,3 +60,4 @@
 06:45 < sm`> haha
 06:45 < sm`> true
 06:47 < topolik> can you please share content of the service.properties, all the spring config files and deployed web.xml (the rewritten one)?
+06:49 < sm`> web.xml, the one after deployment or my latest?
