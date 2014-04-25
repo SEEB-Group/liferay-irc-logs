@@ -221,3 +221,5 @@
 08:49 < GevatterJan> :p
 08:49 < sm`> but it dumps
 08:49 < sm`> {
+08:49 < sm`>   "exception": "com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet"
+08:49 < sm`> }
