@@ -40,3 +40,4 @@
 06:27 < sm``> yes
 06:27 < sm``> {"exception":"com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet"}
 06:28 < sm``> and also INFO   | jvm 1    | 2014/04/25 11:43:26 | SEVERE: ClassNotFoundException while loading persisted sessions: java.lang.ClassNotFoundException: com.liferay.portal.model.impl.UserImpl
+06:28 < sm``> on restart
