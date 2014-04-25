@@ -297,3 +297,4 @@
 13:44  * Naenyn is looking at the sample filter source.
 13:53 < Naenyn> interesting, it looks like the liferay cas support itself is a filter.
 14:00 < bijoo_> Naenyn: indeed, you can create a hook here; there are several options to look at.
+14:00 < bijoo_> Naenyn: one would be to create "after filter"
