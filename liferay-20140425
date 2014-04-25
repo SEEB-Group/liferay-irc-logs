@@ -103,3 +103,5 @@
 08:19 < topolik> ah, no, it's servlet context init parameter
 08:20 < topolik> and, uhm - https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/com/liferay/portal/spring/context/PortalApplicationContext.java
 08:20 < GevatterJan> <context-param>
+08:20 < GevatterJan> 		<param-name>contextConfigLocation</param-name>
+08:20 < GevatterJan> 		<param-value>classpath*:/META-INF/applicationContext.xml</param-value>
