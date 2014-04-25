@@ -316,3 +316,4 @@
 16:13 < Naenyn> I've got a little test hook in place but I can't tell for sure that it is firing after the CAS calls.
 16:14 < bijoo_> Naenyn: have you setup Liferay debugging there? http://www.liferay.com/web/raymond.auge/blog/-/blogs/debugging-liferay-in-eclipse
 16:14 < bijoo_> Naenyn: you can see exactly what's happening.
+16:15 < bijoo_> Naenyn: e.g. set breakpoints and step through the code.
