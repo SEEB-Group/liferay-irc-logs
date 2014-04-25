@@ -307,3 +307,4 @@
 14:29 < Naenyn> bijoo_: Hmm... not completely sure but I think that bug might not apply to me? I don't think I'd need multiple mappings.. I just need to make one samlValidate call on login after the CAS piece. No other calls (login or logout)...
 15:07 < bijoo_> Naenyn: sorry is taking longer than I thought. I'll be back in couple minutes here.
 15:08 < Naenyn> np =]
+16:09 < bijoo_> Naenyn: with regard to your second question there: com.liferay.portal.security.auth.CASAutoLogin
