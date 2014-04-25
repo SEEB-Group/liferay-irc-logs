@@ -305,3 +305,4 @@
 14:13 < bijoo_> Naenyn: 2) note that there is a bug at the moment   https://issues.liferay.com/browse/LPS-46155
 14:13 < bijoo_> Naenyn: something's come up; I'll get back 10 minutes.
 14:29 < Naenyn> bijoo_: Hmm... not completely sure but I think that bug might not apply to me? I don't think I'd need multiple mappings.. I just need to make one samlValidate call on login after the CAS piece. No other calls (login or logout)...
+15:07 < bijoo_> Naenyn: sorry is taking longer than I thought. I'll be back in couple minutes here.
