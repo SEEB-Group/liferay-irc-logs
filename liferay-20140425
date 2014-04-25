@@ -135,3 +135,4 @@
 08:21 < GevatterJan> 		<param-value>com.liferay.portal.servlet.JSONServlet</param-value>
 08:21 < GevatterJan> 		</init-param>
 08:21 < GevatterJan> 		<load-on-startup>0</load-on-startup>
+08:21 < GevatterJan> 	</servlet>
