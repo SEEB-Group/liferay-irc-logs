@@ -299,3 +299,4 @@
 14:00 < bijoo_> Naenyn: indeed, you can create a hook here; there are several options to look at.
 14:00 < bijoo_> Naenyn: one would be to create "after filter"
 14:01 < bijoo_> Naenyn: other is to build on the existing; and replace the OOB with custom.
+14:07 < Naenyn> bijoo_: I think I'd want to do my custom stuff after the CAS filter .. so, two questions. If I made an "after filter" .. how would I indicate it is supposed to happen after CASFilter.java? I see that filters can be configured to match URL patterns or servlet names..
