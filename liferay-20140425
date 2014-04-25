@@ -6,3 +6,4 @@
 06:14 < sm`> http://www.liferay.com/community/forums/-/message_boards/message/36741036
 06:14 < sm`> i got stuck with using ServiceBuilder cuz the generated stuff (spring conf topolik suggested) is colliding with my custom
 06:14 < sm`> spring configuration
+06:15 < sm`> my spring+hibernate configuratioN*
