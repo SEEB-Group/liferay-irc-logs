@@ -98,3 +98,4 @@
 08:11 < modd> so private/pubic sites is only about member or not
 08:12 < modd> while pages will work with the other roles and permissions of liferay
 08:17 < topolik> sm`: ok, try to use PortletContextLoaderListener instead of Spring's ContextLoaderListener. What exception do you get?
+08:18 < topolik> looking at https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-impl/src/com/liferay/portal/spring/context/PortletContextLoaderListener.java, it initializes the Spring context using the ContextLoaderListener + adds other things, like the BeanLocator we need
