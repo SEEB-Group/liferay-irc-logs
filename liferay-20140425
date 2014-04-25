@@ -324,3 +324,4 @@
 16:15 < Naenyn>         <url-pattern>/c/portal/login</url-pattern>
 16:15 < Naenyn>         <dispatcher>REQUEST</dispatcher>
 16:15 < Naenyn>         <dispatcher>FORWARD</dispatcher>
+16:15 < Naenyn>     </servlet-filter-mapping>
