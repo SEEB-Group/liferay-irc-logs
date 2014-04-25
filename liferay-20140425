@@ -32,3 +32,4 @@
 06:22 < topolik> ok
 06:22 < sm`> but there is still some other problem
 06:23 < sm`> thats why i thought that maybe i should go and do everything manually
+06:23 < sm`> create my own Service and ServiceImpl @JSONWebService classes
