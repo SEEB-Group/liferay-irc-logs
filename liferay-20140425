@@ -50,3 +50,4 @@
 06:39 < sm`> find . -name 'SESSIONS.ser'
 06:39 < sm`> ./tomcat-7.0.27.mac/work/Catalina/localhost/StoreFinder-portlet/SESSIONS.ser
 06:40 < sm`> let me remove that one
+06:40 < sm`> and start the tomcat again
