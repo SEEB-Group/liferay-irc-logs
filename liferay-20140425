@@ -72,3 +72,4 @@
 07:04 < sm`> let me try that and then paste the deployed web.xml
 07:09 < sm`> how the @JSONWebService
 07:09 < sm`> is not scanned
+07:10 < sm`> the webserivces are not listed on /StoreFinder-portlet/api/jsonws
