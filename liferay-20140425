@@ -108,3 +108,4 @@
 08:20 < sm`> topolik, when i use PortletContextLoaderListener my portlets doesnt initialize
 08:20 < GevatterJan> 	</context-param>
 08:20 < sm`> nothing workzz
+08:20 < GevatterJan> 	<listener>
