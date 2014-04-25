@@ -202,3 +202,4 @@
 08:46 < sm`> created service.xml
 08:46 < jardineworks> sm`, is there a pastebin stacktrace you still have handy?
 08:46 < sm`> added method in ServiceImmpl
+08:46 < sm`> changed web.xml as the official documentation suggests
