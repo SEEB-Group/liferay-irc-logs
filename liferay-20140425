@@ -310,3 +310,4 @@
 16:09 < bijoo_> Naenyn: with regard to your second question there: com.liferay.portal.security.auth.CASAutoLogin
 16:09 < bijoo_> Naenyn: you can use that to identify it
 16:09 < bijoo_> Naenyn: you can create a ThreadLocal util
+16:10 < bijoo_> Naenyn: that will store the username of user; or whatever else about it you need.
