@@ -150,3 +150,4 @@
 08:21 < GevatterJan>   	</servlet-mapping>
 08:21 < GevatterJan>   	<servlet>
 08:21 < GevatterJan> 	    <servlet-name>webservices</servlet-name>
+08:21 < GevatterJan> 	    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
