@@ -152,3 +152,4 @@
 08:21 < GevatterJan> 	    <servlet-name>webservices</servlet-name>
 08:21 < GevatterJan> 	    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 08:22 < GevatterJan>     	<load-on-startup>1</load-on-startup>
+08:22 < GevatterJan>   	</servlet>
