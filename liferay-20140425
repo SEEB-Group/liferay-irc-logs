@@ -11,3 +11,4 @@
 06:16 < sm`> no just those 2
 06:16 < sm`> however i noticed another thing
 06:16 < sm`> i have <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class> in my web.xml
+06:17 < sm`> i found some suggestions on the forum
