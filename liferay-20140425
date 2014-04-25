@@ -272,3 +272,4 @@
 08:59 < GevatterJan> 2So in my Controller which are instantiated by Spring, I cannot doe something like this:
 08:59 < GevatterJan> @Autowired
 08:59 < GevatterJan> UserService userService;
+08:59 < sm`> is there any way i can get details what's happening behind the 'Built Service' process
