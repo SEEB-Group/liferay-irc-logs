@@ -133,3 +133,4 @@
 08:21 < GevatterJan> 		<init-param>
 08:21 < GevatterJan> 		<param-name>servlet-class</param-name>
 08:21 < GevatterJan> 		<param-value>com.liferay.portal.servlet.JSONServlet</param-value>
+08:21 < GevatterJan> 		</init-param>
