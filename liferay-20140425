@@ -34,3 +34,4 @@
 06:23 < sm`> thats why i thought that maybe i should go and do everything manually
 06:23 < sm`> create my own Service and ServiceImpl @JSONWebService classes
 06:25 < topolik> uhm, it should work OOTB
+06:26 < topolik> and you still get the same exception - that bean locator is not set?
