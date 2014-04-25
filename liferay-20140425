@@ -26,3 +26,4 @@
 06:21 < sm`> but the jsonws still throws the same exception
 06:21 < topolik> and you kept the ContextLoaderListener in web.xml?
 06:22 < sm`> nope removed it
+06:22 < topolik> ok
