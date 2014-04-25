@@ -21,3 +21,4 @@
 06:20 < topolik> so I guess there is a conflict in the initialization
 06:21 < topolik> (there can be only one root spring context)
 06:21 < sm`> i moved my spring conf in ext-spring.xml
+06:21 < sm`> and it loads fine from there too
