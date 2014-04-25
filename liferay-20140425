@@ -46,3 +46,4 @@
 06:31 < topolik> yeah, SESSIONS.ser - https://tomcat.apache.org/tomcat-7.0-doc/config/manager.html
 06:31 < topolik> is it possible for you to delete the file?
 06:31 < sm`> yes
+06:31 < sm`> at least on the developent server
