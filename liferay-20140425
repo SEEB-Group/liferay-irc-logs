@@ -36,3 +36,4 @@
 06:25 < topolik> uhm, it should work OOTB
 06:26 < topolik> and you still get the same exception - that bean locator is not set?
 06:27 < topolik> because now it should be set when ServiceBuilder is initialized (at least with our beans)
+06:27 < topolik> *our = your :D
