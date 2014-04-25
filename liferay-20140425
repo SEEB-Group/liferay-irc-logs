@@ -270,3 +270,4 @@
 08:58 < GevatterJan> Which is quite a pain in the a.
 08:58 < GevatterJan> I havent figured out a way to integrate the Liferay Spring Beans into my Portlet Context.
 08:59 < GevatterJan> 2So in my Controller which are instantiated by Spring, I cannot doe something like this:
+08:59 < GevatterJan> @Autowired
