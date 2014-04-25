@@ -273,3 +273,4 @@
 08:59 < GevatterJan> @Autowired
 08:59 < GevatterJan> UserService userService;
 08:59 < sm`> is there any way i can get details what's happening behind the 'Built Service' process
+08:59 < sm`> so i can myabe figure out a way how to create @JSONWebservice manually
