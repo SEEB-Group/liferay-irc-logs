@@ -239,3 +239,4 @@
 08:54 < GevatterJan> As a Workaround you could just do a custom Servlet which will server as a Webservice.
 08:54 < GevatterJan> As a Workaround you could just do a custom Servlet which will serve as a Webservice.
 08:54 < sm`> sure i can do that
+08:55 < sm`> create my own restful spring api
