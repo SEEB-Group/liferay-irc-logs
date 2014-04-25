@@ -237,3 +237,4 @@
 08:54 < GevatterJan> To be honest I have never ever coded with hibernate directly.
 08:54 < sm`> but couldnt find documentation on it
 08:54 < GevatterJan> As a Workaround you could just do a custom Servlet which will server as a Webservice.
+08:54 < GevatterJan> As a Workaround you could just do a custom Servlet which will serve as a Webservice.
