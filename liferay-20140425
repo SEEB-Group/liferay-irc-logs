@@ -315,3 +315,4 @@
 16:13 < Naenyn> so, when my saml hook fires, I'm assuming the CAS piece is already done. I need to grab the service ticket, make a samlValidate call with that ticket, and get the user id from the response. Then I need to get the liferay user by that id and cause that user to be logged in to the system.
 16:13 < Naenyn> I've got a little test hook in place but I can't tell for sure that it is firing after the CAS calls.
 16:14 < bijoo_> Naenyn: have you setup Liferay debugging there? http://www.liferay.com/web/raymond.auge/blog/-/blogs/debugging-liferay-in-eclipse
+16:14 < bijoo_> Naenyn: you can see exactly what's happening.
