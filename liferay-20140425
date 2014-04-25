@@ -43,3 +43,4 @@
 06:28 < sm``> on restart
 06:29 < topolik> hmm, ok, let's try to solve this one, just in case it has something in common
 06:30 < topolik> I think tomcat is saving existing sessions into some files somewhere so that they persist restarts
+06:31 < topolik> yeah, SESSIONS.ser - https://tomcat.apache.org/tomcat-7.0-doc/config/manager.html
