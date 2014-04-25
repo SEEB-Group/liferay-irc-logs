@@ -289,3 +289,4 @@
 11:55 < kmels> compare(Object o1,Object o2); but I get an exception at com.liferay.util.dao.orm.CustomSQL.replaceOrderBy(CustomSQL.java:716)
 12:31 < bijoo_> kmels: hey, can you post the code pastebin.com?
 12:34 < bijoo_> kmels: you know you can use the factory too? OrderByComparatorFactoryUtil.create(String tableName, Object ... columns)
+12:51 < blahah>  /join cwnn
