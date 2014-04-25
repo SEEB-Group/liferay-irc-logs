@@ -37,3 +37,5 @@
 06:26 < topolik> and you still get the same exception - that bean locator is not set?
 06:27 < topolik> because now it should be set when ServiceBuilder is initialized (at least with our beans)
 06:27 < topolik> *our = your :D
+06:27 < sm``> yes
+06:27 < sm``> {"exception":"com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet"}
