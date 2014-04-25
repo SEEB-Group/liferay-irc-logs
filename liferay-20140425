@@ -92,3 +92,4 @@
 08:10 < modd> the pages in these sites have own restrictions
 08:10 < sm`> topolik, yes and i cant understand why
 08:11 < sm`> because
+08:11 < sm`> public class PortletContextLoaderListener extends org.springframework.web.context.ContextLoaderListener
