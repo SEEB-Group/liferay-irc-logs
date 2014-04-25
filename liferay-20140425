@@ -302,3 +302,4 @@
 14:07 < Naenyn> bijoo_: I think I'd want to do my custom stuff after the CAS filter .. so, two questions. If I made an "after filter" .. how would I indicate it is supposed to happen after CASFilter.java? I see that filters can be configured to match URL patterns or servlet names..
 14:09 < Naenyn> bijoo_: and second question: once I make the samlValidate call and get my user's id.. what would need to happen in order for Liferay to establish the user's session based on this? Just getting the user by user id and .. doing what with it?
 14:11 < bijoo_> Naenyn: so two points if you're gonna take this route: 1) after-filter is defined in the hook (see for example https://github.com/liferay/liferay-portal/blob/master/definitions/liferay-hook_6_2_0.dtd#L194 )
+14:13 < bijoo_> Naenyn: 2) note that there is a bug at the moment   https://issues.liferay.com/browse/LPS-46155
