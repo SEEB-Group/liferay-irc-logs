@@ -294,3 +294,5 @@
 13:36 < Naenyn> Does anyone happen to know what I'd need to hook in to in order to make a custom SAML call after a CAS response without modifying the behavior of the normal (local) login portlet? Basically, we've got got the CAS portion of our 3rd party auth'n integration working fine, but need to be able to make one samlValidate call to get the user id before the user can be logged in successfully to Liferay.
 13:42 < bijoo_> Naenyn: Create a new filter run after CAS?
 13:43 < Naenyn> bijoo_: that sounds reasonable. never made a LR filter before. I'm also wondering if I'd have to handle establishing the user's session myself..
+13:44  * Naenyn is looking at the sample filter source.
+13:53 < Naenyn> interesting, it looks like the liferay cas support itself is a filter.
