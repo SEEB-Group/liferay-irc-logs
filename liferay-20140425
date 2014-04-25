@@ -122,3 +122,4 @@
 08:20 < GevatterJan> 		<param-name>portalContextConfigLocation</param-name>
 08:20 < GevatterJan> 		<param-value>/WEB-INF/context/common.xml</param-value>
 08:20 < GevatterJan>   </context-param>
+08:20 < GevatterJan>   	<servlet>
