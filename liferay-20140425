@@ -333,3 +333,4 @@
 18:20 < Naenyn> bijoo_: I'm back and working on my little test filter. Any thoughts on the user session creation thing?
 18:58 < bijoo_> Naenyn: a couple of thoughts to chew on here: 1) take a look at AutLogin classes; 2)  take a look at the property here: "auth.pipeline.pre" (note you can also set this via hook) 3) look at ThreadLOcal and how you can use. https://www.liferay.com/web/shuyang.zhou/blog/-/blogs/master-your-threadlocals  these let you bind data to single thread; great for setting stuff to getting later.  4)  In the custom filter, set ThreadLocal. In the Aut
 19:00 < bijoo_> Naenyn: to tie it together, here's one way: first define an Authentictar ( http://www.liferay.com/community/wiki/-/wiki/Main/Liferay+Authentation+Process )
+19:01 < bijoo_> Naenyn: Make CASUserThreadLocal class; add to it a field for user id. In the custom filter, set the value. In the Authenticator, retrieve it; and finally reset value once done.
