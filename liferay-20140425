@@ -158,3 +158,4 @@
 08:22 < GevatterJan>     	<url-pattern>/service/*</url-pattern>
 08:22 < GevatterJan>   	</servlet-mapping>
 08:22 < GevatterJan> I do add all these things to get it working properly...
+08:22 < topolik> oh, great!
