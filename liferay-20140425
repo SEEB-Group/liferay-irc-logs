@@ -84,3 +84,4 @@
 08:00 < GevatterJan> Public is available to everyone.
 08:01 < sm`> topolik, any idea how my portlets dont initialize with com.liferay.portal.kernel.spring.context.PortletContextLoaderListener
 08:01 < GevatterJan> If you want to change that behavior you modify the Permissions on that paes
+08:01 < sm`> and they work fine with org.springframework.web.context.ContextLoaderListener
