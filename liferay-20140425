@@ -195,3 +195,4 @@
 08:45 < sm`> and everything
 08:45 < jardineworks> sm`, I thought that only required enabling remote as true in the service.xml file?
 08:45 < sm`> but the method throws execption
+08:45 < sm`> i did that....
