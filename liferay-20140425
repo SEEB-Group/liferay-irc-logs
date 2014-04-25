@@ -68,3 +68,4 @@
 06:55 < modd> will journalarticlelocalserviceutil.getarticlebyresourceprimkey always return the list sorted by version desc? I can't find the service.xml for this service
 06:57 < topolik> sm`: I see you still have org.springframework.web.context.ContextLoaderListener in the web.xml
 06:57 < topolik> and yes, I meant the one inside tomcat, after deployment
+07:02 < sm`> yes i do... shall i remove it?
