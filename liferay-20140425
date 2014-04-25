@@ -260,3 +260,4 @@
 08:57 < sm`> ill go with the spring restful
 08:57 < sm`> api
 08:57 < sm`> if i dont solve this
+08:57 < GevatterJan> Ok. Here is the Problem. JSONWebService is from Liferay and will therefor only work with Liferay Services.
