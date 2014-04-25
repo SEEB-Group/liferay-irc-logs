@@ -91,3 +91,4 @@
 08:10 < topolik> sm`: good progress! so with ContextLoaderListener everything works fine, except calling the services. With PortletContextLoaderListener the portlet is not initialized
 08:10 < modd> the pages in these sites have own restrictions
 08:10 < sm`> topolik, yes and i cant understand why
+08:11 < sm`> because
