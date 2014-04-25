@@ -69,3 +69,4 @@
 06:57 < topolik> sm`: I see you still have org.springframework.web.context.ContextLoaderListener in the web.xml
 06:57 < topolik> and yes, I meant the one inside tomcat, after deployment
 07:02 < sm`> yes i do... shall i remove it?
+07:04 < sm`> let me try that and then paste the deployed web.xml
