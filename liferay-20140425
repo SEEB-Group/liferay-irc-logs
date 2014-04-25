@@ -75,3 +75,4 @@
 07:10 < sm`> the webserivces are not listed on /StoreFinder-portlet/api/jsonws
 07:10 < sm`> after i removed the ContextLoaderListener
 07:12 < sm`> and heres the deployed web.xml
+07:12 < sm`> http://pastebin.com/z4BzkGiL
