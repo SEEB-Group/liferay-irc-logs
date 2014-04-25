@@ -22,3 +22,4 @@
 06:21 < topolik> (there can be only one root spring context)
 06:21 < sm`> i moved my spring conf in ext-spring.xml
 06:21 < sm`> and it loads fine from there too
+06:21 < sm`> the portlet is working fine
