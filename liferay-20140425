@@ -286,3 +286,4 @@
 10:28 < sm`> tnx everyone for the help
 10:29 < sm`> much appreciated
 11:54 < kmels> hi, anyone here? I'm trying to use an OrderByComparator by defining compare()
+11:55 < kmels> compare(Object o1,Object o2); but I get an exception at com.liferay.util.dao.orm.CustomSQL.replaceOrderBy(CustomSQL.java:716)
