@@ -229,3 +229,4 @@
 08:50 < GevatterJan> These are always a p... i. t.. a..
 08:51 < sm`> http://pastebin.com/m4zDqaA5
 08:51 < sm`> web.xml, custom spring conf i need for the protlets, service.properties
+08:53 < GevatterJan> I think your problem is, that you try to mix Custom Hibernate and Spring Service Builder.
