@@ -268,3 +268,4 @@
 08:58 < sm`> custom spring+hb with sb
 08:58 < sm`> :D
 08:58 < GevatterJan> Which is quite a pain in the a.
+08:58 < GevatterJan> I havent figured out a way to integrate the Liferay Spring Beans into my Portlet Context.
