@@ -19,3 +19,4 @@
 06:20 < topolik> but it inits the context from the service builder files
 06:20 < topolik> on the other hand, ContextLoaderListener should initialize from your app XML
 06:20 < topolik> so I guess there is a conflict in the initialization
+06:21 < topolik> (there can be only one root spring context)
