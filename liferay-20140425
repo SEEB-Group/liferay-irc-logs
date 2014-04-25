@@ -132,3 +132,4 @@
 08:21 < GevatterJan> 		<servlet-class>com.liferay.portal.kernel.servlet.PortalClassLoaderServlet</servlet-class>
 08:21 < GevatterJan> 		<init-param>
 08:21 < GevatterJan> 		<param-name>servlet-class</param-name>
+08:21 < GevatterJan> 		<param-value>com.liferay.portal.servlet.JSONServlet</param-value>
