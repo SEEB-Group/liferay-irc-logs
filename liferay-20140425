@@ -313,3 +313,4 @@
 16:10 < bijoo_> Naenyn: that will store the username of user; or whatever else about it you need.
 16:10 < bijoo_> Naenyn: well let me step back a second here
 16:13 < Naenyn> so, when my saml hook fires, I'm assuming the CAS piece is already done. I need to grab the service ticket, make a samlValidate call with that ticket, and get the user id from the response. Then I need to get the liferay user by that id and cause that user to be logged in to the system.
+16:13 < Naenyn> I've got a little test hook in place but I can't tell for sure that it is firing after the CAS calls.
