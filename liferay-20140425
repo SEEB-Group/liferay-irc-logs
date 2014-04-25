@@ -89,3 +89,4 @@
 08:07 < twen> in a private site, public pages are viewable to anyone. bt to see private pages, non members needs to be "subscribed" by the site admin. Right ?
 08:10 < modd> you don't need to be a member of a site to see the public site but you have to be a member to see the private site
 08:10 < topolik> sm`: good progress! so with ContextLoaderListener everything works fine, except calling the services. With PortletContextLoaderListener the portlet is not initialized
+08:10 < modd> the pages in these sites have own restrictions
