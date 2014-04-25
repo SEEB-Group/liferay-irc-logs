@@ -337,3 +337,4 @@
 19:04 < Naenyn> hmm.. that is definitely going to take some chewing. =]
 19:18 < Naenyn> bijoo_: would you happen to know where liferay's CAS support fits in that auth process diagram?
 19:21 < Naenyn> hm.. and at what point is the user known in that flow?
+19:21 < Naenyn> seems like it'd be back around the LoginAction/LoginUtil
