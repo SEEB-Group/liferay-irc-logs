@@ -86,3 +86,4 @@
 08:01 < GevatterJan> If you want to change that behavior you modify the Permissions on that paes
 08:01 < sm`> and they work fine with org.springframework.web.context.ContextLoaderListener
 08:06 < twen> GevatterJan Thanks for the input. I think I mixed a little bit 2 things :p
+08:07 < twen> in a private site, public pages are viewable to anyone. bt to see private pages, non members needs to be "subscribed" by the site admin. Right ?
