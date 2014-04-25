@@ -275,3 +275,4 @@
 08:59 < sm`> is there any way i can get details what's happening behind the 'Built Service' process
 08:59 < sm`> so i can myabe figure out a way how to create @JSONWebservice manually
 09:00 < GevatterJan> Well, a Ton of classes get generated whith about 5 Layers of abstraction, The Spring XMLs will get generated and so on.
+09:00 < sm`> Do i really need all those classes and all those spring xmls ?
