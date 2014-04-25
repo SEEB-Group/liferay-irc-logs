@@ -223,3 +223,4 @@
 08:49 < sm`> {
 08:49 < sm`>   "exception": "com.liferay.portal.kernel.bean.BeanLocatorException: BeanLocator has not been set for servlet context StoreFinder-portlet"
 08:49 < sm`> }
+08:50 < sm`> ill paste my latest try :D
