@@ -193,3 +193,4 @@
 08:45 < sm`> using ServiceBuilder (cuz i couldnt find way to do it manually)
 08:45 < sm`> and now... the @jsonwebserive is being listed
 08:45 < sm`> and everything
+08:45 < jardineworks> sm`, I thought that only required enabling remote as true in the service.xml file?
