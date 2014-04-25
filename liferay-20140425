@@ -16,3 +16,4 @@
 06:18 < topolik> the PortletContextLoaderListener should be added during auto deploy
 06:18 < sm`> but when i do this, my portlet is not working ie my appcontext is not loaded corectly
 06:20 < topolik> PortletContextLoaderListener is responsible to init the spring context
+06:20 < topolik> but it inits the context from the service builder files
