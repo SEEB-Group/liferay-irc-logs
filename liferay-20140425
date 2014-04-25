@@ -320,3 +320,6 @@
 16:15 < Naenyn> Not yet.. I'll need to do that.
 16:15 < Naenyn>     <servlet-filter-mapping>
 16:15 < Naenyn>         <servlet-filter-name>SAML Filter</servlet-filter-name>
+16:15 < Naenyn>         <after-filter>CASFilter</after-filter>
+16:15 < Naenyn>         <url-pattern>/c/portal/login</url-pattern>
+16:15 < Naenyn>         <dispatcher>REQUEST</dispatcher>
