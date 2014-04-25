@@ -48,3 +48,4 @@
 06:31 < sm`> yes
 06:31 < sm`> at least on the developent server
 06:39 < sm`> find . -name 'SESSIONS.ser'
+06:39 < sm`> ./tomcat-7.0.27.mac/work/Catalina/localhost/StoreFinder-portlet/SESSIONS.ser
