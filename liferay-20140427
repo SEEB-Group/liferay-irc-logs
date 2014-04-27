@@ -11,3 +11,4 @@
 08:27 < bijoo_> Naenyn: - The Authentication pipeline is called -> any custom Authentictars are called  (if you don't want Liferay DB to be checked for pw, there is a property for that, check in portal.properties, something like "[skip liferay db check]") -> the custom authentictor is called and it should check the custom CASThreadLocal  attribute for username, if it's not empty it should get that to be the user logged in and then clear the attribute v
 08:27 < bijoo_> Naenyn: -  The filters are visited again to do post-request processing
 08:31 < bijoo_> mojo: have you compared with the Liferay source there?
+08:31 < mojo> you mean in documentslibrary?
