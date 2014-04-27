@@ -1,2 +1,3 @@
 --- Log opened Sun Apr 27 00:00:48 2014
 07:29 < mojo> bijoo there?
+07:39 < mojo> im adding documents with code you gave me. Now im adding categories with api and and attaching them to documents which i imported by api. Categories are shown in asset publisher for this documents, but if i choose by categoies navigation nothing is shown (with documents and media portlet it is working).
