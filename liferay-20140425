@@ -342,3 +342,4 @@
 19:28 < Naenyn> pre-auth things fire, they'll fail...
 19:40 < Naenyn> It feels to me like.. I need to override the behavior at the actual user lookup.. to use the id from the saml call if it is available .. else treat it as a normal, local login
 20:38 < Naenyn> It's annoying knowing what needs to happen but not knowing where to put it. heh. =]
+--- Log closed Sat Apr 26 00:00:47 2014
