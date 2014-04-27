@@ -4,3 +4,4 @@
 07:40 < mojo> this is how i add category -> AssetCategoryLocalServiceUtil.addCategory(userId, title, vocabularyId, serviceContext);
 07:41 < mojo> this is how i attach categorie to document -> DLAppHelperLocalServiceUtil.updateAsset(userId, entry, entry.getLatestFileVersion(), categoryIds, null, null);
 07:41 < mojo>                     AssetCategoryLocalServiceUtil.addAssetEntryAssetCategories(entry.getFileEntryId(), categoryIds);
+08:19 < bijoo_> Naenyn: http://pastebin.com/1qniarFv
