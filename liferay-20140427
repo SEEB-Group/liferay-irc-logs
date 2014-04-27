@@ -12,3 +12,4 @@
 08:27 < bijoo_> Naenyn: -  The filters are visited again to do post-request processing
 08:31 < bijoo_> mojo: have you compared with the Liferay source there?
 08:31 < mojo> you mean in documentslibrary?
+08:31 < bijoo_> mojo: I would just go through step by step here (e.g. setup the debugger, breakpoints) and see exactly what OOB does. Then replicate the same in your own code.
