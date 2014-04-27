@@ -20,3 +20,4 @@
 08:34 < mojo> dont know exactly what u mean
 08:35 < mojo> u mean debugging adding category in liferay portal?
 08:37 < bijoo_> mojo: right, so do it through OOB method.
+08:37 < bijoo_> So setup debugger and all breakpoints; then just add the category and see.
