@@ -15,3 +15,4 @@
 08:31 < bijoo_> mojo: I would just go through step by step here (e.g. setup the debugger, breakpoints) and see exactly what OOB does. Then replicate the same in your own code.
 08:31 < mojo> sry im to new
 08:32 < bijoo_> mojo: yes, have you setup debugger before?
+08:32 < bijoo_> mojo: once you do it, all your questions are solved.
