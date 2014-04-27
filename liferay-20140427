@@ -22,3 +22,4 @@
 08:37 < bijoo_> mojo: right, so do it through OOB method.
 08:37 < bijoo_> So setup debugger and all breakpoints; then just add the category and see.
 08:56 < mojo> so i have to create a hook of this portlet and debug there?
+09:08 < mojo> its fine found src of liferay
