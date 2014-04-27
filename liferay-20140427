@@ -6,3 +6,4 @@
 07:41 < mojo>                     AssetCategoryLocalServiceUtil.addAssetEntryAssetCategories(entry.getFileEntryId(), categoryIds);
 08:19 < bijoo_> Naenyn: http://pastebin.com/1qniarFv
 08:19 < bijoo_> Naenyn: it shows how they are related here.
+08:27 < bijoo_> Naenyn: - User clicks login -> enter credentials -> submit
