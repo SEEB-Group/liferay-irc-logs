@@ -7,3 +7,4 @@
 08:19 < bijoo_> Naenyn: http://pastebin.com/1qniarFv
 08:19 < bijoo_> Naenyn: it shows how they are related here.
 08:27 < bijoo_> Naenyn: - User clicks login -> enter credentials -> submit
+08:27 < bijoo_> Naenyn: - Invoker filter triggered-> filters intercept -> Custom CAS Filter intercepts -> verifies identity against CAS -> if successful, set the custom CASThreadLocal (which you'll need to create, see for example MessageValuesThreadLocal.java ) attribute for  username to the username; also be sure to add any needed cookies or whatever for SSO to work -> the rest of the filters are invoked
