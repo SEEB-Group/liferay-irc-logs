@@ -47,3 +47,4 @@
 09:31 < sm`> from my understanding and from everything i read about Spring REST this should be enough :D
 09:32 < sm`> however i can't axx the simple hello method
 09:32 < sm`> What am i missing here?
+09:33 < sm`> here's my web.xml, restful-servlet.xml and the controller class - http://pastebin.com/NS9YXh7V
