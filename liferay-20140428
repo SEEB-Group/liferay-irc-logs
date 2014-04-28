@@ -12,3 +12,4 @@
 06:30 < sm`> i dropped the option 1, to use @JSONWebService
 06:30 < sm`> i wanna swich and use Spring REST service instead
 06:30 < sm`> so i created a @Controller
+06:30 < sm`> with desired request mapping
