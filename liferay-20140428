@@ -7,3 +7,4 @@
 02:12 < rocknrol1_> in control panel, there is a view, where you can see the groups associated with a site. just dont seem to grasp whats going on there
 03:09 < twen> hello
 03:30 < Naenyn> bijoo_: Thanks again for all your help. I will follow up on your latest comments in the morning. I have a busy week ahead getting that working.. hopefully it won't take long. =D
+04:23 < twen> I'm digging into the DAM side of Liferay. I've created 3 different Metadata set. How can I "attach" these metadata sets to documents, knowing that not all documents will get the 3 sets, but 1, 2 or 3 ?
