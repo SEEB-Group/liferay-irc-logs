@@ -66,3 +66,5 @@
 11:24 < sm`> does this mean my controller is not working right
 11:24 < sm`> cuz i get 405 error when i try to run it
 11:24 < sm`> ?
+11:54 < sm`> and why does the guy from the liferay tutorial uses maven and my Lifera IDE doesnt have such option
+11:54 < sm`> https://github.com/vitorsilvauk/sample-springmvc-restful-portlet/blob/master/pom.xml
