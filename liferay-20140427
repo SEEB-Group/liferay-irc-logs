@@ -27,3 +27,4 @@
 19:07 < scribe> I've just done a test upgrade of our live data on our dev box and it seems like a few major problems happened.  e.g, our custom roles are present, but no users are assigned to these roles.
 21:59 < bijoo_> scribe: I recently did a test upgrade there; to see what kind of trouble I'd get in; and ran into some API changes. I didn't find much OOB issues; just the custom dev needed some work there.
 22:00 < bijoo_> scribe: also the theme needed lots of upade.
+22:00 < bijoo_> update*
