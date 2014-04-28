@@ -48,3 +48,4 @@
 09:32 < sm`> however i can't axx the simple hello method
 09:32 < sm`> What am i missing here?
 09:33 < sm`> here's my web.xml, restful-servlet.xml and the controller class - http://pastebin.com/NS9YXh7V
+09:34 < sm`> this is pretty much the same with http://www.liferay.com/web/vitor.silva/blog/-/blogs/using-restful-services-with-liferay
