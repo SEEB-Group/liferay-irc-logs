@@ -117,3 +117,4 @@
 14:35 < Naenyn> but the normal login flow would be CAS
 14:37 < Naenyn> the login portlet doesn't appear to honor the CAS settings.. it just ignores them and proceeds to use Liferay only for auth.
 14:38 < bijoo_> Naenyn: can you create accounts for them on CAS? e.g. create normal account on there; then on Liferay elevate them admins.
+14:39 < bijoo_> Naenyn: and you can code in Authenticator; to tell it to treat them differently.
