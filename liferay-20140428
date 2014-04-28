@@ -68,3 +68,4 @@
 11:24 < sm`> ?
 11:54 < sm`> and why does the guy from the liferay tutorial uses maven and my Lifera IDE doesnt have such option
 11:54 < sm`> https://github.com/vitorsilvauk/sample-springmvc-restful-portlet/blob/master/pom.xml
+11:54 < sm`> he has pom.xml with jackson dependencies?
