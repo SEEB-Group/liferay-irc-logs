@@ -39,3 +39,4 @@
 08:39 < twen> ok, I found out.. I guess :p
 08:39 < twen> I've recreated the structure, template and web content to the global site
 08:41 < twen> on the sub site, I add a new web content, and change the scope (in the config tab) from the site to global. go back to setup tab. Now the global webcontent is display :D
+08:41 < twen> so you are right... I should shared content to global
