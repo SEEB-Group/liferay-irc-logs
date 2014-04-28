@@ -53,3 +53,4 @@
 09:35 < sm`> i wanna add the REST service to existing portlet... and since liferay is using Spring i think i should do what the Srping REST tutorials suggest
 09:35 < sm`> so i did
 11:23 < sm`> I can see the urls being mapped on deployment
+11:24 < sm`> INFO: Initializing Spring FrameworkServlet 'restful'
