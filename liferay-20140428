@@ -10,3 +10,4 @@
 04:23 < twen> I'm digging into the DAM side of Liferay. I've created 3 different Metadata set. How can I "attach" these metadata sets to documents, knowing that not all documents will get the 3 sets, but 1, 2 or 3 ?
 06:30 < sm`> hello
 06:30 < sm`> i dropped the option 1, to use @JSONWebService
+06:30 < sm`> i wanna swich and use Spring REST service instead
