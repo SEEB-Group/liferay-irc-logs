@@ -121,3 +121,4 @@
 14:39 < bijoo_> e.g. check local db in those cases
 14:40 < Naenyn> bijoo_: Yes, we can create accounts on CAS. However, we need to be able to support admin logins even if CAS is offline.
 14:41 < Naenyn> So, the login portlet ignores CAS, correct?
+15:00 < bijoo_> Naenyn: correct, it knowns nothing about the CAS.
