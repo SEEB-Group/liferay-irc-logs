@@ -167,3 +167,4 @@
 17:49 < bijoo_> Naenyn: why again has to run after that one? I forget why I thought it did before.
 17:52 < Naenyn> Well, I need the entire CAS transaction to happen first
 17:53 < Naenyn> because I need the resulting ticket from the end of that transaction to make my samlValidate call
+17:54 < Naenyn> so, I can just check to see if there is a ticket in the url
