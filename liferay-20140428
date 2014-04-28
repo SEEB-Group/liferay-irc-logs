@@ -119,3 +119,4 @@
 14:38 < bijoo_> Naenyn: can you create accounts for them on CAS? e.g. create normal account on there; then on Liferay elevate them admins.
 14:39 < bijoo_> Naenyn: and you can code in Authenticator; to tell it to treat them differently.
 14:39 < bijoo_> e.g. check local db in those cases
+14:40 < Naenyn> bijoo_: Yes, we can create accounts on CAS. However, we need to be able to support admin logins even if CAS is offline.
