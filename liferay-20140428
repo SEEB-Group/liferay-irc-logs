@@ -71,3 +71,4 @@
 11:54 < sm`> he has pom.xml with jackson dependencies?
 11:57 < bijoo_> rocknrol1_: have you setup Liferay debugging there?
 11:58 < bijoo_> sm`: have you tried using Resource Phase for this? @ResourceMapping with JSON return?
+11:59 < sm`> ive tried all kinds of stuff i never get anything but 405 error
