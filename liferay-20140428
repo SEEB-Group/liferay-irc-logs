@@ -14,3 +14,4 @@
 06:30 < sm`> so i created a @Controller
 06:30 < sm`> with desired request mapping
 06:31 < sm`> what's next? I tried adding a servlet mapping in web.xml
+06:31 < sm`> but i still cant axx the webservice
