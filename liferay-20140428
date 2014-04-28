@@ -104,3 +104,4 @@
 13:34 < Naenyn> bijoo_: So, to follow up on what you said.. I think I'm still missing something. In my custom authenticator, I'll pull the user id out of threadlocal.. then go get the user by that id. But, what do I need to do with that user so the portal knows that that user is the one that just logged in?
 13:44 < Naenyn> Also, with respect to the authentication pipeline, what is the difference between the login portlet and hitting /c/portal/login directly?
 13:58 < Naenyn> Annd.. not sure how to get the ticket from the CAS filter into my custom filter. would have thought it'd be in a cookie. hrm.
+14:11 < sm`> fuck me
