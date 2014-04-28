@@ -136,3 +136,11 @@
 15:03 < sm`> i can do it now
 15:03 < sm`> if thats fine w u
 15:03 < bijoo_> sm`: I can spend 5 minutes at the  moment; if longer, we'll have to do tomorrow.
+15:43 -!- mode/#liferay [+o rotty3000] by ChanServ
+16:42 < Naenyn>     <servlet-filter-mapping>
+16:42 < Naenyn>         <servlet-filter-name>SAML Filter</servlet-filter-name>
+16:42 < Naenyn>         <after-filter>CASFilter</after-filter>
+16:42 < Naenyn>         <url-pattern>/c/portal/login</url-pattern>
+16:42 < Naenyn>         <dispatcher>REQUEST</dispatcher>
+16:42 < Naenyn>         <dispatcher>FORWARD</dispatcher>
+16:42 < Naenyn>     </servlet-filter-mapping>
