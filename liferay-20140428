@@ -149,3 +149,4 @@
 17:08 < Naenyn> bijoo_: Yeah, it fires on logout.. it also fires on login twice (once right before redirect to CAS and once coming back from CAS)
 17:08 < Naenyn> bijoo_: Makes me think something isn't quite right.
 17:12 < bijoo_> Naenyn: there should be a good reason why it does; I suggesting set breakpoint, debug, and see; go up the stack trace to the invoker; see what the path is and how it's testing; otherwise I'd be happy to screenshare there (to find out why it's calling on logout)
+17:22 < sm`> bijoo_, still no luck bro... nobody's answering on #spring or the forums (https://www.liferay.com/community/forums/-/message_boards/message/37259058)
