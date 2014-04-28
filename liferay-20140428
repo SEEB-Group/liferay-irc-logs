@@ -3,3 +3,4 @@
 02:07 < rocknrol1_> I am trying to get the user groups that have permission to access the current site
 02:08 < rocknrol1_> ie. the userGroupId that is in groups_usergroups
 02:08 < rocknrol1_> it seems impossible
+02:08 < rocknrol1_> I knwo the groupId, so how do I get the corresponding userGroupId from that table?
