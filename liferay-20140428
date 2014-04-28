@@ -100,3 +100,5 @@
 12:34 < rocknrol1_> thanks!
 12:34 < bijoo_> rocknrol1_: it is indispensable for a dev :)
 12:36 < rocknrol1_> cool! will set that up :)
+12:44 -!- mode/#liferay [+o rotty3000] by ChanServ
+13:34 < Naenyn> bijoo_: So, to follow up on what you said.. I think I'm still missing something. In my custom authenticator, I'll pull the user id out of threadlocal.. then go get the user by that id. But, what do I need to do with that user so the portal knows that that user is the one that just logged in?
