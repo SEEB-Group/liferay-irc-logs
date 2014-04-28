@@ -112,3 +112,4 @@
 14:28 < bijoo_> 1) the credentials are passed from the login portlet
 14:28 < bijoo_> 2) Check the CASAutLogin, you'll see it.
 14:29 < bijoo_> It returns an array of Strings here; which usually contain user/password;
+14:30 < bijoo_> Naenyn: you may want to set this property then : auth.pipeline.enable.liferay.check=false
