@@ -163,3 +163,4 @@
 17:47 < Naenyn> Hm, thought the bug was just related to if you had multiple mappings..
 17:48 < bijoo_> Naenyn: it's actually the filter that matters; so in this case the CASFilter has them; it has multiple filter mappings there.
 17:48 < bijoo_> Naenyn: in the source code, check the below file there:
+17:48 < bijoo_> liferay-web.xml
