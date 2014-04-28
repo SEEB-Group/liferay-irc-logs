@@ -147,3 +147,4 @@
 16:42 < Naenyn> bijoo_: ^ that look right to you? it seems to be firing on logout, too..
 17:04 < bijoo_> Naenyn: it looks good there; you tried debuggining it? It shouldn't fire on logout at all; e.g. /c/portal/logout
 17:08 < Naenyn> bijoo_: Yeah, it fires on logout.. it also fires on login twice (once right before redirect to CAS and once coming back from CAS)
+17:08 < Naenyn> bijoo_: Makes me think something isn't quite right.
