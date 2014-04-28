@@ -54,3 +54,7 @@
 09:35 < sm`> so i did
 11:23 < sm`> I can see the urls being mapped on deployment
 11:24 < sm`> INFO: Initializing Spring FrameworkServlet 'restful'
+11:24 < sm`> 15:22:41,952 INFO  [DispatcherServlet:320] FrameworkServlet 'restful': initialization started
+11:24 < sm`> 15:22:41,956 INFO  [XmlWebApplicationContext:500] Refreshing WebApplicationContext for namespace 'restful-servlet': startup date [Mon Apr 28 15:22:41 GMT 2014]; parent: Root WebApplicationContext
+11:24 < sm`> 15:22:41,958 INFO  [XmlBeanDefinitionReader:315] Loading XML bean definitions from ServletContext resource [/WEB-INF/restful-servlet.xml]
+11:24 < sm`> 15:22:42,031 INFO  [DefaultListableBeanFactory:581] Pre-instantiating singletons in --- SNIP ----
