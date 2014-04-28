@@ -165,3 +165,4 @@
 17:48 < bijoo_> Naenyn: in the source code, check the below file there:
 17:48 < bijoo_> liferay-web.xml
 17:49 < bijoo_> Naenyn: why again has to run after that one? I forget why I thought it did before.
+17:52 < Naenyn> Well, I need the entire CAS transaction to happen first
