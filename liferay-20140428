@@ -173,3 +173,4 @@
 18:13 < bijoo_> Naenyn: are you familiar with that or no? I can attach a patch to the ticket.
 18:15 < Naenyn> Only way I've ever patched liferay was via the official patches applied with the patching tool.
 18:18 < Naenyn> Hm.. the params are on the embedded tomcat request object buried within the RequestFacade.. but not available from the facade..
+18:43 < Naenyn> bijoo_: what would it take to override and implement my own CASFilter..? starting to think that might be better, but not sure how clean that'd be.
