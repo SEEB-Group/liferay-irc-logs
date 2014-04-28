@@ -159,3 +159,4 @@
 17:40 < Naenyn> bijoo_: Are you a Liferay employee or just an enthusiast? =]
 17:46 < Naenyn> it's like the filter is being called both pre- and post-CAS..
 17:46 < bijoo_> Naenyn: enthusiast, I'm not an employee.
+17:47 < bijoo_> Naenyn: that might be the bug I told you about.
