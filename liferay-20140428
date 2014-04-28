@@ -70,3 +70,4 @@
 11:54 < sm`> https://github.com/vitorsilvauk/sample-springmvc-restful-portlet/blob/master/pom.xml
 11:54 < sm`> he has pom.xml with jackson dependencies?
 11:57 < bijoo_> rocknrol1_: have you setup Liferay debugging there?
+11:58 < bijoo_> sm`: have you tried using Resource Phase for this? @ResourceMapping with JSON return?
