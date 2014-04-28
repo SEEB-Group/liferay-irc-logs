@@ -59,3 +59,4 @@
 11:24 < sm`> 15:22:41,958 INFO  [XmlBeanDefinitionReader:315] Loading XML bean definitions from ServletContext resource [/WEB-INF/restful-servlet.xml]
 11:24 < sm`> 15:22:42,031 INFO  [DefaultListableBeanFactory:581] Pre-instantiating singletons in --- SNIP ----
 11:24 < sm`> StoreFinderAPI - registered
+11:24 < sm`> 15:22:42,098 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello] onto handler 'storeFinderApi'
