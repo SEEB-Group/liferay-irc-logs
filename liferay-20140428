@@ -20,3 +20,4 @@
 07:49 < twen> I've created a web content from a structure and a template. Now I like to reuse it on a sub site... Should I "duplicate" this web content + structure + templte, or I can reuseit, but how ?
 08:02 < sm`> when you 'add web content' on a page select the site where you creted your web content 1st
 08:02 < sm`> browse the  results, find your desired one
+08:03 < sm`> im refering to the filtering options you see when you 'add web content' to a page
