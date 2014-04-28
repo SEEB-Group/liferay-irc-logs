@@ -63,3 +63,4 @@
 11:24 < sm`> 15:22:42,099 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello.*] onto handler 'storeFinderApi'
 11:24 < sm`> 15:22:42,099 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello/] onto handler 'storeFinderApi'
 11:24 < sm`> 15:22:42,234 INFO  [DispatcherServlet:339] FrameworkServlet 'restful': initialization completed in 282 ms
+11:24 < sm`> does this mean my controller is not working right
