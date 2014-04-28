@@ -94,3 +94,4 @@
 12:32 < rocknrol1_> bijoo_ :no I havent, but I solved the issue by creating a UserGroupSearch with the themeDisplay().getGroupId() as argument.
 12:32 < rocknrol1_> dont have the code with me, but this way I got the groups
 12:33 < bijoo_> rocknrol1_: nice that is a great ide here.
+12:33 < bijoo_> idea*
