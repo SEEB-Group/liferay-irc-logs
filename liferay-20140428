@@ -170,3 +170,4 @@
 17:54 < Naenyn> so, I can just check to see if there is a ticket in the url
 17:54 < Naenyn> before doing my work..
 18:13 < bijoo_> Naenyn: okay, so then the mapping is correct; just that need the patch for the issue there. And that link has the patch; needs ext plugin.
+18:13 < bijoo_> Naenyn: are you familiar with that or no? I can attach a patch to the ticket.
