@@ -28,3 +28,4 @@
 21:59 < bijoo_> scribe: I recently did a test upgrade there; to see what kind of trouble I'd get in; and ran into some API changes. I didn't find much OOB issues; just the custom dev needed some work there.
 22:00 < bijoo_> scribe: also the theme needed lots of upade.
 22:00 < bijoo_> update*
+22:01 < bijoo_> scribe: found this tool for the theme  upgrade portion: https://github.com/liferay/liferay-aui-upgrade-tool
