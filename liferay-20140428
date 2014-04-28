@@ -60,3 +60,4 @@
 11:24 < sm`> 15:22:42,031 INFO  [DefaultListableBeanFactory:581] Pre-instantiating singletons in --- SNIP ----
 11:24 < sm`> StoreFinderAPI - registered
 11:24 < sm`> 15:22:42,098 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello] onto handler 'storeFinderApi'
+11:24 < sm`> 15:22:42,099 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello.*] onto handler 'storeFinderApi'
