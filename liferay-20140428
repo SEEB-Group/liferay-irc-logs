@@ -44,3 +44,4 @@
 09:06 < sm`> np
 09:15 -!- mode/#liferay [+o rotty3000] by ChanServ
 09:31 < sm`> anyone around to help me out with a Spring REST service. Heres what i did so far: added a servlet in the web.xml, created servletname-servlet.xml to scan for controllers in my package and created a simple @Controller class...
+09:31 < sm`> from my understanding and from everything i read about Spring REST this should be enough :D
