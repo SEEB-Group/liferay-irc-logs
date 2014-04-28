@@ -50,3 +50,4 @@
 09:33 < sm`> here's my web.xml, restful-servlet.xml and the controller class - http://pastebin.com/NS9YXh7V
 09:34 < sm`> this is pretty much the same with http://www.liferay.com/web/vitor.silva/blog/-/blogs/using-restful-services-with-liferay
 09:35 < sm`> except i dont use service builder and i didnt create separated portlet
+09:35 < sm`> i wanna add the REST service to existing portlet... and since liferay is using Spring i think i should do what the Srping REST tutorials suggest
