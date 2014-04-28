@@ -105,3 +105,4 @@
 13:44 < Naenyn> Also, with respect to the authentication pipeline, what is the difference between the login portlet and hitting /c/portal/login directly?
 13:58 < Naenyn> Annd.. not sure how to get the ticket from the CAS filter into my custom filter. would have thought it'd be in a cookie. hrm.
 14:11 < sm`> fuck me
+14:11 < sm`> nobody's helping on the forums too
