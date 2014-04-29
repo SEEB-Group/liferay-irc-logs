@@ -30,3 +30,5 @@
 10:10 < sm`> is waaaaay to complicated
 10:11 < sm`> when ill have some free time ill try wrap the setup in a simple tutorial
 10:11 < sm`> too*
+10:33 -!- mode/#liferay [+o rotty3000] by ChanServ
+14:05 < Naenyn> bijoo_: Regarding the custom authenticator, it is just a hook with with a barebones liferay-hook.xml, right? and then a portal-ext.properties entry that adds the auth class to the pre-auth list?
