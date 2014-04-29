@@ -33,3 +33,6 @@
 10:33 -!- mode/#liferay [+o rotty3000] by ChanServ
 14:05 < Naenyn> bijoo_: Regarding the custom authenticator, it is just a hook with with a barebones liferay-hook.xml, right? and then a portal-ext.properties entry that adds the auth class to the pre-auth list?
 14:07 < Naenyn> bijoo_: rotty3000: also, when I eventually migrate our users to use the new auth system, I was planning on setting each user's uuid in liferay to the uuid of their user in the external system. Do you see any problem with this?
+16:36 -!- mode/#liferay [+o jhf] by ChanServ
+17:29 < bijoo_> Naenyn: on first point, hook can do the latter. Note the portal-trunk/definitions/liferay-hook_6*.dtd
+17:29 < bijoo_> auth.pipeline.pre
