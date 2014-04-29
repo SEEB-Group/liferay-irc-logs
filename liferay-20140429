@@ -22,3 +22,4 @@
 09:52 < sm`> 		    org.springframework.web.servlet.DispatcherServlet
 09:52 < sm`> 		  </servlet-class>
 09:52 < sm`> jeez
+10:05 < bijoo_> sm`: oh! just had to use ServletDispatcher!
