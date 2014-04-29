@@ -20,3 +20,4 @@
 09:52 < sm`> so why i dont need the PortalDispatcher here
 09:52 < sm`> <servlet-class>
 09:52 < sm`> 		    org.springframework.web.servlet.DispatcherServlet
+09:52 < sm`> 		  </servlet-class>
