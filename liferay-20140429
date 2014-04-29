@@ -17,3 +17,4 @@
 09:52 < sm`> FUCK ME
 09:52 < sm`> i fixed it by using the spring dispatcher
 09:52 < sm`> everything else in this config is pure spring
+09:52 < sm`> so why i dont need the PortalDispatcher here
