@@ -40,3 +40,4 @@
 17:39 < Naenyn> bijoo_: because I need to be able to search users by the value I get back from our external auth system. hm, I suppose I could search by another field.
 17:40 < Naenyn> bijoo_: have you ever configured CAS support in Liferay before? The tooltips for Server Name, Server URL, and Service URL don't match the error messages.. confusing.
 18:04 < Naenyn> jhf: is there anyone around that can clarify Liferay's CAS configuration options? The tooltips don't seem to match the error messages.. and in some examples I'm seeing in google, there are parameters that aren't accounted for in the UI in the control panel..
+18:06 < Naenyn> the login, logout, and no such user urls are straightforward, but the server name, server url, and service urls are not .. and it looks like there is also a cas.validate.url and a cas url prefix..
