@@ -36,3 +36,4 @@
 16:36 -!- mode/#liferay [+o jhf] by ChanServ
 17:29 < bijoo_> Naenyn: on first point, hook can do the latter. Note the portal-trunk/definitions/liferay-hook_6*.dtd
 17:29 < bijoo_> auth.pipeline.pre
+17:30 < bijoo_> Naenyn: on the second point; why would you use that? It seems an internal field here, no? Why not use custom attribute or else? Also can define SB Entity.
