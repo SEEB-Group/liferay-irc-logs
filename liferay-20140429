@@ -7,3 +7,6 @@
 09:38 < sm`> FFS
 09:39 < sm`> 13:34:35,966 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello] onto handler 'storeFinderApi'
 09:39 < sm`> 13:34:35,967 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello.*] onto handler 'storeFinderApi'
+09:39 < sm`> 13:34:35,967 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api/hello/] onto handler 'storeFinderApi'
+09:39 < sm`> 13:34:35,967 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api] onto handler 'storeFinderApi'
+09:39 < sm`> 13:34:35,967 INFO  [DefaultAnnotationHandlerMapping:411] Mapped URL path [/api.*] onto handler 'storeFinderApi'
