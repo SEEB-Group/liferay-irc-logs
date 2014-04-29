@@ -43,3 +43,4 @@
 18:06 < Naenyn> the login, logout, and no such user urls are straightforward, but the server name, server url, and service urls are not .. and it looks like there is also a cas.validate.url and a cas url prefix..
 18:06 < bijoo_> Naenyn: no I haven't setup CAS before there; but I've usd Open SSO a lot.
 18:07 < bijoo_> Naenyn: best to check the source code for exact there.
+18:16 < Naenyn> the worst part of this is I had it working at one point.. =|
