@@ -38,3 +38,4 @@
 17:29 < bijoo_> auth.pipeline.pre
 17:30 < bijoo_> Naenyn: on the second point; why would you use that? It seems an internal field here, no? Why not use custom attribute or else? Also can define SB Entity.
 17:39 < Naenyn> bijoo_: because I need to be able to search users by the value I get back from our external auth system. hm, I suppose I could search by another field.
+17:40 < Naenyn> bijoo_: have you ever configured CAS support in Liferay before? The tooltips for Server Name, Server URL, and Service URL don't match the error messages.. confusing.
