@@ -18,3 +18,4 @@
 07:30 < twen> or there is some numbering I miss ;)
 07:38 < circ-user-yyBn6> i have a question about friendly url:
 07:38 < circ-user-yyBn6> if using a <pattern>/{id}</pattern>
+07:38 < circ-user-yyBn6> should I have this id value available in view.jsp
