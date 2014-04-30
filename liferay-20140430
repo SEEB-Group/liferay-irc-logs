@@ -11,3 +11,4 @@
 05:29 < circ-user-yyBn6> as String c = (String)request.getAttribute("id");
 05:31 < circ-user-yyBn6> I also used the followings in friendly-url-route:
 05:31 < circ-user-yyBn6> <implicit-parameter name="p_p_lifecycle">0</implicit-parameter>   <implicit-parameter name="p_p_state">normal</implicit-parameter>   <implicit-parameter name="p_p_mode">view</implicit-parameter>
+07:25 < twen> tell me if I'm wrong. Downloaded and install Lifery CE 6.2 GA2, which point to http://sourceforge.net/projects/lportal/files/Liferay%20Portal/6.2.1%20GA2/ <-- version 6.2.1
