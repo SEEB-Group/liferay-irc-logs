@@ -35,3 +35,4 @@
 09:43 < Alex_> The error is this: https://issues.liferay.com/browse/LPS-35078 But I want to learn how this process works for other errors too
 10:08 < bijoo_> Alex_: you have to look at fix version for that.
 10:08 < bijoo_> Alex_: what version of Liferay are you using?
+10:09 < bijoo_> Alex_: Liferay includes fixes later versions.
