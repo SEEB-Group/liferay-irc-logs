@@ -15,3 +15,4 @@
 07:25 < twen> BUt, the build number of this version is 6201 !
 07:26 < twen> shouldn't it be build number 6210 ?
 07:27 < twen> I noticed this when trying to download HR portal portlet (http://wiki.rivetlogic.com/display/LRA/HR+Portal)... none of the version 6.2.0 and 6.2.1 are allowed, because build number don't match (6200 and 6210 don't match liferay's 6201 )
+07:30 < twen> or there is some numbering I miss ;)
