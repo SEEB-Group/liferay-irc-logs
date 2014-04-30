@@ -17,3 +17,4 @@
 07:27 < twen> I noticed this when trying to download HR portal portlet (http://wiki.rivetlogic.com/display/LRA/HR+Portal)... none of the version 6.2.0 and 6.2.1 are allowed, because build number don't match (6200 and 6210 don't match liferay's 6201 )
 07:30 < twen> or there is some numbering I miss ;)
 07:38 < circ-user-yyBn6> i have a question about friendly url:
+07:38 < circ-user-yyBn6> if using a <pattern>/{id}</pattern>
