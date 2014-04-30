@@ -36,3 +36,4 @@
 10:08 < bijoo_> Alex_: you have to look at fix version for that.
 10:08 < bijoo_> Alex_: what version of Liferay are you using?
 10:09 < bijoo_> Alex_: Liferay includes fixes later versions.
+10:12 < bijoo_> twen: no that's not OOB feature here; you could export/import the site there though.
