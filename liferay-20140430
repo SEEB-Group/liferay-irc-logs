@@ -20,3 +20,4 @@
 07:38 < circ-user-yyBn6> if using a <pattern>/{id}</pattern>
 07:38 < circ-user-yyBn6> should I have this id value available in view.jsp
 07:38 < circ-user-yyBn6> ?
+07:38 < circ-user-yyBn6> if yes, how to retrieve it ?
