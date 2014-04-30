@@ -6,3 +6,4 @@
 05:11 < Alex_> twen The error is this: https://issues.liferay.com/browse/LPS-35078 But I want to learn how this process works for other errors too
 05:24 < circ-user-yyBn6> hi !
 05:28 < circ-user-yyBn6> i have a question about friendly url:
+05:28 < circ-user-yyBn6> if using a <pattern>/{id}</pattern>
