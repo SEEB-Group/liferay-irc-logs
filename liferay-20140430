@@ -8,3 +8,4 @@
 05:28 < circ-user-yyBn6> i have a question about friendly url:
 05:28 < circ-user-yyBn6> if using a <pattern>/{id}</pattern>
 05:29 < circ-user-yyBn6> should I have this id value available in view.jsp
+05:29 < circ-user-yyBn6> as String c = (String)request.getAttribute("id");
