@@ -1,0 +1,2 @@
+--- Log opened Thu May 01 00:00:54 2014
+10:58 < dawn> @jhf: I have quick question about Search container orderable column headers. I see a different behaviour in CE vs EE version. In EE one can sort by either clicking in Header text or Up/Down icons, but in CE only by Header text.
