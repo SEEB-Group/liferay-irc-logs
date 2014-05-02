@@ -18,3 +18,4 @@
 09:58 <@jhf> then I will hash that string and give you the SHA-1 hash of the string
 09:58 <@jhf> then I will ask someone to pick a random number
 09:59 <@jhf> whichever number is chosen is the winner, then I reveal the string to you (so that you can independently verify that was the right string from before)
+09:59 <@jhf> the only way I can cheat is if I secretly tell the person who is picking the “random” number which number to pick
