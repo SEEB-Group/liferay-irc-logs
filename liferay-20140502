@@ -16,3 +16,4 @@
 09:58 <@jhf> so the way this works
 09:58 <@jhf> I will write down a string that assigns each of you to a number
 09:58 <@jhf> then I will hash that string and give you the SHA-1 hash of the string
+09:58 <@jhf> then I will ask someone to pick a random number
