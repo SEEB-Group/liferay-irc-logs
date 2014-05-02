@@ -98,3 +98,4 @@
 10:20 <@jhf> here is the source code for CE that generates those arrows: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/search_iterator/page.jsp#L197
 10:20 <@jhf> the EE source is identical
 10:20 <@jhf> <span class="table-sort-indicator"></span>
+10:20 <@jhf> all that does is generate the tiny arrows (either up, down, or up+down) as tiny images
