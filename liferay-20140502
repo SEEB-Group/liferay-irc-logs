@@ -132,3 +132,4 @@
 10:48 <@jhf> https://github.com/liferay/liferay-portal/commit/3bf656e8d61edf6d82f0af27ac55f9b16068f3ff#diff-47bf40504faab9684dd47035c66c33a1
 10:48 <@jhf> it includes the arrows as part of the <a> link on the header
 10:48 <@jhf> so there you go dawn
+10:49 <@jhf> it’s fixed in a fixpack for EE 6.2.10
