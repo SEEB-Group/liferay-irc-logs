@@ -95,3 +95,4 @@
 10:17 <@jhf> they are never imbued with clickability
 10:17 <@jhf> so I’m a little confused how you got clickable arrows. can you screenshot it?
 10:18 < dawn> Sure I can do that. I am under an impression that CE some how didn't have this feature.. LOL
+10:20 <@jhf> here is the source code for CE that generates those arrows: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/search_iterator/page.jsp#L197
