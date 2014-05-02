@@ -100,3 +100,4 @@
 10:20 <@jhf> <span class="table-sort-indicator"></span>
 10:20 <@jhf> all that does is generate the tiny arrows (either up, down, or up+down) as tiny images
 10:21 <@jhf> and the css for that <span> is here: https://github.com/liferay/alloy-ui/search?q=table-sort-indicator&ref=cmdform
+10:22 <@jhf> you can see all it is is an image
