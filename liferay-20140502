@@ -92,3 +92,4 @@
 10:17 <@jhf> no 6.2.10 EE
 10:17 <@jhf> also tried 6.2 CE
 10:17 <@jhf> AND looked at the source code where those arrows are generated
+10:17 <@jhf> they are never imbued with clickability
