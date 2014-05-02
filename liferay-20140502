@@ -40,3 +40,4 @@
 10:03 <@jhf> ok the winner is: kgolebiowski !!!!!!!!!!!!!!!!!!
 10:03 <@jhf> echo -n 'Dave=9,Peter=10,KG=11 and this is some salt' | openssl sha1
 10:03 <@jhf> that was the string
+10:03 <@jhf> "Dave=9,Peter=10,KG=11 and this is some salt"
