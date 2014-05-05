@@ -5,3 +5,4 @@
 10:10 < bijoo_> aqquadro: are you using some SSO here?
 10:11 < bijoo_> owen-_ mind posting the logs from startup pastebin?
 10:14 < aqquadro1> and we change login page with portal-ext
+10:14 < aqquadro1> but with classic httpd/ajp all work done
