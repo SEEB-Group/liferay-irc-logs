@@ -1,2 +1,3 @@
 --- Log opened Mon May 05 00:00:59 2014
 06:11 < aqquadro> hi there
+06:12 < aqquadro> I've a redirect loop problem on /c/portal/login only when I setup an AWS ELB instead of httpd/ajp
