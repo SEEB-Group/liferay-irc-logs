@@ -3,3 +3,4 @@
 06:12 < aqquadro> I've a redirect loop problem on /c/portal/login only when I setup an AWS ELB instead of httpd/ajp
 06:13 < aqquadro> has anyone ever encountered this error?
 10:10 < bijoo_> aqquadro: are you using some SSO here?
+10:11 < bijoo_> owen-_ mind posting the logs from startup pastebin?
