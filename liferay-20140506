@@ -11,3 +11,4 @@
 16:52 < bijoo_> Naenyn: Custm Field == Expando
 16:52 < bijoo_> Naenyn: I don't know on top of my head right now; probably through indexing you can there; but not sure what right API would be.
 16:52 < bijoo_> Naenyn: may want to ask how to search Expandos
+17:29 < Naenyn> bijoo_: I didn't think it was possible .. just based on mucking with the UserLocalServiceUtil.
