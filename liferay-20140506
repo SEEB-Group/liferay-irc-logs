@@ -18,3 +18,4 @@
 19:14 < bijoo_> Naenyn: it goes over exactly what you asked
 19:14 < bijoo_> List<ExpandoValue> values = ExpandoValueLocalServiceUtil.getColumnValues(companyId, classNameId, ExpandoTableConstants.DEFAULT_TABLE_NAME, customAttributeName,customAttributeValue, -1, -1);
 19:15 < bijoo_> Naenyn: let me know if that does not answer it
+19:39 < Naenyn> wt.. how did I miss that
