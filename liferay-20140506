@@ -16,3 +16,4 @@
 17:30 < Naenyn> I'm just not sure what else I'd use..
 19:14 < bijoo_> Naenyn: actually it is answered here: http://www.liferay.com/community/wiki/-/wiki/Main/Search+for+objects+by+custom+attributes
 19:14 < bijoo_> Naenyn: it goes over exactly what you asked
+19:14 < bijoo_> List<ExpandoValue> values = ExpandoValueLocalServiceUtil.getColumnValues(companyId, classNameId, ExpandoTableConstants.DEFAULT_TABLE_NAME, customAttributeName,customAttributeValue, -1, -1);
