@@ -13,3 +13,4 @@
 16:52 < bijoo_> Naenyn: may want to ask how to search Expandos
 17:29 < Naenyn> bijoo_: I didn't think it was possible .. just based on mucking with the UserLocalServiceUtil.
 17:30 < Naenyn> I'm reconsidering how I'm going to sync my local user to it's paired user in our external auth system.. I was originally going to store the external user's uuid in the liferay user's uuid field.. can easily look up the user that way .. but if I need to edit the user from the UI, the out-of-the-box functionality doesn't allow that.
+17:30 < Naenyn> I'm just not sure what else I'd use..
