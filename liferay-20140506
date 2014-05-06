@@ -15,3 +15,4 @@
 17:30 < Naenyn> I'm reconsidering how I'm going to sync my local user to it's paired user in our external auth system.. I was originally going to store the external user's uuid in the liferay user's uuid field.. can easily look up the user that way .. but if I need to edit the user from the UI, the out-of-the-box functionality doesn't allow that.
 17:30 < Naenyn> I'm just not sure what else I'd use..
 19:14 < bijoo_> Naenyn: actually it is answered here: http://www.liferay.com/community/wiki/-/wiki/Main/Search+for+objects+by+custom+attributes
+19:14 < bijoo_> Naenyn: it goes over exactly what you asked
