@@ -10,3 +10,4 @@
 08:51 < topolik> modd_: hi, that means your foo-portlet depends on marketplace-portlet and you need to deploy marketplace portlet
 08:51 < modd_> yes but why? I didn't add it to the list of required things
 08:52 < topolik> modd_: it's written in foo-portlet's liferay-plugin-package.properties
+08:52 < modd_> nope it's not, that's the poin
