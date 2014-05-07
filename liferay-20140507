@@ -35,3 +35,4 @@
 09:09 < topolik> another way could be to make a dependency tree
 09:10 < topolik> and position all your plugins inside :)
 09:12 < modd_> dependency tree?
+10:07 < alex______> does anyone know why every time I post a new document, instead of emailing  my users, I keep getting a: [SubscriptionSerncer:472] com.liferay.portal.NoSuchRespositoryEntryException  ????
