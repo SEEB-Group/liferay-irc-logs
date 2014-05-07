@@ -49,3 +49,4 @@
 13:36 < jardineworks> in 6.1 is seems like all the search configuration stuff is moved to a search-spring.xml file.
 13:36 < jardineworks> All I want to do is change the default behaviour to use AND inplace of OR for keywords
 13:36 < jardineworks> I read the the KeywordAnalyzer is the way to do it... do you know if that is still the case?
+13:36 < jardineworks> or is there an easier way?
