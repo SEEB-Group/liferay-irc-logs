@@ -54,3 +54,4 @@
 13:59 < npskirk> 17:18:29,652 ERROR [http-bio-8080-exec-9][JSONWebServiceServiceAction:114] java.lang.RuntimeException: No JSON web service action associated with path /egs-portlet.gamebot and method POST for /
 13:59 < npskirk> java.lang.RuntimeException: No JSON web service action associated with path /egs-portlet.gamebot and method POST for /
 13:59 < npskirk> I'd like to know more about the post
+13:59 < npskirk> like what the body contained
