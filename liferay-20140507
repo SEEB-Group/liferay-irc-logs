@@ -27,3 +27,4 @@
 09:01 < modd_> solrr4-web*
 09:02 < modd_> damn..^^
 09:02 < modd_> solr4*
+09:03 < topolik> you should be able to create tomcat/webapps/ROOT/WEB-INF/classes/dependencies/plugins2/wars.txt
