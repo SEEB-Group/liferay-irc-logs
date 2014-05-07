@@ -9,3 +9,4 @@
 08:50 < topolik> alex______: Yes, it could be a bit risky. Portal doesn't have any such functionality so it's up to you. If you would like to copy it, you could try export/import
 08:51 < topolik> modd_: hi, that means your foo-portlet depends on marketplace-portlet and you need to deploy marketplace portlet
 08:51 < modd_> yes but why? I didn't add it to the list of required things
+08:52 < topolik> modd_: it's written in foo-portlet's liferay-plugin-package.properties
