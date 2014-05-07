@@ -66,3 +66,4 @@
 18:25 < npskirk> @bijoo_  Thanks.. I didn't have much luck with that, don't see the JSON body of the request
 18:36 < bijoo_> npskirk: did you try the mod_dumpio module?
 18:36 < bijoo_> npskirk: http://httpd.apache.org/docs/2.2/mod/mod_dumpio.html
+18:38 < npskirk> @bijoo_:  no I didn't  — I could try that on a local setup.  Thanks for the idea.
