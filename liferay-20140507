@@ -65,3 +65,4 @@
 18:24 < bijoo_> npskirk: also httpd with logging
 18:25 < npskirk> @bijoo_  Thanks.. I didn't have much luck with that, don't see the JSON body of the request
 18:36 < bijoo_> npskirk: did you try the mod_dumpio module?
+18:36 < bijoo_> npskirk: http://httpd.apache.org/docs/2.2/mod/mod_dumpio.html
