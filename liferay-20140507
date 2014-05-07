@@ -5,3 +5,4 @@
 08:14 < topolik> alex______: I believe it could be possible on the DB level - change groupId of the records, but be careful to move whole tree
 08:14 < topolik> Then you need to flush Liferay DB cache / restart portal
 08:33 < alex______> topolik: Thanks for your answer but, isnt that risky? I dont know what to change, which table and if there are any dependancies that will get.... .... damaged!
+08:47 < modd_> hi topolik. do you know why I'm getting queueing foo-portlet for deploy because it is missing marketplace-portlet for everthing on startup and how I can add another portlet to the same list as marketplace-portlet?
