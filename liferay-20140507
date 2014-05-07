@@ -52,3 +52,4 @@
 13:36 < jardineworks> or is there an easier way?
 13:59 < npskirk> Does anyone know if there's a way to capture and log all attempted requests the portal receives?  Namely, when the portal reports something like
 13:59 < npskirk> 17:18:29,652 ERROR [http-bio-8080-exec-9][JSONWebServiceServiceAction:114] java.lang.RuntimeException: No JSON web service action associated with path /egs-portlet.gamebot and method POST for /
+13:59 < npskirk> java.lang.RuntimeException: No JSON web service action associated with path /egs-portlet.gamebot and method POST for /
