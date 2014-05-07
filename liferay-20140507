@@ -2,3 +2,4 @@
 03:58 < alex______> Gooday!
 04:01 < alex______> Is there a way to move some Vocabularies and their Categories from Global to a specific site without re-creating them ?
 05:47 < alex______> Is there a way to move some Vocabularies and their Categories from Global to a specific site without re-creating them ?
+08:14 < topolik> alex______: I believe it could be possible on the DB level - change groupId of the records, but be careful to move whole tree
