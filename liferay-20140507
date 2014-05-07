@@ -22,3 +22,4 @@
 09:00 < topolik> seems it's something new in 6.2 - https://issues.liferay.com/browse/LPS-39277
 09:01 < modd_> looks like I can't add another portlet to the list in any easy way
 09:01 < topolik> which list?
+09:01 < modd_> ..of portlets, which are always required
