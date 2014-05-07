@@ -16,3 +16,4 @@
 08:53 < modd_> e.g.:
 08:53 < modd_> 12:42:52,773 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin Language_de-hook requires marketplace-portlet 12:42:52,773 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing Language_de-hook for deploy because it is missing marketplace-portlet
 08:53 < modd_> after it deploys the marketplace-portlet it works just fine
+08:53 < modd_> but I didn't add the marketplace-portlet to the list
