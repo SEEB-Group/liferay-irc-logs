@@ -67,3 +67,4 @@
 18:36 < bijoo_> npskirk: did you try the mod_dumpio module?
 18:36 < bijoo_> npskirk: http://httpd.apache.org/docs/2.2/mod/mod_dumpio.html
 18:38 < npskirk> @bijoo_:  no I didn't  — I could try that on a local setup.  Thanks for the idea.
+18:48 < Naenyn> bijoo_: for some reason, my custom authenticator hook doesn't seem to be running.. liferay-hook.xml has only <hook><portal-properties>portal.properties<portal.properties></hook> .. and portal.properties contains auth.pipeline.pre=<myclass> .. am I missing anything else?
