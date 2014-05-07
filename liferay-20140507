@@ -8,3 +8,4 @@
 08:47 < modd_> hi topolik. do you know why I'm getting queueing foo-portlet for deploy because it is missing marketplace-portlet for everthing on startup and how I can add another portlet to the same list as marketplace-portlet?
 08:50 < topolik> alex______: Yes, it could be a bit risky. Portal doesn't have any such functionality so it's up to you. If you would like to copy it, you could try export/import
 08:51 < topolik> modd_: hi, that means your foo-portlet depends on marketplace-portlet and you need to deploy marketplace portlet
+08:51 < modd_> yes but why? I didn't add it to the list of required things
