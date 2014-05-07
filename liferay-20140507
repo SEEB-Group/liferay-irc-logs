@@ -56,3 +56,4 @@
 13:59 < npskirk> I'd like to know more about the post
 13:59 < npskirk> like what the body contained
 14:45 < topolik> jardineworks: I'm sorry I know nothing about it :/
+14:54 < topolik> npskirk: try https://ngrok.com/ Beside the tunnelling it has local web UI where you can inspect all requests
