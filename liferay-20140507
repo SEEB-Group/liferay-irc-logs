@@ -14,3 +14,4 @@
 08:52 < modd_> t
 08:52 < topolik> can you paste here the message pleasea?
 08:53 < modd_> e.g.:
+08:53 < modd_> 12:42:52,773 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin Language_de-hook requires marketplace-portlet 12:42:52,773 INFO  [localhost-startStop-1][HotDeployImpl:249] Queueing Language_de-hook for deploy because it is missing marketplace-portlet
