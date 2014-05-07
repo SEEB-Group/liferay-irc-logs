@@ -47,3 +47,4 @@
 13:35 < jardineworks> I am also getting back in the game and have a puzzle for search if you have a second?
 13:35 < jardineworks> Using the lucene OOTB engine i know in 6.0 < you could do some query behaviour using the portal-ext file.
 13:36 < jardineworks> in 6.1 is seems like all the search configuration stuff is moved to a search-spring.xml file.
+13:36 < jardineworks> All I want to do is change the default behaviour to use AND inplace of OR for keywords
