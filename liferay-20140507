@@ -19,3 +19,4 @@
 08:53 < modd_> but I didn't add the marketplace-portlet to the list
 08:54 < modd_> so liferay does some magic here
 08:59 < topolik> uhm
+09:00 < topolik> seems it's something new in 6.2 - https://issues.liferay.com/browse/LPS-39277
