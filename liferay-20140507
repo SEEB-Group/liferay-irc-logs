@@ -31,3 +31,4 @@
 09:04 < topolik> well, in fact, if you don't need marketplace-portlet, you can overwrite plugins1/wars.txt and leave it empty
 09:05 < modd_> I don't care about marketplace-portlet, I just want to add another portlet ;)
 09:09 < modd_> it's maybe worth a try, even if it's an ext I need here
+09:09 < modd_> thx topolik! :)
