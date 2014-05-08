@@ -74,3 +74,4 @@
 20:03 < Naenyn> ah.. because my filter isn't yet returning enough info for liferay to get the local user, the authenticator was never running.
 20:04 < Naenyn> bijoo_: could I pick your brain tomorrow? I'm so close to having this working..
 20:08 < bijoo_> Naenyn:
+20:08 < bijoo_> <?xml version="1.0" encoding="UTF-8"?>
