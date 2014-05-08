@@ -75,3 +75,4 @@
 20:04 < Naenyn> bijoo_: could I pick your brain tomorrow? I'm so close to having this working..
 20:08 < bijoo_> Naenyn:
 20:08 < bijoo_> <?xml version="1.0" encoding="UTF-8"?>
+20:08 < bijoo_> <!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.1.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_1_0.dtd">
