@@ -4,3 +4,4 @@
 07:53 < bijoo_> alex______: did you do anything to database?
 07:53 < bijoo_> alex______: DLAppLocalServiceUtil.getFileEntry
 07:53 < bijoo_> alex______: it's trying to get a file over there; but the repositoryId's wrong
+07:54 < bijoo_> com.liferay.portal.util.SubscriptionSender.hasPermission
