@@ -30,3 +30,4 @@
 14:41 < bijoo_> aj_: com.liferay.portal.kernel.search.SearchContext.setAndSearch(boolean) ?
 14:42 < bijoo_> aj_: not sure if that is what you're looking for; but if it is, then hook override this: /html/portlet/search/main_search.jspf
 14:51 < bijoo_> Naenyn: you are right; my mistake here; that's right.
+14:51 < bijoo_> Naenyn: forgo  talking about AutoLogin; other's true in case of a plain filter.
