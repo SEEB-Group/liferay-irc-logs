@@ -36,3 +36,4 @@
 16:11 < Naenyn> hm.. not understanding how autologin works with respect to the auth pipeline..
 16:13 < haba713> hi! i have two aui:buttons in portlet page with different names but name attributes aren't rendered to html button. how can i determine in portlet action, which one of the buttons was clicked?
 16:34 < haba713> i posted my question also to the liferay forum: https://www.liferay.com/community/forums/-/message_boards/message/37614976
+18:35 < aj_> bijoo_, Hmm... I tried doing that, but instead of the JSP I made an ext plugin and defined a default constructor for SearchContext ... and in there set the property to true (overriding the default java default value of false for a boolean right?) ... but that didn't seem to work.
