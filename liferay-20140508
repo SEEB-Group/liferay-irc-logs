@@ -33,3 +33,4 @@
 14:51 < bijoo_> Naenyn: forgo  talking about AutoLogin; other's true in case of a plain filter.
 14:53 < bijoo_> forgot*
 15:55 < Naenyn> bijoo_: Actually I wasn't sure if I needed an autologin or not. Do I? And what does the filter need to do/return? I need a good filter example...
+16:11 < Naenyn> hm.. not understanding how autologin works with respect to the auth pipeline..
