@@ -25,3 +25,4 @@
 09:52 < alex______> bijoo_: In a blog entry though, the subscription works. I get both mail and RSS (and no error)
 10:00 < aj_> bijoo_,  any chance you know of an easy way to change the lucene default OR or search terms to an AND?
 10:01 < aj_> KeywordAnalyzer modification in the spring-search.xml might do it... but I was hoping for something the did not require an ext plugin.
+13:48 < Naenyn> bijoo_: I'm not sure that is entirely correct tho? I mean.. as it stands right now, my custom authenticator doesn't even fire unless liferay already knows who the user is beforehand. That leads me to believe that the filter has to return the user's identity.
