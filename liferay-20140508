@@ -13,3 +13,4 @@
 07:56 < bijoo_> 		return SubscriptionPermissionUtil.contains(
 07:56 < bijoo_> 			permissionChecker, subscription.getClassName(),
 07:56 < bijoo_> 			subscription.getClassPK());
+07:58 < bijoo_> Naenyn: That's where the *ThreadLocal comes in; see our conversation from two weeks back:
