@@ -11,3 +11,5 @@
 07:56 < bijoo_> 		PermissionChecker permissionChecker =
 07:56 < bijoo_> 			PermissionCheckerFactoryUtil.create(user);
 07:56 < bijoo_> 		return SubscriptionPermissionUtil.contains(
+07:56 < bijoo_> 			permissionChecker, subscription.getClassName(),
+07:56 < bijoo_> 			subscription.getClassPK());
