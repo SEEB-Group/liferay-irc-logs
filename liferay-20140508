@@ -28,3 +28,4 @@
 13:48 < Naenyn> bijoo_: I'm not sure that is entirely correct tho? I mean.. as it stands right now, my custom authenticator doesn't even fire unless liferay already knows who the user is beforehand. That leads me to believe that the filter has to return the user's identity.
 14:21 < bijoo_> aj_: I'm looking into it; one sec.
 14:41 < bijoo_> aj_: com.liferay.portal.kernel.search.SearchContext.setAndSearch(boolean) ?
+14:42 < bijoo_> aj_: not sure if that is what you're looking for; but if it is, then hook override this: /html/portlet/search/main_search.jspf
