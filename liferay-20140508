@@ -24,3 +24,4 @@
 09:50 < alex______> I get the error and of course, no email
 09:52 < alex______> bijoo_: In a blog entry though, the subscription works. I get both mail and RSS (and no error)
 10:00 < aj_> bijoo_,  any chance you know of an easy way to change the lucene default OR or search terms to an AND?
+10:01 < aj_> KeywordAnalyzer modification in the spring-search.xml might do it... but I was hoping for something the did not require an ext plugin.
