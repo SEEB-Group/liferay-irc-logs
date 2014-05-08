@@ -80,3 +80,4 @@
 20:08 < bijoo_> </hook>
 20:09 < bijoo_> Naenyn: sure thing; post the issue here; I'll check.
 20:33 < Naenyn> bijoo_: Yep that's what it looks like. Turns out the authenticator problem was actually related to my not having the filter working yet.
+20:35 < Naenyn> bijoo_: So the plan tomorrow is to disable CAS, copy the current liferay CASFilter source to a custom filter hook, and then make changes as necessary to use our custom auth system. The piece I don't know is what the filter has to do in order to communicate the user details back to Liferay so the auth pipeline can continue.
