@@ -72,3 +72,4 @@
 19:29 < Naenyn> I have a feeling I'm going to have to replace the CASFilter...
 19:48 < Naenyn> auuggh this is so frustrating.. I don't get why my authenticator isn't being called..
 20:03 < Naenyn> ah.. because my filter isn't yet returning enough info for liferay to get the local user, the authenticator was never running.
+20:04 < Naenyn> bijoo_: could I pick your brain tomorrow? I'm so close to having this working..
