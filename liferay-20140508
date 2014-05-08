@@ -3,3 +3,4 @@
 07:45 < alex______> Can anyone please help with this error http://hastebin.com/ohoyequday.avrasm
 07:53 < bijoo_> alex______: did you do anything to database?
 07:53 < bijoo_> alex______: DLAppLocalServiceUtil.getFileEntry
+07:53 < bijoo_> alex______: it's trying to get a file over there; but the repositoryId's wrong
