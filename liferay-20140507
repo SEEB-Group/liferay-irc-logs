@@ -79,3 +79,4 @@
 20:08 < bijoo_> <hook> <portal-properties>portal.properties</portal-properties>
 20:08 < bijoo_> </hook>
 20:09 < bijoo_> Naenyn: sure thing; post the issue here; I'll check.
+20:33 < Naenyn> bijoo_: Yep that's what it looks like. Turns out the authenticator problem was actually related to my not having the filter working yet.
