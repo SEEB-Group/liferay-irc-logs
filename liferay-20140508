@@ -20,3 +20,4 @@
 07:58 < bijoo_> http://liferay.seebgroup.com/irc/liferay-20140428 **
 08:48 < alex______> bijoo_: I have not touched the database! I get this error every time someone uploads a new document and it tries to send an email (because I have subscribed to the folder)
 09:48 < bijoo_> alex______: can you try unsubscribe then resubscribe?
+09:49 < alex______> bijoo_: I did ... its the same.
