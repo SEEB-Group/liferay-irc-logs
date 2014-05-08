@@ -10,3 +10,4 @@
 07:56 < bijoo_> In 6.1GA2 it is this:
 07:56 < bijoo_> 		PermissionChecker permissionChecker =
 07:56 < bijoo_> 			PermissionCheckerFactoryUtil.create(user);
+07:56 < bijoo_> 		return SubscriptionPermissionUtil.contains(
