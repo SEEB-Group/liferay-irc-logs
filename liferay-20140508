@@ -7,3 +7,4 @@
 07:54 < bijoo_> com.liferay.portal.util.SubscriptionSender.hasPermission
 07:54 < bijoo_> And looks like getting file for permissions
 07:54 < bijoo_> To see if it has certain permission
+07:56 < bijoo_> In 6.1GA2 it is this:
