@@ -107,3 +107,4 @@
 14:24 < npskirk> oops
 14:25 < npskirk> i guess IRC doesn't support sending image clips
 14:25 < npskirk> incidentally, I'm breaking at line 966 also
+14:25 < npskirk> _log.error(e, e);
