@@ -52,3 +52,4 @@
 11:39 <@jhf> rotty and one or two others went to represent Liferay
 11:39 <@jhf> Liferay is currently “mostly” OSGi-ified - you can write and deploy osgi bundles to Liferay 6.2
 11:39 < bijoo_> aj_: jhf: awesome; OSGi seems a great direction.
+11:40 <@jhf> in Liferay 7, Liferay itself becomes a set of bundles
