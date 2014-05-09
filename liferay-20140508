@@ -39,3 +39,4 @@
 18:35 < aj_> bijoo_, Hmm... I tried doing that, but instead of the JSP I made an ext plugin and defined a default constructor for SearchContext ... and in there set the property to true (overriding the default java default value of false for a boolean right?) ... but that didn't seem to work.
 18:36 < Naenyn> bijoo_: fyi, we got things working. \o/
 18:37 < Naenyn> bijoo_: Thanks so much for your help!
+--- Log closed Fri May 09 00:00:05 2014
