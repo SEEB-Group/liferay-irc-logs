@@ -121,3 +121,4 @@
 15:25 < npskirk> ugh, the debugger just grinds Liferay to a near halt
 15:26 < bijoo_> npskirk: what is the spec on your dev machine there?
 15:27 < npskirk> 12 core 2.93Ghz - 32 GB ram
+15:27 < bijoo_> npskirk: I can't complain cause it's running perfect; but i7 laptop with SSDs; and plenty RAM to give to IDE.
