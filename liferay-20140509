@@ -82,3 +82,4 @@
 13:05 < bijoo_> npskirk: permission systems very flexible; have you look at all Roles Definitions?
 13:06 < bijoo_> npskirk: this assuming you're using 6.0+
 13:06 < bijoo_> npskirk: you not using 5.2 or below right?
+13:06 < npskirk> Yes, I have a fair amount of custom permission configuration in my default.xml
