@@ -72,3 +72,4 @@
 11:43 <@jhf> I made some recommendations :)
 11:44 < bijoo_> (Knock on wood) I'm sure it'll be great event.
 11:44 <@jhf> so on may 20 in amsterdam will be the first official roadmap presentation for 7.0 - hopefully with due dates :)
+12:53 < npskirk> Can anyone offer any tips on tracking down the source of "you don't have the roles required to access this portlet"  Can there be more than one cause for it?  (I've turned all the permission checker logs up to "ALL" but they don't log anything when the portlet in question is attempted to be rendered.
