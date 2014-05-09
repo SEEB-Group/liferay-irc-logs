@@ -111,3 +111,4 @@
 15:09 < bijoo_> npskirk: if you want to clear cache, you can there; In CP->Server Administration
 15:09 < npskirk> bijoo_ yeah that's what I do
 15:13 < npskirk> bijoo_ I may be missing a permission config…  The portlet is one that only appears when I pop it up in an iframe.  I've got a resource permission for some of the info it displays (to hide non-sysadmin info).  That seems to work.  What's odd is that the iframe loads the portlet fine when I pop it up on one page, but puts up the roles message when I pop it up from a different page.
+15:20 < bijoo_> npskirk: I'm working on permissions problem too; but it's using site templates and the like; and propagation of permission change; I've found I need to check the database.
