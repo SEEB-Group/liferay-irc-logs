@@ -117,3 +117,4 @@
 15:22 < npskirk> bijoo_ I see what you mean — you think its a service call that's failing permission check
 15:22 < npskirk> bijoo_ That was my suspicion too — but the fact that the same user can load the portlet on one page, but not on another is confounding
 15:23 < bijoo_> npskirk: note that scopes and layout matter a lot.
+15:24 < bijoo_> npskirk: in fact, on my issue, I'll keep drilling; I'll isolate what the issue may be; in my case Guest is having permission; where it clearly should not have it there; so I'm going to drill to that method; and find what exactly is makes it think that.
