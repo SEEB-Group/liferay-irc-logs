@@ -119,3 +119,4 @@
 15:23 < bijoo_> npskirk: note that scopes and layout matter a lot.
 15:24 < bijoo_> npskirk: in fact, on my issue, I'll keep drilling; I'll isolate what the issue may be; in my case Guest is having permission; where it clearly should not have it there; so I'm going to drill to that method; and find what exactly is makes it think that.
 15:25 < npskirk> ugh, the debugger just grinds Liferay to a near halt
+15:26 < bijoo_> npskirk: what is the spec on your dev machine there?
