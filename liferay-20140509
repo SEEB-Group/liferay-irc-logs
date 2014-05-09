@@ -51,3 +51,4 @@
 11:38 <@jhf> there was an OSGi “Face to face” meeting for the osgi community in switzerland this week
 11:39 <@jhf> rotty and one or two others went to represent Liferay
 11:39 <@jhf> Liferay is currently “mostly” OSGi-ified - you can write and deploy osgi bundles to Liferay 6.2
+11:39 < bijoo_> aj_: jhf: awesome; OSGi seems a great direction.
