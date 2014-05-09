@@ -54,3 +54,4 @@
 11:39 < bijoo_> aj_: jhf: awesome; OSGi seems a great direction.
 11:40 <@jhf> in Liferay 7, Liferay itself becomes a set of bundles
 11:40 < aj_> jhf, question... I couldn't find a road map for 7... is there one out there?
+11:40 <@jhf> so it’ll be much more modular and so for example you can “remove blogs” (right now, no matter what you do, there will always be blogs-related code in Liferay)
