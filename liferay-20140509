@@ -97,3 +97,4 @@
 14:07 < npskirk> and the break occurs there inside the catch block
 14:07 < npskirk> I can see all the object instance variables and function arguments
 14:07 < bijoo_> npskirk: you sure the source code matches binary?
+14:07 < npskirk> but not the exception
