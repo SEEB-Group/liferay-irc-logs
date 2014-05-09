@@ -6,3 +6,4 @@
 10:33 < bijoo_> aj_: can you give me example what you want?
 10:33 < aj_> bijoo_, I got it working :)
 10:33 < bijoo_> aj_: cool, what was it and what was the goal there?
+10:33 < aj_> I found that the last guy had created a CustomFacetedSearcher ... whcih of course defines a boolean query.
