@@ -80,3 +80,4 @@
 13:05 < bijoo_> com.liferay.portal.security.permission.AdvancedPermissionChecker.hasPermissionImpl(long, String, String, String)
 13:05 < npskirk> I'll try it
 13:05 < bijoo_> npskirk: permission systems very flexible; have you look at all Roles Definitions?
+13:06 < bijoo_> npskirk: this assuming you're using 6.0+
