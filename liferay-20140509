@@ -11,3 +11,4 @@
 10:34 < bijoo_> aj_: ah okay, had some custom code in there.
 10:34 < aj_> but ultimately..
 10:34 < bijoo_> aj_: cool glad to hear it is working here.
+10:34 < aj_> what I was trying to do is change the default behviour for search so that instead of the implied "teachers OR pensions" it would be "teachers AND pensions"
