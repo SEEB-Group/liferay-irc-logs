@@ -96,3 +96,4 @@
 14:07 < npskirk> I get the log printouts like Checking user permission block 1 for 10180 livegame_WAR_egsportlet 11304_LAYOUT_livegame_WAR_egsportlet CONFIGURATION takes 0 ms
 14:07 < npskirk> and the break occurs there inside the catch block
 14:07 < npskirk> I can see all the object instance variables and function arguments
+14:07 < bijoo_> npskirk: you sure the source code matches binary?
