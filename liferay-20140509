@@ -130,3 +130,4 @@
 15:28 < npskirk> thanks bijoo_
 15:29 < bijoo_> sure thing, eclipse.ini should help.
 15:32 < npskirk> bijoo_ Wow, is this really necessary?  -XX:MaxPermSize=6g
+15:32 < bijoo_> npskirk: probably not, I use a ratio; I always give quarter just to be safe.
