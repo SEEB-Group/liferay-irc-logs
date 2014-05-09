@@ -92,3 +92,4 @@
 14:06 < bijoo_> npskirk: can you inspect the Exception object?
 14:06 < bijoo_> npskirk: it should have the details you're looking for.
 14:06 < npskirk> no, that's what's frustrating
+14:06 < bijoo_> npskirk: are you running EE with right source code?
