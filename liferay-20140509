@@ -116,3 +116,4 @@
 15:21 < bijoo_> npskirk: I mean, also can keep drilling the code; until you find where it's calling DB.
 15:22 < npskirk> bijoo_ I see what you mean — you think its a service call that's failing permission check
 15:22 < npskirk> bijoo_ That was my suspicion too — but the fact that the same user can load the portlet on one page, but not on another is confounding
+15:23 < bijoo_> npskirk: note that scopes and layout matter a lot.
