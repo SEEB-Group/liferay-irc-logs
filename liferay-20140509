@@ -108,3 +108,4 @@
 14:25 < npskirk> i guess IRC doesn't support sending image clips
 14:25 < npskirk> incidentally, I'm breaking at line 966 also
 14:25 < npskirk> _log.error(e, e);
+15:09 < bijoo_> npskirk: if you want to clear cache, you can there; In CP->Server Administration
