@@ -57,3 +57,4 @@
 11:40 <@jhf> so it’ll be much more modular and so for example you can “remove blogs” (right now, no matter what you do, there will always be blogs-related code in Liferay)
 11:41 <@jhf> not yet - one is forthcoming though. we are about to start doing milestone builds of 7
 11:41 <@jhf> and once that gets going, product management may find time to start saying what will be in 7
+11:41 < bijoo_> jhf: this is awesome; great job on that front there. Looking forward to Symposium there.
