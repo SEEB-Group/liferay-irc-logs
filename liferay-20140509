@@ -85,3 +85,4 @@
 13:06 < npskirk> Yes, I have a fair amount of custom permission configuration in my default.xml
 13:06 < npskirk> I'm on 6.1.2
 13:07 < bijoo_> npskirk: it's easier to give them quick review. But debugging will give the answer; though you may have to use an IDE; to set breakpoint conditions for ease there.
+13:07 < npskirk> Yeah, I use developer studio
