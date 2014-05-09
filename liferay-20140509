@@ -76,3 +76,4 @@
 13:03 < bijoo_> npskirk: yes, have you tried to debug with source code?
 13:04 < npskirk> I do locally when I'm willing to wait 5 minutes for a page load
 13:04 < npskirk> Where should I set the breakpoint?
+13:05 < bijoo_> npskirk: the Advanced Permission Checker's a start. com.liferay.portal.security.permission.AdvancedPermissionChecker.hasPermission(long, String, String, String)
