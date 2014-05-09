@@ -114,3 +114,4 @@
 15:20 < bijoo_> npskirk: I'm working on permissions problem too; but it's using site templates and the like; and propagation of permission change; I've found I need to check the database.
 15:21 < bijoo_> npskirk: so once you have data, check database; use the debug to find information; e.g. name, primkey, actionId, groupId, viewing user's id, etc.
 15:21 < bijoo_> npskirk: I mean, also can keep drilling the code; until you find where it's calling DB.
+15:22 < npskirk> bijoo_ I see what you mean — you think its a service call that's failing permission check
