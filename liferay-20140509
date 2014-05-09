@@ -87,3 +87,4 @@
 13:07 < bijoo_> npskirk: it's easier to give them quick review. But debugging will give the answer; though you may have to use an IDE; to set breakpoint conditions for ease there.
 13:07 < npskirk> Yeah, I use developer studio
 13:44 < npskirk> @bijoo_  Frustrating. I have a breakpoint at com.liferay.portal.security.permission.AdvancedPermissionChecker.hasPermission line 967.. This is inside a catch block.  It breaks on the _log() call, but nothing goes in the log, and the exception itself is not available to look at in the debugger.
+13:50 < npskirk> can the permission cache be turned off?
