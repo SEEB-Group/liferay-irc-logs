@@ -89,3 +89,4 @@
 13:44 < npskirk> @bijoo_  Frustrating. I have a breakpoint at com.liferay.portal.security.permission.AdvancedPermissionChecker.hasPermission line 967.. This is inside a catch block.  It breaks on the _log() call, but nothing goes in the log, and the exception itself is not available to look at in the debugger.
 13:50 < npskirk> can the permission cache be turned off?
 14:04 < bijoo_> npskirk: That type of error should print by default; for me it's on line 966 though there.
+14:06 < bijoo_> npskirk: can you inspect the Exception object?
