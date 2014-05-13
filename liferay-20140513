@@ -20,3 +20,4 @@
 13:00 < timmy___> no, it works perfectly for JSP’s of Liferay portlets
 13:00 < timmy___> but not for taglibs for example
 13:00 < timmy___> or common html files
+13:03 < timmy___> Liferay taglib jsps cann’t be customized by application adapter?
