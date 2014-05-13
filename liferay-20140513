@@ -27,3 +27,4 @@
 13:09 < timmy___> @modd: yes, but also for 1 specific site with application adapters?
 13:10 < modd> not if you're not willing to add a complexe site checking into your hook^^
 13:10 < modd> changing tags will always affect every usage of that tag
+14:33 < daq> Hi, when displaying content using a "Display Page", the page title ends up as: <Content Title>+<Display Page Title>. Do you know which is the best way of modifying this behavior?
