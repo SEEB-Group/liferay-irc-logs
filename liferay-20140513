@@ -19,3 +19,4 @@
 12:52 <@jhf> so are you trying to override a JSP in a custom portlet? i.e. some jsp that is NOT under webapps/ROOT/html ?
 13:00 < timmy___> no, it works perfectly for JSP’s of Liferay portlets
 13:00 < timmy___> but not for taglibs for example
+13:00 < timmy___> or common html files
