@@ -4,3 +4,4 @@
 20:57 < juan_> anybody knows where is field "genre" stored into the database??
 20:58 < juan_> many of the information that I am extracting is from User_ table
 20:58 < juan_> but I am not finding there this field :O
+21:45 < juan_> oh! I found it in the source ;) it is Contact_, thanks guys ;)
