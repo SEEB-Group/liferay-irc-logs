@@ -17,3 +17,4 @@
 12:49 <@jhf> still looking
 12:50 <@jhf> ahh official docs! https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/lp-6-1-dgen06-customizing-sites-and-site-templates-with-application-adapt-0
 12:52 <@jhf> so are you trying to override a JSP in a custom portlet? i.e. some jsp that is NOT under webapps/ROOT/html ?
+13:00 < timmy___> no, it works perfectly for JSP’s of Liferay portlets
