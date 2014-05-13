@@ -22,3 +22,4 @@
 13:00 < timmy___> or common html files
 13:03 < timmy___> Liferay taglib jsps cann’t be customized by application adapter?
 13:04 < timmy___> only the ones in /html/portlet
+13:08 < modd> taglibs can be hooked, too
