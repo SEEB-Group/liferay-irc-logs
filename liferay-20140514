@@ -8,3 +8,4 @@
 09:51 < bijoo_> Axxell look into liferay-portlet.xml
 16:39 < Naenyn> bijoo_: it appears that my user stays logged in when returning empty credentials. =( digging more...
 17:27 < bijoo_> Naenyn: do they have SSO browser cookies? Could it be other filter's logging them?
+18:02 < Naenyn> bijoo_: not unless liferay is doing that out-of-the-box. I don't have any custom filters.
