@@ -7,3 +7,4 @@
 09:51 < bijoo_> alex_ yes it seems it was taken out some point ./portal-web/docroot/html/portlet/dynamic_data_mapping/js/main.js
 09:51 < bijoo_> Axxell look into liferay-portlet.xml
 16:39 < Naenyn> bijoo_: it appears that my user stays logged in when returning empty credentials. =( digging more...
+17:27 < bijoo_> Naenyn: do they have SSO browser cookies? Could it be other filter's logging them?
