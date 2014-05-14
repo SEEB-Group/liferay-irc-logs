@@ -10,3 +10,4 @@
 17:27 < bijoo_> Naenyn: do they have SSO browser cookies? Could it be other filter's logging them?
 18:02 < Naenyn> bijoo_: not unless liferay is doing that out-of-the-box. I don't have any custom filters.
 18:02 < Naenyn> just the CAS one.
+18:07 < bijoo_> Naenyn: correct, I think it does out of the box. You can check out few ways on that here; easiest is through the control panel: com.liferay.portal.servlet.filters.sso.cas.CASFilter
