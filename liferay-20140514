@@ -14,3 +14,4 @@
 18:07 < bijoo_> By the "CAS one" you mean the custom one?
 18:07 < bijoo_> Or you mean the OOB CAS filter?
 18:52 < Naenyn> bijoo_: I'm using that filter. I'm also using a modified version of the CASAutoLogin .. I tried doing the same behavior as CASAutoLogin does for handling "no such user" (redirect, cas logout) but that doesn't seem to invalidate the session.. the user appears to still be logged in.
+19:52 < bijoo_> Naenyn: hmm have you tried debugging through the code?
