@@ -38,3 +38,4 @@
 18:23 < Naenyn> ah.. moot point, autologin skips the authenticator anyway...
 20:01 < bijoo_> Naenyn: seems you answered your own question here :)
 20:10 < bijoo_> daq: I tried in 6.1.2, can't see. What exactly is the issue here? Can you post it to https://imgur.com/?
+20:14 < Naenyn> bijoo_: yep.. now I'm just fighting with writing a customized version of the CASAutoLogin. =\
