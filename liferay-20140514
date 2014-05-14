@@ -4,3 +4,4 @@
 07:07 < alex_> hi! I dont have "File Upload" on my metadata fields on Liferay 6.2.  Does anyone know if was removed? 6.1 used to have it as this screenshot suggests https://www.liferay.com/c/document_library/get_file?groupId=14&uuid=df661c27-fdbe-49db-9803-d14aa4d00603
 07:18 < Axxell> Ive found some examples of a custom asset in liferay, a little unsure though how things work? can i just add an asset of any made upp class? If i make a class to hold the data of my content? Does liferay automaticly index added assets? Do i need to make custom indexer for it to be able to find my asset in the search?
 09:22 < bijoo_> Naenyn: yes, that would work; examples are there too.
+09:51 < bijoo_> alex_ yes it seems it was taken out some point ./portal-web/docroot/html/portlet/dynamic_data_mapping/js/main.js
