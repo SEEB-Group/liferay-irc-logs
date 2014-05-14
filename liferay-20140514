@@ -12,3 +12,4 @@
 18:02 < Naenyn> just the CAS one.
 18:07 < bijoo_> Naenyn: correct, I think it does out of the box. You can check out few ways on that here; easiest is through the control panel: com.liferay.portal.servlet.filters.sso.cas.CASFilter
 18:07 < bijoo_> By the "CAS one" you mean the custom one?
+18:07 < bijoo_> Or you mean the OOB CAS filter?
