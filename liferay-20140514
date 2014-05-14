@@ -5,3 +5,4 @@
 07:18 < Axxell> Ive found some examples of a custom asset in liferay, a little unsure though how things work? can i just add an asset of any made upp class? If i make a class to hold the data of my content? Does liferay automaticly index added assets? Do i need to make custom indexer for it to be able to find my asset in the search?
 09:22 < bijoo_> Naenyn: yes, that would work; examples are there too.
 09:51 < bijoo_> alex_ yes it seems it was taken out some point ./portal-web/docroot/html/portlet/dynamic_data_mapping/js/main.js
+09:51 < bijoo_> Axxell look into liferay-portlet.xml
