@@ -36,3 +36,4 @@
 16:46 < daq> bijoo_: Liferay 6.1.20
 17:35 < Naenyn> Is it possible to tell if the user is logging in via the out-of-the-box login portlet or via whatever /c/portal/login is wired up to use?
 18:23 < Naenyn> ah.. moot point, autologin skips the authenticator anyway...
+20:01 < bijoo_> Naenyn: seems you answered your own question here :)
