@@ -40,3 +40,4 @@
 20:10 < bijoo_> daq: I tried in 6.1.2, can't see. What exactly is the issue here? Can you post it to https://imgur.com/?
 20:14 < Naenyn> bijoo_: yep.. now I'm just fighting with writing a customized version of the CASAutoLogin. =\
 20:15 < bijoo_> Naenyn: yes, but at least have that as base to start.
+20:18 < Naenyn> bijoo_: would you happen to know how I could invalidate the current user's login attempt in an AutoLogin ..? Is it as simple as returning an empty credentials array?
