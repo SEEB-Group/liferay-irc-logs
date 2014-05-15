@@ -37,3 +37,4 @@
 12:03 < aj_> bijoo_, it is, I used it in 6.1. But topolik told me it was removed in 6.2 for security
 12:04 < bijoo_> aj_: oh, okay, that makes sense; interesting.
 12:04 < aj_> but your solution is better from the upgrade perspective :)
+12:04 < bijoo_> aj_: using Enterprise version I don't see it there; maybe it was removed in a fix pack.
