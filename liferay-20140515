@@ -1,3 +1,4 @@
 --- Log opened Thu May 15 00:00:13 2014
 02:40 < Naenyn> bijoo_: That'll be a task for tomorrow afternoon. All of the research I've done on invalidating a session points me to redirecting to /c/portal/logout, but I can't do that.. I need to log the user out but show a specific error page.
 02:40 < Naenyn> basically just like the CAS no-such-user thing.
+09:59 < jshinergy> Hello Everyone!
