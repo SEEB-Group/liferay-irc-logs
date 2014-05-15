@@ -34,3 +34,4 @@
 12:00 < bijoo_> http://www.liferaysolution.com/2013/05/ajax-call-using-resource-url-spring-mvc.html
 12:00 < aj_> circ-user-IwBOk, http://pastebin.com/3KPMYXaM
 12:03 < bijoo_> aj_: not sure if that's still there in 6.1
+12:03 < aj_> bijoo_, it is, I used it in 6.1. But topolik told me it was removed in 6.2 for security
