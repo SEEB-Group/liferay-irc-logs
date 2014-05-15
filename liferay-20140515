@@ -67,3 +67,4 @@
 12:28 < bijoo_> aj_: not sure how that'll turn out for anyone.
 12:28 < bijoo_> jshinergy: you can load the bean and call it that way. BeanLocatorService; I'll be back soon.
 12:37 < aj_> jshinergy, I haven;t used SO .. but you should be able to use the remote service interfaces as well.
+12:42 < bijoo_> jshinergy: PortletBeanLocator; and some usage: https://www.google.com/search?client=ubuntu&channel=fs&q=portletbeanlocator&ie=utf-8&oe=utf-8
