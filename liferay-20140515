@@ -28,3 +28,4 @@
 11:55 < aj_> AlloyUI has a LiferayPortletURL
 11:56 < aj_> object ... you can create a resource url with it
 11:59 < circ-user-IwBOk> and than make a XmlHTTP request using this url ?
+11:59 < aj_> easier than that
