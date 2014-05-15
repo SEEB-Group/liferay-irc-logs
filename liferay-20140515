@@ -73,3 +73,4 @@
 15:51 < barrie_> good day...
 15:51 < barrie_> I'm upgrading some 6.1 code which uses PortalUtil.renderPage()
 15:51 < barrie_> but in 6.2 that method is gone (no deprecation or comments)
+15:51 < barrie_> anyong find the replacement for it?
