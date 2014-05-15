@@ -69,3 +69,4 @@
 12:37 < aj_> jshinergy, I haven;t used SO .. but you should be able to use the remote service interfaces as well.
 12:42 < bijoo_> jshinergy: PortletBeanLocator; and some usage: https://www.google.com/search?client=ubuntu&channel=fs&q=portletbeanlocator&ie=utf-8&oe=utf-8
 12:42 < bijoo_> whoops, the correct search result is this one: https://www.google.com/search?client=ubuntu&channel=fs&q=portletbeanlocator&ie=utf-8&oe=utf-8#channel=fs&nfpr=1&q=portletbeanlocator
+12:42 < bijoo_> https://github.com/enochchu/lrdcom-recipes/blob/master/hubspot-vm-script/hubspot_profile_display.vm
