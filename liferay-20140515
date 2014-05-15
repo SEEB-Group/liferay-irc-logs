@@ -66,3 +66,4 @@
 12:27 < jshinergy> yes i would like to call the api
 12:28 < bijoo_> aj_: not sure how that'll turn out for anyone.
 12:28 < bijoo_> jshinergy: you can load the bean and call it that way. BeanLocatorService; I'll be back soon.
+12:37 < aj_> jshinergy, I haven;t used SO .. but you should be able to use the remote service interfaces as well.
