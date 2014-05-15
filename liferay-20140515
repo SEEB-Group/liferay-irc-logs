@@ -25,3 +25,4 @@
 11:55 < circ-user-IwBOk> can you please help me to understand how to call serveResource method from javascript
 11:55 < aj_> circ-user-IwBOk, which version?
 11:55 < circ-user-IwBOk> 6.1
+11:55 < aj_> AlloyUI has a LiferayPortletURL
