@@ -38,3 +38,4 @@
 12:04 < bijoo_> aj_: oh, okay, that makes sense; interesting.
 12:04 < aj_> but your solution is better from the upgrade perspective :)
 12:04 < bijoo_> aj_: using Enterprise version I don't see it there; maybe it was removed in a fix pack.
+12:05 < aj_> liferay-portlet.js is missing?
