@@ -75,3 +75,4 @@
 15:51 < barrie_> but in 6.2 that method is gone (no deprecation or comments)
 15:51 < barrie_> anyong find the replacement for it?
 17:21 < bijoo_> barrie_: i ran into the same issue as well; not sure if I found a good solution. Might waynt to see usage of that before; in the actual Liferay source code there; and see in 6.2 what replaced it.
+17:21 < bijoo_> barrie_: at time, I was only checking upgrade; didn't actually do the upgrade.
