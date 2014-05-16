@@ -7,3 +7,4 @@
 09:37 < modd_> hmm
 09:52 < modd_> nullpointer in com.liferay.portlet.assetpublisher.action.RSSAction:223 (sb.append(assetRendererFactory.getType()); - assetRendererFactory is null)
 16:55 < daq> hi to all! Do any of you know of an updated guide/tutorial on creating PHP portlets with Liferay?
+17:22 < bijoo_> daq: what's the one you're currently looking at?
