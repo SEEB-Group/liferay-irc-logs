@@ -80,3 +80,4 @@
 19:06 < barrie_> bijoo_ thanks.. I'll look a little deeper
 20:26 < Naenyn> for the life of me, I cannot figure out how to force a user logout without redirecting to /c/portal/logout. =
 20:26 < Naenyn> =(
+20:27 < Naenyn> tried removing things from session.. session.invalidate.. copying the CAS "no such user" behavior.. My redirect to my error page works but the user is logged in =\
