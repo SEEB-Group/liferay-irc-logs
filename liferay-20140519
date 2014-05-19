@@ -23,3 +23,4 @@
 04:53 < modd_> topolik: I simply tried to create an ext plugin
 04:54 < modd_> with sdk of 6.2 ga1 it works perfectly
 04:55 < modd_> with the latest sdk nothing happens. after I've deleted some of the URLs, it resolves some of the dependencies but in the end it stops and says, that it "can't resolve the dependency"
+05:01 < topolik> ah, ok
