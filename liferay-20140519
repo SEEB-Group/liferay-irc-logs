@@ -11,3 +11,4 @@
 01:55 < rocknroll_> so if user arrives at my site, he gets redirected to the login page, which is visible to guest
 01:56 < rocknroll_> and after sign in, he gets redirected to either where he was originally going, or front pgae
 01:56 < rocknroll_> yes, seems to work now :)
+01:58 < rocknroll_> For future reference, is there a way to do this "in bulk"? This was pretty hard work for 100+ pages :P
