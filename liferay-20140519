@@ -30,3 +30,4 @@
 07:20 < modd_> hmm
 07:21 < modd_> liferay-plugins-sdk-6.2-ce-ga2-20140319114139101 - this is what I have here
 07:22 < topolik> yup, the same
+07:22 < topolik> now it uses Ivy to resolve the references
