@@ -21,3 +21,4 @@
 04:27 < topolik> ok
 04:27 < topolik> how can I test it?
 04:53 < modd_> topolik: I simply tried to create an ext plugin
+04:54 < modd_> with sdk of 6.2 ga1 it works perfectly
