@@ -9,3 +9,4 @@
 01:51 < modd_> do it for all pages that need signing
 01:55 < rocknroll_> did that, thanks. Also added a login-page with sign  in portlet
 01:55 < rocknroll_> so if user arrives at my site, he gets redirected to the login page, which is visible to guest
+01:56 < rocknroll_> and after sign in, he gets redirected to either where he was originally going, or front pgae
