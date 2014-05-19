@@ -8,3 +8,4 @@
 01:50 < modd_> and take away guest permissions
 01:51 < modd_> do it for all pages that need signing
 01:55 < rocknroll_> did that, thanks. Also added a login-page with sign  in portlet
+01:55 < rocknroll_> so if user arrives at my site, he gets redirected to the login page, which is visible to guest
