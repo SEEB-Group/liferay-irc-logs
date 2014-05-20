@@ -30,3 +30,4 @@
 06:56 < modd_> for all liferay related things use the liferay user id, for all legacy stuff MyServiceMatcher.getLegacyId(liferayuserid)
 07:10 < dave_k> yeah, I fear that's the way to go...
 07:35 < sm`> hello... im getting new error http://pastebin.com/7BBQt2f8
+07:35 < sm`> when i try to open portlet.xml and liferay-display.xml
