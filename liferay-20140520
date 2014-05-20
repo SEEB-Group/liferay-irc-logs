@@ -19,3 +19,4 @@
 06:16 < dave_k> that's already on our schedule. current question is: how can we match the old userIds with liferay?
 06:17 < modd_> screennames?
 06:18 < modd_> i don't know your old tables content, so I cannot tell you how to get them together
+06:19 < dave_k> screennames are already present in the old system, used as login name
