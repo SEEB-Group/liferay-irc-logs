@@ -7,3 +7,4 @@
 06:02 < dave_k> would setUserId also change references?
 06:02 < modd_> I don't think so
 06:04 < dave_k> modd_: it would make it easier to import the data from the old system.
+06:04 < modd_> does your new system already exists?
