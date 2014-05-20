@@ -15,3 +15,4 @@
 06:10 < modd_> you could create another table which matches old and new ids
 06:10 < dave_k> the other option would be a translation table to translate between them...
 06:12 < dave_k> ... but as we know that that userId is also the Customer ID on company letters, identifying the user in all communication, we would need to change some UI so that the staff wouldn't be irritated
+06:14 < modd_> how about creating an own service with the service builder, which also provides some methods you can later use and fill its table by hand with your existing data
