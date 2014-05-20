@@ -63,3 +63,4 @@
 14:51 < modd> instead of overriding the class I would add an model listener to the JournalArticle model and use onAfterCreate() and onAfterUpdate()
 14:54 < aj_> modd, I can't, I need details from the (JSP) request to determine whether or not I need to do anything. Essentially what I am doing is providing the ability to set "precision" publishing instead of a "window". So if you say Tuesday May 20 at 4:00pm EST and check the "precision publishing" box then I will dynamically create a scheduled job to force publication of this content item at the time specified.
 14:55 < aj_> In order to do that I need the extra fields on the JSP. I add the struts hook but use the original to do all the stuff I need to do anyway (add/update the content details).
+14:55 < aj_> Like I said, it works fine with "update" commands, its the add that is a pain. Perhaps I just need to make the restriction that you have to save as draft at least first.
