@@ -56,3 +56,4 @@
 14:35 < aj_> modd, I didn't see anything readily available in there when I scanned it, but maybe I'll check again.
 14:36 < modd> maybe getLatestArticle(long groupId, String className, long classPK)
 14:46 < aj_> modd, yeah I looked at that one but didn't try it. Seems like a good option though. I am just worried about multiple content authors working at the same time and possible collisions.
+14:48 < modd> what about dynamicQuery()
