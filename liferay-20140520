@@ -44,3 +44,4 @@
 13:02 < aj_> I can't see a way to get it though. The request map has an "articleId" parameter for newly created content, this is not populated.
 13:53 < aj_> bijoo_,  you have any thoughts?
 13:58 < modd> aj_: have a look at the original portlet action. it will show you how to get the article id
+14:02 < aj_> modd, I'll try that but I'm not sure. When the item is being created for the first time the articleId would be generated right? so the original action probably doesn't need it or care that it is missing. lemme have a look though.
