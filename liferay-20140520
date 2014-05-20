@@ -59,3 +59,4 @@
 14:48 < modd> what about dynamicQuery()
 14:49 < modd> or getArticles(long groupId, long folderId), iterate through the list and check for the title/content
 14:50 < modd> or getLatestArticleByUrlTitle(long groupId, String urlTitle, int status)
+14:50 < aj_> modd, sure -- all options, but don't they feel a little on the hack side? I mean, an ID is generated... I just want to make sure that there isn't a way to get it back by that first.
