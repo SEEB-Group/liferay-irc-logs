@@ -49,3 +49,4 @@
 14:03 < modd> have a look at the journalarticle table in your db
 14:17 < aj_> modd, that much I know already. Whenyou perform a save action in the control panel though the CMD value (for new content) will be "add" so it doesn't need the article ID to perform the action. The article is created and (assuming you have auto generate Ids enabled) it will create an ID for you right? but when that action completes you have the new article in the database but there is no return on the process action method -- so the article object
 14:17 < aj_> does not comeback. My struts override hook does more stuff after the save, so I need that ID. If you are updating existing content, then the ID is passed in as a parameter becuase the content already exists.
+14:27 < modd> you could try to fetch the article by name
