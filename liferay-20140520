@@ -10,3 +10,4 @@
 06:04 < modd_> does your new system already exists?
 06:04 < modd_> or do you want to migrate into a new liferay?
 06:06 < modd_> you cannot simply mix the databases of two installations, it's not only the user table but everything, which could simply blow up
+06:07 < dave_k> old system: legacy php stuff that started with PHP2. new system: fresh liferay 6.2 with standard database scheme + modified clean database scheme of old php system
