@@ -47,3 +47,4 @@
 14:02 < aj_> modd, I'll try that but I'm not sure. When the item is being created for the first time the articleId would be generated right? so the original action probably doesn't need it or care that it is missing. lemme have a look though.
 14:03 < modd> it will create an articleId, yes, but every version of one article has an own id
 14:03 < modd> have a look at the journalarticle table in your db
+14:17 < aj_> modd, that much I know already. Whenyou perform a save action in the control panel though the CMD value (for new content) will be "add" so it doesn't need the article ID to perform the action. The article is created and (assuming you have auto generate Ids enabled) it will create an ID for you right? but when that action completes you have the new article in the database but there is no return on the process action method -- so the article object
