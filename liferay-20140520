@@ -43,3 +43,4 @@
 13:02 < aj_> question is -- do you know if it is possible to get the article Id? because my custom logic records some details in a service builder implementation and I need the article Id as part of the information being persisted.
 13:02 < aj_> I can't see a way to get it though. The request map has an "articleId" parameter for newly created content, this is not populated.
 13:53 < aj_> bijoo_,  you have any thoughts?
+13:58 < modd> aj_: have a look at the original portlet action. it will show you how to get the article id
