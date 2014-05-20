@@ -3,3 +3,4 @@
 06:01 < modd_> you can setUserId() and update the user
 06:01 < modd_> but I wouldn't do it
 06:01 < modd_> why would you want to reuse old ids of another system?
+06:02 < modd_> you could add an expando to your user and transfer the old id into this field
