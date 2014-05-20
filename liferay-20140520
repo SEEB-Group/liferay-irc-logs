@@ -51,3 +51,4 @@
 14:17 < aj_> does not comeback. My struts override hook does more stuff after the save, so I need that ID. If you are updating existing content, then the ID is passed in as a parameter becuase the content already exists.
 14:27 < modd> you could try to fetch the article by name
 14:31 < aj_> too bad I can't get access to the JournalUtil ... there is a getRecentArticles in there.
+14:32 < aj_> gonna see if it gets added to the request under the webkey JOURNAL_ARTICLE.
