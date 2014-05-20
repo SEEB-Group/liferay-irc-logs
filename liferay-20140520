@@ -45,3 +45,4 @@
 13:53 < aj_> bijoo_,  you have any thoughts?
 13:58 < modd> aj_: have a look at the original portlet action. it will show you how to get the article id
 14:02 < aj_> modd, I'll try that but I'm not sure. When the item is being created for the first time the articleId would be generated right? so the original action probably doesn't need it or care that it is missing. lemme have a look though.
+14:03 < modd> it will create an articleId, yes, but every version of one article has an own id
