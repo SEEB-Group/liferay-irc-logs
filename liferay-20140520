@@ -22,3 +22,4 @@
 06:19 < dave_k> screennames are already present in the old system, used as login name
 06:20 < dave_k> sure, I'm aware of you not knowing our old system ;)
 06:22 < dave_k> we know that re-using the userId in liferay would be the easy way for us. what we do not know are the side-effects of this approach in liferay.
+06:29 < modd_> the userId appears everywhere in the DB. if you manage to get all ids replaced, it might work just fine afterwards
