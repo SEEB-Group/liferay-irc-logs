@@ -4,3 +4,4 @@
 06:01 < modd_> but I wouldn't do it
 06:01 < modd_> why would you want to reuse old ids of another system?
 06:02 < modd_> you could add an expando to your user and transfer the old id into this field
+06:02 < dave_k> would setUserId also change references?
