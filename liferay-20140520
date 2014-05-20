@@ -27,3 +27,4 @@
 06:45 < modd_> if it would be my task, I'd start with the service builder and let generate a table with userId and phpUserId. then get my sqldeveloper up and fill the table with liferays user id and phps user id where lr.screenname = php.screenname
 06:45 < modd_> then restart liferay and everything'S fine ;)
 06:50 < dave_k> yeah, and on creating our portlets to make use of the data in the migrated DBs, we'll always have to juggle with two types of user IDs... error-prone, if you ask me.
+06:56 < modd_> for all liferay related things use the liferay user id, for all legacy stuff MyServiceMatcher.getLegacyId(liferayuserid)
