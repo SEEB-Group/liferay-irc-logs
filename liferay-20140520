@@ -25,3 +25,4 @@
 06:29 < modd_> the userId appears everywhere in the DB. if you manage to get all ids replaced, it might work just fine afterwards
 06:43 < dave_k1> modd_: okay, thanks for your opinions. looks like we're stuck between a rock and a hard place. either play surgeon in liferay or in the migrating DB or in our code when we translate between them...
 06:45 < modd_> if it would be my task, I'd start with the service builder and let generate a table with userId and phpUserId. then get my sqldeveloper up and fill the table with liferays user id and phps user id where lr.screenname = php.screenname
+06:45 < modd_> then restart liferay and everything'S fine ;)
