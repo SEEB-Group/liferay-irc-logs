@@ -52,3 +52,4 @@
 14:27 < modd> you could try to fetch the article by name
 14:31 < aj_> too bad I can't get access to the JournalUtil ... there is a getRecentArticles in there.
 14:32 < aj_> gonna see if it gets added to the request under the webkey JOURNAL_ARTICLE.
+14:34 < modd> JournalArticleLocalServiceUtil?
