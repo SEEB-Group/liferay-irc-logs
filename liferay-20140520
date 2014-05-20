@@ -40,3 +40,4 @@
 11:00 < bijoo_> sm`: Gregory Amerson is heading that; he responds lightning fast to messages; http://www.liferay.com/community/forums/-/message_boards/category/4627757
 12:59 < aj_> hey rotty3000 -- do you have a minute for a struts hook question?
 13:01 < aj_> rotty3000, I have created a struts hook for the edit web content action. In a JSP Hook I have added a few fields to the schedule.jsp page. The struts hook will check for the field values and take action accordingly. In my custom hook class I first execute the originalStrutsPortletAction since I want the default behaviour of saving the data to happen. Then, afterwards I added my logic.
+13:02 < aj_> question is -- do you know if it is possible to get the article Id? because my custom logic records some details in a service builder implementation and I need the article Id as part of the information being persisted.
