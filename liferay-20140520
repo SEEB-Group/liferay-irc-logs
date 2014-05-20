@@ -12,3 +12,4 @@
 06:06 < modd_> you cannot simply mix the databases of two installations, it's not only the user table but everything, which could simply blow up
 06:07 < dave_k> old system: legacy php stuff that started with PHP2. new system: fresh liferay 6.2 with standard database scheme + modified clean database scheme of old php system
 06:08 < dave_k> but as we know that migrating a DB designed by a PHP noob is not side-effect-free, we would like to keep the userIds...
+06:10 < modd_> you could create another table which matches old and new ids
