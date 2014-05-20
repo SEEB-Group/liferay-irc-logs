@@ -58,3 +58,4 @@
 14:46 < aj_> modd, yeah I looked at that one but didn't try it. Seems like a good option though. I am just worried about multiple content authors working at the same time and possible collisions.
 14:48 < modd> what about dynamicQuery()
 14:49 < modd> or getArticles(long groupId, long folderId), iterate through the list and check for the title/content
+14:50 < modd> or getLatestArticleByUrlTitle(long groupId, String urlTitle, int status)
