@@ -23,3 +23,4 @@
 09:18 < sl33k> also, a quick school of thought question as to how apps are to be divided
 09:19 < sl33k> we usually break work into portlets assign some to community alike
 09:19 < sl33k> but in reality they are all one web application
+09:19 < sl33k> hence it does my head in that java treats each portlet already as a seperate web app
