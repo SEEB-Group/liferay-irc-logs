@@ -24,3 +24,4 @@
 09:19 < sl33k> we usually break work into portlets assign some to community alike
 09:19 < sl33k> but in reality they are all one web application
 09:19 < sl33k> hence it does my head in that java treats each portlet already as a seperate web app
+09:21 < bijoo_> sl33k: to rephrase the question, you can ask like : 1 package, many portlets vs. many packages, 1 portlet
