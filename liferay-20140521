@@ -8,3 +8,4 @@
 08:59 < sl33k> aj_: e.g a typical hibernate listener
 09:01 < sl33k> i usually also like to setup my project has maven etc
 09:03 < aj_> support for maven in 6.2 is solid -- I haven't used it myself but I have a few clients that do and they said its much better than previous incarnations.
+09:03 < aj_> brb
