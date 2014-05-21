@@ -3,3 +3,4 @@
 08:56 < sl33k> i'm picking of liferay after a long break...how to get started? which liferay+tomcat should i use, etc etc
 08:58 < aj_> sl33k, if you are loooking for the latest stable, 6.2
 08:59 < sl33k> aj_: also got some questions...
+08:59 < sl33k> i) has to do with how to share common codebase across portlets without recopying, also common services/features
