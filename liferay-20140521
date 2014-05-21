@@ -25,3 +25,4 @@
 09:19 < sl33k> but in reality they are all one web application
 09:19 < sl33k> hence it does my head in that java treats each portlet already as a seperate web app
 09:21 < bijoo_> sl33k: to rephrase the question, you can ask like : 1 package, many portlets vs. many packages, 1 portlet
+09:22 < bijoo_> former means mostly one servlet-context; latter means lots servlet-contexts and such.
