@@ -66,3 +66,4 @@
 14:55 < aj_> Like I said, it works fine with "update" commands, its the add that is a pain. Perhaps I just need to make the restriction that you have to save as draft at least first.
 14:56 < modd> well, then it's better to get the article again, because it will do what you need and no user will complain about the usage
 21:31 < bijoo_> aj_: I know exactly the issue you mean; my suggestion is to also do this: override the Journal Service Impl; which is called by original action; and that will give you some more optionss there; 1) create a *ThreadLocal class just for that; and in Impl set article Id; and retrieve it in the post action class. 2) do the logic in the Service Impl.
+21:33 < bijoo_> In long term, need to file improve ticket; so that the Ids are exposed somehow. Otherwise OSGi might answer; but I'm not keen on the details here.
