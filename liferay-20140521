@@ -46,3 +46,4 @@
 13:59 < daq> ok, so final question... (I'll do some research on it), does AUI provide me with a global selector variable such as jQuery's $, or do I have to call YUI().use('node', function (Y) {   Y.all('selector'); }); ?
 14:00 < daq> In other words, is there a shorthand method such as $ ?
 14:01 < modd> no, usually you will use AUI(). or just A.
+14:02 < daq> thanks again, much appreciated!
