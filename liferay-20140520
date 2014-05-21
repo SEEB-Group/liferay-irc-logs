@@ -70,3 +70,4 @@
 21:33 < aj_> bijoo_, In the end I solved it by adding a conditional to the JSP whereby the "precision publishing" fields are disabled unless a draft or published version exists.
 21:33 < bijoo_> aj_: that works as well less lots of JSPs.
 21:33 < aj_> I added some text to the DIV that is displayed only when the fields are disabled.
+21:34 < aj_> the text basically says that you must have either a draft or published content before you can do precision scheduling.
