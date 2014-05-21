@@ -35,3 +35,4 @@
 11:04 < bijoo_> sl33k: haven't tried maven in a while here ; looks like liferay has artifact repo; so as long as that works, should be okay.
 13:48 < daq> Hi, does Liferay 6.2 includes jQuery?
 13:53 < modd> nope
+13:53 < modd> it uses AlloyUI 2.0
