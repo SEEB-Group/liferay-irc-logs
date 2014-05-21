@@ -38,3 +38,4 @@
 13:53 < modd> it uses AlloyUI 2.0
 13:54 < daq> ok, cool....
 13:54 < modd> however, if you need jquery in your portlet, use can use it
+13:54 < daq> just to make sure I wasn't tripping; did Liferay 6.1 included it?
