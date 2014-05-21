@@ -28,3 +28,4 @@
 09:22 < bijoo_> former means mostly one servlet-context; latter means lots servlet-contexts and such.
 09:23 < bijoo_> for me it comes down to just one question: are the pieces mostly independent? tightly coupled or loosely coupled code
 09:25 < sl33k> bijoo_: i prefer to have just one single war with plenty portlets within
+09:40 < sl33k> bijoo_: are you able to get liferay + maven + eclipse ide to work smoothly?
