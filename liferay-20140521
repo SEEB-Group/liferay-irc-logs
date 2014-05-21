@@ -47,3 +47,4 @@
 14:00 < daq> In other words, is there a shorthand method such as $ ?
 14:01 < modd> no, usually you will use AUI(). or just A.
 14:02 < daq> thanks again, much appreciated!
+14:17 < bijoo_> daq: you know AUI's on top of YUI; so can also use their tutorials
