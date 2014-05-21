@@ -20,3 +20,4 @@
 09:15 < jardineworks> sl33k, I'm not a jboss fan to be honest and I have never used anything in my liferay work that warrants it over Tomcat.
 09:16 < jardineworks> topolik, gonna PM you for the sensitive stuff, then we can chat in here for all the loggers and such :)
 09:18 < sl33k> jardineworks: yeah, same here. but i have always used either jpa/hibernate and spring in apps...trying to play around with Java EE cool stuffs. and an enterprise server is easiest way to get this working
+09:18 < sl33k> also, a quick school of thought question as to how apps are to be divided
