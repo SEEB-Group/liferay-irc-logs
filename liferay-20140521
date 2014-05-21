@@ -43,3 +43,4 @@
 13:55 < modd> nope. it was alloyui, too
 13:56 < daq> all right, thanks!
 13:57 < modd> np
+13:59 < daq> ok, so final question... (I'll do some research on it), does AUI provide me with a global selector variable such as jQuery's $, or do I have to call YUI().use('node', function (Y) {   Y.all('selector'); }); ?
