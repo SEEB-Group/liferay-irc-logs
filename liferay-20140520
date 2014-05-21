@@ -69,3 +69,4 @@
 21:33 < bijoo_> In long term, need to file improve ticket; so that the Ids are exposed somehow. Otherwise OSGi might answer; but I'm not keen on the details here.
 21:33 < aj_> bijoo_, In the end I solved it by adding a conditional to the JSP whereby the "precision publishing" fields are disabled unless a draft or published version exists.
 21:33 < bijoo_> aj_: that works as well less lots of JSPs.
+21:33 < aj_> I added some text to the DIV that is displayed only when the fields are disabled.
