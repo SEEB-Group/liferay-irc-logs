@@ -3,3 +3,4 @@
 05:36 < topolik> modd_: if you are on 6.2 try to look at LayoutFriendlyURLLocalServiceImpl
 05:37 < modd_> yep, 6.2
 05:40 < modd_> am I supposed to override addLayoutFriendlyURL methods and simply add the friendlyURL of the parent page to whatever gets saved?
+05:40 < modd_> I found this old post: http://www.liferay.com/de/community/forums/-/message_boards/message/29170097 - he's doing something similiar, just on another class
