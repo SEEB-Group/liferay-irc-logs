@@ -1,0 +1,2 @@
+--- Log opened Thu May 22 00:00:22 2014
+05:29 < modd_> hi. did someone already use url rewriting? I'd like to change a url from host/web/sitename/pagename to host/sitename/parentpagename/pagename - so basically I want to add parent pages of a page into the url
