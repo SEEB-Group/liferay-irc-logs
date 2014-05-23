@@ -7,3 +7,4 @@
 07:18 < modd_> does someone know how liferay gets the friendlyURL for creating the links? it does not use grouplocalserviceimpl methods :\
 09:38 < topolik> modd_: look at PortalImpl
 09:39 < modd_> I had to manipulate the group model impl
+09:39 < modd_> it works so far but I have some issues with my delimiter, which I've added between sites and pages in the url
