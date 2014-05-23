@@ -57,3 +57,4 @@
 16:21 < modd> with liferay you have to be I-do-everything-so-it-finally-works guy
 16:21 < jardineworks> Guest36660, it's mixed ... so if you just want to do styling then you can leave the java code alone and just modify the HTML around it.
 16:22 < Guest36660> I'd love to just do the styling/modding the templates but the portal_normal.ftl page is displaying the "left over" portlets from the user after sign out.
+16:22 < Guest36660> Im not sure how to get rid of that.
