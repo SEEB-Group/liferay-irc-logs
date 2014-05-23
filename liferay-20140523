@@ -1,3 +1,4 @@
 --- Log opened Fri May 23 00:00:24 2014
 01:53 < rocknrol1_> hey all. trying to set up NTLM auth
 01:53 < rocknrol1_> getting stringindexoutofbounds after login
+01:54 < rocknrol1_> rather, out of range: -1
