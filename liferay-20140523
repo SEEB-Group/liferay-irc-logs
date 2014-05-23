@@ -72,3 +72,4 @@
 16:28 < jardineworks> so basically, they give me a "static" site... and I will pull it apart and place it into the portlets, jsp hooks, theme, etc.
 16:34 < Guest36660> really? Thats interesting. They aren't telling me that...
 16:35 < Guest36660> Well. I have my liferay IDE I made a hook project, and there is essentially nothing there.
+16:35 < Guest36660> Other than the libs. Maybe I need to learn j2ee.
