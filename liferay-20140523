@@ -4,3 +4,4 @@
 01:54 < rocknrol1_> rather, out of range: -1
 05:22 < modd_> hey topolik. I've got the page-subpage url stuff done, now I'm doing the same thing for sites-subsites...
 06:36 < bosua> this channel really quiet
+07:18 < modd_> does someone know how liferay gets the friendlyURL for creating the links? it does not use grouplocalserviceimpl methods :\
