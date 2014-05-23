@@ -9,3 +9,4 @@
 09:39 < modd_> I had to manipulate the group model impl
 09:39 < modd_> it works so far but I have some issues with my delimiter, which I've added between sites and pages in the url
 09:40 < modd_> some sepcial cases I have to solve
+09:40 < modd_> special*
