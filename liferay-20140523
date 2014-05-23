@@ -54,3 +54,4 @@
 16:19 < jardineworks> seriously... just google Liferay JSP hook and there are a million examples. If you are using Liferay IDE or the plugins for eclipse it is even easier.
 16:20 < Guest36660> okay, but does the jsp hook use any templates? otherwise Id be better off passing this task to the j2ee devs.
 16:20 < Guest36660> im just the frontend guy
+16:21 < modd> with liferay you have to be I-do-everything-so-it-finally-works guy
