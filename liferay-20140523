@@ -52,3 +52,4 @@
 16:19 < modd> internet is pretty good, at least I heard so^^
 16:19 < bijoo_> Guest36660: you can Google "create hook liferay"'s fine :)
 16:19 < jardineworks> seriously... just google Liferay JSP hook and there are a million examples. If you are using Liferay IDE or the plugins for eclipse it is even easier.
+16:20 < Guest36660> okay, but does the jsp hook use any templates? otherwise Id be better off passing this task to the j2ee devs.
