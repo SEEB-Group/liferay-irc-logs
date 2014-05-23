@@ -66,3 +66,4 @@
 16:24 < jardineworks> Guest36660, it's just creating a regular old jsp hook and picking the login.jsp
 16:26 < Guest36660> <--- does not know jsp.
 16:26 < Guest36660> or j2ee rather
+16:27 < jardineworks> since all you want to change is the styling, you don't need to.
