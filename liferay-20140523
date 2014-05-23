@@ -62,3 +62,4 @@
 16:23 < Guest36660> And I want to add classes to the sign in form. Which I'm not sure where it is.
 16:23 < jardineworks> you have to log in as the admin, go to the page and remove the unwanted portlets.
 16:23 < jardineworks> sign in form = jsp hook,
+16:23 < Guest36660> Do you know of any examples for a sign in form = jsp hook?
