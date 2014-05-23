@@ -59,3 +59,4 @@
 16:22 < Guest36660> I'd love to just do the styling/modding the templates but the portal_normal.ftl page is displaying the "left over" portlets from the user after sign out.
 16:22 < Guest36660> Im not sure how to get rid of that.
 16:23 < bijoo_> Guest36660: another way is to edit the theme; e.g. have a modal login form there; but if you want to have full-screen, not best.
+16:23 < Guest36660> And I want to add classes to the sign in form. Which I'm not sure where it is.
