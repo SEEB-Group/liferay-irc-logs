@@ -36,3 +36,4 @@
 16:16 < Guest36660> jardineworks, essentially yes. Think along the lines of dropbox's login page.
 16:16 < bijoo_> Guest36660: that's probably since those are on the page
 16:17 < jardineworks> Guest36660, JSP override for the page and change it to look however you want.
+16:17 < Guest36660> a hook?
