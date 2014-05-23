@@ -55,3 +55,4 @@
 16:20 < Guest36660> okay, but does the jsp hook use any templates? otherwise Id be better off passing this task to the j2ee devs.
 16:20 < Guest36660> im just the frontend guy
 16:21 < modd> with liferay you have to be I-do-everything-so-it-finally-works guy
+16:21 < jardineworks> Guest36660, it's mixed ... so if you just want to do styling then you can leave the java code alone and just modify the HTML around it.
