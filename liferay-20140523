@@ -68,3 +68,4 @@
 16:26 < Guest36660> or j2ee rather
 16:27 < jardineworks> since all you want to change is the styling, you don't need to.
 16:27 < modd> jsp is like extended html. you can put your default stuff around the existing things
+16:27 < jardineworks> though I should add that NORMALLY... with this type of work, I have a front end guy deliver to me the HTML and I will make the JSP changes.
