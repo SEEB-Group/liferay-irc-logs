@@ -60,3 +60,4 @@
 16:22 < Guest36660> Im not sure how to get rid of that.
 16:23 < bijoo_> Guest36660: another way is to edit the theme; e.g. have a modal login form there; but if you want to have full-screen, not best.
 16:23 < Guest36660> And I want to add classes to the sign in form. Which I'm not sure where it is.
+16:23 < jardineworks> you have to log in as the admin, go to the page and remove the unwanted portlets.
