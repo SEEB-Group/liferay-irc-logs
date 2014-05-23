@@ -63,3 +63,4 @@
 16:23 < jardineworks> you have to log in as the admin, go to the page and remove the unwanted portlets.
 16:23 < jardineworks> sign in form = jsp hook,
 16:23 < Guest36660> Do you know of any examples for a sign in form = jsp hook?
+16:24 < jardineworks> Guest36660, it's just creating a regular old jsp hook and picking the login.jsp
