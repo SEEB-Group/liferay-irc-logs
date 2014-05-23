@@ -65,3 +65,4 @@
 16:23 < Guest36660> Do you know of any examples for a sign in form = jsp hook?
 16:24 < jardineworks> Guest36660, it's just creating a regular old jsp hook and picking the login.jsp
 16:26 < Guest36660> <--- does not know jsp.
+16:26 < Guest36660> or j2ee rather
