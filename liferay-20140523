@@ -34,3 +34,4 @@
 16:16 < Guest36660> In the portal_normal.ftl theres the $theme.include{content.include} line which puts all the portlets below.
 16:16 < Guest36660> But its even putting portlets that I dont want there, calendar, mail, etc.
 16:16 < Guest36660> jardineworks, essentially yes. Think along the lines of dropbox's login page.
+16:16 < bijoo_> Guest36660: that's probably since those are on the page
