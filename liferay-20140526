@@ -2,3 +2,4 @@
 08:33 < modd_> Hi there. I have a problem with updating groups. I'm changing the friendlyurl of a site in an group model listener at onAfterUpdate. it works fine. after the update I'm fetching all child sites. here I change also the friendlyurl but based on the url of the parent site. eventhough the parent sites url has changed, the child get's the old version and so my url for the child is wrong. any idea what might happen here? maybe some caching
 09:47 < sl33k> hey guys
 09:47 < sl33k> hi guys
+09:48 < sl33k> i was wondering, what web framework you guys use with your liferay web apps
