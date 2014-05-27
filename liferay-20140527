@@ -2,3 +2,4 @@
 05:45 < rocknrol1_> anyone got NTLM to work? ths is driving me  nuts
 05:45 < rocknrol1_> session key negotiation failed
 05:59 < modd_> ntlm works fine but may generate some headache ;)
+06:00 < modd_> the last time I had this error you mention, my service user was the same user as the windows server where liferay runs. I've created another independent service user and it worked
