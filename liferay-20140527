@@ -49,3 +49,4 @@
 16:17 < testa> Could you build a webapp similar to facebook on liferay?
 16:27 < bijoo_> testa: yes, completely supports and more.
 16:27 < testa> how much could a single server support? Average specs?
+16:28 < bijoo_> testa: there was someone else asking same questions; check the official Liferay  whitepapers: https://www.liferay.com/documentation/additional-resources/whitepapers
