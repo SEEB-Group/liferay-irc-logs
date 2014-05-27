@@ -28,3 +28,4 @@
 12:21 < sm`pid> https://www.liferay.com/community/forums/-/message_boards/message/38227467
 12:21 < sm`pid> the forum seems dead also :)
 13:17 < barrie> Have a PACL issue in 6.2
+13:17 < barrie> I have portal.security.manager.strategy=liferay in portal-ext.properties set
