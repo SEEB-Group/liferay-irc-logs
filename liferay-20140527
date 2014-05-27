@@ -30,3 +30,4 @@
 13:17 < barrie> Have a PACL issue in 6.2
 13:17 < barrie> I have portal.security.manager.strategy=liferay in portal-ext.properties set
 13:17 < barrie> and in my hook in liferay-plugin-package.properties
+13:18 < barrie> have security-manager-enabled=generate
