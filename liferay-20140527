@@ -66,3 +66,4 @@
 16:33 < bijoo_> testa: https://github.com/liferay/liferay-portal/blob/6.2.1-ga2/portal-impl/src/portal.properties
 16:34 < bijoo_> testa: have you read the documentation there?
 16:34 < testa> I see, this is where you specify the includes?
+16:35 < bijoo_> testa: correct, in specific try this javascript.bundle.ids
