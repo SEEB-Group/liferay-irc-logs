@@ -16,3 +16,4 @@
 07:47 < sm`> the route is recognized and the friendly url is 'built' right
 07:48 < sm`> but when i click it, the method is the MVCPortlet class is not called
 07:48 < sm`> any idea?
+07:48 < sm`> i already have <implicit-parameter name="p_p_lifecycle">1</implicit-parameter> in the route
