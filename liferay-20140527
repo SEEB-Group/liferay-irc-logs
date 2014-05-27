@@ -55,3 +55,4 @@
 16:29 < testa> With one user
 16:29 < bijoo_> testa: what are the JVM settings given?
 16:30 < testa> Base installation, no changes.
+16:30 < bijoo_> testa: plus note Liferay has aggressive caching; so initial startup needs some warmup; try clicking around and you'll see speedup.
