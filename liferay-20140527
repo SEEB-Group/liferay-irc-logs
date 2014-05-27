@@ -8,3 +8,4 @@
 06:27 < rocknrol1_> I am not familiar with this windows stuff. so it needs to be a service user
 06:28 < rocknrol1_> I've enabled all logs I can think of in Liferay, but it's not helping
 06:53 < modd_> sry, don't know, just follow the ntlm steps in the wiki
+07:23 < rocknrol1_> do you have a link to the wiki? my LR is 6.1.2. I found a wiki, but it seemed very old, all images were missing
