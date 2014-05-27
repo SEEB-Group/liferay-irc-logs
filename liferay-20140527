@@ -32,3 +32,4 @@
 13:17 < barrie> and in my hook in liferay-plugin-package.properties
 13:18 < barrie> have security-manager-enabled=generate
 13:18 < barrie> but get no errors and no file created... if I set it to
+13:18 < barrie> security-manager-enabled=true
