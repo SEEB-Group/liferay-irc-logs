@@ -90,3 +90,4 @@
 16:55 < bijoo_> testa: and setting through UI needs no restart.
 16:55 < testa> the UI setting is blank. but does that property  in the ext properties file work?
 16:55 < testa> Is that the right one?
+16:56 < bijoo_> testa: it should; and I'm using through the UI.  I can verify it works on my thing; one way to check, go to the Manage Page.
