@@ -96,3 +96,4 @@
 16:57 < bijoo_> testa: just try through the UI so no restart.
 17:02 < testa> It works in the UI but I need it to work through properties file.
 17:37 < bijoo_> testa: once set through UI, props won't affect now; unless manual remove from DB.
+17:38 < bijoo_> testa: that is just for this exact property.
