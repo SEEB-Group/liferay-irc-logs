@@ -64,3 +64,4 @@
 16:33 < bijoo_> testa: not sure what you mean, but can load any. 5000+ properties to choose from.
 16:33 < testa> Ive just checked out creating themes, I tried to load my own js file in the diffs folder, but it seems it doesnt load. Even when I include <script> in the  .ftl file.
 16:33 < bijoo_> testa: https://github.com/liferay/liferay-portal/blob/6.2.1-ga2/portal-impl/src/portal.properties
+16:34 < bijoo_> testa: have you read the documentation there?
