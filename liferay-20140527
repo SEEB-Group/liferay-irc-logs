@@ -80,3 +80,4 @@
 16:41 < bijoo_> testa:     company.default.home.url=/web/guest
 16:41 < bijoo_> testa: and that's the way to set through properties.
 16:42 < testa> I see. Indeed this file is large. Does it load every time a request comes through?
+16:46 < bijoo_> testa: no, why you think it loads on each request?
