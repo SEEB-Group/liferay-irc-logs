@@ -79,3 +79,4 @@
 16:40 < bijoo_> testa: through the UI, you can do this: control panel->portal settings->Home url
 16:41 < bijoo_> testa:     company.default.home.url=/web/guest
 16:41 < bijoo_> testa: and that's the way to set through properties.
+16:42 < testa> I see. Indeed this file is large. Does it load every time a request comes through?
