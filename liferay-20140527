@@ -93,3 +93,4 @@
 16:56 < bijoo_> testa: it should; and I'm using through the UI.  I can verify it works on my thing; one way to check, go to the Manage Page.
 16:56 < bijoo_> testa: see the friendly URL for the page.
 16:56 < bijoo_> testa: and put that in the property instead. E.g. /web/guest/welcome may just put /welcome
+16:57 < bijoo_> testa: just try through the UI so no restart.
