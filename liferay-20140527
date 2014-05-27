@@ -60,3 +60,4 @@
 16:31 < bijoo_> testa: it's very flexible so that's on start; can customize up to whazoo all things.
 16:31 < testa> is there a minimal installation available?
 16:32 < testa> It also seems that the only JS file it can load is main.js? Is this correct?
+16:32 < bijoo_> testa: that's a great question and know what you mean; I don't know of any such offering; though I've thought about rolling one of own.
