@@ -7,3 +7,4 @@
 06:26 < rocknrol1_> so is there anything special that I need to know, when I ask my sysadmin to create a different user (or adjust the existing one)
 06:27 < rocknrol1_> I am not familiar with this windows stuff. so it needs to be a service user
 06:28 < rocknrol1_> I've enabled all logs I can think of in Liferay, but it's not helping
+06:53 < modd_> sry, don't know, just follow the ntlm steps in the wiki
