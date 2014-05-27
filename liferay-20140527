@@ -34,3 +34,4 @@
 13:18 < barrie> but get no errors and no file created... if I set it to
 13:18 < barrie> security-manager-enabled=true
 13:18 < barrie> I still get no errors
+13:18 < barrie> this is 6.2 GA2
