@@ -89,3 +89,4 @@
 16:55 < bijoo_> testa: since the UI prefs save in the DB.
 16:55 < bijoo_> testa: and setting through UI needs no restart.
 16:55 < testa> the UI setting is blank. but does that property  in the ext properties file work?
+16:55 < testa> Is that the right one?
