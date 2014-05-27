@@ -5,3 +5,4 @@
 06:00 < modd_> the last time I had this error you mention, my service user was the same user as the windows server where liferay runs. I've created another independent service user and it worked
 06:06 < rocknrol1_> oh, ok
 06:26 < rocknrol1_> so is there anything special that I need to know, when I ask my sysadmin to create a different user (or adjust the existing one)
+06:27 < rocknrol1_> I am not familiar with this windows stuff. so it needs to be a service user
