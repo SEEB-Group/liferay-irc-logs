@@ -85,3 +85,4 @@
 16:49 < testa> company.default.home.url=/web/guest/welcome?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_58_struts_action=%2Flogin%2Flogin
 16:52 < bijoo_> testa: you need to restart the server for that. I suggest you read Liferay manual.
 16:52 < testa> I did restart the server.
+16:54 < bijoo_> testa: did you set property the UI? If so, it takes precedence to the props.
