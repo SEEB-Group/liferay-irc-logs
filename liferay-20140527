@@ -58,3 +58,4 @@
 16:30 < bijoo_> testa: plus note Liferay has aggressive caching; so initial startup needs some warmup; try clicking around and you'll see speedup.
 16:30 < testa> the CSS file is 4 thousand lines, thats a bit ridiculous.
 16:31 < bijoo_> testa: it's very flexible so that's on start; can customize up to whazoo all things.
+16:31 < testa> is there a minimal installation available?
