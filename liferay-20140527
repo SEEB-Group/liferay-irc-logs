@@ -51,3 +51,4 @@
 16:27 < testa> how much could a single server support? Average specs?
 16:28 < bijoo_> testa: there was someone else asking same questions; check the official Liferay  whitepapers: https://www.liferay.com/documentation/additional-resources/whitepapers
 16:29 < testa> Im very skeptical, as with even the intial page load of a base installation takes on average 6 seconds to load.
+16:29 < testa> On a machine with 16GB RAM and a Core i7
