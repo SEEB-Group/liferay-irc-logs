@@ -77,3 +77,4 @@
 16:38 < testa> I just did, it seems everyone is saying default.landing.page.path
 16:38 < testa> I just tried that, that property is for the page after login.
 16:40 < bijoo_> testa: through the UI, you can do this: control panel->portal settings->Home url
+16:41 < bijoo_> testa:     company.default.home.url=/web/guest
