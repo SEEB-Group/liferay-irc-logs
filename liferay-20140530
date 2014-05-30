@@ -6,3 +6,4 @@
 06:39 < sm`pid> hello
 06:39 < sm`pid> https://www.liferay.com/community/forums/-/message_boards/message/38346751
 06:39 < sm`pid> anyone has some other idea?
+06:42 < sl33k> hello, if one creates multiple liferay portlets in a single portlet liferay project resulting to one war file. Are each portlets still treated as seperate mini web applications, loaded by different class loaders when deployed?
