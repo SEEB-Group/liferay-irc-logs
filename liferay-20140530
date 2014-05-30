@@ -21,3 +21,4 @@
 11:54 < sl33k> jardineworks: is it true that if you create nested liferay portlets in a single liferay plugin project, and package as a single war. each of the portlets still get deployed as seperate web apps? hence they still arent able to share common web stuff like hibernate sessions?
 12:05 < jardineworks> sl33k, both approaches work.
 12:06 < sl33k> jardineworks: yeah. but i prefer to have in reality one web application with multiple portlets
+12:07 < jardineworks> sl33k, I personally tried to group portlets that are similar together. For example, if you have a billing application, would you write 3 seperate web applications (WARs) to build it? or would you build one? IF you had that in place and then build an HR application, that would probably be a new WAR. So I translate that into portlets. One billing-portlet that contains mutiple portlets each representing a component of the billing
