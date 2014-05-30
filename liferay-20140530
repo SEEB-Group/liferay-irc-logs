@@ -10,3 +10,4 @@
 07:18 < sl33k> i need to ask some liferay questions please
 10:28 < sl33k> i need help/advise on how to inject spring objects into portlets.
 10:46 < jardineworks> sl33k, sounds like you just need to build SpringMVC portlets.
+10:47 < jardineworks> instead of using the Liferay MVC, Generic or any other flabour.
