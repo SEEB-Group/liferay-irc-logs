@@ -13,3 +13,4 @@
 10:47 < jardineworks> instead of using the Liferay MVC, Generic or any other flabour.
 10:47 < jardineworks> flavour*
 11:30 < sl33k> jardineworks: hi
+11:30 < sl33k> jardineworks: my problem with Spring MVC portlets is that it doesnt really hide the two phase liferay cycles
