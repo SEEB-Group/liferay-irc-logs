@@ -34,3 +34,4 @@
 12:11 < jardineworks> because, if I remember correctly, forgive me, I try to avoid the session when possible... you can share data between portlets using the session, provided they are in the same war I believe. That was the JSR168 way to do it... that or the Application Session. But JSR286 gave us some better ways like PRP and IPC
 12:13 < sl33k> okay...my main concern was to make sure I had only one Spring Application Context...would try this and see. thanks
 12:14 < sl33k> i dont like how Spring MVC doesnt really hide much when using it with Liferay MVC
+16:12 < daq> Hi to all! Do you guys know which PHP interpreter Liferay is using for PHP portlets?
