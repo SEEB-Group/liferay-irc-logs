@@ -18,3 +18,4 @@
 11:31 < sl33k> jardineworks: is it possible to have spring create the Portlet itself, which would now allow it to inject?
 11:51 < jardineworks> sl33k, to be honest I have only worked with Generic portlets and LiferayMVC portlets.
 11:53 < sl33k> i dont want to use service builders, and want to tie mine to either Spring or Java EE> My colleague has achieved the latter
+11:54 < sl33k> jardineworks: is it true that if you create nested liferay portlets in a single liferay plugin project, and package as a single war. each of the portlets still get deployed as seperate web apps? hence they still arent able to share common web stuff like hibernate sessions?
