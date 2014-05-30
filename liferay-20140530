@@ -36,3 +36,4 @@
 12:14 < sl33k> i dont like how Spring MVC doesnt really hide much when using it with Liferay MVC
 16:12 < daq> Hi to all! Do you guys know which PHP interpreter Liferay is using for PHP portlets?
 16:18 < daq> Is it Quercus?
+16:50 < daq> Just in case anyone is wondering, it is Quercus.
