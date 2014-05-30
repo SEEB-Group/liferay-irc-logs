@@ -17,3 +17,4 @@
 11:30 < sl33k> hence, not natural Spring MVC at all
 11:31 < sl33k> jardineworks: is it possible to have spring create the Portlet itself, which would now allow it to inject?
 11:51 < jardineworks> sl33k, to be honest I have only worked with Generic portlets and LiferayMVC portlets.
+11:53 < sl33k> i dont want to use service builders, and want to tie mine to either Spring or Java EE> My colleague has achieved the latter
