@@ -8,3 +8,4 @@
 06:39 < sm`pid> anyone has some other idea?
 06:42 < sl33k> hello, if one creates multiple liferay portlets in a single portlet liferay project resulting to one war file. Are each portlets still treated as seperate mini web applications, loaded by different class loaders when deployed?
 07:18 < sl33k> i need to ask some liferay questions please
+10:28 < sl33k> i need help/advise on how to inject spring objects into portlets.
