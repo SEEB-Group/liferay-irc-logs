@@ -27,3 +27,4 @@
 12:07 < jardineworks> the nice thing about one portlet project with multiple portlet definitions is that you can share common resources a little more easily/cleanly.
 12:07 < sl33k> but while running do they still share common stuff. like sessions
 12:09 < jardineworks> no -- each portlet has it's own session ... the PortletSession.
+12:09 < jardineworks> well
