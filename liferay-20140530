@@ -16,3 +16,4 @@
 11:30 < sl33k> jardineworks: my problem with Spring MVC portlets is that it doesnt really hide the two phase liferay cycles
 11:30 < sl33k> hence, not natural Spring MVC at all
 11:31 < sl33k> jardineworks: is it possible to have spring create the Portlet itself, which would now allow it to inject?
+11:51 < jardineworks> sl33k, to be honest I have only worked with Generic portlets and LiferayMVC portlets.
