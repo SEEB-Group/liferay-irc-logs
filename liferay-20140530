@@ -25,3 +25,4 @@
 12:07 < jardineworks>  application and one hr-portlet, also with portlets representing the hr application components.
 12:07 < jardineworks> it's a matter of preference though really.
 12:07 < jardineworks> the nice thing about one portlet project with multiple portlet definitions is that you can share common resources a little more easily/cleanly.
+12:07 < sl33k> but while running do they still share common stuff. like sessions
