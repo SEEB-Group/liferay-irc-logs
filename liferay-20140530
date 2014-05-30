@@ -20,3 +20,4 @@
 11:53 < sl33k> i dont want to use service builders, and want to tie mine to either Spring or Java EE> My colleague has achieved the latter
 11:54 < sl33k> jardineworks: is it true that if you create nested liferay portlets in a single liferay plugin project, and package as a single war. each of the portlets still get deployed as seperate web apps? hence they still arent able to share common web stuff like hibernate sessions?
 12:05 < jardineworks> sl33k, both approaches work.
+12:06 < sl33k> jardineworks: yeah. but i prefer to have in reality one web application with multiple portlets
