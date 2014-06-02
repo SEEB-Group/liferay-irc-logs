@@ -24,3 +24,4 @@
 11:10 < sm`:#liferay> i believe you can have one liferay-portlet.xml
 11:10 < sm`:#liferay> and one applicationContent
 11:10 < sm`:#liferay> .xml
+11:11 < sm`:#liferay> you can scan your pkg from there
