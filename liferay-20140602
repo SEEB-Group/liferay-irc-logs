@@ -17,3 +17,4 @@
 10:54 < sl33k:#liferay> sm`: also, i  dont want to have to maintain several applicationContext per portlet, e.g foo-portlet.xml, bar-portlet.xml, etc
 10:54 < sl33k:#liferay> but the blocker for this is, I dont see how I can explicitly tie a Portlet to a specific Controller to handle its view!
 10:54 < sl33k:#liferay> sm`: do you follow?
+11:09 < sm`:#liferay> sl33k: yeah got you
