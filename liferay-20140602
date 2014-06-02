@@ -35,3 +35,4 @@
 11:59 < sm`:#liferay> http://www.opensource-techblog.com/2012/09/spring-mvc-portlet-in-liferay.html
 11:59 < modd:#liferay> hi jhf. do you know about any implementation which allows friendlyURLs look like this: host:port/web/site/childsite/page/childpage ?
 12:00 < sm`:#liferay> http://www.effectiveui.com/blog/2013/09/17/liferay-and-spring-mvc/
+12:04 <@jhf:#liferay> modd: I don’t know of specific examples, I just know that it is possible :)
