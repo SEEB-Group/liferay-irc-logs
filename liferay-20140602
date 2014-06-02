@@ -30,3 +30,4 @@
 11:11 < sm`:#liferay> 	<context:component-scan base-package="com.your.pkg" />
 11:16 < sl33k:#liferay> sm`: but how does the portlet know which controller class to use when there are multiple?
 11:58 < sm`:#liferay> well you'll change the default 'portlet-class' to  DispatcherPortlet
+11:58 < sm`:#liferay> http://docs.spring.io/spring-framework/docs/2.0.8/reference/portlet.html
