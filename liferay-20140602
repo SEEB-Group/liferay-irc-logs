@@ -32,3 +32,4 @@
 11:58 < sm`:#liferay> well you'll change the default 'portlet-class' to  DispatcherPortlet
 11:58 < sm`:#liferay> http://docs.spring.io/spring-framework/docs/2.0.8/reference/portlet.html
 11:59 < sm`:#liferay> wait i think i have few resources in bookmarks
+11:59 < sm`:#liferay> http://www.opensource-techblog.com/2012/09/spring-mvc-portlet-in-liferay.html
