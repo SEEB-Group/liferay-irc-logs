@@ -46,3 +46,5 @@
 12:07 < sm`:#liferay> i have a friendly url route that matches the <portlet:actionURL /> but the action method is not fired
 12:35 < sl33k:#liferay> sm`: you dont seem to understand my specific problem/question
 12:38 < sl33k:#liferay> sm`: what I have stated is how do i specify a particular Portlet to use a specific controller for its rendering view?
+12:50 -!- mode/#liferay [+o rotty3000] by ChanServ
+13:09 < daq:#liferay> hi there. Do you guys know how to supply an updated version of Resin/Quercus to my PHP portlet?
