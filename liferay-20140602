@@ -26,3 +26,4 @@
 11:10 < sm`:#liferay> .xml
 11:11 < sm`:#liferay> you can scan your pkg from there
 11:11 < sm`:#liferay> like
+11:11 < sm`:#liferay> 	<context:annotation-config />
