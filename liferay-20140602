@@ -2,3 +2,4 @@
 05:59 < modd_:#liferay> can I get the source for Liferay Enterprise Portal 5.0.1 anywhere? the best I can find is 5.1.3
 06:40 < sl33k:#liferay> how is liferay support for a multi-portlet maven project?
 07:01 < topolik:#liferay> modd_: I think if you are the EE customer you could try to create a LESA ticket and request the sources. But I'm not sure if it's valid, I think 5.0 hit EOL already
+07:06 < modd_:#liferay> afaik 5.0.1 is a RC^^
