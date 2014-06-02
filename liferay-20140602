@@ -38,3 +38,4 @@
 12:04 <@jhf:#liferay> modd: I don’t know of specific examples, I just know that it is possible :)
 12:04 <@jhf:#liferay> worst case, you can use things like apache redirects or URL rewriting
 12:05 < modd:#liferay> well, I know that it's possible, I did it, but I'm not sure, if this is the best way to go^^
+12:06 < modd:#liferay> and redirects doesn't help
