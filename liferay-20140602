@@ -11,3 +11,4 @@
 09:12 -!- mode/#liferay [+o jhf] by ChanServ
 10:09 < sl33k:#liferay> anyone with some experience with liferay + spring mvc
 10:40 < sm`pid1:#liferay> sl33k i know a thing or two
+10:40 < sm`pid1:#liferay> used spring + hibernate instead of service builder
