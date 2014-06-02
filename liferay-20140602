@@ -28,3 +28,4 @@
 11:11 < sm`:#liferay> like
 11:11 < sm`:#liferay> 	<context:annotation-config />
 11:11 < sm`:#liferay> 	<context:component-scan base-package="com.your.pkg" />
+11:16 < sl33k:#liferay> sm`: but how does the portlet know which controller class to use when there are multiple?
