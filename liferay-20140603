@@ -7,3 +7,4 @@
 08:12 < modd_:#liferay> I have a jsp with <%@ taglib uri="http://java.sun.com/portlet" prefix="portlet" %> and <portlet:defineObjects />. now if I try to use renderRequest or anything else, it will throw a nullpointer. :\
 08:14 < modd_:#liferay> does anyone have an idea what may be wrong?
 09:15 < topolik:#liferay> modd_: <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
+09:20 < modd_:#liferay> I've mapped both to the same tld in web.xml
