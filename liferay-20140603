@@ -2,3 +2,4 @@
 03:11 < mojo:#liferay> hi there
 03:16 < mojo:#liferay> i have a problem with search portlet. i have category navigation portlet, asset publisher and search portlet one a page. After filtering documents by category im starting a search. Then im pushing "Return to Full Page" and the page before is shown but the result are shown too which should not
 03:48 < sl33k:#liferay> sm`pid: did you understand my question of yesterday?
+06:48 < Axxell:#liferay> Hey guys, im having som problems with servicebuilder, without any reason i can find i get errors when i deploy a new version of my portlet. The errors are: Beanlocator has not been set for servlet context, Error initializing Spring for ..., Error creating bean with name 'liferayHibernateSessionFactory' and some more related to servicebuilder. The problem is that there does not seem to be any errors, if i restart the server the problem 
