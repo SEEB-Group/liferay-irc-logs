@@ -11,3 +11,4 @@
 09:20 < modd_:#liferay> so both works
 09:21 < modd_:#liferay> but I guess the problem is in another part of my code
 09:25 < modd_:#liferay> I'm extending apache struts Action and in my execute method I'm doing this: ActionRequest rr = (ActionRequest) request.getAttribute("javax.portlet.request"); but rr is null
+10:43 < mojo:#liferay> somebody here who can reproduce my problem?
