@@ -9,3 +9,4 @@
 09:15 < topolik:#liferay> modd_: <%@ taglib uri="http://java.sun.com/portlet_2_0" prefix="portlet" %>
 09:20 < modd_:#liferay> I've mapped both to the same tld in web.xml
 09:20 < modd_:#liferay> so both works
+09:21 < modd_:#liferay> but I guess the problem is in another part of my code
