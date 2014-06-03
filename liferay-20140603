@@ -1,3 +1,4 @@
 --- Log opened Tue Jun 03 00:00:53 2014
 03:11 < mojo:#liferay> hi there
 03:16 < mojo:#liferay> i have a problem with search portlet. i have category navigation portlet, asset publisher and search portlet one a page. After filtering documents by category im starting a search. Then im pushing "Return to Full Page" and the page before is shown but the result are shown too which should not
+03:48 < sl33k:#liferay> sm`pid: did you understand my question of yesterday?
