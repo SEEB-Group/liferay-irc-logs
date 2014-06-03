@@ -48,3 +48,5 @@
 12:38 < sl33k:#liferay> sm`: what I have stated is how do i specify a particular Portlet to use a specific controller for its rendering view?
 12:50 -!- mode/#liferay [+o rotty3000] by ChanServ
 13:09 < daq:#liferay> hi there. Do you guys know how to supply an updated version of Resin/Quercus to my PHP portlet?
+22:50 -!- mode/#liferay [+o jhf_] by ChanServ
+--- Log closed Tue Jun 03 00:00:53 2014
