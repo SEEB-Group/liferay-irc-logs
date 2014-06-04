@@ -13,3 +13,4 @@
 03:42 < Axxell:#liferay> ive got it to work with a local installation of liferay 6.2
 03:43 < Axxell:#liferay> using port 8080 without a apache in front
 03:50 < Axxell:#liferay> rocknrol1_: the remote cas server is not logging anything when trying to login, the redirect url is nothing
+04:32 < Axxell:#liferay> Not anything is giving a clue why CAS SSO is not working, it seems more like its not at all working
