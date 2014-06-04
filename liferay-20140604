@@ -24,3 +24,4 @@
 05:35 < rocknrol1_:#liferay> been struggling with NTLM myself -.-
 05:35 < rocknrol1_:#liferay> my main issue was I could not get it to log anything meaningful.
 05:36 < rocknrol1_:#liferay> (it's working now)
+05:44 < Axxell:#liferay> Think theres something wrong with the servers logging, because ive changed the loglevel of cas to ALL, and even have a inbrowser logviewer in liferay, and cant find anywhere anything from the filter
