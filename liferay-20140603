@@ -12,3 +12,15 @@
 09:21 < modd_:#liferay> but I guess the problem is in another part of my code
 09:25 < modd_:#liferay> I'm extending apache struts Action and in my execute method I'm doing this: ActionRequest rr = (ActionRequest) request.getAttribute("javax.portlet.request"); but rr is null
 10:43 < mojo:#liferay> somebody here who can reproduce my problem?
+18:01 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+18:01 -!- Topic set by jhf [~cygnuseck@68.202.70.51] [Fri May  2 09:40:26 2014]
+18:01 [Users #liferay]
+18:01 [@ChanServ    ] [ bijoo ] [ jardineworks ] [ Naenyn    ] [ sm`         ] [ wohnout] 
+18:01 [@rotty3000   ] [ dawn  ] [ jardineworks_] [ quercus   ] [ Tar-Minyatur] 
+18:01 [ avinashrbhat] [ Gorith] [ josuebc      ] [ rocknrol1_] [ Tm_T        ] 
+18:01 [ b_52globe   ] [ itman ] [ marcoceppi   ] [ scribe    ] [ topolik     ] 
+18:01 -!- Irssi: #liferay: Total of 21 nicks [2 ops, 0 halfops, 0 voices, 19 normal]
+18:01 !morgan.freenode.net [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+18:01 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+18:01 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log closed Wed Jun 04 00:00:54 2014
