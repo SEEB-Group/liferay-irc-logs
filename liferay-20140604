@@ -22,3 +22,4 @@
 05:32 < Axxell:#liferay> but under portal settings the cas settings pass the test
 05:35 < rocknrol1_:#liferay> these can be a bitch to debug
 05:35 < rocknrol1_:#liferay> been struggling with NTLM myself -.-
+05:35 < rocknrol1_:#liferay> my main issue was I could not get it to log anything meaningful.
