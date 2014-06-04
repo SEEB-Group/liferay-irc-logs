@@ -26,3 +26,4 @@
 05:36 < rocknrol1_:#liferay> (it's working now)
 05:44 < Axxell:#liferay> Think theres something wrong with the servers logging, because ive changed the loglevel of cas to ALL, and even have a inbrowser logviewer in liferay, and cant find anywhere anything from the filter
 05:44 < Axxell:#liferay> not the normal liferaylogs, catalina logs
+05:47 < Axxell:#liferay> com.liferay.portal.servlet.filters.sso.cas.CASFilter=true is in portal-ext.properties
