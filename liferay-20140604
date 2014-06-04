@@ -10,3 +10,4 @@
 03:41 < Axxell:#liferay> going from c/portal/login to the startpage and backagain
 03:41 < Axxell:#liferay> rocknrol1_: i have apache 2.2 with mod_jk in front of the liferay 6.1 install
 03:42 < Axxell:#liferay> and im starting to believe that it fails there
+03:42 < Axxell:#liferay> ive got it to work with a local installation of liferay 6.2
