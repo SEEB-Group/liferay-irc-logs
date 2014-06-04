@@ -20,3 +20,4 @@
 05:31 < Axxell:#liferay> the requests are not coming all the way to the cas server, the cas server does not have anything about attempted logins in its log...
 05:32 < Axxell:#liferay> when the user tries to login it start to redirect itselft to itselft, creating an eternal loop
 05:32 < Axxell:#liferay> but under portal settings the cas settings pass the test
+05:35 < rocknrol1_:#liferay> these can be a bitch to debug
