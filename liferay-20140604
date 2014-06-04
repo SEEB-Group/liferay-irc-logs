@@ -2,3 +2,4 @@
 01:18 < Axxell:#liferay> Hello strangers, got a another problem: Trying to get CAS to work, got it to work from a local dev server using the default tomcat port 8080.. when trying to get a productionserver to work, which uses ajp connector against apache, and is not version 6.2 as the testserver but 6.1, I get it to pass the test when pushing "test cas configuration", but when trying to login i just get an eternal loop trying to login. Any clue what could be t
 02:08 < Axxell:#liferay> Anybody?
 03:20 < rocknrol1_:#liferay> whats up with liferay.com. whatever page i try to access, it says "please set new password"
+03:20 < rocknrol1_:#liferay> with no explanation
