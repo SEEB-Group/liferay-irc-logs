@@ -17,3 +17,4 @@
 05:11 < rocknrol1_:#liferay> well, we dont have a CAS setup atm and my experiences are from a really really long time ago :/
 05:12 < rocknrol1_:#liferay> maybe someone will come along who can help you
 05:30 < Axxell:#liferay> rocknrol1_: yeah, weve been two people trying to get it to work for 4h, giving up for the moment. Maybe ill wait until i update the server to 6.2. This one is not giving any indication that cas is even running, not one error anywhere
+05:31 < Axxell:#liferay> the requests are not coming all the way to the cas server, the cas server does not have anything about attempted logins in its log...
