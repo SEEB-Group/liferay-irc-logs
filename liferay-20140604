@@ -6,3 +6,4 @@
 03:34 < Axxell:#liferay> anyone want to help with my CAS problem?
 03:35 < rocknrol1_:#liferay> have you used live http headers or fiddler to investigate whats happening?
 03:35 < rocknrol1_:#liferay> are cookies not getting set?
+03:40 < Axxell:#liferay> trying to find out whats happening, it just begins a 302 loop
