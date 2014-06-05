@@ -3,3 +3,4 @@
 05:17 < twen:#liferay> I'm wondering somthing.. We'll use Liferay soon. I'm wondering how I could build a working group (team, sharing document and discussion) inside Liferay.... or with plugins.
 05:18 < twen:#liferay> any suggestions ? I'm starting to dig into that :)
 05:54 < modd_:#liferay> rotty3000: didn't you work on the whole workflow stuff in liferay?
+07:31 < Axxell_:#liferay> Hey guys, got a problem: everytime i build a new version of my portlet, which uses servicebuilder, i get the following error: myServiceBuilderImpl cannot be cast to myServicebuilder (paraphrasing). This goes away if i restart the server. does anybody have a clue how i would fix this?=
