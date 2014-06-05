@@ -5,3 +5,4 @@
 05:54 < modd_:#liferay> rotty3000: didn't you work on the whole workflow stuff in liferay?
 07:31 < Axxell_:#liferay> Hey guys, got a problem: everytime i build a new version of my portlet, which uses servicebuilder, i get the following error: myServiceBuilderImpl cannot be cast to myServicebuilder (paraphrasing). This goes away if i restart the server. does anybody have a clue how i would fix this?=
 07:59 < Axxell_:#liferay> Anyone?
+10:38 < bijoo_:#liferay> twen: yes, of course, that's one of core features. Google "how to create a Liferay site"
