@@ -28,3 +28,6 @@
 05:44 < Axxell:#liferay> not the normal liferaylogs, catalina logs
 05:47 < Axxell:#liferay> com.liferay.portal.servlet.filters.sso.cas.CASFilter=true is in portal-ext.properties
 07:08 < Axxell:#liferay> anyone with anything helpful advice for cas?
+19:25 -!- mode/#liferay [+o rotty3000] by ChanServ
+20:57 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Jun 05 00:00:56 2014
