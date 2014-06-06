@@ -1,0 +1,5 @@
+--- Log opened Fri Jun 06 00:00:57 2014
+01:27 -!- ServerMode/#liferay [+o ChanServ] by morgan.freenode.net
+01:37 -!- ServerMode/#liferay [+o ChanServ] by morgan.freenode.net
+01:37 < Axxell:#liferay> Hello again friends. Still having trouble with servicebuilder, everytime i build a new version of my portlet, the dev server gives an error which goes away when i restart the server. Here is a stacktrace: http://pastebin.com/qHdXA9hW
+01:37 < Axxell:#liferay> Any help would be really appreciated
