@@ -12,3 +12,4 @@
 07:55 < Axxell:#liferay> everytime i deploy a new version i get a myLittleDbImpl cannot be cast to myLittleDb
 07:55 < Axxell:#liferay> but when i restart the server it works again
 07:56 < Axxell:#liferay> modd_: its like this https://www.liferay.com/community/forums/-/message_boards/view_message/33063340
+07:57 < Axxell:#liferay> everytime i use a method in my impl which also searches from the other entity in the same context, i get that error.. restart server and everyting is A-ok
