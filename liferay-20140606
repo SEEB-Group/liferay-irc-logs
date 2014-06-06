@@ -10,3 +10,4 @@
 07:53 < modd_:#liferay> as both entities are in the same context you can use the services
 07:54 < Axxell:#liferay> hmm
 07:55 < Axxell:#liferay> everytime i deploy a new version i get a myLittleDbImpl cannot be cast to myLittleDb
+07:55 < Axxell:#liferay> but when i restart the server it works again
