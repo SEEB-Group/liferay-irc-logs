@@ -4,3 +4,4 @@
 01:37 < Axxell:#liferay> Hello again friends. Still having trouble with servicebuilder, everytime i build a new version of my portlet, the dev server gives an error which goes away when i restart the server. Here is a stacktrace: http://pastebin.com/qHdXA9hW
 01:37 < Axxell:#liferay> Any help would be really appreciated
 03:58 < Axxell:#liferay> ngh things are going great, trying to get the service working as intended.. but now i get these errors org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'liferayHibernateSessionFactory' defined in ServletContext resource [/WEB-INF/classes/META-INF/hibernate-spring.xml]: Invocation of init method failed; nested exception is org.hibernate.InvalidMappingException: Could not parse mapping document from 
+04:00 < Axxell:#liferay> again cant find anything constructive about these errors on the net
