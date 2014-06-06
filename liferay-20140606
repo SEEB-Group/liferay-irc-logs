@@ -7,3 +7,4 @@
 04:00 < Axxell:#liferay> again cant find anything constructive about these errors on the net
 04:30 < Axxell:#liferay> topolik: any chance you could have time to help?
 07:33 < Axxell:#liferay> Hey guys, another question: If i have two entities in a servicebuilder, is it ok to access the second entitys localserviceutil, from the first one? If not, what are the options?
+07:53 < modd_:#liferay> as both entities are in the same context you can use the services
