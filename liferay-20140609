@@ -13,3 +13,4 @@
 04:10 -!- Irssi: Join to #liferay was synced in 6 secs
 06:54 < rocknrol1_:#liferay> hey all. should I be able to access nodeId-parameter from wikiportlet
 06:55 < rocknrol1_:#liferay> if so, how?
+06:55 < rocknrol1_:#liferay> I have a wiki navigation portlet + wiki portlet on the same page, and I want to know what node is active. how do I do that? this is IPC, right
