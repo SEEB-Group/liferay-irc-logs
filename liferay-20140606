@@ -15,3 +15,5 @@
 07:57 < Axxell:#liferay> everytime i use a method in my impl which also searches from the other entity in the same context, i get that error.. restart server and everyting is A-ok
 07:58 < Axxell:#liferay> well if anybody finds a solution to my problem, feel free to write it here, ill check the chatlogs later
 07:58 < Axxell:#liferay> gotta go bye
+09:56 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Sat Jun 07 00:00:59 2014
