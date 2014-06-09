@@ -16,3 +16,4 @@
 06:55 < rocknrol1_:#liferay> I have a wiki navigation portlet + wiki portlet on the same page, and I want to know what node is active. how do I do that? this is IPC, right
 07:00 < rocknrol1_:#liferay> I should be able to read this parameer simply with request.getParameter(name)
 07:34 < rocknrol1_:#liferay> just get null null null whatever I try :(
+15:43 < timmy___:#liferay> does anyone know why the default permissions of new webcontent change from guest permissions to site-members when you add a private page?
