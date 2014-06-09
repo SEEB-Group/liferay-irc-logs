@@ -1,3 +1,15 @@
 --- Log opened Mon Jun 09 00:00:01 2014
 02:48 < Axxell:#liferay> hey guys the chatlog is not working... one gets a forbidden error when trying to access them..
 03:27 < Axxell:#liferay> and um.. my problem is still unresolved
+04:10 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+04:10 -!- Topic set by jhf [~cygnuseck@68.202.70.51] [Fri May  2 09:40:26 2014]
+04:10 [Users #liferay]
+04:10 [@ChanServ ] [ avinashrbhat] [ Gorith      ] [ jbonjean  ] [ Naenyn      ] [ Tm_T   ] 
+04:10 [@rotty3000] [ Axxell      ] [ hekmatof    ] [ josuebc   ] [ quercus     ] [ topolik] 
+04:10 [ adaro    ] [ bijoo       ] [ itman       ] [ longbeach ] [ rocknrol1_  ] [ wohnout] 
+04:10 [ aqquadro ] [ bijoo_      ] [ jardineworks] [ marcoceppi] [ Tar-Minyatur] 
+04:10 -!- Irssi: #liferay: Total of 23 nicks [2 ops, 0 halfops, 0 voices, 21 normal]
+04:10 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+04:10 -!- Irssi: Join to #liferay was synced in 6 secs
+06:54 < rocknrol1_:#liferay> hey all. should I be able to access nodeId-parameter from wikiportlet
+06:55 < rocknrol1_:#liferay> if so, how?
