@@ -8,3 +8,4 @@
 09:45 < sm`:#liferay> nad i need the text
 10:14 < topolik:#liferay> Hi, the option text/label is not submitted by the HTML form => you cannot read it from the request
 10:15 < topolik:#liferay> but you could use JavaScript to copy the text into a hidden input when the <option> is selected ... hint: <select onchange=...>
+13:40 < bijoo__:#liferay> rocknrol1_ need to define in portlet.xml
