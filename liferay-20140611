@@ -23,3 +23,4 @@
 15:55 < bijoo__:#liferay> modd: contacting them may help bring attention; and you can work with one to streamline it
 15:56 < bijoo__:#liferay> modd: what are the LPS you submitted?
 16:00 < modd:#liferay> most of them won't work anymore because they were designed for 6.1.20
+16:01 < modd:#liferay> I did some changes to the search portlet a while ago to allow multiple tags- and category-selections, but I can't find the code :\
