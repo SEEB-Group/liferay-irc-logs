@@ -5,3 +5,4 @@
 09:44 < sm`:#liferay> how do i get the text from <option> field
 09:44 < sm`:#liferay> in the processAction method?
 09:44 < sm`:#liferay> i seems ParamUtil.getString(field, request) returns the 'value' tag
+09:45 < sm`:#liferay> nad i need the text
