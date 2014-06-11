@@ -6,3 +6,4 @@
 09:44 < sm`:#liferay> in the processAction method?
 09:44 < sm`:#liferay> i seems ParamUtil.getString(field, request) returns the 'value' tag
 09:45 < sm`:#liferay> nad i need the text
+10:14 < topolik:#liferay> Hi, the option text/label is not submitted by the HTML form => you cannot read it from the request
