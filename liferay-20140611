@@ -17,3 +17,4 @@
 14:53 < modd:#liferay> if lr staff don't want to add it, it won't be added to core
 15:19 < bijoo__:#liferay> modd: true but unlikely since has value; plus it'll get added if has lots of votes; so openining JIRA ticket helps much; and advertise ticket in these channels (forum/IRC/community blog).
 15:38 < modd:#liferay> i have already some tickets with feature request and even proposed code changes...most are open since months without comment :P
+15:52 < bijoo__:#liferay> modd: yea, ticket system's like a firehose; need to bring attention to right person; https://issues.liferay.com/browse/LPS
