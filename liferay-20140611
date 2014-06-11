@@ -19,3 +19,4 @@
 15:38 < modd:#liferay> i have already some tickets with feature request and even proposed code changes...most are open since months without comment :P
 15:52 < bijoo__:#liferay> modd: yea, ticket system's like a firehose; need to bring attention to right person; https://issues.liferay.com/browse/LPS
 15:52 < bijoo__:#liferay> modd: that page has leads for all the components
+15:54 < bijoo__:#liferay> modd: People to check into:  Eudaldo Alonso (search in general, search framework, web content search portlet),  Raymond Auge (search portlet, lucene impl),  Michael Han (Elastic search impl), Marcellus Tavares (solr search)
