@@ -26,3 +26,4 @@
 16:01 < modd:#liferay> I did some changes to the search portlet a while ago to allow multiple tags- and category-selections, but I can't find the code :\
 16:02 < modd:#liferay> moreover the 6.2 code looks slightly different, so far the code changes I remember doesn't work
 16:02 < modd:#liferay> I have to dig deeper tomorrow
+16:03 < modd:#liferay> another point I would need: some documentation about the workflow management system build in into liferay. I want to replace kaleo with camunda. I asked e.g. rotty3000 but never got an answer^^
