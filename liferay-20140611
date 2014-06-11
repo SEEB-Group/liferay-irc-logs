@@ -3,3 +3,4 @@
 09:06 < modd_:#liferay> btw there's a bug then unchecking assets in the basic config of the search portlet
 09:44 < sm`:#liferay> Hello
 09:44 < sm`:#liferay> how do i get the text from <option> field
+09:44 < sm`:#liferay> in the processAction method?
