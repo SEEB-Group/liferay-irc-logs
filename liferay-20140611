@@ -28,3 +28,4 @@
 16:02 < modd:#liferay> I have to dig deeper tomorrow
 16:03 < modd:#liferay> another point I would need: some documentation about the workflow management system build in into liferay. I want to replace kaleo with camunda. I asked e.g. rotty3000 but never got an answer^^
 16:11 < bijoo__:#liferay> modd: nice; for workflow, look on that page again.
+16:12 < bijoo__:#liferay> modd: Tavares and Lundgren are your guys there.
