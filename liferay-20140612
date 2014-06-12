@@ -1,3 +1,4 @@
 --- Log opened Thu Jun 12 00:00:05 2014
 06:59 < netspoof:#liferay> Hi, what's the best version of liferay that work with Jboss EAP 6 and Jboss 7.1.1 AS
 07:01 < modd_:#liferay> try to use always the latest version
+17:44 < Naenyn:#liferay> Can one hook have multiple service wrappers within it?
