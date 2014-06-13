@@ -5,3 +5,4 @@
 10:59 < sm`pid:#liferay> any ideas?
 10:59 < sm`pid:#liferay> this shit's been buging me for a while
 11:47 < jardineworks:#liferay> sm`pid, aha! I think I see now
+11:47 < jardineworks:#liferay> try using this for your implicit action mapping -- _eGain_WAR_Egainportlet_javax.portlet.action
