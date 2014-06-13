@@ -5,3 +5,4 @@
 17:45 < Naenyn:#liferay> if they each have their own hook tag in liferay-hook.xml ?
 18:26 < Naenyn:#liferay> Looks like it can, but for some reason my UserLocalServiceWrapper implementation of addUser is never being called. =\
 19:31 < Naenyn:#liferay> .. solved! =]
+--- Log closed Fri Jun 13 00:00:07 2014
