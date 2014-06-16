@@ -21,3 +21,4 @@
 08:10 < modd_:#liferay> like the activity portlet
 08:11 < modd_:#liferay> but as an extern server
 08:12 < topolik:#liferay> sl33k: the action phase is for UPDATE, render phase for READ operations
+08:13 < topolik:#liferay> sl33k: by UPDATE you should update the application state = DB / session
