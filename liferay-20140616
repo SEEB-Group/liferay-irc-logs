@@ -36,3 +36,4 @@
 09:54 < topolik:#liferay> hi sl33k
 10:55 -!- mode/#liferay [+o lundgren] by ChanServ
 11:14 < jardineworks_:#liferay> hey guys -- I have a question. I just created a new portal instance however I can't log into it.
+11:14 < jardineworks_:#liferay> I checked the users table and I can see that there are no users with a company id that matches the new instance id
