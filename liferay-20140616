@@ -1,3 +1,4 @@
 --- Log opened Mon Jun 16 00:00:11 2014
 06:38 < sm`pid:#liferay> Hello
 06:38 < sm`pid:#liferay> jardineworks: i tried your suggestion
+06:38 < sm`pid:#liferay> put _eGain_WAR_Egainportlet_javax.portlet.action  in the rule
