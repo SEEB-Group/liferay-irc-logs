@@ -4,3 +4,5 @@
 06:38 < sm`pid:#liferay> put _eGain_WAR_Egainportlet_javax.portlet.action  in the rule
 06:39 < sm`pid:#liferay> but didnt work either.
 06:39 < sm`pid:#liferay> with such config the linked are not matched with the rule i.e. i dont get the friendly urls
+07:02 < sl33k:#liferay> hi guys
+07:02 < sl33k:#liferay> grrr
