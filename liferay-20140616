@@ -25,3 +25,4 @@
 08:14 < topolik:#liferay> sl33k: in READ you should not change state and only read prepared data, render phase response could be cached based on render parameters
 08:15 < topolik:#liferay> sl33k: AFAIK spring portlet mvc worked OK when I used it
 08:36 < modd_:#liferay> so, any idea?
+08:57 < modd_:#liferay> :(
