@@ -10,3 +10,6 @@
 07:03 < sl33k:#liferay> example, action phase gets student and passes to render method for display.
 07:04 < sl33k:#liferay> next time that display runs, if student isnt set, it shows null
 07:04 < sl33k:#liferay> this is bad
+07:46 -!- mode/#liferay [+o lundgren] by ChanServ
+07:48 -!- mode/#liferay [+o lundgren] by ChanServ
+08:00 < modd_:#liferay> hi lundgren
