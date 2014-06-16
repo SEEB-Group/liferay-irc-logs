@@ -18,3 +18,4 @@
 08:09 < modd_:#liferay> we want to replace kaleo with camunda
 08:10 < modd_:#liferay> does any kind of documentation exist, which gives some hints what we have to implement and what not to forget while doing it
 08:10 < modd_:#liferay> we want to use camunda for all liferay workflows
+08:10 < modd_:#liferay> like the activity portlet
