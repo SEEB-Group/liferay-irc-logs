@@ -9,3 +9,4 @@
 07:03 < sl33k:#liferay> that render/action 2 phase cycle bore things up for spring mvc portlet integration
 07:03 < sl33k:#liferay> example, action phase gets student and passes to render method for display.
 07:04 < sl33k:#liferay> next time that display runs, if student isnt set, it shows null
+07:04 < sl33k:#liferay> this is bad
