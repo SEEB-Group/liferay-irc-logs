@@ -22,3 +22,4 @@
 08:11 < modd_:#liferay> but as an extern server
 08:12 < topolik:#liferay> sl33k: the action phase is for UPDATE, render phase for READ operations
 08:13 < topolik:#liferay> sl33k: by UPDATE you should update the application state = DB / session
+08:14 < topolik:#liferay> sl33k: in READ you should not change state and only read prepared data, render phase response could be cached based on render parameters
