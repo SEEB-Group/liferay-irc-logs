@@ -6,3 +6,4 @@
 06:39 < sm`pid:#liferay> with such config the linked are not matched with the rule i.e. i dont get the friendly urls
 07:02 < sl33k:#liferay> hi guys
 07:02 < sl33k:#liferay> grrr
+07:03 < sl33k:#liferay> that render/action 2 phase cycle bore things up for spring mvc portlet integration
