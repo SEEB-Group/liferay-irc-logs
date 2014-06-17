@@ -6,3 +6,4 @@
 08:26 -!- mode/#liferay [+o jhf] by ChanServ
 09:08 -!- mode/#liferay [+o lundgren] by ChanServ
 10:13 < jardineworks_:#liferay> I have a liferay design question for the experts -- jhf, rotty3000 topolik -- if you guys are around?
+10:15 < jardineworks_:#liferay> I am assuming that there is a disadvantage to have too many plugins (individual deployments) other than clutter. If I have 5 portlets all deployed in the same package, will that consume fewer resources then 5 individual deployment packages?
