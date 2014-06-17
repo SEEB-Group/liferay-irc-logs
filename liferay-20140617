@@ -18,3 +18,4 @@
 10:31 < jardineworks_:#liferay> for some reason I am now singing "what does the fox say" in my head
 10:32 < jardineworks_:#liferay> but I get your point... the problem with training developers though is that you have to be prepared to argue, or at least have a solid reason why you are encouraging a certain behaviour.
 11:50 < jardineworks_:#liferay> topolik: I have a puzzle that I think I know the answer to but I thought I would ask anyway. If I implement shards for portal instances, I still have a problem when the "Portal Settings" are stored in a central location. I think the portal settings are global... and I am guessing that they cannot be sharded?
+12:08 < topolik:#liferay> AFAIK sharding is for read-write split, why do you need to split portal settings into shards?
