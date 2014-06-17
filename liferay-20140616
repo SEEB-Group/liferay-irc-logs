@@ -39,3 +39,6 @@
 11:14 < jardineworks_:#liferay> I checked the users table and I can see that there are no users with a company id that matches the new instance id
 11:15 < jardineworks_:#liferay> so how do I log in to configure this instance? am I supposed to use the omni.admin ext property fro this?
 11:15 < jardineworks_:#liferay> surely there is a better way...
+21:53 -!- mode/#liferay [+o lundgren] by ChanServ
+22:00 -!- mode/#liferay [+o lundgren] by ChanServ
+--- Log closed Tue Jun 17 00:00:12 2014
