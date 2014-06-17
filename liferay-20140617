@@ -10,3 +10,4 @@
 10:21 < topolik:#liferay> jardineworks_: in general yes, each web application has separate "context" ... filters, servlets, sessions + probably the worst are own JAR files, which are isolated by own classloader and loaded into memory
 10:23 < topolik:#liferay> the good thing about separate packages is versioning+deployment - you don't need to redeploy all portlets when fixing small bug in one of them
 10:23 < jardineworks_:#liferay> topolik: so then as a rule of thumb, always try to group plugins of the same "group" together... and try to avoid making fine grained portlets right? For example, one of the things I am looking at is several portlets that make up essentially the sections of a form when really, I don't see why this couldn't be just one portlet.
+10:24 < topolik:#liferay> I believe in most standard cases it's only common sense - group portlets by same functionality/application ... what makes sense
