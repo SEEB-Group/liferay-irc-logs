@@ -21,3 +21,11 @@
 12:08 < topolik:#liferay> AFAIK sharding is for read-write split, why do you need to split portal settings into shards?
 12:41 -!- mode/#liferay [+o lundgren] by ChanServ
 13:13 <@jhf:#liferay> hey rotty3000 yt?
+13:15 -!- mode/#liferay [+o lundgren] by ChanServ
+13:55 -!- mode/#liferay [+o lundgren] by ChanServ
+14:28 -!- mode/#liferay [+o rotty3000] by ChanServ
+15:51 -!- mode/#liferay [+o lundgren] by ChanServ
+16:37 -!- ServerMode/#liferay [+oo rotty3000 jhf] by cameron.freenode.net
+17:43 -!- mode/#liferay [+o lundgren] by ChanServ
+23:06 -!- mode/#liferay [+o lundgren] by ChanServ
+--- Log closed Wed Jun 18 00:00:14 2014
