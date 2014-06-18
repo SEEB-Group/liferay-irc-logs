@@ -8,3 +8,4 @@
 07:16 < modd_:#liferay> maybe jhf ;)
 08:16 < modd_:#liferay> seems like this was fixed: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/portlet/search/main_search_result_form.jsp#L210
 08:16 < modd_:#liferay> but not this: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/portlet/search/main_search_document_form.jsp#L130
+08:43 < modd_:#liferay> the token_list is also broken after these changes
