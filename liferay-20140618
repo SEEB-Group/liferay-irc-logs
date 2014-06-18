@@ -19,3 +19,4 @@
 09:23 < modd_:#liferay> well, ldap will import your user
 09:23 < modd_:#liferay> for SSO you have to activate NTLM
 09:25 < Yam`:#liferay> I'm not trying SSO yet, I try to log in with the user screen name and his password in liferay's login page
+09:25 < modd_:#liferay> ah ok
