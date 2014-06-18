@@ -18,3 +18,4 @@
 09:22 < Yam`:#liferay> I've added my LDAP server, when I test LDAP connection it's ok and when I test ldap users it's ok too, I see the screen names etc. I've set authentification by Screen Name in the control panel but I can't login with a use, have I missed something to set up?
 09:23 < modd_:#liferay> well, ldap will import your user
 09:23 < modd_:#liferay> for SSO you have to activate NTLM
+09:25 < Yam`:#liferay> I'm not trying SSO yet, I try to log in with the user screen name and his password in liferay's login page
