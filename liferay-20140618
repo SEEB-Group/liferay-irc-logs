@@ -31,3 +31,4 @@
 09:28 < modd_:#liferay> control panel > on the left side you'll see "user"
 09:29 < Yam`:#liferay> oh right, I searched it in configuration
 09:29 < modd_:#liferay> you have to activate ldap import and wait for one interval
+09:30 < Yam`:#liferay> the user's not in there
