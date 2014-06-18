@@ -3,3 +3,4 @@
 06:24 -!- mode/#liferay [+o jhf] by ChanServ
 07:09 < modd_:#liferay> hi rotty3000: I guess I found some issues with the search portlet. did the way it filters facets change for categories? I remember that it used to be an assetCategoryTitles parameter, now it's an assetCategoryIds parameter
 07:12 < modd_:#liferay> the main_search_document_form.jsp uses the old parameter name to build the url, therefore it doesn't work anymore
+07:13 < modd_:#liferay> and changing the checkboxes in the basic configuration deletes the whole content of the extended config and the search doesn't do what one would expect
