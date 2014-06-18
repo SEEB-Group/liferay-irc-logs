@@ -6,3 +6,4 @@
 07:13 < modd_:#liferay> and changing the checkboxes in the basic configuration deletes the whole content of the extended config and the search doesn't do what one would expect
 07:13 < modd_:#liferay> anyone able to reproduce?
 07:16 < modd_:#liferay> maybe jhf ;)
+08:16 < modd_:#liferay> seems like this was fixed: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/portlet/search/main_search_result_form.jsp#L210
