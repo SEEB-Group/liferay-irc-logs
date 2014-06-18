@@ -9,3 +9,4 @@
 08:16 < modd_:#liferay> seems like this was fixed: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/portlet/search/main_search_result_form.jsp#L210
 08:16 < modd_:#liferay> but not this: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/portlet/search/main_search_document_form.jsp#L130
 08:43 < modd_:#liferay> the token_list is also broken after these changes
+08:46 < Yam`:#liferay> Hello, I've set up a Liferay Portal and done a silly thing : in order to test a LDAP connexion, I've modified authentification from "with mail address" to "with user ID". But I don't know the admin's user ID so I can't log anymore with it... Do you know the default admin's user ID or a way to fix my mistake?
