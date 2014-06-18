@@ -32,3 +32,4 @@
 09:29 < Yam`:#liferay> oh right, I searched it in configuration
 09:29 < modd_:#liferay> you have to activate ldap import and wait for one interval
 09:30 < Yam`:#liferay> the user's not in there
+09:30 < modd_:#liferay> otherwise you can trigger an import by hand using the liferay console in the server configuration
