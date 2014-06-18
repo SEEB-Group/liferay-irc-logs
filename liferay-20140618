@@ -43,3 +43,4 @@
 09:31 < modd_:#liferay> and then a tab with "console" or something like that
 09:31 < modd_:#liferay> yes
 09:31 < Yam`:#liferay> ty
+09:31 < modd_:#liferay> using the console simply delete the content and paste this and start: "Packages.com.liferay.portal.security.ldap.PortalLDAPImporterUtil.importFromLDAP();"
