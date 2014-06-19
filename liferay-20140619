@@ -9,3 +9,14 @@
 02:18 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 02:18 -!- Irssi: Join to #liferay was synced in 6 secs
 07:09 < haba713:#liferay> hi! i have 2 portlets in liferay 6.1.1 and they change messages with message bus. they've always worked fine but now they can't exchange messages. message is successfully sent but nothing is received. what could cause the problem?
+08:31 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+08:31 -!- Topic set by jhf [~cygnuseck@68.202.70.51] [Fri May  2 09:40:26 2014]
+08:31 [Users #liferay]
+08:31 [@ChanServ    ] [ Bizari ] [ itman       ] [ modd   ] [ rocknroll_  ] [ Tm_T   ] 
+08:31 [@rotty3000   ] [ gittish] [ jardineworks] [ mtsr   ] [ sm`pid      ] [ topolik] 
+08:31 [ avinashrbhat] [ Gorith ] [ josuebc     ] [ Naenyn ] [ smind       ] [ twen   ] 
+08:31 [ bijoo       ] [ haba713] [ marcoceppi  ] [ quercus] [ Tar-Minyatur] [ wohnout] 
+08:31 -!- Irssi: #liferay: Total of 24 nicks [2 ops, 0 halfops, 0 voices, 22 normal]
+08:31 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+08:31 -!- Irssi: Join to #liferay was synced in 6 secs
+08:57 < twen:#liferay> Hello
