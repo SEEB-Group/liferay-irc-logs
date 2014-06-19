@@ -24,3 +24,4 @@
 08:58 < twen:#liferay> (I try to stay alart today ;) )
 09:12 < jardineworks:#liferay> twen, you mean portlets, hooks etc that allows you to setup a jira type system on top of Liferay?
 09:15 < twen:#liferay> jardineworks You can think of a very simplified Jira tickting system, with 2 or 3 fields... and yes available from withing Liferay. would be good to be managed inside liferay if possible, instead of an external service
+09:15 < twen:#liferay> (this is because our company don't want to rely on services on the net....)
