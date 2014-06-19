@@ -22,3 +22,4 @@
 08:57 < twen:#liferay> Hello
 08:58 < twen:#liferay> Doesn't some know if tere some kind of ticketing systeme for Lifery. One of our departement wants to let people to raise questions and they answer on liferay.
 08:58 < twen:#liferay> (I try to stay alart today ;) )
+09:12 < jardineworks:#liferay> twen, you mean portlets, hooks etc that allows you to setup a jira type system on top of Liferay?
