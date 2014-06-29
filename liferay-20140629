@@ -85,3 +85,5 @@
 08:13 < modd:#liferay> what local time do you have right now?
 08:18 < modd:#liferay> <modd> you cannot set the default landing page per user
 08:18 < modd:#liferay> <modd> to create a user use userlocalserviceutil
+08:18 < modd:#liferay> <modd> usergrouplocalserviceutil for groups
+08:18 < modd:#liferay> <modd> and grouplocalserviceutil for sites
