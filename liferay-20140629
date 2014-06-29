@@ -41,3 +41,4 @@
 07:43 < sl33k1:#liferay> i.e 1 site with say 5 pages. and depending on user group, either 3 pages or 5pages show based on usergroups
 07:44 < modd:#liferay> for all permissions you need roles
 07:44 < sl33k1:#liferay> So its best I just group Pages in Sites then
+07:44 < sl33k1:#liferay> Site A : All the 5 pages. Site B: Can Just have 3 pages
