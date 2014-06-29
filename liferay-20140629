@@ -25,3 +25,4 @@
 07:40 < sl33k1:#liferay> i havent assigned any permissions at all
 07:40 < sl33k1:#liferay> I Just created userGroup and added private pages,
 07:40 < modd:#liferay> usually it's default
+07:40 < sl33k1:#liferay> But I have not explicitly created a Site
