@@ -60,3 +60,4 @@
 07:49 < modd:#liferay> site inheritance doesn't work properly...in 6.1 it even does not exist at all
 07:49 < sl33k1:#liferay> Aaaaarggggggghhhhhhhhhhhh
 07:50 < sl33k1:#liferay> i have used site inheritancee in past but not dynamically though
+07:50 < modd:#liferay> well, creating sites in java isn't that hard
