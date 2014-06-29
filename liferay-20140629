@@ -37,3 +37,4 @@
 07:43 < sl33k1:#liferay> Based on UserGroup, users see different sites
 07:43 < sl33k1:#liferay> Can A Page show based on UserGroup?
 07:43 < modd:#liferay> no
+07:43 < modd:#liferay> usergroups are only collections of users
