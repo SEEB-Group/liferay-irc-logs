@@ -64,3 +64,4 @@
 07:50 < sl33k1:#liferay> see portal.schoolonlinegrid.com and  methodistboyshighschoollagos.com all same portal
 07:50 < sl33k1:#liferay> theme based on domain name or so cant remv exactly
 07:51 < modd:#liferay> you can set a theme for every site
+07:52 < modd:#liferay> if you want to do it java anyway, then just add a line to set the theme, no inheritance neccessary
