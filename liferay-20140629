@@ -34,3 +34,4 @@
 07:42 < sl33k1:#liferay> i didnt create Site initially
 07:42 < modd:#liferay> then nothing will appear
 07:43 < sl33k1:#liferay> Let me try all over again....see what I want to achieve. I am creating a Grid Based app. multiple companies (with different themes) using my FooApplication (that has multiple portlets, and site)
+07:43 < sl33k1:#liferay> Based on UserGroup, users see different sites
