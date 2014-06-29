@@ -77,3 +77,4 @@
 07:57 < sl33k1:#liferay> create/add members to site, usergroup, users
 08:06 < sl33k1:#liferay> modd: okay, the site/usergroup thing works fine now
 08:06 < sl33k1:#liferay> modd: can I ask about how to set the default user landing page, such that user doesnt have to select the Site when log in? i.e no welcome page
+08:11 < modd:#liferay> you cannot set the default landing page per user
