@@ -51,3 +51,4 @@
 07:47 < modd:#liferay> the private pages you have created should appear in the users private site i guess
 07:47 < sl33k1:#liferay> modd: but can a UserGroup have a collection of sites such that if i add a user to group, he has access to the sites. And sites inherit the Themes of organisation by default?
 07:47 < modd:#liferay> a usergroup cannot have any site, not even one
+07:47 < modd:#liferay> but a site can have multiple usergroups as site members
