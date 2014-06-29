@@ -39,3 +39,4 @@
 07:43 < modd:#liferay> no
 07:43 < modd:#liferay> usergroups are only collections of users
 07:43 < sl33k1:#liferay> i.e 1 site with say 5 pages. and depending on user group, either 3 pages or 5pages show based on usergroups
+07:44 < modd:#liferay> for all permissions you need roles
