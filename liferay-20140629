@@ -19,3 +19,4 @@
 07:37 < sl33k1:#liferay> Private Pages though
 07:37 < sl33k1:#liferay> see what I have done....I have created a UserGroup
 07:38 < modd:#liferay> if the site have pages visible for the site members and the users are part of a usergroup which is site member of the site, the site should appear in the drop down menu
+07:39 < sl33k1:#liferay> modd: i am on liferay 6.1
