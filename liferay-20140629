@@ -87,3 +87,4 @@
 08:18 < modd:#liferay> <modd> to create a user use userlocalserviceutil
 08:18 < modd:#liferay> <modd> usergrouplocalserviceutil for groups
 08:18 < modd:#liferay> <modd> and grouplocalserviceutil for sites
+08:19 < modd:#liferay> <modd> I could paste some code snippets on how to do it, but you will have to wait untill tomorrow :\
