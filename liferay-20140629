@@ -47,3 +47,4 @@
 07:45 < sl33k1:#liferay> For my FooApplication, I have both Foo_Admin and Foo_User kind of user groups
 07:46 < modd:#liferay> you need roles not usergroups for such permissionsystem
 07:46 < sl33k1:#liferay> modd: okay.
+07:46 < modd:#liferay> however, if you like 500 "usergroups" it's a bad idea to create 500 roles^^
