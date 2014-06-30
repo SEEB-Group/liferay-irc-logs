@@ -6,3 +6,4 @@
 09:12 < jardineworks:#liferay> sl33k, what are the errors?
 09:12 < jardineworks:#liferay> and for the synch, are you doing import as well as export? are you doing it on startup?
 10:54 < sl33k:#liferay> jardineworks: sorry was out of desk
+10:54 < sl33k:#liferay> error was cannot create user with no email
