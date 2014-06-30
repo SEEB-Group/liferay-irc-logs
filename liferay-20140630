@@ -4,3 +4,4 @@
 08:46 < sl33k:#liferay> hi guys
 08:47 < sl33k:#liferay> i am working on tryibg to get active directory users syncg to my liferay portal - but facing errors
 09:12 < jardineworks:#liferay> sl33k, what are the errors?
+09:12 < jardineworks:#liferay> and for the synch, are you doing import as well as export? are you doing it on startup?
