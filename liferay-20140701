@@ -1,3 +1,4 @@
 --- Log opened Tue Jul 01 00:00:53 2014
 03:43 < modd_:#liferay> hey topolik. can you tell me where the permissions for new files are set? I can't find it at the moment.
 03:43 < topolik:#liferay> hi modd_
+03:44 < topolik:#liferay> IMHO unless you specify some unique permissions they are inherited
