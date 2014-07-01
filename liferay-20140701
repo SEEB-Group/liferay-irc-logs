@@ -2,3 +2,4 @@
 03:43 < modd_:#liferay> hey topolik. can you tell me where the permissions for new files are set? I can't find it at the moment.
 03:43 < topolik:#liferay> hi modd_
 03:44 < topolik:#liferay> IMHO unless you specify some unique permissions they are inherited
+03:44 < modd_:#liferay> I have a case where a user creates a new file but the site member view default permission is not set while doing it as admin everything is ok
