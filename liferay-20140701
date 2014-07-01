@@ -8,3 +8,4 @@
 03:45 < topolik:#liferay> do you think it's a bug?
 03:46 < topolik:#liferay> I mean the permissions, not inheritance :)
 03:46 < modd_:#liferay> I'm not sure. At least it's the first time I noticed this
+03:47 < modd_:#liferay> using the "inheritance" the file is visible anyways but why the heck this damn checkbox isn't checked
