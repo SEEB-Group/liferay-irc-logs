@@ -4,3 +4,4 @@
 03:44 < topolik:#liferay> IMHO unless you specify some unique permissions they are inherited
 03:44 < modd_:#liferay> I have a case where a user creates a new file but the site member view default permission is not set while doing it as admin everything is ok
 03:45 < modd_:#liferay> inheritance in liferay is hard to call "inheritance" ;p
+03:45 < topolik:#liferay> I know
