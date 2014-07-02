@@ -9,3 +9,4 @@
 12:05 < nicolas_FR:#liferay> like a switch in admin controls which allow to open or close the web site
 12:08 -!- mode/#liferay [+o _jhf_] by ChanServ
 12:15 < jardineworks:#liferay> nicolas_FR, I was looking for that a couple of weeks ago. Couldn't find it. Though in the api there are references to a MaitenanceUtil... and there is a maintenance.jsp
+12:15 < nicolas_FR:#liferay> jardineworks: ok thanks
