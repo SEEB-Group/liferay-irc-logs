@@ -10,3 +10,4 @@
 12:08 -!- mode/#liferay [+o _jhf_] by ChanServ
 12:15 < jardineworks:#liferay> nicolas_FR, I was looking for that a couple of weeks ago. Couldn't find it. Though in the api there are references to a MaitenanceUtil... and there is a maintenance.jsp
 12:15 < nicolas_FR:#liferay> jardineworks: ok thanks
+12:16 < jardineworks:#liferay> nicolas_FR, I think ultimately you would want to use your proxy though incase you need to shut down the whole portal.
