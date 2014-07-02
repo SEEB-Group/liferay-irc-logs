@@ -11,3 +11,4 @@
 12:15 < jardineworks:#liferay> nicolas_FR, I was looking for that a couple of weeks ago. Couldn't find it. Though in the api there are references to a MaitenanceUtil... and there is a maintenance.jsp
 12:15 < nicolas_FR:#liferay> jardineworks: ok thanks
 12:16 < jardineworks:#liferay> nicolas_FR, I think ultimately you would want to use your proxy though incase you need to shut down the whole portal.
+12:17 < jardineworks:#liferay> nicolas_FR, One of the guys I work with right now was telling me that in the apache rewrite rules you can use something to detect the presence of a file. He said normally they use that logic... if the "maintenance" file is there, then they redirect to a maintenance page.
