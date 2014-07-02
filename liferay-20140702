@@ -7,3 +7,5 @@
 12:05 < apucay:#liferay> hi
 12:05 < nicolas_FR:#liferay> does anyone know if shutting down the portal (with a page informing users) through admin pages is possible ?
 12:05 < nicolas_FR:#liferay> like a switch in admin controls which allow to open or close the web site
+12:08 -!- mode/#liferay [+o _jhf_] by ChanServ
+12:15 < jardineworks:#liferay> nicolas_FR, I was looking for that a couple of weeks ago. Couldn't find it. Though in the api there are references to a MaitenanceUtil... and there is a maintenance.jsp
