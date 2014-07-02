@@ -14,3 +14,4 @@
 12:17 < jardineworks:#liferay> nicolas_FR, One of the guys I work with right now was telling me that in the apache rewrite rules you can use something to detect the presence of a file. He said normally they use that logic... if the "maintenance" file is there, then they redirect to a maintenance page.
 12:17 < jardineworks:#liferay> nicolas_FR, which makes sense. I suppose it is tricky to do IN the portal since you need to get back into the site to turn maintenance off :)
 12:18 < nicolas_FR:#liferay> jardineworks: I was looking for some user friendly solution to allow site admin to shut down the site (and maybe configure the maintenance message) directly from administration. Actually we use shell scripts to redirect users to a maintenance page directly from apache
+12:19 < nicolas_FR:#liferay> jardineworks: well you could have an hidden access for admin only to log on and put site back on
