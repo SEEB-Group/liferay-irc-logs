@@ -68,3 +68,4 @@
 11:36 < Tar-Minyatur:#liferay> jardineworks: I don't follow soccer at all, but I did enjoy some games that I watched those past weeks. Especially Ghana for example made an awesome show of how elegant it CAN be.
 11:38 < apucay:#liferay> what do you mean by custom filter?
 11:38 < dneves:#liferay> i've also tried using ExpandoTableLocalServiceUtil, ExpandoColumnLocalServiceUtil and ExpandoValueLocalServiceUtil, but this does not work in filter nor in portlet
+11:39 < dneves:#liferay> apucay: a servlet filter
