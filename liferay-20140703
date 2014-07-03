@@ -33,3 +33,4 @@
 10:53 < jardineworks:#liferay> Spain is out -- I'm sad. So I think my fallback team this year is Germany ... \o/ for you guys :)
 10:57 < jardineworks:#liferay> topolik, I checked out the lifray-maven-support project from git. I think I have ti make my changes there and rebuild/install into a local maven repo in order to do what I am looking for.
 10:57 < Yam`:#liferay> jardineworks, well "a portlet" is just one element of a page, no?
+10:57 < jardineworks:#liferay> which kinda sucks... a lot more work for future changes. Boo. Why can't the world just continue to love ANT
