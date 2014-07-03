@@ -71,3 +71,4 @@
 11:39 < dneves:#liferay> apucay: a servlet filter
 11:39 < dneves:#liferay> its a liferay-hook, more precisely
 11:40 < apucay:#liferay> so you're saying that layout.getExpandoBridge().getAttributes() gives different results when called from the custom filter vs. from your portlet?
+11:40 < dneves:#liferay> yep. thats it
