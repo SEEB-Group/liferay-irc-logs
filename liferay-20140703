@@ -20,3 +20,4 @@
 10:30 < topolik:#liferay> I'm sorry jardineworks, I don't use Liferay IDE and don't know how it creates the project there :(
 10:30 < jardineworks:#liferay> bust.
 10:30 < jardineworks:#liferay> alright -- I'll keep digging. I'll let you know when I figure it out :)
+10:31 < jardineworks:#liferay> topolik, ok -- so the changes to SDK_HOME/tools/* definitely are used when you build using an ANT project.
