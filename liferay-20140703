@@ -34,3 +34,4 @@
 10:57 < jardineworks:#liferay> topolik, I checked out the lifray-maven-support project from git. I think I have ti make my changes there and rebuild/install into a local maven repo in order to do what I am looking for.
 10:57 < Yam`:#liferay> jardineworks, well "a portlet" is just one element of a page, no?
 10:57 < jardineworks:#liferay> which kinda sucks... a lot more work for future changes. Boo. Why can't the world just continue to love ANT
+10:58 < jardineworks:#liferay> Yam`, sure, unless it is the ONLY element on the page. I mean, everything you see in the control panel is a portlet.
