@@ -74,3 +74,4 @@
 11:40 < dneves:#liferay> yep. thats it
 11:41 < apucay:#liferay> how are you getting layout in the filter?
 11:41 < dneves:#liferay> the same way as in the portlet. using CompanyLocalServiceUtil, GroupLocalServiceUtil and LayoutLocalServiceUtil
+11:50 < dneves:#liferay> any idea ? is it a filter that 'fill's those custom attributes ? anything i can do to run my filter after ?
