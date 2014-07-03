@@ -16,3 +16,6 @@
 12:18 < nicolas_FR:#liferay> jardineworks: I was looking for some user friendly solution to allow site admin to shut down the site (and maybe configure the maintenance message) directly from administration. Actually we use shell scripts to redirect users to a maintenance page directly from apache
 12:19 < nicolas_FR:#liferay> jardineworks: well you could have an hidden access for admin only to log on and put site back on
 12:23 < jardineworks:#liferay> nicolas_FR, sure... or perhaps that is a good control panel plugin that would be deployed to the main instance that would allow you to control all sites across all instances.
+13:08 -!- mode/#liferay [+o jhf] by ChanServ
+18:52 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Jul 03 00:00:55 2014
