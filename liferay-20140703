@@ -19,3 +19,4 @@
 10:29 < jardineworks:#liferay> topolik, I am a total n00b to maven... just a client requirement. I am guessing that the archetype is what I need to customize (based on what you are saying) and that the tools/* folder changes would only affect the generation if done with ANT.
 10:30 < topolik:#liferay> I'm sorry jardineworks, I don't use Liferay IDE and don't know how it creates the project there :(
 10:30 < jardineworks:#liferay> bust.
+10:30 < jardineworks:#liferay> alright -- I'll keep digging. I'll let you know when I figure it out :)
