@@ -41,3 +41,4 @@
 11:01 < jardineworks:#liferay> Yam`, 1. Do they have to be individual portlets? I often find that developers break features that are really ONE portlet into many ... it's like plugin fever :)
 11:01 < jardineworks:#liferay> Yam`, 2. I still think you could do it with embedding runtime portlets.
 11:02 < jardineworks:#liferay> just make a wrapper portlet and in its view, add 5 - 6 runtime portlets sstatements
+11:03 < jardineworks:#liferay> I think the tag is something like -- <runtime-portlet name="<portlet name>" instance="<some id here>" queryString=""/>
