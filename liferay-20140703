@@ -13,3 +13,4 @@
 10:20 < jardineworks:#liferay> topolik, ok I lied.. I do have a question :)
 10:21 < jardineworks:#liferay> topolik, assuming that you use maven at all when doing plugins
 10:24 < jardineworks:#liferay> topolik, when I create a new plugin project, say a portlet for example, does the maven version using the same SDK_HOME/tools/portlet.tmpl folder to generate the code?
+10:25 < topolik:#liferay> jardineworks: I'm sorry, I don't use archetypes to create portlet projects in maven :(
