@@ -9,3 +9,4 @@
 10:14 < Yam`:#liferay> is it possible to add a page in the control panel?
 10:19 < jardineworks:#liferay> Yam`, Yes, you can create portlets that are for the control panel
 10:20 < jardineworks:#liferay> Yam`, http://www.liferay.com/web/minhchau.dang/blog/-/blogs/adding-a-plugins-portlet-to-the-control-panel
+10:20 < jardineworks:#liferay> The three bullet points are the keys you need to add to the liferay-portlet.xml to get it to work.
