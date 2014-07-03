@@ -64,3 +64,4 @@
 11:12 < Yam`:#liferay> okay :)
 11:34 < dneves:#liferay> hello
 11:35 < apucay:#liferay> hi
+11:36 < dneves:#liferay> i'm having some issues with page custom fields in liferay, i'm able to use layout.getExpandoBridge().getAttributes() in a custom portlet i developed and i get custom field values. But doing the same in a custom filter i get null for all custom fields... any idea ? Thanks.
