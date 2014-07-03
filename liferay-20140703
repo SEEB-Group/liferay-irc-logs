@@ -21,3 +21,4 @@
 10:30 < jardineworks:#liferay> bust.
 10:30 < jardineworks:#liferay> alright -- I'll keep digging. I'll let you know when I figure it out :)
 10:31 < jardineworks:#liferay> topolik, ok -- so the changes to SDK_HOME/tools/* definitely are used when you build using an ANT project.
+10:45 < Yam`:#liferay> jardineworks, but can I do a page like a page based on a template and then put it in the control panel?
