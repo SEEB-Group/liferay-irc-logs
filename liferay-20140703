@@ -69,3 +69,4 @@
 11:38 < apucay:#liferay> what do you mean by custom filter?
 11:38 < dneves:#liferay> i've also tried using ExpandoTableLocalServiceUtil, ExpandoColumnLocalServiceUtil and ExpandoValueLocalServiceUtil, but this does not work in filter nor in portlet
 11:39 < dneves:#liferay> apucay: a servlet filter
+11:39 < dneves:#liferay> its a liferay-hook, more precisely
