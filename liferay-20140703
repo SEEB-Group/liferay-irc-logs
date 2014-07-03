@@ -44,3 +44,7 @@
 11:03 < jardineworks:#liferay> I think the tag is something like -- <runtime-portlet name="<portlet name>" instance="<some id here>" queryString=""/>
 11:05 < jardineworks:#liferay> so you would a have something like :
 11:05 < jardineworks:#liferay> <div id="cp-portlet-wrapper">
+11:05 < jardineworks:#liferay> 	<div>	
+11:05 < jardineworks:#liferay> 		<runtime-portlet name="portlet-1" instance="1234" queryString=""/>
+11:05 < jardineworks:#liferay> 	</div>
+11:05 < jardineworks:#liferay> 	<div>	
