@@ -48,3 +48,4 @@
 11:05 < jardineworks:#liferay> 		<runtime-portlet name="portlet-1" instance="1234" queryString=""/>
 11:05 < jardineworks:#liferay> 	</div>
 11:05 < jardineworks:#liferay> 	<div>	
+11:05 < jardineworks:#liferay> 		<runtime-portlet name="portlet-2" instance="5678" queryString=""/>
