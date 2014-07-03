@@ -1,3 +1,5 @@
 --- Log opened Thu Jul 03 00:00:55 2014
 03:28 < modd_:#liferay> hey topolik. I have a problem: I'm creating sites in a portlet using a template. it works fine, the site appears in the sites admin list, however, the site does not appear in the "my sites" menu. when clicking on the entry in the sites admin list I see the sites config page and everything is ok (also the pages from the template are there) and now the site also appears in the drop down menu. any idea what I have to do?
 03:28 < modd_:#liferay> I found that as long as I didn't click on the site admin entry the pagecount in layoutset table is 0
+09:25 < jardineworks:#liferay> hey topolik ... I don't need anything, I just thought for once I would say hi :)
+09:26 < jardineworks:#liferay> without asking for help haha
