@@ -77,3 +77,4 @@
 11:50 < dneves:#liferay> any idea ? is it a filter that 'fill's those custom attributes ? anything i can do to run my filter after ?
 12:01 < Yam`:#liferay> jardineworks, with your solution, where do I create the portlets first? The ones to embed in a portlet wrapper
 12:22 < jardineworks:#liferay> Yam`, Make a portlet project. When you create the project, specify the wrapper portlet as the initial plugin -- making sure to add it to the Control panel using the settings in the liferay-portlet.xml. Deploy it and make sure it works. Then, right click on the project and choose to add a portlet (from the liferay menu) ... this will be your first portlet to embed. Write the code. Then repeat that process for portlet 2 - 6
+12:26 < Yam`:#liferay> jardineworks, ty
