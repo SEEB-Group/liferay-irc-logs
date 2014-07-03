@@ -73,3 +73,4 @@
 11:40 < apucay:#liferay> so you're saying that layout.getExpandoBridge().getAttributes() gives different results when called from the custom filter vs. from your portlet?
 11:40 < dneves:#liferay> yep. thats it
 11:41 < apucay:#liferay> how are you getting layout in the filter?
+11:41 < dneves:#liferay> the same way as in the portlet. using CompanyLocalServiceUtil, GroupLocalServiceUtil and LayoutLocalServiceUtil
