@@ -78,3 +78,14 @@
 12:01 < Yam`:#liferay> jardineworks, with your solution, where do I create the portlets first? The ones to embed in a portlet wrapper
 12:22 < jardineworks:#liferay> Yam`, Make a portlet project. When you create the project, specify the wrapper portlet as the initial plugin -- making sure to add it to the Control panel using the settings in the liferay-portlet.xml. Deploy it and make sure it works. Then, right click on the project and choose to add a portlet (from the liferay menu) ... this will be your first portlet to embed. Write the code. Then repeat that process for portlet 2 - 6
 12:26 < Yam`:#liferay> jardineworks, ty
+16:34 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please nominate Liferay! http://goo.gl/bIspUh Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+16:34 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Thu Jun 19 16:33:59 2014]
+16:34 [Users #liferay]
+16:34 [@ChanServ    ] [ b_52globe] [ henriquev   ] [ marcoceppi] [ Tar-Minyatur] 
+16:34 [ apucay      ] [ bijoo    ] [ jardineworks] [ Naenyn    ] [ Tm_T        ] 
+16:34 [ avinashrbhat] [ Gorith   ] [ josuebc     ] [ quercus   ] [ topolik     ] 
+16:34 -!- Irssi: #liferay: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+16:34 !verne.freenode.net [freenode-info] please register your nickname...don't forget to auto-identify! http://freenode.net/faq.shtml#nicksetup
+16:34 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+16:34 -!- Irssi: Join to #liferay was synced in 7 secs
+23:43 < Guest56470:#liferay> hello
