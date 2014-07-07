@@ -3,3 +3,4 @@
 10:46 < goku_> hi,how to add javascript functionality in a create_user.jsp hook,exmaple i want to hide/show one input field based on the user selection on another select element
 10:50 < jardineworks> goku_, Create a JSP hook for the create_user.jsp and add the js logic you want.
 10:50 < sunny_> how can i integrate alfresco into liferay?
+10:51 < sunny_> anyone pls helpme out?
