@@ -29,3 +29,4 @@
 11:11 < Yam`> hello !
 11:20 < goku_> @jardineworks : jsp file
 11:21 < jardineworks> goku_, In that case, all you have to do is add a scriptlet <% ... %> with the code you need to get the values.
+11:23 < goku_> @jardineworks : is there a liferay util class to get the DB values ..or is that possible to add the service jar from the service layer portlet and user the Util class for getting the values from DB ?
