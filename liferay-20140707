@@ -23,3 +23,4 @@
 10:59 < sunny_> Thanks i will check that link
 11:00 < goku_> @jardineworks :  sry its a typo..i mean i have created a custom field(which is select box) for a user creation page(its showing in create_user.js page).and i want to load the values to the selectbox from DB
 11:02 < jardineworks> goku_, check out the <liferay-ui:custom-attribute-list /> tag
+11:08 < goku_> @jardineworks : Thanks ,i read it.but the how to show values on these fields from DB its not given .. ?
