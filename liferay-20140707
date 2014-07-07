@@ -1,2 +1,3 @@
 --- Log opened Mon Jul 07 00:00:06 2014
 10:14 < jardineworks> does anyone in here use the LiferayFaces bridge with JSF porltets?
+10:46 < goku_> hi,how to add javascript functionality in a create_user.jsp hook,exmaple i want to hide/show one input field based on the user selection on another select element
