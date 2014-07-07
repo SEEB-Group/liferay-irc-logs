@@ -45,3 +45,4 @@
 11:42 < jardineworks> goku_, it will create the field with the values for you. Check out com.liferay.taglib.ui.CustomAttributeListTag from the portal source
 11:45 < jardineworks> goku_, I think /html/taglib/ui/custom_attribute/page.jsp is what is used to render the tag.
 11:45 < jardineworks> so you can see the logic for input type selection etc.
+11:45 < goku_> @jardineworks : oh ok..
