@@ -18,3 +18,4 @@
 10:55 < goku_> @jardineworks :  is that possible to get DB values on the custom input fields?
 10:56 < jardineworks> goku_, can you give me an example?
 10:57 < goku_> @jardineworks :  new customfiled is added for user (resource)..and i want to show it as a select box(values coming from DB not statically)?
+10:58 < jardineworks> sunny_, https://www.google.ca/search?q=liferay+and+alfresco+integration&oq=liferay+and+alfre&aqs=chrome.2.69i57j0l5.3452j0j7&sourceid=chrome&es_sm=93&ie=UTF-8
