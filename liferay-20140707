@@ -32,3 +32,4 @@
 11:23 < goku_> @jardineworks : is there a liferay util class to get the DB values ..or is that possible to add the service jar from the service layer portlet and user the Util class for getting the values from DB ?
 11:23 < goku_> @jardineworks : sry typo * user the Util class
 11:23 < goku_> @jardineworks : sry typo * use the Util class
+11:24 < jardineworks> goku_, when you say the service layer portlet, are you referring to a custom service builder portlet you have created?
