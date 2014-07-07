@@ -36,3 +36,4 @@
 11:29 < goku_> @jardineworks : yea
 11:32 < Yam`> what's the best way to store custom webpage and use them in portlets? (in iframe or embedded page)
 11:32 < jardineworks> goku_, yeah, but you need to move that jar out into the TOMCAT_HOME/lib/ext folder.
+11:33 < goku_> @jardineworks : if i use that jar inside the hooks WEB-INF/lib folder..doesn't that work?
