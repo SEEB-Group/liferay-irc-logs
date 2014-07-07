@@ -34,3 +34,4 @@
 11:23 < goku_> @jardineworks : sry typo * use the Util class
 11:24 < jardineworks> goku_, when you say the service layer portlet, are you referring to a custom service builder portlet you have created?
 11:29 < goku_> @jardineworks : yea
+11:32 < Yam`> what's the best way to store custom webpage and use them in portlets? (in iframe or embedded page)
