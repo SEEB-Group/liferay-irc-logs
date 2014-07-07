@@ -13,3 +13,4 @@
 10:54 < jardineworks> goku_, ok -- so then you have a hook project, and you have configured it to override the create_user.jsp file?
 10:54 < goku_> @jardineworks :  yes
 10:55 < jardineworks> goku_, ok... so yeah, just add the JS to that file and deploy it.
+10:55 < goku_> @jardineworks :  thanks ..
