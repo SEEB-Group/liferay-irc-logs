@@ -28,3 +28,4 @@
 11:10 < jardineworks> create_user.js? or create_user.jsp? ... are you working with a Javascript file or a JSP file?
 11:11 < Yam`> hello !
 11:20 < goku_> @jardineworks : jsp file
+11:21 < jardineworks> goku_, In that case, all you have to do is add a scriptlet <% ... %> with the code you need to get the values.
