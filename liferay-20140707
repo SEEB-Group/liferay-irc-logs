@@ -49,3 +49,4 @@
 11:54 < goku_> @jardineworks : thanks man..i think i got what i need..thanks a lot for you help :)
 11:59 < jardineworks> np
 12:07 < lucas314> Hi there,
+12:08 < lucas314> I'm trying to expose some webservices using liferay jsonws using CDI and JAX-RS. Anyone know some source or example of something like this?
