@@ -15,3 +15,4 @@
 10:55 < jardineworks> goku_, ok... so yeah, just add the JS to that file and deploy it.
 10:55 < goku_> @jardineworks :  thanks ..
 10:55 < jardineworks> goku_, The poral will rename the original creat_user.jsp to create_user.jsp.portal, and then place your custom jsp in the same directory so that when the page is run, your custom file is returned.
+10:55 < goku_> @jardineworks :  is that possible to get DB values on the custom input fields?
