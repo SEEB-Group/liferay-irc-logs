@@ -4,3 +4,4 @@
 10:50 < jardineworks> goku_, Create a JSP hook for the create_user.jsp and add the js logic you want.
 10:50 < sunny_> how can i integrate alfresco into liferay?
 10:51 < sunny_> anyone pls helpme out?
+10:52 < goku_> @jardineworks : so i have to create custome javascript writen on the create_user.jsp .. and write the js onselect handler for that particular element ,right?
