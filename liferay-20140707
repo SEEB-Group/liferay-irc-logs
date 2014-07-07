@@ -38,3 +38,4 @@
 11:32 < jardineworks> goku_, yeah, but you need to move that jar out into the TOMCAT_HOME/lib/ext folder.
 11:33 < goku_> @jardineworks : if i use that jar inside the hooks WEB-INF/lib folder..doesn't that work?
 11:34 < jardineworks> goku_, you need to take it out of the hooks/WEB-INF lib and move it into the application servers global library
+11:34 < jardineworks> (eg. TOMCAT_HOME/lib/ext)
