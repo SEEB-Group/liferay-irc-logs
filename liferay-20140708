@@ -4,3 +4,4 @@
 03:29 < goku_> how to make liferay service layer update timestamp on insertion ?
 03:29 < goku_> to the DB?
 04:19 < Yam`> hi
+04:27 < Yam`> what's the best way to store custom webpage and use them in portlets? (in iframe or embedded page)
