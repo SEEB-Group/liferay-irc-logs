@@ -111,3 +111,4 @@
 10:37 < nancy_> i have logged in
 10:40 < jardineworks> just means that in an SSO situation, both Liferay and Alfresco should be wired to the same directory store.
 10:40 < jardineworks> are you using LDAP auth?
+10:40 < nancy_> no
