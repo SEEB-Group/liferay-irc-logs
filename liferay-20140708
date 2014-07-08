@@ -1,0 +1,3 @@
+--- Log opened Tue Jul 08 00:00:08 2014
+00:29 -!- mode/#liferay [+o rotty3000] by ChanServ
+01:55 < goku_> hi,am getting "beanLocator is null for the context" exception in liferay 6.2 ? how to fix it
