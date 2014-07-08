@@ -77,3 +77,4 @@
 10:19 < Yam``> jardineworks, I'm downloading the IDE, do I need to install ant?
 10:20 < jardineworks> Yam``, yeah... you should be able to sudo apt-get ant to install it from the Ubuntu universe
 10:21 < Yam``> ok, ty
+10:23 < nancy_> No this is not portlet
