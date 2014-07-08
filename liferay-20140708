@@ -124,3 +124,4 @@
 11:31 < nicolas_FR> we work on those portlets actually so I was undeploying and re-deploying those, and now server just don't want to hot-deploy them (.war in /deploy)
 11:32 < nicolas_FR> I tried to take those porlets from another server (already deployed portlets from webapps/portlet directory) and paste them in the /webapps/ directory... same error
 11:33 < nicolas_FR> Server seems down and I'm blocked
+11:37 < jardineworks> nicolas_FR, What version of LR?
