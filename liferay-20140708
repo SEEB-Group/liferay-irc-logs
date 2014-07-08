@@ -140,3 +140,4 @@
 12:13 < jardineworks>     # Setting it to false is useful during development if you need to make a lot
 12:13 < jardineworks>     # of changes.
 12:13 < jardineworks>     #
+12:13 < jardineworks>     layout.template.cache.enabled=true
