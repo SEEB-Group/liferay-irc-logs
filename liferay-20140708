@@ -22,3 +22,4 @@
 09:49 < Yam``> the latest
 09:49 < jardineworks> I see
 09:50 < jardineworks> Yam``, well, the only thing that I am not sure about is how to upgrade the portal to the latest version of bootstrap... I think 6.2 ships with the 2.6 version of bootstrap. But for the other stuff, javascript that allows you to dynamically create forms etc, there is no reason why that can't be placed into a portlet.
+09:51 < jardineworks> In fact, you can probably just make a portlet, take you html/css/js and put it in the portlet and deploy it.
