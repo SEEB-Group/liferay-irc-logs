@@ -145,3 +145,5 @@
 12:13 < jardineworks> also -- last.modified.check=false
 12:14 < jardineworks> err.. last one is an old one I think
 12:17 < jardineworks> rocknroll_, you could also try adding these settings to you tomcat context.xml: antiResourceLocking="false"
+12:17 < jardineworks> cachingAllowed="false"
+12:17 < jardineworks> ... and don't forget about browser caching :)
