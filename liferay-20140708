@@ -141,3 +141,4 @@
 12:13 < jardineworks>     # of changes.
 12:13 < jardineworks>     #
 12:13 < jardineworks>     layout.template.cache.enabled=true
+12:13 < jardineworks> change it to false in your portal-ext
