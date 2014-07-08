@@ -109,3 +109,4 @@
 10:37 < nancy_> i didn't understand the note what he has mentioned i.e, NOTE: If you are not using any SSO for both servers, Make sure you create a same user admin/admin in Liferay. Doing this you will have common user in both environment.
 10:37 < nancy_> yes
 10:37 < nancy_> i have logged in
+10:40 < jardineworks> just means that in an SSO situation, both Liferay and Alfresco should be wired to the same directory store.
