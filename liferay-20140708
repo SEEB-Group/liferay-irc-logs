@@ -136,3 +136,6 @@
 12:13 < jardineworks> rocknroll_, you could try this one...
 12:13 < jardineworks>     #
 12:13 < jardineworks>     # Set this to true to cache the content of layout templates. This is
+12:13 < jardineworks>     # recommended because it improves performance for production servers.
+12:13 < jardineworks>     # Setting it to false is useful during development if you need to make a lot
+12:13 < jardineworks>     # of changes.
