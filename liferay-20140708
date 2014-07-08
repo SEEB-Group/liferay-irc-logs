@@ -132,3 +132,4 @@
 11:44 < nicolas_FR> I posted here : https://www.liferay.com/community/forums/-/message_boards/message/39783436 If anyone has some clue, please answer there. Thanks*
 12:05 < rocknroll_> jardineworks, thanks, how do i go about that?
 12:05 < rocknroll_> ie. disable jsp cache
+12:10 < jardineworks> rocknroll_, usually it is handled with request headers --- just checking to see if there is a property in LR
