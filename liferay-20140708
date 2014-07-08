@@ -147,3 +147,4 @@
 12:17 < jardineworks> rocknroll_, you could also try adding these settings to you tomcat context.xml: antiResourceLocking="false"
 12:17 < jardineworks> cachingAllowed="false"
 12:17 < jardineworks> ... and don't forget about browser caching :)
+13:14 < rocknroll_> hey thanks, will give that a go :)
