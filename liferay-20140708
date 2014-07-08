@@ -135,3 +135,4 @@
 12:10 < jardineworks> rocknroll_, usually it is handled with request headers --- just checking to see if there is a property in LR
 12:13 < jardineworks> rocknroll_, you could try this one...
 12:13 < jardineworks>     #
+12:13 < jardineworks>     # Set this to true to cache the content of layout templates. This is
