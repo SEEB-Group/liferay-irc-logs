@@ -6,3 +6,4 @@
 04:19 < Yam`> hi
 04:27 < Yam`> what's the best way to store custom webpage and use them in portlets? (in iframe or embedded page)
 07:32 < rocknroll_> hi. how to make jspf-includes compile every time? this is driving me nuts, having to mess with a whole load of pages that include other pages that include other pages that include...
+09:30 < jardineworks> rocknroll_, I would assume that disabling jsp caching and the checks would do it?
