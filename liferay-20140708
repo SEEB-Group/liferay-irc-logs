@@ -76,3 +76,4 @@
 10:19 < jardineworks> ok what's the name of the project that has that code in it?
 10:19 < Yam``> jardineworks, I'm downloading the IDE, do I need to install ant?
 10:20 < jardineworks> Yam``, yeah... you should be able to sudo apt-get ant to install it from the Ubuntu universe
+10:21 < Yam``> ok, ty
