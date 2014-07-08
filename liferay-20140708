@@ -10,3 +10,4 @@
 09:36 < Yam`> jardineworks, any idea how I can embed a webpage I created (with all the html, the javascript and css files) in liferay? Like where I should put the files in order to make link between this webpage and liferay possible. Example: a button in this page opens a liferay page created using the control panel
 09:37 < jardineworks> Yam`, I think there is an iframe portlet isn't there?
 09:41 < Yam``> jardineworks, yes but where should I put my files?
+09:41 < Yam``> (the liferay path)
