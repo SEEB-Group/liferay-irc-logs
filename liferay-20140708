@@ -67,3 +67,4 @@
 10:16 < nancy_> yes
 10:16 < jardineworks> those applications are portlets so we're talking about the same thing
 10:16 < nancy_> ohh k
+10:16 < jardineworks> set the category for the portlet in the liferay-portlet.xml to hidden
