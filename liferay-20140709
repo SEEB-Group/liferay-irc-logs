@@ -191,3 +191,7 @@
 12:29 < jardineworks:#liferay> barrie, SearchEngineUtil.setSearchPermissionChecker( SearchPermissionChecker searchPermissionChecker)
 12:33 < barrie:#liferay> jardineworks hmm...
 12:35 < jardineworks:#liferay> barrie, check this out...
+12:35 < jardineworks:#liferay> if (userId > 0) {
+12:35 < jardineworks:#liferay> 			query = _searchPermissionChecker.getPermissionQuery(
+12:35 < jardineworks:#liferay> 				companyId, groupIds, userId, className, query, searchContext);
+12:35 < jardineworks:#liferay> 		}
