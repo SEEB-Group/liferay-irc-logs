@@ -13,3 +13,4 @@
 09:14 < jardineworks> Yamw, you don't have to... it's just easier with the Liferay IDE. Do Window > Open Perspective > Other and then look for Liferay
 09:14 < Yamw> jardineworks, done
 09:15 < jardineworks> Yamw, now, you have to configure the SDK and tomcat server. Window > Preferences and then in the left hand pane of the dialog window find Liferay
+09:16 < jardineworks> expand it and choose Installed Plugin SDK
