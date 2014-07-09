@@ -33,3 +33,4 @@
 09:25 < jardineworks> great, if you double click the ant window entry, then it will build and copy the WAR to the /deploy folder in LIFERAY_HOME. The autodeploy listener should pick it up, unpack it and move it into webapps.
 09:25 < jardineworks> (there is one thing I think we missed but lets see)
 09:25 < jardineworks> in a terminal window, you should tail -f TOMCAT_HOME/logs/catalina.out so that you can see that it's all working
+09:25 < jardineworks> if its not, let me know
