@@ -186,3 +186,4 @@
 12:23 < jardineworks:#liferay> but that seems to just check that class types (journal, dlentry, etc)
 12:23 < jardineworks:#liferay> for (String entryClassName : searchContext.getEntryClassNames()) {
 12:23 < jardineworks:#liferay> 			Indexer indexer = IndexerRegistryUtil.getIndexer(entryClassName);
+12:24 < jardineworks:#liferay> IndexerPostProcessor is an interface and is only implemented by BaseIndexerPostProcessor... and there are only two classes that extend it -- OrganizationIndexerPostProcessor and UserIndexerPostProcessor.
