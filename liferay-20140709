@@ -184,3 +184,5 @@
 12:22 < barrie:#liferay> jardineworks also may be something with isFilterSearch
 12:22 < jardineworks:#liferay> right
 12:23 < jardineworks:#liferay> but that seems to just check that class types (journal, dlentry, etc)
+12:23 < jardineworks:#liferay> for (String entryClassName : searchContext.getEntryClassNames()) {
+12:23 < jardineworks:#liferay> 			Indexer indexer = IndexerRegistryUtil.getIndexer(entryClassName);
