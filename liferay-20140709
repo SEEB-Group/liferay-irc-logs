@@ -165,3 +165,6 @@
 12:12 < Yamw:#liferay> In that scenario I won't clone the VM I'll just keep the existing one
 12:13 < jardineworks:#liferay> barrie, Looking at he SearchContext.java class there is a method --
 12:13 < jardineworks:#liferay> 	public boolean isScopeStrict() {
+12:13 < jardineworks:#liferay> 		return _scopeStrict;
+12:13 < jardineworks:#liferay> 	}
+12:16 < barrie:#liferay> jardineworks and great javadocs for that too :-)
