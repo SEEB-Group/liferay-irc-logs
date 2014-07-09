@@ -9,3 +9,4 @@
 05:03 < nicolas_FR> problem solved : DNS servers were moved and changes were not in the conf of the server I'm working on
 08:52 < jardineworks> Yamw, ah -- so you have your environment up and running though?
 08:53 < Yamw> yes I do
+08:55 < Yamw> jardineworks, so if I want to do my own portlet with bootstrap, javascript, html and css I need to create the portlet in eclipse?
