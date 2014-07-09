@@ -203,3 +203,4 @@
 13:40 < jardineworks:#liferay> barrie -- this is a custom portlet you said right? not the DL portlet?
 14:53 < barrie:#liferay> jardineworks yes.. but it's starting to look like it's an issue wuth there multiple roles/user groups/sites permissions...
 14:54 < barrie:#liferay> jardineworks like they have permission to the document, but may not to the page (they have other permission issues)
+14:54 < barrie:#liferay> jardineworks so I'm going to work with them through the other permissions
