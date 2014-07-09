@@ -112,3 +112,4 @@
 10:38 <@jhf:#liferay> jardineworks: i’ve no experience with clustering but reading https://www.liferay.com/community/wiki/-/wiki/Main/Clustering says to turn off session replication, and instead configure your load balancer for sticky sessions (so if you hit one node, you’ll stay on that node for the life of your session)
 10:39 < Yamw:#liferay> jardineworks, rm -rf * in temp and work?
 10:40 <@jhf:#liferay> also, an expert (Olaf Kock) recommends the same, recently: http://stackoverflow.com/questions/21749687/liferay-cluster-session-replication
+10:40 < jardineworks:#liferay> Yam yeah  --- rm -rf temp && rm -rf work && mkdir temp && mkdir work
