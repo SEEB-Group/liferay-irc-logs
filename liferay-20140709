@@ -22,3 +22,4 @@
 09:21 < jardineworks> now in the Navigator pain (left of the editor workbench) ... right click New > Liferay PLugin Project and choose to create a portlet plugin
 09:21 < Yamw> ok
 09:22 < jardineworks> do NOT launch the new portlet wizard. You should when you get the hang of this, but for now, keep it simple.
+09:22 < jardineworks> once the project is created
