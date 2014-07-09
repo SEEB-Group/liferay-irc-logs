@@ -171,3 +171,4 @@
 12:17 < jardineworks:#liferay> lol
 12:19 < barrie:#liferay> jardineworks just tried it.. no difference.. but thanks..
 12:19 < barrie:#liferay> jardineworks seems like a missing permission checker.. or the index is not using permissions
+12:20 < jardineworks:#liferay> barrie, you need rotty... his name is on the FacetedSearcher class. but I can see in the search() method for the FacetedSearcher that it does --
