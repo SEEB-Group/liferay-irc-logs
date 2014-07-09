@@ -7,3 +7,4 @@
 03:56 < nicolas_FR> does anyone know if having 2 communities, we can have the same login portlet which will only allow people with the right community to log in, and others will be refused (even if they already have an account for the other community)
 03:57 < nicolas_FR> like having a portal with a "game" and a "work" community. You have to create an account for both community because your "game" account won't be accepted to log in the "work" community. Possible ?
 05:03 < nicolas_FR> problem solved : DNS servers were moved and changes were not in the conf of the server I'm working on
+08:52 < jardineworks> Yamw, ah -- so you have your environment up and running though?
