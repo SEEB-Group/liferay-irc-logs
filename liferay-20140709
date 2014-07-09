@@ -77,3 +77,4 @@
 10:06 < Yamw:#liferay> both
 10:15 < jardineworks:#liferay> ok -- in terminal, do me a favour
 10:15 < jardineworks:#liferay> go into the portlet/demands-portlet folder
+10:15 < jardineworks:#liferay> and run ant deploy
