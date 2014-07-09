@@ -65,3 +65,4 @@
 10:03 < Yamw:#liferay> jardineworks, I've set the category name to Yam and I tried to add the ANT target but I don't find the build.xml in the window
 10:03 < Yamw:#liferay> but there's already a "Demands-portlet" entry in the ant tab
 10:04 < jardineworks:#liferay> Yamw, ah, its already there
+10:04 < jardineworks:#liferay> double-click it
