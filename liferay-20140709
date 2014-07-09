@@ -79,3 +79,4 @@
 10:15 < jardineworks:#liferay> go into the portlet/demands-portlet folder
 10:15 < jardineworks:#liferay> and run ant deploy
 10:20 < Yamw:#liferay> ECJ wasn't installed so it installed it after the first ant deploy and I had to do it again
+10:20 < Yamw:#liferay> build successful
