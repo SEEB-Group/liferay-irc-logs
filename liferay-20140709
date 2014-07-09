@@ -88,3 +88,4 @@
 10:29 < Yamw:#liferay> there's a $theme.runtime("145") in the top left of the liferay site
 10:29 < Yamw:#liferay> I don't know if it's related
 10:30 < jardineworks:#liferay> that is trying to embed portlet name 145 in the theme.
+10:30 < jardineworks:#liferay> do you see the menu? (I'm not sure which portlet 145 is)
