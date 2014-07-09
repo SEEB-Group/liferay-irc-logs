@@ -119,3 +119,4 @@
 10:44 < jardineworks:#liferay> If we could leverage Liferays ehcache that would be idea since the replication is already managed.
 10:44 <@jhf:#liferay> that sounds good, but you’re well beyond my abilities already :)
 10:44 < jardineworks:#liferay> This just sounds like a complicated thing to solve.
+10:44 < jardineworks:#liferay> personally, I would vote for a lost session! :)
