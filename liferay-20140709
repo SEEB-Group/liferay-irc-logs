@@ -29,3 +29,4 @@
 09:23 < jardineworks> click on the source tab (at the bottom of the workbench pane) and set the category name="Yam"
 09:23 < jardineworks> then in the bottom right, add the ANT target for the project (click the +, find the project, expand it and choose the build.xml)
 09:24 < jardineworks> Is your server running?
+09:24 < Yamw> yes it is
