@@ -161,3 +161,4 @@
 12:11 < barrie:#liferay> jardineworks using AssetEntriesFacet and creating a searchContext
 12:12 < barrie:#liferay> jardineworks Indexer indexer = FacetedSearcher.getInstance();
 12:12 < jardineworks:#liferay> Yamw, If you clone the current VM all you need to do is in your clone, drop the schema from mysql. Then create it again (same name) and add the user that is configured in the portal-ext for Liferay with full privileges.
+12:12 < jardineworks:#liferay> Yamw, when you restart the server you will see it creating the tables and everything from scratch.
