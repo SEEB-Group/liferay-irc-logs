@@ -85,3 +85,4 @@
 10:26 < jardineworks:#liferay> then Add a page.
 10:26 < jardineworks:#liferay> go to that page
 10:27 < jardineworks:#liferay> from the tool bar on the side choose the + , then choose applications, find the YAM category and drag your portlet onto the page.
+10:29 < Yamw:#liferay> there's a $theme.runtime("145") in the top left of the liferay site
