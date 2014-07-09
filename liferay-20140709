@@ -16,3 +16,4 @@
 09:16 < jardineworks> expand it and choose Installed Plugin SDK
 09:16 < jardineworks> Click Add .. and then you basically navigate to where ever you unpacked the SDK archive.
 09:16 < jardineworks> Then, in the left pane, find Server > Runtime Environments
+09:17 < jardineworks> Add > Expand Liferay and choose your version (6.2CE I think it was)
