@@ -26,3 +26,4 @@
 09:22 < Yamw> what's the different between creating a portlet and a plugin project?
 09:22 < jardineworks> expand it and find docroot/WEB-INF/ and click on liferay\-display.xml
 09:22 < jardineworks> liferay-display.xml
+09:23 < jardineworks> click on the source tab (at the bottom of the workbench pane) and set the category name="Yam"
