@@ -31,3 +31,4 @@
 09:24 < jardineworks> Is your server running?
 09:24 < Yamw> yes it is
 09:25 < jardineworks> great, if you double click the ant window entry, then it will build and copy the WAR to the /deploy folder in LIFERAY_HOME. The autodeploy listener should pick it up, unpack it and move it into webapps.
+09:25 < jardineworks> (there is one thing I think we missed but lets see)
