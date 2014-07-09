@@ -148,3 +148,4 @@
 12:00 < jardineworks:#liferay> Yamw, anything you can't lose? I am about to suggest you dump the portal install and start over. Basically drop the database, recreate it and restart Liferay
 12:02 < Yamw:#liferay> well it's a test platform but I wouln't lose it again when it is the prod version
 12:02 < jardineworks:#liferay> right
+12:03 < jardineworks:#liferay> I'm not sure what happened to be honest -- just trying to stick to our initial goal of showing you how to build a portlet to do what you are trying to do outside Liferay :)
