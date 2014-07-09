@@ -197,3 +197,4 @@
 12:35 < jardineworks:#liferay> 		}
 12:44 < barrie:#liferay> jardineworks I set the userid (and verified it)
 12:44 < barrie:#liferay> jardineworks searchContext.setUserId(themeDisplay.getUserId());
+12:45 < barrie:#liferay> jardineworks but no difference.. so maybe there are no permissions in the search index
