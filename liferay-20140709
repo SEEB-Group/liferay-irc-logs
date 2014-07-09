@@ -15,3 +15,4 @@
 09:15 < jardineworks> Yamw, now, you have to configure the SDK and tomcat server. Window > Preferences and then in the left hand pane of the dialog window find Liferay
 09:16 < jardineworks> expand it and choose Installed Plugin SDK
 09:16 < jardineworks> Click Add .. and then you basically navigate to where ever you unpacked the SDK archive.
+09:16 < jardineworks> Then, in the left pane, find Server > Runtime Environments
