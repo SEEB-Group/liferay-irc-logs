@@ -10,3 +10,4 @@
 08:52 < jardineworks> Yamw, ah -- so you have your environment up and running though?
 08:53 < Yamw> yes I do
 08:55 < Yamw> jardineworks, so if I want to do my own portlet with bootstrap, javascript, html and css I need to create the portlet in eclipse?
+09:14 < jardineworks> Yamw, you don't have to... it's just easier with the Liferay IDE. Do Window > Open Perspective > Other and then look for Liferay
