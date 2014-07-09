@@ -19,3 +19,4 @@
 09:17 < jardineworks> Add > Expand Liferay and choose your version (6.2CE I think it was)
 09:20 < Yamw> yep that's it
 09:20 < jardineworks> ok ..
+09:21 < jardineworks> now in the Navigator pain (left of the editor workbench) ... right click New > Liferay PLugin Project and choose to create a portlet plugin
