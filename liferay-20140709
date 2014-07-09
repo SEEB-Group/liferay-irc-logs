@@ -152,3 +152,4 @@
 12:03 < jardineworks:#liferay> .. so that you can do it inside Liferay
 12:03 < barrie:#liferay> jardineworks no.. it's showing results the user should not see and when they click, it gives them an error
 12:05 < jardineworks:#liferay> barrie, is this Web Content search of federated search?
+12:08 < barrie:#liferay> it's a search done in custom code (I didn't write it.. just reviewing the bug)
