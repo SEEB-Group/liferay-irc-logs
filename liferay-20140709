@@ -132,3 +132,4 @@
 11:41 < barrie:#liferay> hello all... I'm trying to limit the search results by a users permission (6.1 CE) and know there is a way.. but I'm a bit rusty
 11:41 < barrie:#liferay> any suggestions?
 11:43 < barrie:#liferay> pretty sure it has to do with overriding
+11:43 < barrie:#liferay> 	private static final boolean _PERMISSION_AWARE = false;
