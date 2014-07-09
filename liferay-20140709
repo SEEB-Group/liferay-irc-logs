@@ -66,3 +66,4 @@
 10:03 < Yamw:#liferay> but there's already a "Demands-portlet" entry in the ant tab
 10:04 < jardineworks:#liferay> Yamw, ah, its already there
 10:04 < jardineworks:#liferay> double-click it
+10:04 < Yamw:#liferay> I've tried double clicking it and it ends up on an error (null pointer exception)
