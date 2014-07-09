@@ -156,3 +156,4 @@
 12:09 < Yamw:#liferay> I'll have to build another VM in real conditions (those of the client) in the near future so... I'll see tomorrow morning if I can have the new VM or else I'll clean the existing liferay as you've said
 12:09 < Yamw:#liferay> for that scenario, what are the steps to make (to do?)?
 12:09 < jardineworks:#liferay> which scenario? to rebuild?
+12:10 < jardineworks:#liferay> barrie, you mean the code is making its own Boolean Query and context and then firing it off?
