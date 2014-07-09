@@ -134,3 +134,4 @@
 11:43 < barrie:#liferay> pretty sure it has to do with overriding
 11:43 < barrie:#liferay> 	private static final boolean _PERMISSION_AWARE = false;
 11:48 < Yamw:#liferay> jardineworks, nope
+11:50 < jardineworks:#liferay> barrie, It's not done implicitly?
