@@ -62,3 +62,4 @@
 09:50 < jardineworks:#liferay> yeah -- I am sad that I didn't make it over to the beach part but that's just an excuse to go back :)
 09:52 < jardineworks:#liferay> Yamw, Ok, I am going to go back to my code audit. Ping me when you are ready to continue.
 09:54 < Yamw:#liferay> yep no problem
+10:03 < Yamw:#liferay> jardineworks, I've set the category name to Yam and I tried to add the ANT target but I don't find the build.xml in the window
