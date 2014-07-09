@@ -141,3 +141,4 @@
 11:52 < jardineworks:#liferay> Yamw, was it working before you deployed your plugin?
 11:55 < Yamw:#liferay> it worked a few days before and yesterday the menu disappeared, but I didn't have the $theme.runtime("145") until today (after the plugin I think)
 11:56 < jardineworks:#liferay> Yamw, have you developed your own theme?
+11:56 < Yamw:#liferay> jardineworks, not at all, just sites and pages
