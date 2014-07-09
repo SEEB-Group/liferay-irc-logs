@@ -144,3 +144,5 @@
 11:56 < Yamw:#liferay> jardineworks, not at all, just sites and pages
 11:58 < jardineworks:#liferay> hmm
 11:59 < jardineworks:#liferay> did you say that you were using a MySQL db? yes right?
+11:59 < Yamw:#liferay> yes
+12:00 < jardineworks:#liferay> Yamw, anything you can't lose? I am about to suggest you dump the portal install and start over. Basically drop the database, recreate it and restart Liferay
