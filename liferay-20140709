@@ -118,3 +118,4 @@
 10:43 < jardineworks:#liferay> I don't think we can eliminate the session altogether. I think the best we can hope for is to implement a valve (or find one that is already done) that can be used to pipe session data to a cache so that the internals of Tomcat and LR remain the same but we can use somehting like memcache or ehcache to save session state
 10:44 < jardineworks:#liferay> If we could leverage Liferays ehcache that would be idea since the replication is already managed.
 10:44 <@jhf:#liferay> that sounds good, but you’re well beyond my abilities already :)
+10:44 < jardineworks:#liferay> This just sounds like a complicated thing to solve.
