@@ -117,3 +117,4 @@
 10:42 < jardineworks:#liferay> jhf, it works MOST of the time but ever now and then a Member from the cluster falls out and then comes back. So what I have convinced the client to do is use sticky sessions + replication in hopes that in a disaster scenario where a node explodes, the user can continue to work but is passed to the other node.
 10:43 < jardineworks:#liferay> I don't think we can eliminate the session altogether. I think the best we can hope for is to implement a valve (or find one that is already done) that can be used to pipe session data to a cache so that the internals of Tomcat and LR remain the same but we can use somehting like memcache or ehcache to save session state
 10:44 < jardineworks:#liferay> If we could leverage Liferays ehcache that would be idea since the replication is already managed.
+10:44 <@jhf:#liferay> that sounds good, but you’re well beyond my abilities already :)
