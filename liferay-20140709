@@ -146,3 +146,4 @@
 11:59 < jardineworks:#liferay> did you say that you were using a MySQL db? yes right?
 11:59 < Yamw:#liferay> yes
 12:00 < jardineworks:#liferay> Yamw, anything you can't lose? I am about to suggest you dump the portal install and start over. Basically drop the database, recreate it and restart Liferay
+12:02 < Yamw:#liferay> well it's a test platform but I wouln't lose it again when it is the prod version
