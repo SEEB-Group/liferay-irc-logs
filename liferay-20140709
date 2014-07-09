@@ -109,3 +109,4 @@
 10:35 < jardineworks:#liferay> Liferay no doubt uses the session right? like at the very least LIFERAY_SHARED vars, and if I am not mistake PRP are stored at in the application session right?
 10:35 < jardineworks:#liferay> so we can't just "turn sessions" off
 10:35 < jardineworks:#liferay> Yamw, last resort. Shut down the server, clear the work/temp folders in TOMCAT_HOME and restart the server.
+10:38 <@jhf:#liferay> jardineworks: i’ve no experience with clustering but reading https://www.liferay.com/community/wiki/-/wiki/Main/Clustering says to turn off session replication, and instead configure your load balancer for sticky sessions (so if you hit one node, you’ll stay on that node for the life of your session)
