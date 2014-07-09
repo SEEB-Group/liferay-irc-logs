@@ -158,3 +158,4 @@
 12:09 < jardineworks:#liferay> which scenario? to rebuild?
 12:10 < jardineworks:#liferay> barrie, you mean the code is making its own Boolean Query and context and then firing it off?
 12:10 < Yamw:#liferay> yes, to rebuild
+12:11 < barrie:#liferay> jardineworks using AssetEntriesFacet and creating a searchContext
