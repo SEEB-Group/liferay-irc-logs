@@ -69,3 +69,4 @@
 10:04 < Yamw:#liferay> I've tried double clicking it and it ends up on an error (null pointer exception)
 10:04 < jardineworks:#liferay> ok so...
 10:04 < jardineworks:#liferay> go to the folder where you unpacked SDK
+10:04 < jardineworks:#liferay> in there tell me if you see a file called build.properties.
