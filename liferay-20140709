@@ -113,3 +113,4 @@
 10:39 < Yamw:#liferay> jardineworks, rm -rf * in temp and work?
 10:40 <@jhf:#liferay> also, an expert (Olaf Kock) recommends the same, recently: http://stackoverflow.com/questions/21749687/liferay-cluster-session-replication
 10:40 < jardineworks:#liferay> Yam yeah  --- rm -rf temp && rm -rf work && mkdir temp && mkdir work
+10:41 < jardineworks:#liferay> jhf, I know I know... but I didn't listen to any of you because my client wouldn't listen :) So I went ahead and got it working anyway... even the Tomcat guys say not to use it.
