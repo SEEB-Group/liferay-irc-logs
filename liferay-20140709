@@ -195,3 +195,5 @@
 12:35 < jardineworks:#liferay> 			query = _searchPermissionChecker.getPermissionQuery(
 12:35 < jardineworks:#liferay> 				companyId, groupIds, userId, className, query, searchContext);
 12:35 < jardineworks:#liferay> 		}
+12:44 < barrie:#liferay> jardineworks I set the userid (and verified it)
+12:44 < barrie:#liferay> jardineworks searchContext.setUserId(themeDisplay.getUserId());
