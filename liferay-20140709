@@ -174,3 +174,8 @@
 12:20 < jardineworks:#liferay> barrie, you need rotty... his name is on the FacetedSearcher class. but I can see in the search() method for the FacetedSearcher that it does --
 12:20 < jardineworks:#liferay> PermissionChecker permissionChecker =
 12:20 < jardineworks:#liferay> 				PermissionThreadLocal.getPermissionChecker();
+12:20 < jardineworks:#liferay> if (isFilterSearch(searchContext) && (permissionChecker != null)) {
+12:20 < jardineworks:#liferay> 				searchContext.setEnd(end + INDEX_FILTER_SEARCH_LIMIT);
+12:20 < jardineworks:#liferay> 				searchContext.setStart(0);
+12:20 < jardineworks:#liferay> 			}
+12:21 < jardineworks:#liferay> it must be a postProcessor since the permissions are not stored in lucene right?
