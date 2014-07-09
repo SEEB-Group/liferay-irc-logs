@@ -114,3 +114,4 @@
 10:40 <@jhf:#liferay> also, an expert (Olaf Kock) recommends the same, recently: http://stackoverflow.com/questions/21749687/liferay-cluster-session-replication
 10:40 < jardineworks:#liferay> Yam yeah  --- rm -rf temp && rm -rf work && mkdir temp && mkdir work
 10:41 < jardineworks:#liferay> jhf, I know I know... but I didn't listen to any of you because my client wouldn't listen :) So I went ahead and got it working anyway... even the Tomcat guys say not to use it.
+10:42 < jardineworks:#liferay> jhf, it works MOST of the time but ever now and then a Member from the cluster falls out and then comes back. So what I have convinced the client to do is use sticky sessions + replication in hopes that in a disaster scenario where a node explodes, the user can continue to work but is passed to the other node.
