@@ -108,3 +108,4 @@
 10:35 < Yamw:#liferay> same issue after relaunching firefox
 10:35 < jardineworks:#liferay> Liferay no doubt uses the session right? like at the very least LIFERAY_SHARED vars, and if I am not mistake PRP are stored at in the application session right?
 10:35 < jardineworks:#liferay> so we can't just "turn sessions" off
+10:35 < jardineworks:#liferay> Yamw, last resort. Shut down the server, clear the work/temp folders in TOMCAT_HOME and restart the server.
