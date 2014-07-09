@@ -180,3 +180,4 @@
 12:20 < jardineworks:#liferay> 			}
 12:21 < jardineworks:#liferay> it must be a postProcessor since the permissions are not stored in lucene right?
 12:21 < barrie:#liferay> jardineworks I'm guessing that as well...
+12:21 < barrie:#liferay> jardineworks OK.. thanks.. I'll also have a look there. appreciate the help
