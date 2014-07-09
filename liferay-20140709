@@ -105,3 +105,4 @@
 10:33 < jardineworks:#liferay> haha
 10:34 < jardineworks:#liferay> jhf, On .. I have done all sorts of madness with clustering and session replication. I know so much more about Tomcat/JGroups/Tribes etc than I ever wanted to know. Now, the thing is, the replication mechanism doesn't always seems to work properly. So my client is saying, let's just not replicate sessions and implement a policy of not using the session to store stuff.
 10:34 < jardineworks:#liferay> BUT
+10:35 < Yamw:#liferay> same issue after relaunching firefox
