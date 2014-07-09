@@ -151,3 +151,4 @@
 12:03 < jardineworks:#liferay> I'm not sure what happened to be honest -- just trying to stick to our initial goal of showing you how to build a portlet to do what you are trying to do outside Liferay :)
 12:03 < jardineworks:#liferay> .. so that you can do it inside Liferay
 12:03 < barrie:#liferay> jardineworks no.. it's showing results the user should not see and when they click, it gives them an error
+12:05 < jardineworks:#liferay> barrie, is this Web Content search of federated search?
