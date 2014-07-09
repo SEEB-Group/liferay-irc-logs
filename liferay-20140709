@@ -199,3 +199,4 @@
 12:44 < barrie:#liferay> jardineworks searchContext.setUserId(themeDisplay.getUserId());
 12:45 < barrie:#liferay> jardineworks but no difference.. so maybe there are no permissions in the search index
 12:45 < barrie:#liferay> jardineworks as BaseInderer defaults to _PERMISSION_AWARE = false;
+12:48 < barrie:#liferay> jardineworks although DLInderer (which is what I'm searching) has _PERMISSION_AWARE = true
