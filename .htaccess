@@ -1,5 +1,5 @@
 Options Indexes
-IndexIgnore /README.md /.git
+IndexIgnore /README.md .git .. 
 IndexOptions FancyIndexing
 IndexOrderDefault Descending Name
 
