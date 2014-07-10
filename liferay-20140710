@@ -14,3 +14,4 @@
 11:22 < modd_:#liferay> seems like it uses the template for the site but doesn't create the pages until I do some action on the site
 11:22 < modd_:#liferay> am I missing some API call?
 11:24 < modd_:#liferay> I tried GroupLocalServiceUtil.updateSite(group.getGroupId(), true); and LayoutSetLocalServiceUtil.updatePageCount(group.getGroupId(), false); but nothing helps so far
+11:25 < jardineworks:#liferay> Yam``, put them in the css and js folders and then reference them with the path /js and /css
