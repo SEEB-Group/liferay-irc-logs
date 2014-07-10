@@ -1,5 +1,6 @@
 Options Indexes
-IndexIgnore /README.md .git .. 
+# use the /etc/apache/sites-enabled/000-default file to edit
+IndexIgnore /README.md 
 IndexOptions FancyIndexing
 IndexOrderDefault Descending Name
 

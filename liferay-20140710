@@ -48,3 +48,4 @@
 12:17 < jardineworks:#liferay> Yam``, for sure the layout issues are markup right? so you'll probbaly have to fudge with it. Remember the generated code from liferay has additional markup that wraps the portlet with its own css and such. Rather than trying to make it pixel perfect within your portlet, I would suggest now trying to make a theme and then putting your js/css etc in there.
 12:18 -!- mode/#liferay [+o rotty3000] by ChanServ
 12:20 < Yam``:#liferay> what would be the steps so?
+12:21 < jardineworks:#liferay> Yam``, in eclipse, right click on the explorer pane -- New > Liferay Plugin Project ... choose Theme as the type and fill in the other fields.
