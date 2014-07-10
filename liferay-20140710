@@ -16,3 +16,4 @@
 11:24 < modd_:#liferay> I tried GroupLocalServiceUtil.updateSite(group.getGroupId(), true); and LayoutSetLocalServiceUtil.updatePageCount(group.getGroupId(), false); but nothing helps so far
 11:25 < jardineworks:#liferay> Yam``, put them in the css and js folders and then reference them with the path /js and /css
 11:26 < Yam``:#liferay> just like in <head></head but without one?
+11:26 < jardineworks:#liferay> right
