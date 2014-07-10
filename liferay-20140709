@@ -207,3 +207,5 @@
 14:54 < jardineworks:#liferay> barrie, hah.. PEBKAC
 14:54 < barrie:#liferay> jardineworks thanks for your interest and help!
 14:55 < jardineworks:#liferay> barrie, no worries! never know when I will come across the same issue ;)
+17:29 -!- mode/#liferay [+o rotty3000] by ChanServ
+20:10 < Naenyn:#liferay> could someone describe how to search for groups (sites) using GroupLocalServiceUtil.search by name? I can only seem to search by name if I give it the exact name.. not a partial. I don't understand why search(companyId, "F", null, null, -1, -1) doesn't give me all the groups that have a F in the name. =|
