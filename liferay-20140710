@@ -49,3 +49,4 @@
 12:18 -!- mode/#liferay [+o rotty3000] by ChanServ
 12:20 < Yam``:#liferay> what would be the steps so?
 12:21 < jardineworks:#liferay> Yam``, in eclipse, right click on the explorer pane -- New > Liferay Plugin Project ... choose Theme as the type and fill in the other fields.
+12:22 < Yam``:#liferay> ok, thanks, I'll try that tomorrow
