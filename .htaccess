@@ -3,7 +3,7 @@ IndexIgnore /README.md
 IndexOptions FancyIndexing
 IndexOrderDefault Descending Name
 
-<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|git)$">
+<FilesMatch "\.(htaccess|git)$">
 Order Deny,Allow
 Deny from all
 </FilesMatch>
