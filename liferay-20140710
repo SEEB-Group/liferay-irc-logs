@@ -8,3 +8,4 @@
 08:13 < Yam``:#liferay> e > done that, it works
 09:14 < nancy:#liferay> Hi how to remove welcome to liferay text from the header after logo?
 09:19 < jardineworks:#liferay> Yam``, ok -- now, in eclipse, under your project you will find docroot/view.jsp. Take you html (minus the <html><head> and <body> tags and paste it into there. You're basically taking the body contents for the page and putting them in the portlet.
+10:09 < Yam``:#liferay> jardineworks, so how do I put the CSS and JS files?
