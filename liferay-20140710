@@ -9,3 +9,7 @@
 09:14 < nancy:#liferay> Hi how to remove welcome to liferay text from the header after logo?
 09:19 < jardineworks:#liferay> Yam``, ok -- now, in eclipse, under your project you will find docroot/view.jsp. Take you html (minus the <html><head> and <body> tags and paste it into there. You're basically taking the body contents for the page and putting them in the portlet.
 10:09 < Yam``:#liferay> jardineworks, so how do I put the CSS and JS files?
+10:13 -!- mode/#liferay [+o jhf] by ChanServ
+11:21 < modd_:#liferay> I have a portlet which creates a user, a site using a template and assignes the user to the site and gives him site admin role. everything works fine except one problem: the site appears in the control panel but not in the my sites-navigation. checking the db it has pageCount=0. after clicking on the site in the backend (so it shows the site config) the site also appears in the my sites navigation
+11:22 < modd_:#liferay> seems like it uses the template for the site but doesn't create the pages until I do some action on the site
+11:22 < modd_:#liferay> am I missing some API call?
