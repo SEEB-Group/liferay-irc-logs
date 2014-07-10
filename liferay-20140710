@@ -28,3 +28,4 @@
 11:52 < jardineworks:#liferay> Yam``, yep. tail -f tomcat_home/logs/catalina.out.... once you see messages that the portlet is deployed, refresh the page.
 11:52 < Yam``:#liferay> ty jardineworks
 11:54 < Yam``:#liferay> eclipse announced BUILD SUCCESSFUL but tail -f catalina.out shows me errors
+11:54 < jardineworks:#liferay> what are the errors?
