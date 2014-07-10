@@ -27,3 +27,4 @@
 11:51 < Yam``:#liferay> when I pasted my code and copied my resources, what should I do jardineworks, double-clicking the project in the ant tab and if there are not erros I can use the portlet without restarting liferay?
 11:52 < jardineworks:#liferay> Yam``, yep. tail -f tomcat_home/logs/catalina.out.... once you see messages that the portlet is deployed, refresh the page.
 11:52 < Yam``:#liferay> ty jardineworks
+11:54 < Yam``:#liferay> eclipse announced BUILD SUCCESSFUL but tail -f catalina.out shows me errors
