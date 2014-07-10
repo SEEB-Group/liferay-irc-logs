@@ -57,3 +57,4 @@
 14:55 < bijoo:#liferay> modd_: you could also do a funky thing too
 14:56 < bijoo:#liferay> modd_: call PortalClassInvoker.invoke
 14:56 < bijoo:#liferay> SitesUtilMethodKey("mergeLayoutSetProtypeLayouts", Group.class, LayoutSet.class);
+15:57 < jardineworks:#liferay> jhf, you around for a licensing question?
