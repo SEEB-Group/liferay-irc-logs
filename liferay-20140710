@@ -7,3 +7,4 @@
 08:13 < Yam``:#liferay> <jardineworks> from the tool bar on the side choose the + , then choose applications, find the YAM category and drag your portlet onto the pag
 08:13 < Yam``:#liferay> e > done that, it works
 09:14 < nancy:#liferay> Hi how to remove welcome to liferay text from the header after logo?
+09:19 < jardineworks:#liferay> Yam``, ok -- now, in eclipse, under your project you will find docroot/view.jsp. Take you html (minus the <html><head> and <body> tags and paste it into there. You're basically taking the body contents for the page and putting them in the portlet.
