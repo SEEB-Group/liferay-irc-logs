@@ -34,3 +34,5 @@
 11:57 < jardineworks:#liferay> Yam``, can you share a screen shot?
 11:59 < Yam``:#liferay> yes I will
 12:01 < Yam``:#liferay> it seems that the errors are older
+12:07 < bijoo:#liferay> martin3k: Did you see the exception in the logs? "java.sql.SQLException: Access denied for user 'liferay'@'localhost' (using password: YES)"
+12:07 < bijoo:#liferay> martin3k: seems the username/password may have changed
