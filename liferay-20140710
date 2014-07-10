@@ -13,3 +13,4 @@
 11:21 < modd_:#liferay> I have a portlet which creates a user, a site using a template and assignes the user to the site and gives him site admin role. everything works fine except one problem: the site appears in the control panel but not in the my sites-navigation. checking the db it has pageCount=0. after clicking on the site in the backend (so it shows the site config) the site also appears in the my sites navigation
 11:22 < modd_:#liferay> seems like it uses the template for the site but doesn't create the pages until I do some action on the site
 11:22 < modd_:#liferay> am I missing some API call?
+11:24 < modd_:#liferay> I tried GroupLocalServiceUtil.updateSite(group.getGroupId(), true); and LayoutSetLocalServiceUtil.updatePageCount(group.getGroupId(), false); but nothing helps so far
