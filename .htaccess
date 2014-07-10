@@ -4,6 +4,6 @@ IndexOptions FancyIndexing
 IndexOrderDefault Descending Name
 
 <FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|git)$">
-Order Allow,Deny
+Order Deny,Allow
 Deny from all
 </FilesMatch>

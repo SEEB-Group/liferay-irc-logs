@@ -41,3 +41,4 @@
 12:11 < jardineworks:#liferay> right now you have the portlet in a left sidebar and your markup doesn't wrap it nicely.
 12:13 < Yam``:#liferay> that's right
 12:13 < Yam``:#liferay> can we customize the three left buttons (+, view, edit), for example make them red?
+12:15 < jardineworks:#liferay> probably through css
