@@ -51,3 +51,9 @@
 12:21 < jardineworks:#liferay> Yam``, in eclipse, right click on the explorer pane -- New > Liferay Plugin Project ... choose Theme as the type and fill in the other fields.
 12:22 < Yam``:#liferay> ok, thanks, I'll try that tomorrow
 13:33 < modd_:#liferay> :(
+14:35 -!- mode/#liferay [+o rotty3000] by ChanServ
+14:54 < bijoo:#liferay> modd_: Try doing the following call after
+14:54 < bijoo:#liferay> LayoutLocalServiceUtil.getLayouts(groupId, false, LayoutConstants.DEFAULT_PARENT_LAYOUT_ID);
+14:55 < bijoo:#liferay> modd_: you could also do a funky thing too
+14:56 < bijoo:#liferay> modd_: call PortalClassInvoker.invoke
+14:56 < bijoo:#liferay> SitesUtilMethodKey("mergeLayoutSetProtypeLayouts", Group.class, LayoutSet.class);
