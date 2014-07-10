@@ -45,3 +45,4 @@
 12:15 < jardineworks:#liferay> Yam``, now you need to learn how to make a theme :)
 12:16 < Yam``:#liferay> jardineworks, being in single column make it wider but there's the same issues : my two tables are one after the other, I don't have the bootstrap panel theme nor do I have the bootstrap buttons (that's not very important)
 12:16 < Yam``:#liferay> haha!
+12:17 < jardineworks:#liferay> Yam``, for sure the layout issues are markup right? so you'll probbaly have to fudge with it. Remember the generated code from liferay has additional markup that wraps the portlet with its own css and such. Rather than trying to make it pixel perfect within your portlet, I would suggest now trying to make a theme and then putting your js/css etc in there.
