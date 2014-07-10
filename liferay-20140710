@@ -1,2 +1,3 @@
 --- Log opened Thu Jul 10 00:00:12 2014
 05:45 < martin3k:#liferay> hi guys i am encountering a funny problem. starting up liferay using the wizard it connects seamless to the mysql database. all tables are created. after a restart of liferay it seems to dont connect to the database anymore (catalina.out: http://pastebin.com/UraECNCH) any ideas?
+06:16 < nancy:#liferay> Hi how to remove welcome to liferay text from the header after logo?
