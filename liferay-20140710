@@ -21,3 +21,4 @@
 11:27 < jardineworks:#liferay> Yam``, normally I try to put all my css and js in a theme-plugin, but for now, keep it simple :)
 11:27 < Yam``:#liferay> I'll try that and if I don't have any problems I'll listen to your suggestions :)
 11:27 < jardineworks:#liferay> haha
+11:29 < Yam``:#liferay> fyi I removed the html folder in [liferay-portal]/[tomcat]/webapps/ROOT and copied the clean one from the archive to fix my dockbar issue
