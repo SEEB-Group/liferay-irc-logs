@@ -1,2 +1,3 @@
 --- Log opened Fri Jul 11 00:00:14 2014
 05:31 < modd_:#liferay> hey bijoo / bijoo_: thx for the hint it works now! I can't believe that simply fetching the layouts will create them in background.
+06:27 < goku_:#liferay> hi, how to auto update timestamps to db while adding ?
