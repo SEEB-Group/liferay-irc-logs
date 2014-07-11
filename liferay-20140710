@@ -58,3 +58,9 @@
 14:56 < bijoo:#liferay> modd_: call PortalClassInvoker.invoke
 14:56 < bijoo:#liferay> SitesUtilMethodKey("mergeLayoutSetProtypeLayouts", Group.class, LayoutSet.class);
 15:57 < jardineworks:#liferay> jhf, you around for a licensing question?
+18:36 -!- ServerMode/#liferay [+o ChanServ] by dickson.freenode.net
+19:43 -!- mode/#liferay [+o jhf] by ChanServ
+21:59 -!- ServerMode/#liferay [+o jhf] by dickson.freenode.net
+22:20 -!- ServerMode/#liferay [+o ChanServ] by dickson.freenode.net
+23:19 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Fri Jul 11 00:00:14 2014
