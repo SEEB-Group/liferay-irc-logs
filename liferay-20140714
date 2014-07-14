@@ -81,3 +81,4 @@
 17:05 < jardineworks:#liferay> however, if you just want users to authenticate against a separate data store you might what to just write your own Login hook and then as part of its logic, if the external system returns true for the login creds, read the user out of the other system and create them in Liferay using the UserLocalServiceUtil.addUser(...)
 17:05 < dvayanu:#liferay> jardineworks: this looks very promising , thank you. do i just put the jar into WEB-INF/lib then?
 17:06 < jardineworks:#liferay> you just make a liferay hook plugin project
+17:07 < jardineworks:#liferay> Liferay takes care of the rest when you deploy
