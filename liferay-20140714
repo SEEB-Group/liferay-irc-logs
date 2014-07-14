@@ -65,3 +65,4 @@
 12:13 -!- mode/#liferay [+o jhf] by ChanServ
 12:16 < jardineworks:#liferay> jhf, bah! personally I think that undersells it. I understand why it is done I suppose, though personally I think it would be better if there was a flag that indicated whether or not you wanted the same bevaiour just using an external database.
 12:17 < jardineworks:#liferay> jhf, Part of the beauty (and usually how I sell people on SB) is not just the java code gen, it's the sql code gen and the automatic schema creation ... a couple of files and you can start writing the business logic.
+12:18 <@jhf:#liferay> well.. I’m sure there are good reasons why it doesn’t make those DB calls when using an external DB - probably because most often it wouldn’t have permissions in a production env
