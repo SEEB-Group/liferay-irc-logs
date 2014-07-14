@@ -92,3 +92,5 @@
 17:25 -!- mode/#liferay [+o rotty3000] by ChanServ
 17:28 < dvayanu:#liferay> jardineworks: so i package it and copy the war into tomcat/webapps i understand?
 17:39 < dvayanu:#liferay> jardineworks: do i understand it correctly, that if i put it under deploys and renew it, it will be pocked up automatically?
+18:05 -!- mode/#liferay [+o lundgren] by ChanServ
+19:29 < jrmiah:#liferay> using liferay as a central demo app to show continuous integration; question is that I've downloaded the source and tried to compile it with various versions of the JDK (1.6, 1.7, 1.8) and ant .. it has various errors on various systems (the worst being 'too many files open').
