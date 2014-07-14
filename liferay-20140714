@@ -68,3 +68,8 @@
 12:18 <@jhf:#liferay> well.. I’m sure there are good reasons why it doesn’t make those DB calls when using an external DB - probably because most often it wouldn’t have permissions in a production env
 12:18 <@jhf:#liferay> but I see your point
 12:20 < jardineworks:#liferay> jhf, agreed,,, permissions was one that I was thinking. The other would be whether or not sharding was enabled. Going through the BasDB class -- I get it. Still a boo though. But all the plumbing being done to connect, read/write etc... still lotsa benefit in that.
+13:05 -!- mode/#liferay [+o jhf] by ChanServ
+13:44 -!- mode/#liferay [+o jhf] by ChanServ
+14:01 -!- mode/#liferay [+o jhf] by ChanServ
+14:18 -!- mode/#liferay [+o jhf] by ChanServ
+16:59 < dvayanu:#liferay> hello... I have following question, I want to connect life ray to a wso2
