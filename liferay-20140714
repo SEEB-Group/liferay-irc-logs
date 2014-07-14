@@ -53,3 +53,5 @@
 11:24 < jardineworks:#liferay> :|
 11:25 < jardineworks:#liferay> so external is ok... as long as it is the FIRST word?!
 11:25 < jardineworks:#liferay> :|
+11:54 -!- mode/#liferay [+o jhf] by ChanServ
+11:57 < jardineworks:#liferay> jhf, when you configure a service builder project with an external database, does it not still generate the SQL scripts?
