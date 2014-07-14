@@ -15,3 +15,4 @@
 09:50 < jardineworks:#liferay> jhf, that will probably do --- but I think you gave me some kinda personal version. Though maybe you were just copying from this :)
 09:50 <@jhf:#liferay> hah probably :) you’ll need to replace the names of the directories and such..
 09:51 < jardineworks:#liferay> and you had something about ant... you had to pass a jvm arg for more mem or soemthing.
+10:51 < jardineworks:#liferay> bijoo_, do you use ANT of Maven for your plugins?
