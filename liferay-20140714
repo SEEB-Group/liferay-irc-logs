@@ -67,3 +67,4 @@
 12:17 < jardineworks:#liferay> jhf, Part of the beauty (and usually how I sell people on SB) is not just the java code gen, it's the sql code gen and the automatic schema creation ... a couple of files and you can start writing the business logic.
 12:18 <@jhf:#liferay> well.. I’m sure there are good reasons why it doesn’t make those DB calls when using an external DB - probably because most often it wouldn’t have permissions in a production env
 12:18 <@jhf:#liferay> but I see your point
+12:20 < jardineworks:#liferay> jhf, agreed,,, permissions was one that I was thinking. The other would be whether or not sharding was enabled. Going through the BasDB class -- I get it. Still a boo though. But all the plumbing being done to connect, read/write etc... still lotsa benefit in that.
