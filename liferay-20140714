@@ -85,3 +85,4 @@
 17:11 < dvayanu:#liferay> you mean portal-compat-hook ?
 17:11 < dvayanu:#liferay> or you mean some maven artifact?
 17:13 < jardineworks:#liferay> dvayanu, you can make your own hooks.
+17:13 < jardineworks:#liferay> since it seems you are using maven, then create a project using that archetype.
