@@ -21,3 +21,4 @@
 11:01 -!- mode/#liferay [+o jhf] by ChanServ
 11:07 < jardineworks:#liferay> jhf, do you ever do anything with Maven and LR?
 11:08 < jardineworks:#liferay> Maven makes me want to put gun in my mouth.
+11:08 <@jhf:#liferay> hah.. well, the best thing (IMO) about Maven+Liferay is that you no longer need to use the Plugins SDK :)
