@@ -82,3 +82,4 @@
 17:05 < dvayanu:#liferay> jardineworks: this looks very promising , thank you. do i just put the jar into WEB-INF/lib then?
 17:06 < jardineworks:#liferay> you just make a liferay hook plugin project
 17:07 < jardineworks:#liferay> Liferay takes care of the rest when you deploy
+17:11 < dvayanu:#liferay> you mean portal-compat-hook ?
