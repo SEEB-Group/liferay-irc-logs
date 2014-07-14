@@ -57,3 +57,6 @@
 11:57 < jardineworks:#liferay> jhf, when you configure a service builder project with an external database, does it not still generate the SQL scripts?
 12:01 <@jhf:#liferay> It should generate it, but it won’t run it when you deploy - that’s up to your DBA (you :) ) to create the schema
 12:03 < jardineworks:#liferay> ACK!
+12:03 < jardineworks:#liferay> 			if (!entity.isDefaultDataSource()) {
+12:03 < jardineworks:#liferay> 				continue;
+12:03 < jardineworks:#liferay> 			}
