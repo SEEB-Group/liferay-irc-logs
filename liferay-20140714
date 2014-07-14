@@ -1,3 +1,4 @@
 --- Log opened Mon Jul 14 00:00:18 2014
 01:06 < jrmiah:#liferay> has anyone any guides on how to build liferay from github? Just need to build and produce a WAR and any configuration for tomcat if required - thanks
 03:27 < rocknroll_:#liferay> hey all, when commenting on a calendar event, there is an email notification sent. where is this notification and it's content defiend? iot is not localized
+09:21 < jardineworks:#liferay> jrmiah, keep an eye out for jhf ... he has a recipe for how to build from github. He gave it to me once, lemme see if I can find it for now.
