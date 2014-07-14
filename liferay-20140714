@@ -38,3 +38,4 @@
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.deploy(AutoDeployDir.java:72)
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.processFile(AutoDeployDir.java:211)
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.scanDirectory(AutoDeployDir.java:275)
+11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployScanner.run(AutoDeployScanner.java:58)
