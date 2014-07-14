@@ -37,3 +37,4 @@
 11:22 < jardineworks:#liferay> com.liferay.portal.kernel.deploy.auto.AutoDeployException: The auto deploy listeners com.liferay.portal.deploy.auto.ExtAutoDeployListener, com.liferay.portal.deploy.auto.PortletAutoDeployListener all deployed /home/aj/projects/ypg/liferay/liferay-portal-6.2.10.1-ee-ga1/deploy/sample-sb-external-db-portlet-1.0.0-SNAPSHOT.war, but only one should have.
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.deploy(AutoDeployDir.java:72)
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.processFile(AutoDeployDir.java:211)
+11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.scanDirectory(AutoDeployDir.java:275)
