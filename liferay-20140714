@@ -78,3 +78,4 @@
 17:01 < dvayanu:#liferay> liferay 6.1.2 GE, wso2is 4.6
 17:02 < dvayanu:#liferay> Sofar the step 4 causes me some headache, especially since i don't see any ways to achieve it, except for patching the portal-impl
 17:04 < jardineworks:#liferay> dvayanu, easiest way would be to use a wrapper. Follow this example: https://www.liferay.com/community/wiki/-/wiki/Main/Wrapper+Plugins
+17:05 < jardineworks:#liferay> however, if you just want users to authenticate against a separate data store you might what to just write your own Login hook and then as part of its logic, if the external system returns true for the login creds, read the user out of the other system and create them in Liferay using the UserLocalServiceUtil.addUser(...)
