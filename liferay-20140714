@@ -13,3 +13,4 @@
 09:47 < jardineworks:#liferay> can you share again? jrmiah was asking about it and when I went to look for it, could not be found
 09:48 <@jhf:#liferay> you mean the “build portal and plugins manually” here: https://www.liferay.com/community/wiki/-/wiki/Main/BugSquad+-+Liferay+Portal+6.2+CE+Milestone+6+Testing#section-BugSquad+-+Liferay+Portal+6.2+CE+Milestone+6+Testing-Building+Portal+and+Plugins+Manually
 09:50 < jardineworks:#liferay> jhf, that will probably do --- but I think you gave me some kinda personal version. Though maybe you were just copying from this :)
+09:50 <@jhf:#liferay> hah probably :) you’ll need to replace the names of the directories and such..
