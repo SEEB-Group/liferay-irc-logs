@@ -30,3 +30,4 @@
 11:17 < jardineworks:#liferay> jhf, I'll try again but I did that ... I still see this
 11:17 < jardineworks:#liferay> 15:14:28,570 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating sample-sb-external-db from version 6.2.10 to version 1.0.0-SNAPSHOT
 11:17 < jardineworks:#liferay> 15:14:28,570 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:971] Not updating sample-sb-external-db because version 6.2.10 is newer than version 1.0.0-SNAPSHOT
+11:20 <@jhf:#liferay> are you sure you’re deleting all of the deployed webapps? do you by chance have 2 deployments (from the perspective of tomcat)? i.e. something like webapps/sample-sb-external-db and webapps/<something else> ?
