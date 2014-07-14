@@ -27,3 +27,4 @@
 11:11 < jardineworks:#liferay> shouldn't it be referencing the service.properties file?
 11:14 <@jhf:#liferay> you can try to un-deploy the 6.2.10 version (i.e. rm -rf tomcat-xx.xx.xx/webapps/my-sb-portlet)
 11:14 <@jhf:#liferay> and then deploy the 1.0.0-SNAPSHOT
+11:17 < jardineworks:#liferay> jhf, I'll try again but I did that ... I still see this
