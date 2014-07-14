@@ -40,3 +40,4 @@
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.scanDirectory(AutoDeployDir.java:275)
 11:22 < jardineworks:#liferay> 	at com.liferay.portal.kernel.deploy.auto.AutoDeployScanner.run(AutoDeployScanner.java:58)
 11:22 <@jhf:#liferay> hmmmm
+11:23 <@jhf:#liferay> I think you might have a bad filename - it has ‘-ext’ in it and I bet the EXT listener is picking it up
