@@ -26,3 +26,4 @@
 11:10 < jardineworks:#liferay> jhf, I am trying to get an external database service builder project to work with Maven and I can't It's refusing to deploy the portlet because the 1.0.0 SNAPSHOT is older than the 6.2.10 version ... which of course I only discovered by upping the output on the Deployment classes. Do you know how to get around this?
 11:11 < jardineworks:#liferay> shouldn't it be referencing the service.properties file?
 11:14 <@jhf:#liferay> you can try to un-deploy the 6.2.10 version (i.e. rm -rf tomcat-xx.xx.xx/webapps/my-sb-portlet)
+11:14 <@jhf:#liferay> and then deploy the 1.0.0-SNAPSHOT
