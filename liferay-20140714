@@ -84,3 +84,4 @@
 17:07 < jardineworks:#liferay> Liferay takes care of the rest when you deploy
 17:11 < dvayanu:#liferay> you mean portal-compat-hook ?
 17:11 < dvayanu:#liferay> or you mean some maven artifact?
+17:13 < jardineworks:#liferay> dvayanu, you can make your own hooks.
