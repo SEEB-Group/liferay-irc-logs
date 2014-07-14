@@ -45,3 +45,4 @@
 11:23 < jardineworks:#liferay> omg
 11:24 < jardineworks:#liferay> I had that issue once with a plugin called web-theme...
 11:24 < jardineworks:#liferay> kill me
+11:24 <@jhf:#liferay> I would nuke all of your custom webapps from webapps/ and then restart server
