@@ -47,3 +47,4 @@
 11:24 < jardineworks:#liferay> kill me
 11:24 <@jhf:#liferay> I would nuke all of your custom webapps from webapps/ and then restart server
 11:24 < jardineworks:#liferay> but it doesn't have ext... it has the word external.
+11:24 <@jhf:#liferay> and rename project to not have -ext
