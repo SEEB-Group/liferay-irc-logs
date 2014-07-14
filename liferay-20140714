@@ -77,3 +77,4 @@
 17:01 < dvayanu:#liferay> or is there any easier ways to force liferay to work with another userstore?
 17:01 < dvayanu:#liferay> liferay 6.1.2 GE, wso2is 4.6
 17:02 < dvayanu:#liferay> Sofar the step 4 causes me some headache, especially since i don't see any ways to achieve it, except for patching the portal-impl
+17:04 < jardineworks:#liferay> dvayanu, easiest way would be to use a wrapper. Follow this example: https://www.liferay.com/community/wiki/-/wiki/Main/Wrapper+Plugins
