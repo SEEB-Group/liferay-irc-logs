@@ -75,3 +75,4 @@
 16:59 < dvayanu:#liferay> hello... I have following question, I want to connect life ray to a wso2
 17:00 < dvayanu:#liferay> sofar from what I searched and tried I understand that I have to 1) add wso2 filter, to redirect non authorize requests to sso endpoint, 2) add own authenticator, 3) add an own permission checker and 4) replace the UserServiceLocal to load users from remote location, is this correct?
 17:01 < dvayanu:#liferay> or is there any easier ways to force liferay to work with another userstore?
+17:01 < dvayanu:#liferay> liferay 6.1.2 GE, wso2is 4.6
