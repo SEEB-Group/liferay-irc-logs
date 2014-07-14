@@ -89,3 +89,5 @@
 17:13 < jardineworks:#liferay> then follow the blog post.
 17:14 < dvayanu:#liferay> I already had found the code and everything, now just had to found the artifact name, seems liferay-hook-archetype ;-)
 17:14 < dvayanu:#liferay> thanks
+17:25 -!- mode/#liferay [+o rotty3000] by ChanServ
+17:28 < dvayanu:#liferay> jardineworks: so i package it and copy the war into tomcat/webapps i understand?
