@@ -96,3 +96,8 @@
 19:29 < jrmiah:#liferay> using liferay as a central demo app to show continuous integration; question is that I've downloaded the source and tried to compile it with various versions of the JDK (1.6, 1.7, 1.8) and ant .. it has various errors on various systems (the worst being 'too many files open').
 19:30 < jrmiah:#liferay> are there any definitive guides on step by step compilation? Previously a build engineer, so I could probably get it going with work but wondering if there is something obvious. 'ant all' from source, github, etc doesnt make a difference. There are a fair amount of references that can't be resolved, etc
 19:31 < jrmiah:#liferay> oh and on windows, ubuntu and RHEL as well. Just to see the differences but none seem to work
+20:38 -!- mode/#liferay [+o jhf] by ChanServ
+21:26 -!- mode/#liferay [+o jhf] by ChanServ
+23:21 -!- ServerMode/#liferay [+o lundgren] by dickson.freenode.net
+23:24 -!- ServerMode/#liferay [+o ChanServ] by dickson.freenode.net
+--- Log closed Tue Jul 15 00:00:20 2014
