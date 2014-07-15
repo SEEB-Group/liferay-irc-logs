@@ -33,3 +33,4 @@
 14:37 < jrmiah:#liferay> http://pastebin.com/ZTNPnGNS
 14:38 < jrmiah:#liferay> so forgetting this for a second, what about just building and installing a simple portlet that can be added onto a deployment of liferay...
 14:39 < jrmiah:#liferay> i guess i could just build hello world but my issue is like ... at plumtree where I was the tools / release manager (yup thats true), we had remote portlets .... JSR286 and stuff isnt tht interesting cuz it needs a container which is a portal too.
+14:40 < jrmiah:#liferay> I guess there might be pluto .. but liferay doesnt seem to be that straightforward. Plumtree portal you could install, be up and running in an hour and write a remote portlet in about 10 minutes even with dynamic tags heh
