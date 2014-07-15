@@ -13,3 +13,4 @@
 08:36 < rocknroll_:#liferay> it keeps skipping threads randomly
 09:58 < Yam`:#liferay> is there a plugin or something to change the colors easily? I want to change the blue buttons (like those with "My site" and the notifications) to red ones but I don't find what to change in the CSS
 11:06 < jardineworks:#liferay> Yam``, icon-plus, icon-desktop, icon-edit are the three css styles you need to override.
+11:26 < Yam``:#liferay> jardineworks, thx :)
