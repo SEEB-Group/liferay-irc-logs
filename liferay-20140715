@@ -29,3 +29,4 @@
 14:29 < jrmiah:#liferay> same issues
 14:33 < jrmiah:#liferay> for some reason these scripts arent able to resolve java.nio.Charbuffer and other standard libes
 14:33 < jrmiah:#liferay> libs*
+14:36 < jrmiah:#liferay> do these steps work for you?
