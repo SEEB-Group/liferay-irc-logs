@@ -14,3 +14,7 @@
 09:58 < Yam`:#liferay> is there a plugin or something to change the colors easily? I want to change the blue buttons (like those with "My site" and the notifications) to red ones but I don't find what to change in the CSS
 11:06 < jardineworks:#liferay> Yam``, icon-plus, icon-desktop, icon-edit are the three css styles you need to override.
 11:26 < Yam``:#liferay> jardineworks, thx :)
+11:55 -!- mode/#liferay [+o lundgren] by ChanServ
+12:05 -!- mode/#liferay [+o rotty3000] by ChanServ
+12:35 -!- mode/#liferay [+o lundgren] by ChanServ
+12:43 < jrmiah:#liferay> has anyone here ever built liferay from source?
