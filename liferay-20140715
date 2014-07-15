@@ -7,3 +7,4 @@
 06:03 -!- ServerMode/#liferay [+o ChanServ] by dickson.freenode.net
 08:13 -!- mode/#liferay [+o lundgren] by ChanServ
 08:18 < goku_:#liferay> which jsp file is used to render the add user page inside the control panel?
+08:34 < rocknroll_:#liferay> goku_: .. html/portlet/users_admin/edit_user.js
