@@ -4,3 +4,6 @@
 04:52 < sl33k:#liferay> hi guys
 04:55 < sl33k:#liferay> a colleague of mine wants to know how liferay works in a ldap authentication situation
 04:56 < sl33k:#liferay> a scenario where someone with email already exists in liferay db and same exists in Active directory
+06:03 -!- ServerMode/#liferay [+o ChanServ] by dickson.freenode.net
+08:13 -!- mode/#liferay [+o lundgren] by ChanServ
+08:18 < goku_:#liferay> which jsp file is used to render the add user page inside the control panel?
