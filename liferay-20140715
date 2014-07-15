@@ -3,3 +3,4 @@
 02:02 < goku_:#liferay> hi ,how to access user custom fields from liferay theme velocity template ?
 04:52 < sl33k:#liferay> hi guys
 04:55 < sl33k:#liferay> a colleague of mine wants to know how liferay works in a ldap authentication situation
+04:56 < sl33k:#liferay> a scenario where someone with email already exists in liferay db and same exists in Active directory
