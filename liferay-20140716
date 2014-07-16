@@ -122,3 +122,4 @@
 15:59 <@jhf:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/9237414
 15:59 < jardineworks:#liferay> if only the style logic was checked first and then if style 2 or 3 was chosen THEN check for a user
 15:59 <@jhf:#liferay> Tejas wrote a hook to do it
+15:59 <@jhf:#liferay> https://github.com/opensourceforlife/browser-language-hook
