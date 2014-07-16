@@ -105,3 +105,4 @@
 15:49 < jardineworks:#liferay> jhf, the fact that you can only have one domain per site/instance is a real pain in the ass.
 15:49 < jardineworks:#liferay> These bilingual types need support for multiple.
 15:50 <@jhf:#liferay> no way around the preferredlanguage (other than to prevent users from setting it!)
+15:50 <@jhf:#liferay> looking at https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/com/liferay/portal/servlet/filters/i18n/I18nFilter.java
