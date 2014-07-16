@@ -114,3 +114,4 @@
 15:54 < jardineworks:#liferay> but then won't it just pick up the company default?
 15:54 <@jhf:#liferay> I mean if you want to ignore the user’s wishes..
 15:54 <@jhf:#liferay> hmm.. yeah yer right
+15:54 <@jhf:#liferay> you’d need to override the filter
