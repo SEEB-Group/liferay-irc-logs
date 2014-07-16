@@ -94,3 +94,5 @@
 15:44 < jardineworks:#liferay> i18n
 15:44 < jardineworks:#liferay> I see two properties...
 15:44 < jardineworks:#liferay> if I sue this --
+15:44 < jardineworks:#liferay> locale.prepend.friendly.url.style=0
+15:44 < jardineworks:#liferay> locale.default.request=true
