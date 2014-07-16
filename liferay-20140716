@@ -112,3 +112,4 @@
 15:54 <@jhf:#liferay> can you prevent users from setting a preferred language?
 15:54 <@jhf:#liferay> e.g. via some kind of jsp override?
 15:54 < jardineworks:#liferay> but then won't it just pick up the company default?
+15:54 <@jhf:#liferay> I mean if you want to ignore the user’s wishes..
