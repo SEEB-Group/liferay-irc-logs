@@ -133,3 +133,4 @@
 16:21 <@jhf:#liferay> you could put some code in a service pre action instead of a login post action to do the browser language check every time
 16:21 <@jhf:#liferay> yup
 16:21 <@jhf:#liferay> :)
+16:22 <@jhf:#liferay> wouldn’t have much performance impact, unless your site is REALLY heavily traffic'd
