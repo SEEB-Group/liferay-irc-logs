@@ -130,3 +130,4 @@
 16:18 <@jhf:#liferay> I think at that point you’d have to log out of Liferay and back in cause that hook would need to run again to reset your preferred language
 16:18 < jardineworks:#liferay> hmm
 16:21 < jardineworks:#liferay> jhf, or introduce another hook... a service pre that would keep it all in synch
+16:21 <@jhf:#liferay> you could put some code in a service pre action instead of a login post action to do the browser language check every time
