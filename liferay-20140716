@@ -24,3 +24,4 @@
 11:49 < jardineworks:#liferay> Yam`, those aren't the files, those are the css classes
 11:49 < Yam`:#liferay> oh, ok
 11:51 < Yam`:#liferay> and do you know where the colors are defined?
+11:51 < jardineworks:#liferay> Yam`, if you use Inspector (chrome) or Firebug (firefox) you should be able to inspect the elements and see what CSS styles are defined.
