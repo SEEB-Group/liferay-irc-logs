@@ -97,3 +97,4 @@
 15:44 < jardineworks:#liferay> locale.prepend.friendly.url.style=0
 15:44 < jardineworks:#liferay> locale.default.request=true
 15:45 < jardineworks:#liferay> then it should never put the language in the url, and for guest users take whatever is set for the local in the request header
+15:45 < jardineworks:#liferay> at least that is what I understand....
