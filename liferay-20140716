@@ -99,3 +99,4 @@
 15:45 < jardineworks:#liferay> then it should never put the language in the url, and for guest users take whatever is set for the local in the request header
 15:45 < jardineworks:#liferay> at least that is what I understand....
 15:45 < jardineworks:#liferay> is it possible to have a logged in user use the request header instead of the users preferred language?
+15:46 <@jhf:#liferay> dunno but I can look around in the code for a few mins
