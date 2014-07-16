@@ -83,3 +83,4 @@
 13:38 < sl33k:#liferay> yes
 13:38 < jardineworks:#liferay> shoot -- i don't know anything about them. I always opt for the Liferay MVC portlets.
 13:38 < jardineworks:#liferay> do you have to have two controllers?
+13:39 < jardineworks:#liferay> shouldn;t a single portlet have a single controller?
