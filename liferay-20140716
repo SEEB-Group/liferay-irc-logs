@@ -194,3 +194,4 @@
 17:03 < ArTeS:#liferay> Error copying file to C:/Program Files/liferay-portal-6.2-ce-ga2/tomcat-7.0.42/backup\catalina.policy..." and goes on..
 17:05 < ArTeS:#liferay>  (The system cannot find the path specified)
 17:06 < ArTeS:#liferay> I tried to start the server in cmd
+17:06 < ArTeS:#liferay> I works
