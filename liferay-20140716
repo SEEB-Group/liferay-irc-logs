@@ -104,3 +104,4 @@
 15:48 < jardineworks:#liferay> see if the legal has been worked out
 15:49 < jardineworks:#liferay> jhf, the fact that you can only have one domain per site/instance is a real pain in the ass.
 15:49 < jardineworks:#liferay> These bilingual types need support for multiple.
+15:50 <@jhf:#liferay> no way around the preferredlanguage (other than to prevent users from setting it!)
