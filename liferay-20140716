@@ -77,3 +77,4 @@
 13:37 < sl33k:#liferay> http://pastebin.com/t9681LfQ
 13:37 < jardineworks:#liferay> sl33k, also, changing pages of data is not really an action... its changing the view, so that logic should actually be in the render logic.
 13:37 < sl33k:#liferay> jardineworks: please :(
+13:38 < sl33k:#liferay> yeah but the way my app is mapped up, i cant have two controllers mapping to render or so
