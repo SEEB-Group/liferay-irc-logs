@@ -80,3 +80,4 @@
 13:38 < sl33k:#liferay> yeah but the way my app is mapped up, i cant have two controllers mapping to render or so
 13:38 < jardineworks:#liferay> sl33k, is this a SpringMVC portlet
 13:38 < jardineworks:#liferay> ?
+13:38 < sl33k:#liferay> yes
