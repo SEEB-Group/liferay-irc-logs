@@ -12,3 +12,4 @@
 11:33 < bijoo:#liferay> jardineworks: saw your question from two days back on logs:
 11:34 < bijoo:#liferay> "bijoo_, do you use ANT of Maven for your plugins?"
 11:34 < bijoo:#liferay> So I try to use maven when I can; and when have lots of dependencies there.
+11:34 < bijoo:#liferay> jardineworks: on new project, I would encourage it; especially, if it'll be a large one.
