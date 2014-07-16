@@ -27,3 +27,4 @@
 11:51 < jardineworks:#liferay> Yam`, if you use Inspector (chrome) or Firebug (firefox) you should be able to inspect the elements and see what CSS styles are defined.
 11:52 < Yam`:#liferay> yes I've done that but if I could edit the files I think it may be cleaner than just adding custom css, no?
 11:52 < jardineworks:#liferay> nope
+11:53 < jardineworks:#liferay> the proper way to do it is to override the styles in a custom.css ... and load that file last in the theme
