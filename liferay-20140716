@@ -128,3 +128,4 @@
 16:01 < jardineworks:#liferay> I think that might be the solution I need... just need to make sure that it still works on 6.2 EE
 16:17 < jardineworks:#liferay> jhf, hmm... but what is I am in english... I log in, my preferred language is set to English. Then I change my BROWSER language to French. Then my browser will be in French but my profile won't have been updated.
 16:18 <@jhf:#liferay> I think at that point you’d have to log out of Liferay and back in cause that hook would need to run again to reset your preferred language
+16:18 < jardineworks:#liferay> hmm
