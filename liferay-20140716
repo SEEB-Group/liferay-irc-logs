@@ -132,3 +132,4 @@
 16:21 < jardineworks:#liferay> jhf, or introduce another hook... a service pre that would keep it all in synch
 16:21 <@jhf:#liferay> you could put some code in a service pre action instead of a login post action to do the browser language check every time
 16:21 <@jhf:#liferay> yup
+16:21 <@jhf:#liferay> :)
