@@ -11,3 +11,4 @@
 11:24 < Yam`:#liferay> I'm on something else for the moment jardineworks
 11:33 < bijoo:#liferay> jardineworks: saw your question from two days back on logs:
 11:34 < bijoo:#liferay> "bijoo_, do you use ANT of Maven for your plugins?"
+11:34 < bijoo:#liferay> So I try to use maven when I can; and when have lots of dependencies there.
