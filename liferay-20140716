@@ -25,3 +25,4 @@
 11:49 < Yam`:#liferay> oh, ok
 11:51 < Yam`:#liferay> and do you know where the colors are defined?
 11:51 < jardineworks:#liferay> Yam`, if you use Inspector (chrome) or Firebug (firefox) you should be able to inspect the elements and see what CSS styles are defined.
+11:52 < Yam`:#liferay> yes I've done that but if I could edit the files I think it may be cleaner than just adding custom css, no?
