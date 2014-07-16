@@ -16,3 +16,4 @@
 11:35 < bijoo:#liferay> jardineworks: I like the POM structure and dep manage.
 11:36 < bijoo:#liferay> jardineworks: ANT is totally fine; but sometimes tough. I like Maven repos to manage jars.
 11:39 < bijoo:#liferay> goku_ not sure what you mean there, please repeat it. "hi, how to auto update timestamps to db while adding ?" ref: http://liferay.seebgroup.com/irc/liferay-20140711      ; you may be referring to audit fields; e.g. set date no the model when passed?
+11:40 < bijoo:#liferay> goku_ second question's really on Hibernate; may want to check those docs or that channel. "goku_:#liferay> hi ,how to create a RestrictionFactoryUtil to check between two date ?" ref:http://liferay.seebgroup.com/irc/liferay-20140714    ; I'd tell you but don't know on top of head.
