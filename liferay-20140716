@@ -70,3 +70,4 @@
 13:28 < jardineworks:#liferay> hey rotty3000 do you have a minute for a question?
 13:29 < sl33k:#liferay> i am having problems with displaytag url
 13:32 < sl33k:#liferay> i am having a problem similar to this; http://stackoverflow.com/questions/3601214/get-displaytag-to-use-an-action-url-for-page-switching
+13:33 < jardineworks:#liferay> sl33k, why would you using an action url to switch pages instead of a render url?
