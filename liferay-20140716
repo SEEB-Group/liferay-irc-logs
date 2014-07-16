@@ -75,3 +75,4 @@
 13:35 < jardineworks:#liferay> sl33k, that will invoke the render phase and load the page you specify in the jspPage param instead of the default view.jsp
 13:36 < sl33k:#liferay> jardineworks: see error bin
 13:37 < sl33k:#liferay> http://pastebin.com/t9681LfQ
+13:37 < jardineworks:#liferay> sl33k, also, changing pages of data is not really an action... its changing the view, so that logic should actually be in the render logic.
