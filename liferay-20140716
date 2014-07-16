@@ -110,3 +110,4 @@
 15:52 <@jhf:#liferay> I see no ‘if/else’ or a way to override
 15:53 < jardineworks:#liferay> jhf, so I would have to modify the i18nFilter and override that... boo
 15:54 <@jhf:#liferay> can you prevent users from setting a preferred language?
+15:54 <@jhf:#liferay> e.g. via some kind of jsp override?
