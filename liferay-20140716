@@ -125,3 +125,4 @@
 15:59 <@jhf:#liferay> https://github.com/opensourceforlife/browser-language-hook
 16:00 <@jhf:#liferay> it’s a post-login hook action
 16:01 < jardineworks:#liferay> awesome
+16:01 < jardineworks:#liferay> I think that might be the solution I need... just need to make sure that it still works on 6.2 EE
