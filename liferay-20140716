@@ -14,3 +14,4 @@
 11:34 < bijoo:#liferay> So I try to use maven when I can; and when have lots of dependencies there.
 11:34 < bijoo:#liferay> jardineworks: on new project, I would encourage it; especially, if it'll be a large one.
 11:35 < bijoo:#liferay> jardineworks: I like the POM structure and dep manage.
+11:36 < bijoo:#liferay> jardineworks: ANT is totally fine; but sometimes tough. I like Maven repos to manage jars.
