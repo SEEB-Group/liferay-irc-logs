@@ -29,3 +29,4 @@
 11:52 < jardineworks:#liferay> nope
 11:53 < jardineworks:#liferay> the proper way to do it is to override the styles in a custom.css ... and load that file last in the theme
 11:53 < Yam`:#liferay> how do I load it in the theme? (or where)
+11:54 < jardineworks:#liferay> when you create a theme you will create a _dffs folder and in there a css folder. In there you add custom.css. The main.css does a buck of the css imports ... so all you do is import all the other styles first and add the custom.css last.
