@@ -116,3 +116,4 @@
 15:54 <@jhf:#liferay> hmm.. yeah yer right
 15:54 <@jhf:#liferay> you’d need to override the filter
 15:54 < jardineworks:#liferay> and actually
+15:55 < jardineworks:#liferay> that is just for the prepend  method... but I set the property such that no prepend occurs.
