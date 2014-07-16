@@ -19,3 +19,4 @@
 11:40 < bijoo:#liferay> goku_ second question's really on Hibernate; may want to check those docs or that channel. "goku_:#liferay> hi ,how to create a RestrictionFactoryUtil to check between two date ?" ref:http://liferay.seebgroup.com/irc/liferay-20140714    ; I'd tell you but don't know on top of head.
 11:42 < bijoo:#liferay> goku last qusetion's answered by Google here: http://t.seebgroup.com/custom-fields-velocity-template-link
 11:42 < bijoo:#liferay> "how to access user custom fields from liferay theme velocity template ?" ref: http://liferay.seebgroup.com/irc/liferay-20140715
+11:48 < Yam`:#liferay> jardineworks, you told me to edit "icon-plus, icon-desktop, icon-edit" to change the colors of all the blue things of Liferay (buttons, toolbars etc.) but I don't find those files, where are they?
