@@ -74,3 +74,4 @@
 13:35 < jardineworks:#liferay> sl33k, I think you want to use a renderURL and pass the jspPage as a param
 13:35 < jardineworks:#liferay> sl33k, that will invoke the render phase and load the page you specify in the jspPage param instead of the default view.jsp
 13:36 < sl33k:#liferay> jardineworks: see error bin
+13:37 < sl33k:#liferay> http://pastebin.com/t9681LfQ
