@@ -22,3 +22,4 @@
 11:48 < Yam`:#liferay> jardineworks, you told me to edit "icon-plus, icon-desktop, icon-edit" to change the colors of all the blue things of Liferay (buttons, toolbars etc.) but I don't find those files, where are they?
 11:48 < jardineworks:#liferay> does anyone know if it is possible to view LEP issues on issues.liferay.com?
 11:49 < jardineworks:#liferay> Yam`, those aren't the files, those are the css classes
+11:49 < Yam`:#liferay> oh, ok
