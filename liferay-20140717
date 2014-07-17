@@ -26,3 +26,4 @@
 10:19 < Yam_:#liferay> Ok.
 10:19 < jardineworks:#liferay> If you want to change a JSP from the main portal then you would create a JSP Hook
 10:19 < jardineworks:#liferay> If you want to alter the way a service works then you would write a service hook
+10:19 < jardineworks:#liferay> If you want to change what happens in a portal action (say create account action) then you would create a strusts action hook
