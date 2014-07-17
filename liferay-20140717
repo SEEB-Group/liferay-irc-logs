@@ -25,3 +25,4 @@
 10:19 < jardineworks:#liferay> it's a different plugin type.
 10:19 < Yam_:#liferay> Ok.
 10:19 < jardineworks:#liferay> If you want to change a JSP from the main portal then you would create a JSP Hook
+10:19 < jardineworks:#liferay> If you want to alter the way a service works then you would write a service hook
