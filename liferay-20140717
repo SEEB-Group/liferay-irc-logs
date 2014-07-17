@@ -34,3 +34,4 @@
 11:02 < Yam_:#liferay> Or do I need to do both?
 11:10 < jardineworks:#liferay> no, just one or the other.
 11:11 < jardineworks:#liferay> from the command line though --
+11:11 < jardineworks:#liferay> it is easier to go into SDK_HOME/themes and run the create.sh script
