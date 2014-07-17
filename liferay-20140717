@@ -21,3 +21,4 @@
 10:10 < jardineworks:#liferay> then in eclipse, assuming you have the portal-src as a project as a project (which if you don't you should)... ctrl-h and do a file search for something that "contains" that string. Then see where it comes up. Figure out the file and write a hook.
 10:13 < Yam_:#liferay> Ok thank you. I don't have a theme project yet because I'm setting up a new Liferay instance in a physical computer but I'll do it soon!
 10:16 < jardineworks:#liferay> you don't need a theme for that one actually, you would likely do it with a hook. UNLESS, I suppose if it is part of the javascript libraries (Alloy thingee). Easiest solution is porbably a CSS override to hide it.
+10:18 < Yam_:#liferay> What do you mean by a hook?
