@@ -18,3 +18,4 @@
 10:08 < jardineworks:#liferay> Yam_, it's part of the dockbar. TO try to find that file to override here is what I would normally do ...
 10:09 < jardineworks:#liferay> use the inspector to find something in the html that might be unique to it. .. for example
 10:09 < jardineworks:#liferay> class="dropdown-toggle user-notification-link"
+10:10 < jardineworks:#liferay> then in eclipse, assuming you have the portal-src as a project as a project (which if you don't you should)... ctrl-h and do a file search for something that "contains" that string. Then see where it comes up. Figure out the file and write a hook.
