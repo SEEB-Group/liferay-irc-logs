@@ -31,3 +31,4 @@
 10:20 < jardineworks:#liferay> functionality*
 10:20 < Yam_:#liferay> Ok, thanks :)
 11:02 < Yam_:#liferay> jardineworks: to create a theme I either launch the command "ant -Dtheme.name=project (...)" in a terminal in [plugins directory]/themes or in Eclipse : New Project Liferay-Plugin Project option theme
+11:02 < Yam_:#liferay> Or do I need to do both?
