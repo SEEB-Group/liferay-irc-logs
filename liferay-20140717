@@ -16,3 +16,4 @@
 10:07 < jardineworks:#liferay> did you make your own theme yet?
 10:07 < jardineworks:#liferay> :)
 10:08 < jardineworks:#liferay> Yam_, it's part of the dockbar. TO try to find that file to override here is what I would normally do ...
+10:09 < jardineworks:#liferay> use the inspector to find something in the html that might be unique to it. .. for example
