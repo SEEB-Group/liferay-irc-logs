@@ -38,3 +38,5 @@
 11:15 < Yam_:#liferay> Ok!
 12:10 -!- mode/#liferay [+o rotty3000] by ChanServ
 12:33 < dave_k:#liferay> Hey all ... I'm having problems with maven and parent themes. I have one theme ("base-theme") based on _styled, which works with adding a parent-custom.css which is included via main.css. In the other theme, with liferay.parent.theme set to "<group>:base-theme:0.0.1", this additional parent-custom.css is never used and, according to the build logs, never copied in and never parsed in the build-css goal. What am I missing here?
+23:43 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Fri Jul 18 00:00:24 2014
