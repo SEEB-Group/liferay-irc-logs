@@ -1,2 +1,3 @@
 --- Log opened Fri Jul 18 00:00:24 2014
 08:43 < modd_:#liferay> how would I use OrderByComparator in js?
+09:25 < modd_:#liferay> I'm trying to use Liferay.Service with /dlfolder/get-folders in my script but I don't know what to do with the obc parameter
