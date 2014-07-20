@@ -1,3 +1,4 @@
 --- Log opened Sun Jul 20 00:00:27 2014
 08:23 -!- mode/#liferay [+o jhf] by ChanServ
 09:52 < dvayanu:#liferay> hello, and well, nice weekend and stuff, but maybe someone is online despite the weekend. I have following problem, basically I am trying to force liferay to work with own user service impl, and it doesn't really work ;-) I made my own user service hook, i return true in authentic by xxx method, and than i get an error in render_portal.jsp... in a line that doesn't exists
+10:09 < dvayanu:#liferay> is there any example anywhere on how to implement own user service with liferay
