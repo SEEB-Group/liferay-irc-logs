@@ -27,3 +27,4 @@
 10:47 < jardineworks:#liferay> the other option that I think is typically more commonly used is velocity (.vm)
 10:47 < jardineworks:#liferay> right click on the current project and delete it ... make sure you check the box to remove all the files as well. (that way you can use the same name)
 10:48 < Yam`:#liferay> ok it's done
+10:48 < Yam`:#liferay> I've got an error while deleting
