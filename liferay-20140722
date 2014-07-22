@@ -9,3 +9,4 @@
 09:46 < Yam`:#liferay> hi
 10:42 < Yam`:#liferay> I created a "Liferay Portlet"  type "Theme" in Liferay's Developer Studio and just let it create the theme and did nothing with it. I tried then to make a page use this theme in Liferay but it displayed the following error:
 10:42 < Yam`:#liferay> javax.servlet.jsp.JspException: com.liferay.portal.kernel.template.TemplateException: Unable to process template Red-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl
+10:42 < Yam`:#liferay> Have I missed something?
