@@ -7,3 +7,4 @@
 08:22 -!- mode/#liferay [+o lundgren] by ChanServ
 09:45 -!- mode/#liferay [+o lundgren] by ChanServ
 09:46 < Yam`:#liferay> hi
+10:42 < Yam`:#liferay> I created a "Liferay Portlet"  type "Theme" in Liferay's Developer Studio and just let it create the theme and did nothing with it. I tried then to make a page use this theme in Liferay but it displayed the following error:
