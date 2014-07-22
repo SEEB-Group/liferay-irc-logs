@@ -143,3 +143,4 @@
 17:23 <@rotty3000:#liferay> hmm, sharding isn't my thing, but I'll be around tomorrow
 18:18 < jardineworks:#liferay> rotty3000, if you are still there. I have some code that creates scheduled jobs on the fly. Basically it overrides the CheckArticle listener and provides the user the ability to create a precision expiration job when they create a piece of content.
 18:19 < jardineworks:#liferay> rotty3000, I have this strange scenario where, in a cluster, sometimes it looks like jobs are being skipped. In a single node cluster or in a single stand alone server, the issue does not manifest itself.
+18:19 < jardineworks:#liferay> rotty3000, and worse, I can't figure out the pattern for the failure.
