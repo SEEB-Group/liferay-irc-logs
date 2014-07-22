@@ -101,3 +101,7 @@
 11:16 < jardineworks:#liferay> the darker is the colour scheme I think
 11:17 < jardineworks:#liferay> you will have to place that inside the theme definition in the look-and-feel.xml
 11:19 < jardineworks:#liferay> Yam`, Like this --
+11:19 < jardineworks:#liferay> <look-and-feel>
+11:19 < jardineworks:#liferay> 	<compatibility>
+11:19 < jardineworks:#liferay> 		<version>6.2.10+</version>
+11:19 < jardineworks:#liferay> 	</compatibility>
