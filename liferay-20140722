@@ -141,3 +141,4 @@
 17:21 < jardineworks:#liferay> rotty3000, has to do with sharding and instances and database restores and tigers and bear oh my!
 17:22 < jardineworks:#liferay> maybe a quartz scheduler in a clustered environment question if you have time :)
 17:23 <@rotty3000:#liferay> hmm, sharding isn't my thing, but I'll be around tomorrow
+18:18 < jardineworks:#liferay> rotty3000, if you are still there. I have some code that creates scheduled jobs on the fly. Basically it overrides the CheckArticle listener and provides the user the ability to create a precision expiration job when they create a piece of content.
