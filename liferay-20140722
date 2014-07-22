@@ -99,3 +99,4 @@
 11:14 < jardineworks:#liferay> if you look into the css folder (at the same level as _diffs) you'll find a main.css file... in there you can see that the custom.css is loaded last.
 11:15 < Yam`:#liferay> yes I've done that for another theme that crashed (css folder with custom css)
 11:16 < jardineworks:#liferay> the darker is the colour scheme I think
+11:17 < jardineworks:#liferay> you will have to place that inside the theme definition in the look-and-feel.xml
