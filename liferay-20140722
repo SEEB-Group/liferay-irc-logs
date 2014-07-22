@@ -81,3 +81,4 @@
 11:09 < Yam`:#liferay> Ok, but isn't themes supposed to be the same as the classic except for the differences in the _diffs folder ?
 11:09 < jardineworks:#liferay> it should be pretty ugly because your theme is based on the _unstyled theme
 11:09 < Yam`:#liferay> yes it is
+11:10 < jardineworks:#liferay> it could be the same as classic, but to do that you need to specify that as the theme it "inherits" from. If you are building your own theme that is likely different from the default one, I persoanlly have found it easier to start with the unstyled.
