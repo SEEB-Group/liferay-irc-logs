@@ -84,3 +84,4 @@
 11:10 < jardineworks:#liferay> it could be the same as classic, but to do that you need to specify that as the theme it "inherits" from. If you are building your own theme that is likely different from the default one, I persoanlly have found it easier to start with the unstyled.
 11:10 < jardineworks:#liferay> in the _diffs folder for your project, create a new folder called css
 11:10 < jardineworks:#liferay> and in there place a file called custom.css
+11:10 < Yam`:#liferay> I don't plan on developping a very different theme than the classic
