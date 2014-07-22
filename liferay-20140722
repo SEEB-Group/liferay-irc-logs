@@ -117,3 +117,4 @@
 11:19 < jardineworks:#liferay> so yes I guess... lol
 11:20 < Yam`:#liferay> Ok my bad
 11:20 < jardineworks:#liferay> but you want to change it in your project, not in the deployment
+11:20 < jardineworks:#liferay> there should be a liferay-look-and-feel.xml
