@@ -100,3 +100,4 @@
 11:15 < Yam`:#liferay> yes I've done that for another theme that crashed (css folder with custom css)
 11:16 < jardineworks:#liferay> the darker is the colour scheme I think
 11:17 < jardineworks:#liferay> you will have to place that inside the theme definition in the look-and-feel.xml
+11:19 < jardineworks:#liferay> Yam`, Like this --
