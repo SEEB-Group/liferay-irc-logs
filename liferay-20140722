@@ -145,3 +145,4 @@
 18:19 < jardineworks:#liferay> rotty3000, I have this strange scenario where, in a cluster, sometimes it looks like jobs are being skipped. In a single node cluster or in a single stand alone server, the issue does not manifest itself.
 18:19 < jardineworks:#liferay> rotty3000, and worse, I can't figure out the pattern for the failure.
 18:19 < jardineworks:#liferay> rotty3000, do you know what class is used as the poller that invokes the triggers so that the jobs run?
+18:20 < jardineworks:#liferay> (liferay 6.1)
