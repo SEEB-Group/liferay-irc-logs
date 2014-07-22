@@ -39,3 +39,4 @@
 10:51 < jardineworks:#liferay> ok.. right click delete :)
 10:51 < Yam`:#liferay> nope it's in liferay-plugins-sdk-6.2/themes
 10:51 < jardineworks:#liferay> do a rmdir /s on it
+10:52 < Yam`:#liferay> thank's I could not delete it with the GUI even after stopping the liferay servr
