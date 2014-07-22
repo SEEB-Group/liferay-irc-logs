@@ -51,3 +51,4 @@
 10:57 < jardineworks:#liferay> ad
 10:57 < jardineworks:#liferay> oops
 10:57 < jardineworks:#liferay> ah
+10:57 < jardineworks:#liferay> on... so create your project using the normal New > Liferay Plugin Project .. fill in the fields and specify a plugin type of "Theme"
