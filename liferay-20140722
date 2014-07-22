@@ -119,3 +119,4 @@
 11:20 < jardineworks:#liferay> but you want to change it in your project, not in the deployment
 11:20 < jardineworks:#liferay> there should be a liferay-look-and-feel.xml
 11:20 < Yam`:#liferay> yes
+11:22 < Yam`:#liferay> I want the default theme, is the css-class "default" ?
