@@ -11,3 +11,4 @@
 10:42 < Yam`:#liferay> javax.servlet.jsp.JspException: com.liferay.portal.kernel.template.TemplateException: Unable to process template Red-theme_SERVLET_CONTEXT_/templates/portal_normal.ftl
 10:42 < Yam`:#liferay> Have I missed something?
 10:44 < jardineworks:#liferay> Yam`, you mean you created a Liferay PLUGIN that is a theme type ... so you made a Liferay Theme Plugin right?
+10:44 < Yam`:#liferay> that must be it jardineworks
