@@ -97,3 +97,4 @@
 11:14 < jardineworks:#liferay> you still want to do the other steps though... create a css folder inside _diffs and then create a file with your custom styles in there called custom.css
 11:14 < Yam`:#liferay> ok thanks :) but I want the classic color scheme and not the dark one, how can I change that?
 11:14 < jardineworks:#liferay> if you look into the css folder (at the same level as _diffs) you'll find a main.css file... in there you can see that the custom.css is loaded last.
+11:15 < Yam`:#liferay> yes I've done that for another theme that crashed (css folder with custom css)
