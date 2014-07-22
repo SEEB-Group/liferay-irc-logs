@@ -36,3 +36,4 @@
 10:50 < jardineworks:#liferay> if not then rm -rf it
 10:51 < Yam`:#liferay> (I'm on windows now :()
 10:51 < jardineworks:#liferay> also make sure that it is not in the TOMCAT_HOME/webapps directory
+10:51 < jardineworks:#liferay> ok.. right click delete :)
