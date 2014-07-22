@@ -46,3 +46,4 @@
 10:53 < jardineworks:#liferay> including from the webapps?
 10:53 < Yam`:#liferay> yes it's gone
 10:54 < jardineworks:#liferay> ok.. back to eclipse.
+10:54 < jardineworks:#liferay> we're going to make a theme but specify velocity. Are you using ANT or Maven?
