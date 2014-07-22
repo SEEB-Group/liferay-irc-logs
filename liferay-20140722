@@ -106,3 +106,4 @@
 11:19 < jardineworks:#liferay> 		<version>6.2.10+</version>
 11:19 < jardineworks:#liferay> 	</compatibility>
 11:19 < jardineworks:#liferay> 	<theme id="Sample-project" name="Sample Theme">
+11:19 < jardineworks:#liferay> 		<color-scheme id="02" name="Dark">
