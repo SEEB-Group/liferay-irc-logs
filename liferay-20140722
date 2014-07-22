@@ -33,3 +33,4 @@
 10:49 < Yam`:#liferay> Reason:
 10:49 < Yam`:#liferay> Problems encountered while deleting resources."
 10:50 < jardineworks:#liferay> check on the disk and make sure it is gone.
+10:50 < jardineworks:#liferay> if not then rm -rf it
