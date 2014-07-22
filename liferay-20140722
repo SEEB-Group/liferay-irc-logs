@@ -95,3 +95,4 @@
 11:13 < Yam`:#liferay> redeploying
 11:13 < jardineworks:#liferay> then refresh your page
 11:14 < jardineworks:#liferay> you still want to do the other steps though... create a css folder inside _diffs and then create a file with your custom styles in there called custom.css
+11:14 < Yam`:#liferay> ok thanks :) but I want the classic color scheme and not the dark one, how can I change that?
