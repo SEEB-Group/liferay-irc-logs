@@ -19,3 +19,4 @@
 13:34 < goku_:#liferay> jardineworks : now  i have changed the login.jsp and its working
 13:34 < jardineworks:#liferay> \o/
 13:35 < jardineworks:#liferay> rotty3000, are you around with a few minutes of brain picking to spare?
+13:37 < jardineworks:#liferay> goku_, not sure how you changed it... but the forgot_password.jsp is where the url is created. Just an fyi.
