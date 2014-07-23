@@ -147,3 +147,7 @@
 18:19 < jardineworks:#liferay> rotty3000, do you know what class is used as the poller that invokes the triggers so that the jobs run?
 18:20 < jardineworks:#liferay> (liferay 6.1)
 18:23 < jardineworks:#liferay> (*6.1.1 to be precise)
+19:48 -!- mode/#liferay [+o lundgren] by ChanServ
+20:01 -!- mode/#liferay [+o lundgren] by ChanServ
+21:11 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Wed Jul 23 00:00:31 2014
