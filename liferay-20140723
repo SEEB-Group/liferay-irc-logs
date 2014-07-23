@@ -12,3 +12,4 @@
 12:39 < goku_:#liferay> hi which page to look for making changes for forgot password link
 12:40 < goku_:#liferay> i want to change the p_p_state=exclusive param to p_p_state=maximized on the forgot password link ?
 12:40 < goku_:#liferay> please help
+13:31 < jardineworks:#liferay> goku_, jsp hook for the login.jsp probably
