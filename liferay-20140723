@@ -21,3 +21,4 @@
 13:35 < jardineworks:#liferay> rotty3000, are you around with a few minutes of brain picking to spare?
 13:37 < jardineworks:#liferay> goku_, not sure how you changed it... but the forgot_password.jsp is where the url is created. Just an fyi.
 13:39 < goku_:#liferay> @jardineworks  actually i got one issue while clicking the forgotpasswrod link ,the problem was  when the p_p_state=exclusive it was not showing properly
+13:40 < goku_:#liferay> but when i changed it to maximized its working
