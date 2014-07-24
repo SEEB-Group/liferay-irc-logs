@@ -22,3 +22,17 @@
 13:37 < jardineworks:#liferay> goku_, not sure how you changed it... but the forgot_password.jsp is where the url is created. Just an fyi.
 13:39 < goku_:#liferay> @jardineworks  actually i got one issue while clicking the forgotpasswrod link ,the problem was  when the p_p_state=exclusive it was not showing properly
 13:40 < goku_:#liferay> but when i changed it to maximized its working
+14:00 -!- mode/#liferay [+o lundgren] by ChanServ
+14:07 -!- mode/#liferay [+o lundgren] by ChanServ
+16:25 -!- mode/#liferay [+o lundgren] by ChanServ
+16:27 -!- mode/#liferay [+o lundgren] by ChanServ
+16:36 -!- mode/#liferay [+o lundgren] by ChanServ
+16:47 -!- mode/#liferay [+o lundgren] by ChanServ
+16:48 -!- mode/#liferay [+o lundgren] by ChanServ
+16:57 -!- mode/#liferay [+o rotty3000] by ChanServ
+17:10 -!- mode/#liferay [+o rotty3000] by ChanServ
+17:37 -!- mode/#liferay [+o rotty3000] by ChanServ
+20:11 -!- mode/#liferay [+o lundgren] by ChanServ
+20:20 -!- mode/#liferay [+o lundgren] by ChanServ
+22:45 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Thu Jul 24 00:00:32 2014
