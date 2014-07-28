@@ -52,3 +52,4 @@
 12:40 < bijoo:#liferay> jardineworks: it's the ehcache that's not replicate.
 12:40 < bijoo:#liferay> jardineworks: do you have cluster link enabled there?
 12:41 < bijoo:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/37571176
+12:41 < jardineworks:#liferay> Are you using multicast?
