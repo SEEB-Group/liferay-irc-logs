@@ -89,3 +89,4 @@
 12:47 < bijoo:#liferay> 10 times per second try to replicate
 12:48 < bijoo:#liferay> As opposed to once per second before
 12:48 < jardineworks:#liferay> yikes -- that is quite a bit of additional load no?
+12:48 < bijoo:#liferay> On form submit here is what happens:
