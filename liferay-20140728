@@ -124,3 +124,4 @@
 12:59 < jardineworks:#liferay> bijoo, do you have the same problem if you don't use a custom form? like if you just use the LR stuff? (add users, pages, etc)
 12:59 < jardineworks:#liferay> bijoo, catch-all? you mean a default cache? I beleive so...
 12:59 < bijoo:#liferay> jardineworks: Yes I think the same issue happens there; I tried settings some logs in the CP; and noticed one server didn't take it; then when cleared the cache, it took the change.
+13:00 < bijoo:#liferay> jardineworks: yes I mean a catch-all for all objects.
