@@ -28,3 +28,4 @@
 11:13 < jardineworks:#liferay> circ-user-17zAv, the Layout table is where the "pages" are stored so you could manage it by hand there, but directly changing the database is of course never recommended.
 11:15 < circ-user-17zAv:#liferay> i know, but if no other solution ...
 11:16 < circ-user-17zAv:#liferay> do you know how drag and drop works?
+11:16 < circ-user-17zAv:#liferay> Is it a sort of serveResource call ?
