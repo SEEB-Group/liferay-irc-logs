@@ -127,3 +127,4 @@
 13:00 < bijoo:#liferay> jardineworks: yes I mean a catch-all for all objects.
 13:00 < jardineworks:#liferay> yeah -- I think it is the first one defined if I am not mistaken.
 13:00 < jardineworks:#liferay> bijoo, Have you tested the connectivity between the two servers using something like iperf?
+13:01 < bijoo:#liferay> jardineworks: you're right "defaultCache"
