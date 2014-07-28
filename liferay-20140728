@@ -93,3 +93,4 @@
 12:48 < jardineworks:#liferay> if you leave it at every second it doesn't work?
 12:49 < bijoo:#liferay> gateway sends POST to the LB; which sends to one of two Liferay Nodes there; one form processes the request ( and is to update a clustered DB); but sends a redirect (a 302); so that the form won't be resubmitted (e.g. if the user click back button something.)
 12:49 < bijoo:#liferay> And then LB sends GET to other node; and other node has stale data in it.
+12:50 < bijoo:#liferay> jardineworks: no since the redirect is way too fast.
