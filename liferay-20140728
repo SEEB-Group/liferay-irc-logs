@@ -2,3 +2,4 @@
 10:54 < circ-user-17zAv:#liferay> Hi, do you know how to change private page order in liferay control panel?
 10:54 < circ-user-17zAv:#liferay> I can do it using drag an drop but just for few pages
 10:54 < circ-user-17zAv:#liferay> i'm using liferay 6.1
+11:01 < jardineworks:#liferay> circ-user-17zAv, if you open your inspector/firebug in your browser, on the console tab, do you see any JS errors starting to show after the first few repositions?
