@@ -59,3 +59,4 @@
 12:41 < bijoo:#liferay> jardineworks: so it's only two nodes so no big deal.
 12:43 < bijoo:#liferay> jardineworks: ehcache replication's elsewhere too.
 12:43 < bijoo:#liferay> I mean the configuration's elsewhere.
+12:43 < jardineworks:#liferay> bijoo, I have a 6.2 install right now that is using unicast... I can share my setting with you if you want to try them in 6.1
