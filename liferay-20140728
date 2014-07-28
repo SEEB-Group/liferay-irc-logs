@@ -74,3 +74,4 @@
 12:45 < jardineworks:#liferay> oh
 12:45 < jardineworks:#liferay> for me clustering did not work until I saw that message.
 12:45 < jardineworks:#liferay> once that message showed up... my search index and ehcache remained in synch (2 node cluster as well)
+12:46 < bijoo:#liferay> jardineworks: I changed configs in the props file here:
