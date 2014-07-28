@@ -40,3 +40,4 @@
 11:57 < jardineworks:#liferay> rotty3000, gonna keep tryin' -- quartz in a clustered env?
 11:57 < jardineworks:#liferay> :)
 11:57 < jardineworks:#liferay> I think it's a quartz bug to be honest but having a hard time tracking it down
+12:31 < bijoo:#liferay> Hi is Cluster Link only for Lucene? E.g. clustering with Lucene index.
