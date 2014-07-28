@@ -47,3 +47,4 @@
 12:34 < jardineworks:#liferay> bijoo, cluster.link.enabled=true is like the master property for more than a few things. Quartz, Lucene, Ehcache to name 3. Anything you need to replicate in a cluster will need that property set I believe.
 12:39 < bijoo:#liferay> jardineworks: 6.1; great; thanks for your help here.
 12:40 < bijoo:#liferay> jardineworks: having some replication issues there.
+12:40 < bijoo:#liferay> jardineworks: noticed cluster link is turned off here.
