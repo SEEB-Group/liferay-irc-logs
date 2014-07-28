@@ -31,3 +31,4 @@
 11:16 < circ-user-17zAv:#liferay> Is it a sort of serveResource call ?
 11:16 < circ-user-17zAv:#liferay> ..and it changes the layout value on db ?
 11:41 < jardineworks:#liferay> circ-user-17zAv, not sure to be honest, never dug... but yeah I would imagine that its some Alloy scripting that runs. You can probably find it in the ROOT/html/portlet directory somewhere... site or site_admin or something
+11:42 < circ-user-17zAv:#liferay> tkz
