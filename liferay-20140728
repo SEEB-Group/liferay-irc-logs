@@ -116,3 +116,4 @@
 12:57 < jardineworks:#liferay> bijoo, and that's how you determined that messages were missing?
 12:57 < bijoo:#liferay> jardineworks: that's how I knew it's cache issue at first ( this is months ago when issue first came )
 12:57 < bijoo:#liferay> jardineworks: since I saw one node updated itself; and then the other node didn't update.
+12:57 < jardineworks:#liferay> i see
