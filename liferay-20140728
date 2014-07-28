@@ -43,3 +43,4 @@
 12:31 < bijoo:#liferay> Hi is Cluster Link only for Lucene? E.g. clustering with Lucene index.
 12:31 < bijoo:#liferay> Or is Cluster Link for Ehcache too?
 12:31 < bijoo:#liferay> It seems Ehcache has own config there
+12:32 < jardineworks:#liferay> bijoo, 6.2?
