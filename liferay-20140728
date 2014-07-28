@@ -122,3 +122,4 @@
 12:58 < bijoo:#liferay> jardineworks: custom with Liferay Service Builder obj.
 12:59 < bijoo:#liferay> I wonder if have to add config there; but ehcache has default catch-all, no?
 12:59 < jardineworks:#liferay> bijoo, do you have the same problem if you don't use a custom form? like if you just use the LR stuff? (add users, pages, etc)
+12:59 < jardineworks:#liferay> bijoo, catch-all? you mean a default cache? I beleive so...
