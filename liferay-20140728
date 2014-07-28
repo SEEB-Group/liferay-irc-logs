@@ -111,3 +111,4 @@
 12:56 < jardineworks:#liferay> bijoo, and what did you see in wireshark?
 12:56 < bijoo:#liferay> date +"%Y-%m-%d %H:%M:%S,%3N" > tcpdump.time.txt;  tcpdump -i eth0 -s 65535 -w tcpdump_qa_inst1 tcp port 8009 or tcp port 80 or tcp port 8080  or tcp port 7800 or tcp port 7801 or tcp port 4444
 12:56 < bijoo:#liferay> jardineworks: I saw all the messages and the times
+12:56 < bijoo:#liferay> we don't have https on there;
