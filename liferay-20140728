@@ -95,3 +95,4 @@
 12:49 < bijoo:#liferay> And then LB sends GET to other node; and other node has stale data in it.
 12:50 < bijoo:#liferay> jardineworks: no since the redirect is way too fast.
 12:51 < jardineworks:#liferay> I see.. so you are trying to beat the request. But the result is that the replication is not always working?
+12:52 < bijoo:#liferay> jardineworks: yes, but it was working all of them time; before, that is, I ran auto tests there.
