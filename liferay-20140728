@@ -25,3 +25,4 @@
 11:07 < jardineworks:#liferay> bradley, you should ask them if you can do something on front end dev .. theming magic.
 11:07 < circ-user-17zAv:#liferay> i have also checked the customization property for that page
 11:09 < circ-user-17zAv:#liferay> it seeme that operating on db table called layout, column priority, it works
+11:13 < jardineworks:#liferay> circ-user-17zAv, the Layout table is where the "pages" are stored so you could manage it by hand there, but directly changing the database is of course never recommended.
