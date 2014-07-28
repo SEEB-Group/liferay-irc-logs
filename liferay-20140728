@@ -82,3 +82,4 @@
 12:47 < bijoo:#liferay> Liferay OOB is like one below:
 12:47 < bijoo:#liferay> 			properties="replicatePuts=false,replicateUpdatesViaCopy=false"
 12:47 < bijoo:#liferay> asynchronousReplicationIntervalMillis=100
+12:47 < bijoo:#liferay> So the only thing I added was this
