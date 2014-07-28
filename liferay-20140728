@@ -90,3 +90,4 @@
 12:48 < bijoo:#liferay> As opposed to once per second before
 12:48 < jardineworks:#liferay> yikes -- that is quite a bit of additional load no?
 12:48 < bijoo:#liferay> On form submit here is what happens:
+12:48 < jardineworks:#liferay> if you leave it at every second it doesn't work?
