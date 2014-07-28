@@ -94,3 +94,4 @@
 12:49 < bijoo:#liferay> gateway sends POST to the LB; which sends to one of two Liferay Nodes there; one form processes the request ( and is to update a clustered DB); but sends a redirect (a 302); so that the form won't be resubmitted (e.g. if the user click back button something.)
 12:49 < bijoo:#liferay> And then LB sends GET to other node; and other node has stale data in it.
 12:50 < bijoo:#liferay> jardineworks: no since the redirect is way too fast.
+12:51 < jardineworks:#liferay> I see.. so you are trying to beat the request. But the result is that the replication is not always working?
