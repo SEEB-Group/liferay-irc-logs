@@ -119,3 +119,4 @@
 12:57 < jardineworks:#liferay> i see
 12:58 < jardineworks:#liferay> bijoo, the form you are submitting, is that a custom form or a Liferay form?
 12:58 < bijoo:#liferay> jardineworks: Oh I just remember something real bad: so updated Node 1, it still gave stale. E.g. on the 302-redirect.
+12:58 < bijoo:#liferay> jardineworks: custom with Liferay Service Builder obj.
