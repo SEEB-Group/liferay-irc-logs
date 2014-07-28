@@ -70,3 +70,4 @@
 12:44 < jardineworks:#liferay> ah
 12:44 < bijoo:#liferay> jardineworks: it's still an intermittent issue too.
 12:45 < jardineworks:#liferay> yeah -- I am having an intermittent issue with quartz on my side.
+12:45 < bijoo:#liferay> jardineworks: the GSM message don't show here; that could be a suspect as well here.
