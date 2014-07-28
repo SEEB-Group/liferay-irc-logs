@@ -44,3 +44,4 @@
 12:31 < bijoo:#liferay> Or is Cluster Link for Ehcache too?
 12:31 < bijoo:#liferay> It seems Ehcache has own config there
 12:32 < jardineworks:#liferay> bijoo, 6.2?
+12:34 < jardineworks:#liferay> bijoo, cluster.link.enabled=true is like the master property for more than a few things. Quartz, Lucene, Ehcache to name 3. Anything you need to replicate in a cluster will need that property set I believe.
