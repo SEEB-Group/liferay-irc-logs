@@ -55,3 +55,4 @@
 12:41 < jardineworks:#liferay> Are you using multicast?
 12:41 < bijoo:#liferay> I saw excellent answer by Amos.
 12:41 < bijoo:#liferay> jardineworks: no it's Amazon EC2 env there.
+12:41 < bijoo:#liferay> jardineworks: have the tcp.xml file.
