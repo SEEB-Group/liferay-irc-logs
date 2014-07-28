@@ -49,3 +49,4 @@
 12:40 < bijoo:#liferay> jardineworks: having some replication issues there.
 12:40 < bijoo:#liferay> jardineworks: noticed cluster link is turned off here.
 12:40 < jardineworks:#liferay> bijoo, I think 6.1 was the same... but I am currently having an issue on 6.1 with quartz jobs in a cluster.
+12:40 < bijoo:#liferay> jardineworks: it's the ehcache that's not replicate.
