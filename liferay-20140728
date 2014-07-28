@@ -117,3 +117,4 @@
 12:57 < bijoo:#liferay> jardineworks: that's how I knew it's cache issue at first ( this is months ago when issue first came )
 12:57 < bijoo:#liferay> jardineworks: since I saw one node updated itself; and then the other node didn't update.
 12:57 < jardineworks:#liferay> i see
+12:58 < jardineworks:#liferay> bijoo, the form you are submitting, is that a custom form or a Liferay form?
