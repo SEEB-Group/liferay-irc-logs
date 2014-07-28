@@ -78,3 +78,4 @@
 12:46 < bijoo:#liferay> http://pastebin.com/d3y22Dzk
 12:46 < bijoo:#liferay> Basically only change is this line
 12:46 < jardineworks:#liferay> (checking..)
+12:46 < bijoo:#liferay> 			properties="replicatePuts=false,replicateUpdatesViaCopy=false,asynchronousReplicationIntervalMillis=100"
