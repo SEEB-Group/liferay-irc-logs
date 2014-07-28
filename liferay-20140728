@@ -108,3 +108,4 @@
 12:55 < jardineworks:#liferay> well, like I said, I am experiencing some frustrating intermittent issues with quartz and clustering in 6.1.1 GA2 right now. I am not convinced that the JGroups stuff is totally solid.
 12:55 < bijoo:#liferay> jardineworks: I did one thing before that kinda helped; I did tcpdump on all the nodes; and then loaded result in wireshark.
 12:55 < jardineworks:#liferay> I have triggers which I think are misfiring, but for some reason they don't get picked up on their own. They get run in place of the right triggers later on. But sometimes I have no issues at all and all triggers are grabbed and fired.
+12:56 < jardineworks:#liferay> bijoo, and what did you see in wireshark?
