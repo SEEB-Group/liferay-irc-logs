@@ -32,3 +32,5 @@
 11:16 < circ-user-17zAv:#liferay> ..and it changes the layout value on db ?
 11:41 < jardineworks:#liferay> circ-user-17zAv, not sure to be honest, never dug... but yeah I would imagine that its some Alloy scripting that runs. You can probably find it in the ROOT/html/portlet directory somewhere... site or site_admin or something
 11:42 < circ-user-17zAv:#liferay> tkz
+11:49 -!- mode/#liferay [+o jhf] by ChanServ
+11:50 < jardineworks:#liferay> jhf, topolik any chance either of you have time to rubber duck about quartz in a clustered environment?
