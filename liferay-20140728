@@ -61,3 +61,4 @@
 12:43 < bijoo:#liferay> I mean the configuration's elsewhere.
 12:43 < jardineworks:#liferay> bijoo, I have a 6.2 install right now that is using unicast... I can share my setting with you if you want to try them in 6.1
 12:43 < bijoo:#liferay> jardineworks: I have the unicast settings in place.
+12:43 < jardineworks:#liferay> including the jgroups in your setenv.sh?
