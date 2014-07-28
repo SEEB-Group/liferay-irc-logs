@@ -64,3 +64,4 @@
 12:43 < jardineworks:#liferay> including the jgroups in your setenv.sh?
 12:43 < bijoo:#liferay> jardineworks: so cluster links seems to take BUS message; and send the BUS message to other nodes.
 12:44 < bijoo:#liferay> jardineworks: yes the jgroups as well; with the port nums.
+12:44 < bijoo:#liferay> jardineworks: i should mention had it working before;
