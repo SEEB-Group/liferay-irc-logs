@@ -72,3 +72,4 @@
 12:45 < jardineworks:#liferay> yeah -- I am having an intermittent issue with quartz on my side.
 12:45 < bijoo:#liferay> jardineworks: the GSM message don't show here; that could be a suspect as well here.
 12:45 < jardineworks:#liferay> oh
+12:45 < jardineworks:#liferay> for me clustering did not work until I saw that message.
