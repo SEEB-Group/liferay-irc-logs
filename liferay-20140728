@@ -97,3 +97,4 @@
 12:51 < jardineworks:#liferay> I see.. so you are trying to beat the request. But the result is that the replication is not always working?
 12:52 < bijoo:#liferay> jardineworks: yes, but it was working all of them time; before, that is, I ran auto tests there.
 12:52 < bijoo:#liferay> jardineworks: something's happened whereby it's issue now; come to think of it we applied some patch; I'm not sure how that may have affected.
+12:53 < bijoo:#liferay> jardineworks: other option is to turn off the cache here.
