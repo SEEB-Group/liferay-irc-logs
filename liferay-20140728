@@ -129,3 +129,4 @@
 13:00 < jardineworks:#liferay> bijoo, Have you tested the connectivity between the two servers using something like iperf?
 13:01 < bijoo:#liferay> jardineworks: you're right "defaultCache"
 13:01 < bijoo:#liferay> jardineworks: no I'll look into that right now here
+13:03 < bijoo:#liferay> jardineworks: I'd tried telnet but what's iperf good for?
