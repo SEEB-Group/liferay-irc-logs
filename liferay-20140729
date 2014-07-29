@@ -9,3 +9,4 @@
 10:27 < dave_k:#liferay> (oh... hey olafk! hier ist @anathem ;)
 10:29 < olafk:#liferay> Quick help: Do a few ThreadDumps and check where it stuck. Hi dave_k
 10:29 < olafk:#liferay> (I'm currently following on #liferay-dev-life)
+10:33 < dave_k:#liferay> olafk: the ThreadDumps I did didn't help in the past...
