@@ -22,3 +22,4 @@
 11:02 < olafk:#liferay> yes, it does. Proper permissions given, of course
 11:02 < jrmiah:#liferay> so more about how LifeRay manages the databases, I guess
 11:02 < jrmiah:#liferay> yeah, sure. Guess just need to test it :)
+11:02 < olafk:#liferay> you can download the sql file separately, but it's most comfortable if you just provide proper DDL permissions. You can remove the DDL permissions after installation, might need it during upgrades
