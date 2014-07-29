@@ -141,3 +141,7 @@
 13:06 < bijoo:#liferay> [  3]  0.0-10.0 sec  1004 MBytes   841 Mbits/sec
 13:06 < bijoo:#liferay> Looks pretty fast to mee here right now
 13:33 < jardineworks:#liferay> bijoo, lol -- yeah i'd say so :)
+19:01 -!- mode/#liferay [+o jhf] by ChanServ
+19:53 -!- mode/#liferay [+o jhf] by ChanServ
+21:03 -!- mode/#liferay [+o lundgren] by ChanServ
+21:31 < bijoo:#liferay> jardineworks: we called *persistence.clearCache
