@@ -39,3 +39,4 @@
 12:02 < dave_k:#liferay> therefore I think I wouldn't be able to file any steps to reproduce
 12:03 < olafk:#liferay> bummer
 12:04 < dave_k:#liferay> yeah. and the issue tracker rules/dynamics dictate that such issues are to be closed fast...
+12:06 < dave_k:#liferay> we've had this problem on multiple instances since Liferay IDE came out (a.k.a. about LR6.1 beta), but never found any steps to reproduce apart from "develop a lot via Remote IDE connector"
