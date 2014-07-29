@@ -27,3 +27,5 @@
 11:08 < jrmiah:#liferay> very nice, will try it out.
 11:08 < jrmiah:#liferay> still have had 0 luck building from source on 8 different variations ... mac osx, windows, linux and different flavors of Ant and the JDK on all of them ..
 11:09 < jrmiah:#liferay> that said had a thought ... we might be able to demonstrate what we need from source by building a 'hello world' portlet for liferay...
+11:13 -!- mode/#liferay [+o lundgren] by ChanServ
+11:14 < jrmiah:#liferay> how hard is it to bring a portlet into liferay and view it? consider a development lifecycle ... change some code, build the portlet, redeploy it..
