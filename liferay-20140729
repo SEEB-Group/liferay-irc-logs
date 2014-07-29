@@ -30,3 +30,4 @@
 11:13 -!- mode/#liferay [+o lundgren] by ChanServ
 11:14 < jrmiah:#liferay> how hard is it to bring a portlet into liferay and view it? consider a development lifecycle ... change some code, build the portlet, redeploy it..
 11:49 < olafk:#liferay> jrmiah: The basic portlet is a matter of seconds. The rest is as complex as any web application that you develop, i.e. the answer is "it depends"
+11:50 < olafk:#liferay> redeploying typically also is a matter of seconds. Might depend on the appserver of your choice, but tomcat typically is really development friendly
