@@ -34,3 +34,4 @@
 11:51 < olafk:#liferay> dave_k: Any updates?
 11:55 < dave_k:#liferay> olafk: yes. The ThreadDump didn't help (where in there is the data that tells me which thread is the culprit??) and the CPU Hog went away (maybe because my coworker restarted his eclipse instance).
 11:56 < olafk:#liferay> dave_k: You'll take multiple thread dumps, compare them and check if you find similarities, and threads that are not waiting for http requests.
+11:57 < olafk:#liferay> but sounds like you found the root cause. If you can reproduce, please file an issue, include version numbers of all: server, plugins and IDE
