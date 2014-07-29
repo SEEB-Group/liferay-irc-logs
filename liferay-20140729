@@ -14,3 +14,4 @@
 10:51 < dave_k:#liferay> olafk: :)
 10:57 < jrmiah:#liferay> are all JDBC databases supported out of the box?
 10:58 < jrmiah:#liferay> on a fresh install?
+11:01 < olafk:#liferay> jrmiah: Many, but you will need the driver. Are you looking for a particular one?
