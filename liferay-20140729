@@ -25,3 +25,4 @@
 11:02 < olafk:#liferay> you can download the sql file separately, but it's most comfortable if you just provide proper DDL permissions. You can remove the DDL permissions after installation, might need it during upgrades
 11:05 < olafk:#liferay> jrmiah: 2005, 2008 (also R2) and 2012 should all be working
 11:08 < jrmiah:#liferay> very nice, will try it out.
+11:08 < jrmiah:#liferay> still have had 0 luck building from source on 8 different variations ... mac osx, windows, linux and different flavors of Ant and the JDK on all of them ..
