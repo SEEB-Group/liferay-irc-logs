@@ -29,3 +29,4 @@
 11:09 < jrmiah:#liferay> that said had a thought ... we might be able to demonstrate what we need from source by building a 'hello world' portlet for liferay...
 11:13 -!- mode/#liferay [+o lundgren] by ChanServ
 11:14 < jrmiah:#liferay> how hard is it to bring a portlet into liferay and view it? consider a development lifecycle ... change some code, build the portlet, redeploy it..
+11:49 < olafk:#liferay> jrmiah: The basic portlet is a matter of seconds. The rest is as complex as any web application that you develop, i.e. the answer is "it depends"
