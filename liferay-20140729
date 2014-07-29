@@ -32,3 +32,4 @@
 11:49 < olafk:#liferay> jrmiah: The basic portlet is a matter of seconds. The rest is as complex as any web application that you develop, i.e. the answer is "it depends"
 11:50 < olafk:#liferay> redeploying typically also is a matter of seconds. Might depend on the appserver of your choice, but tomcat typically is really development friendly
 11:51 < olafk:#liferay> dave_k: Any updates?
+11:55 < dave_k:#liferay> olafk: yes. The ThreadDump didn't help (where in there is the data that tells me which thread is the culprit??) and the CPU Hog went away (maybe because my coworker restarted his eclipse instance).
