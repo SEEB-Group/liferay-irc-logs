@@ -44,3 +44,4 @@
 12:07 < npskirk:#liferay> Step 2.  There is no step 2
 12:08 < npskirk:#liferay>  At least, that's been my experience
 12:08 < dave_k:#liferay> npskirk: right. But that defeats the added flexibility of having a shared test instance.
+12:09 < npskirk:#liferay> I'm just saying, I've found running and publishing apps to tomcat from eclipse to be entirely unreliable
