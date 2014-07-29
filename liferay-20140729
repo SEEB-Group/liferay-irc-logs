@@ -20,3 +20,4 @@
 11:01 < jrmiah:#liferay> think I know where the drive is, just checking to make sure that liferay populates the schema itself regardless of DB
 11:01 < jrmiah:#liferay> driver*
 11:02 < olafk:#liferay> yes, it does. Proper permissions given, of course
+11:02 < jrmiah:#liferay> so more about how LifeRay manages the databases, I guess
