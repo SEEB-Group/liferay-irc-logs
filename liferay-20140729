@@ -6,3 +6,4 @@
 09:52 -!- mode/#liferay [+o rotty3000] by ChanServ
 09:57 -!- mode/#liferay [+o lundgren] by ChanServ
 10:27 < dave_k:#liferay> hey all ... we're experiencing cpu hog problems when connecting to a liferay instance using remote ide connector/server-manager-web (196% cpu on a 2core machine). any hints on how to mitigate that?
+10:27 < dave_k:#liferay> (oh... hey olafk! hier ist @anathem ;)
