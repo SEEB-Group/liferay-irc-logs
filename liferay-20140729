@@ -18,3 +18,4 @@
 11:01 < jrmiah:#liferay> sql server ...
 11:01 < olafk:#liferay> yup. Let me look up the supported versions
 11:01 < jrmiah:#liferay> think I know where the drive is, just checking to make sure that liferay populates the schema itself regardless of DB
+11:01 < jrmiah:#liferay> driver*
