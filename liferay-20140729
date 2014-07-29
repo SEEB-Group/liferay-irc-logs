@@ -38,3 +38,4 @@
 12:00 < dave_k:#liferay> olafk: from our experiences, I assume that it's a problem that only comes up after a lot of dev work on an instance. Maybe even only after two eclipse/liferayIDE instances worked parallel on the same server (but it's lingering after that, even if only one dev connects).
 12:02 < dave_k:#liferay> therefore I think I wouldn't be able to file any steps to reproduce
 12:03 < olafk:#liferay> bummer
+12:04 < dave_k:#liferay> yeah. and the issue tracker rules/dynamics dictate that such issues are to be closed fast...
