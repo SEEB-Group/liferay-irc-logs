@@ -146,3 +146,9 @@
 21:03 -!- mode/#liferay [+o lundgren] by ChanServ
 21:31 < bijoo:#liferay> jardineworks: we called *persistence.clearCache
 21:31 < bijoo:#liferay> It fixed issue we were having here; so on each save of entity, we call.
+22:25 -!- mode/#liferay [+o jhf] by ChanServ
+22:47 -!- mode/#liferay [+o lundgren] by ChanServ
+22:49 -!- mode/#liferay [+o jhf] by ChanServ
+22:51 -!- mode/#liferay [+o jhf] by ChanServ
+23:12 -!- mode/#liferay [+o rotty3000] by ChanServ
+--- Log closed Tue Jul 29 00:00:39 2014
