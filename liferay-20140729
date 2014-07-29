@@ -46,3 +46,4 @@
 12:08 < dave_k:#liferay> npskirk: right. But that defeats the added flexibility of having a shared test instance.
 12:09 < npskirk:#liferay> I'm just saying, I've found running and publishing apps to tomcat from eclipse to be entirely unreliable
 12:10 < npskirk:#liferay> You get an hour into trying to track something down and find out it isn't your code at all
+12:12 < dave_k:#liferay> npskirk: Still, developing a theme via remote connector reduces the edit-deploy-checkresult cycle by a factor of about 5
