@@ -33,3 +33,4 @@
 11:50 < olafk:#liferay> redeploying typically also is a matter of seconds. Might depend on the appserver of your choice, but tomcat typically is really development friendly
 11:51 < olafk:#liferay> dave_k: Any updates?
 11:55 < dave_k:#liferay> olafk: yes. The ThreadDump didn't help (where in there is the data that tells me which thread is the culprit??) and the CPU Hog went away (maybe because my coworker restarted his eclipse instance).
+11:56 < olafk:#liferay> dave_k: You'll take multiple thread dumps, compare them and check if you find similarities, and threads that are not waiting for http requests.
