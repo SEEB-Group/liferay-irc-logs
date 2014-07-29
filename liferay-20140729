@@ -61,3 +61,4 @@
 15:21 < jardineworks:#liferay> I have session replication working. I am using the DeltaManager for session replication.
 15:21 < jardineworks:#liferay> one of the properties is expireSessionsOnShutdown which I have set to false so that I can shut down a node in the cluster but not kill any active user sessions.
 15:22 < jardineworks:#liferay> but, when I shut a node down, I can see messaging in the log that the sessions are being expired.
+15:22 < jardineworks:#liferay> I am trying this same approach with a vanilla Tomcat (no liferay bundle) ... and so far I have not seen the same issue.
