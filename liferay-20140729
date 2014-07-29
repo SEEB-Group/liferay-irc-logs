@@ -41,3 +41,4 @@
 12:04 < dave_k:#liferay> yeah. and the issue tracker rules/dynamics dictate that such issues are to be closed fast...
 12:06 < dave_k:#liferay> we've had this problem on multiple instances since Liferay IDE came out (a.k.a. about LR6.1 beta), but never found any steps to reproduce apart from "develop a lot via Remote IDE connector"
 12:07 < npskirk:#liferay> Step 1.  Use Eclipse to run Tomcat
+12:07 < npskirk:#liferay> Step 2.  There is no step 2
