@@ -58,3 +58,4 @@
 15:16 -!- mode/#liferay [+o lundgren] by ChanServ
 15:19 < jardineworks:#liferay> hey guys -- has anyone here done any tomcat clustering with Liferay?
 15:20 < jardineworks:#liferay> I have a situation am I am not sure if Liferay is causing the issue or not.
+15:21 < jardineworks:#liferay> I have session replication working. I am using the DeltaManager for session replication.
