@@ -4,3 +4,4 @@
 10:16 < jardineworks:#liferay> topolik, lemme know when you have time
 10:25 < bijoo:#liferay> https://www.liferay.com/community/dev.life/home w00t w00t missed it this time, but won't next time.
 10:29 < bijoo:#liferay> jardineworks: I saw your question from yesterday logs: "So could Liferay be causing this issue?"
+10:29 < bijoo:#liferay> jardineworks: have you tried stepping through the shutdown code?
