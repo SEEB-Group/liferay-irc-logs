@@ -63,3 +63,8 @@
 15:22 < jardineworks:#liferay> but, when I shut a node down, I can see messaging in the log that the sessions are being expired.
 15:22 < jardineworks:#liferay> I am trying this same approach with a vanilla Tomcat (no liferay bundle) ... and so far I have not seen the same issue.
 15:22 < jardineworks:#liferay> So could Liferay be causing this issue?
+15:36 -!- mode/#liferay [+o lundgren] by ChanServ
+16:23 -!- mode/#liferay [+o jhf] by ChanServ
+18:45 -!- mode/#liferay [+o jhf] by ChanServ
+22:17 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed Jul 30 00:00:40 2014
