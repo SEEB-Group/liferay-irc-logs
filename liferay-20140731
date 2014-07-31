@@ -110,3 +110,5 @@
 14:21 < jardineworks:#liferay> sam____, if you have the _unstyled as your parent -- then check out the init.vm from that theme folder -- there are a couple of lines --
 14:21 < jardineworks:#liferay> #if ($navItems)
 14:21 < jardineworks:#liferay> 	#set ($nav_items = $navItems)
+14:21 < jardineworks:#liferay> 	#set ($has_navigation = ($nav_items && $nav_items.size() > 0))
+14:21 < jardineworks:#liferay> #end
