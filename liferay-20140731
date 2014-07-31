@@ -30,3 +30,4 @@
 10:27 < bijoo_:#liferay> jardineworks: I've never had one shutdown kill sessions; best to step through the code to double-check.
 10:30 < bijoo_:#liferay> jardineworks: I've used maven on some projects before; but I'm no way a maven of maven; though I recall auto-increment there; maybe http://stackoverflow.com/questions/9554688/maven-versioning-best-practices ?
 10:30 <@jhf:#liferay> hurray, elasticsearch plugin https://github.com/R-Knowsys/elasticray I think this will eventually be polished into a marketplace plugin
+10:33 < jardineworks:#liferay> jhf, AWESOME. I was actually looking to do that! happy to see someone else already has :)
