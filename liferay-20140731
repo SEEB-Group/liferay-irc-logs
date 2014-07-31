@@ -25,3 +25,5 @@
 10:12 < bijoo_:#liferay> jardineworks: have you tried stepping through that process yet?
 10:17 < jardineworks:#liferay> bijoo_, not yet but I guess that'll be my next step. other "priorities" have come up though :)
 10:17 < jardineworks:#liferay> I was just wondering if you knew already :)
+10:22 -!- mode/#liferay [+o jhf] by ChanServ
+10:27 < jardineworks:#liferay> bijoo_, since you are a maven guy and I am a n00b to maven.. I have a maven question for you. When generating the war files, is there a way to add an incremental build number? I saw something last night about mojo?
