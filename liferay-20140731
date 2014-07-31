@@ -144,3 +144,7 @@
 15:21 < jardineworks:#liferay> or so it seems
 15:53 < jardineworks:#liferay> jhf, bust. doesn't appear to work
 16:04 < jardineworks:#liferay> hmmm... seems like the only thing the language portlet does is append _82_languageId=<locale> to the url .
+19:12 < bijoo_:#liferay> jardineworks: interesting set of articles there:
+19:12 < bijoo_:#liferay> ClusterEventType.DEPART: This event is broadcast locally on a node when it is shutdown
+19:12 < bijoo_:#liferay> http://bitsofinfo.wordpress.com/2014/05/21/clustering-liferay-globally-across-data-centers-gslb-with-jgroups-and-relay2/
+19:12 < bijoo_:#liferay> http://bitsofinfo.wordpress.com/2014/05/21/clustering-liferay-globally-across-data-centers-gslb-with-jgroups-and-relay2/
