@@ -71,3 +71,4 @@
 12:12 < bijoo_:#liferay> jardineworks: haha, good point; I'm in similar path.
 12:12 < bijoo_:#liferay> jardineworks: client has interesting story there; from custom to Liferay type transition.
 12:21 < jardineworks:#liferay> jhf, those magic portlets... those are MVCPortlets I assume?
+12:27 < dave_k:#liferay> hey all ... a question about liferay registration workflow. We enabled the email verification process, but now liferay is sending out two mails: one with a temporary password, one with the verification link. The mail with the temp-password seems a bit redundant... is it possible to configure liferay to ONLY send the verification link and then, after the new user clicked it, directly ask for a new password?
