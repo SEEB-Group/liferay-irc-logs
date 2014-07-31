@@ -101,3 +101,4 @@
 14:05 < jardineworks:#liferay> sam____, I would create a layout with three two drop zoned... and in between have your static content or your embeded portelt that pulls the static content. The box that surrounds those three rectangles would be the theme portion of the page.
 14:06 < jardineworks:#liferay> sorry... the box around the rectangles is the layout, the box around the box is the theme :)
 14:08 < jardineworks:#liferay> sam____, so a layout plugin with something like this -- http://pastie.org/9434869
+14:11 < bijoo_:#liferay> sam____: right per jardineworks that's layout template
