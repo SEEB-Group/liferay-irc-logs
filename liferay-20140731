@@ -130,3 +130,4 @@
 15:10 < jardineworks:#liferay> 		String i18nLanguageId = (String)request.getAttribute(
 15:10 < jardineworks:#liferay> 			WebKeys.I18N_LANGUAGE_ID);
 15:10 <@jhf:#liferay> one sec jardineworks stil looking at templates
+15:11 <@jhf:#liferay> sam____: I think it must be velocity from what I see in the docs
