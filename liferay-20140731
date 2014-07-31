@@ -76,3 +76,4 @@
 12:28 <@jhf:#liferay> that’s just one part of it
 13:00 < bijoo_:#liferay> dave_k: that is probably for security; some say pass should be separate email.
 13:02 < dave_k:#liferay> bijoo_: hmm? the pass should not be sent via mail.
+13:12 < jardineworks:#liferay> jhf, any details on a release scheduel? I mean an RC1 for example?
