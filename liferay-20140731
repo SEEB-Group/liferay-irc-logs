@@ -14,3 +14,4 @@
 09:50 < jardineworks:#liferay> :)
 10:00  * bijoo_:#liferay is reading
 10:04 < bijoo_:#liferay> jardineworks: okay; yes, probably there is something. Looking at portal.properties file:
+10:05 < bijoo_:#liferay> jardineworks: global.shutdown.events=com.liferay.portal.events.GlobalShutdownAction
