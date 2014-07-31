@@ -105,3 +105,4 @@
 14:12 < sam____:#liferay> thank you guys
 14:13 < sam____:#liferay> the content I want to have in between portlet drop zones is actually going to be my site's navbar
 14:13 < sam____:#liferay> so I'd need to have access to the nav_items variable
+14:13 < sam____:#liferay> it is available at a theme level; I am not sure if it is at a layout level. Do you know if it is?
