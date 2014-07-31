@@ -11,3 +11,4 @@
 09:49 < jardineworks:#liferay> EXPIRE message. The delta manager has expireSessionsOnShutdown="false" set which is supposed to prevent this action from happening. At first I thought perhaps it was a bug in tomcat. So I installed and clustered two vanilla tomcat 7.0.42 servers. I tried the same test and the SESSION-EXPIRE was not sent. So at this stage I am thinkiing that it is something in LR. So the question is...IS THERE A LISTENER IN LR THAT IS WIRED TO
 09:50 < jardineworks:#liferay> THE _SERVER_ SHUTDOWN PROCESS? and if there is, do you know what it is?
 09:50 < jardineworks:#liferay> </end-of-story>
+09:50 < jardineworks:#liferay> :)
