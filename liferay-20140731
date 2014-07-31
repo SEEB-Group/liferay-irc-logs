@@ -87,3 +87,4 @@
 13:20 < bijoo_:#liferay> dave_k: I don't see any properties for it; only ones I see are for the templates:
 13:20 < bijoo_:#liferay> dave_k: admin.email.password.reset.subject
 13:20 < bijoo_:#liferay> dave_k: admin.email.password.reset.body
+13:20 < bijoo_:#liferay> admin.email.password.sent.subject
