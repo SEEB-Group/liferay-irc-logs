@@ -138,3 +138,4 @@
 15:18 <@jhf:#liferay> (look for “Velocity” or “TemplateConstants.LANG_TYPE_VM” — you will find many)
 15:19 <@jhf:#liferay> jardineworks: yup you probably could!
 15:20 <@jhf:#liferay> isn’t that what that other dude’s hook did?
+15:20 < jardineworks:#liferay> sorta... Tejas hook forced the Users Default Language to be set to the header value as a post login action
