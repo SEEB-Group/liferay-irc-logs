@@ -137,3 +137,4 @@
 15:18 <@jhf:#liferay> yaeh sam____ it must always be velocity - in https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/com/liferay/portal/service/impl/LayoutTemplateLocalServiceImpl.java it is hard-coded for velocity only
 15:18 <@jhf:#liferay> (look for “Velocity” or “TemplateConstants.LANG_TYPE_VM” — you will find many)
 15:19 <@jhf:#liferay> jardineworks: yup you probably could!
+15:20 <@jhf:#liferay> isn’t that what that other dude’s hook did?
