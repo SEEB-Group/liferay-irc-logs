@@ -135,3 +135,4 @@
 15:11 <@jhf:#liferay> gonna look in the code to see if that’s true
 15:13 < jardineworks:#liferay> jhf, sure ... looks like both those likes, the i18nLanguageId and the locale are shoved into the themeDisplay. So what I am wondering... if I want to force the language to be controlled by the request header, can I have my own service pre hook that can be used to pull the header value and shove it in for both of those?
 15:18 <@jhf:#liferay> yaeh sam____ it must always be velocity - in https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/com/liferay/portal/service/impl/LayoutTemplateLocalServiceImpl.java it is hard-coded for velocity only
+15:18 <@jhf:#liferay> (look for “Velocity” or “TemplateConstants.LANG_TYPE_VM” — you will find many)
