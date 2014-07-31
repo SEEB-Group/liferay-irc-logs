@@ -143,3 +143,4 @@
 15:21 < jardineworks:#liferay> big language changes in 6.2..
 15:21 < jardineworks:#liferay> or so it seems
 15:53 < jardineworks:#liferay> jhf, bust. doesn't appear to work
+16:04 < jardineworks:#liferay> hmmm... seems like the only thing the language portlet does is append _82_languageId=<locale> to the url .
