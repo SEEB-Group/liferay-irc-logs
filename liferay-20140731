@@ -120,3 +120,4 @@
 15:05 < jardineworks:#liferay> hey jhf -- you remember about a week or two ago when we were talking about locale? and pulling the locale out of the request header rather than from the user preference?
 15:06 <@jhf:#liferay> yup
 15:06 <@jhf:#liferay> sam____: I think there is a setting in the xml
+15:06 <@jhf:#liferay> one sec
