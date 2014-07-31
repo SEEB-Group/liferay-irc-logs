@@ -27,3 +27,4 @@
 10:17 < jardineworks:#liferay> I was just wondering if you knew already :)
 10:22 -!- mode/#liferay [+o jhf] by ChanServ
 10:27 < jardineworks:#liferay> bijoo_, since you are a maven guy and I am a n00b to maven.. I have a maven question for you. When generating the war files, is there a way to add an incremental build number? I saw something last night about mojo?
+10:27 < bijoo_:#liferay> jardineworks: I've never had one shutdown kill sessions; best to step through the code to double-check.
