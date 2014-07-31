@@ -32,3 +32,4 @@
 10:30 <@jhf:#liferay> hurray, elasticsearch plugin https://github.com/R-Knowsys/elasticray I think this will eventually be polished into a marketplace plugin
 10:33 < jardineworks:#liferay> jhf, AWESOME. I was actually looking to do that! happy to see someone else already has :)
 10:33 < jardineworks:#liferay> but ... I thought I saw ES Impls as part of the Liferay Master branch?
+10:33 < jardineworks:#liferay> or maybe it was in the liferay-plugins...
