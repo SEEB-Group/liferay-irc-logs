@@ -67,3 +67,4 @@
 12:03 <@jhf:#liferay> and, you’ll be able to write apps using modern web development frameworks like angular, ember, and pkg management like bower
 12:04 <@jhf:#liferay> alongside “true” (JSR-based) portlets with ancient portlet.xml files
 12:05 <@jhf:#liferay> soooooooo.. yeah.. takes a bit of time (although SPA phase 1 is there now: https://issues.liferay.com/browse/LPS-45853)
+12:11 < bijoo_:#liferay> SPA sounds really interesting
