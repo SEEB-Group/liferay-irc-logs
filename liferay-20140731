@@ -90,3 +90,4 @@
 13:20 < bijoo_:#liferay> admin.email.password.sent.subject
 13:20 < bijoo_:#liferay> admin.email.password.sent.body
 13:21 < bijoo_:#liferay> admin.email.verification.subject ...
+13:23 < jardineworks:#liferay> bijoo_, dave_k maybe something that can be overriden with a Struts Hook
