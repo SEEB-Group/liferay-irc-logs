@@ -107,3 +107,4 @@
 14:13 < sam____:#liferay> so I'd need to have access to the nav_items variable
 14:13 < sam____:#liferay> it is available at a theme level; I am not sure if it is at a layout level. Do you know if it is?
 14:17 < jardineworks:#liferay> sam____, if you have a look at the navigation.vm (assuming you are using velocity templates for your theme) I think the variable is called $navItems. It might be scoped high enough. If not, then check out some of the init.vm files from the portal source and you can probably find the code that grabs it in the theme and put it into your layout template.
+14:21 < jardineworks:#liferay> sam____, if you have the _unstyled as your parent -- then check out the init.vm from that theme folder -- there are a couple of lines --
