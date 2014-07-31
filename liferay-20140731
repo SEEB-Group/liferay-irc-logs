@@ -127,3 +127,5 @@
 15:07 < jardineworks:#liferay> just one .. in the PortalImpl class
 15:10 < jardineworks:#liferay> aha! its now in ServicePreAction -- line 658 -- Locale locale = PortalUtil.getLocale(request, response, true);
 15:10 < jardineworks:#liferay> but what's this right above it?!
+15:10 < jardineworks:#liferay> 		String i18nLanguageId = (String)request.getAttribute(
+15:10 < jardineworks:#liferay> 			WebKeys.I18N_LANGUAGE_ID);
