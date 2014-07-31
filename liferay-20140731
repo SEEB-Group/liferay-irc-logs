@@ -116,3 +116,4 @@
 14:43 < sam____:#liferay> hey guys
 14:43 < sam____:#liferay> just another thing
 14:43 < sam____:#liferay> how to set a layout project to use Freemarker instead of Velocity?
+14:47 < jardineworks:#liferay> sam____, I don't actually see a way to specify... maybe you can just do it and Liferay figures it out from the file extension
