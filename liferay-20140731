@@ -96,3 +96,6 @@
 13:31 < jardineworks:#liferay> dave_k, seems like avoiding it is taking longer than the hook would to write :)
 13:42 < dave_k:#liferay> jardineworks: Nope. writing the hook would require diving into a part of the API I don't know yet.
 13:46 < sam____:#liferay> Hey guys, I am creating a theme and wanted to have more than 1 portlet drop area on a page; in other words, I'd like to be able to drag and drop portlets to a section at the top of the page, have a central HTML element, and a portlet drop area below it (check this fiddle: http://goo.gl/ftLhT4). Does anyone know how to do it? tks
+13:49 -!- mode/#liferay [+o rotty3000] by ChanServ
+14:01 -!- mode/#liferay [+o jhf] by ChanServ
+14:05 < jardineworks:#liferay> sam____, I would create a layout with three two drop zoned... and in between have your static content or your embeded portelt that pulls the static content. The box that surrounds those three rectangles would be the theme portion of the page.
