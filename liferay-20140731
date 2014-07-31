@@ -94,3 +94,4 @@
 13:23 < dave_k:#liferay> bijoo_: thx, but these aren't interesting... I'm currently trying the combination of company.security.strangers.verify=true; login.create.account.allow.custom.password=true; passwords.default.policy.change.required=false to approximate the outlined behaviour ... but still, the new user has to set his password with the registration form, not after verification. it's roughly equivalent, I guess...
 13:24 < dave_k:#liferay> jardineworks: yeah, but we're trying to avoid that :)
 13:31 < jardineworks:#liferay> dave_k, seems like avoiding it is taking longer than the hook would to write :)
+13:42 < dave_k:#liferay> jardineworks: Nope. writing the hook would require diving into a part of the API I don't know yet.
