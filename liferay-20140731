@@ -19,3 +19,4 @@
 10:05 < bijoo_:#liferay> jardineworks: shutdown.programmatically.exit=false
 10:06 < bijoo_:#liferay> jardineworks: these may not be the only check places; also way to shutdown via UI; good to check what that calls in the backend; and start the debugger with breakpoint there.
 10:10 < jardineworks:#liferay> bijoo_, Right -- I saw those classes and had a quick look at them but didn't see anything. I'll take a closer look at them. I have a test portlet called "session-replication-test" and the message contains it as the context (since I guess it is the one with the only active session). I am wondering if during shutdown, the unregister actions trigger somehting in those portlets to cause a session expire BEFORE the server shutsdown
+10:10 < jardineworks:#liferay> . Know what I mean?
