@@ -148,3 +148,4 @@
 19:12 < bijoo_:#liferay> ClusterEventType.DEPART: This event is broadcast locally on a node when it is shutdown
 19:12 < bijoo_:#liferay> http://bitsofinfo.wordpress.com/2014/05/21/clustering-liferay-globally-across-data-centers-gslb-with-jgroups-and-relay2/
 19:12 < bijoo_:#liferay> http://bitsofinfo.wordpress.com/2014/05/21/clustering-liferay-globally-across-data-centers-gslb-with-jgroups-and-relay2/
+19:12 < bijoo_:#liferay> http://bitsofinfo.wordpress.com/2014/05/21/liferay-clustering-internals/
