@@ -119,3 +119,4 @@
 14:47 < jardineworks:#liferay> sam____, I don't actually see a way to specify... maybe you can just do it and Liferay figures it out from the file extension
 15:05 < jardineworks:#liferay> hey jhf -- you remember about a week or two ago when we were talking about locale? and pulling the locale out of the request header rather than from the user preference?
 15:06 <@jhf:#liferay> yup
+15:06 <@jhf:#liferay> sam____: I think there is a setting in the xml
