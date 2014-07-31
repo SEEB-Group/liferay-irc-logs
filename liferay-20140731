@@ -126,3 +126,4 @@
 15:07 < jardineworks:#liferay> I don't see references to the locale.default.request property in the i18nfilter or servlet.
 15:07 < jardineworks:#liferay> just one .. in the PortalImpl class
 15:10 < jardineworks:#liferay> aha! its now in ServicePreAction -- line 658 -- Locale locale = PortalUtil.getLocale(request, response, true);
+15:10 < jardineworks:#liferay> but what's this right above it?!
