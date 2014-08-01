@@ -11,3 +11,4 @@
 08:33 < bijoo__:#liferay> there is option to disable export.
 09:05 < jardineworks:#liferay> sl33k1, you don't have to import the records but you do need to have a user object in Liferay. So you will still have to create a user and have something common between it and LDAP so that when the ldap authentication passes you have a way to auto login based on a Liferay user record.
 09:05 < jardineworks:#liferay> The LDAP import utils just provides you an easy way not to have to do that last part.
+09:06 < jardineworks:#liferay> sl33k1, you don't have to import the whole directory store though. Some of the AutoLogin classes have code that you can look at that will show you how to "lazy import" users when they first login.
