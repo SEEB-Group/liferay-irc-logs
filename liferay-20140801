@@ -6,3 +6,6 @@
 00:50 -!- mode/#liferay [+o rotty3000] by ChanServ
 07:52 < sl33k1:#liferay> anyone have experience with liferay ldap?
 07:52 < sl33k1:#liferay> what needs to be done to allow ldap authentication on liferay db without need to enable import/export of users pls?
+08:18 -!- mode/#liferay [+o lundgren] by ChanServ
+08:27 -!- mode/#liferay [+o lundgren] by ChanServ
+08:33 < bijoo__:#liferay> there is option to disable export.
