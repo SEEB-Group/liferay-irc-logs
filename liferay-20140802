@@ -1,3 +1,4 @@
 --- Log opened Sat Aug 02 00:00:40 2014
 09:01 < Jadobi:#liferay> hi
 09:13 < Jadobi:#liferay> I'm trying to get CAS SSO working with Liferay. I have configured CAS(login-,logout-,server-url;service-url blank) in the portal and checked the config. When i try to login with the Sign in Button i get redirected to the CAS(runs on a different tomcat[https://localhost:8444/cas] as liferay[http://localhost:8080]) and i can login. After logging i get redirected to "https://localhost:8444/c/portal/login?p_l_id=11417&ticket=ST-16
+09:21 -!- mode/#liferay [+o jhf] by ChanServ
