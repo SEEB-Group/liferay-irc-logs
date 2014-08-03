@@ -6,3 +6,4 @@
 23:17 < bijoo_:#liferay> file_entry_abstract.jsp (3 matches)
 23:17 < bijoo_:#liferay> 43: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&imageThumbnail=1") %>" />
 23:17 < bijoo_:#liferay> 48: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&documentThumbnail=1") %>" />
+23:17 < bijoo_:#liferay> 53: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&videoThumbnail=1") %>" />
