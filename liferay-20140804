@@ -135,3 +135,4 @@
 11:11 < Jadobi:#liferay> For the CAS itself makes no differnt (Uname has to be the same as password in the demo setup) only the portal setting is important
 11:15 < jardineworks:#liferay> Jadobi, do you have your environment setup with the Portal Source?
 11:16 < Jadobi:#liferay> with the tomcat bundle
+11:16 < jardineworks:#liferay> but you have downloaded the portal source code and configured it as a project in your IDE?
