@@ -61,3 +61,4 @@
 10:27 < Jadobi1:#liferay> cas.logout.on.session.expiration=false
 10:28 < jardineworks:#liferay> Jadobi1, did you configure the auto.login.hooks?
 10:29 < Jadobi1:#liferay> no
+10:29 < jardineworks:#liferay> I mean, CAS is there by default, but you don't need the others so it's good to reconfigure it to only use CAS
