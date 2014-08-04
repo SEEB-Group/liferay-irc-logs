@@ -66,3 +66,4 @@
 10:29 < jardineworks:#liferay> add that to your portal-ext and restart
 10:29 < Jadobi1:#liferay> ok
 10:31 < yam_:#liferay> jardineworks: ok but if  I want a group or an organization or whatever of users to view a page and no one else, how should I do?
+10:33 < Jadobi:#liferay> ok i changed the properties file and the Server is up and running
