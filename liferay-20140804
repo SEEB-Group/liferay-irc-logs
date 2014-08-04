@@ -42,3 +42,4 @@
 10:16 < yam_:#liferay> Because when I try to assign an organization role to an organization, I have to manually assign this role to each user and I can't see this role in the "Permissions" of the page that I want to manage
 10:16 < yam_:#liferay> jardineworks: ok, ty
 10:18 < Jadobi1:#liferay> jardineworks, First i used this guide to setup cas http://www.liferay.com/de/community/wiki/-/wiki/Main/CAS+Liferay+6+Integration
+10:20 < Jadobi1:#liferay> but also some other sources i do not remember but i can post the essential configs
