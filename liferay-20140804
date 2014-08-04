@@ -49,3 +49,6 @@
 10:25 < jardineworks:#liferay>  allow a feature -- OrganizationRoleUserChecker
 10:26 < Jadobi1:#liferay> These are my portal-ext.properties for liferay and i also do the conf inside the portal
 10:26 < Jadobi1:#liferay> #CAS config
+10:26 < Jadobi1:#liferay> cas.auth.enabled=true
+10:26 < Jadobi1:#liferay> cas.import.from.ldap=false
+10:26 < Jadobi1:#liferay> cas.login.url=https://localhost:8444/cas/login
