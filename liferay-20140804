@@ -77,3 +77,4 @@
 10:40 < Jadobi:#liferay> 294327 INFO- de.portal.user.PRTLUser  -  findByUname ENTER uname=null
 10:40 < Jadobi:#liferay> 294327 INFO- de.portal.user.PRTLUser  -  getUser PRTLUser=null
 10:40 < jardineworks:#liferay> yam_, ok.. NORMALLY... Organizations are used to model the same company, not discreet companies. If you have Sony and BMW accessing the same portal and you want them to each have a site, you would normally create a site for BWM, and a site for Sony.  Orgnizations is more for .. within Sony, I am going to have a Europe office and a NA office.. and then within each I am going to have a Sales and a Fianance dept etc.
+10:43 < Jadobi:#liferay> this class tries to get the ticket from request but cannot find any .... final String ticket = request.getParameter("ticket");
