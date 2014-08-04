@@ -122,3 +122,4 @@
 10:57 < jardineworks:#liferay> Jadobi, are you sure the parameter it is expecting is named "ticket"?
 10:58 < jardineworks:#liferay> yam_, ok.. so is page1 and page2 actually different? or does each page just contain different data for the orgnization accessing it? For example, both show invoicing history, just that one is for BMW and one is for Sony.
 10:59 < yam_:#liferay> they're different
+10:59 < jardineworks:#liferay> yam_, Are they different because of company subscriotion to the service? or are they different because they will always be different?
