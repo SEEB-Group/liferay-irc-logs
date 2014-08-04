@@ -132,3 +132,4 @@
 11:08 < jardineworks:#liferay> Jadobi, what attribute is being used as the principal name in CAS? email?
 11:08 < Jadobi:#liferay> screenName
 11:09 < Jadobi:#liferay> but both works
+11:11 < Jadobi:#liferay> For the CAS itself makes no differnt (Uname has to be the same as password in the demo setup) only the portal setting is important
