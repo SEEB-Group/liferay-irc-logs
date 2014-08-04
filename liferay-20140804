@@ -120,3 +120,4 @@
 10:57 < Jadobi:#liferay> from the web app it self
 10:57 < yam_:#liferay> may be yes
 10:57 < jardineworks:#liferay> Jadobi, are you sure the parameter it is expecting is named "ticket"?
+10:58 < jardineworks:#liferay> yam_, ok.. so is page1 and page2 actually different? or does each page just contain different data for the orgnization accessing it? For example, both show invoicing history, just that one is for BMW and one is for Sony.
