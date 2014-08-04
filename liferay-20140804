@@ -37,3 +37,4 @@
 10:13 < Jadobi1:#liferay> also it works for an portlet i have already ported
 10:14 < jardineworks:#liferay> Jadobi1, can you share with me the link that you followed so I know I am looking at the same one? One of the problems with Liferay is that there are often a dozen different people posting to solve the same problem, but using different solutions :)
 10:14 < jardineworks:#liferay> what's up yam_
+10:15 < yam_:#liferay> jardineworks: I don't understand how roles really work. I have an organization and I want to add a role to all users in this organization (for example: view the page "Client1"), how should I do that?
