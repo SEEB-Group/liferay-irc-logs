@@ -25,3 +25,4 @@
 09:56 < jardineworks:#liferay> you could forego integration with the other application altogether ... but leave it in place if certain groups require it. But if you migrate the UI features to portlets and deploy them in Liferay, it means you could sunset the other application altogether.
 10:02 < Jadobi1:#liferay> I cannot rewrite all the web applications ... basically i want to display this web applications(spring based) inside the portal and also leverage SSO ... (via IFrame or ProxyPortlet)
 10:06 < Jadobi1:#liferay> In the future, these web applications are then converted into portlets gradually.
+10:07 < jardineworks:#liferay> Jadobi1, This is Liferay 6.2 I assume?
