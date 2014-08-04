@@ -85,3 +85,4 @@
 10:45 < jardineworks:#liferay> yam_, is this a fictitious scenario? or real business problem you are trying to solve?
 10:45 < yam_:#liferay> real business problem
 10:46 < yam_:#liferay> the company which I develop the portal for has clients (different companies) that sould access some of the pages of the site
+10:46 < Jadobi:#liferay> jardinworks, like this http://localhost/testApp?ticket=ST-8-epVhNM3bkekt0UJMXNBX-cas01.example.org
