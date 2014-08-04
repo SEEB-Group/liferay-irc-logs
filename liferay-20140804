@@ -7,3 +7,4 @@
 07:09 < mvlach:#liferay> is there any real posibility to split some portlets to other JVM ? especial in CE edition ?
 07:09 < mvlach:#liferay> can I use WSRP ?
 07:45 < Jadobi1:#liferay> nobody a clue?
+09:39 < jardineworks:#liferay> Jadobi1, Just want to make sure I understand .. you have the user logging into Liferay but you want them to access the data from an external system. Is that right?
