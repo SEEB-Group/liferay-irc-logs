@@ -126,3 +126,4 @@
 10:59 < yam_:#liferay> no they're not linked to the companies
 11:01 < Jadobi:#liferay> If i call this directly in the browser (https://localhost:8444/cas/login?service=http://localhost/webappName/Login.do) it works the lib can find the ticket parameter
 11:01 < Jadobi:#liferay> and i'm logged in
+11:03 < Jadobi:#liferay> i mean i dont need to login again on the CAS-Server... it uses the ticket that is already there form the portal login
