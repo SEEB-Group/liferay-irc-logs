@@ -67,3 +67,4 @@
 10:29 < Jadobi1:#liferay> ok
 10:31 < yam_:#liferay> jardineworks: ok but if  I want a group or an organization or whatever of users to view a page and no one else, how should I do?
 10:33 < Jadobi:#liferay> ok i changed the properties file and the Server is up and running
+10:34 < jardineworks:#liferay> yam_, I think I need to understand a little more what it is you are trying to do. So you have a single site and multiple organizations?
