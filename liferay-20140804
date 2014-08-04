@@ -99,3 +99,4 @@
 10:47 < jardineworks:#liferay>     # Set this to true when you want the validation to allow for creation of
 10:47 < jardineworks:#liferay>     # user groups with numeric names.
 10:47 < jardineworks:#liferay>     #
+10:47 < jardineworks:#liferay>     user.groups.name.allow.numeric=false
