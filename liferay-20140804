@@ -159,3 +159,4 @@
 11:24 < jardineworks:#liferay> though that last one might be FF only.
 11:25 < Jadobi:#liferay> i found this ... https://wiki.jasig.org/display/PLT/Web+Proxy+Portlet+Replacement could this run in Liferay?
 11:26 < Jadobi:#liferay> https://github.com/Jasig/WebproxyPortlet/releases/tag/WebProxyPortlet-2.0.0-M5
+11:26 < jardineworks:#liferay> https://www.liferay.com/community/wiki/-/wiki/Main/Iframe+Portlet
