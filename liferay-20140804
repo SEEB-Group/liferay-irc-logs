@@ -147,3 +147,5 @@
 11:18 < jardineworks:#liferay> and CASAutoLogin
 11:19 < jardineworks:#liferay> do parameters from a non IFRAME get passed to an IFRAME automatically?
 11:19 < jardineworks:#liferay> I never use IFRAMEs...
+11:19 -!- mode/#liferay [+o jhf] by ChanServ
+11:19 < jardineworks:#liferay> they're separate requests aren't they?
