@@ -3,3 +3,4 @@
 07:05 < Jadobi:#liferay> An important criteria is to integrate existing portlets and webapps form the old portal setup and also have LDAP and CAS support for SSO. I have already configured Liferay to use Jasig CAS for SSO and integrated some portlets. This was not a big problem. The bigger challenge seems to be to get the web applications(they CASified and Spring MVC based) running in Liferay. After a user logged on Liferay, it should be also logged on to the web applications
 07:05 < Jadobi:#liferay> What is the best way to achieve this? IFrame or the WebProxyPortlet? Can someone give me please an advise how to do this in Liferay?
 07:08 < mvlach:#liferay> hi all
+07:09 < Jadobi:#liferay> hi
