@@ -73,3 +73,6 @@
 10:35 < Jadobi:#liferay> You mean for the web application ... yes mom
 10:37 < yam_:#liferay> jardineworks: I have a single site and different pages, I have different companies which will access the portal and I want company1 to see only page1, company2 to see only page2 etc.
 10:40 < Jadobi:#liferay> 294326 INFO- de.portal.user.PRTLUser  -  casLogin: No Ticket as parameter found!
+10:40 < Jadobi:#liferay> 294327 INFO- de.portal.user.PRTLUser  -  setCASUser uname=null
+10:40 < Jadobi:#liferay> 294327 INFO- de.portal.user.PRTLUser  -  findByUname ENTER uname=null
+10:40 < Jadobi:#liferay> 294327 INFO- de.portal.user.PRTLUser  -  getUser PRTLUser=null
