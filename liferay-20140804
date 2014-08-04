@@ -31,3 +31,4 @@
 10:10 < jardineworks:#liferay> Jadobi1, so I can catch up with where you are at... you have followed the Liferay cas guide already right?
 10:12 < Jadobi1:#liferay> Yes Jasig CAS is running on an different tomcat locally and the portal can use it for user auth
 10:12 < Jadobi1:#liferay> with SSL
+10:13 < yam_:#liferay> hi
