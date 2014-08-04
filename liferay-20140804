@@ -88,3 +88,5 @@
 10:46 < Jadobi:#liferay> jardinworks, like this http://localhost/testApp?ticket=ST-8-epVhNM3bkekt0UJMXNBX-cas01.example.org
 10:46 < yam_:#liferay> but some pages must be accessed by some companies and others must not
 10:47 < jardineworks:#liferay> aqquadro, here is the logic. It might be, but you would need to check the properties...
+10:47 < jardineworks:#liferay> 		if (Validator.isNumber(name) &&
+10:47 < jardineworks:#liferay> 			!PropsValues.USER_GROUPS_NAME_ALLOW_NUMERIC) {
