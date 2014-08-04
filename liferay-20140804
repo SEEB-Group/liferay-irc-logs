@@ -92,3 +92,8 @@
 10:47 < jardineworks:#liferay> 			!PropsValues.USER_GROUPS_NAME_ALLOW_NUMERIC) {
 10:47 < jardineworks:#liferay> 			throw new UserGroupNameException();
 10:47 < jardineworks:#liferay> 		}
+10:47 < jardineworks:#liferay> ##
+10:47 < jardineworks:#liferay> ## User Groups
+10:47 < jardineworks:#liferay> ##
+10:47 < jardineworks:#liferay>     #
+10:47 < jardineworks:#liferay>     # Set this to true when you want the validation to allow for creation of
