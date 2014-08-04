@@ -114,3 +114,4 @@
 10:53 < jardineworks:#liferay> 				serviceUrl = CommonUtils.constructServiceUrl(request, response, serviceUrl, serverName, "ticket", false);
 10:54 < jardineworks:#liferay> 			}
 10:54 < jardineworks:#liferay> so that is where the ticket param comes from...
+10:54 < jardineworks:#liferay> yam_, I see
