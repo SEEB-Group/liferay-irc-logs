@@ -17,3 +17,4 @@
 09:50 < Jadobi1:#liferay> I can authenticate the app outside the portal via CAS, but inside the portal the user is already logged on via cas but the app can't find the ticket ... i need some sort of proxying from the portal
 09:50 < Jadobi1:#liferay> Direct database connection
 09:51 < jardineworks:#liferay> Jadobi1, so you have a portlet in Liferay that is connecting to the external applicaiton database -- Is it read only? or can you update records as well?
+09:52 < Jadobi1:#liferay> no right now i have only the webapplication running on the same server as liferay
