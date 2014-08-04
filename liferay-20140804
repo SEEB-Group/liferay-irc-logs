@@ -110,3 +110,4 @@
 10:53 < jardineworks:#liferay> String serverName = PrefsPropsUtil.getString(companyId, PropsKeys.CAS_SERVER_NAME, PropsValues.CAS_SERVER_NAME);
 10:53 < jardineworks:#liferay> 			String serviceUrl = PrefsPropsUtil.getString(companyId, PropsKeys.CAS_SERVICE_URL, PropsValues.CAS_SERVICE_URL);
 10:53 < jardineworks:#liferay> 			if (Validator.isNull(serviceUrl))
+10:53 < jardineworks:#liferay> 			{
