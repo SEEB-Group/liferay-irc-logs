@@ -60,3 +60,4 @@
 10:27 < Jadobi1:#liferay> cas.no.such.user.redirect.url=http://localhost
 10:27 < Jadobi1:#liferay> cas.logout.on.session.expiration=false
 10:28 < jardineworks:#liferay> Jadobi1, did you configure the auto.login.hooks?
+10:29 < Jadobi1:#liferay> no
