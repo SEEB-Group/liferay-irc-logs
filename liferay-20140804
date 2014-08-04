@@ -111,3 +111,4 @@
 10:53 < jardineworks:#liferay> 			String serviceUrl = PrefsPropsUtil.getString(companyId, PropsKeys.CAS_SERVICE_URL, PropsValues.CAS_SERVICE_URL);
 10:53 < jardineworks:#liferay> 			if (Validator.isNull(serviceUrl))
 10:53 < jardineworks:#liferay> 			{
+10:53 < jardineworks:#liferay> 				serviceUrl = CommonUtils.constructServiceUrl(request, response, serviceUrl, serverName, "ticket", false);
