@@ -27,3 +27,4 @@
 10:06 < Jadobi1:#liferay> In the future, these web applications are then converted into portlets gradually.
 10:07 < jardineworks:#liferay> Jadobi1, This is Liferay 6.2 I assume?
 10:09 < jardineworks:#liferay> Jadobi1, I've never done what you are trying to do... all my external systems integration has been what I described above, or using services that were exposed by the external application ... or, lastly, using OpenSSO. But I am happy to try to figure it out with you.
+10:10 < Jadobi1:#liferay> yes Liferay 6.2 CE
