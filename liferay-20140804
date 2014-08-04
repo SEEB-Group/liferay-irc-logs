@@ -15,3 +15,4 @@
 09:46 < jardineworks:#liferay> that is afterall the main benefit...
 09:50 < jardineworks:#liferay> Jadobi1, Alternatively... how is the data in the other application accessed? via services? direct database connection?
 09:50 < Jadobi1:#liferay> I can authenticate the app outside the portal via CAS, but inside the portal the user is already logged on via cas but the app can't find the ticket ... i need some sort of proxying from the portal
+09:50 < Jadobi1:#liferay> Direct database connection
