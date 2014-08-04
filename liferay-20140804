@@ -80,3 +80,4 @@
 10:43 < Jadobi:#liferay> this class tries to get the ticket from request but cannot find any .... final String ticket = request.getParameter("ticket");
 10:44 < yam_:#liferay> jardineworks: in that case it's not "normal" haha, and what do you advise me?
 10:44 < jardineworks:#liferay> does the url that your CAS system receives have a ?ticket parameter?
+10:44 < jardineworks:#liferay> Jadobi, ^^
