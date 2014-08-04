@@ -11,3 +11,4 @@
 09:39 < jardineworks:#liferay> So basically, the portlet in Liferay becomes more just the view for data that is pulled in from elsewhere?
 09:41 -!- mode/#liferay [+o jhf] by ChanServ
 09:43 < Jadobi1:#liferay> @jardineworks correct
+09:46 < jardineworks:#liferay> Jadobi1, and the external applications can't leverage SSO?
