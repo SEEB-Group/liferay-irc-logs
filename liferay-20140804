@@ -69,3 +69,4 @@
 10:33 < Jadobi:#liferay> ok i changed the properties file and the Server is up and running
 10:34 < jardineworks:#liferay> yam_, I think I need to understand a little more what it is you are trying to do. So you have a single site and multiple organizations?
 10:34 < jardineworks:#liferay> Jadobi, when you try to login and it fails, is there a stack trace?
+10:34 < jardineworks:#liferay> in the log I mean
