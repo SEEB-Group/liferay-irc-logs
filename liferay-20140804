@@ -64,3 +64,4 @@
 10:29 < jardineworks:#liferay> I mean, CAS is there by default, but you don't need the others so it's good to reconfigure it to only use CAS
 10:29 < jardineworks:#liferay> auto.login.hooks=com.liferay.portal.security.auth.CASAutoLogin
 10:29 < jardineworks:#liferay> add that to your portal-ext and restart
+10:29 < Jadobi1:#liferay> ok
