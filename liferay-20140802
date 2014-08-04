@@ -7,3 +7,4 @@
 23:17 < bijoo_:#liferay> 43: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&imageThumbnail=1") %>" />
 23:17 < bijoo_:#liferay> 48: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&documentThumbnail=1") %>" />
 23:17 < bijoo_:#liferay> 53: <img alt="" src="<%= DLUtil.getPreviewURL(fileEntry, fileVersion, themeDisplay, "&videoThumbnail=1") %>" />
+--- Log closed Sun Aug 03 00:00:42 2014
