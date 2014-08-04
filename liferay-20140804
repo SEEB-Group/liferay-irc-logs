@@ -153,3 +153,4 @@
 11:20 < jardineworks:#liferay> so the HTTP SESSION is separate... so the portal is authenticated, but the request that is sent in the iframe is a different url that doesn't have the parameters you need?
 11:20 < aqquadro:#liferay> jardineworks: many thanks! it's work!
 11:21 < jardineworks:#liferay> aqquadro, no problemo.
+11:21 < Jadobi:#liferay> It looks like this is the case ... ut i dont know
