@@ -156,3 +156,4 @@
 11:21 < Jadobi:#liferay> It looks like this is the case ... ut i dont know
 11:23 < jardineworks:#liferay> Jadobi, Maybe this will help? http://stackoverflow.com/questions/6730522/how-to-send-parameter-to-iframe-with-a-http-post-request
 11:24 < jardineworks:#liferay> ... Jadobi or if you are using html5 (which LR 6.2 supports)... http://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/
+11:24 < jardineworks:#liferay> though that last one might be FF only.
