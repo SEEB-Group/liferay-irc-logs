@@ -136,3 +136,4 @@
 11:15 < jardineworks:#liferay> Jadobi, do you have your environment setup with the Portal Source?
 11:16 < Jadobi:#liferay> with the tomcat bundle
 11:16 < jardineworks:#liferay> but you have downloaded the portal source code and configured it as a project in your IDE?
+11:17 < jardineworks:#liferay> reason I ask is that at this stage I would open the CASFilter class and set a few breakpoints and try debugging to see what happens.
