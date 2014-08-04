@@ -104,3 +104,4 @@
 10:48 < jardineworks:#liferay> yam_, do any of the companies share site pages? or are they always separated... meaning, are their pages that both BMW and Sony need to acces?
 10:48 < yam_:#liferay> no they share some pages
 10:48 < Jadobi:#liferay> jardinworks, oh i have to say placed the web application inside the portal in an IFrame right now
+10:49 < Jadobi:#liferay> outside of the portal this is working ... but inside i think the portal makes the request to the cas server and thats why the web app cant find the ticket
