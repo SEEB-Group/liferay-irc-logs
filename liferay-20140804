@@ -40,3 +40,4 @@
 10:15 < yam_:#liferay> jardineworks: I don't understand how roles really work. I have an organization and I want to add a role to all users in this organization (for example: view the page "Client1"), how should I do that?
 10:16 < jardineworks:#liferay> yam_, I haven't done much with Organizations to be honest but give me a few minutes and I'll poke around it.
 10:16 < yam_:#liferay> Because when I try to assign an organization role to an organization, I have to manually assign this role to each user and I can't see this role in the "Permissions" of the page that I want to manage
+10:16 < yam_:#liferay> jardineworks: ok, ty
