@@ -161,3 +161,4 @@
 11:26 < Jadobi:#liferay> https://github.com/Jasig/WebproxyPortlet/releases/tag/WebProxyPortlet-2.0.0-M5
 11:26 < jardineworks:#liferay> https://www.liferay.com/community/wiki/-/wiki/Main/Iframe+Portlet
 11:27 < jardineworks:#liferay> Jadobi, You would have to make a few additions to the source (possibly)
+11:27 < jardineworks:#liferay> like the liferay-plugin-package.properties and the liferay-portlet.xml
