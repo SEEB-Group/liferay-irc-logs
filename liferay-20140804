@@ -141,3 +141,4 @@
 11:17 < jardineworks:#liferay> Unfortunately, this class does not have any logging really, so stepping through is your best bet to see what is happening.
 11:18 < Jadobi:#liferay> I can set it up
 11:18 < jardineworks:#liferay> I am wondering if the IFRAME is the problem.
+11:18 < Jadobi:#liferay> the class is called CASFilter?
