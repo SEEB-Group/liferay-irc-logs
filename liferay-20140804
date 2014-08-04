@@ -22,3 +22,4 @@
 09:55 < jardineworks:#liferay> ate the sql source and automagically create the tables for you when you deploy the plugin. HOWEVER, it is also possible to define a model and map it to an existing table ... basically external datasource.
 09:55 < jardineworks:#liferay> If I were you I would probably do that..
 09:55 < jardineworks:#liferay> Define a service builder model, specify an external datasource, and then in your portlet use the generated code to read the external database.
+09:56 < jardineworks:#liferay> you could forego integration with the other application altogether ... but leave it in place if certain groups require it. But if you migrate the UI features to portlets and deploy them in Liferay, it means you could sunset the other application altogether.
