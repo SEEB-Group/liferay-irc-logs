@@ -56,3 +56,5 @@
 10:26 < Jadobi1:#liferay> cas.server.url=https://localhost:8444/cas
 10:27 < Jadobi1:#liferay> cas.server.name=https://localhost
 10:27 < Jadobi1:#liferay> cas.service.url=
+10:27 < Jadobi1:#liferay> cas.validate.url=https://localhost:8444/cas/proxyValidate
+10:27 < Jadobi1:#liferay> cas.no.such.user.redirect.url=http://localhost
