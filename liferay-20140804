@@ -112,3 +112,4 @@
 10:53 < jardineworks:#liferay> 			if (Validator.isNull(serviceUrl))
 10:53 < jardineworks:#liferay> 			{
 10:53 < jardineworks:#liferay> 				serviceUrl = CommonUtils.constructServiceUrl(request, response, serviceUrl, serverName, "ticket", false);
+10:54 < jardineworks:#liferay> 			}
