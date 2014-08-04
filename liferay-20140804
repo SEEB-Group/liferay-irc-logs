@@ -13,3 +13,4 @@
 09:43 < Jadobi1:#liferay> @jardineworks correct
 09:46 < jardineworks:#liferay> Jadobi1, and the external applications can't leverage SSO?
 09:46 < jardineworks:#liferay> that is afterall the main benefit...
+09:50 < jardineworks:#liferay> Jadobi1, Alternatively... how is the data in the other application accessed? via services? direct database connection?
