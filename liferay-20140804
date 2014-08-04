@@ -21,3 +21,4 @@
 09:55 < jardineworks:#liferay> Jadobi1, ok -- there is a feature in Liferay called Service Builder. Using this tool you can model entities in XML and use a code generation tool to generate 80% of the Java code you need to work with them. The code generated follows the same model as the core Liferay entities ... User, Group, Org, etc. So you end up with the same deign pattern of *LocalServiceUtil. If you put your custom entities in Liferay it will even gener
 09:55 < jardineworks:#liferay> ate the sql source and automagically create the tables for you when you deploy the plugin. HOWEVER, it is also possible to define a model and map it to an existing table ... basically external datasource.
 09:55 < jardineworks:#liferay> If I were you I would probably do that..
+09:55 < jardineworks:#liferay> Define a service builder model, specify an external datasource, and then in your portlet use the generated code to read the external database.
