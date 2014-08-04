@@ -139,3 +139,4 @@
 11:17 < jardineworks:#liferay> reason I ask is that at this stage I would open the CASFilter class and set a few breakpoints and try debugging to see what happens.
 11:17 < Jadobi:#liferay> No i have only the server in the IDE
 11:17 < jardineworks:#liferay> Unfortunately, this class does not have any logging really, so stepping through is your best bet to see what is happening.
+11:18 < Jadobi:#liferay> I can set it up
