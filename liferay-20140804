@@ -48,3 +48,4 @@
 10:25 < jardineworks:#liferay> yam_, From what I am seeing the only difference (from a storage perspective) is the type column in the Role_ .. 1 is a regular Role, 2 I think is a Site role and 3 is an Org role. As far as I know, it's just a matter of scoping. The UserLoccalServiceUtil class allows you to add the role (all you need is the organization role id) and then there is a class that you can use for checking to make sure a user has the role before you
 10:25 < jardineworks:#liferay>  allow a feature -- OrganizationRoleUserChecker
 10:26 < Jadobi1:#liferay> These are my portal-ext.properties for liferay and i also do the conf inside the portal
+10:26 < Jadobi1:#liferay> #CAS config
