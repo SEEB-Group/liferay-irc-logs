@@ -130,3 +130,4 @@
 11:06 < jardineworks:#liferay> Jadobi, hmmm
 11:06 < Jadobi:#liferay> And i dont make any changes to the cas server i use it with demo setup ... Username = Password
 11:08 < jardineworks:#liferay> Jadobi, what attribute is being used as the principal name in CAS? email?
+11:08 < Jadobi:#liferay> screenName
