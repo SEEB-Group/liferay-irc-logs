@@ -4,3 +4,4 @@
 07:05 < Jadobi:#liferay> What is the best way to achieve this? IFrame or the WebProxyPortlet? Can someone give me please an advise how to do this in Liferay?
 07:08 < mvlach:#liferay> hi all
 07:09 < Jadobi:#liferay> hi
+07:09 < mvlach:#liferay> is there any real posibility to split some portlets to other JVM ? especial in CE edition ?
