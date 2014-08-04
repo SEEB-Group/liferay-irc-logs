@@ -90,3 +90,5 @@
 10:47 < jardineworks:#liferay> aqquadro, here is the logic. It might be, but you would need to check the properties...
 10:47 < jardineworks:#liferay> 		if (Validator.isNumber(name) &&
 10:47 < jardineworks:#liferay> 			!PropsValues.USER_GROUPS_NAME_ALLOW_NUMERIC) {
+10:47 < jardineworks:#liferay> 			throw new UserGroupNameException();
+10:47 < jardineworks:#liferay> 		}
