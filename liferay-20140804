@@ -158,3 +158,4 @@
 11:24 < jardineworks:#liferay> ... Jadobi or if you are using html5 (which LR 6.2 supports)... http://www.html5rocks.com/en/tutorials/security/sandboxed-iframes/
 11:24 < jardineworks:#liferay> though that last one might be FF only.
 11:25 < Jadobi:#liferay> i found this ... https://wiki.jasig.org/display/PLT/Web+Proxy+Portlet+Replacement could this run in Liferay?
+11:26 < Jadobi:#liferay> https://github.com/Jasig/WebproxyPortlet/releases/tag/WebProxyPortlet-2.0.0-M5
