@@ -150,3 +150,4 @@
 11:19 -!- mode/#liferay [+o jhf] by ChanServ
 11:19 < jardineworks:#liferay> they're separate requests aren't they?
 11:19 < Jadobi:#liferay> I think thats the problem the dont
+11:20 < jardineworks:#liferay> so the HTTP SESSION is separate... so the portal is authenticated, but the request that is sent in the iframe is a different url that doesn't have the parameters you need?
