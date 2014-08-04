@@ -54,3 +54,5 @@
 10:26 < Jadobi1:#liferay> cas.login.url=https://localhost:8444/cas/login
 10:26 < Jadobi1:#liferay> cas.logout.url=https://localhost:8444/cas/logout?service=http://localhost
 10:26 < Jadobi1:#liferay> cas.server.url=https://localhost:8444/cas
+10:27 < Jadobi1:#liferay> cas.server.name=https://localhost
+10:27 < Jadobi1:#liferay> cas.service.url=
