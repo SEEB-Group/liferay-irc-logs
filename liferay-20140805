@@ -80,3 +80,5 @@
 13:26 < jardineworks:#liferay> for example...
 13:26 < jardineworks:#liferay> <c:forEach var="entry" items="${myMap}">
 13:26 < jardineworks:#liferay>   Key: <c:out value="${entry.key}"/>
+13:26 < jardineworks:#liferay>   Value: <c:out value="${entry.value}"/>
+13:26 < jardineworks:#liferay> </c:forEach>
