@@ -85,3 +85,4 @@
 13:27 < jardineworks:#liferay> so you would do ${ entry.value } but that gets you the user object. If you want the email say you would need to do $[entry.value.emailAddress} (since looking at the UserImpl class... there is a getEmailAddress() which is what JSTL would actually use)
 13:28 < Yam`:#liferay> oh ok I'll try that
 13:30 < Yam`:#liferay> mh I still haven't got anything jardineworks :/
+13:31 < jardineworks:#liferay> Yam`, ok, maybe the map is empty. Try putting a test<br/> in the <c:forEach> loop and see if it shows. If it doesn't, then you have no items.
