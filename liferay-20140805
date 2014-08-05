@@ -37,3 +37,4 @@
 10:43 < Yam`:#liferay> to do the thing I explained earlier, I should do the  PortalUtil.getUserId( renderRequest ); and the UserLocalServiceUtil.getOrganizationUsers( organizationId ); in the doView method?
 10:47 < jardineworks:#liferay> Yam`, Are you using the MVCPortlet?
 10:47 < Yam`:#liferay> jardineworks, my CustomMVCPortlet class extends MVCPortlet
+10:47 < Yam`:#liferay> that's what the guy did in the tutorial, should I do otherwise?
