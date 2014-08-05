@@ -36,3 +36,4 @@
 10:42 < Yam`:#liferay> it generates a form with an input and a button and after clicking it, it displays the text that the user types in the input
 10:43 < Yam`:#liferay> to do the thing I explained earlier, I should do the  PortalUtil.getUserId( renderRequest ); and the UserLocalServiceUtil.getOrganizationUsers( organizationId ); in the doView method?
 10:47 < jardineworks:#liferay> Yam`, Are you using the MVCPortlet?
+10:47 < Yam`:#liferay> jardineworks, my CustomMVCPortlet class extends MVCPortlet
