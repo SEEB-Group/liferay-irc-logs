@@ -8,3 +8,4 @@
 10:19 < Yam`:#liferay> I want to test if I can do a portlet that displays the users in the same organization of the viewer
 10:20 < Yam`:#liferay> ex: if johndoe in Calyon opens the page where there's the portlet, it displays the users of Calyon
 10:21 < jardineworks:#liferay> Yam`, you shoul dbe able to do that with the OrganizationLocalServiceUtil.
+10:22 < jardineworks:#liferay> Yam`, OrganizationLocalServiceUtil.getUserOrganizations( [userid], Boolean.TRUE ); might do it ...
