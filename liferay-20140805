@@ -41,3 +41,4 @@
 10:48 < jardineworks:#liferay> Yam`, you can use doView, but personally, I always override the render( RenderRequest, RenderRenderResponse ) method.
 10:48 < Yam`:#liferay> s/otherwise/differently/
 10:48 < jardineworks:#liferay> you just need to make sure that the last line in the method is a super.render( request, response ) so that the MVCPortlet invokes the doView method.
+10:49 < Yam`:#liferay> jardineworks, what's the difference to do with doView or render, that's because doView must only do the "rendering" and the actions must be done elsewhere?
