@@ -71,3 +71,4 @@
 12:18 < jardineworks:#liferay> so you can access it as $organizationUsersMap
 12:19 < jardineworks:#liferay> <c:forEach items="$organizationUsersMap" var="user"> ... </c:forEach> ...
 12:19 < jardineworks:#liferay> what you will have to look up is how to iterate over a map
+12:20 < jardineworks:#liferay> the keys are the organization id,  but that will give you access to ANOTHER list.
