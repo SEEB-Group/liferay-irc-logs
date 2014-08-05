@@ -50,3 +50,4 @@
 11:22 < Yam`:#liferay> jardineworks, thanks a lot, I'll see that !
 11:24 < Yam`:#liferay> jardineworks, what is the log for?
 11:25 < jardineworks:#liferay> Yam`, I refactored a method out of my example because I found a short cut in the OrganizationLocalServiceUtil class... but originally I was detecting "anonymous" users and logging the skip. I almost always include a logger in my classes so that I can have some trace.
+11:27 < Yam`:#liferay> And in my case is it use or not?
