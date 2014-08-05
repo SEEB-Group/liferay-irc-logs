@@ -5,3 +5,4 @@
 10:17 < jardineworks:#liferay> Yam`, what are you trying to do?
 10:18 < Yam`:#liferay> I have an organization let's say IBM
 10:19 < Yam`:#liferay> with two sub organizations: Calyon and Amundi
+10:19 < Yam`:#liferay> I want to test if I can do a portlet that displays the users in the same organization of the viewer
