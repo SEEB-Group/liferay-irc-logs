@@ -68,3 +68,4 @@
 12:18 < jardineworks:#liferay> hey
 12:18 < jardineworks:#liferay> this is a constant -- ATTRIBUTE_ORGANIZATION_USERS_MAP
 12:18 < jardineworks:#liferay> which automatically adds the map to the pageContext
+12:18 < jardineworks:#liferay> so you can access it as $organizationUsersMap
