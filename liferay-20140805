@@ -126,3 +126,4 @@
 13:51 < Yam``:#liferay> jardineworks, any other idea? :/
 13:52 < jardineworks:#liferay> Yam``, must be an exception in the log.
 13:53 < Yam``:#liferay> where do I look at it jardineworks?
+13:54 < jardineworks:#liferay> TOMCAT_HOME/logs/catalina.out
