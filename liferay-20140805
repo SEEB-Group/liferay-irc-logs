@@ -128,3 +128,4 @@
 13:53 < Yam``:#liferay> where do I look at it jardineworks?
 13:54 < jardineworks:#liferay> TOMCAT_HOME/logs/catalina.out
 13:54 < jardineworks:#liferay> or LIFERAY_HOME/logs/ <todays log>
+13:55 < Yam``:#liferay> no exception in todays log jardineworks :/
