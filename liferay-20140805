@@ -109,3 +109,4 @@
 13:41 < jardineworks:#liferay> <jardineworks>   Key: <c:out value="${entry.key}"/>
 13:41 < jardineworks:#liferay> <jardineworks>   Value: <c:out value="${entry.value}"/>
 13:41 < jardineworks:#liferay> <jardineworks> </c:forEach>
+13:41 < Yam``:#liferay> I copy the same thing jardineworks ?
