@@ -28,3 +28,4 @@
 10:30 < Yam`:#liferay> I try to read the wiki but as I know nothing, I don't know what may be able to help me :/
 10:31 < jardineworks:#liferay> Yam`, Trial and error and reading Liferays source man.
 10:31 < Yam`:#liferay> what is liferay's source man ?
+10:32 < jardineworks:#liferay> Yam`, the Liferay Portal source code. YOu can download the Liferay Tomcat Bundle, the Liferay SDK, ... the SQL Scripts... one of the options is "portal source". That is the java code that   is the entire portal.
