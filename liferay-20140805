@@ -46,3 +46,4 @@
 10:51 < jardineworks:#liferay> sec).
 10:57 < jardineworks:#liferay> Yam`, just writing and example.. gimme a minute
 10:57 < Yam`:#liferay> jardineworks, thanks :)
+11:15 < jardineworks:#liferay> Yam`, no error checking or anything... and there may be more efficient ways to do this (imagine 1000's of users, the private method would not be very efficient) but to give you and idea -- http://pastie.org/9447672
