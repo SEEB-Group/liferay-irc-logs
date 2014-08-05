@@ -20,3 +20,4 @@
 10:26 < jardineworks:#liferay> Yam`, Service Builder is bootstrapped by Liferay. They use it to generate their own entity models.
 10:27 < jardineworks:#liferay> so learn service builder and  you will understand how to find the service classes that are used to access the liferay model objects.
 10:27 < Yam`:#liferay> ok
+10:27 < jardineworks:#liferay> Yam`, http://www.liferay.com/community/wiki/-/wiki/Main/Service+Builder
