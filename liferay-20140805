@@ -107,3 +107,5 @@
 13:41 < jardineworks:#liferay> Yam``, try outputting based on what i said above...
 13:41 < jardineworks:#liferay> <jardineworks> <c:forEach var="entry" items="${myMap}">
 13:41 < jardineworks:#liferay> <jardineworks>   Key: <c:out value="${entry.key}"/>
+13:41 < jardineworks:#liferay> <jardineworks>   Value: <c:out value="${entry.value}"/>
+13:41 < jardineworks:#liferay> <jardineworks> </c:forEach>
