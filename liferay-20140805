@@ -88,3 +88,4 @@
 13:31 < jardineworks:#liferay> Yam`, ok, maybe the map is empty. Try putting a test<br/> in the <c:forEach> loop and see if it shows. If it doesn't, then you have no items.
 13:32 < jardineworks:#liferay> Yam`, are you logged into the portal?
 13:32 < Yam`:#liferay> jardineworks, yes I am
+13:32 < jardineworks:#liferay> k
