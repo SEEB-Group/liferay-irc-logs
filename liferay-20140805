@@ -99,3 +99,4 @@
 13:34 < Yam`:#liferay> user.value
 13:34 < Yam`:#liferay> var="user" and user.value
 13:34 < jardineworks:#liferay> Yam`, but your var value is user. change the value of your var="user" to var="entry"
+13:35 < Yam`:#liferay> no no I was already using user, my bad
