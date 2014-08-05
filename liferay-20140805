@@ -116,3 +116,5 @@
 13:43 < jardineworks:#liferay> oh!
 13:43 < jardineworks:#liferay> items="$organizationUsersMap"
 13:43 < jardineworks:#liferay> should be items="${organizationUsersMap}"
+13:43 < Yam``:#liferay> the brackets?
+13:43 < Yam``:#liferay> ok... my bad :/
