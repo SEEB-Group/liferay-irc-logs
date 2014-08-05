@@ -82,3 +82,4 @@
 13:26 < jardineworks:#liferay>   Key: <c:out value="${entry.key}"/>
 13:26 < jardineworks:#liferay>   Value: <c:out value="${entry.value}"/>
 13:26 < jardineworks:#liferay> </c:forEach>
+13:27 < jardineworks:#liferay> so you would do ${ entry.value } but that gets you the user object. If you want the email say you would need to do $[entry.value.emailAddress} (since looking at the UserImpl class... there is a getEmailAddress() which is what JSTL would actually use)
