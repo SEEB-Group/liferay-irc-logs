@@ -13,3 +13,4 @@
 10:24 < jardineworks:#liferay> you can get the current users user id by using the PortalUtil.getUserId( renderRequest ); (assuming that you are doing this in the render method)
 10:24 < jardineworks:#liferay> oh no wait
 10:24 < jardineworks:#liferay> that will give you the list of organizations that user is in...
+10:25 < jardineworks:#liferay> Yam`, UserLocalServiceUtil.getOrganizationUsers( organizationId );
