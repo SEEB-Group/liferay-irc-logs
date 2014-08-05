@@ -39,3 +39,4 @@
 10:47 < Yam`:#liferay> jardineworks, my CustomMVCPortlet class extends MVCPortlet
 10:47 < Yam`:#liferay> that's what the guy did in the tutorial, should I do otherwise?
 10:48 < jardineworks:#liferay> Yam`, you can use doView, but personally, I always override the render( RenderRequest, RenderRenderResponse ) method.
+10:48 < Yam`:#liferay> s/otherwise/differently/
