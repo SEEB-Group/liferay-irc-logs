@@ -48,3 +48,4 @@
 10:57 < Yam`:#liferay> jardineworks, thanks :)
 11:15 < jardineworks:#liferay> Yam`, no error checking or anything... and there may be more efficient ways to do this (imagine 1000's of users, the private method would not be very efficient) but to give you and idea -- http://pastie.org/9447672
 11:22 < Yam`:#liferay> jardineworks, thanks a lot, I'll see that !
+11:24 < Yam`:#liferay> jardineworks, what is the log for?
