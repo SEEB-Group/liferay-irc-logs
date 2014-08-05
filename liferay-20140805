@@ -14,3 +14,4 @@
 10:24 < jardineworks:#liferay> oh no wait
 10:24 < jardineworks:#liferay> that will give you the list of organizations that user is in...
 10:25 < jardineworks:#liferay> Yam`, UserLocalServiceUtil.getOrganizationUsers( organizationId );
+10:25 < Yam`:#liferay> where do you see the methods?
