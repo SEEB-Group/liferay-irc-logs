@@ -33,3 +33,4 @@
 10:33 < Yam`:#liferay> okay
 10:35 < jardineworks:#liferay> Yam`, I guess the bottom line is... the best way to understand Liferay, at least I think, is to read the source.
 10:41 < Yam`:#liferay> jardineworks, I've got that for the moment: http://pastebin.com/s20qVTy4 which I founded in a blog tutorial
+10:42 < Yam`:#liferay> it generates a form with an input and a button and after clicking it, it displays the text that the user types in the input
