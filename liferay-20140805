@@ -54,3 +54,4 @@
 11:30 < Yam`:#liferay> jardineworks, is is com.liferay.portal.kernel.log or another?
 11:30 < jardineworks:#liferay> that's it
 11:31 < Yam`:#liferay> ok :)
+11:33 < Yam`:#liferay> jardineworks, eclipse says that I must surrond 		List<Organization> userOrganizations = OrganizationLocalServiceUtil.getUserOrganizations( userId ); with try/catch, does it say it for you too?
