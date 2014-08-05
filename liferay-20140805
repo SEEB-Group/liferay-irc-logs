@@ -75,3 +75,4 @@
 12:20 < jardineworks:#liferay> so, if you only care about a specific org...
 12:20 < jardineworks:#liferay> you could use a scriplet to get the List<User> object and then just iterate over that.
 12:28 < Yam`:#liferay> I've done that but it doesn't diplay anything :/
+12:44 < Yam`:#liferay> jardineworks, I've got that: http://pastebin.com/907HRujC did I miss something?
