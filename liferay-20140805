@@ -58,3 +58,4 @@
 11:33 < jardineworks:#liferay> I wrote it in notepad... but yes, you should wrap that
 11:34 < jardineworks:#liferay> the service could throw an exception so you gotta catch it and handle it
 11:36 < Yam`:#liferay> and (sorry if it may be obvious) how should I handle it?
+11:36 < jardineworks:#liferay> well, its in a loop right?
