@@ -61,3 +61,4 @@
 11:36 < jardineworks:#liferay> well, its in a loop right?
 11:37 < jardineworks:#liferay> so I would log that an error occured, make sure you log the organization id and the root cause, and then move on to the next item in the loop
 11:44 < Yam`:#liferay> ok :)
+11:59 < Yam`:#liferay> jardineworks, and then what do I do in the view.jsp to display it? I tried <c:forEach var="entry" items="${requestScope['myCollection']}" >
