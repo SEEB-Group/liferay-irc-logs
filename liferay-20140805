@@ -110,3 +110,4 @@
 13:41 < jardineworks:#liferay> <jardineworks>   Value: <c:out value="${entry.value}"/>
 13:41 < jardineworks:#liferay> <jardineworks> </c:forEach>
 13:41 < Yam``:#liferay> I copy the same thing jardineworks ?
+13:42 < jardineworks:#liferay> except the myMap...
