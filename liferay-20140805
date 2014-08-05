@@ -45,3 +45,4 @@
 10:51 < jardineworks:#liferay> well, if you look at the MVCPortlet class you can see that it calls the doView which does some of the basic required (boiler plate) code for implementing a doView. You don;t need to do that stuff because MVCPortlet is doing it for you right? so I just override the render method because its cleaner code (in my opinion) all I need to do is assemble what I need for the view. Sp in your case... I would have something like -- (one
 10:51 < jardineworks:#liferay> sec).
 10:57 < jardineworks:#liferay> Yam`, just writing and example.. gimme a minute
+10:57 < Yam`:#liferay> jardineworks, thanks :)
