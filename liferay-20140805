@@ -60,3 +60,4 @@
 11:36 < Yam`:#liferay> and (sorry if it may be obvious) how should I handle it?
 11:36 < jardineworks:#liferay> well, its in a loop right?
 11:37 < jardineworks:#liferay> so I would log that an error occured, make sure you log the organization id and the root cause, and then move on to the next item in the loop
+11:44 < Yam`:#liferay> ok :)
