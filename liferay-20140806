@@ -77,3 +77,4 @@
 14:09 < bijoo:#liferay> jardineworks: proxy can't process the html?
 14:10 < bijoo:#liferay> I mean when portal sends HTML; it embeds absolute URLs there.
 14:10 < jardineworks:#liferay> bijoo, I think it can, I dunno... not my domain. But my client is saying that he doesn't want to do anything at the proxy.
+14:18 < bijoo:#liferay> jardineworks: client say why they need relative URL?
