@@ -40,3 +40,4 @@
 11:55 < Yam`:#liferay> I may have forgotten to create a new service builder (I created only the service.xml file)
 11:55 < Yam`:#liferay> bijoo, what do I have to set in "namespace" field while creating a new service builder?
 11:56 < bijoo:#liferay> Yam`: <!--
+11:56 < bijoo:#liferay> The namespace element must be a unique namespace for this component. Table names
