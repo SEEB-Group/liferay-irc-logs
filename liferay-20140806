@@ -63,3 +63,4 @@
 13:59 < jardineworks:#liferay> Thoughts?
 14:00 < bijoo:#liferay> jardineworks: well relative should still work in that case? Since browser will keep user same domain.
 14:01 < jardineworks:#liferay> bijoo, right... good point. I think I need a coffee. So in that case, why does liferay use absolute paths I wonder
+14:03 < bijoo:#liferay> jardineworks: let me think about that, it's good question.
