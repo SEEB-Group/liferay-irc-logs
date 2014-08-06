@@ -61,3 +61,4 @@
 13:58 < jardineworks:#liferay> bijoo, lemme run something by you.
 13:59 < jardineworks:#liferay> bijoo, someone is asking me to make all the urls relative. I'm thinking that this would not work for a few reasons, the most important of which -- removing the domain means that any subsequent request would be sent to the default company. So in a multiple company (instance) environment, you would break this feature.
 13:59 < jardineworks:#liferay> Thoughts?
+14:00 < bijoo:#liferay> jardineworks: well relative should still work in that case? Since browser will keep user same domain.
