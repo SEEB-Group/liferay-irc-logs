@@ -75,3 +75,4 @@
 14:09 < jardineworks:#liferay> bijoo, I guess... but again, it makes more sense to do that at the proxy if you ask me
 14:09 < jardineworks:#liferay> isn't that one of the reasons rewrite rules were created? :)
 14:09 < bijoo:#liferay> jardineworks: proxy can't process the html?
+14:10 < bijoo:#liferay> I mean when portal sends HTML; it embeds absolute URLs there.
