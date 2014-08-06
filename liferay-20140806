@@ -43,3 +43,4 @@
 11:56 < bijoo:#liferay> The namespace element must be a unique namespace for this component. Table names
 11:56 < bijoo:#liferay> will be prepended with this namespace. Generated JSON JavaScript will be scoped
 11:56 < bijoo:#liferay> to this namespace as well (i.e., Liferay.Service.Test.* if the namespace is
+11:56 < bijoo:#liferay> Test).
