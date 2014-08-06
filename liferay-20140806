@@ -65,3 +65,4 @@
 14:01 < jardineworks:#liferay> bijoo, right... good point. I think I need a coffee. So in that case, why does liferay use absolute paths I wonder
 14:03 < bijoo:#liferay> jardineworks: let me think about that, it's good question.
 14:03 < bijoo:#liferay> jardineworks: I'd say since it is less ambiguous ; but I'm not sure if that's the technical; there may be very good reason it is.
+14:06 < jardineworks:#liferay> bijoo, there are a few open tickets about it where people are complaining -- and Jorge says its better, but doesn't really elaborate
