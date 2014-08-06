@@ -33,3 +33,4 @@
 11:42 < bijoo:#liferay> jardineworks: RenderURLTag extends that class
 11:42 < jardineworks:#liferay> bijoo, I can see in the PortalImpl there is a getPortalURL that looks like it does the full assemly...
 11:42 < bijoo:#liferay> jardineworks: besides taglib, there are util classes: com.liferay.portlet.PortletURLUtil
+11:43 < bijoo:#liferay> ActionURLTag shows most of it; let me know if that doesn't satisfy
