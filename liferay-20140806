@@ -30,3 +30,4 @@
 11:40 < jardineworks:#liferay> bijoo, possibly... I take it that means that there is not a "single" point where this work is done?
 11:40 < jardineworks:#liferay> I was looking for some kid of JSP post-processor or soemthing
 11:42 < bijoo:#liferay> jardineworks: com.liferay.taglib.portlet.ActionURLTag
+11:42 < bijoo:#liferay> jardineworks: RenderURLTag extends that class
