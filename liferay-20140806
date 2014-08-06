@@ -25,3 +25,4 @@
 10:28 < jardineworks:#liferay> :)
 11:04 < Yam`:#liferay> jardineworks, ok :)
 11:13 < bijoo:#liferay> soloslinger: respectfully completely disagree :)
+11:37 < jardineworks:#liferay> bijoo,  do you know which class is responsible for populating the urls? Not sure how to ask this lol... you know how every link has an absolute path -- I am trying to figure out which class(es) in the Portal Core actually do it.
