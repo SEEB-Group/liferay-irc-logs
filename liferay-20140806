@@ -71,3 +71,4 @@
 14:07 < jardineworks:#liferay> "There are sometimes in which a full URL is needed. For example when switching the protocol (like from http to https)"
 14:07 < jardineworks:#liferay> but you could manage that at the proxy easily enough
 14:07 < jardineworks:#liferay> or just make it inherit whatever protocol the user sends
+14:08 < bijoo:#liferay> jardineworks: so liferay has some properties for that; to force to just use https; maybe because of that needs absolute
