@@ -73,3 +73,4 @@
 14:07 < jardineworks:#liferay> or just make it inherit whatever protocol the user sends
 14:08 < bijoo:#liferay> jardineworks: so liferay has some properties for that; to force to just use https; maybe because of that needs absolute
 14:09 < jardineworks:#liferay> bijoo, I guess... but again, it makes more sense to do that at the proxy if you ask me
+14:09 < jardineworks:#liferay> isn't that one of the reasons rewrite rules were created? :)
