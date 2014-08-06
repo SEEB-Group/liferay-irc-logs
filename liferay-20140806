@@ -69,3 +69,4 @@
 14:07 < jardineworks:#liferay> https://issues.liferay.com/browse/LPS-32097
 14:07 < bijoo:#liferay> jardineworks: I guess, what's the reason not to have it?
 14:07 < jardineworks:#liferay> "There are sometimes in which a full URL is needed. For example when switching the protocol (like from http to https)"
+14:07 < jardineworks:#liferay> but you could manage that at the proxy easily enough
