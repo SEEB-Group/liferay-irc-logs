@@ -54,3 +54,4 @@
 12:05 < bijoo:#liferay> Yam`: you can download; Liferay is open source.
 12:07 < Yam`:#liferay> that's what I just did :)
 12:08 < Yam`:#liferay> Even with the service builder I still have the problem I said earlier
+12:08 < Yam`:#liferay>  I want to read data from another database than lportal following this tutorial http://srikanthliferay.blogspot.fr/2014/03/connecting-to-different-database-using.html but when I do build service, it creates the "sql" folder but nothing in there, can somebody help me? > I don't have the files created in the sql folder at the end of step 1
