@@ -31,3 +31,4 @@
 11:40 < jardineworks:#liferay> I was looking for some kid of JSP post-processor or soemthing
 11:42 < bijoo:#liferay> jardineworks: com.liferay.taglib.portlet.ActionURLTag
 11:42 < bijoo:#liferay> jardineworks: RenderURLTag extends that class
+11:42 < jardineworks:#liferay> bijoo, I can see in the PortalImpl there is a getPortalURL that looks like it does the full assemly...
