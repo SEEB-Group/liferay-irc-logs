@@ -37,3 +37,4 @@
 11:47 < jardineworks:#liferay> bijoo, Ah.. LiferayURLGenerator*
 11:51 < Yam`:#liferay> I want to read data from another database than lportal following this tutorial http://srikanthliferay.blogspot.fr/2014/03/connecting-to-different-database-using.html but when I do build service, it creates the "sql" folder but nothing in there, can somebody help me?
 11:54 < bijoo:#liferay> Yam`: in middle of something at the moment; feel free to post configs (pastebin) here; and will check when get a breather here.
+11:55 < Yam`:#liferay> I may have forgotten to create a new service builder (I created only the service.xml file)
