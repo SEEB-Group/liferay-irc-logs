@@ -32,3 +32,4 @@
 10:38 < jardineworks:#liferay> bijoo, I did that... groupid, artifactid and compile as the scope
 10:38 < jardineworks:#liferay> bijoo, and it makes the pom happy
 10:39 < jardineworks:#liferay> bijoo, but when I do a liferay:deploy ...I get an error.
+10:53 < bijoo:#liferay> jardineworks: please pastebin the related files here
