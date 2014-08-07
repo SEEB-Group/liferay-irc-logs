@@ -76,3 +76,4 @@
 15:13 < jardineworks:#liferay> so!
 15:14 < jardineworks:#liferay> the VirtualHost table in LR... it has an index constraint based on the finder method for both company and layoutsetid parameters
 15:14 < jardineworks:#liferay> if you remove that constraint, then you can add multiple hostnames for the same company/layoutset pair.
+15:15 < jardineworks:#liferay> so that would allow the -- create a new portal instance, specify multiple domains.
