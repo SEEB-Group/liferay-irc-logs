@@ -89,3 +89,4 @@
 15:18 <@jhf:#liferay> then you could do the hook thingy
 15:18 <@jhf:#liferay> wow there are a few suggestions in this area
 15:18 < jardineworks:#liferay>  so but.. the virtual hosts... are those at the site level? or the company level?
+15:18 <@jhf:#liferay> https://issues.liferay.com/issues/?jql=text%20~%20%22multiple%20virtual%20hosts%22
