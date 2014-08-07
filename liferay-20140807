@@ -22,3 +22,4 @@
 09:47 < goku_:#liferay> when retriving the content from DB
 09:49 < goku_:#liferay> @jardinwworks :  but when i use projection list for that ..am getting class cast exception for the same Object  eg : for(SomeObject rb : ListOfSomeObject)
 09:49 < goku_:#liferay> at this line am getting the class cast exception
+09:50 < jardineworks:#liferay> goku_, I guess I am not familiar with the technical name for that. Normally when I want to order a list though I use a Comparator.
