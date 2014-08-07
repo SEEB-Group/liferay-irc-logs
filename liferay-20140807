@@ -74,3 +74,4 @@
 15:13 < jardineworks:#liferay> bingo
 15:13 < jardineworks:#liferay> lol
 15:13 < jardineworks:#liferay> so!
+15:14 < jardineworks:#liferay> the VirtualHost table in LR... it has an index constraint based on the finder method for both company and layoutsetid parameters
