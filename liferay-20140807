@@ -106,3 +106,4 @@
 15:22 < jardineworks:#liferay> or does it route request based on a virtual host set on the site (group) record?
 15:26 <@jhf:#liferay> I think it’s based on company, looking at https://github.com/liferay/liferay-portal/blob/66e0335c324751989b97f32acd51158c02ce6748/portal-impl/src/com/liferay/portal/servlet/filters/virtualhost/VirtualHostFilter.java (around line 267)
 15:30 < jardineworks:#liferay> jhf, hmm... so I think the domain is used to get to the correct companyId records, and then the friendly url is used to map it to a site within the portal instance. Does that sound right?
+15:33 <@jhf:#liferay> yup, that’s what I read.. that call to getPlidFromFriendlyURL seems to do that at https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/com/liferay/portal/util/PortalImpl.java#L3655
