@@ -30,3 +30,4 @@
 10:31 < jardineworks:#liferay> bijoo, have you ever done a maven service builder project dependency for a hook
 10:32 < bijoo:#liferay> jardineworks: so add mvn dependency for hook? to depend on service build mvn proj?
 10:38 < jardineworks:#liferay> bijoo, I did that... groupid, artifactid and compile as the scope
+10:38 < jardineworks:#liferay> bijoo, and it makes the pom happy
