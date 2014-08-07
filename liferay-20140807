@@ -93,3 +93,4 @@
 15:18 <@jhf:#liferay> hmmm
 15:18 < jardineworks:#liferay> because I see the VirtaulHostLocalServiceUtil invoked by CompanyImpl and LayoutSetImpl
 15:19 <@jhf:#liferay> LPS-44217 requests it on a per-site level
+15:19 <@jhf:#liferay> o here’s another one: https://issues.liferay.com/browse/LPS-47906 :-)
