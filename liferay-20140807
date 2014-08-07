@@ -47,3 +47,4 @@
 15:07 < jardineworks:#liferay> BUT
 15:07 < jardineworks:#liferay> I am talking about www.french-mysite.com and www.english-mysite.com mapping to the same company/site.
 15:07 <@jhf:#liferay> https://issues.liferay.com/browse/LPS-24594 says it’s fixed in 6.2… is that not the same thing as what you need?
+15:07 <@jhf:#liferay> oh that’s probably talking about internationalized characters in domain names
