@@ -102,3 +102,4 @@
 15:20 <@jhf:#liferay> yeah so I don’t think it’s possible with current Liferay
 15:20 < jardineworks:#liferay> so that is what I am looking at
 15:20 < jardineworks:#liferay> here's where I am confused.
+15:21 < jardineworks:#liferay> I send in www.jhf.com ... Liferay tries to find a virtual host record with the hostname www.jhf.com .. and if it does, then it uses that company ID from that record to route the request right?
