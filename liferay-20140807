@@ -11,3 +11,4 @@
 07:16 < goku_:#liferay> hi how to add custom attributes for <ui:panel>
 07:25 < goku_:#liferay> how to hide <ui:panel> initialy
 08:26 < meera:#liferay> hi
+09:07 < dave_k:#liferay> hmmm... any best practice hints to add user search criteria/field display for additional user data added via a "user extension" table from a plugin? So far: I need a hook that extends some JSPs in html/portlet/users_admin and /html/portlet/directory ... But what's the best way to access that data source from the other plugin?
