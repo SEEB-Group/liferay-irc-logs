@@ -96,3 +96,4 @@
 15:19 <@jhf:#liferay> o here’s another one: https://issues.liferay.com/browse/LPS-47906 :-)
 15:19 < jardineworks:#liferay> but when a request comes into the server... doesn't it ge redirected to an instance based on the domain?
 15:19 < jardineworks:#liferay> so wouldn't you need multiple hosts for a portal instance?
+15:20 < jardineworks:#liferay> now that last one... that guy knows what he is talking about ;)
