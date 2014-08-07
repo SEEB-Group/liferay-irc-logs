@@ -69,3 +69,4 @@
 15:12 < jardineworks:#liferay> you want the french equivalent to be www.maison.com
 15:12 < jardineworks:#liferay> but internally, both point to the same company/group
 15:12 <@jhf:#liferay> but the URL can’t change right?
+15:12 <@jhf:#liferay> lke, the address bar in the browser should remain www.maison.com no matter where you go
