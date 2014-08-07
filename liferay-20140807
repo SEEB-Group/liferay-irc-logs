@@ -21,3 +21,4 @@
 09:47 < goku_:#liferay> @jardinwworks :  i want to arrange the  columns in a particular order..so projection is the solution right ?
 09:47 < goku_:#liferay> when retriving the content from DB
 09:49 < goku_:#liferay> @jardinwworks :  but when i use projection list for that ..am getting class cast exception for the same Object  eg : for(SomeObject rb : ListOfSomeObject)
+09:49 < goku_:#liferay> at this line am getting the class cast exception
