@@ -109,3 +109,4 @@
 15:33 <@jhf:#liferay> yup, that’s what I read.. that call to getPlidFromFriendlyURL seems to do that at https://github.com/liferay/liferay-portal/blob/6.2.x/portal-impl/src/com/liferay/portal/util/PortalImpl.java#L3655
 15:48 < jardineworks:#liferay> jhf, still there!?
 15:48 < jardineworks:#liferay> :)
+15:48 <@jhf:#liferay> yeah
