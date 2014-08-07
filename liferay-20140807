@@ -126,3 +126,4 @@
 15:57 < dawn:#liferay> i manually created a property in build file of plugin (<property name="plugin.version" value="1" />)...after this it builds but couldn't deploy
 16:01 < jardineworks:#liferay> dawn, holy crap! I never knew you could do that! :)
 16:02 < dawn:#liferay> jhf,  strange things do happen :)
+16:15 < bijoo:#liferay> dawn: pastebin the error logs for better help
