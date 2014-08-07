@@ -14,3 +14,4 @@
 09:07 < dave_k:#liferay> hmmm... any best practice hints to add user search criteria/field display for additional user data added via a "user extension" table from a plugin? So far: I need a hook that extends some JSPs in html/portlet/users_admin and /html/portlet/directory ... But what's the best way to access that data source from the other plugin?
 09:40 < jardineworks:#liferay> need a maven guy -- bijoo  you around for a quick question?
 09:44 < goku_:#liferay> hi any documentation on liferay projection ?
+09:45 < jardineworks:#liferay> goku_, Liferay projection?
