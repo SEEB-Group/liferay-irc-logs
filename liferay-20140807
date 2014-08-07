@@ -62,3 +62,4 @@
 15:10 < jardineworks:#liferay> so basically I need to map TWO virtual host records to the same company id.
 15:10 < jardineworks:#liferay> and then I guess with a hook, dynamically set the locale.
 15:10 < jardineworks:#liferay> now, the question is...
+15:10 <@jhf:#liferay> is it this: https://issues.liferay.com/browse/LPS-25449
