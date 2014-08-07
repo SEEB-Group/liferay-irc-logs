@@ -129,3 +129,4 @@
 16:15 < bijoo:#liferay> dawn: pastebin the error logs for better help
 16:19 < dawn:#liferay> bijoo, sure. will do
 16:26 < dawn:#liferay> jhf, bijoo, here is the pastebin http://pastebin.com/FGVnZzud
+16:27 < dawn:#liferay> the build was successful, but the war file has ${plugin.version} string and in tomcat (log is at the bottom) the plugin is not deployed
