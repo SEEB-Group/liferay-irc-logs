@@ -61,3 +61,4 @@
 15:10 < jardineworks:#liferay> but if you live in Canada you would know that the french folks here don't like english domain names :)
 15:10 < jardineworks:#liferay> so basically I need to map TWO virtual host records to the same company id.
 15:10 < jardineworks:#liferay> and then I guess with a hook, dynamically set the locale.
+15:10 < jardineworks:#liferay> now, the question is...
