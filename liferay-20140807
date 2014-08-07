@@ -122,3 +122,4 @@
 15:51 < jardineworks:#liferay> jesus... this virtual host change is a big one.
 15:51 < jardineworks:#liferay> :S
 15:54 < dawn:#liferay> hi @jhf, have a question about extending plugin https://www.liferay.com/community/wiki/-/wiki/Main/Plugin+to+extend+a+plugin
+15:55 < dawn:#liferay> i was able to extend the plugin and make change to jsp files, however the issue is with build. It fails since it couldn't find plugin.version value
