@@ -49,3 +49,4 @@
 15:07 <@jhf:#liferay> https://issues.liferay.com/browse/LPS-24594 says it’s fixed in 6.2… is that not the same thing as what you need?
 15:07 <@jhf:#liferay> oh that’s probably talking about internationalized characters in domain names
 15:08 < jardineworks:#liferay> no... probably more like locale based domain names
+15:08 < jardineworks:#liferay> local specific domain names
