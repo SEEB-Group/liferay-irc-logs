@@ -45,3 +45,4 @@
 15:06 < jardineworks:#liferay> so you can have www.mysite.com/home and www.mysite.com/maison
 15:06 < jardineworks:#liferay> but both will load the same layout.
 15:07 < jardineworks:#liferay> BUT
+15:07 < jardineworks:#liferay> I am talking about www.french-mysite.com and www.english-mysite.com mapping to the same company/site.
