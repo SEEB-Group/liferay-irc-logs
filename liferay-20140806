@@ -84,3 +84,4 @@
 14:26 < jardineworks:#liferay> bijoo, no really good argument from what I can gather. Feels to me like work that should be done at the proxy is not and there is a decision being made to keep it that way, but I don't understand why
 14:39 < jardineworks:#liferay> bijoo, for the record... PortletURLImpl.generateToString() is where all the magic appears to start.
 20:01 < bijoo:#liferay> jardineworks: cool, thanks; appreciate the follow up.
+--- Log closed Thu Aug 07 00:00:47 2014
