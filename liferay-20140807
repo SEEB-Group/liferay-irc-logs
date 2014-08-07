@@ -105,3 +105,4 @@
 15:21 < jardineworks:#liferay> I send in www.jhf.com ... Liferay tries to find a virtual host record with the hostname www.jhf.com .. and if it does, then it uses that company ID from that record to route the request right?
 15:22 < jardineworks:#liferay> or does it route request based on a virtual host set on the site (group) record?
 15:26 <@jhf:#liferay> I think it’s based on company, looking at https://github.com/liferay/liferay-portal/blob/66e0335c324751989b97f32acd51158c02ce6748/portal-impl/src/com/liferay/portal/servlet/filters/virtualhost/VirtualHostFilter.java (around line 267)
+15:30 < jardineworks:#liferay> jhf, hmm... so I think the domain is used to get to the correct companyId records, and then the friendly url is used to map it to a site within the portal instance. Does that sound right?
