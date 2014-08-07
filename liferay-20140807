@@ -55,3 +55,4 @@
 15:08 < jardineworks:#liferay> yeah
 15:09 <@jhf:#liferay> ok. so you could do that externally, no? that is, have some redirection frmo fr-company.com to company.com/fr ?
 15:09 < jardineworks:#liferay> so ... www.fre --> site A but with locale set to french... and www.eng --> site A but with english content.
+15:09 < jardineworks:#liferay> ah se
