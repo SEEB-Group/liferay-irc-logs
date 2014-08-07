@@ -53,3 +53,4 @@
 15:08 < jardineworks:#liferay> now,
 15:08 <@jhf:#liferay> so if I go to fr-company.com should I get the french content as well?
 15:08 < jardineworks:#liferay> yeah
+15:09 <@jhf:#liferay> ok. so you could do that externally, no? that is, have some redirection frmo fr-company.com to company.com/fr ?
