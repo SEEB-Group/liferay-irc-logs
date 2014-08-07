@@ -85,3 +85,4 @@
 15:17 < jardineworks:#liferay> jesus.
 15:17 <@jhf:#liferay> wpw here’s a really old one: https://issues.liferay.com/browse/LEP-3228
 15:17 <@jhf:#liferay> oh another one https://issues.liferay.com/browse/LPS-44217
+15:18 <@jhf:#liferay> I think that would solve part of it - if you could have multiple virtual hosts
