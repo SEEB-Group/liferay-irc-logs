@@ -5,3 +5,4 @@
 03:08 < haba713:#liferay> hi! i'm trying to imlement a portlet using ajax to fill dropdowns etc. but when i add row
 03:08 < haba713:#liferay> YUI().use('aui-io-request', 'node', function(Y) { });
 03:08 < haba713:#liferay> to jsp, javascript initialization fails with some exception from everything.js
+03:08 < haba713:#liferay> should liferay support this kind of implementation: http://alloyui.com/examples/io/real-world/
