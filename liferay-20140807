@@ -132,3 +132,4 @@
 16:27 < dawn:#liferay> the build was successful, but the war file has ${plugin.version} string and in tomcat (log is at the bottom) the plugin is not deployed
 16:37 < bijoo:#liferay> dawn: I'll check the same; but may be in 1hr.
 16:38 < dawn:#liferay> bijoo, sure thanks!!
+--- Log closed Fri Aug 08 00:00:49 2014
