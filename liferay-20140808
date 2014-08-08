@@ -43,3 +43,4 @@
 16:07 < bijoo_:#liferay> dawn:       [zip] Building zip: /opt/lr/62ga2/lr2014appcontest/liferay-plugins-sdk-6.2/dist/my-social-networking-portlet-6.2.0.1.war
 16:07 < bijoo_:#liferay> dawn: maybe something matter with SDK
 16:07 < dawn:#liferay> bijoo_: weird..it couldn't find module-incremental-version field defined in plugin-package file..
+16:07 < bijoo_:#liferay> dawn: is it a clean download of SDK?
