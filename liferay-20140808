@@ -40,3 +40,4 @@
 16:06 < bijoo_:#liferay> dawn: it worked well; I don't see issue with war.
 16:06 < dawn:#liferay> bijoo_: that is my dilemma..
 16:06 < dawn:#liferay> in my environment it builds with name my-social-networking-portlet-6.2.10.${plugin.version}.war
+16:07 < bijoo_:#liferay> dawn:       [zip] Building zip: /opt/lr/62ga2/lr2014appcontest/liferay-plugins-sdk-6.2/dist/my-social-networking-portlet-6.2.0.1.war
