@@ -18,3 +18,4 @@
 10:29 < npskirk:#liferay> does this mean the YUI client and AlloyUI is gone from all the existing portlets?
 11:49 < jardineworks:#liferay> hey bijoo have you built any portlet struts action hooks using 6.2 + Maven?
 11:52 < jardineworks:#liferay> anyone else in here also?
+11:53 < jardineworks:#liferay> for some reason, I can't seem to get my struts portlet action to override.
