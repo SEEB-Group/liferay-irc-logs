@@ -54,3 +54,4 @@
 16:26 < bijoo_:#liferay> dawn: since you have support, can open ticket; create and LPE if you want to?
 16:26 < bijoo_:#liferay> create an* LPE if you want to
 16:27 < dawn:#liferay> bijoo_: sure
+16:40 < dawn:#liferay> bijoo_: I even tried with SP6 EE SDK, samething happens. Looks like an issue with EE sdk..
