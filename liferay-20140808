@@ -31,3 +31,4 @@
 15:49 < bijoo_:#liferay> dawn: https://t.seebgroup.com/social-network-portlet.zip
 15:52 < bijoo_:#liferay> dawn: fyi, file altered was jsp: docroot/wall/view.jsp
 15:53 < dawn:#liferay> bijoo_: i thought we should have only modified files under docroot/
+15:54 < bijoo_:#liferay> dawn: right, I unzipped the whole war in docroot; but shouldn't need to unzip the whole thing.
