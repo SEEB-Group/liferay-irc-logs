@@ -35,3 +35,4 @@
 15:55 < bijoo_:#liferay> dawn: "ant merge" copies docroot to tmp folder.
 15:55 < bijoo_:#liferay> npskirk: no, alloyui is more than just styles; bootstrap provides for the standard styling.
 16:02 < dawn:#liferay> bijoo_: check this once...http://expirebox.com/download/dac0d3e941fb01652f7974e691665c24.html
+16:03 < dawn:#liferay> bijoo_: do I need to carry over original liferay-plugin-package.properties and other metadata files as well from social portlet?
