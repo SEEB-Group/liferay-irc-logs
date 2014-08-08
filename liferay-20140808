@@ -38,3 +38,4 @@
 16:03 < dawn:#liferay> bijoo_: do I need to carry over original liferay-plugin-package.properties and other metadata files as well from social portlet?
 16:04 < bijoo_:#liferay> dawn: only if you want to modify them
 16:06 < bijoo_:#liferay> dawn: it worked well; I don't see issue with war.
+16:06 < dawn:#liferay> bijoo_: that is my dilemma..
