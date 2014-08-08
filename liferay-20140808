@@ -16,3 +16,4 @@
 10:27 < npskirk:#liferay> hey, question about 6.2 CE….
 10:28 < npskirk:#liferay> My understanding is you shifted over to using Twitter bootstrap for the front end, themes, etc
 10:29 < npskirk:#liferay> does this mean the YUI client and AlloyUI is gone from all the existing portlets?
+11:49 < jardineworks:#liferay> hey bijoo have you built any portlet struts action hooks using 6.2 + Maven?
