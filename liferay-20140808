@@ -39,3 +39,4 @@
 16:04 < bijoo_:#liferay> dawn: only if you want to modify them
 16:06 < bijoo_:#liferay> dawn: it worked well; I don't see issue with war.
 16:06 < dawn:#liferay> bijoo_: that is my dilemma..
+16:06 < dawn:#liferay> in my environment it builds with name my-social-networking-portlet-6.2.10.${plugin.version}.war
