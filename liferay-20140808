@@ -22,3 +22,4 @@
 11:53 < jardineworks:#liferay> topolik, any chance you can make my friday? lol
 12:38 < jardineworks:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/41191499 in case anyone can help
 12:49 < jardineworks:#liferay> nevermind... I had the wrong struts mapping.
+15:32 < bijoo_:#liferay> jardineworks: :) glad you got struts action to work; shouldn't matter to do with the maven; so long as the WAR file's package proper.
