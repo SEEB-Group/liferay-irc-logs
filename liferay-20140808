@@ -33,3 +33,4 @@
 15:53 < dawn:#liferay> bijoo_: i thought we should have only modified files under docroot/
 15:54 < bijoo_:#liferay> dawn: right, I unzipped the whole war in docroot; but shouldn't need to unzip the whole thing.
 15:55 < bijoo_:#liferay> dawn: "ant merge" copies docroot to tmp folder.
+15:55 < bijoo_:#liferay> npskirk: no, alloyui is more than just styles; bootstrap provides for the standard styling.
