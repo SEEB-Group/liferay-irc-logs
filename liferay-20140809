@@ -3,3 +3,4 @@
 01:34 < jrmiah:#liferay> I was goign to setup a cool demo of liferay for my managers, might result in needing a lot of PS and licenses
 01:35 < jrmiah:#liferay> wanted to show remote portlets, eg, the ability to deploy small portlets in a container that can be accessed and rendered in liferay - do you guys have a howto on that?
 01:36 < jrmiah:#liferay> is an iframe portlet the best way? hope not...
+03:00 < bijoo_:#liferay> jrmiah: Liferay supports Social Gadgets and such
