@@ -58,3 +58,4 @@
 03:36 < bijoo_:#liferay> jrmiah: added portlet to Liferay Marketplace; should be out after the QA process (currently pending the MP review)
 03:36 < jrmiah:#liferay> http://docs.oracle.com/cd/E13174_01/alui/devdoc/docs5x/Integration/Portlets/Adaptive_Portlets/PlumtreeDevDoc_Integration_Portlets_Adaptive_TransformerTags.htm
 03:36 < jrmiah:#liferay> way ahead of its time
+03:36 < jrmiah:#liferay> server side tag rendering
