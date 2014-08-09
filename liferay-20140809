@@ -20,3 +20,4 @@
 03:03 < jrmiah:#liferay> I used to work at plumtree, is it my fault they dont have a real remote technology in liferay? heh
 03:04 < jrmiah:#liferay> in plumtree portal you can write a _reall_ simple remoted portlet in a simple 'hello world' JSP and its put in a portlet pane
 03:04 < bijoo_:#liferay> jrmiah: wow, plumtree / aqualogic / xyz / webcenter?
+03:04 < jrmiah:#liferay> does that exist in liferay? basically it fetches the remote content and displays it
