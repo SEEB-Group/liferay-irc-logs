@@ -53,3 +53,4 @@
 03:31 < jrmiah:#liferay> unnecessary
 03:34 < bijoo_:#liferay> jrmiah: writing a scraper may be quite easy; depends on what target app behaves like. Have you looked at HtmlUnit?
 03:34 < jrmiah:#liferay> yeahp have written a youtube video downloader with it ;)
+03:34 < jrmiah:#liferay> that turns a playlist into a podcast. congratulate me later. hah
