@@ -69,3 +69,4 @@
 03:56 < jrmiah:#liferay> you have to manage a WAR file inside the liferay runtime?
 03:56 < jrmiah:#liferay> doesnt seem at all enterprise worthy right there
 03:57 < jrmiah:#liferay> remote portlets were born out of distributed services and groups wanting a consolidated portal ... they can manage their own apps while leveraging portal benefits like SSO etc
+03:57 < jrmiah:#liferay> without that one key benefit i dont think a portal is a portal, its just a glorified CMS
