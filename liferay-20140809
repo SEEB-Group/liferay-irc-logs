@@ -32,3 +32,4 @@
 03:06 < jrmiah:#liferay> as a release / build / tools manager thats not acceptable
 03:06 < jrmiah:#liferay> heh
 03:06 < bijoo_:#liferay> jrmiah: actually don't need to build from source
+03:07 < bijoo_:#liferay> jrmiah: has robust plugins so no need for that
