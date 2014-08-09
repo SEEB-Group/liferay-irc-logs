@@ -52,3 +52,4 @@
 03:31 < jrmiah:#liferay> wsrp could work .. with a lot of work
 03:31 < jrmiah:#liferay> unnecessary
 03:34 < bijoo_:#liferay> jrmiah: writing a scraper may be quite easy; depends on what target app behaves like. Have you looked at HtmlUnit?
+03:34 < jrmiah:#liferay> yeahp have written a youtube video downloader with it ;)
