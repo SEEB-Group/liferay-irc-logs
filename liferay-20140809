@@ -60,3 +60,4 @@
 03:36 < jrmiah:#liferay> way ahead of its time
 03:36 < jrmiah:#liferay> server side tag rendering
 03:37 < jrmiah:#liferay> so the remote portlet renders pt tags
+03:37 < jrmiah:#liferay> and then the portal deals with it
