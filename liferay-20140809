@@ -31,3 +31,4 @@
 03:06 < jrmiah:#liferay> bijoo: ok let me clarify - take a clean linux system and pull down the source and build it
 03:06 < jrmiah:#liferay> as a release / build / tools manager thats not acceptable
 03:06 < jrmiah:#liferay> heh
+03:06 < bijoo_:#liferay> jrmiah: actually don't need to build from source
