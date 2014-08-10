@@ -76,3 +76,4 @@
 05:05 < winem_:#liferay> morning, anyone ever tried to create a website with one-page-design in liferay?
 05:09 < winem_:#liferay> we stuck at the same point as this guy does http://www.liferay.com/widget/community/forums/-/message_boards/message/33518725
 21:50 < bunbury:#liferay> evening all
+21:50 < bunbury:#liferay> when using maven to create a portlet. is the plugins sdk still required ?
