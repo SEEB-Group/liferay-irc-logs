@@ -16,3 +16,4 @@
 09:40 < jardineworks:#liferay> topolik, if I add 3 articles... all set to expire at 10:02am lets say. In a non-clustered environment, all three fire, but the first seems to fire 3x, the 2nd 2x, the 3rd 1x.
 09:40 < jardineworks:#liferay> I don't really understand why to be honest.
 09:41 < topolik:#liferay> hmm, how do you select which articles to expire?
+09:41 < jardineworks:#liferay> but that I can fix with specific destination names per job (destination name + job name for example). The bigger issue is that some of the jobs don't appear to fire when they are supposed to. I think they are trigger misfires.
