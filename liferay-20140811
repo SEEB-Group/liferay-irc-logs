@@ -22,3 +22,4 @@
 09:42 < jardineworks:#liferay> I wrote a JSP hook that adds a checkbox with two text fields, name and description. If the user checks the box then in the CustomEditArticleAction I execute the logic to create a specific job for that piece of content.
 09:42 < jardineworks:#liferay> haha
 09:43 < jardineworks:#liferay> there are several things that I can't figure out. For starters, what is the polling class that checks to the triggers to see if they should be fired?
+09:45 < jardineworks:#liferay> I see a few classes with Poller in the name, and a spring config with the same... but not sure if they are the ones.
