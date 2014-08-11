@@ -18,3 +18,4 @@
 09:41 < topolik:#liferay> hmm, how do you select which articles to expire?
 09:41 < jardineworks:#liferay> but that I can fix with specific destination names per job (destination name + job name for example). The bigger issue is that some of the jobs don't appear to fire when they are supposed to. I think they are trigger misfires.
 09:41 < jardineworks:#liferay> topolik, you know the "schedule" page for a piece of content?
+09:42 < topolik:#liferay> well, we met, but no serious relationship ;)
