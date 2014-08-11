@@ -53,3 +53,4 @@
 10:14 < jardineworks:#liferay> lol
 10:14 < jardineworks:#liferay> OpenSearch is the standard... I was just going to show how you can use it to search both your custom entities and external ones using the "Search" (federated search) portlet.
 10:15 < jardineworks:#liferay> which meant Lucene for me... because I don't have the SOLR stuff done.
+10:15 <@jhf:#liferay> yeah, that’s cool.. for some reason I thought you wanted to do Lucene/Solr but you were interested in ADT
