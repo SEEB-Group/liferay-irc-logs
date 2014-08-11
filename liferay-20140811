@@ -10,3 +10,4 @@
 09:35 < jardineworks:#liferay> I have something that is driving me bananas. I actually had a temper tantrum yesterday :)
 09:35 < jardineworks:#liferay> topolik, background:
 09:36 < jardineworks:#liferay> topolik, Some crazy requirement to have PRECISION expiration on content. So basically, if I say that this thing expires at 10:04am, then that is exactly when the content expires. I know you can set the CheckArticle job to run every minute but there were concerns over load.
+09:37 < jardineworks:#liferay> topolik, So I created a few hooks/control panel portlets that basically allow you, when scheduling content, to specify that you want a "precision expiration" ... and if checked a Quartz job is created and scheduled when saving that is specific to the expiration of the content.
