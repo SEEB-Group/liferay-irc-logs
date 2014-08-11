@@ -13,3 +13,4 @@
 09:37 < jardineworks:#liferay> topolik, So I created a few hooks/control panel portlets that basically allow you, when scheduling content, to specify that you want a "precision expiration" ... and if checked a Quartz job is created and scheduled when saving that is specific to the expiration of the content.
 09:38 < jardineworks:#liferay> topolik, I have a few odd things happening, most of them problematic only in a cluster environment.
 09:39 < jardineworks:#liferay> topolik, First of all, I have two detination names I use -- the one for "expire jobs" is precision_expire
+09:40 < jardineworks:#liferay> topolik, if I add 3 articles... all set to expire at 10:02am lets say. In a non-clustered environment, all three fire, but the first seems to fire 3x, the 2nd 2x, the 3rd 1x.
