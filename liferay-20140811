@@ -2,3 +2,4 @@
 03:20 < winem_:#liferay> morning
 04:13 < winem_:#liferay> has anyone experience with liferay + one-page-design?
 07:10 < Axxell:#liferay> Hey guys, im wondering if there is a way to embed a portlet into a application display template?
+07:26 < Axxell:#liferay> i can embed into a webcontent portlets, but what i want to do is embed it in any application display template, in this case i want to embed a assetpubliser in a assetpublisher
