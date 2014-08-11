@@ -25,3 +25,4 @@
 09:45 < jardineworks:#liferay> I see a few classes with Poller in the name, and a spring config with the same... but not sure if they are the ones.
 09:45 < jardineworks:#liferay> (also Liferay 6.1.1 ce)
 09:48 < topolik:#liferay> hmm, I guess it's Quartz that is responsible for the scheduling & firing jobs
+09:50 < jardineworks:#liferay> do you have a few minutes for me to show you in mikogo?
