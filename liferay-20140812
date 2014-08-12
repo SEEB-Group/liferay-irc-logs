@@ -235,3 +235,4 @@
 15:46 < bijoo_:#liferay> jardineworks: then can add on little by little there.
 15:46 < jardineworks:#liferay> alright -- and restart right? do these plugins still require a restart?
 15:47 < jardineworks:#liferay> bijoo_, src/main/webapp/WEB-INF/sql' does not exist -> [Help 1] -- fail.. like seriously? that couldn't be fixed before release?
+15:47 < jardineworks:#liferay> A FOLDER...
