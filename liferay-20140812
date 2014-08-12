@@ -164,3 +164,4 @@
 12:32 < Yam`:#liferay> but I don't find a lot of help googling this
 12:33 <@jhf:#liferay> I don’t know what a “dependent combobox” is
 12:33 <@jhf:#liferay> could you explain that one?
+12:34 < Yam`:#liferay> if I have two <select> or combo box, they're dependent if when I change the selected option of the first one, it changes the options of the second
