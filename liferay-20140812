@@ -229,3 +229,4 @@
 15:44 < bijoo_:#liferay> jardineworks: :)
 15:44 < bijoo_:#liferay> jardineworks: good one; I like analogies as well.
 15:45 < jardineworks:#liferay> ok -- so I have those... and everything looks good. I haven't added anything yet though.
+15:45 < jardineworks:#liferay> So I want to deploy this and it should work right? bsically I am deploying an EXT plugin with no overrides... it'll just put empty plumbing in place
