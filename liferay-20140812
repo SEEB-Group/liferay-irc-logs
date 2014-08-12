@@ -97,3 +97,4 @@
 12:06 < Yam`:#liferay> and if the key is an argument of a javascript function?
 12:07 < Yam`:#liferay> should I do something like <%= map.get(%>key<%) %> ?
 12:07 <@jhf:#liferay> uhh
+12:07 <@jhf:#liferay> that won’t work
