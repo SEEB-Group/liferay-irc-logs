@@ -69,3 +69,10 @@
 10:13 -!- moisesbelda [55388aaf@gateway/web/freenode/ip.85.56.138.175] has joined #liferay-dev-life
 10:15 -!- ethanbustad [267a6dc2@gateway/web/freenode/ip.38.122.109.194] has joined #liferay-dev-life
 10:15 <@jhf:#liferay-dev-life> that’s us!!!
+10:20 -!- charalamposc [4fa64607@gateway/web/freenode/ip.79.166.70.7] has quit [Ping timeout: 246 seconds]
+10:21 -!- craigv [18824cb7@gateway/web/freenode/ip.24.130.76.183] has joined #liferay-dev-life
+10:22 -!- marouen [5c5a8646@gateway/web/freenode/ip.92.90.134.70] has quit [Quit: Page closed]
+10:22 -!- marouen [5c5a8646@gateway/web/freenode/ip.92.90.134.70] has joined #liferay-dev-life
+10:22 -!- deepak_ [0fdbc94b@gateway/web/freenode/ip.15.219.201.75] has joined #liferay-dev-life
+10:24 -!- deepak_ [0fdbc94b@gateway/web/freenode/ip.15.219.201.75] has quit [Client Quit]
+10:25 < brunofarache:#liferay-dev-life> compile group: 'com.liferay.mobile', name: 'liferay-android-sdk', version: '6.2.0.5'
