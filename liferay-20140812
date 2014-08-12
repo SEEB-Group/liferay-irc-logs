@@ -263,3 +263,4 @@
 15:54 < bijoo_:#liferay> jardineworks: I remember you guys chatting on that.
 15:54 < bijoo_:#liferay> jardineworks: so you want mysite.de point to the same instance as the mysite.fr but just have different locale?
 15:54 < bijoo_:#liferay> same VirtualHost** not instanceb
+15:54 < bijoo_:#liferay> instance*
