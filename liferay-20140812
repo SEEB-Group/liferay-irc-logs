@@ -284,3 +284,4 @@
 16:00 < jardineworks:#liferay> I have JRebel.. but I still have to configure it.
 16:00 < jardineworks:#liferay> do you use the embedded jar in eclipse? or do you use the agent?
 16:00 < bijoo_:#liferay> jardineworks: do it ASAP; it'll be worth it.
+16:00 < bijoo_:#liferay> jardineworks: I have used both (even with the remote)
