@@ -83,3 +83,4 @@
 11:44 < jardineworks:#liferay> jhf, olafk do either or you know if it is possible to get access to the PortalInstances class from inside a Struts Action hook?
 11:58 < Yam`:#liferay> jardineworks, do you know if Liferay has a feature to do dependent combobox ?
 12:02 < jardineworks:#liferay> Yam`, what do you mean a dependent combo box?
+12:02 < Yam`:#liferay> if I change the selected option of the first one, it changes the options of the second
