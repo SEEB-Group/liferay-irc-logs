@@ -105,3 +105,4 @@
 12:10 <@jhf:#liferay> so you’d have to make some kind of AJAX call back to the portal (portlet) with the value of ‘key'
 12:12 < jardineworks:#liferay> jhf, need some love! :)... If I need to access some core portal-impl stuff... is EXT the only way? am I screwed?
 12:14 <@jhf:#liferay> what do you mean “access” ? you can always write java code that makes calls into portalimpl-specific classes and methods (be sure NOT to include a copy of it in your WAR file).
+12:14 <@jhf:#liferay> it’s a terrible idea, though.
