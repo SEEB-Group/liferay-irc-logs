@@ -135,3 +135,6 @@
 12:22 < jardineworks:#liferay> so like this?
 12:22 < jardineworks:#liferay> 		<dependency>
 12:22 < jardineworks:#liferay> 			<groupId>com.liferay.portal</groupId>
+12:22 < jardineworks:#liferay> 			<artifactId>portal-impl</artifactId>
+12:22 < jardineworks:#liferay> 			<version>${liferay.version}</version>
+12:22 < jardineworks:#liferay> 			<scope>compile</scope>
