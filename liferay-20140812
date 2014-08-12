@@ -65,3 +65,4 @@
 10:00 < rockhopper:#liferay> any thoughts on what I may be missing?
 10:26 < Yam`:#liferay> can I have a hashmap in Java and access it in my jsp using <c:out value="${myHashMap.something}" />?
 10:28 < olafk:#liferay> Yam` have you tried it already?
+10:29 < Yam`:#liferay> yes
