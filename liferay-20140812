@@ -28,3 +28,4 @@
 09:03 < Axxell:#liferay> topolik: the other problem: when i change in my portlet an assets categoryIds, i am not able to se the asset in an AP configured to show assets of a category.. cant find what might be going wrong.. any ideas?
 09:03 < olafk:#liferay> Also: If you're planning to attend DevCon in november: Call For Paper open, Registration as well, and the unconference will be limited: https://www.liferay.com/en/web/olaf.kock/blog/-/blogs/devcon-2014-call-for-paper-and-registration-open-unconference-coming-again
 09:04 < topolik:#liferay> Yam`: onChange is a javascript method, if you want browser to send a request to server you need at least <select onchange="location.href='<portlet:actionURL name="myAction" />'">
+09:05 < topolik:#liferay> Axxell: sorry, I'm now debugging 6.1 EE, if you wait some time I switch over to 6.2 CE and can try to reproduce the second issue
