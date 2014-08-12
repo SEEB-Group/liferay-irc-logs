@@ -2,3 +2,4 @@
 01:13 < Axxell:#liferay> anyone available to answer some questions?
 07:25 < goku_:#liferay> hi
 07:27 < goku_:#liferay> what is the class required for the Site Object for accessing site's custom field site.getExpandoBridge().getAttribute("custome_field_name");
+07:28 < goku_:#liferay> which package should i import for Site object
