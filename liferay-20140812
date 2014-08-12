@@ -81,3 +81,4 @@
 10:59 < rockhopper:#liferay> hmm.. seems if I use bodyContent in the Dialog, I can click on it several time, but if I use URI, I get the undefined is not a constructor (evaluating new a.Dialog)
 10:59 < rockhopper:#liferay> the second time
 11:44 < jardineworks:#liferay> jhf, olafk do either or you know if it is possible to get access to the PortalInstances class from inside a Struts Action hook?
+11:58 < Yam`:#liferay> jardineworks, do you know if Liferay has a feature to do dependent combobox ?
