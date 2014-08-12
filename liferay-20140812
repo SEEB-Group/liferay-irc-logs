@@ -69,3 +69,4 @@
 10:30 < Yam`:#liferay> I don't know how to retrieve data from it
 10:30 < Yam`:#liferay> in Java I'd do map.get(key)
 10:30 < Yam`:#liferay> but I don't know how to do it in jsp (if there is a way)
+10:44 < olafk:#liferay> isn't it ${myHashMap["something"]}? Ancient Memory
