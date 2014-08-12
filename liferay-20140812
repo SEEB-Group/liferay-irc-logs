@@ -19,3 +19,4 @@
 08:55 < Axxell:#liferay> topolik: none of them seem to work
 08:56 < topolik:#liferay> did you try the Ajax method from Ray's blog? https://www.liferay.com/web/raymond.auge/blog/-/blogs/embedding-portlets-in-themes-on-liferay
 08:57 < Axxell:#liferay> did not try the ajax iframe
+08:58 < Axxell:#liferay> but theme.runtime does not seem to be available in an assetpublisher ADT
