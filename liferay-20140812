@@ -4,3 +4,4 @@
 07:27 < goku_:#liferay> what is the class required for the Site Object for accessing site's custom field site.getExpandoBridge().getAttribute("custome_field_name");
 07:28 < goku_:#liferay> which package should i import for Site object
 07:30 < topolik1:#liferay> goku_: hi, site object is com.liferay.portal.model.Group
+07:48 < Axxell:#liferay> topolik1: is there a way to include an assetpublisher portlet in an assetpublisher portlet using application display templates?
