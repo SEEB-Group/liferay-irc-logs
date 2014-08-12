@@ -191,3 +191,4 @@
 12:44 < Yam`:#liferay> other thing, can I do a double c:forEach on a HashMap<Long, List<Something>>? what would be its syntax?
 12:45 <@jhf:#liferay> for 6.2.. it’s… also 1.2.9 :)
 12:50 < bijoo_:#liferay> Yam`: do you mean a nested forEach? of course?
+12:50 < bijoo_:#liferay> Yam`: http://stackoverflow.com/questions/5208671/nested-cforeach-in-jstl ?
