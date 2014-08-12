@@ -74,3 +74,4 @@
 10:44 < Yam`:#liferay> If I want to do that in a script
 10:44 < Yam`:#liferay> like
 10:45 < Yam`:#liferay> function selectChange(option)
+10:46 < Yam`:#liferay> I tried alert(<:out value="${myMap['"option"']}" />
