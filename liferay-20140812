@@ -100,3 +100,4 @@
 12:07 <@jhf:#liferay> that won’t work
 12:08 <@jhf:#liferay> the jsp is processed on the server side, well before any javascript is executed by the client browser
 12:08 < Yam`:#liferay> how do I use the key, so?
+12:09 <@jhf:#liferay> hmmm.. how to explain
