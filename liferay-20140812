@@ -92,3 +92,4 @@
 12:05 < jardineworks:#liferay> what about my PortalInstances class though?
 12:05 <@jhf:#liferay> you can access values from it using <%= map.get(key) %>
 12:05 < jardineworks:#liferay> true
+12:06 <@jhf:#liferay> scriptlets are wonderful! you can write java and business logic in your view code!
