@@ -187,3 +187,4 @@
 12:43 < jardineworks:#liferay> 1.2.8 seems to satisfy Maven
 12:44 <@jhf:#liferay> LR uses 1.2.9
 12:44 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/master/lib/versions.xml#L3493
+12:44 <@jhf:#liferay> well that is from master
