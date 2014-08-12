@@ -111,3 +111,4 @@
 12:15 < Yam`:#liferay> addressess*
 12:15 < jardineworks:#liferay> jhf, I am working on that localized domain names thing. I have my L10NVirtualHost service builder working, and I have a struts hook for the EditInstanceAction written so that I am saving records in the L10NVirtualHost table. Now I need to do the logic from the original struts action to create the company and initialize it.
 12:15 < Yam`:#liferay> addresses* (finally)
+12:16 < jardineworks:#liferay> jhf, I can create the company usign the CompanyServiceUtil class... but I need to call PortalInstances.initCompany ... which I can't because I can't see it in my hook
