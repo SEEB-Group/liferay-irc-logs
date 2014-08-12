@@ -8,3 +8,4 @@
 07:50 < Axxell:#liferay> topolik1: onother question i am using AssetEntryLocalServiceUtil.updateEntry to update categories of filentrys in a portlet. When i go to documents and media the categories are shown as they should... but when i go to an assetpublisher configured to show assets with those categories it doesnt show before i save the filentry as a new one in documents and media
 08:13 < Yam`:#liferay> Hello!
 08:14 < Yam`:#liferay> been a while! :D
+08:14 < goku_:#liferay> @topolink : thanks
