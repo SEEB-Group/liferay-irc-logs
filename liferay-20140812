@@ -23,3 +23,4 @@
 09:00 < olafk:#liferay> Axxell: An AP within an AP? AP aggregates content, not portlets. Not sure what my mental model should be if I'd be tasked to maintain this.
 09:00 < topolik:#liferay> I need to check sources to see what's in freemarker. I remember 6.1 freemarker was not very supported, I hope 6.2 is better
 09:01 < olafk:#liferay> For those of you interested in mobile sdk stuff: Bruno Farache is preparing the next Dev.Life session, starting in an hour. You might want to join #liferay-dev-life
+09:01 < Axxell:#liferay> topolik: yup its a bit strange, but wanted to do it, it only actually shows a list AP within the first asset of the parent AP
