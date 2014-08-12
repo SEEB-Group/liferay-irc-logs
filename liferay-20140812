@@ -26,3 +26,4 @@
 09:01 < Axxell:#liferay> topolik: yup its a bit strange, but wanted to do it, it only actually shows a list AP within the first asset of the parent AP
 09:02 < Yam`:#liferay> <Yam`> I have a portlet with a select element. Can I do actions in my java code of my portlet when the user select an option? > I tried to do onChange="${myJavaProcessAction}" in the select but it doesn't work
 09:03 < Axxell:#liferay> topolik: the other problem: when i change in my portlet an assets categoryIds, i am not able to se the asset in an AP configured to show assets of a category.. cant find what might be going wrong.. any ideas?
+09:03 < olafk:#liferay> Also: If you're planning to attend DevCon in november: Call For Paper open, Registration as well, and the unconference will be limited: https://www.liferay.com/en/web/olaf.kock/blog/-/blogs/devcon-2014-call-for-paper-and-registration-open-unconference-coming-again
