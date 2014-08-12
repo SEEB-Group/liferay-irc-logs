@@ -87,3 +87,4 @@
 12:03 < jardineworks:#liferay> Yam`, Oh... I'm not sure. But you should be able to do that with some JS no?
 12:03 <@jhf:#liferay> also, am I just dumb, or couldn’t you just access a value from a map using <%= myMap.get(“foo”) %>
 12:05 < jardineworks:#liferay> jhf, you could... as long as youy <% HashMap<String, String> mymap = (HashMap<String,String>)ParamUtil.getAttribute(request, "myMap"); first... BUT... purists will say that scriptlets are bad
+12:05 < jardineworks:#liferay> but who gives a shit about purists ;)
