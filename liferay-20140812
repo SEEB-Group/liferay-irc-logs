@@ -255,3 +255,4 @@
 15:51 < jardineworks:#liferay> I go back, still there.
 15:52 < bijoo_:#liferay> jardineworks: I see; related to instance delte?
 15:52 < bijoo_:#liferay> delete*
+15:52 < jardineworks:#liferay> bijoo_, I think so. There is nothing in the log so I assume RuntimeException somewhere... hate it when exceptions are gobbled.
