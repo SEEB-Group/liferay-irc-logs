@@ -271,3 +271,4 @@
 15:56 < bijoo_:#liferay> jardineworks: one crazy idea: do all actions for both companies?
 15:56 < jardineworks:#liferay> bijoo_, yeah. Right now the contraint (by default) is companyId and layoutSetId (for a VirtualHost)... I created a new table using SB called L10NVirtualHost that is the same, but adds a locale to the record. So uniqueness is companyId, layoutSetId, locale.
 15:57 < jardineworks:#liferay> i tried all actions..
+15:57 < jardineworks:#liferay> problem is
