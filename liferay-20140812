@@ -240,3 +240,4 @@
 15:48 < bijoo_:#liferay> jardineworks: haha, sounds like classic issue here.
 15:48 < bijoo_:#liferay> jardineworks: create and it'll probably go past it.
 15:48 < bijoo_:#liferay> jardineworks: I'm still getting my env setup here.
+15:48 < jardineworks:#liferay> 9:47:26,187 INFO  [localhost-startStop-3][ExtHotDeployListener:170] Extension environment for ypg-shared-l10n-virtualhost-ext has been applied. You must reboot the server and redeploy all other plugins.
