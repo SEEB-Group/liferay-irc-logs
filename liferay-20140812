@@ -165,3 +165,4 @@
 12:33 <@jhf:#liferay> I don’t know what a “dependent combobox” is
 12:33 <@jhf:#liferay> could you explain that one?
 12:34 < Yam`:#liferay> if I have two <select> or combo box, they're dependent if when I change the selected option of the first one, it changes the options of the second
+12:34 < jardineworks:#liferay> bah maven has its moments where I like it but I since I am still learning it I prefer ANT.
