@@ -171,3 +171,4 @@
 12:35 < jardineworks:#liferay> jhf, for example, I just created a maven ext project, and there are a million errors because all the dependencies need to be resovled.
 12:35 <@jhf:#liferay> not a ton of unused directories full of build.xml crap
 12:35 <@jhf:#liferay> well sure, they have to get downloaded first.
+12:35 < jardineworks:#liferay> jhf, perhaps, but it is easy to modify the templates in the ANT world. You have to customize the archetypes to do it with Maven which is more painful.
