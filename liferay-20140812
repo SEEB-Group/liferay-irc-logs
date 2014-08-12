@@ -123,3 +123,4 @@
 12:20 <@jhf:#liferay> classloader black magic abounds!
 12:20 < jardineworks:#liferay> HOW!?
 12:20 < jardineworks:#liferay> lol
+12:20 <@jhf:#liferay> import portal-impl.jar as a *compile-time* scoped dependency
