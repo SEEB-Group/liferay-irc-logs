@@ -124,3 +124,4 @@
 12:20 < jardineworks:#liferay> HOW!?
 12:20 < jardineworks:#liferay> lol
 12:20 <@jhf:#liferay> import portal-impl.jar as a *compile-time* scoped dependency
+12:20 <@jhf:#liferay> (such that it is not packaged into the WAR file when you build your war file)
