@@ -30,3 +30,4 @@
 09:04 < topolik:#liferay> Yam`: onChange is a javascript method, if you want browser to send a request to server you need at least <select onchange="location.href='<portlet:actionURL name="myAction" />'">
 09:05 < topolik:#liferay> Axxell: sorry, I'm now debugging 6.1 EE, if you wait some time I switch over to 6.2 CE and can try to reproduce the second issue
 09:06 < Yam`:#liferay> topolik, right, thank you
+09:07 < Axxell:#liferay> topolik: maybe when can check it another day, need to get going. Ill be checking the logs if you feel like putting som suggestions here when im not available
