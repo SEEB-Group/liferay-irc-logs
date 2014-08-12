@@ -94,3 +94,4 @@
 12:05 < jardineworks:#liferay> true
 12:06 <@jhf:#liferay> scriptlets are wonderful! you can write java and business logic in your view code!
 12:06 <@jhf:#liferay> totally saves time
+12:06 < Yam`:#liferay> and if the key is an argument of a javascript function?
