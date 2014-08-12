@@ -67,3 +67,4 @@
 10:28 < olafk:#liferay> Yam` have you tried it already?
 10:29 < Yam`:#liferay> yes
 10:30 < Yam`:#liferay> I don't know how to retrieve data from it
+10:30 < Yam`:#liferay> in Java I'd do map.get(key)
