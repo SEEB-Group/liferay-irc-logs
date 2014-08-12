@@ -72,3 +72,4 @@
 10:44 < olafk:#liferay> isn't it ${myHashMap["something"]}? Ancient Memory
 10:44 < olafk:#liferay> and you probably can omit the c:out tag
 10:44 < Yam`:#liferay> If I want to do that in a script
+10:44 < Yam`:#liferay> like
