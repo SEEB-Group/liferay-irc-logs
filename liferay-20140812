@@ -172,3 +172,4 @@
 12:35 <@jhf:#liferay> not a ton of unused directories full of build.xml crap
 12:35 <@jhf:#liferay> well sure, they have to get downloaded first.
 12:35 < jardineworks:#liferay> jhf, perhaps, but it is easy to modify the templates in the ANT world. You have to customize the archetypes to do it with Maven which is more painful.
+12:36 <@jhf:#liferay> yeah
