@@ -80,3 +80,9 @@
 10:27 -!- anais_ [564168e5@gateway/web/freenode/ip.86.65.104.229] has quit [Quit: Page closed]
 10:28 -!- craigv [18824cb7@gateway/web/freenode/ip.24.130.76.183] has quit [Quit: Page closed]
 10:30 -!- topolik [~topolik@ip-94-113-96-187.net.upcbroadband.cz] has joined #liferay-dev-life
+10:31 -!- rachael_ [adc61f42@gateway/web/freenode/ip.173.198.31.66] has joined #liferay-dev-life
+10:32 -!- shack [~raftastro@173.198.31.66] has joined #liferay-dev-life
+10:36 -!- dmarks [3e4857c2@gateway/web/freenode/ip.62.72.87.194] has quit [Ping timeout: 246 seconds]
+10:36 -!- Le_ [518e73c1@gateway/web/freenode/ip.81.142.115.193] has quit [Ping timeout: 246 seconds]
+10:36 -!- iqbal [0fdbc94b@gateway/web/freenode/ip.15.219.201.75] has quit [Ping timeout: 246 seconds]
+10:39 < brunofarache:#liferay-dev-life>  ArrayAdapter<String> adapter = new ArrayAdapter<String>( 			this, android.R.layout.simple_list_item_1);  	    setListAdapter(adapter);
