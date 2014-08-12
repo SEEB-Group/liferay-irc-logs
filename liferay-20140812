@@ -170,3 +170,4 @@
 12:35 <@jhf:#liferay> so I really like having slimmed down projects with just a .pom
 12:35 < jardineworks:#liferay> jhf, for example, I just created a maven ext project, and there are a million errors because all the dependencies need to be resovled.
 12:35 <@jhf:#liferay> not a ton of unused directories full of build.xml crap
+12:35 <@jhf:#liferay> well sure, they have to get downloaded first.
