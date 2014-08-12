@@ -139,3 +139,4 @@
 12:22 < jardineworks:#liferay> 			<version>${liferay.version}</version>
 12:22 < jardineworks:#liferay> 			<scope>compile</scope>
 12:22 < jardineworks:#liferay> 		</dependency>				
+12:22 <@jhf:#liferay> no you want <scope>provided</scope>
