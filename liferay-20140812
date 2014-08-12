@@ -75,3 +75,4 @@
 10:44 < Yam`:#liferay> like
 10:45 < Yam`:#liferay> function selectChange(option)
 10:46 < Yam`:#liferay> I tried alert(<:out value="${myMap['"option"']}" />
+10:47 < Yam`:#liferay> I ended with the error "= symbol expected"
