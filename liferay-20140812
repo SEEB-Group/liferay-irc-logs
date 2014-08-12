@@ -186,3 +186,4 @@
 12:42 < jardineworks:#liferay> do you know what version of struts LR uses?
 12:43 < jardineworks:#liferay> 1.2.8 seems to satisfy Maven
 12:44 <@jhf:#liferay> LR uses 1.2.9
+12:44 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/master/lib/versions.xml#L3493
