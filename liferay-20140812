@@ -243,3 +243,4 @@
 15:48 < jardineworks:#liferay> 9:47:26,187 INFO  [localhost-startStop-3][ExtHotDeployListener:170] Extension environment for ypg-shared-l10n-virtualhost-ext has been applied. You must reboot the server and redeploy all other plugins.
 15:48 < jardineworks:#liferay> alright... rebooting
 15:48 < jardineworks:#liferay> 5 shards so it'll take a minute anyway
+15:49 < bijoo_:#liferay> jardineworks: haha, nice, how is the shard function there? Are you using custom sharding logic?
