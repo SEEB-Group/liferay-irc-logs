@@ -154,3 +154,4 @@
 12:29 < jardineworks:#liferay> jhf, I don't that is possible even. The deployment manager used to throw an exception when it found a reference to portal-impl.jar in the dependencies.
 12:29 <@jhf:#liferay> yeah……….
 12:29 < jardineworks:#liferay> jhf, DAMIT! back to the ext plugin for a solution I guess.
+12:30 < jardineworks:#liferay> stupid maven...
