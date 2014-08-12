@@ -150,3 +150,4 @@
 12:27 < Yam`:#liferay> so... any of you know addresses.jsp? :)
 12:27 <@jhf:#liferay> but forgot that to access any jars from WEB-INF/lib of Liferay you must declare it in your portal-plugin-package.properties file
 12:27 <@jhf:#liferay> which causes it to get *copied* to your portlet’s classloader area when deployed
+12:28 <@jhf:#liferay> and so while doing taht with portal-impl.jar is possible, it won’t be the same class instances that Liefray itself is using
