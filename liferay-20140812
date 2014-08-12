@@ -295,3 +295,4 @@
 16:02 < jardineworks:#liferay> lemme check
 16:02 < bijoo_:#liferay> jardineworks: nevermind, the agent is in plugins
 16:02 < jardineworks:#liferay> boo! 20:01:02,013 ERROR [liferay/poller_response-2][ParallelDestination:72] Unable to process message {destinationName=liferay/poller_response, response=null, responseDestinationName=null, responseId=6134ba87-5abc-4cb3-a2b0-8a1c74294515, payload=com.liferay.portal.kernel.poller.DefaultPollerResponse@7f5eb3a2, values={companyId=15141}}
+16:02 < jardineworks:#liferay> com.liferay.portal.kernel.messaging.MessageListenerException: com.liferay.portal.kernel.notifications.UnknownChannelHubException: No channel exists with company id 15141
