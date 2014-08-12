@@ -257,3 +257,4 @@
 15:52 < bijoo_:#liferay> delete*
 15:52 < jardineworks:#liferay> bijoo_, I think so. There is nothing in the log so I assume RuntimeException somewhere... hate it when exceptions are gobbled.
 15:53 < jardineworks:#liferay> bijoo_, right now that is not really my concern though. Did you see my conversation with jhf earlier about what I am trying to do?
+15:53 < bijoo_:#liferay> jardineworks: I'll take a look at the logs; hold on sec.
