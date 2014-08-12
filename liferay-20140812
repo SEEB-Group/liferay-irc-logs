@@ -277,3 +277,4 @@
 15:58 < jardineworks:#liferay> sooooo... looks like EXT with a few modification to the EditInstanceAction is step one.
 15:58 < bijoo_:#liferay> jardineworks: nice, that makes sense; obviously you've tried.
 15:58 < jardineworks:#liferay> I suppose the nice thing is that I can put all the changes, which there are A LOT OF in the same project.
+15:59 < jardineworks:#liferay> I tried several things... desperately trying to avoid EXT lol
