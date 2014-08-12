@@ -68,3 +68,4 @@
 19:54 < bijoo_:#liferay> winem_: yes, have had Liferay one-page design exp.
 19:55 < bijoo_:#liferay> Axxell: you can try same approach as web content; have you tried that or just asking here? I've not had to embed in ADT.
 21:46 < jrmiah:#liferay> ran ant deploy in the samples-jsp-portlets directory of the plugins project on github; was this portlet supposed to automagically appear in the running portal? a search for its title (via portlet.xml) provided nada
+21:48 < jrmiah:#liferay> my bad just saw that this version of the portlet doesnt support this version of liferay hah
