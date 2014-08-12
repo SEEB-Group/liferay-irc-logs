@@ -13,3 +13,4 @@
 08:52 < Yam`:#liferay> I have a portlet with a select element. Can I do actions in my java code of my portlet when the user select an option?
 08:52 < topolik:#liferay> Axxell: I'm sorry, I see the question now
 08:52 < Yam`:#liferay> I didn't find how to do it
+08:53 < topolik:#liferay> Axxell: I think it should be possible to include any portlet from ADT, depends on what everything is accessible from the velocity context
