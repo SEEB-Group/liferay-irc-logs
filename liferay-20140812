@@ -267,3 +267,4 @@
 15:54 < bijoo_:#liferay> Hmm nevermind I guess it's same instance;
 15:55 < jardineworks:#liferay> bijoo_, not even... www.thisismyenglishsite.com for en_US, and then www.cacestdifferente.com for fr_CA for example.
 15:55 < bijoo_:#liferay> jardineworks: go it, but the companyId be the same?
+15:56 < jardineworks:#liferay> bijoo_, I could almost do it with hooks... and I might still be able to, but there is a lot of logic that goes into creating new companies.
