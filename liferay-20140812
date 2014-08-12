@@ -288,3 +288,4 @@
 16:00 < bijoo_:#liferay> jardineworks: they all work well; though embedded is nice.
 16:01 < bijoo_:#liferay> jardineworks: since you just tick the box for the Server
 16:01 < bijoo_:#liferay> jardineworks: no messing around in shell scripts and such
+16:01 < jardineworks:#liferay> I used the agent when I was using it a year or so ago... I don't really like to run the app server from inside the IDE.. I like to tail the log.
