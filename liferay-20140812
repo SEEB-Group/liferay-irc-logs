@@ -272,3 +272,4 @@
 15:56 < jardineworks:#liferay> bijoo_, yeah. Right now the contraint (by default) is companyId and layoutSetId (for a VirtualHost)... I created a new table using SB called L10NVirtualHost that is the same, but adds a locale to the record. So uniqueness is companyId, layoutSetId, locale.
 15:57 < jardineworks:#liferay> i tried all actions..
 15:57 < jardineworks:#liferay> problem is
+15:57 < jardineworks:#liferay> the EditInstanceAction forwards... and you need to do the originalStrutsAction logic first so that you can get the company id to add the L10NVirtualHost record.
