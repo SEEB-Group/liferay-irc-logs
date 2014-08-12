@@ -90,3 +90,4 @@
 10:44 -!- raffaela [86f5d87b@gateway/web/freenode/ip.134.245.216.123] has quit [Quit: Page closed]
 10:48 <@jhf:#liferay-dev-life> default android emulator IP addr is 10.0.2.2
 10:48 <@jhf:#liferay-dev-life> so I am using:        Session session = new SessionImpl("http://10.0.2.2:8080", "test@liferay.com", "test");
+10:50 < eaustin:#liferay-dev-life> QUESTION: If you have a custom service, how does the SDK know about it?
