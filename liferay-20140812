@@ -237,3 +237,4 @@
 15:47 < jardineworks:#liferay> bijoo_, src/main/webapp/WEB-INF/sql' does not exist -> [Help 1] -- fail.. like seriously? that couldn't be fixed before release?
 15:47 < jardineworks:#liferay> A FOLDER...
 15:47 < jardineworks:#liferay> ?
+15:48 < bijoo_:#liferay> jardineworks: haha, sounds like classic issue here.
