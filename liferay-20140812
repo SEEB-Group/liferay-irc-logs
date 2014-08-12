@@ -248,3 +248,4 @@
 15:50 < jardineworks:#liferay> bijoo_, just the default xml with a few extra definitions -- and then you pick the shard you want to be on when you create a new instance.
 15:50 < bijoo_:#liferay> jardineworks: nice, glad the OOB works nicely there.
 15:50 < jardineworks:#liferay> works pretty well, though deleting instances doesn't seem to work very well.
+15:50 < bijoo_:#liferay> jardineworks: good point, I remember something on that.
