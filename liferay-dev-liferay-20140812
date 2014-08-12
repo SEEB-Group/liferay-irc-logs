@@ -76,3 +76,4 @@
 10:22 -!- deepak_ [0fdbc94b@gateway/web/freenode/ip.15.219.201.75] has joined #liferay-dev-life
 10:24 -!- deepak_ [0fdbc94b@gateway/web/freenode/ip.15.219.201.75] has quit [Client Quit]
 10:25 < brunofarache:#liferay-dev-life> compile group: 'com.liferay.mobile', name: 'liferay-android-sdk', version: '6.2.0.5'
+10:26 <@jhf:#liferay-dev-life> or     compile group: 'com.liferay.mobile', name: 'liferay-android-sdk', version: ‘6.2.0.6’ :)
