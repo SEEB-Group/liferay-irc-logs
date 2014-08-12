@@ -168,3 +168,4 @@
 12:34 < jardineworks:#liferay> bah maven has its moments where I like it but I since I am still learning it I prefer ANT.
 12:34 <@jhf:#liferay> well I guess I don’t mind ant, what I do mind is having to copy a giant plugins sdk every time I want to create a tiny portlet
 12:35 <@jhf:#liferay> so I really like having slimmed down projects with just a .pom
+12:35 < jardineworks:#liferay> jhf, for example, I just created a maven ext project, and there are a million errors because all the dependencies need to be resovled.
