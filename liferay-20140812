@@ -88,3 +88,4 @@
 12:03 <@jhf:#liferay> also, am I just dumb, or couldn’t you just access a value from a map using <%= myMap.get(“foo”) %>
 12:05 < jardineworks:#liferay> jhf, you could... as long as youy <% HashMap<String, String> mymap = (HashMap<String,String>)ParamUtil.getAttribute(request, "myMap"); first... BUT... purists will say that scriptlets are bad
 12:05 < jardineworks:#liferay> but who gives a shit about purists ;)
+12:05 <@jhf:#liferay> sure, well, regardless of how the map gets into the jsp execution context
