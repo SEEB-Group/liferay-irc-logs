@@ -259,3 +259,4 @@
 15:53 < jardineworks:#liferay> bijoo_, right now that is not really my concern though. Did you see my conversation with jhf earlier about what I am trying to do?
 15:53 < bijoo_:#liferay> jardineworks: I'll take a look at the logs; hold on sec.
 15:53 < jardineworks:#liferay> multiple instance virtual hosts for a single instance.
+15:53 < jardineworks:#liferay> so basically localized virtual hosts.
