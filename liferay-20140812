@@ -102,3 +102,4 @@
 12:08 < Yam`:#liferay> how do I use the key, so?
 12:09 <@jhf:#liferay> hmmm.. how to explain
 12:09 <@jhf:#liferay> so if key is a JS function argument, the value of “key” won’t be known until the client’s browser executes the function
+12:10 <@jhf:#liferay> so you’d have to make some kind of AJAX call back to the portal (portlet) with the value of ‘key'
