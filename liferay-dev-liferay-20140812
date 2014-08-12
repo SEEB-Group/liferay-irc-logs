@@ -94,3 +94,7 @@
 10:56 < eaustin:#liferay-dev-life> Makes sense
 11:05 < eaustin:#liferay-dev-life> QUESTION:I take it that the mobile SDK is recommended for native applications as well as hybrid?
 11:12 < Rafik:#liferay-dev-life> QUESTION: can we put Bookmarks service call on onSuccess method ?
+11:12 -!- marouen [5c5a8646@gateway/web/freenode/ip.92.90.134.70] has quit [Ping timeout: 246 seconds]
+11:18 -!- Laurie [48f027be@gateway/web/freenode/ip.72.240.39.190] has quit [Ping timeout: 246 seconds]
+11:18 -!- craigv [cd9b41e2@gateway/web/freenode/ip.205.155.65.226] has joined #liferay-dev-life
+11:20 < Rafik:#liferay-dev-life> Ok, I understand
