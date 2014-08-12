@@ -160,3 +160,4 @@
 12:31 <@jhf:#liferay> Yam`: I know of no project named addresses.jsp
 12:31 <@jhf:#liferay> there is likely a file somewhere in Liferay’s source code with that name though
 12:31 <@jhf:#liferay> probably multiple files
+12:32 < Yam`:#liferay> apparently we can use this file to do dependent combobox
