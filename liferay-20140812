@@ -305,3 +305,4 @@
 16:07 < jardineworks:#liferay> Error opening zip file or JAR manifest missing : /opt/eclipse-juno/plugins/org.zeroturnaround.eclipse.embedder_5.5.0.SR2-201401060924/jrebel
 16:11 < jardineworks:#liferay> oh... my bad'
 16:11 < jardineworks:#liferay> lol
+16:18 < jardineworks:#liferay> bijoo_, does the jrebel class reloading stuff work with exts as well? like right away? or only after you deploy? for example, I just added EditInstanceAction to my ext-impl project ... and in the log for the server I can see: INFO: Reloading Context with name [/ypg-shared-l10n-virtualhost-ext] is completed
