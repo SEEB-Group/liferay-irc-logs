@@ -90,3 +90,4 @@
 12:05 < jardineworks:#liferay> but who gives a shit about purists ;)
 12:05 <@jhf:#liferay> sure, well, regardless of how the map gets into the jsp execution context
 12:05 < jardineworks:#liferay> what about my PortalInstances class though?
+12:05 <@jhf:#liferay> you can access values from it using <%= map.get(key) %>
