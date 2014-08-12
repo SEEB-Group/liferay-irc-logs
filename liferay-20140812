@@ -205,3 +205,4 @@
 15:32 < jardineworks:#liferay> first question -- not an issue really :)... is there a way to only show the one project in place of every single module?
 15:32 < jardineworks:#liferay> bijoo_, ^^
 15:32 < jardineworks:#liferay> it's like pollution for my IDE
+15:36 < bijoo_:#liferay> jardineworks: there should only be few more deps for it.
