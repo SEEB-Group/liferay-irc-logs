@@ -134,3 +134,4 @@
 12:22 < jardineworks:#liferay> lol
 12:22 < jardineworks:#liferay> so like this?
 12:22 < jardineworks:#liferay> 		<dependency>
+12:22 < jardineworks:#liferay> 			<groupId>com.liferay.portal</groupId>
