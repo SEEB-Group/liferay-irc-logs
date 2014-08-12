@@ -282,3 +282,4 @@
 15:59 < bijoo_:#liferay> ext tough
 15:59 < bijoo_:#liferay> jardineworks: though with JRebel dev isn't too bad
 16:00 < jardineworks:#liferay> I have JRebel.. but I still have to configure it.
+16:00 < jardineworks:#liferay> do you use the embedded jar in eclipse? or do you use the agent?
