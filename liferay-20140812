@@ -274,3 +274,4 @@
 15:57 < jardineworks:#liferay> problem is
 15:57 < jardineworks:#liferay> the EditInstanceAction forwards... and you need to do the originalStrutsAction logic first so that you can get the company id to add the L10NVirtualHost record.
 15:58 < jardineworks:#liferay> but the EditInstanceAction orginalStrutsAction doesn't return, it forwards.
+15:58 < jardineworks:#liferay> sooooo... looks like EXT with a few modification to the EditInstanceAction is step one.
