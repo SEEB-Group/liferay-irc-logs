@@ -116,3 +116,4 @@
 12:17 <@jhf:#liferay> what do you mean “can’t see it in my hook?
 12:17 <@jhf:#liferay> you mean your IDE can’t resolve the class? or do you get an exception at runtime?
 12:19 < jardineworks:#liferay> jhf, IDE can't resolve the class
+12:19 < jardineworks:#liferay> but that normally means that it wouldn't find it at runtime either
