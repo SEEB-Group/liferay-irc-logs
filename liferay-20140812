@@ -1,3 +1,4 @@
 --- Log opened Tue Aug 12 00:00:54 2014
 01:13 < Axxell:#liferay> anyone available to answer some questions?
 07:25 < goku_:#liferay> hi
+07:27 < goku_:#liferay> what is the class required for the Site Object for accessing site's custom field site.getExpandoBridge().getAttribute("custome_field_name");
