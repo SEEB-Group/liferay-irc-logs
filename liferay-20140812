@@ -314,3 +314,4 @@
 17:04 < jardineworks:#liferay> bijoo_, do you ever have a problem with JRebel where the nature is in place but the saved changes are not automatically being deployed?
 19:32 < bijoo__:#liferay> jardineworks: shuld work ; is rebel.xnl war deployed?
 19:33 < bijoo__:#liferay> I'm on phone with a shoddy connection; I'll ping you later when back at my desk.
+19:33 < bijoo__:#liferay> check war with rebel xml deployed
