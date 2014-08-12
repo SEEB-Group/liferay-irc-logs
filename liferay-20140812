@@ -188,3 +188,4 @@
 12:44 <@jhf:#liferay> LR uses 1.2.9
 12:44 <@jhf:#liferay> https://github.com/liferay/liferay-portal/blob/master/lib/versions.xml#L3493
 12:44 <@jhf:#liferay> well that is from master
+12:44 < Yam`:#liferay> other thing, can I do a double c:forEach on a HashMap<Long, List<Something>>? what would be its syntax?
