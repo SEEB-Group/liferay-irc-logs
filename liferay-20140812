@@ -98,3 +98,4 @@
 12:07 < Yam`:#liferay> should I do something like <%= map.get(%>key<%) %> ?
 12:07 <@jhf:#liferay> uhh
 12:07 <@jhf:#liferay> that won’t work
+12:08 <@jhf:#liferay> the jsp is processed on the server side, well before any javascript is executed by the client browser
