@@ -79,3 +79,4 @@
 10:51 < Yam`:#liferay> with only alert(${myMap[option].name} it works but the alert is empty
 10:53 < Yam`:#liferay> can I display the format of this object so I can understand how to access its fields?
 10:59 < rockhopper:#liferay> hmm.. seems if I use bodyContent in the Dialog, I can click on it several time, but if I use URI, I get the undefined is not a constructor (evaluating new a.Dialog)
+10:59 < rockhopper:#liferay> the second time
