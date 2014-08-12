@@ -61,3 +61,4 @@
 09:59 < rockhopper:#liferay> good day all.. I have a 6.1 question
 09:59 < rockhopper:#liferay> I have a A.Dialog which works the first time I click to pop it up
 10:00 < rockhopper:#liferay> but after closing it and trying to use it again I get
+10:00 < rockhopper:#liferay> undefined is not a constructor (evaluating new a.Dialog)
