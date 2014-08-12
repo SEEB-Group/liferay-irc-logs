@@ -179,3 +179,4 @@
 12:37 < jardineworks:#liferay> partially..
 12:41 < jardineworks:#liferay> jhf, no pom.xml for the core portal?
 12:41 < jardineworks:#liferay> :(
+12:41 <@jhf:#liferay> nope, cause we don’t use maven to build it (that I know of)
