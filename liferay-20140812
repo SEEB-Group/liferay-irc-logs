@@ -130,3 +130,4 @@
 12:20 < jardineworks:#liferay> but at runtime, my hook will have a different class loader than the portal.
 12:21 <@jhf:#liferay> yeah that classloader should be a descendent of the one that knows of portal-impl
 12:21 < jardineworks:#liferay> really?!
+12:22 <@jhf:#liferay> I think so! I guess I should try this stuff out :)
