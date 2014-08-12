@@ -21,3 +21,4 @@
 08:57 < Axxell:#liferay> did not try the ajax iframe
 08:58 < Axxell:#liferay> but theme.runtime does not seem to be available in an assetpublisher ADT
 09:00 < olafk:#liferay> Axxell: An AP within an AP? AP aggregates content, not portlets. Not sure what my mental model should be if I'd be tasked to maintain this.
+09:00 < topolik:#liferay> I need to check sources to see what's in freemarker. I remember 6.1 freemarker was not very supported, I hope 6.2 is better
