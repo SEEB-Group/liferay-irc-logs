@@ -244,3 +244,4 @@
 15:48 < jardineworks:#liferay> alright... rebooting
 15:48 < jardineworks:#liferay> 5 shards so it'll take a minute anyway
 15:49 < bijoo_:#liferay> jardineworks: haha, nice, how is the shard function there? Are you using custom sharding logic?
+15:49 < bijoo_:#liferay> jardineworks: or using OOB Liferay logics (e.g. by instance or something, correct?)
