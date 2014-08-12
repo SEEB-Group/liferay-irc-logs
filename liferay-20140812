@@ -167,3 +167,4 @@
 12:34 < Yam`:#liferay> if I have two <select> or combo box, they're dependent if when I change the selected option of the first one, it changes the options of the second
 12:34 < jardineworks:#liferay> bah maven has its moments where I like it but I since I am still learning it I prefer ANT.
 12:34 <@jhf:#liferay> well I guess I don’t mind ant, what I do mind is having to copy a giant plugins sdk every time I want to create a tiny portlet
+12:35 <@jhf:#liferay> so I really like having slimmed down projects with just a .pom
