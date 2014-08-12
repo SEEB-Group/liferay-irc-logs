@@ -140,3 +140,4 @@
 12:22 < jardineworks:#liferay> 			<scope>compile</scope>
 12:22 < jardineworks:#liferay> 		</dependency>				
 12:22 <@jhf:#liferay> no you want <scope>provided</scope>
+12:23 <@jhf:#liferay> actually do we even publish portal-impl to maven central?
