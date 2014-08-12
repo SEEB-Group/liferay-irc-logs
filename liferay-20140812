@@ -127,3 +127,4 @@
 12:20 <@jhf:#liferay> (such that it is not packaged into the WAR file when you build your war file)
 12:20 <@jhf:#liferay> it should work..
 12:20 <@jhf:#liferay> at least it did back in 6.1!
+12:20 < jardineworks:#liferay> but at runtime, my hook will have a different class loader than the portal.
