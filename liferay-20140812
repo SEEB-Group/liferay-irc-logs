@@ -114,3 +114,4 @@
 12:16 < jardineworks:#liferay> jhf, I can create the company usign the CompanyServiceUtil class... but I need to call PortalInstances.initCompany ... which I can't because I can't see it in my hook
 12:16 < jardineworks:#liferay> I know you can cheat sometimes and use the PortalBeanLocator... but I don't think I can in this case because I can't resolve the class ... so I can't cast the result... meaning I can't init the company :(
 12:17 <@jhf:#liferay> what do you mean “can’t see it in my hook?
+12:17 <@jhf:#liferay> you mean your IDE can’t resolve the class? or do you get an exception at runtime?
