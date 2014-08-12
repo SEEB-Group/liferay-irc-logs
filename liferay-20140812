@@ -101,3 +101,4 @@
 12:08 <@jhf:#liferay> the jsp is processed on the server side, well before any javascript is executed by the client browser
 12:08 < Yam`:#liferay> how do I use the key, so?
 12:09 <@jhf:#liferay> hmmm.. how to explain
+12:09 <@jhf:#liferay> so if key is a JS function argument, the value of “key” won’t be known until the client’s browser executes the function
