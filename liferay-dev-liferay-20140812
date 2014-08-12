@@ -91,3 +91,4 @@
 10:48 <@jhf:#liferay-dev-life> default android emulator IP addr is 10.0.2.2
 10:48 <@jhf:#liferay-dev-life> so I am using:        Session session = new SessionImpl("http://10.0.2.2:8080", "test@liferay.com", "test");
 10:50 < eaustin:#liferay-dev-life> QUESTION: If you have a custom service, how does the SDK know about it?
+10:56 < eaustin:#liferay-dev-life> Makes sense
