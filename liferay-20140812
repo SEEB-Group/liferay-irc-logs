@@ -210,3 +210,4 @@
 15:37 < bijoo_:#liferay> jardineworks: my bad; just saw your question above there.
 15:37 < jardineworks:#liferay> lol
 15:37 < bijoo_:#liferay> jardineworks: checking on that; give me couple minutes.
+15:41 < jardineworks:#liferay> bijoo_, my first bit if annoyance with maven archteypes for ext is that it doesn't generate everything you need to have a clean project in eclipse.
