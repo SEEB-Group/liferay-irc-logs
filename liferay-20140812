@@ -15,3 +15,4 @@
 08:52 < Yam`:#liferay> I didn't find how to do it
 08:53 < topolik:#liferay> Axxell: I think it should be possible to include any portlet from ADT, depends on what everything is accessible from the velocity context
 08:54 < Axxell:#liferay> topolik: ive tried two methods the runtime tag and theme.runtime
+08:54 < Axxell:#liferay> topolik: btw im using freemarker
