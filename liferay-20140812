@@ -146,3 +146,4 @@
 12:25 < jardineworks:#liferay> oh... nevermind. was about to ask a silly question :)
 12:26 < jardineworks:#liferay> If this works though, then I might be able to do this without an EXT plugin
 12:26 <@jhf:#liferay> yeah.. I don’t think it’s gonna work
+12:27 <@jhf:#liferay> I was thinking that since you can access other jars in WEB-INF/lib that portal-impl.jar could also be accessed
