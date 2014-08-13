@@ -22,3 +22,4 @@
 08:46 < jardineworks:#liferay> Yam`, and make sure you disable the caching in your browser too
 08:48 < Yam`:#liferay> where do I change that jardineworks ?
 08:48 < jardineworks:#liferay> Yam`, portal-ext.properties
+08:48 < jardineworks:#liferay> and restart
