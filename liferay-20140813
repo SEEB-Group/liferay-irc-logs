@@ -76,3 +76,4 @@
 09:31 < hufg:#liferay> or find a working ext plugin and compare
 09:31 < hufg:#liferay> this kind of stuff is pretty tedious because the maven plugin can do something retarded or you have made some configuration etc error :Z
 09:43 < jardineworks:#liferay> argh
+09:58 < Yam`:#liferay> what is profiling mode?
