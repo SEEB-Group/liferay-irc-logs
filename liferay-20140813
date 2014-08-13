@@ -101,3 +101,4 @@
 14:25 < Bryanstein:#liferay> jhf, ping
 16:42 < bijoo_:#liferay> dawn: I'm in same boat as jhf here; but have you tried setting the properties? Which SP attributes trying to set? Have you seen the following post as well? https://www.liferay.com/community/forums/-/message_boards/message/28886644
 16:47 < dawn:#liferay> bijoo_: thank you..will take a look
+16:53 < bijoo_:#liferay> dawn: sure and one other way is to debug; I'd be happy to help you with that step.
