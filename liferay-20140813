@@ -92,3 +92,4 @@
 11:42 < dawn:#liferay> jhf: i was trying to make LR as SAML IDP and having difficulty in sending attributes in SAML authentication response to SP.
 11:43 < dawn:#liferay> jhf: may be this is the time to try :)
 11:44 < dawn:#liferay> bijoo: here is what i followed https://www.liferay.com/group/customer/knowledge/kb/-/knowledge_base/article/14061756
+11:44 < dawn:#liferay> jhf: here is what i followed https://www.liferay.com/group/customer/knowledge/kb/-/knowledge_base/article/14061756
