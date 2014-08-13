@@ -84,3 +84,4 @@
 10:56 < dawn:#liferay> bijoo_: hi there
 10:58 < dawn:#liferay> bijoo: i was trying to make LR as SAML IDP and having difficulty in sending attributes in SAML authentication response to SP.
 10:59 < dawn:#liferay> bijoo: here is what i followed http://www.liferay.com/web/mika.koivisto/blog/-/blogs/getting-started-with-liferay-saml-2-0-identity-provider...
+11:00 < dawn:#liferay> bijoo: any idea how to release attributes to SP?
