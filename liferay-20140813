@@ -63,3 +63,4 @@
 09:03 < jardineworks:#liferay> hufg, some suspicious output when I build -- check it out http://pastebin.com/XjXdAPf0
 09:04 < jardineworks:#liferay> right now I am just trying to get one class in the ext-impl to go out (for the moment)
 09:05 < hufg:#liferay> paste tree project-dir and pom.xml
+09:07 < hufg:#liferay> don't really have a clue but you don't really need to use the lr plugin for ext-hook?
