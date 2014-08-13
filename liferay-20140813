@@ -54,3 +54,4 @@
 08:55 < jardineworks:#liferay> right now though I have an AWESOME situation. I have an EXT plugin that won't deploy ... well, it deploys, BUT my overriding class is not being seen or pushed in place of the OOTB class.
 08:55 < jardineworks:#liferay> really starting to piss me off.
 08:56 < hufg:#liferay> maven lr plugins i mean
+08:56 < jardineworks:#liferay> yeah ... maven lr plugins
