@@ -6,3 +6,4 @@
 08:43 < Yam`:#liferay> Why do I have to restart the server for each js change? :/
 08:45 < jardineworks:#liferay> Yam`, you shouldn't have to
 08:45 < Yam`:#liferay> I've defined my js file in liferay-portlet.xml with <footer-portlet-javascript>/js/rooms.js</footer-portlet-javascript> but each time I change rooms.js the change isn't working until I restart the server
+08:45 < Yam`:#liferay> I just deploy my portlet project but it's not working
