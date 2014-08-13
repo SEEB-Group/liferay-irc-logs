@@ -21,3 +21,4 @@
 08:46 < jardineworks:#liferay> 	velocity.engine.resource.manager.cache.enabled=false
 08:46 < jardineworks:#liferay> Yam`, and make sure you disable the caching in your browser too
 08:48 < Yam`:#liferay> where do I change that jardineworks ?
+08:48 < jardineworks:#liferay> Yam`, portal-ext.properties
