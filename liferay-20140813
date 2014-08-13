@@ -16,3 +16,4 @@
 08:46 < jardineworks:#liferay> 	javascript.fast.load=false
 08:46 < jardineworks:#liferay> 	javascript.log.enabled=false
 08:46 < jardineworks:#liferay> 	layout.template.cache.enabled=false
+08:46 < jardineworks:#liferay> #	browser.launcher.url=http://localhost:8080
