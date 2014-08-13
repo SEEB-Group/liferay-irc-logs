@@ -11,3 +11,5 @@
 08:46 < jardineworks:#liferay> Yam`,  --
 08:46 < jardineworks:#liferay> ## ---------------------------------------------------------------------
 08:46 < jardineworks:#liferay> ## Settings for theme development
+08:46 < jardineworks:#liferay> ##
+08:46 < jardineworks:#liferay> 	theme.css.fast.load=false
