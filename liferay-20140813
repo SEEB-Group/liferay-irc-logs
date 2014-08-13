@@ -18,3 +18,4 @@
 08:46 < jardineworks:#liferay> 	layout.template.cache.enabled=false
 08:46 < jardineworks:#liferay> #	browser.launcher.url=http://localhost:8080
 08:46 < jardineworks:#liferay> 	last.modified.check=false
+08:46 < jardineworks:#liferay> 	velocity.engine.resource.manager.cache.enabled=false
