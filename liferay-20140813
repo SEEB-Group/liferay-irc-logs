@@ -66,3 +66,4 @@
 09:07 < hufg:#liferay> don't really have a clue but you don't really need to use the lr plugin for ext-hook?
 09:08 < hufg:#liferay> for example theme plugin is mandatory to overlay the parent theme which would be tedious otherwise
 09:09 < hufg:#liferay> to overlay the parent theme into the actual theme
+09:11 < jardineworks:#liferay> hufg, in my case I tried to do this with regular hooks but the changes I need to make run so deep that its just way easier to do it with an EXT. I am changing the EditInstanceAction for example .. I hooked the action to do most of what I wanted but one of the things you need to do when you create a new instance is PortalInstances.initCompany() which does all sorts of important stuff. I don;t have access to that class in the ho
