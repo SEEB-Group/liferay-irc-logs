@@ -80,3 +80,4 @@
 10:08 < jardineworks:#liferay> wow -- it just gets better. I undeployed the ext plugin. Then redeployed it... and not the <files/> list includes my class. Shutdown the server and start it back up only to have a calss not found error for PropsUtil... which is a class that I have not changed and should be found in the defacto portal-impl.jar
 10:08 < jardineworks:#liferay> F A I L
 10:18 < ArTeS:#liferay> it is not fail this is fail:
+10:18 < ArTeS:#liferay> F I A L
