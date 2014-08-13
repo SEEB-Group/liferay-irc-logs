@@ -73,3 +73,4 @@
 09:22 < hufg:#liferay> :Z
 09:26 < hufg:#liferay> ahh no clue 8)
 09:28 < hufg:#liferay> but perhaps create the simplest possible hook for example to override/copy portal-ext.properties
+09:31 < hufg:#liferay> or find a working ext plugin and compare
