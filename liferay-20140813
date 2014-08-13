@@ -59,3 +59,4 @@
 08:57 < hufg:#liferay> we had some trouble with theme plugin build-css option but the rest seemed alright
 08:59 < jardineworks:#liferay> hufg, for me its the ext
 08:59 < hufg:#liferay> mm
+09:00 < jardineworks:#liferay> hufg, the *-ext.xml file in the ROOT/WEB-INF folder, for starters, doesn't have my class listed in the <files/> node
