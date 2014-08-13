@@ -82,3 +82,4 @@
 10:18 < ArTeS:#liferay> it is not fail this is fail:
 10:18 < ArTeS:#liferay> F I A L
 10:56 < dawn:#liferay> bijoo_: hi there
+10:58 < dawn:#liferay> bijoo: i was trying to make LR as SAML IDP and having difficulty in sending attributes in SAML authentication response to SP.
