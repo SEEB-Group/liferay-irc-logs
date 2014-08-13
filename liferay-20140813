@@ -62,3 +62,4 @@
 09:00 < jardineworks:#liferay> hufg, the *-ext.xml file in the ROOT/WEB-INF folder, for starters, doesn't have my class listed in the <files/> node
 09:03 < jardineworks:#liferay> hufg, some suspicious output when I build -- check it out http://pastebin.com/XjXdAPf0
 09:04 < jardineworks:#liferay> right now I am just trying to get one class in the ext-impl to go out (for the moment)
+09:05 < hufg:#liferay> paste tree project-dir and pom.xml
