@@ -52,3 +52,4 @@
 08:54 < jardineworks:#liferay> ant = been around forever always works. maven (for lr) is still newish and buggy
 08:55 < hufg:#liferay> building lr or maven plugins?
 08:55 < jardineworks:#liferay> right now though I have an AWESOME situation. I have an EXT plugin that won't deploy ... well, it deploys, BUT my overriding class is not being seen or pushed in place of the OOTB class.
+08:55 < jardineworks:#liferay> really starting to piss me off.
