@@ -65,3 +65,4 @@
 09:05 < hufg:#liferay> paste tree project-dir and pom.xml
 09:07 < hufg:#liferay> don't really have a clue but you don't really need to use the lr plugin for ext-hook?
 09:08 < hufg:#liferay> for example theme plugin is mandatory to overlay the parent theme which would be tedious otherwise
+09:09 < hufg:#liferay> to overlay the parent theme into the actual theme
