@@ -2,3 +2,4 @@
 03:40 < hufg:#liferay> wazap hows it hanging
 04:34 < Axxell:#liferay> topolik: found the problem with assets not showing in the assetpublisher, where the assets had changed categoryids from my portlet... the problem was indexing, apparently AP only looks in the index so allthough everything was right, the assets would not show right away. Used AssetEntryLocalServiceUtil.reindex which did the trick
 08:35 < jardineworks:#liferay> hey topolik you there?
+08:35 < Yam`:#liferay> hey
