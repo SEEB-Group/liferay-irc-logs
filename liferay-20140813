@@ -69,3 +69,4 @@
 09:11 < jardineworks:#liferay> hufg, in my case I tried to do this with regular hooks but the changes I need to make run so deep that its just way easier to do it with an EXT. I am changing the EditInstanceAction for example .. I hooked the action to do most of what I wanted but one of the things you need to do when you create a new instance is PortalInstances.initCompany() which does all sorts of important stuff. I don;t have access to that class in the ho
 09:11 < jardineworks:#liferay> ok (its a portal-impl class) and the stuff it does I don't want to try to reproduce manually.
 09:11 < jardineworks:#liferay> one sec... I'll show you the pom and dir.
+09:13 < jardineworks:#liferay> http://pastebin.com/ciAp69ga
