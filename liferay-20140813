@@ -216,3 +216,4 @@
 20:48 < bijoo_:#liferay> java.lang.ProcessBuilder
 20:48 < gogamoga:#liferay> actually thats one hell of security flaw
 20:48 < bijoo_:#liferay> gogamoga: unless they are running in secure mode
+20:49 < gogamoga:#liferay> simple template can rape the whole portal
