@@ -144,3 +144,4 @@
 20:30 < bijoo_:#liferay> gogamoga: you on some DoD proj or something?
 20:30 < gogamoga:#liferay> all they do is create web content without template/structure (basically just copy paste into rich editor)
 20:30 < gogamoga:#liferay> and then clone this for every language
+20:31 < gogamoga:#liferay> and then when they need to adjust a class or some other value on elements they repeat the task for every locale
