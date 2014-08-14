@@ -136,3 +136,4 @@
 20:28 < gogamoga:#liferay> the hardest part was reaching java classes without service locator
 20:29 < bijoo_:#liferay> gogamoga: well seems using the class loader here
 20:29 < gogamoga:#liferay> yeah, at least this works
+20:29 < gogamoga:#liferay> and imho, it only works because the [Provider] company has no clue about it :P
