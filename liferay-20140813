@@ -169,3 +169,4 @@
 20:35 < gogamoga:#liferay> gonna make UI in angular that talks to my json gateways
 20:36 < gogamoga:#liferay> kind of extra layer on top of liferay
 20:36 < gogamoga:#liferay> jade for templates, stylus for css
+20:36 < gogamoga:#liferay> everything is stored in documents and media
