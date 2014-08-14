@@ -215,3 +215,4 @@
 20:48 < bijoo_:#liferay> gogamoga: you could write your own shell exec process.
 20:48 < bijoo_:#liferay> java.lang.ProcessBuilder
 20:48 < gogamoga:#liferay> actually thats one hell of security flaw
+20:48 < bijoo_:#liferay> gogamoga: unless they are running in secure mode
