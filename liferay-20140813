@@ -106,3 +106,4 @@
 16:55 < dawn:#liferay> bijoo_: i did take a look at the code and found that the entity id is a string and should match exactly
 16:55 < dawn:#liferay> bijoo_: i missed a "/" at the end :(
 20:16 < gogamoga:#liferay> https://gist.github.com/gogamoga/060f306029ce0080acf2
+20:16 < gogamoga:#liferay> fucking 10 hours of hacking to produce this shit
