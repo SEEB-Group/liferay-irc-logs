@@ -129,3 +129,4 @@
 20:26 < bijoo_:#liferay> gogamoga: wow, I see now, all are templates here
 20:27 < bijoo_:#liferay> structures and templates to make the whole thing
 20:27 < gogamoga:#liferay> basically, all that is at my disposal is structures, templates, and ddl
+20:27 < gogamoga:#liferay> so i need to implement json gateway in velocity omg
