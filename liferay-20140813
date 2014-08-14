@@ -171,3 +171,4 @@
 20:36 < gogamoga:#liferay> jade for templates, stylus for css
 20:36 < gogamoga:#liferay> everything is stored in documents and media
 20:36 < gogamoga:#liferay> and when the CMS dudes make new web content, the UI will compile it into the form that they are used to
+20:37 < bijoo_:#liferay> gogamoga: the JS Service API's okay; of course it is missing quite few methods
