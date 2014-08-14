@@ -135,3 +135,4 @@
 20:28 < bijoo_:#liferay> gogamoga: pretty tough constraints and interesting
 20:28 < gogamoga:#liferay> the hardest part was reaching java classes without service locator
 20:29 < bijoo_:#liferay> gogamoga: well seems using the class loader here
+20:29 < gogamoga:#liferay> yeah, at least this works
