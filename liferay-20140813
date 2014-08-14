@@ -229,3 +229,4 @@
 20:52 < bijoo_:#liferay> gogamoga: so a set of Utils to bridge that gap
 20:52 < gogamoga:#liferay> if i make vm templates which pull data out of ddl, will it impact perfomance (if i tick cached)
 20:53 < bijoo_:#liferay> gogamoga: no it shouldn't since DDL is cached; so context won't affect the performance
+20:53 < bijoo_:#liferay> gogamoga: whether calling from a VM or not.
