@@ -105,3 +105,4 @@
 16:54 < bijoo_:#liferay> dawn: that is if you have the env setup there; easiest way is to just step through code; often beats trying to guess what happened.
 16:55 < dawn:#liferay> bijoo_: i did take a look at the code and found that the entity id is a string and should match exactly
 16:55 < dawn:#liferay> bijoo_: i missed a "/" at the end :(
+20:16 < gogamoga:#liferay> https://gist.github.com/gogamoga/060f306029ce0080acf2
