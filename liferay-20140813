@@ -174,3 +174,4 @@
 20:37 < bijoo_:#liferay> gogamoga: the JS Service API's okay; of course it is missing quite few methods
 20:37 < gogamoga:#liferay> aka: no templates and no structures just chunks of markup into templates
 20:37 < gogamoga:#liferay> js service api is partial
+20:37 < gogamoga:#liferay> i was like WTF where is the method to pull all the records
