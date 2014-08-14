@@ -112,3 +112,4 @@
 20:23 < gogamoga:#liferay> i finally got my json feeds without touching serviceLocator settings
 20:23 < gogamoga:#liferay> crazy requirements here
 20:24 < bijoo_:#liferay> gogamoga: I once sepnt 3 days on SSO bug; collaborrated with folks over world (the phillipines and some other places) ; ended up needed to restart Windows (deleting hidden Cookies not enough)
+20:24 < gogamoga:#liferay> theres a certain company that builds their shit on liferay, and the company i work for is the client for that platform
