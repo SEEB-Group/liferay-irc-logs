@@ -134,3 +134,4 @@
 20:28 < gogamoga:#liferay> which is missing from liferay (default installation)
 20:28 < bijoo_:#liferay> gogamoga: pretty tough constraints and interesting
 20:28 < gogamoga:#liferay> the hardest part was reaching java classes without service locator
+20:29 < bijoo_:#liferay> gogamoga: well seems using the class loader here
