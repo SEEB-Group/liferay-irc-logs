@@ -178,3 +178,4 @@
 20:37 < gogamoga:#liferay> you can add records, remove records but not list them lol
 20:38 < gogamoga:#liferay> also, there are additional limitations to this shit
 20:38 < gogamoga:#liferay> the UI has to be firefox addon on top of everything :P
+20:39 < gogamoga:#liferay> user has to log into the liferay with admin priveleges, then firefox addon grabs the session and continues from there
