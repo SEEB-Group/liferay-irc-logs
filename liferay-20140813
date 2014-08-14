@@ -224,3 +224,4 @@
 20:50 < gogamoga:#liferay> at least with the components that come out of the box
 20:51 < gogamoga:#liferay> theres no bridge (no easy bridge) between web-content and ddl
 20:51 < gogamoga:#liferay> so basically this is what i am making here
+20:51 < bijoo_:#liferay> gogamoga: yes DDL's underrated right now; many places that it can be applied. Personally, I've only used few times; since DDLs have learning curve to them; but service builder has a lower curve.
