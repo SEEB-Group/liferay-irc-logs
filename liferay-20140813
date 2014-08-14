@@ -232,3 +232,4 @@
 20:53 < bijoo_:#liferay> gogamoga: whether calling from a VM or not.
 20:53 < gogamoga:#liferay> hmm, let me ask it this way: each time liferay wants to render web-content, (cached one)
 20:53 < gogamoga:#liferay> will it go and query the ddl or it will use cached render?
+20:55 < bijoo_:#liferay> gogamoga: even with cache should query DDL; but DDL util should have cache hit;
