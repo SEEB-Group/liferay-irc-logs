@@ -235,3 +235,4 @@
 20:55 < bijoo_:#liferay> gogamoga: even with cache should query DDL; but DDL util should have cache hit;
 20:55 < bijoo_:#liferay> gogamoga: which is what should happen with anything; unless the template is only static.
 20:55 < gogamoga:#liferay> ok, this might save me some pain
+20:55 < gogamoga:#liferay> well, its 4am
