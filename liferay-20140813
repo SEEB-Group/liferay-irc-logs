@@ -170,3 +170,4 @@
 20:36 < gogamoga:#liferay> kind of extra layer on top of liferay
 20:36 < gogamoga:#liferay> jade for templates, stylus for css
 20:36 < gogamoga:#liferay> everything is stored in documents and media
+20:36 < gogamoga:#liferay> and when the CMS dudes make new web content, the UI will compile it into the form that they are used to
