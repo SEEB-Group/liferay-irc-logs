@@ -2,3 +2,4 @@
 04:30 < Axxell:#liferay> Greetings fellow mamals, questiontime: How would i get which articles has the current page as its display page?
 05:00 < bijoo_:#liferay> Axxell: I don't have much time to help you with this; but perhaps I can guide you to find it. Have you check the source code that displays it?
 05:01 < bijoo_:#liferay> Axxell: if you follow that logic in reverse
+05:50 < Axxell:#liferay> bijoo_: actually found out how to do it
