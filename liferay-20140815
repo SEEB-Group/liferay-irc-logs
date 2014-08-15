@@ -4,3 +4,4 @@
 05:01 < bijoo_:#liferay> Axxell: if you follow that logic in reverse
 05:50 < Axxell:#liferay> bijoo_: actually found out how to do it
 05:50 < Axxell:#liferay> bijoo_: by using: JournalArticleServiceUtil.getArticlesByLayoutUuid
+18:45 < bwood:#liferay> has anyone used the liferay-alloyui-update-tool?
