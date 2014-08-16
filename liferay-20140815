@@ -6,3 +6,4 @@
 05:50 < Axxell:#liferay> bijoo_: by using: JournalArticleServiceUtil.getArticlesByLayoutUuid
 18:45 < bwood:#liferay> has anyone used the liferay-alloyui-update-tool?
 18:45 < bwood:#liferay> Does it work with a theme on a maven build?
+--- Log closed Sat Aug 16 00:00:00 2014
