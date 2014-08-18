@@ -1,2 +1,3 @@
 --- Log opened Sat Aug 16 00:00:00 2014
 04:20 < Reisi007:#liferay> Hi :) I am using liferay with vaadin, added a .jar file, which is a vaadin plugin and got an error "Unrendered UIDL" I have the Eclipse Vaadin Plugin, but I cannot recompile it, becuase it is not found. Any ideas?
+--- Log closed Sun Aug 17 00:00:01 2014
