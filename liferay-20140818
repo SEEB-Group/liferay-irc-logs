@@ -1,3 +1,4 @@
 --- Log opened Mon Aug 18 00:00:04 2014
 08:22 < sm`pid1:#liferay> hello
 08:22 < sm`pid1:#liferay> when i redeploy (auto-redeploy) portlet from liferay IDE (eclipse)
+08:23 < sm`pid1:#liferay> the tomcat configuration gets overwritten
