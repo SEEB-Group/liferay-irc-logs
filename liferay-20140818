@@ -8,3 +8,4 @@
 08:36 < sm`pid1:#liferay> got it
 08:37 < sm`pid1:#liferay> the eclipse use the server.xml and context.xml from the workspace/Servers/...
 11:21 < bwood:#liferay> how does one get bootrap drop down to work in liferay 6.2
+11:21 < bwood:#liferay> is there an alloyUI js equivilant?
