@@ -5,3 +5,4 @@
 08:23 < sm`pid1:#liferay> server.xml and context.xml
 08:23 < sm`pid1:#liferay> i have JNDI resources defined there so the portlet wont deploy correctly without them
 08:24 < sm`pid1:#liferay> any idea?
+08:36 < sm`pid1:#liferay> got it
