@@ -41,3 +41,4 @@
 14:43 -!- mode/#liferay [+o jhf] by ChanServ
 16:40 < jardineworks:#liferay> hey jhf -- I thought starting with 6.0 EXT plugins could be hot deployed? (after the initial restart)
 17:10 < bijoo_:#liferay> jardineworks: I'm back here; I haven't set it up.
+17:11 < jardineworks:#liferay> bijoo_, I suspect it doesn't work with EXT plugins somehow
