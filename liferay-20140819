@@ -26,3 +26,4 @@
 13:35 <@jhf:#liferay> but as I understand it, your ext jar file should be on the classpath so that it overrides the one in portal-impl
 13:35 <@jhf:#liferay> so if it ain’t in there, something perhaps wrong with the build?
 13:36 < jardineworks:#liferay> hmmm
+13:36 < jardineworks:#liferay> jhf, the output from ANT looks ok -- http://pastie.org/9486624
