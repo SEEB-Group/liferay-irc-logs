@@ -24,3 +24,4 @@
 13:35 <@jhf:#liferay> yeah then it’s not gonna work
 13:35 <@jhf:#liferay> I’ve never played with EXT
 13:35 <@jhf:#liferay> but as I understand it, your ext jar file should be on the classpath so that it overrides the one in portal-impl
+13:35 <@jhf:#liferay> so if it ain’t in there, something perhaps wrong with the build?
