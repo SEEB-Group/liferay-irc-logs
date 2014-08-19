@@ -22,3 +22,4 @@
 13:34 < jardineworks:#liferay> 		<file>ext-impl/classes/com/liferay/portlet/admin/action/EditInstanceAction.class</file>
 13:34 < jardineworks:#liferay> jhf, but when I go to the TOMCAT_HOME/lib/ext, my ext-*.jar is empty -- just a META-INF folder :S
 13:35 <@jhf:#liferay> yeah then it’s not gonna work
+13:35 <@jhf:#liferay> I’ve never played with EXT
