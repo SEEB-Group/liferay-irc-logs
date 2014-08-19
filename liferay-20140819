@@ -18,3 +18,4 @@
 13:30 < jardineworks:#liferay> :)
 13:32 <@jhf:#liferay> no that sounds right - did you restart after deploy?
 13:33 < jardineworks:#liferay> jhf, I did
+13:34 < jardineworks:#liferay> and I can see in the WEB-INF the *-ext.xml file ... and inside it
