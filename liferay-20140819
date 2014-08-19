@@ -20,3 +20,4 @@
 13:33 < jardineworks:#liferay> jhf, I did
 13:34 < jardineworks:#liferay> and I can see in the WEB-INF the *-ext.xml file ... and inside it
 13:34 < jardineworks:#liferay> 		<file>ext-impl/classes/com/liferay/portlet/admin/action/EditInstanceAction.class</file>
+13:34 < jardineworks:#liferay> jhf, but when I go to the TOMCAT_HOME/lib/ext, my ext-*.jar is empty -- just a META-INF folder :S
