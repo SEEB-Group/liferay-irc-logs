@@ -53,3 +53,4 @@
 17:30 < bwood:#liferay> 		<liferay.maven.plugin.version>6.2.10.8</liferay.maven.plugin.version>
 17:39 < bijoo_:#liferay> bwood: okay; what's the issue you are facing?
 17:41 < bwood:#liferay> I've installed the maven dependencies
+17:41 < bwood:#liferay> in the pom.xml of the theme I'm building I am setting those variables above
