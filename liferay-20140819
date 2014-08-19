@@ -29,3 +29,4 @@
 13:36 < jardineworks:#liferay> jhf, the output from ANT looks ok -- http://pastie.org/9486624
 13:36 < jardineworks:#liferay> no errors
 13:36 < jardineworks:#liferay> but the compile java is blank
+13:37 < jardineworks:#liferay> probably should show the class name in there I imagine
