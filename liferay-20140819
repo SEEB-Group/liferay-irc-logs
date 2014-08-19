@@ -51,3 +51,4 @@
 17:17 < bijoo_:#liferay> that*
 17:30 < bwood:#liferay> I'm trying to set up these two settings in my pom.xml 		<liferay.version>6.2.10.6</liferay.version>
 17:30 < bwood:#liferay> 		<liferay.maven.plugin.version>6.2.10.8</liferay.maven.plugin.version>
+17:39 < bijoo_:#liferay> bwood: okay; what's the issue you are facing?
