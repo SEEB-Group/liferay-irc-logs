@@ -15,3 +15,4 @@
 13:25 < jardineworks:#liferay> I am trying to write an EXT plugin that will make some changes to the EditInstancesAction class. I can't use a struts action (believe me I tried!) so I am stuck with EXT. For some reason though, my class override in the ext doesn't seem to be taking -- it keeps executing the one in the portal-impl.jar. I am placing the class in the ext-impl folder -- is that the wrong place?
 13:30 < jardineworks:#liferay> topolik, jhf -- any ideas?
 13:30 < jardineworks:#liferay> bijoo, maybe?
+13:30 < jardineworks:#liferay> :)
