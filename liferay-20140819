@@ -55,3 +55,4 @@
 17:41 < bwood:#liferay> I've installed the maven dependencies
 17:41 < bwood:#liferay> in the pom.xml of the theme I'm building I am setting those variables above
 17:41 < bwood:#liferay> and I get an error when I try to build it
+17:42 < bwood:#liferay> what is the latest version of liferay and maven plugin
