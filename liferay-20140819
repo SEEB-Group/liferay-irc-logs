@@ -32,3 +32,4 @@
 13:37 < jardineworks:#liferay> probably should show the class name in there I imagine
 13:38 < jardineworks:#liferay> ... why does this feel familiar... hmmm
 13:44 <@jhf:#liferay> well I just built a “hello world” ext with that particular class, and ‘ant war’ resulted in a war file with my compiled class in it
+13:45 <@jhf:#liferay> sooooo…. perhaps the name of the class is wrong, or the directory name, or something?
