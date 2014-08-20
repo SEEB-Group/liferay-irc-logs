@@ -20,3 +20,4 @@
 05:54 < twen:#liferay> Hello
 05:54 < twen:#liferay> we are building a Liferay + alfresco system.
 05:55 < twen:#liferay> Our provider is telling us that using Alfresco will limit the power of lifery in the document management, because liferay is not able to send metadata (from document type) to alfresco through CMIS
+05:55 < twen:#liferay> is that real ?
