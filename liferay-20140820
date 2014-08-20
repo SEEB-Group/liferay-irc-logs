@@ -27,3 +27,4 @@
 07:07 < maleen:#liferay> Hii
 07:09 < maleen:#liferay> ss
 11:34 < aqquadro:#liferay> hi there, anyone as tried to setup a customizable page, on 6.2ga2, with the user able to add an application to the customizable section of the page?
+11:42 < aqquadro:#liferay> because I've tried but the user was unable to add application with the normal "add to page" permission defined in a site role
