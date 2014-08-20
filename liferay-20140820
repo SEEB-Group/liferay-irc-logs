@@ -31,3 +31,4 @@
 12:49 < bwood:#liferay> is there a good guide for setting up maven development environment for liferay 6.2?
 12:52 < jardineworks:#liferay> bijoo, fyi -- that link you found yesteerday for JRebel with EXT didn't work. And it turns out that ZT support is useless.
 16:19 < jardineworks:#liferay> LOL
+16:19 < jardineworks:#liferay> I love developers language sometimes -- "<c:when test="<%= PortalUtil.isLayoutFriendliable(selLayout) %>">"
