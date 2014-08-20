@@ -22,3 +22,4 @@
 05:55 < twen:#liferay> Our provider is telling us that using Alfresco will limit the power of lifery in the document management, because liferay is not able to send metadata (from document type) to alfresco through CMIS
 05:55 < twen:#liferay> is that real ?
 05:56 < twen:#liferay> this is for us a big drawback, and we need to consider alternatives :-/
+05:56 < twen:#liferay> Has anybody a view on his ? I thouht liferay
