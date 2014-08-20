@@ -30,3 +30,4 @@
 11:42 < aqquadro:#liferay> because I've tried but the user was unable to add application with the normal "add to page" permission defined in a site role
 12:49 < bwood:#liferay> is there a good guide for setting up maven development environment for liferay 6.2?
 12:52 < jardineworks:#liferay> bijoo, fyi -- that link you found yesteerday for JRebel with EXT didn't work. And it turns out that ZT support is useless.
+16:19 < jardineworks:#liferay> LOL
