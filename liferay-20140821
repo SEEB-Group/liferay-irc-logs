@@ -17,3 +17,4 @@
 12:49 < jardineworks:#liferay> jhf, I am working on the localized virtualhost name thing. I'm not a surgeon, but it feels a lot like open heart surgery at the moment :). I have a few things cooking now and I am about to reroute some arteries. The LayoutSet, is that the model for the "site template"?
 12:51 < jardineworks:#liferay> hmmm
 12:51 < jardineworks:#liferay> "Each layout is a member of layout set (com.liferay.portal.model.LayoutSet). A layout set represents a group of layout pages, and thus a layout set can be thought of as a "web site", or more specifically, a "portal instance." Since each user has a private group associated with them, this allows each individual user to maintain their own custom portal."
+12:51 < jardineworks:#liferay> so then why is the layout set always 0?
