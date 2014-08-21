@@ -33,3 +33,4 @@
 16:19 < jardineworks:#liferay> LOL
 16:19 < jardineworks:#liferay> I love developers language sometimes -- "<c:when test="<%= PortalUtil.isLayoutFriendliable(selLayout) %>">"
 16:19 < jardineworks:#liferay> Friendliable :)
+--- Log closed Thu Aug 21 00:00:17 2014
