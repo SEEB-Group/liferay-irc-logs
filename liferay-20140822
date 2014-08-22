@@ -29,3 +29,4 @@
 15:58 -!- mode/#liferay [+o jhf] by ChanServ
 18:25 < bijoo_:#liferay> maleen I just saw it when you mentioned it now; it seems it has a specific use case; when a prim key's removed from composite.
 18:25 < bijoo_:#liferay> maleen his interface method impl calls it: com.liferay.portal.service.persistence.impl.TableMapper.addTableMapping(long, long)
+18:26 < bijoo_:#liferay> "Adds an association between the organization and the groups. Also notifies the appropriate model listeners and clears the mapping table finder cache."
