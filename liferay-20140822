@@ -28,3 +28,4 @@
 14:44 -!- mode/#liferay [+o jhf] by ChanServ
 15:58 -!- mode/#liferay [+o jhf] by ChanServ
 18:25 < bijoo_:#liferay> maleen I just saw it when you mentioned it now; it seems it has a specific use case; when a prim key's removed from composite.
+18:25 < bijoo_:#liferay> maleen his interface method impl calls it: com.liferay.portal.service.persistence.impl.TableMapper.addTableMapping(long, long)
