@@ -35,3 +35,4 @@
 18:27 < bijoo_:#liferay> maleen http://pastebin.com/76iSsKW9
 18:27 < bijoo_:#liferay> maleen here are instances where it is used
 18:28 < bijoo_:#liferay> Jadobi: hi, is it passed as a parameter?
+18:30 < bijoo_:#liferay> Jadobi: com.liferay.portal.servlet.filters.sso.cas.CASFilter.processFilter(HttpServletRequest, HttpServletResponse, FilterChain)
