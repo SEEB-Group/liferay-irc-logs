@@ -31,3 +31,4 @@
 18:25 < bijoo_:#liferay> maleen his interface method impl calls it: com.liferay.portal.service.persistence.impl.TableMapper.addTableMapping(long, long)
 18:26 < bijoo_:#liferay> "Adds an association between the organization and the groups. Also notifies the appropriate model listeners and clears the mapping table finder cache."
 18:26 < bijoo_:#liferay> com.liferay.portal.service.persistence.OrganizationPersistenceImpl.addGroups(long, List<Group>)
+18:26 < bijoo_:#liferay> So it's used where tight coupling assets.
