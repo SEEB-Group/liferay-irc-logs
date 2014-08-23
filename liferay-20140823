@@ -15,3 +15,4 @@
 10:48 < Jadobi:#liferay> How to remove self defined categories(Server Administration -> LogLevel -> Add Category)?
 10:53 < Jadobi:#liferay> In Liferay 6.2
 11:35 < Jadobi:#liferay> Ok solved ... after restating the server there gone ^^
+18:30 < Jadobi:#liferay> Hi, did anyone know if it's possible to read session variables in a portlet set by an ext-plugin in Liferay 6.2 CE? I set the session variable with "LIFERAY_SHARED_MY_VAR" in the ext-plugin(it's an replacement of CASAutoLogin) and tried reading it in a portlet with "portletSession.getAttribute("LIFERAY_SHARED_MY_VAR", PortletSession.APPLICATION_SCOPE)" but it's always NULL. I also set "<private-session-attributes>false</privat
