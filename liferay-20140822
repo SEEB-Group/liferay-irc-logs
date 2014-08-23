@@ -38,3 +38,5 @@
 18:30 < bijoo_:#liferay> Jadobi: com.liferay.portal.servlet.filters.sso.cas.CASFilter.processFilter(HttpServletRequest, HttpServletResponse, FilterChain)
 18:31 < bijoo_:#liferay> Jadobi: seems it's passed as parameter 'ticket' ; I'd alter filter to add attribute
 18:31 < bijoo_:#liferay> Jadobi: that way it'll be portlet accessible
+22:01 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Sat Aug 23 00:00:29 2014
