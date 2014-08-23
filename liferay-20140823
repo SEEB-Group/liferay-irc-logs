@@ -13,3 +13,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 08:49 < Jadobi:#liferay> Hi, i have problems retrieving a global session variable in a portlet. In my modified CASAutoLogin class i'm putting a variable in the session like so "session.setAttribute("LIFERAY_SHARED_CAS_ASSERTION", assertion); ". Now in a portlet i want to read this variable with "portletSession.getAttribute("LIFERAY_SHARED_CAS_ASSERTION", PortletSession.APPLICATION_SCOPE);" but it's always NULL. I have debugged my CASAutoLogin class an
 10:48 < Jadobi:#liferay> How to remove self defined categories(Server Administration -> LogLevel -> Add Category)?
+10:53 < Jadobi:#liferay> In Liferay 6.2
