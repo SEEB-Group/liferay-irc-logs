@@ -11,3 +11,5 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 7 secs
 09:12 < noctua_:#liferay> How can i get the Databaseconnection direkt from the portal. Not by retype the data with DriverManager.getConnection()
+09:33 -!- mode/#liferay [+o jhf] by ChanServ
+09:34 <@jhf:#liferay> 25 minutes to showtime https://www.liferay.com/community/dev.life/home
