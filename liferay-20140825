@@ -21,3 +21,4 @@
 20:57 < scribe:#liferay> And I can't get them to work in Liferay 6.2.
 20:58 < scribe:#liferay> I keep getting: {"exception":"com.liferay.portal.security.auth.PrincipalException"}
 20:58 < scribe:#liferay> Any ideas?
+20:58 < scribe:#liferay> I get the same exact error when I use the jsonws browser
