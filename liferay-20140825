@@ -19,3 +19,4 @@
 20:57 < scribe:#liferay> (We're running 6.1 right now)
 20:57 < scribe:#liferay> We have an application which integrates to liferay via the jsonws.
 20:57 < scribe:#liferay> And I can't get them to work in Liferay 6.2.
+20:58 < scribe:#liferay> I keep getting: {"exception":"com.liferay.portal.security.auth.PrincipalException"}
