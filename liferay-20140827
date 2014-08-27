@@ -18,3 +18,4 @@
 07:40 < Axxell:#liferay> when using CAS, i want to have files which are public on an intranet site. What i need is not to be redirected to CAS autologin site when the file is visible for everybody... this does not happen.. it does not matter if there is a need for login or not you are redirected to CAS
 08:22 < Yam`:#liferay> hello :)
 09:34 < Yam`:#liferay> What's the difference between the render, doView and include methods in a portlet java class? In which one should I do my code (e.g.: retrieve data from database)?
+15:34 < bijoo_:#liferay> Yam` they correspond to portlet lifecycle
