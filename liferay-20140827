@@ -28,3 +28,4 @@
 19:20 < scribe:#liferay> When I look at document.cookie I get only 2: SCREEN_NAME and LFR_SESSION_STATE
 19:23 < scribe:#liferay> OK, how about this one:
 19:24 < scribe:#liferay> I simply cannot access the jsonws services anymore.  I get a securityprinciple exception always.  Even from the jsonws api browser included with liferay
+19:49 < scribe:#liferay> ok, it seems like liferay is changing all my cookies to be httponly which prevents me from accessing them from javascript.
