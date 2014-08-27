@@ -21,3 +21,4 @@
 15:34 < bijoo_:#liferay> Yam` they correspond to portlet lifecycle
 15:35 < bijoo_:#liferay> Yam` think of them as HTTP GET, POST; render is like the GET, POST like action. Though encourage you to read portlet spec.
 15:36 < bijoo_:#liferay> Axxell ".. tried to escape those but nope.. anybody having this problem?" not sure what you mean; what's an example?
+15:40 < bijoo_:#liferay> Axxell for the CAS question, here is my take: CAS Filter is used to authenticate; I don't see any authorizations; so it depends where the resource is placed; if in a private site, then needs login; so the CAS Filter comes to work here; though if on public , it should be fine; since default lets Guest to view the resource.
