@@ -25,3 +25,4 @@
 19:18 < scribe:#liferay> Hey guys.  Has anyone updgraded to 6.2 and might answer some questions for me?  I'm having all kinds of issue with 6.2.  We're trying to evaluate a move from 6.1
 19:19 < scribe:#liferay> Right now, I'm not able to obtain expected cookies from JavaScript.  Is Liferay deleting cookies on page init or something?
 19:19 < scribe:#liferay> When I look in my browser debugger, I see all the cookies I would expect.
+19:20 < scribe:#liferay> When I look at document.cookie I get only 2: SCREEN_NAME and LFR_SESSION_STATE
