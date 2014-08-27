@@ -20,3 +20,4 @@
 09:34 < Yam`:#liferay> What's the difference between the render, doView and include methods in a portlet java class? In which one should I do my code (e.g.: retrieve data from database)?
 15:34 < bijoo_:#liferay> Yam` they correspond to portlet lifecycle
 15:35 < bijoo_:#liferay> Yam` think of them as HTTP GET, POST; render is like the GET, POST like action. Though encourage you to read portlet spec.
+15:36 < bijoo_:#liferay> Axxell ".. tried to escape those but nope.. anybody having this problem?" not sure what you mean; what's an example?
