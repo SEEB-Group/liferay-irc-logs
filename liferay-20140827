@@ -26,3 +26,4 @@
 19:19 < scribe:#liferay> Right now, I'm not able to obtain expected cookies from JavaScript.  Is Liferay deleting cookies on page init or something?
 19:19 < scribe:#liferay> When I look in my browser debugger, I see all the cookies I would expect.
 19:20 < scribe:#liferay> When I look at document.cookie I get only 2: SCREEN_NAME and LFR_SESSION_STATE
+19:23 < scribe:#liferay> OK, how about this one:
