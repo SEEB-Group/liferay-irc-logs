@@ -40,3 +40,4 @@
 09:40 <@jhf:#liferay> to make a guest-access JSON web service in a plugin, you must do two things:
 09:40 <@jhf:#liferay> 1. declare in portal-ext.properties which paths should not be CSRF-protected (i.e. not require the p_auth token)
 09:41 <@jhf:#liferay> 2. Annotate your web service implementation methods with @AccessControlled(guestAccessEnabled = true)
+09:41 < modd_:#liferay> Yam`: create jsps for the content you want to reload
