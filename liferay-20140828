@@ -79,3 +79,4 @@
 10:01 < modd_:#liferay> but maybe it's just me
 11:47 < bijoo_:#liferay> Axxell seems it's issue when including in theme: https://issues.liferay.com/browse/LPS-45867?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel
 11:49 < bijoo_:#liferay> Axxell this issue is fixed in the following: https://github.com/ealonso/liferay-portal/pull/167/files#diff-e91042b02c2732ef91ff2587615ba7b8R45
+11:50 < bijoo_:#liferay> Axxell I'll look into CAS issue later on ;)
