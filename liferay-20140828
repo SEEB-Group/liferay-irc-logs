@@ -31,3 +31,4 @@
 09:36 < modd_:#liferay> hey jhf, seeing your ajax blog entries you have to be the webservice guru of liferay, I need you ;)
 09:37 < modd_:#liferay> is it possible to allow to use the webservices of my own portlet without login while all the other liferay services still need an authenticated user?
 09:38 <@jhf:#liferay> modd_: funny you should ask. the answer is yes, as there is a dev.life session a week from tuesday (sept 9) that covers this very topic!!
+09:39 < modd_:#liferay> :D
