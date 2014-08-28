@@ -36,3 +36,4 @@
 09:39 <@jhf:#liferay> also this forum post might help: https://www.liferay.com/community/forums/-/message_boards/message/37091246
 09:40 <@jhf:#liferay> (see my response on april 23)
 09:40 < Yam`:#liferay> <modd_> depends...usually I would use one portlet and reload stuff with ajax requests > do you know a tutorial or an example on which I can take inspiration from?
+09:40 < modd_:#liferay> currently I'm struggeling with an service specification, which I have to make work in liferay
