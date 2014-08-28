@@ -45,3 +45,4 @@
 09:42 < modd_:#liferay> I don't have any local services at all :\
 09:43 < modd_:#liferay> it's kind of strange
 09:43 < Yam`:#liferay> modd_, but doing one portlet is the best way to do it?
+09:43 < modd_:#liferay> the authentification is a key, which is send as post parameter
