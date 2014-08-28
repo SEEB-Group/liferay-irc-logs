@@ -48,3 +48,4 @@
 09:43 < modd_:#liferay> the authentification is a key, which is send as post parameter
 09:43 < modd_:#liferay> Yam`: it's less work
 09:43 < modd_:#liferay> especially if you don't need any IPC, which sometimes is pretty ugly
+09:43 < Yam`:#liferay> is it cleaner to do two portlets?
