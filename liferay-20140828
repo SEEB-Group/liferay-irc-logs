@@ -61,3 +61,4 @@
 09:50 < modd_:#liferay> A.io.request('<%=viewContentURL %>',{method: 'POST',data: {param:val,param2:val2},on: {success: function() {var message = this.get('responseData');A.one('#idOfTheDivWhichContainsTheContent').html(message)}});
 09:52 < modd_:#liferay> and in your backend class create a method public void serveResource(ResourceRequest resourceRequest, ResourceResponse resourceResponse)
 09:52 < modd_:#liferay> then simply: if (action.equals("view_content")) {include("/html/" + action + ".jsp", resourceRequest, resourceResponse, PortletRequest.RESOURCE_PHASE);}
+09:53 < modd_:#liferay> this will render the jsp with your parameters and give you the html output
