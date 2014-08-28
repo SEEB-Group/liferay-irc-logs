@@ -43,3 +43,4 @@
 09:41 < modd_:#liferay> Yam`: create jsps for the content you want to reload
 09:41 <@jhf:#liferay> also, in the methods that are annotated, if you call into a non-XXXXLocalServiceUtil class, it’ll fail, so be sure to check permissions and then call XXXXLocalServiceUtil
 09:42 < modd_:#liferay> I don't have any local services at all :\
+09:43 < modd_:#liferay> it's kind of strange
