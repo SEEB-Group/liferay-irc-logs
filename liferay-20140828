@@ -17,3 +17,4 @@
 06:25 -!- mode/#liferay [+o jhf] by ChanServ
 07:49 < Axxell:#liferay> bijoo: about the question from yesterday: the search portlet creates urls which have "&" character in it, when it should be "&amp;". Tried to use htmlutil to escape the url, but the search portlet stopped working. The searchportlet is embedded in my theme with $theme.search();
 07:52 < Axxell:#liferay> bijoo: Question nr2 about cas: Cas tries to authenticate user even if file is available for all on the public site.. the url to the file is not taking in account where it is, its like: "https://xxx.xxxxx.xx/documents/52239/6350057/xxxx.docx/19016d16-d1e6-45b0-b526-9fde0027481e"
+07:53 < Axxell:#liferay> bijoo: there is a portal setting to have ignore paths for cas autologin, but that would be kinda bad..
