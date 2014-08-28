@@ -14,3 +14,5 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 7 secs
 03:28 < topolik:#liferay> scribe: in case you browse old logs, the property you are looking for is: cookie.http.only.names.excludes
+06:25 -!- mode/#liferay [+o jhf] by ChanServ
+07:49 < Axxell:#liferay> bijoo: about the question from yesterday: the search portlet creates urls which have "&" character in it, when it should be "&amp;". Tried to use htmlutil to escape the url, but the search portlet stopped working. The searchportlet is embedded in my theme with $theme.search();
