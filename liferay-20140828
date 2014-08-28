@@ -64,3 +64,4 @@
 09:53 < modd_:#liferay> this will render the jsp with your parameters and give you the html output
 09:53 < modd_:#liferay> which will be written in the div in your frontend
 09:53 < modd_:#liferay> everything without any page reload
+09:53 < Yam`:#liferay>  I keep somewhere that and I'll consider it when I write my portlet, thanks :)
