@@ -47,3 +47,4 @@
 09:43 < Yam`:#liferay> modd_, but doing one portlet is the best way to do it?
 09:43 < modd_:#liferay> the authentification is a key, which is send as post parameter
 09:43 < modd_:#liferay> Yam`: it's less work
+09:43 < modd_:#liferay> especially if you don't need any IPC, which sometimes is pretty ugly
