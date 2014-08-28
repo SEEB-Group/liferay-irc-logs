@@ -38,3 +38,4 @@
 09:40 < Yam`:#liferay> <modd_> depends...usually I would use one portlet and reload stuff with ajax requests > do you know a tutorial or an example on which I can take inspiration from?
 09:40 < modd_:#liferay> currently I'm struggeling with an service specification, which I have to make work in liferay
 09:40 <@jhf:#liferay> to make a guest-access JSON web service in a plugin, you must do two things:
+09:40 <@jhf:#liferay> 1. declare in portal-ext.properties which paths should not be CSRF-protected (i.e. not require the p_auth token)
