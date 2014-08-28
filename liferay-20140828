@@ -80,3 +80,9 @@
 11:47 < bijoo_:#liferay> Axxell seems it's issue when including in theme: https://issues.liferay.com/browse/LPS-45867?page=com.atlassian.jira.plugin.system.issuetabpanels:all-tabpanel
 11:49 < bijoo_:#liferay> Axxell this issue is fixed in the following: https://github.com/ealonso/liferay-portal/pull/167/files#diff-e91042b02c2732ef91ff2587615ba7b8R45
 11:50 < bijoo_:#liferay> Axxell I'll look into CAS issue later on ;)
+13:14 -!- mode/#liferay [+o jhf] by ChanServ
+13:49 -!- mode/#liferay [+o jhf] by ChanServ
+14:03 -!- mode/#liferay [+o jhf] by ChanServ
+14:12 -!- mode/#liferay [+o _jhf_] by ChanServ
+15:05 -!- mode/#liferay [+o _jhf_] by ChanServ
+16:23 < jardineworks:#liferay> hey jhf  I have a suggestion for the forums on Liferay.com. You know across the top when you are logged in there is a "my posts", "recent posts" etc. I think there should be a button for "unanswered" posts with the logic being any post that has just 1 as a reply count.
