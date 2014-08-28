@@ -59,3 +59,4 @@
 09:48 < modd_:#liferay> later you have to create onXXX events like onClick to your elements to reload the other part of the portlet
 09:48 < modd_:#liferay> this you can do simply by alloy requests like this:
 09:50 < modd_:#liferay> A.io.request('<%=viewContentURL %>',{method: 'POST',data: {param:val,param2:val2},on: {success: function() {var message = this.get('responseData');A.one('#idOfTheDivWhichContainsTheContent').html(message)}});
+09:52 < modd_:#liferay> and in your backend class create a method public void serveResource(ResourceRequest resourceRequest, ResourceResponse resourceResponse)
