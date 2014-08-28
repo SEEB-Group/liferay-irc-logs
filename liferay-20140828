@@ -76,3 +76,4 @@
 09:59 < modd_:#liferay> it's just a simple mvcportlet
 10:00 < modd_:#liferay> so, back to the problem I have: <modd_> btw: I have some issues with using the dllapp addfileentry method in .../api/jsonws (the one with the File parameter, not byte[])
 10:01 < modd_:#liferay> I think it doesn't work because the file doesn't get uploaded and so the parameter is missing and it cannot find the service method
+10:01 < modd_:#liferay> but maybe it's just me
