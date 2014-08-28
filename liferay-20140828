@@ -26,3 +26,4 @@
 09:30 < modd_:#liferay> well, check your call for paper-registrations for the devcon ;)
 09:32 <@jhf:#liferay> lol.. awesome :) I’ll get you set up with registration via email
 09:32 < modd_:#liferay> ;)
+09:34 < Yam`:#liferay> If I want to do a page with a list of demands (displayed in a table on the left) and another table on the right with the details of one of that demand, that changes when I click a demand at the left, should I do one portlet with both things or two portlets that communicate?
