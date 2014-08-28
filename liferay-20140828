@@ -29,3 +29,4 @@
 09:34 < Yam`:#liferay> If I want to do a page with a list of demands (displayed in a table on the left) and another table on the right with the details of one of that demand, that changes when I click a demand at the left, should I do one portlet with both things or two portlets that communicate?
 09:35 < modd_:#liferay> depends...usually I would use one portlet and reload stuff with ajax requests
 09:36 < modd_:#liferay> hey jhf, seeing your ajax blog entries you have to be the webservice guru of liferay, I need you ;)
+09:37 < modd_:#liferay> is it possible to allow to use the webservices of my own portlet without login while all the other liferay services still need an authenticated user?
