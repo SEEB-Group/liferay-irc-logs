@@ -63,3 +63,4 @@
 09:52 < modd_:#liferay> then simply: if (action.equals("view_content")) {include("/html/" + action + ".jsp", resourceRequest, resourceResponse, PortletRequest.RESOURCE_PHASE);}
 09:53 < modd_:#liferay> this will render the jsp with your parameters and give you the html output
 09:53 < modd_:#liferay> which will be written in the div in your frontend
+09:53 < modd_:#liferay> everything without any page reload
