@@ -50,3 +50,4 @@
 09:43 < modd_:#liferay> especially if you don't need any IPC, which sometimes is pretty ugly
 09:43 < Yam`:#liferay> is it cleaner to do two portlets?
 09:44 < modd_:#liferay> if these portlets may work without each other, than yes
+09:44 < modd_:#liferay> jhf: I'll try it, hopefully it will do what I need
