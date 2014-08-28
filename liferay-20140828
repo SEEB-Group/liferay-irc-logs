@@ -41,3 +41,4 @@
 09:40 <@jhf:#liferay> 1. declare in portal-ext.properties which paths should not be CSRF-protected (i.e. not require the p_auth token)
 09:41 <@jhf:#liferay> 2. Annotate your web service implementation methods with @AccessControlled(guestAccessEnabled = true)
 09:41 < modd_:#liferay> Yam`: create jsps for the content you want to reload
+09:41 <@jhf:#liferay> also, in the methods that are annotated, if you call into a non-XXXXLocalServiceUtil class, it’ll fail, so be sure to check permissions and then call XXXXLocalServiceUtil
