@@ -51,3 +51,4 @@
 09:43 < Yam`:#liferay> is it cleaner to do two portlets?
 09:44 < modd_:#liferay> if these portlets may work without each other, than yes
 09:44 < modd_:#liferay> jhf: I'll try it, hopefully it will do what I need
+09:45 <@jhf:#liferay> also topolik will be the presenter at the next dev.life and also wrote a good blog post on this subject: https://www.liferay.com/web/tomas.polesovsky/blog/-/blogs/json-ws-security
