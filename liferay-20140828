@@ -55,3 +55,4 @@
 09:45 < modd_:#liferay> btw: I have some issues with using the dllapp addfileentry method in .../api/jsonws (the one with the File parameter, not byte[])
 09:46 < Yam`:#liferay> ok thanks modd_
 09:47 < modd_:#liferay> anyway Yam`, in one portlet you would create a jsp for the content you want to reload and then do this: <portlet:resourceURL var="viewContentURL"><portlet:param name="action" value="view_content"/></portlet:resourceURL>
+09:47 < modd_:#liferay> the portlet param is optional but may be usefull if you have more than one resource request
