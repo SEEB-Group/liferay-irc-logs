@@ -57,3 +57,4 @@
 09:47 < modd_:#liferay> anyway Yam`, in one portlet you would create a jsp for the content you want to reload and then do this: <portlet:resourceURL var="viewContentURL"><portlet:param name="action" value="view_content"/></portlet:resourceURL>
 09:47 < modd_:#liferay> the portlet param is optional but may be usefull if you have more than one resource request
 09:48 < modd_:#liferay> later you have to create onXXX events like onClick to your elements to reload the other part of the portlet
+09:48 < modd_:#liferay> this you can do simply by alloy requests like this:
