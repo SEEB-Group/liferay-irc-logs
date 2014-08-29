@@ -22,3 +22,4 @@
 09:20 < jardineworks_:#liferay> Then in that JS you could probably use alloy ui to create an action
 09:20 < Yam`:#liferay> I can call the java process action with JS?
 09:22 < jardineworks_:#liferay> Yam`, sure -- if you look at what a <portlet:actionURL/> produces, it's just a url :)
+09:23 < jardineworks_:#liferay> In fact, you could even create a <portlet:actioURL/> and then pass it as an argument to the JS call and then just call it -- that way you don't have to build it in the JS.
