@@ -13,3 +13,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 08:54 < Yam`:#liferay> yo !
 09:10 < Yam`:#liferay> is there a way to make en entire search container row clickable, that leads to process action in the java main class?
+09:11 < Yam`:#liferay> I've found how to make a cell clickable (search-container-column-text) but I would like the whole row to be clickable
