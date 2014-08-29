@@ -26,3 +26,4 @@
 09:24 < Yam`:#liferay> mhh, how do I link the div and the portlet action ?
 09:25 < jardineworks_:#liferay> Yam`, well, first, google for a tutorial on how to register a click event for a div (if you don't already know how to do that)... and then try it and make sure it works (just do an alert("made it!"); or something for your callback)
 09:25 < jardineworks_:#liferay> then create the actionURL as a next step and make sure it looks right
+09:25 < jardineworks_:#liferay> hmmm
