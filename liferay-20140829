@@ -17,3 +17,4 @@
 09:18 < jardineworks_:#liferay> Yam`, what happens if you wrap the <search-container:row/> tag with an <div/> tag and then give that div a click event?
 09:19 < Yam`:#liferay> jardineworks_, how do I define a click event in jsp that links to my process action
 09:19 < Yam`:#liferay> ?*
+09:20 < jardineworks_:#liferay> hmm
