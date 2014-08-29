@@ -24,3 +24,4 @@
 09:22 < jardineworks_:#liferay> Yam`, sure -- if you look at what a <portlet:actionURL/> produces, it's just a url :)
 09:23 < jardineworks_:#liferay> In fact, you could even create a <portlet:actioURL/> and then pass it as an argument to the JS call and then just call it -- that way you don't have to build it in the JS.
 09:24 < Yam`:#liferay> mhh, how do I link the div and the portlet action ?
+09:25 < jardineworks_:#liferay> Yam`, well, first, google for a tutorial on how to register a click event for a div (if you don't already know how to do that)... and then try it and make sure it works (just do an alert("made it!"); or something for your callback)
