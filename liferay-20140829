@@ -28,3 +28,4 @@
 09:25 < jardineworks_:#liferay> then create the actionURL as a next step and make sure it looks right
 09:25 < jardineworks_:#liferay> hmmm
 09:26 < jardineworks_:#liferay> wait, registered callbacks are implicitly called so I guess you can't pass the argument. I think you will have to build the URL in the JS
+09:28 < Yam`:#liferay> "then create the actionURL as a next step and make sure it looks right" that's that that I don't know how to do
