@@ -35,3 +35,4 @@
 09:47 < jardineworks_:#liferay> Yam`, the way you do it between 6.1 and 6.2 changed ... so make sure you give that page a good read. I can see references to both.
 09:48 < Yam`:#liferay> thanks jardineworks_
 12:04 < cignivia:#liferay> any one has experience with Websphere eXtreme scale with liferay
+12:05 < cignivia:#liferay> my client seems to be locked in with eXtreme scale for caching and wants us to use with liferay
