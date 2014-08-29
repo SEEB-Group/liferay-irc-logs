@@ -19,3 +19,4 @@
 09:19 < Yam`:#liferay> ?*
 09:20 < jardineworks_:#liferay> hmm
 09:20 < jardineworks_:#liferay> well, using javascript you can register a callback when the div is clicked.
+09:20 < jardineworks_:#liferay> Then in that JS you could probably use alloy ui to create an action
