@@ -21,3 +21,4 @@
 09:20 < jardineworks_:#liferay> well, using javascript you can register a callback when the div is clicked.
 09:20 < jardineworks_:#liferay> Then in that JS you could probably use alloy ui to create an action
 09:20 < Yam`:#liferay> I can call the java process action with JS?
+09:22 < jardineworks_:#liferay> Yam`, sure -- if you look at what a <portlet:actionURL/> produces, it's just a url :)
