@@ -31,3 +31,4 @@
 09:28 < Yam`:#liferay> "then create the actionURL as a next step and make sure it looks right" that's that that I don't know how to do
 09:45 < jardineworks_:#liferay> Yam`, which version of LR are you on again?
 09:46 < Yam`:#liferay> 6.2 CE
+09:47 < jardineworks_:#liferay> https://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/creating-portlet-urls-in-javascript-liferay-portal-6-2-dev-guide-07-en
