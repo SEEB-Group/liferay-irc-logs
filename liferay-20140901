@@ -24,3 +24,4 @@
 05:54 < modd_:#liferay> and have a look at <aui:nav-bar> and <aui:nav-bar-search>
 05:54 < goku_:#liferay> actually i was trying to implement something like this http://adminity.novalx.com/tables.html data table with toolbar
 05:56 < modd_:#liferay> I'm not sure but maybe you could have a look at liferay-ui:toolbar-button
+05:59 < goku_:#liferay> modd_ : thanks
