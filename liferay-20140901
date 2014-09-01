@@ -14,3 +14,4 @@
 04:34 < modd_:#liferay> seems like the cookie with the session id is responsible for it. after logging into one of the instances, the other instance is not reachable anymore as long as the cookie exists
 04:59 < Axxell:#liferay> hmmm i have built the web form portlet from the source to make a variation in the funktion of that portlet.. for some reason i get stray </label> tags in the forms, allthough ive only modified things that have had to do with saving the information (i save some extra data and send som extra mails if some conditions are met)... anybody have a clue of this kind of issue with that portlet or if there could be something else which is doing 
 05:41 < goku_:#liferay> hi, in liferay is there any search container available with toolbar?
+05:45 < modd_:#liferay> Axxell: without any information about the changes it's hard to say. could you post the diffs or anything?
