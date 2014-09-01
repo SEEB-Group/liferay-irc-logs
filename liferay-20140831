@@ -11,3 +11,14 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 04:56 < Jadobi:#liferay> Hi, i have a problem with which i simply stuck. I have repleaced the Login via CAS with my own implementation(Ext-Plugin), to have ProxyTicket and ClearPass support. This is working and i'm able to login. But i need to paste the CAS-Assertion-Object to the portal session while phising protection is on(guest session is invalidated). To achieve this, i wrote an Action-Hook(http://pastebin.com/f55mfKRg) to retrive this Object fro
+20:02 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please nominate Liferay! http://goo.gl/bIspUh Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+20:02 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Thu Jun 19 16:32:33 2014]
+20:02 [Users #liferay]
+20:02 [@ChanServ] [ Bryanstein] [ jardineworks_] [ Naenyn      ] [ Tm_T] 
+20:02 [ ArTeS-  ] [ gogamoga_ ] [ jbonjean     ] [ quercus     ] 
+20:02 [ bijoo   ] [ Gorith    ] [ Magno8ooter^ ] [ sumer       ] 
+20:02 [ bijoo_  ] [ henriquev ] [ marcoceppi   ] [ Tar-Minyatur] 
+20:02 -!- Irssi: #liferay: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+20:02 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+20:02 -!- Irssi: Join to #liferay was synced in 7 secs
+--- Log closed Mon Sep 01 00:00:04 2014
