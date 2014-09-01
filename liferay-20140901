@@ -19,3 +19,4 @@
 05:46 < goku_:#liferay> @modd_ like a toolbar with "add" ,"edit","delete" options and search ,on that table.
 05:48 < goku_:#liferay> modd_ :  is there any way to implement that kind of toolbar for a table in liferay? .One way i thought of is to create custom taglibs .
 05:51 < modd_:#liferay> do you want to show custom entities in this searchcontainer or some liferay entities like users etc?
+05:53 < modd_:#liferay> if it's your own entity, you could create an own search container class by extending SearchContainer<MyEntity> and add the attribute searchContainer="<%= new MyEntityContainer(renderRequest, portletURL) %> to search-container tag
