@@ -21,3 +21,4 @@
 05:51 < modd_:#liferay> do you want to show custom entities in this searchcontainer or some liferay entities like users etc?
 05:53 < modd_:#liferay> if it's your own entity, you could create an own search container class by extending SearchContainer<MyEntity> and add the attribute searchContainer="<%= new MyEntityContainer(renderRequest, portletURL) %> to search-container tag
 05:53 < modd_:#liferay> this will allow you to have a "toolbar" with integrated search
+05:54 < modd_:#liferay> and have a look at <aui:nav-bar> and <aui:nav-bar-search>
