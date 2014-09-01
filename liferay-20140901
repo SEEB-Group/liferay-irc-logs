@@ -17,3 +17,4 @@
 05:45 < modd_:#liferay> Axxell: without any information about the changes it's hard to say. could you post the diffs or anything?
 05:45 < modd_:#liferay> goku_: what kind of toolbar?
 05:46 < goku_:#liferay> @modd_ like a toolbar with "add" ,"edit","delete" options and search ,on that table.
+05:48 < goku_:#liferay> modd_ :  is there any way to implement that kind of toolbar for a table in liferay? .One way i thought of is to create custom taglibs .
