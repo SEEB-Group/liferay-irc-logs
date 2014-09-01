@@ -22,3 +22,4 @@
 05:53 < modd_:#liferay> if it's your own entity, you could create an own search container class by extending SearchContainer<MyEntity> and add the attribute searchContainer="<%= new MyEntityContainer(renderRequest, portletURL) %> to search-container tag
 05:53 < modd_:#liferay> this will allow you to have a "toolbar" with integrated search
 05:54 < modd_:#liferay> and have a look at <aui:nav-bar> and <aui:nav-bar-search>
+05:54 < goku_:#liferay> actually i was trying to implement something like this http://adminity.novalx.com/tables.html data table with toolbar
