@@ -29,3 +29,4 @@
 11:01 < winem:#liferay> I'm quite sure that it's not caused by insufficient privileges on the filesystem
 21:47 < Urug_:#liferay> Any way to convert Enumeration to Freemarker Sequence in theme?
 22:05 < Urug_:#liferay> lol ${homepageNewsPortletPreferences.getNames()?size}  and  ${homepageNewsPortletPreferences.getMap()?keys?size} produces 7 and 63, but <#list> iterates over 63 items in both cases
+--- Log closed Tue Sep 02 00:00:16 2014
