@@ -15,3 +15,4 @@
 05:34 < winem_:#liferay> we are able to reproduce this behaviour on 3 servers with centos or windows and jboss wildfly as application server and JDK 7u45
 05:49 < winem_:#liferay> got it, it's fixed with the latest GA which is available since june
 08:14 < nicolas_FR:#liferay> hi there
+08:14 < nicolas_FR:#liferay> I'm looking for a workaround of this bug : https://issues.liferay.com/browse/LPS-44153 (not able to save layout template on a page if current layout set is not deployed in liferay)
