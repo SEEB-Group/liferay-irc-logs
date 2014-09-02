@@ -43,3 +43,4 @@
 09:57 < Yam`:#liferay> there's no value it's an enum
 09:57 < Yam`:#liferay> hence the toString
 09:58 < Yam`:#liferay> so proud of saying hence professionally
+10:14 < jardineworks_:#liferay> Yam`, even with an enum, when you use it, there is a value right? the way the setAttribute works is you give it a string (which representing the key) and the value (under which the key is store). ... so If I say setAttribute(" jardineworks", Company ); then in my JSP I can access it as ${ jardineworks.companyName } ... provided that the Company object has a getCompanyName() method.
