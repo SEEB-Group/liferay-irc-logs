@@ -55,3 +55,4 @@
 10:44 < jardineworks_:#liferay> Yam`, ^^
 10:59 < jardineworks_:#liferay> Yam`, you get my last message?
 11:00 < Yam`:#liferay> nope, Internet connexion issues
+11:00 < jardineworks_:#liferay> <c:choose><c:when test='${ is empty requestAccessId }'><div> Please...</div></c:when><c:otherwise> // other stuff here </c:otherwise>
