@@ -27,3 +27,4 @@
 05:59 < goku_:#liferay> modd_ : thanks
 10:59 < winem:#liferay> hi, we try to update lar-archives over the web-gui and get instant an error "aborted". there is nothing written to the log files. do you have any idea why this happens?
 11:01 < winem:#liferay> I'm quite sure that it's not caused by insufficient privileges on the filesystem
+21:47 < Urug_:#liferay> Any way to convert Enumeration to Freemarker Sequence in theme?
