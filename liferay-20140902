@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 04:04 < goku_:#liferay> hi ,is there any way to change the liferay search container pager style ,i need to show icons instead of "next" and "previous" text ,how to do that?
 04:40 < winem_:#liferay> good morning, we still have the same issue as yesterday. we try to update lar-archives over the web-gui and get instant an error "aborted". there is nothing written to the log files. anyone an idea why this happens?
+05:34 < winem_:#liferay> we are able to reproduce this behaviour on 3 servers with centos or windows and jboss wildfly as application server and JDK 7u45
