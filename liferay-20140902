@@ -16,3 +16,4 @@
 05:49 < winem_:#liferay> got it, it's fixed with the latest GA which is available since june
 08:14 < nicolas_FR:#liferay> hi there
 08:14 < nicolas_FR:#liferay> I'm looking for a workaround of this bug : https://issues.liferay.com/browse/LPS-44153 (not able to save layout template on a page if current layout set is not deployed in liferay)
+08:15 < nicolas_FR:#liferay> we're on 6.1.2 CE and this bug only seems to be corrected on 6.1.x EE and 6.2 EE
