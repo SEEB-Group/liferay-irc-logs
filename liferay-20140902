@@ -28,3 +28,4 @@
 09:45 < Yam`:#liferay> And I want to display the values in my jsp
 09:45 < jardineworks_:#liferay> ok
 09:45 < Yam`:#liferay> Like <p>Name</p> <% valueFromDatabase.name %>
+09:46 < Yam`:#liferay> Do you know if there's a simple way to do it?
