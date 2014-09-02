@@ -35,3 +35,4 @@
 09:46 < jardineworks_:#liferay> (assuming you are using an MVC Portlet)
 09:46 < Yam`:#liferay> I've already done the renderRequest.setAttribute
 09:46 < jardineworks_:#liferay> ok
+09:46 < Yam`:#liferay> Like that : renderRequest.setAttribute(Constants.ATTRIBUTE_ACCESS_REQUEST_DETAILS.toString(), iteratorURL);
