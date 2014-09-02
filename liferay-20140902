@@ -18,3 +18,4 @@
 08:14 < nicolas_FR:#liferay> I'm looking for a workaround of this bug : https://issues.liferay.com/browse/LPS-44153 (not able to save layout template on a page if current layout set is not deployed in liferay)
 08:15 < nicolas_FR:#liferay> we're on 6.1.2 CE and this bug only seems to be corrected on 6.1.x EE and 6.2 EE
 08:20 < modd_:#liferay> check out the diff: https://github.com/lipusz/liferay-portal/commit/4e5c5d138cfc2b9c097c3b6a8ab16a0fd19ae541
+09:24 < nicolas_FR:#liferay> modd_ thanks, but it seems the LayoutTypePortletImpl class I have (6.1.2 CE) is different from the one in the GIT.
