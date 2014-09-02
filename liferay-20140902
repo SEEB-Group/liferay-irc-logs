@@ -27,3 +27,4 @@
 09:45 < Yam`:#liferay> I have an object I retrieved from my database
 09:45 < Yam`:#liferay> And I want to display the values in my jsp
 09:45 < jardineworks_:#liferay> ok
+09:45 < Yam`:#liferay> Like <p>Name</p> <% valueFromDatabase.name %>
