@@ -49,3 +49,4 @@
 10:19 < jardineworks_:#liferay> {$foo} will output the objects toString() which if you haven't overrided probably isn't very useful. Better to do ${foo.<getmethod>}
 10:29 < Yam`:#liferay> thanks jardineworks_ it works as expected :)
 10:29 < jardineworks_:#liferay> np
+10:36 < Yam`:#liferay> jardineworks_, what would be the best way to change the content of a portlet depending of a variable?
