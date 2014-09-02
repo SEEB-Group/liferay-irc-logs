@@ -45,3 +45,4 @@
 09:58 < Yam`:#liferay> so proud of saying hence professionally
 10:14 < jardineworks_:#liferay> Yam`, even with an enum, when you use it, there is a value right? the way the setAttribute works is you give it a string (which representing the key) and the value (under which the key is store). ... so If I say setAttribute(" jardineworks", Company ); then in my JSP I can access it as ${ jardineworks.companyName } ... provided that the Company object has a getCompanyName() method.
 10:15 < Yam`:#liferay> Ok I see, I'll try that thanks jardineworks_
+10:17 < Yam`:#liferay> jardineworks_, can I do ${foo} without a c:out to display it?
