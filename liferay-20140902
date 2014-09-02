@@ -53,3 +53,4 @@
 10:36 < Yam`:#liferay> for example, if "requestAccessId" is null, I display an error message in the porlet such as "Please select a request access" and if it is not I display the details of the request
 10:44 < jardineworks_:#liferay> <c:choose><c:when test='${ is empty requestAccessId }'><div> Please...</div></c:when><c:otherwise> // other stuff here </c:otherwise>
 10:44 < jardineworks_:#liferay> Yam`, ^^
+10:59 < jardineworks_:#liferay> Yam`, you get my last message?
