@@ -31,3 +31,4 @@
 09:46 < Yam`:#liferay> Do you know if there's a simple way to do it?
 09:46 < jardineworks_:#liferay> did you retrieve it in the portlet class?
 09:46 < Yam`:#liferay> yes
+09:46 < jardineworks_:#liferay> in the render method?
