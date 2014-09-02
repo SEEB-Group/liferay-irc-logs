@@ -32,3 +32,4 @@
 09:46 < jardineworks_:#liferay> did you retrieve it in the portlet class?
 09:46 < Yam`:#liferay> yes
 09:46 < jardineworks_:#liferay> in the render method?
+09:46 < jardineworks_:#liferay> (assuming you are using an MVC Portlet)
