@@ -47,3 +47,4 @@
 10:15 < Yam`:#liferay> Ok I see, I'll try that thanks jardineworks_
 10:17 < Yam`:#liferay> jardineworks_, can I do ${foo} without a c:out to display it?
 10:19 < jardineworks_:#liferay> {$foo} will output the objects toString() which if you haven't overrided probably isn't very useful. Better to do ${foo.<getmethod>}
+10:29 < Yam`:#liferay> thanks jardineworks_ it works as expected :)
