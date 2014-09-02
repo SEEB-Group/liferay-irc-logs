@@ -37,3 +37,4 @@
 09:46 < jardineworks_:#liferay> ok
 09:46 < Yam`:#liferay> Like that : renderRequest.setAttribute(Constants.ATTRIBUTE_ACCESS_REQUEST_DETAILS.toString(), iteratorURL);
 09:47 < jardineworks_:#liferay> what is the value of ATTRIBUTE_ACCESS_REQUEST_DETAILS?
+09:47 < Yam`:#liferay> It's a string
