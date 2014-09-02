@@ -41,3 +41,4 @@
 09:56 < jardineworks_:#liferay> if its a string you don't need toString().
 09:56 < jardineworks_:#liferay> but what's that actual assigned value?
 09:57 < Yam`:#liferay> there's no value it's an enum
+09:57 < Yam`:#liferay> hence the toString
