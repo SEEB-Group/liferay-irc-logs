@@ -39,3 +39,4 @@
 09:47 < jardineworks_:#liferay> what is the value of ATTRIBUTE_ACCESS_REQUEST_DETAILS?
 09:47 < Yam`:#liferay> It's a string
 09:56 < jardineworks_:#liferay> if its a string you don't need toString().
+09:56 < jardineworks_:#liferay> but what's that actual assigned value?
