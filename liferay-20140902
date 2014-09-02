@@ -56,3 +56,4 @@
 10:59 < jardineworks_:#liferay> Yam`, you get my last message?
 11:00 < Yam`:#liferay> nope, Internet connexion issues
 11:00 < jardineworks_:#liferay> <c:choose><c:when test='${ is empty requestAccessId }'><div> Please...</div></c:when><c:otherwise> // other stuff here </c:otherwise>
+11:02 < Yam`:#liferay> jardineworks_, and if I didn't set the attribute "requestAccessId", the c:otherwise is displayed or does it throws and exception?
