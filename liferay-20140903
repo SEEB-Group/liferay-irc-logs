@@ -74,3 +74,4 @@
 16:05 < jardineworks_:#liferay> lol
 16:05 <@jhf:#liferay> :)
 16:17 < jardineworks_:#liferay> jhf, I've never found a formal definition of what exactly a web-plugin is
+16:20 <@jhf:#liferay> it’s kind of a catch-all - not a portlet (no UI) - not a hook (doesn’t really modify existing behavior) - it just provides some functionality, and can be hot-deployed and can use service builder
