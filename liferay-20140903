@@ -86,3 +86,4 @@
 16:45 < jardineworks_:#liferay> jhf, is it possible to clone just a branch from the repo?
 16:46 <@jhf:#liferay> heh.. not that I know of. I usually just take a .zip file :)
 16:46 <@jhf:#liferay> I’m sure there is
+16:46 <@jhf:#liferay> git is ridicuously feature rich
