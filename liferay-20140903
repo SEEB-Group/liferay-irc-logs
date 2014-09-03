@@ -60,3 +60,4 @@
 15:57 <@jhf:#liferay> using the latest version? It appers it was fixed about a year ago https://issues.liferay.com/browse/LPS-35910
 15:58 < jardineworks_:#liferay> 6.2 EE maven
 15:58 < jardineworks_:#liferay> 6.2 SP4 I think?
+16:02 <@jhf:#liferay> well.. if it were me I’d run it under a debugger :)
