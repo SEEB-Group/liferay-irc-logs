@@ -94,3 +94,4 @@
 16:56 < jardineworks_:#liferay> jhf, ugh. The fun part will be trying to figure out WHICH version of the importer source I have.
 16:56 < jardineworks_:#liferay> jhf, do you know if the ee source also includes the plugins source?
 17:37 <@jhf:#liferay> jardineworks_: EE subscriptions get you access to the EE plugin source, yep
+17:37 <@jhf:#liferay> BUT they are in separate files I think
