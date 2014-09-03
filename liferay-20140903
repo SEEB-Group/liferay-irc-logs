@@ -44,3 +44,6 @@
 15:54 <@jhf:#liferay> does it not work?
 15:55 < jardineworks_:#liferay> you mean this? ---
 15:55 < jardineworks_:#liferay> "privatePages": [
+15:55 < jardineworks_:#liferay>     {
+15:55 < jardineworks_:#liferay>         "friendlyURL": "/private-page",
+15:55 < jardineworks_:#liferay>     "name": "Private Page",
