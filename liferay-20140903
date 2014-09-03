@@ -66,3 +66,4 @@
 16:04 < jardineworks_:#liferay> but I was hoping for an easy answer this late in the day :)
 16:04 < jardineworks_:#liferay> boo.
 16:04 < jardineworks_:#liferay> or wait!
+16:04 <@jhf:#liferay> yaeh, sorry… I mean I’d follow the docs, and if it didn’t work, look for bugs on JIRA, and failing that, step through the code
