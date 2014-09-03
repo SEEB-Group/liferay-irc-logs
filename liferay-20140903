@@ -43,3 +43,4 @@
 15:54 <@jhf:#liferay> the example on that docs page shows how to make private layouts too
 15:54 <@jhf:#liferay> does it not work?
 15:55 < jardineworks_:#liferay> you mean this? ---
+15:55 < jardineworks_:#liferay> "privatePages": [
