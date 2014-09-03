@@ -82,3 +82,4 @@
 16:23 < jardineworks_:#liferay> jesus
 16:24 < jardineworks_:#liferay> m e c h a n i s m  (I also spelled this one wrong three times)
 16:26 <@jhf:#liferay> even though portal-service is in tomcat/lib/ext I don’t thikn that means any ole webapp deployed to tomcat can call LR APIs, because there is no magic to make those calls go to portal-impl implementation classes (this is what the hotdeploy mechanism does - some kind of proxy injection into the webapp that are known liferay plugin types)
+16:30 < jardineworks_:#liferay> jhf, ah -- of course. my bad.
