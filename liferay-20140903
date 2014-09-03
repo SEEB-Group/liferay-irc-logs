@@ -78,3 +78,4 @@
 16:20 <@jhf:#liferay> and it gives you access to LR APIs, whereas if it were a “normal” javaee webapp deployed, it couldn’t do that without the special sauce of hotdeploy / classloader magic
 16:21 <@jhf:#liferay> http://www.manning-sandbox.com/thread.jspa?threadID=45208
 16:23 < jardineworks_:#liferay> jhf, but since the portal-service.jar is typically deployed in the lib/ext folder, doesn't this just mean that a web-plugin is a way to build a plain old webapp that can leverage the hot deploy machanism?
+16:23 < jardineworks_:#liferay> mechanixm*
