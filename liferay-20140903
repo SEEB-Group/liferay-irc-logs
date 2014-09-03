@@ -63,3 +63,4 @@
 16:02 <@jhf:#liferay> well.. if it were me I’d run it under a debugger :)
 16:02 <@jhf:#liferay> https://github.com/liferay/liferay-plugins/blob/master/webs/resources-importer-web/docroot/WEB-INF/src/com/liferay/resourcesimporter/util/FileSystemImporter.java
 16:04 < jardineworks_:#liferay> fine.
+16:04 < jardineworks_:#liferay> but I was hoping for an easy answer this late in the day :)
