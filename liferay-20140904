@@ -126,3 +126,6 @@
 14:29 < jardineworks_:#liferay> before the loop to process the portlets --
 14:29 < jardineworks_:#liferay> protected String getColumnValue(String columnId) {
 14:29 < jardineworks_:#liferay> 		if (hasUserPreferences() && isCustomizable() &&
+14:29 < jardineworks_:#liferay> 			!isColumnDisabled(columnId)) {
+14:29 < jardineworks_:#liferay> 			return getUserPreference(columnId);
+14:29 < jardineworks_:#liferay> 		}
