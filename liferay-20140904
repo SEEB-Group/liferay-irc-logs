@@ -91,3 +91,4 @@
 12:32 < Urug_:#liferay> And I am working on project where the content is being  continually added while the application is being developed
 12:34 < Urug_:#liferay> So any change in template would mean to change hundrets of pages manually.
 12:53 < Urug_:#liferay> I will solve this by CSS, it's not such a big deal, but I wonder where this "at least one portlet per layout" premise is coming from.
+13:01 < jardineworks_:#liferay> Urug_, I believe there is an option to propogate changes to the template.
