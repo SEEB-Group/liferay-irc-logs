@@ -124,3 +124,4 @@
 14:29 < jardineworks_:#liferay> there is a getAllPortlets(String columnId) method
 14:29 < jardineworks_:#liferay> and in there a loop --
 14:29 < jardineworks_:#liferay> before the loop to process the portlets --
+14:29 < jardineworks_:#liferay> protected String getColumnValue(String columnId) {
