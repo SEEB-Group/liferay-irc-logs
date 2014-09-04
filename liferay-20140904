@@ -76,3 +76,4 @@
 11:08 < nicolas_FR:#liferay> =/
 11:09 < jardineworks_:#liferay> the parent pom should work though -- as far as I know that is how the other guys at my client do it.
 11:11 < nicolas_FR:#liferay> aah, first good new, collegue seems to be able to deploy the war with the exact same name, and now liferay knows it's the same portlet... 1 problem down.
+11:14 < jardineworks_:#liferay> \o/
