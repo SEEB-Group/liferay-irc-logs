@@ -150,3 +150,4 @@
 14:58 < Urug_:#liferay> Does not worth the effort I quess, the CSS solution will do ...
 14:58 < jardineworks_:#liferay> oh, given the option, I would do CSS in a heart beat over ext.
 14:59 < jardineworks_:#liferay> I would add it as an issue though. A simple check for array size and what you are trying to do would be possible.
+15:20 < Urug_:#liferay> Any way to programatically (using hook) add a new Display Template for Media Display (image_gallery_display portlet)?
