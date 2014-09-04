@@ -79,3 +79,4 @@
 11:14 < jardineworks_:#liferay> \o/
 11:16 < jardineworks_:#liferay> Urug_, if you are removing that css class name in your custom layout only then I doubt it will cause any issues anywhere else. Overriding the style altogether, that's a different story of course. :)
 11:19 < nicolas_FR:#liferay> anyone already got an issue when migrating from 5.2.3 to 6.x with : "java.lang.ClassNotFoundException: com.sun.faces.config.ConfigureListener" ?
+11:21 < Urug_:#liferay> jardineworks_, it showed up that the it's not the the solution and that the problem itself is totally elsewhere
