@@ -31,3 +31,4 @@
 10:09 < jardineworks_:#liferay> Urug_, I don't have a theme handy in front of me, but couldn't you override the css that allows the drop zone? add your own style that removes it and then use that css in that particular layout only?
 10:20 < Urug_:#liferay> That's possible, but I am not sure if i like it :)
 10:24 < jardineworks_:#liferay> Urug_, pfft... well, next time make sure to mention your are trying to build a pyramid :P
+10:26 < Urug_:#liferay> Every time I do something on Liferay I have a feeling that I have to bypass something or do some work arounds.
