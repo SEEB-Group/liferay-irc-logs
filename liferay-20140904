@@ -42,3 +42,4 @@
 10:39 < jardineworks_:#liferay> nicolas_FR, I am wondering is the name is changed. Basically servletcontext_WAR_portletname needs to be the same on both sides right? because the layout will be looking for a plugin with a specific name,
 10:39 < jardineworks_:#liferay> I've seen certain maven configurations where the build version gets placed into the deployable file name.
 10:41 < nicolas_FR:#liferay> jardineworks_: we're keeping the same name, as we're migrating, we copy/paste most of the things
+10:42 < Urug_:#liferay> Looks like removing column-portlet class could do the job, but I am not sure about other consequences.
