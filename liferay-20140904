@@ -135,3 +135,4 @@
 14:29 < jardineworks_:#liferay> I am curious about the isCustomizeable()
 14:29 < Urug_:#liferay> source of the problem should be reorganizePortlets(LayoutTypePortletImpl.java:990)
 14:30 < jardineworks_:#liferay> i'm not looking at the ticket anymore
+14:30 < jardineworks_:#liferay> :)
