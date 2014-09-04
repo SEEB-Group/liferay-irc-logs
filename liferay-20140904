@@ -23,3 +23,4 @@
 09:34 < nicolas_FR:#liferay> We're migrating from 5.2.3 to 6.1.2 and we have a problem with our portlets. Fact is all our pages are ok, but we're just beginning to migrate the portlets from 5.2.3 to 6.1.2. So atm pages shows "portlet foo is missing or not deployed". We migrated portlet foo, but the pages were still missing the portlet, when we were able to deploy it from the menu "add a portlet". Anything to look forward to get pages to recognize the fresh
 09:43 < jardineworks_:#liferay> nicolas_FR, interesting. Do the portlets have the same names between versions? Are the WAR files that are generated the same?
 09:44 < jardineworks_:#liferay> are any of the portlets instanceable?
+09:45 < Urug_:#liferay> When I remove all $processor.processColumn(...) directives from Layout Template I get java.lang.ArrayIndexOutOfBoundsException: -1. I need a layout where user can't place any portlets (they are all embedded). Any help?
