@@ -49,3 +49,4 @@
 10:44 < nicolas_FR:#liferay> btw we encounter a boring problem with maven, maybe you can help. In our settings.xml we have properties like <liferay.version>6.1.2</>, which are used in some pom.xml. But our builds fails with "Downloading: http://10.100.11.21:8081/nexus/content/groups/public/com/liferay/portal/util-bridges/${liferay.version}/util-bridges-${liferay.version}.pom"
 10:45 < jardineworks_:#liferay> nicolas_FR, is that <liferay.version> set in a <profile/> in your settings.xml?
 10:45 < nicolas_FR:#liferay> yes
+10:45 < nicolas_FR:#liferay> Can we set the p_p_id ? isn't it liferay-display.xml >  display>category>portlet id="fooName" ?
