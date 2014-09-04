@@ -96,3 +96,4 @@
 13:04 < jardineworks_:#liferay> Urug_, I'm not sure. I guess the argument could be made -- why would you have a layout without even a single portlet?
 13:04 < Urug_:#liferay> Yes there is, but as I said, its not propagated correctly.
 13:04 < jardineworks_:#liferay> portlets are how content is driven right?
+13:08 < Urug_:#liferay> Well there could be a single embedded portlet...
