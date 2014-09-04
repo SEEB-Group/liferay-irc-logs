@@ -70,3 +70,4 @@
 11:03 < jardineworks_:#liferay> but I have all the stuff from the settings.xml actually listed out as properties in the "project" section of the pom.
 11:04 < nicolas_FR:#liferay> ok working here too with this conf. We had the liferay.version in a parent pom. Maybe problem with that ?
 11:04 < nicolas_FR:#liferay> mine are in the profile section
+11:04 < nicolas_FR:#liferay> might be that ?
