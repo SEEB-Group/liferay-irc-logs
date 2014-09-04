@@ -43,3 +43,4 @@
 10:39 < jardineworks_:#liferay> I've seen certain maven configurations where the build version gets placed into the deployable file name.
 10:41 < nicolas_FR:#liferay> jardineworks_: we're keeping the same name, as we're migrating, we copy/paste most of the things
 10:42 < Urug_:#liferay> Looks like removing column-portlet class could do the job, but I am not sure about other consequences.
+10:42 < nicolas_FR:#liferay> does the war name counts ?
