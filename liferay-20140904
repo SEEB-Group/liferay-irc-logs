@@ -44,3 +44,4 @@
 10:41 < nicolas_FR:#liferay> jardineworks_: we're keeping the same name, as we're migrating, we copy/paste most of the things
 10:42 < Urug_:#liferay> Looks like removing column-portlet class could do the job, but I am not sure about other consequences.
 10:42 < nicolas_FR:#liferay> does the war name counts ?
+10:42 < nicolas_FR:#liferay> or only the liferay.properties files ?
