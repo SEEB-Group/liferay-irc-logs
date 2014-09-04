@@ -71,3 +71,4 @@
 11:04 < nicolas_FR:#liferay> ok working here too with this conf. We had the liferay.version in a parent pom. Maybe problem with that ?
 11:04 < nicolas_FR:#liferay> mine are in the profile section
 11:04 < nicolas_FR:#liferay> might be that ?
+11:06 < jardineworks_:#liferay> nicolas_FR, not sure to be honest. I'm not a maven pro. I think in our environment (I have yet to merge my code -- and this is part of the reason why!) there is a parent parent parent pom that has these setting in it. Everything is supposed to flow down rather than have them in a project by project config.
