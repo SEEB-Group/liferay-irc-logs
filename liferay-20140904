@@ -13,3 +13,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 04:24 < nicolas_FR:#liferay> hi there
 04:28 < nicolas_FR:#liferay> We're migrating from 5.2.3 to 6.1.2 and we have a problem with our portlets. Fact is all our pages are ok, but we're just beginning to migrate the portlets from 5.2.3 to 6.1.2. So atm pages shows "portlet foo is missing or not deployed". We migrated portlet foo, but the pages were still missing the portlet, when we were able to deploy it from the menu "add a portlet". Anything to look forward to get pages to recognize the fresh
+09:02 < Urug_:#liferay> I can create Application Display Theme with the type "Documents and Media Template", the question is where can I use this template? Document and Media Portlet does not have an option to set Display Theme (at least in it's configuration, maybe it's possible programatically?).
