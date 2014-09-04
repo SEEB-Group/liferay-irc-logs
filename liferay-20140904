@@ -93,3 +93,4 @@
 12:53 < Urug_:#liferay> I will solve this by CSS, it's not such a big deal, but I wonder where this "at least one portlet per layout" premise is coming from.
 13:01 < jardineworks_:#liferay> Urug_, I believe there is an option to propogate changes to the template.
 13:02 < Urug_:#liferay> It should be possible to create layout without any portlet, shouldn't it? So it makes me wonder .. is it bug, is it intention, or is it my fault..?
+13:04 < jardineworks_:#liferay> Urug_, I'm not sure. I guess the argument could be made -- why would you have a layout without even a single portlet?
