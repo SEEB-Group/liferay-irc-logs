@@ -52,3 +52,4 @@
 10:45 < nicolas_FR:#liferay> Can we set the p_p_id ? isn't it liferay-display.xml >  display>category>portlet id="fooName" ?
 10:47 < jardineworks_:#liferay> nicolas_FR, the p_p_id is a combination of the servletcontext (what the name of the folder is in webapps) + _WAR_ + the portlet name in the portlet.xml ... this is because you can have multiple portlets in the same servletcontext (portlet.xml)
 10:48 < jardineworks_:#liferay> for Maven... if you add a <properties><liferay.version>6.1.2</liferay.version></properties> to the projects pom.xml file, does it work?
+10:49 < nicolas_FR:#liferay> jardineworks_: we tried to add the <liferay.version> directly in the pom where it was used and was not working neither
