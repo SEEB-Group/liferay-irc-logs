@@ -118,3 +118,4 @@
 14:18 < Urug_:#liferay> i actually have more layouts with various and embedded only portlets
 14:19 < Urug_:#liferay> The main reason why i am doing it like this is that page template propagation
 14:23 < jardineworks_:#liferay> Urug_, do you have the portal source code handy?
+14:27 < Urug_:#liferay> Portal source code handy? I use what's available on web: Developer guide, API, github
