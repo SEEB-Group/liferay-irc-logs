@@ -45,3 +45,4 @@
 10:42 < Urug_:#liferay> Looks like removing column-portlet class could do the job, but I am not sure about other consequences.
 10:42 < nicolas_FR:#liferay> does the war name counts ?
 10:42 < nicolas_FR:#liferay> or only the liferay.properties files ?
+10:44 < jardineworks_:#liferay> nicolas_FR, the p_p_id is what I am thinking of.
