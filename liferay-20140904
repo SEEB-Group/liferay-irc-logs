@@ -77,3 +77,4 @@
 11:09 < jardineworks_:#liferay> the parent pom should work though -- as far as I know that is how the other guys at my client do it.
 11:11 < nicolas_FR:#liferay> aah, first good new, collegue seems to be able to deploy the war with the exact same name, and now liferay knows it's the same portlet... 1 problem down.
 11:14 < jardineworks_:#liferay> \o/
+11:16 < jardineworks_:#liferay> Urug_, if you are removing that css class name in your custom layout only then I doubt it will cause any issues anywhere else. Overriding the style altogether, that's a different story of course. :)
