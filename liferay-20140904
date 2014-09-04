@@ -74,3 +74,4 @@
 11:06 < jardineworks_:#liferay> nicolas_FR, not sure to be honest. I'm not a maven pro. I think in our environment (I have yet to merge my code -- and this is part of the reason why!) there is a parent parent parent pom that has these setting in it. Everything is supposed to flow down rather than have them in a project by project config.
 11:06 < jardineworks_:#liferay> but I have had a lot of problems with maven -- same as you
 11:08 < nicolas_FR:#liferay> =/
+11:09 < jardineworks_:#liferay> the parent pom should work though -- as far as I know that is how the other guys at my client do it.
