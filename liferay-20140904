@@ -122,3 +122,4 @@
 14:28 < jardineworks_:#liferay> Urug_, ah ok -- that's fine, I just have it setup as a project in my environment so I can step into the portal source. I'm looking at a class --
 14:28 < jardineworks_:#liferay> LayoutTypePortletImpl
 14:29 < jardineworks_:#liferay> there is a getAllPortlets(String columnId) method
+14:29 < jardineworks_:#liferay> and in there a loop --
