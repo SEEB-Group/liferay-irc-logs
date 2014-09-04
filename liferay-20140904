@@ -29,3 +29,4 @@
 10:07 < Urug_:#liferay> Well it would requiere to apply these permissons on each page having this layout and I am not sure if the droplet zone, which creates unnecessary space in the page, would go away.
 10:07 < Urug_:#liferay> *dropzone :)
 10:09 < jardineworks_:#liferay> Urug_, I don't have a theme handy in front of me, but couldn't you override the css that allows the drop zone? add your own style that removes it and then use that css in that particular layout only?
+10:20 < Urug_:#liferay> That's possible, but I am not sure if i like it :)
