@@ -39,3 +39,4 @@
 10:32 < jardineworks_:#liferay> Urug_, fair point. The problem with so much flexibility is that there are so many ways to get it done -- so you might spend some time second guessing yourself :)
 10:32 < jardineworks_:#liferay> Urug_, What if you created a page template that included the layout and the permissions you need and then instead of "applying the layout" to multiple pages, you use the page template?
 10:36 < nicolas_FR:#liferay> jardineworks_: will check both .war from 5.2.3 and 6.1.2 to see if any differences
+10:39 < jardineworks_:#liferay> nicolas_FR, I am wondering is the name is changed. Basically servletcontext_WAR_portletname needs to be the same on both sides right? because the layout will be looking for a plugin with a specific name,
