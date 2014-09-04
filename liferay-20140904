@@ -88,3 +88,4 @@
 12:09 < jardineworks_:#liferay> Urug_, but if you deploy the layout template again yourself, manually, with the commented out line, it fails.
 12:10 < jardineworks_:#liferay> Urug_, the more I think about it the more I think you want to have a Page Template for what you are doing. Predefined layout and set of portlets that cannot be changed? that would fall into the Page Template area I think.
 12:30 < Urug_:#liferay> In theory it would, but problem with Page Template is that if any changes are made on the template, the pages with this template applied don't update properly - the portlets on these pages loose it's linked content.
+12:32 < Urug_:#liferay> And I am working on project where the content is being  continually added while the application is being developed
