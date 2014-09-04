@@ -66,3 +66,4 @@
 11:00 < jardineworks_:#liferay> nicolas_FR, just doing a compare with some of my own poms one sec.
 11:02 < jardineworks_:#liferay> nicolas_FR, I made an update: http://pastebin.com/XR1tiLxF
 11:02 < jardineworks_:#liferay> that is normally how I have been doing it
+11:02 < jardineworks_:#liferay> in part because my client is not really using maven profiles properly :)
