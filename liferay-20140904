@@ -119,3 +119,4 @@
 14:19 < Urug_:#liferay> The main reason why i am doing it like this is that page template propagation
 14:23 < jardineworks_:#liferay> Urug_, do you have the portal source code handy?
 14:27 < Urug_:#liferay> Portal source code handy? I use what's available on web: Developer guide, API, github
+14:28 < jardineworks_:#liferay> Urug_, ah ok -- that's fine, I just have it setup as a project in my environment so I can step into the portal source. I'm looking at a class --
