@@ -27,3 +27,4 @@
 09:46 < jardineworks_:#liferay> Urug_, leave it in there and set the permissions such that no one is allowed to add portlets
 09:46 < jardineworks_:#liferay> :)
 10:07 < Urug_:#liferay> Well it would requiere to apply these permissons on each page having this layout and I am not sure if the droplet zone, which creates unnecessary space in the page, would go away.
+10:07 < Urug_:#liferay> *dropzone :)
