@@ -50,3 +50,4 @@
 10:45 < jardineworks_:#liferay> nicolas_FR, is that <liferay.version> set in a <profile/> in your settings.xml?
 10:45 < nicolas_FR:#liferay> yes
 10:45 < nicolas_FR:#liferay> Can we set the p_p_id ? isn't it liferay-display.xml >  display>category>portlet id="fooName" ?
+10:47 < jardineworks_:#liferay> nicolas_FR, the p_p_id is a combination of the servletcontext (what the name of the folder is in webapps) + _WAR_ + the portlet name in the portlet.xml ... this is because you can have multiple portlets in the same servletcontext (portlet.xml)
