@@ -24,3 +24,4 @@
 09:43 < jardineworks_:#liferay> nicolas_FR, interesting. Do the portlets have the same names between versions? Are the WAR files that are generated the same?
 09:44 < jardineworks_:#liferay> are any of the portlets instanceable?
 09:45 < Urug_:#liferay> When I remove all $processor.processColumn(...) directives from Layout Template I get java.lang.ArrayIndexOutOfBoundsException: -1. I need a layout where user can't place any portlets (they are all embedded). Any help?
+09:46 < jardineworks_:#liferay> Urug_, leave it in there and set the permissions such that no one is allowed to add portlets
