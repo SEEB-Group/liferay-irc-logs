@@ -106,3 +106,4 @@
 13:12 < jardineworks_:#liferay> Urug_, can you send me the link to the post with the details of what is not working?
 13:15 < Urug_:#liferay> https://issues.liferay.com/browse/LPS-32850
 13:20 < Urug_:#liferay> it's not like it's not working, it's more like not working as one would expected
+14:15 < jardineworks_:#liferay> Urug_, So ... if I understand correctly. You want to create a layout that contains just a bunch of embedded portlets.
