@@ -59,3 +59,4 @@
 10:50 < jardineworks_:#liferay> :D
 10:50 < nicolas_FR:#liferay> jardineworks_: well if we use mvn -X or something, we see the active profile is the good one
 10:51 < jardineworks_:#liferay> can you share the settings.xml and the pom.xml with me? in a pastie or soemthing?
+10:51 < nicolas_FR:#liferay> yep
