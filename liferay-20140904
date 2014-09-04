@@ -57,3 +57,4 @@
 10:50 < jardineworks_:#liferay> I hate maven so I might now be the best person to ask :)
 10:50 < jardineworks_:#liferay> hate is a strong word. I prefer not to use it.
 10:50 < jardineworks_:#liferay> :D
+10:50 < nicolas_FR:#liferay> jardineworks_: well if we use mvn -X or something, we see the active profile is the good one
