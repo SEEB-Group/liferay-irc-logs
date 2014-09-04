@@ -21,3 +21,4 @@
 09:30 < Urug_:#liferay> Some glossary page with all these terms compared and explained would help a lot to begginers.
 09:34 < nicolas_FR:#liferay> hi there
 09:34 < nicolas_FR:#liferay> We're migrating from 5.2.3 to 6.1.2 and we have a problem with our portlets. Fact is all our pages are ok, but we're just beginning to migrate the portlets from 5.2.3 to 6.1.2. So atm pages shows "portlet foo is missing or not deployed". We migrated portlet foo, but the pages were still missing the portlet, when we were able to deploy it from the menu "add a portlet". Anything to look forward to get pages to recognize the fresh
+09:43 < jardineworks_:#liferay> nicolas_FR, interesting. Do the portlets have the same names between versions? Are the WAR files that are generated the same?
