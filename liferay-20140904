@@ -67,3 +67,4 @@
 11:02 < jardineworks_:#liferay> nicolas_FR, I made an update: http://pastebin.com/XR1tiLxF
 11:02 < jardineworks_:#liferay> that is normally how I have been doing it
 11:02 < jardineworks_:#liferay> in part because my client is not really using maven profiles properly :)
+11:03 < jardineworks_:#liferay> but I have all the stuff from the settings.xml actually listed out as properties in the "project" section of the pom.
