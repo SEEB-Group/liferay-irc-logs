@@ -90,3 +90,4 @@
 12:30 < Urug_:#liferay> In theory it would, but problem with Page Template is that if any changes are made on the template, the pages with this template applied don't update properly - the portlets on these pages loose it's linked content.
 12:32 < Urug_:#liferay> And I am working on project where the content is being  continually added while the application is being developed
 12:34 < Urug_:#liferay> So any change in template would mean to change hundrets of pages manually.
+12:53 < Urug_:#liferay> I will solve this by CSS, it's not such a big deal, but I wonder where this "at least one portlet per layout" premise is coming from.
