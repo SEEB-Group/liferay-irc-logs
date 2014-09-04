@@ -147,3 +147,4 @@
 14:40 < Urug_:#liferay> This occurs when I try to set this layout to a page
 14:50 < Urug_:#liferay> heh java.lang.OutOfMemoryError: PermGen space
 14:57 < jardineworks_:#liferay> Urug_, well, you could write an ext plugin and change the logic :)
+14:58 < Urug_:#liferay> Does not worth the effort I quess, the CSS solution will do ...
