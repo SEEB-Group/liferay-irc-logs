@@ -108,3 +108,4 @@
 13:20 < Urug_:#liferay> it's not like it's not working, it's more like not working as one would expected
 14:15 < jardineworks_:#liferay> Urug_, So ... if I understand correctly. You want to create a layout that contains just a bunch of embedded portlets.
 14:15 < jardineworks_:#liferay> Urug_, but you can't because not having at least one process column causes an out of bounds
+14:16 < jardineworks_:#liferay> Urug_, and you can't have the process column, because if you do, then people can drop other (non embedded portlets) into the page.
