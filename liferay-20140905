@@ -14,3 +14,4 @@
 04:42 < Axxell:#liferay> would really appreciate
 04:42 < Axxell:#liferay> it
 05:03 < Axxell:#liferay> i get a nullpointerexception when reindexing in searchpermissioncheckerimpl
+05:05 < Axxell:#liferay> i do a searchengineutil.updateDocuments
