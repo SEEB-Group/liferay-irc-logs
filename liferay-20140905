@@ -66,3 +66,4 @@
 11:16 < dave_k:#liferay> I already had such a performance issue. The dev machine is not the best, but 8 sec for certain requests are bad. Some of the performance hit comes from augmenting the result lists with data from a secondary DB... it's complicated...
 11:25 < jardineworks_:#liferay> dave_k, I was gonna say -- I very much doubt much of that 8 seconds has anything to do with Lucene. Are you using caching at all?
 11:27 < dave_k:#liferay> jardineworks_: I doubt that, too. But not using the index was still faster by a small bit. The problem is in augmenting the result list, especially when there are filters on both data sources.
+11:30 < jardineworks_:#liferay> hmm.
