@@ -68,3 +68,4 @@
 11:27 < dave_k:#liferay> jardineworks_: I doubt that, too. But not using the index was still faster by a small bit. The problem is in augmenting the result list, especially when there are filters on both data sources.
 11:30 < jardineworks_:#liferay> hmm.
 11:30 < jardineworks_:#liferay> dave_k, so are you getting, for example, Users from the search index and then adding additional (unindexed values) from the User_ table?
+11:33 < dave_k:#liferay> jardineworks_: well yes, I get all User objects that should be displayed on the current page.
