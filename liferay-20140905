@@ -32,3 +32,4 @@
 10:42 < jardineworks_:#liferay> because you can :)
 10:43 < dave_k:#liferay> jardineworks_: interesting. because the primefaces4-users-portlet code has a comment stating it doesn't
 10:45 < dave_k:#liferay> jardineworks_: anyway, I could not find any searchCount() for the search index. that broke my pagination.
+10:45 < jardineworks_:#liferay> dave_k, well, it's wrong. YOu can do wildcard searches in lucene.... what good is a search engine that only works with EXACT matches!
