@@ -47,3 +47,4 @@
 10:50 < jardineworks_:#liferay> do you expect anyway
 10:51 < dave_k:#liferay> > 5K
 10:52 < jardineworks_:#liferay> pfft... I wouldn't bother getting caught up in the romance of lazy loading for 5000 results. Lucene could handle that with about 0.1% of the CPU. if you REALLY want to do it, you can get the count from the UserLocalServiceUtil class since its reference (the database) should be in synch with the index anyway.
+10:55 < dave_k:#liferay> jardineworks_: but the result list is not in sync, because the indexer and the DB use different matching
