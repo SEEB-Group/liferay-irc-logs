@@ -28,3 +28,4 @@
 10:40 < dave_k:#liferay> jardineworks_: Dunno about that... need to check it. At least I got a keyword now :)
 10:41 < jardineworks_:#liferay> dave_k, also, if you have both Users and Organizations being indexed in Lucene, you might be able to do what you are doing by using BooleanQuery searches
 10:41 < dave_k:#liferay> jardineworks_: I already dropped index search for substring matching...
+10:42 < jardineworks_:#liferay> dave_k, for substring matching? meaning you need to do it and don't feel you can with search?
