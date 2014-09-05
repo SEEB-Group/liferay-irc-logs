@@ -52,3 +52,4 @@
 10:55 < jardineworks_:#liferay> dave_k, what do you mean "different matching"?
 10:58 < dave_k:#liferay> I give the indexer the keyword "foo". It returns all records with the whole word "foo". -- I give the DB the keyword "foo". It returns all records containing the substring "foo".
 10:59 < dave_k:#liferay> I give the indexer the keyword "foo*". It returns all records with a whole word starting with "foo". -- I give the DB the keyword "foo*". It returns no records, cause no one is named "Foo*"
+11:02 < jardineworks_:#liferay> dave_k, oh I see... but what I meant was to get the total record could you could do UserLocalServiceUtil.getOrganizationUsersCount( organizationId, WorkflowStatus.STATUS_APPROVED );
