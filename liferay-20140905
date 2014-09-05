@@ -59,3 +59,4 @@
 11:05 < jardineworks_:#liferay> dave_k, THEN! that is the hits.getDocs().length :)
 11:05 < jardineworks_:#liferay> I'm not helping am I? I'm just being difficult hahah
 11:05 < jardineworks_:#liferay> though I am TRYING to help I swear
+11:06 < dave_k:#liferay> jardineworks_: NOT if I gave start and end to the method returning me the hits
