@@ -30,3 +30,4 @@
 10:41 < dave_k:#liferay> jardineworks_: I already dropped index search for substring matching...
 10:42 < jardineworks_:#liferay> dave_k, for substring matching? meaning you need to do it and don't feel you can with search?
 10:42 < jardineworks_:#liferay> because you can :)
+10:43 < dave_k:#liferay> jardineworks_: interesting. because the primefaces4-users-portlet code has a comment stating it doesn't
