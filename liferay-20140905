@@ -50,3 +50,4 @@
 10:55 < dave_k:#liferay> jardineworks_: but the result list is not in sync, because the indexer and the DB use different matching
 10:55 < jardineworks_:#liferay> dave_k, in fact, if its a feature that is going to be hit with so much traffic that lazy loading would be beneficial, then it might also be beneficial to simply load a large set (say the first 1000 records into the cache and reference it from there. Of course now I am just speculating since I have no idea what you are doing :)
 10:55 < jardineworks_:#liferay> dave_k, what do you mean "different matching"?
+10:58 < dave_k:#liferay> I give the indexer the keyword "foo". It returns all records with the whole word "foo". -- I give the DB the keyword "foo". It returns all records containing the substring "foo".
