@@ -63,3 +63,4 @@
 11:07 < dave_k:#liferay> jardineworks_: oh, you already helped me. By mentioning the method I needed at a different spot in the code ;)
 11:07 < jardineworks_:#liferay> ah -- good point with the start and end
 11:08 < jardineworks_:#liferay> though is till maintain that 5000 docs for a response is nothing for Lucene to manage... and if you start filtering and it starts dropping to 1000, 700, 500, 98, ... etc. then it becomes even easier right? I wouldn't bother giving the pagination to the boolean query unless I started to explicitly see a performance issue.
+11:16 < dave_k:#liferay> I already had such a performance issue. The dev machine is not the best, but 8 sec for certain requests are bad. Some of the performance hit comes from augmenting the result lists with data from a secondary DB... it's complicated...
