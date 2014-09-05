@@ -25,3 +25,4 @@
 10:20 < jardineworks_:#liferay> dave_k, what about a dynamic query?
 10:22 < jardineworks_:#liferay> though dynamic queries don't provide any caching (I think)
 10:22 < jardineworks_:#liferay> the nice thing about the *LocalServiceUtil is that they do.
+10:40 < dave_k:#liferay> jardineworks_: Dunno about that... need to check it. At least I got a keyword now :)
