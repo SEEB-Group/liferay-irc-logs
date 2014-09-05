@@ -27,3 +27,4 @@
 10:22 < jardineworks_:#liferay> the nice thing about the *LocalServiceUtil is that they do.
 10:40 < dave_k:#liferay> jardineworks_: Dunno about that... need to check it. At least I got a keyword now :)
 10:41 < jardineworks_:#liferay> dave_k, also, if you have both Users and Organizations being indexed in Lucene, you might be able to do what you are doing by using BooleanQuery searches
+10:41 < dave_k:#liferay> jardineworks_: I already dropped index search for substring matching...
