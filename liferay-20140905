@@ -42,3 +42,4 @@
 10:49 < jardineworks_:#liferay> dave_k, Looks line you would do Indexer.search() which would give you Hits ... and then hits.getDocs().length
 10:50 < jardineworks_:#liferay> dave_k, Oh. I was thinking of creating your own search context and bollean query -- not necessarily using one from the UserLocalServiceUtil.
 10:50 < jardineworks_:#liferay> boolean*
+10:50 < dave_k:#liferay> jardineworks_: but if I need LazyLoading, I don't have the complete Hits List.
