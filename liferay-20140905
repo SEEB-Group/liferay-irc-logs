@@ -21,3 +21,4 @@
 06:46 < Axxell:#liferay> anyone else?
 07:12 < nicolas_FR:#liferay> hi there
 07:13 < nicolas_FR:#liferay> got an error on deployment (6.1.2) that fmt_rt cannot be resolved in web.xml or in jar files... any advice on which dependency I'm missing ?
+08:49 < dave_k:#liferay> Hey all ... In a custom portlet, I have multiple filter inputs to search for Users using LazyLoading for pagination. Now I want to add an organization filter -- i.e. search for Users that are in a certain organization. Doing this via OrganizationLocalServiceUtil.search() breaks LazyLoading... I need a method to ask the DB to do the combined filtering for me. What are my options here?
