@@ -34,3 +34,4 @@
 10:45 < dave_k:#liferay> jardineworks_: anyway, I could not find any searchCount() for the search index. that broke my pagination.
 10:45 < jardineworks_:#liferay> dave_k, well, it's wrong. YOu can do wildcard searches in lucene.... what good is a search engine that only works with EXACT matches!
 10:46 < jardineworks_:#liferay> searchContext.setStart() and searchContext.setEnd() I think... but you would need a index.getHitCount() I think it is?
+10:46 < jardineworks_:#liferay> for the totla.
