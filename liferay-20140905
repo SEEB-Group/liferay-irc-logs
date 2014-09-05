@@ -40,3 +40,4 @@
 10:48 < dave_k:#liferay> half exact. I used the indexer version of UserLocalServiceUtil.search() with start and end arguments, but the searchCount() mismatched if I used wildcards.
 10:49 < dave_k:#liferay> jardineworks_: see also https://issues.liferay.com/browse/LPS-49744
 10:49 < jardineworks_:#liferay> dave_k, Looks line you would do Indexer.search() which would give you Hits ... and then hits.getDocs().length
+10:50 < jardineworks_:#liferay> dave_k, Oh. I was thinking of creating your own search context and bollean query -- not necessarily using one from the UserLocalServiceUtil.
