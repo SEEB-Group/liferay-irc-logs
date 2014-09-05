@@ -35,3 +35,4 @@
 10:45 < jardineworks_:#liferay> dave_k, well, it's wrong. YOu can do wildcard searches in lucene.... what good is a search engine that only works with EXACT matches!
 10:46 < jardineworks_:#liferay> searchContext.setStart() and searchContext.setEnd() I think... but you would need a index.getHitCount() I think it is?
 10:46 < jardineworks_:#liferay> for the totla.
+10:46 < jardineworks_:#liferay> I mean
