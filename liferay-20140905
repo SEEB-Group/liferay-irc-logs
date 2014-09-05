@@ -37,3 +37,4 @@
 10:46 < jardineworks_:#liferay> for the totla.
 10:46 < jardineworks_:#liferay> I mean
 10:47 < jardineworks_:#liferay> dave_k, anyway, point is that there is always more than one way to do something in LR :)
+10:48 < dave_k:#liferay> half exact. I used the indexer version of UserLocalServiceUtil.search() with start and end arguments, but the searchCount() mismatched if I used wildcards.
