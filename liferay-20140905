@@ -71,3 +71,4 @@
 11:33 < dave_k:#liferay> jardineworks_: well yes, I get all User objects that should be displayed on the current page.
 11:36 < jardineworks_:#liferay> dave_k, hmm... perhaps hooking some of your own indexer processors might be the best option... you could augment the index with additional attributes.
 11:37 < jardineworks_:#liferay> dave_k, I've never done it to be honest, but I believe you can do that.
+11:49 < dave_k:#liferay> jardineworks_: would be a completely different approach from what I've done the last two weeks...
