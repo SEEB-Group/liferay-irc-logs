@@ -54,3 +54,4 @@
 10:59 < dave_k:#liferay> I give the indexer the keyword "foo*". It returns all records with a whole word starting with "foo". -- I give the DB the keyword "foo*". It returns no records, cause no one is named "Foo*"
 11:02 < jardineworks_:#liferay> dave_k, oh I see... but what I meant was to get the total record could you could do UserLocalServiceUtil.getOrganizationUsersCount( organizationId, WorkflowStatus.STATUS_APPROVED );
 11:03 < jardineworks_:#liferay> then that would tell you that you have 5000 records.
+11:03 < jardineworks_:#liferay> whcih means you SHOULD, if indexer is working properly have 5000 documents in lucene
