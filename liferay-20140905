@@ -67,3 +67,4 @@
 11:25 < jardineworks_:#liferay> dave_k, I was gonna say -- I very much doubt much of that 8 seconds has anything to do with Lucene. Are you using caching at all?
 11:27 < dave_k:#liferay> jardineworks_: I doubt that, too. But not using the index was still faster by a small bit. The problem is in augmenting the result list, especially when there are filters on both data sources.
 11:30 < jardineworks_:#liferay> hmm.
+11:30 < jardineworks_:#liferay> dave_k, so are you getting, for example, Users from the search index and then adding additional (unindexed values) from the User_ table?
