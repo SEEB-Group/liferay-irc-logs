@@ -56,3 +56,4 @@
 11:03 < jardineworks_:#liferay> then that would tell you that you have 5000 records.
 11:03 < jardineworks_:#liferay> whcih means you SHOULD, if indexer is working properly have 5000 documents in lucene
 11:04 < dave_k:#liferay> ah, but I need the total amount _after_ arbitrary filtering
+11:05 < jardineworks_:#liferay> dave_k, THEN! that is the hits.getDocs().length :)
