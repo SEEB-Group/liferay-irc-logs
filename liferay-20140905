@@ -70,3 +70,4 @@
 11:30 < jardineworks_:#liferay> dave_k, so are you getting, for example, Users from the search index and then adding additional (unindexed values) from the User_ table?
 11:33 < dave_k:#liferay> jardineworks_: well yes, I get all User objects that should be displayed on the current page.
 11:36 < jardineworks_:#liferay> dave_k, hmm... perhaps hooking some of your own indexer processors might be the best option... you could augment the index with additional attributes.
+11:37 < jardineworks_:#liferay> dave_k, I've never done it to be honest, but I believe you can do that.
