@@ -153,3 +153,4 @@
 15:20 < Urug_:#liferay> Any way to programatically (using hook) add a new Display Template for Media Display (image_gallery_display portlet)?
 15:25 < Urug_:#liferay> I was able to do that with Asset Publisher Template quite easy, but looks like it won't be so easy in this case.
 15:53 < Urug_:#liferay> So I basically need to add new built-in DDMTemplate of certain type
+--- Log closed Fri Sep 05 00:00:07 2014
