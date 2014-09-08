@@ -22,3 +22,4 @@
 10:34 < winem_:#liferay> very good question, I'm just the admin... let me ask my web developer :)
 10:37 < winem_:#liferay> looks like the issue has been fixed by a new parameter in the apache config.. actually, I just get two requests with the domain of the liferay-server in the background as remote and not the webproxy
 10:38 < winem_:#liferay> I get an error like "com.liferay.portal.kernel.repository.RepositoryException: No Repository exists with the primary key 10181" in both cases in the log from liferay. so I guess it's a broken reference and a task for our developers
+10:39 < winem_:#liferay> will come back to you if it occures again. :-)
