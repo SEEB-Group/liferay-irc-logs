@@ -29,3 +29,4 @@
 11:29 < winem_:#liferay> I'm not an expert in web design, but does this mean that the backend server itself loads the ressources from this IP or does the client also initiate a request to this ip.. this will not work on a public website...
 11:30 < jardineworks_:#liferay> winem_, no, but liferay supplies all links with the host and port it receives in the request.
 11:30 < jardineworks_:#liferay> it builds FULL urls.
+11:31 < jardineworks_:#liferay> so you need to proxy pass the domain name you want to appear in the link
