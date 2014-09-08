@@ -59,3 +59,4 @@
 11:53 < winem_:#liferay> but this is as expected
 11:54 < winem_:#liferay> other domains will get their own apache instance on our mass vhost webserver. and this would also work if I create a new instance for the new domain, right?
 11:56 < jardineworks_:#liferay> yeah
+11:56 < winem_:#liferay> ok, great
