@@ -50,3 +50,4 @@
 11:45 < winem_:#liferay> ok, so the apache config will contain: ProxyPreserveHost On, ProxyPass / http://192.168.10.159:8080/web/aye/welcome, ProxyPassReverse / http://192.168.10.159:8080/web/aye/welcome
 11:46 < winem_:#liferay> let me take a look at the backend and try to create / map the instances
 11:46 < jardineworks_:#liferay> winem_, right
+11:46 < winem_:#liferay> ok. then I got it - I think..
