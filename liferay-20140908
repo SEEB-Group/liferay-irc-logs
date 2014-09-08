@@ -53,3 +53,4 @@
 11:46 < winem_:#liferay> ok. then I got it - I think..
 11:46 < jardineworks_:#liferay> but if you send in winem.com ... then what Liferay actually gets is winem.com:8080/web/aye/welcom
 11:48 < winem_:#liferay> this gets liferay when?
+11:49 < jardineworks_:#liferay> winem_, after apache passes it off
