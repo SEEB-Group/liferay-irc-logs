@@ -75,3 +75,4 @@
 16:42 < jardineworks_:#liferay> I have a couple of questions for you if you have some background cycles to spare
 16:42 < jardineworks_:#liferay> 1. The EE developer license doesn't appear to support Cluster Configurations. WTF?!
 16:42 < jardineworks_:#liferay> .. which is not a question I guess
+16:43 < jardineworks_:#liferay> but seriously, how are you supposed to develop for a clustered environment if you can't cluster servers to make sure your stuff works?
