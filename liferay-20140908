@@ -35,3 +35,4 @@
 11:32 < jardineworks_:#liferay> winem_, just remember that the host will be in the body of the content. This full link shenanigans is a pain in my pass right now and we might end up using a third part module to search and replace the response body content.
 11:38 < winem_:#liferay> ok, what do you recommend?
 11:39 < Yam`:#liferay> jardineworks_, is there a liferay util to download pictures via fileInputStream?
+11:39 < jardineworks_:#liferay> winem_, single instance or multiple?
