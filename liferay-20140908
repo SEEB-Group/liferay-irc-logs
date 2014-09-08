@@ -36,3 +36,4 @@
 11:38 < winem_:#liferay> ok, what do you recommend?
 11:39 < Yam`:#liferay> jardineworks_, is there a liferay util to download pictures via fileInputStream?
 11:39 < jardineworks_:#liferay> winem_, single instance or multiple?
+11:39 < winem_:#liferay> and to answer your question: at the moment, we use liferay for exactly one website (with responsive full page design) as cms. but we want to use this as general CMS for all our customers and all new projects with a website
