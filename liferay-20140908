@@ -39,3 +39,4 @@
 11:39 < winem_:#liferay> and to answer your question: at the moment, we use liferay for exactly one website (with responsive full page design) as cms. but we want to use this as general CMS for all our customers and all new projects with a website
 11:40 < winem_:#liferay> single instance means single host / application server?
 11:41 < jardineworks_:#liferay> winem_, the nomeclature can be confusion. YOu have a single INSTALLATION of liferay on a server. When you install it, the installation process creates an "instance" .. the default instance. The Default instance, let's say, is configured to "liferay.com" ... so when you send a request to the server, if it can't match the host you provide, it just sends you to the default instance.
+11:41 < jardineworks_:#liferay> now, IN THE DEFAULT instance control panel...
