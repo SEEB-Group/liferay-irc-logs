@@ -49,3 +49,4 @@
 11:43 < jardineworks_:#liferay> you have domain a.com ... create a new instance called a.com .. and in apache ProxyPreserveHost On so that all the links that come back contain a.com for the host.
 11:45 < winem_:#liferay> ok, so the apache config will contain: ProxyPreserveHost On, ProxyPass / http://192.168.10.159:8080/web/aye/welcome, ProxyPassReverse / http://192.168.10.159:8080/web/aye/welcome
 11:46 < winem_:#liferay> let me take a look at the backend and try to create / map the instances
+11:46 < jardineworks_:#liferay> winem_, right
