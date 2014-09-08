@@ -88,3 +88,4 @@
 16:58 <@jhf:#liferay> actually I take that back - if you are signed into liferay.com and go to your “account home” there is a “license” link on the left it lets you generate licenses
 16:58 < jardineworks_:#liferay> jhf, Company based properties (company-<webid>.properties) don't appear to work -- which is a big issue in a multi-tenant environment like the one I am working in. I have the -Dcompany.. etc env var set and I can see at startup the company instance properties files loading, but the values are not being set properly.
 16:59 < jardineworks_:#liferay> I read somewhere that "not all properties are supported" ... though I can't imagine what the value of that is ... but do you know if and where a list of supported properties is published?
+17:00 < jardineworks_:#liferay> jhf, no license link for me .. but I am not the primary so that might be why.
