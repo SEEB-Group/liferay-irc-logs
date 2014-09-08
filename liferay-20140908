@@ -25,3 +25,4 @@
 10:39 < winem_:#liferay> will come back to you if it occures again. :-)
 10:40 < jardineworks_:#liferay> sure
 11:26 < winem_:#liferay> jardineworks_: I have another question.
+11:28 < winem_:#liferay> we have an apache as proxy and liferay as backend server. mod_proxy works fine. but now, when I access the website and take a look at the page source it references a lot of resources via 192.168.10.159:8080/css/etc...
