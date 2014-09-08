@@ -24,3 +24,4 @@
 10:38 < winem_:#liferay> I get an error like "com.liferay.portal.kernel.repository.RepositoryException: No Repository exists with the primary key 10181" in both cases in the log from liferay. so I guess it's a broken reference and a task for our developers
 10:39 < winem_:#liferay> will come back to you if it occures again. :-)
 10:40 < jardineworks_:#liferay> sure
+11:26 < winem_:#liferay> jardineworks_: I have another question.
