@@ -42,3 +42,4 @@
 11:41 < jardineworks_:#liferay> now, IN THE DEFAULT instance control panel...
 11:42 < jardineworks_:#liferay> there is a "Portal Instances" link
 11:42 < winem_:#liferay> ok, so it's actually a single instance setup
+11:42 < jardineworks_:#liferay> there you can add additional instances (mapped to Company object in database and API) ... where you specify a virtual host.
