@@ -76,3 +76,4 @@
 16:42 < jardineworks_:#liferay> 1. The EE developer license doesn't appear to support Cluster Configurations. WTF?!
 16:42 < jardineworks_:#liferay> .. which is not a question I guess
 16:43 < jardineworks_:#liferay> but seriously, how are you supposed to develop for a clustered environment if you can't cluster servers to make sure your stuff works?
+16:49 < jardineworks_:#liferay> jhf, Is there a non-prod non-developer license that can be used for this kind of testing? I mean, I doubt my client is gonna be stoked about the idea of buying another license to make sure something works.
