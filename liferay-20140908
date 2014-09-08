@@ -41,3 +41,4 @@
 11:41 < jardineworks_:#liferay> winem_, the nomeclature can be confusion. YOu have a single INSTALLATION of liferay on a server. When you install it, the installation process creates an "instance" .. the default instance. The Default instance, let's say, is configured to "liferay.com" ... so when you send a request to the server, if it can't match the host you provide, it just sends you to the default instance.
 11:41 < jardineworks_:#liferay> now, IN THE DEFAULT instance control panel...
 11:42 < jardineworks_:#liferay> there is a "Portal Instances" link
+11:42 < winem_:#liferay> ok, so it's actually a single instance setup
