@@ -103,3 +103,4 @@
 17:07 < jardineworks_:#liferay> or at least it doesn't for web.server.protocol.
 17:07 < jardineworks_:#liferay> I know I read that some properties are not supported, but I can't find a list.
 17:07 < jardineworks_:#liferay> and I would also like to know what needs to be changed (assuming via EXT) to make sure that all the properties can be overridden.
+17:08 < jardineworks_:#liferay> jhf, I tried stepping through the PortalImpl, ConfigurationImpl, etc. but I can't see anything. In fact, I made a portlet and did a PropsUtil.getProperties() and the value I set for the company isntance is in there!
