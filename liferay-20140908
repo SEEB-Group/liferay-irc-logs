@@ -44,3 +44,4 @@
 11:42 < winem_:#liferay> ok, so it's actually a single instance setup
 11:42 < jardineworks_:#liferay> there you can add additional instances (mapped to Company object in database and API) ... where you specify a virtual host.
 11:42 < winem_:#liferay> now I know what you mean by instance..
+11:42 < jardineworks_:#liferay> so if you create a new instance called winem.com ... then later on requests that go to winmen.com get routed to that second instance.
