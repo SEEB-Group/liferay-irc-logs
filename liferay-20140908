@@ -51,3 +51,4 @@
 11:46 < winem_:#liferay> let me take a look at the backend and try to create / map the instances
 11:46 < jardineworks_:#liferay> winem_, right
 11:46 < winem_:#liferay> ok. then I got it - I think..
+11:46 < jardineworks_:#liferay> but if you send in winem.com ... then what Liferay actually gets is winem.com:8080/web/aye/welcom
