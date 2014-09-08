@@ -32,3 +32,4 @@
 11:31 < jardineworks_:#liferay> so you need to proxy pass the domain name you want to appear in the link
 11:31 < jardineworks_:#liferay> are you guys using a multi-instance setup? or a single instance? (Portal Instances -- as in the control panel)
 11:31 < winem_:#liferay> ok, this should also be possible with a proxypassreservehost parameter in the apache config I think...
+11:32 < jardineworks_:#liferay> winem_, just remember that the host will be in the body of the content. This full link shenanigans is a pain in my pass right now and we might end up using a third part module to search and replace the response body content.
