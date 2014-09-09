@@ -40,3 +40,4 @@
 07:15 < jardineworks_:#liferay> #end
 07:15 < jardineworks_:#liferay> so $pageTitle wins!
 07:16 < jardineworks_:#liferay> Axxell, if you are using the "Search" portlet which is the same as a federated search then the easiest way it to enable open search as part of the search portlet configuration and then add some configuration to the liferay-portlet.xml.
+07:21 < goku_:#liferay> jardineworks, ok finaly $the_title helped me :)
