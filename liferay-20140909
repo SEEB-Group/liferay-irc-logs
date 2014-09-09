@@ -22,3 +22,4 @@
 07:09 < goku_:#liferay> hi, how to getting current page name in portlet.vm template file ?
 07:10 < jardineworks_:#liferay> goku_, I think there is a layout variable available ...
 07:10 < jardineworks_:#liferay> so $layout.title maybe?
+07:11 < goku_:#liferay> jardinworks_, oh ok.
