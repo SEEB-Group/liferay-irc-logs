@@ -25,3 +25,4 @@
 07:11 < goku_:#liferay> jardinworks_, oh ok.
 07:11 < jardineworks_:#liferay> goku_,
 07:11 < jardineworks_:#liferay> sorry... looking at the LayoutImpl class...
+07:11 < jardineworks_:#liferay> might be $layout.HTMLTitle( $locale )
