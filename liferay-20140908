@@ -110,3 +110,5 @@
 17:56 -!- mode/#liferay [+o jhf] by ChanServ
 18:05 -!- mode/#liferay [+o jhf] by ChanServ
 22:05 < pygator:#liferay> Looking for help on a problem deploying new theme. getting this error  java.lang.ClassNotFoundException: com.liferay.portal.kernel.servlet.taglib.BaseBodyTagSupport
+22:22 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Tue Sep 09 00:00:18 2014
