@@ -2,3 +2,16 @@
 00:56 -!- mode/#liferay [+o jhf] by ChanServ
 03:01 < Axxell:#liferay> Hey guys, i need to know how to configure the liferay search portlet to find my data that ive indexed in lucene. Ive checked with "Luke - Lucene index toolbox" that ive got my data indexed, now i just need the default search to find it
 03:07 < Axxell:#liferay> Any help would be appreciated
+--- Log opened Tue Sep 09 03:21:21 2014
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please nominate Liferay! http://goo.gl/bIspUh Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Thu Jun 19 16:32:35 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ    ] [ bijoo     ] [ jardineworks_] [ mtsr        ] [ twen] 
+03:21 [@jhf         ] [ Bryanstein] [ jbonjean     ] [ Naenyn      ] 
+03:21 [ ArTeS       ] [ gogamoga__] [ longbeach    ] [ quercus     ] 
+03:21 [ avinashrbhat] [ Gorith    ] [ Magno8ooter^ ] [ Tar-Minyatur] 
+03:21 [ Axxell      ] [ henriquev ] [ marcoceppi   ] [ Tm_T        ] 
+03:21 -!- Irssi: #liferay: Total of 21 nicks [2 ops, 0 halfops, 0 voices, 19 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+03:59 < soka_:#liferay> Axxell: I didn't catch ur questoin I just joined, could u repost I'll help if I can
