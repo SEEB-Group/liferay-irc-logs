@@ -19,3 +19,4 @@
 04:25 < Axxell:#liferay> one thing is in my indexer av added keywords, and i suspect i might need to add fields?
 04:46 < Axxell:#liferay> i also do not know which fields are required for the whole thing to work
 07:09 < jardineworks_:#liferay> Axxell, jus tto be clear... you are using the "search" portlet not the "web content search" portlet right?
+07:09 < goku_:#liferay> hi, how to getting current page name in portlet.vm template file ?
