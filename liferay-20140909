@@ -27,3 +27,4 @@
 07:11 < jardineworks_:#liferay> sorry... looking at the LayoutImpl class...
 07:11 < jardineworks_:#liferay> might be $layout.HTMLTitle( $locale )
 07:12 < jardineworks_:#liferay> $layout.getHTMLTitle( $locale )
+07:13 < goku_:#liferay> jardinworks_,this will give me the portlet title right?
