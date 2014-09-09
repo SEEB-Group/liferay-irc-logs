@@ -1,3 +1,4 @@
 --- Log opened Tue Sep 09 00:00:18 2014
 00:56 -!- mode/#liferay [+o jhf] by ChanServ
 03:01 < Axxell:#liferay> Hey guys, i need to know how to configure the liferay search portlet to find my data that ive indexed in lucene. Ive checked with "Luke - Lucene index toolbox" that ive got my data indexed, now i just need the default search to find it
+03:07 < Axxell:#liferay> Any help would be appreciated
