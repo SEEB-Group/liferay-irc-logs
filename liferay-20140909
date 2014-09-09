@@ -31,3 +31,4 @@
 07:13 < goku_:#liferay> or page?
 07:13 < jardineworks_:#liferay> goku_, acutally looking at the init.vm I can see this line --
 07:13 < jardineworks_:#liferay> #set ($the_title = $languageUtil.get($locale, $the_title, $page.getName($locale)))
+07:13 < jardineworks_:#liferay> that would be the page title.
