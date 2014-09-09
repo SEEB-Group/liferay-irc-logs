@@ -17,3 +17,4 @@
 03:59 < soka_:#liferay> Axxell: I didn't catch ur questoin I just joined, could u repost I'll help if I can
 04:24 < Axxell:#liferay> soka_: yeah, ive done a vaadin portlets which uses service builder and scheduler event listener to import som user data from AD and store it localy for speedier delivery. I want that data to be searchable by the system search engine. Ive extended the baseindexer class to make my own indexer. Ive checked that the data is in lucene with luke, but i dont know how to configure the search portlet to search my data
 04:25 < Axxell:#liferay> one thing is in my indexer av added keywords, and i suspect i might need to add fields?
+04:46 < Axxell:#liferay> i also do not know which fields are required for the whole thing to work
