@@ -20,3 +20,4 @@
 04:46 < Axxell:#liferay> i also do not know which fields are required for the whole thing to work
 07:09 < jardineworks_:#liferay> Axxell, jus tto be clear... you are using the "search" portlet not the "web content search" portlet right?
 07:09 < goku_:#liferay> hi, how to getting current page name in portlet.vm template file ?
+07:10 < jardineworks_:#liferay> goku_, I think there is a layout variable available ...
