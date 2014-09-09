@@ -38,3 +38,4 @@
 07:15 < jardineworks_:#liferay> #if ($pageTitle)
 07:15 < jardineworks_:#liferay> 	#set ($the_title = $pageTitle)
 07:15 < jardineworks_:#liferay> #end
+07:15 < jardineworks_:#liferay> so $pageTitle wins!
