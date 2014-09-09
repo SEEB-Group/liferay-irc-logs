@@ -35,3 +35,4 @@
 07:13 < jardineworks_:#liferay> page and layout are synonymous
 07:14 < goku_:#liferay> jardineworks_,thanks
 07:15 < jardineworks_:#liferay> goku_, or ... :)
+07:15 < jardineworks_:#liferay> #if ($pageTitle)
