@@ -36,3 +36,5 @@
 07:14 < goku_:#liferay> jardineworks_,thanks
 07:15 < jardineworks_:#liferay> goku_, or ... :)
 07:15 < jardineworks_:#liferay> #if ($pageTitle)
+07:15 < jardineworks_:#liferay> 	#set ($the_title = $pageTitle)
+07:15 < jardineworks_:#liferay> #end
