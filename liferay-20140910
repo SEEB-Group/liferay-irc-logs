@@ -19,3 +19,4 @@
 03:56 < modd_:#liferay> also I'm not getting new entries when accessing new folders, while I see new repositoryentry entries
 03:58 < modd_:#liferay> it's also strange, that the classNameId of the expando is 10254 while classname_ tells me, that RepositoryEntry has the id 10154 and 10254 doesn't exist
 04:31 < topolik:#liferay> hi modd_
+04:31 < topolik:#liferay> it's a magic
