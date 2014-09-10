@@ -1,0 +1,18 @@
+--- Log opened Wed Sep 10 00:00:19 2014
+00:13 -!- mode/#liferay [+o jhf] by ChanServ
+01:01 -!- mode/#liferay [+o jhf] by ChanServ
+02:16 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log opened Wed Sep 10 03:21:53 2014
+03:22 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please nominate Liferay! http://goo.gl/bIspUh Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:22 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Thu Jun 19 16:32:35 2014]
+03:22 [Users #liferay]
+03:22 [@ChanServ    ] [ gogamoga_    ] [ marcoceppi] [ Tar-Minyatur] 
+03:22 [ ArTeS       ] [ Gorith       ] [ mtsr      ] [ Tm_T        ] 
+03:22 [ avinashrbhat] [ henriquev    ] [ Naenyn    ] [ topolik     ] 
+03:22 [ Axxell      ] [ jardineworks_] [ quercus   ] [ twen        ] 
+03:22 [ bijoo       ] [ jbonjean     ] [ smind     ] [ vsingleton  ] 
+03:22 [ Bryanstein  ] [ Magno8ooter^ ] [ sumer     ] 
+03:22 -!- Irssi: #liferay: Total of 23 nicks [1 ops, 0 halfops, 0 voices, 22 normal]
+03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:22 -!- Irssi: Join to #liferay was synced in 7 secs
+03:56 < modd_:#liferay> hi topolik. do you have a minute to explain how permissions work in your fsrepo hook? as far as I see, you're creating an expando for RepositoryEntry, saving the path there and adding entries to the repositoryentry table. I would expect the permissions beeing saved in resourcepermission table, but nothing has changed after changing permissions for a file/folder
