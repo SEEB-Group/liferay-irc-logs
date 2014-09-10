@@ -18,3 +18,4 @@
 03:56 < modd_:#liferay> hi topolik. do you have a minute to explain how permissions work in your fsrepo hook? as far as I see, you're creating an expando for RepositoryEntry, saving the path there and adding entries to the repositoryentry table. I would expect the permissions beeing saved in resourcepermission table, but nothing has changed after changing permissions for a file/folder
 03:56 < modd_:#liferay> also I'm not getting new entries when accessing new folders, while I see new repositoryentry entries
 03:58 < modd_:#liferay> it's also strange, that the classNameId of the expando is 10254 while classname_ tells me, that RepositoryEntry has the id 10154 and 10254 doesn't exist
+04:31 < topolik:#liferay> hi modd_
