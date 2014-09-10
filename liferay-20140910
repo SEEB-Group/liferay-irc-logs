@@ -32,3 +32,4 @@
 04:35 < modd_:#liferay> so it's the git- master version
 04:36 < modd_:#liferay> in LocalFileSystemPermissionsUtil you're using DLFileEntry and DLFolder
 04:36 < modd_:#liferay> yes
+04:36 < modd_:#liferay> but I don't get it
