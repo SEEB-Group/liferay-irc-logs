@@ -46,3 +46,4 @@
 08:43 < topolik:#liferay> modd_: good, we can play where-is-waldo in the crowd there :)
 08:44 < modd_:#liferay> hehe
 08:48 < jardineworks_:#liferay> topolik, I wanted to get to the Dev conference this year, but you guys put the two conferences too lcose together.
+08:54 < jardineworks_:#liferay> topolik, do you know of any good resources that I can follow on how to right unit tests for Portlets? specifically when they do things that require the core apis?
