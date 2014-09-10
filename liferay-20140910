@@ -16,3 +16,4 @@
 03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:22 -!- Irssi: Join to #liferay was synced in 7 secs
 03:56 < modd_:#liferay> hi topolik. do you have a minute to explain how permissions work in your fsrepo hook? as far as I see, you're creating an expando for RepositoryEntry, saving the path there and adding entries to the repositoryentry table. I would expect the permissions beeing saved in resourcepermission table, but nothing has changed after changing permissions for a file/folder
+03:56 < modd_:#liferay> also I'm not getting new entries when accessing new folders, while I see new repositoryentry entries
