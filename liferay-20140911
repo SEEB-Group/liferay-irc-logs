@@ -63,3 +63,4 @@
 09:19 < winem_:#liferay> it's just a development server..
 09:20 < jardineworks_:#liferay> winem_, quick cleanup is probably best option if it is gating progress, but it would be good to determine what caused it so that you don;t do it again right?
 09:21 < jardineworks_:#liferay> are you using just the regular login? like email and password stored in LR?
+09:21 < winem_:#liferay> right, this is why I ask if you have any idea.. just in case if this happens on the prod env
