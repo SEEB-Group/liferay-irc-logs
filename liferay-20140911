@@ -132,3 +132,4 @@
 15:37 < stefkos:#liferay> I know its question more about maven but...
 15:38 < stefkos:#liferay> I have maven project of Liferay portlet and inside MyPortlet.java created by me
 15:39 < stefkos:#liferay> inside portlet.xml there was <portlet-class> javax.portlet.faces.GenericFacesPortlet
+15:39 < stefkos:#liferay> now I changed that to my Portlet java class ..but liferay is screaming that he cannot find my class when I launch app
