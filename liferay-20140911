@@ -251,3 +251,6 @@
 16:14 < jardineworks_:#liferay> lemme see what your FileAdminPortlet class looks like
 16:14 < stefkos:#liferay> package com.ingnn;
 16:14 < stefkos:#liferay> import org.portletfaces.bridge.GenericFacesPortlet;
+16:14 < stefkos:#liferay> class FileAdminPortlet extends GenericFacesPortlet {
+16:14 < stefkos:#liferay> 	
+16:14 < stefkos:#liferay> 	}
