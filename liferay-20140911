@@ -56,3 +56,4 @@
 09:15 < winem_:#liferay> the section also remains white when we click on public pages and Import, e.g.
 09:15 < winem_:#liferay> no, no exceptions
 09:16 < winem_:#liferay> let me check the http responses.. something I forgot.
+09:17 < winem_:#liferay> and I get a 200 OK if I choose the "crappy" page
