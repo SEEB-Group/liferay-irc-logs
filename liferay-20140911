@@ -207,3 +207,4 @@
 16:00 < jardineworks_:#liferay> add the runtime .. point it to your JDK, then change the build properties for the project to reference the JDK in place of the JRE
 16:01 < stefkos:#liferay> ok now I have
 16:01 < stefkos:#liferay> FileAdminPortlet.java:[5,35] error: package com.liferay.util.bridges.mvc does not exist
+16:01 < stefkos:#liferay> lets see
