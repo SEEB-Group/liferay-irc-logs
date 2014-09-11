@@ -183,3 +183,4 @@
 15:52 < stefkos:#liferay> hehe
 15:53 < stefkos:#liferay> fck
 15:53 < stefkos:#liferay> maven cannot find my jre...wtf
+15:55 < jardineworks_:#liferay> stefkos, right click on the project and check your build path
