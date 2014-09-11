@@ -51,3 +51,4 @@
 08:50 < Axxell:#liferay> mostly the thing is that you develop vaadin aps as if it was any java app, read more here https://vaadin.com/book/-/page/preface.html
 08:52 < jardineworks_:#liferay> Axxell, cool -- I;ll check it out, thanks!
 09:14 < winem_:#liferay> hi, I have a problem... developers who crashed my liferay server. the last remaining issue is the following: the section of the page remains white when I login, choose the instance and go to the site pages administration and click on the first page under public pages
+09:15 < winem_:#liferay> I get the expected screen when I klick on the 2nd page under public pages.
