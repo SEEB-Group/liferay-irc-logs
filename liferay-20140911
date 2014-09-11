@@ -38,3 +38,4 @@
 06:10 < Axxell:#liferay> actually dont need a display page, just show the indexed data
 06:15 < Axxell:#liferay> but this far ive been unable to make the searchportlet to show that data, the index has been checked that it does contain the data, but im investigating a bug
 06:15 < Axxell:#liferay> that might explain
+06:15 < Axxell:#liferay> what the problem is
