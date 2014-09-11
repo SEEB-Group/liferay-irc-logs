@@ -47,3 +47,4 @@
 08:30 < Axxell:#liferay> dont know how to create a working porleturl for a vaadinportlet thou
 08:31 < jardineworks_:#liferay> Axxell, I don't know anything about Vaadin portlets so I can't help --- what is the difference or benefit of Vaadin portlets over MVC?
 08:38 < Axxell:#liferay> well mostly i just have a personal preference to use it, feels cleaner
+08:38 < Axxell:#liferay> but in times like these i wish i would have just done a MVC portlet
