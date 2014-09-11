@@ -193,3 +193,4 @@
 15:57 < stefkos:#liferay> hmm
 15:57 < stefkos:#liferay> JAVA_HOME is set to jdk
 15:57 < stefkos:#liferay> directory
+15:58 < jardineworks_:#liferay> that path above is for a jre though, not a jdk
