@@ -214,3 +214,4 @@
 16:02 < jardineworks_:#liferay> deployed?
 16:02 < stefkos:#liferay> saw SUCCESS then probably yes
 16:03 < stefkos:#liferay> how long with java?
+16:04 < jardineworks_:#liferay> check the runtime log and see if you see INFO statements telling you that its deployed
