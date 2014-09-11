@@ -185,3 +185,4 @@
 15:53 < stefkos:#liferay> maven cannot find my jre...wtf
 15:55 < jardineworks_:#liferay> stefkos, right click on the project and check your build path
 15:55 < stefkos:#liferay> well I have now
+15:55 < stefkos:#liferay>  tools.jar not found: C:\Java\jre7\..\lib\tools.jar -> [Help 1]
