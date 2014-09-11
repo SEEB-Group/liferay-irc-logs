@@ -154,3 +154,4 @@
 15:44 < jardineworks_:#liferay> stefkos, when you created the project, did you create an MVC Portlet or a JSF Portlet?
 15:45 < stefkos:#liferay> nope:(
 15:45 < stefkos:#liferay> I had empty source directory
+15:45 < jardineworks_:#liferay> no no I mean those are the options (including Vaadin) ..
