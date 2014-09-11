@@ -54,3 +54,4 @@
 09:15 < winem_:#liferay> I get the expected screen when I klick on the 2nd page under public pages.
 09:15 < jardineworks_:#liferay> winem_, Anything in the runtime log? Exceptions being thrown for example?
 09:15 < winem_:#liferay> the section also remains white when we click on public pages and Import, e.g.
+09:15 < winem_:#liferay> no, no exceptions
