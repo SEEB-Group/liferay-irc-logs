@@ -35,3 +35,4 @@
 06:07 < modd_:#liferay> ^^
 06:08 < Axxell:#liferay> olafk: yup but the indexer wants a document to have an action url to view the document which is meant to point to a jsp file
 06:09 < olafk:#liferay> Axxell: As a search result display page, do you need an interactive application? Or can you create a jsp file that brings up the Vaadin application if you actually need it?
+06:10 < Axxell:#liferay> actually dont need a display page, just show the indexed data
