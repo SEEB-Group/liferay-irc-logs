@@ -166,3 +166,4 @@
 15:46 < jardineworks_:#liferay> if it is, then change it to GenericFacesPortlet
 15:46 < stefkos:#liferay> that liferay cannot find this class
 15:47 < stefkos:#liferay> SEVERE: Servlet.service() for servlet jsp threw exception
+15:47 < stefkos:#liferay> java.lang.NullPointerException
