@@ -204,3 +204,4 @@
 15:59 < jardineworks_:#liferay> change the runtime to point to the JDK
 16:00 < stefkos:#liferay> in eclipse?
 16:00 < jardineworks_:#liferay> yeah
+16:00 < jardineworks_:#liferay> add the runtime .. point it to your JDK, then change the build properties for the project to reference the JDK in place of the JRE
