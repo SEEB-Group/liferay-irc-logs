@@ -162,3 +162,4 @@
 15:46 < stefkos:#liferay> and jsf->primve faces
 15:46 < jardineworks_:#liferay> ok -- but you said the FileAdminPortlet is extending MVCPortlet right now?
 15:46 < stefkos:#liferay> yeah, just to check
+15:46 < stefkos:#liferay> but I have Nullpointer exception
