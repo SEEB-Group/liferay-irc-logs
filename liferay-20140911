@@ -170,3 +170,4 @@
 15:47 < stefkos:#liferay> 	at com.liferay.portlet.PortletContextFactory._create(PortletContextFactory.java:84)
 15:47 < jardineworks_:#liferay> after you change it?
 15:47 < stefkos:#liferay> even after change
+15:48 < stefkos:#liferay> will restart server now to be sure
