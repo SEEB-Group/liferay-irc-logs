@@ -21,3 +21,4 @@
 05:03 < Axxell:#liferay> hey guys still trying to get my search functionality to work in my vaadin portlet
 05:03 < Axxell:#liferay> no luck..
 05:20 < Axxell:#liferay> my data is indexed in lucene, but i cant get the searchportlet to display items in that index
+05:58 < olafk:#liferay> Axxell - I've not done it yet other than with Assets. Search Portlet must find some way to display the results and it seems legit to ask for your content to implement the Asset Framework (this is just a guess)
