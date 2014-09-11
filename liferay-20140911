@@ -247,3 +247,4 @@
 16:13 < stefkos:#liferay> just redeployed and
 16:13 < stefkos:#liferay> com.liferay.portal.kernel.deploy.hot.HotDeployException: Error registering portlets for Admin-1.0.0-SNAPSHOTAdmin-1.0.0-SNAPSHOT
 16:13 < stefkos:#liferay> Caused by: java.lang.IllegalAccessException: Class com.liferay.portlet.PortletBagFactory can not access a member of class com.ingnn.FileAdminPortlet with modifiers ""
+16:14 < jardineworks_:#liferay> :|
