@@ -20,3 +20,4 @@
 04:40 < winem_:#liferay> not as easy as Moin :)
 05:03 < Axxell:#liferay> hey guys still trying to get my search functionality to work in my vaadin portlet
 05:03 < Axxell:#liferay> no luck..
+05:20 < Axxell:#liferay> my data is indexed in lucene, but i cant get the searchportlet to display items in that index
