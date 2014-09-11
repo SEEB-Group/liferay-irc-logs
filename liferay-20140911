@@ -31,3 +31,4 @@
 06:04 < olafk:#liferay> Nope, Vaadin is only the front end  - nothing to do with indexed content. It might be easier to create a single jsp to just display one piece of content (e.g. your asset) than to bring up a vaadin application for a single search result
 06:05 < modd_:#liferay> ah ok, sry
 06:06 < olafk:#liferay> I love to point to xmlportletfactory: The entities it creates are fully integrated into the asset framework (or can be made so). The portlets, however, are Liferay MVC, so you need to translate the concepts to Vaadin
+06:06 < olafk:#liferay> modd_ "Nope" was directed to Axxell when he stated the guess about the origin of problems, not to you
