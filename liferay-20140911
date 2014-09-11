@@ -243,3 +243,4 @@
 16:12 < jardineworks_:#liferay> it doesn't hurt and it becomes easy to identify customizations.
 16:12 < stefkos:#liferay> yeah
 16:13 < jardineworks_:#liferay> plus ... eventually you should be doing things like leveraging the cache in LR... so you would end up implementing a custom class at some point since the generic one doesn't have any of that stuff
+16:13 < jardineworks_:#liferay> because it is Liferay agnostic.
