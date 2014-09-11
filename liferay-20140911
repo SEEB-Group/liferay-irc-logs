@@ -46,3 +46,4 @@
 08:10 < Axxell:#liferay> the problem seemst to be in the indexer where dogetsummare wants an portleturl to be something, it doesnt like me :)
 08:30 < Axxell:#liferay> dont know how to create a working porleturl for a vaadinportlet thou
 08:31 < jardineworks_:#liferay> Axxell, I don't know anything about Vaadin portlets so I can't help --- what is the difference or benefit of Vaadin portlets over MVC?
+08:38 < Axxell:#liferay> well mostly i just have a personal preference to use it, feels cleaner
