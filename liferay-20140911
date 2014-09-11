@@ -195,3 +195,4 @@
 15:57 < stefkos:#liferay> directory
 15:58 < jardineworks_:#liferay> that path above is for a jre though, not a jdk
 15:58 < stefkos:#liferay> then it should be set to
+15:58 < stefkos:#liferay> C:\Java\jre7
