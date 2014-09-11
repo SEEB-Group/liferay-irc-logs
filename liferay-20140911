@@ -198,3 +198,4 @@
 15:58 < stefkos:#liferay> C:\Java\jre7
 15:58 < stefkos:#liferay> right?
 15:58 < jardineworks_:#liferay> the ..\lib\tools.jar I think is normally a reference path from JAVA_HOME\bin
+15:58 < jardineworks_:#liferay> no, do you have a JDK installed?
