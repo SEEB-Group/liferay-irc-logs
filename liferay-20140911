@@ -97,3 +97,4 @@
 13:16 <@jhf:#liferay> I believe he tried it himself and could not reproduce it on 6.2 (the ticket was filed against 6.1 a year ago)
 13:16 < modd:#liferay> I'n pretty sure he tried to reproduce and I see that it's good to close tickets
 13:17 < modd:#liferay> but these 10 days in this case are pretty rude IMO
+13:17 <@jhf:#liferay> ok, that's a reasonable time period, we can bump it up to 1 month in the next Community Verifier round
