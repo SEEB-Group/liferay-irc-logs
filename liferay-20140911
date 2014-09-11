@@ -160,3 +160,4 @@
 15:45 < jardineworks_:#liferay> you chose JSF?
 15:45 < stefkos:#liferay> and created portlet with generic class
 15:46 < stefkos:#liferay> and jsf->primve faces
+15:46 < jardineworks_:#liferay> ok -- but you said the FileAdminPortlet is extending MVCPortlet right now?
