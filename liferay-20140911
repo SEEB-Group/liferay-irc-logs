@@ -42,3 +42,4 @@
 06:31 < olafk:#liferay> Oh yeah. A bug. That might be a problem ;) (sorry, couldn't resist)
 07:15 < Axxell:#liferay> mmmyah olafk: it was me not saving companyid and groupid correctly for the assets
 07:15 < Axxell:#liferay> now though an intresting new thing: the searchresult is display in the "left" column in the search result portlet
+07:58 < Axxell:#liferay> now if anybody can say why the searchportlet would output the found data in the wrong column, please feel free to share
