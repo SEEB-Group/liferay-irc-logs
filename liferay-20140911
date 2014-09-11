@@ -25,3 +25,4 @@
 05:59 < olafk:#liferay> You might get along with less than full asset support - but as I said, I've not done it yet
 06:00 < Axxell:#liferay> i guess a lot of my problems comes from using a vaadin portlet
 06:00 < olafk:#liferay> winem_ modd_ Moin!
+06:01 < modd_:#liferay> to show an asset you need this tag and implementation in your liferay-portlet.xml: asset-renderer-factory
