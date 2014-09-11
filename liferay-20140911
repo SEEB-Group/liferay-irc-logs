@@ -158,3 +158,4 @@
 15:45 < jardineworks_:#liferay> that choice you make just sets the portlet-class in the portlet.xml
 15:45 < stefkos:#liferay> As I remember Ive done that later
 15:45 < jardineworks_:#liferay> you chose JSF?
+15:45 < stefkos:#liferay> and created portlet with generic class
