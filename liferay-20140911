@@ -131,3 +131,4 @@
 15:36 < stefkos:#liferay> lo
 15:37 < stefkos:#liferay> I know its question more about maven but...
 15:38 < stefkos:#liferay> I have maven project of Liferay portlet and inside MyPortlet.java created by me
+15:39 < stefkos:#liferay> inside portlet.xml there was <portlet-class> javax.portlet.faces.GenericFacesPortlet
