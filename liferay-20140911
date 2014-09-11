@@ -61,3 +61,4 @@
 09:18 < winem_:#liferay> but then they were able to copy the page that they created yesterday and it seemed to be fixed for the moment. until they tried to access the original page
 09:19 < winem_:#liferay> I can also reset the whole liferay setup (remove the portal-wizard props and cleanup the DB) if debugging would take to look
 09:19 < winem_:#liferay> it's just a development server..
+09:20 < jardineworks_:#liferay> winem_, quick cleanup is probably best option if it is gating progress, but it would be good to determine what caused it so that you don;t do it again right?
