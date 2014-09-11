@@ -32,3 +32,4 @@
 06:05 < modd_:#liferay> ah ok, sry
 06:06 < olafk:#liferay> I love to point to xmlportletfactory: The entities it creates are fully integrated into the asset framework (or can be made so). The portlets, however, are Liferay MVC, so you need to translate the concepts to Vaadin
 06:06 < olafk:#liferay> modd_ "Nope" was directed to Axxell when he stated the guess about the origin of problems, not to you
+06:07 < modd_:#liferay> ^^
