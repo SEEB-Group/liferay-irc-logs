@@ -28,3 +28,4 @@
 06:01 < modd_:#liferay> to show an asset you need this tag and implementation in your liferay-portlet.xml: asset-renderer-factory
 06:02 < modd_:#liferay> so you will have an EntityAssetRenderer and an EntityAssetRendererFactory
 06:02 < modd_:#liferay> and a content.jsp which will display your asset
+06:04 < olafk:#liferay> Nope, Vaadin is only the front end  - nothing to do with indexed content. It might be easier to create a single jsp to just display one piece of content (e.g. your asset) than to bring up a vaadin application for a single search result
