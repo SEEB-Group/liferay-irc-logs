@@ -134,3 +134,4 @@
 15:39 < stefkos:#liferay> inside portlet.xml there was <portlet-class> javax.portlet.faces.GenericFacesPortlet
 15:39 < stefkos:#liferay> now I changed that to my Portlet java class ..but liferay is screaming that he cannot find my class when I launch app
 15:40 < stefkos:#liferay> how to add my class to app?
+15:40 < jardineworks_:#liferay> stefkos, is MyPortlet.java inheritting the GenericFacesPortlet?
