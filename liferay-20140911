@@ -226,3 +226,4 @@
 16:08 < stefkos:#liferay> com.liferay.portal.kernel.deploy.hot.HotDeployException: Error registering portlets for Admin-portletAdmin-portlet
 16:08 < jardineworks_:#liferay> portlet
 16:08 < jardineworks_:#liferay> not applet
+16:08 < jardineworks_:#liferay> applets are disgusting
