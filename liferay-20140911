@@ -237,3 +237,4 @@
 16:10 < stefkos:#liferay> WEB-INF/classes
 16:10 < jardineworks_:#liferay> right
 16:10 < jardineworks_:#liferay> which is corect.
+16:11 < stefkos:#liferay> but maybe I can use generic class now...there is no need to use custom one?
