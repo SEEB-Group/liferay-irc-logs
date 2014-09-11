@@ -220,3 +220,4 @@
 16:05 < jardineworks_:#liferay> shit -- 15 - 20 years? lol -- way to make me feel old
 16:05 < jardineworks_:#liferay> :)
 16:05 < stefkos:#liferay> hehe
+16:07 < stefkos:#liferay> com.liferay.portal.kernel.deploy.hot.HotDeployException: Error registering portlets for Admin-1.0.0-SNAPSHOTAdmin-1.0.0-SNAPSHOT
