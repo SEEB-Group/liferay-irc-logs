@@ -49,3 +49,9 @@
 08:54 < jardineworks_:#liferay> topolik, do you know of any good resources that I can follow on how to right unit tests for Portlets? specifically when they do things that require the core apis?
 08:56 < jardineworks_:#liferay> topolik, let me know if an example would help. Mocking doesn't seem to be a viable solution.
 10:09 < Yam`:#liferay> Hi
+10:25 -!- mode/#liferay [+o jhf] by ChanServ
+10:58 -!- mode/#liferay [+o jhf] by ChanServ
+12:22 -!- mode/#liferay [+o jhf] by ChanServ
+17:01 -!- mode/#liferay [+o jhf] by ChanServ
+17:04 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Sep 11 00:00:54 2014
