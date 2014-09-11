@@ -58,3 +58,4 @@
 09:16 < winem_:#liferay> let me check the http responses.. something I forgot.
 09:17 < winem_:#liferay> and I get a 200 OK if I choose the "crappy" page
 09:18 < winem_:#liferay> is it worth it to start debugging? they initially crashed the service with one of the 3 options mentioned in this post: http://www.liferay.com/community/forums/-/message_boards/message/33763988
+09:18 < winem_:#liferay> but then they were able to copy the page that they created yesterday and it seemed to be fixed for the moment. until they tried to access the original page
