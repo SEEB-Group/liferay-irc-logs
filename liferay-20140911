@@ -81,3 +81,4 @@
 09:26 < jardineworks_:#liferay> winem_, Sites (on the front end) map to Groups (not UserGroups, just Groups) in the database and API
 09:27 < jardineworks_:#liferay> so any changes you make to site settings will be saved to the Group_ table or something related to it probably.
 09:27 < winem_:#liferay> nice, thanks for the hint
+09:31 < winem_:#liferay> ok, found 19 friendly urls. only guest, test,  5 template_xxx and another one left if I reduce the list by urls matching the users mail adresses
