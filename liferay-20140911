@@ -80,3 +80,4 @@
 09:25 < winem_:#liferay> ok, I will dive into the database...
 09:26 < jardineworks_:#liferay> winem_, Sites (on the front end) map to Groups (not UserGroups, just Groups) in the database and API
 09:27 < jardineworks_:#liferay> so any changes you make to site settings will be saved to the Group_ table or something related to it probably.
+09:27 < winem_:#liferay> nice, thanks for the hint
