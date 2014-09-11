@@ -137,3 +137,4 @@
 15:40 < jardineworks_:#liferay> stefkos, is MyPortlet.java inheritting the GenericFacesPortlet?
 15:40 < stefkos:#liferay> yep
 15:40 < jardineworks_:#liferay> stefkos, can you share your full portlet.xml?
+15:40 < jardineworks_:#liferay> and your pom.xml?
