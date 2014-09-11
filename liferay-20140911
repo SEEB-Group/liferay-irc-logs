@@ -40,3 +40,4 @@
 06:15 < Axxell:#liferay> that might explain
 06:15 < Axxell:#liferay> what the problem is
 06:31 < olafk:#liferay> Oh yeah. A bug. That might be a problem ;) (sorry, couldn't resist)
+07:15 < Axxell:#liferay> mmmyah olafk: it was me not saving companyid and groupid correctly for the assets
