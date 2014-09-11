@@ -171,3 +171,4 @@
 15:47 < jardineworks_:#liferay> after you change it?
 15:47 < stefkos:#liferay> even after change
 15:48 < stefkos:#liferay> will restart server now to be sure
+15:48 < jardineworks_:#liferay> right click on the project name and choose Run > Maven > Clean
