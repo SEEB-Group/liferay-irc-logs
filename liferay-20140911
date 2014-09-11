@@ -44,3 +44,4 @@
 07:15 < Axxell:#liferay> now though an intresting new thing: the searchresult is display in the "left" column in the search result portlet
 07:58 < Axxell:#liferay> now if anybody can say why the searchportlet would output the found data in the wrong column, please feel free to share
 08:10 < Axxell:#liferay> the problem seemst to be in the indexer where dogetsummare wants an portleturl to be something, it doesnt like me :)
+08:30 < Axxell:#liferay> dont know how to create a working porleturl for a vaadinportlet thou
