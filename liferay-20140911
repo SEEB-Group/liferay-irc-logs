@@ -141,3 +141,4 @@
 15:40 < stefkos:#liferay> sure
 15:42 < stefkos:#liferay> I'm newbee here
 15:42 < stefkos:#liferay> http://pastebin.com/pYFjmjP5
+15:42 < stefkos:#liferay> just checked and  ... class FileAdminPortlet extends MVCPortlet {}
