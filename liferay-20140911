@@ -223,3 +223,4 @@
 16:07 < stefkos:#liferay> com.liferay.portal.kernel.deploy.hot.HotDeployException: Error registering portlets for Admin-1.0.0-SNAPSHOTAdmin-1.0.0-SNAPSHOT
 16:07 < jardineworks_:#liferay> that's a weird name for your portlet
 16:07 < stefkos:#liferay> Its my 3rd liferay applet
+16:08 < stefkos:#liferay> com.liferay.portal.kernel.deploy.hot.HotDeployException: Error registering portlets for Admin-portletAdmin-portlet
