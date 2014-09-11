@@ -164,3 +164,4 @@
 15:46 < stefkos:#liferay> yeah, just to check
 15:46 < stefkos:#liferay> but I have Nullpointer exception
 15:46 < jardineworks_:#liferay> if it is, then change it to GenericFacesPortlet
+15:46 < stefkos:#liferay> that liferay cannot find this class
