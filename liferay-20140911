@@ -167,3 +167,4 @@
 15:46 < stefkos:#liferay> that liferay cannot find this class
 15:47 < stefkos:#liferay> SEVERE: Servlet.service() for servlet jsp threw exception
 15:47 < stefkos:#liferay> java.lang.NullPointerException
+15:47 < stefkos:#liferay> 	at com.liferay.portlet.PortletContextFactory._create(PortletContextFactory.java:84)
