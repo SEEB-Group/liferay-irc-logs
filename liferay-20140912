@@ -64,3 +64,4 @@
 15:00 < jardineworks_:#liferay> just curious if it is a bum download or if there is an actual problem on your machine.
 15:00 < stefkos:#liferay> maybe I should remove something from metadata dir?
 15:01 < stefkos:#liferay> nice, I see in logs
+15:01 < stefkos:#liferay> !ENTRY org.eclipse.equinox.util 4 0 2014-09-12 20:57:15.317
