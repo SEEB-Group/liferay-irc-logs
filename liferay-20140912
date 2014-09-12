@@ -70,3 +70,4 @@
 15:02 < jardineworks_:#liferay> :|
 15:11 < stefkos:#liferay> its a bug in eclipse
 15:11 < stefkos:#liferay> people writes some solutions..
+15:15 < stefkos:#liferay> well, I removed  "workbench.xmi" and imported projects again... waiting for "refreshing workspace"
