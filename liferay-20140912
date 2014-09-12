@@ -39,3 +39,4 @@
 14:54 < stefkos:#liferay> just set to 1024...but have similar issue ( task manager says it grab around 460MB)
 14:55 < stefkos:#liferay> -PermGen
 14:55 < stefkos:#liferay> 256m  ?
+14:55 < jardineworks_:#liferay> I think its -XX:PermGen
