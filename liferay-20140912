@@ -40,3 +40,4 @@
 14:55 < stefkos:#liferay> -PermGen
 14:55 < stefkos:#liferay> 256m  ?
 14:55 < jardineworks_:#liferay> I think its -XX:PermGen
+14:56 < jardineworks_:#liferay> -XX:MaxPermSize=384m
