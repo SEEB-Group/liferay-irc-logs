@@ -36,3 +36,4 @@
 14:50 < stefkos:#liferay> 8G
 14:51 < jardineworks_:#liferay> try setting Xms and Xmx to the same -- save the JVM trying to grab more on the fly
 14:51 < jardineworks_:#liferay> and set your PermGen to 256
+14:54 < stefkos:#liferay> just set to 1024...but have similar issue ( task manager says it grab around 460MB)
