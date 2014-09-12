@@ -66,3 +66,4 @@
 15:01 < stefkos:#liferay> nice, I see in logs
 15:01 < stefkos:#liferay> !ENTRY org.eclipse.equinox.util 4 0 2014-09-12 20:57:15.317
 15:01 < stefkos:#liferay> !MESSAGE Unable to create more threads!
+15:01 < stefkos:#liferay> Active Thread Pool tasks: 0
