@@ -32,3 +32,4 @@
 14:50 < stefkos:#liferay> -Xms40m
 14:50 < stefkos:#liferay> -Xmx1024m
 14:50 < jardineworks_:#liferay> do you have any eclipses you can try (without Liferay plugins?)
+14:50 < jardineworks_:#liferay> how much memory do you have on your machine?
