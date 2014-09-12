@@ -29,3 +29,4 @@
 14:49 < stefkos:#liferay> its project from yesterday
 14:49 < stefkos:#liferay> :) thats why I hate java and Eclipse:)
 14:49 < jardineworks_:#liferay> I've never actually used Liferay IDE... I usually just use the update site and add the plugins to a stock eclipse installation
+14:50 < stefkos:#liferay> -Xms40m
