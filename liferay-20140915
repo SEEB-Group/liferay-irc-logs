@@ -26,3 +26,4 @@
 09:38 < jardineworks_:#liferay> Urug_, in your portal-ext -- add the following
 09:38 < jardineworks_:#liferay> cluster.link.enabled=true
 09:38 < jardineworks_:#liferay> cluster.link.autodetect.address=<some-address>:<some-port>
+09:38 < jardineworks_:#liferay> lucene.replicate.write=true
