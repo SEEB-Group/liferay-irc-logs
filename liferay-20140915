@@ -70,3 +70,4 @@
 10:33 < Urug_:#liferay> Having two databases is the requirement, however they don't have to be active passive, both of them can be used for reading/writing anytime, but they must stay synced. If one fo them fails, it must be (automatically) re-synced after the recovery.
 10:34 < jardineworks_:#liferay> Urug_, ok. That part though would have to be managed by MySQL clustering which is configured and managed outside of Liferay. The clustering that Liferay manages through configuration only relates to resources that it manages -- namely, the search index and the ehcache (or whatever cache implementation you choose to use)
 10:37 < Yam`:#liferay> jardineworks_, have you ever done a custom.css and having trouble with the ">" character (icon-like) of accordions tabs?
+10:39 < Urug_:#liferay> Thank you very much it helped me to create a better picture. And what about the repository, the default is using file system, I need to replicate them as well...
