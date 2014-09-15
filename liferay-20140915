@@ -207,3 +207,4 @@
 15:24 < stefkos:#liferay> @ManagedBean (name="fileViewAction")
 15:24 < stefkos:#liferay> @SessionScoped
 15:24 < stefkos:#liferay> public class FileViewAction  implements Serializable {
+15:25 < stefkos:#liferay> 	public void deleteUploadedFile(ActionEvent actionEvent) {
