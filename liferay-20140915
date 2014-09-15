@@ -183,3 +183,4 @@
 15:13 < stefkos:#liferay> some of them do not display buttons at all
 15:13 < jardineworks_:#liferay> what's the URL look like? (from the status bar)?
 15:13 < stefkos:#liferay> localhost.... guest/test#
+15:14 < stefkos:#liferay> onclick="PrimeFaces.ab({source:'_AdminFileManager_WAR_Adminportlet_:ajax',update:'_AdminFileManager_WAR_Adminportlet_:growl'});return false;">Submit</a>
