@@ -222,3 +222,4 @@
 15:28 < jardineworks_:#liferay> so I am not a JSF user, let alone expert.
 15:28 < jardineworks_:#liferay> but that URL will send the request to that class.. the GenericFacesPortlet.
 15:30 < stefkos:#liferay> ok
+15:31 < jardineworks_:#liferay> so I think you should go back to your FileAdminPortlet
