@@ -39,3 +39,4 @@
 09:43 < jardineworks_:#liferay> the user groups are created with in a portal instance (companyId) so exporting the database in its entirety will move everything -- or at least it should
 09:44 < Yam`:#liferay> jardineworks_, the database cache ?
 09:44 < Yam`:#liferay> or all of them ?
+09:44 < jardineworks_:#liferay> Yam`, anything that is in that page
