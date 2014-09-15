@@ -204,3 +204,4 @@
 15:21 < stefkos:#liferay>     </p:commandLink>
 15:23 < jardineworks_:#liferay> p_p_lifecycle=1 means action request. If it is a action request, then there should be a name parameter (I think) to help the back end know where to send the request. If you are trying to make an AJAX call though, then you probably want a ResourceRequest which is a p_p_lifecycle=2
 15:23 < jardineworks_:#liferay> what does your backend class look like?
+15:24 < stefkos:#liferay> @ManagedBean (name="fileViewAction")
