@@ -198,3 +198,4 @@
 15:20 < stefkos:#liferay> ok
 15:20 < jardineworks_:#liferay> now click the button and see what is recorded in there
 15:21 < stefkos:#liferay> http://localhost:8080/web/guest/test?p_auth=iDJ9MyPT&p_p_id=AdminFileManager_WAR_Adminportlet&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_AdminFileManager_WAR_Adminportlet__facesViewIdRender=%2Fviews%2Fadminfilemanager%2Fview.xhtml#
+15:21 < stefkos:#liferay> that was generated for:
