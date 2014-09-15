@@ -85,3 +85,4 @@
 10:56 < jardineworks_:#liferay> Yam`, I'm not sure what you are doing :)... an example might help
 10:56 < Urug_:#liferay> Maybe I could use another repository implementation such as Jackrabbit and use the same MySQL DB as I am using for Liferay as DataStore. That way I would have to deal only with DB replication.
 10:56 < jardineworks_:#liferay> Urug_, both options for sure
+10:57 < jardineworks_:#liferay> jackrabbit by default writes to the LIFERAY_HOME/data folder
