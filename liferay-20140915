@@ -151,3 +151,4 @@
 12:16 < winem_:#liferay> you can search for shared filesystems like hadoop
 12:17 < winem_:#liferay> this is "very advanced stuff" but should fit your needs
 12:17 < winem_:#liferay> you have one "master-storage" and as much clients as you want to. and all of them contain a snapshot of the real data
+12:19 < winem_:#liferay> and it's a project from the apache foundation :)
