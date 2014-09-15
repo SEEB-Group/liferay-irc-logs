@@ -248,3 +248,4 @@
 15:54 < jardineworks_:#liferay> the name paramter in the request is how it knows which "action handler" to route the request to;
 15:55 < stefkos:#liferay> ok
 15:56 < stefkos:#liferay> just added, starting
+15:58 < stefkos:#liferay> well, same thing
