@@ -27,3 +27,4 @@
 09:38 < jardineworks_:#liferay> cluster.link.enabled=true
 09:38 < jardineworks_:#liferay> cluster.link.autodetect.address=<some-address>:<some-port>
 09:38 < jardineworks_:#liferay> lucene.replicate.write=true
+09:39 < jardineworks_:#liferay> for the address and port, I think I used my database ip and 3306 (for MySQL)
