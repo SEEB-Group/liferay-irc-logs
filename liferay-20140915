@@ -242,3 +242,4 @@
 15:42 < stefkos:#liferay> and processEvent
 15:46 < stefkos:#liferay> I just added System.out... to processAction arguments and processEvent
 15:48 < stefkos:#liferay> processaction and processevent are not called
+15:54 < jardineworks_:#liferay> stefkos, I'm not sure about JSF, but in LiferayMVC portlet, the action methods are annotated. so you would have @ProcessAction(name="whatever")
