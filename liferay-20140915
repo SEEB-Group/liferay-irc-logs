@@ -237,3 +237,4 @@
 15:38 < stefkos:#liferay> I see request and response
 15:38 < stefkos:#liferay> but bean method is not called
 15:38 < stefkos:#liferay> Its probably one line somewhere
+15:41 < jardineworks_:#liferay> stefkos, can you override a doaction method?
