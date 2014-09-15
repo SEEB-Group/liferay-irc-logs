@@ -219,3 +219,4 @@
 15:27 < stefkos:#liferay> or if you have more time  http://stefkos.amigazeux.net/Admin.zip   its older, but have same issues with buttons
 15:27 < stefkos:#liferay> and everything is inside, even  .war
 15:28 < jardineworks_:#liferay> <portlet-class>javax.portlet.faces.GenericFacesPortlet</portlet-class>
+15:28 < jardineworks_:#liferay> so I am not a JSF user, let alone expert.
