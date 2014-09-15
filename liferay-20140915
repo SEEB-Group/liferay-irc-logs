@@ -138,3 +138,4 @@
 11:53 < winem_:#liferay> but it sounds like you can tell jackrabbit to store it on a NFS... and I guess this will have several benefits
 11:55 < jardineworks_:#liferay> winem_, I've never done that, but I believe so.
 11:55 < jardineworks_:#liferay> jackrabbit basically removes the coupling from Liferay to the disk
+11:56 < winem_:#liferay> you never configured jackrabbit to store the stuff on a NFS or you never set the resource.repositories.root to a NFS volume?
