@@ -170,3 +170,4 @@
 15:12 < stefkos:#liferay> but for example
 15:12 < stefkos:#liferay> <p:commandLink id="ajax" update="growl" actionListener="#{fileView.listenerAddDisplay}">
 15:12 < stefkos:#liferay>         <h:outputText value="Ajax Submit" />
+15:12 < stefkos:#liferay>     </p:commandLink>
