@@ -23,3 +23,4 @@
 09:28 < jardineworks_:#liferay> topolik, you around?
 09:35 < Urug_:#liferay> I have got finished Liferay application running on single machine using bundled Tomcat server and MySQL db. Everything is setup as default. My task is to create another server instance which is going to be one-to-one replica of the existing one working as backup server. So these servers must be always sychronized. I've got zero experience with clustering or replicating. I am looking for any advice, direction or general information how t
 09:37 < jardineworks_:#liferay> Urug_, Liferay clustering is easy. If you support multicast it is even easier. One minute, I think I have the instructions written down.
+09:38 < jardineworks_:#liferay> Urug_, in your portal-ext -- add the following
