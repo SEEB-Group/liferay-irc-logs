@@ -165,3 +165,4 @@
 15:10 < stefkos:#liferay> -y +t
 15:10 < stefkos:#liferay> I wrote an app, but... action or actionListeners doesnt work
 15:11 < stefkos:#liferay> I see that something is going on, but bean functions are not called
+15:11 < jardineworks_:#liferay> you mean you wrote an MVC portlet and the portlet:action doesn't work?
