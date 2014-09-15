@@ -101,3 +101,4 @@
 11:33 < jardineworks_:#liferay> winem_, I'd have to look at the source to say for sure but I think it is on next access... lazy load model.
 11:34 < winem_:#liferay> no need to spend time on it. but I guess you're right. at least, this is what I would expect :)
 11:34 < Urug_:#liferay> My concern is that you can for example add files to repository using different API than Liferay's. If liferay would be in charge of handeling these notifications, the cache clustered wouldn't be notified and therefore possibly out of sync.
+11:35 < jardineworks_:#liferay> Urug_, correct.
