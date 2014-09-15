@@ -209,3 +209,5 @@
 15:24 < stefkos:#liferay> public class FileViewAction  implements Serializable {
 15:25 < stefkos:#liferay> 	public void deleteUploadedFile(ActionEvent actionEvent) {
 15:25 < stefkos:#liferay> 		System.out.println("---delete");
+15:25 < stefkos:#liferay> 		LOGGER.info("delete uplaod file");
+15:25 < stefkos:#liferay> 	}
