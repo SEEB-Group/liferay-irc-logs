@@ -148,3 +148,4 @@
 12:04 < jardineworks_:#liferay> Urug_, cool.. thanks I'll check it out :)
 12:13 < Urug_:#liferay> Returning to original problem ... aren't there tools which would basically keep servers synced by creating snapshots/diffs of entire server (probably without memory) and replicating them realtime?
 12:16 < Urug_:#liferay> Like something that suits that Disaster recovery situation better...
+12:16 < winem_:#liferay> you can search for shared filesystems like hadoop
