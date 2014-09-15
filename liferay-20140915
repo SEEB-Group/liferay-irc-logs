@@ -239,3 +239,4 @@
 15:38 < stefkos:#liferay> Its probably one line somewhere
 15:41 < jardineworks_:#liferay> stefkos, can you override a doaction method?
 15:42 < stefkos:#liferay> i see processAction
+15:42 < stefkos:#liferay> and processEvent
