@@ -83,3 +83,4 @@
 10:49 < Yam`:#liferay> is that so? I thought it was a special character
 10:49 < Urug_:#liferay> &gt;
 10:56 < jardineworks_:#liferay> Yam`, I'm not sure what you are doing :)... an example might help
+10:56 < Urug_:#liferay> Maybe I could use another repository implementation such as Jackrabbit and use the same MySQL DB as I am using for Liferay as DataStore. That way I would have to deal only with DB replication.
