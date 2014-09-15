@@ -105,3 +105,4 @@
 11:36 < winem_:#liferay> this would require some communication to liferay (via an API) in my opinion. would work using hooks e.g.
 11:36 < jardineworks_:#liferay> Urug_, but there is only two ways to get around that
 11:36 < jardineworks_:#liferay> 1. Don't do it. :)
+11:36 < jardineworks_:#liferay> 2. Have an external cache server/service that all the systems communicate with
