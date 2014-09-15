@@ -75,3 +75,4 @@
 10:40 < winem_:#liferay> It's as far as I know also not possible in liferay. but you can set the repositories.root.path to a location on a NFS share
 10:40 < jardineworks_:#liferay> or however the ops guys handle that stuff :)
 10:41 < winem_:#liferay> *ping* here's a ops guy :)
+10:41 < jardineworks_:#liferay> haha
