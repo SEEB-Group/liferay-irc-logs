@@ -122,3 +122,4 @@
 11:41 < jardineworks_:#liferay> though I believe the next release of LR is going to support ES ... and I think there is a community plugin that was done by a partner as well -- haven't had a chance to check it out yet.
 11:42 < winem_:#liferay> first reaction: thank good that I have Java developers who I can trust... then I remembered that I'd like to write my own portlets..
 11:43 < jardineworks_:#liferay> winem_, if you're an ops guy then I would focus in on stuff that makes your life easier :)
+11:43 < winem_:#liferay> this is my job :)
