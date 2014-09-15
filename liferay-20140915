@@ -37,3 +37,4 @@
 09:42 < Yam`:#liferay> "no user groups were found"
 09:43 < jardineworks_:#liferay> Yam`, go to the Server Administration .. clear the caches, and rebuild the serach indices.
 09:43 < jardineworks_:#liferay> the user groups are created with in a portal instance (companyId) so exporting the database in its entirety will move everything -- or at least it should
+09:44 < Yam`:#liferay> jardineworks_, the database cache ?
