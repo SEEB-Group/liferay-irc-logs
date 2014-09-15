@@ -241,3 +241,4 @@
 15:42 < stefkos:#liferay> i see processAction
 15:42 < stefkos:#liferay> and processEvent
 15:46 < stefkos:#liferay> I just added System.out... to processAction arguments and processEvent
+15:48 < stefkos:#liferay> processaction and processevent are not called
