@@ -146,3 +146,4 @@
 12:02 < jardineworks_:#liferay> Urug_, wassat?
 12:03 < Urug_:#liferay> JCR impl from JBoss
 12:04 < jardineworks_:#liferay> Urug_, cool.. thanks I'll check it out :)
+12:13 < Urug_:#liferay> Returning to original problem ... aren't there tools which would basically keep servers synced by creating snapshots/diffs of entire server (probably without memory) and replicating them realtime?
