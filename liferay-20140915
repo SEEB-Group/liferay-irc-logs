@@ -109,3 +109,4 @@
 11:37 < jardineworks_:#liferay> actually, I'm not even sure the server would do it ..
 11:37 < jardineworks_:#liferay> winem_, Right.. third option...
 11:37 < jardineworks_:#liferay> make the other applications use the Liferay services api to add/remove/get items
+11:37 < jardineworks_:#liferay> rathan that JCR directly.
