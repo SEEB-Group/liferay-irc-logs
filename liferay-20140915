@@ -211,3 +211,4 @@
 15:25 < stefkos:#liferay> 		System.out.println("---delete");
 15:25 < stefkos:#liferay> 		LOGGER.info("delete uplaod file");
 15:25 < stefkos:#liferay> 	}
+15:25 < stefkos:#liferay> and I do not see this info in log:( (console output)
