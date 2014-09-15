@@ -74,3 +74,4 @@
 10:40 < jardineworks_:#liferay> Urug_, I would configure that to use a NFS (network file share) and the make sure you have the appropriate backup copies and stuff done using file system triggers or cron jobs to a alternate directory.
 10:40 < winem_:#liferay> It's as far as I know also not possible in liferay. but you can set the repositories.root.path to a location on a NFS share
 10:40 < jardineworks_:#liferay> or however the ops guys handle that stuff :)
+10:41 < winem_:#liferay> *ping* here's a ops guy :)
