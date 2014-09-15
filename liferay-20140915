@@ -21,3 +21,4 @@
 08:42 < Yam`:#liferay> Has somebody ever exported lportal base in an other computer and faced issues with groups?
 08:55 -!- mode/#liferay [+o jhf] by ChanServ
 09:28 < jardineworks_:#liferay> topolik, you around?
+09:35 < Urug_:#liferay> I have got finished Liferay application running on single machine using bundled Tomcat server and MySQL db. Everything is setup as default. My task is to create another server instance which is going to be one-to-one replica of the existing one working as backup server. So these servers must be always sychronized. I've got zero experience with clustering or replicating. I am looking for any advice, direction or general information how t
