@@ -127,3 +127,4 @@
 11:46 < winem_:#liferay> but, just to be sure that I get it right. Lucene is used for indexes and internal stuff, e.g. and jack rabbit is used for what?
 11:46 < winem_:#liferay> I'm not sure which data are written to the jackrabbit folder and which ones in the document folder. the last one contains the css and so on. but wherefore do we need the jackrabbit?
 11:49 < jardineworks_:#liferay> winem_, lucene is the default "search engine". So anything that is "indexed" and is searcheable has a record dumped into lucene. You can use a tool called "Luke" to inspect the index and see the records, run (lucene) queries etc,
+11:49 < jardineworks_:#liferay> jackrabbit is a content repo... so its a way of storing assets, documents etc.
