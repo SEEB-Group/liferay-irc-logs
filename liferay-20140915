@@ -118,3 +118,4 @@
 11:40 < winem_:#liferay> which alternatives do you have and which one would you prefer? the default setup seems to use lucene and jackrabbit. is this the "best practice" and recommended or would you choose some alternatives?
 11:40 < jardineworks_:#liferay> winem_, I'm not expert on JCR... to be honest, most of the time I use a NFS.
 11:41 < winem_:#liferay> we will use it for the content store too :)
+11:41 < jardineworks_:#liferay> lucene is good enough most of the time but I know that the SOLR plugin is popular... easier to write queries using SOLR than it is Lecene.
