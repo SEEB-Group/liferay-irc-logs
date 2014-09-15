@@ -64,3 +64,4 @@
 10:15 < winem_:#liferay> hello, I'm a bit confused regarding liferay and java 8. several people in the community says that it's working fine with CE 6.2.1 but is it already supported or not? I can't find an official statement from liferay
 10:18 < jardineworks_:#liferay> winem_, not supported yet I don't think
 10:18 < jardineworks_:#liferay> Java 8 was release after 6.2
+10:19 < jardineworks_:#liferay> winem_, best best is to stick with Java 7 for now
