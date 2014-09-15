@@ -25,3 +25,4 @@
 09:37 < jardineworks_:#liferay> Urug_, Liferay clustering is easy. If you support multicast it is even easier. One minute, I think I have the instructions written down.
 09:38 < jardineworks_:#liferay> Urug_, in your portal-ext -- add the following
 09:38 < jardineworks_:#liferay> cluster.link.enabled=true
+09:38 < jardineworks_:#liferay> cluster.link.autodetect.address=<some-address>:<some-port>
