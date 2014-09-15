@@ -79,3 +79,4 @@
 10:42 < jardineworks_:#liferay> Yam`, because that is also a character used to close an html tag, you should probably specify it as an HTML entity number rather than the character itself
 10:45 < Yam`:#liferay> jardineworks_, do you know this character's html tag?
 10:48 < jardineworks_:#liferay> >	greater than	&gt;	&#62;
+10:48 < jardineworks_:#liferay> Yam`, http://www.w3schools.com/html/html_entities.asp
