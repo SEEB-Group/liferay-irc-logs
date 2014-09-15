@@ -235,3 +235,4 @@
 15:37 < jardineworks_:#liferay> its working?
 15:38 < stefkos:#liferay> well dispatcher yes
 15:38 < stefkos:#liferay> I see request and response
+15:38 < stefkos:#liferay> but bean method is not called
