@@ -98,3 +98,4 @@
 11:31 < Urug_:#liferay> So for example if I use Jackrabbit I only have to make sure it uses the same cache.
 11:32 < jardineworks_:#liferay> Urug_, Liferay has a whole set of classes in the API that are injected when you enable clustering. So basically, Liferay handles the notification of cache expiration, but its the cache implementation (I beleive) that does the actual state change.
 11:33 < jardineworks_:#liferay> Urug_, Jackrabbit would be independent of it... its just a storage mechanism right? The *ServiceUtil classes for the Document Library would manage the cache addition, removal, etc.
+11:33 < jardineworks_:#liferay> winem_, I'd have to look at the source to say for sure but I think it is on next access... lazy load model.
