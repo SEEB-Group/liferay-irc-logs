@@ -201,3 +201,4 @@
 15:21 < stefkos:#liferay> that was generated for:
 15:21 < stefkos:#liferay> <p:commandLink id="noajax" ajax="false" actionListener="#{fileViewAction.deleteUploadedFile}" value="Submit">
 15:21 < stefkos:#liferay>         <h:outputText value="Ajax Submit" />
+15:21 < stefkos:#liferay>     </p:commandLink>
