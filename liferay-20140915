@@ -95,3 +95,4 @@
 11:19 < jardineworks_:#liferay> luster. So if you add the user on Server A, the cache is expired, and a cache expiration message sent to Server B. Your next request retrieves the list of users again (on Server A) whcih rebuilds the cache, which causes a cache event message to be sent to B and the cache is updated so that your next request that goes to B displays the same state as A
 11:31 < Urug_:#liferay> These invalidation messages are handled by cache implementation (using some clustering setting taken from liferay configuration) I suppose, not by Liferay itself.
 11:31 < winem_:#liferay> and the cache will be renewed when you add a new user or when someone calls the list of users?
+11:31 < Urug_:#liferay> So for example if I use Jackrabbit I only have to make sure it uses the same cache.
