@@ -72,3 +72,4 @@
 10:37 < Yam`:#liferay> jardineworks_, have you ever done a custom.css and having trouble with the ">" character (icon-like) of accordions tabs?
 10:39 < Urug_:#liferay> Thank you very much it helped me to create a better picture. And what about the repository, the default is using file system, I need to replicate them as well...
 10:40 < jardineworks_:#liferay> Urug_, I would configure that to use a NFS (network file share) and the make sure you have the appropriate backup copies and stuff done using file system triggers or cron jobs to a alternate directory.
+10:40 < winem_:#liferay> It's as far as I know also not possible in liferay. but you can set the repositories.root.path to a location on a NFS share
