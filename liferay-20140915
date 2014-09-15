@@ -66,3 +66,5 @@
 10:18 < jardineworks_:#liferay> Java 8 was release after 6.2
 10:19 < jardineworks_:#liferay> winem_, best best is to stick with Java 7 for now
 10:19 < winem_:#liferay> ok
+10:26 -!- mode/#liferay [+o _jhf_] by ChanServ
+10:33 < Urug_:#liferay> Having two databases is the requirement, however they don't have to be active passive, both of them can be used for reading/writing anytime, but they must stay synced. If one fo them fails, it must be (automatically) re-synced after the recovery.
