@@ -134,3 +134,4 @@
 11:51 < jardineworks_:#liferay> the nice thing about JCR is you can connect multiple JCR compliant applications to the same repo.
 11:51 < winem_:#liferay> oh, now it starts to become interesting..
 11:51 < jardineworks_:#liferay> so you could have a .. I dunno... OpenCMS application accessing the same repo as Liferay.
+11:52 < winem_:#liferay> so, the stupid admin would configure the resource.repositories.root and set it to a dir on a mounted nfs volume
