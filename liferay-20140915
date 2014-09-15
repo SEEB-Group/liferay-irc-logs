@@ -214,3 +214,4 @@
 15:25 < stefkos:#liferay> and I do not see this info in log:( (console output)
 15:26 < jardineworks_:#liferay> do you see the system out?
 15:26 < stefkos:#liferay> I should..but no, nothing
+15:26 < jardineworks_:#liferay> what's your portlet.xml file look like
