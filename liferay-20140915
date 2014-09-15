@@ -136,3 +136,4 @@
 11:51 < jardineworks_:#liferay> so you could have a .. I dunno... OpenCMS application accessing the same repo as Liferay.
 11:52 < winem_:#liferay> so, the stupid admin would configure the resource.repositories.root and set it to a dir on a mounted nfs volume
 11:53 < winem_:#liferay> but it sounds like you can tell jackrabbit to store it on a NFS... and I guess this will have several benefits
+11:55 < jardineworks_:#liferay> winem_, I've never done that, but I believe so.
