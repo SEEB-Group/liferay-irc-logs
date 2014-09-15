@@ -31,3 +31,4 @@
 09:39 < jardineworks_:#liferay> that will allow the ehcache and search index to remain in synch
 09:40 < jardineworks_:#liferay> but if your setup is active passive, meaning the "backup instance" is never used unless the first instance goes down then you might not even need clustering. Clustering is only really necessary when both nodes are serving requests. If the backup only kicks in when the other node is down, it might be enough for them simply to be connected to the same database
 09:40 < Yam`:#liferay> Is there a property file or something that links the usergroups to the portal?
+09:41 < jardineworks_:#liferay> Yam`, the user groups that are created in the portal? or external user groups?
