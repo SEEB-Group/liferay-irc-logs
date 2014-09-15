@@ -34,3 +34,4 @@
 09:41 < jardineworks_:#liferay> Yam`, the user groups that are created in the portal? or external user groups?
 09:41 < Yam`:#liferay> jardineworks_, the user groups created in the portal
 09:42 < Yam`:#liferay> because I've created user groups in the portal and exported the lportal database to another computer, I've got the user groups in the database but they are not displayed in the portal
+09:42 < Yam`:#liferay> "no user groups were found"
