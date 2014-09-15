@@ -51,3 +51,4 @@
 09:56 < Urug_:#liferay> And what about liferay repository (files and documents)?
 09:57 < jardineworks_:#liferay> Urug_, are you sharing the same database between both nodes?
 09:59 < Urug_:#liferay> I quess they should be separated so  one of them can really work as backup.
+09:59 < jardineworks_:#liferay> ah
