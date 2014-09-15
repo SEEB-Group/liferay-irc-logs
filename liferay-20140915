@@ -56,3 +56,4 @@
 10:00 < jardineworks_:#liferay> Which is not really a situation for clustering
 10:05 < Urug_:#liferay> That's probably more appropriate term I quess, but basically two liferay instaces running in cluster could work the same way if active passive setup is not requierement, couldn't they?
 10:07 < Urug_:#liferay> The requierement is to have access to application with all data up to date if one fo the erver will fail.
+10:07 < Urug_:#liferay> *one of the servers
