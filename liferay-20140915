@@ -91,3 +91,4 @@
 11:15 < Urug_:#liferay> Well but when I am simply replicating data on DB implementation level, there could occur some problems with inconsistency between database and application data in memory (eg. some memory caches?) am I right?
 11:16 < jardineworks_:#liferay> Urug_, shouldn't be if you have all the replication set up.
 11:16 < jardineworks_:#liferay> Urug_, for example...
+11:19 < jardineworks_:#liferay> Urug_, you retrieve a list of users using the UserLocalServiceUtil class. If the cache is not yet primed, then the result of this call will load data from the database and then place it into the cache. The next time you use the UserLocalServiceUtil, it will detect the cache and use it first. Now, with a cache in place, you choose to ADD a user. That action will invalidate the cache. Cache level actions are replicated in the c
