@@ -96,3 +96,4 @@
 11:31 < Urug_:#liferay> These invalidation messages are handled by cache implementation (using some clustering setting taken from liferay configuration) I suppose, not by Liferay itself.
 11:31 < winem_:#liferay> and the cache will be renewed when you add a new user or when someone calls the list of users?
 11:31 < Urug_:#liferay> So for example if I use Jackrabbit I only have to make sure it uses the same cache.
+11:32 < jardineworks_:#liferay> Urug_, Liferay has a whole set of classes in the API that are injected when you enable clustering. So basically, Liferay handles the notification of cache expiration, but its the cache implementation (I beleive) that does the actual state change.
