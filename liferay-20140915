@@ -185,3 +185,4 @@
 15:13 < stefkos:#liferay> localhost.... guest/test#
 15:14 < stefkos:#liferay> onclick="PrimeFaces.ab({source:'_AdminFileManager_WAR_Adminportlet_:ajax',update:'_AdminFileManager_WAR_Adminportlet_:growl'});return false;">Submit</a>
 15:15 < jardineworks_:#liferay> stefkos, but when you click the button... what the full url that is used?
+15:17 < stefkos:#liferay> localhost:8080/web/guest/test#
