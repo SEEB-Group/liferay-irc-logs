@@ -133,3 +133,4 @@
 11:50 < jardineworks_:#liferay> if you configure jackrabbit, then the save goes to the "jackrabbit" repo... which by default is configured to write to disk of course, BUT you could configure jackrabbit to write elsewhere --- for example, as BLOBs in a database, or to a NFS, etc.
 11:51 < jardineworks_:#liferay> the nice thing about JCR is you can connect multiple JCR compliant applications to the same repo.
 11:51 < winem_:#liferay> oh, now it starts to become interesting..
+11:51 < jardineworks_:#liferay> so you could have a .. I dunno... OpenCMS application accessing the same repo as Liferay.
