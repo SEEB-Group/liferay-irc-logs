@@ -52,3 +52,4 @@
 09:57 < jardineworks_:#liferay> Urug_, are you sharing the same database between both nodes?
 09:59 < Urug_:#liferay> I quess they should be separated so  one of them can really work as backup.
 09:59 < jardineworks_:#liferay> ah
+09:59 < jardineworks_:#liferay> Urug_, ok so that is a different story. That sounds more like you are setting up a DR (disaster recovery)
