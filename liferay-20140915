@@ -53,3 +53,4 @@
 09:59 < Urug_:#liferay> I quess they should be separated so  one of them can really work as backup.
 09:59 < jardineworks_:#liferay> ah
 09:59 < jardineworks_:#liferay> Urug_, ok so that is a different story. That sounds more like you are setting up a DR (disaster recovery)
+10:00 < jardineworks_:#liferay> Which is not really a situation for clustering
