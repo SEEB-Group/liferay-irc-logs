@@ -142,3 +142,4 @@
 11:56 < jardineworks_:#liferay> the "JCR" becomes an interface that it uses to save files ... but the acutal implementation is blackback to liferay. It doesn't care... it just adheres to the contract.
 11:57 < jardineworks_:#liferay> winem_, either. but I have done maintenance on a project that used Jackrabbit and a NFS ... so I do believe that is a valid configuration.
 11:57 < winem_:#liferay> ok, will check this. a NFS volume will be one of the key elements for a new project
+12:01 < Urug_:#liferay> I would recommed look at ModeShape implementation
