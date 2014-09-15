@@ -223,3 +223,4 @@
 15:28 < jardineworks_:#liferay> but that URL will send the request to that class.. the GenericFacesPortlet.
 15:30 < stefkos:#liferay> ok
 15:31 < jardineworks_:#liferay> so I think you should go back to your FileAdminPortlet
+15:31 < jardineworks_:#liferay> for starters
