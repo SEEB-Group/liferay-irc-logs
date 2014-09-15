@@ -47,3 +47,4 @@
 09:48 < jardineworks_:#liferay> Yam`, I think I spent about half a day on it the first time I tried to solve that one :)
 09:50 < Yam`:#liferay> Same here haha
 09:55 < Urug_:#liferay> So it should be only about running another Liferay server and changing a Liferay configuration little bit. I mean I don't have to deal with some configuration out of Liferay sandbox.
+09:56 < Urug_:#liferay> What about existing data are they going to be replicated?
