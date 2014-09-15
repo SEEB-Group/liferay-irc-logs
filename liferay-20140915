@@ -15,3 +15,4 @@
 05:56 < Yam`:#liferay> hi
 08:21 < Axxell:#liferay> Hey guys trying to ad to liferay 6.2 web content listing the ability to sort articles by title but i cant get it to work
 08:21 < Axxell:#liferay> any clues?
+08:31 < Axxell:#liferay> the error i get is: 12:17:15,247 ERROR [http-bio-8080-exec-7][JDBCExceptionReporter:82] Unknown column 'title' in 'order clause'
