@@ -254,3 +254,4 @@
 15:59 < stefkos:#liferay> 19:58:52,647 DEBUG [DebugPhaseListener:48] AFTER phaseId=[APPLY_REQUEST_VALUES 2] viewId=[/views/adminfilemanager/view.xhtml]
 15:59 < stefkos:#liferay> 19:58:52,648 DEBUG [DebugPhaseListener:48] AFTER phaseId=[APPLY_REQUEST_VALUES 2] viewId=[/views/adminfilemanager/view.xhtml]
 15:59 < stefkos:#liferay> before file is send
+16:00 < stefkos:#liferay> and when I press my button, I see only this
