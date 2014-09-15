@@ -89,3 +89,4 @@
 10:57 < jardineworks_:#liferay> so you would need to configure it to write elsewhere.
 11:14 < Yam`:#liferay> jardineworks_, it wasn't a character but an icon, there's no problem actually
 11:15 < Urug_:#liferay> Well but when I am simply replicating data on DB implementation level, there could occur some problems with inconsistency between database and application data in memory (eg. some memory caches?) am I right?
+11:16 < jardineworks_:#liferay> Urug_, shouldn't be if you have all the replication set up.
