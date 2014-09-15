@@ -171,3 +171,4 @@
 15:12 < stefkos:#liferay> <p:commandLink id="ajax" update="growl" actionListener="#{fileView.listenerAddDisplay}">
 15:12 < stefkos:#liferay>         <h:outputText value="Ajax Submit" />
 15:12 < stefkos:#liferay>     </p:commandLink>
+15:12 < jardineworks_:#liferay> but you created a plugin right?
