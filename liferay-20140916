@@ -1,3 +1,18 @@
 --- Log opened Tue Sep 16 00:00:21 2014
 02:19 < Axxell:#liferay> Hey guys, repeating the question from yesterday: Liferay 6.2 GA1 does not have the ability to sort articles in the control panel according to title, i tried to add that with a hook but got the error ERROR [http-bio-8080-exec-7][JDBCExceptionReporter:82] Unknown column 'title' in 'order clause' in the file \webapps\ROOT\html\portlet\journal\sort_button.jsp
 02:20 < Axxell:#liferay> it was possible in liferay 6.1 to sort with any of the headers of the table but not in 6.2 ga1. Problem is that i have a lot of articles on my site and finding them when the search does not return all the files you would want to, is very difficult
+--- Log opened Tue Sep 16 03:21:22 2014
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ    ] [ Gorith       ] [ Naenyn      ] [ topolik1  ] 
+03:21 [ ArTeS       ] [ henriquev    ] [ quercus     ] [ twen      ] 
+03:21 [ avinashrbhat] [ jardineworks_] [ sm`pid      ] [ vsingleton] 
+03:21 [ Axxell      ] [ jbonjean2    ] [ smind       ] [ Yam``     ] 
+03:21 [ bijoo       ] [ Magno8ooter^ ] [ Tar-Minyatur] 
+03:21 [ Bryanstein  ] [ marcoceppi   ] [ Tm_T        ] 
+03:21 [ gogamoga_   ] [ mtsr         ] [ topolik     ] 
+03:21 -!- Irssi: #liferay: Total of 25 nicks [1 ops, 0 halfops, 0 voices, 24 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+04:02 < Axxell:#liferay> any help in sorting files acording to title would be appreciated
