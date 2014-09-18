@@ -76,3 +76,4 @@
 10:05 < jardineworks_:#liferay> topolik1, Nevermind. I'm an idiot
 10:05 < jardineworks_:#liferay> :)
 10:05 < jardineworks_:#liferay> topolik1, the one section I forgot to comment out (in my portal-ext) was the section where I disabled all these filters because I wasn't using them ... hahaha.
+10:05 < jardineworks_:#liferay> FAIL
