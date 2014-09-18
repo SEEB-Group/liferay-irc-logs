@@ -64,3 +64,4 @@
 09:58 < modd_:#liferay> now I have a portlet, which uses vaadin, is build with maven and has a service builder part, which uses an extern datasource and throws everything into the lucene index so you can search for it, etc.
 09:59 < modd_:#liferay> the combination of these parts is like hell
 09:59 < jardineworks_:#liferay> topolik1, LoginAction only again. :S
+09:59 < modd_:#liferay> but if you only need to have a simple view, vaadin might be nice ^^
