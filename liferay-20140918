@@ -27,3 +27,4 @@
 09:33 < topolik1:#liferay> hmm, can you put breakpoint into AutoLoginFilter?
 09:36 < jardineworks_:#liferay> topolik1, I think i have one there... but let m edouble check
 09:36 < jardineworks_:#liferay> I have one at line 152
+09:36 < jardineworks_:#liferay> never gets hits
