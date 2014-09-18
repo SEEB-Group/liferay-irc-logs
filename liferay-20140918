@@ -82,3 +82,4 @@
 10:09 < jardineworks_:#liferay> \o/ braking in OpenSSOAutoLogin
 10:16 < topolik1:#liferay> +1
 10:49 < jardineworks_:#liferay> topolik1, I thought the PrefsPropsUtil was supposed read both the PortalPreferences table (based on the company id) and the portal-ext.properties file ... in the case where the key is not found in the PortalPreferences table?
+11:03 < topolik1:#liferay> jardineworks_: yup, it should read DB first
