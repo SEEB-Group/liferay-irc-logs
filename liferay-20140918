@@ -23,3 +23,4 @@
 09:21 < topolik1:#liferay> when you try this URL does the breakpoint hit?
 09:26 < urug_:#liferay> I need to copy Liferay to another server. Can I just basically copy the whole tomcat+liferay bundle folder and export-import DB?
 09:30 < jardineworks_:#liferay> hey topolik1 that is the one I was trying but the only breakpoint that is hit is the one in the LoginAction class. I have breakpoints set in several other classes though.
+09:30 < jardineworks_:#liferay> it's so strange... I have never actually had a problem with this feature in the past. three steps, done ...
