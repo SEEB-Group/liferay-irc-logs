@@ -25,3 +25,4 @@
 09:30 < jardineworks_:#liferay> hey topolik1 that is the one I was trying but the only breakpoint that is hit is the one in the LoginAction class. I have breakpoints set in several other classes though.
 09:30 < jardineworks_:#liferay> it's so strange... I have never actually had a problem with this feature in the past. three steps, done ...
 09:33 < topolik1:#liferay> hmm, can you put breakpoint into AutoLoginFilter?
+09:36 < jardineworks_:#liferay> topolik1, I think i have one there... but let m edouble check
