@@ -14,3 +14,4 @@
 03:50 < Axxell:#liferay> hey, im using saxreader to get a structure data which might be empty for som articles.. ive made a nullcheck for the node, ala if(node==null) but this returns a nullpointerexception which is confusing
 03:50 < Axxell:#liferay> how do i check if a structures dynamic data exists?
 03:55 < Axxell:#liferay> ie how do i check if a node is null when i use SAXReaderUtil.selectSingleNode
+--- Log closed Thu Sep 18 00:00:23 2014
