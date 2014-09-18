@@ -33,3 +33,4 @@
 09:38 < topolik1:#liferay> hmm, then you need to stop inside InvokerFilterChain
 09:39 < topolik1:#liferay> and see what filters are applied to the URL and look if/how they are applied
 09:39 < jardineworks_:#liferay> topolik1, never done that before :)
+09:39 < jardineworks_:#liferay> so line 72?
