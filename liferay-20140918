@@ -88,3 +88,4 @@
 11:05 < jardineworks_:#liferay> I have a portal preferences with an ownerId that matches the companyId for JARDINEWORKS, but it does not contain open.sso.auth.enabled as a setting.
 11:05 < jardineworks_:#liferay> in my portal-JARDINEWORKS.properties file I have added that property and set it to true.
 11:05 < jardineworks_:#liferay> however, the OpenSSOAutoLogin is using the default.
+11:06 < jardineworks_:#liferay> I traced through the code and I don't see where the properties file is supposed to be read.
