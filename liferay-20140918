@@ -49,3 +49,4 @@
 09:48 < jardineworks_:#liferay> I was trying to do it without my hook originally ... I just want to trace through OpenSSOFilter... and it wasn't breaking so I added my hook to see if that would work.
 09:48 < jardineworks_:#liferay> I'll undeploy though to see
 09:52 < modd_:#liferay> jardineworks_: sry, I was afk. I'm pretty new in this vaadin stuff, so I don't know
+09:52 < jardineworks_:#liferay> modd_, just curious -- is there some advantage in Vaadin over the other frameworks?
