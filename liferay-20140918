@@ -110,3 +110,4 @@
 11:32 < jardineworks_:#liferay> topolik1, true... BUT
 11:32 < jardineworks_:#liferay> BUT
 11:33 < jardineworks_:#liferay> I want to have a disposable infrastructure so that I can use chef to rebuild a server easily. This is supposed to be a working feature no?
+11:34 < jardineworks_:#liferay> The strange thing is I have a Portlet that does PrefsPropsUtil.getString( PortalUtil.getCompanyId(renderRequest), "key", default) and I log what it gets... and it works!
