@@ -45,3 +45,4 @@
 09:47 < topolik1:#liferay> it's possible that it's once defined by portal and for the second time by some your custom hook settings?
 09:47 < jardineworks_:#liferay> strange thing is ... I don't see my hook in the list of filters.
 09:47 < topolik1:#liferay> hmm
+09:48 < topolik1:#liferay> can you try to undeploy the hook and test first w/o it?
