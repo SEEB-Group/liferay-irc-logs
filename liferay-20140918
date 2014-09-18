@@ -92,3 +92,4 @@
 11:10 < topolik1:#liferay> does OpenSSOAutoLogin has proper companyId ?
 11:11 < jardineworks_:#liferay> yeah --
 11:11 < topolik1:#liferay> btw. I think it should be called portal-companyId.properties
+11:11 < jardineworks_:#liferay> topolik1, eh?  so portal-32542.properties in stead of portal-JARDINEWORKS.properties?
