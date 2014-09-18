@@ -99,3 +99,4 @@
 11:13 < jardineworks_:#liferay> I have the -D
 11:13 < jardineworks_:#liferay> let me try with a different properties file name
 11:14 < jardineworks_:#liferay> .. I did notice that, but all the exmaples say to use the WedbID!
+11:22 < jardineworks_:#liferay> topolik1, doesn't load the file if I use the ID -- Loading jar:file:/home/aj/projects/ypg/liferay/liferay-portal-6.2.10.1-ee-ga1/tomcat-7.0.42/webapps/ROOT/WEB-INF/lib/portal-impl.jar!/portal.properties for {companyId=325001, webId=JARDINEWORKS}
