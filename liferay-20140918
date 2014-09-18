@@ -94,3 +94,4 @@
 11:11 < topolik1:#liferay> btw. I think it should be called portal-companyId.properties
 11:11 < jardineworks_:#liferay> topolik1, eh?  so portal-32542.properties in stead of portal-JARDINEWORKS.properties?
 11:11 < jardineworks_:#liferay> are you sure?
+11:12 < topolik1:#liferay> and -Dcompany-id-properties=true
