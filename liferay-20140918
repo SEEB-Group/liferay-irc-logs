@@ -109,3 +109,4 @@
 11:32 < topolik1:#liferay> you can try to look up it there
 11:32 < jardineworks_:#liferay> topolik1, true... BUT
 11:32 < jardineworks_:#liferay> BUT
+11:33 < jardineworks_:#liferay> I want to have a disposable infrastructure so that I can use chef to rebuild a server easily. This is supposed to be a working feature no?
