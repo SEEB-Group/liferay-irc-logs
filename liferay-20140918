@@ -41,3 +41,4 @@
 09:45 < jardineworks_:#liferay> topolik1, ok very weird. I see the AutoLogin filter. I also see the OpenSSOFilter. WHen I expand it, I see _filterEanbled TWICE... one value has true and the other has false.
 09:45 < jardineworks_:#liferay> I do have two instances setup... and this is an instance specific setting I believe... is that why I woul dbe seeing it twice?
 09:46 < topolik1:#liferay> these values are read from config files
+09:46 < topolik1:#liferay> and should not be shared across cluster
