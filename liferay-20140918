@@ -42,3 +42,4 @@
 09:45 < jardineworks_:#liferay> I do have two instances setup... and this is an instance specific setting I believe... is that why I woul dbe seeing it twice?
 09:46 < topolik1:#liferay> these values are read from config files
 09:46 < topolik1:#liferay> and should not be shared across cluster
+09:47 < topolik1:#liferay> it's possible that it's once defined by portal and for the second time by some your custom hook settings?
