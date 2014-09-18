@@ -36,3 +36,4 @@
 09:39 < jardineworks_:#liferay> so line 72?
 09:39 < jardineworks_:#liferay> right at the top of doFilter basically
 09:40 < jardineworks_:#liferay> hmmm
+09:41 < jardineworks_:#liferay> I don't see AutoLoginFilter in the list of _filters.
