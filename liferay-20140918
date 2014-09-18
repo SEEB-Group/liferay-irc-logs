@@ -91,3 +91,4 @@
 11:06 < jardineworks_:#liferay> I traced through the code and I don't see where the properties file is supposed to be read.
 11:10 < topolik1:#liferay> does OpenSSOAutoLogin has proper companyId ?
 11:11 < jardineworks_:#liferay> yeah --
+11:11 < topolik1:#liferay> btw. I think it should be called portal-companyId.properties
