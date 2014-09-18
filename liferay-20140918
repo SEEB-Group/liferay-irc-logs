@@ -29,3 +29,4 @@
 09:36 < jardineworks_:#liferay> I have one at line 152
 09:36 < jardineworks_:#liferay> never gets hits
 09:37 < jardineworks_:#liferay> which is why i think the auto login is not being invoked?
+09:37 < jardineworks_:#liferay> but I have not overridden the  com.liferay.portal.servlet.filters.autologin.AutoLoginFilter from the portal.properties -- it is still set to true.
