@@ -54,3 +54,4 @@
 09:53 < modd_:#liferay> well, it's another kind of doing things... you'll do the view logic in Java, not jsp/xhtml/whatever
 09:54 < jardineworks_:#liferay> modd_, right -- I think I read that somewhere... sounds almost like Swing for web applications :)
 09:55 < modd_:#liferay> yes
+09:55 < modd_:#liferay> but it's gwt
