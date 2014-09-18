@@ -21,3 +21,4 @@
 09:14 < jardineworks_:#liferay> modd_, I've never tried anything with Vaadin -- can I pick your brain on it?
 09:21 < topolik1:#liferay> jardineworks_: AutoLoginFilter is mapped to several locations, for example /c/portal/login
 09:21 < topolik1:#liferay> when you try this URL does the breakpoint hit?
+09:26 < urug_:#liferay> I need to copy Liferay to another server. Can I just basically copy the whole tomcat+liferay bundle folder and export-import DB?
