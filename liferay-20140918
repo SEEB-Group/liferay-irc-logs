@@ -47,3 +47,4 @@
 09:47 < topolik1:#liferay> hmm
 09:48 < topolik1:#liferay> can you try to undeploy the hook and test first w/o it?
 09:48 < jardineworks_:#liferay> I was trying to do it without my hook originally ... I just want to trace through OpenSSOFilter... and it wasn't breaking so I added my hook to see if that would work.
+09:48 < jardineworks_:#liferay> I'll undeploy though to see
