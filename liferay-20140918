@@ -62,3 +62,4 @@
 09:58 < jardineworks_:#liferay> topolik1, ok -- so I have removed any properties I set in the portal-ext or my portal-<webid>.properties files -- so now all that remains should be the portal.properties settings. OpenSSOFilter is set to true, and included in the list of auto.login.hooks.... so lets see.
 09:58 < jardineworks_:#liferay> modd_, hard to use!? in that case there MUST be some advantage to it .. unless people just like frustrating themselves.
 09:58 < modd_:#liferay> now I have a portlet, which uses vaadin, is build with maven and has a service builder part, which uses an extern datasource and throws everything into the lucene index so you can search for it, etc.
+09:59 < modd_:#liferay> the combination of these parts is like hell
