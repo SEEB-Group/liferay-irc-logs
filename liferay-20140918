@@ -19,3 +19,4 @@
 09:13 < jardineworks_:#liferay> topolik1, any thoughts on why an auto.login.hook might now be firing? In fact any of them for that matter. I've tried configuring not just my custome one by OpenSSO, SiteMinder, etc. In every case the only breakpoint that gets hit is in the LoginAction class (after I manually type in my username and password)
 09:14 < jardineworks_:#liferay> ... actually before as well, on the way to be being redirected to the login page.
 09:14 < jardineworks_:#liferay> modd_, I've never tried anything with Vaadin -- can I pick your brain on it?
+09:21 < topolik1:#liferay> jardineworks_: AutoLoginFilter is mapped to several locations, for example /c/portal/login
