@@ -96,3 +96,4 @@
 11:11 < jardineworks_:#liferay> are you sure?
 11:12 < topolik1:#liferay> and -Dcompany-id-properties=true
 11:12 < topolik1:#liferay> well, I didn't try, but I see include-and-override=portal-${easyconf:companyId}.properties
+11:13 < jardineworks_:#liferay> I have the -D
