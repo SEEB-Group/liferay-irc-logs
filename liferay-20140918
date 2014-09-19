@@ -114,3 +114,4 @@
 11:34 < jardineworks_:#liferay> just not sure why the portal is not doing it for me
 12:32 < urug_:#liferay> I have managed to get language switcher in theme working using ${theme.language('fm', "", "_82_languageId", 2)}. However I don't have a clue what  these first 3 parameters stands for as I wasn't able to find any documentation for this. I also don't understand where this "language()" method is coming from as the "theme" object is type of Theme (returned from themeDisplay.getTheme()), but there is no such method on interface Theme. Any ex
 13:26 < urug_:#liferay> I need to add search functionality to my liferay app. It should search only for content which is published somewhere on public pages and results should be links to these pages instead of content itself (displayed in some generic asset publisher). Any ideas how to achieve this without too much effort?
+--- Log closed Fri Sep 19 00:00:26 2014

@@ -1,0 +1,2 @@
+--- Log opened Fri Sep 19 00:00:26 2014
+01:27 < Axxell:#liferay> hey guys, im trying to find out the selected display page of an article, ie when you edit an article in liferay 6.2 you can choose which page is prefered to be the place where the article (web content) is displayed. Can only find how to create an url woth urlTitle, but not with that display page. Help would be appreciated
