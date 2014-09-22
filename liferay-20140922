@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 05:05 < modd_:#liferay> does anyone know wtf this is: https://github.com/liferay/liferay-portal/blob/6.2.x/portal-service/src/com/liferay/portal/kernel/jsonwebservice/JSONWebServiceNaming.java#L173-L174
+09:59 < Guest1347:#liferay> hi, can anyone help me ? I'm running into problems while Unit testing my entities (built with Liferay Service Builder).I'm using powermockrunner to mock the static GetterUtil methods but they still fail with NPE in cinit for my entity fields (ENTITY_CACHE_ENABLED, ...). Any idea how to fix this ?
