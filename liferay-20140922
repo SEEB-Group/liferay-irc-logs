@@ -20,3 +20,4 @@
 10:10 < jardineworks_:#liferay> Lemme see if I bookmarked any of them
 10:12 < jardineworks_:#liferay> Guest1347, Here was one that I found -- https://www.liferay.com/community/wiki/-/wiki/Main/How+to+use+JUnit+to+test+service+in+portlets/maximized
 10:14 < jardineworks_:#liferay> Guest1347, There was a better one, but apparently I failed to record it. Sorry.
+10:21 < Guest1347:#liferay> thanks, i allready had a look at it and run into other problems... it's a pity that it is so difficult to test. it seems that testing is not a 1 class citizen in the world of liferay or at least the documentation is not clear. i try to figure it out and if successful i'll post about it
