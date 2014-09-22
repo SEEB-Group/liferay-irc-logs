@@ -26,3 +26,4 @@
 10:29 < Guest1347:#liferay> I have seen the Arquillian part and that looks promising, but is it allready backported to 6.2 ? dev.life session would be perfect
 10:30 <@jhf:#liferay> will find out if it's been backported.. my gut says no but you never know..
 12:05 < argaldo:#liferay> hi
+12:05 < argaldo:#liferay> Does Liferay 6.2 GA works in WildFly 8.1 Final ¿?
