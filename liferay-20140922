@@ -16,3 +16,4 @@
 10:08 < jardineworks_:#liferay> Guest1347, Ugh. Unit testing in Liferay is very difficult... especially when you get down to the Utilities methods. Not that this necessarily helps, but I abandonned this dream a few weeks back. I recently found that SpringMock might be a possibility though because it allows you to load Spring context files -- so I thought that might solve issues like this one.
 10:09 < jardineworks_:#liferay> Guest1347, In my case I was trying to use the PortalUtil... also with powermock.
 10:09 < jardineworks_:#liferay> I couldn't mock it because, once I dug down, I found that some of the init methods try to read properties so I was getting easyConf exceptions.
+10:10 < jardineworks_:#liferay> Guest1347, While trying to figure out how to solve it though i did come across a few blogs that talked specifically about unity testing service builder entities.
