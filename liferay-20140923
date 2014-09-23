@@ -24,3 +24,4 @@
 11:20 < modd:#liferay> I'll have to do some vaadin stuff in near future
 11:21 < modd:#liferay> currently I have a small test app, which uses maven for building, vaadin, service builder to connect to a external datasource and adds indexer and asset renderer to make it searchable in liferay^^
 11:27 < nicolas_FR:#liferay> hi there
+11:28 < modd:#liferay> hi
