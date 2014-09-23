@@ -30,3 +30,4 @@
 11:30 < modd:#liferay> so you could use it to change the portletpreferences in the database
 11:30 < modd:#liferay> but it's just a guess
 11:31 < modd:#liferay> maybe you have to hook something
+11:34 < jardineworks_:#liferay> nicolas_FR, you could probably also use the embed method instead of the velocity macro and specify the configuration that way
