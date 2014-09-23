@@ -15,3 +15,4 @@
 04:53 < mtsr:#liferay> I can use getFile and handle Exceptions, ofcourse, but I would prefer something without the exceptions, since I'll be doing a number of checks and exceptions are slow.
 09:22 -!- mode/#liferay [+o jhf] by ChanServ
 09:23 <@jhf:#liferay> We're starting the next dev.life session in about 40 minutes - http://liferay.com/community/dev.life - hang out with topolik1 (Tomas Polesovsky) - Securing JSON web services - Details: http://goo.gl/TjmuCF
+11:02 < mvlach:#liferay> hello all
