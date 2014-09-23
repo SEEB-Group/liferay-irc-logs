@@ -25,3 +25,4 @@
 11:21 < modd:#liferay> currently I have a small test app, which uses maven for building, vaadin, service builder to connect to a external datasource and adds indexer and asset renderer to make it searchable in liferay^^
 11:27 < nicolas_FR:#liferay> hi there
 11:28 < modd:#liferay> hi
+11:28 < nicolas_FR:#liferay> I've integrated the breadcrumbs directly in my theme with #breadcrumbs(), but I would like to be able to configure it, like the configuration menu of the breadcrumb portlet in the interface. Any clue ?
