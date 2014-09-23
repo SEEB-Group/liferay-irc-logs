@@ -13,3 +13,5 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 04:52 < mtsr:#liferay> What is the recommended way to check if a file exists in the Document Library? DLAppServiceUtil doesn't have a 'hasFile' method, unlike DLStoreUtil.
 04:53 < mtsr:#liferay> I can use getFile and handle Exceptions, ofcourse, but I would prefer something without the exceptions, since I'll be doing a number of checks and exceptions are slow.
+09:22 -!- mode/#liferay [+o jhf] by ChanServ
+09:23 <@jhf:#liferay> We're starting the next dev.life session in about 40 minutes - http://liferay.com/community/dev.life - hang out with topolik1 (Tomas Polesovsky) - Securing JSON web services - Details: http://goo.gl/TjmuCF
