@@ -31,3 +31,5 @@
 11:30 < modd:#liferay> but it's just a guess
 11:31 < modd:#liferay> maybe you have to hook something
 11:34 < jardineworks_:#liferay> nicolas_FR, you could probably also use the embed method instead of the velocity macro and specify the configuration that way
+17:17 < bwood:#liferay> how does one overwrite the dividers for the breadcrumb portlet
+17:17 < bwood:#liferay> in 6.1 the dividers were added via css
