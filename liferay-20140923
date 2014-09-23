@@ -26,3 +26,4 @@
 11:27 < nicolas_FR:#liferay> hi there
 11:28 < modd:#liferay> hi
 11:28 < nicolas_FR:#liferay> I've integrated the breadcrumbs directly in my theme with #breadcrumbs(), but I would like to be able to configure it, like the configuration menu of the breadcrumb portlet in the interface. Any clue ?
+11:30 < modd:#liferay> not sure, I think the integrated version has an instance ID
