@@ -39,3 +39,4 @@
 10:42 < jardineworks_:#liferay> its just a new web plugin
 10:43 < jardineworks_:#liferay> and then I copied all the source files from the EE one into it, and then made the changes
 10:43 < jardineworks_:#liferay> I thought the messaging-spring.xml, on deployment, would register my class with the portal so that it would receive messages during deployment events?
+10:44 <@jhf:#liferay> hmm
