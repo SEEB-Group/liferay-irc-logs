@@ -32,3 +32,4 @@
 10:40 < jardineworks_:#liferay> same package and all that for the moment.
 10:40 < jardineworks_:#liferay> I deploy and everything is fine. But when I deploy my theme, it doesn't run :( ... if I change the XML back to the LR version and deploy the theme it does run.
 10:40 < jardineworks_:#liferay> any ideas?
+10:41 <@jhf:#liferay> hmm
