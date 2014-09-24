@@ -94,3 +94,4 @@
 11:25 <@jhf:#liferay> n/p
 11:27 < Urug_:#liferay> Btw is there a way to have one Template linked to multiple Structures?
 11:28 < Urug_:#liferay> I have to duplicate the Template which just includes the Some Generic Template to achieve that.
+12:06 < jardineworks_:#liferay> jhf, \o/ .. worked just like it is supposed to. Just took me spending an hour crawling all over the deployment porcess stepping through classes (changing nothing) to get it to go :)
