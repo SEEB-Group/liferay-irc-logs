@@ -107,3 +107,4 @@
 13:40 -!- mode/#liferay [+o _jhf_] by ChanServ
 13:41 < Urug_:#liferay> omg serviceLocator is undefined in template even thou it's whispered by editor
 13:48 < Urug_:#liferay> Hm ... looks like there is a concept of restricted variables from 6.2
+14:01 < Urug_:#liferay> Where should I place portal-ext.properties?
