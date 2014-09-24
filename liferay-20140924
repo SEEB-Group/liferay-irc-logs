@@ -41,3 +41,4 @@
 10:43 < jardineworks_:#liferay> I thought the messaging-spring.xml, on deployment, would register my class with the portal so that it would receive messages during deployment events?
 10:44 <@jhf:#liferay> hmm
 10:45 <@jhf:#liferay> so you have all the other files, e.g. your web.xml is the same as RI's?
+10:45 < jardineworks_:#liferay> lemme double check but I think so
