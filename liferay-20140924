@@ -82,3 +82,4 @@
 11:05 < jardineworks_:#liferay> Toronto is tropical compared to the northern tundra!
 11:19 < Urug_:#liferay> I have got a Template (News) for a Structure (News). Now I need another Template (Specialized News) will include the existing Template (News). The problem is how do I find out the file name of the existing Template (News) to include it using <#include "${templatesPath}/news_template_unknown_file_name.ftl" />
 11:22 <@jhf:#liferay> Urug_: on the template editing screen
+11:22 <@jhf:#liferay> there is a "URL" field
