@@ -90,3 +90,4 @@
 11:24 <@jhf:#liferay> <#include "${templatesPath}/11514" />
 11:24 <@jhf:#liferay> (replace 11514 with template key)
 11:24 <@jhf:#liferay> (I got that from https://www.liferay.com/community/forums/-/message_boards/message/28108067 )
+11:25 < Urug_:#liferay> Oh I have been adding the".ftl" at the end. Its' working now, thank you very much.
