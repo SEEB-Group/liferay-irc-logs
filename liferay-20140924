@@ -174,3 +174,4 @@
 16:01 < Urug_:#liferay> but freemarker returns undefined on getClass()
 16:01 < modd:#liferay> well, string = long + "" could work^^
 16:02 < Urug_:#liferay> hh i give it a try
+16:02 < modd:#liferay> I didn't work with freemarker for quite a while, so I'm not sure
