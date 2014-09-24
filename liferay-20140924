@@ -161,3 +161,4 @@
 15:35 <@jhf:#liferay> that would be amazing
 15:35 < modd:#liferay> ok, I'll create one tomorrow and give you the ticket number ;)
 15:38 < modd:#liferay> do you guys plan to make the LDN page public at devcon?
+15:51 < Urug_:#liferay> maybe stupid question ... how do i get string from long? getterUtil.getString(longNumber) is returning empty string
