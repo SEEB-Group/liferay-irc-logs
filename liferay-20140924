@@ -23,3 +23,4 @@
 10:17 -!- mode/#liferay [+o jhf] by ChanServ
 10:35 < jardineworks_:#liferay> hey jhf you around?
 10:36 <@jhf:#liferay> yup
+10:38 < jardineworks_:#liferay> jhf, question for you. I'm working with the resource importer -- the EE version you helped me find. I'm making some modifications to the code and rather than use the "ResourceImporterHotDeployListener" .. I am making my own copy of it called XXXResourceImporterHotDeployListener.
