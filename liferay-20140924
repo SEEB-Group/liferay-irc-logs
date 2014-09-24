@@ -113,3 +113,4 @@
 14:42 < jardineworks_:#liferay> Urug_, you can put it there or you can put it in your LIFERAY_HOME.
 14:47 < Urug_:#liferay> ok, thanks
 14:49 < Urug_:#liferay> Any way to get DLFolderConstants from template? I would say getting constants is problematic in templates in general...
+14:50 < Urug_:#liferay> For example I cant access WebKeys as well
