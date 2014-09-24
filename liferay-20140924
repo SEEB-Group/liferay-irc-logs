@@ -72,3 +72,4 @@
 11:01 < jardineworks_:#liferay> poop
 11:01 <@jhf:#liferay> it's some kind of spring wiring issue.. can you crank up spring debug? (I've never done this so no idea)
 11:02 < jardineworks_:#liferay> lol
+11:02 < jardineworks_:#liferay> have to see how to do that... or even debug the message sender for deployments maybe
