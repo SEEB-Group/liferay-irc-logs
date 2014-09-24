@@ -48,3 +48,4 @@
 10:45 < jardineworks_:#liferay> 		<param-name>portalContextConfigLocation</param-name>
 10:45 < jardineworks_:#liferay> 		<param-value>/WEB-INF/classes/META-INF/messaging-spring.xml</param-value>
 10:45 < jardineworks_:#liferay> 	</context-param>
+10:45 < jardineworks_:#liferay> </web-app>
