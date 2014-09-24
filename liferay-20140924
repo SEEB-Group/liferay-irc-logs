@@ -127,3 +127,4 @@
 15:25 <@jhf:#liferay> hmm.. ok. I think I was thinking about entities in a database that you use servicebuilder to access. you're actually wanting the JSON service infrastructure to handle streams somehow.
 15:25 < modd:#liferay> yep, like it was possible in 6.1
 15:25 < modd:#liferay> and another point: I'm not sure if it's a bug or rather a feature request, but sometimes I see massive problems with resource permissions. if you create resources in liferay for your own entities but have a typo in the resource-actions xml, you won't get any visible errors/exceptions, but some hidden methodinvokeexceptions and it takes ages to debug it. some kind of deployment xml parser-checks would be nice
+15:26 <@jhf:#liferay> modd: is this the change that removed the support :https://issues.liferay.com/browse/LPS-40422
