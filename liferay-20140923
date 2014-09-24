@@ -34,3 +34,5 @@
 17:17 < bwood:#liferay> how does one overwrite the dividers for the breadcrumb portlet
 17:17 < bwood:#liferay> in 6.1 the dividers were added via css
 17:17 < bwood:#liferay> in 6.2 they are added in the breadcrumb function
+21:33 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed Sep 24 00:00:31 2014
