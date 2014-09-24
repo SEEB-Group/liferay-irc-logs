@@ -63,3 +63,4 @@
 10:53 <@jhf:#liferay> I wonder if it has something to do with it being EE..
 10:53 <@jhf:#liferay> or are you using CE?
 10:53 < jardineworks_:#liferay> yeah, just that one line -- EE this time
+10:55 < jardineworks_:#liferay> if i put a breakpoint and try to debug anywhere in that class, it never registers -- meaning it never stops at a breakpoint so I assume that means it's not running.
