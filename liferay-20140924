@@ -18,3 +18,4 @@
 09:13 < jardineworks_:#liferay> nicolas_FR, the portal.properties is the place to put it -- did you also include the liferay-hook.xml config in the WEB-INF location to tell it about the properties file
 09:20 < nicolas_FR:#liferay> jardineworks_: well it seems that portal.properties can't override all properties. There is a list available and the customisation of the breadcrumb is not in
 09:20 < nicolas_FR:#liferay> jardineworks_: I ended putting my properties in the portal-ext.properties
+09:21 < jardineworks_:#liferay> nicolas_FR, correct -- if you are using eclipse + the Liferay plugins, it'll give you the list.
