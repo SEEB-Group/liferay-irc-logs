@@ -44,3 +44,6 @@
 10:45 < jardineworks_:#liferay> lemme double check but I think so
 10:45 < jardineworks_:#liferay> yep -- <?xml version="1.0"?>
 10:45 < jardineworks_:#liferay> <web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+10:45 < jardineworks_:#liferay> 	<context-param>
+10:45 < jardineworks_:#liferay> 		<param-name>portalContextConfigLocation</param-name>
+10:45 < jardineworks_:#liferay> 		<param-value>/WEB-INF/classes/META-INF/messaging-spring.xml</param-value>
