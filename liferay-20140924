@@ -69,3 +69,4 @@
 10:56 < jardineworks_:#liferay> nope -- lemme try again just to make sure... no stack traces anyway
 11:00 < jardineworks_:#liferay> jhf, 14:59:06,629 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.4 /home/aj/projects/ypg/liferay/liferay-portal-6.2.10.1-ee-ga1/tomcat-7.0.42/temp/20140924145906576/WEB-INF/web.xml
 11:01 < jardineworks_:#liferay> no errors
+11:01 < jardineworks_:#liferay> poop
