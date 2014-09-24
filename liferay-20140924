@@ -165,3 +165,4 @@
 15:57 < Urug_:#liferay> omg i got stuck on such triffle
 15:58 < modd:#liferay> like long foo=5;String bar = foo;..something like this?
 15:59 < modd:#liferay> if yes then String.valueof(long)
+15:59 < modd:#liferay> Of*
