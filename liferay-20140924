@@ -31,3 +31,4 @@
 10:40 < jardineworks_:#liferay> right so I updated the xml for the listeners section to use my custom listener
 10:40 < jardineworks_:#liferay> same package and all that for the moment.
 10:40 < jardineworks_:#liferay> I deploy and everything is fine. But when I deploy my theme, it doesn't run :( ... if I change the XML back to the LR version and deploy the theme it does run.
+10:40 < jardineworks_:#liferay> any ideas?
