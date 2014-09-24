@@ -25,3 +25,4 @@
 10:36 <@jhf:#liferay> yup
 10:38 < jardineworks_:#liferay> jhf, question for you. I'm working with the resource importer -- the EE version you helped me find. I'm making some modifications to the code and rather than use the "ResourceImporterHotDeployListener" .. I am making my own copy of it called XXXResourceImporterHotDeployListener.
 10:39 < jardineworks_:#liferay> I then updated the messaging-spring.xml file from the package...
+10:39 < jardineworks_:#liferay> sorry phone
