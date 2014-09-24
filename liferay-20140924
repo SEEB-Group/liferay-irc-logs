@@ -184,3 +184,4 @@
 17:03 < bwood_:#liferay> I'm running into issues with dockbar styles, is there a way to sandbox the dockbar styles to use the twitter bootstrap 2.3.5 while the main content uses the twitter bootrap
 17:43 < Urug_:#liferay> bwood_, I think that everything is by default sandobxed in .aui class, can't you just move this class from <html> element to dockbar container only?
 17:46 < bwood_:#liferay> liferay styles are overwriting the navigation which I want to use the twitter bootstrap 3 version
+17:56 < winem_:#liferay> good evening, I have an issue when I deploy liferay on JBoss 8.1 wildfly.
