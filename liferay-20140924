@@ -176,3 +176,4 @@
 16:02 < Urug_:#liferay> hh i give it a try
 16:02 < modd:#liferay> I didn't work with freemarker for quite a while, so I'm not sure
 16:05 < Urug_:#liferay> it looks funny but it's working:  ${subFolderUrl.setParameter("folderId", subFolder.getFolderId()+"", true)}
+16:05 < Urug_:#liferay> thanks
