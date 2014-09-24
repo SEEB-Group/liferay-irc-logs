@@ -50,3 +50,4 @@
 10:45 < jardineworks_:#liferay> 	</context-param>
 10:45 < jardineworks_:#liferay> </web-app>
 10:47 <@jhf:#liferay> and your theme includes the necessary files under resources-importer/ directory?
+10:48 < jardineworks_:#liferay> well, even if it didn't... I have a comment in the onDeploy method that says its starting which doesn't show in the console (its INFO level, which is enabled so it should)
