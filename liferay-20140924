@@ -49,3 +49,4 @@
 10:45 < jardineworks_:#liferay> 		<param-value>/WEB-INF/classes/META-INF/messaging-spring.xml</param-value>
 10:45 < jardineworks_:#liferay> 	</context-param>
 10:45 < jardineworks_:#liferay> </web-app>
+10:47 <@jhf:#liferay> and your theme includes the necessary files under resources-importer/ directory?
