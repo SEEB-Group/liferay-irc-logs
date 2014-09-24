@@ -170,3 +170,4 @@
 16:00 < modd:#liferay> depends on the template language
 16:00 < Urug_:#liferay> freemarker
 16:01 < Urug_:#liferay> i found a workaround for velocity
+16:01 < Urug_:#liferay> $portal.getClass().forName("java.lang.String").valueOf($group_id)
