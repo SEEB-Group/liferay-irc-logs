@@ -139,3 +139,4 @@
 15:28 <@jhf:#liferay> ah sorry
 15:28 <@jhf:#liferay> that was an LPP ticket
 15:28 < modd:#liferay> it's some strange task I got^^
+15:28 < modd:#liferay> the whole thing will be used as rest service which is used by a C# program
