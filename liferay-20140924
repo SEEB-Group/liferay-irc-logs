@@ -178,3 +178,4 @@
 16:05 < Urug_:#liferay> it looks funny but it's working:  ${subFolderUrl.setParameter("folderId", subFolder.getFolderId()+"", true)}
 16:05 < Urug_:#liferay> thanks
 16:05 < modd:#liferay> np
+16:06 < modd:#liferay> I'm out for today. see you
