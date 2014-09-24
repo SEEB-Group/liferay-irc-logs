@@ -172,3 +172,4 @@
 16:01 < Urug_:#liferay> i found a workaround for velocity
 16:01 < Urug_:#liferay> $portal.getClass().forName("java.lang.String").valueOf($group_id)
 16:01 < Urug_:#liferay> but freemarker returns undefined on getClass()
+16:01 < modd:#liferay> well, string = long + "" could work^^
