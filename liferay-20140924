@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 04:08 < nicolas_FR:#liferay> hello htere
+04:16 < nicolas_FR:#liferay> I would like to find the properties of the breadcrumbs porlets that I can modify in my velocity template so I can deploy this portlet from my theme with the good configuration. Any doc ?
