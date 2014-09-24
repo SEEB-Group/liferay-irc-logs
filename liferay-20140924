@@ -93,3 +93,4 @@
 11:25 < Urug_:#liferay> Oh I have been adding the".ftl" at the end. Its' working now, thank you very much.
 11:25 <@jhf:#liferay> n/p
 11:27 < Urug_:#liferay> Btw is there a way to have one Template linked to multiple Structures?
+11:28 < Urug_:#liferay> I have to duplicate the Template which just includes the Some Generic Template to achieve that.
