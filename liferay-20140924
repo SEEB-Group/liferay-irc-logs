@@ -20,3 +20,5 @@
 09:20 < nicolas_FR:#liferay> jardineworks_: I ended putting my properties in the portal-ext.properties
 09:21 < jardineworks_:#liferay> nicolas_FR, correct -- if you are using eclipse + the Liferay plugins, it'll give you the list.
 09:21 < nicolas_FR:#liferay> jardineworks_: indeed
+10:17 -!- mode/#liferay [+o jhf] by ChanServ
+10:35 < jardineworks_:#liferay> hey jhf you around?
