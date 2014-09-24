@@ -123,3 +123,4 @@
 15:23 < modd:#liferay> nope
 15:23 < modd:#liferay> I want to return an inputstream
 15:23 < modd:#liferay> I have a json service, which should return a file
+15:24 < modd:#liferay> my workaround is to return the download url, but it'd like to have the real thing ;)
