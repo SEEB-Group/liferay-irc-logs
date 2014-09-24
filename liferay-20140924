@@ -66,3 +66,4 @@
 10:55 < jardineworks_:#liferay> if i put a breakpoint and try to debug anywhere in that class, it never registers -- meaning it never stops at a breakpoint so I assume that means it's not running.
 10:55 <@jhf:#liferay> no errors when deploying your custom web plugin?
 10:55 <@jhf:#liferay> (not the theme)
+10:56 < jardineworks_:#liferay> nope -- lemme try again just to make sure... no stack traces anyway
