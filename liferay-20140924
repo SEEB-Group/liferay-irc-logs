@@ -117,3 +117,4 @@
 15:13 <@jhf:#liferay> hey modd yeah sorry - am back
 15:19 < Urug_:#liferay> I am editing media display portlet template (application display template) and I need to create URL to the same page+portlet and change only "folderId" parameter. I am pretty sure there are many ways how to do that and I am looking for the fastest.
 15:20 < modd:#liferay> jhf: do you know why service builder doesn't allow to have inputstream or outputstream return types anymore? it's even hardcoded
+15:20 < modd:#liferay> in 6.1 even liferay services used it, like dlfileentry service get-file-as-stream
