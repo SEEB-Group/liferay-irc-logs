@@ -53,3 +53,4 @@
 10:48 < jardineworks_:#liferay> well, even if it didn't... I have a comment in the onDeploy method that says its starting which doesn't show in the console (its INFO level, which is enabled so it should)
 10:48 < jardineworks_:#liferay> but yeah -- I made a HUGE tutorial for my client with step by step details on how to use it
 10:48 <@jhf:#liferay> so your theme is never even seen by the ThemeHotDeployer ?
+10:49 < jardineworks_:#liferay> no, the theme does deploy,
