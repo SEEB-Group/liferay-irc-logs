@@ -59,3 +59,4 @@
 10:52 < jardineworks_:#liferay> hmmm -- just did a diff on the directories and the only difference is that mine has the XXXResourceImporterHotDeployListener :(
 10:52 < jardineworks_:#liferay> (and the config in the messaging xml file of course)
 10:52 <@jhf:#liferay> and its just that one line that's different?
+10:52 <@jhf:#liferay> 	<bean id="messageListener.hot_deploy" class="com.liferay.resourcesimporter.messaging.ResourcesImporterHotDeployMessageListener" />
