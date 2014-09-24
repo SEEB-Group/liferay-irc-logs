@@ -133,3 +133,4 @@
 15:26 <@jhf:#liferay> modd: +1 on that - it's in that gray area between bug and new feature.
 15:27 <@jhf:#liferay> and you can find the justification here: https://issues.liferay.com/browse/LPP-9919 "This was a mistake to be included in our API, that's why we removed it. There is no good way to handle input streams in JSON, because they are not Serializeable. We could give them raw binary data, but that would be pretty strange to handle in JavaScript.
 15:27 <@jhf:#liferay> Instead, they should use WebDav"
+15:27 < modd:#liferay> "as they dont make sense as remote services"..well, not in my view^^
