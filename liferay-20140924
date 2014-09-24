@@ -56,3 +56,4 @@
 10:49 < jardineworks_:#liferay> no, the theme does deploy,
 10:49 <@jhf:#liferay> or just the resources aren't importerd
 10:49 < jardineworks_:#liferay> the latter
+10:52 < jardineworks_:#liferay> hmmm -- just did a diff on the directories and the only difference is that mine has the XXXResourceImporterHotDeployListener :(
