@@ -62,3 +62,4 @@
 10:52 <@jhf:#liferay> 	<bean id="messageListener.hot_deploy" class="com.liferay.resourcesimporter.messaging.ResourcesImporterHotDeployMessageListener" />
 10:53 <@jhf:#liferay> I wonder if it has something to do with it being EE..
 10:53 <@jhf:#liferay> or are you using CE?
+10:53 < jardineworks_:#liferay> yeah, just that one line -- EE this time
