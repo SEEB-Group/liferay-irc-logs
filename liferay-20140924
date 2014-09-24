@@ -88,3 +88,4 @@
 11:23 < Urug_:#liferay> Well I tried that without success
 11:24 <@jhf:#liferay> have you tried
 11:24 <@jhf:#liferay> <#include "${templatesPath}/11514" />
+11:24 <@jhf:#liferay> (replace 11514 with template key)
