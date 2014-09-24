@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 04:08 < nicolas_FR:#liferay> hello htere
 04:16 < nicolas_FR:#liferay> I would like to find the properties of the breadcrumbs porlets that I can modify in my velocity template so I can deploy this portlet from my theme with the good configuration. Any doc ?
+05:12 < nicolas_FR:#liferay> I'm trying to create a hook (L6.1.2 GA3) to change "breadcrumb.display.style.options". I do the hook and get a src/main/resources/portal.properties file, but this doesn't work. But if I put it in my ROOT/WEB-INF/.../portal-ext.properties, there we go. What am I doing wrong in my hook ?
