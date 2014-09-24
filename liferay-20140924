@@ -125,3 +125,4 @@
 15:23 < modd:#liferay> I have a json service, which should return a file
 15:24 < modd:#liferay> my workaround is to return the download url, but it'd like to have the real thing ;)
 15:25 <@jhf:#liferay> hmm.. ok. I think I was thinking about entities in a database that you use servicebuilder to access. you're actually wanting the JSON service infrastructure to handle streams somehow.
+15:25 < modd:#liferay> yep, like it was possible in 6.1
