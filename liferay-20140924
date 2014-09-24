@@ -89,3 +89,4 @@
 11:24 <@jhf:#liferay> have you tried
 11:24 <@jhf:#liferay> <#include "${templatesPath}/11514" />
 11:24 <@jhf:#liferay> (replace 11514 with template key)
+11:24 <@jhf:#liferay> (I got that from https://www.liferay.com/community/forums/-/message_boards/message/28108067 )
