@@ -142,3 +142,4 @@
 15:28 < modd:#liferay> the whole thing will be used as rest service which is used by a C# program
 15:29 <@jhf:#liferay> so here's a possible workaround: https://www.liferay.com/community/forums/-/message_boards/view_message/20990842#_19_message_22438638
 15:29 <@jhf:#liferay> (it would require an EXT plugin I think)
+15:30 < modd:#liferay> well, I know how to do it with EXT. I was hoping, that it may be changed/fixed again^^
