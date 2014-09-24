@@ -122,3 +122,4 @@
 15:23 <@jhf:#liferay> uhh. are you referring to supporting blob types?
 15:23 < modd:#liferay> nope
 15:23 < modd:#liferay> I want to return an inputstream
+15:23 < modd:#liferay> I have a json service, which should return a file
