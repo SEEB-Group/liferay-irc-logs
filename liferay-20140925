@@ -18,3 +18,4 @@
 16:29 < Ujj:#liferay> I am new to liferay. I have setup liferay development environment. And downloaded and imported portal and plugin source code from repository into eclipse.
 16:29 < Ujj:#liferay> But none of my portlet code compiles. It is giving me so many errors. Can you help me in this?
 16:38 < Urug_:#liferay> Do you use Ant or Maven?
+16:46 < Ujj:#liferay> Ant
