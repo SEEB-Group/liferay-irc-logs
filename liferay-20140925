@@ -21,3 +21,4 @@
 16:46 < Ujj:#liferay> Ant
 16:47 < Ujj:#liferay> I downloaded the eclipse bundled with liferay IDE and imported portal and plugin source code on it
 16:49 < Ujj:#liferay> The mail portlet shows 0 count for all unread messages. The pull request for this says its been fixed. But I dont see it. So I wanted to fix this and deploy. But before making any changes only nothing compiles..
+16:51 < stefkos:#liferay> lo
