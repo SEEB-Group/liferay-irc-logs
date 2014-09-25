@@ -188,3 +188,5 @@
 17:56 < winem_:#liferay> the undertow listener does not start due to "java.lang.RuntimeException: java.io.FileNotFoundException: /srv/system/data/osgi/portal/org.apache.felix.scr.jar (No such file or directory)"
 17:57 < winem_:#liferay> the right path would be /srv/system/wildfly-8.1.0.Final/standalone/data/osgi... so the wildfly-8.1.0.Final/standalone/ is missing. has anyone an idea where I can find the respective config parameter?!
 19:22 < winem_:#liferay> has been fixed!
+21:07 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Sep 25 00:00:17 2014
