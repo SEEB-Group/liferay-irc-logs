@@ -16,3 +16,4 @@
 11:29 < Urug_:#liferay> There is DEFAULT_PARENT_FOLDER_ID = 0; in DLFolderConstants, but when i call DLFolderLocalService.getFolder(0); the result is null. I need to get some default folder, how to do that.
 16:28 < Ujj:#liferay> Hi
 16:29 < Ujj:#liferay> I am new to liferay. I have setup liferay development environment. And downloaded and imported portal and plugin source code from repository into eclipse.
+16:29 < Ujj:#liferay> But none of my portlet code compiles. It is giving me so many errors. Can you help me in this?
