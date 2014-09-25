@@ -13,3 +13,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 04:32 < nicolas_FR:#liferay> hi there
 04:33 < nicolas_FR:#liferay> I would like to know when the init.vm (from a theme) file variables are initialized ? And can we go search for another community's pages when we init those vars ?
+11:29 < Urug_:#liferay> There is DEFAULT_PARENT_FOLDER_ID = 0; in DLFolderConstants, but when i call DLFolderLocalService.getFolder(0); the result is null. I need to get some default folder, how to do that.
