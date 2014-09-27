@@ -24,3 +24,4 @@
 12:40 < modd:#liferay> check your database..the login portlet will be listed for that page
 12:41 < urug_:#liferay> And I have got Administrator role
 12:42 < modd:#liferay> maybe you screwed something up^^
+12:42 < modd:#liferay> easiest way: delete page, create new
