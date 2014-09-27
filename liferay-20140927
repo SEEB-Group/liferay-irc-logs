@@ -32,3 +32,4 @@
 12:44 < modd:#liferay> in LR6.2 you will see a login option there, but it's not directly the login portlet, because you can drop it on the page anyway (which is not possible if it's already dropped)
 12:44 < urug_:#liferay> I found it in page administration. There is Embedded portlets section
 12:45 < urug_:#liferay> The login portlet (ID 58) is listed there
+12:47 < urug_:#liferay> In theme, I am using <a href="${themeDisplay.getURLSignOut()}" class="sign-out" rel="nofollow"><@liferay.language key="sign-out" /></a>
