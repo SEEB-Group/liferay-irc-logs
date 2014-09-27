@@ -29,3 +29,4 @@
 12:42 < urug_:#liferay> The problem is I don't know where it came from
 12:42 < urug_:#liferay> butit's on every page so it have to be theme
 12:43 < modd:#liferay> you mean the blue menu on the top of the right side?
+12:44 < modd:#liferay> in LR6.2 you will see a login option there, but it's not directly the login portlet, because you can drop it on the page anyway (which is not possible if it's already dropped)
