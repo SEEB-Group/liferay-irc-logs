@@ -21,3 +21,4 @@
 12:36 < modd:#liferay> so if it's grey, it already is on that page
 12:36 < modd:#liferay> however, if you don't see it, check maybe for permission problems
 12:39 < urug_:#liferay> it's not in the page, unless it's somehow in the theme
+12:40 < modd:#liferay> check your database..the login portlet will be listed for that page
