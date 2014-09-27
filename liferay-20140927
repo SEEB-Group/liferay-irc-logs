@@ -19,3 +19,4 @@
 12:31 < urug_:#liferay> Why I can't add login portlet to page? It's greyed out in portlet selection.
 12:36 < modd:#liferay> you can only add one instance to a page
 12:36 < modd:#liferay> so if it's grey, it already is on that page
+12:36 < modd:#liferay> however, if you don't see it, check maybe for permission problems
