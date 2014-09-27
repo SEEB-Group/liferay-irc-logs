@@ -26,3 +26,4 @@
 12:42 < modd:#liferay> maybe you screwed something up^^
 12:42 < modd:#liferay> easiest way: delete page, create new
 12:42 < urug_:#liferay> No, the login portlet is embedded to the page
+12:42 < urug_:#liferay> The problem is I don't know where it came from
