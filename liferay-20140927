@@ -16,3 +16,4 @@
 12:18 < urug_:#liferay> Ok nevermind, If I change language it's redirected to right page.
 12:22 < urug_:#liferay> OMG, but now I can't get the default behavior working again, even if I commet out auth.login.url= line in portlal-ext.properties
 12:25 < urug_:#liferay> Firefox cache FTW
+12:31 < urug_:#liferay> Why I can't add login portlet to page? It's greyed out in portlet selection.
