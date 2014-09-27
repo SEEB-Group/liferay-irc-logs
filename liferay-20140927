@@ -13,3 +13,4 @@
 06:35 < Axxell:#liferay> hey guys, having a problem, apache redirect directives dont seem to work with liferay. I have apache 2.4 in front of liferay 6.2.. dont know if its an liferay issue
 06:35 < Axxell:#liferay> do you guys know anything about redirects?
 11:54 < urug_:#liferay> I can specify login page by overwriting auth.login.url=/web/guest/home in portla-ext.properties. But friendly page URLs are localized. So how does this suppose to work in localized environment.
+12:18 < urug_:#liferay> Ok nevermind, If I change language it's redirected to right page.
