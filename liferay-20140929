@@ -77,3 +77,4 @@
 10:40 < jardineworks_:#liferay> or even before it is stored ... I think it uses the CounterLocalServiceUtil to create the User object right?
 10:40 < jardineworks_:#liferay> the id in that case would be the first property set.
 10:40 < jardineworks_:#liferay> vernaillen, sent you a private message.
+10:41 < goku_:#liferay> jardinwworks_, i got one usage of user id like this on processAction method Long currentuser = themeDisplay.getUserId(); ,this currentuser will be the user id ?
