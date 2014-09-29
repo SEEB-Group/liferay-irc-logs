@@ -43,3 +43,4 @@
 09:40 < jardineworks_:#liferay> goku_, yeah, I suppose it depends on whether or not you can edit it from that page as well.
 09:40 < jardineworks_:#liferay> goku_, if it is just to display you could use the expando and then a JSP hook to show it.
 09:41 < jardineworks_:#liferay> goku_, But if you need to change it, then you would need to use the StrutsAction hook.
+09:42 < jardineworks_:#liferay> nicolas_FR, qpos.add(description) is shown twice... I wonder why.
