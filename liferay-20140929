@@ -33,3 +33,4 @@
 09:29 < nicolas_FR:#liferay> Exception being : Positional parameter does not exist: 6 in query:
 09:31 < jardineworks_:#liferay> nicolas_FR, I don't have a 6.1.2 code base handy -- but have you tried putting a break point in that method and stepping through? make sure your parameters have the values you expect, etc?
 09:32 < nicolas_FR:#liferay> jardineworks_: yes I'm debugging with a break point. most params are null (but query test is param is null). Adding last one throws the error. Seems like there too much params to add or not enough "?" in the query...don't know
+09:36 < jardineworks_:#liferay> nicolas_FR, If you didn't have the right number of parameters then the method wouldn't be called right? Method signature has to match in order for the call to be made -- so I doubt it is that. UNLESS... you have your binaries mixed up and you have the wrong class in your classpath being invoked or something.
