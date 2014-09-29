@@ -80,3 +80,4 @@
 10:41 < goku_:#liferay> jardinwworks_, i got one usage of user id like this on processAction method Long currentuser = themeDisplay.getUserId(); ,this currentuser will be the user id ?
 10:43 < jardineworks_:#liferay> goku_, that will be the user id of the user that is MAKING the edit... so the admin user in this case.
 10:44 < goku_:#liferay> jardineworks_, ok
+10:49 < jardineworks_:#liferay> goku_, assuming you want this custom field to be associated to the user being edited right? so don't use the guy in the theme display, use the explicit user that is in the action method.
