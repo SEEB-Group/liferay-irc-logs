@@ -16,3 +16,4 @@
 09:06 < jardineworks_:#liferay> goku_, do you mean in the user (self) registration page? or do you mean in the control panel?
 09:07 < goku_:#liferay> jardineworks_, i need one extra param in user_edit.jsp and save that new param in different table
 09:09 < goku_:#liferay> jardineworks_, if i edit that jsp page the new param will come in the add page in control panel right?
+09:09 < jardineworks_:#liferay> goku_, ok -- so you would use a JSP hook to add that field... and then you need to create a StrutsAction (Portlet I think) hook to "augment" the save action. EditUserAction I think is the class for the strts action.
