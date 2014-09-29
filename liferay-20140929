@@ -42,3 +42,4 @@
 09:39 < nicolas_FR:#liferay> jardineworks_: I'm debugging this class : http://grepcode.com/file/repo1.maven.org/maven2/com.liferay.portal/portal-impl/6.1.2/com/liferay/portal/service/persistence/GroupFinderImpl.java?av=f. All is ok until line 693, which trigger the exception and go to the catch L738
 09:40 < jardineworks_:#liferay> goku_, yeah, I suppose it depends on whether or not you can edit it from that page as well.
 09:40 < jardineworks_:#liferay> goku_, if it is just to display you could use the expando and then a JSP hook to show it.
+09:41 < jardineworks_:#liferay> goku_, But if you need to change it, then you would need to use the StrutsAction hook.
