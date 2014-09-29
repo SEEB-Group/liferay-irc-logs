@@ -64,3 +64,4 @@
 10:15 < nicolas_FR:#liferay> jardineworks_: np
 10:19 < jardineworks_:#liferay> nicolas_FR, possibly related? https://issues.liferay.com/browse/LPS-25552?jql=project%20%3D%20LPS%20AND%20text%20~%20%22Positional%20parameter%20does%20not%20exist%22
 10:24 < nicolas_FR:#liferay> jardineworks_: We might have found something.. we were setting the "type_" param instead of the "types". But can't say if that's it
+10:25 < nicolas_FR:#liferay> jardineworks_: we were doing :params.put("type_", 1); We are now doing : params.put("types", typesTmp); where typesTmp is a list of Integer ( just the number 1)
