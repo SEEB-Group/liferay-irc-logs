@@ -54,3 +54,4 @@
 09:43 < jardineworks_:#liferay> nicolas_FR, but why?
 09:44 < nicolas_FR:#liferay> well they do the same for "name" param, and they do it too in 6.2
 09:44 < nicolas_FR:#liferay> doing a qPos.add(name, 2)
+09:45 < jardineworks_:#liferay> nicolas_FR, can you share the full stack trace with me?
