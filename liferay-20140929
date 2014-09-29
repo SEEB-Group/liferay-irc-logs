@@ -14,3 +14,4 @@
 08:28 < goku_:#liferay> Hi,How to add a new field in user creation page ,along with other pages and it should get added to a seperate table , is that possible to do this with hooks?
 08:28 < goku_:#liferay> *along with other params
 09:06 < jardineworks_:#liferay> goku_, do you mean in the user (self) registration page? or do you mean in the control panel?
+09:07 < goku_:#liferay> jardineworks_, i need one extra param in user_edit.jsp and save that new param in different table
