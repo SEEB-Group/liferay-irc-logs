@@ -31,3 +31,4 @@
 09:25 < jardineworks_:#liferay> Bilou, start with a project idea and go from there. There are also a lot of books published now that have examples you can walk through.
 09:28 < nicolas_FR:#liferay> problem with GroupFinderImpl apparently. We're migrating our portlet from 5.2.3 to 6.1.2 and one of the portlet has a configuration page which call a search method from GroupFinderImpl. If I click the "configure" link from the portlet, I have an error. Debugging the portal, I see that GroupFinderImpl has an exception thrown at L693 (adding the last query param).
 09:29 < nicolas_FR:#liferay> Exception being : Positional parameter does not exist: 6 in query:
+09:31 < jardineworks_:#liferay> nicolas_FR, I don't have a 6.1.2 code base handy -- but have you tried putting a break point in that method and stepping through? make sure your parameters have the values you expect, etc?
