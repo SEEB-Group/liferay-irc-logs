@@ -37,3 +37,4 @@
 09:36 < goku_:#liferay> jardineworks_, actually i need to store this data in different database..or is that possible to save in LR db?
 09:36 < jardineworks_:#liferay> but if it was were the parameters then I would expect a "no such method" exception.
 09:37 < jardineworks_:#liferay> goku_, if you just want to have more user attributes and you can keep them in the same database then I would recommend an Expando attribute for the user model. You can set those values (once defined) in the custom attributes section when editing a user.
+09:38 < jardineworks_:#liferay> goku_, what is the attribute you are trying to record?
