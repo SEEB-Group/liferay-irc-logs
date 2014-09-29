@@ -60,3 +60,4 @@
 09:47 < nicolas_FR:#liferay> http://pastebin.com/9nhudDpG
 09:56 < nicolas_FR:#liferay> jardineworks_: question : in a QueryPos, first ? is pos 0 or pos 1 ?
 09:57 < nicolas_FR:#liferay> Because the setJoin add a param into the query and do a pos_++, so first query parameter (companyId) is set at pos_=1
+10:14 < jardineworks_:#liferay> nicolas_FR, sorry -- conference call
