@@ -39,3 +39,4 @@
 09:37 < jardineworks_:#liferay> goku_, if you just want to have more user attributes and you can keep them in the same database then I would recommend an Expando attribute for the user model. You can set those values (once defined) in the custom attributes section when editing a user.
 09:38 < jardineworks_:#liferay> goku_, what is the attribute you are trying to record?
 09:39 < goku_:#liferay> jardineworks_, i need this new attribute to be showns along side with the user name and all on the main page,,if i use expando then i will only able to show them in the custom fields link right?
+09:39 < nicolas_FR:#liferay> jardineworks_: I'm debugging this class : http://grepcode.com/file/repo1.maven.org/maven2/com.liferay.portal/portal-impl/6.1.2/com/liferay/portal/service/persistence/GroupFinderImpl.java?av=f. All is ok until line 693, which trigger the exception and go to the catch L738
