@@ -76,3 +76,4 @@
 10:40 < jardineworks_:#liferay> goku_, at some point there is a UserLocalServiceUtil.update right? I think the User user =  beside that should contain the new/updated user. You can get the id from that object.
 10:40 < jardineworks_:#liferay> or even before it is stored ... I think it uses the CounterLocalServiceUtil to create the User object right?
 10:40 < jardineworks_:#liferay> the id in that case would be the first property set.
+10:40 < jardineworks_:#liferay> vernaillen, sent you a private message.
