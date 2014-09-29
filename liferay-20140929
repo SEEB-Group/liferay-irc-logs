@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 05:25 < Bilou:#liferay> Hi, im new in liferay world, and i need some councils to start developping in this technologie. by what i soulad start please.
 08:28 < goku_:#liferay> Hi,How to add a new field in user creation page ,along with other pages and it should get added to a seperate table , is that possible to do this with hooks?
+08:28 < goku_:#liferay> *along with other params
