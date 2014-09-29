@@ -70,3 +70,4 @@
 10:38 < jardineworks_:#liferay> vernaillen, no problem
 10:38 < goku_:#liferay> jardinwworks_, hi is that possible to get the newly created user id on the hook ,which will be overriding the /users_admin/edit_user struts action ?
 10:38 < jardineworks_:#liferay> you want the source with the changes I made?
+10:38 < jardineworks_:#liferay> vernaillen, I also added localization for the friendly urls.
