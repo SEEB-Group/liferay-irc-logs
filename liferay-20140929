@@ -72,3 +72,4 @@
 10:38 < jardineworks_:#liferay> you want the source with the changes I made?
 10:38 < jardineworks_:#liferay> vernaillen, I also added localization for the friendly urls.
 10:38 < vernaillen:#liferay> jardineworks_, that would be great if you want to share that
+10:40 < vernaillen:#liferay> jardineworks_, it's exactly the same solution as I had in mind, however I don't have experience yet in creating a patch for Liferay
