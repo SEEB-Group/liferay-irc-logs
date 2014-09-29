@@ -47,3 +47,4 @@
 09:43 < nicolas_FR:#liferay> jardineworks_: the query is like "if description = ? or ? is null
 09:43 < nicolas_FR:#liferay> so they add x2 description
 09:43 < jardineworks_:#liferay> 	public void  [More ...] add(String value) {
+09:43 < jardineworks_:#liferay> 313
