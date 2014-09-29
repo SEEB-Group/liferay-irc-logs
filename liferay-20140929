@@ -59,3 +59,4 @@
 09:45 < jardineworks_:#liferay> I think that is a hibernate error
 09:47 < nicolas_FR:#liferay> http://pastebin.com/9nhudDpG
 09:56 < nicolas_FR:#liferay> jardineworks_: question : in a QueryPos, first ? is pos 0 or pos 1 ?
+09:57 < nicolas_FR:#liferay> Because the setJoin add a param into the query and do a pos_++, so first query parameter (companyId) is set at pos_=1
