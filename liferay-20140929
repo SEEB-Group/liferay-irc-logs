@@ -69,3 +69,4 @@
 10:38 < vernaillen:#liferay> jardineworks_, I mean this thread: https://www.liferay.com/community/forums/-/message_boards/message/43256723
 10:38 < jardineworks_:#liferay> vernaillen, no problem
 10:38 < goku_:#liferay> jardinwworks_, hi is that possible to get the newly created user id on the hook ,which will be overriding the /users_admin/edit_user struts action ?
+10:38 < jardineworks_:#liferay> you want the source with the changes I made?
