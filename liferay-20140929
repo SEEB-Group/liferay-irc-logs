@@ -66,3 +66,4 @@
 10:24 < nicolas_FR:#liferay> jardineworks_: We might have found something.. we were setting the "type_" param instead of the "types". But can't say if that's it
 10:25 < nicolas_FR:#liferay> jardineworks_: we were doing :params.put("type_", 1); We are now doing : params.put("types", typesTmp); where typesTmp is a list of Integer ( just the number 1)
 10:37 < vernaillen:#liferay> jardineworks_, thanks for your reply in the forum regarding the Recources Importer
+10:38 < vernaillen:#liferay> jardineworks_, I mean this thread: https://www.liferay.com/community/forums/-/message_boards/message/43256723
