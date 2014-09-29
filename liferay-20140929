@@ -44,3 +44,4 @@
 09:40 < jardineworks_:#liferay> goku_, if it is just to display you could use the expando and then a JSP hook to show it.
 09:41 < jardineworks_:#liferay> goku_, But if you need to change it, then you would need to use the StrutsAction hook.
 09:42 < jardineworks_:#liferay> nicolas_FR, qpos.add(description) is shown twice... I wonder why.
+09:43 < nicolas_FR:#liferay> jardineworks_: the query is like "if description = ? or ? is null
