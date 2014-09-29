@@ -19,3 +19,4 @@
 09:09 < jardineworks_:#liferay> goku_, ok -- so you would use a JSP hook to add that field... and then you need to create a StrutsAction (Portlet I think) hook to "augment" the save action. EditUserAction I think is the class for the strts action.
 09:09 < jardineworks_:#liferay> goku_, yep.
 09:10 < jardineworks_:#liferay> and then for the save, you basically copy the EditUserAction -- let it do whatever it does now, but at the end of the "save" steps, add in the ones for your own -- save it to an expando, or external database, call a service, whatever.
+09:11 < jardineworks_:#liferay> goku_, I think you dropped before this came throuhg.
