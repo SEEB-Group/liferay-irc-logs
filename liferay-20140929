@@ -74,3 +74,4 @@
 10:38 < vernaillen:#liferay> jardineworks_, that would be great if you want to share that
 10:40 < vernaillen:#liferay> jardineworks_, it's exactly the same solution as I had in mind, however I don't have experience yet in creating a patch for Liferay
 10:40 < jardineworks_:#liferay> goku_, at some point there is a UserLocalServiceUtil.update right? I think the User user =  beside that should contain the new/updated user. You can get the id from that object.
+10:40 < jardineworks_:#liferay> or even before it is stored ... I think it uses the CounterLocalServiceUtil to create the User object right?
