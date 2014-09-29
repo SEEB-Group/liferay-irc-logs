@@ -48,3 +48,6 @@
 09:43 < nicolas_FR:#liferay> so they add x2 description
 09:43 < jardineworks_:#liferay> 	public void  [More ...] add(String value) {
 09:43 < jardineworks_:#liferay> 313
+09:43 < jardineworks_:#liferay> 		_query.setString(_pos++, value);
+09:43 < jardineworks_:#liferay> 314
+09:43 < jardineworks_:#liferay> 	}
