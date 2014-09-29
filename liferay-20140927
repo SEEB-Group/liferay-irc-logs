@@ -38,3 +38,4 @@
 12:53 < modd:#liferay> at least not in the form that you cannot drop the portlet anymore
 12:57 < urug_:#liferay> Hm ... by default, if I click on sign-in it add the login portlet to the page in maximized state ... couldn't be that what's creating the link between the page and login portlet?
 13:16 < urug_:#liferay> Yay, it's really the problem. The login portlet gets embedded to the page in the moment when I use Sign-In button on that particular page.
+--- Log closed Sun Sep 28 00:00:17 2014
