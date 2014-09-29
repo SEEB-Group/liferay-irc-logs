@@ -46,3 +46,4 @@
 09:42 < jardineworks_:#liferay> nicolas_FR, qpos.add(description) is shown twice... I wonder why.
 09:43 < nicolas_FR:#liferay> jardineworks_: the query is like "if description = ? or ? is null
 09:43 < nicolas_FR:#liferay> so they add x2 description
+09:43 < jardineworks_:#liferay> 	public void  [More ...] add(String value) {
