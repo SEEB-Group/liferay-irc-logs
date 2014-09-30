@@ -231,3 +231,4 @@
 15:06 < douglascrp:#liferay> describe konsultex_Projeto
 15:06 < douglascrp:#liferay>     -> ;
 15:06 < douglascrp:#liferay> +--------------------------------+-------------+------+-----+---------+-------+
+15:06 < douglascrp:#liferay> | Field                          | Type        | Null | Key | Default | Extra |
