@@ -196,3 +196,4 @@
 14:46 < douglascrp:#liferay> there is nothing wrong in the log
 14:46 < douglascrp:#liferay> btw, which log files do you look at?
 14:46 < douglascrp:#liferay> I'm looking at catalina.out and liferay.log
+14:48 < douglascrp:#liferay> I've just tried it again... no database entry
