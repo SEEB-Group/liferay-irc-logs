@@ -216,3 +216,6 @@
 15:04 < douglascrp:#liferay> look  my logs output
 15:05 < douglascrp:#liferay> 19:04:06,338 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:26] addProject call
 15:05 < douglascrp:#liferay> 19:04:06,349 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:54] _updateProjeto call
+15:05 < douglascrp:#liferay> 19:04:06,381 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:57] projetoId: 0
+15:05 < douglascrp:#liferay> 19:04:06,389 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:61] nomeProjeto: teste 1
+15:05 < douglascrp:#liferay> 19:04:06,413 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:65] ano: 2014
