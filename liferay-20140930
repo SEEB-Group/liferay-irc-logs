@@ -267,3 +267,4 @@
 15:10 < jardineworks_:#liferay> barf*
 15:10 < douglascrp:#liferay> no... I have no errors
 15:10 < douglascrp:#liferay> log is clean
+15:12 < douglascrp:#liferay> jardineworks_, about your previous doubt... yes, I can insert a register using sql insert into
