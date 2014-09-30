@@ -242,3 +242,4 @@
 15:07 < douglascrp:#liferay> | medicilandiaBeneficiado        | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | senadorJosePorfirioBeneficiado | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | anapuBeneficiado               | varchar(75) | YES  |     | NULL    |       |
+15:07 < douglascrp:#liferay> | pacajaBeneficiado              | varchar(75) | YES  |     | NULL    |       |
