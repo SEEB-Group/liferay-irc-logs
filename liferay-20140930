@@ -19,3 +19,4 @@
 05:41 < nicolas_FR:#liferay> Javascript loading problem with configuration pages. Should we still load our JS in the theme, or directly (by hook) in the top_js-ext page ?
 09:41 < jardineworks_:#liferay> goku_, is you action being called?
 09:42 < goku_:#liferay> yea its working and the processAction is gettting called
+09:44 < jardineworks_:#liferay> so in your process action method, the first thing you do is call the originalstrutsaction right?
