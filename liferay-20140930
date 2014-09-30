@@ -206,3 +206,4 @@
 14:51 < douglascrp:#liferay> any sample
 14:51 < douglascrp:#liferay> ?
 14:52 < jardineworks_:#liferay> private static final Log _log = LogFactoryUtil.getLog(ProjetoListingPortlet.class);
+14:53 < jardineworks_:#liferay> and then _log.info is probably what you want to use
