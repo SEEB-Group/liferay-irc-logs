@@ -246,3 +246,4 @@
 15:07 < douglascrp:#liferay> | uruaraBeneficiado              | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | brasilNovoBeneficiado          | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | placasBeneficiado              | varchar(75) | YES  |     | NULL    |       |
+15:07 < douglascrp:#liferay> | vitoriaXinguBeneficiado        | varchar(75) | YES  |     | NULL    |       |
