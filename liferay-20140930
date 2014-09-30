@@ -209,3 +209,4 @@
 14:53 < jardineworks_:#liferay> and then _log.info is probably what you want to use
 14:53 < jardineworks_:#liferay> the root logger in LR is set to INFO by default I think
 14:53 < douglascrp:#liferay> ok, let me try it in order to see if I'm really getting those parameters
+15:00 < douglascrp:#liferay> I've put some logs both on portlet and on serviceimpl classes
