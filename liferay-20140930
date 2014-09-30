@@ -324,3 +324,4 @@
 15:21 < douglascrp:#liferay> and the code is being called... that based on the logs I created
 15:21 < jardineworks_:#liferay> ah there it is -- name='<%=projeto == null ? "addProjeto" : "updateProjeto"%>'
 15:21 < douglascrp:#liferay> parametesr are being passed
+15:21 < jardineworks_:#liferay> still, I didn't know that you could skip the annotation!
