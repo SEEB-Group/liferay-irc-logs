@@ -205,3 +205,4 @@
 14:51 < douglascrp:#liferay> how can I use log on it?
 14:51 < douglascrp:#liferay> any sample
 14:51 < douglascrp:#liferay> ?
+14:52 < jardineworks_:#liferay> private static final Log _log = LogFactoryUtil.getLog(ProjetoListingPortlet.class);
