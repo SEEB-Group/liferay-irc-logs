@@ -62,3 +62,4 @@
 10:38 < goku_:#liferay> jardineworks_, do you know why this beanlocator not found error is coming for the service jar which i put into the lib/ext folder
 10:41 < jardineworks_:#liferay> goku_, service jar as in a custom jar that resulted from a service builder project?
 10:44 < goku_:#liferay> jardineworks_, yes
+10:45 < jardineworks_:#liferay> goku_, do you still have the jar as part of your service builder portlet that is deployed?
