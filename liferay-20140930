@@ -60,3 +60,4 @@
 10:34 < jardineworks_:#liferay> goku_, forgot to mention... you would want this class globally available so you should have it in its own jar in the TOMCAT_HOME/lib/ext
 10:34 < jardineworks_:#liferay> I normally create a <client_name>-liferay-commons.jar for my projects for such classes.
 10:38 < goku_:#liferay> jardineworks_, do you know why this beanlocator not found error is coming for the service jar which i put into the lib/ext folder
+10:41 < jardineworks_:#liferay> goku_, service jar as in a custom jar that resulted from a service builder project?
