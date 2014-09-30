@@ -20,3 +20,4 @@
 09:41 < jardineworks_:#liferay> goku_, is you action being called?
 09:42 < goku_:#liferay> yea its working and the processAction is gettting called
 09:44 < jardineworks_:#liferay> so in your process action method, the first thing you do is call the originalstrutsaction right?
+09:44 < goku_:#liferay> jardineworks_, in that method the after  originalStrutsPortletAction.processAction(originalStrutsPortletAction, portletConfig, actionRequest, actionResponse); i think the original action is executed after this ,i am trying to get the newly created userid
