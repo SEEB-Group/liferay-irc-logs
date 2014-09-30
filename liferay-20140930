@@ -16,3 +16,4 @@
 04:49 < nicolas_FR:#liferay> hi there
 04:51 < nicolas_FR:#liferay> seems we encounter a problem with L6.1.2 and configuration portlet. We have jquery loaded from Theme (jQuery v1.11.1) and some configuration page with some jquery magic. Fact is, on L6.1.2 GA3 (we were on L5.2.3 before), the configuration page says our jQuery is undefined (not loaded from theme I bet). It occurs before theme loads the jQuery, because if I enter JS console, I can see my jQuery vars... but not at the time the con
 05:21 < nicolas_FR:#liferay> So I'm wondering, is there another place to load my javascript library + custom js, if not in theme ?
+05:41 < nicolas_FR:#liferay> Javascript loading problem with configuration pages. Should we still load our JS in the theme, or directly (by hook) in the top_js-ext page ?
