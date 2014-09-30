@@ -362,3 +362,4 @@
 15:44 < douglascrp:#liferay> again
 15:44 < jardineworks_:#liferay> it allows you to build something similar to what  you see for "edit user" in the control panel.
 15:44 < jardineworks_:#liferay> there is a sample .. lemme grab it for you.
+15:45 < jardineworks_:#liferay> https://github.com/liferay/liferay-plugins/tree/master/portlets/sample-form-navigator-portlet
