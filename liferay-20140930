@@ -53,3 +53,4 @@
 10:18 < jardineworks_:#liferay> then in your UserFieldStrutsPortletAction class ... wrap the process action logic in a conditional that uses the util.
 10:18 < jardineworks_:#liferay> and then in your portal-ext
 10:18 < jardineworks_:#liferay> com.talco.reg.user.field UserFieldStrutsPortletAction.hook=<companyid>
+10:19 < jardineworks_:#liferay> if you create a second instance later, and still have the hook deployed, it's absence from the property setting means that it will not be executed.
