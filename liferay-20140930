@@ -23,3 +23,4 @@
 09:44 < goku_:#liferay> jardineworks_, in that method the after  originalStrutsPortletAction.processAction(originalStrutsPortletAction, portletConfig, actionRequest, actionResponse); i think the original action is executed after this ,i am trying to get the newly created userid
 09:44 < jardineworks_:#liferay> goku_, show me your action method
 09:53 < goku_:#liferay> jardineworks_,http://pastebin.com/i5sdfvE9
+09:56 < jardineworks_:#liferay> goku_, ah
