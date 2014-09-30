@@ -274,3 +274,4 @@
 15:13 < douglascrp:#liferay> mysql> select projetoId, nomeProjeto, ano from konsultex_Projeto;
 15:13 < douglascrp:#liferay> +-----------+-------------+------+
 15:13 < douglascrp:#liferay> | projetoId | nomeProjeto | ano  |
+15:13 < douglascrp:#liferay> +-----------+-------------+------+
