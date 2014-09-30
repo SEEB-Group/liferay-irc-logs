@@ -240,3 +240,4 @@
 15:06 < douglascrp:#liferay> | camaraTecnica                  | varchar(75) | YES  |     | NULL    |       |
 15:06 < douglascrp:#liferay> | altamiraBeneficiado            | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | medicilandiaBeneficiado        | varchar(75) | YES  |     | NULL    |       |
+15:07 < douglascrp:#liferay> | senadorJosePorfirioBeneficiado | varchar(75) | YES  |     | NULL    |       |
