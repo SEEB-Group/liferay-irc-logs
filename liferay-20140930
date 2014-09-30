@@ -172,3 +172,4 @@
 14:41 < jardineworks_:#liferay> so you and the guy next to you? and the guy you work with in another city? all they need to know is the name of your entity... and they can read them, write them, manage them.
 14:41 < douglascrp:#liferay> +1
 14:41 < douglascrp:#liferay> jardineworks_> so ... br.com.konsultex.altamira.projeto.portlets.ProjetosListingPortlet --> br.com.konsultex.altamira.projeto.portlet.projetoslisting.ProjectosListingPortlet
+14:42 < douglascrp:#liferay> are you suggesting me to rename my package and classes?
