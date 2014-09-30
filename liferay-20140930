@@ -285,3 +285,4 @@
 15:16 < jardineworks_:#liferay> I always thought you had to use an annotation with MVCPortlets... so that it would be @ProcessAction(name="..")
 15:16 < jardineworks_:#liferay> wait.
 15:16 < jardineworks_:#liferay> where do you add these from
+15:16 < jardineworks_:#liferay> ?
