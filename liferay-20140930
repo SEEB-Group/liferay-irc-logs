@@ -14,3 +14,4 @@
 03:45 < goku_:#liferay> hi, in the struts action override processAction method after calling the  originalStrutsPortletAction.processAction() method how to get the newly created user ID?
 04:33 < nicolas_FR:#liferay> hi there
 04:49 < nicolas_FR:#liferay> hi there
+04:51 < nicolas_FR:#liferay> seems we encounter a problem with L6.1.2 and configuration portlet. We have jquery loaded from Theme (jQuery v1.11.1) and some configuration page with some jquery magic. Fact is, on L6.1.2 GA3 (we were on L5.2.3 before), the configuration page says our jQuery is undefined (not loaded from theme I bet). It occurs before theme loads the jQuery, because if I enter JS console, I can see my jQuery vars... but not at the time the con
