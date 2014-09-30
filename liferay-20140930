@@ -296,3 +296,4 @@
 15:19 < jardineworks_:#liferay> in your view.jsp..
 15:19 < jardineworks_:#liferay> change  this ...
 15:19 < jardineworks_:#liferay> <aui:button-row>
+15:19 < jardineworks_:#liferay> 	<portlet:renderURL var="addProjetoURL">
