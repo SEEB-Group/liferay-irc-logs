@@ -289,3 +289,4 @@
 15:17 < douglascrp:#liferay> I didn't get that
 15:17 < jardineworks_:#liferay> you have <portlet:renderURL var="addProjetoURL"> .... a render URL... but that should be an actionURL really.
 15:17 < douglascrp:#liferay> hmmm... I see
+15:17 < jardineworks_:#liferay> and then the action method should be annotated.
