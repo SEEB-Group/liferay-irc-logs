@@ -131,3 +131,5 @@
 14:31 < douglascrp:#liferay> those are the pages I'm using
 14:32 < jardineworks_:#liferay> 		Projeto projeto = ProjetoLocalServiceUtil.createProjeto(CounterLocalServiceUtil.increment("Projeto.class"));
 14:32 < jardineworks_:#liferay> 		projeto.setAno("...");
+14:32 < jardineworks_:#liferay> 		...
+14:32 < jardineworks_:#liferay> 		projecto = ProjetoLocalServiceUtil.addProjeto(projeto);
