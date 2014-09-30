@@ -194,3 +194,4 @@
 14:46 < douglascrp:#liferay> I used hibernate and jpa some years ago, and that's not that different
 14:46 < douglascrp:#liferay> but I can't figure out why the object is not being persisted in the database
 14:46 < douglascrp:#liferay> there is nothing wrong in the log
+14:46 < douglascrp:#liferay> btw, which log files do you look at?
