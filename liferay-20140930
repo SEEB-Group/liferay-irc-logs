@@ -308,3 +308,4 @@
 15:20 < jardineworks_:#liferay> 	<portlet:param name="redirect" value="<%=redirect%>" />
 15:20 < jardineworks_:#liferay> </portlet:actionURL>
 15:20 < jardineworks_:#liferay> 	
+15:20 < jardineworks_:#liferay> <aui:button-row>
