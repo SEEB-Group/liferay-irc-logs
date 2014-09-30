@@ -66,3 +66,4 @@
 10:46 < jardineworks_:#liferay> sometimes I have seen this sort of message when there is a conflict. If you put it in the global libs then you should remove it from the plugin lib folders to make sure that there is just one "master" reference.
 10:46 < jardineworks_:#liferay> ... and you restarted the server after moving it to /lib/ext right? :)
 10:47 < goku_:#liferay> i haven't deployed the service portlet, yea i have restarted it
+10:50 < jardineworks_:#liferay> goku_, hmm... can you show me the entire stacktrace?
