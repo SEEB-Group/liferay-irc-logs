@@ -256,3 +256,4 @@
 15:07 < douglascrp:#liferay> | groupId                        | bigint(20)  | YES  | MUL | NULL    |       |
 15:07 < douglascrp:#liferay> | companyId                      | bigint(20)  | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | userId
+15:09 < jardineworks_:#liferay> hmmm
