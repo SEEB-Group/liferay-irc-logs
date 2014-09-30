@@ -46,3 +46,4 @@
 10:10 < jardineworks_:#liferay> The only real downside is that hooks are "global" .. but I just use a little trick to allow you to configure then for a "portal instance"
 10:11 < goku_:#liferay> jardineworks_, oh ok
 10:11 < jardineworks_:#liferay> hold on -- I'll share the code with you
+10:13 < goku_:#liferay> jardineworks_, it i will configure that in my setup
