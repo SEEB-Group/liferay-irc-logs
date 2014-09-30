@@ -75,3 +75,4 @@
 14:15 < douglascrp:#liferay> I'm trying to learn liferay now, and i'm following the service builder tutorial
 14:16 < jardineworks_:#liferay> good start -- service builder is what made me fall in love with LR :)
 14:16 < jardineworks_:#liferay> initially.
+14:16 < douglascrp:#liferay> I've adapted the eventlisting portlet sample to my case, but after I create a register using the form, I got no registers on the database
