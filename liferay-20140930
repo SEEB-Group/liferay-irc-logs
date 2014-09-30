@@ -54,3 +54,4 @@
 10:18 < jardineworks_:#liferay> and then in your portal-ext
 10:18 < jardineworks_:#liferay> com.talco.reg.user.field UserFieldStrutsPortletAction.hook=<companyid>
 10:19 < jardineworks_:#liferay> if you create a second instance later, and still have the hook deployed, it's absence from the property setting means that it will not be executed.
+10:20 < jardineworks_:#liferay> it doesn't save the overhead of making calls "unecessarily" ... but it does allow you to leave the customized logic set for a particular "company"
