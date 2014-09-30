@@ -356,3 +356,4 @@
 15:42 < douglascrp:#liferay> in my case, there is the main project, and children would be some contacts
 15:42 < douglascrp:#liferay> my idea is to create everything on the same form, maybe using "tabs" to keep info organized
 15:43 < douglascrp:#liferay> there will be a main form, cointaining all the project properties, then those tabs to show the subform for contacts
+15:44 < jardineworks_:#liferay> douglascrp, normally you would do that with a "form-navigator"
