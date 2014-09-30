@@ -237,3 +237,4 @@
 15:06 < douglascrp:#liferay> | proponenteId                   | bigint(20)  | YES  |     | NULL    |       |
 15:06 < douglascrp:#liferay> | nomeProjeto                    | varchar(75) | YES  |     | NULL    |       |
 15:06 < douglascrp:#liferay> | objeto                         | varchar(75) | YES  |     | NULL    |       |
+15:06 < douglascrp:#liferay> | camaraTecnica                  | varchar(75) | YES  |     | NULL    |       |
