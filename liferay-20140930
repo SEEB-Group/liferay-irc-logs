@@ -198,3 +198,4 @@
 14:46 < douglascrp:#liferay> I'm looking at catalina.out and liferay.log
 14:48 < douglascrp:#liferay> I've just tried it again... no database entry
 14:48 < douglascrp:#liferay> that's weird
+14:50 < jardineworks_:#liferay> I usually tail catalina.out
