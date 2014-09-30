@@ -297,3 +297,6 @@
 15:19 < jardineworks_:#liferay> change  this ...
 15:19 < jardineworks_:#liferay> <aui:button-row>
 15:19 < jardineworks_:#liferay> 	<portlet:renderURL var="addProjetoURL">
+15:19 < jardineworks_:#liferay> 		<portlet:param name="mvcPath" value="/html/projetoslisting/edit_projeto.jsp" />
+15:19 < jardineworks_:#liferay> 		<portlet:param name="redirect" value="<%=redirect%>" />
+15:19 < jardineworks_:#liferay> 	</portlet:renderURL>
