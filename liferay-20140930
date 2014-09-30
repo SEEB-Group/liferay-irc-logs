@@ -67,3 +67,4 @@
 10:46 < jardineworks_:#liferay> ... and you restarted the server after moving it to /lib/ext right? :)
 10:47 < goku_:#liferay> i haven't deployed the service portlet, yea i have restarted it
 10:50 < jardineworks_:#liferay> goku_, hmm... can you show me the entire stacktrace?
+10:51 < goku_:#liferay> jardineworks_, ok
