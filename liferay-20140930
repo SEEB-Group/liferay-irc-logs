@@ -12,3 +12,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 03:45 < goku_:#liferay> hi, in the struts action override processAction method after calling the  originalStrutsPortletAction.processAction() method how to get the newly created user ID?
+04:33 < nicolas_FR:#liferay> hi there
