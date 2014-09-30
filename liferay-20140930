@@ -353,3 +353,4 @@
 15:29 < douglascrp:#liferay> it makes no sense
 15:30 < douglascrp:#liferay> redeploying it
 15:41 < douglascrp:#liferay> how hard is it to build a form to create and update the master entity and some detail entities?
+15:42 < douglascrp:#liferay> in my case, there is the main project, and children would be some contacts
