@@ -49,3 +49,4 @@
 10:13 < goku_:#liferay> jardineworks_, it i will configure that in my setup
 10:15 < jardineworks_:#liferay> goku_, what's the package/classname for your custom action?
 10:16 < goku_:#liferay> jardineworks_, com.talco.reg.user.field UserFieldStrutsPortletAction
+10:17 < jardineworks_:#liferay> ok so, if you use this class... http://pastebin.com/C1WwGXV1
