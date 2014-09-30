@@ -118,3 +118,4 @@
 14:29 < douglascrp:#liferay> this project is basically the github project changes to my needs
 14:29 < douglascrp:#liferay> all the persistence code was generated with service builder, and then I finished it following the tutorial steps
 14:29 < jardineworks_:#liferay> right
+14:29 < douglascrp:#liferay> ah, and the problem is at the Projeto entity
