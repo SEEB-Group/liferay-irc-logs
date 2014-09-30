@@ -212,3 +212,4 @@
 15:00 < douglascrp:#liferay> I've put some logs both on portlet and on serviceimpl classes
 15:01 < douglascrp:#liferay> jardineworks_, I don't know if you agree with me, but liferay's docs is a mess
 15:01 < douglascrp:#liferay> it's really hard to follow it
+15:04 < jardineworks_:#liferay> douglascrp, they are -- but much better than they used to be that's for sure. My main issue with the docs, and with most of the "blogs" from "experts" is that the examples are over simplified. Most of the time I only find my answers either from someone who works at Liferay in this channel or by digging through the source code and just "figuring it out"
