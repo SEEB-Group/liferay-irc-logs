@@ -43,3 +43,4 @@
 10:08 < jardineworks_:#liferay> ed to be "what everyone important needs" ... Liferay provides the lego blacks.
 10:08 < jardineworks_:#liferay> just one of the many reasons I <3 Liferay
 10:09 < jardineworks_:#liferay> and I am always trying to show my clients the real benefits of the platform from this perspective.
+10:10 < jardineworks_:#liferay> The only real downside is that hooks are "global" .. but I just use a little trick to allow you to configure then for a "portal instance"
