@@ -338,3 +338,4 @@
 15:24 < douglascrp:#liferay> I guess it was written that way just to help novice guys to understand it
 15:24 < jardineworks_:#liferay> curious... I've never done this for LocalServiceUtil calls...
 15:24 < jardineworks_:#liferay> ServiceContext serviceContext = ServiceContextFactory.getInstance(
+15:24 < jardineworks_:#liferay> 				Projeto.class.getName(), request);
