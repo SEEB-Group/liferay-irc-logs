@@ -300,3 +300,4 @@
 15:19 < jardineworks_:#liferay> 		<portlet:param name="mvcPath" value="/html/projetoslisting/edit_projeto.jsp" />
 15:19 < jardineworks_:#liferay> 		<portlet:param name="redirect" value="<%=redirect%>" />
 15:19 < jardineworks_:#liferay> 	</portlet:renderURL>
+15:19 < jardineworks_:#liferay> 	<aui:button onClick="<%=addProjetoURL.toString()%>" value="add-projeto" />
