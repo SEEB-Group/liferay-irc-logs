@@ -168,3 +168,4 @@
 14:39 < douglascrp:#liferay> that's why I decided to go with service builder, because all the ads telling liferay is built on it
 14:39 < jardineworks_:#liferay> so ... br.com.konsultex.altamira.projeto.portlets.ProjetosListingPortlet --> br.com.konsultex.altamira.projeto.portlet.projetoslisting.ProjectosListingPortlet
 14:40 < jardineworks_:#liferay> it is
+14:40 < jardineworks_:#liferay> and service builder, even if you don't want to store stuff in the Liferay database, supports writing to external dbs as well. The real benefit is a CONSISTENT model for creating entities, finding them, persisting them, etc.
