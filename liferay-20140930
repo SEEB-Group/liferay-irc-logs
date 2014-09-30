@@ -402,3 +402,4 @@
 16:33 < douglascrp:#liferay> but that's not the problem, since the code is executed
 16:34 < douglascrp:#liferay> but it's good to know there are options
 16:37 < jardineworks_:#liferay> douglascrp, I think the annotation is really for cases where you want the action name to be different than the method name... like action name "addRecipe" but the method called public void add( ActionRequest ...)
+16:37 < jardineworks_:#liferay> that's all I can think of since yours works :)
