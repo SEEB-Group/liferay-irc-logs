@@ -129,3 +129,4 @@
 14:31 < jardineworks_:#liferay> more of a personal preference than anything I guess, but I prefer to use soemthing more like this...
 14:31 < douglascrp:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/call-local-services-liferay-portal-6-2-dev-guide-04-en
 14:31 < douglascrp:#liferay> those are the pages I'm using
+14:32 < jardineworks_:#liferay> 		Projeto projeto = ProjetoLocalServiceUtil.createProjeto(CounterLocalServiceUtil.increment("Projeto.class"));
