@@ -211,3 +211,4 @@
 14:53 < douglascrp:#liferay> ok, let me try it in order to see if I'm really getting those parameters
 15:00 < douglascrp:#liferay> I've put some logs both on portlet and on serviceimpl classes
 15:01 < douglascrp:#liferay> jardineworks_, I don't know if you agree with me, but liferay's docs is a mess
+15:01 < douglascrp:#liferay> it's really hard to follow it
