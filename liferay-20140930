@@ -348,3 +348,4 @@
 15:27 < douglascrp:#liferay> I hope that can help me to figure it out
 15:27 < jardineworks_:#liferay> but both should be supported.
 15:28 < douglascrp:#liferay> considering it's hibernate under the hood, so it should work
+15:28 < jardineworks_:#liferay> just odd that its not working and that there is no error being blasted at you.
