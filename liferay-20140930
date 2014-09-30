@@ -310,3 +310,4 @@
 15:20 < jardineworks_:#liferay> 	
 15:20 < jardineworks_:#liferay> <aui:button-row>
 15:20 < jardineworks_:#liferay> 	<aui:button onClick="<%=addProjetoURL.toString()%>" value="add-projeto" />
+15:20 < jardineworks_:#liferay> </aui:button-row>
