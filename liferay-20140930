@@ -342,3 +342,4 @@
 15:24 < jardineworks_:#liferay> ah
 15:25 < jardineworks_:#liferay> I see... I usually just get the userId and the GroupId and the companyId etc is a different manner
 15:25 < jardineworks_:#liferay> okm
+15:26 < jardineworks_:#liferay> geez -- I dunno, it all looks right. Only thing to do is literally step over and into each line of code to see if an unchecked exception is thrown or something maybe.
