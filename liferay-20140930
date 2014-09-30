@@ -233,3 +233,4 @@
 15:06 < douglascrp:#liferay> +--------------------------------+-------------+------+-----+---------+-------+
 15:06 < douglascrp:#liferay> | Field                          | Type        | Null | Key | Default | Extra |
 15:06 < douglascrp:#liferay> +--------------------------------+-------------+------+-----+---------+-------+
+15:06 < douglascrp:#liferay> | projetoId                      | bigint(20)  | NO   | PRI | NULL    |       |
