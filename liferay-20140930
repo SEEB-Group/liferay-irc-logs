@@ -281,3 +281,4 @@
 15:13 < douglascrp:#liferay> but when I access liferay, it's not being listed there
 15:15 < jardineworks_:#liferay> hmm
 15:15 < jardineworks_:#liferay> one thing that is interesting...
+15:15 < jardineworks_:#liferay> public void addProjeto(ActionRequest request, ActionResponse response)
