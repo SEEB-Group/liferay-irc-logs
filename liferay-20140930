@@ -272,3 +272,5 @@
 15:12 < douglascrp:#liferay> ah, let me see if the register is now listed on the portlet
 15:13 < douglascrp:#liferay> jardineworks_, no, it's not listed
 15:13 < douglascrp:#liferay> mysql> select projetoId, nomeProjeto, ano from konsultex_Projeto;
+15:13 < douglascrp:#liferay> +-----------+-------------+------+
+15:13 < douglascrp:#liferay> | projetoId | nomeProjeto | ano  |
