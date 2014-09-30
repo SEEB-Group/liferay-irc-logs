@@ -77,3 +77,4 @@
 14:16 < jardineworks_:#liferay> initially.
 14:16 < douglascrp:#liferay> I've adapted the eventlisting portlet sample to my case, but after I create a register using the form, I got no registers on the database
 14:17 < douglascrp:#liferay> everything seems to be working ok, no erros, no alerts, no nothing... only the message saying that the operation is ok
+14:17 < douglascrp:#liferay> jardineworks_, really? lol
