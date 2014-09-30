@@ -346,3 +346,4 @@
 15:27 < douglascrp:#liferay> I'm creating some more logs
 15:27 < jardineworks_:#liferay> again, the only real difference I see from what you have versus what I normally do is I usually build the model object and pass the object to the Util class in place of all the individual fields.
 15:27 < douglascrp:#liferay> I hope that can help me to figure it out
+15:27 < jardineworks_:#liferay> but both should be supported.
