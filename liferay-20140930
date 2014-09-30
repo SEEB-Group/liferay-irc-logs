@@ -223,3 +223,4 @@
 15:05 < douglascrp:#liferay> 19:04:06,540 INFO  [http-bio-8080-exec-70][ProjetoLocalServiceImpl:62] projetoId: 201
 15:05 < douglascrp:#liferay> it's working
 15:05 < douglascrp:#liferay> but again, no database entries
+15:05 < douglascrp:#liferay> database is empty
