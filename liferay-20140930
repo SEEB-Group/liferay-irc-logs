@@ -304,3 +304,4 @@
 15:19 < jardineworks_:#liferay> </aui:button-row>
 15:19 < jardineworks_:#liferay> to....
 15:20 < jardineworks_:#liferay> <portlet:actionURL name="addProjeto" var="addProjetoURL">
+15:20 < jardineworks_:#liferay> 	<portlet:param name="mvcPath" value="/html/projetoslisting/edit_projeto.jsp" />
