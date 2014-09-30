@@ -292,3 +292,4 @@
 15:17 < jardineworks_:#liferay> and then the action method should be annotated.
 15:18 < douglascrp:#liferay> do you have any sample?
 15:18 < jardineworks_:#liferay> so you would have <portlet:actionURL name="myAction" var="myActionURL"> ... </portlet:actionURL>
+15:18 < jardineworks_:#liferay> and then the @ProcessAction(name="myAction") in the portlet class
