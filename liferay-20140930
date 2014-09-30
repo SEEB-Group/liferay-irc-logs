@@ -52,3 +52,4 @@
 10:17 < jardineworks_:#liferay> ok so, if you use this class... http://pastebin.com/C1WwGXV1
 10:18 < jardineworks_:#liferay> then in your UserFieldStrutsPortletAction class ... wrap the process action logic in a conditional that uses the util.
 10:18 < jardineworks_:#liferay> and then in your portal-ext
+10:18 < jardineworks_:#liferay> com.talco.reg.user.field UserFieldStrutsPortletAction.hook=<companyid>
