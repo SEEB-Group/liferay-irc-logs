@@ -251,3 +251,4 @@
 15:07 < douglascrp:#liferay> | portoMozBeneficiado            | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | comunidadesBeneficiadas        | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | eixoEstrategico                | varchar(75) | YES  |     | NULL    |       |
+15:07 < douglascrp:#liferay> | objetivoEspecifico             | varchar(75) | YES  |     | NULL    |       |
