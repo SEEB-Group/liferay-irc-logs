@@ -201,3 +201,4 @@
 14:50 < jardineworks_:#liferay> I usually tail catalina.out
 14:50 < jardineworks_:#liferay> did you set a breakpoint and step through the Impl clasS?
 14:50 < jardineworks_:#liferay> no stack trace?
+14:51 < douglascrp:#liferay> no, since I'm deploying this to a remote server in a vm
