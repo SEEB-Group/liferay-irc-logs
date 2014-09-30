@@ -295,3 +295,4 @@
 15:18 < jardineworks_:#liferay> and then the @ProcessAction(name="myAction") in the portlet class
 15:19 < jardineworks_:#liferay> in your view.jsp..
 15:19 < jardineworks_:#liferay> change  this ...
+15:19 < jardineworks_:#liferay> <aui:button-row>
