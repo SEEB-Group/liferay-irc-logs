@@ -36,3 +36,4 @@
 10:01 < goku_:#liferay> jardineworks_, ohk
 10:01 < jardineworks_:#liferay> The only thing I am not sure about -- does the originalStrutsACtion actually return to your hook? or does it redirect to another place?
 10:01 < goku_:#liferay> jardineworks_, thanks man
+10:02 < jardineworks_:#liferay> np
