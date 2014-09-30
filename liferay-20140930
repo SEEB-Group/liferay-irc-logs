@@ -317,3 +317,4 @@
 15:20 < jardineworks_:#liferay> lol
 15:20 < douglascrp:#liferay> <portlet:actionURL name='<%=projeto == null ? "addProjeto" : "updateProjeto"%>' var="editProjetoURL" windowState="normal" />
 15:20 < jardineworks_:#liferay> sorry
+15:20 < jardineworks_:#liferay> :)
