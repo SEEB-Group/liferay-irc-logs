@@ -227,3 +227,4 @@
 15:05 < jardineworks_:#liferay> do you see your table there?
 15:06 < douglascrp:#liferay> yes select * from konsultex_Projeto;
 15:06 < douglascrp:#liferay> that's the select I'm trying
+15:06 < douglascrp:#liferay> and if I say it to describe the table
