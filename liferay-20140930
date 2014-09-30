@@ -31,3 +31,4 @@
 10:00 < jardineworks_:#liferay> actually, it doesn't matter.
 10:00 < jardineworks_:#liferay> You have the email address right?
 10:00 < goku_:#liferay> jardineworks_, yea
+10:00 < jardineworks_:#liferay> the originalStrutsAction call will create the user. When you come back from that call, you can do a UserLocalServiceUtil.getUserByEmail...
