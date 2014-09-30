@@ -134,3 +134,4 @@
 14:32 < jardineworks_:#liferay> 		...
 14:32 < jardineworks_:#liferay> 		projecto = ProjetoLocalServiceUtil.addProjeto(projeto);
 14:32 < douglascrp:#liferay> ah, ok... code style, right?
+14:33 < jardineworks_:#liferay> just a little more semantic for a reader.. the problem with the other appraoch is readability. I don't know what the 17th parameter which is a "" is supposed to represent ... but projeto.set17thParamater( StringPool.BLANK );  is obvious :)
