@@ -249,3 +249,4 @@
 15:07 < douglascrp:#liferay> | vitoriaXinguBeneficiado        | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | gurupaBeneficiado              | varchar(75) | YES  |     | NULL    |       |
 15:07 < douglascrp:#liferay> | portoMozBeneficiado            | varchar(75) | YES  |     | NULL    |       |
+15:07 < douglascrp:#liferay> | comunidadesBeneficiadas        | varchar(75) | YES  |     | NULL    |       |
