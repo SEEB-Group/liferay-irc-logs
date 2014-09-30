@@ -133,3 +133,4 @@
 14:32 < jardineworks_:#liferay> 		projeto.setAno("...");
 14:32 < jardineworks_:#liferay> 		...
 14:32 < jardineworks_:#liferay> 		projecto = ProjetoLocalServiceUtil.addProjeto(projeto);
+14:32 < douglascrp:#liferay> ah, ok... code style, right?
