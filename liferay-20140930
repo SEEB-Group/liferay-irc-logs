@@ -58,3 +58,4 @@
 10:20 < jardineworks_:#liferay> or portal instance.
 10:29 < goku_:#liferay> jardineworks_, ok :)
 10:34 < jardineworks_:#liferay> goku_, forgot to mention... you would want this class globally available so you should have it in its own jar in the TOMCAT_HOME/lib/ext
+10:34 < jardineworks_:#liferay> I normally create a <client_name>-liferay-commons.jar for my projects for such classes.
