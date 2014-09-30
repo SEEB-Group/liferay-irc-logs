@@ -406,3 +406,4 @@
 16:38 < douglascrp:#liferay> I also saw you transfered some of the persistence layer code to the portlet class
 16:38 < douglascrp:#liferay> things like setting dates and group
 16:39 < douglascrp:#liferay> I'm trying to implement my addProjeto method just link yours
+16:47 < douglascrp:#liferay> jardineworks_, yep... your code works
