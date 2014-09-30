@@ -82,3 +82,4 @@
 10:44 < goku_:#liferay> jardineworks_, ok
 10:49 < jardineworks_:#liferay> goku_, assuming you want this custom field to be associated to the user being edited right? so don't use the guy in the theme display, use the explicit user that is in the action method.
 10:50 < goku_:#liferay> jardineworks_, ok
+--- Log closed Tue Sep 30 00:00:30 2014
