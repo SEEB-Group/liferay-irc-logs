@@ -171,3 +171,4 @@
 14:40 < jardineworks_:#liferay> and service builder, even if you don't want to store stuff in the Liferay database, supports writing to external dbs as well. The real benefit is a CONSISTENT model for creating entities, finding them, persisting them, etc.
 14:41 < jardineworks_:#liferay> so you and the guy next to you? and the guy you work with in another city? all they need to know is the name of your entity... and they can read them, write them, manage them.
 14:41 < douglascrp:#liferay> +1
+14:41 < douglascrp:#liferay> jardineworks_> so ... br.com.konsultex.altamira.projeto.portlets.ProjetosListingPortlet --> br.com.konsultex.altamira.projeto.portlet.projetoslisting.ProjectosListingPortlet
