@@ -294,3 +294,4 @@
 15:18 < jardineworks_:#liferay> so you would have <portlet:actionURL name="myAction" var="myActionURL"> ... </portlet:actionURL>
 15:18 < jardineworks_:#liferay> and then the @ProcessAction(name="myAction") in the portlet class
 15:19 < jardineworks_:#liferay> in your view.jsp..
+15:19 < jardineworks_:#liferay> change  this ...
