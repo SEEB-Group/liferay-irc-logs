@@ -215,3 +215,4 @@
 15:04 < jardineworks_:#liferay> douglascrp, they are -- but much better than they used to be that's for sure. My main issue with the docs, and with most of the "blogs" from "experts" is that the examples are over simplified. Most of the time I only find my answers either from someone who works at Liferay in this channel or by digging through the source code and just "figuring it out"
 15:04 < douglascrp:#liferay> look  my logs output
 15:05 < douglascrp:#liferay> 19:04:06,338 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:26] addProject call
+15:05 < douglascrp:#liferay> 19:04:06,349 INFO  [http-bio-8080-exec-70][ProjetosListingPortlet:54] _updateProjeto call
