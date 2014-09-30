@@ -339,3 +339,4 @@
 15:24 < jardineworks_:#liferay> curious... I've never done this for LocalServiceUtil calls...
 15:24 < jardineworks_:#liferay> ServiceContext serviceContext = ServiceContextFactory.getInstance(
 15:24 < jardineworks_:#liferay> 				Projeto.class.getName(), request);
+15:24 < jardineworks_:#liferay> ah
