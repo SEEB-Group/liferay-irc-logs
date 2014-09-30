@@ -111,3 +111,4 @@
 14:25 < jardineworks_:#liferay> I have had a lot of problems with Maven and Liferay... in particular shitty build masters that don't like the fact that Service Builder projects have two modules where one is dependent on the other.
 14:25 < jardineworks_:#liferay> ANT is still my favorite. I'm a big fan of simple.
 14:25 < jardineworks_:#liferay> anyway.
+14:25 < jardineworks_:#liferay> one sec.
