@@ -370,3 +370,4 @@
 15:46 < jardineworks_:#liferay> so if you do this-is-my-section .. or "this is my section" then the jsp Liferay will try to load is this_is_my_section.jsp
 15:46 < douglascrp:#liferay> got that
 15:47 < douglascrp:#liferay> jardineworks_, you can see what I need to create looking at my service.xml file
+15:47 < douglascrp:#liferay> project -> contact -> partner ->
