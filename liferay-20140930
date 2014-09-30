@@ -368,3 +368,4 @@
 15:45 < jardineworks_:#liferay> be aware that all spaces and hypens in a section name get reduced to undersores.
 15:46 < douglascrp:#liferay> ok
 15:46 < jardineworks_:#liferay> so if you do this-is-my-section .. or "this is my section" then the jsp Liferay will try to load is this_is_my_section.jsp
+15:46 < douglascrp:#liferay> got that
