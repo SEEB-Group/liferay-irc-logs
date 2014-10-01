@@ -185,3 +185,4 @@
 16:35 < jardineworks_:#liferay> right, but the project.jsp should have access to the values in the edit_project.jsp I think because it's nested.
 16:36 < douglascrp:#liferay> yes, that's correct
 16:36 < douglascrp:#liferay> it kind of merged, right?
+16:36 < jardineworks_:#liferay> <% pageContext.setAttribute("projeto", projeto); %>
