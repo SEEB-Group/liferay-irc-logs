@@ -113,3 +113,4 @@
 15:16 < douglascrp:#liferay> jardineworks_, I'm rewriting it... forget that version I've just sent to you... I'm going to send this new one
 15:16 < jardineworks_:#liferay> douglascrp, .. try adding showButtons="<%= false %>" after the jspPath
 15:16 < douglascrp:#liferay> but first, let me try ig
+15:16 < douglascrp:#liferay> it
