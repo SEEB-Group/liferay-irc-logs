@@ -197,3 +197,4 @@
 16:39 < douglascrp:#liferay> wait... lol
 16:39 < douglascrp:#liferay> I got the idea, but I'm not sure if I know how to implement it
 16:40 < jardineworks_:#liferay> ok -- so
+16:41 < jardineworks_:#liferay> in the edit_projeto.jsp you grab the Projeto object using the ProjetoLocalServiceUtil right?
