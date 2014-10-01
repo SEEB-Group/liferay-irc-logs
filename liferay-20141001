@@ -41,3 +41,4 @@
 09:02 < aqquadro:#liferay> (actually when I use this method the mail is't send, right because the functionality there isn't)
 09:03 < jardineworks_:#liferay> oh!
 09:03 < jardineworks_:#liferay> aqquadro, then you probably want a ServiceHook
+09:04 < jardineworks_:#liferay> create a class that extends UserLocalServiceWrapper... then override the method. Do a super.updatePassword() first, and then when that method returns, send your mail.
