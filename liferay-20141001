@@ -28,3 +28,4 @@
 08:57 < aqquadro:#liferay> yes, i think it is
 08:57 < jardineworks_:#liferay> checking...
 08:58 < jardineworks_:#liferay> hmmm
+08:59 < jardineworks_:#liferay> there is an UpdatePasswordAction class that is linked to /portal/update_password -- but I wonder if that is maybe for the screen where the user changes their own password.
