@@ -37,3 +37,4 @@
 09:00 < jardineworks_:#liferay> 			<forward name="portlet.users_admin.error" path="portlet.directory.error" />
 09:00 < jardineworks_:#liferay> 		</action>
 09:00 < jardineworks_:#liferay> with a breakpoint and see if it stops :)
+09:01 < aqquadro:#liferay> uhm, but if I use UserLocalServiceUtil.updatePassword is invoked the same?
