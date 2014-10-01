@@ -76,3 +76,4 @@
 11:24 < jardineworks_:#liferay> bingo
 11:25 < douglascrp:#liferay> tks
 11:25 < jardineworks_:#liferay> you should still have individual methods to save your entities though. Normally I would create, in your case, an action method for full callbacks, and then inside there call a private void _saveProjeto( PortletReques portletRequest, PortletResponse portletResponse) method.
+11:26 < jardineworks_:#liferay> that would allow you to call using ActionRequest, RenderRequest or ResourceRequest (when you get all ajaxy).
