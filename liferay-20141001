@@ -81,3 +81,4 @@
 11:27 < douglascrp:#liferay> can you please elaborate more on the explanation?
 11:27 < jardineworks_:#liferay> sure
 11:27 < jardineworks_:#liferay> Action, Render and Resource requests are all child classes of a PortletRequest right?
+11:27 < jardineworks_:#liferay> the data you need to "save a projeto" is in the *Request.
