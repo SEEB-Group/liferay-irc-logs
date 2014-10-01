@@ -468,3 +468,4 @@
 21:30 < jardineworks_:#liferay> without altering the core application I mean
 21:32 < douglascrp:#liferay> yes... you can extend it
 21:32 < douglascrp:#liferay> we call them simply extentions
+21:32 < douglascrp:#liferay> you can override or exchange
