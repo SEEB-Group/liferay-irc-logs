@@ -204,3 +204,4 @@
 16:42 < jardineworks_:#liferay> 	}
 16:42 < jardineworks_:#liferay> add
 16:42 < jardineworks_:#liferay> 	pageContext.setAttribute("projeto", projeto);
+16:43 < douglascrp:#liferay> ah, ok
