@@ -156,3 +156,4 @@
 16:08 < douglascrp:#liferay> jardineworks_, got the problem
 16:08 < douglascrp:#liferay> it was the jspPath
 16:08 < douglascrp:#liferay> it's not relative... it's absolute
+16:08 < douglascrp:#liferay> so, there are no way it was going to work
