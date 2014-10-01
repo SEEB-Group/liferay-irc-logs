@@ -201,3 +201,4 @@
 16:42 < jardineworks_:#liferay> right below this --
 16:42 < jardineworks_:#liferay> 	if (projetoId > 0) {
 16:42 < jardineworks_:#liferay> 		projeto = ProjetoLocalServiceUtil.getProjeto(projetoId);
+16:42 < jardineworks_:#liferay> 	}
