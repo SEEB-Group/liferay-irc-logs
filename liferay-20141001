@@ -87,3 +87,4 @@
 11:28 < jardineworks_:#liferay> but at that stage, all the logic to save a projeto is in the ActionRequest handler.
 11:28 < jardineworks_:#liferay> booo
 11:28 < douglascrp:#liferay> I see
+11:28 < jardineworks_:#liferay> so make the ActionRequest handler just an orchestrator.
