@@ -133,3 +133,4 @@
 15:39 < jardineworks_:#liferay> see if that shows up
 15:39 < douglascrp:#liferay> ah, ok.. let me try
 15:39 < jardineworks_:#liferay> if it doesn't then it might not be finding the JSP.
+15:40 < jardineworks_:#liferay> OR... it might have cached some old version or something. Do you use JRebel?
