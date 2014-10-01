@@ -180,3 +180,4 @@
 16:34 < jardineworks_:#liferay> and do your aui field names map to your Projeto model member attributes?
 16:34 < douglascrp:#liferay> yes, but those fields are on project.jsp, the section jsp
 16:34 < douglascrp:#liferay> remember?
+16:35 < jardineworks_:#liferay> I almost never use that model-context thing to be honest. I usually just put the object into the page params and set the value="${ project.id }" or whatever... for each field.
