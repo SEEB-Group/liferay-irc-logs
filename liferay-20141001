@@ -179,3 +179,4 @@
 16:34 < douglascrp:#liferay> yes, it's defined on edit_project.jsp, the main jsp
 16:34 < jardineworks_:#liferay> and do your aui field names map to your Projeto model member attributes?
 16:34 < douglascrp:#liferay> yes, but those fields are on project.jsp, the section jsp
+16:34 < douglascrp:#liferay> remember?
