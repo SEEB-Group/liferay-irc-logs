@@ -86,3 +86,4 @@
 11:28 < jardineworks_:#liferay> If you decide later on that you don't want to use portlet:actionURL anymore and you want to use ajax, then you are going to start sending RESOURCE requests.
 11:28 < jardineworks_:#liferay> but at that stage, all the logic to save a projeto is in the ActionRequest handler.
 11:28 < jardineworks_:#liferay> booo
+11:28 < douglascrp:#liferay> I see
