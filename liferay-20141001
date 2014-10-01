@@ -207,3 +207,4 @@
 16:43 < douglascrp:#liferay> ah, ok
 16:43 < jardineworks_:#liferay> now you have a ${projeto} var you can use
 16:44 < jardineworks_:#liferay> if you do ${projeto.nomeProjeto} then it will evaluate that as projeto.getNomeProjeto()
+16:44 < jardineworks_:#liferay> so if you set your <aui:input label="Nome Projeto" name="nomeProjeto" value="${projeto.nomeProjeto}" />
