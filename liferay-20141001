@@ -200,3 +200,4 @@
 16:41 < jardineworks_:#liferay> in the edit_projeto.jsp you grab the Projeto object using the ProjetoLocalServiceUtil right?
 16:42 < jardineworks_:#liferay> right below this --
 16:42 < jardineworks_:#liferay> 	if (projetoId > 0) {
+16:42 < jardineworks_:#liferay> 		projeto = ProjetoLocalServiceUtil.getProjeto(projetoId);
