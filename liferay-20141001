@@ -14,3 +14,4 @@
 04:49 < nicolas_FR:#liferay> can someone confirm me that libs in barebone.js are not forced to be included in everything.js ?
 04:50 < nicolas_FR:#liferay> I added some js libs in the barebone.js file, as I want those libs to be accessible for users not loggued. But I want those libs to be accessible for loggued users too. And it seems everything.js does not include the libs configured for barebone.js. right ?
 04:57 < nicolas_FR:#liferay> And what is loaded first ? Libs (<script type="js" src="">) in the theme (in portal_normal.vm by example), or libs in top_js.jspf from portal ?
+05:08 < vernaillen:#liferay> after an upgrade from 6.0.6 to 6.2.1 the user indexer fails because there are many Contact, Phone and Address records that are not linked to a User. Would it be safe to delete these records from the database?
