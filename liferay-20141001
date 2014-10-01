@@ -30,3 +30,4 @@
 08:58 < jardineworks_:#liferay> hmmm
 08:59 < jardineworks_:#liferay> there is an UpdatePasswordAction class that is linked to /portal/update_password -- but I wonder if that is maybe for the screen where the user changes their own password.
 08:59 < jardineworks_:#liferay> the admin screen uses a form-navigator... so all those pages are really just one form with a bunch of layers.
+08:59 < jardineworks_:#liferay> EditUserAction would be my guess.
