@@ -68,3 +68,4 @@
 11:22 < jardineworks_:#liferay> you could use specific action urls right? so rather than have one global "Save" button, but a save button in each section.
 11:22 < jardineworks_:#liferay> and then each one would have a <portlet:actionURL name="<whatever entity save>" var="..."/>
 11:22 < jardineworks_:#liferay> then in your portlet class you could have a method for each.
+11:23 < jardineworks_:#liferay> Normally the Save button on the main page saves all the sections.
