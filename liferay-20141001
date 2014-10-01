@@ -117,3 +117,4 @@
 15:23 < douglascrp:#liferay> well, I got no form rendered... let resend the project to you
 15:27 < douglascrp:#liferay> done
 15:28 < douglascrp:#liferay> jardineworks_, now you will see that I removed those buttons from the main jsp, and let the form-navigator to show them automaticaly
+15:28 < douglascrp:#liferay> I don't know why, but my fields are not shown
