@@ -83,3 +83,4 @@
 11:27 < jardineworks_:#liferay> Action, Render and Resource requests are all child classes of a PortletRequest right?
 11:27 < jardineworks_:#liferay> the data you need to "save a projeto" is in the *Request.
 11:27 < douglascrp:#liferay> ok
+11:28 < jardineworks_:#liferay> If you decide later on that you don't want to use portlet:actionURL anymore and you want to use ajax, then you are going to start sending RESOURCE requests.
