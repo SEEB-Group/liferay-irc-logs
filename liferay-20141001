@@ -39,3 +39,4 @@
 09:00 < jardineworks_:#liferay> with a breakpoint and see if it stops :)
 09:01 < aqquadro:#liferay> uhm, but if I use UserLocalServiceUtil.updatePassword is invoked the same?
 09:02 < aqquadro:#liferay> (actually when I use this method the mail is't send, right because the functionality there isn't)
+09:03 < jardineworks_:#liferay> oh!
