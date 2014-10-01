@@ -16,3 +16,4 @@
 04:57 < nicolas_FR:#liferay> And what is loaded first ? Libs (<script type="js" src="">) in the theme (in portal_normal.vm by example), or libs in top_js.jspf from portal ?
 05:08 < vernaillen:#liferay> after an upgrade from 6.0.6 to 6.2.1 the user indexer fails because there are many Contact, Phone and Address records that are not linked to a User. Would it be safe to delete these records from the database?
 05:09 < vernaillen:#liferay> I also described the issue here: https://www.liferay.com/community/forums/-/message_boards/message/41883417
+06:39 < goku_:#liferay> jardineworks_,hi the issue resolved :)
