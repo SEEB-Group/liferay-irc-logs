@@ -196,3 +196,4 @@
 16:38 < jardineworks_:#liferay> also note, items you put into the renderRequest ... by doing renderRequest.setAttribute( key, value ); are automatically in the pageContext... so if you put them there in the portlet class, you don't need to do the pageContext.setAttribute.... thing i just mentioned.
 16:39 < douglascrp:#liferay> wait... lol
 16:39 < douglascrp:#liferay> I got the idea, but I'm not sure if I know how to implement it
+16:40 < jardineworks_:#liferay> ok -- so
