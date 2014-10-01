@@ -20,3 +20,4 @@
 07:36 < aqquadro:#liferay> hi there, there is any way to send email notification when an admin reset a password from the control panel?
 08:12 < douglascrp:#liferay> morning
 08:50 < jardineworks_:#liferay> aqquadro, you could probably write a struts action hook that would extend the existing functionality and do that.
+08:54 < aqquadro:#liferay> jardineworks_: thanks !! You know which is the path of the struct action?
