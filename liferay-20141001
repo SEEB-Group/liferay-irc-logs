@@ -128,3 +128,4 @@
 15:38 < jardineworks_:#liferay> douglascrp, I doubt it will matter, but can you put an <aui:fieldset> around your fields?
 15:39 < jardineworks_:#liferay> and actually..
 15:39 < douglascrp:#liferay> yes... actually, it was there
+15:39 < douglascrp:#liferay> I removed it after my first tests
