@@ -34,3 +34,5 @@
 09:00 < jardineworks_:#liferay> aqquadro, try this one --
 09:00 < jardineworks_:#liferay> 		<action path="/admin_server/edit_user" type="com.liferay.portlet.usersadmin.action.EditUserAction">
 09:00 < jardineworks_:#liferay> 			<forward name="portlet.users_admin.edit_user" path="portlet.directory.view_user" />
+09:00 < jardineworks_:#liferay> 			<forward name="portlet.users_admin.error" path="portlet.directory.error" />
+09:00 < jardineworks_:#liferay> 		</action>
