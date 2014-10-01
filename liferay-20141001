@@ -154,3 +154,4 @@
 16:03 < douglascrp:#liferay> I totally agree with you
 16:04 < douglascrp:#liferay> jardineworks_, it doesn't work without the include tag and with only html tags on projeto.jsp
 16:08 < douglascrp:#liferay> jardineworks_, got the problem
+16:08 < douglascrp:#liferay> it was the jspPath
