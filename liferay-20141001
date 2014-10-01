@@ -132,3 +132,4 @@
 15:39 < jardineworks_:#liferay> just for the moment, remove the fields and just put in some regular html
 15:39 < jardineworks_:#liferay> see if that shows up
 15:39 < douglascrp:#liferay> ah, ok.. let me try
+15:39 < jardineworks_:#liferay> if it doesn't then it might not be finding the JSP.
