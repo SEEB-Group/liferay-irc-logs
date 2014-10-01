@@ -69,3 +69,4 @@
 11:22 < jardineworks_:#liferay> and then each one would have a <portlet:actionURL name="<whatever entity save>" var="..."/>
 11:22 < jardineworks_:#liferay> then in your portlet class you could have a method for each.
 11:23 < jardineworks_:#liferay> Normally the Save button on the main page saves all the sections.
+11:23 < jardineworks_:#liferay> so you can move between sections and just do one big save at the end.
