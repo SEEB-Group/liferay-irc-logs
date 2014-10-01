@@ -65,3 +65,4 @@
 11:14 < douglascrp:#liferay> both related?
 11:21 < jardineworks_:#liferay> douglascrp, hmm... well, really you are submitting one form right? so you would need to basically I guess check for differences and then save accordingly.
 11:21 < jardineworks_:#liferay> alternatively...
+11:22 < jardineworks_:#liferay> you could use specific action urls right? so rather than have one global "Save" button, but a save button in each section.
