@@ -194,3 +194,4 @@
 16:37 < jardineworks_:#liferay> alrighty .. well pageContext variables are scoped for the page only .
 16:37 < jardineworks_:#liferay> so they are like temp vars, but you can use JSTL to access them
 16:38 < jardineworks_:#liferay> also note, items you put into the renderRequest ... by doing renderRequest.setAttribute( key, value ); are automatically in the pageContext... so if you put them there in the portlet class, you don't need to do the pageContext.setAttribute.... thing i just mentioned.
+16:39 < douglascrp:#liferay> wait... lol
