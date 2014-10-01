@@ -126,3 +126,4 @@
 15:35 < douglascrp:#liferay> inside of it I put the form-navigator tag
 15:36 < jardineworks_:#liferay> right right... ok
 15:38 < jardineworks_:#liferay> douglascrp, I doubt it will matter, but can you put an <aui:fieldset> around your fields?
+15:39 < jardineworks_:#liferay> and actually..
