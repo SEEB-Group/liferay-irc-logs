@@ -183,3 +183,4 @@
 16:35 < jardineworks_:#liferay> I almost never use that model-context thing to be honest. I usually just put the object into the page params and set the value="${ project.id }" or whatever... for each field.
 16:35 < douglascrp:#liferay> mmm
 16:35 < jardineworks_:#liferay> right, but the project.jsp should have access to the values in the edit_project.jsp I think because it's nested.
+16:36 < douglascrp:#liferay> yes, that's correct
