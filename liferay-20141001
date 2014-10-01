@@ -147,3 +147,4 @@
 15:48 < douglascrp:#liferay> lol
 15:50 < jardineworks_:#liferay> :S
 15:50 < jardineworks_:#liferay> I would do an rm -rf of the portlet from the webapps and redeploy just to make sure all the latest is there
+15:51 < douglascrp:#liferay> ah, ok
