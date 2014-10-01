@@ -72,3 +72,4 @@
 11:23 < jardineworks_:#liferay> so you can move between sections and just do one big save at the end.
 11:23 < douglascrp:#liferay> ah, if I use on single form, then I can take the parameters, create the entities with the typed data, save then and relate them
 11:24 < douglascrp:#liferay> if I understood it correctly, using sections, I'll have only one form, but each section will have their own fields, but still inside the main form
+11:24 < douglascrp:#liferay> right?
