@@ -175,3 +175,4 @@
 16:33 < jardineworks_:#liferay> aui:model or something right?>
 16:33 < douglascrp:#liferay> but I don't know if it's automatically available to the project.jsp
 16:33 < jardineworks_:#liferay> hmmm
+16:33 < douglascrp:#liferay> <aui:model-context bean="<%=projeto%>" model="<%=Projeto.class%>" />
