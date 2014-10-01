@@ -137,3 +137,4 @@
 15:40 < jardineworks_:#liferay> I don't think you need this line either -- <%@ include file="/html/init.jsp"%>
 15:41 < jardineworks_:#liferay> it would already have been loaded in the parent file.
 15:41 < douglascrp:#liferay> ah, ok
+15:41 < douglascrp:#liferay> no, I'm performing deploy using eclipse
