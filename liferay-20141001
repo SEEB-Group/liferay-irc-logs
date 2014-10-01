@@ -186,3 +186,4 @@
 16:36 < douglascrp:#liferay> yes, that's correct
 16:36 < douglascrp:#liferay> it kind of merged, right?
 16:36 < jardineworks_:#liferay> <% pageContext.setAttribute("projeto", projeto); %>
+16:36 < jardineworks_:#liferay> and then you can do ${ projeto.[member]}
