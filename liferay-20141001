@@ -94,3 +94,4 @@
 11:29 < jardineworks_:#liferay> and then, really, in there, you should create a projeto object and then pass it to a shared library ... like a ProjetoUtil.save( Projeto projeto ).
 11:30 < jardineworks_:#liferay> that way if you ever decide to dump service builder you can change all your logic to save a projeto in the one place
 11:30 < jardineworks_:#liferay> everything else remains the same
+11:30 < jardineworks_:#liferay> or even if you want a separate application that has access to the lib to be able to save projetos... like a web service or somethign maybe.
