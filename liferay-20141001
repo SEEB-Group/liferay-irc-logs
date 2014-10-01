@@ -19,3 +19,4 @@
 06:39 < goku_:#liferay> jardineworks_,hi the issue resolved :)
 07:36 < aqquadro:#liferay> hi there, there is any way to send email notification when an admin reset a password from the control panel?
 08:12 < douglascrp:#liferay> morning
+08:50 < jardineworks_:#liferay> aqquadro, you could probably write a struts action hook that would extend the existing functionality and do that.
