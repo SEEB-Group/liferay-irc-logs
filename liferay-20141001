@@ -32,3 +32,4 @@
 08:59 < jardineworks_:#liferay> the admin screen uses a form-navigator... so all those pages are really just one form with a bunch of layers.
 08:59 < jardineworks_:#liferay> EditUserAction would be my guess.
 09:00 < jardineworks_:#liferay> aqquadro, try this one --
+09:00 < jardineworks_:#liferay> 		<action path="/admin_server/edit_user" type="com.liferay.portlet.usersadmin.action.EditUserAction">
