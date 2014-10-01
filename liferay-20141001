@@ -135,3 +135,4 @@
 15:39 < jardineworks_:#liferay> if it doesn't then it might not be finding the JSP.
 15:40 < jardineworks_:#liferay> OR... it might have cached some old version or something. Do you use JRebel?
 15:40 < jardineworks_:#liferay> I don't think you need this line either -- <%@ include file="/html/init.jsp"%>
+15:41 < jardineworks_:#liferay> it would already have been loaded in the parent file.
