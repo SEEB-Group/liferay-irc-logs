@@ -165,3 +165,4 @@
 16:31 < douglascrp:#liferay> jardineworks_, now I have another problem
 16:31 < douglascrp:#liferay> lol
 16:32 < douglascrp:#liferay> form is ok, I can create a new project, but now, when I click edit, it the form is empty
+16:32 < douglascrp:#liferay> I looked at the http calls, and the projectId is passed
