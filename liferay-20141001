@@ -55,3 +55,4 @@
 09:22 < Bilou:#liferay> nicolas_FR,  are u here ?
 09:23 < nicolas_FR:#liferay> yes
 09:29 < jardineworks_:#liferay> Bilou, I would guess that most people try to leverage the one that ships with 6.2 ... Bootstrap 2.6 or something I think
+09:29 < jardineworks_:#liferay> but there is nothing preventing you from using whatever you want of course -- just start with a theme that is based on the _unstyled and you can apply whatever logic you like.
