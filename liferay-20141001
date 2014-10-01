@@ -75,3 +75,4 @@
 11:24 < douglascrp:#liferay> right?
 11:24 < jardineworks_:#liferay> bingo
 11:25 < douglascrp:#liferay> tks
+11:25 < jardineworks_:#liferay> you should still have individual methods to save your entities though. Normally I would create, in your case, an action method for full callbacks, and then inside there call a private void _saveProjeto( PortletReques portletRequest, PortletResponse portletResponse) method.
