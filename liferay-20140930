@@ -464,3 +464,4 @@
 21:18 < douglascrp:#liferay> yes... it's awesome
 21:19 < jardineworks_:#liferay> does it have the whole plugin thing as well?
 21:24 < douglascrp:#liferay> what do you call plugin?
+21:30 < jardineworks_:#liferay> douglascrp, you know, like portlets, hooks that can override functionality... basically bits of code that you can use to customize the application
