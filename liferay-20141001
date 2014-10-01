@@ -210,3 +210,4 @@
 16:44 < jardineworks_:#liferay> so if you set your <aui:input label="Nome Projeto" name="nomeProjeto" value="${projeto.nomeProjeto}" />
 16:44 < jardineworks_:#liferay> then it should populate a value for you.
 16:44 < jardineworks_:#liferay> if one is there
+16:45 < douglascrp:#liferay> cool
