@@ -61,3 +61,4 @@
 15:16 < douglascrp:#liferay> the only example I have is there, in the service.xml file
 15:17 < jardineworks_:#liferay> so you want one form with all the enties on it?
 15:17 < douglascrp:#liferay> yes, I'm already able to do that, but so far, I have something like:
+15:17 < jardineworks_:#liferay> maybe just do individual JSPS (per entity) then a master.jsp that does a bunch of jsp includes?
