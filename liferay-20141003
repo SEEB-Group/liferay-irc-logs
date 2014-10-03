@@ -35,3 +35,4 @@
 15:00 < douglascrp:#liferay> how can I force my portlet form to show using all the screen width?
 15:00 < douglascrp:#liferay> it's being shown using half of the screen
 15:01 < douglascrp:#liferay> that's bacause I have the login portlet on the right
+15:01 < jardineworks_:#liferay> douglascrp, how mamny columns are in your layout?
