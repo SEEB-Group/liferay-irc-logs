@@ -69,3 +69,4 @@
 15:19 < douglascrp:#liferay> so, one of my form-navigator section will be "Goals", with a list of goals, and for each goal, I need to list AND edit its activities
 15:21 < jardineworks_:#liferay> douglascrp, sorry... so are you asking me how to lay that out in a view?
 15:22 < douglascrp:#liferay> basically
+15:22 < douglascrp:#liferay> I already have the model, and I think I know how to implement the persistence logic, but I don't know how to show it
