@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 06:09 < Axxell:#liferay> Greetings fellow mamals.. allthough not maybe liferay related, is there any reason why apache with mod_jk connected to liferay would not be able to do a simple redirect 30 /old http://www.mysite.com/new
 08:05 < Axxell:#liferay> hey, im having problems with date objects in service builder using ms sql server.. allthough this works with my testserver which uses mysql, when using mssql i get the following error: [JDBCExceptionReporter:82] Only dates between January 1, 1753 and December 31, 9999 are accepted.
+10:23 < nicolas_FR:#liferay> hi there
