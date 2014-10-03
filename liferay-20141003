@@ -103,3 +103,4 @@
 16:16 < bwood:#liferay> then douglascrp could you help me get it to work
 16:16 < bwood:#liferay> I've manually "ant installed" the maven artifacts for 6.2 SP6
 16:17 < bwood:#liferay> when I generated a maven theme is chose in the interactive mode for liferay 6.2.10.6
+16:34 < douglascrp:#liferay> I installed all the artifacts using liferay repository
