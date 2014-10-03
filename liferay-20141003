@@ -67,3 +67,4 @@
 15:18 < douglascrp:#liferay> but if you look there, you will see some goals ("metas" in my model), and for each of those goals, I have N activities
 15:19 < douglascrp:#liferay> got the idea?
 15:19 < douglascrp:#liferay> so, one of my form-navigator section will be "Goals", with a list of goals, and for each goal, I need to list AND edit its activities
+15:21 < jardineworks_:#liferay> douglascrp, sorry... so are you asking me how to lay that out in a view?
