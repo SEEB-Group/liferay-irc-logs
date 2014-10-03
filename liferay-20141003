@@ -14,3 +14,4 @@
 08:05 < Axxell:#liferay> hey, im having problems with date objects in service builder using ms sql server.. allthough this works with my testserver which uses mysql, when using mssql i get the following error: [JDBCExceptionReporter:82] Only dates between January 1, 1753 and December 31, 9999 are accepted.
 10:23 < nicolas_FR:#liferay> hi there
 10:24 < nicolas_FR:#liferay> we're facing problems migrating our layouts (or re-creating them). On what params is liferay looking to know the layout we deploy is the one he's looking for in the pages ?
+10:25 < nicolas_FR:#liferay> As we have our server migrated but w/o the layouts. So pages are all mixed up. We would like to deploy our layouts and that liferay know they are those he's looking for in the pages
