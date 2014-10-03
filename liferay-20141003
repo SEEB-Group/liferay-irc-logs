@@ -63,3 +63,4 @@
 15:17 < douglascrp:#liferay> yes, I'm already able to do that, but so far, I have something like:
 15:17 < jardineworks_:#liferay> maybe just do individual JSPS (per entity) then a master.jsp that does a bunch of jsp includes?
 15:18 < douglascrp:#liferay> 1 project, related with 1 company, which is related with 1 partner
+15:18 < douglascrp:#liferay> everything one to one
