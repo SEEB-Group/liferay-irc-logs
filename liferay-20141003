@@ -101,3 +101,4 @@
 16:15 < douglascrp:#liferay> like alfresco
 16:16 < bwood:#liferay> didn't liferay mess up on the maven version numbers?
 16:16 < bwood:#liferay> then douglascrp could you help me get it to work
+16:16 < bwood:#liferay> I've manually "ant installed" the maven artifacts for 6.2 SP6
