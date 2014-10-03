@@ -15,3 +15,4 @@
 10:23 < nicolas_FR:#liferay> hi there
 10:24 < nicolas_FR:#liferay> we're facing problems migrating our layouts (or re-creating them). On what params is liferay looking to know the layout we deploy is the one he's looking for in the pages ?
 10:25 < nicolas_FR:#liferay> As we have our server migrated but w/o the layouts. So pages are all mixed up. We would like to deploy our layouts and that liferay know they are those he's looking for in the pages
+14:24 < bwood:#liferay> what are the maven and liferay version numbers for a theme running on Liferay 6.2 SP6?
