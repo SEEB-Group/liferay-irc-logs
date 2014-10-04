@@ -10,3 +10,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 11:21 < winem_:#liferay> hi together. is there anyone who runs liferay 6.2 in jboss wildfly without any issue?
+11:23 < winem_:#liferay> we expirienced several issues due to the new http implementation called undertow e.g. some of them are fixed,  but not yet all of them
