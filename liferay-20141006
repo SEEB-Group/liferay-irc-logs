@@ -17,3 +17,4 @@
 03:47 < winem_:#liferay> usually not, but don't know for sure.. stopped working with MSSQL a while ago.
 03:48 < winem_:#liferay> you just have to check if the driver supports your database version
 03:54 < Axxell:#liferay> winem_: using the latest ms sql 2012 version, one would think that these are backwards compatible but heck do i know. the jtds driver bundled with liferay 6.2 seems to be from 2009 if im not completly wrong?
+03:55 < winem_:#liferay> have a meeting now, can check this as soon as I'm back
