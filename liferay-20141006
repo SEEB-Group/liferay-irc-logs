@@ -14,3 +14,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 03:46 < Axxell:#liferay> winem_: any risks with updating jtds?
+03:47 < winem_:#liferay> usually not, but don't know for sure.. stopped working with MSSQL a while ago.
