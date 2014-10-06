@@ -12,3 +12,4 @@
 11:21 < winem_:#liferay> hi together. is there anyone who runs liferay 6.2 in jboss wildfly without any issue?
 11:23 < winem_:#liferay> we expirienced several issues due to the new http implementation called undertow e.g. some of them are fixed,  but not yet all of them
 11:41 < winem_:#liferay> one of the last remaining issues is the cookie handling. new users are stuck in an infinite loop on the "Terms of Use"-Page
+--- Log closed Sun Oct 05 00:00:24 2014
