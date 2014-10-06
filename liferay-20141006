@@ -1,2 +1,3 @@
 --- Log opened Mon Oct 06 00:00:33 2014
 02:54 < Axxell:#liferay> Anyone feel like helping? Ive got a portlet which uses servicebuilder which has date objects. When trying to save date data i get only in mssql the following error (works without flaw in mysql):11:40:46,979 ERROR [ajp-apr-8009-exec-25][JDBCExceptionReporter:82] Only dates between January 1, 1753 and December 31, 9999 are accepted.
+03:06 < winem_:#liferay> we had this issue about 2 years ago and it was caused by the jTDS driver
