@@ -43,3 +43,4 @@
 08:28 < modd_:#liferay> the main problem is, that I have to make service builder to build it correctly
 08:28 <@jhf:#liferay> so according to stackoverflow and the above bug the problem is that our sql doesn't enclose the code that writes large blobs in a transaction
 08:28 < modd_:#liferay> so I can't use any annotation-based solutions
+08:28 <@jhf:#liferay> yeah I'm seeing if there's a workaround you can do
