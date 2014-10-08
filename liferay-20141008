@@ -34,3 +34,4 @@
 08:22 < modd_:#liferay> the type of the table in postres however, is "oid" and it's a numeric value
 08:22 <@jhf:#liferay> with Liferay 6.2?
 08:22 < modd_:#liferay> postgres*
+08:22 < modd_:#liferay> yep
