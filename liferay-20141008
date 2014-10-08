@@ -26,3 +26,4 @@
 06:03 < modd_:#liferay> anyone using liferay with postgres? I have problems with service builder and saving blobs :\
 07:57 -!- mode/#liferay [+o jhf] by ChanServ
 08:03 < modd_:#liferay> hi jhf, any idea how I can use blobs in service builder with postgresql?
+08:04 <@jhf:#liferay> umm.. is this related to "how to use inputstreams in servicebuilder impl methods" ?
