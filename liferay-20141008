@@ -80,3 +80,4 @@
 10:04 < sm`pid1:#liferay> now what i do is send the PortletRequest and PortletResponse to my impl class and do my stuff, i then get the HttpServletResponse from the PortletRequest and use the method from the jar
 10:05 < sm`pid1:#liferay> how the jar method adds its stuff to the HttpServletResponse object
 10:05 < sm`pid1:#liferay> but i dont get that cookie on the client side
+10:06 < sm`pid1:#liferay> do i need to convert back the HttpServletResponse back to PortletResponse or?
