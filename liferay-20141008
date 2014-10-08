@@ -44,3 +44,4 @@
 08:28 <@jhf:#liferay> so according to stackoverflow and the above bug the problem is that our sql doesn't enclose the code that writes large blobs in a transaction
 08:28 < modd_:#liferay> so I can't use any annotation-based solutions
 08:28 <@jhf:#liferay> yeah I'm seeing if there's a workaround you can do
+08:30 <@jhf:#liferay> after you build the service, I wonder if you could add @Transactional annotation to one of the generated classes
