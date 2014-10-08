@@ -52,3 +52,4 @@
 08:33 <@jhf:#liferay> yeah that is true
 08:34 <@jhf:#liferay> I'm surprised it's not in the sql or the classes we generate.
 08:34 < modd_:#liferay> the method is getData()
+08:35 <@jhf:#liferay> looks like we fixed it here but only for document library: https://github.com/shuyangzhou/liferay-portal/commit/44ed0cbef0f138750ac4264f026ffc4c56bc26ae
