@@ -47,3 +47,4 @@
 08:30 <@jhf:#liferay> after you build the service, I wonder if you could add @Transactional annotation to one of the generated classes
 08:30 <@jhf:#liferay> tried that?
 08:30 < modd_:#liferay> not sure where to add it
+08:33 < modd_:#liferay> afaik I have to add it to the persistence impl but this class will be rewritten when using build-service
