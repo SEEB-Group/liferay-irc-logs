@@ -57,3 +57,4 @@
 08:38 < modd_:#liferay> well, it creates a temp file and uses its inputstream, isn't it?
 08:39 <@jhf:#liferay> yep.. that's what that fix does. I thihk that's just for the "get" operation. for the "put" operation, it just adds a @Transactional annotation
 08:40 <@jhf:#liferay> is it failing only for the "get" operation for you?
+08:40 < modd_:#liferay> ok...I've added the annotation to the getter and this gives me a new error: PSQLException: Error: invalid LargeObject Descriptor: 0
