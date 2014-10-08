@@ -60,3 +60,4 @@
 08:40 < modd_:#liferay> ok...I've added the annotation to the getter and this gives me a new error: PSQLException: Error: invalid LargeObject Descriptor: 0
 08:41 < modd_:#liferay> setting seems to work at least without errors
 08:41 <@jhf:#liferay> ok. I guess the "get" requires that temp file workaround bit.. which sounds.. sub-optimal.
+08:42 < modd_:#liferay> postgres is %&"&%"
