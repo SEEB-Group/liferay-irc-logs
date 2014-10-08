@@ -78,3 +78,4 @@
 10:03 < sm`pid1:#liferay> i have a jar and i must use this call from it that adds a cookie to the httpResponse
 10:03 < sm`pid1:#liferay> i have a whole new solution but i need this part for backward compatibility with other portlets
 10:04 < sm`pid1:#liferay> now what i do is send the PortletRequest and PortletResponse to my impl class and do my stuff, i then get the HttpServletResponse from the PortletRequest and use the method from the jar
+10:05 < sm`pid1:#liferay> how the jar method adds its stuff to the HttpServletResponse object
