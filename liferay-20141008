@@ -1,0 +1,24 @@
+--- Log opened Wed Oct 08 00:00:21 2014
+01:37 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+01:37 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+01:37 [Users #liferay]
+01:37 [@ChanServ    ] [ bijoo     ] [ jardineworks_] [ Naenyn ] [ vsingleton] 
+01:37 [ ArTeS       ] [ Bryanstein] [ jbonjean     ] [ quercus] 
+01:37 [ asaa        ] [ Gorith    ] [ MagnoBooter  ] [ smind  ] 
+01:37 [ avinashrbhat] [ henriquev ] [ marcoceppi_  ] [ Tm_T   ] 
+01:37 -!- Irssi: #liferay: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+01:37 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+01:37 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log opened Wed Oct 08 03:22:00 2014
+03:22 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:22 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:22 [Users #liferay]
+03:22 [@ChanServ    ] [ Bryanstein   ] [ jbonjean   ] [ quercus ] [ vsingleton] 
+03:22 [ ArTeS       ] [ goku_        ] [ MagnoBooter] [ smind   ] 
+03:22 [ asaa        ] [ Gorith       ] [ marcoceppi_] [ Tm_T    ] 
+03:22 [ avinashrbhat] [ henriquev    ] [ mtsr       ] [ topolik1] 
+03:22 [ bijoo       ] [ jardineworks_] [ Naenyn     ] [ twen    ] 
+03:22 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:22 -!- Irssi: Join to #liferay was synced in 7 secs
+05:44 < mtsr:#liferay> I dumped the liferay database on an old server and reloaded it on a new server, with the same liferay version. Most everything is working, EXCEPT the old users are not showing up in the Users & Organizations view in the admin panel. Any ideas what could be wrong?
