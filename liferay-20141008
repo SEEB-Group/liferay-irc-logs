@@ -75,3 +75,4 @@
 10:00 < modd_:#liferay> jhf: works, thanks!
 10:00 < modd_:#liferay> but it's a nice hack
 10:02 < sm`pid1:#liferay> i have a bit more general question but yeah im working on liferay portal solution so i thought it'd be ok  to ask here
+10:03 < sm`pid1:#liferay> i have a jar and i must use this call from it that adds a cookie to the httpResponse
