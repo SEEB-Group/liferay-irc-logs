@@ -22,3 +22,4 @@
 03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:22 -!- Irssi: Join to #liferay was synced in 7 secs
 05:44 < mtsr:#liferay> I dumped the liferay database on an old server and reloaded it on a new server, with the same liferay version. Most everything is working, EXCEPT the old users are not showing up in the Users & Organizations view in the admin panel. Any ideas what could be wrong?
+05:51 < mtsr:#liferay> Ok, found it, problem with the search index
