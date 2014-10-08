@@ -48,3 +48,4 @@
 08:30 <@jhf:#liferay> tried that?
 08:30 < modd_:#liferay> not sure where to add it
 08:33 < modd_:#liferay> afaik I have to add it to the persistence impl but this class will be rewritten when using build-service
+08:33 <@jhf:#liferay> well I would look at the stack trace, most likely it is passing through your XXXXLocalServiceImpl class - which ever method (maybe updateXXX() ?) it in that stack trace, add it to that one and re-deploy (but do not re-build services)
