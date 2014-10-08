@@ -61,3 +61,4 @@
 08:41 < modd_:#liferay> setting seems to work at least without errors
 08:41 <@jhf:#liferay> ok. I guess the "get" requires that temp file workaround bit.. which sounds.. sub-optimal.
 08:42 < modd_:#liferay> postgres is %&"&%"
+08:42 < modd_:#liferay> ...
