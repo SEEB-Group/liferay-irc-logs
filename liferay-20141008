@@ -71,3 +71,4 @@
 09:17 < modd_:#liferay> jhf: it doesn't work, same error. but in debug mode, I can stop the execution and have a look at the blob. there's an internal private jdbc3blob with a LargeObject object, and if Ichange the value of the autocommit field to 'false' and save it, it finally works
 09:18 < modd_:#liferay> but as the whole thing is private, I cannot fix it, I guess
 09:59 < sm`pid1:#liferay> ello
+09:59 < sm`pid1:#liferay> anyone around?
