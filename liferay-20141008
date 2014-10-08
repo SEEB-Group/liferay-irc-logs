@@ -42,3 +42,4 @@
 08:26 <@jhf:#liferay> also one of our tests failed due to this and was fixed here https://issues.liferay.com/browse/LPS-42265 in 7.x but i'm browsing to see if there's a workaround (or if this is the same as your issue)
 08:28 < modd_:#liferay> the main problem is, that I have to make service builder to build it correctly
 08:28 <@jhf:#liferay> so according to stackoverflow and the above bug the problem is that our sql doesn't enclose the code that writes large blobs in a transaction
+08:28 < modd_:#liferay> so I can't use any annotation-based solutions
