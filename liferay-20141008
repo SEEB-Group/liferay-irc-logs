@@ -24,3 +24,5 @@
 05:44 < mtsr:#liferay> I dumped the liferay database on an old server and reloaded it on a new server, with the same liferay version. Most everything is working, EXCEPT the old users are not showing up in the Users & Organizations view in the admin panel. Any ideas what could be wrong?
 05:51 < mtsr:#liferay> Ok, found it, problem with the search index
 06:03 < modd_:#liferay> anyone using liferay with postgres? I have problems with service builder and saving blobs :\
+07:57 -!- mode/#liferay [+o jhf] by ChanServ
+08:03 < modd_:#liferay> hi jhf, any idea how I can use blobs in service builder with postgresql?
