@@ -39,3 +39,4 @@
 08:23 <@jhf:#liferay> k.. well this was reported but supposedly fixed: https://issues.liferay.com/browse/LPS-26839
 08:24 < modd_:#liferay> I have no idea what I could do else besides rebuilding everything
 08:24 < modd_:#liferay> I know that ticket but it doesn't help :\
+08:26 <@jhf:#liferay> also one of our tests failed due to this and was fixed here https://issues.liferay.com/browse/LPS-42265 in 7.x but i'm browsing to see if there's a workaround (or if this is the same as your issue)
