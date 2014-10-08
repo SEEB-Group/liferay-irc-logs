@@ -54,3 +54,4 @@
 08:34 < modd_:#liferay> the method is getData()
 08:35 <@jhf:#liferay> looks like we fixed it here but only for document library: https://github.com/shuyangzhou/liferay-portal/commit/44ed0cbef0f138750ac4264f026ffc4c56bc26ae
 08:36 <@jhf:#liferay> if you add it to your own impl service class it won't be overwritten.. just dunno if that would fix it.
+08:38 < modd_:#liferay> well, it creates a temp file and uses its inputstream, isn't it?
