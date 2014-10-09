@@ -15,3 +15,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 05:30 < Axxell:#liferay> hmm testing to upgrade from liferay 6.2 GA1-GA2 and ive got this problem: the assetpublisher which worked on GA1 with an display template gets the following error: entry.getAssetRenderer() is undefined. It cannot be assigned to assetRenderer..  i wonder what the problem might be?
+07:07 < Axxell:#liferay> another problem, when using assetpublisher and using a structure on an article, the "add new content" button dissappears for non admin users who have right to add articles, what am i missing?
