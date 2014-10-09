@@ -1,0 +1,2 @@
+--- Log opened Thu Oct 09 00:00:00 2014
+03:19 < Axxell:#liferay> hi guys, have any of you experienced redirects not working on apache which is connected to tomcat with mod_jk? Cant get a single simple redirect to work, allthough mod_rewrite works

@@ -81,3 +81,7 @@
 10:05 < sm`pid1:#liferay> how the jar method adds its stuff to the HttpServletResponse object
 10:05 < sm`pid1:#liferay> but i dont get that cookie on the client side
 10:06 < sm`pid1:#liferay> do i need to convert back the HttpServletResponse back to PortletResponse or?
+14:17 -!- mode/#liferay [+o jhf] by ChanServ
+17:50 -!- mode/#liferay [+o jhf] by ChanServ
+21:11 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Thu Oct 09 00:00:00 2014
