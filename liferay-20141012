@@ -32,3 +32,4 @@
 15:43 < scribe:#liferay> ok.
 15:43 < Bilou:#liferay> i isttaled oracle database + weblogic server  in a VM Centos (with virtualbox)
 15:44 < Bilou:#liferay> but my problem now is how to configurate my build.username.properties of liferay plugins sdk to be ready to my developement
+15:45 < Bilou:#liferay> because in this file we must put app type, app server dir and app deploy dir i gess
