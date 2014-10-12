@@ -14,3 +14,4 @@
 14:05 < Bilou:#liferay> I have a question
 14:05 < Bilou:#liferay> please
 14:09 < Bilou:#liferay> i'm new in liferay dev and i want to build a dev environment  with linux ubuntu + eclipse + plugin liferay sdk + virtual machine (Centos + oracle SGBD + Oracle Weblogic). my problem is how to configure liferay plugin sdk because the file build.user_name.properties save the paths to app server folder (my app folder is in my virtual machine) please have you the solution for my problem
+14:09 < Bilou:#liferay> thanks for your answers
