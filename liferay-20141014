@@ -77,3 +77,4 @@
 11:59 < bijoo_:#liferay> jack_bakker: yea usually no need to check those
 12:00 < bijoo_:#liferay> jack_bakker: so put ignore rule for at least this dir: ${portlet_dir}/docroot/WEB-INF/service
 12:01 < jack_bakker:#liferay> at least...
+12:03 < jack_bakker:#liferay> wonder if there is a .gitignore focused on service-builder generated
