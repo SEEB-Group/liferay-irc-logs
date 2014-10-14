@@ -61,3 +61,4 @@
 10:00 < twen:#liferay> So I'm wondering what's the point of having lfresco instead of the default document repo in Liferay :-/ if CMIS is not able to allow more than just file upload/download...
 10:01 < douglascrp:#liferay> twen, https://code.google.com/a/apache-extras.org/p/alfresco-opencmis-extension/
 10:01 < twen:#liferay> this is also something I'm unsure (object metadata)
+10:01 < douglascrp:#liferay> but I'm talking about something I read... no something I actually tried
