@@ -74,3 +74,4 @@
 11:46 < jack_bakker:#liferay> I have a portlet devoted to services with 2nd db backend. I share the war with other developers and to staging/prod but am challenged on version control for myself and to share with git given the volatility of the code, any experience/recommendations ?
 11:55 < bijoo_:#liferay> jack_bakker: not sure what the question you're asking is; may you clarify the use case needed?
 11:59 < jack_bakker:#liferay> lots of files generated with each service build when there is change... adding to git index awkward... don't see the point of indexing all... I find source control thru git awkward for service-builder-generated artifacts
+11:59 < bijoo_:#liferay> jack_bakker: yea usually no need to check those
