@@ -67,3 +67,4 @@
 10:02 < douglascrp:#liferay> twen, yes, it's cool, but using it will make your app not 100% cmis complatible
 10:03 < douglascrp:#liferay> if you exchange your repository, it may not work
 10:03 < twen:#liferay> hmmm... ok
+10:04 < twen:#liferay> well, for the moment, for our current project, we had to decide to leave alfresco away... we are using Liferay internal repo...
