@@ -42,3 +42,4 @@
 09:49 < Bilou:#liferay> jardineworks_,  http://www.liferay.com/community/forums/-/message_boards/message/43925526
 09:54 < twen:#liferay> well, douglascrp  We have a current prohect using liferay... Dev is done by an outsourcing company... ^^
 09:55 < twen:#liferay> winem_ My first rapid answer would be liferay + alfresco.. *BUT* we found out that Liferay has a big limitation with CMIS :(
+09:56 < twen:#liferay> making communication with alfresco very basic
