@@ -32,3 +32,4 @@
 09:16 < winem_:#liferay> yes, it was due to the JBoss wildfly and the new http implementation called undertow. it caused several problems. cookie handling, encoding of the user friendly url, some more issues with portlets
 09:17 < winem_:#liferay> so we use jboss 7 (which is supported) and everything is fine now
 09:23 < jardineworks_:#liferay> winem_, told you jboss was a bad decision :)
+09:23 < jardineworks_:#liferay> haha
