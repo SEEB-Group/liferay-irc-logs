@@ -48,3 +48,4 @@
 09:57 < douglascrp:#liferay> twen, that's something I never tried, to integrate alfresco with liferay, but I'll have to sometime
 09:57 < twen:#liferay> limitation : you can get or set filed in alfresco Document model or Aspects
 09:57 < twen:#liferay> means in Alfresco, you loose all the power of Model and Aspect
+09:57 < twen:#liferay> (I love Aspects)
