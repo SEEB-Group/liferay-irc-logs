@@ -29,3 +29,4 @@
 09:14 < jardineworks_:#liferay> winem_, that's always helpful :)
 09:15 < jardineworks_:#liferay> winem_, Did you ever figure out that LAR issue you were having?
 09:15 < winem_:#liferay> the admin has to do what the business says... ;)
+09:16 < winem_:#liferay> yes, it was due to the JBoss wildfly and the new http implementation called undertow. it caused several problems. cookie handling, encoding of the user friendly url, some more issues with portlets
