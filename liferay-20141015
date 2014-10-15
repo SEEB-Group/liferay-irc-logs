@@ -39,3 +39,4 @@
 16:11 <@jhf:#liferay> also, I don't think that should be needed, but maybe it is
 16:14 < jardineworks_:#liferay> I think it did. Alternatively, what I have been doing is redeploying the plugins
 16:14 < jardineworks_:#liferay> but based on the log output -- that "magic button" seems to validate the tables and stuff.
+16:14 < jardineworks_:#liferay> after pushing it (and after deploying the plugins admittedly) the instance was created without error
