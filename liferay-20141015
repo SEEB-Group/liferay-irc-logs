@@ -26,3 +26,4 @@
 16:06 < jardineworks_:#liferay> jhf, Portal Instances seem a bit buggy.
 16:06 <@jhf:#liferay> nope, it's not bugs, it's features
 16:06 <@jhf:#liferay> which feature are you referring to? :)
+16:07 < jardineworks_:#liferay> jhf, ... I am trying to write a build guide and every time I add a new instance I get an error because plugin defined tables are missing from the shard.
