@@ -30,3 +30,4 @@
 16:07 < jardineworks_:#liferay> I suppose I should say the SHARDing is buggy :)
 16:08 <@jhf:#liferay> hmm
 16:08 <@jhf:#liferay> did you try "Verify database tables of all plugins" (on control panel -> server administration) ?
+16:08 <@jhf:#liferay> (just reading https://www.liferay.com/community/forums/-/message_boards/message/35674541)
