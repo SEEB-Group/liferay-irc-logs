@@ -29,3 +29,4 @@
 16:07 < jardineworks_:#liferay> jhf, ... I am trying to write a build guide and every time I add a new instance I get an error because plugin defined tables are missing from the shard.
 16:07 < jardineworks_:#liferay> I suppose I should say the SHARDing is buggy :)
 16:08 <@jhf:#liferay> hmm
+16:08 <@jhf:#liferay> did you try "Verify database tables of all plugins" (on control panel -> server administration) ?
