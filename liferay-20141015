@@ -37,3 +37,4 @@
 16:11 < jardineworks_:#liferay> thanks jhf :)
 16:11 <@jhf:#liferay> did it "do the trick"
 16:11 <@jhf:#liferay> also, I don't think that should be needed, but maybe it is
+16:14 < jardineworks_:#liferay> I think it did. Alternatively, what I have been doing is redeploying the plugins
