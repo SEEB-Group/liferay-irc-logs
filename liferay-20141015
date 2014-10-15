@@ -20,3 +20,4 @@
 15:22 <@jhf:#liferay> that is weird
 15:22 <@jhf:#liferay> probably some automated script that is out of control...
 15:23 <@jhf:#liferay> finding out.. stay tuned.
+15:23 < bijoo_:#liferay> jhf: okay, looking at one for example: "temp-13" the reference is fe9cbb828127127e85f4b4ba1010fe6f306ace03 which is by Brian Chan Sept 3rd 2014 "LPS-49541 Rename"
