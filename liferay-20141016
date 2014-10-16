@@ -22,3 +22,4 @@
 09:18 < Bilou:#liferay> Hi all
 09:20 < Bilou:#liferay> What are the bests framework to develop webservices producer and develop consumer in liferay
 09:26 < jardineworks_:#liferay> Bilou, when you say producer, do you mean people calling the portal to access data that it houses?
+09:29 < Bilou:#liferay> No i have to develop webservices producer and call services within my portal
