@@ -36,3 +36,4 @@
 10:11 < jardineworks_:#liferay> goku_, what kind of hooks are they? JSP hooks?
 10:12 < douglascrp:#liferay> I'm using form-navigator, and I see it shows on the form if there is changes to be saved
 10:12 < douglascrp:#liferay> is there any way I can check for this "is changed" information using the request object into the portlet class?
+10:13 < douglascrp:#liferay> does anyone know if that info is sent to the server?
