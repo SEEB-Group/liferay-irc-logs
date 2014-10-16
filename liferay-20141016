@@ -83,3 +83,4 @@
 10:59 < jardineworks_:#liferay> goku_, yep -- but the clustering for Liferay only affects the cache (non-jsp .. entity cache) and the lucene indexing.
 11:00 < goku_:#liferay> jardineworks_, ok
 11:03 < jardineworks_:#liferay> winem_, yep -- in code :)
+11:04 < jardineworks_:#liferay> winem_, PortalUtil.setPageTitle I think it is
