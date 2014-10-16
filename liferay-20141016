@@ -39,3 +39,4 @@
 10:13 < douglascrp:#liferay> does anyone know if that info is sent to the server?
 10:13 < goku_:#liferay> jardineworks_,yea i was changing the jsp for taglibs
 10:25 < jardineworks_:#liferay> douglascrp, not sure about that but I want to say no. I think that "changed" state is just for the client side.
+10:25 < jardineworks_:#liferay> goku_, if you go into the webapps/ROOT/html ...
