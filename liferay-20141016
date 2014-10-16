@@ -68,3 +68,4 @@
 10:42 < jardineworks_:#liferay> goku_, and just to check.. your "clone" .. you are moving from JBoss to JBoss?
 10:42 < goku_:#liferay> jardineworks_, am making the exact same copy of the jboss setup with db
 10:43 < Bilou:#liferay> jardineworks_,  SOAP Services is a performant plugin (apps) developed by the community or Liferay API?
+10:44 < jardineworks_:#liferay> Bilou, Not sure I understand. I was referring to a TYPE of web service. Web service is a pretty generic term but doesn't describe the method of use. Produce and Consumer is normally a term (at least from my experience) that is used when referring to SOAP based services. But you could also write REST services... Liferay has JSON services as well for example.
