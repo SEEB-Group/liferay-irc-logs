@@ -16,3 +16,4 @@
 05:52 < winem_:#liferay> we have an issue with two sites in liferay. the first one is broken but this is used as "main site". so it says " This site is inactive. Please contact the administrator. " when I access 192.168.10.93:8080
 05:52 < winem_:#liferay> how do I choose another site to be shown when this URL is called?
 06:40 < winem_:#liferay> ignore it, it's fixed :)
+08:12 < winem_:#liferay> and another obviously stupid question, but both of my frontend developers are ill today... where can I import the war files for the theme and layout templates? I have to move an existing page to two new instances
