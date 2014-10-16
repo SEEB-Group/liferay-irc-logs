@@ -43,3 +43,4 @@
 10:25 < jardineworks_:#liferay> do you see your JSP there?
 10:25 < douglascrp:#liferay> jardineworks_, that's what I thought
 10:26 < douglascrp:#liferay> jardineworks_, but are there any best practices for this? my form is huge, and I don't know how to detect if I have to take any action (if data was changed or not)
+10:27 < jardineworks_:#liferay> douglascrp, hmm...
