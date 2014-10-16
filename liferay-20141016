@@ -59,3 +59,4 @@
 10:38 < douglascrp:#liferay> _projetos_WAR_submissaoprojetosportlet_modifiedSections:,_projetos_WAR_submissaoprojetosportlet_Detalhes,_projetos_WAR_submissaoprojetosportlet_Proponente
 10:38 < douglascrp:#liferay> jardineworks_, yes... it is
 10:39 < Bilou:#liferay> jardineworks_, Sorry I'm back.About your Question  (Bilou, So you are developing a separate set of web services and then using your Liferay plugins you want to make calls to those services -- is that it?) My answer is YES thas is what we wont to do.
+10:39 < jardineworks_:#liferay> goku_, I don't know anything about jboss... but I would try stopping the server and clearing the "work and temp" folders ... whatever they are on JBoss
