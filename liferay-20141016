@@ -24,3 +24,4 @@
 09:26 < jardineworks_:#liferay> Bilou, when you say producer, do you mean people calling the portal to access data that it houses?
 09:29 < Bilou:#liferay> No i have to develop webservices producer and call services within my portal
 09:38 < Bilou:#liferay> jardineworks_,   No i have to develop webservices producer alone  and call services within my portal using some known performant liferay plugins CE
+09:38 < Bilou:#liferay> If exists
