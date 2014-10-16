@@ -80,3 +80,4 @@
 10:51 < goku_:#liferay> jardineworks_, no no..i mean to say liferay clustering
 10:51 < goku_:#liferay> jardineworks_, do we have the option for clustering the liferay instances?
 10:53 < winem_:#liferay> a quick question... can I remove the "- Liferay<portal-name>"  from the html title? so that "company - LiferayPortalxyz" becomes "company" only?
+10:59 < jardineworks_:#liferay> goku_, yep -- but the clustering for Liferay only affects the cache (non-jsp .. entity cache) and the lucene indexing.
