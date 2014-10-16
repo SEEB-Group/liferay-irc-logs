@@ -31,3 +31,4 @@
 09:40 < jardineworks_:#liferay> Bilou, So you are developing a separate set of web services and then using your Liferay plugins you want to make calls to those services -- is that it?
 10:04 < goku_:#liferay> Hi, in liferay when i tried to use hooks ,its working on the setup from which i copied the original jsps ,but when i tried to put it in another setup it was not working,is hooks are setup dependent?
 10:07 < jardineworks_:#liferay> goku_, They shouldn't be -- same version of Liferay?
+10:09 < goku_:#liferay> jardineworks_, yea same setup(clones)
