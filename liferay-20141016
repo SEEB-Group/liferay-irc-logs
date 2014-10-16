@@ -89,3 +89,4 @@
 11:05 < jardineworks_:#liferay> winem_, it might be in a recource bundle... try searching the Language.properties file for Liferay Portal and see what comes out
 11:05 < jardineworks_:#liferay> hmmm
 11:05 < jardineworks_:#liferay> nothing on my end
+11:06 < winem_:#liferay> ok. where is the PortalUti.setPageTitle set? remember, I'm just a stupid ops guy
