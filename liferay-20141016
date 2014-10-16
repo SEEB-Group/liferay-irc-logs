@@ -17,3 +17,4 @@
 05:52 < winem_:#liferay> how do I choose another site to be shown when this URL is called?
 06:40 < winem_:#liferay> ignore it, it's fixed :)
 08:12 < winem_:#liferay> and another obviously stupid question, but both of my frontend developers are ill today... where can I import the war files for the theme and layout templates? I have to move an existing page to two new instances
+08:17 < winem_:#liferay> can't imagine that I have to deploy them on the filesystem. I guess there is some function in the control panel, too
