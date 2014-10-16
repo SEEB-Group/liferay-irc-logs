@@ -72,3 +72,4 @@
 10:46 < jardineworks_:#liferay> Bilou, either way, I don't think there is any "standard" to use... you can use whatever. For my own, I typically use Axis for SOAP services, though it has been a long time since I have done one of those. Most of the services I have used recently have been REST services and there are piles of frameworks out there for those.
 10:46 < jardineworks_:#liferay> If you are wiring them to portlets, there is a concept of Restlets that you might want to look into.
 10:46 < jardineworks_:#liferay> assuming you are using rest.
+10:46 < jardineworks_:#liferay> Bilou, ... put it this way, are you starting with a WSDL file?
