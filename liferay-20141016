@@ -73,3 +73,4 @@
 10:46 < jardineworks_:#liferay> If you are wiring them to portlets, there is a concept of Restlets that you might want to look into.
 10:46 < jardineworks_:#liferay> assuming you are using rest.
 10:46 < jardineworks_:#liferay> Bilou, ... put it this way, are you starting with a WSDL file?
+10:47 < jardineworks_:#liferay> goku_, hmm that is odd. What happens if you undeploy the hook from your new instance and then redeploy it?
