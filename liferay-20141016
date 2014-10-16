@@ -64,3 +64,4 @@
 10:39 < jardineworks_:#liferay> I never knew that
 10:40 < goku_:#liferay> jardineworks_,hm..ohk
 10:41 < jardineworks_:#liferay> Bilou, SOAP services I suppose since you are referencing consumers and producers
+10:41 < jardineworks_:#liferay> goku_, its a long shot but I have seen it in the past ... either that or try changing the JSP file directly on the server (your hook one) and see if the change shows up
