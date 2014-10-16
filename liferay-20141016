@@ -86,3 +86,4 @@
 11:04 < jardineworks_:#liferay> winem_, PortalUtil.setPageTitle I think it is
 11:04 < winem_:#liferay> is it hard to find? I renamed the portal to Welcome.. not nice, but the page is online and my boss is happy.. and this is by far not the dirtiest workaround I had to do today
 11:05 < winem_:#liferay> ok, well tell it our frontend developers tomorrow
+11:05 < jardineworks_:#liferay> winem_, it might be in a recource bundle... try searching the Language.properties file for Liferay Portal and see what comes out
