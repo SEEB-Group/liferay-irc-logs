@@ -67,3 +67,4 @@
 10:41 < jardineworks_:#liferay> goku_, its a long shot but I have seen it in the past ... either that or try changing the JSP file directly on the server (your hook one) and see if the change shows up
 10:42 < jardineworks_:#liferay> goku_, and just to check.. your "clone" .. you are moving from JBoss to JBoss?
 10:42 < goku_:#liferay> jardineworks_, am making the exact same copy of the jboss setup with db
+10:43 < Bilou:#liferay> jardineworks_,  SOAP Services is a performant plugin (apps) developed by the community or Liferay API?
