@@ -45,3 +45,4 @@
 10:26 < douglascrp:#liferay> jardineworks_, but are there any best practices for this? my form is huge, and I don't know how to detect if I have to take any action (if data was changed or not)
 10:27 < jardineworks_:#liferay> douglascrp, hmm...
 10:29 < jardineworks_:#liferay> douglascrp, I'm not aware of any best practices per say. the only thing I can think of would be something like a hidden field that records which items are changed? or omit the SAVE button altogether and use AJAX in conjunction with onChange events?
+10:29 < douglascrp:#liferay> jardineworks_, look... I got this on the form submition
