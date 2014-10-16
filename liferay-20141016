@@ -19,3 +19,4 @@
 08:12 < winem_:#liferay> and another obviously stupid question, but both of my frontend developers are ill today... where can I import the war files for the theme and layout templates? I have to move an existing page to two new instances
 08:17 < winem_:#liferay> can't imagine that I have to deploy them on the filesystem. I guess there is some function in the control panel, too
 08:20 < winem_:#liferay> ok, got it.. did not know that I have to do it in the app panel.. thought this was for liferay apps only :)
+09:18 < Bilou:#liferay> Hi all
