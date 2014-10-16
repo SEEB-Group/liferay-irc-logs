@@ -91,3 +91,4 @@
 11:05 < jardineworks_:#liferay> nothing on my end
 11:06 < winem_:#liferay> ok. where is the PortalUti.setPageTitle set? remember, I'm just a stupid ops guy
 11:06 < jardineworks_:#liferay> winem_, there is a liferay=Liferay and a portal=Portal though :)
+11:06 < jardineworks_:#liferay> you could try removing those values maybe?
