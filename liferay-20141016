@@ -13,3 +13,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 03:29 < goku_:#liferay> hi ,am getting one long urls while trying access the liferay setup ,and the browser shows the error as this page isn't redirecting properly,how to resolve this issue?
 05:43 < winem_:#liferay> morning
+05:52 < winem_:#liferay> we have an issue with two sites in liferay. the first one is broken but this is used as "main site". so it says " This site is inactive. Please contact the administrator. " when I access 192.168.10.93:8080
