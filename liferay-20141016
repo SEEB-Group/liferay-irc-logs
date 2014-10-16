@@ -47,3 +47,4 @@
 10:29 < jardineworks_:#liferay> douglascrp, I'm not aware of any best practices per say. the only thing I can think of would be something like a hidden field that records which items are changed? or omit the SAVE button altogether and use AJAX in conjunction with onChange events?
 10:29 < douglascrp:#liferay> jardineworks_, look... I got this on the form submition
 10:29 < douglascrp:#liferay> _projetos_WAR_submissaoprojetosportlet_modifiedSections:,_projetos_WAR_submissaoprojetosportlet_Detalhes
+10:29 < jardineworks_:#liferay> oh cool!
