@@ -55,3 +55,4 @@
 10:37 < goku_:#liferay> jardineworks_,yea its getting deployed,successfully and some.portal.jsp is generated for old one .
 10:37 < jardineworks_:#liferay> goku_, cache maybe?
 10:37 < jardineworks_:#liferay> this tomcat?
+10:38 < goku_:#liferay> jardineworks_,no jboss-as-7
