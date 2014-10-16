@@ -93,3 +93,4 @@
 11:06 < jardineworks_:#liferay> winem_, there is a liferay=Liferay and a portal=Portal though :)
 11:06 < jardineworks_:#liferay> you could try removing those values maybe?
 11:07 < jardineworks_:#liferay> though that is a pretty filthy way to do it
+11:07 < jardineworks_:#liferay> and might create "blanks" in the wrong places.
