@@ -21,3 +21,4 @@
 08:20 < winem_:#liferay> ok, got it.. did not know that I have to do it in the app panel.. thought this was for liferay apps only :)
 09:18 < Bilou:#liferay> Hi all
 09:20 < Bilou:#liferay> What are the bests framework to develop webservices producer and develop consumer in liferay
+09:26 < jardineworks_:#liferay> Bilou, when you say producer, do you mean people calling the portal to access data that it houses?
