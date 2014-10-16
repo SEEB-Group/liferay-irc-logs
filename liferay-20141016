@@ -76,3 +76,4 @@
 10:47 < jardineworks_:#liferay> goku_, hmm that is odd. What happens if you undeploy the hook from your new instance and then redeploy it?
 10:48 < goku_:#liferay> jardineworks_, i haven't tried that
 10:48 < goku_:#liferay> jardineworks_, i heared about clustering but..i don't know much about it
+10:50 < jardineworks_:#liferay> goku_, the new environment is clustered?
