@@ -15,3 +15,4 @@
 15:06 < urug_:#liferay> There is a way to create plugin by extending another plugin. It's acomplished by copying plugin WAR and setting original.war.file property. But how can I extend built-in portlet like web form portlet??
 15:17 < bijoo_:#liferay> urug_: the only way I know is through the Ext
 15:18 < bijoo_:#liferay> urug_: the extending applies to standalones; I don't think it applies to OOB.
+15:18 < bijoo_:#liferay> urug_: the ant script explodes the WAR for copy; but OOB don't have WAR for that.
