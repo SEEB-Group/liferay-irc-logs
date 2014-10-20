@@ -24,3 +24,4 @@
 15:53 < urug_:#liferay> I meant liferay site (community)
 16:17 < urug_:#liferay> hm it's possible to export pages with content but the LAR archive does not contain categories, which are requiered for import, the thing is there i no way to export/import categories...
 16:23 < bijoo_:#liferay> urug_: on the top of my head, I think that's right; I recall my team had to custom that.
+16:23 < bijoo_:#liferay> urug_: https://www.liferay.com/marketplace/-/mp/application/27078617
