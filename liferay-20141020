@@ -20,3 +20,4 @@
 15:43 < modd:#liferay> yep, it is, we did it just last week exactly this way
 15:43 < urug_:#liferay> ok i will give it a shot
 15:47 < urug_:#liferay> can I export/import whole site?
+15:49 < modd:#liferay> you can download the whole thing using this link: https://github.com/liferay/liferay-plugins/archive/6.2.x.zip
