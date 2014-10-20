@@ -33,3 +33,4 @@
 17:25 < urug_:#liferay> ok, thanks
 17:25 < bijoo_:#liferay> urug_: what's the caller restricted API? Is it Liferay code or some custom code?
 17:26 < urug_:#liferay> liferay
+17:27 < urug_:#liferay> web asset publisher using custom web content structure with image field
