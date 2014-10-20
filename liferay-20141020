@@ -13,3 +13,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 15:06 < urug_:#liferay> There is a way to create plugin by extending another plugin. It's acomplished by copying plugin WAR and setting original.war.file property. But how can I extend built-in portlet like web form portlet??
+15:17 < bijoo_:#liferay> urug_: the only way I know is through the Ext
