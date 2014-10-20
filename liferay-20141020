@@ -27,3 +27,4 @@
 16:23 < bijoo_:#liferay> urug_: https://www.liferay.com/marketplace/-/mp/application/27078617
 16:24 < bijoo_:#liferay> "there is an app for that" in Marketplace
 16:24 < bijoo_:#liferay> urug_: though it's for 6.1; can try update
+17:22 < urug_:#liferay> Problem while saving web content with image: Caused by: java.lang.NoClassDefFoundError: com/sun/image/codec/jpeg/ImageFormatException, happens only on production server, no problem on local devel machine... any ideas?
