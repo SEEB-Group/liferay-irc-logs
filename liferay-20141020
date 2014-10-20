@@ -32,3 +32,4 @@
 17:25 < bijoo_:#liferay> urug_: yes, that is an internal API; if not using Sun JDK, happens; e.g. when using IBM or open one
 17:25 < urug_:#liferay> ok, thanks
 17:25 < bijoo_:#liferay> urug_: what's the caller restricted API? Is it Liferay code or some custom code?
+17:26 < urug_:#liferay> liferay
