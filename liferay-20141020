@@ -18,3 +18,4 @@
 15:18 < bijoo_:#liferay> urug_: the ant script explodes the WAR for copy; but OOB don't have WAR for that.
 15:42 < urug_:#liferay> bijoo_, thanks, I thought so ... do you think that creating new portlet usign sources from https://github.com/liferay/liferay-plugins/tree/6.2.x/portlets/web-form-portlet could be straithforward?
 15:43 < modd:#liferay> yep, it is, we did it just last week exactly this way
+15:43 < urug_:#liferay> ok i will give it a shot
