@@ -35,3 +35,4 @@
 17:26 < urug_:#liferay> liferay
 17:27 < urug_:#liferay> web asset publisher using custom web content structure with image field
 17:28 < bijoo_:#liferay> urug_: in the latest version, it seems it's fixed; so no point in opening a ticket; unless you have EE and want the patch; otherwise can make ext or hook plugin.
+18:13 < urug_:#liferay> fortunately switching JDK isn't a problem
