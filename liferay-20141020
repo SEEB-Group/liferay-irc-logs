@@ -37,3 +37,4 @@
 17:28 < bijoo_:#liferay> urug_: in the latest version, it seems it's fixed; so no point in opening a ticket; unless you have EE and want the patch; otherwise can make ext or hook plugin.
 18:13 < urug_:#liferay> fortunately switching JDK isn't a problem
 18:16 < bijoo_:#liferay> :)
+--- Log closed Tue Oct 21 00:00:24 2014
