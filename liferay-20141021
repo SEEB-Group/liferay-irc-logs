@@ -74,3 +74,4 @@
 08:11 < winem_:#liferay> do you have any idea on how to find the cause? I can tell you the URL..
 08:11 < modd_:#liferay> do you know what exactly he was developing?
 08:12 < modd_:#liferay> I can have a quick peek, sure
+08:15 < urug_:#liferay> modd_, To be specific I have Book structure with field "Name", but from the user perspective the asset title and book's name is always the same and thus unnecessary duplicity. So I removed the name field and used the title in asset publisher template (new display type created by hook), but realized that I can't obtain asset title from structure template for book's detail view.
