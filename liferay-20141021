@@ -96,3 +96,4 @@
 08:58 < jardineworks:#liferay> rrapozo, I think you can define an error code in the web.xml
 08:59 < jardineworks:#liferay> <error-page><error-code>403</error-code><location>/403.jsp</location></error-page>
 08:59 < jardineworks:#liferay> but to add it to Liferays web.xml would require an EXT plugin
+08:59 < rrapozo:#liferay> I'm using hook
