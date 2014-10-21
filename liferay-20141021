@@ -80,3 +80,4 @@
 08:46 < jardineworks:#liferay> winem_, #dockbar()
 08:47 < jardineworks:#liferay> winem_, but you should wrap it in a check to make sure the use is signed in... one sec.
 08:47 < winem_:#liferay> it's not really commented out?
+08:47 < winem_:#liferay> oh ok, sure. but isn't it the default behaviour for liferay?
