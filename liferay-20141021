@@ -84,3 +84,4 @@
 08:48 < jardineworks:#liferay> winem_, nope, but there is a velocity var for it... I think its #if $is_signed_in
 08:48 < modd_:#liferay> that's what the default styling does
 08:49 < jardineworks:#liferay> winem_, yeah -- in the init.vm you can see -- #set ($is_signed_in = $theme_display.isSignedIn())
+08:50 < jardineworks:#liferay> winem_, if the code is still there in the template (usually the portal_normal.vm -- assuming you are using velocity) then it could be that he has a css override that is hiding it.
