@@ -63,3 +63,4 @@
 08:04 < modd_:#liferay> ?
 08:05 < winem_:#liferay> there is only one page at the moment
 08:05 < winem_:#liferay> wait, I think there should be a 2nd one... the proof of concept, let me check
+08:05 < modd_:#liferay> go to control panel, open that site, go to that page and check if he added some js to the page
