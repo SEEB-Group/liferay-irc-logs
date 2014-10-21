@@ -95,3 +95,4 @@
 08:56 < rrapozo:#liferay> I used the status.jsp to handle it but in somewhere it render a page default error for few seconds before redirect to homepage and it is so ugly
 08:58 < jardineworks:#liferay> rrapozo, I think you can define an error code in the web.xml
 08:59 < jardineworks:#liferay> <error-page><error-code>403</error-code><location>/403.jsp</location></error-page>
+08:59 < jardineworks:#liferay> but to add it to Liferays web.xml would require an EXT plugin
