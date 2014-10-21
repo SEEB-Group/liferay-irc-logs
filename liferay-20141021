@@ -77,3 +77,4 @@
 08:15 < urug_:#liferay> modd_, To be specific I have Book structure with field "Name", but from the user perspective the asset title and book's name is always the same and thus unnecessary duplicity. So I removed the name field and used the title in asset publisher template (new display type created by hook), but realized that I can't obtain asset title from structure template for book's detail view.
 08:37 < modd_:#liferay> urug_: so, you had a field "Name" additionally to the existing "Title". you dropped the "Name" again and now you cannot use "Title" in your template!?
 08:45 < urug_:#liferay> modd_, basically ... ("Title" is asset title, requiered field for every asset entry)
+08:46 < jardineworks:#liferay> winem_, #dockbar()
