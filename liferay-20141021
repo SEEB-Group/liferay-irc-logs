@@ -97,3 +97,4 @@
 08:59 < jardineworks:#liferay> <error-page><error-code>403</error-code><location>/403.jsp</location></error-page>
 08:59 < jardineworks:#liferay> but to add it to Liferays web.xml would require an EXT plugin
 08:59 < rrapozo:#liferay> I'm using hook
+08:59 < jardineworks:#liferay> probably better to handle it with a fronting proxy.
