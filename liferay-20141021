@@ -106,3 +106,4 @@
 09:01 < jardineworks:#liferay> becuase if so then you might be able to check the error code in some branch logic and handle it there.
 09:02 < rrapozo:#liferay> jardineworks: Yes but the problem is before call this page in somewhere is redered a page error for few seconds and it so ugly in liferay
 09:03 < jardineworks:#liferay> rrapozo, ah... I think that is the ROOT/html/common/error.jsp ... in which can you CAN use a hook, a JSP Override and style it however you like.
+09:06 < rrapozo:#liferay> I'll try it now!!! :D thanks a lot jardineworks
