@@ -52,3 +52,4 @@
 07:48 < winem_:#liferay> we can login into liferay and the edit controls disappear when I click on My Sites and choose one
 07:52 < winem_:#liferay> how can I "re-enable" those control fields?
 07:57 < urug_:#liferay> how to obtain asset entry title from web content structure template?
+07:58 < urug_:#liferay> all structure's field references are present, but no reference to asset entry
