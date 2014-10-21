@@ -83,3 +83,4 @@
 08:47 < winem_:#liferay> oh ok, sure. but isn't it the default behaviour for liferay?
 08:48 < jardineworks:#liferay> winem_, nope, but there is a velocity var for it... I think its #if $is_signed_in
 08:48 < modd_:#liferay> that's what the default styling does
+08:49 < jardineworks:#liferay> winem_, yeah -- in the init.vm you can see -- #set ($is_signed_in = $theme_display.isSignedIn())
