@@ -104,3 +104,4 @@
 09:00 < rrapozo:#liferay> What do you want say with fronting proxy? Apache tomcat?
 09:00 < jardineworks:#liferay> rrapozo, ... I've never checked, but any chance that the status.jsp is also called when a 403 occurs?
 09:01 < jardineworks:#liferay> becuase if so then you might be able to check the error code in some branch logic and handle it there.
+09:02 < rrapozo:#liferay> jardineworks: Yes but the problem is before call this page in somewhere is redered a page error for few seconds and it so ugly in liferay
