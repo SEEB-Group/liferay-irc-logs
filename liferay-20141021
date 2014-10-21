@@ -100,3 +100,4 @@
 08:59 < jardineworks:#liferay> probably better to handle it with a fronting proxy.
 08:59 < rrapozo:#liferay> It's enought?
 09:00 < jardineworks:#liferay> rrapozo, a hook won't modify the web.xml of the ROOT application
+09:00 < rrapozo:#liferay> Ok, I will find how I can use ext plugin
