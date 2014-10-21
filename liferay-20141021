@@ -87,3 +87,4 @@
 08:50 < jardineworks:#liferay> winem_, if the code is still there in the template (usually the portal_normal.vm -- assuming you are using velocity) then it could be that he has a css override that is hiding it.
 08:51 < winem_:#liferay> ok, this complies with 2 of the threads in the community. but they used liferay 6.1 and said that there were several changes on the dockbar and the init.vm / init_custom.vm
 08:52 < jardineworks:#liferay> winem_, in the master liferay branch, they have just -- #dockbar()
+08:52 < jardineworks:#liferay> so maybe the dockbar macro now does the user signed in check
