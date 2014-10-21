@@ -68,3 +68,4 @@
 08:07 < winem_:#liferay> I see 6 javascripts in firebug
 08:07 < modd_:#liferay> so to be specific, you want the journal article, which uses a certain template?
 08:08 < modd_:#liferay> winem_: what kind of errors?
+08:08 < modd_:#liferay> it might be a faulty js in some of the portlets of the page, too
