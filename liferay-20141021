@@ -108,3 +108,5 @@
 09:03 < jardineworks:#liferay> rrapozo, ah... I think that is the ROOT/html/common/error.jsp ... in which can you CAN use a hook, a JSP Override and style it however you like.
 09:06 < rrapozo:#liferay> I'll try it now!!! :D thanks a lot jardineworks
 09:06 < jardineworks:#liferay> rrapozo, sure thing... if it doesn't work, let me know.
+12:53 -!- mode/#liferay [+o jhf] by ChanServ
+13:22 < jardineworks:#liferay> jhf, got a second for a question?
