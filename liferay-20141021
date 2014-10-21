@@ -91,3 +91,4 @@
 08:53 < rrapozo:#liferay> Hey someone understand about of 403 errors in liferay I want redirect my page when I get this error.
 08:53 < winem_:#liferay> a 403 from liferay or any apache in front of it?
 08:54 < rrapozo:#liferay> from liferay
+08:54 < rrapozo:#liferay> I know that handle the 404 is easy but my problem know is with 403
