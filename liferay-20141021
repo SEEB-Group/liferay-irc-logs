@@ -89,3 +89,4 @@
 08:52 < jardineworks:#liferay> winem_, in the master liferay branch, they have just -- #dockbar()
 08:52 < jardineworks:#liferay> so maybe the dockbar macro now does the user signed in check
 08:53 < rrapozo:#liferay> Hey someone understand about of 403 errors in liferay I want redirect my page when I get this error.
+08:53 < winem_:#liferay> a 403 from liferay or any apache in front of it?
