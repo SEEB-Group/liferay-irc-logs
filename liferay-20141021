@@ -93,3 +93,4 @@
 08:54 < rrapozo:#liferay> from liferay
 08:54 < rrapozo:#liferay> I know that handle the 404 is easy but my problem know is with 403
 08:56 < rrapozo:#liferay> I used the status.jsp to handle it but in somewhere it render a page default error for few seconds before redirect to homepage and it is so ugly
+08:58 < jardineworks:#liferay> rrapozo, I think you can define an error code in the web.xml
