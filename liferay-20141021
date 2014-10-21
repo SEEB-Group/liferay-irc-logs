@@ -34,3 +34,4 @@
 07:11 < modd_:#liferay> good to have you here jhf!
 07:12 < modd_:#liferay> I have to do the liferay dev certification tomorrow
 07:12 < modd_:#liferay> what secret information do you have? ^^
+07:13 < rrapozo:#liferay> jhf: the 404 error is more easy because is just put it "layout.friendly.url.page.not.found=/html/portal/404.jsp" on :q
