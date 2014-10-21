@@ -28,3 +28,4 @@
 07:07 < modd_:#liferay> hangout?
 07:08 < modd_:#liferay> rrapozo: not sure, maybe it's redirecting to the status page if non servlet filter etc will match the requested path
 07:11 <@jhf:#liferay> There are also some handy links I've found via google: https://www.liferay.com/community/forums/-/message_boards/message/11279721 and http://stackoverflow.com/questions/13864162/how-to-intercept-error-request-and-redirect-to-a-custom-page I think the easiest is a JSP hook to override Liferay's built-in 404.jsp
+07:11 <@jhf:#liferay> modd_: sorry - I shouldn't mix hangout with IRC room
