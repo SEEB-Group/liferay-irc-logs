@@ -67,3 +67,4 @@
 08:07 < modd_:#liferay> urug_: an asset entry is not tied to a web content structure template. first of all, an blog entry is a asset entry, too
 08:07 < winem_:#liferay> I see 6 javascripts in firebug
 08:07 < modd_:#liferay> so to be specific, you want the journal article, which uses a certain template?
+08:08 < modd_:#liferay> winem_: what kind of errors?
