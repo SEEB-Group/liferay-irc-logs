@@ -102,3 +102,4 @@
 09:00 < jardineworks:#liferay> rrapozo, a hook won't modify the web.xml of the ROOT application
 09:00 < rrapozo:#liferay> Ok, I will find how I can use ext plugin
 09:00 < rrapozo:#liferay> What do you want say with fronting proxy? Apache tomcat?
+09:00 < jardineworks:#liferay> rrapozo, ... I've never checked, but any chance that the status.jsp is also called when a 403 occurs?
