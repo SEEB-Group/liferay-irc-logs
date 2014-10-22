@@ -96,3 +96,4 @@
 15:45 < jardineworks:#liferay> probably a lack of documentation ;)
 15:50 < urug_:#liferay> yea it would help a lot i quess
 15:53 < urug_:#liferay> ok I have got another problem...
+15:55 < urug_:#liferay> When I click on any link in that asset publisher displaying content detail it does literally nothing, no redirect, nothing. Like it is blocked by some JS, but no JS errors  at console are present
