@@ -102,3 +102,4 @@
 16:44 < urug_:#liferay> A.Event.getListeners(element) should do the job, but unfortunatelly it returns null...
 16:46 < urug_:#liferay> omg i am stupid, events are mentioned in browser's devel tools
 17:23 < urug_:#liferay> tried changing windows.location with custom event for that link, still same problem
+17:23 < urug_:#liferay> i am lost
