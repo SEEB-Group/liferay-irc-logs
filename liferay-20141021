@@ -139,3 +139,4 @@
 23:20 < urug_:#liferay> ${reserved-article-id} undefined, ${reservedArticleId} as well (most of the variables uses camel case now)
 23:21 < jardineworks:#liferay> its not ${reserverd-article-id} ... its $reserved-article-id.data
 23:22 < jardineworks:#liferay> I am assuming you are in velocity right?
+23:22 < urug_:#liferay> FM
