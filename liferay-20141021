@@ -123,3 +123,4 @@
 23:07 < urug_:#liferay> jardineworks, by chance don't you know where the freemarker/valocity variables are passed to structure template?
 23:08 < jardineworks:#liferay> urug_, the core ones that Liferay provides?
 23:08 < urug_:#liferay> yep
+23:08 < urug_:#liferay> it might be easier to customize it
