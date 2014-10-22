@@ -54,3 +54,4 @@
 15:05 < urug_:#liferay> there is an array "request", I can access some information like this ${request['server-name']}, it should also contain variable $request['theme-display'], but it's definately not ThemeDisplay object
 15:07 < jardineworks:#liferay> hmmm
 15:07 < urug_:#liferay> maybe it could be possible to do samething like ${request['server-name']}:${request['server-port']}${portal.getPathFriendlyURLPublic()}${group.getFriendlyURL()}bookOrderLayout.getFriendlyURL(locale)
+15:08 < urug_:#liferay> port the port number might be a problem
