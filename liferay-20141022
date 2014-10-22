@@ -51,3 +51,4 @@
 15:00 < urug_:#liferay> In structure template I need to create an url to certain page, I can obtain layout object for that page, group object, but I don't have an access to request object (or anything containing it like themeDisplay) so I can't create the portal part of the url
 15:01 < jardineworks:#liferay> urug_, I thought the $request was in the template scope, no?
 15:02 < jardineworks:#liferay> urug_, what did you see last night whne you used JHF's variable dumper?
+15:05 < urug_:#liferay> there is an array "request", I can access some information like this ${request['server-name']}, it should also contain variable $request['theme-display'], but it's definately not ThemeDisplay object
