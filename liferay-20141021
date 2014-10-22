@@ -140,3 +140,4 @@
 23:21 < jardineworks:#liferay> its not ${reserverd-article-id} ... its $reserved-article-id.data
 23:22 < jardineworks:#liferay> I am assuming you are in velocity right?
 23:22 < urug_:#liferay> FM
+23:22 < jardineworks:#liferay> ah -- not sure about FM
