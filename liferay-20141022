@@ -75,3 +75,4 @@
 15:25 < jardineworks:#liferay> haha
 15:25 < jardineworks:#liferay> urug_, maybe you should update that wiki page :)
 15:29 < urug_:#liferay> so instad of portalUtil.getLayoutFriendlyURL(layout, themeDisplay, locale), i need  this
+15:30 < urug_:#liferay> request['theme-display']['url-portal']+portal.getPathFriendlyURLPublic()+group.getFriendlyURL()+bookOrderLayout.getFriendlyURL(locale)
