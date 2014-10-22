@@ -131,3 +131,4 @@
 23:13 < urug_:#liferay> the problem I am trying to solve is, that in my structure template I need a button with a redirect to page with a form and that form needs an access to asset/article/conent from which it was redirected
 23:14 < urug_:#liferay> so I need to pass some ID to that form, but first I need to obtain that ID in template so I can create that redirect button
 23:15 < jardineworks:#liferay> i see
+23:16 < jardineworks:#liferay> so basically... article ID 1234 ... has structure id 56 and template id 78 ... I am looking at the web content portlet with article 1234 in it, and then I click the button, and I go to a form with the details of 1234 that can be edited?
