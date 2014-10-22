@@ -134,3 +134,4 @@
 23:16 < jardineworks:#liferay> so basically... article ID 1234 ... has structure id 56 and template id 78 ... I am looking at the web content portlet with article 1234 in it, and then I click the button, and I go to a form with the details of 1234 that can be edited?
 23:16 < jardineworks:#liferay> $reserved-article-id -- will contain the id for the article in the template.
 23:16 < jardineworks:#liferay> does that help?
+23:17 < urug_:#liferay> I will try...
