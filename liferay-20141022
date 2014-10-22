@@ -60,3 +60,4 @@
 15:14 < urug_:#liferay> the request variable is basically array-ized request object
 15:14 < urug_:#liferay> more or less
 15:14 < jardineworks:#liferay> yep -- it was the same in velocity
+15:19 < urug_:#liferay> btw have you seen the way how to access these reserved variables in FM? ... ${.vars['reserved-article-id'].data}
