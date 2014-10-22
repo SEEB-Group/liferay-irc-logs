@@ -120,3 +120,4 @@
 23:00 < jardineworks:#liferay> something changed in 6.2
 23:00 < jardineworks:#liferay> I can't recall the entire conversation though...
 23:00 < jardineworks:#liferay> it's not pretty but you could do -- DDMStructureLocalServiceUtil.getStructures() ... and then loop over them looking for the one with your structure name
+23:07 < urug_:#liferay> jardineworks, by chance don't you know where the freemarker/valocity variables are passed to structure template?
