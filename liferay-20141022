@@ -99,3 +99,4 @@
 15:55 < urug_:#liferay> When I click on any link in that asset publisher displaying content detail it does literally nothing, no redirect, nothing. Like it is blocked by some JS, but no JS errors  at console are present
 15:57 < urug_:#liferay> If i use "open in new tab/window it's fine
 16:36 < urug_:#liferay> Can I get all events hooked on certian element in YUI?
+16:44 < urug_:#liferay> A.Event.getListeners(element) should do the job, but unfortunatelly it returns null...
