@@ -78,3 +78,4 @@
 15:30 < urug_:#liferay> request['theme-display']['url-portal']+portal.getPathFriendlyURLPublic()+group.getFriendlyURL()+bookOrderLayout.getFriendlyURL(locale)
 15:30 < jardineworks:#liferay> lemme try to telnet
 15:30 < jardineworks:#liferay> or
+15:30 < jardineworks:#liferay> let me write my messages in the correct window
