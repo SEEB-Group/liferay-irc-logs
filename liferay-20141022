@@ -100,3 +100,4 @@
 15:57 < urug_:#liferay> If i use "open in new tab/window it's fine
 16:36 < urug_:#liferay> Can I get all events hooked on certian element in YUI?
 16:44 < urug_:#liferay> A.Event.getListeners(element) should do the job, but unfortunatelly it returns null...
+16:46 < urug_:#liferay> omg i am stupid, events are mentioned in browser's devel tools
