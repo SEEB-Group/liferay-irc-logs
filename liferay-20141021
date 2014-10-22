@@ -135,3 +135,4 @@
 23:16 < jardineworks:#liferay> $reserved-article-id -- will contain the id for the article in the template.
 23:16 < jardineworks:#liferay> does that help?
 23:17 < urug_:#liferay> I will try...
+23:18 < jardineworks:#liferay> there are several "reserved" tokens -- https://www.liferay.com/community/wiki/-/wiki/Main/CMS+Internal+API
