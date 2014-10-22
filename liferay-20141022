@@ -49,3 +49,4 @@
 09:57 < modd_:#liferay> anyway, good luck for your exam, I'm out ;)
 10:48 < nicolas_FR:#liferay> problem with migration : we had a layout defined in a theme, and now this layout has its own project (so its own .war). Even if we rename the id and the name of the layout the same in the liferay-layout-templates.xml file, it seems Liferay can't understand it's the same layout, and thus won't apply this layout to our pages which had it before the migration. Any idea ?
 15:00 < urug_:#liferay> In structure template I need to create an url to certain page, I can obtain layout object for that page, group object, but I don't have an access to request object (or anything containing it like themeDisplay) so I can't create the portal part of the url
+15:01 < jardineworks:#liferay> urug_, I thought the $request was in the template scope, no?
