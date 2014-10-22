@@ -126,3 +126,4 @@
 23:08 < urug_:#liferay> it might be easier to customize it
 23:08 < urug_:#liferay> all strucutre fields are rpesent I don't see a reason why ID couln't be present as well
 23:09 < jardineworks:#liferay> you are trying to get the structure ID in the web content template?
+23:12 < jardineworks:#liferay> urug_, good question -- not sure. Again, a lot of this was moved in 6.2
