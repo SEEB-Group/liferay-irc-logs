@@ -59,3 +59,4 @@
 15:12 < urug_:#liferay> maybe i got it: ${request['theme-display']['url-portal']}
 15:14 < urug_:#liferay> the request variable is basically array-ized request object
 15:14 < urug_:#liferay> more or less
+15:14 < jardineworks:#liferay> yep -- it was the same in velocity
