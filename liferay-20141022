@@ -55,3 +55,4 @@
 15:07 < jardineworks:#liferay> hmmm
 15:07 < urug_:#liferay> maybe it could be possible to do samething like ${request['server-name']}:${request['server-port']}${portal.getPathFriendlyURLPublic()}${group.getFriendlyURL()}bookOrderLayout.getFriendlyURL(locale)
 15:08 < urug_:#liferay> port the port number might be a problem
+15:08 < urug_:#liferay> and it's super ugly
