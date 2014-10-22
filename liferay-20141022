@@ -47,3 +47,4 @@
 09:53 < modd_:#liferay> a lot of questions are nonsense...like you have to learn the whole API to know all methods in all service classes
 09:53 < modd_:#liferay> germany
 09:57 < modd_:#liferay> anyway, good luck for your exam, I'm out ;)
+10:48 < nicolas_FR:#liferay> problem with migration : we had a layout defined in a theme, and now this layout has its own project (so its own .war). Even if we rename the id and the name of the layout the same in the liferay-layout-templates.xml file, it seems Liferay can't understand it's the same layout, and thus won't apply this layout to our pages which had it before the migration. Any idea ?
