@@ -74,3 +74,4 @@
 15:24 < urug_:#liferay> it wouldn't be such a problem if it would be mentioned somewhere in documentation
 15:25 < jardineworks:#liferay> haha
 15:25 < jardineworks:#liferay> urug_, maybe you should update that wiki page :)
+15:29 < urug_:#liferay> so instad of portalUtil.getLayoutFriendlyURL(layout, themeDisplay, locale), i need  this
