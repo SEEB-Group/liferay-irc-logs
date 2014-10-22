@@ -128,3 +128,4 @@
 23:09 < jardineworks:#liferay> you are trying to get the structure ID in the web content template?
 23:12 < jardineworks:#liferay> urug_, good question -- not sure. Again, a lot of this was moved in 6.2
 23:13 < jardineworks:#liferay> urug_, for example.. the stuff in the theme is now in a file called TemplateContextHelper ... whose name has no reference to templating language.
+23:13 < urug_:#liferay> the problem I am trying to solve is, that in my structure template I need a button with a redirect to page with a form and that form needs an access to asset/article/conent from which it was redirected
