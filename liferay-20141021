@@ -129,3 +129,5 @@
 23:12 < jardineworks:#liferay> urug_, good question -- not sure. Again, a lot of this was moved in 6.2
 23:13 < jardineworks:#liferay> urug_, for example.. the stuff in the theme is now in a file called TemplateContextHelper ... whose name has no reference to templating language.
 23:13 < urug_:#liferay> the problem I am trying to solve is, that in my structure template I need a button with a redirect to page with a form and that form needs an access to asset/article/conent from which it was redirected
+23:14 < urug_:#liferay> so I need to pass some ID to that form, but first I need to obtain that ID in template so I can create that redirect button
+23:15 < jardineworks:#liferay> i see
