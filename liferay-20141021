@@ -137,3 +137,4 @@
 23:17 < urug_:#liferay> I will try...
 23:18 < jardineworks:#liferay> there are several "reserved" tokens -- https://www.liferay.com/community/wiki/-/wiki/Main/CMS+Internal+API
 23:20 < urug_:#liferay> ${reserved-article-id} undefined, ${reservedArticleId} as well (most of the variables uses camel case now)
+23:21 < jardineworks:#liferay> its not ${reserverd-article-id} ... its $reserved-article-id.data
