@@ -75,3 +75,4 @@
 10:05 < topolik:#liferay> yes, in case the portlet is not on the page
 10:11 < jardineworks:#liferay> ah I see
 10:12 < jardineworks:#liferay> hmm.. but you are saying that I could possible grab the token from the window.Liferay.authToken and add it to the parameters?
+10:41 < topolik:#liferay> jardineworks: sure, that's the purpose of it
