@@ -74,3 +74,4 @@
 09:58 < jardineworks:#liferay> ok -- so I guess my question is, if I continue to use the Liferay.PortletURL js code, does that mean that my request might get rejected by the serve resource methods?
 10:05 < topolik:#liferay> yes, in case the portlet is not on the page
 10:11 < jardineworks:#liferay> ah I see
+10:12 < jardineworks:#liferay> hmm.. but you are saying that I could possible grab the token from the window.Liferay.authToken and add it to the parameters?
