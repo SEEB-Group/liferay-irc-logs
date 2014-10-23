@@ -32,3 +32,4 @@
 04:37 -!- mode/#liferay [+o jhf] by ChanServ
 08:20 < modd_:#liferay> hey topolik, do you have a moment to check something for me? I'm curious if there's an 6.2 EE patch for this: https://github.com/liferay/liferay-portal/commit/e8ab55f3df0e5616698448f921be92072de9fcbc
 08:26 < topolik:#liferay> hi modd_, yes
+08:27 < topolik:#liferay> should be covered by these 2 fixpacks: 62-ee-sp4 or  liferay-fixpack-platform-11-6210
