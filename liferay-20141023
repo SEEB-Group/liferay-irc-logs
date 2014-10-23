@@ -64,3 +64,4 @@
 09:43 < jardineworks:#liferay> ok #2 -- more up your alley because its security related.
 09:43 < jardineworks:#liferay> 2. I remember you telling me when I was on 6.1 that the Liferay.PortletURL javascript stuff was going to change in 6.2. If memory serves, the change was that the pauth would not be present
 09:43 < jardineworks:#liferay> is that right?
+09:44 < topolik:#liferay> p_p_auth, yes
