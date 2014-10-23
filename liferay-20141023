@@ -72,3 +72,4 @@
 09:57 < topolik:#liferay> jardineworks: I'm back, let's continue
 09:57 < jardineworks:#liferay> awesome
 09:58 < jardineworks:#liferay> ok -- so I guess my question is, if I continue to use the Liferay.PortletURL js code, does that mean that my request might get rejected by the serve resource methods?
+10:05 < topolik:#liferay> yes, in case the portlet is not on the page
