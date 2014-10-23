@@ -77,3 +77,4 @@
 10:12 < jardineworks:#liferay> hmm.. but you are saying that I could possible grab the token from the window.Liferay.authToken and add it to the parameters?
 10:41 < topolik:#liferay> jardineworks: sure, that's the purpose of it
 10:41 < jardineworks:#liferay> ok cool -- thanks :)
+10:42 < jardineworks:#liferay> topolik, are you presenting at DevCon this year?
