@@ -71,3 +71,4 @@
 11:31 < waltercool:#liferay> jardineworks: a little question :P Using JSF, there is a method to validate Captcha?
 11:32 < jardineworks:#liferay> waltercool, awww sorry man, I don't know anything about JSF
 11:34 < waltercool:#liferay> awww :( Is pretty hard to findstuff about JSF, I only can find about JSP
+11:36 < jardineworks:#liferay> waltercool, I know. JSF is gaining support I think (the Liferay Faces specifically) but it's still "newish" I think. Best bet is to crawl the source... its open right :)
