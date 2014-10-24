@@ -95,3 +95,4 @@
 11:49 < waltercool:#liferay> yeah, I know :(
 11:50 < jardineworks:#liferay> so what I envision is... user sees the captcha... enters a value.. hits submit... action handler on the server receives the ActionRequest (which is a PortletRequest) and you use the CaptchaUtil.check( actionRequest ); and based on the result... take action.
 11:52 < waltercool:#liferay> I will make the try, I don't like a lot only client side validation
+11:52 < waltercool:#liferay> @jardineworks thank you
