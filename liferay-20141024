@@ -38,3 +38,4 @@
 11:00 < winem_:#liferay> now I found the real case. the dockbar disappears on the website as soon as I define a public or private url / virtual host
 11:00 < winem_:#liferay> is this the default behaviour from liferay?!
 11:00 < jardineworks:#liferay> :|
+11:01 < jardineworks:#liferay> should't be
