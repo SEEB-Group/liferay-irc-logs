@@ -56,3 +56,4 @@
 11:07 < jardineworks:#liferay> so it's probably that there is some custom css that is making it "disappear"
 11:07 < winem_:#liferay> you're the UI guy. I'm just the stupid ops guy :)
 11:07 < jardineworks:#liferay> can you see the dockbar code in the page source?
+11:07 < winem_:#liferay> I hope it's not... this is what I said from the beginning but all the developers told me that it's a server issue...
