@@ -40,3 +40,4 @@
 11:00 < jardineworks:#liferay> :|
 11:01 < jardineworks:#liferay> should't be
 11:01 < jardineworks:#liferay> I mean, if you are logged in, then you should see the dockbar and the content should be based on whatever permissions you have
+11:01 < winem_:#liferay> can reproduce this on 2 hosts using the liferay + jboss bundle
