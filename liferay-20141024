@@ -43,3 +43,4 @@
 11:01 < winem_:#liferay> can reproduce this on 2 hosts using the liferay + jboss bundle
 11:02 < jardineworks:#liferay> winem_, without any custom theme deployed?
 11:02 < winem_:#liferay> this is what I expect too. but the dockbar on the website itself is only shown if there is no page url defined in the site url settings
+11:02 < winem_:#liferay> with a custom theme... naaah... it's a circle of death
