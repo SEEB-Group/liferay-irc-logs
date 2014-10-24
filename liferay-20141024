@@ -79,3 +79,4 @@
 11:41 < jardineworks:#liferay> waltercool, what does CaptchaUtil.check() do?
 11:42 < jardineworks:#liferay> waltercool, the default class is SimpleCaptchaImpl... and the check method looks like it just checks the attempts :)
 11:44 < jardineworks:#liferay> waltercool, there is also a validateChallenge method
+11:44 < jardineworks:#liferay> 	protected boolean validateChallenge(HttpServletRequest request)
