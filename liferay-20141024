@@ -109,3 +109,4 @@
 12:53 < jardineworks:#liferay> in this case, the code is not there which means that the response object coming back to the browser doesn't have it .. which means the code that generates the page doesnt put it in the page.
 12:53 < jardineworks:#liferay> hmmm
 12:53 < jardineworks:#liferay> do you see #dockbar in the code?
+12:53 < jardineworks:#liferay> :)
