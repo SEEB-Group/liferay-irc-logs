@@ -87,3 +87,4 @@
 11:45 < jardineworks:#liferay> well,.. normally they'r overloaded.
 11:46 < jardineworks:#liferay> so you call it with PortletRequest and it will internally get the HttpServletRequest and call the other
 11:46 < jardineworks:#liferay> bottom line, it doesn;t matter
+11:46 < jardineworks:#liferay> :)
