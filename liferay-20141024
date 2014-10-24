@@ -34,3 +34,4 @@
 10:44 < winem_:#liferay> hey guys, I think about using liferay as portal server for small node.js applications. is it a good idea? looks like there are not so many out there using node.js portlets
 10:59 < jardineworks:#liferay> winem_, never done it -- but can't think of a reason why not too
 10:59 < winem_:#liferay> great, same about me
+11:00 < winem_:#liferay> but I have another (old) issue... the one with the missing dockbar where I spent a few hours per day
