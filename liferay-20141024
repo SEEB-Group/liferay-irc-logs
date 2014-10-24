@@ -29,3 +29,4 @@
 09:29 < douglascrp:#liferay> but I'm talking about the technology
 09:29 < douglascrp:#liferay> do you use jsp too?
 09:29 < jardineworks:#liferay> short of that, I think using the Liferay taglibs as much as possible would be a good start, but I think it takes practice to learn all the CSS that you need to override to make it look the way you want it to.
+09:30 < jardineworks:#liferay> douglascrp, I do -- although I am doing more and more JS with ajax call backs. Liferay 7 has some awesome road mapped features that are going to allow for SEO and stuff to be preserved while at the same time making the site rich and ajaxy :)
