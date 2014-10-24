@@ -89,3 +89,4 @@
 11:46 < jardineworks:#liferay> bottom line, it doesn;t matter
 11:46 < jardineworks:#liferay> :)
 11:47 < waltercool:#liferay> jardineworks: But I need to tell, that's the text used by the user, that's the captcha... compare it
+11:47 < waltercool:#liferay> Because the Liferay default implementation it's only a captcha text, no input dialog for that
