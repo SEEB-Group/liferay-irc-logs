@@ -90,3 +90,4 @@
 11:46 < jardineworks:#liferay> :)
 11:47 < waltercool:#liferay> jardineworks: But I need to tell, that's the text used by the user, that's the captcha... compare it
 11:47 < waltercool:#liferay> Because the Liferay default implementation it's only a captcha text, no input dialog for that
+11:47 < waltercool:#liferay> I can use a JSF tag to make the validation, but I can't take it into the ManagedBean
