@@ -117,3 +117,4 @@
 12:54 < jardineworks:#liferay> #if ($is_signed_in)
 12:54 < jardineworks:#liferay> 	#dockbar()
 12:54 < jardineworks:#liferay> #end
+12:54 < jardineworks:#liferay> but if the conditional was changed...
