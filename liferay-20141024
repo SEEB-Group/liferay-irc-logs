@@ -115,3 +115,5 @@
 12:54 < jardineworks:#liferay> with the brackets
 12:54 < jardineworks:#liferay> and also, check what is around it. by default its
 12:54 < jardineworks:#liferay> #if ($is_signed_in)
+12:54 < jardineworks:#liferay> 	#dockbar()
+12:54 < jardineworks:#liferay> #end
