@@ -74,3 +74,4 @@
 11:36 < jardineworks:#liferay> waltercool, I know. JSF is gaining support I think (the Liferay Faces specifically) but it's still "newish" I think. Best bet is to crawl the source... its open right :)
 11:38 < waltercool:#liferay> jardineworks: Yeah, but I was looking on the Captcha implementations, and I don't find lot of info
 11:39 < waltercool:#liferay> I just find a method to compare your captcha with an HttpRequest and a facesContext
+11:39 < jardineworks:#liferay> waltercool, there is a CaptchaUtil class that would probably do it for you
