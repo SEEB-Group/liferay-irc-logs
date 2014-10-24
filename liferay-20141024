@@ -118,3 +118,4 @@
 12:54 < jardineworks:#liferay> 	#dockbar()
 12:54 < jardineworks:#liferay> #end
 12:54 < jardineworks:#liferay> but if the conditional was changed...
+12:55 < jardineworks:#liferay> then it might never evaluate to true or something
