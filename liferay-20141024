@@ -35,3 +35,4 @@
 10:59 < jardineworks:#liferay> winem_, never done it -- but can't think of a reason why not too
 10:59 < winem_:#liferay> great, same about me
 11:00 < winem_:#liferay> but I have another (old) issue... the one with the missing dockbar where I spent a few hours per day
+11:00 < winem_:#liferay> now I found the real case. the dockbar disappears on the website as soon as I define a public or private url / virtual host
