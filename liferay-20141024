@@ -83,3 +83,4 @@
 11:44 < jardineworks:#liferay> specifically
 11:44 < waltercool:#liferay> jardineworks: Yeah, but I don't know what's I need to use as parameter on check(), there is a ... HttpServletRequest and a PortletRequest, that means, or I just use the current one?
 11:45 < jardineworks:#liferay> aha
+11:45 < jardineworks:#liferay> its the check
