@@ -28,3 +28,4 @@
 09:28 < jardineworks:#liferay> a front end guy that can bang out the HTML stuff in no time :)
 09:29 < douglascrp:#liferay> but I'm talking about the technology
 09:29 < douglascrp:#liferay> do you use jsp too?
+09:29 < jardineworks:#liferay> short of that, I think using the Liferay taglibs as much as possible would be a good start, but I think it takes practice to learn all the CSS that you need to override to make it look the way you want it to.
