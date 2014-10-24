@@ -75,3 +75,4 @@
 11:38 < waltercool:#liferay> jardineworks: Yeah, but I was looking on the Captcha implementations, and I don't find lot of info
 11:39 < waltercool:#liferay> I just find a method to compare your captcha with an HttpRequest and a facesContext
 11:39 < jardineworks:#liferay> waltercool, there is a CaptchaUtil class that would probably do it for you
+11:40 < waltercool:#liferay> Yeah, CaptchaUtil.getCatcha was the class to obtain the Captcha, but then, I can't find a method like captcha.compare(String)
