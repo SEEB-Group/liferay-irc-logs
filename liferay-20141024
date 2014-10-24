@@ -36,3 +36,4 @@
 10:59 < winem_:#liferay> great, same about me
 11:00 < winem_:#liferay> but I have another (old) issue... the one with the missing dockbar where I spent a few hours per day
 11:00 < winem_:#liferay> now I found the real case. the dockbar disappears on the website as soon as I define a public or private url / virtual host
+11:00 < winem_:#liferay> is this the default behaviour from liferay?!
