@@ -54,3 +54,4 @@
 11:06 < jardineworks:#liferay> but #dockbar just injects html from the velocity macro right?
 11:06 < winem_:#liferay> no, I have the dockbar when I choose one of the two default schemes from liferay
 11:07 < jardineworks:#liferay> so it's probably that there is some custom css that is making it "disappear"
+11:07 < winem_:#liferay> you're the UI guy. I'm just the stupid ops guy :)
