@@ -104,3 +104,4 @@
 12:51 < jardineworks:#liferay> so the dockbar is not rendered at all
 12:52 < winem_:#liferay> ok, so it's definitely a css issue?
 12:52 < jardineworks:#liferay> winem_, unlikely
+12:53 < jardineworks:#liferay> see if it was a css issue then I would expect the code to be there, but the tag that wraps it have a value set so that it is not visible (hidden).
