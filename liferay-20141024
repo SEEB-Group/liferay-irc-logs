@@ -52,3 +52,4 @@
 11:06 < jardineworks:#liferay> winem_, so you saw the same issue without any custom code applied?
 11:06 < winem_:#liferay> but all the themes include the #dockbar.. I'm so damn confused..
 11:06 < jardineworks:#liferay> but #dockbar just injects html from the velocity macro right?
+11:06 < winem_:#liferay> no, I have the dockbar when I choose one of the two default schemes from liferay
