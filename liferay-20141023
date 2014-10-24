@@ -84,3 +84,4 @@
 10:42 < jardineworks:#liferay> topolik, ?! I thought you did a pretty good job on that dev.life session :)
 10:44 < topolik:#liferay> thanks friend ;)
 21:53 < urug_:#liferay> Any straith forward way to get link to edit page of journal article in control panel with the knowledge of journal article ID??
+21:54 < urug_:#liferay> Something like ConentUtil.getConentControlePanelEditLink() ...
