@@ -92,3 +92,4 @@
 11:47 < waltercool:#liferay> Because the Liferay default implementation it's only a captcha text, no input dialog for that
 11:47 < waltercool:#liferay> I can use a JSF tag to make the validation, but I can't take it into the ManagedBean
 11:49 < jardineworks:#liferay> see-- this is where I start the blank stare because I don't know anything about JSF :)
+11:49 < waltercool:#liferay> yeah, I know :(
