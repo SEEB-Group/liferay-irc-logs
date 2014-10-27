@@ -42,3 +42,4 @@
 11:14 < jardineworks:#liferay> twen, it might now support those systems ... so you might have to write a web plugin to provide the implementation classes
 11:17 < twen:#liferay> hmmm... liferay has no CMIS connector, you mean ?
 11:25 < jardineworks:#liferay> twen, actually, that rings a bell
+11:26 < jardineworks:#liferay> twen -- It does
