@@ -69,3 +69,4 @@
 11:28 < jardineworks:#liferay>     dl.store.cmis.credentials.username=none
 11:28 < jardineworks:#liferay>     dl.store.cmis.credentials.password=none
 11:28 < jardineworks:#liferay>     dl.store.cmis.repository.url=http://localhost:8080/alfresco/service/api/cmis
+11:28 < jardineworks:#liferay>     dl.store.cmis.system.root.dir=Liferay Home
