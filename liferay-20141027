@@ -88,3 +88,4 @@
 11:47 < twen:#liferay> we have a bunch of photos need will store in Liferay (be cause link with alfresco isn't sufficient so we dissmissed alfresco)
 11:47 < twen:#liferay> so we need to access these photo remotely
 11:48 < twen:#liferay> mostly readonla, and in some case editing the EXIF metadata in the file
+11:50 < jardineworks:#liferay> twen, but you are not using Liferay to edit them or anything? you just want to use the Liferay API to retrieve them?
