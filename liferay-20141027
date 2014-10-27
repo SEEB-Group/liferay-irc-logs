@@ -26,3 +26,4 @@
 10:40 < jardineworks:#liferay> Contains: Dynamic Web Module 3.0 requires Java 1.6 or newer.
 10:40 < jardineworks:#liferay> looks like maybe your JVM is too old?
 10:41 < sm`:#liferay> C:\Windows\System32>java -version
+10:41 < sm`:#liferay> java version "1.8.0_25"
