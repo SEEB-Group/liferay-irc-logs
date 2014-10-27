@@ -87,3 +87,4 @@
 11:46 < twen:#liferay> well... not uploading document, but managing them, tagging, atc
 11:47 < twen:#liferay> we have a bunch of photos need will store in Liferay (be cause link with alfresco isn't sufficient so we dissmissed alfresco)
 11:47 < twen:#liferay> so we need to access these photo remotely
+11:48 < twen:#liferay> mostly readonla, and in some case editing the EXIF metadata in the file
