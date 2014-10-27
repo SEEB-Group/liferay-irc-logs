@@ -57,3 +57,4 @@
 11:27 < jardineworks:#liferay>     dl.store.impl=com.liferay.portlet.documentlibrary.store.FileSystemStore
 11:27 < jardineworks:#liferay>     #dl.store.impl=com.liferay.portlet.documentlibrary.store.JCRStore
 11:27 < jardineworks:#liferay>     #dl.store.impl=com.liferay.portlet.documentlibrary.store.S3Store
+11:27 < jardineworks:#liferay> so ...
