@@ -94,3 +94,5 @@
 11:57 < twen:#liferay> may be I may use the webDAV instead despite being slow :-/
 11:58 < twen:#liferay> the goal is from liferay to build a Digital Assets Repository, which is open to other tools (for management), but also retreival
 12:10 < twen:#liferay> I'll check webDAV tomorrow :) see ya
+15:04 < sm`:#liferay> still having this issue with creating a new theme project
+15:05 < sm`:#liferay> http://pastebin.com/unnvC8p8
