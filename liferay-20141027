@@ -54,3 +54,4 @@
 11:27 < twen:#liferay> we are building a 6.2 version
 11:27 < jardineworks:#liferay>     #dl.store.impl=com.liferay.portlet.documentlibrary.store.CMISStore
 11:27 < jardineworks:#liferay>     #dl.store.impl=com.liferay.portlet.documentlibrary.store.DBStore
+11:27 < jardineworks:#liferay>     dl.store.impl=com.liferay.portlet.documentlibrary.store.FileSystemStore
