@@ -98,3 +98,4 @@
 15:05 < sm`:#liferay> http://pastebin.com/unnvC8p8
 15:05 < sm`:#liferay> it occurs when i try to create ant+theme project
 15:05 < sm`:#liferay> ant+portlet works fine
+15:18 < sm`:#liferay> I set JRE 1.6 in java > compile preferences
