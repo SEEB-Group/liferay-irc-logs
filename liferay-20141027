@@ -71,3 +71,4 @@
 11:28 < jardineworks:#liferay>     dl.store.cmis.repository.url=http://localhost:8080/alfresco/service/api/cmis
 11:28 < jardineworks:#liferay>     dl.store.cmis.system.root.dir=Liferay Home
 11:28 < twen:#liferay> are you sure it's not for Liferay to connect to another repo with CMis ?
+11:28 < twen:#liferay> Well.. I'll try ^^
