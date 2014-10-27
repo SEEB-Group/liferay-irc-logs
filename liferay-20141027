@@ -45,3 +45,8 @@
 11:26 < jardineworks:#liferay> twen -- It does
 11:27 < jardineworks:#liferay> which version of Liferay are you using?
 11:27 < jardineworks:#liferay> in 6.2 I can see this in the portal.properties
+11:27 < jardineworks:#liferay>  #
+11:27 < jardineworks:#liferay>     # Set the name of a class that implements
+11:27 < jardineworks:#liferay>     # com.liferay.portlet.documentlibrary.store.Store. The
+11:27 < jardineworks:#liferay>     # document library server will use this to persist documents.
+11:27 < jardineworks:#liferay>     #
