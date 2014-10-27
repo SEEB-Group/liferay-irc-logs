@@ -91,3 +91,4 @@
 11:50 < jardineworks:#liferay> twen, but you are not using Liferay to edit them or anything? you just want to use the Liferay API to retrieve them?
 11:55 < twen:#liferay> we use liferay as normal
 11:56 < twen:#liferay> but for our photo team, Adobe Bridge is a very good tool to manage the photo. As it can display out of the box the necessary info.... Liferay can't nicely. Using the Adobe Drive, it can connect to any CMIS repo... I thought of connecting that tool to Liferay using CMIS... But it can't
+11:57 < twen:#liferay> may be I may use the webDAV instead despite being slow :-/
