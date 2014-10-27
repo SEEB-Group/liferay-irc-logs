@@ -72,3 +72,4 @@
 11:28 < jardineworks:#liferay>     dl.store.cmis.system.root.dir=Liferay Home
 11:28 < twen:#liferay> are you sure it's not for Liferay to connect to another repo with CMis ?
 11:28 < twen:#liferay> Well.. I'll try ^^
+11:29 < jardineworks:#liferay> dl.store -- to me means Document Library for storage operations
