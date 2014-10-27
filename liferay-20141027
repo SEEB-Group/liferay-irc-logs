@@ -64,3 +64,7 @@
 11:28 < jardineworks:#liferay> and
 11:28 < jardineworks:#liferay> these (with your settings)
 11:28 < jardineworks:#liferay>     #
+11:28 < jardineworks:#liferay>     # CMISStore
+11:28 < jardineworks:#liferay>     #
+11:28 < jardineworks:#liferay>     dl.store.cmis.credentials.username=none
+11:28 < jardineworks:#liferay>     dl.store.cmis.credentials.password=none
