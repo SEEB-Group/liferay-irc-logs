@@ -50,3 +50,4 @@
 11:27 < jardineworks:#liferay>     # com.liferay.portlet.documentlibrary.store.Store. The
 11:27 < jardineworks:#liferay>     # document library server will use this to persist documents.
 11:27 < jardineworks:#liferay>     #
+11:27 < jardineworks:#liferay>     #dl.store.impl=com.liferay.portlet.documentlibrary.store.AdvancedFileSystemStore
