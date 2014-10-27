@@ -100,3 +100,4 @@
 15:05 < sm`:#liferay> ant+portlet works fine
 15:18 < sm`:#liferay> I set JRE 1.6 in java > compile preferences
 15:18 < sm`:#liferay> and now it works
+15:19 < sm`:#liferay> i doesnt work with jre 1.7 or jre 1.8
