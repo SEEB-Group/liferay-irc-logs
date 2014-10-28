@@ -14,3 +14,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 03:54 < twen:#liferay> o/
 09:29 < jardineworks:#liferay> hey topolik -- I don't see any settings for encoding scheme for LDAP in Liferay. I read that LDAP v3 defaults to utf-8, which is what I need. Do you know what version of LDAP Liferay uses?
+19:45 < clovisw:#liferay> hi, anyone have experience about deploy liferay using AWS Elastic Beanstalk ?
