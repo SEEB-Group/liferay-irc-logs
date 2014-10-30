@@ -62,3 +62,4 @@
 10:54 < winem_:#liferay> because grep adds a linebreak at the end of the line
 10:54 < winem_:#liferay> the output of a simple ps leaves your screen on the right side
 10:55 < winem_:#liferay> otherwise use grep --color
+10:55 < winem_:#liferay> then it's colourful
