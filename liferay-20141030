@@ -44,3 +44,4 @@
 10:40 < jardineworks:#liferay> winem_, calling in that Linux question favour :)
 10:41 < jardineworks:#liferay> winem_, is there a command that will show me whether or not the process is running, but also what time the process started?
 10:45 < winem_:#liferay> hey :)
+10:45 < winem_:#liferay> ps auxf gives you a tree view of all running processes
