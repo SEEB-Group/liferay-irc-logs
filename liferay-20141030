@@ -37,3 +37,4 @@
 09:18 < Axxell:#liferay> it takes about 200s to restart,
 09:27 < sm`:#liferay> well im not sure if that will fix the problem cuz my portlet runs fine
 09:27 < sm`:#liferay> except for this action
+09:30 < Axxell:#liferay> well actually here the portlet runs fine also when not accessing the service, when doing that it says: com.liferay.portal.kernel.messaging.MessageListenerException: java.lang.ClassCastException: xxxx.model.impl.xxxxImpl cannot be cast to xxxx.model.xxxxAdress
