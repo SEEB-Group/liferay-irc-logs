@@ -14,3 +14,4 @@
 05:28 < Axxell:#liferay> jesus my bloodpressure got pretty high, when both of my "production"servers went down at the same time, came here for advice but fixed it on my own.. server1 bug in my fine little app corrupted reindexing, server2: unknown to me the CAS server was updated and moved
 06:35 < sm`:#liferay> morning everyone
 06:35 < sm`:#liferay> im trying to save photo uploaded by user
+06:36 < sm`:#liferay> and it works fine on my local machine and the dev env
