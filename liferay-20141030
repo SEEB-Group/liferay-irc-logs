@@ -51,3 +51,4 @@
 10:48 < winem_:#liferay> ok, do you need the time when it starts
 10:50 < jardineworks:#liferay> winem_, if possible
 10:50 < jardineworks:#liferay> trying to validate whether or not a cron job worked last night
+10:50 < winem_:#liferay> ps -exu should work
