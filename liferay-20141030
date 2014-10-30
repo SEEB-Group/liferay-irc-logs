@@ -48,3 +48,4 @@
 10:47 < jardineworks:#liferay> winem_, hmm... I usaully use ps aux | grep liferay to isolate the process, but I don't see anything in the results that would indicate what date/time the process started.
 10:47 < jardineworks:#liferay> I can see Oct29
 10:48 < jardineworks:#liferay> 56:30 ... but the 56:30 keeps changing
+10:48 < winem_:#liferay> ok, do you need the time when it starts
