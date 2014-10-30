@@ -34,3 +34,4 @@
 09:14 < Axxell:#liferay> there are some who talk about puting the service in the lib folder, but that doesnt help
 09:15 < Axxell:#liferay> so long story short, nothing i can do about it when not using EE
 09:17 < Axxell:#liferay> so everytime i update that specific portlet my site says "updating, please try again later" :) and after i restart lfieray the portlet works again
+09:18 < Axxell:#liferay> it takes about 200s to restart,
