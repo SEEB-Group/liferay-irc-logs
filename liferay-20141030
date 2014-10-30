@@ -28,3 +28,5 @@
 08:22 < sm`:#liferay> you always restart your server when you deploy new version of any portlet using SB?
 08:22 < sm`:#liferay> id want to find a better solution
 08:23 < sm`:#liferay> we cant afford downtime here :)
+09:13 < Axxell:#liferay> yeah, didnt find any solution to the problem with the can not cast with servicebuilder, people talked about just doing a new portlet in eclipse and it would fix itself
+09:13 < Axxell:#liferay> but that didnt help
