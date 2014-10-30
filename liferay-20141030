@@ -89,3 +89,4 @@
 11:12 < sm`1:#liferay> :)
 11:12 < jardineworks:#liferay> I want to see all processes started by user "liferay" with the particualr goal of seeing the date/time that the process was started.
 11:13 < sm`1:#liferay> all processes started atm?
+11:13 < jardineworks:#liferay> trying to validate that the cron job runs as expected at midnight to automatically reboot the server... in which case the ps output should show Oct 30 00:00 or something like that
