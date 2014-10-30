@@ -46,3 +46,4 @@
 10:45 < winem_:#liferay> hey :)
 10:45 < winem_:#liferay> ps auxf gives you a tree view of all running processes
 10:47 < jardineworks:#liferay> winem_, hmm... I usaully use ps aux | grep liferay to isolate the process, but I don't see anything in the results that would indicate what date/time the process started.
+10:47 < jardineworks:#liferay> I can see Oct29
