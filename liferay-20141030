@@ -68,3 +68,4 @@
 10:58 < winem_:#liferay> yes
 10:58 < winem_:#liferay> ps exua shows all processes
 11:03 < jardineworks:#liferay> can you look up processes for another user? (without having to grep them)
+11:04 < jardineworks:#liferay> like ps exu but for user liferay instead of use ajardin1 :)
