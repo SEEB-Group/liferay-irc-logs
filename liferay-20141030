@@ -100,3 +100,4 @@
 11:17 < sm`1:#liferay> ps -eo cmd,etime | grep liferay
 11:17 < sm`1:#liferay> should give you the liferay jobs atm
 11:18 < sm`1:#liferay> what linux distro are you running?
+11:27 < jardineworks:#liferay> sm`1, Ubuntu 12.04 LTS
