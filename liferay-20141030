@@ -36,3 +36,4 @@
 09:17 < Axxell:#liferay> so everytime i update that specific portlet my site says "updating, please try again later" :) and after i restart lfieray the portlet works again
 09:18 < Axxell:#liferay> it takes about 200s to restart,
 09:27 < sm`:#liferay> well im not sure if that will fix the problem cuz my portlet runs fine
+09:27 < sm`:#liferay> except for this action
