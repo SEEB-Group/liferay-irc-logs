@@ -52,3 +52,4 @@
 10:50 < jardineworks:#liferay> winem_, if possible
 10:50 < jardineworks:#liferay> trying to validate whether or not a cron job worked last night
 10:50 < winem_:#liferay> ps -exu should work
+10:50 < winem_:#liferay> it gives the date and time when the process has been started
