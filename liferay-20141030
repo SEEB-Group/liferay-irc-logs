@@ -40,3 +40,4 @@
 09:30 < Axxell:#liferay> well actually here the portlet runs fine also when not accessing the service, when doing that it says: com.liferay.portal.kernel.messaging.MessageListenerException: java.lang.ClassCastException: xxxx.model.impl.xxxxImpl cannot be cast to xxxx.model.xxxxAdress
 09:30 < Axxell:#liferay> and more of the same
 09:31 < Axxell:#liferay> well of to the gym and then its one day of vacation time for me
+10:33 < bwood:#liferay> So I hear AlloyUI 3.0 was released, it's of no use to Liferay Portal correct?
