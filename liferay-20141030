@@ -16,3 +16,4 @@
 06:35 < sm`:#liferay> im trying to save photo uploaded by user
 06:36 < sm`:#liferay> and it works fine on my local machine and the dev env
 06:36 < sm`:#liferay> liferay 6.1 CE and 6.1 EE respectivly
+06:36 < sm`:#liferay> but it doent work on teh preprod
