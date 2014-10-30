@@ -67,3 +67,4 @@
 10:56 < jardineworks:#liferay> winem_, ps exu only shows processes for my user though right?
 10:58 < winem_:#liferay> yes
 10:58 < winem_:#liferay> ps exua shows all processes
+11:03 < jardineworks:#liferay> can you look up processes for another user? (without having to grep them)
