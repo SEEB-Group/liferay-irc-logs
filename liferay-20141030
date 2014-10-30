@@ -66,3 +66,4 @@
 10:55 < jardineworks:#liferay> oh I see
 10:56 < jardineworks:#liferay> winem_, ps exu only shows processes for my user though right?
 10:58 < winem_:#liferay> yes
+10:58 < winem_:#liferay> ps exua shows all processes
