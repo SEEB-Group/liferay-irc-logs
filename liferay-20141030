@@ -87,3 +87,4 @@
 11:10 < jardineworks:#liferay> and the other ones (for ajardin1) show a start time from this morning 10:00 .. whcih is probably right... but a TIME value of 00:00
 11:12 < sm`1:#liferay> what are you trying to achive jardineworks ?
 11:12 < sm`1:#liferay> :)
+11:12 < jardineworks:#liferay> I want to see all processes started by user "liferay" with the particualr goal of seeing the date/time that the process was started.
