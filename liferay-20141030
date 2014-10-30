@@ -30,3 +30,4 @@
 08:23 < sm`:#liferay> we cant afford downtime here :)
 09:13 < Axxell:#liferay> yeah, didnt find any solution to the problem with the can not cast with servicebuilder, people talked about just doing a new portlet in eclipse and it would fix itself
 09:13 < Axxell:#liferay> but that didnt help
+09:14 < Axxell:#liferay> so people do experience that specific problem with liferay 6.2 when using servicbuilder with many to many releationsships
