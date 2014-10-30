@@ -22,3 +22,5 @@
 06:37 < sm`:#liferay> until then does anyone have a clue
 06:37 < sm`:#liferay> heres the isolated line that throws the 'cant cast' exception
 06:37 < sm`:#liferay> http://pastebin.com/VnAtntfZ
+08:19 < Axxell:#liferay> sm: reminds me a bit of the "can not be cast" which i get with service builder when i deploy a new version of a portlet using the service builder...
+08:20 < Axxell:#liferay> sm: only a restart helps there
