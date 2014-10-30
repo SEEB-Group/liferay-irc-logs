@@ -56,3 +56,4 @@
 10:51 < jardineworks:#liferay> holy moly
 10:51 < jardineworks:#liferay> lol
 10:51 < winem_:#liferay> ps exu works, forget the dash
+10:53 < jardineworks:#liferay> winem_, interesting... when I do ps exu | grep liferay -- I get a whole PILE of output... when I do ps exu with no trailing grep.. I get something much cleaner
