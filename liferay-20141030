@@ -93,3 +93,4 @@
 11:14 < winem_:#liferay> you should get this info from the messages log e.g. in /var/log too
 11:14 < sm`1:#liferay> id add some logging on the cronjob
 11:14 < sm`1:#liferay> and yeah there should be a cron log
+11:14 < sm`1:#liferay> on teh system
