@@ -58,3 +58,4 @@
 10:51 < winem_:#liferay> ps exu works, forget the dash
 10:53 < jardineworks:#liferay> winem_, interesting... when I do ps exu | grep liferay -- I get a whole PILE of output... when I do ps exu with no trailing grep.. I get something much cleaner
 10:54 < jardineworks:#liferay> what's the difference? I don't actaully see liferay in the output of ps exu ... so where does grp find it?
+10:54 < jardineworks:#liferay> grep*
