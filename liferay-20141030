@@ -105,3 +105,5 @@
 11:29 < sm`1:#liferay> look in /var/log/syslog
 11:29 < sm`1:#liferay> not 100% sure but i think the cron logs should be there
 11:39 < jardineworks:#liferay> sm`1, I'll give that a shot this afternoon. for the moment I simply checked todays liferay log and I don't see any of the usual lines that are output during shutdown or startup so I don't think it was done.
+13:49 < urug_:#liferay> Hi, from a certain time, displaying asset detail in asset publisher is not working. (page url looks like this  /-/asset_publisher/NqaVobJd3810/content/asset-title). The asset publisher doesn't react on this url in any way. But it's not working only at our production server, on my devel server it's still working fine. There are no errors in the log, or JS errors in the page. Any ideas what
+13:49 < urug_:#liferay> could go wrong?
