@@ -102,3 +102,4 @@
 11:18 < sm`1:#liferay> what linux distro are you running?
 11:27 < jardineworks:#liferay> sm`1, Ubuntu 12.04 LTS
 11:27 < jardineworks:#liferay> winem_, cron job just restarts liferay every day at midnight
+11:29 < sm`1:#liferay> look in /var/log/syslog
