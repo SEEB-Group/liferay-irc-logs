@@ -31,3 +31,4 @@
 11:55 < douglascrp:#liferay> I'm using aui:input
 11:56 < douglascrp:#liferay> trying your suggestion now
 11:56 < douglascrp:#liferay> jardineworks, am I wrong to assume that if I define <hint name="display-height">75</hint>
+11:56 < douglascrp:#liferay> 		<hint name="display-width">500</hint> I should get a text-area field instead of a text input?
