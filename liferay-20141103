@@ -60,3 +60,4 @@
 12:02 < douglascrp:#liferay> I'm using git to control source changes, and if I change anything into the hints file and rebuild it, I see all the changes
 12:02 < douglascrp:#liferay> but when it comes to ui, I see nothing different
 12:03 < jardineworks:#liferay> server jsp cache maybe?
+12:04 < douglascrp:#liferay> good... let me try to clean everything
