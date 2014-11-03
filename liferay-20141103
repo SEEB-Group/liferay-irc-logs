@@ -52,3 +52,4 @@
 11:59 < douglascrp:#liferay> weird sentence
 12:00 < jardineworks:#liferay> looks correct :)
 12:00 < jardineworks:#liferay> any chance you have a css style that is overriding the hint?
+12:00 < douglascrp:#liferay> <aui:input label="Eixo Estratégico" name="eixoEstrategico" value='<%=projeto == null ? "" : projeto.getEixoEstrategico()%>' />
