@@ -57,3 +57,4 @@
 12:01 < douglascrp:#liferay> no... I don't have any custom css
 12:01 < jardineworks:#liferay> douglascrp, not sure to be honest. I've never actually used model hints for display -- only ever to alter db column sizes and such.
 12:02 < douglascrp:#liferay> jardineworks, that part works correctly
+12:02 < douglascrp:#liferay> I'm using git to control source changes, and if I change anything into the hints file and rebuild it, I see all the changes
