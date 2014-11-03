@@ -27,3 +27,4 @@
 11:54 < jardineworks:#liferay> douglascrp, did you try doing a mvn clean and then a mvn liferay:build-service?
 11:54 < douglascrp:#liferay> only using liferay ide, on eclipse
 11:55 < douglascrp:#liferay> but let me try again using shell
+11:55 < douglascrp:#liferay> when I run run build service, I see it changes the classes where columns' sizes are defined, but I don't see any difference on html forms
