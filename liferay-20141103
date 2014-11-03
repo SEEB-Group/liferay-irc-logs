@@ -62,3 +62,4 @@
 12:03 < jardineworks:#liferay> server jsp cache maybe?
 12:04 < douglascrp:#liferay> good... let me try to clean everything
 12:18 < douglascrp:#liferay> as the last option, I'm going to change everything from input to text area
+12:18 < douglascrp:#liferay> at least all the fields I need to be textarea
