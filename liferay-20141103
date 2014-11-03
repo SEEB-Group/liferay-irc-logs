@@ -38,3 +38,4 @@
 11:57 < douglascrp:#liferay> 		<hint name="display-width">500</hint>
 11:57 < douglascrp:#liferay> 		<hint name="max-length">4000</hint>
 11:57 < douglascrp:#liferay> 		<hint name="editor">false</hint>
+11:57 < douglascrp:#liferay> 	</hint-collection>
