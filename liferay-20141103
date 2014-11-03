@@ -45,3 +45,5 @@
 11:58 < jardineworks:#liferay> 			<hint-collection name="TEXTAREA" />
 11:59 < jardineworks:#liferay> 		</field>
 11:59 < douglascrp:#liferay> <field name="eixoEstrategico" type="String">
+11:59 < douglascrp:#liferay> 			<hint-collection name="TEXTAREA" />
+11:59 < douglascrp:#liferay> 		</field>
