@@ -26,3 +26,4 @@
 11:40 < douglascrp:#liferay> all I get are text inputs... no text area at all
 11:54 < jardineworks:#liferay> douglascrp, did you try doing a mvn clean and then a mvn liferay:build-service?
 11:54 < douglascrp:#liferay> only using liferay ide, on eclipse
+11:55 < douglascrp:#liferay> but let me try again using shell
