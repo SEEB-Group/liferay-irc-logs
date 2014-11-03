@@ -42,3 +42,5 @@
 11:58 < jardineworks:#liferay> and then show me the field where you apply it
 11:58 < jardineworks:#liferay> something like --
 11:58 < jardineworks:#liferay> 		<field name="description" type="String">
+11:58 < jardineworks:#liferay> 			<hint-collection name="TEXTAREA" />
+11:59 < jardineworks:#liferay> 		</field>
