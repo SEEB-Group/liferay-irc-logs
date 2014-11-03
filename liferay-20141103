@@ -23,3 +23,4 @@
 11:25 < jardineworks:#liferay> the 5th?
 11:39 < douglascrp:#liferay> hello
 11:39 < douglascrp:#liferay> I'm trying to use portlet-model-hints.xml to try to let liferay generate the right form's inputs, but it seems it's ignoring all the config I create
+11:40 < douglascrp:#liferay> all I get are text inputs... no text area at all
