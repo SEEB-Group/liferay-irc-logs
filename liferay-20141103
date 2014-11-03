@@ -34,3 +34,7 @@
 11:56 < douglascrp:#liferay> 		<hint name="display-width">500</hint> I should get a text-area field instead of a text input?
 11:57 < douglascrp:#liferay> jardineworks, this is my full definition
 11:57 < douglascrp:#liferay> <hint-collection name="TEXTAREA">
+11:57 < douglascrp:#liferay> 		<hint name="display-height">130</hint>
+11:57 < douglascrp:#liferay> 		<hint name="display-width">500</hint>
+11:57 < douglascrp:#liferay> 		<hint name="max-length">4000</hint>
+11:57 < douglascrp:#liferay> 		<hint name="editor">false</hint>
