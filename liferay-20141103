@@ -41,3 +41,4 @@
 11:57 < douglascrp:#liferay> 	</hint-collection>
 11:58 < jardineworks:#liferay> and then show me the field where you apply it
 11:58 < jardineworks:#liferay> something like --
+11:58 < jardineworks:#liferay> 		<field name="description" type="String">
