@@ -17,3 +17,5 @@
 05:33 <@jhf:#liferay> we are LIVE from Germany and DevCon! http://liferay.com/community/dev.life/home
 09:02 -!- mode/#liferay [+o jhf] by ChanServ
 09:11 < rrapozo:#liferay> helo all. Someone understand about ajax in liferay?
+13:24 < bijoo_:#liferay> Seems liferay Docs are password-protected : https://docs.liferay.com/portal/6.2/javadocs/com/liferay/portal/model/Company.html
+13:25 < bijoo_:#liferay> I'm sure it didn't use to be like that
