@@ -12,3 +12,4 @@
 03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:22 -!- Irssi: Join to #liferay was synced in 6 secs
 11:54 < dave_k:#liferay> Meh ... I keep getting a NullPointerException while upgrading from 6.1 CE to 6.2 CE... how can I debug this?
+12:41 < dave_k:#liferay> okay, I found it ... DLFILEENTRY.extension had some NULL values. I just needed to put a file extension string there.
