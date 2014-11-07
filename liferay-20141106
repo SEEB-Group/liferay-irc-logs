@@ -14,3 +14,4 @@
 11:54 < dave_k:#liferay> Meh ... I keep getting a NullPointerException while upgrading from 6.1 CE to 6.2 CE... how can I debug this?
 12:41 < dave_k:#liferay> okay, I found it ... DLFILEENTRY.extension had some NULL values. I just needed to put a file extension string there.
 14:11 < avaia:#liferay> I am using ImageMagick for thumbnail generation.  I've set limits under the "Resource Limits" section under external services, but they don't seem to be taking affect, even after restarting tomcat.  Is there somewhere else I can tell ImageMagick not to creat 15G temp files? ><
+--- Log closed Fri Nov 07 00:00:52 2014
