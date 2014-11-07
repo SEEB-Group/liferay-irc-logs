@@ -16,3 +16,4 @@
 05:17 < modd_:#liferay> hi
 18:41 < g33kyboi:#liferay> Hello
 18:44 < g33kyboi:#liferay> am trying to create a struts portlet action and I am following the tutorial on Liferay site (liferay 6.2). When I click on the sign in button I always get this error: "ERROR [RuntimePageImpl-3][PortletRequestProcessor:466] Forward does not exist"
+18:45 < g33kyboi:#liferay> What I am trying to do is to override login strut action
