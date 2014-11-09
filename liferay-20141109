@@ -23,3 +23,4 @@
 11:51 < gogamoga:#liferay> here how it goes:
 11:52 < gogamoga:#liferay> xsl web-content template does some magic (reading cookies mostly)
 11:52 < gogamoga:#liferay> i set cookies with javascript
+11:53 < gogamoga:#liferay> now the nasty thing is, if the user is logged into liferay, everything works fine, when i change the cookie and reload the page, xslt sees it properly
