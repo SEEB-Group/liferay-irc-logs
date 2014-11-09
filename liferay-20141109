@@ -22,3 +22,4 @@
 11:51 < gogamoga:#liferay> the issue i am experiencing is related to *httpservletrequest caching*
 11:51 < gogamoga:#liferay> here how it goes:
 11:52 < gogamoga:#liferay> xsl web-content template does some magic (reading cookies mostly)
+11:52 < gogamoga:#liferay> i set cookies with javascript
