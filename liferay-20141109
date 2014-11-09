@@ -30,3 +30,4 @@
 11:54 < gogamoga:#liferay> when i set cookie with JS on this page, (for anonymous user), the template does not see the cookie at all
 11:54 < gogamoga:#liferay> the only way to make the template see the cookie is doing nasty trick: host/test-page?some-random-stuff
 11:54 < gogamoga:#liferay> only then the cookie goes through
+11:55 < gogamoga:#liferay> and only for this random query string
