@@ -32,3 +32,4 @@
 11:54 < gogamoga:#liferay> only then the cookie goes through
 11:55 < gogamoga:#liferay> and only for this random query string
 11:55 < gogamoga:#liferay> if i go back to host/test-page it goes back to being blind again
+11:55 < gogamoga:#liferay> is there a way to force the request not to cache this stuff?
