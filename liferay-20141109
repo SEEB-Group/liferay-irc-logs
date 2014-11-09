@@ -13,3 +13,4 @@
 11:04 < Jadobi:#liferay> Hi, i added a Web Content Displayed Portlet to a public site. But when a guest visits the page the portlet got not displayed. The Premission is set to view for guest uers. I use 6.2.1 CE GA2.
 11:05 < Jadobi:#liferay> why is this not working?
 11:05 < Jadobi:#liferay> Other Portlets show up
+11:08 < Jadobi:#liferay> ooh ok i found this issue https://issues.liferay.com/browse/LPS-43427 :-(
