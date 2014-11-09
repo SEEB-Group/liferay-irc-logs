@@ -31,3 +31,4 @@
 11:54 < gogamoga:#liferay> the only way to make the template see the cookie is doing nasty trick: host/test-page?some-random-stuff
 11:54 < gogamoga:#liferay> only then the cookie goes through
 11:55 < gogamoga:#liferay> and only for this random query string
+11:55 < gogamoga:#liferay> if i go back to host/test-page it goes back to being blind again
