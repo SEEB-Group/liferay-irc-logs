@@ -46,3 +46,4 @@
 13:12 < Jadobi:#liferay> any idea?
 13:12 < modd:#liferay> moment
 13:14 < modd:#liferay> did you set journal.article.view.permission.check.enabled=true?
+13:15 < Jadobi:#liferay> in my portal-ext.properties  no
