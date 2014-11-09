@@ -52,3 +52,4 @@
 13:16 < modd:#liferay> if it does not work, you could try to create an extension do the following changes: https://github.com/epgarcia/liferay-portal/commit/742e7cb2a8e5f472036d323789c6b3aad00e8773 + https://github.com/epgarcia/liferay-portal/commit/51cdd6baf7c8b2a9f1560037171e46b7b0ef3c06
 13:16 < modd:#liferay> that's all I can do for now
 13:16 < modd:#liferay> +to
+13:18 < modd:#liferay> or follows this comment: "This issue is reproducible only if the first web content in the site is created through Site Admin > Content > Web Content. The moment a web content is created through the Web Content Display > Add option, all contents (including those previously created through Site Admin > Content > Web Content) are visible for guest users."
