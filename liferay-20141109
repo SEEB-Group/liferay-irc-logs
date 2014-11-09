@@ -35,3 +35,4 @@
 11:55 < gogamoga:#liferay> is there a way to force the request not to cache this stuff?
 11:55 < gogamoga:#liferay> (the template [ ] cacheable checkbox is unticked!)
 11:56 < gogamoga:#liferay> appreciate any info
+12:07 < gogamoga:#liferay> oh, forgot to mention, liferay 6.1.1
