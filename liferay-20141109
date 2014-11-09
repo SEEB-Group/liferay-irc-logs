@@ -45,3 +45,4 @@
 13:07 < Jadobi:#liferay> Ok the issue got fixed for 7.0.0 M1. Is there a way to see which classes got fixed???
 13:12 < Jadobi:#liferay> any idea?
 13:12 < modd:#liferay> moment
+13:14 < modd:#liferay> did you set journal.article.view.permission.check.enabled=true?
