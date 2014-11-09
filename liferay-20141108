@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 17:52 < Jadobi:#liferay> Hi, i'm using Liferay Portal 6.2.1 CE and i try to organize users in the portal. I use CAS for SSO with LDAP import. This works fine the users and the groups get imported. But now i stuck, how can i add the groups created from LDAP-Import to organisations or sites?
 18:14 < Jadobi1:#liferay> Can someone give me a hint? ... i cannot add all users manually to a organization
+--- Log closed Sun Nov 09 00:00:19 2014
