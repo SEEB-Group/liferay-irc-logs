@@ -26,3 +26,4 @@
 11:53 < gogamoga:#liferay> now the nasty thing is, if the user is logged into liferay, everything works fine, when i change the cookie and reload the page, xslt sees it properly
 11:53 < gogamoga:#liferay> the different case when the user is not logged in
 11:53 < gogamoga:#liferay> cookies seem to not go through at all
+11:53 < gogamoga:#liferay> suppose, i have a dummy url: host/test-page
