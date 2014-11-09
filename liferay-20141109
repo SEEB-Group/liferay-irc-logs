@@ -54,3 +54,4 @@
 13:16 < modd:#liferay> +to
 13:18 < modd:#liferay> or follows this comment: "This issue is reproducible only if the first web content in the site is created through Site Admin > Content > Web Content. The moment a web content is created through the Web Content Display > Add option, all contents (including those previously created through Site Admin > Content > Web Content) are visible for guest users."
 13:18 < modd:#liferay> hope it will help to fix your problem :)
+13:19 < Jadobi:#liferay> I have created the content from the Web Content Display Portlet ... but i hope the config works
