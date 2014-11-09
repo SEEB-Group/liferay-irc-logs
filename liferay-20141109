@@ -43,3 +43,4 @@
 13:07 < Jadobi:#liferay> Other Portlets show up. I found this issue https://issues.liferay.com/browse/LPS-43427
 13:07 < Jadobi:#liferay> Can i fix this with an ext-plugin?
 13:07 < Jadobi:#liferay> Ok the issue got fixed for 7.0.0 M1. Is there a way to see which classes got fixed???
+13:12 < Jadobi:#liferay> any idea?
