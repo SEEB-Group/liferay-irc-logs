@@ -14,3 +14,4 @@
 11:05 < Jadobi:#liferay> why is this not working?
 11:05 < Jadobi:#liferay> Other Portlets show up
 11:08 < Jadobi:#liferay> ooh ok i found this issue https://issues.liferay.com/browse/LPS-43427 :-(
+11:09 < Jadobi:#liferay> Can i fix this with an ext-plugin ...
