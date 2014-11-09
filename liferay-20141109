@@ -19,3 +19,4 @@
 11:39 < Jadobi:#liferay> Ok the issue got fixed for 7.0.0 M1. Is there a way to see which classes got fixed???
 11:50 < gogamoga:#liferay> hoi
 11:50 < gogamoga:#liferay> i need someone to point me in the right direction
+11:51 < gogamoga:#liferay> the issue i am experiencing is related to *httpservletrequest caching*
