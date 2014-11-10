@@ -14,3 +14,4 @@
 10:42 < Tar-Minyatur:#liferay> Hi there. Anyone around who knows if Liferay offers any way to access admin panel portlets aside from /group/control_panel/manage/...?
 10:44 < Tar-Minyatur:#liferay> Our live system prevents access to this URL, but we have a weird situation where somebody appears to have managed to "hack" into the system.
 10:44 < Tar-Minyatur:#liferay> So I wonder if there might be another way to execute "admin commands".
+10:44 < jardineworks:#liferay> Tar-Minyatur, what about through the JSON service interface?
