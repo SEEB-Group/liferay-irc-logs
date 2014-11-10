@@ -30,3 +30,4 @@
 10:48 < Tar-Minyatur:#liferay> Lemme check the access logs. If someone was meddling there, it should be easy to find.
 10:48 < jardineworks:#liferay> Tar-Minyatur, try going to http://[server]:[port]/api/jsonws/
 10:49 < jardineworks:#liferay> see if it is exposed to the outside world
+10:50 < modd:#liferay> jhf: damn, I forgot my certified dev cup..
