@@ -26,3 +26,4 @@
 10:47 < Tar-Minyatur:#liferay> No, we haven't blocked it.
 10:47 < Tar-Minyatur:#liferay> Does Service Builder automatically generate webservices for custom entities?
 10:47 < jardineworks:#liferay> not sure
+10:48 < jardineworks:#liferay> but I know that the core entities have it OOTB
