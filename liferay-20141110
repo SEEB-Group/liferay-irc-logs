@@ -38,3 +38,4 @@
 10:53 < Tar-Minyatur:#liferay> And I'm not even 100% sure that we don't need it somewhere.
 10:54 < jardineworks:#liferay> Tar-Minyatur, do a quick code scan -- just try to find base on  a */api/json*
 10:54 < Tar-Minyatur:#liferay> I would have to scan all web content templates as well...
+10:55 < jardineworks:#liferay> Tar-Minyatur, true.
