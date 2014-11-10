@@ -45,3 +45,4 @@
 10:57 < modd_:#liferay> %$&§ router...
 10:59 < Tar-Minyatur:#liferay> Mhm. In the access logs I can't see any requests to /api/ other than those to our webservice.
 11:00 < Tar-Minyatur:#liferay> I found some very shifty looking requests in the access logs. Stuff with "create_anonymous_account" in the url. Sure looked like somebody was trying to get in using some kind of bug/feature I don't know of.
+11:02 < jardineworks:#liferay> Tar-Minyatur, have a look at the issues.liferay.com for new security tickets.
