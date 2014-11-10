@@ -22,3 +22,4 @@
 10:46 < Tar-Minyatur:#liferay> Anyway...we have a bunch of custom entities with an admin portlet to manage them.
 10:46 < Tar-Minyatur:#liferay> One of the entity tables was almost wiped.
 10:46 < jardineworks:#liferay> have you guys blocked the api/json url?
+10:46 < Tar-Minyatur:#liferay> And another one contains only 10% of the content it should be.
