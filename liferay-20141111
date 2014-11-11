@@ -17,3 +17,4 @@
 06:33 < sm`:#liferay> the same code sometimes work
 06:33 < sm`:#liferay> most of the time*
 06:33 < sm`:#liferay> the web.xml is fine
+08:46 < topolik:#liferay> sm`: in case you return, I guess the 2nd condition is wrong, it should be: if (bp.getEmail() != null && !bp.getEmail().isEmpty()) ...
