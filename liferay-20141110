@@ -79,3 +79,4 @@
 18:45 < gogamoga:#liferay> its mentioned here, but its ugly solution (and it does not work)
 18:46 < gogamoga:#liferay> i am doing lots of magic in xsl template but i am already exhausted looking for a way to read live servletrequest
 18:47 < gogamoga:#liferay> event portal.getOriginalServletRequest which returns org.apache.catalina.core.ApplicationHttpRequest object is still cached
+19:24 < gogamoga:#liferay> :(
