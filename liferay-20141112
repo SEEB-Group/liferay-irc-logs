@@ -18,3 +18,4 @@
 15:51 < bijoo_:#liferay> I'm starting to get in theme dev right now; before, I've always mostly worked backend. I'm using Liferay 6.2.1 (otherwise known 6.2 GA2); and I am using jQuery Mobile.
 15:52 < bijoo_:#liferay> Currently I mock up a static site; then I convert it to a Liferay theme.
 15:53 < bijoo_:#liferay> The conversion is quite interesting; there are many ways to approach this task. I've gone the simplest route I can think of: strip out all AUI and YUI; map over the static files to the theme; then write the app logic in theme itself.
+15:55 < bijoo_:#liferay> Technically I could still use portlets; but that would take a lot more effort too.
