@@ -18,3 +18,6 @@
 06:33 < sm`:#liferay> most of the time*
 06:33 < sm`:#liferay> the web.xml is fine
 08:46 < topolik:#liferay> sm`: in case you return, I guess the 2nd condition is wrong, it should be: if (bp.getEmail() != null && !bp.getEmail().isEmpty()) ...
+11:38 -!- mode/#liferay [+o jhf] by ChanServ
+16:55 -!- mode/#liferay [+o jhf] by ChanServ
+20:26 < bijoo_:#liferay> gogamoga: you could write a filter to do that job; https://t.seebgroup.com/liferay-filter-add-google-search ; let me know if you need some more details
