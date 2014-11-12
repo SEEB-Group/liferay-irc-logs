@@ -20,3 +20,4 @@
 15:53 < bijoo_:#liferay> The conversion is quite interesting; there are many ways to approach this task. I've gone the simplest route I can think of: strip out all AUI and YUI; map over the static files to the theme; then write the app logic in theme itself.
 15:55 < bijoo_:#liferay> Technically I could still use portlets; but that would take a lot more effort too.
 15:56 < bijoo_:#liferay> Since I'd again have to decide same thing: to include AUI for drag n' drop or exclude it and use a page template.
+15:56 < bijoo_:#liferay> In any case, interesting workflow; I had stayed mainly in backend so far; but starting to get feel for front-end work.
