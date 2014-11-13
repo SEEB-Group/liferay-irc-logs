@@ -33,3 +33,4 @@
 09:44 <@jhf:#liferay> I type anything into the upper search box
 09:44 <@jhf:#liferay> adn get a big red error
 09:45 < modd:#liferay> login works but afterwards in almost every part of the page:
+09:45 < modd:#liferay> An internal server error occurred when requesting resource.
