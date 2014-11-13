@@ -40,3 +40,4 @@
 11:07 < modd:#liferay> without any asset renderer, clicking on the link should fail
 11:07 < modd:#liferay> so one have to add assetrenderer class and assetrendererfactory class
 11:25 < modd:#liferay> ^^
+11:26 < modd:#liferay> this will only work when it'S set to search in context
