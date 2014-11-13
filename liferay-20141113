@@ -45,3 +45,4 @@
 11:28 < jardineworks:#liferay> modd, thanks -- I never realized how much of a rabbit hole search could be lol
 11:28 < jardineworks:#liferay> until I started prepping for this
 11:29 < modd:#liferay> yeah, I had my experience too, as I tried to index data from an external database
+11:30 < modd:#liferay> actually, I never finished the "search in context" part with the portletURL. using a simple asset renderer was enough so I wasn't digging deeper
