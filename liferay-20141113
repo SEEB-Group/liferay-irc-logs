@@ -47,3 +47,4 @@
 11:29 < modd:#liferay> yeah, I had my experience too, as I tried to index data from an external database
 11:30 < modd:#liferay> actually, I never finished the "search in context" part with the portletURL. using a simple asset renderer was enough so I wasn't digging deeper
 11:31 < modd:#liferay> you could use the gistfile to create a blog entry on liferay.org so people will find it better and have a more "highlighted" view of it ;)
+11:35 < jardineworks:#liferay> modd, true -- I  keep saying I am going to start a blog... and then never do. I should probably leverage Liferay since it is already there :)
