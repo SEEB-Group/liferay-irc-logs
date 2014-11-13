@@ -38,3 +38,4 @@
 09:46 < modd:#liferay> I'll have a look at the hangout later on yt
 09:46 <@jhf:#liferay> \o/
 11:07 < modd:#liferay> without any asset renderer, clicking on the link should fail
+11:07 < modd:#liferay> so one have to add assetrenderer class and assetrendererfactory class
