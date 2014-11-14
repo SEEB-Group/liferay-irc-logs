@@ -104,3 +104,4 @@
 10:59 < jardineworks:#liferay> 			portletURL.setPortletMode(PortletMode.VIEW);
 10:59 < jardineworks:#liferay> 			portletURL.setWindowState(getWindowState(request));
 10:59 < jardineworks:#liferay> 			redirect = portletURL.toString();
+11:01 < modd:#liferay> I have to redirect from within the servlet filter to the struts action and then do the rest, so I have to create these first :\
