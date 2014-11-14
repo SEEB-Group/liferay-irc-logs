@@ -62,3 +62,4 @@
 10:36 < jardineworks:#liferay> haha
 10:37 < jardineworks:#liferay> doesn't see that bad to me :)
 10:37 < modd:#liferay> hmm, I don't think it's possible
+10:37 < modd:#liferay> if it's not stored to DB how will liferay find it to render it
