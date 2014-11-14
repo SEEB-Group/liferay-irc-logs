@@ -17,3 +17,4 @@
 10:16 < modd:#liferay> what I want is simply a url, which leads to the guest landing page but shows my portlet fullsized instead of the other content
 10:16 < jardineworks:#liferay> modd, can you do a modal?
 10:17 < modd:#liferay> well, it would be ok to render the page and show a popup, yes
+10:17 < jardineworks:#liferay> or ... in the layout template put a check for the guest user and embed your test portlet if the user is not logged in?
