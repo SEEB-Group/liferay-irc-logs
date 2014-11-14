@@ -58,3 +58,4 @@
 10:36 < modd:#liferay> yes
 10:36 < jardineworks:#liferay> can you create a page on the fly? :)
 10:36 < modd:#liferay> well, yes, but it's a bad solution ;P
+10:36 < jardineworks:#liferay> Create a layout, but don't save it to the database?
