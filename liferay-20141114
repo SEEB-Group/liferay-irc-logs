@@ -32,3 +32,4 @@
 10:21 < modd:#liferay> in this portlet I create a random parameter string and this portlet has also a servlet filter hook
 10:23 < modd:#liferay> now in my servlet filter, I want to get a URL to the home page, where the portlet will render a special_view.jsp and gets the random parameter string as parameter so it can show/do things with it
 10:24 < jardineworks:#liferay> and the "test portlet" is on the private page?
+10:24 < modd:#liferay> yep
