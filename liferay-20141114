@@ -103,3 +103,4 @@
 10:59 < jardineworks:#liferay> 			portletURL.setParameter("struts_action", "/login/login");
 10:59 < jardineworks:#liferay> 			portletURL.setPortletMode(PortletMode.VIEW);
 10:59 < jardineworks:#liferay> 			portletURL.setWindowState(getWindowState(request));
+10:59 < jardineworks:#liferay> 			redirect = portletURL.toString();
