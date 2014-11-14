@@ -35,3 +35,4 @@
 10:24 < modd:#liferay> yep
 10:26 < modd:#liferay> I think I have to create an invisible portlet on the "home" page to render a modal :\
 10:27 < modd:#liferay> or somehow render the portlet without any page
+10:27 < jardineworks:#liferay> so -- when the user goes to the "guest homepage" ... they should see the Test Portlet content. Everything? or only in certain scenarios?
