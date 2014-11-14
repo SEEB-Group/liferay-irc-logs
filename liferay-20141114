@@ -52,3 +52,4 @@
 10:34 < jardineworks:#liferay> but something on the homepage has to detect whether or not to render the test portlet info right? so in that case, is it possible to completely ignore the homepage?
 10:35 < modd:#liferay> I can build the url the way I want
 10:35 < modd:#liferay> user gets this: host/myportlet/foobar
+10:35 < modd:#liferay> the servlet filter will then use myportlet and foobar to render the portlet
