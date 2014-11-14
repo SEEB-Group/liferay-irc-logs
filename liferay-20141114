@@ -70,3 +70,4 @@
 10:39 < jardineworks:#liferay> you don't need it forever right? so if I send in .. /host/portletA/pageA ... this time, then I get back a 1 column layout with my portletA on it. Next time I ask for /host/portetB/pageB ...
 10:39 < jardineworks:#liferay> hmm
 10:39 < jardineworks:#liferay> good point
+10:39 < jardineworks:#liferay> I didn't think you needed it again later though
