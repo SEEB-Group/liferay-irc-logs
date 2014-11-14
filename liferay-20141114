@@ -14,3 +14,4 @@
 10:09 < jardineworks:#liferay> hey modd
 10:10 < jardineworks:#liferay> modd, the portlet is on another page though?
 10:15 < modd:#liferay> jardineworks: it is, but this page might be private while I have to allow guest access
+10:16 < modd:#liferay> what I want is simply a url, which leads to the guest landing page but shows my portlet fullsized instead of the other content
