@@ -43,3 +43,4 @@
 10:29 < modd:#liferay> but in this case I don't have a portlet, which will do this rendering
 10:30 < modd:#liferay> I have control, but I really don't want to add new portlets to the "home" page
 10:31 < jardineworks:#liferay> is there a condition where this information would not be shown on the homepage?
+10:32 < modd:#liferay> if I directly browse to the home page, nothing will render
