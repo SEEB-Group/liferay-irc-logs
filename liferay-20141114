@@ -1,0 +1,13 @@
+--- Log opened Fri Nov 14 00:00:32 2014
+--- Log opened Fri Nov 14 03:21:21 2014
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith_     ] [ jbonjean   ] [ mcbonz  ] [ Tar-Minyatur] 
+03:21 [ apipkin   ] [ henriquev   ] [ jrmiah     ] [ michelix] [ Tm_T        ] 
+03:21 [ bijoo     ] [ izaera      ] [ MagnoBooter] [ Naenyn  ] 
+03:21 [ Bryanstein] [ jardineworks] [ marcoceppi ] [ quercus_] 
+03:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+09:16 < modd:#liferay> hey there. I could need some help. I have a portlet with a test.jsp. I want to get a render url to this jsp, however, it should be rendered in maximized state on a page, which normally does not contain the portlet
