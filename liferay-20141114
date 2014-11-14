@@ -78,3 +78,4 @@
 10:40 < modd:#liferay> hmm..it's somehow like the login portlet. if I'm a guest and try to use a url to access the control panel, I get redirected to the guest default page and see the login portlet fullsized, eventhoug it's not on that page
 10:41 < jardineworks:#liferay> you got whatever layout was specified, and then on the fly in your filter changed the portlets on it?
 10:41 < modd:#liferay> that's even worse^^
+10:41 < jardineworks:#liferay> haha
