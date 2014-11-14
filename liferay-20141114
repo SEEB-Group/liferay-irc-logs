@@ -69,3 +69,4 @@
 10:39 < modd:#liferay> creating a portletURL will need a plid. I can create a layout and pass it's plid, but as it's never persisted, the portal cannot find that layout later
 10:39 < jardineworks:#liferay> you don't need it forever right? so if I send in .. /host/portletA/pageA ... this time, then I get back a 1 column layout with my portletA on it. Next time I ask for /host/portetB/pageB ...
 10:39 < jardineworks:#liferay> hmm
+10:39 < jardineworks:#liferay> good point
