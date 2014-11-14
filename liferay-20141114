@@ -86,3 +86,4 @@
 10:42 < jardineworks:#liferay> so the Layout as it is stored in the database still has portlet a,b,c .. but for your user, he has asked for (say the homepage) you have detected soemthing, so the one you give back to him removes those portlets and ... or even just ADDS the test portlet in full screen
 10:42 < jardineworks:#liferay> neither am I
 10:42 < jardineworks:#liferay> haha I'm just throwing out ideas
+10:43 < jardineworks:#liferay> but your login example...
