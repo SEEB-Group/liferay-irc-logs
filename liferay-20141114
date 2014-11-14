@@ -75,3 +75,4 @@
 10:39 < modd:#liferay> I don't have to, but the portal has to
 10:40 < jardineworks:#liferay> ok
 10:40 < jardineworks:#liferay> what if
+10:40 < modd:#liferay> hmm..it's somehow like the login portlet. if I'm a guest and try to use a url to access the control panel, I get redirected to the guest default page and see the login portlet fullsized, eventhoug it's not on that page
