@@ -19,3 +19,4 @@
 10:17 < modd:#liferay> well, it would be ok to render the page and show a popup, yes
 10:17 < jardineworks:#liferay> or ... in the layout template put a check for the guest user and embed your test portlet if the user is not logged in?
 10:18 < modd:#liferay> no, I cannot have any changes to the template or theme
+10:18 < modd:#liferay> I thought about a hidden page with another instance, but I don't really like this idea
