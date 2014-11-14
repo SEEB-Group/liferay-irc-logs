@@ -64,3 +64,4 @@
 10:37 < modd:#liferay> hmm, I don't think it's possible
 10:37 < modd:#liferay> if it's not stored to DB how will liferay find it to render it
 10:37 < modd:#liferay> an unpersistent layout object will be unknown for the portal
+10:37 < jardineworks:#liferay> I've never tried... but there is nothing stopping you from creating a layout model, setting all the attribtues and passing it around. I mean, the LayoutServiceLocalUtil.get ... just returns to you a Layout right?
