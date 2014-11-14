@@ -96,3 +96,4 @@
 10:45 < modd:#liferay> if this works it's exacly what I want
 10:59 < jardineworks:#liferay> modd, check out the LoginAction -- it might have what you are after./
 10:59 < jardineworks:#liferay> specifically --
+10:59 < jardineworks:#liferay> PortletURL portletURL = PortletURLFactoryUtil.create(
