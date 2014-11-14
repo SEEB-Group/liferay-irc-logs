@@ -29,3 +29,4 @@
 10:20 < modd:#liferay> I have my guest site with a "home" page
 10:20 < jardineworks:#liferay> great -- now my drawing is no good :)
 10:21 < modd:#liferay> and I have another page with the portlet on a private page/site/whatever
+10:21 < modd:#liferay> in this portlet I create a random parameter string and this portlet has also a servlet filter hook
