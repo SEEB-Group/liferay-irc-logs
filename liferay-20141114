@@ -94,3 +94,4 @@
 10:44 < modd:#liferay> yes
 10:44 < jardineworks:#liferay> so what if your servlet filter, redirected to a struts action that did the same thing? gets the test portlet and renders it in full screen?
 10:45 < modd:#liferay> if this works it's exacly what I want
+10:59 < jardineworks:#liferay> modd, check out the LoginAction -- it might have what you are after./
