@@ -48,3 +48,4 @@
 10:33 < jardineworks:#liferay> ok -- so what about a service post hook, that will grab the content from the test portlet and place it into the request? and then on the homepage ... oh wait, you don't want to change anything on the homepage.
 10:33 < jardineworks:#liferay> poop.
 10:33 < modd:#liferay> the best solution is to completely ignore the home page
+10:34 < modd:#liferay> like having the portal frame and only the portlet in this frame instead of any whole page
