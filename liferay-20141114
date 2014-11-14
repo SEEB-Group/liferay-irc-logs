@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:16 < modd:#liferay> hey there. I could need some help. I have a portlet with a test.jsp. I want to get a render url to this jsp, however, it should be rendered in maximized state on a page, which normally does not contain the portlet
+10:09 < jardineworks:#liferay> hey modd
