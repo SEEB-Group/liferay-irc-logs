@@ -91,3 +91,4 @@
 10:43 < jardineworks:#liferay> right?
 10:43 < modd:#liferay> the problem is simply "when". If I change it before redirecting, I can only pass the plid and nothing happens
 10:44 < jardineworks:#liferay> and that struts action returns the login portlet maximized.
+10:44 < modd:#liferay> yes
