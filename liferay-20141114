@@ -54,3 +54,4 @@
 10:35 < modd:#liferay> user gets this: host/myportlet/foobar
 10:35 < modd:#liferay> the servlet filter will then use myportlet and foobar to render the portlet
 10:36 < jardineworks:#liferay> I see... or host/yourportlet/anotherbar
+10:36 < modd:#liferay> but how to load the portal frame without having it load a page
