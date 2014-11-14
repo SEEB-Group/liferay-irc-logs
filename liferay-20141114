@@ -23,3 +23,4 @@
 10:18 < jardineworks:#liferay> modd, no -- that seems a little gross.
 10:18 < jardineworks:#liferay> :)
 10:19 < modd:#liferay> I can't think of a good solution...
+10:20 < jardineworks:#liferay> modd, I am drawing a picture. So you have Page A with a TestPortlet on it. You have Page B with a whole bunch of other portlets. If a user who is default (anonymous) goes to Page B, then you want to instead show them the content from your TestPortlet.
