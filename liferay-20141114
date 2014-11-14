@@ -37,3 +37,4 @@
 10:27 < modd:#liferay> or somehow render the portlet without any page
 10:27 < jardineworks:#liferay> so -- when the user goes to the "guest homepage" ... they should see the Test Portlet content. Everything? or only in certain scenarios?
 10:28 < jardineworks:#liferay> there was someone in the forum a few weeks back asking about getting the render content for another portlet as part of a serveResource call.
+10:28 < jardineworks:#liferay> I think he was getting the HTML, returning it to the page (via ajax call) and then updating the DOM.
