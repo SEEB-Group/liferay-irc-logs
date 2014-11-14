@@ -97,3 +97,6 @@
 10:59 < jardineworks:#liferay> modd, check out the LoginAction -- it might have what you are after./
 10:59 < jardineworks:#liferay> specifically --
 10:59 < jardineworks:#liferay> PortletURL portletURL = PortletURLFactoryUtil.create(
+10:59 < jardineworks:#liferay> 				request, PortletKeys.LOGIN, themeDisplay.getPlid(),
+10:59 < jardineworks:#liferay> 				PortletRequest.RENDER_PHASE);
+10:59 < jardineworks:#liferay> 			portletURL.setParameter("saveLastPath", Boolean.FALSE.toString());
