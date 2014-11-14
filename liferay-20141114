@@ -39,3 +39,4 @@
 10:28 < jardineworks:#liferay> there was someone in the forum a few weeks back asking about getting the render content for another portlet as part of a serveResource call.
 10:28 < jardineworks:#liferay> I think he was getting the HTML, returning it to the page (via ajax call) and then updating the DOM.
 10:29 < jardineworks:#liferay> do you have control over the portlets that appear on the homepage?
+10:29 < modd:#liferay> rendering parts or whole other portlets by ajax isn't very hard
