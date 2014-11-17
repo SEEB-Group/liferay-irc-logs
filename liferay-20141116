@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 12:17 < urug_:#liferay> Using com.liferay.portal.kernel.search.SearchContext, if I set keywords to empty string (""), than setted entryClassNames are ignored - all indexed classes are searched... why is that?
 13:09 < modd:#liferay> jardineworks: no results so far, the struts action path cannot be found somehow :\
+--- Log closed Mon Nov 17 00:00:25 2014
