@@ -1,2 +1,28 @@
 --- Log opened Mon Nov 17 00:00:25 2014
 02:24 < twen:#liferay> o/
+--- Log opened Mon Nov 17 03:21:22 2014
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ    ] [ doged       ] [ jrmiah_    ] [ quercus_    ] 
+03:21 [ avinashrbhat] [ Gorith_     ] [ MagnoBooter] [ Tar-Minyatur] 
+03:21 [ bijoo       ] [ henriquev   ] [ marcoceppi ] [ Tm_T        ] 
+03:21 [ Bryanstein  ] [ izaera      ] [ mcbonz     ] [ twen        ] 
+03:21 [ bunbury     ] [ jardineworks] [ Naenyn     ] 
+03:21 -!- Irssi: #liferay: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+--- Log opened Mon Nov 17 15:19:07 2014
+15:24 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+15:24 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+15:24 [Users #liferay]
+15:24 [@ChanServ  ] [ bunbury  ] [ izaera      ] [ mcbonz  ] [ Tar-Minyatur] 
+15:24 [ b_52globe ] [ doged    ] [ jardineworks] [ Naenyn  ] [ Tm_T        ] 
+15:24 [ bijoo     ] [ Gorith_  ] [ MagnoBooter ] [ quercus_] [ topolik     ] 
+15:24 [ Bryanstein] [ henriquev] [ marcoceppi  ] [ smind   ] [ ziirish     ] 
+15:24 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+15:24 !morgan.freenode.net [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+15:24 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+15:24 -!- Irssi: Join to #liferay was synced in 6 secs
+15:47 -!- mode/#liferay [+o jhf] by ChanServ
+17:43 < bwood:#liferay> I saw recently that Application Display Templates can be added via resources importer
