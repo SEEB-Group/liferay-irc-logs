@@ -26,3 +26,4 @@
 09:08 < jardineworks:#liferay> chris_cook, if topolik is around, he is the man you want to talk to
 09:12 < jardineworks:#liferay> chris_cook, Liferay as an IdP for SAML tokens? is that right?
 09:13 < modd_:#liferay> jardineworks: yep, that's it. of course I used a hook to change the whitelisted portlets
+09:14 < modd_:#liferay> but I think this can cause issies as all hooks are overriding all whitelist portlets instead of adding them. the notification portlet does the same^^
