@@ -125,3 +125,4 @@
 16:49 < jardineworks:#liferay> \o/
 16:50 < urug_:#liferay> Yep, you saved me ... thank you
 16:50 < jardineworks:#liferay> happy to help
+16:51 < urug_:#liferay> so the problem was that there wasn'T any assetEntryFacet in the searchContext or that static atrribute?
