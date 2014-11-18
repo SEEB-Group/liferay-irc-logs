@@ -61,3 +61,4 @@
 14:11 < kermitt:#liferay> Yes, we do have a proxy in front of the cluster
 14:11 < jardineworks:#liferay> winem_, yeah, your email certainly sounded like a rough ride.
 14:11 < winem_:#liferay> who is responsible for the loadbalancing? the proxy or liferay itself?
+14:12 < kermitt:#liferay> ( I believe that it is set to send to the next node is a 'round robin' fashon
