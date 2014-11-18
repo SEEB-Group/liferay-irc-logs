@@ -30,3 +30,4 @@
 09:14 < chris_cook:#liferay> jardineworks: i think so
 09:17 < jardineworks:#liferay> modd_, true, and it's also a problem in a multi-instance environment because hooks are global. I have some helper code that I use to allow the configuration of a hook by company web id -- but it means that all the hooks need to have short circuit logic to return (or simply invoke the parent and return) when not configured.
 09:20 < modd_:#liferay> well...one moment
+09:21 < jardineworks:#liferay> chris_cook, looks like an EE thing only. I downloaded the plugin and at first glance (the portal.properties) there are a series of plugins that basically expose portla urls that the custoom code listens to for requests.
