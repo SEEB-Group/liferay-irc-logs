@@ -50,3 +50,4 @@
 12:40 < kermitt:#liferay> Morning all: Question : My company deploys a 3 node cluster with Liferay but it always seems that  one cluster will pick up most of the activity...
 12:40 < kermitt:#liferay> WHich node picks up the most changes - so not a physical machine issue.
 12:40 < kermitt:#liferay> Thoughts? Links?
+12:41 < kermitt:#liferay>  ( i.e., Which node will act as the Master/ )
