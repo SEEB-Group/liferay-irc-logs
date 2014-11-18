@@ -18,3 +18,4 @@
 09:03 < jardineworks:#liferay> modd_, but what you did is still simpler.
 09:03 < jardineworks:#liferay> modd_, so you have a regular mvc portlet, and then the whitelist configuration in the portal-ext? that's it?
 09:04 < jardineworks:#liferay> chris_cook, that is a new feature in 6.2 I think -- probably why you can't find a lot of examples.
+09:04 < jardineworks:#liferay> chris_cook, your best best is probably to dig through the source.
