@@ -29,3 +29,4 @@
 09:14 < modd_:#liferay> but I think this can cause issies as all hooks are overriding all whitelist portlets instead of adding them. the notification portlet does the same^^
 09:14 < chris_cook:#liferay> jardineworks: i think so
 09:17 < jardineworks:#liferay> modd_, true, and it's also a problem in a multi-instance environment because hooks are global. I have some helper code that I use to allow the configuration of a hook by company web id -- but it means that all the hooks need to have short circuit logic to return (or simply invoke the parent and return) when not configured.
+09:20 < modd_:#liferay> well...one moment
