@@ -14,3 +14,4 @@
 08:00 < modd_:#liferay> jardineworks: forget about the struts portlet, it's even simpler: whitelist the portlet and build any url with state maximized and the portletid. you only have to make sure, that it has guest permissions as default
 08:00 < modd_:#liferay> :)
 08:36 < chris_cook:#liferay> hi everyone- does anyone have any experience using liferay as an identity provider for authentication in other services? i'm struggling to find concrete information on it
+09:03 < jardineworks:#liferay> modd_, neat -- but I wasn't suggesting a struts portlet, I was asking about a StrutsAction :)
