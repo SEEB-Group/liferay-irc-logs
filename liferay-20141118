@@ -60,3 +60,4 @@
 14:11 < winem_:#liferay> almost fine now. most of the documentation and bureaucratic stuff after the storage outtage is done and I look forward for a workshop regarding the ops-view of liferay with the leading liferay partners in germany.
 14:11 < kermitt:#liferay> Yes, we do have a proxy in front of the cluster
 14:11 < jardineworks:#liferay> winem_, yeah, your email certainly sounded like a rough ride.
+14:11 < winem_:#liferay> who is responsible for the loadbalancing? the proxy or liferay itself?
