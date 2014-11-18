@@ -76,3 +76,4 @@
 14:17 < jardineworks:#liferay>     # run to check for and send email on web content due for review.
 14:17 < jardineworks:#liferay>     #
 14:17 < jardineworks:#liferay>     journal.article.check.interval=15
+14:17 < jardineworks:#liferay> to something lower
