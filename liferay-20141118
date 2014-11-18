@@ -73,3 +73,4 @@
 14:16 < kermitt:#liferay> I will examine w/ that in mind
 14:17 < jardineworks:#liferay> kermitt,  I would set this --
 14:17 < jardineworks:#liferay>    # Set the interval in minutes on how often CheckArticleMessageListener will
+14:17 < jardineworks:#liferay>     # run to check for and send email on web content due for review.
