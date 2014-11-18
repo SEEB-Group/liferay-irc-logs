@@ -103,3 +103,4 @@
 16:24 < urug_:#liferay> But if this would be the case, the results would be probably limited to the last entryClassName, but they are not limited to any class.
 16:24 < jardineworks:#liferay> urug_, but if they are done one at a time, wouldn't that be the same thing as an OR?
 16:25 < jardineworks:#liferay> urug_, what happens if you use the second approach, in a loop though, adding each facet individually?
+16:25 < jardineworks:#liferay> rather than as an array...
