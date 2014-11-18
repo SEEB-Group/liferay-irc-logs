@@ -45,3 +45,4 @@
 11:45 < urug_:#liferay> class.
 11:52 < urug_:#liferay> This works - searchContext.setAttribute("entryClassName", JournalArticle.class.getName());
 11:53 < urug_:#liferay> This does NOT work - searchContext.setAttribute("entryClassName", new String[] {JournalArticle.class.getName(), DLFileEntry.class.getName()});
+11:56 < urug_:#liferay> I also tried using MultiValueFacet ... facet.setFieldName("entryClassName"); facet.setValues(new String[] {JournalArticle.class.getName()}); ... does NOT work at all (looks like that "entryClassName" attribute can't be an array)
