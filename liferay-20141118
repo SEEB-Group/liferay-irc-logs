@@ -88,3 +88,4 @@
 15:41 < urug_:#liferay> jardineworks, give a minute i will send you that code
 16:02 < urug_:#liferay> So this is the part with where the search logic is made: http://pastebin.com/dsvpHdJt
 16:03 < urug_:#liferay> And this is the whole JSP: http://pastebin.com/L4BN3PD8
+16:09 < jardineworks:#liferay> urug_, you're using OOTB Lucene right?
