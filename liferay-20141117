@@ -27,3 +27,4 @@
 15:47 -!- mode/#liferay [+o jhf] by ChanServ
 17:43 < bwood:#liferay> I saw recently that Application Display Templates can be added via resources importer
 17:43 < bwood:#liferay> does anyone know how to set a portlet to use the application display template in the sitemap.json of the resources importer in the theme
+--- Log closed Tue Nov 18 00:00:05 2014
