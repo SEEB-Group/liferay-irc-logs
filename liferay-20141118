@@ -79,3 +79,5 @@
 14:17 < jardineworks:#liferay> to something lower
 14:17 < jardineworks:#liferay> like 2 minutes or something
 14:18 < jardineworks:#liferay> then with a debugger you'll be able to see which server the breakpoint fires on.
+14:20  * kermitt:#liferay google 'CheckArticleMessageListener'   :)
+14:27 < winem_:#liferay> and I'll go home now.
