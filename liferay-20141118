@@ -95,3 +95,4 @@
 16:11 < jardineworks:#liferay> just comparing what you have to the main_search.jsp from the search portlet.
 16:13 < jardineworks:#liferay> urug_, Have you tried  adding a breakpoint to the FactedSearcher class in the createFullQuery method?
 16:13 < jardineworks:#liferay> which entities are you trying to limit the query to?
+16:13 < jardineworks:#liferay> oh i see
