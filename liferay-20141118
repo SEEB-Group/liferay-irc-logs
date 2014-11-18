@@ -117,3 +117,4 @@
 16:43 < jardineworks:#liferay> Facet assetEntriesFacet = new AssetEntriesFacet(searchContext);
 16:43 < jardineworks:#liferay> assetEntriesFacet.setStatic(true);
 16:43 < jardineworks:#liferay> searchContext.addFacet(assetEntriesFacet);
+16:46 < urug_:#liferay> You mean like adding three facets in total? or just setting entryClassNames and adding that assetEntriesFacet ?
