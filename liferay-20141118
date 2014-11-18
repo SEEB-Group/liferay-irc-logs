@@ -110,3 +110,4 @@
 16:31 < urug_:#liferay> I am working from SDK so I can't edit the FacetedSearcher directly or can I? I could create MyFacetedSearcher however
 16:32 < jardineworks:#liferay> I think you would need a web-plugin to swap them out.
 16:32 < jardineworks:#liferay> but -- if you are creating your own search portlet then you could just extend it I think -- I believe it is part of the portal-service.jar.
+16:37 < urug_:#liferay> That second approach with two facets works as I said, the latest one it taken into account. But I think I sould NOT use MultiValuedFacet, but a single valued one, and I should call facet.setValue(className), instead of searchContext.setAttribute("entryClassName", DLFileEntry.class.getName())
