@@ -34,3 +34,4 @@
 09:22 < modd_:#liferay> jardineworks: Application Adapter won't work for property hookings...bad :(
 09:23 < chris_cook:#liferay> jardineworks: right, we're hoping to upgrade to EE soon, so i'll look into it further then. thanks again for your help
 09:25 < jardineworks:#liferay> chris_cook, good news is, when you do upgrade? looks to me like a simple exercise of install the plugin and do a couple of configurations.
+09:25 < chris_cook:#liferay> jardineworks: great, hopefully it'll be straight forward then. thank you
