@@ -109,3 +109,4 @@
 16:29 < jardineworks:#liferay> urug_, maybe, but there is a separate loop in that method to add facet filters to the query -- so I think it would skip over the entryClassNames loop, bypassing the indexer registry stuff.
 16:31 < urug_:#liferay> I am working from SDK so I can't edit the FacetedSearcher directly or can I? I could create MyFacetedSearcher however
 16:32 < jardineworks:#liferay> I think you would need a web-plugin to swap them out.
+16:32 < jardineworks:#liferay> but -- if you are creating your own search portlet then you could just extend it I think -- I believe it is part of the portal-service.jar.
