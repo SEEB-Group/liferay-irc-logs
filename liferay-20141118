@@ -104,3 +104,4 @@
 16:24 < jardineworks:#liferay> urug_, but if they are done one at a time, wouldn't that be the same thing as an OR?
 16:25 < jardineworks:#liferay> urug_, what happens if you use the second approach, in a loop though, adding each facet individually?
 16:25 < jardineworks:#liferay> rather than as an array...
+16:27 < jardineworks:#liferay> ... can you put a breakpoint at the return fullQuery; line in the FacetedSearcher class so we can see what the full query (as a string) looks like?
