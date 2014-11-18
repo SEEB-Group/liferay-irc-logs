@@ -119,3 +119,4 @@
 16:43 < jardineworks:#liferay> searchContext.addFacet(assetEntriesFacet);
 16:46 < urug_:#liferay> You mean like adding three facets in total? or just setting entryClassNames and adding that assetEntriesFacet ?
 16:47 < jardineworks:#liferay> I mean set the entryClassNames in the search context ... and then right after, add those three lines of code then have a look and see if the query changes.
+16:48 < jardineworks:#liferay> Looking at the AssetEntriesFacet -- there is a loop where it creates a Boolean clause.
