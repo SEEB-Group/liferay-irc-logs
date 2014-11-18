@@ -32,3 +32,4 @@
 09:20 < modd_:#liferay> well...one moment
 09:21 < jardineworks:#liferay> chris_cook, looks like an EE thing only. I downloaded the plugin and at first glance (the portal.properties) there are a series of plugins that basically expose portla urls that the custoom code listens to for requests.
 09:22 < modd_:#liferay> jardineworks: Application Adapter won't work for property hookings...bad :(
+09:23 < chris_cook:#liferay> jardineworks: right, we're hoping to upgrade to EE soon, so i'll look into it further then. thanks again for your help
