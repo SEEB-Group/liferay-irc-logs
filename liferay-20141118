@@ -38,3 +38,4 @@
 09:30 < dave_k:#liferay> Are there any patches for the LR6.2 UpgradeProcess? This is the second time I'm having NullPointerExceptions due to null entries in the DB (in the columns DLFILEENTRY.extension and JOURNALARTICLE.urltitle).
 09:50 -!- mode/#liferay [+o jhf] by ChanServ
 09:51 <@jhf:#liferay> 10 minutes until the next dev.life session http://liferay.com/community/dev.life
+09:56 < modd_:#liferay> sry, no time :(
