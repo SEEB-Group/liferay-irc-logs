@@ -70,3 +70,4 @@
 14:15 < jardineworks:#liferay> kermitt, I think one of the ways you might be able to tell is through scheduled jobs. I'm pretty sure that they only fire on the master node.
 14:15 < kermitt:#liferay> oh!
 14:16 < kermitt:#liferay> That is an interesting thought
+14:16 < kermitt:#liferay> I will examine w/ that in mind
