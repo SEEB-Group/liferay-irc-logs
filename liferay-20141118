@@ -65,3 +65,4 @@
 14:12 < kermitt:#liferay> the proxy ought to be in charge of load balancing
 14:12 < jardineworks:#liferay> winem_, kermitt normally, I think, the master node if the first one started ... because the other nodes will have their views "attached" ...
 14:13 < kermitt:#liferay> gotcha
+14:13 < winem_:#liferay> the classic one
