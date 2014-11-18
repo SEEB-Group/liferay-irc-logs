@@ -107,3 +107,4 @@
 16:27 < jardineworks:#liferay> ... can you put a breakpoint at the return fullQuery; line in the FacetedSearcher class so we can see what the full query (as a string) looks like?
 16:28 < urug_:#liferay> I will try, but my quess is that the facet basically changes the attributes of searchContext, so the value of the attribute would be the same as the value of the last added facet and this value would be used
 16:29 < jardineworks:#liferay> urug_, maybe, but there is a separate loop in that method to add facet filters to the query -- so I think it would skip over the entryClassNames loop, bypassing the indexer registry stuff.
+16:31 < urug_:#liferay> I am working from SDK so I can't edit the FacetedSearcher directly or can I? I could create MyFacetedSearcher however
