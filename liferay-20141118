@@ -43,3 +43,4 @@
 09:57 < modd_:#liferay> bye
 11:45 < urug_:#liferay> Hi, I've got a problem with FaceletedSearcher and SearchContext. If I set up multiple entry class names to SearchContext (context.setEntryClassNames(JournalArticle.class.getName(),DLFileEntry.class.getName())) then results of the search are not limited to these classes, but all indexed classes are searched. If I set single entry class name it works fine and the results are limited only to this
 11:45 < urug_:#liferay> class.
+11:52 < urug_:#liferay> This works - searchContext.setAttribute("entryClassName", JournalArticle.class.getName());
