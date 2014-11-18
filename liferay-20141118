@@ -47,3 +47,4 @@
 11:53 < urug_:#liferay> This does NOT work - searchContext.setAttribute("entryClassName", new String[] {JournalArticle.class.getName(), DLFileEntry.class.getName()});
 11:56 < urug_:#liferay> I also tried using MultiValueFacet ... facet.setFieldName("entryClassName"); facet.setValues(new String[] {JournalArticle.class.getName()}); ... does NOT work at all (looks like that "entryClassName" attribute can't be an array)
 12:06 < urug_:#liferay> oh, "entryClassName" atrribute on searchContext works only if a facet with that attribute is added to searchContext ... still only single class name works
+12:40 < kermitt:#liferay> Morning all: Question : My company deploys a 3 node cluster with Liferay but it always seems that  one cluster will pick up most of the activity...
