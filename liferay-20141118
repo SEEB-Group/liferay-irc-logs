@@ -51,3 +51,4 @@
 12:40 < kermitt:#liferay> WHich node picks up the most changes - so not a physical machine issue.
 12:40 < kermitt:#liferay> Thoughts? Links?
 12:41 < kermitt:#liferay>  ( i.e., Which node will act as the Master/ )
+13:54 < winem_:#liferay> do you have any kind of webserver / proxy in front of your cluster?
