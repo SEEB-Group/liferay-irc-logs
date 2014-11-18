@@ -122,3 +122,4 @@
 16:48 < jardineworks:#liferay> Looking at the AssetEntriesFacet -- there is a loop where it creates a Boolean clause.
 16:48 < urug_:#liferay> Wheeeeeee, looks like it works :)
 16:48 < jardineworks:#liferay> -- based on the entry class names -- which is what you need ultimately.
+16:49 < jardineworks:#liferay> \o/
