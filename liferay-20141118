@@ -68,3 +68,4 @@
 14:13 < winem_:#liferay> the classic one
 14:15 < jardineworks:#liferay> kermitt, though what shows up in the log might depend on the type of clustering you are using. Currently, I am using the JGroups .. unicast/TCP
 14:15 < jardineworks:#liferay> kermitt, I think one of the ways you might be able to tell is through scheduled jobs. I'm pretty sure that they only fire on the master node.
+14:15 < kermitt:#liferay> oh!
