@@ -105,3 +105,4 @@
 16:25 < jardineworks:#liferay> urug_, what happens if you use the second approach, in a loop though, adding each facet individually?
 16:25 < jardineworks:#liferay> rather than as an array...
 16:27 < jardineworks:#liferay> ... can you put a breakpoint at the return fullQuery; line in the FacetedSearcher class so we can see what the full query (as a string) looks like?
+16:28 < urug_:#liferay> I will try, but my quess is that the facet basically changes the attributes of searchContext, so the value of the attribute would be the same as the value of the last added facet and this value would be used
