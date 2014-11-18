@@ -66,3 +66,4 @@
 14:12 < jardineworks:#liferay> winem_, kermitt normally, I think, the master node if the first one started ... because the other nodes will have their views "attached" ...
 14:13 < kermitt:#liferay> gotcha
 14:13 < winem_:#liferay> the classic one
+14:15 < jardineworks:#liferay> kermitt, though what shows up in the log might depend on the type of clustering you are using. Currently, I am using the JGroups .. unicast/TCP
