@@ -20,3 +20,4 @@
 09:04 < jardineworks:#liferay> chris_cook, that is a new feature in 6.2 I think -- probably why you can't find a lot of examples.
 09:04 < jardineworks:#liferay> chris_cook, your best best is probably to dig through the source.
 09:07 < chris_cook:#liferay> thought as much- is it in CE or only EE?
+09:07 < jardineworks:#liferay> chris_cook, that I am not sure of to be honest. Most of the features in EE are also in CE though
