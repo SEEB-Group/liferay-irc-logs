@@ -128,3 +128,5 @@
 16:51 < urug_:#liferay> so the problem was that there wasn'T any assetEntryFacet in the searchContext or that static atrribute?
 17:27 < jardineworks:#liferay> I think the assetEntryFacet... but the only way to know for sure is to trap the query string and see what it looks like in the different scenarios
 17:27 < jardineworks:#liferay> SearchContext is like ServiceContext. It's mostly used as a convenience method for passing around a large amount of values without having to use 17 million parameters in your methods
+18:15 -!- ServerMode/#liferay [+o ChanServ] by orwell.freenode.net
+--- Log closed Wed Nov 19 00:00:10 2014
