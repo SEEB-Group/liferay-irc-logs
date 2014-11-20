@@ -79,3 +79,5 @@
 10:27 < jardineworks:#liferay> and this is the property for the storage location --
 10:27 < jardineworks:#liferay> #
 10:27 < jardineworks:#liferay>     # FileSystemStore
+10:27 < jardineworks:#liferay>     #
+10:27 < jardineworks:#liferay>     dl.store.file.system.root.dir=${liferay.home}/data/document_library
