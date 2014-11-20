@@ -87,3 +87,6 @@
 10:32 < winem_:#liferay> resource.repositories.root is only used for the java content store?
 10:35 < jardineworks:#liferay>     #
 10:35 < jardineworks:#liferay>     # This property is available for backwards compatibility. Please set the
+10:35 < jardineworks:#liferay>     # property "liferay.home" instead.
+10:35 < jardineworks:#liferay>     #
+10:35 < jardineworks:#liferay>     resource.repositories.root=${default.liferay.home}
