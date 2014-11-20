@@ -18,3 +18,4 @@
 09:09 < Uzzi:#liferay> hi
 09:11 < Uzzi:#liferay> I have set ldap authentication from web panel but i havto modify the config (Unable to import user cn=.......com.liferay.portal.UserScreenNameException).I have Liferay 6.2-ce-ga2. Where are config files?
 09:21 < jardineworks:#liferay> Uzzi, what field do you use for your login?
+09:21 < Uzzi:#liferay> uid
