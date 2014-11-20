@@ -83,3 +83,4 @@
 10:27 < jardineworks:#liferay>     dl.store.file.system.root.dir=${liferay.home}/data/document_library
 10:27 < jardineworks:#liferay> which of course you can change --
 10:28 < jardineworks:#liferay> e.g. dl.store.file.system.root.dir=/mnt/document_library -- or whatever
+10:32 < winem_:#liferay> great, thanks :)
