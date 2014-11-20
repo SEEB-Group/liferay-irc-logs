@@ -121,3 +121,4 @@
 11:20 < jardineworks:#liferay> if there is only one definition of how the application will perform, then what is the real value in taking the time to apply something like dependency injection? you will only ever have ONE definition to inject.
 11:21 < jardineworks:#liferay> I think sometimes peopel get lost in the romance of software development
 11:21 < jardineworks:#liferay> I like to call it Pharoah Syndrome.
+11:21 < winem_:#liferay> the romance of software development - well said :)
