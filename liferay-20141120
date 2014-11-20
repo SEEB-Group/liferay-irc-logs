@@ -21,3 +21,4 @@
 09:21 < Uzzi:#liferay> uid
 09:22 < jardineworks:#liferay> winem_, will you be around in an hour?
 09:22 < winem_:#liferay> yep :)
+09:22 < jardineworks:#liferay> Uzzi, if you don't need the screenname, then you can always set it to be ayto-generated so that the mapping doesn not work. The exception is probably that you are specifying a valid map, but that the field in LDAP contains characters that you are not allowed to use
