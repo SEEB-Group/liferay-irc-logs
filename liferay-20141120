@@ -101,3 +101,4 @@
 10:50 < jardineworks:#liferay> around*
 10:51 < rrapozo:#liferay> :)
 10:52 < rrapozo:#liferay> yes, but I need send a object to another page with actionURL
+10:53 < rrapozo:#liferay> A other way to do that is disassemble the object and send a lot parameters but I cand do that too
