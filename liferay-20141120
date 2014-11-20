@@ -16,3 +16,4 @@
 03:25 < winem_:#liferay> just to be able to increase the partition size if it grows too much, easier backups and so on. which properties do I need for it? resource.repositories.root is not enough, or?!
 05:13 < winem_:#liferay> sorry, was offline for a while. was there any reply to my question?
 09:09 < Uzzi:#liferay> hi
+09:11 < Uzzi:#liferay> I have set ldap authentication from web panel but i havto modify the config (Unable to import user cn=.......com.liferay.portal.UserScreenNameException).I have Liferay 6.2-ce-ga2. Where are config files?
