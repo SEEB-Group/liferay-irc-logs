@@ -144,3 +144,4 @@
 14:21 < jardineworks:#liferay> winem_, not really... I usually go through a process to prep and environment for prod.
 14:21 < winem_:#liferay> ok
 14:21 < jardineworks:#liferay> I mean, for one thing, most prod environments have a lot more to offer in terms of system resources
+14:21 < jardineworks:#liferay> I would classify a bundle as "desktop ready"
