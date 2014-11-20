@@ -12,3 +12,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 03:23 < winem_:#liferay> good morning
+03:25 < winem_:#liferay> a question regarding the portal-ext.properties. I'd like to define all pathes to directories storing content, java content repositories and so on in a different folder which is not inside the JBOSS_HOME
