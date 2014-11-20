@@ -46,3 +46,4 @@
 09:27 < jardineworks:#liferay>     # importer will fetch users by their email address even if the property
 09:27 < jardineworks:#liferay>     # "company.security.auth.type" is set to screenName.
 09:27 < jardineworks:#liferay>     #
+09:27 < jardineworks:#liferay>     users.screen.name.always.autogenerate=false
