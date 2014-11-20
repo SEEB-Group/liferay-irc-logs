@@ -72,3 +72,4 @@
 10:24 < winem_:#liferay> yes. all files which will be stored locally on the server and not on the database
 10:26 < jardineworks:#liferay> winem_, are you using the default document library store/
 10:26 < jardineworks:#liferay> ?
+10:26 < jardineworks:#liferay> winem_, meaning, have you overridden the dl.store.impl property?
