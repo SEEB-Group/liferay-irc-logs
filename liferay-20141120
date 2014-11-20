@@ -70,3 +70,4 @@
 10:22 < jardineworks:#liferay> Uzzi, however, things that are configurable in the control panel, Liferay recommends that you do them in the control panel not the portal-ext -- mostly because items in the control panel are (portal) instance based. If you put it in the portal-ext, the same setting will be applied to all portal instances.
 10:23 < jardineworks:#liferay> winem_, Is your question for the storage location of the DocumentLibrary assets?
 10:24 < winem_:#liferay> yes. all files which will be stored locally on the server and not on the database
+10:26 < jardineworks:#liferay> winem_, are you using the default document library store/
