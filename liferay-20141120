@@ -39,3 +39,4 @@
 09:26 < jardineworks:#liferay> OR
 09:26 < jardineworks:#liferay> actually
 09:26 < jardineworks:#liferay> sorry
+09:27 < jardineworks:#liferay> easier way might be to set the property in the portal-ext.
