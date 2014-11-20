@@ -36,3 +36,4 @@
 09:26 < Uzzi:#liferay> I havo found companyId
 09:26 < jardineworks:#liferay> find the <preference/> node where LDAP is enabled and the one where it is required, and set them to false.
 09:26 < jardineworks:#liferay> that will disable LDAP as your authentication method
+09:26 < jardineworks:#liferay> OR
