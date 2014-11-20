@@ -103,3 +103,4 @@
 10:52 < rrapozo:#liferay> yes, but I need send a object to another page with actionURL
 10:53 < rrapozo:#liferay> A other way to do that is disassemble the object and send a lot parameters but I cand do that too
 10:57 < jardineworks:#liferay> rrapozo, right -- or alternatively, you could use the session to store it. Personally, I don't like using the session.
+10:57 < jardineworks:#liferay> rrapozo, another option would be the database/cache and then you just pass the key to the object around
