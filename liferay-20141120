@@ -85,3 +85,4 @@
 10:28 < jardineworks:#liferay> e.g. dl.store.file.system.root.dir=/mnt/document_library -- or whatever
 10:32 < winem_:#liferay> great, thanks :)
 10:32 < winem_:#liferay> resource.repositories.root is only used for the java content store?
+10:35 < jardineworks:#liferay>     #
