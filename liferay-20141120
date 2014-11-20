@@ -119,3 +119,4 @@
 11:20 < jardineworks:#liferay> so then I ask you --
 11:20 < winem_:#liferay> even if I prefer and appreciate standards. our new hosting environment is a very good example.. templates for the virtual machines, configurations managed via puppet, and so on. a lot of fun, but as much standards as possible (if suitable) and we can keep our scope on the improvements of our platforms. will be a lot of fun :)
 11:20 < jardineworks:#liferay> if there is only one definition of how the application will perform, then what is the real value in taking the time to apply something like dependency injection? you will only ever have ONE definition to inject.
+11:21 < jardineworks:#liferay> I think sometimes peopel get lost in the romance of software development
