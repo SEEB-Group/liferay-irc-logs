@@ -14,3 +14,4 @@
 03:23 < winem_:#liferay> good morning
 03:25 < winem_:#liferay> a question regarding the portal-ext.properties. I'd like to define all pathes to directories storing content, java content repositories and so on in a different folder which is not inside the JBOSS_HOME
 03:25 < winem_:#liferay> just to be able to increase the partition size if it grows too much, easier backups and so on. which properties do I need for it? resource.repositories.root is not enough, or?!
+05:13 < winem_:#liferay> sorry, was offline for a while. was there any reply to my question?
