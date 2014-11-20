@@ -65,3 +65,4 @@
 10:01 < Tar-Minyatur:#liferay> We see loads of "Too many open files" errors in our logfile.
 10:02 < Tar-Minyatur:#liferay> And I've had a bad feeling about this S3 implementation for quite a while.
 10:02 < Tar-Minyatur:#liferay> Anyone ever used that and noticed some bad quality in this "adapter"?
+10:13 < Uzzi:#liferay> it's better have portal-ext.properties?
