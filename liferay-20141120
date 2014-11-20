@@ -136,3 +136,4 @@
 11:32 < winem_:#liferay> but a good one in reverse engineering if you're not part of the project from the beginning :)
 14:01 < winem_:#liferay> jardine, how do you deploy liferay in a tomcat?
 14:01 < winem_:#liferay> the docs say that you should unzip the ROOT.war to a folder called ROOT.war in your deployment dir
+14:09 < winem_:#liferay> hi modd :)
