@@ -117,3 +117,4 @@
 11:19 < winem_:#liferay> yes, this is a good exampple
 11:19 < jardineworks:#liferay> for example, I worked with a client once that INSISTED on using dependency injection as part of their application build (home grown). The tool was solely for their own use and had exactly one business purpose --
 11:20 < jardineworks:#liferay> so then I ask you --
+11:20 < winem_:#liferay> even if I prefer and appreciate standards. our new hosting environment is a very good example.. templates for the virtual machines, configurations managed via puppet, and so on. a lot of fun, but as much standards as possible (if suitable) and we can keep our scope on the improvements of our platforms. will be a lot of fun :)
