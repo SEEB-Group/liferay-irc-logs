@@ -106,3 +106,4 @@
 10:57 < jardineworks:#liferay> rrapozo, another option would be the database/cache and then you just pass the key to the object around
 10:57 < jardineworks:#liferay> unless you need the whole thing in the jso
 10:57 < jardineworks:#liferay> jsp*
+11:14 < winem_:#liferay> jardine, please kick me in my nuts whenever I don't follow your advices... liferay in a jboss is no pleasure :-/
