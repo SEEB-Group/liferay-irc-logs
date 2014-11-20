@@ -55,3 +55,4 @@
 09:29 < Uzzi:#liferay> I have not a file named portal/ext
 09:29 < jardineworks:#liferay> doesn't really matter -- create a file called portal-ext.properties in your LIFERAY_HOME folder (one up from TOMCAT_HOME usually) and in it put that property but set the value to true
 09:29 < jardineworks:#liferay> conf call.. bbiab
+09:30 < Uzzi:#liferay> in the same dir where there is portal-setup-wizard.properties _
