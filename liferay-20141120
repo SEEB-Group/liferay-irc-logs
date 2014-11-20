@@ -62,3 +62,4 @@
 10:01 < Tar-Minyatur:#liferay> I just ran into another jolly Liferay issue (probably).
 10:01 < Tar-Minyatur:#liferay> We're using the DL to store quite a large amount of images.
 10:01 < Tar-Minyatur:#liferay> And as our setup is running in the Amazon cloud, we configured it to use the S3.
+10:01 < Tar-Minyatur:#liferay> We see loads of "Too many open files" errors in our logfile.
