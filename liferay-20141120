@@ -53,3 +53,4 @@
 09:28 < jardineworks:#liferay> eh? no portal-ext? are you using hypersonic?
 09:28 < jardineworks:#liferay> doesn
 09:29 < Uzzi:#liferay> I have not a file named portal/ext
+09:29 < jardineworks:#liferay> doesn't really matter -- create a file called portal-ext.properties in your LIFERAY_HOME folder (one up from TOMCAT_HOME usually) and in it put that property but set the value to true
