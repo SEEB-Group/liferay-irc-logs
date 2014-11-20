@@ -86,3 +86,4 @@
 10:32 < winem_:#liferay> great, thanks :)
 10:32 < winem_:#liferay> resource.repositories.root is only used for the java content store?
 10:35 < jardineworks:#liferay>     #
+10:35 < jardineworks:#liferay>     # This property is available for backwards compatibility. Please set the
