@@ -90,3 +90,4 @@
 10:35 < jardineworks:#liferay>     # property "liferay.home" instead.
 10:35 < jardineworks:#liferay>     #
 10:35 < jardineworks:#liferay>     resource.repositories.root=${default.liferay.home}
+10:35 < winem_:#liferay> ups, thanks
