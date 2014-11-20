@@ -116,3 +116,4 @@
 11:19 < jardineworks:#liferay> sometimes I find that they create more work than they are worth
 11:19 < winem_:#liferay> yes, this is a good exampple
 11:19 < jardineworks:#liferay> for example, I worked with a client once that INSISTED on using dependency injection as part of their application build (home grown). The tool was solely for their own use and had exactly one business purpose --
+11:20 < jardineworks:#liferay> so then I ask you --
