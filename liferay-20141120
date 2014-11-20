@@ -67,3 +67,4 @@
 10:02 < Tar-Minyatur:#liferay> Anyone ever used that and noticed some bad quality in this "adapter"?
 10:13 < Uzzi:#liferay> it's better have portal-ext.properties?
 10:21 < jardineworks:#liferay> Uzzi, normally this is where you provide the overrides to portal.properties (default) settings.
+10:22 < jardineworks:#liferay> Uzzi, however, things that are configurable in the control panel, Liferay recommends that you do them in the control panel not the portal-ext -- mostly because items in the control panel are (portal) instance based. If you put it in the portal-ext, the same setting will be applied to all portal instances.
