@@ -29,3 +29,4 @@
 09:24 < jardineworks:#liferay> Uzzi, sorry -- can you get into the control panel?
 09:24 < Uzzi:#liferay> there is not companyId in my OpenLDAP
 09:25 < Uzzi:#liferay> I can not get control panel
+09:25 < jardineworks:#liferay> Uzzi, ok -- can you query your database?
