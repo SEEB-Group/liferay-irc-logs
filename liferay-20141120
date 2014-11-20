@@ -49,3 +49,4 @@
 09:27 < jardineworks:#liferay>     users.screen.name.always.autogenerate=false
 09:27 < jardineworks:#liferay> set that to tru and restart
 09:27 < jardineworks:#liferay> then the import will probably work.
+09:27 < Uzzi:#liferay> I have not portal-ext
