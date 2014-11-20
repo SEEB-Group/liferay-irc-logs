@@ -77,3 +77,4 @@
 10:26 < winem_:#liferay> no
 10:26 < jardineworks:#liferay> winem_, ok -- so by default it is dl.store.impl=com.liferay.portlet.documentlibrary.store.FileSystemStore
 10:27 < jardineworks:#liferay> and this is the property for the storage location --
+10:27 < jardineworks:#liferay> #
