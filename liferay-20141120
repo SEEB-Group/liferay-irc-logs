@@ -34,3 +34,4 @@
 09:25 < jardineworks:#liferay> query the VirtualHost table and get the companyId for your host
 09:26 < jardineworks:#liferay> then query the PortalPreferences table where the ownerId = companyId
 09:26 < Uzzi:#liferay> I havo found companyId
+09:26 < jardineworks:#liferay> find the <preference/> node where LDAP is enabled and the one where it is required, and set them to false.
