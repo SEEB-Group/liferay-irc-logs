@@ -41,3 +41,4 @@
 09:26 < jardineworks:#liferay> sorry
 09:27 < jardineworks:#liferay> easier way might be to set the property in the portal-ext.
 09:27 < jardineworks:#liferay>     #
+09:27 < jardineworks:#liferay>     # Set this to true to always autogenerate user screen names even if the user
