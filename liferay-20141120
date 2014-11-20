@@ -47,3 +47,4 @@
 09:27 < jardineworks:#liferay>     # "company.security.auth.type" is set to screenName.
 09:27 < jardineworks:#liferay>     #
 09:27 < jardineworks:#liferay>     users.screen.name.always.autogenerate=false
+09:27 < jardineworks:#liferay> set that to tru and restart
