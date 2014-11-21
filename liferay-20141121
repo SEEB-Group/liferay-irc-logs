@@ -25,3 +25,4 @@
 06:12 < Axxell:#liferay> hmm im trying on a virtual machine to update a liferay 6.1 ga3 to a 6.2 ga2, ive compiled the liferay libs from the sourcode with some fixes for the db upgrade to pass. Not the problem is that i get the following error: Error encountered while reindexing com.liferay.portlet.asset.NoSuchCategoryException: No AssetCategory exists with the primary key 0
 06:13 < Axxell:#liferay> because of this indexing fails and most of the functionality of the portal is gone
 06:21 < Axxell:#liferay> Anyone know what might be the problem?
+09:21 < rrapozo:#liferay> Someone there?
