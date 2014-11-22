@@ -41,3 +41,4 @@
 19:12 < bijoo_:#liferay> MBCategory AssetEntries_AssetCategories
 19:13 < bijoo_:#liferay> Check them (or your custom ones) for 0
 19:19 < bijoo_:#liferay> NutsPT: "I need to export my ftl/vm content templates to the filesystem, is there a way?" mysqldump -uroot database_name --tables DDMTemplate > /tmp/ddmtemplate.sql
+19:19 < bijoo_:#liferay> NutsPT: Note to change following parameters: -uroot to -u[username], database_name to your database name, and possibly the result file
