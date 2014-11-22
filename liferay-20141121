@@ -33,3 +33,4 @@
 09:56 < NutsPT:#liferay> Hi guys, anyone can help with LARs export import, same version of CE?
 19:07 < bijoo_:#liferay> Axxell: seems like some data corruption issue; one way to check is to find which it is
 19:12 < bijoo_:#liferay> Axxell: these are the tables that have that column:
+19:12 < bijoo_:#liferay> ShoppingItem
