@@ -130,3 +130,4 @@
 14:28 < MikeHartman:#liferay> bijoo: I agree, using the debugger is the ideal when troubleshooting anything. Unfortunately we're only having this issue in our live staging environment, and remote debugging against the jvms on our servers is INSANELY slow. As in, every time I tell it to step it takes 30 seconds minimum to finish loading everything - often significantly more than that. So connecting the debugger to our servers is always the absolute last
 14:28 < MikeHartman:#liferay>  resort.
 14:30 < MikeHartman:#liferay> Unfortunately the only other debugging I can do is to crank the log4j levels up to ALL, and Liferay is incredibly sparse with its logging, so that rarely helps much. That's what I'll be trying next though.
+14:33 < jardineworks:#liferay> MikeHartman, can you use jdb?
