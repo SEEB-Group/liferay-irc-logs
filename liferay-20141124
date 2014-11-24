@@ -67,3 +67,4 @@
 12:26 < MikeHartman:#liferay> right
 12:27 < MikeHartman:#liferay> I took a look at that table and it seems to be a lot smaller than it should be
 12:27 < modd:#liferay> check, if these articleIds are given and if the Id matches a give journalarticle
+12:27 < MikeHartman:#liferay> The number of rows in that table that have an articleid set is much lower than the number of active display portlets we had
