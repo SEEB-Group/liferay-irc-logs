@@ -16,3 +16,4 @@
 07:24 < g33kyboi:#liferay> liferay 6.2.0
 07:29 < topolik:#liferay> ok, just to orient myself in the problem
 07:30 < topolik:#liferay> you want to provide your own implementation of UserLocalService, right?
+07:33 < g33kyboi:#liferay> yes
