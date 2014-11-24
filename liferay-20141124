@@ -109,3 +109,4 @@
 13:23 < NutsPT:#liferay> major issues here because of this
 13:23 < bijoo_:#liferay> NutsPT: https://github.com/liferay/liferay-portal/commit/7cd5e798c9addbdc033b45a2e2c3ef4fbeee4e6c
 13:24 < bijoo_:#liferay> NutsPT: checking if that class can be changed through hook
+13:24 < bijoo_:#liferay> NutsPT: if not, can create ext plugin or such
