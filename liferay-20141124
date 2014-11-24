@@ -99,3 +99,4 @@
 12:38 < MikeHartman:#liferay> The upgrade process didn't toss any messages about failure or bad content in the logs (sorry, missing that line)
 13:17 < bijoo_:#liferay> NutsPT: Hi, what's your question on freemarker there?
 13:17 < bijoo_:#liferay> NutsPT: https://issues.liferay.com/browse/LPS-48360 seems is fixed in latest 6.2, what version are you using that has it?
+13:19 < NutsPT:#liferay> 6.2 CE
