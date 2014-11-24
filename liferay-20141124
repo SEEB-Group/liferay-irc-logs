@@ -133,3 +133,4 @@
 14:33 < jardineworks:#liferay> MikeHartman, can you use jdb?
 14:33 < jardineworks:#liferay> that's what I resort to when I have to do remote debugging over the vpn (barf)
 14:38 < MikeHartman:#liferay> I don't know if we've tried that
+14:43 < jardineworks:#liferay> MikeHartman, it's a wee bit tricky to get going with if you don't use it often (I certainly don't) but it certainly beats the slow connection stuff as it is all text
