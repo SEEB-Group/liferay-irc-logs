@@ -31,3 +31,4 @@
 07:42 < topolik:#liferay> it's because we need to avoid problems with classloading and different spring contexts
 07:43 < topolik:#liferay> therefore portal creates a proxy around your class and injects it into the wrapper with link to the previous implementation
 07:44 < topolik:#liferay> if you want to access Spring beans from the plugin's Spring context there is a workaround using PortletBeanLocatorUtil
+07:49 < g33kyboi:#liferay> whats the impact on performance? Is this a recommended approach ? as I just came across a suggestion to use @BeanReference annotation
