@@ -59,3 +59,4 @@
 12:23 < MikeHartman:#liferay> Our pages are still there and our web content is still there, but the web content display portlets on all our pages are empty - they're there but not associated with the specific articles anymore
 12:24 < MikeHartman:#liferay> In an attempt to troubleshoot this we temporarily turned of remote publishing (this is our staging server we're upgrading) and now the web content display portlets have completely disappeared.
 12:24 < MikeHartman:#liferay> We took backups, so we could roll back and try again, but it's our second attempt and nothing has changed
+12:26 < modd:#liferay> usually, you have the layouts/pages with the portlet/-instances on them
