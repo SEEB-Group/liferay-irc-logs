@@ -95,3 +95,4 @@
 12:36 < modd:#liferay> you could also run the portal in debug mode while upgrading
 12:36 < MikeHartman:#liferay> But that is a LOT more time and work than I was hoping to put into this
 12:37 < modd:#liferay> welcome to liferay^^
+12:37 < MikeHartman:#liferay> And since the only difference between Live Stage and QA should be the newer content, there's no guarantee we wouldn't just run into the same problem with it in QA
