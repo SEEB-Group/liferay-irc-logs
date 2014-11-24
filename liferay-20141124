@@ -80,3 +80,4 @@
 12:32 < modd:#liferay> if everything is ok, and the content is the same, why not transfer it to live?
 12:32 < MikeHartman:#liferay> Well, like I said, it's pretty stale
 12:32 < MikeHartman:#liferay> Our business team is updating pages in live all the time, so we'd lose at least a couple months of their work
+12:33 < modd:#liferay> ok, then reconstruct 6.1 qa first, then import from live, then update to 6.2 then transfer^^
