@@ -96,3 +96,4 @@
 12:36 < MikeHartman:#liferay> But that is a LOT more time and work than I was hoping to put into this
 12:37 < modd:#liferay> welcome to liferay^^
 12:37 < MikeHartman:#liferay> And since the only difference between Live Stage and QA should be the newer content, there's no guarantee we wouldn't just run into the same problem with it in QA
+12:38 < MikeHartman:#liferay> The upgrade process didn't toss any messages about failure or bad content in the logs (sorry, missing that line)
