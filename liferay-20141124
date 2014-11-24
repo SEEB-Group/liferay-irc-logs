@@ -74,3 +74,4 @@
 12:28 < modd:#liferay> the problem might be related to the staging mechanism. in 6.1, it was..eh..unstable^^
 12:28 < MikeHartman:#liferay> yeah
 12:29 < MikeHartman:#liferay> We have the same environment setup (staging + remote live) in our qa environment and we were able to upgrade there without hitting this issue
+12:29 < modd:#liferay> hmm
