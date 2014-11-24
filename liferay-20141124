@@ -23,3 +23,4 @@
 07:35 < g33kyboi:#liferay> Is this possible?
 07:36 < topolik:#liferay> if you use Hook then no
 07:36 < topolik:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.0-ga1/portal-impl/src/com/liferay/portal/deploy/hot/HookHotDeployListener.java#L2205
+07:36 < topolik:#liferay> the service is created using constructor, there is no Spring context involved
