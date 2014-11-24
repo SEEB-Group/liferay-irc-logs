@@ -38,3 +38,4 @@
 08:04 < g33kyboi:#liferay> com.liferay.portal.kernel.bean.BeanReference;
 08:13 < topolik:#liferay> sorry, need to leave now, quickly looking into BeanReferenceAnnotationBeanPostProcessor it seems that only portal spring context is involved here and I guess BeanReferenceAnnotationBeanPostProcessor is only wired using Spring again
 08:16 < g33kyboi:#liferay> okay. thanks!
+08:16 < g33kyboi:#liferay> I will figure it out
