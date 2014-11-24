@@ -82,3 +82,4 @@
 12:32 < MikeHartman:#liferay> Our business team is updating pages in live all the time, so we'd lose at least a couple months of their work
 12:33 < modd:#liferay> ok, then reconstruct 6.1 qa first, then import from live, then update to 6.2 then transfer^^
 12:33 < MikeHartman:#liferay> It's a shame import/export doesn't work across versions, or we would just roll back to 6.1, export, upgrade and reimport
+12:34 < modd:#liferay> maybe some content, which was added inbetween destroys the upgrade content
