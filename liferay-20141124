@@ -84,3 +84,4 @@
 12:33 < MikeHartman:#liferay> It's a shame import/export doesn't work across versions, or we would just roll back to 6.1, export, upgrade and reimport
 12:34 < modd:#liferay> maybe some content, which was added inbetween destroys the upgrade content
 12:34 < modd:#liferay> well, export/import works between versions..
+12:34 < modd:#liferay> you have to edit the lar file but it works
