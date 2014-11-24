@@ -63,3 +63,4 @@
 12:26 < MikeHartman:#liferay> So ideally we'd like to know how to "reappear" the display portlets that disappeared when we turned off remote publishing, and THEN how to fix the broken associations (so we don't have to roll back and do the upgrade all over again). But if nothing else we'd just like to know what's going wrong so we can do it all from scratch and get a successful upgrade.
 12:26 < modd:#liferay> these portlets have portletpreferences
 12:26 < MikeHartman:#liferay> yep
+12:26 < modd:#liferay> here you have all the settings, also the articleId
