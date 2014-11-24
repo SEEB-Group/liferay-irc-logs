@@ -75,3 +75,4 @@
 12:28 < MikeHartman:#liferay> yeah
 12:29 < MikeHartman:#liferay> We have the same environment setup (staging + remote live) in our qa environment and we were able to upgrade there without hitting this issue
 12:29 < modd:#liferay> hmm
+12:30 < modd:#liferay> do both, live and qa have the same content or is qa more like a testing environment without any real content?
