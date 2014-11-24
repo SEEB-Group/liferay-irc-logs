@@ -21,3 +21,4 @@
 07:34 < g33kyboi:#liferay> but the autowired DAO returns a null value
 07:35 < topolik:#liferay> I see
 07:35 < g33kyboi:#liferay> Is this possible?
+07:36 < topolik:#liferay> if you use Hook then no
