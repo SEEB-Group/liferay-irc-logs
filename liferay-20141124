@@ -92,3 +92,4 @@
 12:35 < MikeHartman:#liferay> Given all the changes I doubt it's very compatible - structures and templates are a new implementation under the hood now
 12:36 < modd:#liferay> try to check, if the upgrade process fails because of any content
 12:36 < MikeHartman:#liferay> Anyway, I guess we could roll back QA, roll back Live Stage, export Live Stage to QA, upgrade QA, upgrade Live Stage, and export QA to Live Stage as you suggest
+12:36 < modd:#liferay> you could also run the portal in debug mode while upgrading
