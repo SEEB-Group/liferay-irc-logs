@@ -34,3 +34,4 @@
 07:49 < g33kyboi:#liferay> whats the impact on performance? Is this a recommended approach ? as I just came across a suggestion to use @BeanReference annotation
 07:56 < g33kyboi:#liferay> whats the impact on performance? Is this a recommended approach ? as I just came across a suggestion to use @BeanReference annotation
 08:03 < topolik:#liferay> I don't think any Spring annotation works when the class is not instantiated using Spring framework
+08:04 < g33kyboi:#liferay> The annotation above is liferay annotation
