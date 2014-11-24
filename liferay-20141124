@@ -70,3 +70,4 @@
 12:27 < MikeHartman:#liferay> The number of rows in that table that have an articleid set is much lower than the number of active display portlets we had
 12:27 < MikeHartman:#liferay> So I figured the upgrade was dropping a bunch of rows from that table, I just don't know why
 12:28 < modd:#liferay> well, you can have one article but 50 display portlets to show the same article
+12:28 < MikeHartman:#liferay> True, but in our case that doesn't happen much
