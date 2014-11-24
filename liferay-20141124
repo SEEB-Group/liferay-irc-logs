@@ -42,3 +42,4 @@
 08:20 < Uzzi:#liferay> Workplace Reservation Manager  is not compatible with 6.2ce?
 09:06 < NutsPT:#liferay> Hello, can someone give me a hand with freemarker?
 09:43 < sm`:#liferay> hello im unable to @autowire a bean in my portlet class (extendes MVCPortlet)
+09:44 < sm`:#liferay> LR 6.1
