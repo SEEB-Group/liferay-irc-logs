@@ -27,3 +27,4 @@
 07:38 < topolik:#liferay> but all the classes from your plugin should be accessible
 07:38 < topolik:#liferay> there is just no Spring framework here
 07:39 < g33kyboi:#liferay> "all the classes from the plugin should be accesible"? how, without creating new instances?
+07:40 < topolik:#liferay> they are accessible because your UserLocalServiceAAAA class is loaded using the plugin's classloader
