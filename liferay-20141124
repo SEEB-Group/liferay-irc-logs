@@ -112,3 +112,4 @@
 13:24 < bijoo_:#liferay> NutsPT: if not, can create ext plugin or such
 13:25 < NutsPT:#liferay> ok, I will see what to do
 13:25 < bijoo_:#liferay> NutsPT: so it seems it's not supported through hook
+13:25 < bijoo_:#liferay> NutsPT: best option is to create ext plugin
