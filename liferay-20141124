@@ -61,3 +61,4 @@
 12:24 < MikeHartman:#liferay> We took backups, so we could roll back and try again, but it's our second attempt and nothing has changed
 12:26 < modd:#liferay> usually, you have the layouts/pages with the portlet/-instances on them
 12:26 < MikeHartman:#liferay> So ideally we'd like to know how to "reappear" the display portlets that disappeared when we turned off remote publishing, and THEN how to fix the broken associations (so we don't have to roll back and do the upgrade all over again). But if nothing else we'd just like to know what's going wrong so we can do it all from scratch and get a successful upgrade.
+12:26 < modd:#liferay> these portlets have portletpreferences
