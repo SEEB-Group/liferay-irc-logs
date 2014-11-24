@@ -57,3 +57,4 @@
 12:22 < modd:#liferay> what's the problem?
 12:23 < MikeHartman:#liferay> We run the upgrade process (unzip the new bundle, move our settings over, etc. and start it up) and it seems to run ok - no errors in the logs. We're able to deploy our plugin code with no issue.
 12:23 < MikeHartman:#liferay> Our pages are still there and our web content is still there, but the web content display portlets on all our pages are empty - they're there but not associated with the specific articles anymore
+12:24 < MikeHartman:#liferay> In an attempt to troubleshoot this we temporarily turned of remote publishing (this is our staging server we're upgrading) and now the web content display portlets have completely disappeared.
