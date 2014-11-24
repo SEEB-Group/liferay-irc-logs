@@ -33,3 +33,4 @@
 07:44 < topolik:#liferay> if you want to access Spring beans from the plugin's Spring context there is a workaround using PortletBeanLocatorUtil
 07:49 < g33kyboi:#liferay> whats the impact on performance? Is this a recommended approach ? as I just came across a suggestion to use @BeanReference annotation
 07:56 < g33kyboi:#liferay> whats the impact on performance? Is this a recommended approach ? as I just came across a suggestion to use @BeanReference annotation
+08:03 < topolik:#liferay> I don't think any Spring annotation works when the class is not instantiated using Spring framework
