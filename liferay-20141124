@@ -126,3 +126,4 @@
 13:29 < bijoo_:#liferay> NutsPT: cya, have a great day, let me know test
 13:29 < NutsPT:#liferay> ok
 13:32 < bijoo_:#liferay> Uzzi: from MP, just 6.1 EE, right?
+13:40 < bijoo_:#liferay> MikeHartman: I hear you about the upgrade issue; I'd have to re-echo what modd said though; whenever have issue like this, debug; it provides a new perspective on this; usually learn something new as well; and not always have to spend hours there; sometimes with a few mins debug/breakpoints (especially conditional breakpoints); I always use debug to find issues; especially when the function's complex (e.g. permission system etc.)
