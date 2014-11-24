@@ -50,3 +50,4 @@
 10:02 < sm`:#liferay> tnx
 10:02 < sm`:#liferay> basially says i cant use spring annotations
 10:02 < sm`:#liferay> there
+10:03 < sm`:#liferay> and try get em with PortletBeanLocatorUtil
