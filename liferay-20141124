@@ -94,3 +94,4 @@
 12:36 < MikeHartman:#liferay> Anyway, I guess we could roll back QA, roll back Live Stage, export Live Stage to QA, upgrade QA, upgrade Live Stage, and export QA to Live Stage as you suggest
 12:36 < modd:#liferay> you could also run the portal in debug mode while upgrading
 12:36 < MikeHartman:#liferay> But that is a LOT more time and work than I was hoping to put into this
+12:37 < modd:#liferay> welcome to liferay^^
