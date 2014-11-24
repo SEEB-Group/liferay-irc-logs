@@ -72,3 +72,4 @@
 12:28 < modd:#liferay> well, you can have one article but 50 display portlets to show the same article
 12:28 < MikeHartman:#liferay> True, but in our case that doesn't happen much
 12:28 < modd:#liferay> the problem might be related to the staging mechanism. in 6.1, it was..eh..unstable^^
+12:28 < MikeHartman:#liferay> yeah
