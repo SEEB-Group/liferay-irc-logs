@@ -56,3 +56,4 @@
 12:21 < MikeHartman:#liferay> Can anyone help us with an issue we're having upgrading from 6.1 CE to 6.2 CE? I've been Googling all morning and can't find anyone with similar issues.
 12:22 < modd:#liferay> what's the problem?
 12:23 < MikeHartman:#liferay> We run the upgrade process (unzip the new bundle, move our settings over, etc. and start it up) and it seems to run ok - no errors in the logs. We're able to deploy our plugin code with no issue.
+12:23 < MikeHartman:#liferay> Our pages are still there and our web content is still there, but the web content display portlets on all our pages are empty - they're there but not associated with the specific articles anymore
