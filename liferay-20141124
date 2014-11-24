@@ -17,3 +17,4 @@
 07:29 < topolik:#liferay> ok, just to orient myself in the problem
 07:30 < topolik:#liferay> you want to provide your own implementation of UserLocalService, right?
 07:33 < g33kyboi:#liferay> yes
+07:34 < g33kyboi:#liferay> and I have to autowire my DAO into the CustomUserLocalServiceImpl
