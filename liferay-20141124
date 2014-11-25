@@ -145,3 +145,4 @@
 16:50 < urug_:#liferay> subsites) but the emails are still coming to him. I have two questions: How to solve that? How is determined the user to who the Web Content notifications should be coming?
 21:30 < bijoo_:#liferay> MikeHartman: yes, it is slow when server's on the cloud; running connection through ssh helps; but still I agree it can be painful; best to locally replicate issue; ideally have local headless VMs; or replicate with minimal test case.
 21:31 < bijoo_:#liferay> MikeHartman: note Eclipse uses jdb as well; it just queries a whole lot of stuff too; so using plain jdb avoids mess.
+21:32 < bijoo_:#liferay> NutsPT: when you get back, ping me and I'll help you
