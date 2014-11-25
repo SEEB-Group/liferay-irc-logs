@@ -35,3 +35,4 @@
 09:55 <@jhf:#liferay> 5 minute warning for the next dev.life session - join Sr Architect Ray Augé @rotty3000 in our dev.life hangouts  - Practical Modularity w/Liferay & OSGi https://www.liferay.com/community/dev.life/home
 12:06 < urug_:#liferay> Hi, A lot of Web Content notification emails (Article with the ID 52145 and version 1.4 and title ... was updated/added/deleted...) are coming to one of our Liferay (6.2) user, which is undesirable. These emails are coming only to him, not to any other user. I unchecked all "Enabled" checkboxes under Site Administration -> Web Content -> Configuration on every site (including Global and all
 12:06 < urug_:#liferay> subsites) but the emails are still coming to him. I have two questions: How to solve that? How is determined the user to who the Web Content notifications should be coming?
+12:07 < bijoo_:#liferay> urug_: sorry, I gotta head out for a bit; I'll respond later as I have same bug
