@@ -146,3 +146,4 @@
 21:30 < bijoo_:#liferay> MikeHartman: yes, it is slow when server's on the cloud; running connection through ssh helps; but still I agree it can be painful; best to locally replicate issue; ideally have local headless VMs; or replicate with minimal test case.
 21:31 < bijoo_:#liferay> MikeHartman: note Eclipse uses jdb as well; it just queries a whole lot of stuff too; so using plain jdb avoids mess.
 21:32 < bijoo_:#liferay> NutsPT: when you get back, ping me and I'll help you
+21:33 < bijoo_:#liferay> urug_: I noticed a similar issue too; are you using workflow for Web Content?
