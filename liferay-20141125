@@ -18,3 +18,4 @@
 05:02 < winem_:#liferay> did not find any option "below" organization to add an ldap. only the functionality in the general users management. control panel -> portal settings -> authentication -> ldap
 05:02 < winem_:#liferay> am I right and I have to add the ldap and assign the users after the initial import from the ldap to an organization?
 05:46 < aqquadro:#liferay> hi there
+05:47 < aqquadro:#liferay> when I map a struts-action is needed to attach a specific permission to get accessible from a logged user?
