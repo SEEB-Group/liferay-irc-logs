@@ -13,3 +13,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 04:58 < winem_:#liferay> good morning, I have a Q regarding user authentication with an LDAP
+04:59 < winem_:#liferay> I understood the hierarchy of liferay portal instance -> organisation -> organization unit / locality -> users
