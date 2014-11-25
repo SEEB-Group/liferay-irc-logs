@@ -15,3 +15,4 @@
 04:58 < winem_:#liferay> good morning, I have a Q regarding user authentication with an LDAP
 04:59 < winem_:#liferay> I understood the hierarchy of liferay portal instance -> organisation -> organization unit / locality -> users
 04:59 < winem_:#liferay> but how can I connect against different ldaps? do I have to configure the ldap connection and assign the users / groups it returns from our ldap to the organization manually?
+05:02 < winem_:#liferay> did not find any option "below" organization to add an ldap. only the functionality in the general users management. control panel -> portal settings -> authentication -> ldap
