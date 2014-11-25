@@ -23,3 +23,4 @@
 07:23 < winem_:#liferay> perfect, that's what I wanted to hear, thank you :)
 07:55 < g33kyboi:#liferay> I want to use my existing database with liferay. I have implemented a login hook such that when a user logs in, I intercept the process and verify the details with my db. Upon successful validation I get redirected to the login page without any error message. I suppose liferay still goes ahead to check its db for the same user. If so, is it possible to override this persistent check and rather provide a liferay user object instead? I do not want to create dummy
 08:32 < topolik:#liferay> g33kyboi: try to look at auth.pipeline.enable.liferay.check
+08:38 < jardineworks:#liferay> hi topolik
