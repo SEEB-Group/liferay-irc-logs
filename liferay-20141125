@@ -20,3 +20,4 @@
 05:46 < aqquadro:#liferay> hi there
 05:47 < aqquadro:#liferay> when I map a struts-action is needed to attach a specific permission to get accessible from a logged user?
 06:59 < topolik:#liferay> winem_: hi, I think there is a possibility to map LDAP users into Liferay User Groups and then assign User Group among Organization members
+07:23 < winem_:#liferay> perfect, that's what I wanted to hear, thank you :)
