@@ -23,3 +23,4 @@
 10:00 < jardineworks:#liferay> rrapozo, so you are going to localhost (port 80) and prozy passing to localhost:8080  -- is that right (sorry, not an apache expert)
 10:02 < rrapozo:#liferay> yes
 10:07 < rrapozo:#liferay> jardineworks: it's a reverse proxy
+10:09 < jardineworks:#liferay> rrapozo, ok -- in chrome inspector, what are the urls for the "broken resources"?
