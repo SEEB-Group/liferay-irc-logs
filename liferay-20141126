@@ -17,3 +17,4 @@
 09:31 < bijoo_:#liferay> rrapozo: what's the issue you are facing with that?
 09:45 < rrapozo:#liferay> bijoo_: I can't show my liferay
 09:45 < rrapozo:#liferay> it's behind a apache proxy
+09:47 < rrapozo:#liferay> bijoo_: I tried a lot configs but one of them show me my liferay without css another one show 404
