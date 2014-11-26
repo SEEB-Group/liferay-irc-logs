@@ -22,3 +22,4 @@
 09:55 < rrapozo:#liferay> jardineworks: Hey Jardi this is the configuration that I tried to use http://pastebin.com/Hm19U2cL
 10:00 < jardineworks:#liferay> rrapozo, so you are going to localhost (port 80) and prozy passing to localhost:8080  -- is that right (sorry, not an apache expert)
 10:02 < rrapozo:#liferay> yes
+10:07 < rrapozo:#liferay> jardineworks: it's a reverse proxy
