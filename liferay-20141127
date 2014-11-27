@@ -14,3 +14,4 @@
 04:01 < g33kyboi:#liferay> hi
 04:05 < g33kyboi:#liferay> I am developing a new liferay theme and using the classic theme as parent theme. My theme project is a maven liferay-theme project. However, my css definitions in my custom.css file in the _diffs are not reflecting at all. even changes made to the portal_normal.vm are not effected on deploy. restarting the server, deleting and redeploying theme didn't work. is this a known bug or is there something I'm missing? I am using Liferay 6.2.0
 04:09 < g33kyboi:#liferay> Please any help on this will be much appreciated
+04:21 < g33kyboi:#liferay> patiently waiting for my magician :(
