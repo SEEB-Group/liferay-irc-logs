@@ -15,3 +15,4 @@
 05:46 < g33kyboi:#liferay> hello
 05:46 < g33kyboi:#liferay> has anyone had any issues with developing a liferay theme using maven?
 05:48 < g33kyboi:#liferay> I use liferay 6.2.0 and when a create a maven project and use the liferay:deploy goal the changes in the custom.css file are not effected instead the parent theme's custom.css is used?
+05:48 < g33kyboi:#liferay> used.
