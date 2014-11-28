@@ -75,3 +75,4 @@
 13:11 < jardineworks:#liferay> ok -- and you can log in with this user which means you have LDAP enabled=true, but it is not yet REQUIRED
 13:11 < jardineworks:#liferay> (required checkbox is unchecked)
 13:12 < jardineworks:#liferay> also -- you have not set any LDAP properties, mappings, etc. in the portal-ext.properties file, right?
+13:12 < Uzzi:#liferay> y
