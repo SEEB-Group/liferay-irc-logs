@@ -20,3 +20,4 @@
 05:49 < g33kyboi:#liferay> Any suggestion or way around this?
 08:34 < modd_:#liferay> I can still reproduce this issue in 6.2 GA2 CE: https://issues.liferay.com/browse/LPS-29894
 11:48 < Uzzi:#liferay> I need help for liferyay+ldap. I see users but not Groups
+12:06 < Uzzi:#liferay> when I'm testing LDAP Groups work fine, but Gruops doesn't compare in User Groups
