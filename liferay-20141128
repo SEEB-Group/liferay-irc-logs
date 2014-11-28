@@ -51,3 +51,4 @@
 12:59 < jardineworks:#liferay> Uzzi, yep
 12:59 < jardineworks:#liferay> Uzzi, also -- are you using the default ldap.import.method? or have you overridden it in the portal-ext.properties
 12:59 < Uzzi:#liferay> no I have not modify portal-ext.properties
+13:00 < jardineworks:#liferay> Uzzi, ok
