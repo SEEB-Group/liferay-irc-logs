@@ -22,3 +22,4 @@
 11:48 < Uzzi:#liferay> I need help for liferyay+ldap. I see users but not Groups
 12:06 < Uzzi:#liferay> when I'm testing LDAP Groups work fine, but Gruops doesn't compare in User Groups
 12:07 < Uzzi:#liferay> Unable to import user cn=xxxxxx,ou=Groups: null:null:No attributes com.liferay.portal.UserScreenNameException: Screen name cannot be null for xxxxxxx
+12:38 < jardineworks:#liferay> Uzzi -- do you NEED a screename? basically... do yo uuse screen name for the user name? or email?
