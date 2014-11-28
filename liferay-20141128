@@ -19,3 +19,4 @@
 05:48 < g33kyboi:#liferay> I have tried to copy the main.css file into the _diffs folder but still same result.
 05:49 < g33kyboi:#liferay> Any suggestion or way around this?
 08:34 < modd_:#liferay> I can still reproduce this issue in 6.2 GA2 CE: https://issues.liferay.com/browse/LPS-29894
+11:48 < Uzzi:#liferay> I need help for liferyay+ldap. I see users but not Groups
