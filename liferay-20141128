@@ -73,3 +73,4 @@
 13:11 < jardineworks:#liferay> I'll take that as "no the user is not imported from LDAP" :)
 13:11 < Uzzi:#liferay> ;)
 13:11 < jardineworks:#liferay> ok -- and you can log in with this user which means you have LDAP enabled=true, but it is not yet REQUIRED
+13:11 < jardineworks:#liferay> (required checkbox is unchecked)
