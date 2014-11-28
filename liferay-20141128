@@ -102,3 +102,4 @@
 13:26 < jardineworks:#liferay> not groups... users.. you see the 4 users make it in
 13:26 < jardineworks:#liferay> right?
 13:27 < modd:#liferay> did anyone manage to get the loglevel of portlet classes changed by using log4j.properties within the portlet? it doesn't seem to work at all
+13:27 < Uzzi:#liferay> yes 4 users
