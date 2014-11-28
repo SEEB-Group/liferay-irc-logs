@@ -34,3 +34,4 @@
 12:46 < jardineworks:#liferay> ok -- and you have the same mapping for the USER section as you do the GROUP section?
 12:47 < jardineworks:#liferay> and in the USER section it maps (as in finds it correctly), but in the GROUP section it does not?
 12:48 < Uzzi:#liferay> users ar mappings, groups no
+12:49 < Uzzi:#liferay> when I tryng to "Test LDAP Groups" in Portale Settings, grups are mapped
