@@ -90,3 +90,4 @@
 13:18 < Uzzi:#liferay> ok
 13:19 < jardineworks:#liferay> ok great ... so far so good.
 13:19 < jardineworks:#liferay> Now, you use the import interval (I believe it is 10 minutes by default)...
+13:19 < jardineworks:#liferay> so the quartz job fires and it tries to pull in all the users from your LDAP into Liferay
