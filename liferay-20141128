@@ -76,3 +76,4 @@
 13:11 < jardineworks:#liferay> (required checkbox is unchecked)
 13:12 < jardineworks:#liferay> also -- you have not set any LDAP properties, mappings, etc. in the portal-ext.properties file, right?
 13:12 < Uzzi:#liferay> y
+13:13 < Uzzi:#liferay> only in Portal Settings
