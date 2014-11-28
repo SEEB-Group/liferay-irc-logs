@@ -49,3 +49,4 @@
 12:58 < jardineworks:#liferay> Uzzi, can you pastebin for me the stacktrace from the log?
 12:58 < Uzzi:#liferay> catalina.out?
 12:59 < jardineworks:#liferay> Uzzi, yep
+12:59 < jardineworks:#liferay> Uzzi, also -- are you using the default ldap.import.method? or have you overridden it in the portal-ext.properties
