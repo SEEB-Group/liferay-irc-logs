@@ -55,3 +55,4 @@
 13:01 < jardineworks:#liferay> Uzzi, does your user import successfully?
 13:01 < Uzzi:#liferay> in catalina.out there are not error about group import
 13:02 < Uzzi:#liferay> yes, only one user have a problem(email Dupliucate), but this is right
+13:03 < jardineworks:#liferay> Uzzi, ok -- so where did you find that error message? "Unable to import user cn=xxxxxx,ou=Groups: null:null:No attributes com.liferay.portal.UserScreenNameException: Screen name cannot be null for xxxxxxx"
