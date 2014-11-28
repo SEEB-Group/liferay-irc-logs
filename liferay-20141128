@@ -93,3 +93,4 @@
 13:19 < jardineworks:#liferay> so the quartz job fires and it tries to pull in all the users from your LDAP into Liferay
 13:19 < jardineworks:#liferay> ... how many users do you have?
 13:21 < Uzzi:#liferay> now 4
+13:22 < jardineworks:#liferay> ok
