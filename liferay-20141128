@@ -60,3 +60,4 @@
 13:05 < Uzzi:#liferay> I've also this error: Problem accessing LDAP server com.liferay.portal.kernel.ldap.LDAPFilterException: Invalid filter uid=mmanente but this user can login fine in portal
 13:06 < jardineworks:#liferay> I'm lost. LOL ... let's start from the beginning.
 13:06 < jardineworks:#liferay> You have a Tomcat bundle of 6.2 installed yes?
+13:06 < Uzzi:#liferay> yes
