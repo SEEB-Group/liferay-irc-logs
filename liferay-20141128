@@ -68,3 +68,4 @@
 13:07 < jardineworks:#liferay> ok -- so you have just the regular "test" "test" user who is an admin
 13:07 < jardineworks:#liferay> ?
 13:07 < Uzzi:#liferay> I've an admin user that works fine
+13:08 < jardineworks:#liferay> Uzzi, ok -- but that admin is not from LDAP correct?
