@@ -42,3 +42,4 @@
 12:52 < jardineworks:#liferay> and the Test User one works as well I take it?
 12:52 < Uzzi:#liferay> yes Test LDAP Users works fine
 12:52 < Uzzi:#liferay> Test LDAP Groups map 12 grups with correct numer of member
+12:54 < jardineworks:#liferay> Uzzi, do you import a user at login? or are you using the import scheduler?
