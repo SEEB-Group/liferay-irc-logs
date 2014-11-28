@@ -54,3 +54,4 @@
 13:00 < jardineworks:#liferay> Uzzi, ok
 13:01 < jardineworks:#liferay> Uzzi, does your user import successfully?
 13:01 < Uzzi:#liferay> in catalina.out there are not error about group import
+13:02 < Uzzi:#liferay> yes, only one user have a problem(email Dupliucate), but this is right
