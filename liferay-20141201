@@ -110,3 +110,4 @@
 13:28 < jardineworks:#liferay> hmm..
 13:29 < jardineworks:#liferay> so if I put in my liferay-portlet.xml a reference to the jquery (added to my js folder)
 13:29 < jardineworks:#liferay> then it should be loaded?
+13:30 < jardineworks:#liferay> jhf, because I keep getting $ is undefined.
