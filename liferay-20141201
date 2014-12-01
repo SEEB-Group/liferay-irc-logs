@@ -115,3 +115,4 @@
 13:32 <@jhf:#liferay> can you call jQuery(...) ?
 13:33 < jardineworks:#liferay> that's the weird thing.. in my COnsole I can do -- jQuery
 13:33 < jardineworks:#liferay> and it works
+13:33 < jardineworks:#liferay> I can do jQuery('#preferences') and I get my node
