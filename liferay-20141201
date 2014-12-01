@@ -86,3 +86,4 @@
 12:17 < jardineworks:#liferay> g33kyboi, yeah -- basically, you override the action
 12:18 < jardineworks:#liferay> so the ifs don't matter anymore
 12:18 < jardineworks:#liferay> anytime the portlet 2 is requested, show the view.
+12:18 < jardineworks:#liferay> and leave the admin section (control panel) which I think uses a different portlet alone.
