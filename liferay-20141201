@@ -57,3 +57,4 @@
 11:47 < jardineworks:#liferay> I also added a logging statement to my JSP which does not show in the log
 11:49 < jardineworks:#liferay> I think this might be the issue --
 11:49 < jardineworks:#liferay> 		<action path="/my_account/view" type="com.liferay.portlet.myaccount.action.ViewAction">
+11:49 < jardineworks:#liferay> 			<forward name="portlet.my_account.edit_user" path="portlet.users_admin.edit_user" />
