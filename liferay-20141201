@@ -113,3 +113,4 @@
 13:30 < jardineworks:#liferay> jhf, because I keep getting $ is undefined.
 13:32 <@jhf:#liferay> hmm
 13:32 <@jhf:#liferay> can you call jQuery(...) ?
+13:33 < jardineworks:#liferay> that's the weird thing.. in my COnsole I can do -- jQuery
