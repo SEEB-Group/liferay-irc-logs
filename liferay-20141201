@@ -80,3 +80,4 @@
 12:06 < jardineworks:#liferay> 		}
 12:06 < jardineworks:#liferay> in all other cases, you get the edit
 12:07 < jardineworks:#liferay> my guess is, that the modal is not a MAXIMIZE window state.
+12:07 < jardineworks:#liferay> so I think... you might be able to get away with a StrutsPortletAction hook where you force your JSP to come back
