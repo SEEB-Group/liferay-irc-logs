@@ -60,3 +60,4 @@
 11:49 < jardineworks:#liferay> 			<forward name="portlet.my_account.edit_user" path="portlet.users_admin.edit_user" />
 11:49 < jardineworks:#liferay> 			<forward name="portlet.my_account.view" path="portlet.my_account.view" />
 11:49 < jardineworks:#liferay> 		</action>
+11:50 < jardineworks:#liferay> err...
