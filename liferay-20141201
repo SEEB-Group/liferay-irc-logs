@@ -28,3 +28,4 @@
 11:06 < jardineworks:#liferay> g33kyboi, it seems to start with /html/portal/layout/view/common.jspf ... because I can see a form with a name="hrefFm"
 11:07 < jardineworks:#liferay> something must be injected into there dynamically.
 11:09 < jardineworks:#liferay> p_p_id=2 ...
+11:10 < jardineworks:#liferay> maybe -- /html/portlet/my_account/
