@@ -116,3 +116,4 @@
 13:33 < jardineworks:#liferay> that's the weird thing.. in my COnsole I can do -- jQuery
 13:33 < jardineworks:#liferay> and it works
 13:33 < jardineworks:#liferay> I can do jQuery('#preferences') and I get my node
+13:33 < jardineworks:#liferay> I can do jQuery('#preferences').html() and it gives me the content
