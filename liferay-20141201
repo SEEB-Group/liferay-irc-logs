@@ -38,3 +38,4 @@
 11:13 < jardineworks:#liferay> So I would try a hello world for /html/portlet/my_account/view.jsp first...
 11:13 < g33kyboi:#liferay> I want to maintain Liferay's users editor.
 11:14 < jardineworks:#liferay> right
+11:15 < jardineworks:#liferay> so if you hook /html/portlet/my_account/view.jsp and put your logic in... then you will leave the /admin/edit_user.jsp alone.
