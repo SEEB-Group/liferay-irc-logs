@@ -29,3 +29,4 @@
 11:07 < jardineworks:#liferay> something must be injected into there dynamically.
 11:09 < jardineworks:#liferay> p_p_id=2 ...
 11:10 < jardineworks:#liferay> maybe -- /html/portlet/my_account/
+11:11 < jardineworks:#liferay>  .../html/portlet/users_admin/edit_user.jsp is ultimately what it loads
