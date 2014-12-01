@@ -72,3 +72,4 @@
 12:06 < g33kyboi:#liferay> jardineworks, yes version 6.2.0
 12:06 < jardineworks:#liferay> I'm looking at the ViewAction
 12:06 < jardineworks:#liferay> two cases whre you should get the view.jsp --
+12:06 < jardineworks:#liferay> if (renderRequest.getRemoteUser() == null) {
