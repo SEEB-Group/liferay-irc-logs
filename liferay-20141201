@@ -14,3 +14,4 @@
 10:27 < g33kyboi:#liferay> anyone knows which jsp page I can override inorder to modify the page displayed when user clicks on "My Account" on the dropdown menu? I use Liferay portal 6.2.0. thank you
 10:35 < jardineworks:#liferay> g33kyboi, might be /html/portlet/dockbar/view_user_panel.jspf, or one of the pages it includes
 10:40 < g33kyboi:#liferay> jardineworks: that is my best guess. specifically /html/portlet/dockbar/view_user_account.jspf. Checking through the file I can only see the my-account link added and nothing more. Is there a way I can tell which page this link calls as the link is something like this: (http://localhost:8080/group/control_panel/manage?p_p_auth=wEB9syP4&p_p_id=2&p_p_lifecycle=0&p_p_state=maximized&p_p_col_id=column-1&p_p_col_count=1&doAsGroupId=10181&refererPlid=10184&controlPan
+10:53 < jardineworks:#liferay> g33kyboi, hmm... well, in this case clicking my account would take you into the control panel right?
