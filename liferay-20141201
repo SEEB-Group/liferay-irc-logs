@@ -117,3 +117,4 @@
 13:33 < jardineworks:#liferay> and it works
 13:33 < jardineworks:#liferay> I can do jQuery('#preferences') and I get my node
 13:33 < jardineworks:#liferay> I can do jQuery('#preferences').html() and it gives me the content
+13:33 < jardineworks:#liferay> so maybe it is trying to run it before it is ready.,
