@@ -112,3 +112,4 @@
 13:29 < jardineworks:#liferay> then it should be loaded?
 13:30 < jardineworks:#liferay> jhf, because I keep getting $ is undefined.
 13:32 <@jhf:#liferay> hmm
+13:32 <@jhf:#liferay> can you call jQuery(...) ?
