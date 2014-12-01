@@ -85,3 +85,4 @@
 12:15 < g33kyboi:#liferay> jardineworks, by forcing the jsp to comeback, you mean I should always make it render the view.jsp page?
 12:17 < jardineworks:#liferay> g33kyboi, yeah -- basically, you override the action
 12:18 < jardineworks:#liferay> so the ifs don't matter anymore
+12:18 < jardineworks:#liferay> anytime the portlet 2 is requested, show the view.
