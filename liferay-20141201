@@ -78,3 +78,4 @@
 12:06 < jardineworks:#liferay> 		if (!renderRequest.getWindowState().equals(WindowState.MAXIMIZED)) {
 12:06 < jardineworks:#liferay> 			return actionMapping.findForward("portlet.my_account.view");
 12:06 < jardineworks:#liferay> 		}
+12:06 < jardineworks:#liferay> in all other cases, you get the edit
