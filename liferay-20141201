@@ -35,3 +35,4 @@
 11:12 < jardineworks:#liferay> it looks like it just does some includes and ultimately loads the control panel admin one
 11:12 < jardineworks:#liferay> I don't think you want to hook that one though right?
 11:13 < jardineworks:#liferay> you want to maintain Liferays users editor... but provide a special one for logged in users is what I am guessing
+11:13 < jardineworks:#liferay> So I would try a hello world for /html/portlet/my_account/view.jsp first...
