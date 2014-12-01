@@ -54,3 +54,4 @@
 11:45 < jardineworks:#liferay> hmm
 11:46 < g33kyboi:#liferay> have you tried it?
 11:47 < jardineworks:#liferay> yeah -- same
+11:47 < jardineworks:#liferay> I also added a logging statement to my JSP which does not show in the log
