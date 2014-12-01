@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 10:24 -!- mode/#liferay [+o jhf] by ChanServ
 10:27 < g33kyboi:#liferay> anyone knows which jsp page I can override inorder to modify the page displayed when user clicks on "My Account" on the dropdown menu? I use Liferay portal 6.2.0. thank you
+10:35 < jardineworks:#liferay> g33kyboi, might be /html/portlet/dockbar/view_user_panel.jspf, or one of the pages it includes
