@@ -31,3 +31,4 @@
 11:10 < jardineworks:#liferay> maybe -- /html/portlet/my_account/
 11:11 < jardineworks:#liferay>  .../html/portlet/users_admin/edit_user.jsp is ultimately what it loads
 11:12 < g33kyboi:#liferay> jardineworks, Thank you. My account portlet has the id=2. That I know already but when I go through the files in there didn't see much
+11:12 < jardineworks:#liferay> so if you change the /html/portlet/my_account/view.jsp then I think the modal will show your version
