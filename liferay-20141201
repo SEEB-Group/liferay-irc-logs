@@ -92,3 +92,4 @@
 12:19 < jardineworks:#liferay> when I log in as an administrator... and I edit a user record, and I impersonating that user? meaning I am in fact a remote user with id equal to the admin, and a user id which is the user I am editing?
 12:19 < jardineworks:#liferay> but I would try the struts action and then see if everything in the control panel continues to work as expected.
 13:23 < jardineworks:#liferay> hey jhf  you there?
+13:23 <@jhf:#liferay> yup
