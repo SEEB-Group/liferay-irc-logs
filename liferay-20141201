@@ -45,3 +45,4 @@
 11:16 < g33kyboi:#liferay> your time is worth much more than thanks!
 11:17 < g33kyboi:#liferay> worths*
 11:17 < jardineworks:#liferay> happy to help
+11:40 < g33kyboi:#liferay> jardineworks, /html/portlet/my_account/view.jsp seems not to be in the workflow when 'My Account' link is clicked. However, /html/portlet/users_admin/edit_user.jsp is always called. This file is included in /html/portlet/my_account/edit_user.jsp but when I remove the include statement output a hello world text, my text never shows up and  /html/portlet/users_admin/edit_user.jsp is still being rendered. Could there be any other path it could be taking?
