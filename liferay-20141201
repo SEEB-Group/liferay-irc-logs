@@ -19,3 +19,4 @@
 10:55 < g33kyboi:#liferay> yes it takes me to control panel. I do not want to prevent it. All I want to do is to customized the page that it will display....I have my own user object different from liferay user, so I want to display the properties in my user object not liferay user's properties.
 10:59 < jardineworks:#liferay> g33kyboi, oh I see... so you want the JSP override the CONTROL panel page.
 10:59 < jardineworks:#liferay> I think I know where that is... gimme a minute
+10:59 < jardineworks:#liferay> (just finishing another note)
