@@ -40,3 +40,4 @@
 11:14 < jardineworks:#liferay> right
 11:15 < jardineworks:#liferay> so if you hook /html/portlet/my_account/view.jsp and put your logic in... then you will leave the /admin/edit_user.jsp alone.
 11:16 < g33kyboi:#liferay> Thank you jardineworks.
+11:16 < jardineworks:#liferay> thanks me only if it works lol :)
