@@ -61,3 +61,4 @@
 11:49 < jardineworks:#liferay> 			<forward name="portlet.my_account.view" path="portlet.my_account.view" />
 11:49 < jardineworks:#liferay> 		</action>
 11:50 < jardineworks:#liferay> err...
+11:50 < jardineworks:#liferay> wait... the link in the drop down it's pointing to the portlet, it's pointing to the control panel.
