@@ -79,3 +79,4 @@
 12:06 < jardineworks:#liferay> 			return actionMapping.findForward("portlet.my_account.view");
 12:06 < jardineworks:#liferay> 		}
 12:06 < jardineworks:#liferay> in all other cases, you get the edit
+12:07 < jardineworks:#liferay> my guess is, that the modal is not a MAXIMIZE window state.
