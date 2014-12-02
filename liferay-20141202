@@ -24,3 +24,5 @@
 11:39 < aqquadro:#liferay> reading this article (http://www.liferay.com/community/forums/-/message_boards/message/44507864) i follow the suggestion to change the parameter fork to false
 11:39 < aqquadro:#liferay> and retry
 11:41 < aqquadro:#liferay> but the build fail again, there is a sort of cached configuration copy in ant? Or change the fork parameter isn't the strainghtforward solution? any help very appreciated.
+15:24 -!- mode/#liferay [+o jhf] by ChanServ
+16:44 < jardineworks:#liferay> jhf, how awesome is your AUI?
