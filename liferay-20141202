@@ -22,3 +22,4 @@
 11:38 < aqquadro:#liferay> hi there, as normal, I've a strange error :)
 11:39 < aqquadro:#liferay> when I try to do ant direct-deploy the ant task saw "build failed […] web.xml.merged to copy."
 11:39 < aqquadro:#liferay> reading this article (http://www.liferay.com/community/forums/-/message_boards/message/44507864) i follow the suggestion to change the parameter fork to false
+11:39 < aqquadro:#liferay> and retry
