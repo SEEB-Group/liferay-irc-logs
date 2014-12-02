@@ -20,3 +20,4 @@
 09:59 < jardineworks:#liferay> jhf, you better believe it! :)
 09:59 <@jhf:#liferay> eduardo is in #liferay-dev-life if u have questions
 11:38 < aqquadro:#liferay> hi there, as normal, I've a strange error :)
+11:39 < aqquadro:#liferay> when I try to do ant direct-deploy the ant task saw "build failed […] web.xml.merged to copy."
