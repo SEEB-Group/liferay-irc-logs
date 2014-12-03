@@ -39,3 +39,4 @@
 11:06 < nicolas_FR:#liferay> but I can double check that
 11:07 < nicolas_FR:#liferay> just for confirmation, portal-service.jar should not be in our .war right ? Just a compilation dependence..
 11:18 < jardineworks:#liferay> nicolas_FR, correct
+11:18 < jardineworks:#liferay> nicolas_FR, are you using Tomcast?
