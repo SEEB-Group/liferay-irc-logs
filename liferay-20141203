@@ -37,3 +37,4 @@
 11:05 < jardineworks:#liferay> nicolas_FR, personally, I'm not nuts about maven, even in 6.2. When I tried it with 6.1 it was nothing but problems for me
 11:06 < nicolas_FR:#liferay> jardineworks: ugh. well.. the war generated just include the jar we need, so I don't know what would be bad with it
 11:06 < nicolas_FR:#liferay> but I can double check that
+11:07 < nicolas_FR:#liferay> just for confirmation, portal-service.jar should not be in our .war right ? Just a compilation dependence..
