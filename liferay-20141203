@@ -35,3 +35,4 @@
 11:01 < nicolas_FR:#liferay> aside from this, anyone know where to find the versions of dependencies of Liferay 6.1.2 ?
 11:01 < nicolas_FR:#liferay> jardineworks: well we migrated all our projects to maven... and others works, with the same dependencies
 11:05 < jardineworks:#liferay> nicolas_FR, personally, I'm not nuts about maven, even in 6.2. When I tried it with 6.1 it was nothing but problems for me
+11:06 < nicolas_FR:#liferay> jardineworks: ugh. well.. the war generated just include the jar we need, so I don't know what would be bad with it
