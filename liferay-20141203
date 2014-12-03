@@ -25,3 +25,4 @@
 04:02 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 04:02 -!- Irssi: Join to #liferay was synced in 7 secs
 10:12 < nicolas_FR:#liferay> hi there
+10:13 < nicolas_FR:#liferay> big - horrible - problem here. Working with maven and liferay 6.1.2, we encounter that : java.lang.ClassCastException: com.sun.proxy.$Proxy725 cannot be cast to com.liferay.portlet.PortletPreferencesWrapper. We're lost. Desperated.
