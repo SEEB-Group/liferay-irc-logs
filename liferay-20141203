@@ -32,3 +32,4 @@
 10:41 < nicolas_FR:#liferay> jardineworks: we're trying to find why we have this classCastException. We were good, I deploy 1 portlet, and this error happens. I undeploy the portlet, the error stays (on another portlet). Seems once it's broken for one, it's broken for every portlets using PortalUtil.getPreferences(request)
 10:46 < nicolas_FR:#liferay> we're looking at portal-impl.jar and portal-service.jar, as it seems the class comes from there
 10:57 < jardineworks:#liferay> nicolas_FR, do you get the same result if you use ANT? (not suggesting that you should switch -- but it might help narrow the problem to a maven archetype or build)
+11:01 < nicolas_FR:#liferay> aside from this, anyone know where to find the versions of dependencies of Liferay 6.1.2 ?
