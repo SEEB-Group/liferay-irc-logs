@@ -43,3 +43,4 @@
 11:18 < jardineworks:#liferay> Tomcat*
 11:23 < nicolas_FR:#liferay> yes tomcat 7
 11:34 < jardineworks:#liferay> nicolas_FR, right, so the portal-service.jar is not needed for your plugins because it is already in the global class loader picked up from TOMCAT_HOME/lib/ext.
+11:37 < nicolas_FR:#liferay> well we don't include it. It's <scope>provided</scope> and looking at the WEB-INF/lib, we seems to be ok
