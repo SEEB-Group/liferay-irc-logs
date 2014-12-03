@@ -27,3 +27,4 @@
 10:12 < nicolas_FR:#liferay> hi there
 10:13 < nicolas_FR:#liferay> big - horrible - problem here. Working with maven and liferay 6.1.2, we encounter that : java.lang.ClassCastException: com.sun.proxy.$Proxy725 cannot be cast to com.liferay.portlet.PortletPreferencesWrapper. We're lost. Desperated.
 10:32 < jardineworks:#liferay> nicolas_FR, I think I usually use PortletPreferences object from the javax.portlet package
+10:35 < nicolas_FR:#liferay> jardineworks: we do too. but it seems we have 2 jar with this class, and it creates the exception. But we're not able to find where
