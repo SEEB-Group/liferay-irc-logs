@@ -50,3 +50,4 @@
 11:47 < nicolas_FR:#liferay> fact is we don't include any portal-service.jar. We use portal-service-6.1.2.jar as a compilation dependency in maven. Portal-impl is not even in the pom. We have portal-bridge & portal-client in the plugin lib, and portal-service, portlet-api, jsp-api and servlet-api as "provided"
 11:49 < nicolas_FR:#liferay> I'm sorry (for me in fact :) I have to leave. If some idea pop, please PM me so I can see it tomorrow. Thanks
 13:19 < NutsPT:#liferay> Hi ppl
+13:19 < NutsPT:#liferay> can someone give-me a litle help about permissions?
