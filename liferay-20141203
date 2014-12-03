@@ -30,3 +30,4 @@
 10:35 < nicolas_FR:#liferay> jardineworks: we do too. but it seems we have 2 jar with this class, and it creates the exception. But we're not able to find where
 10:36 < jardineworks:#liferay> nicolas_FR, you mean you are trying to find out which class the "$Proxy725" is?
 10:41 < nicolas_FR:#liferay> jardineworks: we're trying to find why we have this classCastException. We were good, I deploy 1 portlet, and this error happens. I undeploy the portlet, the error stays (on another portlet). Seems once it's broken for one, it's broken for every portlets using PortalUtil.getPreferences(request)
+10:46 < nicolas_FR:#liferay> we're looking at portal-impl.jar and portal-service.jar, as it seems the class comes from there
