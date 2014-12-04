@@ -42,3 +42,4 @@
 09:58 < jardineworks:#liferay> :)
 09:59 < jardineworks:#liferay> I want all the nodes with a class 'single' line ... which I can do with A.all('single-line) ...
 09:59 < jardineworks:#liferay> BUT
+09:59 < jardineworks:#liferay> I also want to make it so that I further narrow the list to just items what contain an text value of 'xxxxx'
