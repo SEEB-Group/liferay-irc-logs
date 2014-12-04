@@ -48,3 +48,6 @@
 10:04 < g33kyboi:#liferay> the JSONFactoryUtil returns a Map; can a map be specified as the bean?
 11:19 < jardineworks:#liferay> hah!
 11:19 < jardineworks:#liferay> in case anyone cares
+11:19 < jardineworks:#liferay> 		A.all('.table-row').filter( function(node) {
+11:19 < jardineworks:#liferay> 			if (node.one('.table-col').get('text').indexOf(keywords) < 0 )
+11:19 < jardineworks:#liferay> 				node.addClass('hide');
