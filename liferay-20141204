@@ -47,3 +47,4 @@
 10:03 < jardineworks:#liferay> g33kyboi, not sure about that, but if you want to convert the JSON to a Java object you can use the JSONFactoryUtil
 10:04 < g33kyboi:#liferay> the JSONFactoryUtil returns a Map; can a map be specified as the bean?
 11:19 < jardineworks:#liferay> hah!
+11:19 < jardineworks:#liferay> in case anyone cares
