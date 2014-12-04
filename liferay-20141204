@@ -40,3 +40,4 @@
 09:58 < jardineworks:#liferay> any aui rockstars in the house?
 09:58 < jardineworks:#liferay> I know that there is a fancy pants JS way to do what I am doing in one line of code rather than 10
 09:58 < jardineworks:#liferay> :)
+09:59 < jardineworks:#liferay> I want all the nodes with a class 'single' line ... which I can do with A.all('single-line) ...
