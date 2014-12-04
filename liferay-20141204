@@ -17,3 +17,4 @@
 04:52 < jagget:#liferay> is anybody here alive?
 06:50 < doged:#liferay> is it possible to run liferay  in aws  or app egnine?
 07:42 < winem_:#liferay> I would recommend the liferay + tomcat bundle to run it on an aws host
+08:08 < doged:#liferay> it works without bigger changes?
