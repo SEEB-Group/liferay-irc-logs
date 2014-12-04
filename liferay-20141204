@@ -54,3 +54,4 @@
 11:19 < jardineworks:#liferay> 			else
 11:19 < jardineworks:#liferay> 				node.removeClass('hide');
 11:19 < jardineworks:#liferay> 		});
+11:19 < jardineworks:#liferay> i <3 inline functions
