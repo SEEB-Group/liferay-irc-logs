@@ -22,3 +22,4 @@
 08:09 < winem_:#liferay> download, extract and run. you might just have to create the portal-ext.properties
 08:16 < douglascrp:#liferay> hey guys
 08:17 < douglascrp:#liferay> I have a form where I use the form-navigator component
+08:18 < douglascrp:#liferay> does anyone know if it's possible to create a action link to take the user to this form, but having the right option already selected in the form-navigator?
