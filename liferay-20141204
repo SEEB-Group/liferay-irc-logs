@@ -51,3 +51,5 @@
 11:19 < jardineworks:#liferay> 		A.all('.table-row').filter( function(node) {
 11:19 < jardineworks:#liferay> 			if (node.one('.table-col').get('text').indexOf(keywords) < 0 )
 11:19 < jardineworks:#liferay> 				node.addClass('hide');
+11:19 < jardineworks:#liferay> 			else
+11:19 < jardineworks:#liferay> 				node.removeClass('hide');
