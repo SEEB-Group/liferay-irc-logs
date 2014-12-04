@@ -27,3 +27,4 @@
 08:19 < douglascrp:#liferay> I'd like to have to option to take the user to, lets say, the 3th section
 08:19 < douglascrp:#liferay> 3rd
 08:20 < douglascrp:#liferay> actually, I'm using a renderURL, like this
+08:20 < douglascrp:#liferay> <portlet:renderURL var="editURL">
