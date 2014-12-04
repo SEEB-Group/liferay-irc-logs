@@ -44,3 +44,4 @@
 09:59 < jardineworks:#liferay> BUT
 09:59 < jardineworks:#liferay> I also want to make it so that I further narrow the list to just items what contain an text value of 'xxxxx'
 10:02 < g33kyboi:#liferay> using aui:model-context is it possible to specify a JSON object as the bean? if yes how?
+10:03 < jardineworks:#liferay> g33kyboi, not sure about that, but if you want to convert the JSON to a Java object you can use the JSONFactoryUtil
