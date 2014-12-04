@@ -28,3 +28,8 @@
 08:19 < douglascrp:#liferay> 3rd
 08:20 < douglascrp:#liferay> actually, I'm using a renderURL, like this
 08:20 < douglascrp:#liferay> <portlet:renderURL var="editURL">
+08:20 < douglascrp:#liferay> 		<portlet:param name="mvcPath" value="/html/projetos/edit_projeto.jsp" />
+08:20 < douglascrp:#liferay> 		<portlet:param name="projetoId" value="<%=String.valueOf(projetoId)%>" />
+08:20 < douglascrp:#liferay> 		<portlet:param name="redirect" value="<%=redirect%>" />
+08:20 < douglascrp:#liferay> 	</portlet:renderURL>
+08:38 < douglascrp:#liferay> never mind guys... I've just found the solution
