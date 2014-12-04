@@ -25,3 +25,4 @@
 08:18 < douglascrp:#liferay> does anyone know if it's possible to create a action link to take the user to this form, but having the right option already selected in the form-navigator?
 08:18 < douglascrp:#liferay> I have 4 sections on it, but if I use the default action link, navigation is redirected to the first section
 08:19 < douglascrp:#liferay> I'd like to have to option to take the user to, lets say, the 3th section
+08:19 < douglascrp:#liferay> 3rd
