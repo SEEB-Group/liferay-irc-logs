@@ -60,3 +60,4 @@
 20:24 < bijoo_:#liferay> doged: aws has some limitations though; most notably doesn't allow multicasting; so for liferay clusters, you'd have to configure for unicast
 20:25 < bijoo_:#liferay> doged: other than that, aws works well; though I usually have local env anyway; since debugging can be slow.
 20:29 < bijoo_:#liferay> jardineworks: A.all(".table-row:contains('xxxxx')") ?
+20:30 < bijoo_:#liferay> NutsPT: hi
