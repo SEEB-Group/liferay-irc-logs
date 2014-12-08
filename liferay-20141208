@@ -67,3 +67,4 @@
 12:05 < NutsPT:#liferay> weird and erratic behaviour
 12:19 < jardineworks:#liferay> what do you mean it disappears with all the wc?
 12:20 < jardineworks:#liferay> NutsPT, just do a full clear... CacheUtil.clearCache() -- just to see if it even helps.
+12:21 < NutsPT:#liferay> ok, will try
