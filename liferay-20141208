@@ -39,3 +39,4 @@
 10:37 < jardineworks:#liferay> was away
 10:38 < jardineworks:#liferay> could be that the search index is not updating
 10:38 < jardineworks:#liferay> are you explicitly adding it to the asset publisher?
+10:38 < jardineworks:#liferay> or are you getting it as part of a search result?
