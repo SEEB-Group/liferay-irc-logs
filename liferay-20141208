@@ -72,3 +72,4 @@
 12:30 < NutsPT:#liferay> we just find CalEventUtil.clearCache();
 12:30 < NutsPT:#liferay> it’s the same
 12:43 < NutsPT:#liferay> ?
+12:44 < NutsPT:#liferay> or this one CacheRegistryUtil.clear();?
