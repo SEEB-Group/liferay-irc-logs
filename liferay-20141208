@@ -51,3 +51,4 @@
 11:04 < jardineworks:#liferay> in the Server Administration, increase the log level to ALL for the LuceneIndexWriter class
 11:04 < jardineworks:#liferay> com.liferay.portal.search.lucene.LuceneIndexWriter
 11:04 < jardineworks:#liferay> and then do it again and see if there is a debug statement in the log.
+11:05 < jardineworks:#liferay> you could also install Luke (lucene Luke) and use it to browse the search index.
