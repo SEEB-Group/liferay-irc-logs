@@ -12,3 +12,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 09:19 < nicolas_FR:#liferay> hi there
+09:21 < nicolas_FR:#liferay> our "1 week problem" still unresolved =( : ClassCastException on com.liferay.portlet.PortletPreferencesWrapper. Something bad seems to happen when we deploy a portlet with PortletPreferences call. Might be linked to our new environnment (64bits instead of 32 before).
