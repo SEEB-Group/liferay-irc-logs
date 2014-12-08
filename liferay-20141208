@@ -47,3 +47,4 @@
 10:42 < NutsPT:#liferay> the asset publisher is configured to show all those kind of articles
 10:42 < NutsPT:#liferay> can we reinforce indexing or something ?
 11:03 < jardineworks:#liferay> NutsPT, you shouldn't have to, it should be reindexing as part of the save process
+11:03 < jardineworks:#liferay> but one way to validate -- assuming that the index is even the issue
