@@ -62,3 +62,4 @@
 11:29 < jardineworks:#liferay> although I thought I read at one point that the asset publisher internally uses dynamic queries which as far as I know are not supposed to be cached.
 11:29 < jardineworks:#liferay> you could try forcing a cache dump at the end of your add/update to see if that changes anything
 11:30 < NutsPT:#liferay> code please, your saving us today
+11:48 < NutsPT:#liferay> it’s kind of weird
