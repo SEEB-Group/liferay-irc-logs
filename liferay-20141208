@@ -70,3 +70,4 @@
 12:21 < NutsPT:#liferay> ok, will try
 12:21 < NutsPT:#liferay> we tried with clear cache script… it emptyed our asset publishers
 12:30 < NutsPT:#liferay> we just find CalEventUtil.clearCache();
+12:30 < NutsPT:#liferay> it’s the same
