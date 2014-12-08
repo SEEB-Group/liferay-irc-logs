@@ -50,3 +50,4 @@
 11:03 < jardineworks:#liferay> but one way to validate -- assuming that the index is even the issue
 11:04 < jardineworks:#liferay> in the Server Administration, increase the log level to ALL for the LuceneIndexWriter class
 11:04 < jardineworks:#liferay> com.liferay.portal.search.lucene.LuceneIndexWriter
+11:04 < jardineworks:#liferay> and then do it again and see if there is a debug statement in the log.
