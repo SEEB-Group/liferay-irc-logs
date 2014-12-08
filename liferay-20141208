@@ -31,3 +31,4 @@
 10:15 < NutsPT:#liferay> addJournalArticle method also notifies the appropriate model listeners.
 10:15 < NutsPT:#liferay> so when we create a new version, it works.. weird
 10:16 < NutsPT:#liferay> this ones don’t notify:
+10:16 < NutsPT:#liferay> addArticle
