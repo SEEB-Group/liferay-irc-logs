@@ -48,3 +48,4 @@
 10:42 < NutsPT:#liferay> can we reinforce indexing or something ?
 11:03 < jardineworks:#liferay> NutsPT, you shouldn't have to, it should be reindexing as part of the save process
 11:03 < jardineworks:#liferay> but one way to validate -- assuming that the index is even the issue
+11:04 < jardineworks:#liferay> in the Server Administration, increase the log level to ALL for the LuceneIndexWriter class
