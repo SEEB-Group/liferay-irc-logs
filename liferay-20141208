@@ -15,3 +15,4 @@
 09:21 < nicolas_FR:#liferay> our "1 week problem" still unresolved =( : ClassCastException on com.liferay.portlet.PortletPreferencesWrapper. Something bad seems to happen when we deploy a portlet with PortletPreferences call. Might be linked to our new environnment (64bits instead of 32 before).
 09:27 < NutsPT:#liferay> Hi ppl, we are trying to publish progamaticly a journal article trough our workflow and auto-approve it
 09:27 < NutsPT:#liferay> we use this
+09:27 < NutsPT:#liferay> https://gist.github.com/anonymous/b8511ffa7d61d168c944
