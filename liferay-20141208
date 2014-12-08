@@ -28,3 +28,4 @@
 10:13 < jardineworks:#liferay> NutsPT, ok -- and how are you trying to retrieve it?
 10:13 < jardineworks:#liferay> OOTB portlet? custom portlet? search query?
 10:14 < NutsPT:#liferay> OOTB Asset Publisher
+10:15 < NutsPT:#liferay> addJournalArticle method also notifies the appropriate model listeners.
