@@ -69,3 +69,4 @@
 12:20 < jardineworks:#liferay> NutsPT, just do a full clear... CacheUtil.clearCache() -- just to see if it even helps.
 12:21 < NutsPT:#liferay> ok, will try
 12:21 < NutsPT:#liferay> we tried with clear cache script… it emptyed our asset publishers
+12:30 < NutsPT:#liferay> we just find CalEventUtil.clearCache();
