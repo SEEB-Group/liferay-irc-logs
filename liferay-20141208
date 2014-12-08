@@ -59,3 +59,4 @@
 11:26 < NutsPT:#liferay> no indexing errors :)
 11:27 < NutsPT:#liferay> if we show in a diferent display it only shows 2 of 5 new web content..
 11:28 < jardineworks:#liferay> sounds to me like maybe a caching issue then
+11:29 < jardineworks:#liferay> although I thought I read at one point that the asset publisher internally uses dynamic queries which as far as I know are not supposed to be cached.
