@@ -28,3 +28,4 @@
 13:18 < NutsPT:#liferay> but it’s no accepting the lucene folder as an index
 13:18 < NutsPT:#liferay> basicly we are trying to monitor the reindexing process to improve performance
 13:18 < jardineworks:#liferay> can you pick the actual index file? (I've never used limo)
+13:19 < NutsPT:#liferay> can you pvt window?
