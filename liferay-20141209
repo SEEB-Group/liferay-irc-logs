@@ -14,3 +14,5 @@
 03:25 < plekplek:#liferay> Hello. I’m looking into using Liferay as an asset management tool (for images in particular). Does anyone know if it is possible to make Liferay use keywords metadata and use them as tags when uploading files? Or have you used any other method for easily bulk processing tags?
 03:29 < plekplek:#liferay> Also, is there a way to serve custom image sizes through the Documents and media display portlet? I have seen that custom image sizes can be added in the portal-ext.properties. It would be cool to be able to download full size version, web version, thumbnail etc, depending on what the image is going to be used for.
 04:59 < NutsPT:#liferay> morning
+13:03 < NutsPT:#liferay> can someone help me with lucene=
+13:03 < NutsPT:#liferay> ?
