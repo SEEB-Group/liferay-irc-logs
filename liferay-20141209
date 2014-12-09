@@ -26,3 +26,4 @@
 13:18 < NutsPT:#liferay> ok, so that is when you’re pointing to lucene folder
 13:18 < NutsPT:#liferay> but limo should do it
 13:18 < NutsPT:#liferay> but it’s no accepting the lucene folder as an index
+13:18 < NutsPT:#liferay> basicly we are trying to monitor the reindexing process to improve performance
