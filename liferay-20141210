@@ -26,3 +26,4 @@
 09:20 < scribe:#liferay> ok, great!  It's 585852 :)
 09:25 < scribe:#liferay> bijoo, topolik1, the Layout table doesn't have a userId or userName column
 09:27 < bijoo_:#liferay> scribe: which version of Liferay are you using?
+09:27 < bijoo_:#liferay> scribe: https://github.com/liferay/liferay-portal/blob/master/sql/portal-tables.sql#L970
