@@ -96,3 +96,4 @@
 10:12 < NutsPT:#liferay> in a hook I meant
 10:16 < jardineworks:#liferay> of course
 10:16 < rrapozo:#liferay> So I was in "New liferay plugin project" em choose a radio button "Hook"
+10:16 < jardineworks:#liferay> NutsPT, but you would have to place it into the global shared libraries I think so that the portal could find it
