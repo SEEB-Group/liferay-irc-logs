@@ -46,3 +46,4 @@
 09:35 < scribe:#liferay> ownerIds are all 0 (ownerTypes are all 3)
 09:35 < bijoo_:#liferay> scribe: yes then no individual-scoped prefs
 09:36 < bijoo_:#liferay> scribe: lastly by default layout commenst true; so should find an entry here as well:
+09:36 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.0-ga1/portal-impl/src/com/liferay/portal/service/impl/LayoutLocalServiceImpl.java#L320
