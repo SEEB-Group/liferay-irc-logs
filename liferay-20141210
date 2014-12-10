@@ -70,3 +70,4 @@
 09:50 < bijoo_:#liferay> jardineworks: yes, rrapozo: what jardineworks said; there is Language_pt_BR and Laguage_pt_PT for this exact reason I'm assuming since the two are really quite different.
 09:52 < jardineworks:#liferay> bijoo, right .. like fr_FR and fr_CA, though I am not sure the fr_CA is officially recognized as a locale.
 09:53 < rrapozo:#liferay> jardineworks: yes, pt_BR and pt_PT are like en_US an en_AU for example.
+09:53 < rrapozo:#liferay> yes
