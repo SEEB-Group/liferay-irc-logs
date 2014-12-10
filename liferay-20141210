@@ -65,3 +65,4 @@
 09:45 < jardineworks:#liferay> and then just specify the key used by liferay, and your version.
 09:46 < jardineworks:#liferay> you can probably just make a copy of the portuguese language file in your hook and then change the values as needed.
 09:46 < bijoo_:#liferay> rrapozo: you can do that several ways here; the fastest is to create hook plugin; per jardineworks; I suggest also submit to Liferay; so in future versions they add your fix
+09:47 < jardineworks:#liferay> is there a way to specify portuguese for brazil? I mean, I know you can use a different locale, but is it "recognized" as a standard?
