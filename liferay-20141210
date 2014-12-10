@@ -49,3 +49,4 @@
 09:36 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.0-ga1/portal-impl/src/com/liferay/portal/service/impl/LayoutLocalServiceImpl.java#L320
 09:36 < bijoo_:#liferay> MBMessage
 09:37 < bijoo_:#liferay> in MBMessage the column name is : classPK
+09:39 < scribe:#liferay> bijoo, I'm not sure I understand that last one.
