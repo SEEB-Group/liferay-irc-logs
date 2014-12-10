@@ -37,3 +37,5 @@
 09:31 < scribe:#liferay> jardineworks, that would be cool.
 09:32 < bijoo_:#liferay> scribe: also can check portletpreferences
 09:32 < scribe:#liferay> But, we are hoping to migrate to 6.2 soon and then I can use the userName column.
+09:32 < scribe:#liferay> had some trouble migrating data from 6.1 to 6.2.
+09:32 < bijoo_:#liferay> see if anything with the plid's in there; if ownertype is individual; then the ownerId gives it away
