@@ -82,3 +82,4 @@
 10:05 < jardineworks:#liferay> if you are using the IDE you can right click on your hook project... choose New > Liferay Hook .. then choose Language hook
 10:06 < jardineworks:#liferay> it will create the "content" folder and the configruation files and everything for you.
 10:06 < plekplek:#liferay> bijoo_: thanks! i haven’t had time to look that much into it yet, but it shouldn’t be that complicated since it does already extract other metadata from images
+10:08 < plekplek:#liferay> bijoo_: and I guess a hook for the media display portlet, that lists download links for additional custom sizes if file is an image, should do the trick
