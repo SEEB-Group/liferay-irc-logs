@@ -51,3 +51,4 @@
 09:37 < bijoo_:#liferay> in MBMessage the column name is : classPK
 09:39 < scribe:#liferay> bijoo, I'm not sure I understand that last one.
 09:39 < bijoo_:#liferay> scribe: the table name to check is as follows: MBMessage
+09:40 < bijoo_:#liferay> in that table is a column for plid (though it's named classPK with classNameId corresponding to com.liferay.portal.model.Layout className in the ClassName_ Table)
