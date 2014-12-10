@@ -67,3 +67,4 @@
 09:46 < bijoo_:#liferay> rrapozo: you can do that several ways here; the fastest is to create hook plugin; per jardineworks; I suggest also submit to Liferay; so in future versions they add your fix
 09:47 < jardineworks:#liferay> is there a way to specify portuguese for brazil? I mean, I know you can use a different locale, but is it "recognized" as a standard?
 09:48 < jardineworks:#liferay> because if it is, like bijoo says, you should submit it to LR. I wouldn't submit the brazilian version to replace the portugal version though. I speak Spanish (from Spain) and the south american version is different, but neither is "more correct" than the other
+09:50 < bijoo_:#liferay> jardineworks: yes, rrapozo: what jardineworks said; there is Language_pt_BR and Laguage_pt_PT for this exact reason I'm assuming since the two are really quite different.
