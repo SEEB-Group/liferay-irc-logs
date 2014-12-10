@@ -72,3 +72,4 @@
 09:53 < rrapozo:#liferay> jardineworks: yes, pt_BR and pt_PT are like en_US an en_AU for example.
 09:53 < rrapozo:#liferay> yes
 09:54 < jardineworks:#liferay> bijoo_, were you at the symposium on October?
+09:54 < rrapozo:#liferay> So if I get it is: I can change the translation with hook, but are best practices report to liferay the mistakes of language?
