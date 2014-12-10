@@ -40,3 +40,4 @@
 09:32 < scribe:#liferay> had some trouble migrating data from 6.1 to 6.2.
 09:32 < bijoo_:#liferay> see if anything with the plid's in there; if ownertype is individual; then the ownerId gives it away
 09:32 < scribe:#liferay> Been a while now.  Need to test again.
+09:33 < scribe:#liferay> bijoo_, ok.  I'll check.
