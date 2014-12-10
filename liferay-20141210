@@ -20,3 +20,4 @@
 09:13 < bijoo_:#liferay> scribe: of course, you can get this through API
 09:13 < bijoo_:#liferay> scribe: it's not to say you can't do it thrugh code; which is really easy using console
 09:15 < scribe:#liferay> bijoo, topolik1, how do I know what row to look for in the database?  If I use my browser and halt the page in the javascript debugger, is there a call I can make to get the 'pageid' or something?
+09:16 < bijoo_:#liferay> plekplek: hey, you can add a listener for that.
