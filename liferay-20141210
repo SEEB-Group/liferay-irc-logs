@@ -17,3 +17,4 @@
 08:02 < scribe:#liferay> We have an admin on our site who occasionally creates odd pages on our public site instead of their private area and I'd like to track down who is doing this.
 08:40 < topolik1:#liferay> scribe: hi, there should be userId column with the owner
 09:13 < bijoo_:#liferay> scribe: Look in the database for the Layout; the column names are as follows here: userName, userId, createDate, modifiedDate
+09:13 < bijoo_:#liferay> scribe: of course, you can get this through API
