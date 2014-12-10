@@ -75,3 +75,4 @@
 09:54 < rrapozo:#liferay> So if I get it is: I can change the translation with hook, but are best practices report to liferay the mistakes of language?
 09:56 < bijoo_:#liferay> on a call, be right back in few minutes; jardineworks yes I was there in Boston one here
 09:56 < jardineworks:#liferay> rrapozo, yes and yes .. though I think the argument being made here is if Liferay is providing the portuguese from portugal then it might not be a mistake, just a variation on the locale.
+09:59 < rrapozo:#liferay> :D Thanks a lot guys I'm trying now make that!
