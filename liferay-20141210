@@ -41,3 +41,4 @@
 09:32 < bijoo_:#liferay> see if anything with the plid's in there; if ownertype is individual; then the ownerId gives it away
 09:32 < scribe:#liferay> Been a while now.  Need to test again.
 09:33 < scribe:#liferay> bijoo_, ok.  I'll check.
+09:34 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.0-ga1/portal-impl/src/com/liferay/portal/service/impl/LayoutLocalServiceImpl.java#L294
