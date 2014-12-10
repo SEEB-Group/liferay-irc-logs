@@ -35,3 +35,4 @@
 09:29 < jardineworks:#liferay> an onCreate for the Layout model
 09:30 < jardineworks:#liferay> .. you can probably use the auditing portion of the API with that hook so that the event is recorded in the Audit table even.
 09:31 < scribe:#liferay> jardineworks, that would be cool.
+09:32 < bijoo_:#liferay> scribe: also can check portletpreferences
