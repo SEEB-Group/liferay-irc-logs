@@ -89,3 +89,4 @@
 10:12 < NutsPT:#liferay> lucene.file.extractor=
 10:12 < NutsPT:#liferay> this setting blocks liferay sync sometimes...
 10:12 < NutsPT:#liferay> # Input a class name that extends
+10:12 < NutsPT:#liferay> # com.liferay.portal.search.lucene.LuceneFileExtractor. This class is called
