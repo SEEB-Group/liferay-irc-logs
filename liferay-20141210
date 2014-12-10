@@ -88,3 +88,4 @@
 10:11 < NutsPT:#liferay> I might need your help again
 10:12 < NutsPT:#liferay> lucene.file.extractor=
 10:12 < NutsPT:#liferay> this setting blocks liferay sync sometimes...
+10:12 < NutsPT:#liferay> # Input a class name that extends
