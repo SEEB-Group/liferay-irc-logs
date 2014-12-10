@@ -53,3 +53,4 @@
 09:39 < bijoo_:#liferay> scribe: the table name to check is as follows: MBMessage
 09:40 < bijoo_:#liferay> in that table is a column for plid (though it's named classPK with classNameId corresponding to com.liferay.portal.model.Layout className in the ClassName_ Table)
 09:41 < bijoo_:#liferay> scribe: here is the query to run for it:
+09:41 < bijoo_:#liferay> select userId from MBMessage where classNameId = (select classNameId from ClassName_ where value = "com.liferay.portal.model.Layout") and classPK = 10178;
