@@ -56,3 +56,4 @@
 09:41 < bijoo_:#liferay> select userId from MBMessage where classNameId = (select classNameId from ClassName_ where value = "com.liferay.portal.model.Layout") and classPK = 10178;
 09:41 < bijoo_:#liferay> replace 10178 with plid
 09:42 < rrapozo:#liferay> I'm here again!!! :D
+09:43 < rrapozo:#liferay> Someone understand about translation in Liferay?
