@@ -91,3 +91,4 @@
 10:12 < NutsPT:#liferay> # Input a class name that extends
 10:12 < NutsPT:#liferay> # com.liferay.portal.search.lucene.LuceneFileExtractor. This class is called
 10:12 < NutsPT:#liferay> # by Lucene to extract text from complex files so that they can be properly
+10:12 < NutsPT:#liferay> # indexed.
