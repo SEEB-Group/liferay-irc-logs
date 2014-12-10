@@ -23,3 +23,4 @@
 09:16 < bijoo_:#liferay> plekplek: hey, you can add a listener for that.
 09:16 < bijoo_:#liferay> plekplek: I don't know of any feature right now; but it should be easy enough plugin.
 09:18 < topolik1:#liferay> scribe: to get current plid (layout primary key) using javascript: window.Liferay.ThemeDisplay.getPlid()
+09:20 < scribe:#liferay> ok, great!  It's 585852 :)
