@@ -99,3 +99,4 @@
 10:16 < jardineworks:#liferay> NutsPT, but you would have to place it into the global shared libraries I think so that the portal could find it
 10:16 < jardineworks:#liferay> and update that property of course to point to your package/class name
 10:17 < NutsPT:#liferay> yeps, so it can be only a simple jar?
+10:17 < NutsPT:#liferay> or you mean a hook plugin
