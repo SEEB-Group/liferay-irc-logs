@@ -48,3 +48,4 @@
 09:36 < bijoo_:#liferay> scribe: lastly by default layout commenst true; so should find an entry here as well:
 09:36 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.1.0-ga1/portal-impl/src/com/liferay/portal/service/impl/LayoutLocalServiceImpl.java#L320
 09:36 < bijoo_:#liferay> MBMessage
+09:37 < bijoo_:#liferay> in MBMessage the column name is : classPK
