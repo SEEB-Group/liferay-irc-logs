@@ -80,3 +80,4 @@
 10:01 < rrapozo:#liferay> I think that is inside docroot
 10:04 < jardineworks:#liferay> rrapozo, usually it goes inside docroot/WEB-INF/src/content ... which puts it into the WEB-INF/classes/content when you build.
 10:05 < jardineworks:#liferay> if you are using the IDE you can right click on your hook project... choose New > Liferay Hook .. then choose Language hook
+10:06 < jardineworks:#liferay> it will create the "content" folder and the configruation files and everything for you.
