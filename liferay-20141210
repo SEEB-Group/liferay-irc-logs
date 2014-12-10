@@ -102,3 +102,4 @@
 10:17 < NutsPT:#liferay> or you mean a hook plugin
 10:17 < jardineworks:#liferay> I would actually just take the source for that class, put it into your own package/class and then start altering it.
 10:17 < NutsPT:#liferay> I’ confuse
+10:17 < jardineworks:#liferay> simple jar
