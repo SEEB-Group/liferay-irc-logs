@@ -63,3 +63,4 @@
 09:45 < jardineworks:#liferay> rrapozo, you need a language hooks
 09:45 < jardineworks:#liferay> hook*
 09:45 < jardineworks:#liferay> and then just specify the key used by liferay, and your version.
+09:46 < jardineworks:#liferay> you can probably just make a copy of the portuguese language file in your hook and then change the values as needed.
