@@ -62,3 +62,4 @@
 09:45 < rrapozo:#liferay> bijoo_: Thanks for helping!
 09:45 < jardineworks:#liferay> rrapozo, you need a language hooks
 09:45 < jardineworks:#liferay> hook*
+09:45 < jardineworks:#liferay> and then just specify the key used by liferay, and your version.
