@@ -15,3 +15,4 @@
 08:01 < scribe:#liferay> Hey guys.  Is there any way to tell which user has create a page?  Do pages have 'owners'?
 08:01 < scribe:#liferay> *created.
 08:02 < scribe:#liferay> We have an admin on our site who occasionally creates odd pages on our public site instead of their private area and I'd like to track down who is doing this.
+08:40 < topolik1:#liferay> scribe: hi, there should be userId column with the owner
