@@ -97,3 +97,4 @@
 10:16 < jardineworks:#liferay> of course
 10:16 < rrapozo:#liferay> So I was in "New liferay plugin project" em choose a radio button "Hook"
 10:16 < jardineworks:#liferay> NutsPT, but you would have to place it into the global shared libraries I think so that the portal could find it
+10:16 < jardineworks:#liferay> and update that property of course to point to your package/class name
