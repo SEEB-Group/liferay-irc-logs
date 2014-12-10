@@ -32,3 +32,4 @@
 09:28 < scribe:#liferay> bummer.
 09:28 < scribe:#liferay> thanks for your help anyway
 09:29 < jardineworks:#liferay> scribe, write a hook that records it in a secret table to catch them next time :)
+09:29 < jardineworks:#liferay> an onCreate for the Layout model
