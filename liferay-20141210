@@ -111,3 +111,4 @@
 10:18 < jardineworks:#liferay> yikes! bijoo_ hope everything is ok
 11:17 < rrapozo:#liferay> Hey guys it's correct: tomcat-7.0.40/webapps/escutas-language-hook/WEB-INF/classes/content/Language_pt_PT.properties?
 11:19 < jardineworks:#liferay> rrapozo, looks right
+11:20 < rrapozo:#liferay> jardineworks: Yes, but it will change my index.jsp inside ROOT?
