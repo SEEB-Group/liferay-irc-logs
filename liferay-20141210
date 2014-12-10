@@ -22,3 +22,4 @@
 09:15 < scribe:#liferay> bijoo, topolik1, how do I know what row to look for in the database?  If I use my browser and halt the page in the javascript debugger, is there a call I can make to get the 'pageid' or something?
 09:16 < bijoo_:#liferay> plekplek: hey, you can add a listener for that.
 09:16 < bijoo_:#liferay> plekplek: I don't know of any feature right now; but it should be easy enough plugin.
+09:18 < topolik1:#liferay> scribe: to get current plid (layout primary key) using javascript: window.Liferay.ThemeDisplay.getPlid()
