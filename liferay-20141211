@@ -44,3 +44,4 @@
 15:26 < bijoo_:#liferay> bwood: recently I started a new project; and was looking for a nice mobile theme; I ended up having to write my own; integrated jQuery Mobile theme; it doesn't look perfect with AUI; but it's quite usable and useful now; I would've been willing to pay for it; since it took me a while to build this one; though I would want control on theme settings.
 15:27 < bijoo_:#liferay> bwood: I'm thinking on publishing out my theme; but no time to polish and fix small things.
 15:27 < bwood:#liferay> when I used to worked at Liferay, I worked through the pattern of including web content via theme settings
+15:27 < bwood:#liferay> so that the web content could still be localized
