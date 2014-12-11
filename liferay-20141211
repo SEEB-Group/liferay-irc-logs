@@ -46,3 +46,4 @@
 15:27 < bwood:#liferay> when I used to worked at Liferay, I worked through the pattern of including web content via theme settings
 15:27 < bwood:#liferay> so that the web content could still be localized
 15:28 < bijoo_:#liferay> bwood: yes that's example of what I mean too; or letting user choose the theme colors; some basic stuff that would go a long way.
+15:29 < bijoo_:#liferay> color scheme, web content header/footer.
