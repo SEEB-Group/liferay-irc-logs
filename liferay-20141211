@@ -27,3 +27,4 @@
 15:13 < bwood:#liferay> well my apps are themes
 15:13 < bwood:#liferay> and a responsive layout for 6.1
 15:14 < bwood:#liferay> it replaced all the default layouts for liferay 6.1
+15:14 < bwood:#liferay> and forces the default layouts to stack after window has reached a breakpoint
