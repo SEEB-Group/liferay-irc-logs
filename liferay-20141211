@@ -41,3 +41,4 @@
 15:18 < bijoo_:#liferay> bwood: I see; I'm not up to date on those rules
 15:19 < bwood:#liferay> well it's my company's rule
 15:19 < bijoo_:#liferay> bwood: sounds pretty tough if it is just one app; you could always keep churning new ones out (e.g. deactive the old plugin); and in description link to outside site (haha, don't know if this falls in the rules )
+15:26 < bijoo_:#liferay> bwood: recently I started a new project; and was looking for a nice mobile theme; I ended up having to write my own; integrated jQuery Mobile theme; it doesn't look perfect with AUI; but it's quite usable and useful now; I would've been willing to pay for it; since it took me a while to build this one; though I would want control on theme settings.
