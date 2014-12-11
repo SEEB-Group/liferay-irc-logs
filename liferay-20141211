@@ -55,3 +55,4 @@
 15:32 < bwood:#liferay> for 6.2 I rebuilt it from the ground up
 15:33 < bwood:#liferay> once this is added https://issues.liferay.com/browse/LPS-51623
 15:33 < bwood:#liferay> it will add alot of flexibility for the resources importer
+15:35 < bijoo_:#liferay> bwood: cool, that'd be nice to showcase on install
