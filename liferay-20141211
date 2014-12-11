@@ -15,3 +15,4 @@
 07:16 < plekplek:#liferay> hey everyone. quick question: does liferay support tag localization out of the box?
 08:36 < bijoo_:#liferay> plekplek: I am pretty sure all tags support; since the use LanguageUtil for that.
 08:36 < bijoo_:#liferay> plekplek: if not, then it's probably just a bug; which can be fixed via a hook plugin.
+08:56 < bwood:#liferay> hey everyone
