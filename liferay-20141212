@@ -41,3 +41,4 @@
 10:32 < avinashrbhat:#liferay> jardineworks, these may interest you then, http://ericleads.com/2013/02/fluent-javascript-three-different-kinds-of-prototypal-oo/
 10:32 < avinashrbhat:#liferay> that is one of my favorite JS articles.
 10:33 < jardineworks:#liferay> avinashrbhat, thanks I'll check it out. I find myself more and more now writing all my portlets in JS and just using the serverResource method in my java class. Leverging the Liferay Client Side IPC stuff makes it super slick and sexy.
+10:33 < jardineworks:#liferay> I'm super excited about Senna in the next release.
