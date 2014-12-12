@@ -25,3 +25,4 @@
 09:28 < jardineworks:#liferay> liferay-ui:custom-fields or something isn't it?
 09:29 < avinashrbhat:#liferay> ok, let me check.
 09:30 < avinashrbhat:#liferay> jardineworks, the vm file doesn't cause any error for this : $navLayout.getExpandoBridge().getAttribute("my-attribute"), but the same in ftl throws an NPE (in ftl: navLayout.getExpandoBridge().getAttribute('my-attribute))
+10:01 < jardineworks:#liferay> avinashrbhat, did you try the taglib? .. even if you don't want to use it, just to see if it render the expando values...
