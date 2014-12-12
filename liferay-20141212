@@ -33,3 +33,4 @@
 10:04 < jardineworks:#liferay> velocity silently fails
 10:04 < jardineworks:#liferay> which is one of the great things for runtime oopsies, but shitty things for debugging.
 10:04 < avinashrbhat:#liferay> ya
+10:06 < avinashrbhat:#liferay> ftl though is very unique & useful to use, as it supports taglibs, freaks out more than any other template libraries.
