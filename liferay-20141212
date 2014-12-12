@@ -22,3 +22,4 @@
 09:27 < jardineworks:#liferay> expando of a layout in ftl.
 09:27 < jardineworks:#liferay> hmmm
 09:28 < jardineworks:#liferay> avinashrbhat, what about using the taglib?
+09:28 < jardineworks:#liferay> liferay-ui:custom-fields or something isn't it?
