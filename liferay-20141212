@@ -32,3 +32,4 @@
 10:03 < jardineworks:#liferay> right.
 10:04 < jardineworks:#liferay> velocity silently fails
 10:04 < jardineworks:#liferay> which is one of the great things for runtime oopsies, but shitty things for debugging.
+10:04 < avinashrbhat:#liferay> ya
