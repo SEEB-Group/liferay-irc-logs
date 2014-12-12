@@ -28,3 +28,4 @@
 10:01 < jardineworks:#liferay> avinashrbhat, did you try the taglib? .. even if you don't want to use it, just to see if it render the expando values...
 10:01 < jardineworks:#liferay> in ftl I mean
 10:03 < avinashrbhat:#liferay> jardineworks, it turns out, I had to check if there is the attribute in the expando, before attempting to get the value, the same code does work in velocity correctly, anyway, The root cause was that there wasn't a custom attribute with that value defined to start with. Now it seems to work.
+10:03 < jardineworks:#liferay> hah
