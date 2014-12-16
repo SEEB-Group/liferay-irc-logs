@@ -13,3 +13,5 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 08:00 < noctua_:#liferay> Hello ... I am trying YUI for Liferay to show multiple modals. The goal is to write a freemarker code to show only videos in the medialibrary. I tryied to use liferay stuff but it didn't work, now i try to build it myselfe with YUI. The problem is that i cant open multiple modals. here is my code so far, maybe you can help?  http://jsfiddle.net/otnvkwuf/1/
 08:01 < noctua_:#liferay> I don't have a problem to open multiple modals, i have the problem to open different videos for each modal ^^ sorry
+11:24 < NutsPT:#liferay> hi guys
+11:24 < NutsPT:#liferay> jardineworks: can you help please?
