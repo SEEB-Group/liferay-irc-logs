@@ -36,3 +36,4 @@
 11:49 < NutsPT:#liferay> lucene.commit.time.interval=60000
 11:50 < NutsPT:#liferay> the last two make the server to get is process stuck when stope
 11:50 < NutsPT:#liferay> dtoped
+18:01 < xirdneh:#liferay> Hi there. I just downloaded the Liferay Dev Studio and I'm trying to fire up the server on my machine but I'm getting some Null Pointer Exceptions. I am running it on an ARchLinux using jdk-8. Any ideas how to tackle this? Thanks
