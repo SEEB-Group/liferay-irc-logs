@@ -31,3 +31,4 @@
 11:49 < NutsPT:#liferay> #
 11:49 < NutsPT:#liferay> # These properties allow commits in batch, you can either set how many document changes a batch will contain
 11:49 < NutsPT:#liferay> # (commit will happen after X docs are modified) or set a time interval in milliseconds (commit will happen
+11:49 < NutsPT:#liferay> # every X milliseconds).
