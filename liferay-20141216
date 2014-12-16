@@ -28,3 +28,4 @@
 11:49 < NutsPT:#liferay> # uses more memory. The default value from Lucene is 10. This should never
 11:49 < NutsPT:#liferay> # be set to a number lower than 2.
 11:49 < NutsPT:#liferay> lucene.merge.factor=60
+11:49 < NutsPT:#liferay> #
