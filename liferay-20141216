@@ -42,3 +42,4 @@
 18:12 < bijoo_:#liferay> xirdneh: so nothing stating 8 shouldn't work there
 18:13 < bijoo_:#liferay> xirdneh: http://pastebin.com/
 18:13 < bijoo_:#liferay> xirdneh: please paste the error on pastebin and show
+18:57 < xirdneh:#liferay> bijoo: Ok, so apparently my DB config was messed up. I'm getting some new error.
