@@ -38,3 +38,4 @@
 11:50 < NutsPT:#liferay> dtoped
 18:01 < xirdneh:#liferay> Hi there. I just downloaded the Liferay Dev Studio and I'm trying to fire up the server on my machine but I'm getting some Null Pointer Exceptions. I am running it on an ARchLinux using jdk-8. Any ideas how to tackle this? Thanks
 18:11 < bijoo_:#liferay> xirdneh: I don't think Java 8 is supported (at least not for 6.2 or below)
+18:12 < bijoo_:#liferay> xirdneh: although docs just say 5 or lower's bad
