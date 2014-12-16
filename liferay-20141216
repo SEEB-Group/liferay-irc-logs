@@ -33,3 +33,4 @@
 11:49 < NutsPT:#liferay> # (commit will happen after X docs are modified) or set a time interval in milliseconds (commit will happen
 11:49 < NutsPT:#liferay> # every X milliseconds).
 11:49 < NutsPT:#liferay> lucene.commit.batch.size=2000
+11:49 < NutsPT:#liferay> lucene.commit.time.interval=60000
