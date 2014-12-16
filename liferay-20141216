@@ -21,3 +21,4 @@
 11:48 < NutsPT:#liferay> Ok so it’s the same scenario: 301MB DB and DL off 1,9GB - Massive syncronization tha leads to index…
 11:48 < NutsPT:#liferay> It’s optimized now with
 11:49 < NutsPT:#liferay> # Set Lucene's buffer size in megabytes. Higher numbers mean indexing goes
+11:49 < NutsPT:#liferay> # faster but uses more memory.
