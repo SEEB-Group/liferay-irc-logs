@@ -25,3 +25,4 @@
 11:49 < NutsPT:#liferay> lucene.buffer.size=512
 11:49 < NutsPT:#liferay> #
 11:49 < NutsPT:#liferay> # Set Lucene's merge factor. Higher numbers mean indexing goes faster but
+11:49 < NutsPT:#liferay> # uses more memory. The default value from Lucene is 10. This should never
