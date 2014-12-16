@@ -22,3 +22,4 @@
 11:48 < NutsPT:#liferay> It’s optimized now with
 11:49 < NutsPT:#liferay> # Set Lucene's buffer size in megabytes. Higher numbers mean indexing goes
 11:49 < NutsPT:#liferay> # faster but uses more memory.
+11:49 < NutsPT:#liferay> lucene.buffer.size=512
