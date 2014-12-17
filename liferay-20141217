@@ -14,3 +14,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 03:34 < Axxell:#liferay> Hey guys, having trouble with a custom filter in a portlet, when deploying i get the error: arg2
 03:35 < Axxell:#liferay> oops i meant: Caused by: java.lang.ClassNotFoundException: myFilter
+03:50 < Axxell:#liferay> Funny thing i remade the whole filter class, allthough the old class doesnt even exist, it still gives the eroor
