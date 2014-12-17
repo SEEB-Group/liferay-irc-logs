@@ -15,3 +15,4 @@
 03:34 < Axxell:#liferay> Hey guys, having trouble with a custom filter in a portlet, when deploying i get the error: arg2
 03:35 < Axxell:#liferay> oops i meant: Caused by: java.lang.ClassNotFoundException: myFilter
 03:50 < Axxell:#liferay> Funny thing i remade the whole filter class, allthough the old class doesnt even exist, it still gives the eroor
+08:09 < Axxell:#liferay> got it to work, no idea why the error was there..
