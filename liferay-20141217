@@ -25,3 +25,4 @@
 09:08 < LRAdminInNeed521:#liferay> test
 09:26 < bijoo_:#liferay> who #liferay
 10:20 < bwood:#liferay> anyone know of another way to export a page other than .lar
+10:20 < bwood:#liferay> because it times out even when I just have a few checkboxes checked for export?
