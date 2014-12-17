@@ -44,3 +44,4 @@
 18:13 < bijoo_:#liferay> xirdneh: please paste the error on pastebin and show
 18:57 < xirdneh:#liferay> bijoo: Ok, so apparently my DB config was messed up. I'm getting some new error.
 19:07 < bijoo_:#liferay> xirdneh: please paste the pastebin otherwise it's hard
+19:15 < bijoo_:#liferay> noctua: You can achieve this with the below code:
