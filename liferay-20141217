@@ -28,3 +28,4 @@
 10:20 < bwood:#liferay> because it times out even when I just have a few checkboxes checked for export?
 10:30 < jardineworks:#liferay> bwood, I don't think there is another way... other than using the resource importer :)
 10:31 < bwood:#liferay> I've tried for it to export the file for over an hour
+10:31 < bwood:#liferay> and still no file is exported
