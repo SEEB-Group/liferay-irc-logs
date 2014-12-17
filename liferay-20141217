@@ -16,3 +16,4 @@
 03:35 < Axxell:#liferay> oops i meant: Caused by: java.lang.ClassNotFoundException: myFilter
 03:50 < Axxell:#liferay> Funny thing i remade the whole filter class, allthough the old class doesnt even exist, it still gives the eroor
 08:09 < Axxell:#liferay> got it to work, no idea why the error was there..
+09:06 < LRAdminInNeed521:#liferay> tust
