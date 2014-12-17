@@ -37,3 +37,4 @@
 10:36 < jardineworks:#liferay> have you tried bumping up the logging to see if anything useful shows in the log?
 10:36 < jack_bakker:#liferay> I've experienced not being able to export where cause ended up being a 'wayward' custom portlet ... a portlet that wasn't even on the site/page I was trying to export...
 10:37 < jardineworks:#liferay> jack_bakker, on the page you are trying to export? a bum reference?
+10:41 < jack_bakker:#liferay> I undeployed the portlet, then could export ; jardineworks: I didn't dig for bum references
