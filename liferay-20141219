@@ -29,3 +29,4 @@
 08:43 < jardineworks:#liferay> bwood_, yeah man, huge pain the ass (the missing download button). You have to go to the database and look up the record and grab the content from the column.
 08:46 < bwood_:#liferay> which table in the db?
 08:47 < jardineworks:#liferay> bwood_, JournalArticle.
+08:48 < jardineworks:#liferay> bwood_, granb the ID from the control panel and then look it up in that table.
