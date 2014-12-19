@@ -36,3 +36,4 @@
 08:59 < jardineworks:#liferay> bwood_, for sure
 09:01 < bwood_:#liferay> you want to make it?
 09:03 < jardineworks:#liferay> bwood_, lol -- I'll put it on my list :)
+09:16 < douglascrp:#liferay> plekplek, I'm trying to get the groupId using GroupLocalServiceUtil.getGroup(long companyId, String name)
