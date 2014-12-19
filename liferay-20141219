@@ -14,3 +14,5 @@
 07:05 < douglascrp:#liferay> morning all
 07:05 < bwood_:#liferay> in 6.2 how do I download the web content to put in resources importer?
 07:05 < bwood_:#liferay> 6.2 doesn't have the download button
+07:05 < douglascrp:#liferay> I'm trying to implement a simple permission check on my custom portlet
+07:06 < douglascrp:#liferay> I have some user groups, and I just need to check, is the current user member of the group "experts"?
