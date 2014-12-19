@@ -52,3 +52,4 @@
 09:26 < jardineworks:#liferay> douglascrp, negative.
 09:27 < jardineworks:#liferay> the company is the top level entity and it represents the domain
 09:27 < jardineworks:#liferay> this concept allows a single LIFERAY installation to house multiple portal instances.
+09:27 < jardineworks:#liferay> so Portal Instance <--> Company  are interchangeable.,
