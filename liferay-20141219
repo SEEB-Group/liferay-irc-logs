@@ -55,3 +55,4 @@
 09:27 < jardineworks:#liferay> so Portal Instance <--> Company  are interchangeable.,
 09:27 < douglascrp:#liferay> but if I take a fresh new server, with a liferay instance
 09:27 < douglascrp:#liferay> do I get by default a company id?
+09:28 < jardineworks:#liferay> you don't need a new server, you just go to the control panel and add a new Portal Instance!
