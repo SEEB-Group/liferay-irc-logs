@@ -25,3 +25,4 @@
 08:16 < plekplek:#liferay> douglascrp: hey, UserLocalServiceUtil has a hasGroupUser method that returns true if user belongs to specified group
 08:18 < douglascrp:#liferay> plekplek, really? that simple?
 08:18 < douglascrp:#liferay> tks
+08:19 < plekplek:#liferay> douglascrp: UserLocalServiceUtil.hasGroupUser(themeDisplay.getScopeGroupId(), themeDisplay.getUserId()) should do the trick
