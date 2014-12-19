@@ -22,3 +22,4 @@
 07:09 < douglascrp:#liferay> so, basically, I have to check for groups' members and userId, but I'm not sure about which api to use
 07:14 < bwood_:#liferay> do a user have a uuid?
 07:18 < bwood_:#liferay> then could you just compare the uuid?
+08:16 < plekplek:#liferay> douglascrp: hey, UserLocalServiceUtil has a hasGroupUser method that returns true if user belongs to specified group
