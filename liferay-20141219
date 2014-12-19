@@ -27,3 +27,4 @@
 08:18 < douglascrp:#liferay> tks
 08:19 < plekplek:#liferay> douglascrp: UserLocalServiceUtil.hasGroupUser(themeDisplay.getScopeGroupId(), themeDisplay.getUserId()) should do the trick
 08:43 < jardineworks:#liferay> bwood_, yeah man, huge pain the ass (the missing download button). You have to go to the database and look up the record and grab the content from the column.
+08:46 < bwood_:#liferay> which table in the db?
