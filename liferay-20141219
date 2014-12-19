@@ -30,3 +30,4 @@
 08:46 < bwood_:#liferay> which table in the db?
 08:47 < jardineworks:#liferay> bwood_, JournalArticle.
 08:48 < jardineworks:#liferay> bwood_, granb the ID from the control panel and then look it up in that table.
+08:48 < bwood_:#liferay> I think initally it was removed because you couldn't import the content using the xml file
