@@ -21,3 +21,4 @@
 07:08 < douglascrp:#liferay> when a user create an object, lets say, a product's review, he's the only user that can change the review
 07:09 < douglascrp:#liferay> so, basically, I have to check for groups' members and userId, but I'm not sure about which api to use
 07:14 < bwood_:#liferay> do a user have a uuid?
+07:18 < bwood_:#liferay> then could you just compare the uuid?
