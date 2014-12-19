@@ -23,3 +23,4 @@
 07:14 < bwood_:#liferay> do a user have a uuid?
 07:18 < bwood_:#liferay> then could you just compare the uuid?
 08:16 < plekplek:#liferay> douglascrp: hey, UserLocalServiceUtil has a hasGroupUser method that returns true if user belongs to specified group
+08:18 < douglascrp:#liferay> plekplek, really? that simple?
