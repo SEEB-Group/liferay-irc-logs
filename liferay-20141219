@@ -18,3 +18,4 @@
 07:06 < douglascrp:#liferay> I have some user groups, and I just need to check, is the current user member of the group "experts"?
 07:06 < douglascrp:#liferay> can anyone give the tips about which api I should be learning?
 07:07 < douglascrp:#liferay> and another thing is, how to check if the current user is the owner of the database object?
+07:08 < douglascrp:#liferay> when a user create an object, lets say, a product's review, he's the only user that can change the review
