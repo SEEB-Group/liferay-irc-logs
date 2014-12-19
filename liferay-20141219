@@ -54,3 +54,4 @@
 09:27 < jardineworks:#liferay> this concept allows a single LIFERAY installation to house multiple portal instances.
 09:27 < jardineworks:#liferay> so Portal Instance <--> Company  are interchangeable.,
 09:27 < douglascrp:#liferay> but if I take a fresh new server, with a liferay instance
+09:27 < douglascrp:#liferay> do I get by default a company id?
