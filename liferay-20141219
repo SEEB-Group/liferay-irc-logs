@@ -11,3 +11,6 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 05:15 < Axxell:#liferay> Hello Gentlewomen and men. I was wondering if there is a settings or something to change how liferay behaves when you have a translated site page url and you go to that adress? What i want liferay to do is to change the language to the language of the site page adress lanugage
+07:05 < douglascrp:#liferay> morning all
+07:05 < bwood_:#liferay> in 6.2 how do I download the web content to put in resources importer?
+07:05 < bwood_:#liferay> 6.2 doesn't have the download button
