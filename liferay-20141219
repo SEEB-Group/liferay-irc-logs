@@ -39,3 +39,4 @@
 09:16 < douglascrp:#liferay> plekplek, I'm trying to get the groupId using GroupLocalServiceUtil.getGroup(long companyId, String name)
 09:17 < douglascrp:#liferay> but I don't have a companyId
 09:17 < douglascrp:#liferay> do you know another way to get the groupId using only the groupName?
+09:17 < jardineworks:#liferay> douglascrp, PortalUtil.getCOmpanyId( PortletRequest | HttpServletRequest)
