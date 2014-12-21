@@ -15,3 +15,4 @@
 07:24 < urug_:#liferay> How do I create a new scope?
 08:14 < urug_:#liferay> Oh I see ... I can create scope only once per page
 17:28 < urug_:#liferay> If I create Page Scope, can I have a User which can manipulate content only in this Page Scope?
+17:30 < urug_:#liferay> .... how to create Page Scoped Web Content permissions
