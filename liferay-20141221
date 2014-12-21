@@ -11,3 +11,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:07 < urug_:#liferay> Which permissions do I need to have an access to Page Administration from dockbar?
 06:09 < urug_:#liferay> And do I understand right that I can use Organization permissions for that? (organization is assigned to site and user to organization)
+06:16 < urug_:#liferay> Hm, I probably need an Site Role for that ...
