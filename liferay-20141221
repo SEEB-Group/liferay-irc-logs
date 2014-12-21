@@ -13,3 +13,4 @@
 06:09 < urug_:#liferay> And do I understand right that I can use Organization permissions for that? (organization is assigned to site and user to organization)
 06:16 < urug_:#liferay> Hm, I probably need an Site Role for that ...
 07:24 < urug_:#liferay> How do I create a new scope?
+08:14 < urug_:#liferay> Oh I see ... I can create scope only once per page
