@@ -22,3 +22,4 @@
 10:21 < jardineworks:#liferay> rrapozo, But you can probably find a gui tool out there
 10:22 < jardineworks:#liferay> alrenatively, HSQL is just a file so you can open the file, find the rows and update them manually.
 10:22 < jardineworks:#liferay> probably easier to just open the file and do a search and replace
+10:23 < rrapozo:#liferay> Ok I found the files: lportal.lck  lportal.log  lportal.properties  lportal.script  lportal.tmp
