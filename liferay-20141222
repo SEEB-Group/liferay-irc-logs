@@ -20,3 +20,4 @@
 10:21 < jardineworks:#liferay> rrapozo, gross.
 10:21 < jardineworks:#liferay> rrapozo, :)
 10:21 < jardineworks:#liferay> rrapozo, But you can probably find a gui tool out there
+10:22 < jardineworks:#liferay> alrenatively, HSQL is just a file so you can open the file, find the rows and update them manually.
