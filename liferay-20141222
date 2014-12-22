@@ -27,3 +27,4 @@
 10:24 < rrapozo:#liferay> I think that is the lportal.script
 10:25 < rrapozo:#liferay> like: INSERT INTO LAYOUTSET VALUES(21,19,1,NULL,'2014-12-22 15:04:55.202000','0','0',0,'escutas_classic_WAR_escutas_classictheme','01','mobile','01','',1,'','','0')
 10:25 < rrapozo:#liferay> But what I change?
+10:26 < rrapozo:#liferay> Or I can drop this lines and make deploy again?
