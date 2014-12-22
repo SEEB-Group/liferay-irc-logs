@@ -29,3 +29,4 @@
 10:25 < rrapozo:#liferay> But what I change?
 10:26 < rrapozo:#liferay> Or I can drop this lines and make deploy again?
 10:34 < jardineworks:#liferay> I would just remove the theme reference which will make it fallback to the default theme which it is doing anyway
+10:56 < rrapozo:#liferay> I removed all files from the hsql then the files were recreated but the problem persist!
