@@ -16,3 +16,4 @@
 09:59 < rrapozo:#liferay> Hello all. Someone understand about themes in liferay?
 10:17 < jardineworks:#liferay> rrapozo, that error is because there is a reference in one of the tables (I think it is the Layout table) for a theme that does not exist.
 10:17 < jardineworks:#liferay> if you update that column to remove the reference to the invalid theme then it should go away.
+10:18 < rrapozo:#liferay> jardineworks: So I'm using HSQL how I can connect?
