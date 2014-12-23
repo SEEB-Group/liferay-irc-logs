@@ -31,3 +31,4 @@
 10:34 < jardineworks:#liferay> I would just remove the theme reference which will make it fallback to the default theme which it is doing anyway
 10:56 < rrapozo:#liferay> I removed all files from the hsql then the files were recreated but the problem persist!
 10:56 < rrapozo:#liferay> :(
+--- Log closed Tue Dec 23 00:00:24 2014
