@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 13:02 < haba713:#liferay> hi! what is the recommended way to get doclib file entry data from a remote liferay site? DLAppServiceSoap.getFileEntry(...) returns FileEntrySoap but it does not provide access to actual file data: http://docs.liferay.com/portal/6.2/javadocs/com/liferay/portal/kernel/repository/model/FileEntrySoap.html
+--- Log closed Fri Jan 02 00:00:18 2015
