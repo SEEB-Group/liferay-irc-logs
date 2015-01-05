@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 07:07 < manni:#liferay> hi there, i got problem with updating expando values with document library portlet. The custom field values will not be saved on liferay 6.2-CE-GA2. Anybody can reproduce this problem or got a hint?
+--- Log closed Sun Jan 04 00:00:07 2015
