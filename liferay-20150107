@@ -28,3 +28,4 @@
 14:48 < jardineworks:#liferay> but note that this will only be applied for user accounts created AFTER you change it.
 14:48 < NutsPT:#liferay> done thx
 14:48 < NutsPT:#liferay> :)
+14:48 < jardineworks:#liferay> for any existing account you need to flip the flag in the database or re-create the account
