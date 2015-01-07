@@ -31,3 +31,4 @@
 14:48 < jardineworks:#liferay> for any existing account you need to flip the flag in the database or re-create the account
 14:50 < NutsPT:#liferay> yeps, noticed, user load testing
 14:51 < NutsPT:#liferay> 100 users blow up
+14:51 < NutsPT:#liferay> :(
