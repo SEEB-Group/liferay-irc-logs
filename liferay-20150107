@@ -32,3 +32,4 @@
 14:50 < NutsPT:#liferay> yeps, noticed, user load testing
 14:51 < NutsPT:#liferay> 100 users blow up
 14:51 < NutsPT:#liferay> :(
+14:51 < NutsPT:#liferay> changing pg and connection pool settings
