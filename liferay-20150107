@@ -24,3 +24,4 @@
 12:23 < bzighab:#liferay> Please
 13:03 < NutsPT:#liferay> anyone there?
 13:04 < NutsPT:#liferay> where to disable in 6.2 the requirement to change password?
+14:48 < jardineworks:#liferay> NutsPT, you have to go to Users and Organizations in the control panel.. choose Password Policies, click default and uncheck the box to force change.
