@@ -20,3 +20,4 @@
 14:08 < topolik:#liferay> ok
 14:08 < topolik:#liferay> happy new year! :)
 14:08 < jardineworks:#liferay> topolik, I am of course breaking the mould as I usually do haha. I am (trying) using SB as a code gen, but I am not using a DB as my databsource. I have created a service.xml with two entities. Account and Product. In the business realm this is a one-to-many, so in my Account entity definition I have <column name="products" type="Collection" entity="Product"/>
+14:08 < jardineworks:#liferay> I run the build-service
