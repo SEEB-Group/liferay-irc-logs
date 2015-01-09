@@ -62,3 +62,4 @@
 14:31 < jardineworks:#liferay> boo
 14:31 < douglascrp:#liferay> yes
 14:32 < jardineworks:#liferay> incidentally, that post from Meera is not necessarily correct.
+14:32 < jardineworks:#liferay> XXXServiceUtil doesn't necessarily throw a principle exception
