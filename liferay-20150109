@@ -49,3 +49,4 @@
 14:23 < douglascrp:#liferay> actually, you helped me a lot about 2 months ago
 14:23 < douglascrp:#liferay> and being new, I can be completely wrong about my findings
 14:24 < douglascrp:#liferay> jardineworks, what I got for that explanation (and what I did on my project) was to set the foreign entity key on my entity
+14:25 < douglascrp:#liferay> and in order to get the related entities, I created finder methods as described here https://www.liferay.com/pt/web/meera.success/blog/-/blogs/liferay-service-builder-custom-service-methods
