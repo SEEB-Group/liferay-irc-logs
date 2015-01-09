@@ -64,3 +64,4 @@
 14:32 < jardineworks:#liferay> incidentally, that post from Meera is not necessarily correct.
 14:32 < jardineworks:#liferay> XXXServiceUtil doesn't necessarily throw a principle exception
 14:32 < jardineworks:#liferay> even if you are a Guest user
+14:32 < jardineworks:#liferay> my understanind is XXServiceUtil is normally used as the remote interface.
