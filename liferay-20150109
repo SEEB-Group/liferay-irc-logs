@@ -24,3 +24,4 @@
 14:09 < jardineworks:#liferay> no errors.
 14:09 < jardineworks:#liferay> but my Account model object does not have getters/setters for the product attribute
 14:09 < jardineworks:#liferay> which I didn't expect.
+14:09 < jardineworks:#liferay> is that normal?
