@@ -52,3 +52,4 @@
 14:25 < douglascrp:#liferay> and in order to get the related entities, I created finder methods as described here https://www.liferay.com/pt/web/meera.success/blog/-/blogs/liferay-service-builder-custom-service-methods
 14:27 < jardineworks:#liferay> douglascrp, sure, I get that -- the table relationship blah blah blah... BUT, forget the storage of information for a second. If I use the AccountLocalServiceUtil.getAccount(long id)... method in my portlet I get back an Account object. By definition I should then be able to say account.setProducts( products ). ... but the only way I can see to do that is to add to the AccountImpl class  method that defines how to do that. I w
 14:27 < jardineworks:#liferay> as looking to get a big mama object :)
+14:27 < jardineworks:#liferay> but I am guessing that is not possible.
