@@ -61,3 +61,4 @@
 14:31 < jardineworks:#liferay> which is what I had working -- but that is annoying because I can't create a new Account object and simply add products to it. I need to persist it, and then go about adding products.
 14:31 < jardineworks:#liferay> boo
 14:31 < douglascrp:#liferay> yes
+14:32 < jardineworks:#liferay> incidentally, that post from Meera is not necessarily correct.
