@@ -67,3 +67,4 @@
 14:32 < jardineworks:#liferay> my understanind is XXServiceUtil is normally used as the remote interface.
 14:41 < jardineworks:#liferay> douglascrp, "Of course, the relationships can be defined between user-defined custom entities in a given service.xml and it would generate the proper code."
 14:41 < jardineworks:#liferay> but this is in fact what I am not seeing
+14:41 < douglascrp:#liferay> agreed
