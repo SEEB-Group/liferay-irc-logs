@@ -69,3 +69,4 @@
 14:41 < jardineworks:#liferay> but this is in fact what I am not seeing
 14:41 < douglascrp:#liferay> agreed
 14:43 < jardineworks:#liferay> to me -- it seems, the issue is that you should not be allowed to specfy a type of "Collection" for the entity definition. Only allow it for finder methods.
+14:44 < jardineworks:#liferay> because its misleading. The developer assumes that each "column" specified will if fact generate a member variable and getter/setter in the model.
