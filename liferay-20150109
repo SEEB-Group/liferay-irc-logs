@@ -56,3 +56,4 @@
 14:28 < douglascrp:#liferay> I see
 14:28 < douglascrp:#liferay> I tried to do that too
 14:29 < douglascrp:#liferay> my entities have 6 levels relationship
+14:29 < jardineworks:#liferay> I guess it is because the service xml defines the table relationships... so its a data design, not necessarily a domain design
