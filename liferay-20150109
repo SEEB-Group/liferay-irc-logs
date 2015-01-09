@@ -39,3 +39,4 @@
 14:20 < douglascrp:#liferay> there you can define the type you want to return
 14:20 < douglascrp:#liferay> but the relationship between entities have to be done by yourself
 14:21 < jardineworks:#liferay> douglascrp, yeah, it uses freemarker.
+14:21 < topolik:#liferay> jardineworks: I'm sorry, I don't know :( Haven't work with SB for too long :(
