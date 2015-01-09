@@ -35,3 +35,4 @@
 14:18 < douglascrp:#liferay> I think the code generator tool uses a freemarker template
 14:18 < douglascrp:#liferay> is that right?
 14:19 < douglascrp:#liferay> maybe looking at it should be a good idea to make sure it works
+14:19 < douglascrp:#liferay> another place where you can use Collection types is on finders configuration
