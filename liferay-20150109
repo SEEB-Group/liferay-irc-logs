@@ -65,3 +65,4 @@
 14:32 < jardineworks:#liferay> XXXServiceUtil doesn't necessarily throw a principle exception
 14:32 < jardineworks:#liferay> even if you are a Guest user
 14:32 < jardineworks:#liferay> my understanind is XXServiceUtil is normally used as the remote interface.
+14:41 < jardineworks:#liferay> douglascrp, "Of course, the relationships can be defined between user-defined custom entities in a given service.xml and it would generate the proper code."
