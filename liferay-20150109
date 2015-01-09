@@ -34,3 +34,4 @@
 14:18 < douglascrp:#liferay> the option is there, but it seems it has nothing to create code to it
 14:18 < douglascrp:#liferay> I think the code generator tool uses a freemarker template
 14:18 < douglascrp:#liferay> is that right?
+14:19 < douglascrp:#liferay> maybe looking at it should be a good idea to make sure it works
