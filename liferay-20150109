@@ -32,3 +32,4 @@
 14:17 < jardineworks:#liferay> otherwise, what is the point of permitting "Collection" types?
 14:18 < douglascrp:#liferay> jardineworks, that's what I want to know...lol
 14:18 < douglascrp:#liferay> the option is there, but it seems it has nothing to create code to it
+14:18 < douglascrp:#liferay> I think the code generator tool uses a freemarker template
