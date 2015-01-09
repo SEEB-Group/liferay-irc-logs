@@ -23,3 +23,4 @@
 14:08 < jardineworks:#liferay> I run the build-service
 14:09 < jardineworks:#liferay> no errors.
 14:09 < jardineworks:#liferay> but my Account model object does not have getters/setters for the product attribute
+14:09 < jardineworks:#liferay> which I didn't expect.
