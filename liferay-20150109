@@ -60,3 +60,4 @@
 14:30 < jardineworks:#liferay> so you should have a method getProducts() on the AccountImpl class that does ProductServiceUtil.getProducts( getId() ) and returns it.
 14:31 < jardineworks:#liferay> which is what I had working -- but that is annoying because I can't create a new Account object and simply add products to it. I need to persist it, and then go about adding products.
 14:31 < jardineworks:#liferay> boo
+14:31 < douglascrp:#liferay> yes
