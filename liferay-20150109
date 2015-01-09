@@ -29,3 +29,4 @@
 14:15 < douglascrp:#liferay> *if SB is...
 14:15 < douglascrp:#liferay> jardineworks, if it does it, I'm really, really interested to know about it
 14:17 < jardineworks:#liferay> douglascrp, I'm nto sure I follow. I have defined an attribute that maps to a List<?> for my model. In my case, I don't pull from a table -- but I do want the model that is generated to have an attribute List<Product> products; ... and then a getter/setter accordingly. Granted the population should be done through a mapping table, but at the very lest my definition should be there.
+14:17 < jardineworks:#liferay> otherwise, what is the point of permitting "Collection" types?
