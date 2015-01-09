@@ -37,3 +37,4 @@
 14:19 < douglascrp:#liferay> maybe looking at it should be a good idea to make sure it works
 14:19 < douglascrp:#liferay> another place where you can use Collection types is on finders configuration
 14:20 < douglascrp:#liferay> there you can define the type you want to return
+14:20 < douglascrp:#liferay> but the relationship between entities have to be done by yourself
