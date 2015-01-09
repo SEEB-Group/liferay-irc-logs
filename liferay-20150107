@@ -45,3 +45,4 @@
 14:52 < NutsPT:#liferay> any sugestions?
 15:30 < NutsPT:#liferay> jardineworks: now works fine, should the max_conn of 100 on the pg side be enough?
 15:31 < NutsPT:#liferay> and just optimize the liferay connection pool?
+--- Log closed Thu Jan 08 00:00:27 2015
