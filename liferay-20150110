@@ -12,3 +12,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:32 < Uzzi:#liferay> who can help me about Ldap+Liferay?I see users, but I cannot see Groups (testing Groups query works fine)
+08:12 < Uzzi:#liferay> this is log:[PortalLDAPImporterImpl:671] Unable to import group cn=xyz,ou=Groups: null:null:{cn=cn: xyz} javax.naming.InvalidNameException: aaaa: [LDAP: error code 34 - invalid DN]; remaining name 'aaaa'
