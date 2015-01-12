@@ -70,3 +70,4 @@
 09:55 < jardineworks:#liferay> \o/ Haji owes me a beer!
 09:55 <@jhf:#liferay> the string was "Haji=1,Jack=2,Manali=3"
 09:55 < Manali:#liferay> congrats :)
+09:55 <@jhf:#liferay> if you wish to verify: echo -n 'Haji=1,Jack=2,Manali=3' | openssl sha256
