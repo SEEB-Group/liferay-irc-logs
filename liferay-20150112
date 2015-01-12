@@ -33,3 +33,4 @@
 09:24 <@jhf:#liferay> but this is as good as I can make it without a ton of effort
 09:25 <@jhf:#liferay> so the way it works is. I create a string, and compute it's SHA-256 hash and tell everyone the hash
 09:25 <@jhf:#liferay> the string is like "person1,person2,person3"
+09:25 <@jhf:#liferay> then you pick the number of the winner
