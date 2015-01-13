@@ -17,3 +17,4 @@
 10:01 < jardineworks:#liferay> hey topolik -- you around for a JSON-WS question?
 10:13 < topolik:#liferay> hi jardineworks, shoot :)
 10:20 < jardineworks:#liferay> topolik, to use the Liferay.Service.xxx stuff, does your SB need to generate the remote-services?
+10:24 < topolik:#liferay> yes
