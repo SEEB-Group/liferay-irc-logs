@@ -19,3 +19,4 @@
 10:20 < jardineworks:#liferay> topolik, to use the Liferay.Service.xxx stuff, does your SB need to generate the remote-services?
 10:24 < topolik:#liferay> yes
 10:24 < topolik:#liferay> the JS api si built around JSON WS
+10:24 < topolik:#liferay> for JSON WS you need remote servuces
