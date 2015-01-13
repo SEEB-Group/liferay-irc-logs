@@ -16,3 +16,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 10:01 < jardineworks:#liferay> hey topolik -- you around for a JSON-WS question?
 10:13 < topolik:#liferay> hi jardineworks, shoot :)
+10:20 < jardineworks:#liferay> topolik, to use the Liferay.Service.xxx stuff, does your SB need to generate the remote-services?
