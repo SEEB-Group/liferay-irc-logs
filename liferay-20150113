@@ -23,3 +23,4 @@
 10:25 < jardineworks:#liferay> topolik, what about the json-enabled attribute?
 10:29 < topolik:#liferay> he json-enabled attribute of entity tag specifies whether or not the entity should be annotated for JSONserialization.
 10:29 < topolik:#liferay> *the
+10:29 < topolik:#liferay> relates to serialization
