@@ -24,3 +24,4 @@
 10:29 < topolik:#liferay> he json-enabled attribute of entity tag specifies whether or not the entity should be annotated for JSONserialization.
 10:29 < topolik:#liferay> *the
 10:29 < topolik:#liferay> relates to serialization
+10:30 < jardineworks:#liferay> topolik, ah... so if I want to use the services in JS say to pass the entity to the server then I would make sure that attribute is set to true.
