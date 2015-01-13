@@ -27,3 +27,4 @@
 10:30 < jardineworks:#liferay> topolik, ah... so if I want to use the services in JS say to pass the entity to the server then I would make sure that attribute is set to true.
 10:30 < jardineworks:#liferay> is that right?
 10:31 < topolik:#liferay> By default, if the remote-service value is true, then thejson-enabled value is true.
+10:31 < topolik:#liferay> https://www.liferay.com/community/wiki/-/wiki/Main/JSON+Serialization
