@@ -20,3 +20,4 @@
 10:24 < topolik:#liferay> yes
 10:24 < topolik:#liferay> the JS api si built around JSON WS
 10:24 < topolik:#liferay> for JSON WS you need remote servuces
+10:25 < jardineworks:#liferay> topolik, what about the json-enabled attribute?
