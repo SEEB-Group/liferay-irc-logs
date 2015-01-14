@@ -38,3 +38,4 @@
 08:39 < winem_:#liferay> it's working fine on a environment I set up for a customer a couple of weeks ago and that works fine but it does not on our internal dev environment. looks like our serviceuser (readonly ldap-user) is not allowed to read the userPassword..
 08:56 < jardineworks:#liferay> hey winem_ -- still looking for help?
 09:26 < winem_:#liferay> just regarding the ldap. but my colleague, the domain administrator, is also investigating the issue and I'm on a call right now
+09:28 < jardineworks:#liferay> winem_, ok -- one of the things I have seen in the past is an issue where the service user does not have the permissions -- as you mentioned, but also there is a "search" action that is performed and when the DS is really big, I have seen that cause issues.
