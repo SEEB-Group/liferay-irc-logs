@@ -40,3 +40,4 @@
 09:26 < winem_:#liferay> just regarding the ldap. but my colleague, the domain administrator, is also investigating the issue and I'm on a call right now
 09:28 < jardineworks:#liferay> winem_, ok -- one of the things I have seen in the past is an issue where the service user does not have the permissions -- as you mentioned, but also there is a "search" action that is performed and when the DS is really big, I have seen that cause issues.
 09:29 < jardineworks:#liferay> but I believe in that case, the LDAP Admin had a permission restriction around search -- like the max number of records that could be requested at a time or something
+09:29 < jardineworks:#liferay> I beleive Liferay says "gimme all of it" :)
