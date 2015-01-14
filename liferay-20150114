@@ -35,3 +35,4 @@
 04:26 < winem_:#liferay> so I deleted the site, re-imported the lar and checked "use the current user as author" and this fails with a "com.liferay.portlet.documentlibrary.DuplicateFileException" for a png
 04:26 < winem_:#liferay> any option to cleanup the document-library folder for this page without stopping the server and remove it from the filesystem?
 08:37 < winem_:#liferay> anyone using a ldap based on samba4 for the authentication?
+08:39 < winem_:#liferay> it's working fine on a environment I set up for a customer a couple of weeks ago and that works fine but it does not on our internal dev environment. looks like our serviceuser (readonly ldap-user) is not allowed to read the userPassword..
