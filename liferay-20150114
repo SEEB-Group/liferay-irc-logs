@@ -43,3 +43,4 @@
 09:29 < jardineworks:#liferay> I beleive Liferay says "gimme all of it" :)
 09:30 < winem_:#liferay> yes, I assume something like this, too. any acl or something else which sucks
 12:05 < NutsPT:#liferay> Hello people, I’m trying to understand the how to setup a pre-prod -> prod enviromnent with liferay
+12:05 < NutsPT:#liferay> But the documented scenarios and features are not working fully ok on 6.2 CE GA2
