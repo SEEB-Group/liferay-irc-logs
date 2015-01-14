@@ -45,3 +45,4 @@
 12:05 < NutsPT:#liferay> Hello people, I’m trying to understand the how to setup a pre-prod -> prod enviromnent with liferay
 12:05 < NutsPT:#liferay> But the documented scenarios and features are not working fully ok on 6.2 CE GA2
 12:05 < NutsPT:#liferay> can someone help me advising the team?
+13:26 < NutsPT:#liferay> using staging, but with clean scenarios I get lots of bugs :(
