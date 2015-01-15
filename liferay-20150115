@@ -79,3 +79,4 @@
 14:16 < jardineworks:#liferay> so if they do...
 14:16 < jardineworks:#liferay> then there is no point in checking the user login in Liferay. You are technically deferring login to your directory store.
 14:17 < jardineworks:#liferay> and the user object in liferay is only needed for Liferay context.
+14:17 < winem_:#liferay> http://pastie.org/private/rojkejfzrk4bhwfnvy0zw this are the parameters I used to play around
