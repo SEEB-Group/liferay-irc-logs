@@ -170,3 +170,4 @@
 14:44 < jardineworks:#liferay> so the chageable checkbox would only apply to Liferay. So someone could "change their password" in liferay, but you don't use it anyway so its a red herring.
 14:45 < jardineworks:#liferay> better to no allow the change and then hook the forgot password action to do password changes in LDAP
 14:45 < winem_:#liferay> anyone else except for my 2 infrastructure guys who writes into the directory will be shot instantly
+14:46 < jardineworks:#liferay> lol
