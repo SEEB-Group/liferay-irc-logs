@@ -180,3 +180,4 @@
 14:48 < winem_:#liferay> ok, now the login works and the user is no longer asked to set a new password. but he has to answer a security question.. can this also be ommitted? did not found something like that in the policies
 14:48 < jardineworks:#liferay> one sec.
 14:49 < jardineworks:#liferay>  #
+14:49 < jardineworks:#liferay>     # Set this to true to enable reminder queries that are used to help reset a
