@@ -64,3 +64,4 @@
 14:14 < jardineworks:#liferay> well -- normally what I do is I say LDAP required.
 14:15 < winem_:#liferay> hmm... do you know if you have any special acl on the ldap for the service user?
 14:15 < jardineworks:#liferay> and then set a property in the portal ext -- one sec I grab it...
+14:15 < jardineworks:#liferay>     #
