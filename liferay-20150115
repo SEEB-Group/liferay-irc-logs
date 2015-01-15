@@ -51,3 +51,4 @@
 14:12 < jardineworks:#liferay> to date -- yep
 14:12 < jardineworks:#liferay> I think you need to in order fo rthe authentication to work (for the LDAP lookup)
 14:12 < winem_:#liferay> I spend hours reading openldap documentation and in discussions with ldap experts and all of them told me that this is a huge security risk which should not be supported by openldap per default
+14:13 < jardineworks:#liferay> are you using https for you connection?
