@@ -65,3 +65,4 @@
 14:15 < winem_:#liferay> hmm... do you know if you have any special acl on the ldap for the service user?
 14:15 < jardineworks:#liferay> and then set a property in the portal ext -- one sec I grab it...
 14:15 < jardineworks:#liferay>     #
+14:15 < jardineworks:#liferay>     # Set this to true to enable password checking by the internal portal
