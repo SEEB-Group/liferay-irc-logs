@@ -137,3 +137,4 @@
 14:37 < jardineworks:#liferay> benefit to multicast is that you can add in new nodes on the fly ... unicast (which is what I am currently working with) sucks from that angle. You need to restart the server with config changes to get new nodes into the cluster.
 14:37 < jardineworks:#liferay> but at the same time.
 14:37 < jardineworks:#liferay> clustering is only valid for cache and search indices.
+14:37 < winem_:#liferay> yes
