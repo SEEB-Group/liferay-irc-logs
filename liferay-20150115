@@ -89,3 +89,4 @@
 14:19 < jardineworks:#liferay> and of course make sure the screen name, email, first and last are mapping correctly :)
 14:19 < winem_:#liferay> but I may reset it in the database, hm?
 14:19 < winem_:#liferay> ok, I will try it accordingly to your recommendation give me a few minutes
+14:20 < winem_:#liferay> I know there was a way to ensure that liferay read all parameters from the portal-ext.properties, but I can't remember...
