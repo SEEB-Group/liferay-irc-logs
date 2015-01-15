@@ -134,3 +134,4 @@
 14:36 < winem_:#liferay> I would like to start with rmi
 14:36 < winem_:#liferay> we're talking about two nodes in the beginning
 14:36 < winem_:#liferay> even if the multicast option is pretty cool and I'd love to use it on large environments
+14:37 < jardineworks:#liferay> benefit to multicast is that you can add in new nodes on the fly ... unicast (which is what I am currently working with) sucks from that angle. You need to restart the server with config changes to get new nodes into the cluster.
