@@ -26,3 +26,4 @@
 11:04 < jardineworks:#liferay> so .. is the best solution to generate my maven projects in the SDK folders ... and then use the ANT targets to generate the code? :)
 11:05 < csierra:#liferay> if you have a working maven plugin you should be able to use arquillian by configuring it using regular arquillian components
 11:05 < csierra:#liferay> plus the scenario generator
+11:06 < csierra:#liferay> so basically… should you follow arquillian guides you should be fine… and the deployment scenario generator let's you not implement the @Deployment getDeployment method
