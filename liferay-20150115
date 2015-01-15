@@ -19,3 +19,4 @@
 11:02 < jardineworks:#liferay> csierra, is there a supported archetype with maven for the arquillian stuff?
 11:02 < csierra:#liferay> jardineworks, not that I am aware of
 11:03 < csierra:#liferay> we are still working on maven support
+11:03 < csierra:#liferay> we have a deployment scenario generator
