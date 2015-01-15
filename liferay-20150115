@@ -69,3 +69,4 @@
 14:15 < jardineworks:#liferay>     # authentication. If set to false, you're essentially delegating password
 14:15 < jardineworks:#liferay>     # checking to the authenticators configured in "auth.pipeline.pre" and
 14:15 < jardineworks:#liferay>     # "auth.pipeline.post" settings.
+14:15 < jardineworks:#liferay>     #
