@@ -100,3 +100,4 @@
 14:22 < jardineworks:#liferay> so if you check the checkbox in the gui... hit save, then the PortalPreferences table will have a record for your company. Now all the portal-ext stuff is ignored. BUT! wors...
 14:22 < jardineworks:#liferay> if you UNCHECK it..
 14:23 < jardineworks:#liferay> it does not delete from the PortalPreferences... so all the reference to the property that are loaded using the class PrefsPropsUtil.getXXX... will grab the value from the table. If the value is null.. then it will use a default rather than read the portal-ext setting
+14:23 < winem_:#liferay> ok, just to be clear. are ALL ldap-properties in the portal-ext.properties ignored or only those that are not already set in the database?
