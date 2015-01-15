@@ -184,3 +184,4 @@
 14:49 < jardineworks:#liferay>     # user's password.
 14:49 < jardineworks:#liferay>     #
 14:49 < jardineworks:#liferay>     users.reminder.queries.enabled=true
+14:49 < jardineworks:#liferay>     users.reminder.queries.custom.question.enabled=true
