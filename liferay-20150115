@@ -132,3 +132,4 @@
 14:35 < jardineworks:#liferay> ah yes... which method did you go for? uni or multicast?
 14:36 < winem_:#liferay> no, I can't... an update today at noon failed and I just have to wait till the database has been restored
 14:36 < winem_:#liferay> I would like to start with rmi
+14:36 < winem_:#liferay> we're talking about two nodes in the beginning
