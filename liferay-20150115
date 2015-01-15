@@ -29,3 +29,4 @@
 11:06 < csierra:#liferay> so basically… should you follow arquillian guides you should be fine… and the deployment scenario generator let's you not implement the @Deployment getDeployment method
 11:06 < csierra:#liferay> it does it for you
 11:06 < csierra:#liferay> if you use the SDK we have more examples for that
+11:08 < jardineworks:#liferay> csierra, ok -- but don't I need the liferay version in order to get the... sorry, new terms for me... the uh... (one sec)
