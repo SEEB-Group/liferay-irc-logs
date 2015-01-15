@@ -22,3 +22,4 @@
 11:03 < csierra:#liferay> we have a deployment scenario generator
 11:03 < csierra:#liferay> but we still have no arquetype
 11:03 < csierra:#liferay> https://github.com/arquillian/arquillian-extension-liferay
+11:04 < jardineworks:#liferay> right that is what I was looking at :)
