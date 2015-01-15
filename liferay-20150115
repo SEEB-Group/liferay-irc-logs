@@ -101,3 +101,4 @@
 14:22 < jardineworks:#liferay> if you UNCHECK it..
 14:23 < jardineworks:#liferay> it does not delete from the PortalPreferences... so all the reference to the property that are loaded using the class PrefsPropsUtil.getXXX... will grab the value from the table. If the value is null.. then it will use a default rather than read the portal-ext setting
 14:23 < winem_:#liferay> ok, just to be clear. are ALL ldap-properties in the portal-ext.properties ignored or only those that are not already set in the database?
+14:23 < jardineworks:#liferay> Liferay's recommendation is to use the GUI whenever you can
