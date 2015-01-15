@@ -167,3 +167,4 @@
 14:43 < jardineworks:#liferay> if you are exporting, then changes to the USER record in LIFERAY will be written to LDAP
 14:43 < jardineworks:#liferay> most of the time you just want Import.
 14:44 < winem_:#liferay> yes, right
+14:44 < jardineworks:#liferay> so the chageable checkbox would only apply to Liferay. So someone could "change their password" in liferay, but you don't use it anyway so its a red herring.
