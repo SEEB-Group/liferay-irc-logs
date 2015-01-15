@@ -116,3 +116,4 @@
 14:25 < jardineworks:#liferay> 2. Add the auth.pipeline.enable.liferay.check=false to the portal-ext
 14:26 < jardineworks:#liferay> 3. Drop all your users from the database (EXCEPT YOUR ADMIN!)
 14:26 < winem_:#liferay> can't omit the password mapping
+14:26 < jardineworks:#liferay> 4. In the control panel if you haven't already, go to Users and Organizations section, Password Policies, Edit the default passwrod policy and remove the "force change" check box.
