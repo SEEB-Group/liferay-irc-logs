@@ -141,3 +141,4 @@
 14:37 < jardineworks:#liferay> you need to have sticky session for the users ... or try to get session replication going.
 14:38 < winem_:#liferay> and we decided to work with sticky sessions and no session replication between the notes
 14:38 < winem_:#liferay> same idea :D
+14:38 < jardineworks:#liferay> not sure about wildfly, but there is a bug in TC7.0.42 that prevents it :(
