@@ -14,3 +14,4 @@
 08:31 < sm`:#liferay> does PortletRequest.getSession() returns the same object as ActionRequest.getPortletSession() ?
 10:44 < sm`:#liferay> http://pastebin.com/FJRPH0AS
 10:44 < sm`:#liferay> if anyone is around
+11:01 < jardineworks:#liferay> csierra, are you around for an arquillian question
