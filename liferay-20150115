@@ -160,3 +160,4 @@
 14:41 < jardineworks:#liferay> here ya go
 14:41 < jardineworks:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/35359683
 14:41 < winem_:#liferay> great, will check it
+14:42 < winem_:#liferay> and a last question regarding the password policy.. what happens if I use ldap authentication, uncheck "Change required" and check "Changeable"
