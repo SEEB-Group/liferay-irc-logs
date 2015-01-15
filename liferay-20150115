@@ -82,3 +82,4 @@
 14:17 < winem_:#liferay> http://pastie.org/private/rojkejfzrk4bhwfnvy0zw this are the parameters I used to play around
 14:17 < jardineworks:#liferay> but for the record, if you import the password, by default it is stored encrypted in the DB. And you can configure the encryption algorithm.
 14:18 < winem_:#liferay> so you just set auth.pipeline.enable.liferay.check=false ?
+14:18 < winem_:#liferay> yes, but actually, the password is not shown when I click on... let me check...
