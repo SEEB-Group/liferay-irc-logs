@@ -117,3 +117,4 @@
 14:26 < jardineworks:#liferay> 3. Drop all your users from the database (EXCEPT YOUR ADMIN!)
 14:26 < winem_:#liferay> can't omit the password mapping
 14:26 < jardineworks:#liferay> 4. In the control panel if you haven't already, go to Users and Organizations section, Password Policies, Edit the default passwrod policy and remove the "force change" check box.
+14:27 < winem_:#liferay> it says "The above results include users which are missing the required attributes (Screen Name, Password, Email Address, First Name, and Last Name). These users will not be imported until these attributes are filled in. " when I click on Test LDAP Users
