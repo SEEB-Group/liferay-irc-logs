@@ -86,3 +86,4 @@
 14:18 < jardineworks:#liferay> yep -- and make sure the ldap.required (or the checkbox in the control panel) is true/checked.
 14:18 < winem_:#liferay> Test LDAP users
 14:19 < winem_:#liferay> I won't like to check this box before I know that it works with the ldap...
+14:19 < jardineworks:#liferay> and of course make sure the screen name, email, first and last are mapping correctly :)
