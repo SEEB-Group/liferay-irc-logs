@@ -49,3 +49,4 @@
 14:11 < jardineworks:#liferay> winem_, in some environments
 14:11 < winem_:#liferay> do you always enter the attribute name for the password?
 14:12 < jardineworks:#liferay> to date -- yep
+14:12 < jardineworks:#liferay> I think you need to in order fo rthe authentication to work (for the LDAP lookup)
