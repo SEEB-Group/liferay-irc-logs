@@ -97,3 +97,4 @@
 14:21 < winem_:#liferay> oh, really? the docs say that you should decide between configuration via portal-ext.properties or the gui. if you have a mix up of both, the values in the database are prefered even if they also exist in the portal properties
 14:21 < jardineworks:#liferay> correct
 14:22 < winem_:#liferay> you make all your ldap configuration via the portal-ext.properties?
+14:22 < jardineworks:#liferay> so if you check the checkbox in the gui... hit save, then the PortalPreferences table will have a record for your company. Now all the portal-ext stuff is ignored. BUT! wors...
