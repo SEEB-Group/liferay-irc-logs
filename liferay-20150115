@@ -12,3 +12,5 @@
 03:21 -!- Irssi: Join to #liferay was synced in 3 secs
 08:31 < sm`:#liferay> hello
 08:31 < sm`:#liferay> does PortletRequest.getSession() returns the same object as ActionRequest.getPortletSession() ?
+10:44 < sm`:#liferay> http://pastebin.com/FJRPH0AS
+10:44 < sm`:#liferay> if anyone is around
