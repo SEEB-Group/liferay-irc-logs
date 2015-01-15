@@ -75,3 +75,4 @@
 14:15 < jardineworks:#liferay> which basically means
 14:16 < jardineworks:#liferay> don't bother checking the password on the User object that is stored in Lfieray
 14:16 < winem_:#liferay> damn, this is new to me
+14:16 < jardineworks:#liferay> if you have LDAP required then the user MUST successfully auth with OpenLDAP or whatever
