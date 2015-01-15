@@ -103,3 +103,4 @@
 14:23 < winem_:#liferay> ok, just to be clear. are ALL ldap-properties in the portal-ext.properties ignored or only those that are not already set in the database?
 14:23 < jardineworks:#liferay> Liferay's recommendation is to use the GUI whenever you can
 14:23 < jardineworks:#liferay> because it does not require restarts (is the principle reason)
+14:23 < winem_:#liferay> yes, this is what I did so far
