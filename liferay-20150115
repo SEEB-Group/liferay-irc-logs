@@ -189,3 +189,5 @@
 14:50 < jardineworks:#liferay> while you are in there --
 14:50 < jardineworks:#liferay>     #
 14:50 < jardineworks:#liferay>     # Set this to true if all users are required to agree to the terms of use.
+14:50 < jardineworks:#liferay>     #
+14:50 < jardineworks:#liferay>     terms.of.use.required=true
