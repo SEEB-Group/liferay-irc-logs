@@ -94,3 +94,4 @@
 14:20 < jardineworks:#liferay> you need to look up the record in the PortalPreferences table and delete it.
 14:21 < jardineworks:#liferay> filter on companyId, which you can get from the VirtualHost table
 14:21 < jardineworks:#liferay> (based on your hostname)
+14:21 < winem_:#liferay> oh, really? the docs say that you should decide between configuration via portal-ext.properties or the gui. if you have a mix up of both, the values in the database are prefered even if they also exist in the portal properties
