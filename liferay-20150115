@@ -148,3 +148,4 @@
 14:39 < winem_:#liferay> yes
 14:39 < jardineworks:#liferay> now, I painstakingly stepped through the source code for an entire day when I found it
 14:39 < winem_:#liferay> because jboss 7 uses a tomcat as container
+14:39 < jardineworks:#liferay> I keep meaning to check the latest release to see if it has been fixed.
