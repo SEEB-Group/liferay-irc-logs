@@ -91,3 +91,4 @@
 14:19 < winem_:#liferay> ok, I will try it accordingly to your recommendation give me a few minutes
 14:20 < winem_:#liferay> I know there was a way to ensure that liferay read all parameters from the portal-ext.properties, but I can't remember...
 14:20 < jardineworks:#liferay> winem_, remember... if you did anyting in the control panel for the portal's authentication, then the portal-ext settings are no longer considered.
+14:20 < jardineworks:#liferay> you need to look up the record in the PortalPreferences table and delete it.
