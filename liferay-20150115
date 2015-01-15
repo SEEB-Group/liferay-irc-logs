@@ -171,3 +171,4 @@
 14:45 < jardineworks:#liferay> better to no allow the change and then hook the forgot password action to do password changes in LDAP
 14:45 < winem_:#liferay> anyone else except for my 2 infrastructure guys who writes into the directory will be shot instantly
 14:46 < jardineworks:#liferay> lol
+14:46 < jardineworks:#liferay> wow
