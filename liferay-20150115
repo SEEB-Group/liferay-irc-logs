@@ -162,3 +162,4 @@
 14:41 < winem_:#liferay> great, will check it
 14:42 < winem_:#liferay> and a last question regarding the password policy.. what happens if I use ldap authentication, uncheck "Change required" and check "Changeable"
 14:42 < winem_:#liferay> will the password be stored in the database or is this what the guy giving the workshop meant when he said that liferay can write into the ldap
+14:42 < winem_:#liferay> liferay has only a read only user, so it would not be able to write in the ldap but I'd like to understand it
