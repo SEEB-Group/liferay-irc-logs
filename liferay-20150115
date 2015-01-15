@@ -181,3 +181,6 @@
 14:48 < jardineworks:#liferay> one sec.
 14:49 < jardineworks:#liferay>  #
 14:49 < jardineworks:#liferay>     # Set this to true to enable reminder queries that are used to help reset a
+14:49 < jardineworks:#liferay>     # user's password.
+14:49 < jardineworks:#liferay>     #
+14:49 < jardineworks:#liferay>     users.reminder.queries.enabled=true
