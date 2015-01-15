@@ -138,3 +138,4 @@
 14:37 < jardineworks:#liferay> but at the same time.
 14:37 < jardineworks:#liferay> clustering is only valid for cache and search indices.
 14:37 < winem_:#liferay> yes
+14:37 < jardineworks:#liferay> you need to have sticky session for the users ... or try to get session replication going.
