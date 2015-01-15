@@ -78,3 +78,4 @@
 14:16 < jardineworks:#liferay> if you have LDAP required then the user MUST successfully auth with OpenLDAP or whatever
 14:16 < jardineworks:#liferay> so if they do...
 14:16 < jardineworks:#liferay> then there is no point in checking the user login in Liferay. You are technically deferring login to your directory store.
+14:17 < jardineworks:#liferay> and the user object in liferay is only needed for Liferay context.
