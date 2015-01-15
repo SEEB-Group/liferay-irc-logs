@@ -93,3 +93,4 @@
 14:20 < jardineworks:#liferay> winem_, remember... if you did anyting in the control panel for the portal's authentication, then the portal-ext settings are no longer considered.
 14:20 < jardineworks:#liferay> you need to look up the record in the PortalPreferences table and delete it.
 14:21 < jardineworks:#liferay> filter on companyId, which you can get from the VirtualHost table
+14:21 < jardineworks:#liferay> (based on your hostname)
