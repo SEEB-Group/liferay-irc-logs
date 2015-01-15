@@ -165,3 +165,4 @@
 14:42 < winem_:#liferay> liferay has only a read only user, so it would not be able to write in the ldap but I'd like to understand it
 14:43 < jardineworks:#liferay> so that depends on import/export
 14:43 < jardineworks:#liferay> if you are exporting, then changes to the USER record in LIFERAY will be written to LDAP
+14:43 < jardineworks:#liferay> most of the time you just want Import.
