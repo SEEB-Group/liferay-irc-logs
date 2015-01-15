@@ -96,3 +96,4 @@
 14:21 < jardineworks:#liferay> (based on your hostname)
 14:21 < winem_:#liferay> oh, really? the docs say that you should decide between configuration via portal-ext.properties or the gui. if you have a mix up of both, the values in the database are prefered even if they also exist in the portal properties
 14:21 < jardineworks:#liferay> correct
+14:22 < winem_:#liferay> you make all your ldap configuration via the portal-ext.properties?
