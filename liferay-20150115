@@ -140,3 +140,4 @@
 14:37 < winem_:#liferay> yes
 14:37 < jardineworks:#liferay> you need to have sticky session for the users ... or try to get session replication going.
 14:38 < winem_:#liferay> and we decided to work with sticky sessions and no session replication between the notes
+14:38 < winem_:#liferay> same idea :D
