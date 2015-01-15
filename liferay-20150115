@@ -53,3 +53,4 @@
 14:12 < winem_:#liferay> I spend hours reading openldap documentation and in discussions with ldap experts and all of them told me that this is a huge security risk which should not be supported by openldap per default
 14:13 < jardineworks:#liferay> are you using https for you connection?
 14:13 < winem_:#liferay> I don't mean the password for the service user. I mean the password where you do the user mapping... e-mail = mail, screenname = cn, and so on
+14:13 < winem_:#liferay> yes, sure :-)
