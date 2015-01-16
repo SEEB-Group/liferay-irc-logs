@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 14:51 < Neelixx:#liferay> I’ve got an organization put in a new instance of Liferay.  I’d like to migrate this to a new standalone Liferay.  Is this supported?
 14:52 < Neelixx:#liferay> Obviously, I can’t just move the data folder, as it includes the instance and org id’s
+14:52 < Neelixx:#liferay> Doing LARs is fine for the data, but I don’t think I can migrate users that way, can I?
