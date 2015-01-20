@@ -22,3 +22,4 @@
 09:24 < bijoo_:#liferay> modd_: you're not alone in the template dark land; https://gist.github.com/bmvakili/5051f9c51469a1a7464c
 09:24 < bijoo_:#liferay> modd_: those are for the web content vars you get
 09:24 < modd_:#liferay> in freemarker you have to use .var[...] additionally. that was my problem
+09:25 < bijoo_:#liferay> modd_: https://gist.github.com/bmvakili/ae0f057a68ac732ad138
