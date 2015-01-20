@@ -29,3 +29,5 @@
 09:28 < modd_:#liferay> I don't use any custom vars so no problem here
 09:29 < bijoo_:#liferay> modd_: One freemarker shortcoming's quite irksome: cannot pass "null" when calling bean methods; freemarker doesn't support it (or wants). So calling lots of LR methods fails : http://freemarker.org/docs/app_faq.html#faq_null
 09:29 < bijoo_:#liferay> modd_: I even asked Liferay remove one case: https://issues.liferay.com/browse/LPS-51567 but many more remain with no resolve
+11:39 < sm`:#liferay> hello anyone arround?
+11:39 < sm`:#liferay> need some help with friendlyURls
