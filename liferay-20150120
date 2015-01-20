@@ -25,3 +25,4 @@
 09:25 < bijoo_:#liferay> modd_: https://gist.github.com/bmvakili/ae0f057a68ac732ad138
 09:25 < bijoo_:#liferay> modd_: latter are for kaleo template variables
 09:26 < bijoo_:#liferay> modd_: I usually can get away with ${variableName} unless the variable has special characters
+09:27 < bijoo_:#liferay> modd_: in that case there are some tricks as you said : http://freemarker.org/docs/app_faq.html#faq_strange_variable_name
