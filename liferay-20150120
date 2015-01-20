@@ -16,3 +16,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:19 < goku_:#liferay> hi while getting the portlet title using the api themeDisplay.getPortletDisplay().getTitle() am able to get the old title(i edited the title)..how to get the latest title ?
 08:09 < modd_:#liferay> hi guys. anyone knows how to get the webcontent Id of the current webcontent in a webcontent template?
+09:21 < bijoo_:#liferay> goku_: I don't think it would be a cache issue; since theme display is made on each request; so I'd double check if it's really changed: liferay-portlet.xml, portlet.xml, and check liferay-display.com for good measure.
