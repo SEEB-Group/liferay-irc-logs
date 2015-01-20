@@ -24,3 +24,4 @@
 09:24 < modd_:#liferay> in freemarker you have to use .var[...] additionally. that was my problem
 09:25 < bijoo_:#liferay> modd_: https://gist.github.com/bmvakili/ae0f057a68ac732ad138
 09:25 < bijoo_:#liferay> modd_: latter are for kaleo template variables
+09:26 < bijoo_:#liferay> modd_: I usually can get away with ${variableName} unless the variable has special characters
