@@ -15,3 +15,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:19 < goku_:#liferay> hi while getting the portlet title using the api themeDisplay.getPortletDisplay().getTitle() am able to get the old title(i edited the title)..how to get the latest title ?
+08:09 < modd_:#liferay> hi guys. anyone knows how to get the webcontent Id of the current webcontent in a webcontent template?
