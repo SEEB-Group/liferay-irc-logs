@@ -17,3 +17,4 @@
 16:23 < daqSam:#liferay> quick question: why do sometimes when you're trying to make a LR API method call from Velocity, instead of executing the method, it outputs the text?
 16:24 < daqSam:#liferay> example: <div>$JournalArticleLocalService.someMethod(...params...)</div> outputs $JournalArticleLocalService.someMethod(...params...) as text instead of the result
 16:25 < daqSam:#liferay> and no error in the console
+--- Log closed Tue Jan 20 00:00:28 2015
