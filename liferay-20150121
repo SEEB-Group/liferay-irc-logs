@@ -66,3 +66,4 @@
 16:16 < csierra1:#liferay> vamos… el sdk
 16:16 < jardineworks_:#liferay> oh
 16:16 < jardineworks_:#liferay> no soy ultilizando maven :)
+16:16 < csierra1:#liferay> ah… si estás usando maven entonces el WebArchiveBuilder no te sirve
