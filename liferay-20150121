@@ -91,3 +91,4 @@
 16:20 < csierra1:#liferay> o si no usas las extension que te da liferay
 16:20 < csierra1:#liferay> pero lo ideal es que uses las extensiones y no tengas que poner el @deployment
 16:21 < jardineworks_:#liferay> oh!
+16:21 < csierra1:#liferay> simplemente el @RunWith y los @test
