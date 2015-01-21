@@ -97,3 +97,4 @@
 16:21 < jardineworks_:#liferay> y creo eso es proque no tengo el portal container no?
 16:21 < csierra1:#liferay> luego tienes que elegir el container que uses
 16:22 < csierra1:#liferay> si estás con tomcat y lo tienes corriendo puedes usar arquillian-tomcat-remote-7
+16:23 < jardineworks_:#liferay> este?
