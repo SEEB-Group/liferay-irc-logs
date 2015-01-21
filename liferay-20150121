@@ -75,3 +75,4 @@
 16:18 < jardineworks_:#liferay> pero, tengo una classe. ---
 16:18 < csierra1:#liferay> de hecho las dos hacen lo mismo
 16:18 < csierra1:#liferay> lo que pasa que una lo hace a partir de ant (para el SDK)
+16:18 < csierra1:#liferay> y la otra lo hace a partir del pom que tengas en maven
