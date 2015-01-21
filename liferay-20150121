@@ -57,3 +57,4 @@
 16:13 < jardineworks_:#liferay> al mejor es que no tengo una <server> en mi settings.xml
 16:13 < jardineworks_:#liferay> en este location?  <url>http://repository.liferay.com/nexus/content/groups/public</url>
 16:14 < csierra1:#liferay> https://github.com/liferay/liferay-plugins/blob/master/portlets/calendar-portlet/ivy.xml
+16:14 < csierra1:#liferay> esta es la conf que usamos
