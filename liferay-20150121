@@ -92,3 +92,4 @@
 16:20 < csierra1:#liferay> pero lo ideal es que uses las extensiones y no tengas que poner el @deployment
 16:21 < jardineworks_:#liferay> oh!
 16:21 < csierra1:#liferay> simplemente el @RunWith y los @test
+16:21 < jardineworks_:#liferay> pero creo que todavia me falta algo porque cuando hago un test, tengo error --
