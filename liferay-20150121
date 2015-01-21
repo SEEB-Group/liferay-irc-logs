@@ -87,3 +87,4 @@
 16:19 < csierra1:#liferay> precisamente lo que hace la extension es hacer un @Deployment
 16:19 < csierra1:#liferay> si lo pones tú harás un override a la extension
 16:19 < jardineworks_:#liferay> oh
+16:20 < csierra1:#liferay> solo lo tienes que poner si quieres hacer alguna cosa especial
