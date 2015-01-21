@@ -27,3 +27,4 @@
 15:18 < jardineworks_:#liferay> boo
 15:19 < jardineworks_:#liferay> my biggest issue right now is trying to figure out how the hell to get it to work with Maven! I have all of it working except one thing. I am missing whichever jar contains the WebArchiveBuilder class(es) and I am worreid that it is only available for ANT right now,
 15:20 < jardineworks_:#liferay> and I tried to build the modules/sdk/ant-arquillian from the liferay-portal git source and I am getting an error about a missing file :(
+15:56 < jardineworks_:#liferay> csierra1: \o/! tienes una minuto para una question?
