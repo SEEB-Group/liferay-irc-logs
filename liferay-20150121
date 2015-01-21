@@ -93,3 +93,4 @@
 16:21 < jardineworks_:#liferay> oh!
 16:21 < csierra1:#liferay> simplemente el @RunWith y los @test
 16:21 < jardineworks_:#liferay> pero creo que todavia me falta algo porque cuando hago un test, tengo error --
+16:21 < jardineworks_:#liferay> Running com.ypg.liferay.portlet.ArquillianPortletTest Jan 21, 2015 4:20:23 PM com.liferay.portal.kernel.log.Jdk14LogImpl error SEVERE: BeanLocator is null java.lang.Exception: Stack trace
