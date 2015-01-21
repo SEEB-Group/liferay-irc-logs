@@ -25,3 +25,4 @@
 13:32 < jardineworks_:#liferay> has anyone here started using arquillian yet?
 13:45 < modd:#liferay> nope, but I really would like to try it...I need days with like 50h
 15:18 < jardineworks_:#liferay> boo
+15:19 < jardineworks_:#liferay> my biggest issue right now is trying to figure out how the hell to get it to work with Maven! I have all of it working except one thing. I am missing whichever jar contains the WebArchiveBuilder class(es) and I am worreid that it is only available for ANT right now,
