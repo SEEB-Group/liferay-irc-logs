@@ -16,3 +16,4 @@
 05:44 < goku_:#liferay> Hi am trying to load the liferay setup public page inside another iframe in another setup ..but it shows error Load denied by X-Frame-Options: http://<my liferay page link> does not permit cross-origin framing
 05:44 < goku_:#liferay> how to resolve this issue
 05:44 < goku_:#liferay> ?
+05:50 < modd_:#liferay> this is browser related
