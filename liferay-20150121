@@ -68,3 +68,4 @@
 16:16 < jardineworks_:#liferay> no soy ultilizando maven :)
 16:16 < csierra1:#liferay> ah… si estás usando maven entonces el WebArchiveBuilder no te sirve
 16:17 < jardineworks_:#liferay> :(
+16:17 < csierra1:#liferay> tienes que usar https://github.com/arquillian/arquillian-extension-liferay/tree/master/arquillian-liferay-maven-extension
