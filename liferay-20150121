@@ -61,3 +61,4 @@
 16:14 < csierra1:#liferay> https://github.com/liferay/liferay-plugins/blob/master/ivy-settings.xml
 16:14 < csierra1:#liferay> http://cdn.repository.liferay.com/nexus/content/groups/public
 16:14 < csierra1:#liferay> ahí debería estar
+16:15 < jardineworks_:#liferay> csierra1: entonces tengo que poner eso en my settings.xml?
