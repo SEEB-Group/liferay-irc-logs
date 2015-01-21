@@ -1,0 +1,18 @@
+--- Log opened Wed Jan 21 00:00:38 2015
+--- Log opened Wed Jan 21 03:21:34 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ    ] [ Gorith        ] [ LRAdminInNeed3] [ plekplek    ] 
+03:21 [ avinashrbhat] [ henriquev     ] [ LRAdminInNeed4] [ quercus_    ] 
+03:21 [ bijoo       ] [ ideopathic    ] [ LRAdminInNeed5] [ smind       ] 
+03:21 [ bijoo_      ] [ izaera        ] [ LRAdminInNeed6] [ Tar-Minyatur] 
+03:21 [ Bryanstein  ] [ jardineworks  ] [ marcoceppi_   ] [ Tm_T        ] 
+03:21 [ csierra     ] [ LRAdminInNeed ] [ mcbonz        ] [ topolik     ] 
+03:21 [ doged       ] [ LRAdminInNeed2] [ Naenyn        ] 
+03:21 -!- Irssi: #liferay: Total of 27 nicks [1 ops, 0 halfops, 0 voices, 26 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+05:44 < goku_:#liferay> Hi am trying to load the liferay setup public page inside another iframe in another setup ..but it shows error Load denied by X-Frame-Options: http://<my liferay page link> does not permit cross-origin framing
+05:44 < goku_:#liferay> how to resolve this issue
+05:44 < goku_:#liferay> ?
