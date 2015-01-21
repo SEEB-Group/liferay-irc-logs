@@ -78,3 +78,4 @@
 16:18 < csierra1:#liferay> y la otra lo hace a partir del pom que tengas en maven
 16:18 < csierra1:#liferay> lo que pasa que yo de maven no entiendo mucho
 16:18 < jardineworks_:#liferay> @RunWith(Arquillian.class) public class ArquillianPortletTest {  	@Deployment 	public static WebArchive createDeployment() 	{ 		return WebArchiveBuilder.build(); 	} 	 	@Test 	public void testUserLocalService() throws Exception 	{ 		UserLocalServiceUtil.createUser( CounterLocalServiceUtil.increment() ); 	}  }
+16:18 < csierra1:#liferay> he pedido al autor de la extension que me de un ejemplo de uso
