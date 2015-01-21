@@ -44,3 +44,4 @@
 16:07 < csierra1:#liferay> estoy mirando
 16:08 < csierra1:#liferay> no hace falta hacer un build de tools
 16:08 < csierra1:#liferay> simplemente que traigas del plugins sdk los ficheros que dice que no te encuentra
+16:08 < csierra1:#liferay> por ejemplo /opt/git/liferay/liferay-portal/tools/sdk/build-common-plugin.xml
