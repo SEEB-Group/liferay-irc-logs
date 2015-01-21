@@ -20,3 +20,6 @@
 05:55 < goku_:#liferay> modd_:so for showing the public pages of liferay in a iframe what to do?
 05:56 < modd_:#liferay> well, in most browsers you can change the settings
 05:57 < modd_:#liferay> however, it's a bad idea, as it's a security issue
+10:59 -!- mode/#liferay [+o jhf] by ChanServ
+11:57 -!- mode/#liferay [+o jhf] by ChanServ
+13:32 < jardineworks_:#liferay> has anyone here started using arquillian yet?
