@@ -54,3 +54,4 @@
 16:11 < jardineworks_:#liferay> voy a mirrar.
 16:11 < csierra1:#liferay> estoy mirando dónde lo usamos
 16:12 < csierra1:#liferay> id: "com.liferay.ant.arquillian" group: "com.liferay"
+16:13 < jardineworks_:#liferay> al mejor es que no tengo una <server> en mi settings.xml
