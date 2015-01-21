@@ -38,3 +38,4 @@
 16:02 < csierra1:#liferay> se genera a partir de un zip en /opt/git/liferay/liferay-portal/tools/
 16:02 < csierra1:#liferay> a partir del plugins sdk
 16:03 < jardineworks_:#liferay> ah
+16:03 < jardineworks_:#liferay> entonces tengo que hacer una build de tools en primero?
