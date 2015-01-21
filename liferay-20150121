@@ -32,3 +32,4 @@
 15:59 < jardineworks_:#liferay> csierra1:  pero solo tengo una problema. Todavia me falta el jar que tiene el WebArchiveBuilder.class. No lo puedo encontrar en niguna sitio... solo en el projeto de arquillian y ant.
 16:00 < jardineworks_:#liferay> pero cuando hago una "ant" en el /liferay-portal/modules/sdk/ant-arquillian, tengo error que me dice que me falta Cannot find /opt/git/liferay/liferay-portal/tools/sdk/build-common-plugin.xml imported from /opt/git/liferay/liferay-portal/tools/sdk/build-common-osgi-plugin.xml
 16:01 < jardineworks_:#liferay> y no lo puedo ver en git.
+16:01 < jardineworks_:#liferay> puedo ver /liferay-portal/tools... per no veo nadda de /tools/sdk
