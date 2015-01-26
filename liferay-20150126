@@ -25,3 +25,4 @@
 15:27 < csierra:#liferay> mmmh a qué te refieres con unit test?
 15:28 < jardineworks_:#liferay> csierra, no se porque pero my cliente le gusta hacer unit tests de sus portlets. Una de las questiones que me preguntan es como pueden hacer une test del MyPortlet.render( RenderRequest, RenderResponse) con arquillian. Ahora lo que estan haciendo, con PowerMock, es mocking el RenderRequset objeto.
 15:29 < csierra:#liferay> jardineworks_: I will switch to english so that the rest can follow in case they are interested
+15:30 < csierra:#liferay> jardineworks_: we are planning to introduce support to arquillian warp into Liferay
