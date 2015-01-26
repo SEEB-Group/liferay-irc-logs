@@ -38,3 +38,4 @@
 15:36 < jardineworks_:#liferay> any idea when the release that supports, servlets, portlets etc is tentatively scheduled for?
 15:40 < jardineworks_:#liferay> csierra, http://arquillian.org/blog/2013/01/31/arquillian-extension-portal-1-0-0-Beta1/
 15:42 < csierra:#liferay> jardineworks_: yep… that's what we would integrate with liferay
+15:42 < csierra:#liferay> but also warp
