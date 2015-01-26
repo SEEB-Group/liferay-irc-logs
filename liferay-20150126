@@ -27,3 +27,4 @@
 15:29 < csierra:#liferay> jardineworks_: I will switch to english so that the rest can follow in case they are interested
 15:30 < csierra:#liferay> jardineworks_: we are planning to introduce support to arquillian warp into Liferay
 15:30 < csierra:#liferay> with that you can test servlets, portlet, filter, etc.
+15:31 < csierra:#liferay> but we haven't it yet
