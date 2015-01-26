@@ -14,3 +14,4 @@
 09:37 -!- mode/#liferay [+o jhf] by ChanServ
 09:48 < jardineworks_:#liferay> jhf! \o/
 09:48 < jardineworks_:#liferay> just the man I was hoping to find :)
+09:49 < jardineworks_:#liferay> ... doing a little research into using a web farm for my cluster (for deployment across multiple nodes). I am guessing that since Liferay handles the deployment instead of Tomcat (in my case) that the typical deploymnet configuration in the server.xml won't cut it?
