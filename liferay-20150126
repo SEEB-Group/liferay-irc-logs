@@ -36,3 +36,4 @@
 15:35 < csierra:#liferay> maybe this can help you https://github.com/topikachu/arquillian-extension-mockito
 15:35 < csierra:#liferay> but in your exact use case I can see any use of arquillian now
 15:36 < jardineworks_:#liferay> any idea when the release that supports, servlets, portlets etc is tentatively scheduled for?
+15:40 < jardineworks_:#liferay> csierra, http://arquillian.org/blog/2013/01/31/arquillian-extension-portal-1-0-0-Beta1/
