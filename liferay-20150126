@@ -16,3 +16,4 @@
 09:48 < jardineworks_:#liferay> just the man I was hoping to find :)
 09:49 < jardineworks_:#liferay> ... doing a little research into using a web farm for my cluster (for deployment across multiple nodes). I am guessing that since Liferay handles the deployment instead of Tomcat (in my case) that the typical deploymnet configuration in the server.xml won't cut it?
 09:56 <@jhf:#liferay> well, I'm not 100% sure, but I believe you still have to configure the app container to be clustered first, and then deploy Liferay to each one
+09:56 <@jhf:#liferay> there is a sweet whitepaper on how to do it
