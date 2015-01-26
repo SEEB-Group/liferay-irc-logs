@@ -35,3 +35,4 @@
 15:35 < csierra:#liferay> yep… http://arquillian.org/guides/functional_testing_using_graphene/
 15:35 < csierra:#liferay> maybe this can help you https://github.com/topikachu/arquillian-extension-mockito
 15:35 < csierra:#liferay> but in your exact use case I can see any use of arquillian now
+15:36 < jardineworks_:#liferay> any idea when the release that supports, servlets, portlets etc is tentatively scheduled for?
