@@ -29,3 +29,4 @@
 15:30 < csierra:#liferay> with that you can test servlets, portlet, filter, etc.
 15:31 < csierra:#liferay> but we haven't it yet
 15:31 < csierra:#liferay> so I guess we can give you no more here than what arquillian provides OOTB
+15:32 < csierra:#liferay> if you want you could use graphene to perform functional tests
