@@ -18,3 +18,4 @@
 09:56 <@jhf:#liferay> well, I'm not 100% sure, but I believe you still have to configure the app container to be clustered first, and then deploy Liferay to each one
 09:56 <@jhf:#liferay> there is a sweet whitepaper on how to do it
 09:57 <@jhf:#liferay> "Advanced Liferay Architecture - Clustering and High Availability"
+09:57 <@jhf:#liferay> also the 6.2 Deployment Checklist (or 6.1) goes step by step, which config files to check, how to test, etc
