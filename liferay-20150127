@@ -3,3 +3,4 @@
 02:13 < dev1:#liferay> is there anyone from liferay support team?
 02:41 < modd_:#liferay> nope
 02:49 < dev1:#liferay> can anyone help? I have following problem
+02:50 < dev1:#liferay> 08:49:57,654 ERROR [http-bio-18080-exec-12][render_portlet_jsp:132] null java.io.FileNotFoundException: The requested resource (/micronet-web-content-display-portlet/micronetwebcontentdisplayportlet/invoke) is not available 	at org.apache.catalina.servlets.DefaultServlet.serveResource(DefaultServlet.java:776) 	at org.apache.catalina.servlets.DefaultServlet.doGet(DefaultServlet.java:411) 	at org.apache.catalina.servlets.DefaultServlet.
