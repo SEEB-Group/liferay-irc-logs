@@ -1,2 +1,3 @@
 --- Log opened Wed Jan 28 00:00:27 2015
 03:03 < plekplek:#liferay> does anyone here have any experience in bulk tagging files? i’m looking into importing 1500 images to documents in liferay. all these images have tags added to their keywords metadata section.
+03:07 < plekplek:#liferay> problem is, when adding the document to liferay, only the first keyword id recognized (asdf; qwer; 1234) -> (asdf). so i started thinking about other options. since i can export all file names and respective keywords to csv, i was easily able to at least add all the tags manually. so maybe some kind of sql script that checks the entryId by file name, then checks tagId from tag name and creates the links in AssetEntries_AssetTags
