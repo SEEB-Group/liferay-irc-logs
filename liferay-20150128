@@ -1,3 +1,28 @@
 --- Log opened Wed Jan 28 00:00:27 2015
 03:03 < plekplek:#liferay> does anyone here have any experience in bulk tagging files? i’m looking into importing 1500 images to documents in liferay. all these images have tags added to their keywords metadata section.
 03:07 < plekplek:#liferay> problem is, when adding the document to liferay, only the first keyword id recognized (asdf; qwer; 1234) -> (asdf). so i started thinking about other options. since i can export all file names and respective keywords to csv, i was easily able to at least add all the tags manually. so maybe some kind of sql script that checks the entryId by file name, then checks tagId from tag name and creates the links in AssetEntries_AssetTags
+--- Log opened Wed Jan 28 03:21:42 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ    ] [ Gorith      ] [ jardineworks_] [ quercus_    ] 
+03:21 [ avinashrbhat] [ henriquev   ] [ marcoceppi   ] [ rochadt     ] 
+03:21 [ bijoo       ] [ ideopathic  ] [ mcbonz       ] [ smind       ] 
+03:21 [ Bryanstein  ] [ izaera      ] [ Naenyn       ] [ Tar-Minyatur] 
+03:21 [ csierra     ] [ jardineworks] [ plekplek     ] [ Tm_T        ] 
+03:21 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+--- Log opened Wed Jan 28 06:10:30 2015
+06:10 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+06:10 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+06:10 [Users #liferay]
+06:10 [@ChanServ    ] [ Bryanstein] [ ideopathic   ] [ marcoceppi] [ quercus_] [ Tar-Minyatur] 
+06:10 [ avinashrbhat] [ csierra   ] [ izaera       ] [ mcbonz    ] [ rochadt ] [ Tm_T        ] 
+06:10 [ bijoo       ] [ Gorith    ] [ jardineworks ] [ Naenyn    ] [ sm`     ] 
+06:10 [ bijoo_      ] [ henriquev ] [ jardineworks_] [ plekplek  ] [ smind   ] 
+06:10 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+06:10 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+06:10 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log closed Wed Jan 28 06:10:37 2015
+--- Log closed Thu Jan 29 00:00:40 2015
