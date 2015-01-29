@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 04:04 < Axxell:#liferay> hey... im a bit suprised that when i tried to upgrade a local version of liferay 6.2 GA2 to GA3 i get a nullpointerexception when VerifyJournal is being run, cant find anything about it on the net...might be VerifyProcess also
+04:05 < Axxell:#liferay> does anybody know anything about this?
