@@ -18,3 +18,4 @@
 05:53 < Axxell:#liferay> dont know if its a missing typ or just a missing element
 06:04 < hufg:#liferay> helloo! any ideas how rss feed portlet handles a delay in the feed retrieval? i can see there is a neat spinning icon and the portlet does not block rendering of the page
 06:04 < hufg:#liferay> now i copy this to my portlet and it actually blocks rendering
+06:04 < hufg:#liferay> is it just how internal portlets are handled or what?
