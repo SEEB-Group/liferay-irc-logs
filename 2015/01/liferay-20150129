@@ -22,3 +22,4 @@
 06:15 < hufg:#liferay> ahh topolik my savior
 06:15 < hufg:#liferay> could you tell me why rss feed portlet displays a neat loading icon if the feed retrieval takes time?
 06:16 < hufg:#liferay> can't see it in the code, what trickery is thiz
+06:51 < amlfree:#liferay> Hello, how can I know which methods can be called via xmlrpc on my liferay ?
