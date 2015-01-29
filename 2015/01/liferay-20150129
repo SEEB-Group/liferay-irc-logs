@@ -16,3 +16,4 @@
 05:52 < plekplek:#liferay> Axxell: hey, sounds similar to this (bug when upgrading 6.1 to 6.2): https://issues.liferay.com/browse/LPS-49457
 05:53 < Axxell:#liferay> got an answer in the forums, but didnt really help me, because https://www.liferay.com/community/forums/-/message_boards/message/48361965
 05:53 < Axxell:#liferay> dont know if its a missing typ or just a missing element
+06:04 < hufg:#liferay> helloo! any ideas how rss feed portlet handles a delay in the feed retrieval? i can see there is a neat spinning icon and the portlet does not block rendering of the page
