@@ -26,3 +26,4 @@
 09:59 < amlfree:#liferay> I setup a xmlrpc, I just would like to know which methods are accessible from outside
 10:01 < jardineworks_:#liferay> amlfree, I'm not sure I follow. When you say you set up xmlrpc ... you mean you installed the tunnel-services?
 10:01 < jardineworks_:#liferay> err.. tunnel-web?
+10:02 < jardineworks_:#liferay> I can't remember what its called :)
