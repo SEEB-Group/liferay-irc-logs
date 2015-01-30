@@ -23,3 +23,4 @@
 09:56 < amlfree:#liferay> jardineworks_: I have one question regarding xmlrpc. I would like to know how I can list which methods are available from xmlrpc
 09:57 < jardineworks_:#liferay> amlfree, across the entire portal?
 09:58 < amlfree:#liferay> jardineworks_: what do you mean exactly ?
+09:59 < amlfree:#liferay> I setup a xmlrpc, I just would like to know which methods are accessible from outside
