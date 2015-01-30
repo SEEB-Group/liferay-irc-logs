@@ -77,3 +77,4 @@
 10:30 < jardineworks_:#liferay> and the error in the log... is it the LanguageServlet?
 10:32 < rrapozo:#liferay> Lifecicle = 1
 10:32 < jardineworks_:#liferay> action phase
+10:33 < jardineworks_:#liferay> ok -- and can yuo show me the exact error line in the log?
