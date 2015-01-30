@@ -39,3 +39,4 @@
 10:06 < jardineworks_:#liferay> amlfree, ok -- in your browser... when you go to http://localhost:8080/api/axis  what do you see?
 10:08 < amlfree:#liferay> jardineworks_: I don't have desktop, running it from command line
 10:10 < amlfree:#liferay> Do you know  a proper documentation regarding this feature please ?
+10:11 < jardineworks_:#liferay> amlfree, you should still be able to curl the url
