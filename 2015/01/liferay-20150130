@@ -48,3 +48,4 @@
 10:19 < amlfree:#liferay> jardineworks_: no, I meant user interface, sorry
 10:20 < amlfree:#liferay> I find no documentation regarding a good configuration of this feature
 10:20 < jardineworks_:#liferay> amlfree, well, couple things. First place to look is in the portal.properties for anything that might be related. There are some security things and stuff in there.
+10:20 < jardineworks_:#liferay> second, this feature is really an extension of service builder and making services remotely accessible -- so you might find explanations there
