@@ -47,3 +47,4 @@
 10:18 < jardineworks_:#liferay> you don't have a desktop... so you are running this on a server then?
 10:19 < amlfree:#liferay> jardineworks_: no, I meant user interface, sorry
 10:20 < amlfree:#liferay> I find no documentation regarding a good configuration of this feature
+10:20 < jardineworks_:#liferay> amlfree, well, couple things. First place to look is in the portal.properties for anything that might be related. There are some security things and stuff in there.
