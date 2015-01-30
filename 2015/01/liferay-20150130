@@ -70,3 +70,4 @@
 10:27 < jardineworks_:#liferay> ah
 10:27 < jardineworks_:#liferay> rrapozo, is it an action url? or a server resource url?
 10:27 < rrapozo:#liferay> Wait, how I can discover that?
+10:28 < jardineworks_:#liferay> in the url there is a p_p_lifecycle parameter
