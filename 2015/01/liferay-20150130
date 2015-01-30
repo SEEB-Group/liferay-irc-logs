@@ -50,3 +50,4 @@
 10:20 < jardineworks_:#liferay> amlfree, well, couple things. First place to look is in the portal.properties for anything that might be related. There are some security things and stuff in there.
 10:20 < jardineworks_:#liferay> second, this feature is really an extension of service builder and making services remotely accessible -- so you might find explanations there
 10:20 < jardineworks_:#liferay> BUT
+10:21 < jardineworks_:#liferay> most people tend to lean towards JSON services because SOAP is disgusting :)
