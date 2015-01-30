@@ -74,3 +74,4 @@
 10:28 < jardineworks_:#liferay> what's the value? 0,1 or 2?
 10:29 < jardineworks_:#liferay> 0 = render phase, 1 = action phase and 2 = resource phase
 10:30 < rrapozo:#liferay> I will see
+10:30 < jardineworks_:#liferay> and the error in the log... is it the LanguageServlet?
