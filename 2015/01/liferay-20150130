@@ -63,3 +63,4 @@
 10:23 < jardineworks_:#liferay> it will disable CSRF checks and make your application vulnerable.
 10:24 < jardineworks_:#liferay> rrapozo, better to whitelist portlets that you don't want to use that setting with
 10:24 < rrapozo:#liferay> jardineworks_: Hello jardi evertime
+10:24 < amlfree:#liferay> never mind then. I will disable it. Thank you for the help, and have a nice day.
