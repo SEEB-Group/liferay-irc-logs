@@ -57,3 +57,4 @@
 10:22 < rrapozo:#liferay> Hello everyone. Someone knows how I can put the option: auth.token.check.enabled to false?
 10:22 < jardineworks_:#liferay> you want to see the exposed operations, you have a computer, it has no UI, you want to use python...
 10:22 < jardineworks_:#liferay> lol
+10:22 < jardineworks_:#liferay> my guess is that you are writing a python application that will interface with Liferay and you want to do it via SOAP rather than JSON-WS.
