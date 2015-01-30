@@ -58,3 +58,4 @@
 10:22 < jardineworks_:#liferay> you want to see the exposed operations, you have a computer, it has no UI, you want to use python...
 10:22 < jardineworks_:#liferay> lol
 10:22 < jardineworks_:#liferay> my guess is that you are writing a python application that will interface with Liferay and you want to do it via SOAP rather than JSON-WS.
+10:23 < jardineworks_:#liferay> You have liferay installed on a server? ... or you don't have access to the server in which case you are doing something sneaky :)
