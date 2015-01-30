@@ -17,3 +17,4 @@
 07:55 < plekplek:#liferay> documents, but document folders would be inherited by team permissions
 07:55 < plekplek:#liferay> would it make any difference if making this an organization (city region), and add people in to user groups in similar ways? a user group could be a company, but maybe also just a permission specific group (i.e. access to folder x)
 08:45 < plekplek:#liferay> is it possible to actually separate view and download permissions for documents? could a user be given access to view document previews but not download original file out of the box?
+09:24 < jardineworks_:#liferay> plekplek, out of the box I don't think so. You would probably have to hook that functionality in
