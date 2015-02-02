@@ -21,3 +21,4 @@
 11:33 < vaor:#liferay> jardineworks_: thank you
 11:34 < jardineworks_:#liferay> vaor, Check this out http://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/json-web-services
 11:34 < jardineworks_:#liferay> it explains all the JSON-WS stuff
+11:34 < jardineworks_:#liferay> probably simplest for you to run curl operations.
