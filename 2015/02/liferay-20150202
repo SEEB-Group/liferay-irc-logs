@@ -46,3 +46,4 @@
 16:09 < juan__:#liferay>     description: ''
 16:09 < juan__:#liferay>   },
 16:09 < juan__:#liferay>   function(obj) {
+16:09 < juan__:#liferay>     console.log(obj);
