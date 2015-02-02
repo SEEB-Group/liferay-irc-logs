@@ -29,3 +29,4 @@
 11:49 < jardineworks_:#liferay> vaor, for eg. http://localhost:8080/api/axis/Portlet_Journal_JournalArticleService?wsdl
 11:50 < vaor:#liferay> the only side point is that there is no real split between command lines actions and user interface web configuration
 11:51 < vaor:#liferay> using curl to performs actions on the server seems uncommon
+12:27 < Naenyn:#liferay> Anyone know if Rotty still visits? I haven't seen him in a while...
