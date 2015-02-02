@@ -52,3 +52,4 @@
 16:09 < juan__:#liferay> How can I choose the respective groupId?
 16:10 < juan__:#liferay> because a server ERROR trows something like this: com.liferay.portal.NoSuchGroupException: No Group exists with the primary key 0
 16:11 < juan__:#liferay> any idea, please :)
+17:08 < jardineworks_:#liferay> juan__, use the serviceContext parameter
