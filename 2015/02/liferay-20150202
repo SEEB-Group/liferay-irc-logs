@@ -59,3 +59,4 @@
 17:08 < jardineworks_:#liferay> parentCategoryId long
 17:08 < jardineworks_:#liferay> name java.lang.String
 17:08 < jardineworks_:#liferay> description java.lang.String
+17:08 < jardineworks_:#liferay> serviceContext com.liferay.portal.service.ServiceContext
