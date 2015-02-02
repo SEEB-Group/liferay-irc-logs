@@ -38,3 +38,4 @@
 16:08 < juan__:#liferay> i'm having some troubles adding MBCategories through jasonws API
 16:09 < juan__:#liferay> if I use the following javascript method for adding a MBCategory:
 16:09 < juan__:#liferay> Liferay.Service(
+16:09 < juan__:#liferay>   '/mbcategory/add-category',
