@@ -15,3 +15,4 @@
 10:30 < vaor:#liferay> Hello. Is it possible to add content to my liferay CE thanks to command line, not using the user interface, to automate tasks.
 10:34 < vaor:#liferay> anyone online please?
 11:10 < modd_:#liferay> hi there. anyone knows how to adjust the print layout css of the portal?
+11:27 < jardineworks_:#liferay> vaor, It is ... you can access a number of "services" remotely using SOAP or JSON
