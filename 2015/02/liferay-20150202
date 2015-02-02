@@ -54,3 +54,7 @@
 16:11 < juan__:#liferay> any idea, please :)
 17:08 < jardineworks_:#liferay> juan__, use the serviceContext parameter
 17:08 < jardineworks_:#liferay> p_auth String
+17:08 < jardineworks_:#liferay> authentication token used to validate the request
+17:08 < jardineworks_:#liferay> userId long
+17:08 < jardineworks_:#liferay> parentCategoryId long
+17:08 < jardineworks_:#liferay> name java.lang.String
