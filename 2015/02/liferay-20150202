@@ -62,3 +62,4 @@
 17:08 < jardineworks_:#liferay> serviceContext com.liferay.portal.service.ServiceContext
 17:08 < jardineworks_:#liferay> the last one allows you to specify companyid, groupid, etc.
 18:05 < juan__:#liferay> jardineworks_, thank you very much!! heheh :) you save me! I have expend almost three days and you gave me the rigth answer hehehe :)
+18:06 < juan__:#liferay> just for reference, ("serviceContext.scopeGroupId", "10182") was the solution :)
