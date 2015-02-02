@@ -23,3 +23,4 @@
 11:34 < jardineworks_:#liferay> it explains all the JSON-WS stuff
 11:34 < jardineworks_:#liferay> probably simplest for you to run curl operations.
 11:34 < jardineworks_:#liferay> use /api/jsonwws will show you all available services
+11:34 < jardineworks_:#liferay> eg. localhost:8080/api/jsonws
