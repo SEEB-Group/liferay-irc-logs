@@ -39,3 +39,6 @@
 16:09 < juan__:#liferay> if I use the following javascript method for adding a MBCategory:
 16:09 < juan__:#liferay> Liferay.Service(
 16:09 < juan__:#liferay>   '/mbcategory/add-category',
+16:09 < juan__:#liferay>   {
+16:09 < juan__:#liferay>     userId: ,
+16:09 < juan__:#liferay>     parentCategoryId: ,
