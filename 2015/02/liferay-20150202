@@ -12,3 +12,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 04:48 < jbub:#liferay> hello, is it possible to use "liferay-portlet:runtime" in portlet, i know it works in theme, if not, what would be the way to embed/include portlet in existing portlet ? thank you very much for any help (im using spring+freemarker)
+10:30 < vaor:#liferay> Hello. Is it possible to add content to my liferay CE thanks to command line, not using the user interface, to automate tasks.
