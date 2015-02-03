@@ -231,3 +231,4 @@
 12:37 <@jhf:#liferay> i'm sure it's possible.
 12:46 < modd:#liferay> long time ago, I think I've read something about a print.css, but I cannot find it :\
 12:46 < modd:#liferay> @media print does not work as far as I can see
+12:51 <@jhf:#liferay> yeah I've never investigated what happens when you enable Print and click it
