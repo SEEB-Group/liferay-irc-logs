@@ -123,3 +123,4 @@
 10:37 <@jhf:#liferay> rotty was instrumental in getting them into LR 6.0
 10:37 <@jhf:#liferay> see https://issues.liferay.com/browse/LPS-15913
 10:37 <@jhf:#liferay> for a little history lesson
+10:38 <@jhf:#liferay> somewhere in LR source code you can find out exactly which objects are avilable to you (they should ALL be listed in the template palette but I don't think they all are)
