@@ -31,3 +31,4 @@
 10:04 < jardineworks_:#liferay> I'm wandering into the world of freemarker. Outside of the freemaker website... are there any good resources for using it specifically with LR?
 10:05 <@jhf:#liferay> hmmm
 10:05 <@jhf:#liferay> good question!
+10:06 <@jhf:#liferay> when I made the transition from VM to FM I mostly relied on FM docs. But there are a few blogs on liferay.com, most specifically that show how to use Liferay taglibs from FM
