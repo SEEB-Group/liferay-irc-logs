@@ -304,3 +304,4 @@
 14:50 <@jhf:#liferay> passing site=false causes what juan__ sees
 14:50 <@jhf:#liferay> passing site=true makes it work
 14:51 < jardineworks:#liferay> site=false might be making, or tryign to make a LayoutSet -> Site Template maybe?
+14:51 < juan__:#liferay> hahah I spend around 6 hours trying to resolve the problem, and it was just to put that flag in false lol
