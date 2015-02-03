@@ -53,3 +53,4 @@
 10:12 <@jhf:#liferay> whoops.. did I say that out loud?
 10:12 < jardineworks_:#liferay> for example, I have an ADT template. I use the ${renderRequest} object from the left hand area, then use the intellisense to choose getAttribute('myvar')
 10:12 <@jhf:#liferay> the ONLY reason I don't use it though is that it doesn't do auto-complete for dynamic variabels
+10:12 < jardineworks_:#liferay> but that gives me an error!
