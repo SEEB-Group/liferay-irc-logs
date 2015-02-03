@@ -370,3 +370,4 @@
 15:07 <@jhf:#liferay> but still we have methods called "setDescription" whose javascript says "sets the description"
 15:07 <@jhf:#liferay> err. not javascript
 15:07 <@jhf:#liferay> javaDOC
+15:07 <@jhf:#liferay> because it's auto-generated
