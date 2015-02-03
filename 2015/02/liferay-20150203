@@ -371,3 +371,4 @@
 15:07 <@jhf:#liferay> err. not javascript
 15:07 <@jhf:#liferay> javaDOC
 15:07 <@jhf:#liferay> because it's auto-generated
+15:08 <@jhf:#liferay> how cool would it be to have a big essay on Groups at the top of https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/model/Group.java ?
