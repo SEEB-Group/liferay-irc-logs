@@ -315,3 +315,4 @@
 14:53 <@jhf:#liferay> jardineworks: might be onto something
 14:53 < jardineworks:#liferay> site=false in conjunction with an empty friendly-url maybe?
 14:53 <@jhf:#liferay> I tried it with both
+14:53 <@jhf:#liferay> no joy
