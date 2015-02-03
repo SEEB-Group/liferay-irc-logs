@@ -76,3 +76,4 @@
 10:24 <@jhf:#liferay> well I take that back jardineworks_
 10:24 <@jhf:#liferay> ${renderRequest.getAttribute("CURRENT_URL")!"dunno"}
 10:24 <@jhf:#liferay> that seems to work
+10:24 <@jhf:#liferay> and gets me the CURRENT_URL
