@@ -120,3 +120,4 @@
 10:36 <@jhf:#liferay> (this is an example of calling the static method "getFields" of the com.liferay.portlet.dynamicdatamapping.storage.StorageEngineUtil class
 10:36 <@jhf:#liferay> it uses 'staticUtil' which is secretly injected for you in the context of Freemarker evaluation in Liferay
 10:36 <@jhf:#liferay> staticUtil is part of this set of handy freemarker tools we include
+10:37 <@jhf:#liferay> rotty was instrumental in getting them into LR 6.0
