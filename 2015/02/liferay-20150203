@@ -77,3 +77,4 @@
 10:24 <@jhf:#liferay> ${renderRequest.getAttribute("CURRENT_URL")!"dunno"}
 10:24 <@jhf:#liferay> that seems to work
 10:24 <@jhf:#liferay> and gets me the CURRENT_URL
+10:24 <@jhf:#liferay> changing CURRENT_URL to some unknown attribute gets me "dunno"
