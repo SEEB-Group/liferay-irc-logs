@@ -91,3 +91,4 @@
 10:29 <@jhf:#liferay> well.. it says
 10:29 <@jhf:#liferay> renderRequest.getAttribute("CURRENT_URL12") is undefined.
 10:29 <@jhf:#liferay> It cannot be assigned to foo
+10:29 <@jhf:#liferay> (when evaluating <#assign foo = renderRequest.getAttribute("CURRENT_URL12") />
