@@ -134,3 +134,4 @@
 10:41 <@jhf:#liferay> my ONLY remaining complaint is if I do something like <#assign foo = someThing() /
 10:41 <@jhf:#liferay> >
 10:41 <@jhf:#liferay> then I can't do $foo. (and then wait for the automcplete0
+10:41 <@jhf:#liferay> it's not dynamic
