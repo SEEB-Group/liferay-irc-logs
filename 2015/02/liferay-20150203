@@ -166,3 +166,4 @@
 11:28 <@jhf:#liferay> it also routinely misses stuff in JSPs and sometimes reports oddball errors that aren't really errors at all
 11:30 < jardineworks_:#liferay> seriously man? JSP error validation in eclipse is a POS
 11:30 < jardineworks_:#liferay> it always has been
+11:31 < jardineworks_:#liferay> a 3 tiered system of includes confuses is
