@@ -102,3 +102,4 @@
 10:30 <@jhf:#liferay> <#assign foo = getterUtil.getString(renderRequest.getAttribute("CURRENT_URL12")) />
 10:30 <@jhf:#liferay> the problem is that you'll get empty string for $foo
 10:30 <@jhf:#liferay> which gets you back to velocity. or worse.
+10:31 <@jhf:#liferay> because in velocity sometimnes it would assign the literal string value of the statement to the var
