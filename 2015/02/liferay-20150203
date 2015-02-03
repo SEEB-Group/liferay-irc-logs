@@ -353,3 +353,4 @@
 15:01 <@jhf:#liferay> but there's no definitive API guide saying exactly what all the weird classes
 15:01 <@jhf:#liferay> such as UserGroupGroupRoleLocalServiceUtil
 15:02 <@jhf:#liferay> there is actually a blog post by Jorge I think from a while ago about the switch from using "Community" to "Site"
+15:02 <@jhf:#liferay> but both of them are a "Group" at the API level
