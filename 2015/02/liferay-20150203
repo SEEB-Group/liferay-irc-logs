@@ -108,3 +108,4 @@
 10:32 <@jhf:#liferay> jardineworks: read http://freemarker.org/docs/app_faq.html#faq_picky_about_missing_vars
 10:33 <@jhf:#liferay> "Most scripting languages and template languages are rather forgiving with missing variables (and with null-s), and they usually treat them as empty string and/or 0 and/or logical false. This behavior has several problems"
 10:33 <@jhf:#liferay> AMEN
+10:33 < jardineworks_:#liferay> lol
