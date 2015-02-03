@@ -300,3 +300,4 @@
 14:50 < jardineworks:#liferay> juan__, are you familiar with the /api/jsonws url that exposes all the JSON services? there are forms there where you can see all theparameters
 14:50 <@jhf:#liferay> err overloaded uses of the Group entity
 14:50 <@jhf:#liferay> yeah jardineworks that's what I just tried.
+14:50 < juan__:#liferay> and reading the database all groups have the flag 'site' in false
