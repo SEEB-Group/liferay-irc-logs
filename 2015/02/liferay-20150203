@@ -281,3 +281,4 @@
 14:45 < juan__:#liferay>     console.log(obj);
 14:45 < juan__:#liferay>   }
 14:45 < juan__:#liferay> );
+14:45 < juan__:#liferay> a it just show me this: "java.lang.IllegalArgumentException"
