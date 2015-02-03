@@ -57,3 +57,4 @@
 10:13 <@jhf:#liferay> renderRequest, the one in ADT templates, isn't a "real" request object
 10:13 <@jhf:#liferay> it's a hashmap IIRC
 10:13 <@jhf:#liferay> I think you have to use get('myvar')
+10:13 < jardineworks_:#liferay> right -- Krystov or the forums helped me witht hat
