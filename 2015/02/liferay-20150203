@@ -302,3 +302,4 @@
 14:50 <@jhf:#liferay> yeah jardineworks that's what I just tried.
 14:50 < juan__:#liferay> and reading the database all groups have the flag 'site' in false
 14:50 <@jhf:#liferay> passing site=false causes what juan__ sees
+14:50 <@jhf:#liferay> passing site=true makes it work
