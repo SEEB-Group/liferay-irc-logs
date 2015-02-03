@@ -89,3 +89,4 @@
 10:28 <@jhf:#liferay> testing..
 10:29 <@jhf:#liferay> same
 10:29 <@jhf:#liferay> well.. it says
+10:29 <@jhf:#liferay> renderRequest.getAttribute("CURRENT_URL12") is undefined.
