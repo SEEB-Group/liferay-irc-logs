@@ -104,3 +104,4 @@
 10:30 <@jhf:#liferay> which gets you back to velocity. or worse.
 10:31 <@jhf:#liferay> because in velocity sometimnes it would assign the literal string value of the statement to the var
 10:31 <@jhf:#liferay> which would give you a clue about what's wrong
+10:32 < jardineworks_:#liferay> hmm so I guess the ! to get a default value is the best option
