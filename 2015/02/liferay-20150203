@@ -171,3 +171,4 @@
 11:31 <@jhf:#liferay> it reports some weird errors
 11:31 <@jhf:#liferay> also, sometimes I have to close the file or quit/restart eclipse to clear errors
 11:31 <@jhf:#liferay> which is very odd
+11:31 < jardineworks_:#liferay> so /common/init.js, /myportlet/init.jsp (which include common) and then view.jsp (which includes myportlet.init.jsp) .. and references to the /common one are usually flagged as error
