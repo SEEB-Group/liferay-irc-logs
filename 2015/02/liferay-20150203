@@ -324,3 +324,4 @@
 14:54 < juan__:#liferay> excuse me, do you any manual or reference document, that I can use for consuming jsonws API, I feel like a fool just trying to put parameters by trial and error
 14:54 < juan__:#liferay> ?
 14:55 <@jhf:#liferay> juan__: some of the services are well documented
+14:55 <@jhf:#liferay> but most are not :( but you start to get the meaning of arguments by their names
