@@ -32,3 +32,4 @@
 10:05 <@jhf:#liferay> hmmm
 10:05 <@jhf:#liferay> good question!
 10:06 <@jhf:#liferay> when I made the transition from VM to FM I mostly relied on FM docs. But there are a few blogs on liferay.com, most specifically that show how to use Liferay taglibs from FM
+10:06 <@jhf:#liferay> and there was a few blogs from Barrie Selack last year I think showing some advanced FM usage (specically with macros)
