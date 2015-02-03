@@ -333,3 +333,4 @@
 14:56 < juan__:#liferay> yeah, I'm using that
 14:56 <@jhf:#liferay> there's probably a constant class holding those constants
 14:57 <@jhf:#liferay> hurray! https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/model/GroupConstants.java
+14:57 < juan__:#liferay> but, for example, using /group/add-group, most of the needed parameters are not documented
