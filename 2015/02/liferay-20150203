@@ -101,3 +101,4 @@
 10:30 <@jhf:#liferay> yeah if you wrap getterutil with everything it might
 10:30 <@jhf:#liferay> <#assign foo = getterUtil.getString(renderRequest.getAttribute("CURRENT_URL12")) />
 10:30 <@jhf:#liferay> the problem is that you'll get empty string for $foo
+10:30 <@jhf:#liferay> which gets you back to velocity. or worse.
