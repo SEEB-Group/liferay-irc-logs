@@ -74,3 +74,4 @@
 10:17 <@jhf:#liferay> and now it no goes back
 10:17 < jardineworks_:#liferay> haha -- depends on whether or not you use @pp13sau(3 as a password
 10:24 <@jhf:#liferay> well I take that back jardineworks_
+10:24 <@jhf:#liferay> ${renderRequest.getAttribute("CURRENT_URL")!"dunno"}
