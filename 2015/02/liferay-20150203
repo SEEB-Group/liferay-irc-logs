@@ -85,3 +85,4 @@
 10:25 <@jhf:#liferay> and FM can't "print" that
 10:25 < jardineworks_:#liferay> I see
 10:26 < jardineworks_:#liferay> if I did an #assign first... and then printed the thing I assigned it to?
+10:26 < jardineworks_:#liferay> or used the getter util to get a string?
