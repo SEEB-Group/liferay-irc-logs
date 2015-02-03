@@ -233,3 +233,4 @@
 12:46 < modd:#liferay> @media print does not work as far as I can see
 12:51 <@jhf:#liferay> yeah I've never investigated what happens when you enable Print and click it
 12:51 <@jhf:#liferay> it does something. that's probably overrideable.
+12:51 <@jhf:#liferay> still digging (and my wife's texting me)
