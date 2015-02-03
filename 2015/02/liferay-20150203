@@ -119,3 +119,4 @@
 10:36 <@jhf:#liferay> but here's the shortcut: <#assign fields = staticUtil["com.liferay.portlet.dynamicdatamapping.storage.StorageEngineUtil"].getFields(fileEntryMetadata.getDDMStorageId()) />
 10:36 <@jhf:#liferay> (this is an example of calling the static method "getFields" of the com.liferay.portlet.dynamicdatamapping.storage.StorageEngineUtil class
 10:36 <@jhf:#liferay> it uses 'staticUtil' which is secretly injected for you in the context of Freemarker evaluation in Liferay
+10:36 <@jhf:#liferay> staticUtil is part of this set of handy freemarker tools we include
