@@ -332,3 +332,4 @@
 14:55 <@jhf:#liferay> yeah I used /api/jsonws to test it
 14:56 < juan__:#liferay> yeah, I'm using that
 14:56 <@jhf:#liferay> there's probably a constant class holding those constants
+14:57 <@jhf:#liferay> hurray! https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/model/GroupConstants.java
