@@ -285,3 +285,4 @@
 14:46 < juan__:#liferay> checking the logs, it only show this line: 19:36:15,959 ERROR [http-bio-80-exec-10][JSONWebServiceServiceAction:87] java.lang.IllegalArgumentException
 14:46 <@jhf:#liferay> juan__: trying.. one sec
 14:47 < juan__:#liferay> reading the source code, at: https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portal/jsonwebservice/JSONWebServiceServiceAction.java
+14:47 < juan__:#liferay> line 87 only says: status = HttpServletResponse.SC_FORBIDDEN;
