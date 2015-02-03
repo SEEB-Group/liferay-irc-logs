@@ -164,3 +164,4 @@
 11:18 <@jhf:#liferay> anyone here interested in getting a sneak peak of the new Liferay Sync 3?
 11:27 < jardineworks_:#liferay> jhf, LMAO
 11:28 <@jhf:#liferay> it also routinely misses stuff in JSPs and sometimes reports oddball errors that aren't really errors at all
+11:30 < jardineworks_:#liferay> seriously man? JSP error validation in eclipse is a POS
