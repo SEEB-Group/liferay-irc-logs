@@ -345,3 +345,4 @@
 14:58 < juan__:#liferay> I'm trying to make my best effort to don't botter you, guys
 14:59 < jardineworks:#liferay> bingo! so you need to download the source and reference the *LocalServiceImpl and *ServiceImpl classes
 14:59 < jardineworks:#liferay> to get all the goodies.
+14:59 < juan__:#liferay> so, your recommendation is to read Java examples of how to use the API, and try to translate my code to javaScript, later
