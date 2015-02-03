@@ -99,3 +99,4 @@
 10:29 < jardineworks_:#liferay> but the getter util might work
 10:30 < jardineworks_:#liferay> as long as I know the value is a string for example
 10:30 <@jhf:#liferay> yeah if you wrap getterutil with everything it might
+10:30 <@jhf:#liferay> <#assign foo = getterUtil.getString(renderRequest.getAttribute("CURRENT_URL12")) />
