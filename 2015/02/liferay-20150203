@@ -325,3 +325,4 @@
 14:54 < juan__:#liferay> ?
 14:55 <@jhf:#liferay> juan__: some of the services are well documented
 14:55 <@jhf:#liferay> but most are not :( but you start to get the meaning of arguments by their names
+14:55 <@rotty3000:#liferay> juan__: there is also a UI at /api/jsonsw
