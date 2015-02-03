@@ -282,3 +282,4 @@
 14:45 < juan__:#liferay>   }
 14:45 < juan__:#liferay> );
 14:45 < juan__:#liferay> a it just show me this: "java.lang.IllegalArgumentException"
+14:46 < juan__:#liferay> checking the logs, it only show this line: 19:36:15,959 ERROR [http-bio-80-exec-10][JSONWebServiceServiceAction:87] java.lang.IllegalArgumentException
