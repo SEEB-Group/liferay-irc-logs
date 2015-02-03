@@ -105,3 +105,4 @@
 10:31 <@jhf:#liferay> because in velocity sometimnes it would assign the literal string value of the statement to the var
 10:31 <@jhf:#liferay> which would give you a clue about what's wrong
 10:32 < jardineworks_:#liferay> hmm so I guess the ! to get a default value is the best option
+10:32 <@jhf:#liferay> jardineworks: read http://freemarker.org/docs/app_faq.html#faq_picky_about_missing_vars
