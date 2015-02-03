@@ -348,3 +348,4 @@
 14:59 < juan__:#liferay> so, your recommendation is to read Java examples of how to use the API, and try to translate my code to javaScript, later
 14:59 <@jhf:#liferay> well there's no document that explicitly defines what a Group is, where it's used, etc.
 14:59 < juan__:#liferay> it doesnt?
+15:00 <@jhf:#liferay> from the API perspective, no. there are reams of documentations about how to create Liferay sites, web content, how to blog, etc.
