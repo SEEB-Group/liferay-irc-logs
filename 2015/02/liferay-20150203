@@ -83,3 +83,4 @@
 10:25 < jardineworks_:#liferay> ?
 10:25 <@jhf:#liferay> yeah that fails because the expression is evaluated to null
 10:25 <@jhf:#liferay> and FM can't "print" that
+10:25 < jardineworks_:#liferay> I see
