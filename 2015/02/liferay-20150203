@@ -313,3 +313,4 @@
 14:52 < juan__:#liferay> yh, you are rigth, not all of them are false, there are some with true
 14:53 <@jhf:#liferay> but I still cannot explain why site=false causes the error
 14:53 <@jhf:#liferay> jardineworks: might be onto something
+14:53 < jardineworks:#liferay> site=false in conjunction with an empty friendly-url maybe?
