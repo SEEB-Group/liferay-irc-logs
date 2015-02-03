@@ -368,3 +368,4 @@
 15:05 < juan__:#liferay> ufff, I think it is part of evolution :P
 15:07 <@jhf:#liferay> yeah... the APIs change a lot, and so they usually aren't documented, but it's getting better!
 15:07 <@jhf:#liferay> but still we have methods called "setDescription" whose javascript says "sets the description"
+15:07 <@jhf:#liferay> err. not javascript
