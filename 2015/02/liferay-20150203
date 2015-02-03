@@ -81,3 +81,4 @@
 10:24 <@jhf:#liferay> (this is in a blogs ADT)
 10:25 < jardineworks_:#liferay> what if you don't use the !"dunno"
 10:25 < jardineworks_:#liferay> ?
+10:25 <@jhf:#liferay> yeah that fails because the expression is evaluated to null
