@@ -307,3 +307,4 @@
 14:51 < juan__:#liferay> hahah I spend around 6 hours trying to resolve the problem, and it was just to put that flag in false lol
 14:51 < modd:#liferay> I think everything that CAN HAVE a site will become a group in the db
 14:51 < juan__:#liferay> ummnn, I understand now
+14:51 <@jhf:#liferay> juan__: not ALL of my group entries have site=false!
