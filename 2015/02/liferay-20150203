@@ -42,3 +42,4 @@
 10:10 <@jhf:#liferay> 1 - no silent errors when you screw up (and you will)
 10:10 <@jhf:#liferay> 2 - using taglibs
 10:10 <@jhf:#liferay> 3 - builtins !!
+10:11 <@jhf:#liferay> oh and 4 - looping constructs are better (there is a 'continue' and 'break' I think)
