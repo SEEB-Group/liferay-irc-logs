@@ -115,3 +115,4 @@
 10:35 <@jhf:#liferay> but "If you use them too often, try to rethink your data-model"
 10:35 <@jhf:#liferay> ALSO
 10:35 <@jhf:#liferay> there is a hidden method to get at static methods
+10:35 <@jhf:#liferay> read the comments of https://issues.liferay.com/browse/LPS-50931
