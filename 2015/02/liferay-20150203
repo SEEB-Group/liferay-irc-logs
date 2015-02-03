@@ -51,3 +51,4 @@
 10:12 <@jhf:#liferay> for real templates, I use intellij
 10:12 <@jhf:#liferay> (but don't tell anyone)
 10:12 <@jhf:#liferay> whoops.. did I say that out loud?
+10:12 < jardineworks_:#liferay> for example, I have an ADT template. I use the ${renderRequest} object from the left hand area, then use the intellisense to choose getAttribute('myvar')
