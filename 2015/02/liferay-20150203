@@ -126,3 +126,4 @@
 10:38 <@jhf:#liferay> somewhere in LR source code you can find out exactly which objects are avilable to you (they should ALL be listed in the template palette but I don't think they all are)
 10:39 <@jhf:#liferay> you can also do things like <#assign DATE = staticUtil["java.util.Calendar"].DATE>
 10:39 <@jhf:#liferay> 4	
+10:40 <@jhf:#liferay> see https://github.com/liferay/liferay-portal/blob/e1046f326d246a8b23e8e98f7aebb14e2a655719/modules/portal/portal-template-freemarker/src/com/liferay/portal/template/freemarker/FreeMarkerTemplateContextHelper.java for the source that sticks those helpers in there.
