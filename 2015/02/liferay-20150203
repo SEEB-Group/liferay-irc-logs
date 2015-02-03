@@ -273,3 +273,4 @@
 14:45 < juan__:#liferay>     name: 'Test',
 14:45 < juan__:#liferay>     description: 'none',
 14:45 < juan__:#liferay>     type: 3,
+14:45 < juan__:#liferay>     friendlyURL: '',
