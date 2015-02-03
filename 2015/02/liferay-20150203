@@ -292,3 +292,4 @@
 14:49 < juan__:#liferay> a Site
 14:49 <@jhf:#liferay> yeah
 14:49 < juan__:#liferay> in that case
+14:49 <@jhf:#liferay> juan__: if you pass site: true it seems to work
