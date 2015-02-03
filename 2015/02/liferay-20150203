@@ -94,3 +94,4 @@
 10:29 <@jhf:#liferay> (when evaluating <#assign foo = renderRequest.getAttribute("CURRENT_URL12") />
 10:29 <@jhf:#liferay>  
 10:29 <@jhf:#liferay> this is the statement I tried: <#assign foo = renderRequest.getAttribute("CURRENT_URL12") />
+10:29 < jardineworks_:#liferay> hmm -- so I should always use the ![default value] ??
