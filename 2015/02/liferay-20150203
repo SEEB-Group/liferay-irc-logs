@@ -329,3 +329,4 @@
 14:55 <@rotty3000:#liferay> but yeah
 14:55 < juan__:#liferay> type 3 means it is "Regular Organization"
 14:55 <@rotty3000:#liferay> some methods are tersely named
+14:55 <@jhf:#liferay> yeah I used /api/jsonws to test it
