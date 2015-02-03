@@ -268,3 +268,7 @@
 13:50 <@rotty3000:#liferay> haha
 14:45 < juan__:#liferay> Hello guys :) I'm having other problem, trying to make a group through jsonws API
 14:45 < juan__:#liferay> I'm calling the service with: Liferay.Service(
+14:45 < juan__:#liferay>   '/group/add-group',
+14:45 < juan__:#liferay>   {
+14:45 < juan__:#liferay>     name: 'Test',
+14:45 < juan__:#liferay>     description: 'none',
