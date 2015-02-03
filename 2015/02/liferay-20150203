@@ -136,3 +136,4 @@
 10:41 <@jhf:#liferay> then I can't do $foo. (and then wait for the automcplete0
 10:41 <@jhf:#liferay> it's not dynamic
 10:41 <@jhf:#liferay> it only autocompletes on classes it has previously been taught about
+10:41 <@jhf:#liferay> whereas intellij IDEA will do it properly
