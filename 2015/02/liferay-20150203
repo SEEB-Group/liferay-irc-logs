@@ -343,3 +343,4 @@
 14:58 <@jhf:#liferay> but the thing is
 14:58 <@jhf:#liferay> all those JSONWS endpoints are just webby versions of the Java APIs
 14:58 < juan__:#liferay> I'm trying to make my best effort to don't botter you, guys
+14:59 < jardineworks:#liferay> bingo! so you need to download the source and reference the *LocalServiceImpl and *ServiceImpl classes
