@@ -41,3 +41,5 @@
 11:07 < jardineworks:#liferay> hah!
 11:07 < jardineworks:#liferay> 	public ParallelDestination(
 11:07 < jardineworks:#liferay> 		String name, int workersCoreSize, int workersMaxSize) {
+11:07 < jardineworks:#liferay> 		super(name, workersCoreSize, workersMaxSize);
+11:07 < jardineworks:#liferay> 	}
