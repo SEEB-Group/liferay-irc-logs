@@ -35,3 +35,4 @@
 11:05 < jardineworks:#liferay> is the threshold configruable?
 11:05 <@rotty3000:#liferay> let's say you set the parallelism of the endpoint to 5, then 5 messages can be processed in parallel, the rest will be queued
 11:06 <@rotty3000:#liferay> you can set pretty much the same options you can on a standard threadpool
+11:06 < jardineworks:#liferay> and that is part of the settings when you register the destination?
