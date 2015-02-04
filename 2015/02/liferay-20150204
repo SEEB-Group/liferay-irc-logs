@@ -37,3 +37,4 @@
 11:06 <@rotty3000:#liferay> you can set pretty much the same options you can on a standard threadpool
 11:06 < jardineworks:#liferay> and that is part of the settings when you register the destination?
 11:06 <@rotty3000:#liferay> min threads, max threads, min free threads.. etc.
+11:07 <@rotty3000:#liferay> I believe so
