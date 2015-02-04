@@ -25,3 +25,4 @@
 11:01 <@rotty3000:#liferay> two different destinations should be parallel regardless of whether they are themselves serial
 11:03 < jardineworks:#liferay> rotty3000, so I have two job types. BuildReport and UpdateReport. Let's say my scheduled job pulls down 3 "BuildReport" jobs and 2 "UpdateReport" jobs. I'll send 3 messages to the BuildReportMessageListener and 2 message to the UpdateReportMessageListener.
 11:03 < jardineworks:#liferay> would that equate to 5 threads running in parallel?
+11:03 <@rotty3000:#liferay> not really
