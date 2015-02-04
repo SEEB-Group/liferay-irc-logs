@@ -23,3 +23,4 @@
 10:59 <@rotty3000:#liferay> ok, I think I see
 11:00 <@rotty3000:#liferay> different message destinations should execute in parallel of they are parallel destinations
 11:01 <@rotty3000:#liferay> two different destinations should be parallel regardless of whether they are themselves serial
+11:03 < jardineworks:#liferay> rotty3000, so I have two job types. BuildReport and UpdateReport. Let's say my scheduled job pulls down 3 "BuildReport" jobs and 2 "UpdateReport" jobs. I'll send 3 messages to the BuildReportMessageListener and 2 message to the UpdateReportMessageListener.
