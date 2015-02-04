@@ -29,3 +29,4 @@
 11:03 < jardineworks:#liferay> or will the destination process one message at a time?
 11:04 <@rotty3000:#liferay> if the listener for either type is a serial destination, then those "messages" will be processed serially
 11:04 < jardineworks:#liferay> rotty3000, but if the destination is parallel ... then they will be processed in parallel?
+11:04 <@rotty3000:#liferay> yup
