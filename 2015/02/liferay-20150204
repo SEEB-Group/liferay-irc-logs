@@ -16,3 +16,4 @@
 10:49 < jardineworks:#liferay> hey rotty3000 can I as you an architecture question?
 10:49 <@rotty3000:#liferay> sure
 10:51 < jardineworks:#liferay> rotty3000, if I have a portlet where I can configured a scheduler. My scheduler fires and runs. The listener for that scheduler check a table and pulls down a series of "jobs" -- basically reports that have been requested. If I loop over the request and create a "Message" to a custom destination for each job, will they, by default, be executed in parallel?
+10:56 <@rotty3000:#liferay> reading..
