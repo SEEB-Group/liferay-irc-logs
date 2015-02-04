@@ -33,3 +33,4 @@
 11:04 <@rotty3000:#liferay> to some threshold
 11:05 < jardineworks:#liferay> hah -- I always though that the parallel just meant multiple destination processing the same message at the same time.
 11:05 < jardineworks:#liferay> is the threshold configruable?
+11:05 <@rotty3000:#liferay> let's say you set the parallelism of the endpoint to 5, then 5 messages can be processed in parallel, the rest will be queued
