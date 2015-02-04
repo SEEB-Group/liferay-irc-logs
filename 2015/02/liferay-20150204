@@ -40,3 +40,4 @@
 11:07 <@rotty3000:#liferay> I believe so
 11:07 < jardineworks:#liferay> hah!
 11:07 < jardineworks:#liferay> 	public ParallelDestination(
+11:07 < jardineworks:#liferay> 		String name, int workersCoreSize, int workersMaxSize) {
