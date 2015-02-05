@@ -16,3 +16,4 @@
 07:45 < Axxell:#liferay> Hi guys, im having a lot of trouble trying to upgrade a site from LR6.1 to LR6.2GA3.. right now the problem is that under server administration the log level list is completly empty and the portal properties list is completly empty
 07:49 < Axxell:#liferay> the other problem is that for example the discussions are empty even though they do exist
 07:59 < Axxell:#liferay> now that i look at it some more.. i see that most tabs on server administration page are empty
+17:46 < josuebc:#liferay> Hi there. I was looking that liferay 6.2 has de capability to use multiple ldap servers. I would like to have two sites on my LR instance and have two sepparate login pages which will authenticate to two separate ldap servers. Can this be done?
