@@ -15,3 +15,4 @@
 06:00 < aqquadro:#liferay> hi there, anyone know if there is a sample bootstrap3 theme for 6.2?
 07:45 < Axxell:#liferay> Hi guys, im having a lot of trouble trying to upgrade a site from LR6.1 to LR6.2GA3.. right now the problem is that under server administration the log level list is completly empty and the portal properties list is completly empty
 07:49 < Axxell:#liferay> the other problem is that for example the discussions are empty even though they do exist
+07:59 < Axxell:#liferay> now that i look at it some more.. i see that most tabs on server administration page are empty
