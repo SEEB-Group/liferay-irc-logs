@@ -1,0 +1,13 @@
+--- Log opened Fri Feb 06 00:00:51 2015
+--- Log opened Fri Feb 06 03:21:45 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  Please vote Liferay! http://awards.cmscritic.com/vote Liferay 6.2 GA2 RELEASE http://goo.gl/uclhsq   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+03:21 -!- Topic set by jhf [~cygnuseck@97.101.250.88] [Mon Sep 15 12:22:21 2014]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith      ] [ jbub      ] [ mcbonz] [ plekplek    ] 
+03:21 [ bijoo     ] [ henriquev   ] [ josuebc   ] [ modd_ ] [ quercus     ] 
+03:21 [ Bryanstein] [ izaera      ] [ juan__    ] [ murmie] [ Tar-Minyatur] 
+03:21 [ doged     ] [ jardineworks] [ marcoceppi] [ Naenyn] [ Tm_T        ] 
+03:21 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+07:11 < whop:#liferay> hi. I'm trying to customize the standard account creation (sign in portlet) by adding custom fields to the User class over the portal config.  I assumed that those fields automaticly  appear now on the account creation page but they do not though i gave the fields the permission to be visible and updatable for guests too. Is there anything i'm missing? Thanks in advance!

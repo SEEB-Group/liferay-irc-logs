@@ -18,3 +18,4 @@
 07:59 < Axxell:#liferay> now that i look at it some more.. i see that most tabs on server administration page are empty
 17:46 < josuebc:#liferay> Hi there. I was looking that liferay 6.2 has de capability to use multiple ldap servers. I would like to have two sites on my LR instance and have two sepparate login pages which will authenticate to two separate ldap servers. Can this be done?
 18:00 < josuebc:#liferay> I think multiple portl instances is the way to go for this
+--- Log closed Fri Feb 06 00:00:51 2015
