@@ -18,3 +18,4 @@
 06:25 < bjornmonnens:#liferay> ran
 06:25 < bjornmonnens:#liferay> SEVERE: Servlet.service() for servlet Module Framework Servlet threw exception
 06:25 < bjornmonnens:#liferay> java.lang.NullPointerException
+06:25 < bjornmonnens:#liferay> 	at com.liferay.portal.servlet.jsp.compiler.compiler.JspCompiler.initTLDMappings(JspCompiler.java:300)
