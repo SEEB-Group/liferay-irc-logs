@@ -16,3 +16,4 @@
 06:25 < bjornmonnens:#liferay> I downloaded M3
 06:25 < bjornmonnens:#liferay> unzipped it
 06:25 < bjornmonnens:#liferay> ran
+06:25 < bjornmonnens:#liferay> SEVERE: Servlet.service() for servlet Module Framework Servlet threw exception
