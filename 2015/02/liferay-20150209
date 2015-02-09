@@ -20,3 +20,4 @@
 07:01 < modd_:#liferay> AFAIR, it works only, if these sites are parent sites of the current and have sharing activated...and even then it's buggy
 07:46 < Axxell:#liferay> modd_: do you know where in the assetpublisher jsp files the categories are set? having trouble finding them.. in init we have: long[] groupIds = AssetPublisherUtil.getGroupIds(portletPreferences, scopeGroupId, layout); long[] siteGroupIds = getSiteGroupIds(groupIds);
 07:47 < Axxell:#liferay> mod_: but scopegroupId is not defined there
+07:50 < modd_:#liferay> scopegroupid is the currents site group id
