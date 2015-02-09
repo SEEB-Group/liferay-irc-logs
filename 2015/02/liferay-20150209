@@ -16,3 +16,4 @@
 04:55 < Tar-Minyatur:#liferay> In case anyone is around: I have a problem with a staged community. I can't delete a certain page from live. I get a success message but the page stays in place. I can also still see it in the database.
 04:55 < Tar-Minyatur:#liferay> Is this a known problem? Google didn't reveal an answer. :-(
 06:49 < Axxell:#liferay> hi, question: isnt assetpublisher in LR6.2 supposed to be able to share content from different sites?
+06:49 < Axxell:#liferay> The problem is that i cant see the categories of that site when i try to publish content from another site..
