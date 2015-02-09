@@ -17,3 +17,4 @@
 04:55 < Tar-Minyatur:#liferay> Is this a known problem? Google didn't reveal an answer. :-(
 06:49 < Axxell:#liferay> hi, question: isnt assetpublisher in LR6.2 supposed to be able to share content from different sites?
 06:49 < Axxell:#liferay> The problem is that i cant see the categories of that site when i try to publish content from another site..
+07:01 < modd_:#liferay> AFAIR, it works only, if these sites are parent sites of the current and have sharing activated...and even then it's buggy
