@@ -1,0 +1,2 @@
+--- Log opened Mon Feb 09 00:00:01 2015
+02:30 < plekplek:#liferay> is there a configuration for letting liferay fetch data through https? i have a portlet that uses php, that fetches a file and it is giving me “Unrecognized SSL message, plaintext connection?”
