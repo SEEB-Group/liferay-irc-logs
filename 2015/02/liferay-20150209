@@ -14,3 +14,4 @@
 03:22 -!- Irssi: Join to #liferay was synced in 4 secs
 04:54 < Tar-Minyatur:#liferay> Hi everyone. Been a while since I last peeked in here. ;)
 04:55 < Tar-Minyatur:#liferay> In case anyone is around: I have a problem with a staged community. I can't delete a certain page from live. I get a success message but the page stays in place. I can also still see it in the database.
+04:55 < Tar-Minyatur:#liferay> Is this a known problem? Google didn't reveal an answer. :-(
