@@ -24,3 +24,4 @@
 07:51 < modd_:#liferay> it's defined in one of the generic jsp includes
 08:35 < nicolas_FR:#liferay> hi there
 08:37 < nicolas_FR:#liferay> we're facing a problem with short url. We create a new page which has a subdirectory in its path : [domain]/mysubfolder/page. We can't access this page until we disable the virtual host in the community parameters. Anyone know how to access this page with the virtual host on ? Thanks
+09:10 < nicolas_FR:#liferay> anyone :(
