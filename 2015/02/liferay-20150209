@@ -29,3 +29,4 @@
 10:23 < nicolas_FR:#liferay> Hello, we're facing a problem with short url. We create a new page which has a subdirectory in its path : [domain]/mysubfolder/page. We can't access this page until we disable the virtual host in the community parameters. Anyone know how to access this page with the virtual host on ? Thanks
 11:26 < SaraI_S:#liferay> hi
 11:28 < SaraI_S:#liferay> I have an instalation of liferay 5.2.3 which includes the fckeditor 6.2.3. A client of mine has reported that that version of fckeditor allow people to upload malicious files to the server, is that true? how can I check it? Thank you
+11:40 < SaraI_S:#liferay> people sleep :)
