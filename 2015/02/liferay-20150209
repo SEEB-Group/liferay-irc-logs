@@ -34,3 +34,4 @@
 18:42 -!- mode/#liferay [+o jhf] by ChanServ
 18:55 < bijoo_:#liferay> plekplek: container handles the protocol bit; or perhaps web server if using one; so would need some more information there.
 18:56 < bijoo_:#liferay> Tar-Minyatur: what version of Liferay are you using? Staging, export/import, templates have bugs; depending on version, could this be it? https://issues.liferay.com/browse/LPS-4937?jql=text%20~%20%22cannot%20delete%20a%20page%20from%20live%22
+20:18 < bijoo_:#liferay> nicolas_FR: login to the virtual host domain; go to control panel and navigate to site pages and click on site;  you will see the url for the page;
