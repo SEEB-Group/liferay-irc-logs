@@ -23,3 +23,4 @@
 10:28 -!- jhf changed the topic of #liferay to: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
 10:34 < CyberKatze:#liferay> Hallo. Can someone help me to tell, how can i add my own page in theme?  For example : custom contact page?
 10:44 <@jhf:#liferay> CyberKatze: themes are really only for defining the look and feel of a site, not adding specific pages
+10:45 <@jhf:#liferay> instead, you should create a Liferay Site and then add a page called "Contact" and then you can put web content on that page.
