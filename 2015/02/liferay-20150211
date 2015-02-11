@@ -43,3 +43,4 @@
 15:24 < Guest57639:#liferay> i have one question, a colleague suggested Liferay portal as application framework for java development, but i think it is not suitable for that in general
 15:29 < mbohn:#liferay> now i wonder if hes right or i am right
 16:24 < bijoo_2:#liferay> mbohn I've not tried it, but don't see why couldn't; might need to tweak few spring config files though; can use Service Builder and some jar files;
+16:35 < bijoo_2:#liferay> jhf: it's a good sign meaning more know Liferay :) though I cannot explain this Google trend: http://www.google.com/trends/explore#q=liferay or this one for that matter either too http://www.google.com/trends/explore#q=drupal  perhaps it is because of the wordpress  http://www.google.com/trends/explore#q=wordpress
