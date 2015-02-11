@@ -17,3 +17,7 @@
 05:45 < Axxell:#liferay> hey guys, i had a bad shutdown on liferay and now lucene is giving me errors: org.apache.lucene.store.LockReleaseFailedException: Cannot forcefully unlock a NativeFSLock which is held by another ind exer component: E:\liferay-portal-6.2-ce-ga3\data\lucene\10154\write.lock
 05:45 < Axxell:#liferay> ive allready tried to delete one the lucene stuff
 05:46 < Axxell:#liferay> then reindex and restart... and it still gives the same error
+09:57 -!- mode/#liferay [+o jhf] by ChanServ
+10:28 < CyberKatze:#liferay> Hallo. Can someone help me to tell, how can i add my own page in theme?  For example : custom contact page?
+10:28 -!- jhf changed the topic of #liferay to: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
+10:28 -!- jhf changed the topic of #liferay to: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://goo.gl/vQngHn
