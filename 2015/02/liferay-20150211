@@ -26,3 +26,4 @@
 10:45 <@jhf:#liferay> instead, you should create a Liferay Site and then add a page called "Contact" and then you can put web content on that page.
 10:45 <@jhf:#liferay> actually I take that back
 10:45 <@jhf:#liferay> you CAN create pages in a theme, but they are page "templates" so that when someone installs your theme, they will get a set of pages you define.
+10:45 <@jhf:#liferay> is that what you're trying to do? like the Zoe themes on the marketplace?
