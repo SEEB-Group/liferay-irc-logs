@@ -19,3 +19,4 @@
 06:32 < bijoo_2:#liferay> Axxell: Did you check the configuratino to make sure it is still configured to add those categories and such?
 07:05 < Axxell:#liferay> bijoo_2: it seems to it sets the category on if assetpublishers category filtering is set to "ALL" and not "ANY"
 07:06 < Axxell:#liferay> was wondering about serving static content via apache.. why not serve the webapps dir for certain stuff?
+07:07 < Axxell:#liferay> like css, js?
