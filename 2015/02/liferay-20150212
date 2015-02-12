@@ -22,3 +22,5 @@
 07:07 < Axxell:#liferay> like css, js?
 07:07 < Axxell:#liferay> ie point apache httpd to tomcats webapps dir unmount mod_jk for specifik portlets css and js?
 07:11 < Axxell:#liferay> or would there be any security problems with specific files being served?
+10:53 -!- mode/#liferay [+o jhf] by ChanServ
+10:53 <@jhf:#liferay> \o/
