@@ -1,0 +1,16 @@
+--- Log opened Thu Feb 12 00:00:41 2015
+--- Log opened Thu Feb 12 03:21:55 2015
+03:22 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:22 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:22 [Users #liferay]
+03:22 [@ChanServ  ] [ henriquev    ] [ LRAdminInNeed2] [ modd_       ] 
+03:22 [ adaro     ] [ jardineworks ] [ LRAdminInNeed3] [ Naenyn      ] 
+03:22 [ bijoo     ] [ jbub         ] [ LRAdminInNeed4] [ Neelixx     ] 
+03:22 [ bijoo_2   ] [ josuebc      ] [ LRAdminInNeed5] [ nicolas_FR  ] 
+03:22 [ Bryanstein] [ juan_        ] [ LRAdminInNeed6] [ quercus     ] 
+03:22 [ csierra   ] [ longbeach    ] [ marcoceppi    ] [ Tar-Minyatur] 
+03:22 [ Gorith    ] [ LRAdminInNeed] [ mcbonz        ] [ Tm_T        ] 
+03:22 -!- Irssi: #liferay: Total of 28 nicks [1 ops, 0 halfops, 0 voices, 27 normal]
+03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:22 -!- Irssi: Join to #liferay was synced in 4 secs
+04:41 < Axxell:#liferay> Hello... Problem: Before my upgrade to liferay 6.2ga3 from 6.1 when i added a webcontent via an assetpublisher, the configured categories of that assetpublisher would automaticly be put in the new articles category selection, this is not working anymore, anyone know what could be wrong and how to fix it?
