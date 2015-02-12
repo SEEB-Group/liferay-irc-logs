@@ -17,3 +17,4 @@
 06:30 < bijoo_2:#liferay> josuebc: checked the liferay-display.xml for the portlet? If category is hidden, it will not be in the Add menu; also it may have specified to be in the Control Panel or set as System-wide portlet (all layouts) in the liferay-portlet.xml.
 06:31 < bijoo_2:#liferay> Axxell: there were some API changes from 6.1 to 6.2 but as long as you didn't have custom code involved with the Asset Publisher (e.g. you didn't deploy a hook or override it's actions via your or another 6.1 plugin) you should be fine
 06:32 < bijoo_2:#liferay> Axxell: Did you check the configuratino to make sure it is still configured to add those categories and such?
+07:05 < Axxell:#liferay> bijoo_2: it seems to it sets the category on if assetpublishers category filtering is set to "ALL" and not "ANY"
