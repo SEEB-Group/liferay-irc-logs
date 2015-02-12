@@ -50,3 +50,4 @@
 16:37 < bijoo_2:#liferay> still can't believe people haven't heard it; I got to interviews and they've built wheels; and I think to myself "just use liferay?"
 16:37 < bijoo_2:#liferay> anyways, they'll all have to upgrade soon
 16:40 < bijoo_2:#liferay> jhf: and thanks for the word of encouragement! It's fun to talk about all things LR :)
+22:03 < josuebc:#liferay> Hi there, I have an issue with a portlet. When I deploy it it doesn't throw any errors but I don't see it on the Add menu. I do see it in the App management and it is active. I do see other portlets I deployed under the same category. Any ideas how to get a more verbose log of the deployment?
