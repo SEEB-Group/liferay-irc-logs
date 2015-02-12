@@ -18,3 +18,4 @@
 06:31 < bijoo_2:#liferay> Axxell: there were some API changes from 6.1 to 6.2 but as long as you didn't have custom code involved with the Asset Publisher (e.g. you didn't deploy a hook or override it's actions via your or another 6.1 plugin) you should be fine
 06:32 < bijoo_2:#liferay> Axxell: Did you check the configuratino to make sure it is still configured to add those categories and such?
 07:05 < Axxell:#liferay> bijoo_2: it seems to it sets the category on if assetpublishers category filtering is set to "ALL" and not "ANY"
+07:06 < Axxell:#liferay> was wondering about serving static content via apache.. why not serve the webapps dir for certain stuff?
