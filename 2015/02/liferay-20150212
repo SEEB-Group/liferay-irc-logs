@@ -14,3 +14,4 @@
 03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:22 -!- Irssi: Join to #liferay was synced in 4 secs
 04:41 < Axxell:#liferay> Hello... Problem: Before my upgrade to liferay 6.2ga3 from 6.1 when i added a webcontent via an assetpublisher, the configured categories of that assetpublisher would automaticly be put in the new articles category selection, this is not working anymore, anyone know what could be wrong and how to fix it?
+06:30 < bijoo_2:#liferay> josuebc: checked the liferay-display.xml for the portlet? If category is hidden, it will not be in the Add menu; also it may have specified to be in the Control Panel or set as System-wide portlet (all layouts) in the liferay-portlet.xml.
