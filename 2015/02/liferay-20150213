@@ -43,3 +43,4 @@
 15:06 < bijoo_2:#liferay> "getting a site url in velocity without the struts action or p_p_auth parameter"
 15:06 < bijoo_2:#liferay> rochadt: can't you just remove the parameter?
 15:07 < rochadt:#liferay> can you do that in velocity?
+15:07 < bijoo_2:#liferay> rochadt: http://stackoverflow.com/questions/6843882/replace-a-substring-of-a-string-in-velocity-template-language
