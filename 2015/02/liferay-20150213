@@ -20,3 +20,4 @@
 05:31 < CyberKatze:#liferay> Hallo
 05:46 < hufg:#liferay> yo
 06:03 < CyberKatze:#liferay> If I use user from lap - server to database connection,  why I can't import this user? ?
+06:09 < CyberKatze:#liferay> is there difference between database-connection user and normal site-user? can be same ??
