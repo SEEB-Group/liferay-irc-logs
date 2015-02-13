@@ -37,3 +37,4 @@
 15:00 < bijoo_2:#liferay> rochadt: are you familiar with how that goes?
 15:00 < rochadt:#liferay> yes
 15:01 < rochadt:#liferay> our client prefers not to modify core code though :(
+15:02 < bijoo_2:#liferay> rochadt: checking for a better way to do that
