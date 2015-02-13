@@ -25,3 +25,4 @@
 06:15 < CyberKatze:#liferay> .
 06:16 < CyberKatze:#liferay> any Skype ppl here??
 09:33 < bijoo_2:#liferay> hufg: not sure what your question is there, sorry.
+09:34 < bijoo_2:#liferay> CyberKatze: LDAP user import is supported; two types as far as I can remember: 1) when the user tries to login to site, 2) periodically checking LDAP
