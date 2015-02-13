@@ -38,3 +38,4 @@
 15:00 < rochadt:#liferay> yes
 15:01 < rochadt:#liferay> our client prefers not to modify core code though :(
 15:02 < bijoo_2:#liferay> rochadt: checking for a better way to do that
+15:04 < rochadt:#liferay> thanks! I'm looking into just creating a different velocity variable... no luck so far though
