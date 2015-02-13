@@ -31,3 +31,4 @@
 14:47 < rochadt:#liferay> anyone active here?
 14:57 < bijoo_2:#liferay> rochadt: ping
 14:59 < rochadt:#liferay> in 6.2, the velocity variable $site_default_url contians a p_p_auth parameter and it's messing with our analytics, does anyone know a good way of getting a site url in velocity without the struts action or p_p_auth parameter?
+14:59 < rochadt:#liferay> contains*
