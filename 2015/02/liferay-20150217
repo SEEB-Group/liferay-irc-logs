@@ -61,3 +61,4 @@
 10:04 < bijoo_:#liferay> web.server.https.port
 10:04 < bijoo_:#liferay> web.server.http.port
 10:04 < bijoo_:#liferay> especially the latter one for you
+10:04 < bijoo_:#liferay> web.server.http.port=80
