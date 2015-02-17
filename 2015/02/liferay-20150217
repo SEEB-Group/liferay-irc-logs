@@ -121,3 +121,4 @@
 11:23 < Tar-Minyatur:#liferay> He cann click the button "Add" and get the form to create the web content...but there is no button to actually save it.
 11:24 < Tar-Minyatur:#liferay> Could be a Liferay issue. When I grant the user "Update" permissions for all web content, the buttons appear.
 11:24 < bijoo_:#liferay> Tar-Minyatur: got it; is this ideal scenario?:  user can ADD web content articles; user cannot UPDATE others' though; user can UPDATE own article though.
+11:24 < Tar-Minyatur:#liferay> Seems to me like Liferay is checking if the user may update when it decides to show these buttons. As the content hasn't been created yet, there are no owner permissions yet.
