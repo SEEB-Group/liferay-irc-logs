@@ -45,3 +45,4 @@
 10:00 < CyberKatze:#liferay> on your picture user have request http://xxxxx.xx:80/main.css but got response with http://xxxx:8080/main.css
 10:00 < bijoo_:#liferay> CyberKatze: okay; I got that part; can't reach that port. Is that due to a firewall something? Or is it since server runs on that port?
 10:01 < CyberKatze:#liferay> i think it doesn't matter with server.... only with portal.
+10:01 < CyberKatze:#liferay> because all other files loading normal and have right path with redirect to 80 port
