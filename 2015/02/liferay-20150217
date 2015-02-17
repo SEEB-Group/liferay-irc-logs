@@ -2,3 +2,4 @@
 02:55 < hufg:#liferay> hello! i have major trouble with configuring jpa in a portlet+tomcat :Z
 02:55 < hufg:#liferay> anyone?
 02:57 < hufg:#liferay> whats the path of persistence.xml in a working portlet?
+02:57 < hufg:#liferay> inside of war
