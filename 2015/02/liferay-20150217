@@ -84,3 +84,4 @@
 10:10 < bijoo_:#liferay> CyberKatze:
 10:10 < bijoo_:#liferay> com.liferay.portal.ReservedUserEmailAddressException
 10:10 < bijoo_:#liferay> it is saying that email is reserved
+10:11 < CyberKatze:#liferay> because i use this user for Database connection in liferay?!
