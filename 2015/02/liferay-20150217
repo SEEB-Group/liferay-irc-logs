@@ -41,3 +41,4 @@
 09:58 < bijoo_:#liferay> CyberKatze: have you defined virtual host for this: xxx.xx?
 09:58 < CyberKatze:#liferay> GET http://examp.com:8080/my-theme/css/main.css?browserId=other&themeId=myth_WAR_myththeme&languageId=de_DE&b=6202&t=1424185710012 net::ERR_CONNECTION_TIMED_OUT
 09:59 < CyberKatze:#liferay> this error have i
+10:00 < CyberKatze:#liferay> on your picture user have request https://xxxxx.xx:80/main.css but got response with http://xxxx:8080/main.css
