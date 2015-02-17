@@ -47,3 +47,4 @@
 10:01 < CyberKatze:#liferay> i think it doesn't matter with server.... only with portal.
 10:01 < CyberKatze:#liferay> because all other files loading normal and have right path with redirect to 80 port
 10:02 < bijoo_:#liferay> CyberKatze: okay; https://awwapp.com/s/20/7c/4e.html updated
+10:02 < bijoo_:#liferay> CyberKatze: yes but must get 8080 somewhere
