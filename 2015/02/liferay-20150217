@@ -112,3 +112,4 @@
 11:15 < Tar-Minyatur:#liferay> So I gave them the permission "Web Content => Add Content".
 11:16 < Tar-Minyatur:#liferay> They can see the "Add" button in the web content section of the control panel. But the web content form only shows a cancel button. No Draft or Publish buttons are visible.
 11:17 < Tar-Minyatur:#liferay> If I give them additionally the permission "Update", they can save their webcontent, but they can also edit any existing ones...
+11:22 < bijoo_:#liferay> Tar-Minyatur: hmm, so they can add but not view, hmm.
