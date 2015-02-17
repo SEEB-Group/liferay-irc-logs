@@ -23,3 +23,4 @@
 09:23 < bijoo_:#liferay> modd__: confirmed; seeing the same in my bundle.
 09:33 < CyberKatze:#liferay> hallo !!!
 09:34 < CyberKatze:#liferay> if i use SSL-connection on my cite i have problem to get MAIN.CSS and AUI.CSS, because thay have http://xxxxx.xxx:8080/ url... and not http://xxxxx.xxx,,,all other work fine. how can i fix this ?
+09:48 < bijoo_:#liferay> CyberKatze: do you have web server for SSL?
