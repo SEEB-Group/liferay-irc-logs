@@ -158,3 +158,4 @@
 11:50 < Tar-Minyatur:#liferay> And it's working for all but one. :D
 11:50 < bijoo_:#liferay> That is, also adding "Add web content" permission to the role (only one needed)
 11:50 < bijoo_:#liferay> Tar-Minyatur: I'm not sure what could be the issue then; be happy to do screenshare if you like
+11:53 < bijoo_:#liferay> Tar-Minyatur: suggest setup plain vanilla Liferay; see if issue occurs the same on there
