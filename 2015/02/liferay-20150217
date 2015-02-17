@@ -128,3 +128,6 @@
 11:26 < Tar-Minyatur:#liferay> Mmmmhm. When I try that with "Basic Web Content", I can see the buttons.
 11:27 < Tar-Minyatur:#liferay> Strange.
 11:28 < Tar-Minyatur:#liferay> It appears to be an issue with one of the structures.
+11:29 < bijoo_:#liferay> Tar-Minyatur: so is it working as intended then? e.g. just the structure one doesn't work?
+11:30 < Tar-Minyatur:#liferay> I have a bunch of structures.
+11:30 < Tar-Minyatur:#liferay> Some of them the role may use, some they don't.
