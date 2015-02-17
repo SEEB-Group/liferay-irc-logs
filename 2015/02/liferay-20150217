@@ -89,3 +89,4 @@
 10:12 < bijoo_:#liferay> admin.reserved.email.addresses=
 10:13 < CyberKatze:#liferay> no, other... admin.email.from.address=xx
 10:14 < bijoo_:#liferay> CyberKatze:  https://github.com/liferay/liferay-portal/blob/6.2.2-ga3/portal-impl/src/com/liferay/portal/service/impl/UserLocalServiceImpl.java#L6063
+10:14 < bijoo_:#liferay> CyberKatze: that's the logic that is failing right now
