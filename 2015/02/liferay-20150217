@@ -102,3 +102,4 @@
 10:24 < bijoo_:#liferay> property forces https
 10:27 < CyberKatze:#liferay> yes, file exist with https
 10:28 < CyberKatze:#liferay> now, server don't see my SSL-certificate..
+10:28 < CyberKatze:#liferay> was loaded over HTTPS, but requested an insecure stylesheet ***
