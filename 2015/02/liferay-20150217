@@ -78,3 +78,4 @@
 10:08 < CyberKatze:#liferay> yes
 10:08 < CyberKatze:#liferay> i have 8 users , 7 was imported, and 8(userA) not :)
 10:08 < bijoo_:#liferay> CyberKatze: have you tried upping logs to the debug?
+10:09 < bijoo_:#liferay> CyberKatze: oh, it could be some wrong with that user
