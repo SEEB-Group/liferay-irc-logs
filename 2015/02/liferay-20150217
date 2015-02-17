@@ -104,3 +104,4 @@
 10:28 < CyberKatze:#liferay> now, server don't see my SSL-certificate..
 10:28 < CyberKatze:#liferay> was loaded over HTTPS, but requested an insecure stylesheet ***
 10:29 < bijoo_:#liferay> CyberKatze: not sure what you mean; changed the property? after change restarted and still not works?
+10:46 < CyberKatze:#liferay> http:80 work... have problem with https.. but this is not with liferay!
