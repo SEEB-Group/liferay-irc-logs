@@ -161,3 +161,4 @@
 11:53 < bijoo_:#liferay> Tar-Minyatur: suggest setup plain vanilla Liferay; see if issue occurs the same on there
 11:54 < Tar-Minyatur:#liferay> It's really strange.
 11:58 < Tar-Minyatur:#liferay> Mhm. The permissions are exactly the same on a structure that works and the broken one.
+11:59 < Tar-Minyatur:#liferay> That's really confusing.
