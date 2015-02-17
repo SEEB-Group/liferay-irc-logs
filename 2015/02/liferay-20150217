@@ -69,3 +69,4 @@
 10:05 < bijoo_:#liferay> CyberKatze: yes needs restart for change to take effect
 10:06 < CyberKatze:#liferay> do you have expirience with LDAP?
 10:06 < bijoo_:#liferay> CyberKatze: yes what is your question for the LDAP?
+10:06 < CyberKatze:#liferay> i do connection to DB with userA , but i can't import this userA in portal...
