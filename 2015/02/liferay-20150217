@@ -28,3 +28,4 @@
 09:48 < bijoo_:#liferay> web.server.https.port
 09:50 < CyberKatze:#liferay> yes tomcat serrver v7
 09:51 < bijoo_:#liferay> CyberKatze: okay tomcat is the app container
+09:51 < CyberKatze:#liferay> i have many other css-files on portlets and themes and they work fine... but main.css and aui.css have wrong path
