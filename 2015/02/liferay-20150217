@@ -156,3 +156,4 @@
 11:49 < Tar-Minyatur:#liferay> Did that for all the relevant structures.
 11:50 < bijoo_:#liferay> I just tried the way I described and it's working for me
 11:50 < Tar-Minyatur:#liferay> And it's working for all but one. :D
+11:50 < bijoo_:#liferay> That is, also adding "Add web content" permission to the role (only one needed)
