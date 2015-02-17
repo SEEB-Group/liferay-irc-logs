@@ -151,3 +151,4 @@
 11:42 < bijoo_:#liferay> permission
 11:48 < Tar-Minyatur:#liferay> Mhm. The role definitely has view permission on the structure and the template that is not working correctly.
 11:49 < bijoo_:#liferay> Tar-Minyatur: did you go to Control Panel-> Web Content -> Manage (onec for Manage Structures and once for Manage Templates) -> Edit (for each Structure/Template) -> Permissions -> VIEW for [Role Name] is checked -> Save
+11:49 < Tar-Minyatur:#liferay> Yep.
