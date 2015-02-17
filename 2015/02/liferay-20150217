@@ -138,3 +138,4 @@
 11:31 < Tar-Minyatur:#liferay> Very weid.
 11:31 < Tar-Minyatur:#liferay> *weird
 11:31 < bijoo_:#liferay> "The role can see it, which is correct, but not save a content using it" - is this true for Basic Web Content or just the Structured Web Content?
+11:36 < bijoo_:#liferay> Tar-Minyatur: I verified works for the simple case (e.g. no structures; basic web content.)
