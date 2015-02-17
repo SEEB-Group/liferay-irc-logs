@@ -146,3 +146,4 @@
 11:40 < Tar-Minyatur:#liferay> I'll compare the permissions and see if I can find a difference.
 11:40 < bijoo_:#liferay> Tar-Minyatur: yes need to give VIEW action separate
 11:40 < bijoo_:#liferay> e.g. for the structures and the templates
+11:41 < bijoo_:#liferay> So setting Role definition to provide "View Structures" "View Templates" globally didn't work; I had to go to the individual template and individual structure to give the permission to the role
