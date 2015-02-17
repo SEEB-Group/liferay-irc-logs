@@ -141,3 +141,4 @@
 11:36 < bijoo_:#liferay> Tar-Minyatur: I verified works for the simple case (e.g. no structures; basic web content.)
 11:36 < bijoo_:#liferay> Tar-Minyatur: it is the default behavior too.
 11:36 < bijoo_:#liferay> e.g. can edit own but not others
+11:40 < Tar-Minyatur:#liferay> It's working correctly for basic web content and for structures.
