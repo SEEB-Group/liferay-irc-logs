@@ -143,3 +143,4 @@
 11:36 < bijoo_:#liferay> e.g. can edit own but not others
 11:40 < Tar-Minyatur:#liferay> It's working correctly for basic web content and for structures.
 11:40 < Tar-Minyatur:#liferay> There is just one structure where it doesn't work.
+11:40 < Tar-Minyatur:#liferay> I'll compare the permissions and see if I can find a difference.
