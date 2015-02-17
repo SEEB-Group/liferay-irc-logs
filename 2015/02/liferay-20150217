@@ -34,3 +34,4 @@
 09:52 < bijoo_:#liferay> CyberKatze: okay then those properties don't apply
 09:52 < bijoo_:#liferay> so for those files the port is added there?
 09:52 < bijoo_:#liferay> CyberKatze: using LR 6.2GA2?
+09:53 < CyberKatze:#liferay> for example i have redirecct from exter to intern with url http://xxx.xx:80/home to http://subserver:8080/home    ... and if i see source-code.. css path for main is http://xxx.xx:8080/main.css***... and not xx.xxx:80
