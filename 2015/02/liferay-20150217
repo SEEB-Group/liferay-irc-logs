@@ -118,3 +118,4 @@
 11:23 < bijoo_:#liferay> Tar-Minyatur: so the "Owner" permission seems to fit
 11:23 < Tar-Minyatur:#liferay> Yes, but "Add Content" doesn't work.
 11:23 < Tar-Minyatur:#liferay> The user is not allowed to add any web content.
+11:23 < Tar-Minyatur:#liferay> He cann click the button "Add" and get the form to create the web content...but there is no button to actually save it.
