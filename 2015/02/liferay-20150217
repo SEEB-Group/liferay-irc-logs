@@ -51,3 +51,4 @@
 10:03 < CyberKatze:#liferay> right
 10:03 < bijoo_:#liferay> CyberKatze: what port is $CATALINA_HOME/conf/server.xml
 10:03 < CyberKatze:#liferay> 8080 + 8433
+10:03 < CyberKatze:#liferay> 8080 + 8443
