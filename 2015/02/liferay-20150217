@@ -26,3 +26,4 @@
 09:48 < bijoo_:#liferay> CyberKatze: do you have web server for SSL?
 09:48 < bijoo_:#liferay> CyberKatze: if so check out these properties here: web.server.http.port
 09:48 < bijoo_:#liferay> web.server.https.port
+09:50 < CyberKatze:#liferay> yes tomcat serrver v7
