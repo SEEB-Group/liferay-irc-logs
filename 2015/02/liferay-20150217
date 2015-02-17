@@ -98,3 +98,4 @@
 10:15 < CyberKatze:#liferay> it's true, i use userA for MAIL too :)
 10:21 < CyberKatze:#liferay> Mixed Content: The page at 'https://cms.io.e/home' was loaded over HTTPS, but requested an insecure stylesheet 'http://cms.io.e/my-theme/css/main.css?browserId=other&themeId=io_WAR_iotheme&languageId=de_DE&b=6202&t=1424185710012'. This request has been blocked; the content must be served over HTTPS.
 10:23 < bijoo_:#liferay> CyberKatze: try setting the below property: main.servlet.https.required=true
+10:24 < bijoo_:#liferay> CyberKatze: does https://cms.io.e/my-theme/css/main.css exist? e.g. accessible?
