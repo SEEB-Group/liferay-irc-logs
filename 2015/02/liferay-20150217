@@ -56,3 +56,4 @@
 10:03 < bijoo_:#liferay> CyberKatze: that is where it's getting 8080
 10:03 < bijoo_:#liferay> CyberKatze: so port 80, how is it functioning
 10:03 < CyberKatze:#liferay> from external network i do redirect from 80 port to local 8080
+10:03 < CyberKatze:#liferay> with firewall
