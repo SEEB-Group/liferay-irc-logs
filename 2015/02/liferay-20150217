@@ -22,3 +22,4 @@
 08:40 < goku_:#liferay> Hi ,in liferay multi level menu is not showing ..(upto 2 level is showing but after that nothing.)
 09:23 < bijoo_:#liferay> modd__: confirmed; seeing the same in my bundle.
 09:33 < CyberKatze:#liferay> hallo !!!
+09:34 < CyberKatze:#liferay> if i use SSL-connection on my cite i have problem to get MAIN.CSS and AUI.CSS, because thay have http://xxxxx.xxx:8080/ url... and not http://xxxxx.xxx,,,all other work fine. how can i fix this ?
