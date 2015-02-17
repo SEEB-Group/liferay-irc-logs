@@ -32,3 +32,4 @@
 09:51 < bijoo_:#liferay> have like apache httpd?
 09:51 < CyberKatze:#liferay> em.. no.. directly on tomcat
 09:52 < bijoo_:#liferay> CyberKatze: okay then those properties don't apply
+09:52 < bijoo_:#liferay> so for those files the port is added there?
