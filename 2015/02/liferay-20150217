@@ -20,3 +20,4 @@
 06:23 < modd__:#liferay> can anybody confirm this: in LR6.2GA3 in the file aui.js, we have a line "GALLERY_VERSION = '@GALLERY@'" instead of a "real" version
 06:23 < modd__:#liferay> ?
 08:40 < goku_:#liferay> Hi ,in liferay multi level menu is not showing ..(upto 2 level is showing but after that nothing.)
+09:23 < bijoo_:#liferay> modd__: confirmed; seeing the same in my bundle.
