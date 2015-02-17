@@ -39,3 +39,4 @@
 09:56 -!- mode/#liferay [+o jhf] by ChanServ
 09:57 < bijoo_:#liferay> CyberKatze:  so is the interaction like this pic? https://awwapp.com/s/be/af/43.html
 09:58 < bijoo_:#liferay> CyberKatze: have you defined virtual host for this: xxx.xx?
+09:58 < CyberKatze:#liferay> GET http://examp.com:8080/my-theme/css/main.css?browserId=other&themeId=myth_WAR_myththeme&languageId=de_DE&b=6202&t=1424185710012 net::ERR_CONNECTION_TIMED_OUT
