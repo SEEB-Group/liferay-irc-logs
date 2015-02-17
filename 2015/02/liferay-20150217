@@ -64,3 +64,4 @@
 10:04 < bijoo_:#liferay> web.server.http.port=80
 10:04 < CyberKatze:#liferay> in portal-properties?
 10:04 < bijoo_:#liferay> CyberKatze: in portal-ext.properties, or what have you
+10:04 < bijoo_:#liferay> yes somewher in the portal-properties
