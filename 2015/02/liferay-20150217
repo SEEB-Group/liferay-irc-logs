@@ -119,3 +119,4 @@
 11:23 < Tar-Minyatur:#liferay> Yes, but "Add Content" doesn't work.
 11:23 < Tar-Minyatur:#liferay> The user is not allowed to add any web content.
 11:23 < Tar-Minyatur:#liferay> He cann click the button "Add" and get the form to create the web content...but there is no button to actually save it.
+11:24 < Tar-Minyatur:#liferay> Could be a Liferay issue. When I grant the user "Update" permissions for all web content, the buttons appear.
