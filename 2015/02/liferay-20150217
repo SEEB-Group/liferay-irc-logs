@@ -87,3 +87,4 @@
 10:11 < CyberKatze:#liferay> because i use this user for Database connection in liferay?!
 10:12 < bijoo_:#liferay> not sure; have you set below property?
 10:12 < bijoo_:#liferay> admin.reserved.email.addresses=
+10:13 < CyberKatze:#liferay> no, other... admin.email.from.address=xx
