@@ -109,3 +109,4 @@
 10:47 < bijoo_:#liferay> CyberKatze: anytime CyberKatze ; see you around.
 11:14 < Tar-Minyatur:#liferay> Hi everyone.
 11:14 < Tar-Minyatur:#liferay> In case somebody is around: I'm trying to setup a role that can create new web content but doesn't have access to all the existing web content.
+11:15 < Tar-Minyatur:#liferay> So I gave them the permission "Web Content => Add Content".
