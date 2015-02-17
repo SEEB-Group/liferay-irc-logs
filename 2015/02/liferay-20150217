@@ -31,3 +31,4 @@
 09:51 < CyberKatze:#liferay> i have many other css-files on portlets and themes and they work fine... but main.css and aui.css have wrong path
 09:51 < bijoo_:#liferay> have like apache httpd?
 09:51 < CyberKatze:#liferay> em.. no.. directly on tomcat
+09:52 < bijoo_:#liferay> CyberKatze: okay then those properties don't apply
