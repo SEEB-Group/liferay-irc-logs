@@ -96,3 +96,4 @@
 10:15 < bijoo_:#liferay> CyberKatze: http://www.liferay.com/community/forums/-/message_boards/message/11508231
 10:15 < bijoo_:#liferay> CyberKatze: https://www.google.com/search?client=ubuntu&channel=fs&q=override+method+localserviceimpl+liferay&ie=utf-8&oe=utf-8
 10:15 < CyberKatze:#liferay> it's true, i use userA for MAIL too :)
+10:21 < CyberKatze:#liferay> Mixed Content: The page at 'https://cms.io.e/home' was loaded over HTTPS, but requested an insecure stylesheet 'http://cms.io.e/my-theme/css/main.css?browserId=other&themeId=io_WAR_iotheme&languageId=de_DE&b=6202&t=1424185710012'. This request has been blocked; the content must be served over HTTPS.
