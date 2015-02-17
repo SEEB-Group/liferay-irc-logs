@@ -140,3 +140,4 @@
 11:31 < bijoo_:#liferay> "The role can see it, which is correct, but not save a content using it" - is this true for Basic Web Content or just the Structured Web Content?
 11:36 < bijoo_:#liferay> Tar-Minyatur: I verified works for the simple case (e.g. no structures; basic web content.)
 11:36 < bijoo_:#liferay> Tar-Minyatur: it is the default behavior too.
+11:36 < bijoo_:#liferay> e.g. can edit own but not others
