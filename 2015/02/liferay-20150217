@@ -100,3 +100,4 @@
 10:23 < bijoo_:#liferay> CyberKatze: try setting the below property: main.servlet.https.required=true
 10:24 < bijoo_:#liferay> CyberKatze: does https://cms.io.e/my-theme/css/main.css exist? e.g. accessible?
 10:24 < bijoo_:#liferay> property forces https
+10:27 < CyberKatze:#liferay> yes, file exist with https
