@@ -153,3 +153,4 @@
 11:49 < bijoo_:#liferay> Tar-Minyatur: did you go to Control Panel-> Web Content -> Manage (onec for Manage Structures and once for Manage Templates) -> Edit (for each Structure/Template) -> Permissions -> VIEW for [Role Name] is checked -> Save
 11:49 < Tar-Minyatur:#liferay> Yep.
 11:49 < bijoo_:#liferay> It's cumbersome but for some reason assigning from the Define Permissions is not working
+11:49 < Tar-Minyatur:#liferay> Did that for all the relevant structures.
