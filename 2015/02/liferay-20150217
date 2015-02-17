@@ -145,3 +145,4 @@
 11:40 < Tar-Minyatur:#liferay> There is just one structure where it doesn't work.
 11:40 < Tar-Minyatur:#liferay> I'll compare the permissions and see if I can find a difference.
 11:40 < bijoo_:#liferay> Tar-Minyatur: yes need to give VIEW action separate
+11:40 < bijoo_:#liferay> e.g. for the structures and the templates
