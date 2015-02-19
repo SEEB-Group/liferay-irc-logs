@@ -34,3 +34,15 @@
 19:09 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 19:09 -!- Irssi: Join to #liferay was synced in 6 secs
 19:37 < borkus:#liferay> Has anyone used Liferay with Apache Shiro?
+--- Log opened Wed Feb 18 20:23:35 2015
+20:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+20:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+20:23 [Users #liferay]
+20:23 [@ChanServ] [ Bryanstein] [ jbub      ] [ mcbonz      ] [ Tm_T] 
+20:23 [ bijoo   ] [ Gorith    ] [ josuebc   ] [ Naenyn      ] 
+20:23 [ borkus  ] [ henriquev ] [ marcoceppi] [ Tar-Minyatur] 
+20:23 -!- Irssi: #liferay: Total of 13 nicks [1 ops, 0 halfops, 0 voices, 12 normal]
+20:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+20:23 -!- Irssi: Join to #liferay was synced in 6 secs
+20:47 < bijoo_:#liferay> borkus: no what aspect of shiro would you use? I just learned of Shiro from your message; though I've done various integrations.
+20:47 < bijoo_:#liferay> borkus: e.g. just authentication or else?
