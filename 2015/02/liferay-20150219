@@ -19,3 +19,4 @@
 12:20 < josuebc:#liferay> I have disabled all custom potrlets, hooks and extensions and deleted kaleos-* portlets. I found a few posts on the forums talking about this. Still no luck.
 12:20 < josuebc:#liferay> I am not getting anything on the logs. Any ideas how to get more information about what's failing?
 13:28 < bijoo_:#liferay> josuebc: is it 6.2 GA3 version?
+13:29 < bijoo_:#liferay> josuebc: also any related errors thrown?
