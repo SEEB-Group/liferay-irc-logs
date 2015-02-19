@@ -49,3 +49,4 @@
 23:21 < josuebc:#liferay> Hi there. I have a LR instance running 6.2 with tomcat 7.0. I'm trying to create another portal instance but when I hit save it just displays the message "Portal Instance is not available".
 23:21 < josuebc:#liferay> I have disabled all custom potrlets, hooks and extensions and deleted kaleos-* portlets. I found a few posts on the forums talking about this. Still no luck.
 23:22 < josuebc:#liferay> I am not getting anything on the logs. Any ideas how to get more information about what's failing?
+23:22 < josuebc:#liferay> Thanks
