@@ -24,3 +24,4 @@
 14:20 < josuebc:#liferay> bijoo_: I don't see anything on the console. I'm trying to figure out how to get some kind of error out. I also tried in another dev environment I have setup and I got a RoleNonExistant eror. Apparently it is looking for a custom role on the new company
 14:21 < josuebc:#liferay> I am running a re-indexing of search to see if this works. I am still unable to create another instance within the liferay development studio
 14:55 < josuebc:#liferay> bijoo_: apparently is GA1
+15:39 < doged:#liferay> .convert 500000 doge btc
