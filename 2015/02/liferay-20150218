@@ -50,3 +50,4 @@
 23:21 < josuebc:#liferay> I have disabled all custom potrlets, hooks and extensions and deleted kaleos-* portlets. I found a few posts on the forums talking about this. Still no luck.
 23:22 < josuebc:#liferay> I am not getting anything on the logs. Any ideas how to get more information about what's failing?
 23:22 < josuebc:#liferay> Thanks
+--- Log closed Thu Feb 19 00:00:32 2015
