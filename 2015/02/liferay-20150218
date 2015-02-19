@@ -46,3 +46,4 @@
 20:23 -!- Irssi: Join to #liferay was synced in 6 secs
 20:47 < bijoo_:#liferay> borkus: no what aspect of shiro would you use? I just learned of Shiro from your message; though I've done various integrations.
 20:47 < bijoo_:#liferay> borkus: e.g. just authentication or else?
+23:21 < josuebc:#liferay> Hi there. I have a LR instance running 6.2 with tomcat 7.0. I'm trying to create another portal instance but when I hit save it just displays the message "Portal Instance is not available".
