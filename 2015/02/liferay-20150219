@@ -26,3 +26,4 @@
 14:55 < josuebc:#liferay> bijoo_: apparently is GA1
 15:39 < doged:#liferay> .convert 500000 doge btc
 15:39 < doged:#liferay> ups
+16:41 < josuebc:#liferay> Alright, never mind. Apparently there was an issue with custom groups. I had to undeploy a portlet that was using a custom role-mapping with a custom role then create the instance.
