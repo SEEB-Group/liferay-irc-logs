@@ -14,3 +14,4 @@
 04:18 < CyberKatze:#liferay> i create own portlet for "contact us" Form.. but if i submit form view stopped 5-10 sec and then show error/success message..
 04:19 < CyberKatze:#liferay> for store fields-values i use PortletPreferences pref=actionRequest.getPreferences(); and then save values prefs(key, val);prefs.store();
 04:19 < CyberKatze:#liferay> why this need more time?
+04:21 < CyberKatze:#liferay> or i do something wrong?
