@@ -23,3 +23,4 @@
 10:07 < hufg:#liferay> i guess the trouble is a relative path with ../../
 10:46 < bijoo_:#liferay> hufg: no, but what property giving trouble?
 10:46 < hufg:#liferay> got it now
+10:47 < hufg:#liferay> file:#{systemProperties['catalina.home']}/../portal-ext.properties
