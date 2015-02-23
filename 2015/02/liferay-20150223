@@ -13,3 +13,4 @@
 04:52 < Axxell:#liferay> Hi guys, major problem, liferay 6.2 ga3, non-admin users cant overwrite files
 04:54 < Axxell:#liferay> it gives the followin error : com.liferay.portal.security.auth.PrincipalException at com.liferay.portlet.expando.service.permission.ExpandoColumnPermissionImpl.check(ExpandoColumnPermissionImpl.java:36)
 04:54 < Axxell:#liferay> http://pastebin.com/EaxztjdN
+04:54 < Axxell:#liferay> cant find any solution
