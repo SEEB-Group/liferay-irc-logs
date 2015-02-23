@@ -19,3 +19,5 @@
 05:54 < Reamer:#liferay> [23.02.2015 11:44:14] [WARN] [com.liferay.portal.cache.ehcache.EhcacheStreamBootstrapCacheLoader$EhcacheStreamClientThread - com.liferay.portal.kernel.dao.orm.FinderCache.com.liferay.portlet.blogs.model.im
 05:54 < Reamer:#liferay> pl.BlogsEntryImpl.List1] [EhcacheStreamBootstrapHelpUtil] - Unable to load cache from the cluster because there was no peer response
 05:56 < Reamer:#liferay> Has someone a hint where i did something wrong
+11:53 < josuebc_:#liferay> Hi there. I'm trying to change the virtualhost of a portal intance, I'm just adding a 'dev' prefix (i.e. from my.portal.com to devmy.portal.com) and I keep getting a 'Please enter a valid virtual host'
+11:53 < josuebc_:#liferay> Any idea why?
