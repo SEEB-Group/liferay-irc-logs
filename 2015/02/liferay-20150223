@@ -26,3 +26,4 @@
 11:57 < [abeym]:#liferay> anybody :) ?
 11:58 < josuebc:#liferay> [abeym]: You mean to assign a template to a page?
 12:12 < [abeym]:#liferay> yes I have already created many pages. No I realised changing each is taking long time. So want to assign a "page template" to all the pages and then change the "page template" so the changes are reflected in all the pages
+12:13 < josuebc:#liferay> You can just assign a page template through the Add menu: https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/using-page-templates-liferay-portal-6-2-user-guide-03-en
