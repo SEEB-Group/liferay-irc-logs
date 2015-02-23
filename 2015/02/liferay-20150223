@@ -22,3 +22,4 @@
 11:53 < josuebc_:#liferay> Hi there. I'm trying to change the virtualhost of a portal intance, I'm just adding a 'dev' prefix (i.e. from my.portal.com to devmy.portal.com) and I keep getting a 'Please enter a valid virtual host'
 11:53 < josuebc_:#liferay> Any idea why?
 11:56 < [abeym]:#liferay> hello
+11:57 < [abeym]:#liferay> I am looking for some help on how to link a page to a page template after the page is created?
