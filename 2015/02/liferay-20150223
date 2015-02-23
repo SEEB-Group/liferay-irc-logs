@@ -16,3 +16,4 @@
 04:54 < Axxell:#liferay> cant find any solution
 05:03 < CyberKatze:#liferay> hi, anybody here?
 05:54 < Reamer:#liferay> Hi, i am a use Liferay Portal Community Edition 6.2 CE GA2 with two instances. I will activate the default ehcache replication so i set "cluster.link.enabled=true" and "ehcache.cluster.link.replication.enabled=false". Ehcache throws Erros
+05:54 < Reamer:#liferay> [23.02.2015 11:44:14] [WARN] [com.liferay.portal.cache.ehcache.EhcacheStreamBootstrapCacheLoader$EhcacheStreamClientThread - com.liferay.portal.kernel.dao.orm.FinderCache.com.liferay.portlet.blogs.model.im
