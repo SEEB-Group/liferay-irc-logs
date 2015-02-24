@@ -9,3 +9,4 @@
 00:23 < bijoo_:#liferay> [abeym]: did josuebc's answer satisfy this? If number of pages is too large, e.g. many hundreds or thousands, you could also do this programatically; moreover using User Groups pages, parent sites, and other ways
 00:24 < bijoo_:#liferay> [abeym]: each ways has pros and cons and one question would be if you have data tied to the current page's scope (usually not, but possible)
 00:24 < bijoo_:#liferay> [abeym]: that is, if for some plugin, the configuration was done to set the scope to new scope for page-level scope
+00:26 < bijoo_:#liferay> Reamer: also why disabling cluster link? see some pages here : http://sysadminhub.blogspot.com/2013/05/liferay-61-cluster-configuration-using.html
