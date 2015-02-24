@@ -6,3 +6,4 @@
 00:21 < bijoo_:#liferay> Reamer: feel free to answer later I'll check it
 00:21 < bijoo_:#liferay> josuebc: worse comes to worst you can change the DB (though it's best to use the UI for this; as it may let you discover issue.)
 00:22 < bijoo_:#liferay> CyberKatze: feel free to ask question; some check later.
+00:23 < bijoo_:#liferay> [abeym]: did josuebc's answer satisfy this? If number of pages is too large, e.g. many hundreds or thousands, you could also do this programatically; moreover using User Groups pages, parent sites, and other ways
