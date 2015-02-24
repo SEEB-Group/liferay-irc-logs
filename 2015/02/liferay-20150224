@@ -3,3 +3,4 @@
 00:17 < bijoo_:#liferay> josuebc: please pastebin full stack trace here: http://pastebin.com/
 00:17 < bijoo_:#liferay> and post the link so we can review it
 00:20 < bijoo_:#liferay> Reamer: were you able to resolve the issue? "[EhcacheStreamBootstrapHelpUtil] - Unable to load cache from the cluster because there was no peer response" points to clustering config error; on portal startup do you see the log messages stating that joining a cluster?
+00:21 < bijoo_:#liferay> Reamer: feel free to answer later I'll check it
