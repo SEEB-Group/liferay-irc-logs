@@ -25,3 +25,5 @@
 03:54 < Reamer:#liferay> I see this in log file: [24.02.2015 09:53:32] [INFO] [localhost-startStop-1] [BaseReceiver] - Accepted view [test-www02-xxx-com-13873|7] [test-www02-xxx-com-13873, test-www01-xxx-com-63580]
 03:55 < Reamer:#liferay> I think is a good message
 04:18 < Reamer:#liferay> bijoo: thanks for your help. I test some things and it look like it's working.
+09:21 -!- mode/#liferay [+o jhf] by ChanServ
+11:03 < billoul:#liferay> Hi all,
