@@ -22,3 +22,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 03:51 < Reamer:#liferay> @bijoo i disable cluster only "ehcache.cluster.link.replication.enabled" because i will use Scenario 2 in this documentation: https://www.liferay.com/de/documentation/liferay-portal/6.2/user-guide/-/ai/liferay-clustering-liferay-portal-6-2-user-guide-20-en
+03:54 < Reamer:#liferay> I see this in log file: [24.02.2015 09:53:32] [INFO] [localhost-startStop-1] [BaseReceiver] - Accepted view [test-www02-xxx-com-13873|7] [test-www02-xxx-com-13873, test-www01-xxx-com-63580]
