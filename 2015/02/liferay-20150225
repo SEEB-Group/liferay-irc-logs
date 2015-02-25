@@ -114,3 +114,4 @@
 10:15 < jardineworks:#liferay> plekplek, what about a situation where image01.png needs to be updated for Team A, but not Team D?
 10:15 < jardineworks:#liferay> do you make a copoy in that case?
 10:17 < plekplek:#liferay> It sounds like it would be logical to split the image into two separate in that case, and share them appropriately
+10:20 < jardineworks:#liferay> plekplek, I suppose that you could end up linking to a version of a document (though I have never tried to see if you can actually do that). Hmm... It feels like the simplest option for versioning etc. might be to have you master repo with all the images. Then, as you said, have a folder for each team. When a team gets access to an image, make a COPY of it for them so that each team has their own version. For me, this means that the
