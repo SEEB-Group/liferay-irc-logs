@@ -122,3 +122,4 @@
 10:24 < plekplek:#liferay> I guess this approach requires some work with the Documents and Media portlet, making it possible to actually copy files from one place to another. Or can it be done some other way?
 10:25 < jardineworks:#liferay> plekplek, and very VERY complicated for Team A Manager to try to manage the files without affecting Team B
 10:25 < jardineworks:#liferay> plekplek, (checking).
+10:27 < plekplek:#liferay> Liferay Sync could have been an option, Team A Manager could copy files to the Team A folder from the main library, but it would really be preferable if all the operations could be done from within the portal itself. Otherwise it would be bound to computers that have the Sync software set up and running…
