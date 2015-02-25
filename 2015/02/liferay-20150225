@@ -118,3 +118,4 @@
 10:20 < jardineworks:#liferay> files, versions, permissions etc, are all managed on a team by team basis and you don't have to worry about inheritace of permissions through sym links or anything.
 10:20 < jardineworks:#liferay> but having the master repo means that the "core files" are still part of the DL, managed by Liferay, version controlled, cached, etc.
 10:20 < jardineworks:#liferay> read: you're not relying on Joe being at work to upload the files from his HDD for Team M :)
+10:23 < plekplek:#liferay> That would definitely be smoother. Symlinks would need management of the original document permissions, which kind of makes it impossible to manage in the long run.
