@@ -5,3 +5,16 @@
 03:10 < hufg:#liferay> looks somewhat impossible
 03:14 < hufg:#liferay> i'm trying to restrict control panel entry visibility to current site owner
 03:15 < hufg:#liferay> pretty zz that the permissionchecker gets thrown into the isVisible method and then you have like...nothing call every PermissionChecker method without args huh?
+--- Log opened Wed Feb 25 03:22:03 2015
+03:22 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:22 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:15 2015]
+03:22 [Users #liferay]
+03:22 [@ChanServ  ] [ Gorith   ] [ marcoceppi] [ quercus     ] [ Tm_T] 
+03:22 [ [abeym]   ] [ henriquev] [ mcbonz    ] [ Reamer      ] 
+03:22 [ bijoo     ] [ hufg     ] [ modd_     ] [ rochadt     ] 
+03:22 [ billoul   ] [ jbub     ] [ Naenyn    ] [ sueastside  ] 
+03:22 [ Bryanstein] [ josuebc  ] [ plekplek  ] [ Tar-Minyatur] 
+03:22 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+03:22 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:22 -!- Irssi: Join to #liferay was synced in 5 secs
+03:38 < hufg:#liferay> uhhuh ok found it
