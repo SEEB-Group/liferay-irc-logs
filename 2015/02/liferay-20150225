@@ -4,3 +4,4 @@
 03:10 < hufg:#liferay> in 6.1
 03:10 < hufg:#liferay> looks somewhat impossible
 03:14 < hufg:#liferay> i'm trying to restrict control panel entry visibility to current site owner
+03:15 < hufg:#liferay> pretty zz that the permissionchecker gets thrown into the isVisible method and then you have like...nothing call every PermissionChecker method without args huh?
