@@ -132,3 +132,4 @@
 10:58 < plekplek:#liferay> jardineworks: yes, that should be quite easy to implement. heh, i was also more or less assuming that the copy function existed. probably mixing it up with some other portlet. :)
 11:04 < plekplek:#liferay> but hey, thanks for the help! this was really helpful in ironing out the workflow. i’ll look into the implementation tomorrow
 11:07 < plekplek:#liferay> being able to select multiple files to copy could also improve the workflow
+11:08 < jardineworks:#liferay> plekplek, for sure... or even and entire folder, and then simply deleting those that don't apply
