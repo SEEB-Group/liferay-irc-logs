@@ -125,3 +125,4 @@
 10:27 < plekplek:#liferay> Liferay Sync could have been an option, Team A Manager could copy files to the Team A folder from the main library, but it would really be preferable if all the operations could be done from within the portal itself. Otherwise it would be bound to computers that have the Sync software set up and running…
 10:30 < josuebc:#liferay> Hi, I'm having an issue that Liferay is throwing an "Invalid host name" to the logs every few seconds. This is because it's behind a Load Balancer and since I'm running multiple Portal Instances I removed the ProxyName attribute from the connection. This exception doesn't modify LR behaivor at all so I'm trying to just dismiss it from the logs.
 10:30 < josuebc:#liferay> I'm trying to use the Regex filter but I can't seem to get it working. Any one knows where to get an example? Thanks.
+10:34 < jardineworks:#liferay> plekplek, 6.2?
