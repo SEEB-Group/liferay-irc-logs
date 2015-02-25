@@ -90,3 +90,4 @@
 08:59 < hufg:#liferay> anyways extending and service builder thats what i'd google
 08:59 < billoul:#liferay> okey I try to do this i'm realy noob in liferay i have no idea to do this. but i will try
 09:00 < billoul:#liferay> hufg, thank you
+09:00 < hufg:#liferay> if you are not concerned of quality or of learning make it an ugly hack and store the image link in some other field and get it from there
