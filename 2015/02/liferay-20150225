@@ -127,3 +127,4 @@
 10:30 < josuebc:#liferay> I'm trying to use the Regex filter but I can't seem to get it working. Any one knows where to get an example? Thanks.
 10:34 < jardineworks:#liferay> plekplek, 6.2?
 10:38 < plekplek:#liferay> jardineworks: yes, 6.2 ce ga3
+10:48 < jardineworks:#liferay> plekplek, I am looking at 6.2 EE... and I can see a shortcut (symlink) but I don't see a copy. Weird, I thought that existed. So you could check the marketplace for a plugin, otherwise you would have to role your own hooks to add a copy option/action to the Add menu
