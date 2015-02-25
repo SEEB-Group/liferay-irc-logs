@@ -36,3 +36,4 @@
 07:51 < jardineworks:#liferay> hufg, I haven't done a lot with it yet. I know one of my clients is struggling with it right now, but they have a hack in place which I believe is contributing to the problem. I've never had issues with it, but, I haven't done any large scale publishing either.
 07:52 < hufg:#liferay> mmh publishing has been suck for ever
 07:52 < hufg:#liferay> probably still :D
+07:55 < plekplek:#liferay> at least the class loader works nowadays :)
