@@ -22,3 +22,4 @@
 04:56 < twen:#liferay> Is this channel for devs or also users (we got a new liferay.. trying to find my way in the jungle of permissions ;) )
 05:44 < billoul:#liferay> Can some one tell me how to customize announcements portlet please. I want to add an image field how can be used to display image in the body of my announcements portlet
 05:45 < billoul:#liferay> the image should be stored in assets folder
+05:45 < billoul:#liferay> and added into announcement table in database
