@@ -43,3 +43,4 @@
 08:11 < jardineworks:#liferay> plekplek, do your requirements include that people from individual teams need access to other teams documents? or is it strict? Like... Team A, Team B Team C... each have access to their own documents only? or Team A may need to access all or some of Team Bs documents?
 08:16 < plekplek:#liferay> jardineworks: they should only see their team specific documents, so team A sees only the documents that are shared to team A. however, there will be cases where several teams need access to same specific documents
 08:18 < plekplek:#liferay> but the main idea is that users sign in and can download documents that they have been shared, and that there are a group of administrators that manage who sees what. their main task would be to add users and teams and share access to documents as well as remove access
+08:27 < twen:#liferay> plekplek Thanks for the Welcoming :)
