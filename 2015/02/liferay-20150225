@@ -113,3 +113,4 @@
 10:14 < plekplek:#liferay> Yes, that would be preferable, in case of any changes made to it/new versions etc.
 10:15 < jardineworks:#liferay> plekplek, what about a situation where image01.png needs to be updated for Team A, but not Team D?
 10:15 < jardineworks:#liferay> do you make a copoy in that case?
+10:17 < plekplek:#liferay> It sounds like it would be logical to split the image into two separate in that case, and share them appropriately
