@@ -111,3 +111,4 @@
 10:12 < plekplek:#liferay> That is what made this Team specific folder approach seem easier. An admin would create shortcuts/copy/do something that makes those specific images become available for Team A in the folder that they have access to. Then any admin could view that team’s folder and immediately see what files they have access to, and be able to make quick changes.
 10:13 < jardineworks:#liferay> plekplek, agreed. The one thing I now understand that I didn't before was the fact that image01.png has a single instance where Team A and Team D might both have access to it. Right?
 10:14 < plekplek:#liferay> Yes, that would be preferable, in case of any changes made to it/new versions etc.
+10:15 < jardineworks:#liferay> plekplek, what about a situation where image01.png needs to be updated for Team A, but not Team D?
