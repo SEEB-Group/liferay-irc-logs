@@ -120,3 +120,4 @@
 10:20 < jardineworks:#liferay> read: you're not relying on Joe being at work to upload the files from his HDD for Team M :)
 10:23 < plekplek:#liferay> That would definitely be smoother. Symlinks would need management of the original document permissions, which kind of makes it impossible to manage in the long run.
 10:24 < plekplek:#liferay> I guess this approach requires some work with the Documents and Media portlet, making it possible to actually copy files from one place to another. Or can it be done some other way?
+10:25 < jardineworks:#liferay> plekplek, and very VERY complicated for Team A Manager to try to manage the files without affecting Team B
