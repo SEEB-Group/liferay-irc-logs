@@ -39,3 +39,4 @@
 07:55 < plekplek:#liferay> at least the class loader works nowadays :)
 08:00 < plekplek:#liferay> have you worked on any projects with high quantity document libraries? i’m trying to figure out a maintainable workflow for a handful of administrators to share access to specific files to specific users/teams
 08:03 < plekplek:#liferay> if handlign permissions for specific documents inside the library, it sounds like it would become hard to manage in the long run, especially with thousands of documents and thirty different teams
+08:05 < plekplek:#liferay> maybe another way would be to create specific team folders and then share the documents into those folders. it would be easy to check what documents each team has access to. however, that seems to require access to the original file, which would result in permission management for individual documents
