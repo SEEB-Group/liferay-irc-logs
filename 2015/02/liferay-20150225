@@ -73,3 +73,4 @@
 08:55 < billoul:#liferay> that's what i hope
 08:55 < plekplek:#liferay> could that be done using custom fields?
 08:55 < hufg:#liferay> you will use a hook to extend the existing portlet. now i have no clue how to extend the database and such but that's what your next how to
+08:55 < billoul:#liferay> hufg, Yea exactly
