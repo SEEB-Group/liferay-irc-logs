@@ -63,3 +63,4 @@
 08:46 < billoul:#liferay> hufg, :D
 08:47 < hufg:#liferay> takes some time but you will extend the existing portlet with a hook and overwrite corresponding jsp files but how to extend the db that i do not know but i've seen examples somewhere
 08:47 < hufg:#liferay> you just need to google a bit
+08:47 < hufg:#liferay> the hardest part of liferay is to how to find shit and once you get the hang of that it's not that bad
