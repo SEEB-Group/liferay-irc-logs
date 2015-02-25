@@ -130,3 +130,4 @@
 10:48 < jardineworks:#liferay> plekplek, I am looking at 6.2 EE... and I can see a shortcut (symlink) but I don't see a copy. Weird, I thought that existed. So you could check the marketplace for a plugin, otherwise you would have to role your own hooks to add a copy option/action to the Add menu
 10:48 < jardineworks:#liferay> shouldn't be too hard though... mostly copying the "Shortcut" action, but instead of linking, "getting" the file chosen, and then "adding" the file to the folder.
 10:58 < plekplek:#liferay> jardineworks: yes, that should be quite easy to implement. heh, i was also more or less assuming that the copy function existed. probably mixing it up with some other portlet. :)
+11:04 < plekplek:#liferay> but hey, thanks for the help! this was really helpful in ironing out the workflow. i’ll look into the implementation tomorrow
