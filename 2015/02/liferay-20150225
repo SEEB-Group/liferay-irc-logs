@@ -70,3 +70,4 @@
 08:52 < billoul:#liferay> hufg,
 08:54 < hufg:#liferay> so ok you need to show the image, you need to be able to specify the image, need to store the image, need to retrieve the image
 08:55 < billoul:#liferay> i have to display some news in my website, for each type (role) of subscribe poulation. well , Announcements portlet do this, but in the structur of this portlet there is no image file uplaod. I just need to add  this field and stored the url of my image in db + the image in assets folder
+08:55 < billoul:#liferay> that's what i hope
