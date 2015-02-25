@@ -117,3 +117,4 @@
 10:20 < jardineworks:#liferay> plekplek, I suppose that you could end up linking to a version of a document (though I have never tried to see if you can actually do that). Hmm... It feels like the simplest option for versioning etc. might be to have you master repo with all the images. Then, as you said, have a folder for each team. When a team gets access to an image, make a COPY of it for them so that each team has their own version. For me, this means that the
 10:20 < jardineworks:#liferay> files, versions, permissions etc, are all managed on a team by team basis and you don't have to worry about inheritace of permissions through sym links or anything.
 10:20 < jardineworks:#liferay> but having the master repo means that the "core files" are still part of the DL, managed by Liferay, version controlled, cached, etc.
+10:20 < jardineworks:#liferay> read: you're not relying on Joe being at work to upload the files from his HDD for Team M :)
