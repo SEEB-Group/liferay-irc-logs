@@ -35,3 +35,4 @@
 06:03 < hufg:#liferay> for 77 search portlet
 06:04 < hufg:#liferay> strust_action=/journal_content_search/search
 06:04 < hufg:#liferay> you need to use portletrenderurl api call to get p_p_auth token
+06:04 < hufg:#liferay> probably wont work otherwise
