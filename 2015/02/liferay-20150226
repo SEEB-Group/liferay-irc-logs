@@ -17,3 +17,4 @@
 03:54 < modd_:#liferay> does anyone know how to make a join with DynamicQuery. all that I can find is an "in".
 04:40 < CyberKatze:#liferay> hi all. can u tell me plz if it possible to change redirect search-result in specific page and do back-redirect to page before?
 05:30 < hufg:#liferay> i don't understand
+05:49 < CyberKatze:#liferay> i dont have portlets-placeholder on start page, and if i search something, than i dont see result. on all other pages it work fine. i need redirect result to specific page..
