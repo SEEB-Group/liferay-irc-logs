@@ -40,3 +40,4 @@
 06:05 < hufg:#liferay> then to add your search keyword use portlet namespace and param, for 77 search portlet --> _77_keywords=searchquery
 08:12 < bijoo_:#liferay> modd_: I've not seen a DynamicQuery join; use a prepared statement instead perhaps?
 08:12 < bijoo_:#liferay> http://www.liferay.com/community/forums/-/message_boards/message/10926083
+08:13 < bijoo_:#liferay> LR uses Prepared Statements for Joins
