@@ -44,3 +44,4 @@
 17:18 < dawn:#liferay> hi channel, I am working on a POC and needed to demo Microblogging capabilities in LR. So I am wondering if I can deploy Microblogs portlet (and any dependent portlets) from below LR plugins GIT repo.
 17:18 < dawn:#liferay> https://github.com/liferay/liferay-plugins/tree/6.2.x/portlets/microblogs-portlet
 17:23 < modd:#liferay> looks fine
+17:23 < modd:#liferay> just get the sources, put it into you sdk portlet folder, create new liferay project from existing source in your IDE, build the services, then the whole portlet
