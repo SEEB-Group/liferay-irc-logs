@@ -2,3 +2,16 @@
 01:31 < Axxell:#liferay> hi guys, the following problem: I have a custom role for a user, and i need the user to see roles in permissions when editing articles, the user cant see roles under permissions and i cant find the place where to give the role the right to se roles under permissions
 02:23 < twen:#liferay> 'morning
 03:10 < hufg:#liferay> a
+--- Log opened Thu Feb 26 03:21:37 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ] [ Bryanstein  ] [ jbub      ] [ Naenyn  ] [ sueastside  ] 
+03:21 [ [abeym] ] [ Gorith      ] [ josuebc   ] [ plekplek] [ Tar-Minyatur] 
+03:21 [ Axxell  ] [ henriquev   ] [ marcoceppi] [ quercus ] [ Tm_T        ] 
+03:21 [ bijoo   ] [ hufg        ] [ mcbonz    ] [ Reamer  ] [ twen        ] 
+03:21 [ billoul ] [ jardineworks] [ modd_     ] [ rochadt ] 
+03:21 -!- Irssi: #liferay: Total of 24 nicks [1 ops, 0 halfops, 0 voices, 23 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+03:54 < modd_:#liferay> does anyone know how to make a join with DynamicQuery. all that I can find is an "in".
