@@ -31,3 +31,4 @@
 06:02 < hufg:#liferay> then
 06:02 < hufg:#liferay> form with portlet render url to correct page and portlet, correct parameters
 06:02 < hufg:#liferay> for example
+06:03 < hufg:#liferay> p_p_state=maximized, p_p_mode=view, then invoke correct struts action
