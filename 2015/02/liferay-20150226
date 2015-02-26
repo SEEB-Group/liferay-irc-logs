@@ -43,3 +43,4 @@
 08:13 < bijoo_:#liferay> LR uses Prepared Statements for Joins
 17:18 < dawn:#liferay> hi channel, I am working on a POC and needed to demo Microblogging capabilities in LR. So I am wondering if I can deploy Microblogs portlet (and any dependent portlets) from below LR plugins GIT repo.
 17:18 < dawn:#liferay> https://github.com/liferay/liferay-plugins/tree/6.2.x/portlets/microblogs-portlet
+17:23 < modd:#liferay> looks fine
