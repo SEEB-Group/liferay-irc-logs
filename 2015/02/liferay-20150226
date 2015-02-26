@@ -1,0 +1,2 @@
+--- Log opened Thu Feb 26 00:00:02 2015
+01:31 < Axxell:#liferay> hi guys, the following problem: I have a custom role for a user, and i need the user to see roles in permissions when editing articles, the user cant see roles under permissions and i cant find the place where to give the role the right to se roles under permissions
