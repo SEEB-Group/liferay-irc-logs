@@ -38,3 +38,4 @@
 06:04 < hufg:#liferay> probably wont work otherwise
 06:04 < Cyberkatze_:#liferay> hm. ok... i try
 06:05 < hufg:#liferay> then to add your search keyword use portlet namespace and param, for 77 search portlet --> _77_keywords=searchquery
+08:12 < bijoo_:#liferay> modd_: I've not seen a DynamicQuery join; use a prepared statement instead perhaps?
