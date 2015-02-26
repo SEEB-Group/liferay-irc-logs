@@ -20,3 +20,4 @@
 05:49 < CyberKatze:#liferay> i dont have portlets-placeholder on start page, and if i search something, than i dont see result. on all other pages it work fine. i need redirect result to specific page..
 05:50 < hufg:#liferay> so uhuh you want to redirect search to some redirect page
 05:51 < hufg:#liferay> ok.com/front --> search --> ok.com/search with results
+05:51 < hufg:#liferay> ?
