@@ -46,3 +46,4 @@
 17:23 < modd:#liferay> looks fine
 17:23 < modd:#liferay> just get the sources, put it into you sdk portlet folder, create new liferay project from existing source in your IDE, build the services, then the whole portlet
 17:55 < dawn:#liferay> @modd: thank you! Will give it a try
+--- Log closed Fri Feb 27 00:00:36 2015
