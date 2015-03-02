@@ -58,3 +58,4 @@
 13:21 < modd:#liferay> but it was 0
 13:21 < modd:#liferay> nevermind ;)
 15:24 < dawn:#liferay> hi, I was able to successfully deploy Microblogs portlet (and few other that are needed to function) and wondering how to search the feed, Hashtags etc. Is there a OOTB plugin for this or I have to write my own.
+15:25 < dawn:#liferay> Microblogs Portlet is located here https://github.com/liferay/liferay-plugins/tree/6.2.x/portlets/microblogs-portlet
