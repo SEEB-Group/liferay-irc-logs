@@ -1,0 +1,43 @@
+--- Log opened Mon Mar 02 00:10:12 2015
+00:10 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+00:10 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+00:10 [Users #liferay]
+00:10 [@ChanServ] [ Bryanstein] [ henriquev ] [ Naenyn    ] [ Tar-Minyatur] 
+00:10 [ bijoo   ] [ doged     ] [ josuebc   ] [ rochadt   ] [ Tm_T        ] 
+00:10 [ bijoo_  ] [ Gorith    ] [ marcoceppi] [ sueastside] 
+00:10 -!- Irssi: #liferay: Total of 14 nicks [1 ops, 0 halfops, 0 voices, 13 normal]
+00:10 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+00:10 -!- Irssi: Join to #liferay was synced in 7 secs
+--- Log opened Mon Mar 02 00:12:44 2015
+00:12 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+00:12 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+00:12 [Users #liferay]
+00:12 [@ChanServ] [ bijoo__   ] [ Gorith   ] [ marcoceppi] [ sueastside  ] 
+00:12 [ bijoo   ] [ Bryanstein] [ henriquev] [ Naenyn    ] [ Tar-Minyatur] 
+00:12 [ bijoo_  ] [ doged     ] [ josuebc  ] [ rochadt   ] [ Tm_T        ] 
+00:12 -!- Irssi: #liferay: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+00:12 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+00:12 -!- Irssi: Join to #liferay was synced in 4 secs
+--- Log opened Mon Mar 02 03:13:31 2015
+03:13 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:13 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:13 [Users #liferay]
+03:13 [@ChanServ  ] [ doged    ] [ josuebc   ] [ rochadt     ] [ twen] 
+03:13 [ bijoo     ] [ goku_    ] [ marcoceppi] [ sueastside  ] 
+03:13 [ bijoo_    ] [ Gorith   ] [ Naenyn    ] [ Tar-Minyatur] 
+03:13 [ Bryanstein] [ henriquev] [ quercus   ] [ Tm_T        ] 
+03:13 -!- Irssi: #liferay: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+03:13 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:13 -!- Irssi: Join to #liferay was synced in 7 secs
+--- Log opened Mon Mar 02 03:21:44 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ doged    ] [ josuebc   ] [ quercus     ] [ Tm_T] 
+03:21 [ bijoo     ] [ goku_    ] [ marcoceppi] [ rochadt     ] [ twen] 
+03:21 [ bijoo_    ] [ Gorith   ] [ modd_     ] [ sueastside  ] 
+03:21 [ Bryanstein] [ henriquev] [ Naenyn    ] [ Tar-Minyatur] 
+03:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 7 secs
+03:41 < Axxell_:#liferay> Hey guys, im trying to make a portlet output a xml file as its response, using vaadin, anybody have a clue how to implement this?
