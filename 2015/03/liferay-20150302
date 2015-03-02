@@ -41,3 +41,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 7 secs
 03:41 < Axxell_:#liferay> Hey guys, im trying to make a portlet output a xml file as its response, using vaadin, anybody have a clue how to implement this?
+05:11 < Axxell_:#liferay> modd_ how about you? any ways you could point, how to output xml as a response from a portlet and nog let liferay output the theme around it
