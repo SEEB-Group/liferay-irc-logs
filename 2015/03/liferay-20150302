@@ -66,3 +66,4 @@
 16:42 < jardineworks:#liferay> jhf: ok
 16:44 < jardineworks:#liferay> jhf: So I have a working parallel processing thingee working. I have a scheduler configuration and then I spawn a whole bunch of destinations and other listeners etc. My test environment uses 5 nodes in a cluster config. I can see the scheduler running on, for eg. Node A, and only Node A (which I believe is the correct behaviour). When i shut down Node A, then one of the other nodes picks it up and everything is fine. QUESTIO
 16:44 < jardineworks:#liferay> run on more than one node?
+--- Log closed Tue Mar 03 00:00:42 2015
