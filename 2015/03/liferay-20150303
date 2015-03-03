@@ -21,3 +21,5 @@
 09:34 -!- mode/#liferay [+o jhf] by ChanServ
 09:49 < CyberKatze:#liferay> how can i embedded portlet (101 - asset publisher) in Theme and change default style with my ADT ? can't understand this :(
 09:50 < CyberKatze:#liferay> configuration button doesn't work :(
+10:50 <@jhf:#liferay> CyberKatze: have you tried this: (from google): http://gotofritz.tumblr.com/post/3784277807/how-to-include-an-assetpublisher-portlet-in-a
+10:50 <@jhf:#liferay> also what do you mean "change default style with my ADT" ?
