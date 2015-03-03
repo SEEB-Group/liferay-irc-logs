@@ -24,3 +24,4 @@
 10:50 <@jhf:#liferay> CyberKatze: have you tried this: (from google): http://gotofritz.tumblr.com/post/3784277807/how-to-include-an-assetpublisher-portlet-in-a
 10:50 <@jhf:#liferay> also what do you mean "change default style with my ADT" ?
 11:04 < CyberKatze:#liferay> i mean, i have own ADT style and will show it on home page
+11:05 <@jhf:#liferay> ADTs are not typically used to affect the style/theme of the entire page/portal
