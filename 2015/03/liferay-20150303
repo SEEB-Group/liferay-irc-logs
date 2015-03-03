@@ -18,3 +18,6 @@
 05:56 < CyberKatze:#liferay> :)
 08:56 < twen:#liferay> I should be dumb... I'm adding a Display template i Freemarker for a dynamic data list.. the default code for displaying the data find no record :-/
 08:56 < twen:#liferay> (there are 2 records in the data list)
+09:34 -!- mode/#liferay [+o jhf] by ChanServ
+09:49 < CyberKatze:#liferay> how can i embedded portlet (101 - asset publisher) in Theme and change default style with my ADT ? can't understand this :(
+09:50 < CyberKatze:#liferay> configuration button doesn't work :(
