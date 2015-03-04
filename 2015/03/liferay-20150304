@@ -125,3 +125,4 @@
 09:56 < twen:#liferay> From the page, I tried the 1st example com.liferay.portal.service.UserLocalServiceUtil.getUsersCount();... it returns 11
 09:56 < bijoo_:#liferay> jardineworks: okay, makes sense, good catch to double-check
 09:56 < twen:#liferay> there are only 4 users
+09:56 < twen:#liferay> :-/
