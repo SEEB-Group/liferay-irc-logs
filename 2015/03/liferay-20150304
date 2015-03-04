@@ -86,3 +86,4 @@
 09:46 < twen:#liferay> familiar with API, yes, now... I don't know what REST API exists for liferay
 09:47 < bijoo_:#liferay> twen: so it's not REST, but a scripting one there: 1) login as Admin user, 2) Control Panel, 3) Server Adminstration, 4) Script
 09:47 < bijoo_:#liferay> twen:  https://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/running-scripts-from-the-control-panel
+09:48 < jardineworks:#liferay> twen: bijoo_ ... there is a DLFileEntryType table in the database with a FileEntryTypeKey column... option to just do an update? and then trigger a reindex from the server administration section in the control panel?
