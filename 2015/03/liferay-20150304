@@ -149,3 +149,5 @@
 10:12 < twen:#liferay> happy.. I've to delete file one by one, as emptying the bin just crash liferay :-/
 10:46 < jardineworks:#liferay> bijoo_: http://pastebin.com/iP8WagFa
 12:31 < jardineworks:#liferay> damn you cache gods!
+12:54 < bijoo_:#liferay> jardineworks: I know; ehCache config can be tough. Do you have local cluster setup too?
+12:54 < bijoo_:#liferay> jardineworks: e.g. for testing purposes and such
