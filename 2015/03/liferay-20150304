@@ -19,3 +19,4 @@
 08:03 < jardineworks:#liferay> any pointers from anyone would be appreciated.
 08:05 < bijoo_:#liferay> jardineworks: hi there; I'm here now; what's going on?
 08:05 < bijoo_:#liferay> Oh okay I see the question :) one sec
+08:10 < jardineworks:#liferay> hey bijoo_ :) ... another thing I am wondering. The default cache has the properties -- properties="replicatePuts=false,replicateUpdatesViaCopy=false"
