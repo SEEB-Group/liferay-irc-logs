@@ -95,3 +95,4 @@
 09:50 < bijoo_:#liferay> twen: do you want to change for all of them?
 09:50 < bijoo_:#liferay> twen: per jardineworks you can do SQL
 09:50 < bijoo_:#liferay> twen: and reindex, it may be easier
+09:50 < bijoo_:#liferay> twen: so long as you're familiar with that; though I prefer the API myself; since there may be additional logic
