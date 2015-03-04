@@ -142,3 +142,4 @@
 10:01 < bijoo_:#liferay> twen: and inspect it on your local machine
 10:01 < twen:#liferay> I'm the only only person at the moment testing it... So I added users, deactived some, and deleted deactivated ones...
 10:02 < twen:#liferay> bijoo_ Thanks for the link, I'll save it for now :) But can be usefull
+10:03 < bijoo_:#liferay> twen: sure thing; other way is to iterate users; and check why it is counting 11
