@@ -114,3 +114,4 @@
 09:54 < bijoo_:#liferay> twen: yes exactly, the same is used here
 09:54 < jardineworks:#liferay> lol
 09:54 < bijoo_:#liferay> jardineworks: I had to look it up, little details ;)
+09:55 < bijoo_:#liferay> jardineworks: ehcache.multi.vm.config.location.peerProviderProperties=file=cache-ext/tcp.xml
