@@ -1,0 +1,13 @@
+--- Log opened Wed Mar 04 00:00:16 2015
+--- Log opened Wed Mar 04 03:21:28 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ doged    ] [ marcoceppi] [ rochadt     ] [ topolik] 
+03:21 [ bijoo     ] [ Gorith   ] [ Naenyn    ] [ sueastside  ] [ twen   ] 
+03:21 [ Bryanstein] [ henriquev] [ plekplek  ] [ Tar-Minyatur] 
+03:21 [ Cyberkatze] [ josuebc  ] [ quercus   ] [ Tm_T        ] 
+03:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 4 secs
+06:27 < Axxell:#liferay> Dont know if anyones there but, questiontime: Is there a way for articles to automaticly populate new structure fields? ie i put in a structure in use two new boolean fields, if i would want every article to fill the default value of unfilled structure fields, is there a way to do that?
