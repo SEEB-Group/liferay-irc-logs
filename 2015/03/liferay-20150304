@@ -57,3 +57,4 @@
 08:35 < bijoo_:#liferay> jardineworks: okay so unicast is more chatty; note 10x increase means 10x * number of nodes
 08:35 < bijoo_:#liferay> 10x * (number of nodes - 1)
 08:36 < bijoo_:#liferay> jardineworks: no I don't recall that it was, form stuff
+08:36 < bijoo_:#liferay> e.g. service builder entity cols
