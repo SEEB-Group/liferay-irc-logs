@@ -31,3 +31,4 @@
 08:23 < bijoo_:#liferay>       copied to other caches (true), or whether a remove message is sent. Defaults to true.
 08:23 < bijoo_:#liferay>     * replicateUpdates=true|false - whether new elements which override an
 08:23 < bijoo_:#liferay>       element already existing with the same key are replicated. Defaults to true.
+08:24 < jardineworks:#liferay> bijoo_: right --- saw all that, and now that I see only Lucene is replicating! ... and all the cache definitions have those set to false (why I would LOVE to know), I suspect that is the issue
