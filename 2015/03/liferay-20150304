@@ -131,3 +131,4 @@
 09:57 < bijoo_:#liferay> twen: also in case have multiple instance
 09:57 < twen:#liferay> as far as I created them myself ^^ well...
 09:58 < bijoo_:#liferay> twen: easiest way is to check the DB: select count(*) from User_
+09:58 < twen:#liferay> the server is in production for the last 2 weeks, and not yet open to our public :p
