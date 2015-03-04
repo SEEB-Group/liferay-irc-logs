@@ -45,3 +45,4 @@
 08:28 < bijoo_:#liferay> jardineworks: I'm interested in solving this too
 08:29 < bijoo_:#liferay> jardineworks: since last project we didn't have the time; to fully find the root cause of all that; so after a cycle and workaround; we just dropped it as known issue we have
 08:29 < bijoo_:#liferay> jardineworks: and we switched to sticky sessions as well
+08:29 < jardineworks:#liferay> bijoo_: so to fix the issue you modified the asychronousReplicationIntervalMillis?
