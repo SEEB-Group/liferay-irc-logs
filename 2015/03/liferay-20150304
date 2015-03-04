@@ -60,3 +60,4 @@
 08:36 < bijoo_:#liferay> e.g. service builder entity cols
 08:37 < jardineworks:#liferay> bijoo_: hmm... we only have 2 nodes, so the chattyness is not much of a concern. I modified the default cache and removed the properties. So they SHOULD be using the default values now... but still not seeing the ClusterBridgeMessageListener message in the log when I put something in the cache using the MultiVMPoolUtil.
 08:39 < bijoo_:#liferay> Axxell: do you mean retroactively fill them? e.g. after create the article? note can specify default structure vals
+08:40 < bijoo_:#liferay> jardineworks: are the object serializable too?
