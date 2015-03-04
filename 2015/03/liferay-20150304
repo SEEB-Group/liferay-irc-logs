@@ -88,3 +88,4 @@
 09:47 < bijoo_:#liferay> twen:  https://www.liferay.com/documentation/liferay-portal/6.1/user-guide/-/ai/running-scripts-from-the-control-panel
 09:48 < jardineworks:#liferay> twen: bijoo_ ... there is a DLFileEntryType table in the database with a FileEntryTypeKey column... option to just do an update? and then trigger a reindex from the server administration section in the control panel?
 09:48 < twen:#liferay> Oh ok.. I can execute directly there :) cool... However Is tere a "repositoryy where I could save scripts for later reference ?
+09:49 < bijoo_:#liferay> twen: not by default but with plugin you can : http://www.liferay.com/marketplace/-/mp/application/25618082
