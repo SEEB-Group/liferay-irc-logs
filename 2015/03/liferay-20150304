@@ -73,3 +73,4 @@
 09:41 < twen:#liferay> hi
 09:41 < twen:#liferay> Is there a way to give documents in Documet & Media another Document type ? Knowing I've 1700 documents to "move" :)
 09:43 < bijoo_:#liferay> twen: best way is through scripting; familiar?
+09:43 < bijoo_:#liferay> twen: no GUI way to do that as I know.
