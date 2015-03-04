@@ -71,3 +71,4 @@
 08:49 < bijoo_:#liferay> jardineworks: I'll look into it more and chat later; very interesting issue indeed :)!
 08:54 < jardineworks:#liferay> bijoo_: just a getCache call, no blocking. but internally, that call calls the getCache( "yourname", false)
 09:41 < twen:#liferay> hi
+09:41 < twen:#liferay> Is there a way to give documents in Documet & Media another Document type ? Knowing I've 1700 documents to "move" :)
