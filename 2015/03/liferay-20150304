@@ -39,3 +39,4 @@
 08:26 < jardineworks:#liferay> bijoo_: right -- but still, all those settings are true be default, but doesn't that make sense? if you are trying to keep the nodes in sync?
 08:26 < bijoo_:#liferay> jardineworks: I changed the frequency to help it ( caches *sometimes* didn't replicate well; after testing, I found 20%; by changing prop it went to 10th of that: asynchronousReplicationIntervalMillis)
 08:27 < bijoo_:#liferay> jardineworks: I think it's performance tradeoff type deal; jgroup's a very chatty protocol
+08:27 < jardineworks:#liferay> i suppose -- but th trade off is that you won't be in sync! lol
