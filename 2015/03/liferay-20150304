@@ -63,3 +63,4 @@
 08:40 < bijoo_:#liferay> jardineworks: are the object serializable too?
 08:40 < bijoo_:#liferay> jardineworks: i guess otherwise it wouldn't take it
 08:41 < jardineworks:#liferay> bijoo_: I'm just putting a String in the cache... put("key","test");
+08:45 < Axxell:#liferay> bijoo_: yup exactly what i mean!
