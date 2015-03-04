@@ -51,3 +51,4 @@
 08:31 < jardineworks:#liferay> bijoo_: but in order to get the replications to go you made sure the replicate* properties were all set to true?
 08:31 < bijoo_:#liferay> jardineworks: are you using multicasting for nodes?
 08:31 < bijoo_:#liferay> jardineworks: if I recall, the default values worked (although I tried each single combo too)
+08:32 < bijoo_:#liferay> although I tried each valid* combo too
