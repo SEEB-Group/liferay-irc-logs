@@ -103,3 +103,4 @@
 09:51 < twen:#liferay> now.. I only want to change the Document Type for only PDF file in this case
 09:51 < bijoo_:#liferay> jardineworks: didn't have to do that in properties?
 09:52 < twen:#liferay> for the API, the method called in Javascript, are exactly the same than from within Java, right ?
+09:52 < jardineworks:#liferay> bijoo_: right now I have -- 	ehcache.multi.vm.config.location=liferay-multi-vm-clustered.xml ... and then I have placed the file in ROOT/WEB-INF/classes/META-INF
