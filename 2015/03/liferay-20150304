@@ -69,3 +69,4 @@
 08:47 < bijoo_:#liferay> jardineworks: when you getCache are you doing blocking?
 08:48 < Axxell:#liferay> ok, thank you, might look into it later, so ill be in touch :)
 08:49 < bijoo_:#liferay> jardineworks: I'll look into it more and chat later; very interesting issue indeed :)!
+08:54 < jardineworks:#liferay> bijoo_: just a getCache call, no blocking. but internally, that call calls the getCache( "yourname", false)
