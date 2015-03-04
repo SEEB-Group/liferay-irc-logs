@@ -119,3 +119,4 @@
 09:55 < jardineworks:#liferay> bijoo_: yeah, but I am using ${catalina.home} for that one
 09:55 < twen:#liferay> good to know :) thanks
 09:55 < bijoo_:#liferay> twen: it may be easier through Groovy script; since javascript have to prepend "Packages."
+09:56 < jardineworks:#liferay> bijoo_: I was using /ehcache/liferay-multi-vm-clustered.xml... but using jvisual VM I couldn't see my custom cache in the MBeans -- so I think it wasn't loading my config, but the default one.
