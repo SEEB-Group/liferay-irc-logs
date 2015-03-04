@@ -48,3 +48,4 @@
 08:29 < jardineworks:#liferay> bijoo_: so to fix the issue you modified the asychronousReplicationIntervalMillis?
 08:30 < bijoo_:#liferay> jardineworks: yes, it controls how fast replication
 08:30 < bijoo_:#liferay> jardineworks: try changing to 100 or something (which is 10x fast as default hz)
+08:31 < jardineworks:#liferay> bijoo_: but in order to get the replications to go you made sure the replicate* properties were all set to true?
