@@ -96,3 +96,4 @@
 09:50 < bijoo_:#liferay> twen: per jardineworks you can do SQL
 09:50 < bijoo_:#liferay> twen: and reindex, it may be easier
 09:50 < bijoo_:#liferay> twen: so long as you're familiar with that; though I prefer the API myself; since there may be additional logic
+09:50 < twen:#liferay> jardineworks PLaying directly in the database on the production server... I will not do that ^^
