@@ -62,3 +62,4 @@
 08:39 < bijoo_:#liferay> Axxell: do you mean retroactively fill them? e.g. after create the article? note can specify default structure vals
 08:40 < bijoo_:#liferay> jardineworks: are the object serializable too?
 08:40 < bijoo_:#liferay> jardineworks: i guess otherwise it wouldn't take it
+08:41 < jardineworks:#liferay> bijoo_: I'm just putting a String in the cache... put("key","test");
