@@ -99,3 +99,4 @@
 09:50 < twen:#liferay> jardineworks PLaying directly in the database on the production server... I will not do that ^^
 09:51 < jardineworks:#liferay> bijoo_: cluster question again :)... where do you place your liferay-multi-vm-clustered.xml configuration file?
 09:51 < bijoo_:#liferay> jardineworks: i believe specified the location
+09:51 < jardineworks:#liferay> twen: I would certainly copoy the data from prod to a separate database and try it there first ...
