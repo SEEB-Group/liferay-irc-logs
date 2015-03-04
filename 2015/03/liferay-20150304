@@ -30,3 +30,4 @@
 08:23 < bijoo_:#liferay>     * replicatePutsViaCopy=true|false - whether the new elements are
 08:23 < bijoo_:#liferay>       copied to other caches (true), or whether a remove message is sent. Defaults to true.
 08:23 < bijoo_:#liferay>     * replicateUpdates=true|false - whether new elements which override an
+08:23 < bijoo_:#liferay>       element already existing with the same key are replicated. Defaults to true.
