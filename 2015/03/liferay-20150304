@@ -109,3 +109,4 @@
 09:53 < bijoo_:#liferay> jardineworks: ehcache.multi.vm.config.location=/cache-ext/liferay-multi-vm-clustered.xml
 09:53 < bijoo_:#liferay> jardineworks: in that case you want to specify this: /META-INF/liferay-multi-vm-clustered.xml
 09:54 < jardineworks:#liferay> oh jesus
+09:54 < jardineworks:#liferay> of course.
