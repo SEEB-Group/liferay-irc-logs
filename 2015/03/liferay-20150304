@@ -152,3 +152,4 @@
 12:54 < bijoo_:#liferay> jardineworks: I know; ehCache config can be tough. Do you have local cluster setup too?
 12:54 < bijoo_:#liferay> jardineworks: e.g. for testing purposes and such
 12:55 < bijoo_:#liferay> jardineworks: it's a good topic for Liferay dev.life
+12:55 < bijoo_:#liferay> jardineworks: to include the hibernate cache as well
