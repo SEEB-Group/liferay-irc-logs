@@ -107,3 +107,4 @@
 09:52 < jardineworks:#liferay> but I am getting a message at startup saying it's falling back to the failsaife version
 09:53 < bijoo_:#liferay> jardineworks: ROOT/WEB-INF/classes/cache-ext/
 09:53 < bijoo_:#liferay> jardineworks: ehcache.multi.vm.config.location=/cache-ext/liferay-multi-vm-clustered.xml
+09:53 < bijoo_:#liferay> jardineworks: in that case you want to specify this: /META-INF/liferay-multi-vm-clustered.xml
