@@ -155,3 +155,4 @@
 12:55 < bijoo_:#liferay> jardineworks: to include the hibernate cache as well
 13:10 < jardineworks:#liferay> bijoo_: I do have the local setup... I actually have 5 vvms running on my laptop. 3 Liferay servers (CE though, not EE), a separate database server and an apache proxy
 13:10 < jardineworks:#liferay> bijoo_: I just noticed in jVisualVM that my cache object has a status of UNINITIALIZED
+13:11 < jardineworks:#liferay> bijoo_: I just added an item and the status has changed to ALIVE
