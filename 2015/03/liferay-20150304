@@ -139,3 +139,4 @@
 10:00 < twen:#liferay> there is one portal instance, and 3 users (active), no inactive user.. or I have my other self playing when I'm sleeping ;)
 10:01 < bijoo_:#liferay> twen: not sure if you want to install plugins; but if you did, you could do following: https://www.liferay.com/marketplace/-/mp/application/24615790
 10:01 < bijoo_:#liferay> twen: also you can dump the DB /download
+10:01 < bijoo_:#liferay> twen: and inspect it on your local machine
