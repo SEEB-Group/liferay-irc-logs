@@ -47,3 +47,4 @@
 08:29 < bijoo_:#liferay> jardineworks: and we switched to sticky sessions as well
 08:29 < jardineworks:#liferay> bijoo_: so to fix the issue you modified the asychronousReplicationIntervalMillis?
 08:30 < bijoo_:#liferay> jardineworks: yes, it controls how fast replication
+08:30 < bijoo_:#liferay> jardineworks: try changing to 100 or something (which is 10x fast as default hz)
