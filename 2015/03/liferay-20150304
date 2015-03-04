@@ -117,3 +117,4 @@
 09:55 < bijoo_:#liferay> jardineworks: ehcache.multi.vm.config.location.peerProviderProperties=file=cache-ext/tcp.xml
 09:55 < bijoo_:#liferay> jardineworks: you have the tcp.xml I guess
 09:55 < jardineworks:#liferay> bijoo_: yeah, but I am using ${catalina.home} for that one
+09:55 < twen:#liferay> good to know :) thanks
