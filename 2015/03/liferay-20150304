@@ -18,3 +18,4 @@
 08:03 < jardineworks:#liferay> I enabled the ClusterBridgeMessageListener INFO level to see the chatter. If I add a page, then I see a cluste bridge message. But when I use the custom cache -- nadda.
 08:03 < jardineworks:#liferay> any pointers from anyone would be appreciated.
 08:05 < bijoo_:#liferay> jardineworks: hi there; I'm here now; what's going on?
+08:05 < bijoo_:#liferay> Oh okay I see the question :) one sec
