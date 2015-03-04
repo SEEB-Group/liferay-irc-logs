@@ -52,3 +52,4 @@
 08:31 < bijoo_:#liferay> jardineworks: are you using multicasting for nodes?
 08:31 < bijoo_:#liferay> jardineworks: if I recall, the default values worked (although I tried each single combo too)
 08:32 < bijoo_:#liferay> although I tried each valid* combo too
+08:34 < jardineworks:#liferay> bijoo_: I'm setup for unicast over TCP .. but it does work the nodes are communicating for the all the lucene stuff.
