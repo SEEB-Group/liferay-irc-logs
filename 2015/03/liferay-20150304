@@ -102,3 +102,4 @@
 09:51 < jardineworks:#liferay> twen: I would certainly copoy the data from prod to a separate database and try it there first ...
 09:51 < twen:#liferay> now.. I only want to change the Document Type for only PDF file in this case
 09:51 < bijoo_:#liferay> jardineworks: didn't have to do that in properties?
+09:52 < twen:#liferay> for the API, the method called in Javascript, are exactly the same than from within Java, right ?
