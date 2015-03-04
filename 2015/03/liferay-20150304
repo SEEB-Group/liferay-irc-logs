@@ -123,3 +123,4 @@
 09:56 < bijoo_:#liferay> twen: but do whichever you like to script more
 09:56 < jardineworks:#liferay> the one from the portal-impl
 09:56 < twen:#liferay> From the page, I tried the 1st example com.liferay.portal.service.UserLocalServiceUtil.getUsersCount();... it returns 11
+09:56 < bijoo_:#liferay> jardineworks: okay, makes sense, good catch to double-check
