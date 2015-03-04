@@ -27,3 +27,4 @@
 08:17 < jardineworks:#liferay> which makes me think that only items that are going into Lucene are actually replicating. I'm going to try removing those false properties.
 08:23 < bijoo_:#liferay>   * replicatePuts=true|false - whether new elements placed in a cache are
 08:23 < bijoo_:#liferay>       replicated to others. Defaults to true.
+08:23 < bijoo_:#liferay>     * replicatePutsViaCopy=true|false - whether the new elements are
