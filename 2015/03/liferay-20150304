@@ -26,3 +26,4 @@
 08:16 < jardineworks:#liferay> also just noticed something. The logging statement shows -- 00:20:28,913 INFO  [liferay/search_writer/SYSTEM_ENGINE-3][ClusterBridgeMessageListener:52] Bridging cluster link multicast message {destinationName=liferay/search_writer/SYSTEM_ENGINE
 08:17 < jardineworks:#liferay> which makes me think that only items that are going into Lucene are actually replicating. I'm going to try removing those false properties.
 08:23 < bijoo_:#liferay>   * replicatePuts=true|false - whether new elements placed in a cache are
+08:23 < bijoo_:#liferay>       replicated to others. Defaults to true.
