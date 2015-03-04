@@ -14,3 +14,4 @@
 07:51 < jardineworks:#liferay> hey topolik or bijoo .. are either of you around for a questions?
 07:51 < jardineworks:#liferay> just one actually.
 07:51 < jardineworks:#liferay> :)
+08:02 < jardineworks:#liferay> I have a clustered environment (EE). One of the portlets is using the MultiVMPoolUtil to get a cache object and put something in it. This cache object is nto explicitly defined in the hibernate-multi-vm-cluster.xml file, so my understanding is it uses the default cache settings and is created automagically. That all works. However, items that are placed into this cache are not being replicated in the cluster.
