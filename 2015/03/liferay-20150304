@@ -34,3 +34,8 @@
 08:24 < jardineworks:#liferay> bijoo_: right --- saw all that, and now that I see only Lucene is replicating! ... and all the cache definitions have those set to false (why I would LOVE to know), I suspect that is the issue
 08:24 < jardineworks:#liferay> trying it now...
 08:24 < bijoo_:#liferay> jardineworks: http://grepcode.com/file/repo1.maven.org/maven2/net.sf.ehcache/ehcache-core/1.7.0/ehcache-failsafe.xml?av=f
+08:24 < bijoo_:#liferay> jardineworks: it's since other props defaulting to true
+08:25 < bijoo_:#liferay> jardineworks: the configuration is real confusing; I was faching similar issue too; though it's been several months since that time
+08:26 < jardineworks:#liferay> bijoo_: right -- but still, all those settings are true be default, but doesn't that make sense? if you are trying to keep the nodes in sync?
+08:26 < bijoo_:#liferay> jardineworks: I changed the frequency to help it ( caches *sometimes* didn't replicate well; after testing, I found 20%; by changing prop it went to 10th of that: asynchronousReplicationIntervalMillis)
+08:27 < bijoo_:#liferay> jardineworks: I think it's performance tradeoff type deal; jgroup's a very chatty protocol
