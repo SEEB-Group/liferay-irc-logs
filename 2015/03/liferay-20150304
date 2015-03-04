@@ -42,3 +42,4 @@
 08:27 < jardineworks:#liferay> i suppose -- but th trade off is that you won't be in sync! lol
 08:27 < jardineworks:#liferay> whcih is a problem when you have session replication enabled with round-robin proxy load :)
 08:27 < bijoo_:#liferay> jardineworks: it depends on how you use cache I guess
+08:28 < bijoo_:#liferay> jardineworks: I'm interested in solving this too
