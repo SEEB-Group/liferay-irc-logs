@@ -22,3 +22,4 @@
 08:10 < jardineworks:#liferay> hey bijoo_ :) ... another thing I am wondering. The default cache has the properties -- properties="replicatePuts=false,replicateUpdatesViaCopy=false"
 08:10 < jardineworks:#liferay> which seems weird to me. Based on ehcache documentation, I would think that these have to be TRUE to communicate changes across the cluster
 08:14 < bijoo_:#liferay> jardineworks: I have to look at this later today; heading out at moment, but have questions: 1) please pastebin hibernate-multi-vm-cluster.xml, 2) please pastebin snippet of code along with context (package + classname + method where the cache is being used)
+08:15 < jardineworks:#liferay> bijoo_:  ok -- sure, I'll paste it in here shortly
