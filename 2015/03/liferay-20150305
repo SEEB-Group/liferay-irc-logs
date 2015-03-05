@@ -72,3 +72,4 @@
 17:26 < plekplek:#liferay> damn, i really need to wrap my head around these action hooks. duplicating the move entries action and creating a method that just adds files as new file entries should have been quite doable.
 17:53 < jardineworks:#liferay> plekplek, is it a struts action hook?
 17:53 < jardineworks:#liferay> that you are overriding?
+17:55 < plekplek:#liferay> yes, and the pre-existing actions are initialized by liferay.fire() events
