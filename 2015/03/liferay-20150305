@@ -84,3 +84,4 @@
 18:06 < jardineworks:#liferay> you have an originalStrustAction ... you can execute the original action right out the gate (assuming you want to do everything it does today, but ADD funcionality) and then when it returns, implement your logic
 18:07 < jardineworks:#liferay> plekplek, alternatively, if you are not "overriding" an action but adding one, you can create your own StrutsAction hook and use the /c/ at the front of it to tell Liferay that this is a "global" struts action... kinda like /c/portal/login
 18:08 < jardineworks:#liferay> but there is a property in the portal-ext that you need to look at if you want to make it available for "guest" users... in your case I don't believe that is the case, you're in the document library right?
+18:11 < plekplek:#liferay> yes, the action url could for instance be document_library/copy_entry
