@@ -74,3 +74,4 @@
 17:53 < jardineworks:#liferay> that you are overriding?
 17:55 < plekplek:#liferay> yes, and the pre-existing actions are initialized by liferay.fire() events
 17:55 < plekplek:#liferay> i.e. taglibURL = "javascript:Liferay.fire('" + renderResponse.getNamespace() + "editEntry', {action: '" + Constants.MOVE + "'}); void(0);";
+17:56 < plekplek:#liferay> not sure if i should be creating the action the same way. haven’t successfully linked it to the correct struts action yet
