@@ -80,3 +80,4 @@
 18:04 < jardineworks:#liferay> :)
 18:05 < jardineworks:#liferay> plekplek, easier than that my friend because Liferay loves you.
 18:05 < jardineworks:#liferay> plekplek, you create a StrutsAction hook... providing the class to override (eg. EditAction) and the struts action path /journal/edit or whaetver)
+18:06 < jardineworks:#liferay> then in your custom action class...
