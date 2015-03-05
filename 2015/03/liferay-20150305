@@ -70,3 +70,5 @@
 16:21 < jardineworks:#liferay> ou they do! custom fields!
 16:25 < plekplek:#liferay> aah, never thought about that! will definitely come handy some day
 17:26 < plekplek:#liferay> damn, i really need to wrap my head around these action hooks. duplicating the move entries action and creating a method that just adds files as new file entries should have been quite doable.
+17:53 < jardineworks:#liferay> plekplek, is it a struts action hook?
+17:53 < jardineworks:#liferay> that you are overriding?
