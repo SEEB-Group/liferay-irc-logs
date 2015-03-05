@@ -46,3 +46,4 @@
 12:22 < bijoo_:#liferay> jardineworks: fantastic, thanks for shedding light on that.
 12:22 < jardineworks:#liferay> jhf: can we talk about distributed applications?!
 12:22 < jardineworks:#liferay> bijoo_: it was hell. I was deep in the bowels of both Liferay and JGroups until about 9pm (EST) last night.
+12:23 < jardineworks:#liferay> bijoo_: basically configuration problems. The shitty part was that it LOOKED like it was working at startup because I was getting those big chunks of logging talking about the channel creation. A closer inspection though and I realized that it was FAILING to load my configuration and using the defaults provided by jgroups!
