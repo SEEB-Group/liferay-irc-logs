@@ -53,3 +53,4 @@
 12:25 < jardineworks:#liferay> Liferay has made me a much better developer. I don't think I have read as much code in my entire career as I have in the last 3 - 4 years :)
 13:39 < bijoo_:#liferay> jardineworks: haha, that's cool; so port was not correct?
 13:39 < bijoo_:#liferay> jardineworks: me too, especially Service Builder
+13:40 < bijoo_:#liferay> jardineworks: I hope we find ways to update Liferay; e.g. to improve dev cycle and all; annotations instead of xml (e.g. service.xml option)
