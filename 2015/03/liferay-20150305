@@ -93,3 +93,4 @@
 18:32 < plekplek:#liferay> jardineworks, non-existing :)
 18:32 < plekplek:#liferay> there is a copy journal article action /journal/copy_entry i think
 18:40 < jardineworks:#liferay> plekplek, ok .. so you have a JSP hook that adds the button right?
+18:42 < plekplek:#liferay> yes, i hooked to the toolbar.js and added it there
