@@ -68,3 +68,4 @@
 16:18 < plekplek:#liferay> jardineworks: would it work if you make the modules update the name of an html or body css class? i.e html.module1 .border
 16:20 < jardineworks:#liferay> plekplek, possibly... but it would be better if the portlet didn't do that. It's applicable in THIS instance, but if I deploy that portlet somewhere else it might not be right? I would rather have something at the page level maybe that I can set... Do layouts have expando values?
 16:21 < jardineworks:#liferay> ou they do! custom fields!
+16:25 < plekplek:#liferay> aah, never thought about that! will definitely come handy some day
