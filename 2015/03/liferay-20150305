@@ -69,3 +69,4 @@
 16:20 < jardineworks:#liferay> plekplek, possibly... but it would be better if the portlet didn't do that. It's applicable in THIS instance, but if I deploy that portlet somewhere else it might not be right? I would rather have something at the page level maybe that I can set... Do layouts have expando values?
 16:21 < jardineworks:#liferay> ou they do! custom fields!
 16:25 < plekplek:#liferay> aah, never thought about that! will definitely come handy some day
+17:26 < plekplek:#liferay> damn, i really need to wrap my head around these action hooks. duplicating the move entries action and creating a method that just adds files as new file entries should have been quite doable.
