@@ -35,3 +35,4 @@
 12:18 < jardineworks:#liferay> but I am coming across this quite a bit -- this client uses the portal instance model A LOT.
 12:19 <@jhf:#liferay> ok start it here: https://www.liferay.com/community/forums/-/message_boards/category/1108052
 12:19 < bijoo_:#liferay> jardineworks: haha, I found the same irritating; did you tame the caching issue you had? Sorry I was too tired to test it; though in my heart I want to find the root.
+12:19 < bijoo_:#liferay> jardineworks: plus can easily override the page: error.jsp
