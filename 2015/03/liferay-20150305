@@ -48,3 +48,4 @@
 12:22 < jardineworks:#liferay> bijoo_: it was hell. I was deep in the bowels of both Liferay and JGroups until about 9pm (EST) last night.
 12:23 < jardineworks:#liferay> bijoo_: basically configuration problems. The shitty part was that it LOOKED like it was working at startup because I was getting those big chunks of logging talking about the channel creation. A closer inspection though and I realized that it was FAILING to load my configuration and using the defaults provided by jgroups!
 12:23 < jardineworks:#liferay> but then I figured it out... and saw one beautiful line of logging
+12:24 < jardineworks:#liferay> 16:20:00,720 INFO  [Incoming-11,shared=yp_cache][DebuggingClusterEventListenerImpl:57] Cluster event JOIN_Cluster node {clusterNodeId=6a346e3f-b459-4d00-8fe1-ad9b86903706, inetAddress=/192.168.56.113, port=-1} [Sanitized]
