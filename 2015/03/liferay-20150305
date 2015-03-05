@@ -37,3 +37,8 @@
 12:19 < bijoo_:#liferay> jardineworks: haha, I found the same irritating; did you tame the caching issue you had? Sorry I was too tired to test it; though in my heart I want to find the root.
 12:19 < bijoo_:#liferay> jardineworks: plus can easily override the page: error.jsp
 12:19 < bijoo_:#liferay> jardineworks: only if you want custom theme, need more.
+12:21 < bijoo_:#liferay> layout.friendly.url.page.not.found=/errors/redirectToError.jsp ?
+12:21 < jardineworks:#liferay> bijoo_: each instance has a custom theme of course because they are all individual applications.
+12:21 < jardineworks:#liferay> bijoo_: I finished the  final touches on the ehcache replication using TCP unicast this morning.
+12:21 < jardineworks:#liferay> works like a cahrm
+12:21 < bijoo_:#liferay> jardineworks: okay, then yes, it is not straightforward.
