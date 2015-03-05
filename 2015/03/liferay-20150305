@@ -87,3 +87,4 @@
 18:11 < plekplek:#liferay> yes, the action url could for instance be document_library/copy_entry
 18:25 < jardineworks:#liferay> plekplek, so that its the struts config mapping?
 18:25 < jardineworks:#liferay> existing I mean, or you are adding it?
+18:25 < jardineworks:#liferay> existing I think right?
