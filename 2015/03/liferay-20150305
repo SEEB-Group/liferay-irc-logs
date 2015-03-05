@@ -77,3 +77,4 @@
 17:56 < plekplek:#liferay> not sure if i should be creating the action the same way. haven’t successfully linked it to the correct struts action yet
 18:02 < plekplek:#liferay> since i’m really adding a new struts action, i guess the action path needs to be added to the struts-config.xml and the jsp mapping to the tiles-defs.xml
 18:04 < jardineworks:#liferay> plekplek, nope!
+18:04 < jardineworks:#liferay> :)
