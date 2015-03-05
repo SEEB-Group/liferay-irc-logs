@@ -28,3 +28,4 @@
 12:12 < jardineworks:#liferay> personal gripe. Everything in the PropsValues should use PrefsPropsUtil with the company id.. instead of the propsutil.
 12:12 < jardineworks:#liferay> jhf: how do I get that one in the next release? :)
 12:14 <@jhf:#liferay> jardineworks: imlpement it and issue a pull request :)
+12:14 <@jhf:#liferay> but before that I'd recommend starting a thread on the forums
