@@ -59,3 +59,4 @@
 14:44 < d0nkeyBOB:#liferay> Trying to test services and everything i've found, dopesn't work correctly
 14:44 < d0nkeyBOB:#liferay> doesn't*
 15:31 < bijoo_:#liferay> plekplek: no, but facing any issues with that right now?
+15:37 < jardineworks:#liferay> bijoo_, agreed, though I am not totally opposed to XML files. I mean, the annotations make is SUPER EASY and quick to add things you forget, and they're clean -- but the one thing that you lose is the "centralized" configuration. For example, a Spring beans configuration using XML is still my preference to chasing down annotations :)
