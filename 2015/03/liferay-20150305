@@ -32,3 +32,4 @@
 12:15 <@jhf:#liferay> because it might already be in the works, OR someone might have a better idea or feedback on yours :)
 12:17 < jardineworks:#liferay> jhf: it's not small job .. I think that is probably why it hasn;t been done yet lol
 12:18 < jardineworks:#liferay> jhf: but I will start a thread to see what people think. Right now I can only think of two options. 1. use the proxy to redirect based on the host. 2. use a struts action hook that will redirect to a page based on the company.
+12:18 < jardineworks:#liferay> but I am coming across this quite a bit -- this client uses the portal instance model A LOT.
