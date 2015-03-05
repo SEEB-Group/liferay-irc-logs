@@ -50,3 +50,4 @@
 12:23 < jardineworks:#liferay> but then I figured it out... and saw one beautiful line of logging
 12:24 < jardineworks:#liferay> 16:20:00,720 INFO  [Incoming-11,shared=yp_cache][DebuggingClusterEventListenerImpl:57] Cluster event JOIN_Cluster node {clusterNodeId=6a346e3f-b459-4d00-8fe1-ad9b86903706, inetAddress=/192.168.56.113, port=-1} [Sanitized]
 12:24 < jardineworks:#liferay> almost shed a little tear when I saw that
+12:25 < jardineworks:#liferay> Liferay has made me a much better developer. I don't think I have read as much code in my entire career as I have in the last 3 - 4 years :)
