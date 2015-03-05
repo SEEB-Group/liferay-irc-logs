@@ -25,3 +25,4 @@
 10:44 < twen:#liferay> (hello)
 12:11 < jardineworks:#liferay> seriously? Liferay supports multi-instance, but the page not found friendly url is not company specific?
 12:11 < jardineworks:#liferay> fail.
+12:12 < jardineworks:#liferay> personal gripe. Everything in the PropsValues should use PrefsPropsUtil with the company id.. instead of the propsutil.
