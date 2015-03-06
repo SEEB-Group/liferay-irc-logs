@@ -73,3 +73,4 @@
 11:57 < jardineworks:#liferay> so I like it
 11:58 < jardineworks:#liferay> and it'll be even better when the ability to auto-mock Request objets is added.
 12:03 < d0nkeyBOB:#liferay> ah. i saw something about but didn't know if it helped. thanks
+14:09 < jardineworks:#liferay> has anyone every added a spring configuration to a LiferayMVC Portlet that uses the auto-scan to pick up the bean definitions?
