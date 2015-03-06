@@ -20,3 +20,4 @@
 09:43 < jardineworks:#liferay> d0nkeyBOB, are your unit tests part of the same portlet plugin project?
 09:43 < jardineworks:#liferay> maven or ant?
 09:44 < d0nkeyBOB:#liferay> Using Maven. When I used the Liferay archetype, it creates it as a portal project
+09:44 < jardineworks:#liferay> yo uused the maven archetype for a servicebuilder portlet though right?
