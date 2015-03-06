@@ -16,3 +16,4 @@
 09:40 < d0nkeyBOB:#liferay> correct. create a custom service and I want to run some test on the crud methods. all documentation i've seen hasn't been working
 09:40 < jardineworks:#liferay> some tests as in unit tests?
 09:41 < d0nkeyBOB:#liferay> correct. integration tests more likely though. just want to test that my methods read and write correctly
+09:43 < d0nkeyBOB:#liferay> tried the InitUtil.initWithSpring(); examples, mockito etc. can't get a successfull add of a record. just didn't know if i'm doing it wrong
