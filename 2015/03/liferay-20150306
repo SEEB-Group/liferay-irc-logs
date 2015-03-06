@@ -83,3 +83,5 @@
 14:47 < jardineworks:#liferay> but I was hoping to find a way to do it with annotations for my fellow co-workers who are spring junkies.
 14:48 < jardineworks:#liferay> but I can't get the component-scan to work... and I can't find anything online. As soon as you put Liferay, Spring and Portlet together... everything is a Spring MVC portlet for Liferay, rather than a LiferayMVC portlet WITH spring :)
 14:49 <@jhf:#liferay> that sounds terrible.. whatever it means ;-)
+16:36 < bunbury:#liferay> hello all
+16:36 < bunbury:#liferay> is liferay deployable on tomcat 8 ?
