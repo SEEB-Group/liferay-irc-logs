@@ -69,3 +69,6 @@
 11:40 < jardineworks:#liferay> usually I mock
 11:40 < jardineworks:#liferay> except for the portal services... I'm starting to use arquillian for those
 11:42 < d0nkeyBOB:#liferay> i just saw an article about that. does it help?
+11:57 < jardineworks:#liferay> its saves me from having to mock all the portal services.
+11:57 < jardineworks:#liferay> so I like it
+11:58 < jardineworks:#liferay> and it'll be even better when the ability to auto-mock Request objets is added.
