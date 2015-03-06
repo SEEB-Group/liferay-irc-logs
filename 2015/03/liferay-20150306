@@ -44,3 +44,4 @@
 10:11 < jardineworks:#liferay> d0nkeyBOB, can you send me your project?
 10:13 < d0nkeyBOB:#liferay> eh, not really. its a large company code base.
 10:13 < d0nkeyBOB:#liferay> sorry
+10:14 < d0nkeyBOB:#liferay> the workflow is to just create a service, then test crud functioning on that service
