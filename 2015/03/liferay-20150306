@@ -85,3 +85,4 @@
 14:49 <@jhf:#liferay> that sounds terrible.. whatever it means ;-)
 16:36 < bunbury:#liferay> hello all
 16:36 < bunbury:#liferay> is liferay deployable on tomcat 8 ?
+16:45 < jardineworks:#liferay> bunbury, is tomcat 8 supposed to run with java 8? (I've gotten it going on the latest version of tomcat 7, but have not tried 8)
