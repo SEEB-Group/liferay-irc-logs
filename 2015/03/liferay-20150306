@@ -76,3 +76,8 @@
 14:09 < jardineworks:#liferay> has anyone every added a spring configuration to a LiferayMVC Portlet that uses the auto-scan to pick up the bean definitions?
 14:27 < jardineworks:#liferay> jhf, have you ever tried using spring annotations in a LiferayMVC portlet?
 14:44 <@jhf:#liferay> nope - I have never seriously used spring for anything :(
+14:47 < jardineworks:#liferay> jhf, boo. I have it working for the regular xml defintion file .. pretty cool, there is a SpringHotDeployListener tht runs for portlets. You add 	<context-param>
+14:47 < jardineworks:#liferay> 		<param-name>portalContextConfigLocation</param-name>
+14:47 < jardineworks:#liferay> 		<param-value>WEB-INF/classes/META-INF/mybeans-spring.xml</param-value>
+14:47 < jardineworks:#liferay> 	</context-param> to your web.xml and then you can use the PortalBeanLocatorUtil to get the beans out of the bean factory
+14:47 < jardineworks:#liferay> but I was hoping to find a way to do it with annotations for my fellow co-workers who are spring junkies.
