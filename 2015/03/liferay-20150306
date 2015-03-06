@@ -66,3 +66,4 @@
 11:18 < d0nkeyBOB:#liferay> think its because the methods are not avaiable
 11:31 < d0nkeyBOB:#liferay> looking at it now, seems like the object returned is null
 11:34 < d0nkeyBOB:#liferay> quick question . . .would you Mock the service or run a spring instance to test?
+11:40 < jardineworks:#liferay> usually I mock
