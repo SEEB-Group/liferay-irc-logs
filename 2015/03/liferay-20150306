@@ -24,3 +24,4 @@
 09:44 < d0nkeyBOB:#liferay> yep
 09:45 < jardineworks:#liferay> so you have two modules? one with a -portlet-portlet and the other with -portlet-service?
 09:45 < d0nkeyBOB:#liferay> though the service will be independent of any gui portlet
+09:45 < jardineworks:#liferay> ok -- and your unit tests are in the -portlet-portlet module right?
