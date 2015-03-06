@@ -89,3 +89,4 @@
 16:45 < jardineworks:#liferay> because if tomcat 8 is supposed to be for java 8... then probably not. At least, java 8 is not officially supported by Liferay yet
 16:46 -!- mode/#liferay [+o jhf] by ChanServ
 16:46 < bunbury:#liferay> tomcat 8 can run with java 7
+16:47 < bunbury:#liferay> the web tech is updated
