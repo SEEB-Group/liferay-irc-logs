@@ -15,3 +15,4 @@
 09:34 < jardineworks:#liferay> d0nkeyBOB, can you provide a little more detail? when you say services you mean custom service builder stuff?
 09:40 < d0nkeyBOB:#liferay> correct. create a custom service and I want to run some test on the crud methods. all documentation i've seen hasn't been working
 09:40 < jardineworks:#liferay> some tests as in unit tests?
+09:41 < d0nkeyBOB:#liferay> correct. integration tests more likely though. just want to test that my methods read and write correctly
