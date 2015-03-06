@@ -42,3 +42,4 @@
 10:06 < d0nkeyBOB:#liferay> i've tried examples like this one -> http://blog.open.gr/2014/06/plugin-unit-testing-in-liferay-6-2/
 10:10 < d0nkeyBOB:#liferay> then i get messages like this "infinite loop in property interpolation of -contents"
 10:11 < jardineworks:#liferay> d0nkeyBOB, can you send me your project?
+10:13 < d0nkeyBOB:#liferay> eh, not really. its a large company code base.
