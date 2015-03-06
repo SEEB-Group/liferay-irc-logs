@@ -50,3 +50,4 @@
 10:22 < jardineworks:#liferay> can you share the service.xml entity definition at least?
 10:22 < jardineworks:#liferay> the way you create the entity in your unit test is a little unorthodox.
 10:22 < jardineworks:#liferay> but I would expect the failure to generate an exception
+10:23 < jardineworks:#liferay> not just assert to false.
