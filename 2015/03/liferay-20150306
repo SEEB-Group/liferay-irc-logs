@@ -46,3 +46,4 @@
 10:13 < d0nkeyBOB:#liferay> sorry
 10:14 < d0nkeyBOB:#liferay> the workflow is to just create a service, then test crud functioning on that service
 10:15 < d0nkeyBOB:#liferay> the funny thing is, i can make "getall" type calls and its works, but when i do an add data type function, it fails
+10:16 < d0nkeyBOB:#liferay> i get a null response and getall doesn't return anything
