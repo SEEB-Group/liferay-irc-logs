@@ -13,3 +13,4 @@
 09:16 < d0nkeyBOB:#liferay> Has anybody had success in testing their custom services?
 09:16 < d0nkeyBOB:#liferay> trying to do integration tests, but not having a good time
 09:34 < jardineworks:#liferay> d0nkeyBOB, can you provide a little more detail? when you say services you mean custom service builder stuff?
+09:40 < d0nkeyBOB:#liferay> correct. create a custom service and I want to run some test on the crud methods. all documentation i've seen hasn't been working
