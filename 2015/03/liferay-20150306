@@ -86,3 +86,4 @@
 16:36 < bunbury:#liferay> hello all
 16:36 < bunbury:#liferay> is liferay deployable on tomcat 8 ?
 16:45 < jardineworks:#liferay> bunbury, is tomcat 8 supposed to run with java 8? (I've gotten it going on the latest version of tomcat 7, but have not tried 8)
+16:45 < jardineworks:#liferay> because if tomcat 8 is supposed to be for java 8... then probably not. At least, java 8 is not officially supported by Liferay yet
