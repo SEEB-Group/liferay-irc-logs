@@ -59,3 +59,4 @@
 10:51 < jardineworks:#liferay> plekplek, any luck with that hook last night?
 11:03 -!- mode/#liferay [+o jhf] by ChanServ
 11:06 < d0nkeyBOB:#liferay> hi, new problem . . . .java.lang.AssertionError on the first notNull
+11:06 < d0nkeyBOB:#liferay> Assert.assertNotNull(connection) and assertNotNull(connection) don't work
