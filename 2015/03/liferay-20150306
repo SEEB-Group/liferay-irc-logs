@@ -36,3 +36,5 @@
 09:49 < d0nkeyBOB:#liferay> brb
 09:50 < jardineworks:#liferay> but the test is failing?
 09:50 < jardineworks:#liferay> can you show me your service.xml?
+10:04 < d0nkeyBOB:#liferay> back. the main problem that i'm having is just the intialization of the test within my environment. with this particuler test.
+10:05 < d0nkeyBOB:#liferay> the service works fine outside of the test
