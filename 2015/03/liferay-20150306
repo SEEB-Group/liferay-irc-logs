@@ -61,3 +61,5 @@
 11:06 < d0nkeyBOB:#liferay> hi, new problem . . . .java.lang.AssertionError on the first notNull
 11:06 < d0nkeyBOB:#liferay> Assert.assertNotNull(connection) and assertNotNull(connection) don't work
 11:06 < d0nkeyBOB:#liferay> using junit4
+11:07 -!- mode/#liferay [+o _jhf_] by ChanServ
+11:13 < jardineworks:#liferay> d0nkeyBOB, don't work as is those objects are in fact null? or don't work as in those methods are not available?
