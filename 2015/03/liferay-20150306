@@ -40,3 +40,4 @@
 10:05 < d0nkeyBOB:#liferay> the service works fine outside of the test
 10:05 < d0nkeyBOB:#liferay> but just running test on the add aof the connection
 10:06 < d0nkeyBOB:#liferay> i've tried examples like this one -> http://blog.open.gr/2014/06/plugin-unit-testing-in-liferay-6-2/
+10:10 < d0nkeyBOB:#liferay> then i get messages like this "infinite loop in property interpolation of -contents"
