@@ -151,3 +151,4 @@
 14:20 < jardineworks:#liferay> what happens in... the manager app is accessed by the user you confgure in your tomcat-users.xml file. The portal is started and then you tests are executed against a running environment -- no mocking required. You plugins are deployed, tests run, plugins undeployed.
 14:20 < jardineworks:#liferay> d0nkeyBOB, no, I downloaded it separately and installed it
 14:20 < jardineworks:#liferay> (just drop it into the webapps folder and restart)
+14:20 < d0nkeyBOB:#liferay> cool
