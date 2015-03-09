@@ -204,3 +204,4 @@
 15:33 < d0nkeyBOB:#liferay>         assertTrue(true);
 15:33 < d0nkeyBOB:#liferay>     }
 15:33 < d0nkeyBOB:#liferay> }
+15:34 < jardineworks:#liferay> and with those other pom changes, you are able to resolve the Arquillian.class as an import right?
