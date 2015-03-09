@@ -58,3 +58,6 @@
 11:58 < jardineworks:#liferay> so that it gets placed into your local repo.
 11:58 < jardineworks:#liferay> in your project pom.xml .. add this dependency manangement --
 11:58 < jardineworks:#liferay> <dependencyManagement>
+11:58 < jardineworks:#liferay>         <dependencies>
+11:58 < jardineworks:#liferay>                 <dependency>
+11:58 < jardineworks:#liferay>                         <groupId>org.jboss.arquillian</groupId>
