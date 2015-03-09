@@ -173,3 +173,4 @@
 15:27 < d0nkeyBOB:#liferay> weird it is
 15:27 < jardineworks:#liferay> you get that exception only when you try to run the unit test?
 15:27 < d0nkeyBOB:#liferay> yep
+15:28 < jardineworks:#liferay> no errors when you startup your portal right?
