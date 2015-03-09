@@ -187,3 +187,4 @@
 15:29 < d0nkeyBOB:#liferay> unix (macbook)
 15:30 < jardineworks:#liferay> permissions on all the files you created are ok right? all readeable by the same user that owns the Liferay (tomcat) process?
 15:30 < d0nkeyBOB:#liferay> yea
+15:30 < jardineworks:#liferay> ok -- what happens if you run just a regular unit test?
