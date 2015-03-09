@@ -65,3 +65,4 @@
 11:58 < jardineworks:#liferay>                         <version>1.1.5.Final</version>
 11:58 < jardineworks:#liferay>                         <scope>import</scope>
 11:58 < jardineworks:#liferay>                         <type>pom</type>
+11:58 < jardineworks:#liferay>                 </dependency>
