@@ -24,3 +24,4 @@
 11:50 < jardineworks:#liferay> d0nkeyBOB, yes :)
 11:51 < jardineworks:#liferay> winem_, not sure to be honest. I know there was a problem at one point with one of the java 7 update versions not working with 6.1
 11:51 < jardineworks:#liferay> but I believe it supported 7 for 6.1 when it was release ,... at least up to u21
+11:53 < jardineworks:#liferay> winem_, oracle changed something in their api for a security thing.. RasterImage or something after that update -- or u20  or something... that broke a bunch of stuff.
