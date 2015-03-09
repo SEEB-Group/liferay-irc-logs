@@ -223,3 +223,4 @@
 15:38 < jardineworks:#liferay> that it can't find the xml file, so it throws a xerces error (maybe?)
 15:38 < d0nkeyBOB:#liferay> huh . . .i wonder . . .
 15:45 < jardineworks:#liferay> d0nkeyBOB, that'd be my guess. Because the unit test has no xml.. in fact the only thing that does for the test runner is the arquillian.xml
+15:46 < d0nkeyBOB:#liferay> i'm going to restart my computer and see if that helps.
