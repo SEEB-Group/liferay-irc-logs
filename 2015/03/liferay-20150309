@@ -163,3 +163,4 @@
 15:04 < d0nkeyBOB:#liferay> java.lang.AbstractMethodError: org.apache.xerces.dom.DeferredDocumentImpl.setXmlStandalone exception
 15:04 < d0nkeyBOB:#liferay> i remove it and liferay doesn't work
 15:04 < jardineworks:#liferay> :S
+15:05 < d0nkeyBOB:#liferay> i'm lost now . . .
