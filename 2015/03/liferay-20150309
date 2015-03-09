@@ -189,3 +189,4 @@
 15:30 < d0nkeyBOB:#liferay> yea
 15:30 < jardineworks:#liferay> ok -- what happens if you run just a regular unit test?
 15:31 < jardineworks:#liferay> a non-arquillian one
+15:31 < d0nkeyBOB:#liferay> works. all tests passed
