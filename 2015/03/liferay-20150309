@@ -203,3 +203,4 @@
 15:33 < d0nkeyBOB:#liferay>     public void testCreateConnection() throws Exception {
 15:33 < d0nkeyBOB:#liferay>         assertTrue(true);
 15:33 < d0nkeyBOB:#liferay>     }
+15:33 < d0nkeyBOB:#liferay> }
