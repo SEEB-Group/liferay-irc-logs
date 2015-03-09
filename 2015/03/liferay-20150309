@@ -212,3 +212,4 @@
 15:36 < jardineworks:#liferay> my step about adding /src/test/integration to the sources. I dunno if that is something you have to or need to do in Intellij
 15:36 < jardineworks:#liferay> did you do that step?
 15:36 < d0nkeyBOB:#liferay> i added those directories and put my test and arquillian xml files in there
+15:37 < jardineworks:#liferay> right
