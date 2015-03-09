@@ -129,3 +129,4 @@
 14:14 < jardineworks:#liferay> Could be something missing from the pom to run the unit tests that way
 14:14 < jardineworks:#liferay> I'm not an maven expert
 14:14 < jardineworks:#liferay> part of the reason it took me a few days to get that working
+14:15 < d0nkeyBOB:#liferay> when i ran with run through intellij, i get the other error
