@@ -128,3 +128,4 @@
 14:14 < jardineworks:#liferay> d0nkeyBOB, hmmm... I ran my unit tests from the IDE using the Run as method -- I didn't try it using mvn test.
 14:14 < jardineworks:#liferay> Could be something missing from the pom to run the unit tests that way
 14:14 < jardineworks:#liferay> I'm not an maven expert
+14:14 < jardineworks:#liferay> part of the reason it took me a few days to get that working
