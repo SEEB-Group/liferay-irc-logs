@@ -218,3 +218,4 @@
 15:38 < jardineworks:#liferay> but in eclipse I went into my project properties and for the Build Path I added the folder as one of the places to "look for source code"
 15:38 < jardineworks:#liferay> until I did that, I couldn't actually log into the server
 15:38 < jardineworks:#liferay> and since it is xml
+15:38 < d0nkeyBOB:#liferay> yea, thats set properly in intellij
