@@ -43,3 +43,4 @@
 11:55 < jardineworks:#liferay> </tomcat-users>
 11:56 < winem_:#liferay> thanks jardine.
 11:56 < jardineworks:#liferay> d0nkeyBOB, next, in your TOMCAT_HOME/bin either setenv.sh or setenv.bat (depending on windows or linux) ... add this
+11:56 < jardineworks:#liferay> # Added for Arquillian support
