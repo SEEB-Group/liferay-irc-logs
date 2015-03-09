@@ -174,3 +174,4 @@
 15:27 < jardineworks:#liferay> you get that exception only when you try to run the unit test?
 15:27 < d0nkeyBOB:#liferay> yep
 15:28 < jardineworks:#liferay> no errors when you startup your portal right?
+15:28 < d0nkeyBOB:#liferay> i even have it as a basic assertTrue(true) test
