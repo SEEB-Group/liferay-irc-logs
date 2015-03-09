@@ -121,3 +121,5 @@
 12:06 < d0nkeyBOB:#liferay> great! thanks
 12:06 < d0nkeyBOB:#liferay> i'll try it out. i've had a few hickups
 12:39 < d0nkeyBOB:#liferay> jardineworks: did you have the have a @deployment method in your test class?
+13:42 < jardineworks:#liferay> d0nkeyBOB, nope
+13:42 < jardineworks:#liferay> you don't need that ... you're talking about the method that makes the archive with the assets right?
