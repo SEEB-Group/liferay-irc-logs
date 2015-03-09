@@ -72,3 +72,6 @@
 11:58 < jardineworks:#liferay> <dependency>
 11:58 < jardineworks:#liferay>         <groupId>com.liferay.arquillian</groupId>
 11:58 < jardineworks:#liferay>         <artifactId>arquillian-liferay-maven-extension</artifactId>
+11:58 < jardineworks:#liferay>         <version>1.0.0-SNAPSHOT</version>
+11:58 < jardineworks:#liferay> </dependency>
+11:58 < jardineworks:#liferay> <dependency>
