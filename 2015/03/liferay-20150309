@@ -161,3 +161,4 @@
 14:59 < jardineworks:#liferay> lol
 15:03 < d0nkeyBOB:#liferay> back. . . .no success. seems the error is with xercesImpl in liferay libs. thats the error i'd been getting
 15:04 < d0nkeyBOB:#liferay> java.lang.AbstractMethodError: org.apache.xerces.dom.DeferredDocumentImpl.setXmlStandalone exception
+15:04 < d0nkeyBOB:#liferay> i remove it and liferay doesn't work
