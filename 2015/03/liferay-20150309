@@ -22,3 +22,4 @@
 11:17 < winem_:#liferay> hi, I'm wondering that liferay is very late with the support of Java 8 which is expected for 6.2 GA4 in july. oracle stops to provide security updates through public mirrors in april. was it the same for the switch from java 6 to 7?
 11:36 < d0nkeyBOB:#liferay> anybody have exp. hooking Arquillian up with tomcat, maven and liferay?
 11:50 < jardineworks:#liferay> d0nkeyBOB, yes :)
+11:51 < jardineworks:#liferay> winem_, not sure to be honest. I know there was a problem at one point with one of the java 7 update versions not working with 6.1
