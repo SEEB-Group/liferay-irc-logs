@@ -13,3 +13,4 @@
 03:43 < twen:#liferay> 'morning
 08:53 < jardineworks:#liferay> good morning guys
 08:53 < jardineworks:#liferay> and gals
+09:23 < jardineworks:#liferay> topolik, can you help me with a curl question? I have a hook (StrutsAction) at the portal level that I want to execute. I don't want to make it part of the public path though -- so I want to make sure that a admin session exists as part of the curl request to execute it.
