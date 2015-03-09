@@ -215,3 +215,4 @@
 15:37 < jardineworks:#liferay> right
 15:37 < jardineworks:#liferay> so I dunno about intellij
 15:37 < d0nkeyBOB:#liferay> hmm
+15:38 < jardineworks:#liferay> but in eclipse I went into my project properties and for the Build Path I added the folder as one of the places to "look for source code"
