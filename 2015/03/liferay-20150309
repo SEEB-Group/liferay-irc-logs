@@ -66,3 +66,4 @@
 11:58 < jardineworks:#liferay>                         <scope>import</scope>
 11:58 < jardineworks:#liferay>                         <type>pom</type>
 11:58 < jardineworks:#liferay>                 </dependency>
+11:58 < jardineworks:#liferay>         </dependencies>
