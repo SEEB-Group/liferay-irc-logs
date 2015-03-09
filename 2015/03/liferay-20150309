@@ -16,3 +16,4 @@
 09:23 < jardineworks:#liferay> topolik, can you help me with a curl question? I have a hook (StrutsAction) at the portal level that I want to execute. I don't want to make it part of the public path though -- so I want to make sure that a admin session exists as part of the curl request to execute it.
 09:23 < jardineworks:#liferay> topolik, I think this means I need to curl the login, and then include the cookie in my hook request
 09:23 < jardineworks:#liferay> topolik, but I can't seem to get the login/cookie generation curl request to work.
+09:24 < jardineworks:#liferay> damn :(
