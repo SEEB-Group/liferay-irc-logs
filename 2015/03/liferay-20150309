@@ -99,3 +99,4 @@
 11:59 < jardineworks:#liferay>                         <property name="pass">tomcat</property>
 12:00 < jardineworks:#liferay>                 </configuration>
 12:00 < jardineworks:#liferay>         </container>
+12:00 < jardineworks:#liferay> </arquillian>
