@@ -103,3 +103,4 @@
 12:00 < jardineworks:#liferay> add the "integration" folder as a source location for your build path
 12:00 < d0nkeyBOB:#liferay> oh man. i stepped away and just saw this
 12:00 < jardineworks:#liferay> and then annotate your test class with @RunWith(Arquillian.class)
+12:00 < jardineworks:#liferay> done.
