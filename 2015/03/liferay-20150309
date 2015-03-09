@@ -88,3 +88,6 @@
 11:59 < jardineworks:#liferay> in there create a file called arquillian.xml
 11:59 < jardineworks:#liferay> and then add this (updating values as you need to) --
 11:59 < jardineworks:#liferay> <arquillian xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+11:59 < jardineworks:#liferay> xmlns="http://jboss.org/schema/arquillian"
+11:59 < jardineworks:#liferay> xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+11:59 < jardineworks:#liferay>         <container qualifier="tomcat" default="true">
