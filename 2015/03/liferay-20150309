@@ -67,3 +67,4 @@
 11:58 < jardineworks:#liferay>                         <type>pom</type>
 11:58 < jardineworks:#liferay>                 </dependency>
 11:58 < jardineworks:#liferay>         </dependencies>
+11:58 < jardineworks:#liferay> </dependencyManagement>
