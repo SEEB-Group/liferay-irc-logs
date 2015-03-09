@@ -28,3 +28,4 @@
 11:53 < jardineworks:#liferay> but the GA3 I think was updated to handle it.
 11:54 < jardineworks:#liferay> d0nkeyBOB, I can give you the play by play if you like
 11:55 < jardineworks:#liferay> d0nkeyBOB, first thing... in your TOCMAT_HOMT/conf folder update/add a tomcat-users.xml file with this content --
+11:55 < jardineworks:#liferay> <?xml version="1.0"?>
