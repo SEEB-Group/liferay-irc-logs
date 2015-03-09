@@ -44,3 +44,5 @@
 11:56 < winem_:#liferay> thanks jardine.
 11:56 < jardineworks:#liferay> d0nkeyBOB, next, in your TOMCAT_HOME/bin either setenv.sh or setenv.bat (depending on windows or linux) ... add this
 11:56 < jardineworks:#liferay> # Added for Arquillian support
+11:56 < jardineworks:#liferay> JMX_OPTS="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false"
+11:56 < jardineworks:#liferay> CATALINA_OPTS="${CATALINA_OPTS} ${JMX_OPTS}"
