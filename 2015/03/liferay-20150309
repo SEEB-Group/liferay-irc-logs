@@ -75,3 +75,4 @@
 11:58 < jardineworks:#liferay>         <version>1.0.0-SNAPSHOT</version>
 11:58 < jardineworks:#liferay> </dependency>
 11:58 < jardineworks:#liferay> <dependency>
+11:58 < jardineworks:#liferay>         <groupId>org.jboss.arquillian.junit</groupId>
