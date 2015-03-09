@@ -100,3 +100,4 @@
 12:00 < jardineworks:#liferay>                 </configuration>
 12:00 < jardineworks:#liferay>         </container>
 12:00 < jardineworks:#liferay> </arquillian>
+12:00 < jardineworks:#liferay> add the "integration" folder as a source location for your build path
