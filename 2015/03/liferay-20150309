@@ -37,3 +37,4 @@
 11:55 < jardineworks:#liferay>         <role rolename="manager-status" />
 11:55 < jardineworks:#liferay>         <user
 11:55 < jardineworks:#liferay>                password="tomcat"
+11:55 < jardineworks:#liferay>                roles="tomcat,manager-gui,manager-script,manager-jmx,manager-status"
