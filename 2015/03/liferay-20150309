@@ -76,3 +76,4 @@
 11:58 < jardineworks:#liferay> </dependency>
 11:58 < jardineworks:#liferay> <dependency>
 11:58 < jardineworks:#liferay>         <groupId>org.jboss.arquillian.junit</groupId>
+11:59 < jardineworks:#liferay>         <artifactId>arquillian-junit-container</artifactId>
