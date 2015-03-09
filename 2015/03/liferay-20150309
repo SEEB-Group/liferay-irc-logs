@@ -20,3 +20,4 @@
 09:55 -!- mode/#liferay [+o jhf] by ChanServ
 10:25 -!- mode/#liferay [+o jhf] by ChanServ
 11:17 < winem_:#liferay> hi, I'm wondering that liferay is very late with the support of Java 8 which is expected for 6.2 GA4 in july. oracle stops to provide security updates through public mirrors in april. was it the same for the switch from java 6 to 7?
+11:36 < d0nkeyBOB:#liferay> anybody have exp. hooking Arquillian up with tomcat, maven and liferay?
