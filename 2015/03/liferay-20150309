@@ -81,3 +81,4 @@
 11:59 < jardineworks:#liferay> </dependency>
 11:59 < jardineworks:#liferay> <dependency>
 11:59 < jardineworks:#liferay>         <groupId>org.jboss.arquillian.container</groupId>
+11:59 < jardineworks:#liferay>         <artifactId>arquillian-tomcat-remote-7</artifactId>
