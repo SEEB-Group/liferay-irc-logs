@@ -69,3 +69,6 @@
 11:58 < jardineworks:#liferay>         </dependencies>
 11:58 < jardineworks:#liferay> </dependencyManagement>
 11:58 < jardineworks:#liferay> and then these dependencies --
+11:58 < jardineworks:#liferay> <dependency>
+11:58 < jardineworks:#liferay>         <groupId>com.liferay.arquillian</groupId>
+11:58 < jardineworks:#liferay>         <artifactId>arquillian-liferay-maven-extension</artifactId>
