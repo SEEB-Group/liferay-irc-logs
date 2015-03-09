@@ -178,3 +178,4 @@
 15:28 < d0nkeyBOB:#liferay> it looks like its part of the init of arquillian
 15:28 < d0nkeyBOB:#liferay> so it doesn't even get to the test
 15:28 < jardineworks:#liferay> are yo uusing 8080?
+15:29 < d0nkeyBOB:#liferay> yep
