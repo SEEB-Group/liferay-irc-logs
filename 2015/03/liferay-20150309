@@ -62,3 +62,4 @@
 11:58 < jardineworks:#liferay>                 <dependency>
 11:58 < jardineworks:#liferay>                         <groupId>org.jboss.arquillian</groupId>
 11:58 < jardineworks:#liferay>                         <artifactId>arquillian-bom</artifactId>
+11:58 < jardineworks:#liferay>                         <version>1.1.5.Final</version>
