@@ -97,3 +97,4 @@
 11:59 < jardineworks:#liferay>                         <property name="httpPort">8080</property>
 11:59 < jardineworks:#liferay>                         <property name="user">tomcat</property>
 11:59 < jardineworks:#liferay>                         <property name="pass">tomcat</property>
+12:00 < jardineworks:#liferay>                 </configuration>
