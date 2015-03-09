@@ -29,3 +29,6 @@
 11:54 < jardineworks:#liferay> d0nkeyBOB, I can give you the play by play if you like
 11:55 < jardineworks:#liferay> d0nkeyBOB, first thing... in your TOCMAT_HOMT/conf folder update/add a tomcat-users.xml file with this content --
 11:55 < jardineworks:#liferay> <?xml version="1.0"?>
+11:55 < jardineworks:#liferay> <tomcat-users>
+11:55 < jardineworks:#liferay>         <role rolename="tomcat" />
+11:55 < jardineworks:#liferay>         <role rolename="manager-gui" />
