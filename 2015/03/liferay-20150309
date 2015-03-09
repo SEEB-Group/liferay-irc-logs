@@ -199,3 +199,4 @@
 15:33 < d0nkeyBOB:#liferay> @RunWith(Arquillian.class)
 15:33 < jardineworks:#liferay> np
 15:33 < d0nkeyBOB:#liferay> public class ConnectionLocalServiceUtilTest {
+15:33 < d0nkeyBOB:#liferay>     @Test
