@@ -53,3 +53,4 @@
 11:56 < jardineworks:#liferay>     <url>http://repository.liferay.com/nexus/content/groups/public>
 11:56 < jardineworks:#liferay>     <name>Liferay</name>
 11:56 < jardineworks:#liferay> </mirror>
+11:57 < jardineworks:#liferay> d0nkeyBOB, then ... git clone the extension that is a work in progress: git clone https://github.com/arquillian/arquillian-extension-liferay
