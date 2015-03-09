@@ -56,3 +56,4 @@
 11:57 < jardineworks:#liferay> d0nkeyBOB, then ... git clone the extension that is a work in progress: git clone https://github.com/arquillian/arquillian-extension-liferay
 11:57 < jardineworks:#liferay> once you have it cloned, eexecute a mvn install
 11:58 < jardineworks:#liferay> so that it gets placed into your local repo.
+11:58 < jardineworks:#liferay> in your project pom.xml .. add this dependency manangement --
