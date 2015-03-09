@@ -207,3 +207,4 @@
 15:34 < jardineworks:#liferay> and with those other pom changes, you are able to resolve the Arquillian.class as an import right?
 15:35 < d0nkeyBOB:#liferay> yep
 15:35 < jardineworks:#liferay> ok --
+15:35 < jardineworks:#liferay> narrowing the field!
