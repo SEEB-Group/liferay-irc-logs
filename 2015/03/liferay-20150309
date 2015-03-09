@@ -142,3 +142,4 @@
 14:17 < d0nkeyBOB:#liferay> Caused by: java.lang.AbstractMethodError: org.apache.xerces.dom.DocumentImpl.setXmlStandalone
 14:17 < d0nkeyBOB:#liferay> does this have to do with a running tomcat?
 14:18 < jardineworks:#liferay> oh wait
+14:18 < jardineworks:#liferay> d0nkeyBOB, do you have the manager app installed in the webapps folder?
