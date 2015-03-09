@@ -46,3 +46,4 @@
 11:56 < jardineworks:#liferay> # Added for Arquillian support
 11:56 < jardineworks:#liferay> JMX_OPTS="-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.port=8099 -Dcom.sun.management.jmxremote.ssl=false"
 11:56 < jardineworks:#liferay> CATALINA_OPTS="${CATALINA_OPTS} ${JMX_OPTS}"
+11:56 < jardineworks:#liferay> d0nkeyBOB, then, in your M2_HOME/settings.xml add this mirror --
