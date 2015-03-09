@@ -48,3 +48,7 @@
 11:56 < jardineworks:#liferay> CATALINA_OPTS="${CATALINA_OPTS} ${JMX_OPTS}"
 11:56 < jardineworks:#liferay> d0nkeyBOB, then, in your M2_HOME/settings.xml add this mirror --
 11:56 < jardineworks:#liferay> <mirror>
+11:56 < jardineworks:#liferay>     <id>artifactory</id>
+11:56 < jardineworks:#liferay>     <mirrorOf>*</mirrorOf>
+11:56 < jardineworks:#liferay>     <url>http://repository.liferay.com/nexus/content/groups/public>
+11:56 < jardineworks:#liferay>     <name>Liferay</name>
