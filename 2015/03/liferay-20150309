@@ -52,3 +52,4 @@
 11:56 < jardineworks:#liferay>     <mirrorOf>*</mirrorOf>
 11:56 < jardineworks:#liferay>     <url>http://repository.liferay.com/nexus/content/groups/public>
 11:56 < jardineworks:#liferay>     <name>Liferay</name>
+11:56 < jardineworks:#liferay> </mirror>
