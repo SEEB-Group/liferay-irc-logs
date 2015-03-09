@@ -86,3 +86,4 @@
 11:59 < jardineworks:#liferay> </dependency>
 11:59 < jardineworks:#liferay> now in your project, under src/test create a folder called "integration"
 11:59 < jardineworks:#liferay> in there create a file called arquillian.xml
+11:59 < jardineworks:#liferay> and then add this (updating values as you need to) --
