@@ -94,3 +94,4 @@
 11:59 < jardineworks:#liferay>                 <configuration>
 11:59 < jardineworks:#liferay>                         <property name="jmxPort">8099</property>
 11:59 < jardineworks:#liferay>                         <property name="host">localhost</property>
+11:59 < jardineworks:#liferay>                         <property name="httpPort">8080</property>
