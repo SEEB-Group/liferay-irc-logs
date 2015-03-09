@@ -92,3 +92,4 @@
 11:59 < jardineworks:#liferay> xsi:schemaLocation="http://jboss.org/schema/arquillian http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
 11:59 < jardineworks:#liferay>         <container qualifier="tomcat" default="true">
 11:59 < jardineworks:#liferay>                 <configuration>
+11:59 < jardineworks:#liferay>                         <property name="jmxPort">8099</property>
