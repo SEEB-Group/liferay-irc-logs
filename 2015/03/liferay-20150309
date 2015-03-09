@@ -33,3 +33,4 @@
 11:55 < jardineworks:#liferay>         <role rolename="tomcat" />
 11:55 < jardineworks:#liferay>         <role rolename="manager-gui" />
 11:55 < jardineworks:#liferay>         <role rolename="manager-script" />
+11:55 < jardineworks:#liferay>         <role rolename="manager-jmx" />
