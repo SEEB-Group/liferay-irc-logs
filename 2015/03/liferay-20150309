@@ -139,3 +139,4 @@
 14:16 < d0nkeyBOB:#liferay>  at co.intellij.rt.exiecution.junit.JUnitStarter.main(JUnitStarter.java:68) at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) at com
 14:17 < d0nkeyBOB:#liferay> Caused by: java.lang.reflect.InvocationTargetException at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
 14:17 < d0nkeyBOB:#liferay>  atorg.jbross.arquillian.test.spi.SecurityActions.newInstance(SecurityActions.java:156) ... 13 more
+14:17 < d0nkeyBOB:#liferay> Caused by: java.lang.AbstractMethodError: org.apache.xerces.dom.DocumentImpl.setXmlStandalone
