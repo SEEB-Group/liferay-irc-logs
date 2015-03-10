@@ -35,3 +35,4 @@
 10:35 < jardineworks:#liferay> I login with my old credentials. LDAP auth fails, but the fallback (because you don't have REQUIRED checked) is to see if the user is in Liferay
 10:35 < jardineworks:#liferay> and because my user/pass IS in liferay (it was imported from LDAP before it was deleted from LDAP)
 10:35 < jardineworks:#liferay> I am in.
+10:36 < jardineworks:#liferay> Personally, I think if LDAP is enabled, it should automatically be required.
