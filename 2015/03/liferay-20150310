@@ -33,3 +33,4 @@
 10:34 < jardineworks:#liferay> you setup your LDAP and everything works. I come along and I login. The login is validated against LDAP I have the correct user and password. Automagically, a user is creted in Liferay based on the mappings.
 10:34 < jardineworks:#liferay> now I change my password in LDAP, or I leave the company and my user is deleted.
 10:35 < jardineworks:#liferay> I login with my old credentials. LDAP auth fails, but the fallback (because you don't have REQUIRED checked) is to see if the user is in Liferay
+10:35 < jardineworks:#liferay> and because my user/pass IS in liferay (it was imported from LDAP before it was deleted from LDAP)
