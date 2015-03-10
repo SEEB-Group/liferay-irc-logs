@@ -79,3 +79,4 @@
 13:32 < dave_k:#liferay> jardineworks: it should run regardless of the theme, introducing a ui feature that could be used from other portlets just by using a certain css class
 13:33 < jardineworks:#liferay> I see
 13:33 < jardineworks:#liferay> hmm..
+13:33 < jardineworks:#liferay> in that case a portlet, where the view.jsp just has the liferay-util or whichever taglib it is.. and then add the portlet to a page. Probably best if you can create page templates so that you can make sure the portlet is always there.
