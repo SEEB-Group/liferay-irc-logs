@@ -55,3 +55,4 @@
 11:23 < jardineworks:#liferay> ah -- the company.default.web.id maybe?
 12:03 < josuebc:#liferay> Hi there. I am implementing a restful service within a spring portlet. I am using the Delegate servlet and calling spring's DispatcherServlet. The thing is that I can't retrieve the user frmo the session.
 12:04 < josuebc:#liferay> Apparently the servlet is not in the login path. I did notice that I can only access the restful service by going to /my-portlet/rest/{parameter} instead of /delegate/rest/{parameter}.
+12:04 < josuebc:#liferay> Any ideas why the request is not going through the Delegate servlet?
