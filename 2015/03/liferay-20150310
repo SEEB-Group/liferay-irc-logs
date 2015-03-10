@@ -50,3 +50,4 @@
 11:19 < jardineworks:#liferay> hey jhf do you know how liferay decides which company is the "main instance"
 11:19 < jardineworks:#liferay> ?
 11:21 <@jhf:#liferay> I believe it's a portal.properties setting
+11:21 <@jhf:#liferay> company.default.*
