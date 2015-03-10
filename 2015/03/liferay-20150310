@@ -58,3 +58,5 @@
 12:04 < josuebc:#liferay> Any ideas why the request is not going through the Delegate servlet?
 12:23 < josuebc:#liferay> Ok, nevermind. I got it.
 13:13 < dave_k:#liferay> ... what do I need to search for when I want to create a plugin that only injects CSS and JS into the header of all pages, regardless of the currently used theme? (LR 6.2)
+13:17 < jardineworks:#liferay> dave_k, there is a taglib for that I think
+13:17 < jardineworks:#liferay> gimme a sec
