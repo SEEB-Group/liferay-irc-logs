@@ -82,3 +82,4 @@
 13:33 < jardineworks:#liferay> in that case a portlet, where the view.jsp just has the liferay-util or whichever taglib it is.. and then add the portlet to a page. Probably best if you can create page templates so that you can make sure the portlet is always there.
 13:34 < dave_k:#liferay> jardineworks: header-css comes from dark memories about liferay-portlet.xml, IIRC
 13:36 < jardineworks:#liferay> dave_k, css specified in the header and footer configs for the portlet I don't think are the same as using the <head/> tag outright.
+13:36 < dave_k:#liferay> jardineworks: eek, that would mean that I would have to make sure that the admins insert that portlet everywhere. Does not sound like a viable option.
