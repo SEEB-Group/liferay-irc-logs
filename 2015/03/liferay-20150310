@@ -53,3 +53,4 @@
 11:21 <@jhf:#liferay> company.default.*
 11:22 < jardineworks:#liferay> hmm
 11:23 < jardineworks:#liferay> ah -- the company.default.web.id maybe?
+12:03 < josuebc:#liferay> Hi there. I am implementing a restful service within a spring portlet. I am using the Delegate servlet and calling spring's DispatcherServlet. The thing is that I can't retrieve the user frmo the session.
