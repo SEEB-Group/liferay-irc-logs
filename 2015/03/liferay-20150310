@@ -25,3 +25,4 @@
 10:17 < jardineworks:#liferay> I might do that for that one and for the ehcache TCP / Unicast one as well.
 10:18 < jardineworks:#liferay> jhf, https://www.liferay.com/community/forums/-/message_boards/message/49880012
 10:18 < jardineworks:#liferay> both of those we're some real doozies to solve.
+10:27 < goku_:#liferay> jardineworks: hi is the ldap is checked first or the liferay db is checked first for login..if the ldap is enabled.?
