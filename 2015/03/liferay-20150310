@@ -66,3 +66,4 @@
 13:27 < jardineworks:#liferay> you want to inject the same css/js on all pages?
 13:27 < jardineworks:#liferay> never changes?
 13:29 < dave_k:#liferay> jardineworks: correct. just a piece of code that interacts with all elements sporting a certain css class
+13:30 < jardineworks:#liferay> dave_k, I think it was liferay-util:html-top
