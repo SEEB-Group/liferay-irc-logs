@@ -28,3 +28,4 @@
 10:27 < goku_:#liferay> jardineworks: hi is the ldap is checked first or the liferay db is checked first for login..if the ldap is enabled.?
 10:30 < jardineworks:#liferay> goku_, LDAP -- but question.. in your authentication settings, do you have he "is required" checkbox CHECKED?
 10:33 < goku_:#liferay> jardineworks: no only enabled is checked
+10:33 < jardineworks:#liferay> ok
