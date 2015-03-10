@@ -30,3 +30,4 @@
 10:33 < goku_:#liferay> jardineworks: no only enabled is checked
 10:33 < jardineworks:#liferay> ok
 10:34 < jardineworks:#liferay> goku_, so IMHO this is a security hole. Here is what I have found.
+10:34 < jardineworks:#liferay> you setup your LDAP and everything works. I come along and I login. The login is validated against LDAP I have the correct user and password. Automagically, a user is creted in Liferay based on the mappings.
