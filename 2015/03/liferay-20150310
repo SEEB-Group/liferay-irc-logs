@@ -36,3 +36,4 @@
 10:35 < jardineworks:#liferay> and because my user/pass IS in liferay (it was imported from LDAP before it was deleted from LDAP)
 10:35 < jardineworks:#liferay> I am in.
 10:36 < jardineworks:#liferay> Personally, I think if LDAP is enabled, it should automatically be required.
+10:38 < goku_:#liferay> jardineworks: ok. one guy saying about extending the  PortalLDAPImporterImpl.java and making the delete sync work(workaround).
