@@ -77,3 +77,4 @@
 13:31 < dave_k:#liferay> header-css and header-javascript?
 13:32 < jardineworks:#liferay> where are you seeing that?
 13:32 < dave_k:#liferay> jardineworks: it should run regardless of the theme, introducing a ui feature that could be used from other portlets just by using a certain css class
+13:33 < jardineworks:#liferay> I see
