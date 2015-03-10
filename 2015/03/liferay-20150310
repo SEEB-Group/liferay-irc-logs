@@ -43,3 +43,4 @@
 10:43 < jardineworks:#liferay> both are good options. But can you do the PortalLDAPImporterImpl with a regular hook?
 10:44 < jardineworks:#liferay> ext plugins = big flashing warning lights
 10:44 < jardineworks:#liferay> the post login hook would be simpler
+10:45 < jardineworks:#liferay> both to create, manage and undeploy if necessary
