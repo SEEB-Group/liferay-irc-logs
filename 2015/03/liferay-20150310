@@ -61,3 +61,4 @@
 13:17 < jardineworks:#liferay> dave_k, there is a taglib for that I think
 13:17 < jardineworks:#liferay> gimme a sec
 13:24 < jardineworks:#liferay> dave_k, searching for it... I feel like there is a liferay-util or a liferay-ui for this. It allows you to inject things into the page header
+13:25 < jardineworks:#liferay> I used it once for a facebook thingee
