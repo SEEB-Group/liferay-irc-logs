@@ -38,3 +38,4 @@
 10:36 < jardineworks:#liferay> Personally, I think if LDAP is enabled, it should automatically be required.
 10:38 < goku_:#liferay> jardineworks: ok. one guy saying about extending the  PortalLDAPImporterImpl.java and making the delete sync work(workaround).
 10:39 < goku_:#liferay> jardineworks:http://stackoverflow.com/questions/19464130/liferay-user-deactivation-using-ldapimportmessagelistener
+10:40 < jardineworks:#liferay> sure that would be an option. But OOTB, I don;t think it is possible.
