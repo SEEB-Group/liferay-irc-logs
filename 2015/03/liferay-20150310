@@ -11,3 +11,5 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 07:42 < goku_:#liferay> hi..i have some queries with the ldap..if the user is removed from liferay..then also am able to login with same credentials .i have checked the enable option in ldap config page.not the required.
 07:42 < goku_:#liferay> how to prevent that?
+09:24 -!- mode/#liferay [+o jhf] by ChanServ
+09:27 < goku_:#liferay> hi how to auto sync the user details if one user removed from the ldap server..?
