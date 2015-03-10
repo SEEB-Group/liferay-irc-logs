@@ -87,3 +87,4 @@
 13:36 < jardineworks:#liferay> I've never actually checked :)
 13:36 < dave_k:#liferay> jardineworks: could be, I'm a bit hazy about these details
 13:37 < jardineworks:#liferay> hmm
+13:37 < jardineworks:#liferay> ok -- what about a JSP hook for a part of the page that is always included... and them put your taglib in there!
