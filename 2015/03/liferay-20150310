@@ -42,3 +42,4 @@
 10:41 < goku_:#liferay> or one another thought .by using login pre event class to do some check with the ldap server and if the user doesn't exists in there then i can invalidate the login action..which is better way?
 10:43 < jardineworks:#liferay> both are good options. But can you do the PortalLDAPImporterImpl with a regular hook?
 10:44 < jardineworks:#liferay> ext plugins = big flashing warning lights
+10:44 < jardineworks:#liferay> the post login hook would be simpler
