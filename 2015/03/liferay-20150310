@@ -84,3 +84,4 @@
 13:36 < jardineworks:#liferay> dave_k, css specified in the header and footer configs for the portlet I don't think are the same as using the <head/> tag outright.
 13:36 < dave_k:#liferay> jardineworks: eek, that would mean that I would have to make sure that the admins insert that portlet everywhere. Does not sound like a viable option.
 13:36 < jardineworks:#liferay> they're inlined I think with the portlet content no?
+13:36 < jardineworks:#liferay> I've never actually checked :)
