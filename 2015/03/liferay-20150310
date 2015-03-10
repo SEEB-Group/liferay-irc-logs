@@ -45,3 +45,4 @@
 10:44 < jardineworks:#liferay> the post login hook would be simpler
 10:45 < jardineworks:#liferay> both to create, manage and undeploy if necessary
 10:45 < goku_:#liferay> jardineworks: hm..any way..let me try these..i think hook is a better option..
+10:46 < goku_:#liferay> jardineworks: thanks man
