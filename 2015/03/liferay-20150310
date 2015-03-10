@@ -65,3 +65,4 @@
 13:27 < dave_k:#liferay> jardineworks: thx, but what plugin type do I need for that?
 13:27 < jardineworks:#liferay> you want to inject the same css/js on all pages?
 13:27 < jardineworks:#liferay> never changes?
+13:29 < dave_k:#liferay> jardineworks: correct. just a piece of code that interacts with all elements sporting a certain css class
