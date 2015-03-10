@@ -94,3 +94,4 @@
 13:39 < jardineworks:#liferay> like ../html/common/themes/top_head.jsp
 13:39 < dave_k:#liferay> I was just gonna ask that :)
 13:39 < jardineworks:#liferay> looking at that file... it looks like the appropriate place.
+13:40 < dave_k:#liferay> jardineworks: okay, hooking into top_head.jsp, calling top_head.jsp.old, adding my own headers. Sounds viable :)
