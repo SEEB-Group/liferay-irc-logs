@@ -97,3 +97,4 @@
 13:40 < dave_k:#liferay> jardineworks: okay, hooking into top_head.jsp, calling top_head.jsp.old, adding my own headers. Sounds viable :)
 13:41 < dave_k:#liferay> thanks for thinking with me :)
 13:42 < jardineworks:#liferay> that's what I'd try! good luck!
+14:36 < dave_k:#liferay> jardineworks: thanks again -- it works as intended!
