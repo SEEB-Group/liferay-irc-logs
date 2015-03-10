@@ -13,3 +13,4 @@
 07:42 < goku_:#liferay> how to prevent that?
 09:24 -!- mode/#liferay [+o jhf] by ChanServ
 09:27 < goku_:#liferay> hi how to auto sync the user details if one user removed from the ldap server..?
+09:28 < goku_:#liferay> in documentation its says that, we have to manually remove the user from liferay
