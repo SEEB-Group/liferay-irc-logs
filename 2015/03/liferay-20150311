@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 4 secs
 07:52 < Cyberkatze:#liferay> hi all. what is "NewCompaignCheck"   SendEmailJob?
 12:03 < ech0s7:#liferay> hi all!
+12:04 < ech0s7:#liferay> i have a problem with a portlet, from jsp i cannot see javascript functions declared under js folder, i have imported it into liferay-portlet.xml using footer-portlet-javascript
