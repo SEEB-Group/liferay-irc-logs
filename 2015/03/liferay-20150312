@@ -17,3 +17,4 @@
 06:19 < winem_:#liferay> so I would like to change edit.xxx.com to edit.yyy.com
 06:21 < Cyberkatze:#liferay> i think this is in config file
 06:21 < winem_:#liferay> I already checked the portal-ext.properties and portal-setup-wizard.properties
+06:21 < winem_:#liferay> did I miss one?
