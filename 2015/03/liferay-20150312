@@ -49,3 +49,4 @@
 06:46 < sm`:#liferay> but after i invalidate()
 06:46 < sm`:#liferay> the language changes to the user
 06:47 < sm`:#liferay> so what i wanna do is get the locale before i invalidate, invalidate(), create new session and set the locale/language
+06:49 < Cyberkatze:#liferay> https://www.liferay.com/de/community/forums/-/message_boards/message/25256609
