@@ -42,3 +42,4 @@
 06:41 < sm`:#liferay> 					locale);
 06:41 < sm`:#liferay> is what i found in the forums
 06:41 < sm`:#liferay> is that the way to go with this?
+06:42 < Cyberkatze:#liferay> why u need change locale in session?
