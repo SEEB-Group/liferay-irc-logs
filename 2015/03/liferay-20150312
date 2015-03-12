@@ -52,3 +52,4 @@
 06:49 < Cyberkatze:#liferay> https://www.liferay.com/de/community/forums/-/message_boards/message/25256609
 06:58 < sm`:#liferay> whats the LOCALE_KEY there, it doesnt seem to be in any of the suggested pkgs in the ide
 06:59 < sm`:#liferay> So that 'Constants' class might be a custom one in this example?
+07:07 < winem_:#liferay> Cyber, I'm sorry. I'm just a stupid admin and have not really about a clue about the frontend development stuff in liferay :)
