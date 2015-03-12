@@ -45,3 +45,4 @@
 06:42 < Cyberkatze:#liferay> why u need change locale in session?
 06:43 < sm`:#liferay> i need to re-set as a matter of fack
 06:43 < sm`:#liferay> its kind of a 'login'
+06:43 < sm`:#liferay> so i need to invalidate his session
