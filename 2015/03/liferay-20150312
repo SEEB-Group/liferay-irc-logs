@@ -19,3 +19,4 @@
 06:21 < winem_:#liferay> I already checked the portal-ext.properties and portal-setup-wizard.properties
 06:21 < winem_:#liferay> did I miss one?
 06:22 < Cyberkatze:#liferay> ah. no
+06:22 < Cyberkatze:#liferay> configuration -> portal settings -> Virtual Host
