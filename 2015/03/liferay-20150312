@@ -46,3 +46,6 @@
 06:43 < sm`:#liferay> i need to re-set as a matter of fack
 06:43 < sm`:#liferay> its kind of a 'login'
 06:43 < sm`:#liferay> so i need to invalidate his session
+06:46 < sm`:#liferay> but after i invalidate()
+06:46 < sm`:#liferay> the language changes to the user
+06:47 < sm`:#liferay> so what i wanna do is get the locale before i invalidate, invalidate(), create new session and set the locale/language
