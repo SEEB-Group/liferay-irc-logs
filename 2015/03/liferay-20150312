@@ -25,3 +25,4 @@
 06:24 < winem_:#liferay> ok, the value was set to localhost until now. let me check if it fixes that anyway?
 06:25 < Cyberkatze:#liferay> hm.. on me this  : xxx.myhost.com
 06:25 < winem_:#liferay> no changes
+06:28 < winem_:#liferay> ok. it works
