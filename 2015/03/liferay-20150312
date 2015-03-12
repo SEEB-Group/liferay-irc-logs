@@ -14,3 +14,4 @@
 05:12 < Cyberkatze:#liferay> hi
 06:17 < winem_:#liferay> hi. could need some quick help. I know where I configure the URLs for sites in liferay... but there was a setting where I can set the url for the whole portal and not per site. but I can't find it again
 06:19 < winem_:#liferay> when I go to the site administration and klick on "site URL" it says: Enter the friendly URL that will be used by both public and private pages. The friendly URL is appended to http://edit.xxx.com/web for public pages and http://edit.xxx.com/group for private pages. "
+06:19 < winem_:#liferay> so I would like to change edit.xxx.com to edit.yyy.com
