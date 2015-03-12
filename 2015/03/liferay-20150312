@@ -22,3 +22,4 @@
 06:22 < Cyberkatze:#liferay> configuration -> portal settings -> Virtual Host
 06:23 < winem_:#liferay> the project started and has been stopped some months ago and now it continued and I forgot some stuff...
 06:23 < winem_:#liferay> oh, let me check
+06:24 < winem_:#liferay> ok, the value was set to localhost until now. let me check if it fixes that anyway?
