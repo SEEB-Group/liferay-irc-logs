@@ -41,3 +41,4 @@
 06:41 < sm`:#liferay> req.getSession().setAttribute(org.apache.struts.Globals.LOCALE_KEY,
 06:41 < sm`:#liferay> 					locale);
 06:41 < sm`:#liferay> is what i found in the forums
+06:41 < sm`:#liferay> is that the way to go with this?
