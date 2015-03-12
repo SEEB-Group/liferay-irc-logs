@@ -28,3 +28,5 @@
 06:28 < winem_:#liferay> ok. it works
 06:29 < Cyberkatze:#liferay> :) how?
 06:29 < Cyberkatze:#liferay> found here:
+06:29 < Cyberkatze:#liferay> https://www.permeance.com.au/web/flavius.daca/home/-/blogs/migrating-liferay-to-a-different-virtual-host
+06:29 < winem_:#liferay> the url in the text when I go to site settings and site url does not change, but liferay acceppts the new domain :)
