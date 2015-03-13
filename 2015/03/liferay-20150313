@@ -65,3 +65,4 @@
 11:02 < jardineworks:#liferay> hufg, God I can't wait for Liferay 7
 11:02 < jardineworks:#liferay> praise the OSGi gods.
 11:02 < hufg:#liferay> hehe
+11:03 < jardineworks:#liferay> like it seems that sometimes, when you create a new shard it executes the .sql files from plugins that have service builder configs, but then other times it doesn't. No errors or warnings. Not until you try to use the scheam.
