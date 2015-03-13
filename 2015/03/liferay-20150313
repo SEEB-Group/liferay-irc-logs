@@ -1,0 +1,44 @@
+--- Log opened Fri Mar 13 00:00:17 2015
+--- Log opened Fri Mar 13 03:21:25 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith      ] [ josuebc   ] [ quercus_    ] [ Tm_T      ] 
+03:21 [ bijoo     ] [ henriquev   ] [ marcoceppi] [ rochadt     ] [ topolik   ] 
+03:21 [ Bryanstein] [ jardineworks] [ Naenyn    ] [ Stormtrooper] [ vsingleton] 
+03:21 [ doged     ] [ jbub        ] [ plekplek  ] [ Tar-Minyatur] 
+03:21 -!- Irssi: #liferay: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+--- Log opened Fri Mar 13 09:01:46 2015
+09:01 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+09:01 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+09:01 [Users #liferay]
+09:01 [@ChanServ  ] [ Gorith      ] [ plekplek    ] [ twen            ] 
+09:01 [ bijoo     ] [ henriquev   ] [ quercus_    ] [ volker          ] 
+09:01 [ bijoo_    ] [ jardineworks] [ rochadt     ] [ vsingleton      ] 
+09:01 [ Bryanstein] [ jbub        ] [ sm`         ] [ zicke-zacke-hueh] 
+09:01 [ bunbury   ] [ josuebc     ] [ Tar-Minyatur] 
+09:01 [ Cyberkatze] [ marcoceppi  ] [ Tm_T        ] 
+09:01 [ doged     ] [ Naenyn      ] [ topolik     ] 
+09:01 -!- Irssi: #liferay: Total of 25 nicks [1 ops, 0 halfops, 0 voices, 24 normal]
+09:01 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+09:01 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log opened Fri Mar 13 09:11:27 2015
+09:11 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+09:11 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+09:11 [Users #liferay]
+09:11 [@ChanServ  ] [ ech0s7      ] [ Naenyn      ] [ topolik         ] 
+09:11 [ bijoo     ] [ Gorith      ] [ plekplek    ] [ twen            ] 
+09:11 [ bijoo_    ] [ henriquev   ] [ quercus_    ] [ volker          ] 
+09:11 [ Bryanstein] [ jardineworks] [ rochadt     ] [ vsingleton      ] 
+09:11 [ bunbury   ] [ jbub        ] [ sm`         ] [ zicke-zacke-hueh] 
+09:11 [ Cyberkatze] [ josuebc     ] [ Tar-Minyatur] 
+09:11 [ doged     ] [ marcoceppi  ] [ Tm_T        ] 
+09:11 -!- Irssi: #liferay: Total of 26 nicks [1 ops, 0 halfops, 0 voices, 25 normal]
+09:11 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+09:11 -!- Irssi: Join to #liferay was synced in 6 secs
+09:11 < jardineworks:#liferay> JSP page?
+09:11 < jardineworks:#liferay> or in a JS file?
+09:11 < ech0s7:#liferay> jardineworks: jsp page
+09:12 < jardineworks:#liferay> you can put that in the JS ... <portlet:namespace/>
