@@ -53,3 +53,4 @@
 09:14 < jardineworks:#liferay> only causes a problem (no namespaces) if you make the portlet insanceable and have more than one on  apage.
 09:15 < jardineworks:#liferay> ech0s7, based on that code, easiest to disable required namespacing.
 09:17 < ech0s7:#liferay> ok thanks jardineworks !
+09:20 < jardineworks:#liferay> np
