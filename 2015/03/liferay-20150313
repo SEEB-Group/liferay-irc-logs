@@ -59,3 +59,4 @@
 10:43 < hufg:#liferay> ahh margin-top -7px
 10:43 < hufg:#liferay> yes
 10:57 < jardineworks:#liferay> does anyone know why the calendar resource is part of the core portal?
+10:58 < jardineworks:#liferay> I have a lot of problems creating new shards for instances where some of these tables don't seem to get created all the time ... and then when I try to create the new instance I get errors.
