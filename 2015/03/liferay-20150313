@@ -45,3 +45,4 @@
 09:12 < jardineworks:#liferay> so you can have var x = "<portlet:namespace/>myValue";
 09:12 < jardineworks:#liferay> or
 09:12 < jardineworks:#liferay> there is a liferay-protlet.xml setting for auto namespacing I think... one sec
+09:13 < ech0s7:#liferay> jardineworks: this is a part of my jsp page
