@@ -49,3 +49,4 @@
 09:13 < ech0s7:#liferay> https://dpaste.de/3uS8
 09:13 < ech0s7:#liferay> where is defined function that calls ajax
 09:14 < jardineworks:#liferay> ech0s7, you could do this in your liferay-portlet.xml: <requires-namespaced-parameters>false</requires-namespaced-parameters>
+09:14 < jardineworks:#liferay> default is true which requires namespaces for params.
