@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 7 secs
 05:23 < ech0s7:#liferay> hi
+05:24 < ech0s7:#liferay> how could i check from MVCPortlet if a request is done in http or https ?
