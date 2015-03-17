@@ -14,3 +14,4 @@
 04:41 < twen:#liferay> Hello
 04:42 < twen:#liferay> When creating a new metadata set dor a document type, should the name of the fields be unique in the set, in the whole site, or the whole portal ?
 13:59 < josuebc:#liferay> Hi there. I have an issue with the sign in portlet. When a user tries to access a private page and its not logged in the portal will redirect the user to a page with the Signin portlet maximized.
+13:59 < josuebc:#liferay> How can I avoid this? I want the user to go to a page with the signin portlet in the normal render state. It does send the user to the correct page if the user clicks on the logout link.
