@@ -16,3 +16,4 @@
 13:59 < josuebc:#liferay> Hi there. I have an issue with the sign in portlet. When a user tries to access a private page and its not logged in the portal will redirect the user to a page with the Signin portlet maximized.
 13:59 < josuebc:#liferay> How can I avoid this? I want the user to go to a page with the signin portlet in the normal render state. It does send the user to the correct page if the user clicks on the logout link.
 15:29 < jardineworks_:#liferay> anyone in here able to talk about exporting and importing LARs with me?
+15:29 < jardineworks_:#liferay> I need a rubber duck.
