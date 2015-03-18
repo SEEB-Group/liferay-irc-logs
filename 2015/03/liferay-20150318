@@ -16,3 +16,4 @@
 10:22 < jardineworks:#liferay> put your hand up if the Importer / Exporter makes you want to hang yourself.
 10:22 < jardineworks:#liferay> .o/
 10:50 < ech0s7:#liferay> i have implemented a custom edit page for my portlet, extending DefaultConfigurationAction class. From edit.jsp i send a POST to controller MVCPortlet, but serveResource() is not called...why ?
+11:24 < jardineworks:#liferay> ech0s7, have you specifed the correct portlet and layout ids?
