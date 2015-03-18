@@ -53,3 +53,4 @@
 12:17 < jardineworks:#liferay> ech0s7, what's the name of your project in eclipse?
 12:18 < jardineworks:#liferay> your portlet id is not 86 -- this is what I am asking
 12:22 < jardineworks:#liferay> ech0s7, can you try changing the portlet:resourceURL to a <liferay-portlet:resourceURL/> ??
+12:23 < jardineworks:#liferay> it has extra attribtues -- like plid and portlet name
