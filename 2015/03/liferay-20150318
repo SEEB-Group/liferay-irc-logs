@@ -43,3 +43,4 @@
 12:07 < jardineworks:#liferay> cn you show me your portlet.xml?
 12:08 < jardineworks:#liferay> incidentally, I've never seen someone use an inner class to define a custom config action :)
 12:08 < jardineworks:#liferay> noramlly you have a class that extends the DefaultConfigurationAction as you have, and then configure it in your portlet.xml
+12:09 < jardineworks:#liferay> but I also don't usually use AJAX for those things .. just an action method.
