@@ -46,3 +46,4 @@
 12:09 < jardineworks:#liferay> but I also don't usually use AJAX for those things .. just an action method.
 12:10 < jardineworks:#liferay> in fact, if you structure your actionURL corrently (with the right parameters) and name your fields prefixed with preferences-- .. lifreay will persist the stuff for you (with the DefaultConfigurationAction)
 12:10 < jardineworks:#liferay> all side notes -- since that is not what you are looking to do of course :)
+12:12 < ech0s7:#liferay> jardineworks: this is liferay-portlet
