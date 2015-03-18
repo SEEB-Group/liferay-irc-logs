@@ -35,3 +35,4 @@
 11:57 < jardineworks:#liferay> if it does then you know that is what you are missing
 11:58 < ech0s7:#liferay> jardineworks: the ajax POST doesn't arrives on MVCPortlet
 11:58 < jardineworks:#liferay> though strange that the taglib wouldn't give that to you -- so perhaps I am mistaken
+11:59 < jardineworks:#liferay> ech0s7, right -- but that may be because Liferay doesn't know where to route the request to. I think you need a Layout id in the url so that Liferay can use that plid to lookup the portlet 86 instance and then send the request to that instantiated class.
