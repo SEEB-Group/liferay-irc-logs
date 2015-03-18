@@ -24,3 +24,4 @@
 11:39 < ech0s7:#liferay> https://dpaste.de/erur
 11:41 < jardineworks:#liferay> can you view source for the page and show me the result of <%=addResUrl%>
 11:43 < ech0s7:#liferay> jardineworks: https://dpaste.de/nsWV
+11:44 < jardineworks:#liferay> ech0s7, can you show me your portlet class?
