@@ -23,3 +23,4 @@
 11:39 < ech0s7:#liferay> jardineworks: this is a part of edit.jsp
 11:39 < ech0s7:#liferay> https://dpaste.de/erur
 11:41 < jardineworks:#liferay> can you view source for the page and show me the result of <%=addResUrl%>
+11:43 < ech0s7:#liferay> jardineworks: https://dpaste.de/nsWV
