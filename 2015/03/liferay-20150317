@@ -17,3 +17,5 @@
 13:59 < josuebc:#liferay> How can I avoid this? I want the user to go to a page with the signin portlet in the normal render state. It does send the user to the correct page if the user clicks on the logout link.
 15:29 < jardineworks_:#liferay> anyone in here able to talk about exporting and importing LARs with me?
 15:29 < jardineworks_:#liferay> I need a rubber duck.
+20:45 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed Mar 18 00:00:01 2015
