@@ -37,3 +37,4 @@
 11:58 < jardineworks:#liferay> though strange that the taglib wouldn't give that to you -- so perhaps I am mistaken
 11:59 < jardineworks:#liferay> ech0s7, right -- but that may be because Liferay doesn't know where to route the request to. I think you need a Layout id in the url so that Liferay can use that plid to lookup the portlet 86 instance and then send the request to that instantiated class.
 11:59 < jardineworks:#liferay> I don't normally use the resourceUrl taglib though so I am not sure. Noramlly I use Alloy Liferay.Portlet.ResourceURL
+12:06 < ech0s7:#liferay> jardineworks: when i send POST
