@@ -30,3 +30,4 @@
 11:48 < jardineworks:#liferay> do you know what the plid for your page is?
 11:51 < ech0s7:#liferay> is the key of layout ?
 11:51 < ech0s7:#liferay> contains the ownerid and layouid ?
+11:56 < jardineworks:#liferay> ech0s7, I'm not sure what you are asking. One way to get the plid is in the render method... or if you have another porltet on that page that has an action method (and no friendly url configure) then after executing the action your url should have a plid in it.
