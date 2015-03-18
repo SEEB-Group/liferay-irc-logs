@@ -34,3 +34,4 @@
 11:57 < jardineworks:#liferay> what I was going to suggest is adding the plid=xxx to the url you trapped and just putting that in your browser to see if your logging statement shows up
 11:57 < jardineworks:#liferay> if it does then you know that is what you are missing
 11:58 < ech0s7:#liferay> jardineworks: the ajax POST doesn't arrives on MVCPortlet
+11:58 < jardineworks:#liferay> though strange that the taglib wouldn't give that to you -- so perhaps I am mistaken
