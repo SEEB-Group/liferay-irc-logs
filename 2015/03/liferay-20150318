@@ -56,3 +56,4 @@
 12:23 < jardineworks:#liferay> it has extra attribtues -- like plid and portlet name
 12:23 < jardineworks:#liferay> portlet name (p_p_id) for custom portlets is normally <portlet_name>_WAR_servletContext ... whcih usually means <portlet_name>_WAR_<project_name>
 12:24 < jardineworks:#liferay> you also might want to add <add-default-resource>true</add-default-resource> to your liferay-portlet.xml
+12:41 < ech0s7:#liferay> jardineworks: <liferay-portlet:resourceURL is not a valid tag
