@@ -54,3 +54,4 @@
 12:18 < jardineworks:#liferay> your portlet id is not 86 -- this is what I am asking
 12:22 < jardineworks:#liferay> ech0s7, can you try changing the portlet:resourceURL to a <liferay-portlet:resourceURL/> ??
 12:23 < jardineworks:#liferay> it has extra attribtues -- like plid and portlet name
+12:23 < jardineworks:#liferay> portlet name (p_p_id) for custom portlets is normally <portlet_name>_WAR_servletContext ... whcih usually means <portlet_name>_WAR_<project_name>
