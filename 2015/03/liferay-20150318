@@ -45,3 +45,4 @@
 12:08 < jardineworks:#liferay> noramlly you have a class that extends the DefaultConfigurationAction as you have, and then configure it in your portlet.xml
 12:09 < jardineworks:#liferay> but I also don't usually use AJAX for those things .. just an action method.
 12:10 < jardineworks:#liferay> in fact, if you structure your actionURL corrently (with the right parameters) and name your fields prefixed with preferences-- .. lifreay will persist the stuff for you (with the DefaultConfigurationAction)
+12:10 < jardineworks:#liferay> all side notes -- since that is not what you are looking to do of course :)
