@@ -23,3 +23,4 @@
 10:07 < jardineworks:#liferay> hufg, shoot!
 10:07 < hufg:#liferay> what would be the best way to create a layout template with columns full width header, below a 50% width content area and below that a full width footer?
 10:07 < hufg:#liferay> the 50% content area should be centered
+10:07 < hufg:#liferay> maybe mark it with some css and margin: 0 auto; ?
