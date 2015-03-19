@@ -36,3 +36,4 @@
 10:13 < hufg:#liferay> just have to see how it goes i guess
 10:13 < hufg:#liferay> also the trouble with having blank space on the layout is mobile perhaps
 10:14 < hufg:#liferay> liferay handles smaller screens gracefully from the default css
+10:14 < hufg:#liferay> like you have 25% 50% 25%, they will drop eventually like first comes 25% then 50% then 25%
