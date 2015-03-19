@@ -31,3 +31,4 @@
 10:09 < hufg:#liferay> the middle row is 50% of width and centered
 10:10 < jardineworks:#liferay> hufg, I'm no css master but I am pretty sure the default is 100%... so you would just need, as you say a .middle { width:50% }
 10:12 < hufg:#liferay> yeah i'm just over analyzing this
+10:13 < hufg:#liferay> usually the full width is used
