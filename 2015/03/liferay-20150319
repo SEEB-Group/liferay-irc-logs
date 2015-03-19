@@ -15,3 +15,5 @@
 07:19 < hufg:#liferay> anyone had trouble with 6.2-ga2 article structure tips?
 07:19 < twen:#liferay> the REST APi is quite extensive in Lifery 6.2, is it ?
 07:19 < hufg:#liferay> they just don't show up
+08:56 -!- mode/#liferay [+o jhf] by ChanServ
+09:25 < hufg:#liferay> in 6.2 structures do you have to use localizable attribute?
