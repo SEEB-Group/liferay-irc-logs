@@ -55,3 +55,4 @@
 10:39 < hufg:#liferay> there is always a but
 10:40 < hufg:#liferay> :)
 10:44 < jardineworks:#liferay> hufg, This was helpful for me -- http://liferay.github.io/alloy-bootstrap/base-css.html
+10:45 < jardineworks:#liferay> I mean, it's not a migration tool .. but I use it as a reference to reduce the amount of "custom css" I create when possible
