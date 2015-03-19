@@ -61,3 +61,4 @@
 10:54 < hufg:#liferay> or dunno if it's an accident
 10:54 < hufg:#liferay> .offset4 {   margin-left: 400px !important; }  .portlet-column {   margin: 0px 20px !important; }
 10:54 < hufg:#liferay> and i guess the last one wins
+10:55 < hufg:#liferay> For each column <div>, make sure to specify the portlet-column CSS class.
