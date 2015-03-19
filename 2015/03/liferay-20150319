@@ -64,3 +64,4 @@
 10:55 < hufg:#liferay> For each column <div>, make sure to specify the portlet-column CSS class.
 10:58 < hufg:#liferay> so yeah i think the idea is not to leave blank space or center the element and handle mobile yourself
 11:01 < hufg:#liferay> uhuh centering the element is hard anyways
+11:01 < hufg:#liferay> fairly certain you are not supposed to do it this way :)
