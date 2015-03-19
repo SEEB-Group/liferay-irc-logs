@@ -39,3 +39,4 @@
 10:14 < hufg:#liferay> like you have 25% 50% 25%, they will drop eventually like first comes 25% then 50% then 25%
 10:15 < jardineworks:#liferay> hufg, ah -- well, this is where the rubber meets the road. It may be easier to build flat HTML with just custom css you write, but integration with liferay becomes more challenging. If however, you are able to use the Liferay css to do things like setting your widths, and layouts etc, that, from my experience, can save you a lot of pixel pushing.
 10:15 < hufg:#liferay> yeah could be useful to add 25% content there just for shits and giggles to have the mobile work oob
+10:16 < hufg:#liferay> dunno lets see what happens
