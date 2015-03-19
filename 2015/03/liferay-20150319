@@ -50,3 +50,4 @@
 10:31 < hufg:#liferay> Liferay 6.2 layout templates use Bootstrap’s 12 column grid system: http://getbootstrap.com/css/#grid
 10:39 < jardineworks:#liferay> hufg, yessir
 10:39 < jardineworks:#liferay> I have another page that I found where I nearly fell out of my chair. One sec...
+10:39 < hufg:#liferay> yes its true the offset class is similiar to the span1-12
