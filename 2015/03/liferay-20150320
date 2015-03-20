@@ -72,3 +72,4 @@
 11:27 < modd_:#liferay> I have no idea how this can happen
 11:29 < topolik:#liferay> do you have any http proxy?
 11:29 < topolik:#liferay> or can you start up a wireshark / tcpdump?
+11:29 < topolik:#liferay> so that you could look what exactly the browser sends and isolate the problem?
