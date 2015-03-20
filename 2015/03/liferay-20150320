@@ -58,3 +58,4 @@
 10:23 < modd_:#liferay> http://server:8080/welcome works fine
 10:23 < topolik:#liferay> uff
 10:23 < topolik:#liferay> ok
+10:23 < topolik:#liferay> can you verify what cookies does your browser send?
