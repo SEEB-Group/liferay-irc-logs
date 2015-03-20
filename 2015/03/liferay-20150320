@@ -68,3 +68,4 @@
 10:58 < topolik:#liferay> wait, you said when you access  http://server:8080/ you don't see any cookies
 10:58 < topolik:#liferay> but using the curl you saw it?
 11:27 < modd_:#liferay> yes
+11:27 < modd_:#liferay> @topolik
