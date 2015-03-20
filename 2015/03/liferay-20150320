@@ -19,3 +19,4 @@
 09:14 < modd_:#liferay> if I use "host/" as url, it shows me the welcome page, as expected
 09:14 < modd_:#liferay> but most times, the attribute simply never appears, even though I see in the logs the setAttribute message
 09:15 < modd_:#liferay> and even more weird: sometimes, if the cookie does not exist, the attribute is not set (which is correct) but the message appears as it finds the attribute
+09:17 < modd_:#liferay> any ideas are welcome
