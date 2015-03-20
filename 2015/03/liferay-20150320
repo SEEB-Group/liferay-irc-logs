@@ -59,3 +59,4 @@
 10:23 < topolik:#liferay> uff
 10:23 < topolik:#liferay> ok
 10:23 < topolik:#liferay> can you verify what cookies does your browser send?
+10:23 < topolik:#liferay> or try it from cmdline using curl?
