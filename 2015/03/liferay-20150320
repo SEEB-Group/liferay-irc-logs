@@ -45,3 +45,4 @@
 09:57 < modd_:#liferay> I'm not sure but maybe the internal redirect from host/ to host/welcome removes these information
 09:57 < modd_:#liferay> on the other hand, I cannot reproduce it on my local machine
 10:20 < modd_:#liferay> in my init_custom.vm I tried this:
+10:20 < modd_:#liferay> #foreach($cookie in $request.getCookies())
