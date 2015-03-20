@@ -65,3 +65,4 @@
 10:32 < modd_:#liferay> cookie 'test' appears
 10:35 < modd_:#liferay> my browser (tested with chrome and firefox) says, that it sends all cookies and I see them in the logs
 10:36 < modd_:#liferay> it's something between my servlet filter and the rendering of the page
+10:58 < topolik:#liferay> wait, you said when you access  http://server:8080/ you don't see any cookies
