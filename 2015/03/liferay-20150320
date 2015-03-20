@@ -61,3 +61,4 @@
 10:23 < topolik:#liferay> can you verify what cookies does your browser send?
 10:23 < topolik:#liferay> or try it from cmdline using curl?
 10:24 < topolik:#liferay> curl -i http://server:8080/ -H 'Cookie: test=test1' ?
+10:26 < modd_:#liferay> hmm..curl is not installed on my vm...could take a while because of VPN connections :\
