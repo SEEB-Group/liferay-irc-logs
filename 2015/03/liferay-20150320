@@ -39,3 +39,6 @@
 09:54 < modd_:#liferay> oh wait..that was the wrong version..but it also does not work, so cookies are missing too.
 09:54 < modd_:#liferay> before, it was this:
 09:54 < modd_:#liferay> #set($showCookieInfo = false)
+09:54 < modd_:#liferay> #if($request.getAttribute("COOKIE_INFO")==$null.null)
+09:54 < modd_:#liferay> 	#set($showCookieInfo = true)
+09:54 < modd_:#liferay> #end
