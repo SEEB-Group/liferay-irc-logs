@@ -24,3 +24,4 @@
 09:42 < topolik:#liferay> let me think about it
 09:43 < topolik:#liferay> The servlet filter is in the theme WAR?
 09:44 < topolik:#liferay> you check the attribute in the theme portal template or somewhere else?
+09:44 < topolik:#liferay> what do you mean by "host/" ... is it http://portal-server/host/ URL?
