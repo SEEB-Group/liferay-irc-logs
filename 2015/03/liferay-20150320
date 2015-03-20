@@ -22,3 +22,4 @@
 09:17 < modd_:#liferay> any ideas are welcome
 09:42 < topolik:#liferay> hi modd_, I'm here
 09:42 < topolik:#liferay> let me think about it
+09:43 < topolik:#liferay> The servlet filter is in the theme WAR?
