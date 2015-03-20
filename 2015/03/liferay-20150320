@@ -26,3 +26,4 @@
 09:44 < topolik:#liferay> you check the attribute in the theme portal template or somewhere else?
 09:44 < topolik:#liferay> what do you mean by "host/" ... is it http://portal-server/host/ URL?
 09:45 < modd_:#liferay> nope, it's in another project
+09:45 < modd_:#liferay> what I'm doing is:
