@@ -64,3 +64,4 @@
 10:26 < modd_:#liferay> hmm..curl is not installed on my vm...could take a while because of VPN connections :\
 10:32 < modd_:#liferay> cookie 'test' appears
 10:35 < modd_:#liferay> my browser (tested with chrome and firefox) says, that it sends all cookies and I see them in the logs
+10:36 < modd_:#liferay> it's something between my servlet filter and the rendering of the page
