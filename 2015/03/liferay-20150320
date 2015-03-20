@@ -36,3 +36,4 @@
 09:49 < modd_:#liferay> $showCookieInfo defaults to true before
 09:51 < modd_:#liferay> host/ means like localhost:8080/
 09:51 < modd_:#liferay> yes
+09:54 < modd_:#liferay> oh wait..that was the wrong version..but it also does not work, so cookies are missing too.
