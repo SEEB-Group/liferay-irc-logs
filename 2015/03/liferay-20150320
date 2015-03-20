@@ -16,3 +16,4 @@
 09:13 < modd_:#liferay> in my theme I check, if this attribute exists and if yes, it shows a message
 09:13 < modd_:#liferay> so this works just fine for all pages
 09:13 < modd_:#liferay> except "host/"
+09:14 < modd_:#liferay> if I use "host/" as url, it shows me the welcome page, as expected
