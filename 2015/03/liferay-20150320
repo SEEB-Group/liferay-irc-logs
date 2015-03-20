@@ -43,3 +43,4 @@
 09:54 < modd_:#liferay> 	#set($showCookieInfo = true)
 09:54 < modd_:#liferay> #end
 09:57 < modd_:#liferay> I'm not sure but maybe the internal redirect from host/ to host/welcome removes these information
+09:57 < modd_:#liferay> on the other hand, I cannot reproduce it on my local machine
