@@ -30,3 +30,4 @@
 09:46 < modd_:#liferay> in the doFilter method:
 09:46 < modd_:#liferay> final HttpServletRequest request = (HttpServletRequest) servletRequest;
 09:47 < modd_:#liferay> then checking the cookies and if it exists: request.setAttribute(COOKIE_INFO, Boolean.TRUE);
+09:47 < modd_:#liferay> + logging in this if case of course
