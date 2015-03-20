@@ -14,3 +14,4 @@
 09:12 < modd_:#liferay> hey there. I have really strange problem here. anyone around? jardineworks, topolik? ;)
 09:13 < modd_:#liferay> I have a servlet filter, which reads the cookies and depending on one cookie, it adds an attribute to the request
 09:13 < modd_:#liferay> in my theme I check, if this attribute exists and if yes, it shows a message
+09:13 < modd_:#liferay> so this works just fine for all pages
