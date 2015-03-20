@@ -32,3 +32,4 @@
 09:47 < modd_:#liferay> then checking the cookies and if it exists: request.setAttribute(COOKIE_INFO, Boolean.TRUE);
 09:47 < modd_:#liferay> + logging in this if case of course
 09:48 < modd_:#liferay> in my theme in the init_custom.vm:
+09:49 < modd_:#liferay> #if($cookie.getName().equals("COOKIE_INFO")) #set($showCookieInfo = false) #end
