@@ -54,3 +54,4 @@
 10:21 < topolik:#liferay> ok
 10:22 < topolik:#liferay> so when you access http://localhost:8080/ you see the cookies but when you acess http://server:8080/ you don't see any cookies?
 10:22 < modd_:#liferay> yes
+10:22 < topolik:#liferay> can you try using curl?
