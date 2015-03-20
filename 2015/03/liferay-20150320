@@ -38,3 +38,4 @@
 09:51 < modd_:#liferay> yes
 09:54 < modd_:#liferay> oh wait..that was the wrong version..but it also does not work, so cookies are missing too.
 09:54 < modd_:#liferay> before, it was this:
+09:54 < modd_:#liferay> #set($showCookieInfo = false)
