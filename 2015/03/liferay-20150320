@@ -74,3 +74,4 @@
 11:29 < topolik:#liferay> or can you start up a wireshark / tcpdump?
 11:29 < topolik:#liferay> so that you could look what exactly the browser sends and isolate the problem?
 11:46 < modd_:#liferay> it's not that easy but yes, I have to use whireshark I guess :\
+11:46 < modd_:#liferay> thx so far!
