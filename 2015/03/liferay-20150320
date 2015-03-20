@@ -35,3 +35,4 @@
 09:49 < modd_:#liferay> #if($cookie.getName().equals("COOKIE_INFO")) #set($showCookieInfo = false) #end
 09:49 < modd_:#liferay> $showCookieInfo defaults to true before
 09:51 < modd_:#liferay> host/ means like localhost:8080/
+09:51 < modd_:#liferay> yes
