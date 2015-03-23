@@ -100,3 +100,4 @@
 12:04 <@jhf:#liferay> put dl.char.last.blacklist=
 12:04 <@jhf:#liferay> into your portal-ext.properties
 12:04 <@jhf:#liferay> by default it is dl.char.last.blacklist=\\u0020,.
+12:04 <@jhf:#liferay> which means space and period
