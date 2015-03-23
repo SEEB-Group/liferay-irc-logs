@@ -46,3 +46,4 @@
 11:31 <@jhf:#liferay> in fact I think that might be one of the OOTB roles
 11:33 < jardineworks:#liferay> jhf, but how do you prevent comments from being seen until they are approved?
 11:33 <@jhf:#liferay> ahhh
+11:34 <@jhf:#liferay> comments use the same framework as the message boards, so set up a workflow for Message Boards messages
