@@ -28,3 +28,4 @@
 10:17 <@jhf:#liferay> this determines whether your locale is an "am-pm" locale: https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/kernel/util/DateUtil.java#L232
 10:17 <@jhf:#liferay> under which locale are you running?
 10:17 <@jhf:#liferay> de_DE ?
+10:17 < modd_:#liferay> yes
