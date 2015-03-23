@@ -49,3 +49,4 @@
 11:34 <@jhf:#liferay> comments use the same framework as the message boards, so set up a workflow for Message Boards messages
 11:34 <@jhf:#liferay> never tried it.. trying it now :0
 11:34 < twen:#liferay> Hello
+11:35 < jardineworks:#liferay> jhf,  oh I see Control Panel > [Site] > Configuration > Workflow > Comments -- single approver.
