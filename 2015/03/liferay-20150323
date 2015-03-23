@@ -22,3 +22,4 @@
 10:13 < modd_:#liferay> <modd_> is this a bug: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/input_field/page.jsp#L196 !?
 10:13 < modd_:#liferay> <modd_> I'm using aui:input with a model which displays a date/time
 10:13 < modd_:#liferay> <modd_> it works fine but whenever I load a date with a time like 20:15 it shows 08:15 (without AM/PM - I'm gettint 24h in the dropdown). it looks for me, like it doesn't get the correct ampm setting from my locale :\
+10:15 <@jhf:#liferay> hmm
