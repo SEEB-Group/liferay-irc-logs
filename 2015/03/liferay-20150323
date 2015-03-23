@@ -102,3 +102,4 @@
 12:04 <@jhf:#liferay> by default it is dl.char.last.blacklist=\\u0020,.
 12:04 <@jhf:#liferay> which means space and period
 18:19 < rochadt:#liferay> I'm trying to install solr 4 running on 8983. When I update a document in liferay I get "Document is missing mandatory uniqueKey field: id", does anyone know why I might be seeing this?
+18:22 < rochadt:#liferay> I have <field name="id" in my schema.xml...
