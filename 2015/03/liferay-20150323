@@ -33,3 +33,4 @@
 10:17 < modd_:#liferay> it returns false as expected
 10:17 <@jhf:#liferay> ah ok
 10:22 <@jhf:#liferay> yeah I think that's a bug
+10:24 <@jhf:#liferay> I bet it's "correct" in the database
