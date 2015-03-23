@@ -98,3 +98,4 @@
 12:03 <@jhf:#liferay> as per LPS-37352 (it messes up mobile)
 12:04 <@jhf:#liferay> BUT you can undo this if you don't care about sync
 12:04 <@jhf:#liferay> put dl.char.last.blacklist=
+12:04 <@jhf:#liferay> into your portal-ext.properties
