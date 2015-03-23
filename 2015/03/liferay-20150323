@@ -88,3 +88,4 @@
 11:53 <@jhf:#liferay> ok if you remove the periods (.) it works
 11:53 <@jhf:#liferay> i'm pretty sure that messes something else up later on, which is why it's not allowed.
 11:54 <@jhf:#liferay> I am still investigating
+11:57 <@jhf:#liferay> ok furthermore it's failing only when you have a period as the last character
