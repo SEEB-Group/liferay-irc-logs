@@ -25,3 +25,4 @@
 10:15 <@jhf:#liferay> hmm
 10:16 < modd_:#liferay> tested with 6.2 ga2 for now
 10:16 < modd_:#liferay> with ga3 I have also some strange problems
+10:17 <@jhf:#liferay> this determines whether your locale is an "am-pm" locale: https://github.com/liferay/liferay-portal/blob/master/portal-service/src/com/liferay/portal/kernel/util/DateUtil.java#L232
