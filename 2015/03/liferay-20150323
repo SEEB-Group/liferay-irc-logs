@@ -91,3 +91,4 @@
 11:57 <@jhf:#liferay> ok furthermore it's failing only when you have a period as the last character
 11:58 < twen:#liferay> Well... I can change the title if it is suppose to have a period or specific character, the authors won't allow me that...
 11:59 < twen:#liferay> Or, I can add a metadata field, bu this has to be displayed instead if the title... as label title ;)
+12:00 < twen:#liferay> if it's the last character.. I may fine a workaround saying : please add an extra space.. but I doun't it's understood :-/
