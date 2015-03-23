@@ -47,3 +47,4 @@
 11:33 < jardineworks:#liferay> jhf, but how do you prevent comments from being seen until they are approved?
 11:33 <@jhf:#liferay> ahhh
 11:34 <@jhf:#liferay> comments use the same framework as the message boards, so set up a workflow for Message Boards messages
+11:34 <@jhf:#liferay> never tried it.. trying it now :0
