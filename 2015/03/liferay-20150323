@@ -1,0 +1,13 @@
+--- Log opened Mon Mar 23 00:00:18 2015
+--- Log opened Mon Mar 23 03:21:12 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith   ] [ MagnoBooter] [ rochadt] [ vsingleton] 
+03:21 [ bijoo     ] [ henriquev] [ marcoceppi_] [ scribe ] 
+03:21 [ Bryanstein] [ jbub     ] [ Naenyn     ] [ Tm_T   ] 
+03:21 [ doged     ] [ josuebc  ] [ quercus    ] [ topolik] 
+03:21 -!- Irssi: #liferay: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+06:50 < winem_:#liferay> hi. is the liferay documentation wrong or am I wrong? https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/installing-liferay-on-jboss-7-4 says that I should add the mysql-*.jar to the module.xml. but this jar is not even part of the zip file
