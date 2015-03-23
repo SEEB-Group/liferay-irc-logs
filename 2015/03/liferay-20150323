@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:50 < winem_:#liferay> hi. is the liferay documentation wrong or am I wrong? https://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/installing-liferay-on-jboss-7-4 says that I should add the mysql-*.jar to the module.xml. but this jar is not even part of the zip file
+06:50 < winem_:#liferay> so I guess I can ignore this and just add the existing jars + postgresql-jdbc.jar. right?
