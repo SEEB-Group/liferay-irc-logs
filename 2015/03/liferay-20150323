@@ -52,3 +52,4 @@
 11:35 < jardineworks:#liferay> jhf,  oh I see Control Panel > [Site] > Configuration > Workflow > Comments -- single approver.
 11:35 < twen:#liferay> Has anybody the knowledge why the title of a a document & media file, is not name filename ?
 11:36 < twen:#liferay> Because I like to use title as the title of the document, not it's filename :p
+11:36 < jardineworks:#liferay> jhf, there we go... then it shows "pending approval" if you are someone who is allowed to see it
