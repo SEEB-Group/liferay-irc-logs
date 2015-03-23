@@ -14,3 +14,4 @@
 06:50 < winem_:#liferay> so I guess I can ignore this and just add the existing jars + postgresql-jdbc.jar. right?
 06:51 < winem_:#liferay> sorry, I did not read the text below the box. ignore my question :D
 07:08 < modd_:#liferay> is this a bug: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/input_field/page.jsp#L196 !?
+07:08 < modd_:#liferay> I'm using aui:input with a model which displays a date/time
