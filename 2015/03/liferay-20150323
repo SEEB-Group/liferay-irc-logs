@@ -24,3 +24,4 @@
 10:13 < modd_:#liferay> <modd_> it works fine but whenever I load a date with a time like 20:15 it shows 08:15 (without AM/PM - I'm gettint 24h in the dropdown). it looks for me, like it doesn't get the correct ampm setting from my locale :\
 10:15 <@jhf:#liferay> hmm
 10:16 < modd_:#liferay> tested with 6.2 ga2 for now
+10:16 < modd_:#liferay> with ga3 I have also some strange problems
