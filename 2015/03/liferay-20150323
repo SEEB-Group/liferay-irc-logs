@@ -19,3 +19,4 @@
 09:25 -!- mode/#liferay [+o jhf] by ChanServ
 10:13 < modd_:#liferay> hey jhf
 10:13 < modd_:#liferay> I guess I found a new problem^^
+10:13 < modd_:#liferay> <modd_> is this a bug: https://github.com/liferay/liferay-portal/blob/master/portal-web/docroot/html/taglib/ui/input_field/page.jsp#L196 !?
