@@ -41,3 +41,4 @@
 11:20 < jardineworks:#liferay> hey jhf -- is comment moderating built into LR?
 11:28 < sharmanaetor:#liferay> I was hoping someone could help me out with a question I posted on Stack Overflow: http://stackoverflow.com/questions/29176864/liferay-friendly-url-field-converts-to
 11:30 <@jhf:#liferay> jardineworks: yeah .. I mean via permissions/roles
+11:30 <@jhf:#liferay> you could easily creaet a "Comment Moderator" role
