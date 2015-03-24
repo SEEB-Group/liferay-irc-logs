@@ -159,3 +159,4 @@
 17:54 <@jhf:#liferay> GUEST_LANGUAGE_ID=en_US is set in the request headers
 17:54 < jardineworks:#liferay> it should send you to fr
 17:54 <@jhf:#liferay> shoudl I erase all cookies for localhost?
+17:54 < jardineworks:#liferay> you can give that a shot
