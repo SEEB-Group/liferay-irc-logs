@@ -93,3 +93,4 @@
 13:27 < jardineworks:#liferay> jhf: one more question when you have time. I feel like I have read this one somewhere before but I can't find it. Is it possible to hide/show a field in a structure based on the selection of another field in the same structure?
 13:33 < jardineworks:#liferay> didn't fix the issues -- shoot
 13:36 <@jhf:#liferay> I don't think dynamic hide/show structure fields is possible - it sounds awesome though.
+13:38 < jardineworks:#liferay> jhf: I'll put it on my list of things to try :)
