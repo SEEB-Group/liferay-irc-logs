@@ -124,3 +124,4 @@
 13:45 <@jhf:#liferay> see http://stackoverflow.com/questions/19536041/removing-custom-permissions-actions-from-a-portlet/19537604
 13:47 < jardineworks:#liferay> jhf: but I already deleted the entries from the ResourceAction table manually :S
 13:47 <@jhf:#liferay> ok
+13:48 <@jhf:#liferay> so they should come back on re-deploy then
