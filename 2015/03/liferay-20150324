@@ -120,3 +120,4 @@
 13:45 < jardineworks:#liferay> right
 13:45 < jardineworks:#liferay> makes sense
 13:45 < jardineworks:#liferay> wow -- the other way around could be catastrophic :)
+13:45 <@jhf:#liferay> I would undeploy the portlet and remove the resource actions using the API
