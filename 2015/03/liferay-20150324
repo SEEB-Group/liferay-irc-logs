@@ -115,3 +115,4 @@
 13:43 < jardineworks:#liferay> trying reboot with work/temp clearing.
 13:44 <@jhf:#liferay> ah yes - I was wrong
 13:44 <@jhf:#liferay> the are not deleted during undeploy
+13:44 <@jhf:#liferay> because there might still be reousrces on the system created by that portle
