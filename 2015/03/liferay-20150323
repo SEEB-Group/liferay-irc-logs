@@ -104,3 +104,5 @@
 18:19 < rochadt:#liferay> I'm trying to install solr 4 running on 8983. When I update a document in liferay I get "Document is missing mandatory uniqueKey field: id", does anyone know why I might be seeing this?
 18:22 < rochadt:#liferay> I have <field name="id" in my schema.xml...
 19:56 < njuneau:#liferay> Hello :)
+21:54 -!- mode/#liferay [+o jhf] by ChanServ
+23:46 < Rowejob:#liferay> I am having issues with ckeditor.js getting a TypeError: Cannot read property 'options' of undefined when trying to load control panel web forms
