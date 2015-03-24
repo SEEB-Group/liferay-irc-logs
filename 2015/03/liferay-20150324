@@ -151,3 +151,4 @@
 17:50 < jardineworks:#liferay> (based on the url)
 17:50 <@jhf:#liferay> so you want me to reconfig my browser to send a different Accept-Language ?
 17:50 <@jhf:#liferay> also you should be aware of the GUEST_LANGUAGE_ID cookie
+17:52 < jardineworks:#liferay> jhf: yes to the browser (I use a locale switcher in chrome)
