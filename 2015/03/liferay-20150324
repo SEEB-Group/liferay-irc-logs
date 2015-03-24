@@ -98,3 +98,4 @@
 13:39 <@jhf:#liferay> fancy javascript in a JSP override somehow.
 13:40 <@jhf:#liferay> or file a feature request and socialize the crap out of it
 13:40 < jardineworks:#liferay> jhf: still failing to load content... seems to be on all sites for the instance no less.
+13:40 <@jhf:#liferay> if you undeploy that collector portlet does it fix it?
