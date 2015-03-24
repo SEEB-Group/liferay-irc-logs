@@ -50,3 +50,4 @@
 12:43 <@jhf:#liferay> ok almost got it.. just testing.
 12:43 < jardineworks:#liferay> k
 12:43 < jardineworks:#liferay> :)
+12:44 < jardineworks:#liferay> the weird this is tha tthe pages were created ... but the error I was getting in the runtime was this -- com.liferay.portal.NoSuchResourceActionException: collectorpdfportlet_WAR_collectorportlet#ADD_TO_PAGE
