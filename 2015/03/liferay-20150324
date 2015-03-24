@@ -95,3 +95,4 @@
 13:36 <@jhf:#liferay> I don't think dynamic hide/show structure fields is possible - it sounds awesome though.
 13:38 < jardineworks:#liferay> jhf: I'll put it on my list of things to try :)
 13:39 <@jhf:#liferay> yeah
+13:39 <@jhf:#liferay> fancy javascript in a JSP override somehow.
