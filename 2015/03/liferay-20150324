@@ -172,3 +172,4 @@
 17:56 < jardineworks:#liferay> can yo utry with fr_CA in a locale :)
 17:56 <@jhf:#liferay> yep trying..
 17:56 < jardineworks:#liferay> crazy canadians I know..
+17:57 <@jhf:#liferay> ok now my header is Accept-Language:fr-CA,fr;q=0.8,en-US;q=0.6,en;q=0.4
