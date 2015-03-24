@@ -80,3 +80,4 @@
 13:14 <@jhf:#liferay> yes. how about comment out the two lines of code and just put out.println("hi")
 13:14 <@jhf:#liferay> to ensure it is working
 13:14 <@jhf:#liferay> also I updated the gist to put semicolons after each import line. it shouldn't be needed but you never know.
+13:14 <@jhf:#liferay> / you comment like this
