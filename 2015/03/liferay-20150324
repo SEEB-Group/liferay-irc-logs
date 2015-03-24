@@ -20,3 +20,4 @@
 12:22 <@jhf:#liferay> hey jardineworks
 12:24 < jardineworks:#liferay> jhf: qq for you -- I know you're a busy guy :). I have a problem where someone added a page to a site and it looks like something went whacky. Click on any of the site pages and you get a message saying  "Failed to retrieve content" -- in the log ResourceAction exception for #ADD_TO_PAGE action.
 12:25 < jardineworks:#liferay> any ideas?
+12:25 <@jhf:#liferay> hmm
