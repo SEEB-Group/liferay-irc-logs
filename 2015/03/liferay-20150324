@@ -176,3 +176,4 @@
 17:57 <@jhf:#liferay> and when I go to localhost I still just get redirected to /fr
 17:57 < jardineworks:#liferay> how to you set your Accept-Language?
 17:57 < jardineworks:#liferay> do you use a chrome plugin?
+17:57 <@jhf:#liferay> Chrome -> Settings -> Advanced -> Languages
