@@ -149,3 +149,4 @@
 17:50 < jardineworks:#liferay> a. Does the locale you have in your request header get prefixed into the URL
 17:50 < jardineworks:#liferay> b. does the content appear in the correct language.
 17:50 < jardineworks:#liferay> (based on the url)
+17:50 <@jhf:#liferay> so you want me to reconfig my browser to send a different Accept-Language ?
