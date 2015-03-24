@@ -161,3 +161,4 @@
 17:54 <@jhf:#liferay> shoudl I erase all cookies for localhost?
 17:54 < jardineworks:#liferay> you can give that a shot
 17:54 < jardineworks:#liferay> I think I tried that
+17:55 <@jhf:#liferay> ok after erasing all cookies and then re-browsing to localhost:8080 it redirects me to /fr
