@@ -100,3 +100,4 @@
 13:40 < jardineworks:#liferay> jhf: still failing to load content... seems to be on all sites for the instance no less.
 13:40 <@jhf:#liferay> if you undeploy that collector portlet does it fix it?
 13:40 < jardineworks:#liferay> negative. Tried that first.
+13:41 < jardineworks:#liferay> jhf: do resource actions get set up dynamically? like if I drop the ResourceActions table .. or purge the content I mean, do you know if LR will put it back?
