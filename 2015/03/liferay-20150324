@@ -146,3 +146,4 @@
 17:49 < jardineworks:#liferay> and then when you hit the site (using a locale other than en_US) .. can you tell me --
 17:49 <@jhf:#liferay> faraa: maybe :) we shall try..
 17:49 <@jhf:#liferay> jardineworks: ok one sec
+17:50 < jardineworks:#liferay> a. Does the locale you have in your request header get prefixed into the URL
