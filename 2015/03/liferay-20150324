@@ -122,3 +122,4 @@
 13:45 < jardineworks:#liferay> wow -- the other way around could be catastrophic :)
 13:45 <@jhf:#liferay> I would undeploy the portlet and remove the resource actions using the API
 13:45 <@jhf:#liferay> see http://stackoverflow.com/questions/19536041/removing-custom-permissions-actions-from-a-portlet/19537604
+13:47 < jardineworks:#liferay> jhf: but I already deleted the entries from the ResourceAction table manually :S
