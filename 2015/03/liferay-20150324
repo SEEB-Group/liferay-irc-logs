@@ -116,3 +116,4 @@
 13:44 <@jhf:#liferay> ah yes - I was wrong
 13:44 <@jhf:#liferay> the are not deleted during undeploy
 13:44 <@jhf:#liferay> because there might still be reousrces on the system created by that portle
+13:45 <@jhf:#liferay> e.g. removing the blogs portlet (if that were possible) should not delete blog entries.
