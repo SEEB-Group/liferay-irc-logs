@@ -154,3 +154,4 @@
 17:52 < jardineworks:#liferay> jhf: yes to the browser (I use a locale switcher in chrome)
 17:52 < jardineworks:#liferay> but the guest language id cookie should not be used if the locale.default.request is set to true
 17:53 <@jhf:#liferay> ok so I switched my browser to send this header: Accept-Language:fr,en-US;q=0.8,en;q=0.6
+17:53 <@jhf:#liferay> and when I go to localhost:8080 it redirects me to /en
