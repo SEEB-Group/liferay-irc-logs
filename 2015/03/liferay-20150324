@@ -145,3 +145,4 @@
 17:49 < jardineworks:#liferay> locale.prepend.friendly.url.style=2 locale.default.request=true
 17:49 < jardineworks:#liferay> and then when you hit the site (using a locale other than en_US) .. can you tell me --
 17:49 <@jhf:#liferay> faraa: maybe :) we shall try..
+17:49 <@jhf:#liferay> jardineworks: ok one sec
