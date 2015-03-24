@@ -142,3 +142,4 @@
 16:39 < faraa:#liferay> can anyone helps to a beginner ? ;)
 17:46 < jardineworks:#liferay> jhf: do you have a minute and a half to try something on your side? I'm not sure if I have found a bug or not.
 17:49 < jardineworks:#liferay> jhf: can you add these two properties to your portal-ext --
+17:49 < jardineworks:#liferay> locale.prepend.friendly.url.style=2 locale.default.request=true
