@@ -105,3 +105,4 @@
 13:41 < jardineworks:#liferay> JSPs... could be cached.
 13:42 <@jhf:#liferay> I don't think they get set up automatically. if you undeploy the portlets then any custom resource actions you defined should be un-done
 13:42 < jardineworks:#liferay> hmm
+13:42 <@jhf:#liferay> I think they only get setup automatically for custom portlets
