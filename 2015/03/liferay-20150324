@@ -16,3 +16,4 @@
 11:15 < ech0s7:#liferay> how can i do ?
 11:30 < winem_:#liferay> hi together, I can't import the users from our ldap. testing the connection, users and groups works fine but liferay does not import them
 11:31 < winem_:#liferay> so what does the import and export mean? I guess import is the import from our ldap to liferay and export the other way?
+12:02 < jardineworks:#liferay> hey jhf -- you there?
