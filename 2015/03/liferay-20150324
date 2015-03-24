@@ -148,3 +148,4 @@
 17:49 <@jhf:#liferay> jardineworks: ok one sec
 17:50 < jardineworks:#liferay> a. Does the locale you have in your request header get prefixed into the URL
 17:50 < jardineworks:#liferay> b. does the content appear in the correct language.
+17:50 < jardineworks:#liferay> (based on the url)
