@@ -40,3 +40,4 @@
 12:29 <@jhf:#liferay> oh... yeah you can also remove the page via the API. but I've never done it so it would take some investigation. shouldn't be too bad.
 12:29 <@jhf:#liferay> what script are you using?
 12:30 <@jhf:#liferay> I have a script I use to *add* pages via API :)
+12:30 < jardineworks:#liferay> I am trying to use groovy
