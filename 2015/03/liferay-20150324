@@ -109,3 +109,4 @@
 13:42 <@jhf:#liferay> system resources won't be re-grown if the table is dropped.
 13:42 < jardineworks:#liferay> that didn't happen. I undepoyed the portlet and they were still there... I had to manually delete them from the table.
 13:43 <@jhf:#liferay> oh..
+13:43 <@jhf:#liferay> hmmmm...
