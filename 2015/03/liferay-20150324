@@ -78,3 +78,4 @@
 13:13 < jardineworks:#liferay> jhf: Rquest failed to complete :(
 13:13 < jardineworks:#liferay> I just choose groovy from the drop down right?
 13:14 <@jhf:#liferay> yes. how about comment out the two lines of code and just put out.println("hi")
+13:14 <@jhf:#liferay> to ensure it is working
