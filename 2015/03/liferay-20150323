@@ -106,3 +106,4 @@
 19:56 < njuneau:#liferay> Hello :)
 21:54 -!- mode/#liferay [+o jhf] by ChanServ
 23:46 < Rowejob:#liferay> I am having issues with ckeditor.js getting a TypeError: Cannot read property 'options' of undefined when trying to load control panel web forms
+23:46 < Rowejob:#liferay> anyone have any ideas on how to fix this?
