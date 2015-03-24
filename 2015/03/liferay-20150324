@@ -156,3 +156,4 @@
 17:53 <@jhf:#liferay> ok so I switched my browser to send this header: Accept-Language:fr,en-US;q=0.8,en;q=0.6
 17:53 <@jhf:#liferay> and when I go to localhost:8080 it redirects me to /en
 17:54 < jardineworks:#liferay> boo
+17:54 <@jhf:#liferay> GUEST_LANGUAGE_ID=en_US is set in the request headers
