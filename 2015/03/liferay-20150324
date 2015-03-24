@@ -58,3 +58,4 @@
 12:47 <@jhf:#liferay> https://gist.github.com/jamesfalkner/c69e9d809b32c1ecf9bc
 12:48 <@jhf:#liferay> replace 10182 with the proper groupId, and /somepage with the friendlyUrl of the page to delete in that group
 12:49 <@jhf:#liferay> does that portlet define any custom resource or resource-actions?
+12:49 < jardineworks:#liferay> jhf: no sir
