@@ -43,3 +43,4 @@
 12:30 < jardineworks:#liferay> I am trying to use groovy
 12:30 < jardineworks:#liferay> I have no idea though hahaha
 12:30 < jardineworks:#liferay> never used this thing before
+12:30 < jardineworks:#liferay> import  com.liferay.portal.service.* import com.liferay.portal.model.*  Layout layout1 = com.liferay.portal.service.LayoutLocalServiceUtil.getLayout(314407);
