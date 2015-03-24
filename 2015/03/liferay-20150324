@@ -37,3 +37,4 @@
 12:28 < jardineworks:#liferay> that is where I am getting the error
 12:28 < jardineworks:#liferay> and the theme these guys build removed all the page controls and dock bar (kill me)
 12:29 < jardineworks:#liferay> I am trying in the control panel scripting... but this is giving me an error --
+12:29 <@jhf:#liferay> oh... yeah you can also remove the page via the API. but I've never done it so it would take some investigation. shouldn't be too bad.
