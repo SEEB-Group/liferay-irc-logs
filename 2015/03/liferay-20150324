@@ -136,3 +136,4 @@
 13:52 < jardineworks:#liferay> but there are still some in the ResourcePermission table
 13:53 < jardineworks:#liferay> can't see it anywhere else though
 13:55 < jardineworks:#liferay> same issue
+13:55 < jardineworks:#liferay> but now there is no stacktrace being thrown
