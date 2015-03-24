@@ -133,3 +133,4 @@
 13:51 < jardineworks:#liferay> jhf: not in the database.
 13:51 < jardineworks:#liferay> not in the ResourceAction table anyway
 13:51 < jardineworks:#liferay> ah
+13:52 < jardineworks:#liferay> but there are still some in the ResourcePermission table
