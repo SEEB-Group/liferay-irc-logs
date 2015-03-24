@@ -164,3 +164,4 @@
 17:55 <@jhf:#liferay> ok after erasing all cookies and then re-browsing to localhost:8080 it redirects me to /fr
 17:55 < jardineworks:#liferay> the other thing I noticed is that it puts the language, but not the country code. I thought it would put both... but I guess I was mistaken.
 17:55 < jardineworks:#liferay> jhf: I am using 6.2 EE SP10 btw
+17:56 <@jhf:#liferay> ok I am on 6.2 CE GA3
