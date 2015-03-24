@@ -103,3 +103,4 @@
 13:41 < jardineworks:#liferay> jhf: do resource actions get set up dynamically? like if I drop the ResourceActions table .. or purge the content I mean, do you know if LR will put it back?
 13:41 < jardineworks:#liferay> maybe I need a reboot.
 13:41 < jardineworks:#liferay> JSPs... could be cached.
+13:42 <@jhf:#liferay> I don't think they get set up automatically. if you undeploy the portlets then any custom resource actions you defined should be un-done
