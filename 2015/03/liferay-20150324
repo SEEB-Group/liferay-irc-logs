@@ -131,3 +131,4 @@
 13:48 <@jhf:#liferay> they may have not really been deleted :)
 13:50 < jardineworks:#liferay> checking DB
 13:51 < jardineworks:#liferay> jhf: not in the database.
+13:51 < jardineworks:#liferay> not in the ResourceAction table anyway
