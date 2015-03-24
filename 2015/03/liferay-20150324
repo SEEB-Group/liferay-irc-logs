@@ -46,3 +46,4 @@
 12:30 < jardineworks:#liferay> import  com.liferay.portal.service.* import com.liferay.portal.model.*  Layout layout1 = com.liferay.portal.service.LayoutLocalServiceUtil.getLayout(314407);
 12:30 < jardineworks:#liferay> but it is erroring out
 12:31 < jardineworks:#liferay> maybe I can change your add to a delete :)
+12:31 <@jhf:#liferay> hahaha. standby. my script is actually a java program, but i can convert it to groovy..  one sec
