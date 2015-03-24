@@ -107,3 +107,4 @@
 13:42 < jardineworks:#liferay> hmm
 13:42 <@jhf:#liferay> I think they only get setup automatically for custom portlets
 13:42 <@jhf:#liferay> system resources won't be re-grown if the table is dropped.
+13:42 < jardineworks:#liferay> that didn't happen. I undepoyed the portlet and they were still there... I had to manually delete them from the table.
