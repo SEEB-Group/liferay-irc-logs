@@ -54,3 +54,4 @@
 12:44 < jardineworks:#liferay> BUT!
 12:44 < jardineworks:#liferay> when I checked the ResourceActions table --- the entries were there
 12:44 < jardineworks:#liferay> :S
+12:47 <@jhf:#liferay> so here's the script to delete it:
