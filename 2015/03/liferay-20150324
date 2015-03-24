@@ -174,3 +174,4 @@
 17:56 < jardineworks:#liferay> crazy canadians I know..
 17:57 <@jhf:#liferay> ok now my header is Accept-Language:fr-CA,fr;q=0.8,en-US;q=0.6,en;q=0.4
 17:57 <@jhf:#liferay> and when I go to localhost I still just get redirected to /fr
+17:57 < jardineworks:#liferay> how to you set your Accept-Language?
