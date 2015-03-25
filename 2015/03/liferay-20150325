@@ -42,3 +42,4 @@
 10:49 < jardineworks:#liferay> or a licensing server maybe?
 10:49 <@jhf:#liferay> I don't *think* we have an automated way to handle that case. I *think* it's a case-by-case basis. It's a good question for provisioning@liferay.com
 10:50 <@jhf:#liferay> I doubt there is an "open MAC address license"
+10:51 < jardineworks:#liferay> jhf: ok... I just found out this morning that there are options to maintain a Network Interface stack ... seperate from the images, and then to bind them to images as you spin them up. But in the case of OpenStack, apparently, this requires an ESX server which is big bucks. I'll shoot an email over to the provisioning email address though -- thanks :)
