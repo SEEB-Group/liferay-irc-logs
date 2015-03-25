@@ -40,3 +40,4 @@
 10:48 < jardineworks:#liferay> jhf: 2. License files. They're tied to MAC addresses right? so for clients that have virtualized environments, what kind of options does Liferay offer? Basically, lets say I have a DEV environment that has been wrecked. I want to blow away the image and spin up a new one. But I might not be able to maintain the same MAC address (I know there are ways, but humor me for the moment).
 10:49 < jardineworks:#liferay> is there a "open MAC" address license?
 10:49 < jardineworks:#liferay> or a licensing server maybe?
+10:49 <@jhf:#liferay> I don't *think* we have an automated way to handle that case. I *think* it's a case-by-case basis. It's a good question for provisioning@liferay.com
