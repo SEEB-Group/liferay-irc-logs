@@ -32,3 +32,4 @@
 10:23 < jardineworks:#liferay> 1. are EE customers allowed to use CE licenses? basically mixed licenses in their environment?
 10:25 <@jhf:#liferay> yeah, no problem, although if they are too far apart in versions then you run the risk of incompatibility
 10:25 <@jhf:#liferay> you should also be aware that SI partners of Liferay can't "do CE deals"
+10:34 < jardineworks:#liferay> jhf: What does that mean? they are not allowed to work on CE versions of the product for customers?
