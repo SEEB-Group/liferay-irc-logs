@@ -49,3 +49,4 @@
 10:57 < modd_:#liferay> yes
 10:57 < jardineworks:#liferay> modd_: the developer licenses certainly are more generic and yo ucan do that, BUT, the problem with them is that they disable cluster capabilities.
 10:57 < modd_:#liferay> I never had to "move" a test or production system
+10:58 < jardineworks:#liferay> the non-rpoduction and production licenses though are very specific.
