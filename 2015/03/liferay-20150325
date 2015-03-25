@@ -23,3 +23,4 @@
 06:12 < winem_:#liferay> and how important is the supported liferay version of a theme? will a theme for 6.2 GA2 work on GA3 also?
 06:42 < winem_:#liferay> ok, seems to work for now.
 06:42 < winem_:#liferay> now, I have another question and trying to fix this caused conflicts between the settings in the GUI and portal-ext.properties
+10:07 < jardineworks:#liferay> good mroning guys
