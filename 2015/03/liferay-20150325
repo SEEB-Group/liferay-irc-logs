@@ -53,3 +53,4 @@
 10:58 < jardineworks:#liferay> in fact you have to provide the network details for the machine when you ask for one to be issued.
 10:58 < modd_:#liferay> you can "extend" the ee package^^
 11:05 < jardineworks:#liferay> modd_: sorry? I'm not sure I understand what you mean...
+11:08 < modd_:#liferay> yeah, sure, it's a bad idea to "extend" the license processing codes..do never do that!
