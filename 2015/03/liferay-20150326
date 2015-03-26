@@ -27,3 +27,4 @@
 07:04 < Axxell:#liferay> Hi.. trying to test to upgrade from liferay CE 6.2 ga3 to Liferay EE 6.2 SP9, which fails on journal verify
 07:04 < Axxell:#liferay> with a nullpointerexception
 07:39 < Axxell:#liferay> is sp9 an "older" version than ga3?`
+07:39 < Axxell:#liferay> why would the upgrade fail?
