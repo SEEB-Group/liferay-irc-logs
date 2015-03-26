@@ -30,3 +30,4 @@
 07:39 < Axxell:#liferay> why would the upgrade fail?
 07:42 < modd_:#liferay> afair GA3 was released after SP9, but I'm not sure
 08:34 < Axxell:#liferay> hmm still cant find a good reason why i would get an null poinerexception
+08:54 < modd_:#liferay> any other infos in the stacktrace?
