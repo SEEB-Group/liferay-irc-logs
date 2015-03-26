@@ -13,3 +13,4 @@
 03:49 < goku_:#liferay> hi, is there any restriction for changing the portal setting from only from localhost domain ,like that?
 03:49 < goku_:#liferay> in liferay 6.2 ga
 06:10 < twen:#liferay> Question about Metadata field.. I've setup a metadata field with a text filed in it. A document is suing this metadata set (via a document type). If I edit the name (not the label) of the metadata field... is the value saved for the document, still saved.. or is it lost ?
+06:13 < twen:#liferay> Oh... I found the answers ^^
