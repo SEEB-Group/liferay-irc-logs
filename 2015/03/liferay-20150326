@@ -24,3 +24,4 @@
 06:39 < twen:#liferay> what do you mind with entity... the document ?
 06:41 < twen:#liferay> For me, it seems liferay doesn't use an internal ID for the field, but uses the name, that can be too easily change and mistyped.. That's a mistake in the concept in Liferay... Or am I wrong?
 06:48 < modd_:#liferay> maybe, I don't know :\
+07:04 < Axxell:#liferay> Hi.. trying to test to upgrade from liferay CE 6.2 ga3 to Liferay EE 6.2 SP9, which fails on journal verify
