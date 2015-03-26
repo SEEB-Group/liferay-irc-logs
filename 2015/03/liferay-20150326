@@ -19,3 +19,4 @@
 06:33 < twen:#liferay> I stopped before trying
 06:33 < modd_:#liferay> thought so^^
 06:34 < modd_:#liferay> but I think it's not complete lost until you "re-save" the entity, because the old information is still in your DB
+06:34 < modd_:#liferay> but it's just a guess
