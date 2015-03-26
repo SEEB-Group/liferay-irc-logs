@@ -38,3 +38,4 @@
 12:08 <@jhf:#liferay> super busy for the next 3 hours :(
 12:15 < jardineworks:#liferay> jhf: no worries. if you have time later, I would appreciate the time :)
 12:48 < urug_:#liferay> hi, is there a way to obtain OrderByComparator instance in template?
+12:56 < urug_:#liferay> or maybe orderByComparatorFactory
