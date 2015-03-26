@@ -29,3 +29,4 @@
 07:39 < Axxell:#liferay> is sp9 an "older" version than ga3?`
 07:39 < Axxell:#liferay> why would the upgrade fail?
 07:42 < modd_:#liferay> afair GA3 was released after SP9, but I'm not sure
+08:34 < Axxell:#liferay> hmm still cant find a good reason why i would get an null poinerexception
