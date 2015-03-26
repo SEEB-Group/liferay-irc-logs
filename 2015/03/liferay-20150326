@@ -42,3 +42,4 @@
 13:04 < urug_:#liferay> I was trying the portal.getClass().forName() trick, but unfortunatelly not working in Freemarker
 13:32 < urug_:#liferay> i wonder which utils the utillocator can actually locate
 16:28 <@jhf:#liferay> urug_:
+16:28 <@jhf:#liferay> you can but only with FreeMarker
