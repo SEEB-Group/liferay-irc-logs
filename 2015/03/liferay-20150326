@@ -15,3 +15,4 @@
 06:10 < twen:#liferay> Question about Metadata field.. I've setup a metadata field with a text filed in it. A document is suing this metadata set (via a document type). If I edit the name (not the label) of the metadata field... is the value saved for the document, still saved.. or is it lost ?
 06:13 < twen:#liferay> Oh... I found the answers ^^
 06:30 < modd_:#liferay> twen: is it lost? ;)
+06:32 < twen:#liferay> well.. the message in bright orange says : you might lose the data....
