@@ -31,3 +31,4 @@
 07:42 < modd_:#liferay> afair GA3 was released after SP9, but I'm not sure
 08:34 < Axxell:#liferay> hmm still cant find a good reason why i would get an null poinerexception
 08:54 < modd_:#liferay> any other infos in the stacktrace?
+09:24 < Axxell:#liferay> not really, wonder  if its the same thing i just remembered i had earlier: structures with the field typ of ddm-decimal would not have its type attribute set and crash the whole thing
