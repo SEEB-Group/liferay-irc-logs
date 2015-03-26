@@ -32,3 +32,5 @@
 08:34 < Axxell:#liferay> hmm still cant find a good reason why i would get an null poinerexception
 08:54 < modd_:#liferay> any other infos in the stacktrace?
 09:24 < Axxell:#liferay> not really, wonder  if its the same thing i just remembered i had earlier: structures with the field typ of ddm-decimal would not have its type attribute set and crash the whole thing
+09:28 -!- mode/#liferay [+o jhf] by ChanServ
+11:14 < twen:#liferay> Is there a way in the Document & Media to display the title of a file, and not the filename ? (as title of a picture, or MP3) ?
