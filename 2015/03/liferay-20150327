@@ -24,3 +24,4 @@
 06:08 < urug_:#liferay> What's causing this ERROR?
 06:08 < urug_:#liferay> ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]][LayoutTemplateLocalServiceImpl:433] No content found at WAP template path /ffjcu_section.wap.tpl
 06:12 < urug_:#liferay> ffjcu_section.wap.tpl is truly empty, but is it a problem? Whould should I do to get rid of the ERROR msg?
+06:19 < urug_:#liferay> In liferay-layout-templates there is a <wap-template-path> line, should I remove it? Or set the value to non-mobile version template?
