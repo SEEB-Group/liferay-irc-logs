@@ -27,3 +27,4 @@
 06:19 < urug_:#liferay> In liferay-layout-templates there is a <wap-template-path> line, should I remove it? Or set the value to non-mobile version template?
 06:21 < urug_:#liferay> Ok, It CAN'T be removed...
 06:23 < Axxell:#liferay> i dont think ive modified anything in tree_js.jsp
+06:23 < Axxell:#liferay> now in my local installation i did to test it out
