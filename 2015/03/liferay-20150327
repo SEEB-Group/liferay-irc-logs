@@ -29,3 +29,4 @@
 06:23 < Axxell:#liferay> i dont think ive modified anything in tree_js.jsp
 06:23 < Axxell:#liferay> now in my local installation i did to test it out
 06:23 < Axxell:#liferay> maybe some sort of version conflict? where earlier versions did not have that treeid argument in the method?
+06:23 < Axxell:#liferay> im gonna make a hook to make it work, anyways
