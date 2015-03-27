@@ -28,3 +28,4 @@
 06:21 < urug_:#liferay> Ok, It CAN'T be removed...
 06:23 < Axxell:#liferay> i dont think ive modified anything in tree_js.jsp
 06:23 < Axxell:#liferay> now in my local installation i did to test it out
+06:23 < Axxell:#liferay> maybe some sort of version conflict? where earlier versions did not have that treeid argument in the method?
