@@ -20,3 +20,4 @@
 05:03 < urug_:#liferay> tree_js.jsp was modified in GA3, so maybe it could relate somehow?
 05:40 < Axxell:#liferay> urug_: yup seems so, fixed by adding treeid to the function
 05:40 < Axxell:#liferay> in tree_js.jsp
+05:43 < urug_:#liferay> Have you been using modified tree_js.jsp or is it actually bug in a new version?
