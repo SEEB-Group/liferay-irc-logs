@@ -48,3 +48,4 @@
 16:29 <@jhf:#liferay>  3<#assign categoriesOrderBy = OrderByComparatorFactoryUtil.create("AssetCategory", ["modifiedDate", false])>
 16:29 <@jhf:#liferay> it's freemarker-only due to the use of staticUtil which does not exist in Velocity AFAIK
 16:52 < urug_:#liferay> @jhf thx, I'll try it tommorow
+--- Log closed Fri Mar 27 00:00:11 2015
