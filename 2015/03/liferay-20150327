@@ -22,3 +22,4 @@
 05:40 < Axxell:#liferay> in tree_js.jsp
 05:43 < urug_:#liferay> Have you been using modified tree_js.jsp or is it actually bug in a new version?
 06:08 < urug_:#liferay> What's causing this ERROR?
+06:08 < urug_:#liferay> ERROR [ContainerBackgroundProcessor[StandardEngine[Catalina]]][LayoutTemplateLocalServiceImpl:433] No content found at WAP template path /ffjcu_section.wap.tpl
