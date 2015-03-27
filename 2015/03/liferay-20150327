@@ -14,3 +14,4 @@
 04:00 < urug_:#liferay> Which permissions do I need to be able to Browse By Structure in site administration?
 04:55 < Axxell:#liferay> Hey guys, i fixed my db problems which were again corrupt xml in journalarticle
 04:56 < Axxell:#liferay> but now a new problem i get the following error in the control panel when trying to look at the site structure:
+04:56 < Axxell:#liferay> org.apache.jasper.JasperException: Unable to compile class for JSP: ____An error occurred at line: 595 in the jsp file: /html/portlet/layouts_admin/tree_js.jsp__The method getLayoutsJSON(HttpServletRequest, long, boolean, long, boolean, String) in the type LayoutsTreeUtil is not applicable for the arguments (HttpServletRequest, long, boolean, long, long[], boolean)__592: 			<%__593: 			long[] openNodes = StringUtil.split(SessionTreeJSC
