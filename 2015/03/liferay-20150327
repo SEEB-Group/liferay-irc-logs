@@ -34,3 +34,4 @@
 09:11 < hufg:#liferay> helloo does 6.2 still autocompile sass on request?
 09:11 < hufg:#liferay> in 6.1 there was dynamiccssfilter
 10:04 < bijoo_:#liferay> Axxell: actually I think I've faced the same; though I just did quick fix as was in rush
+12:58 < urug_:#liferay> hufg, i don't know if it's compiling on request or on save in eclipse liferay plugin, but yes. It compiles only if the custom.css has changed, so be carefull with sass imports, it's not enought to change imported sass to see changes.
