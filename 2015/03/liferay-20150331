@@ -1,2 +1,3 @@
 --- Log opened Tue Mar 31 00:00:10 2015
 02:52 < nicolas_FR:#liferay> hi there
+02:57 < nicolas_FR:#liferay> we are experiencing difficulties with the social office portlet, particulary the private messaging part. We can send msg to ourselfs, but not to others people. Those who have the role "social office" appears in the "To:" list, but they don't receive anything. We must be missing something. Anyone use this portlet ?
