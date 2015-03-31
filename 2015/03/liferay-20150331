@@ -23,3 +23,4 @@
 09:41 < jardineworks:#liferay> it seems the FacetedAsset doesn't bother to do anything with the searchContext assetCategoryIds :(
 11:11 < winem_:#liferay> hi together, we would like to replace some websites for a customer with liferay. but a streaming server is required
 11:11 < winem_:#liferay> does liferay have any cool plugins to stream videos from the media library?
+11:16 < winem_:#liferay> only mp4 files should be streamed
