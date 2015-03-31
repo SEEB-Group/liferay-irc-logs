@@ -1,3 +1,17 @@
 --- Log opened Tue Mar 31 00:00:10 2015
 02:52 < nicolas_FR:#liferay> hi there
 02:57 < nicolas_FR:#liferay> we are experiencing difficulties with the social office portlet, particulary the private messaging part. We can send msg to ourselfs, but not to others people. Those who have the role "social office" appears in the "To:" list, but they don't receive anything. We must be missing something. Anyone use this portlet ?
+--- Log opened Tue Mar 31 03:21:08 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ henriquev   ] [ MagnoBooter] [ quercus     ] [ winem_] 
+03:21 [ bijoo     ] [ hufg        ] [ marcoceppi_] [ Tar-Minyatur] 
+03:21 [ Bryanstein] [ jardineworks] [ Naenyn     ] [ Tm_T        ] 
+03:21 [ doged     ] [ jbub        ] [ nicolas_FR ] [ twen        ] 
+03:21 [ Gorith    ] [ josuebc     ] [ plekplek   ] [ vsingleton  ] 
+03:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 4 secs
+04:17 < nicolas_FR:#liferay> hi again. I'm trying to "git clone https://github.com/liferay/liferay-plugins/tree/6.1.x/portlets/private-messaging-portlet" but got an http error in /info/refs... any ide ?
+04:17 < nicolas_FR:#liferay> idea
