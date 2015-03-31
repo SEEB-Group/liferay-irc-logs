@@ -28,3 +28,4 @@
 15:21 < haba713:#liferay> hi! is it possible to configure liferay so that some users are authenticated against ldap and the other are authenticated normally against the password digest stored in the liferay db?
 15:22 < jardineworks:#liferay> haba713, yes -- yo ucan configure LDAP but don't enable the "required" checkbox.
 15:22 < jardineworks:#liferay> this way if the LDAP auth fails, it will fallback to the Liferay store.
+15:22 < jardineworks:#liferay> if it works, then the LDAP user record will be imported into Liferay
