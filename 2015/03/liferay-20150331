@@ -16,3 +16,4 @@
 04:17 < nicolas_FR:#liferay> hi again. I'm trying to "git clone https://github.com/liferay/liferay-plugins/tree/6.1.x/portlets/private-messaging-portlet" but got an http error in /info/refs... any ide ?
 04:17 < nicolas_FR:#liferay> idea
 04:41 < twen:#liferay> nicolas_FR I had big trouble yesterday cloning anything from github...
+04:41 < twen:#liferay> I don't know if that's related
