@@ -26,3 +26,4 @@
 11:16 < winem_:#liferay> only mp4 files should be streamed
 11:27 < winem_:#liferay>  I would like to avoid to run a dedicated server to stream 2 dozens of videos..
 15:21 < haba713:#liferay> hi! is it possible to configure liferay so that some users are authenticated against ldap and the other are authenticated normally against the password digest stored in the liferay db?
+15:22 < jardineworks:#liferay> haba713, yes -- yo ucan configure LDAP but don't enable the "required" checkbox.
