@@ -213,3 +213,4 @@
 17:45 <@jhf:#liferay> like you can have <a href="blah.com/foo?redirect= ___ A BUNCH OF ESCAPED JUNK HERE ___">Some Place</a>
 17:45 <@jhf:#liferay> that is very strange
 17:45 < jardineworks:#liferay> check out the forgot password link in the login portlet.
+17:45 < jardineworks:#liferay> that is one of the ones.
