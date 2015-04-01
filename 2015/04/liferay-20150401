@@ -191,3 +191,4 @@
 17:37 < jardineworks:#liferay> hmm
 17:37 < jardineworks:#liferay> one more problem
 17:37 <@jhf:#liferay> right. that's what you're attempting wiht the F5 thing now right?
+17:38 < jardineworks:#liferay> if you set the url local display style property = 2 ... then LR will add the language for you
