@@ -121,3 +121,4 @@
 17:13 < jardineworks:#liferay> I smell a thread local coming on.
 17:14 < jardineworks:#liferay> but then new threads that are spawned would also need this :S
 17:14 < jardineworks:#liferay> kill me.
+17:14 <@jhf:#liferay> can you use two different sites (on a single company/instance)?
