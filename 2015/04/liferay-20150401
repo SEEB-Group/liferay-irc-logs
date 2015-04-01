@@ -139,3 +139,4 @@
 17:19 <@jhf:#liferay> your F5 rewriter solution sounds fragile and bound to miss stuff (e.g. from the encoded URLs any any dynamic content that is added via javascript)
 17:21 < jardineworks:#liferay> yeah I know
 17:21 < jardineworks:#liferay> but
+17:21 < jardineworks:#liferay> it would save changing the 207 JSPs, for example, that reference the company via virtual host.
