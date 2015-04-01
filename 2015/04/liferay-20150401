@@ -206,3 +206,4 @@
 17:43 <@jhf:#liferay> they shouldn't be "hoverable"/clickable URLs.. that is, the href in the <a> tags shouldn't contain escaped URLs
 17:44 < jardineworks:#liferay> ah
 17:44 < jardineworks:#liferay> right
+17:44 < jardineworks:#liferay> and they don't
