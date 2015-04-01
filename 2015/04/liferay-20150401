@@ -64,3 +64,4 @@
 14:58 <@jhf:#liferay> ok is it a bug in the F5 STREAM:: thingy that it's not properly rewriting the URLs ?
 14:58 <@jhf:#liferay> maybe I don't get what you're doing, but it sounds like you've got a load balancer that is supposed to be rewriting URLs in the outgoing html?
 14:59 < jardineworks:#liferay> jhf, exactly
+14:59 < jardineworks:#liferay> but I don't think it is a bug because some of them are being rewritten
