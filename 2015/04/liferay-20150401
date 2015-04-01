@@ -99,3 +99,4 @@
 15:26 <@jhf:#liferay> but if you use curl you see the full URLs that are supposed to be being re-written?
 15:27 <@jhf:#liferay> can you turn off the F5 editing thingy and verify all the URLs are proper (and the same - i.e. internal.com ?)
 16:59 < jardineworks:#liferay> jhf, I am going to try something that is probably terrible using an EXT plugin. I'm going to alter the HtmlImpl.escapeJS method to do nothing and see what that does.
+17:03 <@jhf:#liferay> hahahaha well I mean it's a good thing to try, just to verify your hypothesis
