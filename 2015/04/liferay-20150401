@@ -63,3 +63,4 @@
 14:57 < jardineworks:#liferay> jhf, when I look at any of the source in the page, all links have hosts in them. None of them are relative.
 14:58 <@jhf:#liferay> ok is it a bug in the F5 STREAM:: thingy that it's not properly rewriting the URLs ?
 14:58 <@jhf:#liferay> maybe I don't get what you're doing, but it sounds like you've got a load balancer that is supposed to be rewriting URLs in the outgoing html?
+14:59 < jardineworks:#liferay> jhf, exactly
