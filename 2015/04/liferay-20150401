@@ -74,3 +74,4 @@
 15:04 < jardineworks:#liferay> hmmm.. maybe a service.post hook?
 15:05 < jardineworks:#liferay> those are run last -- at the end of a request right?
 15:05 <@jhf:#liferay> oh yeah
+15:05 <@jhf:#liferay> that's a good place.
