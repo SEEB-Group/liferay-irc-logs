@@ -210,3 +210,4 @@
 17:44 <@jhf:#liferay> unless the URLs are actually *parameters* in the URL
 17:45 < jardineworks:#liferay> but dude... I'm telling you. hover shows internal.com. Chrome inspect element shows internal.com. PAGE SOURCE shows french.external.com
 17:45 < jardineworks:#liferay> some kinda voodoo going on
+17:45 <@jhf:#liferay> like you can have <a href="blah.com/foo?redirect= ___ A BUNCH OF ESCAPED JUNK HERE ___">Some Place</a>
