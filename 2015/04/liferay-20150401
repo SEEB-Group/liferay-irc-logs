@@ -178,3 +178,4 @@
 17:34 <@jhf:#liferay> ... assuming that getPortalURL is used in all cases
 17:34 < jardineworks:#liferay> true -- PortalUtil though..
 17:34 <@jhf:#liferay> it sounds good in theory though.
+17:35 <@jhf:#liferay> you could easily prototype that though
