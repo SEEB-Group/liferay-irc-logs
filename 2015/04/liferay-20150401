@@ -50,3 +50,4 @@
 14:54 < jardineworks:#liferay> jhf, What I have propose (and we're working on) is simple. Use the property to retrieve the language from the HTTP Request header (accept-language). On the way in, for say french.external.com .. change the host in the header to internal.com, and set the language to french. For english go from english.external.com to internal.com and set the header to english
 14:54 < jardineworks:#liferay> easy peasy... that works.
 14:54 < jardineworks:#liferay> On the way out -- here is the tricky bit
+14:55 < jardineworks:#liferay> we're using an F5 which has a nifty STREAM:: feature. It allows you to string replace.
