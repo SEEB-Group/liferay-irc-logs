@@ -85,3 +85,4 @@
 15:14 < jardineworks:#liferay> so it seems like the f5 is doing some by not all. hmmmm I wonder why.
 15:16 <@jhf:#liferay> are you sure? can you use a command line tool like curl to ensure the returned html really does have the absolute URLs and
 15:16 <@jhf:#liferay> that your browser isn't doing something magical?
+15:18 < jardineworks:#liferay> well, I can.. but the thing is, the browser doesn't know about the internal.com. So that means, in my mind, that the internal.com text in the page, must be coming from someone who knows about it... ie. the Liferay server.
