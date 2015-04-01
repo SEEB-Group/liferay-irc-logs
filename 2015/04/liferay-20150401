@@ -176,3 +176,4 @@
 17:31 < jardineworks:#liferay> ok -- how about this
 17:33 < jardineworks:#liferay> A new SB plugin that has VirtualHost aliases. In there you can create as many hosts as you want .. and you need to define a way to identify it. So, for example, internal.com/fr ---> french.external.com. Then in the PortalImpl.getPortalURL, check for a property to say whether or not aliases are enabled. If they are, then return the alias.
 17:34 <@jhf:#liferay> ... assuming that getPortalURL is used in all cases
+17:34 < jardineworks:#liferay> true -- PortalUtil though..
