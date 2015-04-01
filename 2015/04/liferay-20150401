@@ -182,3 +182,4 @@
 17:35 <@jhf:#liferay> just fork the right liferay version, edit that code, re-build portal-impl.jar and copy it on top of your regular ojne
 17:36 < jardineworks:#liferay> we're EE clients :)
 17:36 < jardineworks:#liferay> oh --
+17:36 < jardineworks:#liferay> but i have the EE source -- duh
