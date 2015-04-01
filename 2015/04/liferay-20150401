@@ -42,3 +42,4 @@
 14:51 < jardineworks:#liferay> jhf, So originally I was looking at EXT plugging that to support a locale + host + company id approach, but it's freakin' bananas -- so we're going a much simpler route.
 14:52 < jardineworks:#liferay> jhf, yeah, and they're not even close. Like businesscenter and carrefourdaffaires.
 14:52 < jardineworks:#liferay> same company
+14:52 < jardineworks:#liferay> so the current way liferay does it is a bust for them
