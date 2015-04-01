@@ -195,3 +195,4 @@
 17:38 < jardineworks:#liferay> so the /fr is auto-prepended.
 17:38 < jardineworks:#liferay> BUT
 17:38 < jardineworks:#liferay> it does it as part of a 302.
+17:38 < jardineworks:#liferay> so I guess your proxy would need to have a redirect for the internal domain as well.
