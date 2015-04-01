@@ -190,3 +190,4 @@
 17:37 < jardineworks:#liferay> french.external.com ---> proxy ---> internal.com/fr ... but all urls going out would alias to french.external.com
 17:37 < jardineworks:#liferay> hmm
 17:37 < jardineworks:#liferay> one more problem
+17:37 <@jhf:#liferay> right. that's what you're attempting wiht the F5 thing now right?
