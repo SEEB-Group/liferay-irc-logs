@@ -59,3 +59,4 @@
 14:56 < jardineworks:#liferay> so for example, the header image? changes. The forgot password link? no change.
 14:57 <@jhf:#liferay> are those links prefixed with the hostname?
 14:57 <@jhf:#liferay> (in the HTML going back to the client side)
+14:57 < jardineworks:#liferay> I checked the source and I can see <portlet:actionURL/> or <portlet:renderURL/> tags -- and when i trace them back I get all the way to the PortalImpl class -- getPortalURL method
