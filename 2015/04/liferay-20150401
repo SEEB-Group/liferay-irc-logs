@@ -179,3 +179,4 @@
 17:34 < jardineworks:#liferay> true -- PortalUtil though..
 17:34 <@jhf:#liferay> it sounds good in theory though.
 17:35 <@jhf:#liferay> you could easily prototype that though
+17:35 <@jhf:#liferay> just fork the right liferay version, edit that code, re-build portal-impl.jar and copy it on top of your regular ojne
