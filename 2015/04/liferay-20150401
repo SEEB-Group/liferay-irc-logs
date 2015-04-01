@@ -200,3 +200,4 @@
 17:39 < jardineworks:#liferay> it's just a handful of wrong urls in the response body that are ruining my sleep.
 17:41 <@jhf:#liferay> I still don't get how they are "hoverable" URLs.. the only URLs that would appear to be escaped are those embedded in executable javascript. all the URLs that a browser "sees" (and are therefore hoverable) should have first been seen by your F5 shenanigans
 17:41 <@jhf:#liferay> unless they are URLs written after the html was delivered, via javascript
+17:42 < jardineworks:#liferay> well -- it looks like these are "urls" but they are in the JS and in the JS they have been escaped. So they have all those \x2f and stuff... which the STREAM:: operation doesn't match on, so it just sneaks on by
