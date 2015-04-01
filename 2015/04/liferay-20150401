@@ -186,3 +186,4 @@
 17:36 < jardineworks:#liferay> lol
 17:36 < jardineworks:#liferay> I think it's getting late for me. long day.
 17:37 < jardineworks:#liferay> so... then we would have
+17:37 <@jhf:#liferay> yeah you have the EE source - but not the build scripts. I would prototype it with CE.
