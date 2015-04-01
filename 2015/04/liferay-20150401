@@ -142,3 +142,4 @@
 17:21 < jardineworks:#liferay> it would save changing the 207 JSPs, for example, that reference the company via virtual host.
 17:21 < jardineworks:#liferay> :)
 17:21 <@jhf:#liferay> yeah
+17:22 <@jhf:#liferay> also I assume you've seen and dismissed http://stackoverflow.com/questions/24705739/liferay-translation-depending-on-url
