@@ -58,3 +58,4 @@
 14:56 < jardineworks:#liferay> those that are not appear to be PORTLET stuff.
 14:56 < jardineworks:#liferay> so for example, the header image? changes. The forgot password link? no change.
 14:57 <@jhf:#liferay> are those links prefixed with the hostname?
+14:57 <@jhf:#liferay> (in the HTML going back to the client side)
