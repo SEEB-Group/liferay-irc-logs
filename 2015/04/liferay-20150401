@@ -103,3 +103,4 @@
 17:03 <@jhf:#liferay> I would avoid going into production with that, though :)
 17:04 < jardineworks:#liferay> well.. I am between a rock and a hard place right now
 17:05 < jardineworks:#liferay> assuming the f5 can actually unescape stuff, I imagine that would make a mess of anything not escaped but containing such characters
+17:07 < jardineworks:#liferay> jhf, so I guess we're stuck with the "work around" ... and I'll be forking Liferay to make a pretty outrageous change to it and hoping you guys accept it.
