@@ -46,3 +46,4 @@
 14:52 < jardineworks:#liferay> they're doing it anyway, but they broke the constraint on the virtualhost table and are manually adding secondary records with the same company id
 14:53 < jardineworks:#liferay> Lotsa problems with staging, no proof, but likely related.
 14:53 < jardineworks:#liferay> ANYWAY!
+14:53 < jardineworks:#liferay> ... solution time.
