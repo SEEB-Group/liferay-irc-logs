@@ -72,3 +72,4 @@
 15:02 <@jhf:#liferay> I would add a new servlet filter that is at the end of the processing chain but I'm not sure where that end of chain is.
 15:03 <@jhf:#liferay> you could also set a breakpoint in that final filter if you knew which final filter it was
 15:04 < jardineworks:#liferay> hmmm.. maybe a service.post hook?
+15:05 < jardineworks:#liferay> those are run last -- at the end of a request right?
