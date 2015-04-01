@@ -53,3 +53,4 @@
 14:55 < jardineworks:#liferay> we're using an F5 which has a nifty STREAM:: feature. It allows you to string replace.
 14:55 < jardineworks:#liferay> so we look for internal.com and replace with either french.external,com or english.external,.com -- depending on te GUEST_LANGUAGE_ID cookie value.
 14:55 < jardineworks:#liferay> the odd thing
+14:56 < jardineworks:#liferay> SOME stuff in the page is replace.
