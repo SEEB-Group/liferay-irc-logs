@@ -197,3 +197,4 @@
 17:38 < jardineworks:#liferay> it does it as part of a 302.
 17:38 < jardineworks:#liferay> so I guess your proxy would need to have a redirect for the internal domain as well.
 17:39 < jardineworks:#liferay> we have the way in with the f5 working like gold.
+17:39 < jardineworks:#liferay> it's just a handful of wrong urls in the response body that are ruining my sleep.
