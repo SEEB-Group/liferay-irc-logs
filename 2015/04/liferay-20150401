@@ -188,3 +188,4 @@
 17:37 < jardineworks:#liferay> so... then we would have
 17:37 <@jhf:#liferay> yeah you have the EE source - but not the build scripts. I would prototype it with CE.
 17:37 < jardineworks:#liferay> french.external.com ---> proxy ---> internal.com/fr ... but all urls going out would alias to french.external.com
+17:37 < jardineworks:#liferay> hmm
