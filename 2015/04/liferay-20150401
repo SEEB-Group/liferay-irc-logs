@@ -171,3 +171,4 @@
 17:29 <@jhf:#liferay> have you asked Dr. Sbaitso ?
 17:29 < jardineworks:#liferay> how does Liferay deal with this situtation for other clients?
 17:29 <@jhf:#liferay> with redirects most likely (I don't know for sure; not aware of any clients with this need)
+17:30 <@jhf:#liferay> that's the job of the i18nServlet I think
