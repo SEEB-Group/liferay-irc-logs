@@ -146,3 +146,4 @@
 17:22 <@jhf:#liferay> basically force-redireting french.company.com to company.com/fr
 17:25 < jardineworks:#liferay> we did that
 17:25 < jardineworks:#liferay> BUT
+17:25 < jardineworks:#liferay> then Liferay writes all the urls in the page as company.com/fr
