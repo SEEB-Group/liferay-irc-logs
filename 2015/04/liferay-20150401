@@ -124,3 +124,4 @@
 17:14 <@jhf:#liferay> can you use two different sites (on a single company/instance)?
 17:15 < jardineworks:#liferay> nope.. company nad virtual host are a one to one.
 17:15 < jardineworks:#liferay> additional sites won't get me any closer
+17:16 <@jhf:#liferay> but but
