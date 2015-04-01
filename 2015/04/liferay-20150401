@@ -216,3 +216,4 @@
 17:45 < jardineworks:#liferay> that is one of the ones.
 17:45 < jardineworks:#liferay> (problems)
 17:45 < jardineworks:#liferay> in fact, it seems to be PORTLET urls.
+17:46 < jardineworks:#liferay> I am just using the default welcome page -- the navigation and the login portlets are translated, but the links are bustimacated.
