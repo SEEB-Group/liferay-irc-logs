@@ -41,3 +41,4 @@
 14:51 <@jhf:#liferay> you mean multiple hostnames? like host1.company.com and host2.company.com that should point to a single company in Liferay?
 14:51 < jardineworks:#liferay> jhf, So originally I was looking at EXT plugging that to support a locale + host + company id approach, but it's freakin' bananas -- so we're going a much simpler route.
 14:52 < jardineworks:#liferay> jhf, yeah, and they're not even close. Like businesscenter and carrefourdaffaires.
+14:52 < jardineworks:#liferay> same company
