@@ -106,3 +106,4 @@
 17:07 < jardineworks:#liferay> jhf, so I guess we're stuck with the "work around" ... and I'll be forking Liferay to make a pretty outrageous change to it and hoping you guys accept it.
 17:09 <@jhf:#liferay> so just so I'm clear - your client wants to be able to use the domain name to specify which language they want content in. so they want to be able to go to french.company.com and english.company.com. Why can't you just say "too bad, you have to go to company.com/fr or company.com/en" ?
 17:09 < jardineworks:#liferay> jhf, lol
+17:10 < jardineworks:#liferay> jhf, you are obviously not educated on the politics of english in the province of Quebec.
