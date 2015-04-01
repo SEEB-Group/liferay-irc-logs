@@ -118,3 +118,4 @@
 17:12 < jardineworks:#liferay> its unfortunate.
 17:13 < jardineworks:#liferay> so now the challenges is changing the VirtualHost table to include a locale ... and all references to include a locale in the lookup.
 17:13 < jardineworks:#liferay> bigger challenge is making sure that everywhere it is used, the locale is present S:
+17:13 < jardineworks:#liferay> I smell a thread local coming on.
