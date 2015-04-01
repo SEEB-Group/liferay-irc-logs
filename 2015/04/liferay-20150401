@@ -198,3 +198,4 @@
 17:38 < jardineworks:#liferay> so I guess your proxy would need to have a redirect for the internal domain as well.
 17:39 < jardineworks:#liferay> we have the way in with the f5 working like gold.
 17:39 < jardineworks:#liferay> it's just a handful of wrong urls in the response body that are ruining my sleep.
+17:41 <@jhf:#liferay> I still don't get how they are "hoverable" URLs.. the only URLs that would appear to be escaped are those embedded in executable javascript. all the URLs that a browser "sees" (and are therefore hoverable) should have first been seen by your F5 shenanigans
