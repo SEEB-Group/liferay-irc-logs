@@ -75,3 +75,4 @@
 15:05 < jardineworks:#liferay> those are run last -- at the end of a request right?
 15:05 <@jhf:#liferay> oh yeah
 15:05 <@jhf:#liferay> that's a good place.
+15:06 < jardineworks:#liferay> jhf, or maybe soemwhere in the MainServlet?
