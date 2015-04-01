@@ -69,3 +69,4 @@
 15:01 < jardineworks:#liferay> but when I load the home page... all the source for the page, meaning the markup for the portlets and everything, -- that's all part of ONE request right?
 15:02 < jardineworks:#liferay> jhf, do you know if there is a class where I can set a breakpoint to see the full response body BEFORE it is written to the proxy?
 15:02 <@jhf:#liferay> yep it should be 1 request. I don't think we do any automatic ajaxification of portlet content
+15:02 <@jhf:#liferay> I would add a new servlet filter that is at the end of the processing chain but I'm not sure where that end of chain is.
