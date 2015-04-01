@@ -93,3 +93,4 @@
 15:22 < jardineworks:#liferay> If I use Chrome inspector... then the HTML shows the hover values.
 15:22 < jardineworks:#liferay> :S
 15:23 <@jhf:#liferay> ummm
+15:23 <@jhf:#liferay> are there any odd headers being sent back to the client? like is the Host: header set to what you would expect?
