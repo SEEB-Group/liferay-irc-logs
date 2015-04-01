@@ -203,3 +203,4 @@
 17:42 < jardineworks:#liferay> well -- it looks like these are "urls" but they are in the JS and in the JS they have been escaped. So they have all those \x2f and stuff... which the STREAM:: operation doesn't match on, so it just sneaks on by
 17:43 <@jhf:#liferay> right
 17:43 <@jhf:#liferay> BUT
+17:43 <@jhf:#liferay> they shouldn't be "hoverable"/clickable URLs.. that is, the href in the <a> tags shouldn't contain escaped URLs
