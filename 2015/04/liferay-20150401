@@ -194,3 +194,4 @@
 17:38 < jardineworks:#liferay> if you set the url local display style property = 2 ... then LR will add the language for you
 17:38 < jardineworks:#liferay> so the /fr is auto-prepended.
 17:38 < jardineworks:#liferay> BUT
+17:38 < jardineworks:#liferay> it does it as part of a 302.
