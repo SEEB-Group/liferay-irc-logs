@@ -101,3 +101,4 @@
 16:59 < jardineworks:#liferay> jhf, I am going to try something that is probably terrible using an EXT plugin. I'm going to alter the HtmlImpl.escapeJS method to do nothing and see what that does.
 17:03 <@jhf:#liferay> hahahaha well I mean it's a good thing to try, just to verify your hypothesis
 17:03 <@jhf:#liferay> I would avoid going into production with that, though :)
+17:04 < jardineworks:#liferay> well.. I am between a rock and a hard place right now
