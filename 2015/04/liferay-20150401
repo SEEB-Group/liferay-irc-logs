@@ -173,3 +173,4 @@
 17:29 <@jhf:#liferay> with redirects most likely (I don't know for sure; not aware of any clients with this need)
 17:30 <@jhf:#liferay> that's the job of the i18nServlet I think
 17:30 < jardineworks:#liferay> but my issue is not about the way in... I can take care of that already. Its the way out and subsequent ways in with the results that are the issue
+17:31 < jardineworks:#liferay> ok -- how about this
