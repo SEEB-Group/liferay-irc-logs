@@ -66,3 +66,4 @@
 14:59 < jardineworks:#liferay> jhf, exactly
 14:59 < jardineworks:#liferay> but I don't think it is a bug because some of them are being rewritten
 15:00 < jardineworks:#liferay> I guess I just wasn't sure if there was something special about portlet urls vs "portal" urls.
+15:01 < jardineworks:#liferay> but when I load the home page... all the source for the page, meaning the markup for the portlets and everything, -- that's all part of ONE request right?
