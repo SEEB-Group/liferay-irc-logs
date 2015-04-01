@@ -95,3 +95,4 @@
 15:23 <@jhf:#liferay> ummm
 15:23 <@jhf:#liferay> are there any odd headers being sent back to the client? like is the Host: header set to what you would expect?
 15:25 < jardineworks:#liferay> jhf, my undertanding is that there is no HOST header attribute for a response
+15:26 <@jhf:#liferay> ok I am not an web-expert so you are undoubtedly correct :) I just thought maybe Liferay or you were setting a header that the browser was using to do some magical rewriting internally
