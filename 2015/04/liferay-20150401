@@ -84,3 +84,4 @@
 15:14 < jardineworks:#liferay> yeah -- all links have the same host/port.
 15:14 < jardineworks:#liferay> so it seems like the f5 is doing some by not all. hmmmm I wonder why.
 15:16 <@jhf:#liferay> are you sure? can you use a command line tool like curl to ensure the returned html really does have the absolute URLs and
+15:16 <@jhf:#liferay> that your browser isn't doing something magical?
