@@ -107,3 +107,4 @@
 12:24 < mgarcesMZ:#liferay> nope
 12:24 < mgarcesMZ:#liferay> NTLM just uses the user you are logged in in windows, and authorizes you
 12:30 < jardineworks:#liferay> mgarcesMZ, hmm
+12:30 < jardineworks:#liferay> mgarcesMZ, well, looking at the NTMLAutoLogin class ...
