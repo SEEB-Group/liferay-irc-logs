@@ -24,3 +24,4 @@
 10:46 <@jhf:#liferay> also Liferay does not use git in the "usual" way
 10:46 <@jhf:#liferay> actually I take that back
 10:46 <@jhf:#liferay> publicly, we do
+10:46 <@jhf:#liferay> but we also use git to maintain EE
