@@ -105,3 +105,4 @@
 12:14 < mgarcesMZ:#liferay> any ideas?
 12:20 < jardineworks:#liferay> mgarcesMZ, I've never used NTLM for authentication ... is that the same thing as kerberos?
 12:24 < mgarcesMZ:#liferay> nope
+12:24 < mgarcesMZ:#liferay> NTLM just uses the user you are logged in in windows, and authorizes you
