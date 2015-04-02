@@ -104,3 +104,4 @@
 12:14 < mgarcesMZ:#liferay> I need to make this popup go away
 12:14 < mgarcesMZ:#liferay> any ideas?
 12:20 < jardineworks:#liferay> mgarcesMZ, I've never used NTLM for authentication ... is that the same thing as kerberos?
+12:24 < mgarcesMZ:#liferay> nope
