@@ -15,3 +15,4 @@
 10:16 -!- mode/#liferay [+o jhf] by ChanServ
 10:37 < jardineworks:#liferay> jhf, Started my POC with the 6.2CE branch last night. There are only a few places where I can see that it might still be an issue, but overall not too many changes to try to add this "aliasing" feature.
 10:37 < jardineworks:#liferay> jhf, hopefully it all works out and I can submit it as a pull request :)
+10:37 < jardineworks:#liferay> ... once I figure out how to submit pull requests haha
