@@ -113,3 +113,4 @@
 12:31 < jardineworks:#liferay> 		String screenName = (String)request.getAttribute(
 12:31 < jardineworks:#liferay> 			WebKeys.NTLM_REMOTE_USER);
 12:32 < jardineworks:#liferay> are the users seeing this popup already imported into Liferay?
+12:43 < mgarcesMZ:#liferay> jardineworks: sorry my connection dropped
