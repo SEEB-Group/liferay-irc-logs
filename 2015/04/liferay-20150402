@@ -109,3 +109,4 @@
 12:30 < jardineworks:#liferay> mgarcesMZ, hmm
 12:30 < jardineworks:#liferay> mgarcesMZ, well, looking at the NTMLAutoLogin class ...
 12:30 < jardineworks:#liferay> it seems to do the same thing as all the others.
+12:31 < jardineworks:#liferay> check for something, then import the user from LDAP
