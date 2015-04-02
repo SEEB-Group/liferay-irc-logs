@@ -40,3 +40,4 @@
 10:53 <@jhf:#liferay> you can't have private branches in a public git repo
 10:53 <@jhf:#liferay> so we have to have a separate repo for EE, but the "master" branch in that repo is identical to the public CE branch.
 10:53 <@jhf:#liferay> then we have branches for EE
+10:53 <@jhf:#liferay> it's messed up and really easy to submit busted PRs
