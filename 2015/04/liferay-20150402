@@ -112,3 +112,4 @@
 12:31 < jardineworks:#liferay> check for something, then import the user from LDAP
 12:31 < jardineworks:#liferay> 		String screenName = (String)request.getAttribute(
 12:31 < jardineworks:#liferay> 			WebKeys.NTLM_REMOTE_USER);
+12:32 < jardineworks:#liferay> are the users seeing this popup already imported into Liferay?
