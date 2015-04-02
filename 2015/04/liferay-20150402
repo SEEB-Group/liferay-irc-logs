@@ -29,3 +29,4 @@
 10:47 <@jhf:#liferay> but it's private, so nevermind :0
 10:47 < jardineworks:#liferay> lol
 10:47 < jardineworks:#liferay> all organizations do odd things inernally :)
+10:47 <@jhf:#liferay> basically, I finally realized what linus meant when he treats git branches as simply pointers to specific commits (points in time)
