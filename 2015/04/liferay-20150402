@@ -31,3 +31,4 @@
 10:47 < jardineworks:#liferay> all organizations do odd things inernally :)
 10:47 <@jhf:#liferay> basically, I finally realized what linus meant when he treats git branches as simply pointers to specific commits (points in time)
 10:48 <@jhf:#liferay> there's no real "physical" branch / set of files that are different than their master counterparts
+10:48 <@jhf:#liferay> branches are just pointers
