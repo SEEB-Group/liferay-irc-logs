@@ -12,3 +12,4 @@
 08:49 < winem_:#liferay> Hi together, I'm quite sure that there is some property for the portal-ext.properties to disable the "set new password"-functionality when a user has logged in for the first time. but I can't find it in https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/portal.properties ... does anyone know the respective property?
 08:54 < winem_:#liferay> or is there any other way to disable the question for a new password after a users first login if I use ldap authentication?
 08:55 < winem_:#liferay> ok, fixed it using the gui. that was too easy :)
+--- Log closed Sun Apr 05 00:00:06 2015
