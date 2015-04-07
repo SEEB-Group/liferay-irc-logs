@@ -82,3 +82,4 @@
 13:48 < jardineworks:#liferay> can you show me your process output from the ps aux command?
 13:48 < vserver-admin:#liferay> i killed java..
 13:49 < jardineworks:#liferay> can you try it again? and if it fails show me the ps aux output? are there any errors during startup?
+13:49 < vserver-admin:#liferay> i'll restart tomcat & do netstat -a | grep 80
