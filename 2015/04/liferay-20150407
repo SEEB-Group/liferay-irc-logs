@@ -42,3 +42,4 @@
 10:43 < jardineworks:#liferay> twen, I think that's what I would use a a primary factor for my decision. Will I need to reuse meta-data across file types. If the answer is no, then I suppose Vocabularies might be easiest.
 10:43 < twen:#liferay> at this moment, I made the site in such a way, I only have one document type with 3 metadata sets ;) I try to be KISS
 10:44 < twen:#liferay> but.. will I use only one document type.. and then metadata once, or not... I agree.. hmmm...
+10:54 < twen:#liferay> thank you jardineworks for your help... I've to think about it, you gave some good new arguments :)
