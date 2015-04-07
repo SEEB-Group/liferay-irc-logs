@@ -47,3 +47,4 @@
 10:54 < twen:#liferay> :)
 12:41 < vserver-admin:#liferay> hi, am i right here if i have problems setting up liferay?
 13:15 < jardineworks:#liferay> vserver-admin, it's one of the places you can seek help :)
+13:17 < vserver-admin:#liferay> okay, i have a couple of problems..[I use funtoo/gentoo linux +liferay-tomcat-bundle] i will start at the end, when i execute ./shutdown i get the following error: PM org.apache.catalina.startup.Catalina stopServer SCHWERWIEGEND: Could not contact localhost:8005. Tomcat may not be running.
