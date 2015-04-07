@@ -28,3 +28,4 @@
 10:24 < jardineworks:#liferay> metadata set sounds more like "bulk" adding
 10:36 < twen:#liferay> well... I was also thinking on control, and Vocabularies are easier to update (add more entries). Where in Metadata set it looks more tricky (mostly for our Editors)
 10:37 < twen:#liferay> Something I dislike in Metadata set SELECT field, you can't reorganised easily the item list... you need to copy/paste key and values
+10:38 < jardineworks:#liferay> twen, sounds like you have your answer ;)
