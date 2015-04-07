@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:22 < twen:#liferay> Hello... I've a question about the use of dropdown menu vs vocabularies in Document type. What makes you select one over the other ?
 10:13 < jardineworks:#liferay> twen, Vocabularies are more taxonomy.
+10:14 < jardineworks:#liferay> twen, so you might have a document type of "Form" ... but you want to categorize it as "Auto-Insurance"
