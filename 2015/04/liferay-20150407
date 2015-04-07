@@ -61,3 +61,4 @@
 13:32 < vserver-admin:#liferay> remote one
 13:33 < jardineworks:#liferay> can you telnet to the server with that port?
 13:34 < jardineworks:#liferay> err
+13:34 < vserver-admin:#liferay> well i guess here is the missing rule: iptables -L Chain INPUT (policy DROP) target     prot opt source               destination          sshguard   all  --  anywhere             anywhere             ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ssh ACCEPT     tcp  --  anywhere             anywhere             tc
