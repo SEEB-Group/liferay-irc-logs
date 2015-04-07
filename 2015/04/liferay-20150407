@@ -87,3 +87,4 @@
 13:53 < vserver-admin:#liferay> px aux: http://paste.debian.net/165530/
 13:55 < vserver-admin:#liferay> no errors in catalina.out
 13:58 < vserver-admin:#liferay> could it be that i have iptalbes to tell to allow localhost access to 8005?
+14:05 < jardineworks:#liferay> not sure to be honest.
