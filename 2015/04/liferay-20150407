@@ -107,3 +107,4 @@
 14:14 < vserver-admin:#liferay> i am comfortable with gentoo(actually funtoo) tomcat did work without liferay but i really had a hard time searching for alle the directorys (in gentoo they are all over the place, but without docs its hard) to cp the jar files
 14:14 < vserver-admin:#liferay> therefore i tried the bundle..
 14:18 < vserver-admin:#liferay> i'll try to catch a gentoo-dev or something and ask them about the right directorys one day - sometimes the long way is the fastes
+14:18 < vserver-admin:#liferay> bye
