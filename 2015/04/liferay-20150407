@@ -39,3 +39,4 @@
 10:42 < jardineworks:#liferay> where are defining your vocabulary as part of the file definition means it is only useable for that file type.
 10:42 < twen:#liferay> I think both solution (all in Metadata or all in vocabularies) are fine for me.... I guess, but well... I need to take a decision xD
 10:42 < twen:#liferay> that's right
+10:43 < jardineworks:#liferay> twen, I think that's what I would use a a primary factor for my decision. Will I need to reuse meta-data across file types. If the answer is no, then I suppose Vocabularies might be easiest.
