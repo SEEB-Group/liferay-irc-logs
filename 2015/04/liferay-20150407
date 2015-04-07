@@ -89,3 +89,4 @@
 13:58 < vserver-admin:#liferay> could it be that i have iptalbes to tell to allow localhost access to 8005?
 14:05 < jardineworks:#liferay> not sure to be honest.
 14:05 < jardineworks:#liferay> but the 8009 looks good for AJP
+14:05 < jardineworks:#liferay> and the 8005 looks good for the shut down port.
