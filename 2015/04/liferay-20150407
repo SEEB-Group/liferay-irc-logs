@@ -64,3 +64,4 @@
 13:34 < vserver-admin:#liferay> well i guess here is the missing rule: iptables -L Chain INPUT (policy DROP) target     prot opt source               destination          sshguard   all  --  anywhere             anywhere             ACCEPT     all  --  anywhere             anywhere             ctstate RELATED,ESTABLISHED ACCEPT     tcp  --  anywhere             anywhere             tcp dpt:ssh ACCEPT     tcp  --  anywhere             anywhere             tc
 13:34 < jardineworks:#liferay> wait -- that doesn't make sesne :)
 13:34 < jardineworks:#liferay> lol
+13:34 < jardineworks:#liferay> you're ssh'ed into the box I presume
