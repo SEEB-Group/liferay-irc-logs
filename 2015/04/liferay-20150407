@@ -114,3 +114,4 @@
 15:09 < jardineworks:#liferay> plekplek, not unless the class is part of the portal-service.jar
 15:10 < jardineworks:#liferay> what's the full package on that class?
 15:10 < jardineworks:#liferay> this one? com.liferay.portlet.documentlibrary.action.ActionUtil
+15:10 < jardineworks:#liferay> ?
