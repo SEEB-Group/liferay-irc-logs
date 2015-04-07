@@ -123,3 +123,4 @@
 15:11 < jardineworks:#liferay> :)
 15:11 < jardineworks:#liferay> you do some class loader reflection magic
 15:11 < jardineworks:#liferay> PortalClassLoaderUtil.getClassLoader();
+15:11 < jardineworks:#liferay> and then grab the class from tehre
