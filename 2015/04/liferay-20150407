@@ -91,3 +91,4 @@
 14:05 < jardineworks:#liferay> but the 8009 looks good for AJP
 14:05 < jardineworks:#liferay> and the 8005 looks good for the shut down port.
 14:05 < jardineworks:#liferay> hmmm
+14:06 < jardineworks:#liferay> ... and if you issue a shutdown command now, you see that same error?
