@@ -74,3 +74,4 @@
 13:38 < jardineworks:#liferay> one sec.. fixing my wifes stylus.
 13:42 < jardineworks:#liferay> not sure about firewall rule coverage -- I am most certainly not a network admin
 13:43 < jardineworks:#liferay> is you do a ps -aux | grep liferay ... is there more than one process listed?
+13:44 < jardineworks:#liferay> or actually... what do you get for output when you do a netstat -a | grep 80
