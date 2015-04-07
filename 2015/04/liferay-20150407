@@ -80,3 +80,4 @@
 13:47 < jardineworks:#liferay> the grep 80 should also match 8080 and 8005 etc
 13:48 < jardineworks:#liferay> if tomcat is running and bound to those ports.
 13:48 < jardineworks:#liferay> can you show me your process output from the ps aux command?
+13:48 < vserver-admin:#liferay> i killed java..
