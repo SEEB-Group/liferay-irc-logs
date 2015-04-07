@@ -59,3 +59,4 @@
 13:32 < vserver-admin:#liferay> it is set to 8005
 13:32 < jardineworks:#liferay> if it is the latter, then perhaps there is a firewall blocking you?
 13:32 < vserver-admin:#liferay> remote one
+13:33 < jardineworks:#liferay> can you telnet to the server with that port?
