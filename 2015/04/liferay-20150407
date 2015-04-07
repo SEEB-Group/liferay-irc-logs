@@ -56,3 +56,4 @@
 13:32 < jardineworks:#liferay> that'd be step 1
 13:32 < jardineworks:#liferay> if it is
 13:32 < jardineworks:#liferay> .... is this a local server or a remote one? As in, it is on your machine, or is it a server somewhere else (I assume the latter)
+13:32 < vserver-admin:#liferay> it is set to 8005
