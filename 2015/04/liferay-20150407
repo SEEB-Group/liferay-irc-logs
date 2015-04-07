@@ -78,3 +78,4 @@
 13:45 < vserver-admin:#liferay> no there is only one process, netstat -a | grep 80 does not return anythin
 13:47 < vserver-admin:#liferay> apache is not started
 13:47 < jardineworks:#liferay> the grep 80 should also match 8080 and 8005 etc
+13:48 < jardineworks:#liferay> if tomcat is running and bound to those ports.
