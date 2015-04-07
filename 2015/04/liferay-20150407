@@ -117,3 +117,4 @@
 15:10 < jardineworks:#liferay> ?
 15:10 < jardineworks:#liferay> if that is it, then no, you can't
 15:10 < plekplek:#liferay> yes, that’s the one
+15:10 < jardineworks:#liferay> the visibility for that class is limited to the Portals class loader
