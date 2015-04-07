@@ -19,3 +19,4 @@
 10:15 < twen:#liferay> ?
 10:18 < twen:#liferay> mI'm currently building an asset library site. one document type, with multiple metadata sets
 10:18 < twen:#liferay> I have to decide if I have to set language list, brands list of subjects list in vocabularies or SELECT list :-/
+10:19 < jardineworks:#liferay> twen, what do you mean select list? you mean the tags?
