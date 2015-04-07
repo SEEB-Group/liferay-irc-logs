@@ -35,3 +35,4 @@
 10:40 < twen:#liferay> that's correct in a sens... a vocabulary can be see as one field in a metadataset... outside of any metadata set.
 10:41 < twen:#liferay> If I use vocabularies, I'll have 4 different vocabularies in my form (and none in the metadaset)
 10:41 < jardineworks:#liferay> I see
+10:42 < jardineworks:#liferay> well, I suppose anther argument for a metasata set is that it is File Type agnostic. So you can apply the same meta data set to different file types right?
