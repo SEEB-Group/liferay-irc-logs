@@ -76,3 +76,4 @@
 13:43 < jardineworks:#liferay> is you do a ps -aux | grep liferay ... is there more than one process listed?
 13:44 < jardineworks:#liferay> or actually... what do you get for output when you do a netstat -a | grep 80
 13:45 < vserver-admin:#liferay> no there is only one process, netstat -a | grep 80 does not return anythin
+13:47 < vserver-admin:#liferay> apache is not started
