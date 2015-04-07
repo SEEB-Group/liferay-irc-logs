@@ -121,3 +121,4 @@
 15:11 < jardineworks:#liferay> you need it in the portal-service, or in some jar in the TOMCAT/lib/ext to use it
 15:11 < jardineworks:#liferay> unless.
 15:11 < jardineworks:#liferay> :)
+15:11 < jardineworks:#liferay> you do some class loader reflection magic
