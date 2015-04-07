@@ -102,3 +102,4 @@
 14:10 < vserver-admin:#liferay> well jardineworks thanks for your help, but i just deleted the bundle - i may try tomcat + liferay another day, i dont have time for this.. (you may be right at that
 14:10 < jardineworks:#liferay> I know that some flavours of linux are stricter than others though... CentOS for example is more complicated to setup than most others.
 14:11 < vserver-admin:#liferay> well i guess gentoo is as complicated as it can get... and without good docs it is just a pain
+14:12 < jardineworks:#liferay> vserver-admin, the cross to bare with open source my friend.
