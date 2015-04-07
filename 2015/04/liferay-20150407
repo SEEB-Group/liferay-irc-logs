@@ -73,3 +73,4 @@
 13:38 < vserver-admin:#liferay> or does the firewall rules cover localhost:port ?
 13:38 < jardineworks:#liferay> one sec.. fixing my wifes stylus.
 13:42 < jardineworks:#liferay> not sure about firewall rule coverage -- I am most certainly not a network admin
+13:43 < jardineworks:#liferay> is you do a ps -aux | grep liferay ... is there more than one process listed?
