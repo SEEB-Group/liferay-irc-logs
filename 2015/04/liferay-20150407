@@ -112,3 +112,4 @@
 14:18 < vserver-admin:#liferay> and thanks
 15:08 < plekplek:#liferay> is it possible to use action classes in hooks? for example documentlibrary.action.ActionUtil?
 15:09 < jardineworks:#liferay> plekplek, not unless the class is part of the portal-service.jar
+15:10 < jardineworks:#liferay> what's the full package on that class?
