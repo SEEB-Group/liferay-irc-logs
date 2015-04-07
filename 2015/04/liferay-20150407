@@ -85,3 +85,4 @@
 13:49 < vserver-admin:#liferay> i'll restart tomcat & do netstat -a | grep 80
 13:52 < vserver-admin:#liferay> tcp        0      0 localhost:8005          *:*                     LISTEN      tcp        0      0 *:8009                  *:*                     LISTEN
 13:53 < vserver-admin:#liferay> px aux: http://paste.debian.net/165530/
+13:55 < vserver-admin:#liferay> no errors in catalina.out
