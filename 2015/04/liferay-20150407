@@ -52,3 +52,4 @@
 13:20 < vserver-admin:#liferay> (if you need more infos let me know)
 13:26 -!- mode/#liferay [+o jhf] by ChanServ
 13:31 < jardineworks:#liferay> vserver-admin, that's not really a Liferay problem per say :). But that means that it can't contact the shut down port --
+13:31 < jardineworks:#liferay> open your server.xml file and check to make sure the port is actually set to 8005
