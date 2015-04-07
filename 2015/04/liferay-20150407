@@ -37,3 +37,4 @@
 10:41 < jardineworks:#liferay> I see
 10:42 < jardineworks:#liferay> well, I suppose anther argument for a metasata set is that it is File Type agnostic. So you can apply the same meta data set to different file types right?
 10:42 < jardineworks:#liferay> where are defining your vocabulary as part of the file definition means it is only useable for that file type.
+10:42 < twen:#liferay> I think both solution (all in Metadata or all in vocabularies) are fine for me.... I guess, but well... I need to take a decision xD
