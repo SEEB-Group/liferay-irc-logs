@@ -94,3 +94,4 @@
 14:06 < jardineworks:#liferay> ... and if you issue a shutdown command now, you see that same error?
 14:06 < jardineworks:#liferay> it is a connection refused stack track?
 14:07 < vserver-admin:#liferay> the liferay documentation is just bad.. if they fail to mention things like this
+14:09 < jardineworks:#liferay> this isn't liferay
