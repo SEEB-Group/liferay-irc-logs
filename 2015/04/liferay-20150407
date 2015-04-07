@@ -96,3 +96,4 @@
 14:07 < vserver-admin:#liferay> the liferay documentation is just bad.. if they fail to mention things like this
 14:09 < jardineworks:#liferay> this isn't liferay
 14:09 < jardineworks:#liferay> this is tomcat
+14:09 < jardineworks:#liferay> liferay is an application that runs inside tomcat
