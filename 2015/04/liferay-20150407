@@ -18,3 +18,4 @@
 10:15 < twen:#liferay> hmmm... so it's usefull if I have multiple document type and want to use the same list
 10:15 < twen:#liferay> ?
 10:18 < twen:#liferay> mI'm currently building an asset library site. one document type, with multiple metadata sets
+10:18 < twen:#liferay> I have to decide if I have to set language list, brands list of subjects list in vocabularies or SELECT list :-/
