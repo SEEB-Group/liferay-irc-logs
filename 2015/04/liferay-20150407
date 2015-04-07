@@ -31,3 +31,4 @@
 10:38 < jardineworks:#liferay> twen, sounds like you have your answer ;)
 10:38 < twen:#liferay> I see metadata set as : you set it once for good, where Vocabularies can be updated during the life of the project
 10:39 < jardineworks:#liferay> twen, and, correct me if I am wrong, but applying a meta data is more likely applying MULTIPLE values... where as in a vocabulary, you might just add one value.
+10:39 < twen:#liferay> hehe, I may be have the answer, but I like to have a long lasting liferay-way-ish solution. That's why I'm asking for other use case or experiences :)
