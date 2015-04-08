@@ -17,3 +17,4 @@
 09:04 < twen:#liferay> OK.. So I didn't find a way to get back my deleted metadata set. Found a more dangerous workaround though :p
 09:05 < jardineworks:#liferay> twen -- hey you opted for the meta data in the end over the vocabulary I see
 09:21 < twen:#liferay> jardineworks Well.. I had a big thinking session last night :) SO I did a mix, considering the "value" of the metadata :)
+09:22 < twen:#liferay> I keep in the metadata set everything that is based on standard. Document metadata are agnostic of the company data.
