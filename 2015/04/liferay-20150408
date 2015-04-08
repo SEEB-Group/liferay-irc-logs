@@ -21,3 +21,4 @@
 09:23 < twen:#liferay> I keep in Vacabularies all metadata that are related to the comany... so they can be reused in other part of the Site... Vocabularies are agnostic of the document "type"
 09:29 < jardineworks:#liferay> twen, that sounds like an excellent approach to me
 09:29 < jardineworks:#liferay> Vocabularies being more domain focused... Meta Data being more "document" specific.
+09:33 < twen:#liferay> yes, this is what I end with :)
