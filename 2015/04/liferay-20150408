@@ -24,3 +24,4 @@
 09:33 < twen:#liferay> yes, this is what I end with :)
 09:33 < twen:#liferay> thank you
 13:07 < sharmanaetor:#liferay> is there any way to allow public access to one JSON API method that Liferay publishes at http://localhost:8080/api/jsonws?
+13:08 < sharmanaetor:#liferay> I've tried setting json.service.public.methods=* in portal-ext.properties
