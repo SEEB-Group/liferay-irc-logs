@@ -19,3 +19,4 @@
 09:21 < twen:#liferay> jardineworks Well.. I had a big thinking session last night :) SO I did a mix, considering the "value" of the metadata :)
 09:22 < twen:#liferay> I keep in the metadata set everything that is based on standard. Document metadata are agnostic of the company data.
 09:23 < twen:#liferay> I keep in Vacabularies all metadata that are related to the comany... so they can be reused in other part of the Site... Vocabularies are agnostic of the document "type"
+09:29 < jardineworks:#liferay> twen, that sounds like an excellent approach to me
