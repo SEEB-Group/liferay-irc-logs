@@ -23,3 +23,4 @@
 09:29 < jardineworks:#liferay> Vocabularies being more domain focused... Meta Data being more "document" specific.
 09:33 < twen:#liferay> yes, this is what I end with :)
 09:33 < twen:#liferay> thank you
+13:07 < sharmanaetor:#liferay> is there any way to allow public access to one JSON API method that Liferay publishes at http://localhost:8080/api/jsonws?
