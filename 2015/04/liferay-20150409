@@ -56,3 +56,4 @@
 16:27 < jardineworks:#liferay> not sure that I can though
 16:28 < jardineworks:#liferay> this -- String portletResource = ParamUtil.getString( request, "portletResource" ); -- is giving me null :(
 16:58 < jardineworks:#liferay> jhf, I think I finally understood what you were suggesting. I took the contents of the start.jsp and replaced the tag lib usage with them so that I have everything in the html/portlet/search/view.jsp now
+16:58 < jardineworks:#liferay> but .. there is no renderRequest in that jsp?! I thought all portlets render cycles had the renderRequest in the jsps?
