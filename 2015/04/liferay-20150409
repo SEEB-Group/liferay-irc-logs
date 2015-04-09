@@ -19,3 +19,4 @@
 16:14 <@jhf:#liferay> you mean *from* a taglib?
 16:15 < jardineworks:#liferay> I'm making changes to the Search portlet right now... I added a configuration to the configuration.jsp, but I need to read it to alter the display in the html/taglib/ui/search/start.jsp
 16:15 < jardineworks:#liferay> so in the html/taglib/ui/search/start.jsp I need the portlet preferences so I can read the value
+16:15 <@jhf:#liferay> hmmm
