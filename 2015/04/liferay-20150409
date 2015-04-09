@@ -21,3 +21,4 @@
 16:15 < jardineworks:#liferay> so in the html/taglib/ui/search/start.jsp I need the portlet preferences so I can read the value
 16:15 <@jhf:#liferay> hmmm
 16:16 <@jhf:#liferay> I think a better way is to pass it into the taglib from the portlet hsp
+16:16 <@jhf:#liferay> jsp
