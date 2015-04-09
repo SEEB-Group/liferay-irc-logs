@@ -17,3 +17,4 @@
 16:14 < jardineworks:#liferay> hey jhf -- do you know if it is possible to get the portlet preferences in a jsp for a taglib?
 16:14 <@jhf:#liferay> ummm. what do you mean "for a taglib"
 16:14 <@jhf:#liferay> you mean *from* a taglib?
+16:15 < jardineworks:#liferay> I'm making changes to the Search portlet right now... I added a configuration to the configuration.jsp, but I need to read it to alter the display in the html/taglib/ui/search/start.jsp
