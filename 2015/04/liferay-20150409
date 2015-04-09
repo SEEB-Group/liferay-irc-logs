@@ -59,3 +59,4 @@
 16:58 < jardineworks:#liferay> but .. there is no renderRequest in that jsp?! I thought all portlets render cycles had the renderRequest in the jsps?
 17:00 <@jhf:#liferay> yes there should be!
 17:00 <@jhf:#liferay> did you include the <portlet:defineObjects> or whatever that one tag is?
+17:01 < jardineworks:#liferay> oops
