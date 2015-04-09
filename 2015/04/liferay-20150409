@@ -45,3 +45,4 @@
 16:24 <@jhf:#liferay> you could copy the taglib code into your portlet :)
 16:24 <@jhf:#liferay> it's kinda hacky, but... EXT is scary
 16:25 < jardineworks:#liferay> I don't have a portlet though... I am trying to use an OOTB with a hook :)
+16:25 <@jhf:#liferay> ahh
