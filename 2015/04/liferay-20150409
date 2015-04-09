@@ -22,3 +22,4 @@
 16:15 <@jhf:#liferay> hmmm
 16:16 <@jhf:#liferay> I think a better way is to pass it into the taglib from the portlet hsp
 16:16 <@jhf:#liferay> jsp
+16:16 <@jhf:#liferay> isn't that cleaner?
