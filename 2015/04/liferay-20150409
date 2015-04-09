@@ -41,3 +41,4 @@
 16:19 <@jhf:#liferay> but you'd have to be careful to ensure it doesn't fail if that taglib is used in a different portelt without said config
 16:19 < jardineworks:#liferay> I think there is a request, but I don't think it has a renderRequest.
 16:23 < jardineworks:#liferay> changing tag lib classes requires ext plugin ... booo
+16:24 <@jhf:#liferay> welp
