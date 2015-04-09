@@ -37,3 +37,4 @@
 16:17 <@jhf:#liferay> then modify the portlet code to pass it
 16:18 <@jhf:#liferay> that way you keep portlet and portlet config separate from the (presumably reusable) taglib
 16:18 <@jhf:#liferay> if you have access to the request/response pair from taglib code, then you could *probably* get at the preferences
+16:19 < jardineworks:#liferay> basically, the FacetedSearcher doesn't bother with the AssetCategoryIds list that is set on the SaerchContext. So I made my own faceted searcher .. extending the FacetedSearcher to add the logic. Now I modified the configruation.jsp for the search portlet so that you can pick a topic you wnat to filter on. But in the start.jsp for the taglib I need to add a select field that will show the categories for the topic.
