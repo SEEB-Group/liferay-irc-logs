@@ -43,3 +43,4 @@
 16:23 < jardineworks:#liferay> changing tag lib classes requires ext plugin ... booo
 16:24 <@jhf:#liferay> welp
 16:24 <@jhf:#liferay> you could copy the taglib code into your portlet :)
+16:24 <@jhf:#liferay> it's kinda hacky, but... EXT is scary
