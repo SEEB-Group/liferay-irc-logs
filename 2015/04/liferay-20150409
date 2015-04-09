@@ -35,3 +35,4 @@
 16:17 < jardineworks:#liferay> that is the issue I guess
 16:17 <@jhf:#liferay> welp the clean way is to modify the taglib to accept it as a param
 16:17 <@jhf:#liferay> then modify the portlet code to pass it
+16:18 <@jhf:#liferay> that way you keep portlet and portlet config separate from the (presumably reusable) taglib
