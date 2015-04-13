@@ -17,3 +17,4 @@
 09:36 < modd_:#liferay> ok, thx
 09:37 <@jhf:#liferay> it wouldn't be hard to add it since the underlying framework is the same used for forums (and blog comments, which are threaded)
 12:25 < jardineworks:#liferay> hey jhf do you know if there have been any issues logged with building EXT plugins using 6.2 EE SP10
+12:25 < jardineworks:#liferay> other than the one I added on Friday that is...
