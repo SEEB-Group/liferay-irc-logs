@@ -23,3 +23,5 @@
 12:32 < jardineworks:#liferay> alrighty then
 12:32 < jardineworks:#liferay> maybe I'll try that
 15:47 < jardineworks:#liferay> anyone here (jhf?) know if it there is an api call that will allow me to get the list of roles that a user has via group association, without looping over all the roles in each group the user is a member of?
+19:54 < bijoo_:#liferay> hi all, defining a workflow  right now; my use case is when a group member submits for publication, that other role members be able to approve (but not the submitter even though submitter is part of the role.)
+19:55 < bijoo_:#liferay> so it's not obvious what to do there; since one can add roles, but cannot specify any exclusions. or else one can specify a singler user which doesn't help.
