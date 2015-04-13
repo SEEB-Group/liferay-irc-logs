@@ -22,3 +22,4 @@
 12:32 < jardineworks:#liferay> ah
 12:32 < jardineworks:#liferay> alrighty then
 12:32 < jardineworks:#liferay> maybe I'll try that
+15:47 < jardineworks:#liferay> anyone here (jhf?) know if it there is an api call that will allow me to get the list of roles that a user has via group association, without looping over all the roles in each group the user is a member of?
