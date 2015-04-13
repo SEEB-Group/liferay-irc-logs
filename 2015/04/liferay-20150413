@@ -26,3 +26,4 @@
 19:54 < bijoo_:#liferay> hi all, defining a workflow  right now; my use case is when a group member submits for publication, that other role members be able to approve (but not the submitter even though submitter is part of the role.)
 19:55 < bijoo_:#liferay> so it's not obvious what to do there; since one can add roles, but cannot specify any exclusions. or else one can specify a singler user which doesn't help.
 19:55 < bijoo_:#liferay> the only way i can think of it working is to create ad-hoc role and add all the members to it.
+19:55 < bijoo_:#liferay> though that seems way far-fetched. realistically i'll probably have to create ext or else modify kaleo.
