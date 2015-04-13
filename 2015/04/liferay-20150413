@@ -15,3 +15,4 @@
 09:36 <@jhf:#liferay> modd_: nope, marketplace comments aren't threaded :(
 09:36 < modd_:#liferay> :\
 09:36 < modd_:#liferay> ok, thx
+09:37 <@jhf:#liferay> it wouldn't be hard to add it since the underlying framework is the same used for forums (and blog comments, which are threaded)
