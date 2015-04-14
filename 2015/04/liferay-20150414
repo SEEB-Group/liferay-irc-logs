@@ -3,3 +3,4 @@
 01:30 < Axxell:#liferay> build-common-theme.xml:13: java.io.IOException: Cannot run program "C:\java\jdk775\jre\bin\java.exe": CreateProcess error=206, The filename or extension is too long
 01:30 < Axxell:#liferay> all the paths are short as heck
 01:30 < Axxell:#liferay> java is under java/version
+01:30 < Axxell:#liferay> liferay developer studio is under liferayee/liferay developer studio
