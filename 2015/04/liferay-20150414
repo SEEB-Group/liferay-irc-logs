@@ -31,3 +31,4 @@
 11:48 < plekplek:#liferay> alright, i sent it
 11:49 < plekplek:#liferay> if you try to copy a file from the root directory, there is a problem with no such file or directory
 11:50 < jardineworks:#liferay> plekplek, is that the issue you want me to look at?
+11:53 < plekplek:#liferay> the main problem is probably the structure itself. when attempting to copy something, it runs the actual copy entry method and then loads the jsp where you select the destination etc
