@@ -29,3 +29,4 @@
 11:36 < plekplek:#liferay> jardineworks, yes, that should be a minor thing. however, the hook itself probably needs some restructuring, because it tries to run the copy method before loading the appropriate jsp. probably because i’ve copied the structure of the move functionality, which is a built-in struts action
 11:39 < jardineworks:#liferay> ok -- email me your hook
 11:48 < plekplek:#liferay> alright, i sent it
+11:49 < plekplek:#liferay> if you try to copy a file from the root directory, there is a problem with no such file or directory
