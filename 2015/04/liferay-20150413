@@ -27,3 +27,4 @@
 19:55 < bijoo_:#liferay> so it's not obvious what to do there; since one can add roles, but cannot specify any exclusions. or else one can specify a singler user which doesn't help.
 19:55 < bijoo_:#liferay> the only way i can think of it working is to create ad-hoc role and add all the members to it.
 19:55 < bijoo_:#liferay> though that seems way far-fetched. realistically i'll probably have to create ext or else modify kaleo.
+--- Log closed Tue Apr 14 00:00:25 2015
