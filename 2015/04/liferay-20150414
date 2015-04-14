@@ -22,3 +22,4 @@
 04:14 < Axxell:#liferay> http://codingloading.com/liferay/liferay-portlet-build-createprocess-error206-the-filename-or-extension-is-too-long.html
 10:48 < jardineworks:#liferay> hey bijoo_ did you sort out your workflow issue?
 10:50 < plekplek:#liferay> hey jardineworks, would you have a sec or two at some point to look at my file copy hook?
+10:52 < plekplek:#liferay> i’ve managed to duplicate a file into a draft state, but there could be some key step that i’m missing in the hook structure
