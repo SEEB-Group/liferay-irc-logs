@@ -28,3 +28,4 @@
 11:00 < jardineworks:#liferay> plekplek, I think I remember reading somewhere that you have to add a file to the DL and the do an update on the status in order to get it into a "non draft" state
 11:36 < plekplek:#liferay> jardineworks, yes, that should be a minor thing. however, the hook itself probably needs some restructuring, because it tries to run the copy method before loading the appropriate jsp. probably because i’ve copied the structure of the move functionality, which is a built-in struts action
 11:39 < jardineworks:#liferay> ok -- email me your hook
+11:48 < plekplek:#liferay> alright, i sent it
