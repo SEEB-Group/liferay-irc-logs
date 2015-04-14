@@ -25,3 +25,4 @@
 10:52 < plekplek:#liferay> i’ve managed to duplicate a file into a draft state, but there could be some key step that i’m missing in the hook structure
 10:59 < jardineworks:#liferay> plekplek, I could have a look in an hour or so
 11:00 < jardineworks:#liferay> plekplek, the draft state is no good?
+11:00 < jardineworks:#liferay> plekplek, I think I remember reading somewhere that you have to add a file to the DL and the do an update on the status in order to get it into a "non draft" state
