@@ -7,3 +7,16 @@
 02:53 < Axxell:#liferay> cant find where the problem would be, its only the css scss part of the compile which fails every time
 02:58 < Axxell:#liferay> what i can see is that it puts the complete path in the classpath variable when trying to build the css
 02:59 < Axxell:#liferay> so the classpath is just long as heck: http://pastebin.com/09nHz7BZ
+--- Log opened Tue Apr 14 03:21:18 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ doged       ] [ jbub       ] [ Naenyn      ] [ Tm_T] 
+03:21 [ Axxell    ] [ Gorith      ] [ MagnoBooter] [ quercus     ] [ twen] 
+03:21 [ bijoo     ] [ henriquev   ] [ marcoceppi_] [ sachiman    ] 
+03:21 [ Bryanstein] [ jardineworks] [ modd_      ] [ Tar-Minyatur] 
+03:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+04:14 < Axxell:#liferay> found the solution
+04:14 < Axxell:#liferay> http://codingloading.com/liferay/liferay-portlet-build-createprocess-error206-the-filename-or-extension-is-too-long.html
