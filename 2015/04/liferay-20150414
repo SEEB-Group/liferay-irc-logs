@@ -34,3 +34,4 @@
 11:53 < plekplek:#liferay> the main problem is probably the structure itself. when attempting to copy something, it runs the actual copy entry method and then loads the jsp where you select the destination etc
 11:54 < plekplek:#liferay> and it tries to copy the file to the root directory, which is the default
 11:55 < plekplek:#liferay> so it should load the jsp and then run the copy method upon submitting the target folder
+14:00 < jardineworks:#liferay> plekplek, sorry man -- haven't had a chance to look -- trying to knock some things off my list today and the export/import process is being a pain in the ass.
