@@ -5,3 +5,4 @@
 01:30 < Axxell:#liferay> java is under java/version
 01:30 < Axxell:#liferay> liferay developer studio is under liferayee/liferay developer studio
 02:53 < Axxell:#liferay> cant find where the problem would be, its only the css scss part of the compile which fails every time
+02:58 < Axxell:#liferay> what i can see is that it puts the complete path in the classpath variable when trying to build the css
