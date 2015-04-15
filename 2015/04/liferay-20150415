@@ -82,3 +82,4 @@
 16:12 < smilelws:#liferay> okay.
 16:12 < jardineworks:#liferay> so think of if as like VMs in a VM server
 16:12 < jardineworks:#liferay> one installation of Liferay but it services multiple domains.
+16:12 < jardineworks:#liferay> In liferay this is a "Company"
