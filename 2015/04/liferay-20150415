@@ -69,3 +69,4 @@
 16:07 < jardineworks:#liferay> I just don't know that you can target it like that
 16:07 < jardineworks:#liferay> but I am not a css wizard.
 16:08 < smilelws:#liferay> If you are going the hook way, wouldn't customizing the dockbar using hook might effect other themes we might have, right?
+16:09 < smilelws:#liferay> I am a newbie when it comes to writing altogether a new theme?
