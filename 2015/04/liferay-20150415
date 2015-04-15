@@ -54,3 +54,4 @@
 16:03 < smilelws:#liferay> Hi jardineworks, Thank you for the quick reply
 16:05 < smilelws:#liferay> is it possible to do that in theme at all or if it is to write a hook, do you know which jsp or jsps need to be overridden?
 16:05 < smilelws:#liferay> Thanks and appreciate your help
+16:05 < jardineworks:#liferay> smilelws, I don't think you can do it in the theme because the theme just uses a macro for the dockbar portlet.
