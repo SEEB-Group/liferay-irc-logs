@@ -35,3 +35,4 @@
 10:05 < modd_:#liferay> I'm soooo glad I never had to use staging..I'm pretty sure it's broken in the same way
 10:06 < jardineworks:#liferay> that is what I have to look at next and I am not looking forward to it.
 10:06 < jardineworks:#liferay> I mean, I get it, it's complicated. All these entities, relationships between them, etc. But it's still frustrating.
+10:06 < modd_:#liferay> afaik staging is build on import/export
