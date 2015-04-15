@@ -70,3 +70,4 @@
 16:07 < jardineworks:#liferay> but I am not a css wizard.
 16:08 < smilelws:#liferay> If you are going the hook way, wouldn't customizing the dockbar using hook might effect other themes we might have, right?
 16:09 < smilelws:#liferay> I am a newbie when it comes to writing altogether a new theme?
+16:09 < jardineworks:#liferay> smilelws, yeah.. portal-web/docroot/portlet/dockbar in the portal source which maps to /html/portlet/dockbar at the runtime. So you would find the jsp or jsps you need to alter in that folder and hook them.
