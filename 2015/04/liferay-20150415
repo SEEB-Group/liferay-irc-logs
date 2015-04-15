@@ -78,3 +78,4 @@
 16:11 < jardineworks:#liferay> the jsp is not at the theme level so its nto really affecting the theme so much as anywhere the dockbar portlet is added to a page.
 16:11 < smilelws:#liferay> But I will start looking into jsp overriding
 16:11 < jardineworks:#liferay> the dockbar just happens to be in a hidden caegory and embedded in the theme most of the time
+16:11 < jardineworks:#liferay> smilelws, so... in on eof the environments I work we have multiple instances.
