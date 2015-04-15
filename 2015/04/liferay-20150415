@@ -86,3 +86,4 @@
 16:12 < jardineworks:#liferay> so... hostnamea.com, hostnameb.com, etc.
 16:13 < jardineworks:#liferay> now, hooks are SERVER level things. But in 6.2 there was a property that was introduced to allow you to scope it to a Company.
 16:13 < jardineworks:#liferay> but this might now be where you are at.
+16:13 < jardineworks:#liferay> so what we do...
