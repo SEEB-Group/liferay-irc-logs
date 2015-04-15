@@ -50,3 +50,4 @@
 15:50 < smilelws:#liferay> here is the forum post I have created for the same, please help
 15:50 < smilelws:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/52432345
 15:50 < smilelws:#liferay> Thank You!
+16:03 < jardineworks:#liferay> smilelws, I think to do that you need to create some JSP hooks that will make changes to the dockbar portlet.
