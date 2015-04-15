@@ -94,3 +94,4 @@
 16:14 < jardineworks:#liferay> we create a JSP hook that is general. So like view.jsp for the dockbar. In that JSP we look up a property in the portal-ext.properties file to see which jsp to user. So we have something like property.key.hostnamea=hostnamea.view.jsp ... a
 16:15 < jardineworks:#liferay> and we do this in a choose-when-otherwise statement where each when is a host we have configured.
 16:15 < jardineworks:#liferay> and in cases where it is a new host, or an unconfigured host where we want to use the default we use the otherwise case and use the view.portal.jsp.
+16:16 < jardineworks:#liferay> remember the dockbar is your house. Its the same model all the time -- like in one of those boring suburbanite subdivisions. The theme is just the paint that you use so you can identify your house when you come home drunk :)
