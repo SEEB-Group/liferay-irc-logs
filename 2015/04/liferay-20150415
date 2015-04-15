@@ -1,0 +1,16 @@
+--- Log opened Wed Apr 15 00:00:16 2015
+--- Log opened Wed Apr 15 03:21:18 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA3 RELEASE http://goo.gl/ySBa9F   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Wed Feb 11 14:08:11 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith      ] [ MagnoBooter] [ plekplek    ] [ Tm_T] 
+03:21 [ bijoo     ] [ henriquev   ] [ marcoceppi_] [ quercus     ] [ twen] 
+03:21 [ Bryanstein] [ jardineworks] [ modd_      ] [ sachiman    ] 
+03:21 [ doged     ] [ jbub        ] [ Naenyn     ] [ Tar-Minyatur] 
+03:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+03:21 !morgan.freenode.net [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+09:26 -!- mode/#liferay [+o jhf] by ChanServ
+09:49 < modd_:#liferay> damn, liferay can't handle big zip files :\
+09:49 < modd_:#liferay> I'm trying to import a 3.8GB lar file
