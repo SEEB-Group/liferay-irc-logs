@@ -73,3 +73,4 @@
 16:09 < jardineworks:#liferay> smilelws, yeah.. portal-web/docroot/portlet/dockbar in the portal source which maps to /html/portlet/dockbar at the runtime. So you would find the jsp or jsps you need to alter in that folder and hook them.
 16:09 < smilelws:#liferay> Thanks jardineworks.
 16:10 < jardineworks:#liferay> smilelws, hmmm... yes, it might. So there is some trickery you might need. Are you using a multi-instance implementation (multiple portal instances) or a multi-site, single instance?
+16:10 < smilelws:#liferay> The  hook affect all the themes deployed? I am afraid we are going multiple theme path
