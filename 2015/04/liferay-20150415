@@ -77,3 +77,4 @@
 16:11 < smilelws:#liferay> so far we had only one, but now we are going to have multiple themes, so hook overriding might affect all of them, right?
 16:11 < jardineworks:#liferay> the jsp is not at the theme level so its nto really affecting the theme so much as anywhere the dockbar portlet is added to a page.
 16:11 < smilelws:#liferay> But I will start looking into jsp overriding
+16:11 < jardineworks:#liferay> the dockbar just happens to be in a hidden caegory and embedded in the theme most of the time
