@@ -17,3 +17,4 @@
 09:50 < modd_:#liferay> it creates a temp zip file but this file is broken
 09:50 < modd_:#liferay> it's not possible to open it an therefore it cannot find the mainfest.xml and everything is screwed...
 09:50 < modd_:#liferay> arg
+09:53 < jardineworks:#liferay> modd_, 3.8 gig! :O .... I was struggling yesterday to get a 40MB one working!
