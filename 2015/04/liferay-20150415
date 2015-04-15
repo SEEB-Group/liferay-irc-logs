@@ -74,3 +74,4 @@
 16:09 < smilelws:#liferay> Thanks jardineworks.
 16:10 < jardineworks:#liferay> smilelws, hmmm... yes, it might. So there is some trickery you might need. Are you using a multi-instance implementation (multiple portal instances) or a multi-site, single instance?
 16:10 < smilelws:#liferay> The  hook affect all the themes deployed? I am afraid we are going multiple theme path
+16:11 < smilelws:#liferay> so far we had only one, but now we are going to have multiple themes, so hook overriding might affect all of them, right?
