@@ -21,3 +21,4 @@
 09:54 < modd_:#liferay> the whole lar-thing is a bunch of §%&%
 09:55 < modd_:#liferay> I've got a 6.1 lar, had to manipulate it to get it imported to lr 6.1, then had to update to 6.2 which didn't work very well
 09:55 < modd_:#liferay> then I had to fix the DB so I can get it exported again
+09:56 < modd_:#liferay> and now it cannot import it because of nonsense errors
