@@ -65,3 +65,4 @@
 16:06 < smilelws:#liferay> I could hide entirely the dockbar using theme
 16:06 < jardineworks:#liferay> probably /html/portlet/dockbar but let me double check
 16:06 < smilelws:#liferay> ok thanks
+16:07 < jardineworks:#liferay> smilelws, sure you can hide it altogether... but if there is a class or an id you can target for say the "control panel" entry you could modofy the style to hide it when you are in the phone width or something right?
