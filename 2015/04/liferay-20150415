@@ -83,3 +83,4 @@
 16:12 < jardineworks:#liferay> so think of if as like VMs in a VM server
 16:12 < jardineworks:#liferay> one installation of Liferay but it services multiple domains.
 16:12 < jardineworks:#liferay> In liferay this is a "Company"
+16:12 < jardineworks:#liferay> so... hostnamea.com, hostnameb.com, etc.
