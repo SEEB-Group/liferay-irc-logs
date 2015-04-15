@@ -92,3 +92,4 @@
 16:13 < smilelws:#liferay> okay multiple domain is instance, right?
 16:14 < smilelws:#liferay> Yes, I am using 6.2 as well
 16:14 < jardineworks:#liferay> we create a JSP hook that is general. So like view.jsp for the dockbar. In that JSP we look up a property in the portal-ext.properties file to see which jsp to user. So we have something like property.key.hostnamea=hostnamea.view.jsp ... a
+16:15 < jardineworks:#liferay> and we do this in a choose-when-otherwise statement where each when is a host we have configured.
