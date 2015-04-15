@@ -15,3 +15,4 @@
 09:49 < modd_:#liferay> damn, liferay can't handle big zip files :\
 09:49 < modd_:#liferay> I'm trying to import a 3.8GB lar file
 09:50 < modd_:#liferay> it creates a temp zip file but this file is broken
+09:50 < modd_:#liferay> it's not possible to open it an therefore it cannot find the mainfest.xml and everything is screwed...
