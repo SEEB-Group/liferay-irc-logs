@@ -14,3 +14,4 @@
 06:18 < goku_:#liferay> hi,am trying to deploy the google-analytic-portlet in liferay6.2ceGA3, but its throwing error while using it,anybody worked with this google analytic portlet? https://github.com/rotterdam-cs/liferayGoogleAnalytics-portlet
 06:19 < Axxell:#liferay> im trying to put some permissionsupport for a portlet of mine... ive done a resource action mapping thingy, which seemed to be working, until the view rights disappeared for the guest user. Now i cant find a way to be able to access the view rights for that portlet at all
 06:19 < Axxell:#liferay> ive added the view action key whichi i earlier deleted
+06:19 < Axxell:#liferay> but it still is not available
