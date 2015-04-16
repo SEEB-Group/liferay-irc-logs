@@ -87,3 +87,4 @@
 09:04 < jardineworks:#liferay> and I would argue that it should be under sites > configration, not sites > content.
 09:05 < goku_:#liferay> jardineworks: or its may can be this way,like first we need to configure the client id and secret then deploy the portlet?
 09:07 < jardineworks:#liferay> goku_, maybe... but for sure the token error is the result of missing the OAuth stuff
+09:07 < jardineworks:#liferay> I can see a menu on the right though that says dashboard.
