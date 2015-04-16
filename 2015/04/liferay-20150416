@@ -64,3 +64,4 @@
 08:11 < Axxell:#liferay> themeDisplay.getPortletDisplay().getResourcePK()
 08:14 < Axxell:#liferay> now i get the error : No Role exists with the key {companyId=10194, name=Guest}
 08:21 < jardineworks:#liferay> Axxell, in the server administration console there is a button to clean up permissions... if you are brave, you could try that!
+08:22 < jardineworks:#liferay> twen, I think it is the whole current + previous versions. It disappears from the list right? if it was just the current version then I would expect the previous to show up
