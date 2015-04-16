@@ -32,3 +32,4 @@
 07:04 < goku_:#liferay> jardineworks:ok
 07:05 < goku_:#liferay> in the log one more error is there Invalid Authorization Code
 07:05 < jardineworks:#liferay> goku_, that might be the google stuff you need to pass to google to authenticate yourself. Hvae you set that stuff up? (I have never used this portlet btw)
+07:06 < goku_:#liferay> in the documentation pdf of their its shows like on the first view there are asking the client id and secret
