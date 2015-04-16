@@ -19,3 +19,4 @@
 06:42 < Axxell:#liferay> all others have it
 06:42 < Axxell:#liferay> but not this one
 06:56 < jardineworks:#liferay> goku_, what's the error?
+06:58 < goku_:#liferay> jardineworks: when i deployed the war file first time its showed like java.io.FileNotFoundException: The requested resource (/liferayGoogleAnalytics-portlet/WEB-INF/servlet/view/portal/googleanalytics/view) is not available
