@@ -37,3 +37,4 @@
 07:07 < jardineworks:#liferay> interesting... ok here is what I am wondering
 07:08 < jardineworks:#liferay> the portlet-xml is referencing /view.jsp as the view for one portlet, and isn'et specifying anything for the other.
 07:08 < jardineworks:#liferay> if I look at the source tree --
+07:08 < jardineworks:#liferay> inside the "views" folder ... there is a subfolder googleanalystics that has a lot of jsps
