@@ -23,3 +23,4 @@
 06:59 < goku_:#liferay> jardineworks: then is edited the web.xml file in there one entry was there <servlet-name>ViewRendererServlet</servlet-name><url-pattern>/WEB-INF/servlet</url-pattern>
 07:00 < goku_:#liferay> but there where on folder was found with name servlet in WEB-INF
 07:00 < goku_:#liferay> one folder was there with name views
+07:00 < goku_:#liferay> so i changed the url pattern as <url-pattern>/WEB-INF/views</url-pattern
