@@ -21,3 +21,4 @@
 06:56 < jardineworks:#liferay> goku_, what's the error?
 06:58 < goku_:#liferay> jardineworks: when i deployed the war file first time its showed like java.io.FileNotFoundException: The requested resource (/liferayGoogleAnalytics-portlet/WEB-INF/servlet/view/portal/googleanalytics/view) is not available
 06:59 < goku_:#liferay> jardineworks: then is edited the web.xml file in there one entry was there <servlet-name>ViewRendererServlet</servlet-name><url-pattern>/WEB-INF/servlet</url-pattern>
+07:00 < goku_:#liferay> but there where on folder was found with name servlet in WEB-INF
