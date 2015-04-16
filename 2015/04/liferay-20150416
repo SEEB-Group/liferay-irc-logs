@@ -34,3 +34,4 @@
 07:05 < jardineworks:#liferay> goku_, that might be the google stuff you need to pass to google to authenticate yourself. Hvae you set that stuff up? (I have never used this portlet btw)
 07:06 < goku_:#liferay> in the documentation pdf of their its shows like on the first view there are asking the client id and secret
 07:07 < goku_:#liferay> but that view itself not coming
+07:07 < jardineworks:#liferay> interesting... ok here is what I am wondering
