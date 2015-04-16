@@ -24,3 +24,4 @@
 07:00 < goku_:#liferay> but there where on folder was found with name servlet in WEB-INF
 07:00 < goku_:#liferay> one folder was there with name views
 07:00 < goku_:#liferay> so i changed the url pattern as <url-pattern>/WEB-INF/views</url-pattern
+07:02 < goku_:#liferay> then the previous error was gone.but then i selected the Google analytics Configuration from the site content side tab ,then only heading is showing "Google Analytics Configuration" with empty page
