@@ -29,3 +29,4 @@
 07:03 < goku_:#liferay> one exception in there [SerializableSessionAttributeListener:93] com.rcs.configuration.portlet.ConfigurationController is not serializable and will prevent this session from being replicated
 07:03 < jardineworks:#liferay> interesting... the ga-configuration portlet has not view-template init param specified https://github.com/rotterdam-cs/liferayGoogleAnalytics-portlet/blob/master/docroot/WEB-INF/portlet.xml
 07:04 < jardineworks:#liferay> goku_, unless you are in a cluster, that message won't matter
+07:04 < goku_:#liferay> jardineworks:ok
