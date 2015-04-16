@@ -71,3 +71,4 @@
 08:53 < jardineworks:#liferay> goku_, I'm stuck at the same place  you are -- but this whole project doesn't seem very well designed or built.
 08:54 < jardineworks:#liferay> for example, why are the "views" under the WEB-INF directory?!
 08:54 < jardineworks:#liferay> :|
+08:54 < goku_:#liferay> jardineworks:yea i am seeing this type of file structure in liferay first time
