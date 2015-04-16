@@ -41,3 +41,4 @@
 07:08 < jardineworks:#liferay> one called configuration.
 07:09 < jardineworks:#liferay> so I wonder if the portlet.xml needs to has added to it ...
 07:09 < jardineworks:#liferay> <init-param>
+07:09 < jardineworks:#liferay> 			<name>view-template</name>
