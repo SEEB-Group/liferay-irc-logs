@@ -47,3 +47,4 @@
 07:09 < jardineworks:#liferay> and the other portlet modified to /views/view.jsp
 07:10 < jardineworks:#liferay> (so you can remove /view from your servlet mapping)
 07:10 < jardineworks:#liferay> can you try that, rebuild and redeploy?
+07:10 < goku_:#liferay> jardineworks: ok then i will try that
