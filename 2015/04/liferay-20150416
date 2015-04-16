@@ -89,3 +89,4 @@
 09:07 < jardineworks:#liferay> goku_, maybe... but for sure the token error is the result of missing the OAuth stuff
 09:07 < jardineworks:#liferay> I can see a menu on the right though that says dashboard.
 09:08 < jardineworks:#liferay> (in the content section) ... so I would assume this is the palce you are supposed to view it.
+09:09 < goku_:#liferay> jardineworks: hm..but according to the document.of their ..its very simple..just deploy it and use.
