@@ -30,3 +30,4 @@
 07:03 < jardineworks:#liferay> interesting... the ga-configuration portlet has not view-template init param specified https://github.com/rotterdam-cs/liferayGoogleAnalytics-portlet/blob/master/docroot/WEB-INF/portlet.xml
 07:04 < jardineworks:#liferay> goku_, unless you are in a cluster, that message won't matter
 07:04 < goku_:#liferay> jardineworks:ok
+07:05 < goku_:#liferay> in the log one more error is there Invalid Authorization Code
