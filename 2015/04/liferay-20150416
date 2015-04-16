@@ -26,3 +26,4 @@
 07:00 < goku_:#liferay> so i changed the url pattern as <url-pattern>/WEB-INF/views</url-pattern
 07:02 < goku_:#liferay> then the previous error was gone.but then i selected the Google analytics Configuration from the site content side tab ,then only heading is showing "Google Analytics Configuration" with empty page
 07:02 < jardineworks:#liferay> and no exceptions in the log?
+07:03 < goku_:#liferay> one exception in there [SerializableSessionAttributeListener:93] com.rcs.configuration.portlet.ConfigurationController is not serializable and will prevent this session from being replicated
