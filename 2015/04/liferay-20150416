@@ -95,3 +95,4 @@
 09:11 < goku_:#liferay> jardineworks: for me the input boxes not there.just the title only
 09:13 < jardineworks:#liferay> goku_, check the source... maybe a css override is hiding them
 09:15 < goku_:#liferay> jardineworks: ok
+10:04 < plekplek:#liferay> there are some strange css rules hiding in the core of liferay
