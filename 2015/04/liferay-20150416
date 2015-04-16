@@ -15,3 +15,4 @@
 06:19 < Axxell:#liferay> im trying to put some permissionsupport for a portlet of mine... ive done a resource action mapping thingy, which seemed to be working, until the view rights disappeared for the guest user. Now i cant find a way to be able to access the view rights for that portlet at all
 06:19 < Axxell:#liferay> ive added the view action key whichi i earlier deleted
 06:19 < Axxell:#liferay> but it still is not available
+06:41 < Axxell:#liferay> to clarify, after screwing around with existing and default permissions, the view permission went missing for guest users... i also tried to put the view right from the control panel to the guest user, but its not available for this specific portlet
