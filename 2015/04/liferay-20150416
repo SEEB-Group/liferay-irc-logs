@@ -40,3 +40,4 @@
 07:08 < jardineworks:#liferay> inside the "views" folder ... there is a subfolder googleanalystics that has a lot of jsps
 07:08 < jardineworks:#liferay> one called configuration.
 07:09 < jardineworks:#liferay> so I wonder if the portlet.xml needs to has added to it ...
+07:09 < jardineworks:#liferay> <init-param>
