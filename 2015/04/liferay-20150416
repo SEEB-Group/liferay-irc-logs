@@ -11,3 +11,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 06:17 < Axxell:#liferay> hey everybody
+06:18 < goku_:#liferay> hi,am trying to deploy the google-analytic-portlet in liferay6.2ceGA3, but its throwing error while using it,anybody worked with this google analytic portlet? https://github.com/rotterdam-cs/liferayGoogleAnalytics-portlet
