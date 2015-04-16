@@ -84,3 +84,4 @@
 09:03 < jardineworks:#liferay> goku_, aha! in the content section for the site there is an entry for Google Analytics Configuration
 09:04 < jardineworks:#liferay> where you need to put your client id and secret
 09:04 < jardineworks:#liferay> basically, the portlet should be in the hidden category because you should be viewing it from the control panel
+09:04 < jardineworks:#liferay> and I would argue that it should be under sites > configration, not sites > content.
