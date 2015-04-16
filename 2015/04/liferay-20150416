@@ -59,3 +59,4 @@
 08:03 < twen:#liferay> G'day o/
 08:03 < twen:#liferay> when I moce to the bin, a document (from document & Media portlet), is the last version being trashed, or all versions ?
 08:04 < Axxell:#liferay> ok a simpler question how do i get the my porlets primary key as a string, it look like this in the db "105104_LAYOUT_CalendarBoking_WAR_CalendarBokingportlet" the table is resourcepermission
+08:09 < Axxell:#liferay> anyone?
