@@ -42,3 +42,6 @@
 07:09 < jardineworks:#liferay> so I wonder if the portlet.xml needs to has added to it ...
 07:09 < jardineworks:#liferay> <init-param>
 07:09 < jardineworks:#liferay> 			<name>view-template</name>
+07:09 < jardineworks:#liferay> 			<value>/views/googleanalytics/view.jsp</value>
+07:09 < jardineworks:#liferay> 		</init-param>
+07:09 < jardineworks:#liferay> and the other portlet modified to /views/view.jsp
