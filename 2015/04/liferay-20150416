@@ -83,3 +83,4 @@
 09:01 < jardineworks:#liferay> twen, hahah well.. try this. Make a document with a few versions, put it on a page somewhere, then put it in the trash. Go back to the page and what do you see?
 09:03 < jardineworks:#liferay> goku_, aha! in the content section for the site there is an entry for Google Analytics Configuration
 09:04 < jardineworks:#liferay> where you need to put your client id and secret
+09:04 < jardineworks:#liferay> basically, the portlet should be in the hidden category because you should be viewing it from the control panel
