@@ -70,3 +70,4 @@
 08:23 < jardineworks:#liferay> but a db dump first may be in order :)
 08:53 < jardineworks:#liferay> goku_, I'm stuck at the same place  you are -- but this whole project doesn't seem very well designed or built.
 08:54 < jardineworks:#liferay> for example, why are the "views" under the WEB-INF directory?!
+08:54 < jardineworks:#liferay> :|
