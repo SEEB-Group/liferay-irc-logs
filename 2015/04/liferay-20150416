@@ -96,3 +96,4 @@
 09:13 < jardineworks:#liferay> goku_, check the source... maybe a css override is hiding them
 09:15 < goku_:#liferay> jardineworks: ok
 10:04 < plekplek:#liferay> there are some strange css rules hiding in the core of liferay
+11:43 < plekplek:#liferay> has anyone used liferay.fire for initializing struts actions?
