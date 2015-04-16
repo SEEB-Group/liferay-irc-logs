@@ -85,3 +85,4 @@
 09:04 < jardineworks:#liferay> where you need to put your client id and secret
 09:04 < jardineworks:#liferay> basically, the portlet should be in the hidden category because you should be viewing it from the control panel
 09:04 < jardineworks:#liferay> and I would argue that it should be under sites > configration, not sites > content.
+09:05 < goku_:#liferay> jardineworks: or its may can be this way,like first we need to configure the client id and secret then deploy the portlet?
