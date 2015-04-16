@@ -18,3 +18,4 @@
 06:41 < Axxell:#liferay> to clarify, after screwing around with existing and default permissions, the view permission went missing for guest users... i also tried to put the view right from the control panel to the guest user, but its not available for this specific portlet
 06:42 < Axxell:#liferay> all others have it
 06:42 < Axxell:#liferay> but not this one
+06:56 < jardineworks:#liferay> goku_, what's the error?
