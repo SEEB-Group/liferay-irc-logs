@@ -92,3 +92,5 @@
 09:09 < goku_:#liferay> jardineworks: hm..but according to the document.of their ..its very simple..just deploy it and use.
 09:10 < jardineworks:#liferay> goku_, maybe! :). What happens when you put your clientid and secret in there?
 09:10 < goku_:#liferay> jardineworks: am checking that one.
+09:11 < goku_:#liferay> jardineworks: for me the input boxes not there.just the title only
+09:13 < jardineworks:#liferay> goku_, check the source... maybe a css override is hiding them
