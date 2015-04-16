@@ -35,3 +35,4 @@
 07:06 < goku_:#liferay> in the documentation pdf of their its shows like on the first view there are asking the client id and secret
 07:07 < goku_:#liferay> but that view itself not coming
 07:07 < jardineworks:#liferay> interesting... ok here is what I am wondering
+07:08 < jardineworks:#liferay> the portlet-xml is referencing /view.jsp as the view for one portlet, and isn'et specifying anything for the other.
