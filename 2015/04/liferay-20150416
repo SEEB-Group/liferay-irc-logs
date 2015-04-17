@@ -99,3 +99,4 @@
 11:43 < plekplek:#liferay> has anyone used liferay.fire for initializing struts actions?
 12:15 < jardineworks:#liferay> anyone here played with EXT plugins?
 12:26 < dave_k:#liferay> hey all... is there any way to deactivate the HTML minifier for only one snippet introduced by portal_normal.vm?
+--- Log closed Fri Apr 17 00:00:14 2015
