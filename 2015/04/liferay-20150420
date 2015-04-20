@@ -286,3 +286,4 @@
 16:42 < jardineworks:#liferay> k one sec
 16:43 < jardineworks:#liferay> jhf: http://pastie.org/10103942
 16:43 < jardineworks:#liferay> I don't see anything whacky...
+16:45 <@jhf:#liferay> why is your service.xml under src/main/java ?
