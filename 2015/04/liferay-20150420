@@ -187,3 +187,4 @@
 15:54 <@jhf:#liferay> I mean is there an open source library or a website? it sounds like no.
 15:54 <@jhf:#liferay> essentially what you really need is a way for anyone to verify the timestamp and result of a random number drawing
 15:55 < bijoo_:#liferay> jhf: I have a friend who is working on one : https://github.com/kryptnostic/fhe-core
+15:55 <@jhf:#liferay> so I could encrypt "alice=1,bob=2,eve=3" and tell you the secure hash of the string at, say, 10am the day before
