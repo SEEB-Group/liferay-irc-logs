@@ -12,3 +12,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 08:08 < hufg:#liferay> helloo anyone familiar with asset framework?
 08:08 < hufg:#liferay> i've got some custom assets rendering and stuff. any way to create custom queries?
+08:10 < hufg:#liferay> let's say i have a custom assetentry model which has language and i'd like to filter based on language. i can either modify the corresponding asset rendering jsp or hook the asset rendering in liferay(this is not so good) or i could modify the used query which would be the cleanest
