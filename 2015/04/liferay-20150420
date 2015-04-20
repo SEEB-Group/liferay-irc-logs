@@ -15,3 +15,4 @@
 08:10 < hufg:#liferay> let's say i have a custom assetentry model which has language and i'd like to filter based on language. i can either modify the corresponding asset rendering jsp or hook the asset rendering in liferay(this is not so good) or i could modify the used query which would be the cleanest
 08:10 < hufg:#liferay> gotta say this is pretty hard core with the asset stuff
 08:13 < hufg:#liferay> i've got a feeling modifying the hook i need to use a ext plugin to overwrite the class and zz zpzz
+08:13 < hufg:#liferay> yepyep i'll modify the render jsps
