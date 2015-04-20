@@ -75,3 +75,4 @@
 11:11 <@jhf:#liferay> $ echo -n "1=dave,2=krzysztof,3=balazs" | openssl sha1
 11:11 <@jhf:#liferay> (stdin)= b2d6ce2d58ef0683c80ecf07151c770a6ea8f085
 11:11 <@jhf:#liferay> congrats kgolebiowski !!!!
+11:11 < kgolebiowski:#liferay> heh
