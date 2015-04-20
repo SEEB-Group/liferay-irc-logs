@@ -297,3 +297,4 @@
 16:52 < jardineworks:#liferay> but I am very excited about the prospects :)
 16:52 < jardineworks:#liferay> ... if I could get it to work for me.
 16:53 < jardineworks:#liferay> jhf: when you did it on your end, I assume you placed the service.xml file in the default location (the WEB-INF folder)?
+16:55 <@jhf:#liferay> yeah
