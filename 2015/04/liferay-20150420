@@ -202,3 +202,4 @@
 15:57 <@jhf:#liferay> recursive permissions on web content folders.. hmm.. i don't think so.. checking
 15:58 < jardineworks:#liferay> I am going to try applying the role permissions to the structure next... but I was wondering if there was some secret sauce I was missing :)
 15:58 <@jhf:#liferay> there is a way to do it with message boards
+15:58 <@jhf:#liferay> but I think web content folders and web content are more separate concerns than message board messages and categories. cecking..
