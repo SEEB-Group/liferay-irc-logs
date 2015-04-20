@@ -222,3 +222,4 @@
 16:05 <@jhf:#liferay> by specifying something at the folder level
 16:05 <@jhf:#liferay> like "everything created in this folder should be editable by the owner, and by anyone with role B"
 16:05 <@jhf:#liferay> I am pretty sure folder permissions only apply to the folder, not to articles within the folder
+16:08 < jardineworks:#liferay> jhf: yeah seems that way.
