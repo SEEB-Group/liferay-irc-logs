@@ -201,3 +201,4 @@
 15:57 < jardineworks:#liferay> right now I have two separate users... A and B. Both can access the folder because of their role, but items created by A are not editable by B
 15:57 <@jhf:#liferay> recursive permissions on web content folders.. hmm.. i don't think so.. checking
 15:58 < jardineworks:#liferay> I am going to try applying the role permissions to the structure next... but I was wondering if there was some secret sauce I was missing :)
+15:58 <@jhf:#liferay> there is a way to do it with message boards
