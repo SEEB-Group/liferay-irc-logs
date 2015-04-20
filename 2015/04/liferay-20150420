@@ -320,3 +320,4 @@
 17:06 <@jhf:#liferay> trying to find an old service.xml
 17:06 <@jhf:#liferay> I think somehow it either used to have a <portlet> section OR it read one of the other descriptors
 17:08 <@jhf:#liferay> yeah it used to be that service.xml had a <portlet> section in it
+17:08 <@jhf:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/480294 for example
