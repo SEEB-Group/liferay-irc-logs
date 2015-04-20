@@ -218,3 +218,4 @@
 16:04 <@jhf:#liferay> user logs in, goes to the folder, but doesn't see the "add web content" button
 16:04 <@jhf:#liferay> but this isn't dealing with recursion
 16:04 <@jhf:#liferay> it's just per-folder permissions
+16:04 <@jhf:#liferay> you want user B to be able to *edit* web content articles that user A creates
