@@ -235,3 +235,4 @@
 16:13 <@jhf:#liferay> I bet you see it twice or more
 16:13 < jardineworks:#liferay> but what is _portletShortName?
 16:13 <@jhf:#liferay> check,ing...
+16:14 <@jhf:#liferay>                                 _portletShortName = portletElement.attributeValue("short-name");
