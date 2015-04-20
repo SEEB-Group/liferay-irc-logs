@@ -37,3 +37,4 @@
 11:02 <@jhf:#liferay> so let's do that one first. so the way this works is: I create a string that assigns a number to each person
 11:02 < Jitendra:#liferay> ok
 11:02 <@jhf:#liferay> I then hash that string using the SHA-1 algorithm and tell you the result
+11:02 <@jhf:#liferay> then you will pick a number from 1 through 3
