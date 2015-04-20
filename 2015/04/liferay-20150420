@@ -271,3 +271,4 @@
 16:22 <@jhf:#liferay> can you send me your service.xml ?
 16:22 < jardineworks:#liferay> or at least that is what I assumed.
 16:22 < jardineworks:#liferay> sure, one sec I'll pastie.
+16:22 <@jhf:#liferay> no it's a legacy thing that's no longer even supported not sure why that code is in tehre for portletShortName
