@@ -198,3 +198,4 @@
 15:56 < jardineworks:#liferay> jhf: ok -- if I have a Role -- call it X and I apply the Role X to a folder that I am using to organize web content... is there a way to make that cascade down to items in the folder?
 15:56 <@jhf:#liferay> or some other public source of randomness that includes timestamps
 15:57 < bijoo_:#liferay> :)
+15:57 < jardineworks:#liferay> right now I have two separate users... A and B. Both can access the folder because of their role, but items created by A are not editable by B
