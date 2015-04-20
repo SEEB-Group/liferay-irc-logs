@@ -206,3 +206,4 @@
 15:59 < jardineworks:#liferay> that's what I figured. Imight want to let someone see the folder, but not necessarily everything in it -- at least I was assuming this was the logic
 15:59 <@jhf:#liferay> well I believe web content "folders" are really only for content admins to organize content
 15:59 <@jhf:#liferay> not really something you expose to end users
+15:59 <@jhf:#liferay> like you do with message board categories or DL folders
