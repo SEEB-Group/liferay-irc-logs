@@ -220,3 +220,4 @@
 16:04 <@jhf:#liferay> it's just per-folder permissions
 16:04 <@jhf:#liferay> you want user B to be able to *edit* web content articles that user A creates
 16:05 <@jhf:#liferay> by specifying something at the folder level
+16:05 <@jhf:#liferay> like "everything created in this folder should be editable by the owner, and by anyone with role B"
