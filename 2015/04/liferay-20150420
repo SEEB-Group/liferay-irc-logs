@@ -36,3 +36,4 @@
 11:01 <@jhf:#liferay> ok we actually have 2 drawings to give away stuff today. the first is for Q4 2014 top contributors - the wiiners are kravigupta (he was just here a minute ago), jardineworks, and Jitendra
 11:02 <@jhf:#liferay> so let's do that one first. so the way this works is: I create a string that assigns a number to each person
 11:02 < Jitendra:#liferay> ok
+11:02 <@jhf:#liferay> I then hash that string using the SHA-1 algorithm and tell you the result
