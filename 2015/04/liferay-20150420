@@ -246,3 +246,4 @@
 16:16 < jardineworks:#liferay> there is no element <short-name>,/short-name>
 16:16 < jardineworks:#liferay> .. and the line above is pulling the name value..
 16:16 < jardineworks:#liferay> 				_portletName = portletElement.attributeValue("name");  				_portletShortName = portletElement.attributeValue("short-name");
+16:17 <@jhf:#liferay> hmmm
