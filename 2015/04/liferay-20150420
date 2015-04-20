@@ -214,3 +214,4 @@
 16:03 <@jhf:#liferay> right. well in thias case, dude had two roles
 16:03 <@jhf:#liferay> created a folder
 16:04 <@jhf:#liferay> edited the permissions of the folder to specify all permissions for that folder for the role
+16:04 <@jhf:#liferay> assigned a user to that role
