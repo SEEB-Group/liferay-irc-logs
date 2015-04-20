@@ -227,3 +227,4 @@
 16:09 < jardineworks:#liferay> in a lot of cases, but in this case anyway, it sucks. lol
 16:12 < jardineworks:#liferay> jhf: any thoughts on this? (scroll to the bottom, everything else is resolved) -- https://www.liferay.com/community/forums/-/message_boards/message/52682550
 16:12 <@jhf:#liferay> yeah - _portletShortName is what it's looking at
+16:12 <@jhf:#liferay> not the namespace
