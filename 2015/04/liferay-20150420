@@ -257,3 +257,4 @@
 16:18 <@jhf:#liferay> what's your namespace set to?
 16:19 <@jhf:#liferay> it can only consist of isChar()'s and underscore
 16:19 < jardineworks:#liferay> jhf: <namespace>YP</namespace>
+16:19 <@jhf:#liferay> and you have no <short-name>
