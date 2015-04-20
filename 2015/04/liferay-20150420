@@ -237,3 +237,4 @@
 16:13 <@jhf:#liferay> check,ing...
 16:14 <@jhf:#liferay>                                 _portletShortName = portletElement.attributeValue("short-name");
 16:14 < jardineworks:#liferay> jhf: z-portlet
+16:14 <@jhf:#liferay> the dash!
