@@ -299,3 +299,4 @@
 16:53 < jardineworks:#liferay> jhf: when you did it on your end, I assume you placed the service.xml file in the default location (the WEB-INF folder)?
 16:55 <@jhf:#liferay> yeah
 16:55 <@jhf:#liferay> but I just tried it elsewhere and it still works
+16:55 <@jhf:#liferay> the only thing is - I don't have a 6.2.10.12 runtime
