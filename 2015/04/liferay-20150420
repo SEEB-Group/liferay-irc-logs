@@ -291,3 +291,4 @@
 16:46 < jardineworks:#liferay> I am in the z-portlet-portlet folder running thins --
 16:46 < jardineworks:#liferay> mvn -X  liferay:build-service -DserviceFileName=src/main/java/com/yp/liferay/portlet/z/service.xml
 16:46 <@jhf:#liferay> ahhhhhhhh
+16:46 <@jhf:#liferay> good ole dash-D
