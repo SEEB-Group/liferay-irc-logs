@@ -276,3 +276,4 @@
 16:24 <@jhf:#liferay> hmm
 16:25 <@jhf:#liferay> what version of liferay/
 16:25 <@jhf:#liferay> I tried with 6.2 CE GA3 and it worked with your service.xml
+16:25 <@jhf:#liferay> ah yer using maven too eh
