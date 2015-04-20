@@ -17,3 +17,4 @@
 08:13 < hufg:#liferay> i've got a feeling modifying the hook i need to use a ext plugin to overwrite the class and zz zpzz
 08:13 < hufg:#liferay> yepyep i'll modify the render jsps
 09:16 < hufg:#liferay> any ideas how to get dependencies with hook?
+09:16 < hufg:#liferay> let's say i want to hook a jsp file and use my custom class how would i do that?
