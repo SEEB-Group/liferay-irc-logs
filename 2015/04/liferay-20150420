@@ -319,3 +319,4 @@
 17:04 < bijoo_:#liferay> jardineworks: can you hook it up to a debugger?
 17:06 <@jhf:#liferay> trying to find an old service.xml
 17:06 <@jhf:#liferay> I think somehow it either used to have a <portlet> section OR it read one of the other descriptors
+17:08 <@jhf:#liferay> yeah it used to be that service.xml had a <portlet> section in it
