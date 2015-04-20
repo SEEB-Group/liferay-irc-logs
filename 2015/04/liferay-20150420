@@ -256,3 +256,4 @@
 16:18 <@jhf:#liferay> I see there's an if/else
 16:18 <@jhf:#liferay> what's your namespace set to?
 16:19 <@jhf:#liferay> it can only consist of isChar()'s and underscore
+16:19 < jardineworks:#liferay> jhf: <namespace>YP</namespace>
