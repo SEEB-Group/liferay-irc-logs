@@ -268,3 +268,4 @@
 16:21 <@jhf:#liferay> so it must be super ancient
 16:21 < jardineworks:#liferay> red lines and all
 16:21 < jardineworks:#liferay> plus... _portletShortName ... doesn't that mean it's trying to find something in the portlet.xml?
+16:22 <@jhf:#liferay> can you send me your service.xml ?
