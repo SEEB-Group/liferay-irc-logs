@@ -247,3 +247,4 @@
 16:16 < jardineworks:#liferay> .. and the line above is pulling the name value..
 16:16 < jardineworks:#liferay> 				_portletName = portletElement.attributeValue("name");  				_portletShortName = portletElement.attributeValue("short-name");
 16:17 <@jhf:#liferay> hmmm
+16:17 < bijoo_:#liferay> "The short-name can be something like "MB". This is used as a namespace to
