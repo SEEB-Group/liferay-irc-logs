@@ -216,3 +216,4 @@
 16:04 <@jhf:#liferay> edited the permissions of the folder to specify all permissions for that folder for the role
 16:04 <@jhf:#liferay> assigned a user to that role
 16:04 <@jhf:#liferay> user logs in, goes to the folder, but doesn't see the "add web content" button
+16:04 <@jhf:#liferay> but this isn't dealing with recursion
