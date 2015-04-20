@@ -270,3 +270,4 @@
 16:21 < jardineworks:#liferay> plus... _portletShortName ... doesn't that mean it's trying to find something in the portlet.xml?
 16:22 <@jhf:#liferay> can you send me your service.xml ?
 16:22 < jardineworks:#liferay> or at least that is what I assumed.
+16:22 < jardineworks:#liferay> sure, one sec I'll pastie.
