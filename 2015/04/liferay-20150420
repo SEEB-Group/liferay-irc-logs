@@ -56,3 +56,4 @@
 11:06 < Jitendra:#liferay> :)
 11:06 <@jhf:#liferay> the string was "1=jitendra,2=jardine,3=ravi"
 11:06 <@jhf:#liferay> $ echo -n "1=jitendra,2=jardine,3=ravi" | openssl sha1
+11:06 <@jhf:#liferay> (stdin)= f7e26f2ae7bced210a6e440a7ff30a7c0920f307
