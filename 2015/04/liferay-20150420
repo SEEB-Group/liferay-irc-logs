@@ -213,3 +213,4 @@
 16:02 < jardineworks:#liferay> internal as in I can't see it :)
 16:03 <@jhf:#liferay> right. well in thias case, dude had two roles
 16:03 <@jhf:#liferay> created a folder
+16:04 <@jhf:#liferay> edited the permissions of the folder to specify all permissions for that folder for the role
