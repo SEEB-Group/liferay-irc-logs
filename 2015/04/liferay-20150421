@@ -1,3 +1,4 @@
 --- Log opened Tue Apr 21 00:00:09 2015
 02:30 < hufg:#liferay> hello
 02:30 < hufg:#liferay> anyone made stuff with the asset framework?
+02:31 < hufg:#liferay> i basically have to filter the asset "result set" by data outside of tag and categories, having a really hard time doing this
