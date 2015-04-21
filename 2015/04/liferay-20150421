@@ -16,3 +16,4 @@
 09:37 < j123j:#liferay> hey all i'm hoping for a quick win. my question is how do you handle properties with the following stuff test.property[100].ok= or maybe test.property.ok[100]? a long time ago i remember seeing this kind of things
 09:41 < j123j:#liferay> i need to map properties to id and i've seen it done like thathehe
 09:43 < j123j:#liferay> haha stupid quick wins ofc i can just add the stuff into the key
+11:07 < jardineworks:#liferay> has anyone in here used page templates?
