@@ -21,3 +21,5 @@
 08:42 < plekplek:#liferay> is there any easy way to change the default permissions when adding a new folder in document library?
 08:43 < plekplek:#liferay> the defaults give site members permission to add folders and documents
 10:00 < plekplek:#liferay> ah, ext-plugin did the trick…
+10:51 < ikb:#liferay> hi all
+10:51 < ikb:#liferay> i am setting the model permission for my entities
