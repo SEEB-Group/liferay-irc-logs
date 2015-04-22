@@ -25,3 +25,4 @@
 10:51 < ikb:#liferay> i am setting the model permission for my entities
 10:51 < ikb:#liferay> first question is: why i need to set permissions for the whole package?
 12:04 < bijoo_:#liferay> ikb: "set permissions for the whole package" you mean for the portlet itself as well?
+12:05 < bijoo_:#liferay> ikb: in the Control Panel->Roles->(choose a regular role you created)->Define Permissions->(dropdown for applications) you can define permissions on the portlet
