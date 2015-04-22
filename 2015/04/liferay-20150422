@@ -23,3 +23,4 @@
 10:00 < plekplek:#liferay> ah, ext-plugin did the trick…
 10:51 < ikb:#liferay> hi all
 10:51 < ikb:#liferay> i am setting the model permission for my entities
+10:51 < ikb:#liferay> first question is: why i need to set permissions for the whole package?
