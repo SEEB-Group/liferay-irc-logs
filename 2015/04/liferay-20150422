@@ -26,3 +26,6 @@
 10:51 < ikb:#liferay> first question is: why i need to set permissions for the whole package?
 12:04 < bijoo_:#liferay> ikb: "set permissions for the whole package" you mean for the portlet itself as well?
 12:05 < bijoo_:#liferay> ikb: in the Control Panel->Roles->(choose a regular role you created)->Define Permissions->(dropdown for applications) you can define permissions on the portlet
+12:14 < ikb:#liferay> bijoo_: no the portal permissions
+12:14 < ikb:#liferay> portlet*
+12:15 < ikb:#liferay> you are talking about <portlet-resource>
