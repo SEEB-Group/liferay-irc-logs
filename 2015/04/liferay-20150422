@@ -17,3 +17,4 @@
 06:56 < hufg:#liferay> anyone got ext plugin class reloading with jrebel?
 06:56 < hufg:#liferay> copied rebel.xml pointing into my ext-impl/target/classes and ext-service/target/classes directories to ROOT/WEB-INF/classes (tomcat)
 06:59 < hufg:#liferay> but no nothing reloads
+06:59 < hufg:#liferay> except on startup everything explodes if the dirs contain stuff
