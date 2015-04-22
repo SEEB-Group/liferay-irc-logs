@@ -31,3 +31,4 @@
 12:15 < ikb:#liferay> you are talking about <portlet-resource>
 12:15 < ikb:#liferay> i am talking about
 12:15 < ikb:#liferay> <model-resource>
+12:15 < ikb:#liferay> 		<model-name>com.liferay.portlet.bookmarks</model-name>
