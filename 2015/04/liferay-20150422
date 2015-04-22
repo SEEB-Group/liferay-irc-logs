@@ -15,3 +15,4 @@
 05:13 < ikb:#liferay> hi all
 05:35 < hufg:#liferay> yo
 06:56 < hufg:#liferay> anyone got ext plugin class reloading with jrebel?
+06:56 < hufg:#liferay> copied rebel.xml pointing into my ext-impl/target/classes and ext-service/target/classes directories to ROOT/WEB-INF/classes (tomcat)
