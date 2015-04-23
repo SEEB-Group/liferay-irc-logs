@@ -38,3 +38,4 @@
 14:49 < bijoo_:#liferay> ikb: I guess it's a fallback for it's members
 14:49 < bijoo_:#liferay> ikb: so there are other models in package; the wrapper and such are also in there
 16:15 < haba713:#liferay> hi! we're creating a custom remote service with authentication. for some reason we can not authenticate with userid or screen name but only with email address. how can we change http authentication to accept userid or screen name?
+--- Log closed Thu Apr 23 00:00:17 2015
