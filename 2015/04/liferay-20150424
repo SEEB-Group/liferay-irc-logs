@@ -32,3 +32,4 @@
 08:12 < hufg:#liferay> yeah there was some trouble with deployment
 08:12 < hufg:#liferay> it doesn't copy ext-impl to WEB-inf/lib
 08:13 < hufg:#liferay> didn't get jrebel working with it though
+08:13 < hufg:#liferay> that shit would be golden
