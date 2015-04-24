@@ -33,3 +33,4 @@
 08:12 < hufg:#liferay> it doesn't copy ext-impl to WEB-inf/lib
 08:13 < hufg:#liferay> didn't get jrebel working with it though
 08:13 < hufg:#liferay> that shit would be golden
+08:15 < plekplek:#liferay> ah yeah, think i had the same problem at some point
