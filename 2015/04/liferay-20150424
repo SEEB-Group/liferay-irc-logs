@@ -90,3 +90,4 @@
 10:29 < jardineworks:#liferay> <jardineworks> you can remove some of those values whihc will hide the sections
 10:30 < jardineworks:#liferay> those sections are the things from the right hand side bar menu
 10:31 < Andrea_:#liferay> ok, should i do this with a hook?
+10:32 < jardineworks:#liferay> just copy and past that into the portal-ext.properties file... change the values, restart your server
