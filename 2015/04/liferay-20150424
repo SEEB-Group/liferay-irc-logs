@@ -70,3 +70,7 @@
 10:06 < jardineworks:#liferay> aw man
 10:07 < jardineworks:#liferay> I just found something for him!
 10:07 < jardineworks:#liferay>     #
+10:07 < jardineworks:#liferay>     # Input a list of sections that will be included as part of the user form
+10:07 < jardineworks:#liferay>     # when updating a user in the My Account portlet.
+10:07 < jardineworks:#liferay>     #
+10:07 < jardineworks:#liferay>     users.form.my.account.main=details,password,organizations,sites,user-groups,roles,categorization
