@@ -103,3 +103,4 @@
 11:07 < urug_:#liferay> try to check this http://www.liferay.com/community/forums/-/message_boards/message/45085710
 11:08 < urug_:#liferay> if it's not customizable you can probably override /portal-master/portal-web/docroot/html/portlet/users_admin/edit_user.jsp with hook
 11:47 < Andrea_:#liferay> someone connected?
+11:50 < jardineworks:#liferay> Andrea_, lots of people are connected
