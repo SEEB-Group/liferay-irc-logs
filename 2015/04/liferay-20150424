@@ -75,3 +75,4 @@
 10:07 < jardineworks:#liferay>     #
 10:07 < jardineworks:#liferay>     users.form.my.account.main=details,password,organizations,sites,user-groups,roles,categorization
 10:07 < jardineworks:#liferay>     users.form.my.account.identification=addresses,phone-numbers,additional-email-addresses,websites,instant-messenger,social-network,sms,open-id
+10:07 < jardineworks:#liferay>     users.form.my.account.miscellaneous=announcements,display-settings,comments,custom-fields
