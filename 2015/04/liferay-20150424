@@ -37,3 +37,4 @@
 08:16 < hufg:#liferay> any ideas why this query works in pure sql and not in hibernate bracket notation ? :D https://gist.github.com/anonymous/675a02755f9357a78652
 08:37 < hufg:#liferay> oh hibernate messes up the query
 08:38 < hufg:#liferay> how convenient
+09:17 < Andrea_:#liferay> Hi all, anyone here?
