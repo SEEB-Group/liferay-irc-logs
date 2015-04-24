@@ -64,3 +64,4 @@
 10:01 < andreeww:#liferay> What about if i wanna let the user the permission to edit some fields( street where he lives) but denying the permission to edit some others(life first name)?
 10:01 < andreeww:#liferay> like first name*
 10:02 < andreeww:#liferay> i'll be back in 10 minute! feel free to reply, i'll read it asap. thank you again
+10:04 < jardineworks:#liferay> winem__,  I want to hide to users the possibility to edit their user account info. For example : i create a new account then log in with it and from My Account portlet i can modify my first name for example..i would like to avoid this (like the way USER ID is uneditable). How can i achieve this goal?
