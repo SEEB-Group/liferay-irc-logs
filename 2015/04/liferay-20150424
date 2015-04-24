@@ -68,3 +68,4 @@
 10:06 < jardineworks:#liferay> andreeww, hmm... field level stuff I don't think you can do. Let me check the properties file, but I suspect you would need a JSP hook to do that.
 10:06 < winem__:#liferay> ok, so it's really an interesting issue. thanks :)
 10:06 < jardineworks:#liferay> aw man
+10:07 < jardineworks:#liferay> I just found something for him!
