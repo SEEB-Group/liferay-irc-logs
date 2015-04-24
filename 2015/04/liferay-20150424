@@ -87,3 +87,4 @@
 10:29 < jardineworks:#liferay> <jardineworks>     users.form.my.account.main=details,password,organizations,sites,user-groups,roles,categorization
 10:29 < jardineworks:#liferay> <jardineworks>     users.form.my.account.identification=addresses,phone-numbers,additional-email-addresses,websites,instant-messenger,social-network,sms,open-id
 10:29 < jardineworks:#liferay> <jardineworks>     users.form.my.account.miscellaneous=announcements,display-settings,comments,custom-fields
+10:29 < jardineworks:#liferay> <jardineworks> you can remove some of those values whihc will hide the sections
