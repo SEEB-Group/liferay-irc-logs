@@ -50,3 +50,4 @@
 09:40 < andreeww:#liferay> hi jardineworks
 09:40 < andreeww:#liferay> I thought i was doing something wrong because no one replied me xD
 09:40 < andreeww:#liferay> may i ask you a question about liferay?
+09:44 < andreeww:#liferay> I want to hide to users the possibility to edit their user account info. For example : i create a new account then log in with it and from My Account portlet i can modify my first name for example..i would like to avoid this (like the way USER ID is uneditable). How can i achieve this goal?
