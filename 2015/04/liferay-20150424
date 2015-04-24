@@ -81,3 +81,7 @@
 10:29 < Andrea_:#liferay> (I'm andreeww)
 10:29 < jardineworks:#liferay> Andrea_,
 10:29 < jardineworks:#liferay>     #
+10:29 < jardineworks:#liferay> <jardineworks>     # Input a list of sections that will be included as part of the user form
+10:29 < jardineworks:#liferay> <jardineworks>     # when updating a user in the My Account portlet.
+10:29 < jardineworks:#liferay> <jardineworks>     #
+10:29 < jardineworks:#liferay> <jardineworks>     users.form.my.account.main=details,password,organizations,sites,user-groups,roles,categorization
