@@ -67,3 +67,4 @@
 10:04 < jardineworks:#liferay> winem__,  I want to hide to users the possibility to edit their user account info. For example : i create a new account then log in with it and from My Account portlet i can modify my first name for example..i would like to avoid this (like the way USER ID is uneditable). How can i achieve this goal?
 10:06 < jardineworks:#liferay> andreeww, hmm... field level stuff I don't think you can do. Let me check the properties file, but I suspect you would need a JSP hook to do that.
 10:06 < winem__:#liferay> ok, so it's really an interesting issue. thanks :)
+10:06 < jardineworks:#liferay> aw man
