@@ -42,3 +42,4 @@
 11:57 < jardineworks:#liferay> bijoo, Andrea_ you can also use the PortletKeys class which has constants defined to make it easier. For example, the users admin is defined with the constant -- public static final String USERS_ADMIN = "125";
 11:58 < Andrea_:#liferay> nice, thanks jardine.
 11:58 < Andrea_:#liferay> I'll let you know if i succeed at putting that portlet into a page
+11:59 < jardineworks:#liferay> Andrea_, you are using a jsp?
