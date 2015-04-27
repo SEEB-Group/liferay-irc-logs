@@ -154,3 +154,4 @@
 13:13 < bijoo:#liferay> Stormtrooper: okay, I see what you're saying then now; so you'd like diffrent friendly path, right? E.g. /web/my-site/ instead of /web/staging/ ?
 13:14 < jardineworks:#liferay> haha always happy to help -- and it's a team effort. hence the "community" part :)
 13:14 < Stormtrooper:#liferay> Yes. But if I put normally 77 portlet on page - this doesn't work too...
+13:15 < Stormtrooper:#liferay> Only work if I logged as user
