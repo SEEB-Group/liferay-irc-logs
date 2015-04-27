@@ -65,3 +65,4 @@
 12:25 < jardineworks:#liferay> by embedding the portlets you get the changes that might one day be made to them -- bug fixes, ui improvements etc.
 12:26 < jardineworks:#liferay> so don't copy the user portlet JSP tree and put it into your portlet, embed the user admin portlet inside yours.
 12:26 < Andrea_:#liferay> wow, this could work! but how can this be done practically speaking?
+12:27 < jardineworks:#liferay> start by making your hr portlet project. Tell me when you have it done :)
