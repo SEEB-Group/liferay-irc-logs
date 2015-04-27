@@ -31,3 +31,4 @@
 11:51 < bijoo:#liferay> Andrea_: the way you find it is somewhat simple (depends if you have front end tools handy): open page with the portlet you're looking for; inspect page to find portlet boundary
 11:52 < bijoo:#liferay> Andrea_: another approach, do portlet action ; and find the p_p_id param val
 11:53 < bijoo:#liferay> nicolas_FR: if you describe usecase, we can suggest; the principle is don't include impl (that is, shouldn't care on portal-impl)
+11:53 < Andrea_:#liferay> thanks bijo i retrieved the number from a xml..i will try again..maybe i'm doing something wrong in the ext plugin
