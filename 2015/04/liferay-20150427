@@ -47,3 +47,4 @@
 12:00 < jardineworks:#liferay> you said you want to embed the portlets in a page right?
 12:01 < jardineworks:#liferay> is this a custom portlet that you are going to put on a page that will contain the admin portlets? or are you trying to add the portlets directly to the page?
 12:01 < Andrea_:#liferay> i need to have the Users and organization portlet (which is in the control panel) in a private page of a site
+12:01 < Andrea_:#liferay> directly, i would like to add directly that portlet
