@@ -49,3 +49,4 @@
 12:01 < Andrea_:#liferay> i need to have the Users and organization portlet (which is in the control panel) in a private page of a site
 12:01 < Andrea_:#liferay> directly, i would like to add directly that portlet
 12:02 < Andrea_:#liferay> that's because i'm developing a company portal and my boss want a HR site with some private pages..One of these pages must have the user management
+12:03 < Andrea_:#liferay> and i thought it was stupid and not reccomandable to develop it from scratch since liferay have a good one..I'll use custom fields for the custom elements
