@@ -205,3 +205,4 @@
 13:44 < Cyb3rKatz3:#liferay> so me here-.. on phone is bad to write
 13:44 < bijoo:#liferay> Cyb3rKatz3: okay, tell me if what I wrote makes sense; that is, is that solving problem you saw?
 13:45 < Cyb3rKatz3:#liferay> also http://bla.com/web/staging/search -> show page for search-result-> good, http://bla.com/search -> show empty page -> good..
+13:45 < Cyb3rKatz3:#liferay> if on home page as admin submit search form -> redirecht to **/web/staging/search?********blablabla-url
