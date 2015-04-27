@@ -51,3 +51,4 @@
 12:02 < Andrea_:#liferay> that's because i'm developing a company portal and my boss want a HR site with some private pages..One of these pages must have the user management
 12:03 < Andrea_:#liferay> and i thought it was stupid and not reccomandable to develop it from scratch since liferay have a good one..I'll use custom fields for the custom elements
 12:04 < jardineworks:#liferay> Andrea_, you could also create an HR role where you only provision to that role the items from the control panel you want HR to see.
+12:05 < Andrea_:#liferay> Yes i did that, my -hr admin- role can navigate to Admin(upper right side) and only see the user&organization portlet
