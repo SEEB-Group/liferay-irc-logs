@@ -23,3 +23,4 @@
 09:43 < ikb:#liferay> hi all
 09:43 < ikb:#liferay> someone know a plugin that allow each user to upload videos to youtube?
 09:43 < ikb:#liferay> from the portal
+11:04 < nicolas_FR:#liferay> hi there ! I've a problem accessing JournalArticlePermission in a JSP. We were including portal-impl.jar in our portlet dependencies, but doing that we faces a log4j classCastException. Here they say never import portal-impl.jar in a portlet : http://tinyurl.com/nevd4oy. Question : how to use objects from portal-impl w/o importing the dependence ? Thanks
