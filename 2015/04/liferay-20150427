@@ -62,3 +62,4 @@
 12:23 < Andrea_:#liferay> yes
 12:25 < Andrea_:#liferay> ah ok, i got your tip. But isn't always a good practice to not duplicate code/jsps/etc ?
 12:25 < jardineworks:#liferay> ok -- so that view.jsp can contain a tag called <runtime/> and this tag you can use to embed portlets in a page.
+12:25 < jardineworks:#liferay> by embedding the portlets you get the changes that might one day be made to them -- bug fixes, ui improvements etc.
