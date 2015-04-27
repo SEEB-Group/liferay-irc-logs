@@ -191,3 +191,4 @@
 13:41 < bijoo:#liferay> Stormtrooper: go to http://localhost:8080/web/test-site-staging/search or whatever the URL is
 13:41 < bijoo:#liferay> Stormtrooper: in the Dockbar, click the Staging" button
 13:41 < bijoo:#liferay> Stormtrooper: with any change, the status should say "Draft ✔ Mark as Ready for Publication"
+13:42 < Stormtrooper:#liferay> This step is ready
