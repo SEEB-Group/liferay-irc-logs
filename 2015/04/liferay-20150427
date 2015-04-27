@@ -164,3 +164,4 @@
 13:19 < bijoo:#liferay> Stormtrooper: any steps to recreate this issue? e.g. using portlet  77?  I'm looking for the steps for simple case: e.g. 1) Create new Site, 2) add portlet 77 to a page, 3) enable staging for site, 4) try to visit site as a Guest, 5) search and see you get permission error
 13:19 < bijoo:#liferay> e.g. if you can show screenshot of error page
 13:19 < bijoo:#liferay> That would help me understand the issue
+13:21 < Stormtrooper:#liferay> No. 5) redirect to home page
