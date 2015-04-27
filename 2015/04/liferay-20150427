@@ -161,3 +161,4 @@
 13:18 < bijoo:#liferay> Stormtrooper: I see, so before staging, guest could view
 13:18 < Stormtrooper:#liferay> Yes
 13:18 < Stormtrooper:#liferay> Tested ob LR6.2 GA4
+13:19 < bijoo:#liferay> Stormtrooper: any steps to recreate this issue? e.g. using portlet  77?  I'm looking for the steps for simple case: e.g. 1) Create new Site, 2) add portlet 77 to a page, 3) enable staging for site, 4) try to visit site as a Guest, 5) search and see you get permission error
