@@ -220,3 +220,4 @@
 13:51 < Cyb3rKatz3:#liferay> thank you for help!
 13:55 < bijoo:#liferay> Cyb3rKatz3: no problem, though I did find a small bug: if you add non-instanceable portlet (for example, the search porltets mentioned) then remove them from staging site again; then cannot readd them to the stage site :( unless copy the page add there and back
 13:56 < bijoo:#liferay> Cyb3rKatz3: maybe it is just a ga3 bug.
+13:56 < bijoo:#liferay> In any case, I'm off for the moment.
