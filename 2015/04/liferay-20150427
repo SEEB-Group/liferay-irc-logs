@@ -104,3 +104,4 @@
 12:52 < jardineworks:#liferay> bijoo, you're not allowed to do it via role configuration either?!
 12:53 < bijoo:#liferay> had to go for a quick meeting here
 12:54 < bijoo:#liferay> jardineworks: no, I tried it as the super admin; also tried adding portlet to white list
+12:54 < bijoo:#liferay> jardineworks: and then dynamic loading it on page
