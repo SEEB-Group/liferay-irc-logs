@@ -69,3 +69,5 @@
 12:31 < Andrea_:#liferay> I'm on liferay ide (eclipse). I did a portlet project with liferay mvc, ok?
 12:33 < jardineworks:#liferay> Andrea_, perfect.
 12:33 < jardineworks:#liferay> Now deploy it to your server
+12:33 -!- mode/#liferay [+o jhf] by ChanServ
+12:33 < jardineworks:#liferay> add a page, and then place the hr-portlet on the page.
