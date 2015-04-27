@@ -118,3 +118,4 @@
 12:58 < bijoo:#liferay> Andrea_: by the way, off topic, use JRebel
 12:59 < Stormtrooper:#liferay> Hallo,  i have big problem with staging and search - portlet.   If I test my component as guest - user -> I have URL with staging.-part.  Is it possible to remove this?
 12:59 < Andrea_:#liferay> never heard of that, i'll look into it for sure, thanks
+13:00 < Andrea_:#liferay> well, i have a warning about eclipse not recognizing that tag
