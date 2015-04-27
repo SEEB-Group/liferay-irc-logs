@@ -34,3 +34,4 @@
 11:53 < Andrea_:#liferay> thanks bijo i retrieved the number from a xml..i will try again..maybe i'm doing something wrong in the ext plugin
 11:54 < Andrea_:#liferay> bundles\tomcat-7.0.42\webapps\ROOT\WEB-INF\liferay-portlet.xml here is a sort of mapping
 11:54 < bijoo:#liferay> Andrea_: I ran into a permission error; something with regard to portlet 90 (which is listed as a system portlet; specifically named "Portal" portlet)
+11:54 < bijoo:#liferay> Andrea_: exactly, that has the full portlet list
