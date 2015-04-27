@@ -57,3 +57,4 @@
 12:13 < jardineworks:#liferay> Andrea_, well, those portlets are not visible to the regular application (as you probably already know) so you need to embed them in a page.
 12:13 < jardineworks:#liferay> You could create a wrapper "HR Portlet" with the <runtime/> tags in the jsp
 12:14 < jardineworks:#liferay> or a hr-theme perhaps that is applied to just their page that embeds the portlets.
+12:19 < Andrea_:#liferay> hmhmmh you are speaking arab to me xD I've been on liferay for just one month
