@@ -86,3 +86,4 @@
 12:47 < bijoo:#liferay> https://www.liferay.com/web/lauri.hiltunen/blog/-/blogs/portlets-inside-portlets
 12:47 < bijoo:#liferay> there was a recent Blog about approach
 12:47 < bijoo:#liferay> Andrea_: just update the portletName attribute
+12:47 < jardineworks:#liferay> <runtime-portlet name="125" />
