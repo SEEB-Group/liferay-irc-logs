@@ -66,3 +66,4 @@
 12:26 < jardineworks:#liferay> so don't copy the user portlet JSP tree and put it into your portlet, embed the user admin portlet inside yours.
 12:26 < Andrea_:#liferay> wow, this could work! but how can this be done practically speaking?
 12:27 < jardineworks:#liferay> start by making your hr portlet project. Tell me when you have it done :)
+12:31 < Andrea_:#liferay> I'm on liferay ide (eclipse). I did a portlet project with liferay mvc, ok?
