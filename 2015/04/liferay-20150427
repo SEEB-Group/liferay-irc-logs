@@ -27,3 +27,4 @@
 11:06 < jardineworks:#liferay> nicolas_FR, You are not supposed to because the portal-impl classes can be changed via EXT plugin, or by building a custom version.You are only supposed to use classes from the portal-service.jar that is in the TOMCAT_HOME/lib/ext.
 11:07 < jardineworks:#liferay> if you HAVE to use one, you can use the PortalClassLoaderUtil to retrieve it and then invoke the method via reflection
 11:49 < bijoo:#liferay> Andrea_: I tried to the same, it's difficult; the portlet ID is this one here: 125
+11:50 < bijoo:#liferay> Andrea_: though it is not so simple if I'm right; do try it and let me know if success.
