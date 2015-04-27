@@ -82,3 +82,4 @@
 12:45 < jardineworks:#liferay> Andrea_, bijoo_ I totally lied earlier. I said you could use the PortletKeys class, but it's not actually in the portal-service.jar so I don't thiink you can
 12:46 < bijoo:#liferay> jardineworks: that's a great suggestion, hope that it works! Andrea_ let us know if the approach works for you
 12:46 < Andrea_:#liferay> okei..anyway i have a Helloyou portlet deployed, lets work on it
+12:47 < bijoo:#liferay> Andrea_:
