@@ -128,3 +128,4 @@
 13:03 < bijoo:#liferay> Stormtrooper: imgur
 13:03 < jardineworks:#liferay> which would require a tag lib for syre
 13:03 < bijoo:#liferay> imgur.com *
+13:03 < jardineworks:#liferay> Andrea_, <%@ taglib uri="http://liferay.com/tld/portlet" prefix="liferay-portlet" %>
