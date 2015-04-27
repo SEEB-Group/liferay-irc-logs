@@ -53,3 +53,4 @@
 12:04 < jardineworks:#liferay> Andrea_, you could also create an HR role where you only provision to that role the items from the control panel you want HR to see.
 12:05 < Andrea_:#liferay> Yes i did that, my -hr admin- role can navigate to Admin(upper right side) and only see the user&organization portlet
 12:05 < Andrea_:#liferay> but my boss want it added to a page :/
+12:12 < jardineworks:#liferay> Andrea_, sigh. Oh to have a boss that understands.
