@@ -40,3 +40,4 @@
 11:55 < Andrea_:#liferay> yes its better your method..
 11:55 < bijoo:#liferay> ikb: check the Marketplace since many are there
 11:57 < jardineworks:#liferay> bijoo, Andrea_ you can also use the PortletKeys class which has constants defined to make it easier. For example, the users admin is defined with the constant -- public static final String USERS_ADMIN = "125";
+11:58 < Andrea_:#liferay> nice, thanks jardine.
