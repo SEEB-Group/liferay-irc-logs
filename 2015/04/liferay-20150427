@@ -26,3 +26,4 @@
 11:04 < nicolas_FR:#liferay> hi there ! I've a problem accessing JournalArticlePermission in a JSP. We were including portal-impl.jar in our portlet dependencies, but doing that we faces a log4j classCastException. Here they say never import portal-impl.jar in a portlet : http://tinyurl.com/nevd4oy. Question : how to use objects from portal-impl w/o importing the dependence ? Thanks
 11:06 < jardineworks:#liferay> nicolas_FR, You are not supposed to because the portal-impl classes can be changed via EXT plugin, or by building a custom version.You are only supposed to use classes from the portal-service.jar that is in the TOMCAT_HOME/lib/ext.
 11:07 < jardineworks:#liferay> if you HAVE to use one, you can use the PortalClassLoaderUtil to retrieve it and then invoke the method via reflection
+11:49 < bijoo:#liferay> Andrea_: I tried to the same, it's difficult; the portlet ID is this one here: 125
