@@ -16,3 +16,5 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:05 < Andrea___:#liferay> hi all, how can i find a portlet from its ID? I want to make user&organization portlet available to be added to a page, so i'm doing an -extPlugin and change the liferay.display.xml but I don't know the portlet id. thanks
+06:58 < Kravigupta:#liferay> Andrea.. what I do to find the exact id of a portet is.. I check using firebug or some tool and look for a form or any input.. which will include namespace..
+06:58 < Kravigupta:#liferay> this gives me a number.. like 1.2.3...
