@@ -28,3 +28,4 @@
 11:07 < jardineworks:#liferay> if you HAVE to use one, you can use the PortalClassLoaderUtil to retrieve it and then invoke the method via reflection
 11:49 < bijoo:#liferay> Andrea_: I tried to the same, it's difficult; the portlet ID is this one here: 125
 11:50 < bijoo:#liferay> Andrea_: though it is not so simple if I'm right; do try it and let me know if success.
+11:51 < bijoo:#liferay> Andrea_: the way you find it is somewhat simple (depends if you have front end tools handy): open page with the portlet you're looking for; inspect page to find portlet boundary
