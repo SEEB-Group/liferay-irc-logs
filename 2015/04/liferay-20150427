@@ -188,3 +188,4 @@
 13:40 < bijoo:#liferay> Stormtrooper: I get it now! I hadn't staged in while; I see why you may be getting erro
 13:40 < bijoo:#liferay> error*
 13:40 < bijoo:#liferay> Okay; login as the admin to manage stage
+13:41 < bijoo:#liferay> Stormtrooper: go to http://localhost:8080/web/test-site-staging/search or whatever the URL is
