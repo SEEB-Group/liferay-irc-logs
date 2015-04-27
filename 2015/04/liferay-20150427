@@ -79,3 +79,4 @@
 12:41 < Andrea_:#liferay> no problem, if this work you saved me a lot of time and troubles
 12:43 < jardineworks:#liferay> Andrea_, ok -- now yo uhave the portlet deployed and on a page right?
 12:44 < Andrea_:#liferay> its still deploying.. it o.O
+12:45 < jardineworks:#liferay> Andrea_, bijoo_ I totally lied earlier. I said you could use the PortletKeys class, but it's not actually in the portal-service.jar so I don't thiink you can
