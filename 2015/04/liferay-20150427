@@ -20,3 +20,6 @@
 06:58 < Kravigupta:#liferay> this gives me a number.. like 1.2.3...
 07:00 < Kravigupta:#liferay> This number is id . then check liferay-portlet.xml and portlet-custom.xml in ROOT/WEB-INF to get rest of the details.
 09:26 < Andrea_:#liferay> Hi all , i would like to put the Users and Organization portlet (found in the control panel) in a private page. I found this guide https://www.liferay.com/it/web/juan.fernandez/blog/-/blogs/adding-the-workflow-portlets-to-a-page but i can't make it work..can someone help me?
+09:43 < ikb:#liferay> hi all
+09:43 < ikb:#liferay> someone know a plugin that allow each user to upload videos to youtube?
+09:43 < ikb:#liferay> from the portal
