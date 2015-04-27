@@ -207,3 +207,4 @@
 13:45 < Cyb3rKatz3:#liferay> also http://bla.com/web/staging/search -> show page for search-result-> good, http://bla.com/search -> show empty page -> good..
 13:45 < Cyb3rKatz3:#liferay> if on home page as admin submit search form -> redirecht to **/web/staging/search?********blablabla-url
 13:46 < Cyb3rKatz3:#liferay> work perfekt..
+13:46 < Cyb3rKatz3:#liferay> log-out... try same path... doesnt work..
