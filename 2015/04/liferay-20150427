@@ -59,3 +59,4 @@
 12:14 < jardineworks:#liferay> or a hr-theme perhaps that is applied to just their page that embeds the portlets.
 12:19 < Andrea_:#liferay> hmhmmh you are speaking arab to me xD I've been on liferay for just one month
 12:23 < jardineworks:#liferay> Andrea_, if you create a new portlet called HR Portlet for example, that portlet will have a view.jsp and will be available to be dropped onto a page right?
+12:23 < Andrea_:#liferay> yes
