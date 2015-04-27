@@ -201,3 +201,4 @@
 13:43 < bijoo:#liferay> Stormtrooper: once that is done, you can access this site: http://localhost:8080/web/test-site/search
 13:43 < bijoo:#liferay> Stormtrooper: note Guest cannot access "-staging" one
 13:43 < bijoo:#liferay> Stormtrooper: Guest should only care about normal one
+13:43 < bijoo:#liferay> And in last link note no "-staging" there
