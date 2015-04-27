@@ -109,3 +109,4 @@
 12:54 < bijoo:#liferay> jardineworks: in the control panel, portlet loads fine; after portlet 90, portlet 125
 12:55 < bijoo:#liferay> but on non control panel page, it won't; after portlet 90, nothing happens; and page displays "you don't have permission"
 12:55 < bijoo:#liferay> jardineworks: but I think your approach works will work here
+12:55 < bijoo:#liferay> jardineworks: that is, using runtime portlet proxy
