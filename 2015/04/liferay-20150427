@@ -199,3 +199,4 @@
 13:42 < bijoo:#liferay> Stormtrooper: do that, and click Publish, then it'll process
 13:43 < Stormtrooper:#liferay> 100% success
 13:43 < bijoo:#liferay> Stormtrooper: once that is done, you can access this site: http://localhost:8080/web/test-site/search
+13:43 < bijoo:#liferay> Stormtrooper: note Guest cannot access "-staging" one
