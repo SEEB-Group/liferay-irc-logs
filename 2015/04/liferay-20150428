@@ -55,3 +55,4 @@
 10:18 < jardineworks:#liferay> 		htmlTop="<%= htmlTop %>"
 10:18 < jardineworks:#liferay> 		jspPath="/html/portlet/users_admin/user/"
 10:18 < jardineworks:#liferay> 	/>
+10:18 < jardineworks:#liferay> so really, you are not editing this jsp... but rather one of the jsps under /html/portlet/users_admin/user
