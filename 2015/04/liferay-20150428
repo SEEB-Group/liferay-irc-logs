@@ -207,3 +207,4 @@
 11:54 < Andrea_:#liferay> Taglib directive: Mandatory attribute prefix missing
 11:54 < Andrea_:#liferay> i think thats the error
 11:55 < Andrea_:#liferay> the complete line is :
+11:55 < Andrea_:#liferay> ERROR [http-bio-8080-exec-15][IncludeTag:129] Current URL /web/guest/testhr?p_p_id=125&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_125_redirect=http%3A%2F%2Flocalhost%3A8080%2Fweb%2Fguest%2Ftesthr%3Fp_p_id%3D125%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-1%26p_p_col_count%3D1%26_125_redirect%3Dhttp%253A%252F%252Flocalhost%253A8080%252Fweb
