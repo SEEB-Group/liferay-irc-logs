@@ -118,3 +118,4 @@
 10:51 < jardineworks:#liferay> because the person in HR might still have the User role right?
 10:51 < Andrea_:#liferay> i guess every user has a collection of roles assigned, right? it would be nice to check if that collection.size=1 and the only item is User
 10:52 < jardineworks:#liferay> well, we're going to make it better than that :)... we're going to make it configurable so that you don't have to change your code every time a new role that should be allowed to do it is added.
+10:52 < jardineworks:#liferay> ok ... let's start by adding the configuration.
