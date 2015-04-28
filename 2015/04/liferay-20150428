@@ -83,3 +83,4 @@
 10:32 < jardineworks:#liferay> ok
 10:32 < jardineworks:#liferay> let's start by making sure your hook works.
 10:33 < jardineworks:#liferay> modified the fields and set them to disabled.
+10:34 < jardineworks:#liferay> these are AUI fields, but I think you can just add a keyword -- disabled -- before the e/>
