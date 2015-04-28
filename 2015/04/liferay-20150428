@@ -61,3 +61,4 @@
 10:20 < Andrea_:#liferay> then i guess the jsp i have to edit is details.jsp?
 10:20 < jardineworks:#liferay> in the details_user_name.jspf -- yeah
 10:21 < jardineworks:#liferay> which means in your jsp-hook plugin you need to add a user folder and then this file.
+10:22 < Andrea_:#liferay> did it.. may i ask you if i can post link to screenshots in this chat?
