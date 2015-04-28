@@ -257,3 +257,4 @@
 12:29 < jardineworks:#liferay> and then in you html you set disabled="<%= editAllowed %>"
 12:29 < jardineworks:#liferay> Andrea_, that is a bug that was recently fixed. I think it is resolved in GA4
 12:29 < jardineworks:#liferay> gotta go... good luck!
+12:29 < Andrea_:#liferay> thank you
