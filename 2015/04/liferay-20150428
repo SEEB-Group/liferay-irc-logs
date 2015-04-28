@@ -218,3 +218,4 @@
 12:04 < jardineworks:#liferay> don't paste it in here... use something like pastebin, but you need to provide the whole error including the stacktrace.
 12:06 < Andrea_:#liferay> http://pastebin.com/W9TL6V6F
 12:08 < bijoo:#liferay> Andrea_: check Control Panel->Server Administration->Properties->Portal Properties-> for com.synclab.user.admin.edit.roles
+12:08 < jardineworks:#liferay> com.synclab.user.admin.edit.usergroups
