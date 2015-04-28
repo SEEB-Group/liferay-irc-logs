@@ -73,3 +73,4 @@
 10:26 < jardineworks:#liferay> see it
 10:26 < Andrea_:#liferay> nice i copied the wrong link sorry
 10:26 < jardineworks:#liferay> ok -- but I don't think that will work. JSP hooks work on the premise that the name of the file you are hooking is IDENTICAL in your project with the one on the server.
+10:27 < jardineworks:#liferay> the firstName field is not in the details.jsp
