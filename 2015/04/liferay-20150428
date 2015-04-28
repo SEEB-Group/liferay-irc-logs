@@ -86,3 +86,4 @@
 10:34 < jardineworks:#liferay> these are AUI fields, but I think you can just add a keyword -- disabled -- before the e/>
 10:34 < jardineworks:#liferay>  />*
 10:34 < jardineworks:#liferay> once you have that, deploy the hook and validate that the fields are in fact disabled now
+10:35 < jardineworks:#liferay> (which means you know your hook is working because your changes are being picked up)
