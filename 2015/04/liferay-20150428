@@ -42,3 +42,4 @@
 10:12 < jardineworks:#liferay> what did you find?
 10:12 < Andrea_:#liferay> <input class="field lfr-input-text" id="_125_firstName" name="_125_firstName" style="max-width: 150px; " type="text" value="test" maxlength="75" aria-required="true">
 10:12 < Andrea_:#liferay> i positioned mouse over the field and clicked it and got this
+10:14 < jardineworks:#liferay> so do a find in the source code for "firstName"
