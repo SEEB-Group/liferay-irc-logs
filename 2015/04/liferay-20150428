@@ -57,3 +57,4 @@
 10:18 < jardineworks:#liferay> 	/>
 10:18 < jardineworks:#liferay> so really, you are not editing this jsp... but rather one of the jsps under /html/portlet/users_admin/user
 10:19 < Andrea_:#liferay> ok
+10:20 < jardineworks:#liferay> check out the details_user_name.jspf
