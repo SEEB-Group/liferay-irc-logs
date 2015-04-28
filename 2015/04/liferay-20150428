@@ -221,3 +221,4 @@
 12:08 < jardineworks:#liferay> com.synclab.user.admin.edit.usergroups
 12:08 < jardineworks:#liferay> needs to be in quotes
 12:08 < jardineworks:#liferay> its a string
+12:08 < bijoo:#liferay> Andrea_: if the property's there, issue is this: the method call is the issue needs fix
