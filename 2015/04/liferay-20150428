@@ -176,3 +176,4 @@
 11:39 < jardineworks:#liferay> ok -- one sec
 11:42 < jardineworks:#liferay> ok -- now we're going to modify that jsp again.
 11:42 < jardineworks:#liferay> we're going to add a scriptlet (I know I know... scriptlets are the devil etc..)
+11:43 < jardineworks:#liferay> start by adding this in your scriptlet
