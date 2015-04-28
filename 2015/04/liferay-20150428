@@ -44,3 +44,5 @@
 10:12 < Andrea_:#liferay> i positioned mouse over the field and clicked it and got this
 10:14 < jardineworks:#liferay> so do a find in the source code for "firstName"
 10:15 < Andrea_:#liferay> i did it, in edit_user.jsp , but there isn't anything like that
+10:17 < jardineworks:#liferay> one sec
+10:17 < jardineworks:#liferay> right
