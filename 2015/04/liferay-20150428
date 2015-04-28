@@ -114,3 +114,4 @@
 10:48 < Andrea_:#liferay> (normal employee)
 10:49 < jardineworks:#liferay> well
 10:49 < jardineworks:#liferay> so I would not use that approach. Instead of using a negative test you should use a positive test.
+10:51 < jardineworks:#liferay> so, you want to check "IF user HAS ROLE <your crazy role name> or HAS ROLE "Administrator" then don't put disabled,... and in all other cases you want to have disabled.
