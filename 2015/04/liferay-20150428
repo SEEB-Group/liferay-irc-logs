@@ -206,3 +206,4 @@
 11:54 < jardineworks:#liferay> check your TOMCAT_HOME/logs/catalina.out
 11:54 < Andrea_:#liferay> Taglib directive: Mandatory attribute prefix missing
 11:54 < Andrea_:#liferay> i think thats the error
+11:55 < Andrea_:#liferay> the complete line is :
