@@ -88,3 +88,4 @@
 10:34 < jardineworks:#liferay> once you have that, deploy the hook and validate that the fields are in fact disabled now
 10:35 < jardineworks:#liferay> (which means you know your hook is working because your changes are being picked up)
 10:36 < Andrea_:#liferay> ok, i'm finding the way to disable it
+10:36 < jardineworks:#liferay> disabled ... didn't work?
