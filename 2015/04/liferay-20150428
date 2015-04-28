@@ -128,3 +128,4 @@
 10:56 < jardineworks:#liferay> well, the problem with using USER is that even people are are in other roles could have it right? so I could be both a USER and an ADMINISTRATOR.
 10:56 < jardineworks:#liferay> normally in permission checking you check for the role/usergroup that IS allowed to do something
 10:57 < jardineworks:#liferay> so in your portal-ext add this --
+10:57 < jardineworks:#liferay> ## ------------------------------------------
