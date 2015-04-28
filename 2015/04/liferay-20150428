@@ -160,3 +160,4 @@
 11:21 < jardineworks:#liferay> but in the LiferayWorksapce\bundles folder you can add a portal-ext.properties file
 11:21 < jardineworks:#liferay> in there you should also see a data folder, logs folder etc
 11:22 < Andrea_:#liferay> ok , adding it (yes i use mysql)
+11:26 < Andrea_:#liferay> done
