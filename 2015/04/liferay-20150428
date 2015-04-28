@@ -16,3 +16,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:32 < Andrea_:#liferay> good morning to everybody
 09:39 < twen:#liferay> Good afternoon Andrea_ :)
+09:44 < Andrea_:#liferay> I was trying to render First Name field in the my account portlet not editable for the role "user", i created a hook but i don't know where and what i have to modify something, can you help me?
