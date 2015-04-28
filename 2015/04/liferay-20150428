@@ -226,3 +226,4 @@
 12:09 < bijoo:#liferay> Andrea_: did you not quote the property name string?
 12:11 < Andrea_:#liferay> still have the error
 12:12 < bijoo:#liferay> Andrea_: "check Control Panel->Server Administration->Properties->Portal Properties-> for" property names
+12:12 < Andrea_:#liferay> ok, now its restored
