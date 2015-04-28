@@ -203,3 +203,4 @@
 11:53 < Andrea_:#liferay> the -details- tab is blan now
 11:54 < jardineworks:#liferay> you have an error in your log
 11:54 < jardineworks:#liferay> probably missing either the prefs props util, or the stringpool.
+11:54 < jardineworks:#liferay> check your TOMCAT_HOME/logs/catalina.out
