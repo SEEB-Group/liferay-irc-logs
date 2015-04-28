@@ -181,3 +181,4 @@
 11:43 < jardineworks:#liferay> 	String[] editUserGroups = PrefsPropsUtil.getStringArray(com.synclab.user.admin.edit.usergroups, StringPool.COMMA);
 11:43 < jardineworks:#liferay> 	boolean editAllowed = Boolean.FALSE;
 11:44 < jardineworks:#liferay> so what that is doing is it is using the PrefsPropsUtil... a class provided by Liferay, and checking the properties map for the settings you added to the portal-ext.properties file.
+11:44 < jardineworks:#liferay> if it finds it, then it is going to return the list you set as an Array of strings.
