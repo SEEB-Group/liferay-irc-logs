@@ -254,3 +254,4 @@
 12:28 < jardineworks:#liferay> Andrea_, ok -- I have to go, but this is what I was going to get you to do.
 12:28 < jardineworks:#liferay> http://pastebin.com/eTSWGC8g
 12:28 < Andrea_:#liferay> except from this error but i read its some useless bug 16:27:48,688 ERROR [http-bio-8080-exec-46][status_jsp:752] No channel exists with user id 10434
+12:29 < jardineworks:#liferay> and then in you html you set disabled="<%= editAllowed %>"
