@@ -129,3 +129,7 @@
 10:56 < jardineworks:#liferay> normally in permission checking you check for the role/usergroup that IS allowed to do something
 10:57 < jardineworks:#liferay> so in your portal-ext add this --
 10:57 < jardineworks:#liferay> ## ------------------------------------------
+10:57 < jardineworks:#liferay> ## Custom Properties for USER ADMIN Hook
+10:57 < jardineworks:#liferay> ##
+10:57 < jardineworks:#liferay> 	#
+10:57 < jardineworks:#liferay> 	# Roles allowed to edit user details
