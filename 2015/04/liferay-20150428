@@ -240,3 +240,4 @@
 12:22 < jardineworks:#liferay> remove the custom_fields.jsp and redeploy
 12:22 < jardineworks:#liferay> and the details.jsp
 12:22 < jardineworks:#liferay> because you're not changing it... so don't hook it
+12:23 < jardineworks:#liferay> you have have to UNDEPLOY the hook before you redeploy it
