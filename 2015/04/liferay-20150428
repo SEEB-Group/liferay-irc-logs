@@ -123,3 +123,4 @@
 10:52 < jardineworks:#liferay> what's your company called?
 10:52 < Andrea_:#liferay> synclab
 10:53 < jardineworks:#liferay> ok -- so in your portal-ext add something like this (one sec)
+10:55 < Andrea_:#liferay> i thought it was a good idea to give every new user a common base role(user in this case), because i will need to develop a portlet to do presence surveyor. And also the boss has to compile his presence form
