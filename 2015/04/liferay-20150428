@@ -246,3 +246,4 @@
 12:24 < jardineworks:#liferay> you have have was supposed to read "you might have" :)
 12:25 < jardineworks:#liferay> I have to run out for a bit.
 12:25 < bijoo:#liferay> Andrea_: automate undeploy on redeploy: hot.undeploy.on.redeploy=true
+12:26 < bijoo:#liferay> https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/portal.properties#L438
