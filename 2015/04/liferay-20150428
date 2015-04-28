@@ -142,3 +142,4 @@
 10:57 < jardineworks:#liferay> spaced nicer than that obviously :)
 10:57 < jardineworks:#liferay> the names can be whatever you want -- I am just trying to give you and example that is descriptive.
 10:58 < jardineworks:#liferay> I have to go for a meeting ... I'll be back, but the next thing we're going to do is RETRIEVE those settings in the JSP ...
+10:58 < jardineworks:#liferay> and then test the user for them, and set some boolean flags that we can use to determine whether or not to output "disabled=true"
