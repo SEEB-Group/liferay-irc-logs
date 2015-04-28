@@ -185,3 +185,4 @@
 11:44 < jardineworks:#liferay> You may need to do a JSP page import for the PrefsPropsUtil and the StringPool classes
 11:45 < Andrea_:#liferay> mhmh pretty new to scriptlet, where should i position the scriptlet in the jsp?
 11:45 < jardineworks:#liferay> under this line...
+11:45 < jardineworks:#liferay> sorry
