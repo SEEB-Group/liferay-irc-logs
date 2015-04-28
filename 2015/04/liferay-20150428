@@ -156,3 +156,4 @@
 11:20 < jardineworks:#liferay> are you using MySQL?
 11:20 < Andrea_:#liferay> the best way is to just go to edit directly this , right? C:\LiferayWorkspace\bundles\tomcat-7.0.42\webapps\ROOT\WEB-INF\classes\portal-ext.properties
 11:20 < jardineworks:#liferay> no
+11:20 < jardineworks:#liferay> because if you redeploy the bundle, then that tile is lost.
