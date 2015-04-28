@@ -89,3 +89,4 @@
 10:35 < jardineworks:#liferay> (which means you know your hook is working because your changes are being picked up)
 10:36 < Andrea_:#liferay> ok, i'm finding the way to disable it
 10:36 < jardineworks:#liferay> disabled ... didn't work?
+10:36 < jardineworks:#liferay> that's normally how you disable an HTML field
