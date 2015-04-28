@@ -238,3 +238,4 @@
 12:19 < Andrea_:#liferay> ofc
 12:21 < Andrea_:#liferay> http://i.gyazo.com/05224e76766337b026112fd831675631.png the other jsp are untouched np
 12:22 < jardineworks:#liferay> remove the custom_fields.jsp and redeploy
+12:22 < jardineworks:#liferay> and the details.jsp
