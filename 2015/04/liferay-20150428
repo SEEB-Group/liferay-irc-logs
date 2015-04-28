@@ -204,3 +204,4 @@
 11:54 < jardineworks:#liferay> you have an error in your log
 11:54 < jardineworks:#liferay> probably missing either the prefs props util, or the stringpool.
 11:54 < jardineworks:#liferay> check your TOMCAT_HOME/logs/catalina.out
+11:54 < Andrea_:#liferay> Taglib directive: Mandatory attribute prefix missing
