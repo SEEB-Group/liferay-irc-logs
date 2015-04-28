@@ -161,3 +161,4 @@
 11:21 < jardineworks:#liferay> in there you should also see a data folder, logs folder etc
 11:22 < Andrea_:#liferay> ok , adding it (yes i use mysql)
 11:26 < Andrea_:#liferay> done
+11:26 < jardineworks:#liferay> restart your server
