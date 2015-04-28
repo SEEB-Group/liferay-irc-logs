@@ -48,3 +48,7 @@
 10:17 < jardineworks:#liferay> right
 10:18 < jardineworks:#liferay> this uses a form navigator -- which basically gives you that little menu on the right hand side. The way that works is that each of those links is a separate JSP. In the JSP you're editing you can see this --
 10:18 < jardineworks:#liferay> 	<liferay-ui:form-navigator
+10:18 < jardineworks:#liferay> 		backURL="<%= backURL %>"
+10:18 < jardineworks:#liferay> 		categoryNames="<%= _CATEGORY_NAMES %>"
+10:18 < jardineworks:#liferay> 		categorySections="<%= categorySections %>"
+10:18 < jardineworks:#liferay> 		htmlBottom="<%= htmlBottom %>"
