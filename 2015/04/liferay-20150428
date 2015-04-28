@@ -122,3 +122,4 @@
 10:52 < Andrea_:#liferay> well, i can work on that, i'm building this portal from scratch so i can decide everything..
 10:52 < jardineworks:#liferay> what's your company called?
 10:52 < Andrea_:#liferay> synclab
+10:53 < jardineworks:#liferay> ok -- so in your portal-ext add something like this (one sec)
