@@ -37,3 +37,4 @@
 10:08 < Andrea_:#liferay> i need to render some fields like screen name/first name etc like User id is shown, not editable
 10:09 < Andrea_:#liferay> we can start from first name
 10:09 < jardineworks:#liferay> ok so you need to find some markup for the first name
+10:10 < Andrea_:#liferay> yes
