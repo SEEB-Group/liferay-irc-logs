@@ -155,3 +155,4 @@
 11:20 < jardineworks:#liferay> Liferay will use it for you at startup for overrides... although in our case we're not overriding, we're adding additional properties
 11:20 < jardineworks:#liferay> are you using MySQL?
 11:20 < Andrea_:#liferay> the best way is to just go to edit directly this , right? C:\LiferayWorkspace\bundles\tomcat-7.0.42\webapps\ROOT\WEB-INF\classes\portal-ext.properties
+11:20 < jardineworks:#liferay> no
