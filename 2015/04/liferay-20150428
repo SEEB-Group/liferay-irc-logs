@@ -113,3 +113,4 @@
 10:47 < Andrea_:#liferay> first name should be disabled to people with just USER role
 10:48 < Andrea_:#liferay> (normal employee)
 10:49 < jardineworks:#liferay> well
+10:49 < jardineworks:#liferay> so I would not use that approach. Instead of using a negative test you should use a positive test.
