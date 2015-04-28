@@ -54,3 +54,4 @@
 10:18 < jardineworks:#liferay> 		htmlBottom="<%= htmlBottom %>"
 10:18 < jardineworks:#liferay> 		htmlTop="<%= htmlTop %>"
 10:18 < jardineworks:#liferay> 		jspPath="/html/portlet/users_admin/user/"
+10:18 < jardineworks:#liferay> 	/>
