@@ -72,3 +72,4 @@
 10:26 < jardineworks:#liferay> no worries -- just can't be bothered to sign up when there are so many free ones out there. I already have a million accounts I have forgotten I created :)
 10:26 < jardineworks:#liferay> see it
 10:26 < Andrea_:#liferay> nice i copied the wrong link sorry
+10:26 < jardineworks:#liferay> ok -- but I don't think that will work. JSP hooks work on the premise that the name of the file you are hooking is IDENTICAL in your project with the one on the server.
