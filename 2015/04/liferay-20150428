@@ -22,3 +22,4 @@
 09:49 < Andrea_:#liferay> hi jardine , no problem , take your time of course
 09:50 < Andrea_:#liferay> yes i created the hook and overridden edit_user.jsp
 09:50 < Andrea_:#liferay> well, i just opened it, still did not edited tho..
+09:56 < jardineworks:#liferay> Andrea_, ok cool -- have you found the field that you want to disable?
