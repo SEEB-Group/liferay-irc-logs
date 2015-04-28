@@ -17,3 +17,6 @@
 09:32 < Andrea_:#liferay> good morning to everybody
 09:39 < twen:#liferay> Good afternoon Andrea_ :)
 09:44 < Andrea_:#liferay> I was trying to render First Name field in the my account portlet not editable for the role "user", i created a hook but i don't know where and what i have to modify something, can you help me?
+09:49 < jardineworks:#liferay> Andrea_, I can help you but I need 30 minutes first.
+09:49 < jardineworks:#liferay> Andrea_, you created a JSP hook right?
+09:49 < Andrea_:#liferay> hi jardine , no problem , take your time of course
