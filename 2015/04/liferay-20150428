@@ -90,3 +90,4 @@
 10:36 < Andrea_:#liferay> ok, i'm finding the way to disable it
 10:36 < jardineworks:#liferay> disabled ... didn't work?
 10:36 < jardineworks:#liferay> that's normally how you disable an HTML field
+10:38 < jardineworks:#liferay> it might be disabled="true"
