@@ -243,3 +243,4 @@
 12:23 < jardineworks:#liferay> you have have to UNDEPLOY the hook before you redeploy it
 12:23 < jardineworks:#liferay> to make sure that the old JSPs are put back in place.
 12:23 < Andrea_:#liferay> ok
+12:24 < jardineworks:#liferay> you have have was supposed to read "you might have" :)
