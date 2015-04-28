@@ -135,3 +135,4 @@
 10:57 < jardineworks:#liferay> 	# Roles allowed to edit user details
 10:57 < jardineworks:#liferay> 	#
 10:57 < jardineworks:#liferay> 	com.synclab.user.admin.edit.roles=Administrator,HR Employee
+10:57 < jardineworks:#liferay> 	#
