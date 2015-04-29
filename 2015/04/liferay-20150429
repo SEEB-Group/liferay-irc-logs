@@ -73,3 +73,4 @@
 11:30 < josuebc:#liferay> bijoo_: Liferay imports the user's details correctly. The issue is if there's a change in the UPN then when, an already imported user, tries to login LR doesn't re-synch the UPN
 11:30 < bijoo_:#liferay> so now the user's map is as follows  {UPN: me@mail.email.com, cn="meusername"}
 11:30 < josuebc:#liferay> bijoo_: Exactly, if the user already exists in LR and the user tries to login to LR with me@mail.email.com then it will fail.
+11:31 < josuebc:#liferay> The user will only be able to login using me@email.com
