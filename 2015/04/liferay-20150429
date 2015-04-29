@@ -106,3 +106,4 @@
 12:12 < bijoo_:#liferay> "
 12:12 < bijoo_:#liferay> can UPN-changed user login fine?
 12:13 < josuebc:#liferay> bijoo_: If I delete the user in liferay and then the user logs in, LR creates the user with the correct information.
+12:14 < bijoo_:#liferay> josuebc: no, I mean before you do all of that; let's continue with prior example: if I login with me@mail.email.com, what happens?
