@@ -40,3 +40,4 @@
 09:54 < HashMap:#liferay> I am here :)
 09:54 < Andrea_:#liferay> nice
 09:55 < HashMap:#liferay> well, from the code you posted it looks, that it only sets editAllowed based on current user and some list of groups and roles
+09:57 < HashMap:#liferay> i'd probably create a method isEditAllowed somewhere that has the user and list of groups and permissions as parameters
