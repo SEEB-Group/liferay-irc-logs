@@ -109,3 +109,4 @@
 12:14 < bijoo_:#liferay> josuebc: no, I mean before you do all of that; let's continue with prior example: if I login with me@mail.email.com, what happens?
 12:14 < josuebc:#liferay> It will fail.
 12:14 < josuebc:#liferay> bijoo_: Sorry, the assumption I mentioned before is wrong.
+12:14 < bijoo_:#liferay> josuebc: aha, here's a couple more questions; do you have LDAP auth enabled there? And did you state to check LR as well?
