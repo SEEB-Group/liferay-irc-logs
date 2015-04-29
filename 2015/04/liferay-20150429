@@ -44,3 +44,4 @@
 09:57 < Andrea_:#liferay> yeah , basically the aim is checking if the current user has the -hr admin- or -administrator- role and if he has one of them or both, he will be able to edit the firstname of every user
 09:57 < HashMap:#liferay> that would return true/false based on your code
 09:58 < Andrea_:#liferay> ok
+09:58 < HashMap:#liferay> and then in the controller only call this method and pass "editAllowed" in the model to the view
