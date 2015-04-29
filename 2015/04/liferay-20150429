@@ -140,3 +140,4 @@
 12:27 < josuebc:#liferay> Thanks for helping me double check this.
 12:28 < bijoo_:#liferay> josuebc: sure thing, one thing to remember here: ultimately can check through debugging; can step through Liferay's code during a test; and see all variables and context; always helped me resolve complex issues
 12:29 < bijoo_:#liferay> except when talking multi-threading bugs; those are tougher to catch through debugging
+12:41 < josuebc:#liferay> bijoo_: Indeed, thanks!
