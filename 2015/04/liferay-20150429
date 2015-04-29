@@ -74,3 +74,4 @@
 11:30 < bijoo_:#liferay> so now the user's map is as follows  {UPN: me@mail.email.com, cn="meusername"}
 11:30 < josuebc:#liferay> bijoo_: Exactly, if the user already exists in LR and the user tries to login to LR with me@mail.email.com then it will fail.
 11:31 < josuebc:#liferay> The user will only be able to login using me@email.com
+11:32 < bijoo_:#liferay> josuebc: be back in about 10 minutes, talk soon
