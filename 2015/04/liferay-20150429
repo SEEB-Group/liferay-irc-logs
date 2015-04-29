@@ -34,3 +34,4 @@
 09:35 < HashMap:#liferay> it would then show it in the server output
 09:36 < Andrea_:#liferay> ok
 09:38 < HashMap:#liferay> However this much code should probably not be in the jsp itself, but in the controller, better in some utility method and you should only pass "editAllowed" to the view with true, or false and not compute it in the view
+09:42 < Andrea_:#liferay> can you be more precise?
