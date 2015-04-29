@@ -45,3 +45,4 @@
 09:57 < HashMap:#liferay> that would return true/false based on your code
 09:58 < Andrea_:#liferay> ok
 09:58 < HashMap:#liferay> and then in the controller only call this method and pass "editAllowed" in the model to the view
+09:59 < HashMap:#liferay> the plus to moving this code from the view to the controller would be easier debugging :)
