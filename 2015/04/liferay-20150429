@@ -103,3 +103,4 @@
 12:11 < josuebc:#liferay> What I think is happening is that LR uses the email address to search through its local user DB and then uses the CN to compare for the password in LDAP.
 12:11 < bijoo_:#liferay> josuebc: I'm checking code to test that assumption
 12:11 < bijoo_:#liferay> "The problem is if an existing user (existing in liferay) gets its UPN changed then when it tries to log into liferay, LR doesn't synch the UPN value. I have to manually delete the user  and then it will get imported with the new value
+12:12 < bijoo_:#liferay> "
