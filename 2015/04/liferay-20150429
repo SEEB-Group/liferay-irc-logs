@@ -26,3 +26,4 @@
 09:24 < Andrea_:#liferay> can u check this method, its from jardine with a little modification by me..I think allowEdit never become true but i don't know why
 09:29 < HashMap:#liferay> It seems ok to me
 09:29 < Andrea_:#liferay> do i correctly get the current user?
+09:33 < HashMap:#liferay> I think it should work..
