@@ -130,3 +130,4 @@
 12:21 < josuebc:#liferay> sorry, the OOB?
 12:21 < bijoo_:#liferay> josuebc: mean Out-of-the-box functionality
 12:22 < bijoo_:#liferay> josuebc: you can copy paste the Liferay source code (which works since Liferay has open source code)
+12:22 < bijoo_:#liferay> josuebc: and tweak it to handle your special case
