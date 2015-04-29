@@ -82,3 +82,4 @@
 11:53 < bijoo_:#liferay> josuebc: wrong line, this is the correct property: https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-impl/src/portal.properties#L3358
 11:53 < bijoo_:#liferay> you probably do since you'd need that there
 11:53 < bijoo_:#liferay> josuebc: unless the mail attribute is used too
+11:54 < bijoo_:#liferay> josuebc: which would explain why UPN's ignored
