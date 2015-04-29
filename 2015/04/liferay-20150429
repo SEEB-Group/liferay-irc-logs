@@ -110,3 +110,4 @@
 12:14 < josuebc:#liferay> It will fail.
 12:14 < josuebc:#liferay> bijoo_: Sorry, the assumption I mentioned before is wrong.
 12:14 < bijoo_:#liferay> josuebc: aha, here's a couple more questions; do you have LDAP auth enabled there? And did you state to check LR as well?
+12:16 < josuebc:#liferay> LDAP auth is enabled, I've checked and I've tested it. This is a brand new portal instance. If there's a new user the athentication works correctly.
