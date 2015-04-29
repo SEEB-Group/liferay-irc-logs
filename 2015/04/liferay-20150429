@@ -83,3 +83,4 @@
 11:53 < bijoo_:#liferay> you probably do since you'd need that there
 11:53 < bijoo_:#liferay> josuebc: unless the mail attribute is used too
 11:54 < bijoo_:#liferay> josuebc: which would explain why UPN's ignored
+11:54 < josuebc:#liferay> bijoo_: 6.2, yes the mapping are correct. The initial import is correct the problem is in the synchronization. The only difference is that I have emailaddress=UserPrincipalName
