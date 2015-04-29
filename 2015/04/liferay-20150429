@@ -90,3 +90,4 @@
 11:58 < bijoo_:#liferay> josuebc: have you set the search filter properly?
 11:59 < bijoo_:#liferay> josuebc: so nevermind since you're using email
 12:02 < josuebc:#liferay> bijoo_: Well, a LR user needs a uesrname, emailaddress, title and password, right? I am using the email address to login into the potal but the mapping also uses the username which is the CN which is less likely to change.
+12:02 < bijoo_:#liferay> josuebc: okay; I'll check the code; see what it does
