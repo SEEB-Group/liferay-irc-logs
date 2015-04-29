@@ -104,3 +104,4 @@
 12:11 < bijoo_:#liferay> josuebc: I'm checking code to test that assumption
 12:11 < bijoo_:#liferay> "The problem is if an existing user (existing in liferay) gets its UPN changed then when it tries to log into liferay, LR doesn't synch the UPN value. I have to manually delete the user  and then it will get imported with the new value
 12:12 < bijoo_:#liferay> "
+12:12 < bijoo_:#liferay> can UPN-changed user login fine?
