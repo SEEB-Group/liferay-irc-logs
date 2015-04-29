@@ -133,3 +133,4 @@
 12:22 < bijoo_:#liferay> josuebc: and tweak it to handle your special case
 12:22 < bijoo_:#liferay> josuebc: you can use hook plugin to handle this
 12:23 < josuebc:#liferay> bijoo_: Oh alright. Yes I was thinking on creating a hook that'd add an extra functionality if the login fails to search through LDAP and if so then sync the user and try to login again.
+12:24 < josuebc:#liferay> bijoo_: Do you know then why is it that if the user updates their password in LDAP this doesn't go out of sync? is it because the UPN is a unique key?
