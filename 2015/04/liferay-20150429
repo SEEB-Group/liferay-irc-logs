@@ -97,3 +97,4 @@
 12:05 < bijoo_:#liferay> or did you mean it's set for UPN; so, "emailaddress" = "UPN"?
 12:06 < josuebc:#liferay> bijoo_: Yes, sorry. It's set to UPN
 12:06 < josuebc:#liferay> Bad habit
+12:07 < bijoo_:#liferay> josuebc: maybe LR won't know new UPN; it's using search filter to find user; so therefore finds nothing to sync up to? Maybe, I am not sure; so I'll check code. Give me 10 minutes I'll post back here.
