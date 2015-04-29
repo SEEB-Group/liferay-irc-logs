@@ -49,3 +49,4 @@
 10:02 < Andrea_:#liferay> but i am pretty sure i can achieve my goal without modifying liferay source code
 10:03 < HashMap:#liferay> of course
 10:04 < HashMap:#liferay> Well I don't know your project structure so if you need to do it in the jsp, do it in the jsp and try to look at the variables with System.out.println
+10:06 < Andrea_:#liferay> ok, thanks
