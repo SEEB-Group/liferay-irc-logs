@@ -70,3 +70,4 @@
 11:29 < josuebc:#liferay> bijoo_: Liferay imports the username
 11:29 < bijoo_:#liferay> josuebc: so say we have a user with this map { UPN: me@email.com, cn="meusername" }
 11:30 < bijoo_:#liferay> LDAP updates the user's UPN
+11:30 < josuebc:#liferay> bijoo_: Liferay imports the user's details correctly. The issue is if there's a change in the UPN then when, an already imported user, tries to login LR doesn't re-synch the UPN
