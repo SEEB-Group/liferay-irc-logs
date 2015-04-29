@@ -135,3 +135,4 @@
 12:23 < josuebc:#liferay> bijoo_: Oh alright. Yes I was thinking on creating a hook that'd add an extra functionality if the login fails to search through LDAP and if so then sync the user and try to login again.
 12:24 < josuebc:#liferay> bijoo_: Do you know then why is it that if the user updates their password in LDAP this doesn't go out of sync? is it because the UPN is a unique key?
 12:25 < bijoo_:#liferay> josuebc: since the default is to import password: "ldap.import.user.password.enabled=true"
+12:25 < bijoo_:#liferay> josuebc: https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-impl/src/portal.properties#L3251
