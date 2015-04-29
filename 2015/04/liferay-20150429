@@ -137,3 +137,4 @@
 12:25 < bijoo_:#liferay> josuebc: since the default is to import password: "ldap.import.user.password.enabled=true"
 12:25 < bijoo_:#liferay> josuebc: https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-impl/src/portal.properties#L3251
 12:27 < josuebc:#liferay> bijoo_: I see... Well, then a hook it is.
+12:27 < josuebc:#liferay> Thanks for helping me double check this.
