@@ -123,3 +123,4 @@
 12:19 < bijoo_:#liferay> auth.pipeline.enable.liferay.check=false means don't check against Liferay's own DB
 12:20 < josuebc:#liferay> bijoo_: But I have some admin users that only exists within LR's DB.
 12:20 < bijoo_:#liferay> josuebc: so periodic update should fix this; I'm checking the code still to track this down
+12:20 < bijoo_:#liferay> josuebc: then you may want to write a custom Auth
