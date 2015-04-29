@@ -91,3 +91,4 @@
 11:59 < bijoo_:#liferay> josuebc: so nevermind since you're using email
 12:02 < josuebc:#liferay> bijoo_: Well, a LR user needs a uesrname, emailaddress, title and password, right? I am using the email address to login into the potal but the mapping also uses the username which is the CN which is less likely to change.
 12:02 < bijoo_:#liferay> josuebc: okay; I'll check the code; see what it does
+12:03 < josuebc:#liferay> Now, you just raised an intersting question. The filter I have it setup to search objects by emailaddress... So, if the user changes the UPN in LDAP then LR should be searching for the changed UPN and then realize that the user object needs update, right?
