@@ -86,3 +86,4 @@
 11:54 < josuebc:#liferay> bijoo_: 6.2, yes the mapping are correct. The initial import is correct the problem is in the synchronization. The only difference is that I have emailaddress=UserPrincipalName
 11:55 < josuebc:#liferay> bijoo_: So then I just add this functionality with a hook
 11:56 < bijoo_:#liferay> josuebc: question I have about the sync is this; if UPN is used to map user, how is liferay to know UPN's changed? Seems would need to have another field too; e.g. to sync on a non-changing one
+11:58 < bijoo_:#liferay> josuebc: https://www.liferay.com/es/documentation/liferay-portal/6.2/user-guide/-/ai/integrating-existing-users-into-liferay-liferay-portal-6-2-user-guide-17-en
