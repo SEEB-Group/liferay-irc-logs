@@ -93,3 +93,4 @@
 12:02 < bijoo_:#liferay> josuebc: okay; I'll check the code; see what it does
 12:03 < josuebc:#liferay> Now, you just raised an intersting question. The filter I have it setup to search objects by emailaddress... So, if the user changes the UPN in LDAP then LR should be searching for the changed UPN and then realize that the user object needs update, right?
 12:04 < bijoo_:#liferay> josuebc: that sounds correct, can you update filter?
+12:04 < bijoo_:#liferay> so not emailAddress but UPN
