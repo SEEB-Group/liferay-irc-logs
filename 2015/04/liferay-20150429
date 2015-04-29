@@ -69,3 +69,4 @@
 11:28 < bijoo_:#liferay> josuebc: so just to understand what you're saying: you have LDAP user with UPN; you use UPN as the mapping key; once UPN changed, you want Liferay sync; though currently Liferay don't update right; is this understanding correct to you?
 11:29 < josuebc:#liferay> bijoo_: Liferay imports the username
 11:29 < bijoo_:#liferay> josuebc: so say we have a user with this map { UPN: me@email.com, cn="meusername" }
+11:30 < bijoo_:#liferay> LDAP updates the user's UPN
