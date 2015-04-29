@@ -98,3 +98,4 @@
 12:06 < josuebc:#liferay> bijoo_: Yes, sorry. It's set to UPN
 12:06 < josuebc:#liferay> Bad habit
 12:07 < bijoo_:#liferay> josuebc: maybe LR won't know new UPN; it's using search filter to find user; so therefore finds nothing to sync up to? Maybe, I am not sure; so I'll check code. Give me 10 minutes I'll post back here.
+12:10 < josuebc:#liferay> bijoo_: But if I delete the user in LR then LR will create the user with the correct UPN. I would expect to have duplicates, if a user request a UPN change in LDAP then LR would create the username again since one of the keys is UPN. This is not happening.
