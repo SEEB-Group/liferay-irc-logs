@@ -42,3 +42,4 @@
 09:55 < HashMap:#liferay> well, from the code you posted it looks, that it only sets editAllowed based on current user and some list of groups and roles
 09:57 < HashMap:#liferay> i'd probably create a method isEditAllowed somewhere that has the user and list of groups and permissions as parameters
 09:57 < Andrea_:#liferay> yeah , basically the aim is checking if the current user has the -hr admin- or -administrator- role and if he has one of them or both, he will be able to edit the firstname of every user
+09:57 < HashMap:#liferay> that would return true/false based on your code
