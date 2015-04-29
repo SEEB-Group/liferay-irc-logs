@@ -95,3 +95,4 @@
 12:04 < bijoo_:#liferay> josuebc: that sounds correct, can you update filter?
 12:04 < bijoo_:#liferay> so not emailAddress but UPN
 12:05 < bijoo_:#liferay> or did you mean it's set for UPN; so, "emailaddress" = "UPN"?
+12:06 < josuebc:#liferay> bijoo_: Yes, sorry. It's set to UPN
