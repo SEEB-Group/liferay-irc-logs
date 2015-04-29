@@ -66,3 +66,4 @@
 11:19 < josuebc:#liferay> The problem is if an existing user (existing in liferay) gets its UPN changed then when it tries to log into liferay, LR doesn't synch the UPN value. I have to manually delete the user and then it will get imported with the new value
 11:20 < josuebc:#liferay> I've been trying to figure out how to make LR do this automatically but I havent' found anything. Any ideas?
 11:20 < josuebc:#liferay> Thanks
+11:28 < bijoo_:#liferay> josuebc: so just to understand what you're saying: you have LDAP user with UPN; you use UPN as the mapping key; once UPN changed, you want Liferay sync; though currently Liferay don't update right; is this understanding correct to you?
