@@ -115,3 +115,4 @@
 12:17 < bijoo_:#liferay> and LDAP auth is enabled as well
 12:17 < bijoo_:#liferay> josuebc: meaning the Liferay check will fail, that's why
 12:17 < bijoo_:#liferay> So Liferay don't have chance to update yet, you see?
+12:18 < bijoo_:#liferay> josuebc: is periodic import enabled?
