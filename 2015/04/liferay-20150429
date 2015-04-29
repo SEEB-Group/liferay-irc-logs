@@ -87,3 +87,4 @@
 11:55 < josuebc:#liferay> bijoo_: So then I just add this functionality with a hook
 11:56 < bijoo_:#liferay> josuebc: question I have about the sync is this; if UPN is used to map user, how is liferay to know UPN's changed? Seems would need to have another field too; e.g. to sync on a non-changing one
 11:58 < bijoo_:#liferay> josuebc: https://www.liferay.com/es/documentation/liferay-portal/6.2/user-guide/-/ai/integrating-existing-users-into-liferay-liferay-portal-6-2-user-guide-17-en
+11:58 < bijoo_:#liferay> josuebc: have you set the search filter properly?
