@@ -28,3 +28,4 @@
 09:29 < Andrea_:#liferay> do i correctly get the current user?
 09:33 < HashMap:#liferay> I think it should work..
 09:33 < HashMap:#liferay> if I were you, I'd try move this code in the controller and debug it, if every variable is set properly
+09:34 < Andrea_:#liferay> how do i do this?
