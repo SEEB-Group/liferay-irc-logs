@@ -55,3 +55,4 @@
 10:09 < HashMap:#liferay> :D
 10:09 < Andrea_:#liferay> <aui:input disabled="<%= !editAllowed %>" name="firstName" />
 10:10 < Andrea_:#liferay> hi jardine we(you) made it!
+10:37 < Andrea_:#liferay> for non-admin users, MyAccount portlet is not displayed..this is the error, any suggestions?
