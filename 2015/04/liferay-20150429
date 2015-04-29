@@ -62,3 +62,4 @@
 10:45 < bijoo__:#liferay> https://www.google.com/search?client=ubuntu&channel=fs&q=liferay+script+console&ie=utf-8&oe=utf-8
 10:45 < bijoo__:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/running-scripts-from-the-control-panel-liferay-portal-6-2-user-guide-19-en
 10:53 < Andrea_:#liferay> thanks bijoo
+11:18 < josuebc:#liferay> Hi there. I have an issue with importing users from LDAP. Currently I'm using LDAP's UPN field to populate the email address and using the same one to authenticate users. Also the CN to populate the username.
