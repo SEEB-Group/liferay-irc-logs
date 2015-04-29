@@ -21,3 +21,4 @@
 08:57 < jardineworks:#liferay> Andrea_, Sorry, can't help today... running out to a client meeting and I won't be back before you go home. I'll be around tomorrow though
 08:58 < Andrea_:#liferay> hi! no problem, i'm working on your method over and over :D
 09:07 < Andrea_:#liferay> i'm trying to check the current user roles in a jsp , how can i do that?
+09:17 < HashMap:#liferay> I'd say through RoleLocalServiceUtil, there's a method getUserRoles(long userId)
