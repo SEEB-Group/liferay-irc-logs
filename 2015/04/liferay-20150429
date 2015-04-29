@@ -79,3 +79,4 @@
 11:32 < josuebc:#liferay> bijoo_: thanks!
 11:51 < bijoo_:#liferay> josuebc: which version of Liferay are you using?
 11:52 < bijoo_:#liferay> josuebc: I assume you've set the proper mapping  https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-impl/src/portal.properties#L3338
+11:53 < bijoo_:#liferay> josuebc: wrong line, this is the correct property: https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-impl/src/portal.properties#L3358
