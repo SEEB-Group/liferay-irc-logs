@@ -101,3 +101,4 @@
 12:10 < josuebc:#liferay> bijoo_: But if I delete the user in LR then LR will create the user with the correct UPN. I would expect to have duplicates, if a user request a UPN change in LDAP then LR would create the username again since one of the keys is UPN. This is not happening.
 12:11 < bijoo_:#liferay> josuebc: that's because the screenName would be the same; and that cannot happen, so exception
 12:11 < josuebc:#liferay> What I think is happening is that LR uses the email address to search through its local user DB and then uses the CN to compare for the password in LDAP.
+12:11 < bijoo_:#liferay> josuebc: I'm checking code to test that assumption
