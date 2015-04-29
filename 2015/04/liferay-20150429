@@ -112,3 +112,4 @@
 12:14 < bijoo_:#liferay> josuebc: aha, here's a couple more questions; do you have LDAP auth enabled there? And did you state to check LR as well?
 12:16 < josuebc:#liferay> LDAP auth is enabled, I've checked and I've tested it. This is a brand new portal instance. If there's a new user the athentication works correctly.
 12:17 < bijoo_:#liferay> josuebc: okay, so the default is check Liferay's: "auth.pipeline.enable.liferay.check=true"
+12:17 < bijoo_:#liferay> and LDAP auth is enabled as well
