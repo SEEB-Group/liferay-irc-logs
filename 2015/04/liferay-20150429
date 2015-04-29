@@ -59,3 +59,4 @@
 10:37 < Andrea_:#liferay> ERROR [http-bio-8080-exec-28][AdvancedPermissionChecker:979] com.liferay.portal.NoSuchResourceActionException: 125#ADD_TO_PAGE
 10:44 < bijoo__:#liferay> Andrea_: here's one way to check your code works: Control Panel-> Server Administration -> Script -> Enter code and submit
 10:45 < bijoo__:#liferay> Andrea_: here are some tips on using console:
+10:45 < bijoo__:#liferay> https://www.google.com/search?client=ubuntu&channel=fs&q=liferay+script+console&ie=utf-8&oe=utf-8
