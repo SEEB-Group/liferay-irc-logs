@@ -63,3 +63,4 @@
 10:45 < bijoo__:#liferay> http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/running-scripts-from-the-control-panel-liferay-portal-6-2-user-guide-19-en
 10:53 < Andrea_:#liferay> thanks bijoo
 11:18 < josuebc:#liferay> Hi there. I have an issue with importing users from LDAP. Currently I'm using LDAP's UPN field to populate the email address and using the same one to authenticate users. Also the CN to populate the username.
+11:19 < josuebc:#liferay> The problem is if an existing user (existing in liferay) gets its UPN changed then when it tries to log into liferay, LR doesn't synch the UPN value. I have to manually delete the user and then it will get imported with the new value
