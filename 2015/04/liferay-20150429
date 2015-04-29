@@ -118,3 +118,4 @@
 12:18 < bijoo_:#liferay> josuebc: is periodic import enabled?
 12:18 < bijoo_:#liferay> e.g. liferay periodic sync with LDAP
 12:18 < josuebc:#liferay> bijoo_: Ooooohhh... so it should be set to false to let liferay sync it even if the user exists locally?
+12:18 < josuebc:#liferay> bijoo_: Yes, I have a periodic import.
