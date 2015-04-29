@@ -126,3 +126,4 @@
 12:20 < bijoo_:#liferay> josuebc: then you may want to write a custom Auth
 12:20 < bijoo_:#liferay> josuebc: to handle project-specific nuance
 12:20 < bijoo_:#liferay> josuebc: and can use the OOB as the base
+12:20 < josuebc:#liferay> bijoo_: Yes, did i not mention this? Sorry, periodic sync does fix this. But I don't want to ask the users to wait to the next day or two to log into the portal after an update.
