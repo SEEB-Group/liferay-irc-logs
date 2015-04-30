@@ -288,3 +288,4 @@
 18:04 < bijoo_:#liferay> jardineworks: glad you remembered that conversation
 18:13 < jardineworks:#liferay> bijoo_, this is a train wreck. I should have just built my own search portlet.
 18:14 < jardineworks:#liferay> I use the theme.search() to get it in the nav and staying in the nav. Then I use a JSP hook to BUTCHER the configuration...
+18:14 < jardineworks:#liferay> but the results don't work properly. What facets I do keep don't actaully work.
