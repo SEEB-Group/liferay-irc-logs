@@ -257,3 +257,4 @@
 15:37 < bijoo_:#liferay> "$theme.search()"!!!
 15:37 < bijoo_:#liferay> ?
 15:39 < bijoo_:#liferay> jardineworks: that's it; that's the tag I had used as well
+15:39 < bijoo_:#liferay> it's theme.search not theme.runtime you want
