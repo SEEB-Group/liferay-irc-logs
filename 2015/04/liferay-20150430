@@ -36,3 +36,4 @@
 10:30 < Andrea_:#liferay> in your opinion, is that code too much for a jsp?
 10:30 < jardineworks:#liferay> I suppose put the logic to detect the "disabled" setting in the hook and pass it into the JSP... and use the JSP hook just to add the "disabled" setting
 10:31 < Andrea_:#liferay> yeah the suggestion was to pass the editAllowed boolean to the jsp
+10:44 < jardineworks:#liferay> Andrea_, sure, now that you know it works you could try that to learn another type of hook
