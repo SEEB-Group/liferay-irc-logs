@@ -92,3 +92,4 @@
 14:04 < jardineworks:#liferay> bijoo_, cool. Most of the UIs I have had to  build on top of Liferay are so vastly different that it's almost impossible to do it with CSS alone.
 14:05 < jardineworks:#liferay> bijoo_, have you done anything with the Search portlet?
 14:08 < bijoo_:#liferay> jardineworks: yes, it's only good for most minor stuff; that is for simpler portals and such; where requirements are a lot more lax
+14:08 < bijoo_:#liferay> jardineworks: I've worked on search on a few occassions
