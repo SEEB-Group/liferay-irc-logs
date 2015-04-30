@@ -105,3 +105,4 @@
 14:10 < jardineworks:#liferay> where portletId is 3
 14:10 < jardineworks:#liferay> and portletSetup is my preferences
 14:10 < bijoo_:#liferay> actually for a demo portal; I just added that line to ftl (directly in ROOT/html)
+14:10 < jardineworks:#liferay> on GA 3, does the bar stay in the theme when you are in fullscreen?
