@@ -65,3 +65,4 @@
 12:07 < Andrea_:#liferay> ok!
 12:08 < Andrea_:#liferay> have to go, thanks for all the answers!
 12:09 < jardineworks:#liferay> bijoo_, Andrea_ -- it's too restrictive in terms of javascript usage. Apart from that, the fact that all UI logic is executed on the server, in my opinion, is poor design. JSF I think is useful for server engineers that want to make cool UIs, but server engineers shouldn't build UIs. If you want to build a UI, learn to use the UI languages.
+12:09 < jardineworks:#liferay> just my 0.02
