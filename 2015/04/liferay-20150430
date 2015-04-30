@@ -158,3 +158,4 @@
 14:49 < bijoo_:#liferay> jardineworks: and search is supposed to just work for it
 14:49 < bijoo_:#liferay> jardineworks: no it's a security proprety; tells portal allow portlet to display; even if it's not added to Layout
 14:50 < jardineworks:#liferay> oh I see
+14:50 < jardineworks:#liferay> is that new in 6.2?
