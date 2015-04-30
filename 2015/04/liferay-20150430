@@ -119,3 +119,4 @@
 14:35 < jardineworks:#liferay> I wonder why mine dissapears
 14:35 < bijoo_:#liferay> jardineworks: sending you a screenshot of what I mean
 14:35 < jardineworks:#liferay> can you share your "embedded" code with me?
+14:36 < bijoo_:#liferay> jardineworks: very close to the one you have above: ${theme.runtime("3")}
