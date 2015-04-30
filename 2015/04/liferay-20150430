@@ -161,3 +161,4 @@
 14:50 < jardineworks:#liferay> is that new in 6.2?
 14:50 < bijoo_:#liferay> jardineworks: correction, even if no resource there; no resource for portlet for current page
 14:50 < jardineworks:#liferay> because tha sprouts.com site I just referenced? it has embedded portlets in the navigation and I don't recall using that property
+14:50 < bijoo_:#liferay> jardineworks: it's been there for a while, since before too
