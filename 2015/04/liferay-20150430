@@ -38,3 +38,4 @@
 10:31 < Andrea_:#liferay> yeah the suggestion was to pass the editAllowed boolean to the jsp
 10:44 < jardineworks:#liferay> Andrea_, sure, now that you know it works you could try that to learn another type of hook
 10:45 < jardineworks:#liferay> Andrea_, a lot of people don't like the fact that Liferay uses <% %> so much in their JSP. A purest will say its terrible. It is, to a degree. I think it's not all that bad in Liferay because Liferay just uses it as "getters" of data. They don't calculate things... but if you can avoid it, you probably should.
+10:48 < Andrea_:#liferay> In terms of organizing a new project, i was thinking about making a hook with just the overridden properties, so I don't have to the "hunt" part..is that a bad idea?
