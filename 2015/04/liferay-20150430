@@ -32,3 +32,4 @@
 10:29 < jardineworks:#liferay> which version of the portal are you on again?
 10:30 < jardineworks:#liferay> ... actually... I'm not sure that would work. You need the JSP to set the field to disabled right?
 10:30 < Andrea_:#liferay> 6.2 cega3
+10:30 < jardineworks:#liferay> you could try it with a PortletStrutsAction hook.
