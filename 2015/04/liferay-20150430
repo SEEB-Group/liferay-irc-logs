@@ -50,3 +50,4 @@
 11:20 < bijoo_:#liferay> I include hooks and portlets in former
 11:20 < bijoo_:#liferay> And themes and layout templates in latter
 11:21 < bijoo_:#liferay> I separate out independent code; e.g. if function is orthogonal
+11:22 < Andrea_:#liferay> so you prefer not using maven?
