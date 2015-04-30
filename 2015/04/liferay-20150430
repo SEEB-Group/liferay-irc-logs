@@ -26,3 +26,4 @@
 10:24 < Andrea_:#liferay> whats the difference between modifying a portal property from a hook and creating portal-ext?
 10:26 < jardineworks:#liferay> Andrea_, you can do it with a hook and not need to restart the server
 10:26 < jardineworks:#liferay> and you can undeploy the hook
+10:27 < jardineworks:#liferay> but most of the time, personally, I try to do it in the portal-ext so that all my overrides can be found in one place instead of an easter egg hunt all over the plugins.
