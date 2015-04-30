@@ -42,3 +42,4 @@
 10:48 < Andrea_:#liferay> have to do*
 10:51 < Andrea_:#liferay> since i'm new and i'm building from scratch, I have some difficulties to organize all the modification i'm doing to keep them united in one big project so i can deploy it in future when this will go in production. Can you enlight me about achieving this goal? For example I wanted to remove -poweredbyliferay- and i did a hook to the classic theme, i needed hr and i did another plugin etc..How can I keep all these
 10:51 < Andrea_:#liferay> thing together?
+11:17 < bijoo_:#liferay> Andrea_:
