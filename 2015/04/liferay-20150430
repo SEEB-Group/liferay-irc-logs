@@ -61,3 +61,4 @@
 12:02 < bijoo_:#liferay> I haven't used JSF on projects; though I can see it's appeal to some folks.
 12:03 < Andrea_:#liferay> yeah it will work but i won't have the visual help from liferay ide on the service.xml
 12:03 < Andrea_:#liferay> do you think jsf sucks in general or related to liferay?
+12:06 < bijoo_:#liferay> I don't think that it sucks; just don't know it. I'd suggest try it if you haven't yet; and see for yourself how you feel on it. In my mind, it makes dev a bit simpler; though the tradeoff is very sensitive.
