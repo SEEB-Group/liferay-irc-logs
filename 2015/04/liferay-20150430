@@ -186,3 +186,4 @@
 14:59 < bijoo_:#liferay> jardineworks: yes exactly the web content search one
 15:04 < jardineworks:#liferay> bizarre
 15:04 < jardineworks:#liferay> the code in 6.1 looks the same
+15:05 < bijoo_:#liferay> jardineworks: here is something fun to try with it; do your search, the search bar should disappear; then in the URI, change this param: p_p_id=77 instead of p_p_id=3 and hit search
