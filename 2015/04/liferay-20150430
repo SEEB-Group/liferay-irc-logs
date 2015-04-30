@@ -129,3 +129,4 @@
 14:40 < jardineworks:#liferay> embedded in the navigation.ftl
 14:40 < jardineworks:#liferay> then I do a search and I still see the bar, but it moves to the left just above the search resutls,
 14:41 < jardineworks:#liferay> I want it to remain in the nav.
+14:41 < bijoo_:#liferay> jardineworks: it moves when I do search from it, moves down: http://imgur.com/CkZlOkl
