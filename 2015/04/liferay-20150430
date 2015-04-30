@@ -103,3 +103,4 @@
 14:10 < bijoo_:#liferay> I did it on 6.2ga3
 14:10 < jardineworks:#liferay>  ${theme.runtime(portletId, "", portletSetup.toString())}
 14:10 < jardineworks:#liferay> where portletId is 3
+14:10 < jardineworks:#liferay> and portletSetup is my preferences
