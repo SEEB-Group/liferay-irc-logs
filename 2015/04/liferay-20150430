@@ -273,3 +273,4 @@
 16:07 < jardineworks:#liferay> theme.search() is stock settings
 16:07 < bijoo_:#liferay> jardineworks: hmm, that's what I was thinking too as well
 16:08 < bijoo_:#liferay> com.liferay.taglib.util.VelocityTaglibImpl.search()
+16:08 < bijoo_:#liferay> jardineworks: it doesn't accept any preference
