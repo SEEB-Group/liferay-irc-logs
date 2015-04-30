@@ -167,3 +167,4 @@
 14:52 < jardineworks:#liferay> there is a "add-default=resource" property for the portlet.xml or liferay-portlet.xml file as well
 14:53 < jardineworks:#liferay> I thought it allowed you to do <input name="mytext" /> and it would auto-namespace it for you
 14:53 < bijoo_:#liferay> jardineworks: http://www.liferay.com/home?p_p_id=3&p_p_lifecycle=0&p_p_state=maximized&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_struts_action=%2Fsearch%2Fsearch&_3_redirect=%2F&_3_keywords=test&_3_groupId=0
+14:54 < bijoo_:#liferay> jardineworks: that property I recall is this one : requires-namespaced-parameters
