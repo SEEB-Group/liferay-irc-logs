@@ -204,3 +204,4 @@
 15:13 < jardineworks:#liferay> damit.
 15:13 < bijoo_:#liferay> jardineworks: perhaps no need to use portlet embed
 15:13 < bijoo_:#liferay> jardineworks: why not just write the custom code yourself?
+15:14 < jardineworks:#liferay> you mean a form with the aaction set to the struts action?
