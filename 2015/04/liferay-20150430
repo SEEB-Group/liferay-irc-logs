@@ -150,3 +150,4 @@
 14:47 < bijoo_:#liferay> jardineworks: or let me think about that bit once more
 14:47 < bijoo_:#liferay> jardineworks: but to answer your question that prop's this: "?p_p_id=3" causes the page to dynamic load it
 14:47 < bijoo_:#liferay> yet it's a non-instanceable portlet
+14:48 < jardineworks:#liferay> bijoo_, so I need that property? or I don't?
