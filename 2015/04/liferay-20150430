@@ -30,3 +30,4 @@
 10:28 < Andrea_:#liferay> well ok, thanks
 10:29 < Andrea_:#liferay> another user yesterday suggested me to move that method you wrote in the controller, can this be done with hook?
 10:29 < jardineworks:#liferay> which version of the portal are you on again?
+10:30 < jardineworks:#liferay> ... actually... I'm not sure that would work. You need the JSP to set the field to disabled right?
