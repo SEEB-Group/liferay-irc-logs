@@ -156,3 +156,4 @@
 14:49 < bijoo_:#liferay> jardineworks: since search results can appear any page
 14:49 < jardineworks:#liferay> right that property skips the namespace stuff
 14:49 < bijoo_:#liferay> jardineworks: and search is supposed to just work for it
+14:49 < bijoo_:#liferay> jardineworks: no it's a security proprety; tells portal allow portlet to display; even if it's not added to Layout
