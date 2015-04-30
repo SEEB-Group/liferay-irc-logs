@@ -55,3 +55,4 @@
 11:28 < Andrea_:#liferay> One request for me is to create a portlet for Employee Presence Surveyor with Primefaces but its difficult to integrate with service builder
 11:30 < Andrea_:#liferay> because maven doesn't have a primefaces+serviceBuilder archetype
 11:34 < Andrea_:#liferay> am i wrong?
+12:00 < jardineworks:#liferay> Andrea_, all you need to do is create a primefaces portlet and then add to the WEB-INF/ a service.xml file with your entities. The liferay:build-service goal will still work.
