@@ -96,3 +96,4 @@
 14:08 < bijoo_:#liferay> OpenSearch, Solr, and indexing stuff
 14:09 < jardineworks:#liferay> bijoo_, I have embedded my search portlet in the navigation
 14:09 < jardineworks:#liferay> works great
+14:09 < jardineworks:#liferay> but then when I search, I get the results page and the bar dissapears from the navigation
