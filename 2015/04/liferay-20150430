@@ -211,3 +211,4 @@
 15:14 < bijoo_:#liferay> jardineworks: don't need to embed it for it to work;
 15:14 < jardineworks:#liferay> I need to be able to set the preferences
 15:14 < bijoo_:#liferay> jardineworks: I see what you're saying; config is lost
+15:15 < jardineworks:#liferay> I could add it, hidden, embedded in the theme and then use my own form :)
