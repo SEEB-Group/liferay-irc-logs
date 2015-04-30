@@ -88,3 +88,4 @@
 13:37 < bijoo_:#liferay> unfortunately, clutter makes crappy; and a lot of frameworks add needless stuff; they assume you want to have X, Y, Z; whereas you really just want the Z piece
 13:38 < bijoo_:#liferay> Though I like it that they give X, Y, Z; just take what you need and hide rest
 13:38 < bijoo_:#liferay> of it
+13:40 < bijoo_:#liferay> That's what I do with Liferay's UI too; I create a _styled theme andd add my styles; it is not my main theme, but proxy one; it will have same background color and such; but say I need to display the Doc Lib; I will iFrame Doc Lib and use this theme; and have custom styles to strip down to bare; so this way I do not need custom hook; and can update really flexible styles
