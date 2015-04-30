@@ -34,3 +34,4 @@
 10:30 < Andrea_:#liferay> 6.2 cega3
 10:30 < jardineworks:#liferay> you could try it with a PortletStrutsAction hook.
 10:30 < Andrea_:#liferay> in your opinion, is that code too much for a jsp?
+10:30 < jardineworks:#liferay> I suppose put the logic to detect the "disabled" setting in the hook and pass it into the JSP... and use the JSP hook just to add the "disabled" setting
