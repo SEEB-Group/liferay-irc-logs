@@ -121,3 +121,4 @@
 14:35 < jardineworks:#liferay> can you share your "embedded" code with me?
 14:36 < bijoo_:#liferay> jardineworks: very close to the one you have above: ${theme.runtime("3")}
 14:38 < bijoo_:#liferay> jardineworks: http://imgur.com/gy7fkfe
+14:38 < bijoo_:#liferay> jardineworks: I just created a new "_styled"-based theme
