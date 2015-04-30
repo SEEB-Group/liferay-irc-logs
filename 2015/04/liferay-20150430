@@ -49,3 +49,4 @@
 11:20 < bijoo_:#liferay> for project types of type 1, I do this: create SDK portlet plugin called [project name]-common-portlet, create SDK theme plugin that's called [project name]-common-theme
 11:20 < bijoo_:#liferay> I include hooks and portlets in former
 11:20 < bijoo_:#liferay> And themes and layout templates in latter
+11:21 < bijoo_:#liferay> I separate out independent code; e.g. if function is orthogonal
