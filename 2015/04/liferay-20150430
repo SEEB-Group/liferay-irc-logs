@@ -144,3 +144,4 @@
 14:45 < bijoo_:#liferay> jardineworks: portlet.add.default.resource.check.whitelist=3,56_INSTANCE_0000,58,82,86,103,113,145,164,166,170
 14:45 < bijoo_:#liferay> jardineworks: this is why it moves down on the bottom
 14:46 < jardineworks:#liferay> eh?
+14:46 < jardineworks:#liferay> what does that property do?
