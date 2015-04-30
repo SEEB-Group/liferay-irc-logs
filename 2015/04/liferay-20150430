@@ -107,3 +107,4 @@
 14:10 < bijoo_:#liferay> actually for a demo portal; I just added that line to ftl (directly in ROOT/html)
 14:10 < jardineworks:#liferay> on GA 3, does the bar stay in the theme when you are in fullscreen?
 14:11 < bijoo_:#liferay> jardineworks: oh you mean in maximized mode, I'll check
+14:11 < jardineworks:#liferay> yeah
