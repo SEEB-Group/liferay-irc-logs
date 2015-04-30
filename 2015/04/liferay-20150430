@@ -127,3 +127,4 @@
 14:40 < jardineworks:#liferay> bijoo_, ok.. I wasn't clearn :)
 14:40 < jardineworks:#liferay> I have the search bar on the right in my nav.
 14:40 < jardineworks:#liferay> embedded in the navigation.ftl
+14:40 < jardineworks:#liferay> then I do a search and I still see the bar, but it moves to the left just above the search resutls,
