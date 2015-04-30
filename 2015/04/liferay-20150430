@@ -57,3 +57,4 @@
 11:34 < Andrea_:#liferay> am i wrong?
 12:00 < jardineworks:#liferay> Andrea_, all you need to do is create a primefaces portlet and then add to the WEB-INF/ a service.xml file with your entities. The liferay:build-service goal will still work.
 12:00 < jardineworks:#liferay> or just use MVC because JSF sucks.
+12:01 < jardineworks:#liferay> just sayin' :)
