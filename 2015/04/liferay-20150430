@@ -159,3 +159,4 @@
 14:49 < bijoo_:#liferay> jardineworks: no it's a security proprety; tells portal allow portlet to display; even if it's not added to Layout
 14:50 < jardineworks:#liferay> oh I see
 14:50 < jardineworks:#liferay> is that new in 6.2?
+14:50 < bijoo_:#liferay> jardineworks: correction, even if no resource there; no resource for portlet for current page
