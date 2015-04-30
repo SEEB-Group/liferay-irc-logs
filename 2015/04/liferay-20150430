@@ -28,3 +28,4 @@
 10:26 < jardineworks:#liferay> and you can undeploy the hook
 10:27 < jardineworks:#liferay> but most of the time, personally, I try to do it in the portal-ext so that all my overrides can be found in one place instead of an easter egg hunt all over the plugins.
 10:28 < Andrea_:#liferay> well ok, thanks
+10:29 < Andrea_:#liferay> another user yesterday suggested me to move that method you wrote in the controller, can this be done with hook?
