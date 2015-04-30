@@ -153,3 +153,4 @@
 14:48 < jardineworks:#liferay> bijoo_, so I need that property? or I don't?
 14:48 < jardineworks:#liferay> because the default seems to contain 3
 14:48 < bijoo_:#liferay> jardineworks: well it contains three so the portlet works
+14:49 < bijoo_:#liferay> jardineworks: since search results can appear any page
