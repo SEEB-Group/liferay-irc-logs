@@ -141,3 +141,4 @@
 14:44 < bijoo_:#liferay> jardineworks: or nevermind, it moves, that's page title
 14:44 < jardineworks:#liferay> :S
 14:44 < jardineworks:#liferay> what's the point of embedded it if it moves! lol
+14:45 < bijoo_:#liferay> jardineworks: portlet.add.default.resource.check.whitelist=3,56_INSTANCE_0000,58,82,86,103,113,145,164,166,170
