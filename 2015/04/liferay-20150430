@@ -53,3 +53,4 @@
 11:22 < Andrea_:#liferay> so you prefer not using maven?
 11:26 < bijoo_:#liferay> Andrea_: it depends on project if I use it; on large projects, I use maven setup; for example, ones with lots of custom; ant for projects with few dependencies.
 11:28 < Andrea_:#liferay> One request for me is to create a portlet for Employee Presence Surveyor with Primefaces but its difficult to integrate with service builder
+11:30 < Andrea_:#liferay> because maven doesn't have a primefaces+serviceBuilder archetype
