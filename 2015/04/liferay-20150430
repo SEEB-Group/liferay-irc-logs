@@ -73,3 +73,4 @@
 12:55 < bijoo_:#liferay> jardineworks: in terms of managing the project risks
 12:56 < bijoo_:#liferay> jardineworks: that's how .Net and other shops do it; and actually many folks love that
 12:56 < bijoo_:#liferay> jardineworks: e.g. ASP.net is like that
+12:58 < jardineworks:#liferay> bijoo_, fair enough. I just feel like JSF certainly had it's place. It was not that long ago that there was no such thing as a "Front End Engineer" ... it was regular Devs make ugly UIs. To speed up the process sure. But the way the industry is now? I mean, I work with some really talented front end guys and JSF drives them nuts. One guy told me that it was equivalent to tying his hands behind his back and asking him to build a responsive site.
