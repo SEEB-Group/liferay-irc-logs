@@ -17,3 +17,4 @@
 14:17 < CyberKatze:#liferay> me here
 14:17 < CyberKatze:#liferay>  installed new LR62GA4 server + DB MSSql. but have error -> can not import Structure Basic
 15:01 < jardineworks:#liferay> CyberKatze, have you tried dropping the database, recreating it, and then restarting Liferay? every now and then I have a situation with a burp on the wire and the db doesn't seem to quite work. Usually retrying fixes it for me.
+--- Log closed Sat May 02 00:00:59 2015
