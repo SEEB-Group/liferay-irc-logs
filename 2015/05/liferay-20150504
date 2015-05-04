@@ -82,3 +82,4 @@
 10:07 < Stormtrooper:#liferay> Hello of twen
 10:08 < twen:#liferay> I have Liferay 6.2, and uploads JPG file on a Document & Media. I notice Liferay is missing a lot of metadata when extrating them from the file.
 10:08 < twen:#liferay> Is there any plugin to extract more standard metadata (ie tika is extracting all of them)
+10:08 < Stormtrooper:#liferay> I think have now same problem
