@@ -102,3 +102,4 @@
 10:21 < jardineworks:#liferay> but I am sure there is a way to do it without my first step
 10:21 < twen:#liferay> Wow, that's nice URLs :)
 10:21 < jardineworks:#liferay> jhf, might know :)
+10:22 < jardineworks:#liferay> I mean I am sure anyone using the JSON API does their auth using the basic http headers on the first call, not with a double,
