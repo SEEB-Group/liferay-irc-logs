@@ -127,3 +127,4 @@
 10:47 < Dinoop:#liferay> jardineworks: json*
 10:49 < jardineworks:#liferay> Dinoop, oh I see
 10:49 < jardineworks:#liferay> sorry... I keep thinking that you actually want to do soemthing in liferay other than just authenticate the user :)
+10:51 < Dinoop:#liferay> jardineworks: my use case is I am having a web and mobile app. I dont want to configure users again for mobile app. I want to resuse the users which are already configured in liferay.
