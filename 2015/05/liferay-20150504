@@ -65,3 +65,4 @@
 09:39 < jardineworks:#liferay> I wonder how the heck I get this out of maintenanc mode now lol
 09:41 < jardineworks:#liferay> Stormtrooper, --
 09:41 < jardineworks:#liferay> "If you ever need to shut down your Liferay Portal server while users are logged in, you can use the Shutdown tab to inform your logged-in users of the impending shutdown. You can define the number of minutes until the shutdown and a custom message that will be displayed.
+09:41 < jardineworks:#liferay> Users will see your message at the top of their portal pages for the duration of time you specified. When the time expires, all portal pages will display a message saying the portal has been shut down. At this point, the server will need to be restarted to restore access. Next, let’s examine how to manage multiple portal instances."
