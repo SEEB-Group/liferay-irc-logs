@@ -124,3 +124,4 @@
 10:43 < jardineworks:#liferay> 1jsonws.servlet.basic_auth=true"
 10:44 < Dinoop:#liferay> jardineworks: is it something like , I have to create one josn webservice with no action but with enabling webservice?
 10:45 < Dinoop:#liferay> jardineworks:sorry by enabling authentication
+10:47 < Dinoop:#liferay> jardineworks: json*
