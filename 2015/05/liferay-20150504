@@ -142,3 +142,4 @@
 11:02 < jardineworks:#liferay> Dinoop, for example -- https://www.liferay.com/web/igor.beslic/blog/-/blogs/what-about-oauth-
 11:04 < jardineworks:#liferay> Dinoop, That seems more like what you are after... you want to treat Liferay as an identity provider of sorts.
 11:08 < Dinoop:#liferay> jardineworks: Thanks for  your time , I will have a try of the second method using UserLocalServiceUtil first. Expecting further assistance from you. Thanks
+11:09 < jardineworks:#liferay> np
