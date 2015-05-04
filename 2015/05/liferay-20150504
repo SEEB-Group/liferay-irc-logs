@@ -92,3 +92,4 @@
 10:18 < jardineworks:#liferay> Dinoop, ok -- so there are probably a few options for that. You are basically wanting to hit the /login/login url to trigger the login action
 10:19 < jardineworks:#liferay> but make sure you pass the credentials.
 10:19 < jardineworks:#liferay> once sec, I can give you a curl example.
+10:20 < jardineworks:#liferay> Dinoop, for exmaple -- I use a shell script to do cluster deployments and porperties reloading. For me I have to do two steps --
