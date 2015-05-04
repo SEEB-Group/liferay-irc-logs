@@ -148,3 +148,4 @@
 11:10 < jardineworks:#liferay> its actually for a maintenance check endpoint, but you can alter the execution logic to use a user lookup pretty easily.
 11:10 < Dinoop:#liferay> jardineworks: yes please to dinoop.p1@gmail.com
 11:12 < jardineworks:#liferay> Dinoop, sent.
+11:13 < CyberKatze:#liferay> hey,... is it posssible to get JS_path from WebContent-template?    $js_folder dont exist (
