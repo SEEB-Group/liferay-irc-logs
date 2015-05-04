@@ -139,3 +139,4 @@
 11:01 < jardineworks:#liferay> Dinoop, I know also that there is a way to configure Liferay to be an OAuth provider in 6.2 --- but I have never tried it
 11:01 < jardineworks:#liferay> oh
 11:01 < jardineworks:#liferay> that might be an EE plugin
+11:02 < jardineworks:#liferay> Dinoop, for example -- https://www.liferay.com/web/igor.beslic/blog/-/blogs/what-about-oauth-
