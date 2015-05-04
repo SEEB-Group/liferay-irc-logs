@@ -40,3 +40,4 @@
 09:20 < jardineworks:#liferay> you need to go to the command line
 09:20 < jardineworks:#liferay> its a silly feature to be honest. Once liferay is shutdown, the control panel is of course no longer available .... so there is no way to start it back up.
 09:21 < jardineworks:#liferay> I've always wondered what the point of that feature was.
+09:21 < Stormtrooper:#liferay> After shutdown I do shutdown of tomcat too...
