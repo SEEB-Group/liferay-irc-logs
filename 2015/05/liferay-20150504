@@ -58,3 +58,4 @@
 09:35 < Stormtrooper:#liferay> Oki. Thanks
 09:35 < jardineworks:#liferay> you can do this dynamically doing something simple like checking for the presence of a file.
 09:35 < Dinoop:#liferay> How can I use liferay's user authentication from my mob app?. I want to call Liferay with user credencials and if that user presnt need to get success response
+09:36 < jardineworks:#liferay> so you touch <filename> .. which then causes the proxy to start redirecting... and then you rm <filename> when you are done.
