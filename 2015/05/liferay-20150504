@@ -269,3 +269,4 @@
 13:35 < bijoo_:#liferay> CyberKatze: yes, otherwise permissions will not go? Also, try the test case without Stage first.
 13:38 < CyberKatze:#liferay> i can't test without staging..
 13:38 < CyberKatze:#liferay> with checked Permission-checkbox, same..
+13:40 < CyberKatze:#liferay> clear full cache.. nothing in AP..
