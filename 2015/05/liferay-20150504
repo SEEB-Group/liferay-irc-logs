@@ -100,3 +100,4 @@
 10:20 < jardineworks:#liferay>     curl "http://${node}:8080/web/guest/welcome?p_p_id=58&p_p_lifecycle=1&p_p_state=maximized&p_p_mode=view&_58_struts_action=%2Flogin%2Flogin" -H "'Origin: http://${node}'" --data "'_58_formDate=${current_time}&_58_saveLastPath=false&_58_redirect=%2Fgroup%2Fcontrol_panel&_58_doActionAfterLogin=false&_58_login=${LIFERAY_USER}&_58_password=${LIFERAY_PASSWORD}&_58_rememberMe=false'" --compressed  --insecure -c cookie.txt -b cookie.txt
 10:21 < jardineworks:#liferay> to do the actual authentication
 10:21 < jardineworks:#liferay> but I am sure there is a way to do it without my first step
+10:21 < twen:#liferay> Wow, that's nice URLs :)
