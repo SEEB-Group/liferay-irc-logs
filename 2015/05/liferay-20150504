@@ -29,3 +29,4 @@
 08:47 < jardineworks:#liferay> ## Audit Message
 08:47 < jardineworks:#liferay> ##
 08:47 < jardineworks:#liferay>     audit.message.com.liferay.portal.model.Layout.VIEW=false
+08:47 < jardineworks:#liferay> for page level recording. Though as modd said, there are performance tradeoffs so it usually makes more sense to offload something that granular to something like your proxy server.
