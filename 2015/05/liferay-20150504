@@ -16,3 +16,16 @@
 06:52 < Andrea___:#liferay> how do i activate monitoring
 08:31 < Stormtrooper:#liferay> In portal.ext.properties...
 08:31 < Stormtrooper:#liferay> If u mean user monitoring
+08:46 < jardineworks:#liferay> Andrea___, there are a few settings -- as Stormtrooper says, you need to look into the portal.properties and provide the overrides in your portal-ext. First you need to make sure that your auditing filtre is enabled --
+08:46 < jardineworks:#liferay>     #
+08:46 < jardineworks:#liferay>     # The audit filter populates the AuditRequestThreadLocal with the
+08:46 < jardineworks:#liferay>     # appropriate request values to generate audit requests.
+08:46 < jardineworks:#liferay>     #
+08:46 < jardineworks:#liferay>     com.liferay.portal.servlet.filters.audit.AuditFilter=false
+08:46 < jardineworks:#liferay> set it to true
+08:46 < jardineworks:#liferay> and then depending on what you want to monitor (how granular) you can set other values --
+08:46 < jardineworks:#liferay> like --
+08:47 < jardineworks:#liferay> ##
+08:47 < jardineworks:#liferay> ## Audit Message
+08:47 < jardineworks:#liferay> ##
+08:47 < jardineworks:#liferay>     audit.message.com.liferay.portal.model.Layout.VIEW=false
