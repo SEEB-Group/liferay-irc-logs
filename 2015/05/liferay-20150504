@@ -37,3 +37,4 @@
 09:13 < Stormtrooper:#liferay> If I do shutdown liferay. How can I start it ?
 09:19 < jardineworks:#liferay> Stormtrooper, you mean, you shut it down from the Server Administration section?
 09:19 < Stormtrooper:#liferay> Yes
+09:20 < jardineworks:#liferay> you need to go to the command line
