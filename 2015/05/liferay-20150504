@@ -251,3 +251,4 @@
 13:12 < bijoo_:#liferay> CyberKatze: did you try the basic test case I gave?
 13:12 < bijoo_:#liferay> CyberKatze: I will now move on to structure, template
 13:12 < CyberKatze:#liferay> i do full restart web-broser, maybe chache
+13:14 < CyberKatze:#liferay> "no user exist with primary key 0" + "undeclaredThrowableEception"...
