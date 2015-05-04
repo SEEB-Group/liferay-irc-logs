@@ -112,3 +112,4 @@
 10:29 < Dinoop:#liferay> jardineworks:ok
 10:31 < jardineworks:#liferay> Dinoop, this is an interesting thread, but it is referenceing the tunnel-web plugin which is not part of the default install anymore (because I don't think you are supposed to need it necesarily) ... but they are using auth creds in the url.
 10:31 < jardineworks:#liferay> https://www.liferay.com/community/forums/-/message_boards/message/938984
+10:31 < jardineworks:#liferay> scroll to the bottom and check out Tomas' reply
