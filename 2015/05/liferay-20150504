@@ -84,3 +84,4 @@
 10:08 < twen:#liferay> Is there any plugin to extract more standard metadata (ie tika is extracting all of them)
 10:08 < Stormtrooper:#liferay> I think have now same problem
 10:16 < jardineworks:#liferay> Dinoop,
+10:16 < jardineworks:#liferay> it is possible... but, question, do you just need to authenticate against liferay?
