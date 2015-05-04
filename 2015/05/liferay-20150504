@@ -177,3 +177,4 @@
 11:55 < CyberKatze:#liferay> aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 11:55 < CyberKatze:#liferay> HEEELP
 11:55 < Andrea___:#liferay> Is it a little more clear? if no i'' try to explain better
+11:56 < CyberKatze:#liferay> $entry.getAssetsRenderer().getURLViewInContext()  doesn't work for guest user... for all other work perfect.. WHY?   LR62GA4,, on GA3 work perfect...
