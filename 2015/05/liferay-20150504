@@ -122,3 +122,4 @@
 10:41 < jardineworks:#liferay> a failed login can still generate a 200 OK .. it'd be a valid response with an error message on the page :)
 10:43 < jardineworks:#liferay> Dinoop, if you look at that thread in the message -- Tomas says "For version >= 6.2 you need to explicitly configure the authentication method you prefer. Into portal-ext.properties add:
 10:43 < jardineworks:#liferay> 1jsonws.servlet.basic_auth=true"
+10:44 < Dinoop:#liferay> jardineworks: is it something like , I have to create one josn webservice with no action but with enabling webservice?
