@@ -105,3 +105,4 @@
 10:22 < jardineworks:#liferay> I mean I am sure anyone using the JSON API does their auth using the basic http headers on the first call, not with a double,
 10:22 < jardineworks:#liferay> I haven't used that stuff yet though
 10:24 < Dinoop:#liferay> jardineworks: ok , p_p_id=58 , can i hadcode this?
+10:24 < jardineworks:#liferay> 58 is just the login portlet
