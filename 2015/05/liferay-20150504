@@ -272,3 +272,4 @@
 13:40 < CyberKatze:#liferay> clear full cache.. nothing in AP..
 13:42 < CyberKatze:#liferay> one moment
 13:47 < CyberKatze:#liferay> same problem..
+13:49 < CyberKatze:#liferay> http://server.de:6969/$entry.getAssetRenderer().getURLViewInContext($renderRequest,%20$renderResponse,%20$assetPublisherHelper.getAssetViewURL($renderRequest,%20$renderResponse,$entry))
