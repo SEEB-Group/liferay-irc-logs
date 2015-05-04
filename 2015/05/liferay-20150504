@@ -130,3 +130,4 @@
 10:51 < Dinoop:#liferay> jardineworks: my use case is I am having a web and mobile app. I dont want to configure users again for mobile app. I want to resuse the users which are already configured in liferay.
 10:52 < Dinoop:#liferay> jardineworks: so if some one login using user and pass through mob app I want to call liferay for uthenticating him
 10:53 < Dinoop:#liferay> jardineworks: if success he will get all functionality of mob app. No more liferay calls
+10:57 < jardineworks:#liferay> Dinoop, understood. Ok, well, there must be a way to do it passing the right parameters .. but alternatively you could create a StrutsAction hook
