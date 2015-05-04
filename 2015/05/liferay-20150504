@@ -131,3 +131,4 @@
 10:52 < Dinoop:#liferay> jardineworks: so if some one login using user and pass through mob app I want to call liferay for uthenticating him
 10:53 < Dinoop:#liferay> jardineworks: if success he will get all functionality of mob app. No more liferay calls
 10:57 < jardineworks:#liferay> Dinoop, understood. Ok, well, there must be a way to do it passing the right parameters .. but alternatively you could create a StrutsAction hook
+10:57 < jardineworks:#liferay> and then with that hook, use the username/password passed in the POST in combination with the UserLocalServiceUtil to determine if the login is valid.
