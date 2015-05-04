@@ -32,3 +32,4 @@
 08:47 < jardineworks:#liferay> for page level recording. Though as modd said, there are performance tradeoffs so it usually makes more sense to offload something that granular to something like your proxy server.
 08:47 < Andrea___:#liferay> I think there was a misunderstanding, i thought modd was suggesting me to activate monitoring in this chat to see the who is really connected xD
 08:48 < Andrea___:#liferay> because I did not asked about liferay monitoring! Sorry if you wasted time
+08:56 < Stormtrooper:#liferay> xD
