@@ -138,3 +138,4 @@
 11:01 < jardineworks:#liferay> Dinoop, you could, but that would mean you have to write a service just for the sake of having a means to authenticate -- which seems kind of gross.
 11:01 < jardineworks:#liferay> Dinoop, I know also that there is a way to configure Liferay to be an OAuth provider in 6.2 --- but I have never tried it
 11:01 < jardineworks:#liferay> oh
+11:01 < jardineworks:#liferay> that might be an EE plugin
