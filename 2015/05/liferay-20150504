@@ -91,3 +91,4 @@
 10:17 -!- mode/#liferay [+o jhf] by ChanServ
 10:18 < jardineworks:#liferay> Dinoop, ok -- so there are probably a few options for that. You are basically wanting to hit the /login/login url to trigger the login action
 10:19 < jardineworks:#liferay> but make sure you pass the credentials.
+10:19 < jardineworks:#liferay> once sec, I can give you a curl example.
