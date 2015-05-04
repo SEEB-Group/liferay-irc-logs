@@ -52,3 +52,4 @@
 09:32 < Stormtrooper:#liferay> Oki. Good to know
 09:33 < jardineworks:#liferay> Stormtrooper, the best option, honesly for this kind of thing is to use a proxy to enable a maintenance mode.
 09:33 < Stormtrooper:#liferay> How help proxy in this case?
+09:35 < jardineworks:#liferay> Stormtrooper, well, you block the traffic to the Liferay server and redirect the user to a "maintenance page"
