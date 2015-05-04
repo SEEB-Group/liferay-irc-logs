@@ -56,3 +56,4 @@
 09:35 < jardineworks:#liferay> then whne you are done your maintenance, you remove the redirect.
 09:35 < Stormtrooper:#liferay> Ah...
 09:35 < Stormtrooper:#liferay> Oki. Thanks
+09:35 < jardineworks:#liferay> you can do this dynamically doing something simple like checking for the presence of a file.
