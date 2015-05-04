@@ -120,3 +120,4 @@
 10:39 < Dinoop:#liferay> jardineworks: yes
 10:40 < jardineworks:#liferay> Dinoop, check out the cookie. if it worked then you will have an attribute ID with a value
 10:41 < jardineworks:#liferay> a failed login can still generate a 200 OK .. it'd be a valid response with an error message on the page :)
+10:43 < jardineworks:#liferay> Dinoop, if you look at that thread in the message -- Tomas says "For version >= 6.2 you need to explicitly configure the authentication method you prefer. Into portal-ext.properties add:
