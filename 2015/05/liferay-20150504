@@ -96,3 +96,4 @@
 10:20 < jardineworks:#liferay> this call --
 10:20 < jardineworks:#liferay>     curl "http://${node}:8080/" -H "'Origin: http://'${node}" --compressed  --insecure -c cookie.txt
 10:20 < jardineworks:#liferay> to get the initial cookie
+10:20 < jardineworks:#liferay> and then this call --
