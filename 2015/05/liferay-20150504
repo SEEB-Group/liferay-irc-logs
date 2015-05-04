@@ -266,3 +266,4 @@
 13:19 < CyberKatze:#liferay> hm..
 13:28 < CyberKatze:#liferay> what does it mean "Role-Permission" ?
 13:30 < CyberKatze:#liferay> if i publish to Live should i check "Permissions"-checkbox in saging-window?
+13:35 < bijoo_:#liferay> CyberKatze: yes, otherwise permissions will not go? Also, try the test case without Stage first.
