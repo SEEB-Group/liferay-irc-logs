@@ -133,3 +133,4 @@
 10:57 < jardineworks:#liferay> Dinoop, understood. Ok, well, there must be a way to do it passing the right parameters .. but alternatively you could create a StrutsAction hook
 10:57 < jardineworks:#liferay> and then with that hook, use the username/password passed in the POST in combination with the UserLocalServiceUtil to determine if the login is valid.
 11:00 < Dinoop:#liferay> jardineworks: Thank you very much for the response . I wil have try. Also they way which I mentioned , by using jsonwebservice with credencil will work?
+11:00 < Dinoop:#liferay> jardineworks: the way*
