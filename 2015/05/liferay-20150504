@@ -140,3 +140,4 @@
 11:01 < jardineworks:#liferay> oh
 11:01 < jardineworks:#liferay> that might be an EE plugin
 11:02 < jardineworks:#liferay> Dinoop, for example -- https://www.liferay.com/web/igor.beslic/blog/-/blogs/what-about-oauth-
+11:04 < jardineworks:#liferay> Dinoop, That seems more like what you are after... you want to treat Liferay as an identity provider of sorts.
