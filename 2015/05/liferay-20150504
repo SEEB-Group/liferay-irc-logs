@@ -110,3 +110,4 @@
 10:25 < jardineworks:#liferay> so I would assume so
 10:25 < jardineworks:#liferay> but I don't think if you have your http request property that you need to... lemme check something
 10:29 < Dinoop:#liferay> jardineworks:ok
+10:31 < jardineworks:#liferay> Dinoop, this is an interesting thread, but it is referenceing the tunnel-web plugin which is not part of the default install anymore (because I don't think you are supposed to need it necesarily) ... but they are using auth creds in the url.
