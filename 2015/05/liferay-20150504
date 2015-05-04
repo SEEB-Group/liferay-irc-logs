@@ -145,3 +145,4 @@
 11:09 < jardineworks:#liferay> np
 11:10 < jardineworks:#liferay> Dinoop, I can send you a tutorial on how to do it
 11:10 < jardineworks:#liferay> the hook portion if you like
+11:10 < jardineworks:#liferay> its actually for a maintenance check endpoint, but you can alter the execution logic to use a user lookup pretty easily.
