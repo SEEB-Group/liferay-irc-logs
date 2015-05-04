@@ -226,3 +226,4 @@
 13:02 < CyberKatze:#liferay> guet have permission of "add discussion" and "view"
 13:02 < CyberKatze:#liferay> guest*
 13:03 < CyberKatze:#liferay> ON GA2 i had this issues with View-permission.. now i chacked always this option.
+13:03 < bijoo_:#liferay> CyberKatze: so are you able to get it to work? E.g. here is what I tried here: go to user's profile page and add Blog; add Asset Publisher and view as Guest; Guest is able to view blog in context
