@@ -43,3 +43,4 @@
 09:21 < Stormtrooper:#liferay> After shutdown I do shutdown of tomcat too...
 09:21 < Stormtrooper:#liferay> And start tomcat again
 09:21 < jardineworks:#liferay> pretty sure shut down from the control panel does a tomcat shutdown no?
+09:22 < Stormtrooper:#liferay> Tomcat stay alive after lr shutdown
