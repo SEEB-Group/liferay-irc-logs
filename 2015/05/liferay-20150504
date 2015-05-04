@@ -233,3 +233,4 @@
 13:04 < bijoo_:#liferay> CyberKatze: make sure guest can view the structure as well
 13:05 < bijoo_:#liferay> CyberKatze: give Guest Structure, Template VIEW permission
 13:05 < bijoo_:#liferay> CyberKatze: I'm almost certain permission issue
+13:05 < bijoo_:#liferay> CyberKatze: that's why it works for the admin as well
