@@ -231,3 +231,4 @@
 13:03 < bijoo_:#liferay> CyberKatze: try the test steps I gave and see if works
 13:03 < CyberKatze:#liferay> one moment
 13:04 < bijoo_:#liferay> CyberKatze: make sure guest can view the structure as well
+13:05 < bijoo_:#liferay> CyberKatze: give Guest Structure, Template VIEW permission
