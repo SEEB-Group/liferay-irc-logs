@@ -42,3 +42,4 @@
 12:28 < Andrea____:#liferay> and what solution would you suggest for fields i can't mark as required from properties?
 12:40 < jardineworks:#liferay> Andrea____, well, I think you would have to do soemthing similar to that other hook you wrote. Create properties following the same convention -- users.email.address.required=  -- and then in you jsp hook add PrefsPropsUtil.getBoolean(companyId, "property-name-here"); and based on the boolean determine whether or not to set required=true on the aui field.
 12:43 < Andrea____:#liferay> thanks for the input, i'll work on this
+17:14 < urug_:#liferay> hi, anyone?
