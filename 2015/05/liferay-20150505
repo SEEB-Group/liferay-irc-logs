@@ -32,3 +32,4 @@
 12:05 < jardineworks:#liferay> set that to true in your portal-ext.properties and restart
 12:07 < Andrea____:#liferay> hi jardine, thanks for the fast response as always! can i do that for every field in that portlet?
 12:13 < jardineworks:#liferay> I don't think so
+12:13 < jardineworks:#liferay> Andrea____, check the portal.properties file...
