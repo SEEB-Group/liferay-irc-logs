@@ -29,3 +29,4 @@
 12:05 < jardineworks:#liferay>     # users.
 12:05 < jardineworks:#liferay>     #
 12:05 < jardineworks:#liferay>     users.last.name.required=false
+12:05 < jardineworks:#liferay> set that to true in your portal-ext.properties and restart
