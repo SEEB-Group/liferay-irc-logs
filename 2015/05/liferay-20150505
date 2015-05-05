@@ -26,3 +26,6 @@
 12:05 < jardineworks:#liferay> Andrea____,
 12:05 < jardineworks:#liferay>     #
 12:05 < jardineworks:#liferay>     # Set this to true if you want the last name to be required when creating
+12:05 < jardineworks:#liferay>     # users.
+12:05 < jardineworks:#liferay>     #
+12:05 < jardineworks:#liferay>     users.last.name.required=false
