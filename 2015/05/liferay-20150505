@@ -25,3 +25,4 @@
 11:59 < Andrea____:#liferay> Hi all, how can i make fields like lastName obligatory when creating an account?
 12:05 < jardineworks:#liferay> Andrea____,
 12:05 < jardineworks:#liferay>     #
+12:05 < jardineworks:#liferay>     # Set this to true if you want the last name to be required when creating
