@@ -1,3 +1,4 @@
 --- Log opened Wed May 06 00:00:05 2015
 01:01 < rocknroll_:#liferay> hi all!
 01:01 < rocknroll_:#liferay> Anyone here had any success with the SAML portlet + ADFS? Liferay 6.2
+01:04 < rocknroll_:#liferay> I'm getting the InvalidNameIDPolicy nop matter how I configure ADFS
