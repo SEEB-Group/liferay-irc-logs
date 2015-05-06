@@ -73,3 +73,4 @@
 12:29 < nicolas_FR:#liferay> jhf: last question and I go, promise :) I want to get a custom field value, but not by using <liferay-ui:custom-attribute>, as this tags inserts html. I only need to get the value of the field (so I can put it in a <img src=""> by example)
 12:33 < nicolas_FR:#liferay> trying with getExpandoBridge.
 12:34 <@jhf:#liferay> yep
+12:34 <@jhf:#liferay> that's the way to go.
