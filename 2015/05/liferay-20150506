@@ -64,3 +64,4 @@
 12:02 < nicolas_FR:#liferay> btw do you know if we can add a picture field (instead of text field) ?
 12:06 <@jhf:#liferay> don't think picture fields are allowed as custom fields - I mean you might be able to fake it with a giant string or something
 12:07 <@jhf:#liferay> you could probably fix the custom field issue for categories by using a JSP hook
+12:10 < nicolas_FR:#liferay> jhf: for now I'll just copy/paste the full url of images from the liferay library. If I have time I'll try to fix the custom field issue for categories. Do you know how to get the description of a category in jsp ?
