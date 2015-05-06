@@ -44,3 +44,4 @@
 07:17 < CyberKatze:#liferay> hi
 07:38 < urug_:#liferay> Content Administration - Browse by Structure works only for administrators, for others the filtered content (except for base Web Content Article) does not show up. There is a fixed jira issue, but fix is targeted for LF 7. I am looking for some workaround on LF 6.2 GA4. Either some fix by hook or by alternative solution for filtering content in a reasonable way
 08:42 < CyberKatze:#liferay> LDAP test connection -> white page error ))
+08:42 < CyberKatze:#liferay> if exception in backend
