@@ -39,3 +39,4 @@
 05:06 < kravigupta:#liferay> Guys.. When and why would you create an empty entity in service.xml?
 05:16 < nicolas_FR:#liferay> hi there, I would like to add a nickname to users. So I created a custom-field in the user object in liferay control panel. Now I want to display this custom-field in the message board user display tag (replacing firstname and lastname display). Can I refer to <liferay-ui-custom-attribute/> when I'm already in <liferay-ui:user_display/> ?
 05:17 < nicolas_FR:#liferay> I was thinking I could hook the start.jsp from html/taglib/ui/user_display and add a <liferay-ui:custom-attribute/> into the page.
+05:21 < kravigupta:#liferay> I believe you can do that, did you try?
