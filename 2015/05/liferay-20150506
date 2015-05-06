@@ -53,3 +53,4 @@
 11:51 <@jhf:#liferay> via control panel -> configuration -> custom fields
 11:57 < nicolas_FR:#liferay> jhf: yes thanks found it. Btw I have a problem editing those custom field. I can set them when I create a new category, but not when I edit it
 11:58 < nicolas_FR:#liferay> jhf: when editing a custom field for User by example, is easy. Just click modify > custom fields and you're done. Looks like there is no "custom fields" option when editing a message board category
+12:00 <@jhf:#liferay> are you on 6.2 CE GA4?
