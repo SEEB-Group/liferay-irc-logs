@@ -61,3 +61,4 @@
 12:01 <@jhf:#liferay> oh yeah that was a bug in 6.1 https://issues.liferay.com/browse/LPS-18684
 12:02 <@jhf:#liferay> it's fixed in 6.2
 12:02 < nicolas_FR:#liferay> well we're not working on migrating to 6.2 for like 1 year from now
+12:02 < nicolas_FR:#liferay> btw do you know if we can add a picture field (instead of text field) ?
