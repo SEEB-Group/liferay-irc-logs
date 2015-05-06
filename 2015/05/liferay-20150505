@@ -43,3 +43,5 @@
 12:40 < jardineworks:#liferay> Andrea____, well, I think you would have to do soemthing similar to that other hook you wrote. Create properties following the same convention -- users.email.address.required=  -- and then in you jsp hook add PrefsPropsUtil.getBoolean(companyId, "property-name-here"); and based on the boolean determine whether or not to set required=true on the aui field.
 12:43 < Andrea____:#liferay> thanks for the input, i'll work on this
 17:14 < urug_:#liferay> hi, anyone?
+18:07 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed May 06 00:00:05 2015
