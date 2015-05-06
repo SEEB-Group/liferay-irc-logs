@@ -58,3 +58,4 @@
 12:00 <@jhf:#liferay> I can edit the value of the custom field when editing the category
 12:00 < nicolas_FR:#liferay> we're on 6.1.2 CE GA3
 12:01 < nicolas_FR:#liferay> just migrated from 5.2.3
+12:01 <@jhf:#liferay> oh yeah that was a bug in 6.1 https://issues.liferay.com/browse/LPS-18684
