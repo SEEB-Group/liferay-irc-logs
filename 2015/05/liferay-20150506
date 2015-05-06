@@ -67,3 +67,4 @@
 12:10 < nicolas_FR:#liferay> jhf: for now I'll just copy/paste the full url of images from the liferay library. If I have time I'll try to fix the custom field issue for categories. Do you know how to get the description of a category in jsp ?
 12:12 <@jhf:#liferay> if you know the categoryId you can just call MBCategoryLocalServiceUtil.getCategory(id).getDescription()
 12:12 <@jhf:#liferay> you might want to escape it in case hackers put in javascript :)
+12:13 < nicolas_FR:#liferay> thanks :)
