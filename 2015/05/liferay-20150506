@@ -55,3 +55,4 @@
 11:58 < nicolas_FR:#liferay> jhf: when editing a custom field for User by example, is easy. Just click modify > custom fields and you're done. Looks like there is no "custom fields" option when editing a message board category
 12:00 <@jhf:#liferay> are you on 6.2 CE GA4?
 12:00 <@jhf:#liferay> cause I just tried that, and it works
+12:00 <@jhf:#liferay> I can edit the value of the custom field when editing the category
