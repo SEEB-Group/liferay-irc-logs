@@ -68,3 +68,4 @@
 12:12 <@jhf:#liferay> if you know the categoryId you can just call MBCategoryLocalServiceUtil.getCategory(id).getDescription()
 12:12 <@jhf:#liferay> you might want to escape it in case hackers put in javascript :)
 12:13 < nicolas_FR:#liferay> thanks :)
+12:19 <@jhf:#liferay> The category name: <span><%= htmlUtil.escape(MBCategoryLocalServiceUtil.getCategory(id).getDescription() %></span>
