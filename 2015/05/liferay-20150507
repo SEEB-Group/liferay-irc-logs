@@ -39,3 +39,4 @@
 06:35 < Axxell:#liferay> hmm
 06:35 < Axxell:#liferay> any more elegant way
 06:36 < hufg:#liferay> how is that inelegant? if your scheduler stuff lives outside of the request how are you going to map a groupid when the groupid is the groupid of the current page?
+06:36 < Axxell:#liferay> well groupid might change?
