@@ -24,3 +24,4 @@
 06:05 < Axxell:#liferay> hi guys, problem: trying to get groupid and companyid inside scheduler message of my portlet, but cant get themedisplay to get them
 06:33 < hufg:#liferay> ikb_: how it's non existing?
 06:33 < hufg:#liferay> i guess you can try to map the assetentry classpk and if it's missing from the target table it's a dead entry
+06:33 < hufg:#liferay> perhaps
