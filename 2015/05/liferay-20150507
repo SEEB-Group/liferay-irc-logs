@@ -44,3 +44,4 @@
 06:37 < hufg:#liferay> Axxell: groupid is the id of the site and some other stuff, it wont change after the site has been done, though there may be "new" groupids as in new sites
 06:37 < Axxell:#liferay> true... i wish the scheduler would be more.. per portlet instance
 06:38 < hufg:#liferay> [Enrico]: fidget with permissions, restart hehe
+06:38 < hufg:#liferay> not sure what companyid is though
