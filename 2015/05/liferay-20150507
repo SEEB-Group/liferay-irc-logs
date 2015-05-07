@@ -40,3 +40,4 @@
 06:35 < Axxell:#liferay> any more elegant way
 06:36 < hufg:#liferay> how is that inelegant? if your scheduler stuff lives outside of the request how are you going to map a groupid when the groupid is the groupid of the current page?
 06:36 < Axxell:#liferay> well groupid might change?
+06:36 < [Enrico]:#liferay> it's just that one page having the problem, all other pages are fine. Guest can be give the view permission. Unfortunately the problematic page is the home page and since it doesn't work no login is possible
