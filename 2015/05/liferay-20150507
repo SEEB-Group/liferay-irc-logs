@@ -25,3 +25,4 @@
 06:33 < hufg:#liferay> ikb_: how it's non existing?
 06:33 < hufg:#liferay> i guess you can try to map the assetentry classpk and if it's missing from the target table it's a dead entry
 06:33 < hufg:#liferay> perhaps
+06:33 < hufg:#liferay> depends how it's nonexisting
