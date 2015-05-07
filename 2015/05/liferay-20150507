@@ -63,3 +63,4 @@
 08:06 < Axxell:#liferay> jardineworks: just noticed that.. will do
 08:25 < Wille1:#liferay> Hello
 10:10 < nicolas_FR:#liferay> hi there
+10:11 < nicolas_FR:#liferay> working with message board. Is there a way to configure default rights on all messages posted by users ? ATM I have to manually remove some rights from owner each time someone post a message. Any way to configure defaults rights ?
