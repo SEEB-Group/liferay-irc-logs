@@ -5,3 +5,17 @@
 03:13 < twen:#liferay> Hello :)
 03:15 < twen:#liferay> questio about POwer user role : I've set an account with the "poer User" role. and just discover this account don't have menu to go to profile and My Account. If I remove "power user" role, I get the menu again ?!
 03:16 < twen:#liferay> How power-dul is that ? Does power user have less than a regular user ?
+--- Log opened Thu May 07 03:21:00 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith_     ] [ josuebc    ] [ nicolas_FR] [ vsingleton] 
+03:21 [ arquio    ] [ henriquev   ] [ kravigupta ] [ plekplek  ] [ zhaiyz    ] 
+03:21 [ bijoo     ] [ hufg        ] [ MagnoBooter] [ quercus   ] 
+03:21 [ billoul   ] [ ikb_        ] [ marcoceppi ] [ rocknroll_] 
+03:21 [ Bryanstein] [ jardineworks] [ modd_      ] [ Tm_T      ] 
+03:21 [ doged     ] [ jbub        ] [ Naenyn     ] [ twen      ] 
+03:21 -!- Irssi: #liferay: Total of 26 nicks [1 ops, 0 halfops, 0 voices, 25 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+04:08 < Andrea__:#liferay> Hi all! how ca i hide a private page of a site to all roles except one?
