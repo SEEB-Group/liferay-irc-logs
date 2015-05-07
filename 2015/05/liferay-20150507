@@ -48,3 +48,4 @@
 06:39 < hufg:#liferay> it gets thrown around
 06:39 < [Enrico]:#liferay> hufg, uh? not getting what you mean sorry
 06:40 < hufg:#liferay> how view cannot be given to guest in this one page?
+06:40 < Axxell:#liferay> ie if i have a portlet on two sites on the same portal, they should be able to save data via services only for that porlet instance
