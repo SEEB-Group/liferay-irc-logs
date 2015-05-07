@@ -60,3 +60,4 @@
 07:33 < Axxell:#liferay> what im doing with the message scheduler is to update data which i import from AD
 07:52 < jardineworks:#liferay> Axxell, you can make the schedule per portlet instance -- by writing the Quartz logic yourself and including the libraries. No one says you HAVE to use the one from the portal :)
 07:52 < jardineworks:#liferay> but the portal one does offer some pretty obvious benefits.
+08:06 < Axxell:#liferay> jardineworks: just noticed that.. will do
