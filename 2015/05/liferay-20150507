@@ -66,3 +66,4 @@
 10:11 < nicolas_FR:#liferay> working with message board. Is there a way to configure default rights on all messages posted by users ? ATM I have to manually remove some rights from owner each time someone post a message. Any way to configure defaults rights ?
 10:12 < Andrea___:#liferay> hi all, can someone explain me the difference between Organizations and User Groups? thanks
 10:16 < nicolas_FR:#liferay> Andrea___: I think Organizations got pages, when User Group are more for roles or so.
+10:26 < Andrea___:#liferay> but groups too can have sites
