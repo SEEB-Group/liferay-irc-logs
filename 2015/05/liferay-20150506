@@ -80,3 +80,4 @@
 13:38 <@jhf:#liferay> did you see my email about getting a weekly digest of ignored threads?
 13:53 < bijoo_:#liferay> jhf: I did; that'd help; it's pull vs. push model ;)
 15:58 < jardineworks:#liferay> hey jhf I see that the asset publisher has a PRP for categoryId. If I place a supported tag in my custom portlet, and they're on the same page, shouldn't my custom portlet be able to read that parameter from the AP?
+--- Log closed Thu May 07 00:00:01 2015
