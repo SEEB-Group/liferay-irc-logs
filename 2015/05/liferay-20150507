@@ -20,3 +20,4 @@
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 04:08 < Andrea__:#liferay> Hi all! how ca i hide a private page of a site to all roles except one?
 05:43 < ikb_:#liferay> i have some assetentry that point to non existing entities
+05:43 < ikb_:#liferay> how can i clean the asseentry table?
