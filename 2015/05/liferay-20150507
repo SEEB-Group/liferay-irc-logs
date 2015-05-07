@@ -22,3 +22,4 @@
 05:43 < ikb_:#liferay> i have some assetentry that point to non existing entities
 05:43 < ikb_:#liferay> how can i clean the asseentry table?
 06:05 < Axxell:#liferay> hi guys, problem: trying to get groupid and companyid inside scheduler message of my portlet, but cant get themedisplay to get them
+06:33 < hufg:#liferay> ikb_: how it's non existing?
