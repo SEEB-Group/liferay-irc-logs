@@ -35,3 +35,4 @@
 06:35 < [Enrico]:#liferay> hi there. I've a page where I cannot give the Guest role permission to view for some reason. Any clue what can it be? Use LR 6.2 GA4
 06:35 < hufg:#liferay> just hard code that sucker if you know the groupid and company id already
 06:35 < hufg:#liferay> and it wont change
+06:35 < hufg:#liferay> make it configurable?
