@@ -57,3 +57,4 @@
 07:02 < [Enrico]:#liferay> guest Role*
 07:12 < [Enrico]:#liferay> oh nice it is actually checking the permission of the previous page in the display order
 07:13 < [Enrico]:#liferay> so basically I just need to keep a fake page with the correct permission before that.
+07:33 < Axxell:#liferay> what im doing with the message scheduler is to update data which i import from AD
