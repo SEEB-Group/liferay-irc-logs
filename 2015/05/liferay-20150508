@@ -27,3 +27,4 @@
 10:32 < bijoo_:#liferay> ducktype: "i'm reading all around that should be supprted in exclusive mode" where are you reading that? I am not sure
 10:32 < bijoo_:#liferay> ducktype: from top of my head, spec says optional
 10:32 < bijoo_:#liferay> ducktype: can't use resource phase to achieve the same?
+10:32 < bijoo_:#liferay> e.g. serveResource instead of render
