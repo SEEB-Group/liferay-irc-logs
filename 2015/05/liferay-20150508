@@ -36,3 +36,4 @@
 10:48 < jardineworks:#liferay> bijoo_, how's your asset publisher experience.
 10:54 < jardineworks:#liferay> bijoo_, I need to make sure that my Asset being rendered on a display page included a prp for the categoryId -- https://www.liferay.com/community/forums/-/message_boards/message/53599635
 10:54 < jardineworks:#liferay> any chance you have faced a similar issue?
+11:02 < ducktype:#liferay> adding p_p_lifecycle=2 means call the serveResource method on the portlet?
