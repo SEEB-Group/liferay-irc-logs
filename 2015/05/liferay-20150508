@@ -21,3 +21,4 @@
 09:52 < ducktype:#liferay> seems it should work
 09:52 < ducktype:#liferay> but after 3 days i can't get it to work
 09:53 < ducktype:#liferay> i'm setting image/jpeg and i still get text/html;charset=utf8
+09:55 < ducktype:#liferay> public void doView(RenderRequest renderRequest, RenderResponse renderResponse) {   renderResponse.setContentType("image/jpeg");   try {      renderResponse.getWriter().write("TEST");   } catch (Exception e2) {} }
