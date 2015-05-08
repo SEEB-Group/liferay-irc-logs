@@ -16,3 +16,4 @@
 09:49 < ducktype:#liferay> someone can help about renderresponse.setcontenttype() from a portlet?
 09:49 < ducktype:#liferay> i'm reading all around that should be supprted in exclusive mode
 09:49 < ducktype:#liferay> but still i can't set arbitrary mime types
+09:52 < ducktype:#liferay> also reading the actual source code
