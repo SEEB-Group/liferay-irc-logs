@@ -38,3 +38,4 @@
 10:54 < jardineworks:#liferay> any chance you have faced a similar issue?
 11:02 < ducktype:#liferay> adding p_p_lifecycle=2 means call the serveResource method on the portlet?
 11:04 < jardineworks:#liferay> ducktype, yep
+11:05 < bijoo_:#liferay> jardineworks: i use AP as starting point portlet
