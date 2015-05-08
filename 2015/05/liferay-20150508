@@ -28,3 +28,4 @@
 10:32 < bijoo_:#liferay> ducktype: from top of my head, spec says optional
 10:32 < bijoo_:#liferay> ducktype: can't use resource phase to achieve the same?
 10:32 < bijoo_:#liferay> e.g. serveResource instead of render
+10:35 < ducktype:#liferay> how can i trigger serveResource?
