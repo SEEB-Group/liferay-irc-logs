@@ -24,3 +24,4 @@
 09:55 < ducktype:#liferay> public void doView(RenderRequest renderRequest, RenderResponse renderResponse) {   renderResponse.setContentType("image/jpeg");   try {      renderResponse.getWriter().write("TEST");   } catch (Exception e2) {} }
 09:55 < ducktype:#liferay> i see "TEST" in the output but the content-type is not affectedù
 10:21 < ducktype:#liferay> my portlet url is: ?p_p_id=portlet_WAR_portlet&p_p_state=exclusive
+10:32 < bijoo_:#liferay> ducktype: "i'm reading all around that should be supprted in exclusive mode" where are you reading that? I am not sure
