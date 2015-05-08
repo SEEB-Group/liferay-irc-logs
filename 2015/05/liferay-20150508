@@ -18,3 +18,4 @@
 09:49 < ducktype:#liferay> but still i can't set arbitrary mime types
 09:52 < ducktype:#liferay> also reading the actual source code
 09:52 < ducktype:#liferay> https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portlet/MimeResponseImpl.java
+09:52 < ducktype:#liferay> seems it should work
