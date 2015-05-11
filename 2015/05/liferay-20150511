@@ -1,0 +1,14 @@
+--- Log opened Mon May 11 00:00:09 2015
+--- Log opened Mon May 11 03:21:05 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ Gorith_     ] [ josuebc    ] [ Naenyn    ] [ twen  ] 
+03:21 [ abeym     ] [ henriquev   ] [ kravigupta ] [ nicolas_FR] [ zhaiyz] 
+03:21 [ bijoo     ] [ hufg        ] [ MagnoBooter] [ quercus   ] 
+03:21 [ Bryanstein] [ jardineworks] [ marcoceppi ] [ rocknroll_] 
+03:21 [ doged     ] [ jbub        ] [ modd_      ] [ Tm_T      ] 
+03:21 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 6 secs
+04:57 < Andrea___:#liferay> hi all, i have a custom field "place of birth" and i want it to be shown under the job title in the my account portlet, and not in the Custom Fields jsp. how can i do this?
