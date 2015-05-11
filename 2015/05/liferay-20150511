@@ -22,3 +22,4 @@
 09:39 < Andrea___:#liferay> i'm trying to customize the My Account portlet, for example i'm trying to show custom fields in the account details, where first name is shown, how can i do this?
 09:49 < jardineworks:#liferay> Andrea___, I think there is a taglib for expando attributes.
 09:49 < jardineworks:#liferay> you could hook the jsp for MyAccount and add the field,
+10:35 < Andrea___:#liferay> hi jardine
