@@ -70,3 +70,4 @@
 08:25 < Andrea_:#liferay> ok, thanks
 08:25 < hufg:#liferay> more complex portlets jsf is a valid choice
 08:25 < hufg:#liferay> just can't make the ui as cutting edge as with angular
+08:26 < hufg:#liferay> my point being with the scriptlets they have functionality that would be moved into the backend and given as request parameters etc. and it's insanity to start doing that for liferay jsp
