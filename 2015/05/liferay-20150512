@@ -109,3 +109,4 @@
 11:31 < hufg:#liferay> but could someone tell my why the fuck is every functionality available in documents and media without any permissions
 12:41 < Andrea_:#liferay> hi all , can someone explain me this ? disabled='<%= !UsersAdminUtil.hasUpdateFieldPermission(permissionChecker, user, selUser, "prefix") %>'
 13:43 < Stormtrooper:#liferay> If open link as guest (www.site.com/web/sraging/anyPage) Server send infinity redirect and server close connection....
+13:43 < Stormtrooper:#liferay> (Stormtrooper) If open link as guest (www.site.com/web/staging/anyPage) Server send infinity redirect and server close connection....***
