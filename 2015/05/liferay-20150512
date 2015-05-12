@@ -75,3 +75,4 @@
 08:30 < hufg:#liferay> it's beneficial to make the framework choice uniform across the projects, ie. everything with basic jsp, everything with angular and so forth
 08:50 < Andrea_:#liferay> thanks hufg, one little more question about technology..Is the way you call object in jsp the same in JSF? for example the current user
 08:51 < hufg:#liferay> uhuh it's basicly the same but you don't have any automatic binding
+08:51 < hufg:#liferay> and you have to manually add everything to request parameters
