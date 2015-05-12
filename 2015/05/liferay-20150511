@@ -44,3 +44,5 @@
 13:50 < modd:#liferay> recompile?
 13:51 < modd:#liferay> if you want to change a class, you could do a EXT-plugin
 13:51 < modd:#liferay> which is some kind of "recompile"
+15:04 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Tue May 12 00:00:04 2015
