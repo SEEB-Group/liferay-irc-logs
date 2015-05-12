@@ -87,3 +87,4 @@
 08:55 < hufg:#liferay> not sure i guess you have to encapsulate it into some bean
 08:55 < Andrea_:#liferay> Do i have to Define my own UserManagedBean?
 08:55 < hufg:#liferay> in jsp you have that some tag which gives you predefined objects portlet:defineObjects
+08:55 < hufg:#liferay> yeah probably
