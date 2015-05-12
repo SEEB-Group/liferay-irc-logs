@@ -84,3 +84,4 @@
 08:54 < Andrea_:#liferay> Ok, i define managed beans and use in the .xhtml but for the objects that already exist like user how do i do
 08:54 < hufg:#liferay> oh you mean call the object from view?
 08:54 < Andrea_:#liferay> yes
+08:55 < hufg:#liferay> not sure i guess you have to encapsulate it into some bean
