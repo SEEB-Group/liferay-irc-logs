@@ -53,3 +53,4 @@
 08:14 < [ru|de|en]CyberK:#liferay> what do u will do?
 08:20 < hufg:#liferay> nothing
 08:20 < hufg:#liferay> they are full of scriptlets anyhow
+08:20 < hufg:#liferay> you'd need some backend to abstract away the functionality
