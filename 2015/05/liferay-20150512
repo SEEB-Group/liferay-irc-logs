@@ -92,3 +92,4 @@
 08:56 < Andrea_:#liferay> Ok, I'm asking because the JSF tutorial is so poor on the documentation
 08:57 < Andrea_:#liferay> It learns you to make just a portlet and add a primefaces calendar =.='
 08:57 < Andrea_:#liferay> teach*
+09:00 < Andrea_:#liferay> hufg, if I tell you that I need to make ONLY these fields editable by a User in MyAccount portlet : phone, additional emails,istant messaging, photo. How would you do that?
