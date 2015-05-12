@@ -73,3 +73,4 @@
 08:26 < hufg:#liferay> my point being with the scriptlets they have functionality that would be moved into the backend and given as request parameters etc. and it's insanity to start doing that for liferay jsp
 08:27 < hufg:#liferay> so you live with scriptlets
 08:30 < hufg:#liferay> it's beneficial to make the framework choice uniform across the projects, ie. everything with basic jsp, everything with angular and so forth
+08:50 < Andrea_:#liferay> thanks hufg, one little more question about technology..Is the way you call object in jsp the same in JSF? for example the current user
