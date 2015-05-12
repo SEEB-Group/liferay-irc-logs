@@ -82,3 +82,4 @@
 08:53 < hufg:#liferay> no in jsp, in jsf you just define beans and "bind"/use them in views
 08:54 < hufg:#liferay> for jsp portlets i'd use spring because you can pass objects from action method to render phase
 08:54 < Andrea_:#liferay> Ok, i define managed beans and use in the .xhtml but for the objects that already exist like user how do i do
+08:54 < hufg:#liferay> oh you mean call the object from view?
