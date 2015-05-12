@@ -101,3 +101,4 @@
 09:13 < hufg:#liferay> yepp
 09:14 < Andrea_:#liferay> For the reason the logic is every time the same, it isn't good to repeat it in every jsp..so where can i put my method to check the roles?
 09:14 < Andrea_:#liferay> Do i have to make an ext plugin and modify some liferay classes?
+09:28 < Andrea_:#liferay> marco sei italiano?
