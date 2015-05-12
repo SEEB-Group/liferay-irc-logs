@@ -59,3 +59,4 @@
 08:21 < Andrea_:#liferay> My boss says scriptlets are obsolete
 08:21 < hufg:#liferay> yes they are but in liferay they aren't
 08:21 < hufg:#liferay> you override liferay hook -> live with scriptlets
+08:21 < hufg:#liferay> liferay jsp with hook
