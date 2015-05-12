@@ -88,3 +88,4 @@
 08:55 < Andrea_:#liferay> Do i have to Define my own UserManagedBean?
 08:55 < hufg:#liferay> in jsp you have that some tag which gives you predefined objects portlet:defineObjects
 08:55 < hufg:#liferay> yeah probably
+08:56 < hufg:#liferay> not 100% sure but i'd say so
