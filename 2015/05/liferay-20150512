@@ -89,3 +89,4 @@
 08:55 < hufg:#liferay> in jsp you have that some tag which gives you predefined objects portlet:defineObjects
 08:55 < hufg:#liferay> yeah probably
 08:56 < hufg:#liferay> not 100% sure but i'd say so
+08:56 < Andrea_:#liferay> Ok, I'm asking because the JSF tutorial is so poor on the documentation
