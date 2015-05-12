@@ -99,3 +99,4 @@
 09:02 < Andrea_:#liferay> yes , user and organization portlet , 125 from liferay, it is that
 09:03 < Andrea_:#liferay> I embedded it in a private page and I'm trying to Hook it
 09:13 < hufg:#liferay> yepp
+09:14 < Andrea_:#liferay> For the reason the logic is every time the same, it isn't good to repeat it in every jsp..so where can i put my method to check the roles?
