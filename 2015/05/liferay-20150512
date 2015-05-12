@@ -41,3 +41,4 @@
 07:45 < [ru|de|en]CyberK:#liferay> and how can it help me?
 07:47 < hufg:#liferay> it let's you overwrite any class in liferay
 07:47 < ikb:#liferay> a way to alter lifray core
+07:48 < hufg:#liferay> so you take your ee patch, pray to god, put the patched class into ext-plugin and deploy it
