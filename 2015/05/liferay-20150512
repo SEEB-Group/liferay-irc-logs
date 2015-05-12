@@ -78,3 +78,4 @@
 08:51 < hufg:#liferay> and you have to manually add everything to request parameters
 08:51 < Andrea_:#liferay> for example in a hook i did i wrote a scriptlet with User currentUser = PortalUtil.getUser(request);
 08:52 < hufg:#liferay> to access currentUser in jsp you something like request.addParameter("param", userObject)
+08:53 < Andrea_:#liferay> do you mean jsf?
