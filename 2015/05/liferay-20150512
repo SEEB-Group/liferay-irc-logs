@@ -79,3 +79,4 @@
 08:51 < Andrea_:#liferay> for example in a hook i did i wrote a scriptlet with User currentUser = PortalUtil.getUser(request);
 08:52 < hufg:#liferay> to access currentUser in jsp you something like request.addParameter("param", userObject)
 08:53 < Andrea_:#liferay> do you mean jsf?
+08:53 < hufg:#liferay> no in jsp, in jsf you just define beans and "bind"/use them in views
