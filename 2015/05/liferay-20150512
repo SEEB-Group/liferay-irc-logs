@@ -96,3 +96,4 @@
 09:01 < hufg:#liferay> uhh the liferay portlet? not sure probably override the portlet jsp to make them noneditable if the user doesn't have some role
 09:02 < hufg:#liferay> there may be some config for this also
 09:02 < Andrea_:#liferay> so i have to find every field and add the logic
+09:02 < Andrea_:#liferay> yes , user and organization portlet , 125 from liferay, it is that
