@@ -57,3 +57,4 @@
 08:21 < hufg:#liferay> and it's useless to remove the scriptlets and use jstl
 08:21 < hufg:#liferay> because you won't get it all away anyhow
 08:21 < Andrea_:#liferay> My boss says scriptlets are obsolete
+08:21 < hufg:#liferay> yes they are but in liferay they aren't
