@@ -56,3 +56,4 @@
 08:20 < hufg:#liferay> you'd need some backend to abstract away the functionality
 08:21 < hufg:#liferay> and it's useless to remove the scriptlets and use jstl
 08:21 < hufg:#liferay> because you won't get it all away anyhow
+08:21 < Andrea_:#liferay> My boss says scriptlets are obsolete
