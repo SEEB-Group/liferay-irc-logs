@@ -95,3 +95,4 @@
 09:00 < Andrea_:#liferay> hufg, if I tell you that I need to make ONLY these fields editable by a User in MyAccount portlet : phone, additional emails,istant messaging, photo. How would you do that?
 09:01 < hufg:#liferay> uhh the liferay portlet? not sure probably override the portlet jsp to make them noneditable if the user doesn't have some role
 09:02 < hufg:#liferay> there may be some config for this also
+09:02 < Andrea_:#liferay> so i have to find every field and add the logic
