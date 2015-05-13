@@ -20,3 +20,4 @@
 10:33 < bijoo__:#liferay> Andrea_: classPK's entity's primary key
 10:33 < Andrea_:#liferay> thanks, how can i retrieve that?
 10:33 < bijoo__:#liferay> Andrea_: because probably selUser isn't exist?
+10:33 < Andrea_:#liferay> yes it is called at the beginning of the jsp
