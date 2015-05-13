@@ -106,3 +106,4 @@
 13:06 < Andrea_:#liferay> maybe that's because I don't know Javascript :/
 13:08 < Andrea_:#liferay> i also discovered that if i edit "editable" attribute to true, it shows in users_admin too -.-
 13:15 < bijoo_:#liferay> Andrea_: try the BeanShell on the Groovy instead
+13:15 < bijoo_:#liferay> Andrea_: I never use the JavaScript version
