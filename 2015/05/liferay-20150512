@@ -110,3 +110,6 @@
 12:41 < Andrea_:#liferay> hi all , can someone explain me this ? disabled='<%= !UsersAdminUtil.hasUpdateFieldPermission(permissionChecker, user, selUser, "prefix") %>'
 13:43 < Stormtrooper:#liferay> If open link as guest (www.site.com/web/sraging/anyPage) Server send infinity redirect and server close connection....
 13:43 < Stormtrooper:#liferay> (Stormtrooper) If open link as guest (www.site.com/web/staging/anyPage) Server send infinity redirect and server close connection....***
+22:28 -!- mode/#liferay [+o jhf] by ChanServ
+23:47 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Wed May 13 00:00:58 2015
