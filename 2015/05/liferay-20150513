@@ -64,3 +64,4 @@
 12:20 <@jhf:#liferay> I *think*
 12:20 <@jhf:#liferay> since this is in a macro call I think there might be something special you have to do
 12:21 <@jhf:#liferay> I think you're getting that exception because it's somehow passing a string instead of a long
+12:24 < jardineworks:#liferay> jhf, I tried doing a getterUtil.. but no dice.
