@@ -118,3 +118,4 @@
 13:17 < bijoo_:#liferay> Andrea_: so usually I try script console
 13:18 < jardineworks:#liferay> does anyone know if it is possible to get an "articleId" from either an assetEntry or the assetRenderer?
 13:21 < jardineworks:#liferay> basically, I am trying to figure out what attribute from the "Asset Publisher portlet (display/full_content.jsp)" I can share globally so that I can use the id in another portlet to rretrieve the journal article that is being rendered.
+13:22 < bijoo_:#liferay> jardineworks: yes, though may have to get JournalArticle first using assetEntry.getClassPk
