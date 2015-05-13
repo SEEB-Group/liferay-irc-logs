@@ -19,3 +19,4 @@
 10:26 < Andrea_:#liferay> http://pastebin.com/MwGZCLQS this is working fine in MyAccount portlet but it does not show in User_admin portlet and i don't know why
 10:33 < bijoo__:#liferay> Andrea_: classPK's entity's primary key
 10:33 < Andrea_:#liferay> thanks, how can i retrieve that?
+10:33 < bijoo__:#liferay> Andrea_: because probably selUser isn't exist?
