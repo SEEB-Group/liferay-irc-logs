@@ -76,3 +76,4 @@
 12:29 <@jhf:#liferay> of foo. Or, another example: someParam=3/4 and someParam="${3/4}" are different. If the directive wants a numerical value for someParam, it will not like the second variation. Do not exchange these.
 12:29 <@jhf:#liferay> so jardineworks try plid=plid
 12:29 <@jhf:#liferay> instead of plid="${plid}"
+12:29 < bijoo_:#liferay> interesting find jhf, thank you
