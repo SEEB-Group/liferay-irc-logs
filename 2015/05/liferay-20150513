@@ -62,3 +62,4 @@
 12:20 <@jhf:#liferay> I think that will end up converting the plid object to a string
 12:20 <@jhf:#liferay> ${plid} tells freemarker to "render" the variable, i.e. toString
 12:20 <@jhf:#liferay> I *think*
+12:20 <@jhf:#liferay> since this is in a macro call I think there might be something special you have to do
