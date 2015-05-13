@@ -60,3 +60,4 @@
 12:19 < Andrea_:#liferay> enjoy this moment
 12:19 <@jhf:#liferay> a random thought - <@liferay_portlet.actionURL var="myVar" plid="${plid}">
 12:20 <@jhf:#liferay> I think that will end up converting the plid object to a string
+12:20 <@jhf:#liferay> ${plid} tells freemarker to "render" the variable, i.e. toString
