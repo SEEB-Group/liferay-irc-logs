@@ -67,3 +67,4 @@
 12:24 < jardineworks:#liferay> jhf, I tried doing a getterUtil.. but no dice.
 12:24 < jardineworks:#liferay> is there maybe a free marker built in function?
 12:24 < jardineworks:#liferay> like ... plid?long or something?
+12:24 <@jhf:#liferay> yeah something like that
