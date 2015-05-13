@@ -40,3 +40,4 @@
 11:16 < josuebc:#liferay> Hi there. I am setting up a folder in Document Library so it will be viewed by every Site Member and just managed by useres in a specific Role. I am able to grant full access to the specific Role for this one folder but when they upload a document this document is not viewable by every Site Member.
 11:16 < josuebc:#liferay> Any ideas how to do this?. also, when a user in the manager role for this folder upload a document, at the end of the form where it says "Viewable By", just Guest Role and Owner choices appear. This is within a private page so Guest Role doesn't work.
 11:18 < bijoo_:#liferay> josuebc: so trying to set default permissions? When uploading document can set permission
+11:18 < josuebc:#liferay> bijoo_: How can one set defalut permissions for uploaded documents?
