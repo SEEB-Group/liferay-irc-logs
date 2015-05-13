@@ -66,3 +66,4 @@
 12:21 <@jhf:#liferay> I think you're getting that exception because it's somehow passing a string instead of a long
 12:24 < jardineworks:#liferay> jhf, I tried doing a getterUtil.. but no dice.
 12:24 < jardineworks:#liferay> is there maybe a free marker built in function?
+12:24 < jardineworks:#liferay> like ... plid?long or something?
