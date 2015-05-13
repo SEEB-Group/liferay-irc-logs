@@ -16,3 +16,4 @@
 06:54 < Andrea_:#liferay> If I want to view an user profile without being able to edit anything, how can i do this?
 10:19 -!- mode/#liferay [+o jhf] by ChanServ
 10:24 < Andrea_:#liferay> HI all, anyone knows what is classPK attribute in the LR taglib ?
+10:26 < Andrea_:#liferay> http://pastebin.com/MwGZCLQS this is working fine in MyAccount portlet but it does not show in User_admin portlet and i don't know why
