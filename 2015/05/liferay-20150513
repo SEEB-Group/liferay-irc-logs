@@ -38,3 +38,4 @@
 10:38 < Andrea_:#liferay> nice, thank you. Do you aldready have a solution in mind or not?
 10:39 < bijoo__:#liferay> Andrea_: I don't have the code as I'm tight on time
 11:16 < josuebc:#liferay> Hi there. I am setting up a folder in Document Library so it will be viewed by every Site Member and just managed by useres in a specific Role. I am able to grant full access to the specific Role for this one folder but when they upload a document this document is not viewable by every Site Member.
+11:16 < josuebc:#liferay> Any ideas how to do this?. also, when a user in the manager role for this folder upload a document, at the end of the form where it says "Viewable By", just Guest Role and Owner choices appear. This is within a private page so Guest Role doesn't work.
