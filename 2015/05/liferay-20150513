@@ -75,3 +75,4 @@
 12:29 <@jhf:#liferay> Also, it is important to realize that -- according to the already explained FTL expression rules -- someParam=foo and someParam="${foo}" are very different. In the fist case, you use the value of variable foo as the value of the parameter. In the second case, you use a string literal with interpolation, so the value of the parameter will be a string -- in this case, the value of foo rendered to text -- regardless of the type (as number, date, etc
 12:29 <@jhf:#liferay> of foo. Or, another example: someParam=3/4 and someParam="${3/4}" are different. If the directive wants a numerical value for someParam, it will not like the second variation. Do not exchange these.
 12:29 <@jhf:#liferay> so jardineworks try plid=plid
+12:29 <@jhf:#liferay> instead of plid="${plid}"
