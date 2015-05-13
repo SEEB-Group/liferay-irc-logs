@@ -123,3 +123,4 @@
 13:24 < jardineworks:#liferay> I don't even need the arcticle to be honest, I just need the articleId in fact.
 13:25 < jardineworks:#liferay> the article id is always one less than the resourcePrimKey :)
 13:25 < jardineworks:#liferay> resourcePrimKey-- ? ;)
+13:25 < jardineworks:#liferay> err.. --resourcePrimKey I mean :)
