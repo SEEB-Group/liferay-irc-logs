@@ -41,3 +41,4 @@
 11:16 < josuebc:#liferay> Any ideas how to do this?. also, when a user in the manager role for this folder upload a document, at the end of the form where it says "Viewable By", just Guest Role and Owner choices appear. This is within a private page so Guest Role doesn't work.
 11:18 < bijoo_:#liferay> josuebc: so trying to set default permissions? When uploading document can set permission
 11:18 < josuebc:#liferay> bijoo_: How can one set defalut permissions for uploaded documents?
+11:20 < jardineworks:#liferay> jhf, ! \o/
