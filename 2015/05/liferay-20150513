@@ -102,3 +102,4 @@
 12:54 < Andrea_:#liferay> http://pastebin.com/MwGZCLQS this attribute is showed in myaccount portlet but not in users_admin portlet, anyone can explain me this?
 12:54 < Andrea_:#liferay> this custom field*
 13:02 < bijoo_:#liferay> Andrea_: did you try the suggestion I gave you? What happened when you tried the script console?
+13:05 < Andrea_:#liferay> i tried the script console but everytime i get some error because it doesn't like my script..
