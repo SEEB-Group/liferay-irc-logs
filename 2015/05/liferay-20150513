@@ -46,3 +46,4 @@
 11:21 < josuebc:#liferay> bijoo_: Ok, never mind. I just fixed it. Let's call the manager role for the folder "Folder Manager". I have full access to the role Folder Manager in the folder "Folder" then I went to Roles and assigned permissons to "set permissions" to the Folder Manager in the role Site Membes.
 11:21 <@jhf:#liferay> haha yeah been heads down the last week on the symposium mobile app
 11:21 < josuebc:#liferay> Now when they add a file it will give them the option to be viewable by every site member.
+11:21 < jardineworks:#liferay> jhf, bug? https://www.liferay.com/community/forums/-/message_boards/message/53744090
