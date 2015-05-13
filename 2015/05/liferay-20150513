@@ -30,3 +30,4 @@
 10:35 < Andrea_:#liferay> and Luogo di Nascita is an expando entity right?
 10:37 < bijoo__:#liferay> Andrea_: as for taglib, this is what is get called
 10:37 < bijoo__:#liferay> Andrea_: https://github.com/liferay/liferay-portal/blob/6.2.2-ga3/portal-web/docroot/html/taglib/ui/custom_attribute/page.jsp
+10:37 < bijoo__:#liferay> Andrea_: yes so it's the custom attribute name
