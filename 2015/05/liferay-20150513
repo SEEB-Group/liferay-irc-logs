@@ -120,3 +120,4 @@
 13:21 < jardineworks:#liferay> basically, I am trying to figure out what attribute from the "Asset Publisher portlet (display/full_content.jsp)" I can share globally so that I can use the id in another portlet to rretrieve the journal article that is being rendered.
 13:22 < bijoo_:#liferay> jardineworks: yes, though may have to get JournalArticle first using assetEntry.getClassPk
 13:24 < jardineworks:#liferay> bijoo_, I tried that, but the classPK actually maps to the resourcePrimKey in the journal article table (I think). If I use the method to get based on resourcePrimKey .. then I get a List<> instead of just an article.
+13:24 < jardineworks:#liferay> I don't even need the arcticle to be honest, I just need the articleId in fact.
