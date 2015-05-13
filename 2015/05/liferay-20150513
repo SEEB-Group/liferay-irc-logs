@@ -28,3 +28,4 @@
 10:35 < bijoo__:#liferay> Andrea_: it has getPrimaryKey method there
 10:35 < bijoo__:#liferay> Andrea_: each entity has a primary key
 10:35 < Andrea_:#liferay> and Luogo di Nascita is an expando entity right?
+10:37 < bijoo__:#liferay> Andrea_: as for taglib, this is what is get called
