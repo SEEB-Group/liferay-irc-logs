@@ -121,3 +121,4 @@
 13:22 < bijoo_:#liferay> jardineworks: yes, though may have to get JournalArticle first using assetEntry.getClassPk
 13:24 < jardineworks:#liferay> bijoo_, I tried that, but the classPK actually maps to the resourcePrimKey in the journal article table (I think). If I use the method to get based on resourcePrimKey .. then I get a List<> instead of just an article.
 13:24 < jardineworks:#liferay> I don't even need the arcticle to be honest, I just need the articleId in fact.
+13:25 < jardineworks:#liferay> the article id is always one less than the resourcePrimKey :)
