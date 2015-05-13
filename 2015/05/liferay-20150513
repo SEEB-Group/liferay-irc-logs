@@ -112,3 +112,4 @@
 13:16 < bijoo_:#liferay> minor
 13:16 < Andrea_:#liferay> ok, thansk
 13:17 < bijoo_:#liferay> Andrea_: it helps so you can pinpoint the logic; you can also turn on debugger mode
+13:17 < bijoo_:#liferay> Andrea_: and literally step through the taglib
