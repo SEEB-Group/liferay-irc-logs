@@ -128,3 +128,4 @@
 13:26 < jardineworks:#liferay> it's not always -1
 13:27 < bijoo_:#liferay> jardineworks: use of AssentEntry getClassPK() with JournalArticleLocalServiceUtil.getLatestArticle(classPK)
 13:27 < bijoo_:#liferay> jardineworks: http://www.liferay.com/community/forums/-/message_boards/message/4596421
+13:27 < bijoo_:#liferay> you can get latest approved article
