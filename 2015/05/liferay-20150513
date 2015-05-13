@@ -25,3 +25,4 @@
 10:34 < bijoo__:#liferay> Andrea_: any errors associated too?
 10:34 < Andrea_:#liferay> nope , console is clean
 10:35 < bijoo__:#liferay> Andrea_: https://docs.liferay.com/portal/6.2/javadocs-all/com/liferay/portlet/asset/model/AssetEntry.html
+10:35 < bijoo__:#liferay> Andrea_: it has getPrimaryKey method there
