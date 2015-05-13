@@ -77,3 +77,4 @@
 12:29 <@jhf:#liferay> so jardineworks try plid=plid
 12:29 <@jhf:#liferay> instead of plid="${plid}"
 12:29 < bijoo_:#liferay> interesting find jhf, thank you
+12:29 <@jhf:#liferay> from http://freemarker.org/docs/dgui_misc_userdefdir.html
