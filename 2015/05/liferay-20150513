@@ -126,3 +126,4 @@
 13:25 < jardineworks:#liferay> err.. --resourcePrimKey I mean :)
 13:25 < jardineworks:#liferay> damn
 13:26 < jardineworks:#liferay> it's not always -1
+13:27 < bijoo_:#liferay> jardineworks: use of AssentEntry getClassPK() with JournalArticleLocalServiceUtil.getLatestArticle(classPK)
