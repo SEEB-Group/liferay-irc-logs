@@ -27,3 +27,4 @@
 10:35 < bijoo__:#liferay> Andrea_: https://docs.liferay.com/portal/6.2/javadocs-all/com/liferay/portlet/asset/model/AssetEntry.html
 10:35 < bijoo__:#liferay> Andrea_: it has getPrimaryKey method there
 10:35 < bijoo__:#liferay> Andrea_: each entity has a primary key
+10:35 < Andrea_:#liferay> and Luogo di Nascita is an expando entity right?
