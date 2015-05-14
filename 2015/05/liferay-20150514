@@ -16,3 +16,5 @@
 11:12 < Andrea___:#liferay> How can I add a line in language-ext.properties?
 14:52 < bijoo_:#liferay> <3ing Mobile App SDK; thank you!
 14:53 < bijoo_:#liferay> Andrea___: You can use hook to update language: http://www.liferay.com/community/forums/-/message_boards/message/10584034
+15:50 -!- mode/#liferay [+o jhf] by ChanServ
+16:16 < bijoo_:#liferay> +1 for Liferay Screens for new methods; otherwise would have to write custom ones: DDL methods via json calls
