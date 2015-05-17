@@ -14,3 +14,4 @@
 11:14 < ikb_:#liferay> i need an help with the getURLEdit method of an assetrenderer
 11:15 < ikb_:#liferay> how can i contruct a url than point to my edit.jsp page
 11:15 < ikb_:#liferay> i have seen examples that uses getControlPanelPlid(liferayPortletRequest)
+--- Log closed Sat May 16 00:00:03 2015
