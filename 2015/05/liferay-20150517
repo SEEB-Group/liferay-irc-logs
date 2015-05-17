@@ -15,3 +15,4 @@
 11:17 < YamakasY:#liferay> hi!
 11:25 < _Andrea_:#liferay> hi!
 11:26 < _Andrea_:#liferay> I added a section in MyAccount portlet, this section is called user-documents ( i did it via ext plugin)
+11:27 < _Andrea_:#liferay> but i don't know how to add language property so that user-documents is translated in Documenti
