@@ -16,3 +16,4 @@
 11:25 < _Andrea_:#liferay> hi!
 11:26 < _Andrea_:#liferay> I added a section in MyAccount portlet, this section is called user-documents ( i did it via ext plugin)
 11:27 < _Andrea_:#liferay> but i don't know how to add language property so that user-documents is translated in Documenti
+11:27 < _Andrea_:#liferay> this is tha jsp http://i.gyazo.com/46f2f8cb75b70c6722ece3a3d071f151.png
