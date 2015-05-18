@@ -1,0 +1,13 @@
+--- Log opened Mon May 18 00:00:03 2015
+--- Log opened Mon May 18 03:21:05 2015
+03:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+03:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+03:21 [Users #liferay]
+03:21 [@ChanServ  ] [ doged    ] [ jardineworks] [ marcoceppi] [ rocknroll_] 
+03:21 [ abeym     ] [ Gorith   ] [ jbub        ] [ modd_     ] [ Tm_T      ] 
+03:21 [ bijoo     ] [ henriquev] [ josuebc     ] [ Naenyn    ] [ vsingleton] 
+03:21 [ Bryanstein] [ iDavid_  ] [ MagnoBooter ] [ quercus   ] [ YamakasY  ] 
+03:21 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+03:21 -!- Irssi: Join to #liferay was synced in 5 secs
+06:18 < Andrea_:#liferay> morning all! what's the purpose of init-ext.jsp ? its a blank jsp that in included via page import in every init.jsp page

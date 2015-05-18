@@ -21,3 +21,4 @@
 13:33 < YamakasY:#liferay> ok,  installed liferay on MySQL, DB was created well but it starts with hypersonic instead of mysql
 13:38 < YamakasY:#liferay> anyone an idea
 14:21 < _Andrea_:#liferay> <%@ include file......etc. Does this directive makes me able to use variables that i have declared in the included file???????
+--- Log closed Mon May 18 00:00:03 2015
