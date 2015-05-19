@@ -13,3 +13,4 @@
 03:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 03:21 -!- Irssi: Join to #liferay was synced in 5 secs
 03:50 < [ru|de|en]CyberK:#liferay> any1 here?
+03:51 < [ru|de|en]CyberK:#liferay> with staging -> guest try open link = www.host.com/web/staging/<anyPage> -> infinity rederect in URL as parameter -> result -> error 500 server close connection...
