@@ -20,3 +20,4 @@
 05:20 < ikb:#liferay> the bookmarks portlet to crete the edit url in the assetrenderer use this code
 05:20 < ikb:#liferay> PortletURL portletURL = liferayPortletResponse.createLiferayPortletURL(
 05:20 < ikb:#liferay> 			getControlPanelPlid(liferayPortletRequest), PortletKeys.BOOKMARKS,
+05:20 < ikb:#liferay> 			PortletRequest.RENDER_PHASE);
