@@ -23,3 +23,4 @@
 05:20 < ikb:#liferay> 			PortletRequest.RENDER_PHASE);
 05:20 < ikb:#liferay> so it request the portlet in the control panel
 05:21 < ikb:#liferay> how is possible that a normal user not owner is able to access the edit link
+05:21 < ikb:#liferay> i mean not owner of the site
