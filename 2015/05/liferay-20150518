@@ -19,3 +19,4 @@
 14:50 < Andrea_:#liferay> hi all, how can I add address types in myAccount portlet???
 14:51 < Andrea_:#liferay> I'm interested in adding and editing some of the pre-existent types
 15:23 < ACSpike[Work]:#liferay> Using Liferay 6.2 CE GA3. Attempting to proxy behind Apache. Accessing / gives a message that index.html is not found. How do I fix this?
+--- Log closed Tue May 19 00:00:04 2015
