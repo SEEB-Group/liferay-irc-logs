@@ -21,3 +21,4 @@
 05:20 < ikb:#liferay> PortletURL portletURL = liferayPortletResponse.createLiferayPortletURL(
 05:20 < ikb:#liferay> 			getControlPanelPlid(liferayPortletRequest), PortletKeys.BOOKMARKS,
 05:20 < ikb:#liferay> 			PortletRequest.RENDER_PHASE);
+05:20 < ikb:#liferay> so it request the portlet in the control panel
