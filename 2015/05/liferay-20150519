@@ -18,3 +18,4 @@
 03:53 < [ru|de|en]CyberK:#liferay> to "2" -> if install on clean TomCat-Server ebfor Piwik and after deploy LR.war, have many exception with deploying.
 05:19 < ikb:#liferay> hi all
 05:20 < ikb:#liferay> the bookmarks portlet to crete the edit url in the assetrenderer use this code
+05:20 < ikb:#liferay> PortletURL portletURL = liferayPortletResponse.createLiferayPortletURL(
