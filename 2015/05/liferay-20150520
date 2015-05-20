@@ -36,3 +36,4 @@
 09:53 < hufg:#liferay> helloo
 09:54 < hufg:#liferay> anyone nailed a ui requirement to have 100% width color of screen and fixed width content ? :D
 09:54 < hufg:#liferay> the way i see it you have to make content area 100% and then wrap everything to fixed size after defining bg color
+09:55 < hufg:#liferay> which is pretty dumb tbh
