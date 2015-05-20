@@ -10,3 +10,4 @@
 04:20 < nicolas_FR:#liferay> Axxell: no sorry
 04:24 < Axxell:#liferay> nicolas_FR: thanks for the answer anyways, cant just find what could cause the edit control to get the css class .controls-hidden
 04:27 < nicolas_FR:#liferay> Axxell: btw what I did is add a class to the body container by checking the role of the current user
+04:28 < nicolas_FR:#liferay> and then added some css to customize my display regarding this class
