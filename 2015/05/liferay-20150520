@@ -4,3 +4,4 @@
 03:44 < nicolas_FR:#liferay> Does someone know how to programmatically add a portlet to user's private page ?
 03:44 < nicolas_FR:#liferay> (and create a private page for user if it doesn't exist)
 04:01 < Axxell:#liferay> Hello fellow mamals, problem: I have given rights for some teams to edit specific web content articles, this works but for one specific user the "edit" icon below the web content is invisible. I have come to the conclusion that for some reason the dit controls toggle i set to invisible for that user, but because the toggle edit control icon is not shown, its state can not be changed
+04:01 < Axxell:#liferay> all other users work as they are supposed to
