@@ -31,3 +31,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 7 secs
 05:26 < nicolas_FR:#liferay> anyone know how to modify user's private pages (add portlets) by sql request ? Which tables are involved ?
+09:31 < jardineworks:#liferay> nicolas_FR, I suspect that it's the Layout table still, but that the type will be specific (I'm not sure which integer represents the private user pages)... but if you have that, then you can update the type settings with the stuff you need.
