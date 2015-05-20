@@ -16,3 +16,4 @@
 04:29 < nicolas_FR:#liferay> (note the "isAdmin" added)
 04:31 < Axxell:#liferay> ok, yeah well the strange thing is that it is functioning as intended for all other users.. tested also users dashboard, for some reason the edit controls go to invisible, with every refresh and do not persist
 04:32 < Axxell:#liferay> when all other users have theirs working as intended
+04:46 < nicolas_FR:#liferay> maybe double check the roles for some error... can't figure why it would be different
