@@ -12,3 +12,4 @@
 04:27 < nicolas_FR:#liferay> Axxell: btw what I did is add a class to the body container by checking the role of the current user
 04:28 < nicolas_FR:#liferay> and then added some css to customize my display regarding this class
 04:28 < nicolas_FR:#liferay> (I wanted to add some text in empty layouts zone for admins only)
+04:29 < nicolas_FR:#liferay> so in my init_custom.vm in my theme I have : #if ($is_signed_in && $isAdmin) 	#set ($css_class = "$css_class isAdmin") #end
