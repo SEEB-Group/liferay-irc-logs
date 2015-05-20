@@ -34,3 +34,4 @@
 09:31 < jardineworks:#liferay> nicolas_FR, I suspect that it's the Layout table still, but that the type will be specific (I'm not sure which integer represents the private user pages)... but if you have that, then you can update the type settings with the stuff you need.
 09:50 < nicolas_FR:#liferay> jardineworks : thanks. Btw I found how to add portlets from database. Now I would like to add private pages to users if they already don't have one
 09:53 < hufg:#liferay> helloo
+09:54 < hufg:#liferay> anyone nailed a ui requirement to have 100% width color of screen and fixed width content ? :D
