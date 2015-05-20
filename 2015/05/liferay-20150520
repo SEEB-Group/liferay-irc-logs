@@ -18,3 +18,16 @@
 04:32 < Axxell:#liferay> when all other users have theirs working as intended
 04:46 < nicolas_FR:#liferay> maybe double check the roles for some error... can't figure why it would be different
 05:00 < Axxell:#liferay> ive checked the role for her, se should have identical roles as another user, she still have her default visibility with edit buttons reverse
+--- Log opened Wed May 20 05:23:14 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ Gorith      ] [ josuebc    ] [ Naenyn    ] [ Tm_T      ] 
+05:23 [ abeym     ] [ henriquev   ] [ longbeach  ] [ nicolas_FR] [ topolik1  ] 
+05:23 [ Axxell    ] [ iDavid_     ] [ MagnoBooter] [ quercus   ] [ vsingleton] 
+05:23 [ bijoo     ] [ jardineworks] [ marcoceppi ] [ rocknroll_] [ YamakasY  ] 
+05:23 [ Bryanstein] [ jbub        ] [ modd_      ] [ sm`       ] 
+05:23 -!- Irssi: #liferay: Total of 24 nicks [1 ops, 0 halfops, 0 voices, 23 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 7 secs
+05:26 < nicolas_FR:#liferay> anyone know how to modify user's private pages (add portlets) by sql request ? Which tables are involved ?
