@@ -2,3 +2,4 @@
 02:49 < nicolas_FR:#liferay> hi ! Problem with private messaging and msg sending from A to B. Post is here : https://www.liferay.com/fr/community/forums/-/message_boards/message/54012659. If you can help it would be a relief :)
 03:16 < [ru|de|en]CyberK:#liferay> morning
 03:44 < nicolas_FR:#liferay> Does someone know how to programmatically add a portlet to user's private page ?
+03:44 < nicolas_FR:#liferay> (and create a private page for user if it doesn't exist)
