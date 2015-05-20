@@ -15,3 +15,4 @@
 04:29 < nicolas_FR:#liferay> so in my init_custom.vm in my theme I have : #if ($is_signed_in && $isAdmin) 	#set ($css_class = "$css_class isAdmin") #end
 04:29 < nicolas_FR:#liferay> (note the "isAdmin" added)
 04:31 < Axxell:#liferay> ok, yeah well the strange thing is that it is functioning as intended for all other users.. tested also users dashboard, for some reason the edit controls go to invisible, with every refresh and do not persist
+04:32 < Axxell:#liferay> when all other users have theirs working as intended
