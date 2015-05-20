@@ -13,3 +13,4 @@
 04:28 < nicolas_FR:#liferay> and then added some css to customize my display regarding this class
 04:28 < nicolas_FR:#liferay> (I wanted to add some text in empty layouts zone for admins only)
 04:29 < nicolas_FR:#liferay> so in my init_custom.vm in my theme I have : #if ($is_signed_in && $isAdmin) 	#set ($css_class = "$css_class isAdmin") #end
+04:29 < nicolas_FR:#liferay> (note the "isAdmin" added)
