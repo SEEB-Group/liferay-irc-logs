@@ -63,3 +63,4 @@
 11:09 < Andrea_:#liferay> i need to change that label
 11:10 < Andrea_:#liferay> I was thinking about editing a language_en and language_it property
 11:10 < Andrea_:#liferay> but i cant find the right value to override
+11:11 < jardineworks:#liferay> Andrea_, In the language_en.properties I can see -- mailing=Mailing
