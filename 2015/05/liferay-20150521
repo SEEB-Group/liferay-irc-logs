@@ -23,3 +23,4 @@
 10:17 < Andrea_:#liferay> damn thats not so easy, may I ask you a couple of things? i'm doing the last customization to end this thesis
 10:21 < jardineworks:#liferay> sure
 10:23 < Andrea_:#liferay> Do you remember the method to let HR Role edit some field that you made? well i needed to add that logic to all fields of myaccount portlet so i put that method in the init-ext.jsp so the variable editAllowed could be viewed in all myaccount jsps, then i added, via ext plugin, a section called Documenti where i need to put ID card
+10:25 < Andrea_:#liferay> now the id card is a text box custom field, but i need it to have 4 different fields: Number, Date of release,expiration date, type(it can be driving license or passport or id card)
