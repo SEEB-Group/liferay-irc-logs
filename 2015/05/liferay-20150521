@@ -36,3 +36,4 @@
 10:49 < jardineworks:#liferay> on the User object.
 10:52 < Andrea_:#liferay> then why can't i just override the jsp page and add those fields?
 10:53 < jardineworks:#liferay> Andrea_, override the custom attributes?
+10:54 < jardineworks:#liferay> If you add the custom attribtues (ExpandoValues) then they should just appear there.
