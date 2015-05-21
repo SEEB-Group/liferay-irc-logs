@@ -41,3 +41,4 @@
 10:54 < Andrea_:#liferay> <liferay-ui:custom-attribute
 10:55 < Andrea_:#liferay> and everything works fine, when i compile that field and click save, it will be saved
 10:56 < jardineworks:#liferay> Andrea_, which jsp are you editing?
+10:57 < jardineworks:#liferay> Andrea_, the one that the first name, last name, email address etc exist on?
