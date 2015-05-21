@@ -73,3 +73,4 @@
 11:13 < jardineworks:#liferay> Andrea_, you can look for it in the JSP as well... normally I just go to the language file in the portal-impl project (in the Liferay source code) and find the label that is being displayed.
 11:14 < Andrea_:#liferay> ok, so you downloaded the source code of liferay and imported the project in eclipse?
 11:15 < Andrea_:#liferay> the real question is , how do you explore liferay source code actually?
+11:36 < jardineworks:#liferay> Andrea_, precisely... yo udownload it and then import it as a java project into eclipse
