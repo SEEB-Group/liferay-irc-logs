@@ -61,3 +61,4 @@
 11:08 < Andrea_:#liferay> in my account portlet, in the addresses tag
 11:09 < Andrea_:#liferay> there is a checkbox labeled Mailing
 11:09 < Andrea_:#liferay> i need to change that label
+11:10 < Andrea_:#liferay> I was thinking about editing a language_en and language_it property
