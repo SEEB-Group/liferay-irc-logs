@@ -21,3 +21,4 @@
 10:09 < Andrea_:#liferay> Any easy way to do this?
 10:15 < jardineworks:#liferay> Andrea_, I suspect you would need to use the API (Layout section) and create a model listener hook for the onAfterCreate event for a user.
 10:17 < Andrea_:#liferay> damn thats not so easy, may I ask you a couple of things? i'm doing the last customization to end this thesis
+10:21 < jardineworks:#liferay> sure
