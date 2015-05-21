@@ -22,3 +22,4 @@
 10:15 < jardineworks:#liferay> Andrea_, I suspect you would need to use the API (Layout section) and create a model listener hook for the onAfterCreate event for a user.
 10:17 < Andrea_:#liferay> damn thats not so easy, may I ask you a couple of things? i'm doing the last customization to end this thesis
 10:21 < jardineworks:#liferay> sure
+10:23 < Andrea_:#liferay> Do you remember the method to let HR Role edit some field that you made? well i needed to add that logic to all fields of myaccount portlet so i put that method in the init-ext.jsp so the variable editAllowed could be viewed in all myaccount jsps, then i added, via ext plugin, a section called Documenti where i need to put ID card
