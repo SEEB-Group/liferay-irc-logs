@@ -15,3 +15,4 @@
 09:33 < jardineworks:#liferay> abeym_, lol -- why?
 10:00 < Andrea_:#liferay> hi all, how can add pages whenever a dashboard is created?
 10:01 < Andrea_:#liferay> for example, i need the dashboard of every user to have a page called RIL, how can I achieve this?
+10:07 < jardineworks:#liferay> Andrea_, every user will have a page (a private one) created for them when they are created. This is enabled by default.
