@@ -39,3 +39,4 @@
 10:54 < jardineworks:#liferay> If you add the custom attribtues (ExpandoValues) then they should just appear there.
 10:54 < Andrea_:#liferay> I already did it with , for example, the place of birth. I put the customField "Place of birth" in the details jsp with this tag
 10:54 < Andrea_:#liferay> <liferay-ui:custom-attribute
+10:55 < Andrea_:#liferay> and everything works fine, when i compile that field and click save, it will be saved
