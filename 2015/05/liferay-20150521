@@ -32,3 +32,4 @@
 10:40 < jardineworks:#liferay> Andrea_, https://www.liferay.com/documentation/liferay-portal/6.1/development/-/ai/lp-6-1-dgen06-overriding-and-adding-struts-actions-0
 10:41 < Andrea_:#liferay> ok, thanks jardine. Do i find there also a way to save in a database these fields?
 10:42 < Andrea_:#liferay> i guess i will have to create a new database for those fields, am i wrong?
+10:49 < jardineworks:#liferay> Andrea_, I would just use ExpandoAttributes.
