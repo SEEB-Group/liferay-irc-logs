@@ -18,3 +18,4 @@
 10:07 < jardineworks:#liferay> Andrea_, every user will have a page (a private one) created for them when they are created. This is enabled by default.
 10:07 < jardineworks:#liferay> I think the url to get to it is /user/<userid> by default.
 10:08 < Andrea_:#liferay> hi jardine! But i need that whenever a user is created, 2 pages are created in dashboard ( the welcome page + another page)
+10:09 < Andrea_:#liferay> Any easy way to do this?
