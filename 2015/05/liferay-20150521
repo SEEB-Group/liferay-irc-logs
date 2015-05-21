@@ -70,3 +70,4 @@
 11:12 < jardineworks:#liferay> with the same key
 11:12 < Andrea_:#liferay> yeah i did with some key, but i had to find the key in the jsp
 11:13 < Andrea_:#liferay> where can i find that name->value file for language properties?
+11:13 < jardineworks:#liferay> Andrea_, you can look for it in the JSP as well... normally I just go to the language file in the portal-impl project (in the Liferay source code) and find the label that is being displayed.
