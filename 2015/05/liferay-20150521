@@ -25,3 +25,4 @@
 10:23 < Andrea_:#liferay> Do you remember the method to let HR Role edit some field that you made? well i needed to add that logic to all fields of myaccount portlet so i put that method in the init-ext.jsp so the variable editAllowed could be viewed in all myaccount jsps, then i added, via ext plugin, a section called Documenti where i need to put ID card
 10:25 < Andrea_:#liferay> now the id card is a text box custom field, but i need it to have 4 different fields: Number, Date of release,expiration date, type(it can be driving license or passport or id card)
 10:25 < Andrea_:#liferay> what is the most simple way to achieve what i need?
+10:28 < jardineworks:#liferay> Andrea_, you added a new section you said right? so... on that jsp, you add all 4 fields. Then to save them you need to write a StrutsAction hook to override the "save" button... use the originalStrutsAction to maintain OOTB functionality and then add logic to save your 4 fields.
