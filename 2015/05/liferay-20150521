@@ -27,3 +27,4 @@
 10:25 < Andrea_:#liferay> what is the most simple way to achieve what i need?
 10:28 < jardineworks:#liferay> Andrea_, you added a new section you said right? so... on that jsp, you add all 4 fields. Then to save them you need to write a StrutsAction hook to override the "save" button... use the originalStrutsAction to maintain OOTB functionality and then add logic to save your 4 fields.
 10:31 < Andrea_:#liferay> do i need to know struts?
+10:36 < Andrea_:#liferay> i'm asking because i really don't know what strutsActions are..
