@@ -56,3 +56,4 @@
 11:02 < jardineworks:#liferay> I didn't realize you were using the taglibs :)
 11:04 < Andrea_:#liferay> i took the idea because by default you have Custom Fields section that is just a jsp with one tag
 11:05 < Andrea_:#liferay> so, also if i already have 4 custom fields you would still suggest to add 4 more for the identification documents?
+11:07 < jardineworks:#liferay> if that's all you need.. why not.
