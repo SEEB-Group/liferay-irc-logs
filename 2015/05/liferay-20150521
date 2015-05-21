@@ -34,3 +34,4 @@
 10:42 < Andrea_:#liferay> i guess i will have to create a new database for those fields, am i wrong?
 10:49 < jardineworks:#liferay> Andrea_, I would just use ExpandoAttributes.
 10:49 < jardineworks:#liferay> on the User object.
+10:52 < Andrea_:#liferay> then why can't i just override the jsp page and add those fields?
