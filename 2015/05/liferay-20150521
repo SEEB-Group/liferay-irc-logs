@@ -37,3 +37,4 @@
 10:52 < Andrea_:#liferay> then why can't i just override the jsp page and add those fields?
 10:53 < jardineworks:#liferay> Andrea_, override the custom attributes?
 10:54 < jardineworks:#liferay> If you add the custom attribtues (ExpandoValues) then they should just appear there.
+10:54 < Andrea_:#liferay> I already did it with , for example, the place of birth. I put the customField "Place of birth" in the details jsp with this tag
