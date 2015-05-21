@@ -19,3 +19,4 @@
 10:07 < jardineworks:#liferay> I think the url to get to it is /user/<userid> by default.
 10:08 < Andrea_:#liferay> hi jardine! But i need that whenever a user is created, 2 pages are created in dashboard ( the welcome page + another page)
 10:09 < Andrea_:#liferay> Any easy way to do this?
+10:15 < jardineworks:#liferay> Andrea_, I suspect you would need to use the API (Layout section) and create a model listener hook for the onAfterCreate event for a user.
