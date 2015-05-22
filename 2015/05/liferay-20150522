@@ -108,3 +108,6 @@
 11:15 < jardineworks:#liferay> so in there I added a "VirtualHostAlias" feature that allows you to create aliases, based on locale, for a VirtualHost.
 11:15 < jardineworks:#liferay> and then if an alias is found, the serverName is updated to the alias.
 11:15 < jardineworks:#liferay> It's mostly working.. stuck on one thing that I am trying to figure out.
+11:59 -!- mode/#liferay [+o jhf] by ChanServ
+13:01 -!- mode/#liferay [+o jhf] by ChanServ
+13:09 < jardineworks:#liferay> jhf, I thought that after the initial deploy of an EXT plugin (which requires a restart) subsequent deploys were hot? Do you know if that is that case?
