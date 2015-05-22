@@ -22,3 +22,4 @@
 08:26 < [ru|de|en]CyberK:#liferay> i think this is bad idee ))
 08:35 < [ru|de|en]CyberK:#liferay> Failed to load resource: net::ERR_CONNECTION_TIMED_OUT  for aui.css and custom.css in my theme....
 08:35 < [ru|de|en]CyberK:#liferay> wrong redirect
+08:46 < [ru|de|en]CyberK:#liferay> only this two css-files will be wront written in custom virtualhost-name
