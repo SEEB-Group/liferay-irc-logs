@@ -123,3 +123,4 @@
 14:24 < jardineworks:#liferay> modd, wassat?
 14:24 < modd:#liferay> however, I'm still not sure how to solve some hooking-issues with osgi in future
 14:24 <@jhf:#liferay> the thing is.. the way Liferay works (and I don't say it's right) - developers see the same issues as you, but ignore them and save them to fix later and are more interested in knowing if the new features are going in the right direction
+14:24 < modd:#liferay> well, it's a milestone, so it's ok
