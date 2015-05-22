@@ -104,3 +104,4 @@
 11:08 < hufg:#liferay> ah the groupid is same
 11:08 < hufg:#liferay> woops wrong use case
 11:14 < jardineworks:#liferay> hufg, The real problem is in the PortalImpl ... getPortalURL( String serverName, String port, boolean)
+11:15 < jardineworks:#liferay> this is where all the URLs stem from
