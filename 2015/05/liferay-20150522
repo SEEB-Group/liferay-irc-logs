@@ -20,3 +20,4 @@
 08:16 < nicolas_FR:#liferay> jardineworks: hi, and thanks for the informations. I found some tricks on internet, upload the html page in document and media (L6.1), create a page (type URL) and link the document to the url. Working
 08:17 < jardineworks:#liferay> neat! I didn't know you could do that :)
 08:26 < [ru|de|en]CyberK:#liferay> i think this is bad idee ))
+08:35 < [ru|de|en]CyberK:#liferay> Failed to load resource: net::ERR_CONNECTION_TIMED_OUT  for aui.css and custom.css in my theme....
