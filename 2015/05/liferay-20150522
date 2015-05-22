@@ -86,3 +86,4 @@
 11:00 < hufg:#liferay> this is impossible with one site
 11:00 < hufg:#liferay> if web content has not been translated it will be shown in default language, you will get mixed language pages
 11:01 < hufg:#liferay> if everything will not be translated
+11:01 < hufg:#liferay> so in essence two languages in a single site --> same page structure, 100% same content everything translated
