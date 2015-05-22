@@ -63,3 +63,4 @@
 10:51 < hufg:#liferay> or in the front server
 10:51 < jardineworks:#liferay> hufg, what's the question?
 10:51 < hufg:#liferay> [17:31] <hufg> any ideas how to add something to web content friendly url ie. configure asset publisher as page default asset publisher, add display page to web content [17:32] <hufg> then the simplest url to web content is domain.com/-/web-content-title [17:32] <hufg> which will then be shown in the asset publisher on the display page [17:32] <[ru|de|en]CyberK> right [17:32] <hufg> how about domain.com/something/-/web-content-title
+10:53 < jardineworks:#liferay> hufg, ah.. shoot, I thought maybe you were working on the same issue as me -- trying to get localize canonical urls so that the language actually changes.
