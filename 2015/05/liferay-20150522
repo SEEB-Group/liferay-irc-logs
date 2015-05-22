@@ -77,3 +77,4 @@
 10:55 < hufg:#liferay> it works for your advantage hehe
 10:56 < jardineworks:#liferay> if I can provide localized content instances, then it should be smart enough to use whatever title matches the language.
 10:56 < hufg:#liferay> are you aware that there is no possibility to have different structure/content within a site
+10:56 < hufg:#liferay> having a single site for multiple languages == same content and some structure in all languages
