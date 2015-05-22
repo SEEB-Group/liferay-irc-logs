@@ -87,3 +87,4 @@
 11:00 < hufg:#liferay> if web content has not been translated it will be shown in default language, you will get mixed language pages
 11:01 < hufg:#liferay> if everything will not be translated
 11:01 < hufg:#liferay> so in essence two languages in a single site --> same page structure, 100% same content everything translated
+11:02 < hufg:#liferay> then comes the client and tells you no we don't want that page in french, oh no we don't want to translate everything like 90%
