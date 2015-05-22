@@ -116,3 +116,4 @@
 13:11 <@jhf:#liferay> which are already loaded by the time of hot deploys
 13:19 < jardineworks:#liferay> jhf, shoot -- so you have to do a "clean" of the server everytime you make a change?
 14:19 < modd:#liferay> anyone tested the LR 7 M5 build?
+14:21 < modd:#liferay> I had some issues with the frontend (js errors and not working dropdowns etc.) :\
