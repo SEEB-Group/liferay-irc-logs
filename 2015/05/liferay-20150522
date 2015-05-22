@@ -17,3 +17,4 @@
 07:22 < jardineworks:#liferay> you basically just create the struts action hook, and in the render method have it return the html file. THe html file should be part of the hook as well ... as a "custom jsp" so that you can include the file in the ROOT context.
 07:22 < jardineworks:#liferay> nicolas_FR, You're on 6.1 right?
 07:22 < [ru|de|en]CyberK:#liferay> any tipp, why aui.css and custom.css can be blocked with firewall??
+08:16 < nicolas_FR:#liferay> jardineworks: hi, and thanks for the informations. I found some tricks on internet, upload the html page in document and media (L6.1), create a page (type URL) and link the document to the url. Working
