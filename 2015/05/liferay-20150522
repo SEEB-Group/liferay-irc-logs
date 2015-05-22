@@ -1,0 +1,2 @@
+--- Log opened Fri May 22 00:00:06 2015
+04:10 < nicolas_FR:#liferay> hi there, I would like to add a random.html file in my webapps folder which would be accessible directly by url : [liferay site]/random.html. How can I do that ? Putting the file in webapps doesn't work
