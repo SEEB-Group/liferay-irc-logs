@@ -25,3 +25,4 @@
 08:46 < [ru|de|en]CyberK:#liferay> only this two css-files will be wront written in custom virtualhost-name
 08:49 < [ru|de|en]CyberK:#liferay> aui.css will be included over $theme.include($top_head_include), and custom.css over #css ("$css_folder/custom .css")
 09:25 < winem_:#liferay> hi together
+09:26 < winem_:#liferay> what would you recommend to gather website stats. is there any cool feature from liferay or would you recommend something like piwik?
