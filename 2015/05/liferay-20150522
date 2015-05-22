@@ -13,3 +13,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 4 secs
 05:52 < [ru|de|en]CyberK:#liferay> hi all
+07:21 < jardineworks:#liferay> nicolas_FR, I don't think you can do that because of the way Liferay processes requests. What you can do though is create a portal level (unprotected) struts action hook and have it return that file.
