@@ -106,3 +106,4 @@
 11:14 < jardineworks:#liferay> hufg, The real problem is in the PortalImpl ... getPortalURL( String serverName, String port, boolean)
 11:15 < jardineworks:#liferay> this is where all the URLs stem from
 11:15 < jardineworks:#liferay> so in there I added a "VirtualHostAlias" feature that allows you to create aliases, based on locale, for a VirtualHost.
+11:15 < jardineworks:#liferay> and then if an alias is found, the serverName is updated to the alias.
