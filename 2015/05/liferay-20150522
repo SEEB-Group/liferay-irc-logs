@@ -114,3 +114,4 @@
 13:10 <@jhf:#liferay> No I dont' think you can ever hot-deploy an EXT
 13:10 <@jhf:#liferay> I mean it replaces/extends classes in WEB-INF/lib
 13:11 <@jhf:#liferay> which are already loaded by the time of hot deploys
+13:19 < jardineworks:#liferay> jhf, shoot -- so you have to do a "clean" of the server everytime you make a change?
