@@ -99,3 +99,4 @@
 11:06 < hufg:#liferay> 8)
 11:07 < hufg:#liferay> jardineworks: shouldn't it be somewhat straightforward
 11:07 < hufg:#liferay> VirtualHostFilter
+11:08 < hufg:#liferay> map your virtualhosts to correct groupid
