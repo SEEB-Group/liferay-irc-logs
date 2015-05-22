@@ -119,3 +119,4 @@
 14:21 < modd:#liferay> I had some issues with the frontend (js errors and not working dropdowns etc.) :\
 14:23 <@jhf:#liferay> modd: yeah... someone else reported those too :(
 14:23 < modd:#liferay> I was playing around with rottys blade osgi/portlet project
+14:23 < modd:#liferay> at least this worked really nice
