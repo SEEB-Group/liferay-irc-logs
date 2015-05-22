@@ -112,3 +112,4 @@
 13:01 -!- mode/#liferay [+o jhf] by ChanServ
 13:09 < jardineworks:#liferay> jhf, I thought that after the initial deploy of an EXT plugin (which requires a restart) subsequent deploys were hot? Do you know if that is that case?
 13:10 <@jhf:#liferay> No I dont' think you can ever hot-deploy an EXT
+13:10 <@jhf:#liferay> I mean it replaces/extends classes in WEB-INF/lib
