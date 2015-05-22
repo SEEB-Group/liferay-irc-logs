@@ -60,3 +60,4 @@
 10:49 < [ru|de|en]CyberK:#liferay> after GA4-bugg with AP and own templates we removed this. and created other solution..
 10:50 < hufg:#liferay> ok
 10:51 < hufg:#liferay> in theory maybe modify urlrewrite.xml in a way that the url does not change
+10:51 < hufg:#liferay> or in the front server
