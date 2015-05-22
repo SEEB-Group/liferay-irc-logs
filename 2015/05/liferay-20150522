@@ -66,3 +66,4 @@
 10:53 < jardineworks:#liferay> hufg, ah.. shoot, I thought maybe you were working on the same issue as me -- trying to get localize canonical urls so that the language actually changes.
 10:53 < hufg:#liferay> hmm?
 10:54 < jardineworks:#liferay> hufg, for example, I have a web content item in 3 languages. THe content will change as a toggle between languages, but the url will always show english
+10:54 < hufg:#liferay> uh so you want different friendly urls for different lang
