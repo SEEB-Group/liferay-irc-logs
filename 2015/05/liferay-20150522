@@ -15,3 +15,4 @@
 05:52 < [ru|de|en]CyberK:#liferay> hi all
 07:21 < jardineworks:#liferay> nicolas_FR, I don't think you can do that because of the way Liferay processes requests. What you can do though is create a portal level (unprotected) struts action hook and have it return that file.
 07:22 < jardineworks:#liferay> you basically just create the struts action hook, and in the render method have it return the html file. THe html file should be part of the hook as well ... as a "custom jsp" so that you can include the file in the ROOT context.
+07:22 < jardineworks:#liferay> nicolas_FR, You're on 6.1 right?
