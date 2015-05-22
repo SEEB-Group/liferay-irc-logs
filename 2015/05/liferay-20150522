@@ -132,3 +132,4 @@
 14:28 < modd:#liferay> like almost every time I'm installing a fresh package on my machine^^
 14:33 < modd:#liferay> maybe you could poke rotty to make a small update to that post https://www.liferay.com/de/web/raymond.auge/blog/-/blogs/places-to-hook-into-liferay-from-osgi ;)
 14:41 < jardineworks:#liferay> jhf, have you ever implemented a custom thread local for liferay?
+14:43 <@jhf:#liferay> jardineworks: nope
