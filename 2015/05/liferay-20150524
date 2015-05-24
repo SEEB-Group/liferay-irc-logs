@@ -76,3 +76,4 @@
 09:20 < jardineworks:#liferay> choose File > New > Import Exiting Liferay Plugin Project...
 09:20 < jardineworks:#liferay> and then navigate to your first-portlet folder (inside it) and hit ok
 09:21 < Hisham:#liferay> jardineworks, Now I should import it right?
+09:21 < jardineworks:#liferay> don't using File > Import
