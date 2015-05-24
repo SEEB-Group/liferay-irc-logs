@@ -61,3 +61,4 @@
 09:17 < jardineworks:#liferay> when you are usin gthe SDK you have to have your portlets inside the SDK_HOME for the ant build files.
 09:17 < Hisham:#liferay> jardineworks, OK, I have start it
 09:17 < jardineworks:#liferay> ok -- so in your directory now, do you see a new folder?
+09:17 < jardineworks:#liferay> with the first parameter-portlet
