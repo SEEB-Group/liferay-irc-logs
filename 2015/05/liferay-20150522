@@ -133,3 +133,5 @@
 14:33 < modd:#liferay> maybe you could poke rotty to make a small update to that post https://www.liferay.com/de/web/raymond.auge/blog/-/blogs/places-to-hook-into-liferay-from-osgi ;)
 14:41 < jardineworks:#liferay> jhf, have you ever implemented a custom thread local for liferay?
 14:43 <@jhf:#liferay> jardineworks: nope
+17:40 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Sat May 23 00:00:58 2015
