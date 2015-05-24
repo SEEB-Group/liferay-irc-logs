@@ -59,3 +59,4 @@
 09:16 < jardineworks:#liferay> just run what I gave you
 09:16 < jardineworks:#liferay> the first parameter is the name of the portlet directory... it will automatically be created inside SDK_HOME/portlets and the second (optional) parameter is the title.
 09:17 < jardineworks:#liferay> when you are usin gthe SDK you have to have your portlets inside the SDK_HOME for the ant build files.
+09:17 < Hisham:#liferay> jardineworks, OK, I have start it
