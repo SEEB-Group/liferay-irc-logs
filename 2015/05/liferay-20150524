@@ -57,3 +57,4 @@
 09:16 < jardineworks:#liferay> dude
 09:16 < jardineworks:#liferay> lol
 09:16 < jardineworks:#liferay> just run what I gave you
+09:16 < jardineworks:#liferay> the first parameter is the name of the portlet directory... it will automatically be created inside SDK_HOME/portlets and the second (optional) parameter is the title.
