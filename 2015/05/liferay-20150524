@@ -87,3 +87,4 @@
 09:24 < jardineworks:#liferay> ok great...
 09:24 < Hisham:#liferay> I have choosen this and it did import the project to me
 09:25 < jardineworks:#liferay> now you should be able to create the projects in the IDE though. Did you ever configure the IDE with the Liferay SDK location?
+09:26 < Hisham:#liferay> yes, I did
