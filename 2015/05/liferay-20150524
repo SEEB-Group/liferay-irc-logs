@@ -15,3 +15,4 @@
 08:22 < Hisham:#liferay> I'm trying to use eclipse for creating portlet
 08:25 < Hisham:#liferay> When I choose to create portlet some message comes says "There's no suitable liferay plugin available for this liferay portlet..."  Then when I choose to use ant and portlet mvc and click on finish, it took long time to run and at the end there's no result
 08:25 < Hisham:#liferay> which means it's not working
+08:25 < Hisham:#liferay> I wana know why it's not working ?
