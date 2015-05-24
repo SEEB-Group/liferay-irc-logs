@@ -17,3 +17,4 @@
 08:25 < Hisham:#liferay> which means it's not working
 08:25 < Hisham:#liferay> I wana know why it's not working ?
 08:25 < Hisham:#liferay> I have the same that in the tutorial with no luck
+09:04 < jardineworks:#liferay> Hisham, are you using the ANT sdk or Maven to generate your projects?
