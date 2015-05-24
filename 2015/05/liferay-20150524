@@ -40,3 +40,4 @@
 09:11 < jardineworks:#liferay> and then try creating a porlet from the command line with the command C:>create.bat my "My Test Portlet"
 09:11 < jardineworks:#liferay> you don't need to specify portlet for the first argument... it should create a portlet project for you called my-portlet.
 09:13 < Hisham:#liferay> jardineworks, create.bat my "C:\\liferay-project\test"
+09:13 < Hisham:#liferay> will this gona be OK
