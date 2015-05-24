@@ -73,3 +73,4 @@
 09:19 < jardineworks:#liferay> into*
 09:20 < jardineworks:#liferay> make sure you are using the "Liferay Persective"
 09:20 < jardineworks:#liferay> if you are, then there will be context menu options that are specific to Liferay
+09:20 < jardineworks:#liferay> choose File > New > Import Exiting Liferay Plugin Project...
