@@ -38,3 +38,4 @@
 09:10 < jardineworks:#liferay> I'm going to refer to this location as SDK_HOME from now on.
 09:10 < jardineworks:#liferay> navigate into SDK_HOME/portlets
 09:11 < jardineworks:#liferay> and then try creating a porlet from the command line with the command C:>create.bat my "My Test Portlet"
+09:11 < jardineworks:#liferay> you don't need to specify portlet for the first argument... it should create a portlet project for you called my-portlet.
