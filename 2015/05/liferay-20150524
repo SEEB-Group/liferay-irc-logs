@@ -80,3 +80,4 @@
 09:21 < jardineworks:#liferay> use File > New ? Import existing Liferay ...
 09:22 < jardineworks:#liferay> did it work?
 09:23 < jardineworks:#liferay> if you don't see that option, then you are not in the Liferay perspective.. in which case you need to use Window > Open persepctive and then find the Liferay one.
+09:23 < Hisham:#liferay> I saw other option then I selected from liferay
