@@ -31,3 +31,4 @@
 09:08 < jardineworks:#liferay> ok -- open a poweshell and navigate to the folder where you unpacked the SDK
 09:08 < jardineworks:#liferay> in there, have you created a file called build.<username>.properties? (where username is the name you use to log into your machine)
 09:09 < Hisham:#liferay> jardineworks, OK, I saw that
+09:09 < jardineworks:#liferay> so you have that file done then?
