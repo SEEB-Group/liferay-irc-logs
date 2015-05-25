@@ -30,3 +30,4 @@
 09:23 < jardineworks:#liferay> so you need to make sure that BOTH nodes have the same configuration (including plugins) and that both nodes are able to access your external SOLR server.
 09:24 < jardineworks:#liferay> in this case, the property we referenceed above no longer matters because thtere is no "replication" operation that occurs... both nodes are talking to the same server, and hence working with a single index in place of two.
 09:36 < hufg:#liferay> whats wrong with 6.2 themes the aui styles are everywhere? :D
+10:01 < goku_:#liferay> jardineworks:ok but is there any other config required for this solr server to work properly
