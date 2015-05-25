@@ -84,3 +84,4 @@
 15:23 < g00se:#liferay> https://www.liferay.com/en_GB/community/forums/-/message_boards/view_message/54314677#_19_message_54020506
 15:23 < g00se:#liferay> So i really need a whole new set of components to overcome that bug
 15:25 < jardineworks:#liferay> g00se, ok -- yeah, I can give you a work around for that piece. You can create the project using the SDK in the terminal and then import it into the IDE.
+15:26 < g00se:#liferay> Ah, interesting. You'll see that he imported the result into the IDE but i did that and the .java files simply were not there
