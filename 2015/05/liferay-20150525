@@ -32,3 +32,4 @@
 09:36 < hufg:#liferay> whats wrong with 6.2 themes the aui styles are everywhere? :D
 10:01 < goku_:#liferay> jardineworks:ok but is there any other config required for this solr server to work properly
 10:02 < jardineworks:#liferay> goku_, if you have the sole-web plugin deployed on both nodes, and it is configured correctly, I don't think so. All the requests will be funneled to the one server right?
+10:03 < goku_:#liferay> jardineworks:am seeing the logs on the solr while interacting with liferay nodes
