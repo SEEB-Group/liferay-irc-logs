@@ -86,3 +86,4 @@
 15:25 < jardineworks:#liferay> g00se, ok -- yeah, I can give you a work around for that piece. You can create the project using the SDK in the terminal and then import it into the IDE.
 15:26 < g00se:#liferay> Ah, interesting. You'll see that he imported the result into the IDE but i did that and the .java files simply were not there
 15:27 < g00se:#liferay> Do you think your workaround will keep all intended files intact?
+15:29 < g00se:#liferay> I say 'files' - it amounts i think to the MVCPortlet
