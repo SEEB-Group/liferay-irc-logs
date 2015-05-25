@@ -43,3 +43,4 @@
 10:11 < jardineworks:#liferay> when both nodes are working independently of a cluster setup, you know that the search configuration is correct.
 10:11 < jardineworks:#liferay> then introduce the portal-ext settings.
 10:11 < jardineworks:#liferay> if it still doesn't give you what you expect, then chances are you have a cache replication issue, not a search issue.
+10:12 < goku_:#liferay> jardineworks: ok i will check that way
