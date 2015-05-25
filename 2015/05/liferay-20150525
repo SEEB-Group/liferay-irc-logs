@@ -35,3 +35,4 @@
 10:03 < goku_:#liferay> jardineworks:am seeing the logs on the solr while interacting with liferay nodes
 10:04 < goku_:#liferay> jardineworks: the portlet i have added to the page is showing on both the nodes
 10:06 < goku_:#liferay> jardineworks: and one more error i got when i tried to reindex from the server administration menu,that is a exception saying "NoSuchUser with contact id = 79218" like this
+10:07 < [ru|de|en]CyberK:#liferay> hi all
