@@ -71,3 +71,4 @@
 14:58 < jardineworks:#liferay> g00se, can you share the link for the tutorial?
 15:06 < g00se:#liferay> https://dev.liferay.com/develop/learning-paths/-/knowledge_base/6-2/developing-apps-with-liferay-ide
 15:07 < g00se:#liferay> In my case (Debian Wheezy x64) any attempts to run anything later than Eclipse Kepler simply crash
+15:15 < jardineworks:#liferay> g00se, gonna look at the tutorial now, but have you tried creating the plugin from the command line?
