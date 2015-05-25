@@ -75,3 +75,4 @@
 15:17 < jardineworks:#liferay> oh I see.. the turtorial is doing everything in the IDE
 15:17 < jardineworks:#liferay> *barf*
 15:17 < g00se:#liferay> I didn't actually. Unfortunately i think i bust the setup by deleting the bundle directory by accident, and don't remember where it came from :(
+15:18 < jardineworks:#liferay> the bundle directory... ah you can download that on it's own without the IDE
