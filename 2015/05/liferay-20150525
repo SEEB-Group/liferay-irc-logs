@@ -14,3 +14,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 08:00 < goku_:#liferay> hi, when am trying to cluster liferay6.2-ga2 (with tomcat7 and mysql5 and solr4) . the users are not showing,there where no exceptions on the logs but users are not showing on both nodes.anybody have any idea about this issue?
 08:54 < jardineworks:#liferay> goku_, do yo uhave the property lucene.replicate.write=true in the portal-ext.properties file (on both nodes)?
+08:59 < ikb:#liferay> is someone here expert about Soaicl Office?
