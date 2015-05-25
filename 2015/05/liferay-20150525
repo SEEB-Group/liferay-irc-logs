@@ -40,3 +40,4 @@
 10:08 < goku_:#liferay> stered.xml,ehcache.multi.vm.config.location=/ehcache/liferay-multi-vm-clustered.xml
 10:10 < jardineworks:#liferay> goku_, those settings are more for the cache clustering (in your setup) than anything. All your search activity is going to a single (external) server so there is no replication. Here is what I would do. Start with Node A (disable the other node and the cluster configuration). Configure it with the solr0web plugin etc... and then add some content, do some searches, make sure it is all working (including using the admin tool on solr).
 10:10 < jardineworks:#liferay> If it is, then turn off node A and do the same test with node b
+10:11 < jardineworks:#liferay> when both nodes are working independently of a cluster setup, you know that the search configuration is correct.
