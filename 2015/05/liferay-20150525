@@ -55,3 +55,4 @@
 10:44 < hufg:#liferay> oh well
 10:46 < hufg:#liferay> there must have been tons of bitching about this
 10:47 < ikb:#liferay> someone can explain me the proper way to patch/change the social office code and publish to liferay tomcat bundle?
+12:20 < g00se:#liferay> "Open GuestbookPortlet.java. Liferay IDE generated this class when you created the portlet" (from the plugin tutorial). It didn't.
