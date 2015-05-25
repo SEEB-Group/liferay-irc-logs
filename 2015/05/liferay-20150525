@@ -83,3 +83,4 @@
 15:22 < g00se:#liferay> Trouble is - i've got exactly the same problem as this guy:
 15:23 < g00se:#liferay> https://www.liferay.com/en_GB/community/forums/-/message_boards/view_message/54314677#_19_message_54020506
 15:23 < g00se:#liferay> So i really need a whole new set of components to overcome that bug
+15:25 < jardineworks:#liferay> g00se, ok -- yeah, I can give you a work around for that piece. You can create the project using the SDK in the terminal and then import it into the IDE.
