@@ -54,3 +54,4 @@
 10:42 < hufg:#liferay> a great plan to "encapsulate" aui styles with .aui and then tag html with the class
 10:44 < hufg:#liferay> oh well
 10:46 < hufg:#liferay> there must have been tons of bitching about this
+10:47 < ikb:#liferay> someone can explain me the proper way to patch/change the social office code and publish to liferay tomcat bundle?
