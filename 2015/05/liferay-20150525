@@ -37,3 +37,4 @@
 10:06 < goku_:#liferay> jardineworks: and one more error i got when i tried to reindex from the server administration menu,that is a exception saying "NoSuchUser with contact id = 79218" like this
 10:07 < [ru|de|en]CyberK:#liferay> hi all
 10:08 < goku_:#liferay> jardineworks : this is the configs i have added to the portal-ext.properties dl.store.impl=com.liferay.portlet.documentlibrary.store.FileSystemStore,dl.store.file.system.root.dir=/base/sdk/liferay_6.2/liferay-portal-6.2.0-ce-ga1-cluster/data/document_library,org.quartz.jobStore.isClustered=true,lucene.replicate.write=true,cluster.link.enabled=true,cluster.link.autodetect.address=localhost:3306,net.sf.ehcache.configurationResourceName=/ehcache/hibernate-clu
+10:08 < goku_:#liferay> stered.xml,ehcache.multi.vm.config.location=/ehcache/liferay-multi-vm-clustered.xml
