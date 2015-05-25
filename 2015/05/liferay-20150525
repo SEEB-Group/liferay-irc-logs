@@ -24,3 +24,4 @@
 09:19 < goku_:#liferay> jardineworks: from the liferay documentation i am a bit confused .like do i have to deploy the solr-web.war from the marketplace to both the nodes ..or coping the schema.xml file will do
 09:21 < hufg:#liferay> helloo how are you all today
 09:21 < jardineworks:#liferay> goku_, ah I see.. ok, so first let's understand how all this plumbinh works.
+09:21 < jardineworks:#liferay> goku_, default setup, a single liferay server writes its search data to disk under LIFERAY_HOME/data/lucene/<company-id>
