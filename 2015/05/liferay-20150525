@@ -29,3 +29,4 @@
 09:23 < jardineworks:#liferay> goku_, Now you introduce a solr search server. This means that you no longer want to use the disk (data/lucene) stuff... and now, you want all the search stuff to be offloaded to the solr server -- including the indexing operations.
 09:23 < jardineworks:#liferay> so you need to make sure that BOTH nodes have the same configuration (including plugins) and that both nodes are able to access your external SOLR server.
 09:24 < jardineworks:#liferay> in this case, the property we referenceed above no longer matters because thtere is no "replication" operation that occurs... both nodes are talking to the same server, and hence working with a single index in place of two.
+09:36 < hufg:#liferay> whats wrong with 6.2 themes the aui styles are everywhere? :D
