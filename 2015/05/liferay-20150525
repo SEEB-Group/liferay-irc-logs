@@ -19,3 +19,4 @@
 09:12 < jardineworks:#liferay> goku_, Are you using the disk for storage? or do you have a search server?
 09:13 < goku_:#liferay> jardineworks: am using disk for storage and solr4 for search server
 09:14 < jardineworks:#liferay> goku_, "sol4 for search server" -- meaning you have a separate server? or you have solr installed on both node using the data/lucene directory as its root data store?
+09:16 < goku_:#liferay> i have made the solr as seperate search server
