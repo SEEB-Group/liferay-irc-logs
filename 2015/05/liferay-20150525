@@ -1,2 +1,15 @@
 --- Log opened Mon May 25 00:00:01 2015
 05:01 < ikb:#liferay> hi all
+--- Log opened Mon May 25 05:23:05 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ doged    ] [ jardineworks] [ marcoceppi] [ sm`       ] 
+05:23 [ abeym     ] [ Gorith   ] [ jbub        ] [ Naenyn    ] [ Tm_T      ] 
+05:23 [ abeym_    ] [ henriquev] [ josuebc     ] [ nicolas_FR] [ vsingleton] 
+05:23 [ bijoo     ] [ iDavid_  ] [ longbeach   ] [ quercus   ] [ YamakasY  ] 
+05:23 [ Bryanstein] [ ikb      ] [ MagnoBooter ] [ rocknroll_] 
+05:23 -!- Irssi: #liferay: Total of 24 nicks [1 ops, 0 halfops, 0 voices, 23 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 5 secs
+08:00 < goku_:#liferay> hi, when am trying to cluster liferay6.2-ga2 (with tomcat7 and mysql5 and solr4) . the users are not showing,there where no exceptions on the logs but users are not showing on both nodes.anybody have any idea about this issue?
