@@ -27,3 +27,4 @@
 09:21 < jardineworks:#liferay> goku_, default setup, a single liferay server writes its search data to disk under LIFERAY_HOME/data/lucene/<company-id>
 09:22 < jardineworks:#liferay> goku_, Cluster configuration, same thing, BUT there is a listener that detects a write on one node and then send a message (using jgroups) to the other node(s) to tell them to do that same thing -- so your indices should stay synched.
 09:23 < jardineworks:#liferay> goku_, Now you introduce a solr search server. This means that you no longer want to use the disk (data/lucene) stuff... and now, you want all the search stuff to be offloaded to the solr server -- including the indexing operations.
+09:23 < jardineworks:#liferay> so you need to make sure that BOTH nodes have the same configuration (including plugins) and that both nodes are able to access your external SOLR server.
