@@ -16,3 +16,4 @@
 08:54 < jardineworks:#liferay> goku_, do yo uhave the property lucene.replicate.write=true in the portal-ext.properties file (on both nodes)?
 08:59 < ikb:#liferay> is someone here expert about Soaicl Office?
 09:10 < goku_:#liferay> jardineworks: yes i have given that ,but still same issue
+09:12 < jardineworks:#liferay> goku_, Are you using the disk for storage? or do you have a search server?
