@@ -78,3 +78,4 @@
 15:18 < jardineworks:#liferay> the bundle directory... ah you can download that on it's own without the IDE
 15:18 < jardineworks:#liferay> which version of the portal are you using?
 15:20 < g00se:#liferay> This is what it WAS before i deleted it: liferay-portal-6.2-ce-ga4/tomcat-7.0.42
+15:21 < jardineworks:#liferay> right -- so you can just download that bundle
