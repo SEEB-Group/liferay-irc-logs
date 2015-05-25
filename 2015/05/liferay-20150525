@@ -23,3 +23,4 @@
 09:18 < goku_:#liferay> jardineworks: and copied the schema.xml file from the solr-web.war(from market place) and copied to the solr-4.10.4/example/solr/collection1/conf/
 09:19 < goku_:#liferay> jardineworks: from the liferay documentation i am a bit confused .like do i have to deploy the solr-web.war from the marketplace to both the nodes ..or coping the schema.xml file will do
 09:21 < hufg:#liferay> helloo how are you all today
+09:21 < jardineworks:#liferay> goku_, ah I see.. ok, so first let's understand how all this plumbinh works.
