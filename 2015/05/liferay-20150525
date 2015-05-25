@@ -94,3 +94,4 @@
 15:37 < g00se:#liferay> OK. I'll see what i get
 15:39 < jardineworks:#liferay> really, the IDE version does't matter -- you just want to make sure the SDK and the <app server> bundle are in synch to avoid problems with changes to the API from release to release.
 15:40 < g00se:#liferay> OK. I had to work back to Kepler to avoid crashes though
+15:40 < jardineworks:#liferay> sure
