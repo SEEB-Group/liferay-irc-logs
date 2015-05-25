@@ -57,3 +57,4 @@
 10:47 < ikb:#liferay> someone can explain me the proper way to patch/change the social office code and publish to liferay tomcat bundle?
 12:20 < g00se:#liferay> "Open GuestbookPortlet.java. Liferay IDE generated this class when you created the portlet" (from the plugin tutorial). It didn't.
 13:32 < [ru|de|en]CyberK:#liferay> need help with this: https://www.liferay.com/de/community/forums/-/message_boards/message/54322397
+13:46 < g00se:#liferay> ProxyPassReverseCookieDomain is set?
