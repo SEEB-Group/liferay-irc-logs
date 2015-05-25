@@ -90,3 +90,4 @@
 15:30 < jardineworks:#liferay> g00se, right,.. the terminal version doesn't have all the options that the IDE does. You;ll need to make some changes manually once the project is imported, but I can help you with that. And honestly, it's a better approach so that you understand the project structure and some of the plumbing.
 15:34 < g00se:#liferay> OK. I'm happy with that. As a Java 'tutor' myself, i counsel newbs to eschew IDEs. In this case of course there's a lot of boilerplate so it's needed i think
 15:34 < g00se:#liferay> The first problem is the link you posted: that gives me only one (poss two) choices of bundle
+15:35 < jardineworks:#liferay> right, but you said you were using GA4? that's the latest release as far as I know
