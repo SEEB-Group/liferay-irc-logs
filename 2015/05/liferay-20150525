@@ -112,3 +112,4 @@
 15:49 < jardineworks:#liferay> the ide generates it for you
 15:50 < g00se:#liferay> Is it meant to be off docroot/src?
 15:50 < jardineworks:#liferay> yes
+15:50 < g00se:#liferay> Thought so. That directory isn't even present, owing to the bug
