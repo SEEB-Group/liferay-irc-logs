@@ -40,3 +40,4 @@
 08:41 < jardineworks:#liferay> ... so you can have /-/article/view/this-is-my-article
 08:41 < hufg:#liferay> yep
 08:42 < hufg:#liferay> i guess i can live with that also
+08:42 < jardineworks:#liferay> hufg, hmm.. you might be able to do it with a custom friendly url mapper ... but if you use the default ones, then I don't think you can get around it
