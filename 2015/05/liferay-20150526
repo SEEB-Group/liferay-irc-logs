@@ -93,3 +93,4 @@
 12:54 < jardineworks:#liferay> josuebc, maybe a re-write rule for that url to replace MAXIMIZED with NORMAL? :)
 12:55 < josuebc:#liferay> jardineworks: Oh, ok. I see what you mean. Yeah, I thought of that but I really don't want to do that with a re-write rule.
 12:56 < josuebc:#liferay> jardineworks: Wait, I think I got it. I think it's in the getLoginURL of the LoginUtil class
+12:58 < jardineworks:#liferay> josuebc, Agreed for the rewrite rule  -- unless! you ALWAYS want to make it NORMAL. At least my opinion... why write code when you can do it with configuration. But I probably don't have all the facts.
