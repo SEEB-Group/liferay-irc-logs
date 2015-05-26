@@ -99,3 +99,4 @@
 12:59 < josuebc:#liferay> jardineworks: That's true, it's easier to just change some configuration instead of diving into the code. It's just that we have other things going on on that server and it'll be a beurocracy and political issue to have something like that in the re-write rules. you know how it is
 13:00 < josuebc:#liferay> jardineworks: And yes, It would need to be an EXT.
 13:00 < jardineworks:#liferay> josuebc, totally get it. politics certainly isn't limited to politicians.
+13:01 < josuebc:#liferay> jardineworks: I already have an ext in place since I'm logging some information everytime a user tries to login.
