@@ -62,3 +62,4 @@
 08:48 < hufg:#liferay> without reading too much into it, i think you can do it with a custom url mapper
 08:49 < jardineworks:#liferay> yeah, I dug pretty deep into the heart or the URL mapper with topolik for that project... but it was almost 2 years ago now. I can't remember what I found :)
 08:50 < hufg:#liferay> hmm though
+08:50 < hufg:#liferay> there is the asset publisher stuff with domain.com/-/article
