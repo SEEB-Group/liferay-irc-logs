@@ -96,3 +96,4 @@
 12:58 < jardineworks:#liferay> josuebc, Agreed for the rewrite rule  -- unless! you ALWAYS want to make it NORMAL. At least my opinion... why write code when you can do it with configuration. But I probably don't have all the facts.
 12:58 < jardineworks:#liferay> the LoginUtil is not accessbile via hook though -- that's a portal-impl class I think
 12:58 < jardineworks:#liferay> you'd need an EXT to override that one right?
+12:59 < josuebc:#liferay> jardineworks: That's true, it's easier to just change some configuration instead of diving into the code. It's just that we have other things going on on that server and it'll be a beurocracy and political issue to have something like that in the re-write rules. you know how it is
