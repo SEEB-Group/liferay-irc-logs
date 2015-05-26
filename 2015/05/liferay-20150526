@@ -106,3 +106,4 @@
 13:01 < jardineworks:#liferay> wait.. why do you have an EXT plugin for that?
 13:01 < jardineworks:#liferay> you could do that with a post login action hook no?
 13:02 < jardineworks:#liferay> or a servlet fileter?
+13:03 < josuebc:#liferay> jardineworks: Yes, there's more to it than just logging and it has to fire no matter if the login failed or not. Although I need to revisit this ext, maybe I can get rid of it.
