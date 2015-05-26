@@ -31,3 +31,4 @@
 08:39 < hufg:#liferay> i guess it could be possible to dig the /-/param from request perhaps
 08:40 < hufg:#liferay> no i take it back
 08:40 < hufg:#liferay> ./home/-/ok -->  This portlet has been undeployed. Please redeploy it or remove it from the page.
+08:40 < jardineworks:#liferay> the <friendly-url-mapping/> you mean then?
