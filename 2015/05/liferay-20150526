@@ -43,3 +43,4 @@
 08:42 < jardineworks:#liferay> hufg, hmm.. you might be able to do it with a custom friendly url mapper ... but if you use the default ones, then I don't think you can get around it
 08:42 < jardineworks:#liferay> most people complain about the /-/ :)
 08:43 < jardineworks:#liferay> you can get rid of that with a custom friendly url mapper for sure
+08:43 < hufg:#liferay> oh hmm that would be neat
