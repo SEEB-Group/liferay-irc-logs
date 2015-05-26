@@ -111,3 +111,4 @@
 13:04 < jardineworks:#liferay> I'm nto one to talk -- I am working on an EXT right now.. but I generally avoid it like the plague.
 13:05 < josuebc:#liferay> jardineworks: Yeah, me to. to tell you the truth the decision to create this EXT was made a while back. LR was different.
 13:06 < jardineworks:#liferay> no doubt. i started with 5.2.3 just as 6 was released. I can't believe the changes to the product in just the last few years.
+13:06 < josuebc:#liferay> If there's no other way, within LR, to change the windowState.Maximized for this action then I prefer to just do some, somewhat, dirty JS to redirect the user to the normalized version of the portlet instead of going the re-write rule.
