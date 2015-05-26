@@ -107,3 +107,4 @@
 13:01 < jardineworks:#liferay> you could do that with a post login action hook no?
 13:02 < jardineworks:#liferay> or a servlet fileter?
 13:03 < josuebc:#liferay> jardineworks: Yes, there's more to it than just logging and it has to fire no matter if the login failed or not. Although I need to revisit this ext, maybe I can get rid of it.
+13:04 < jardineworks:#liferay> josuebc, well you do have a struts action for the login that will always fire.  Though that is a whole other conversation :)
