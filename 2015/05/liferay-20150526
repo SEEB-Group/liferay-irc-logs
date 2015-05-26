@@ -79,3 +79,4 @@
 12:26 < [ru|de|en]CyberK:#liferay> @josuebc - maybe do own login page ? )
 12:28 < jardineworks:#liferay> josuebc, I wonder if you created a portlet struts action override and in the method changes the portlet url to use NORMAL instead of MAXIMIZED?
 12:40 < g00se:#liferay> Why btw do i see these leading underscores in variable names? Typical: _log
+12:42 < jardineworks:#liferay> g00se, because I am an old programmer and there was a time when the convention was to put _ in front of private variables :)
