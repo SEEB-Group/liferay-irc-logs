@@ -59,3 +59,4 @@
 08:46 < jardineworks:#liferay> why not just /article/content/view/...
 08:47 < jardineworks:#liferay> article is the page, content is the friendly-url-mapping, article-details is the route.
 08:48 < hufg:#liferay> hehe
+08:48 < hufg:#liferay> without reading too much into it, i think you can do it with a custom url mapper
