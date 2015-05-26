@@ -70,3 +70,4 @@
 09:59 <@jhf:#liferay> join us in the #liferay-dev-life chat room!
 10:00 <@jhf:#liferay> and on google hangouts
 10:17 < [ru|de|en]CyberK:#liferay> hey
+11:28 < josuebc:#liferay> Hi there, I was wondering if there's any way to force the login portlet to not show maximized?. I was able to do it almos on every action except when a user clicks on a private link and their session has expired.
