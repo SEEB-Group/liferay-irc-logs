@@ -18,3 +18,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 06:43 < hufg:#liferay> any ideas if a friendly url mapping can be /-/param?
 06:44 < hufg:#liferay> without portlet name
+07:22 < jardineworks:#liferay> hufg, is this for your custom portlet? or for one of the OOTB portlets?
