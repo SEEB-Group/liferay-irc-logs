@@ -86,3 +86,4 @@
 12:45 < jardineworks:#liferay> and there are some old farts like me that work at Liferay
 12:51 < josuebc:#liferay> jardineworks: I did that for when the password is not correct or anything else.
 12:51 < josuebc:#liferay> The issue is that it doesn't go through that action when the user clicks on a link and the session is no longer valid.
+12:52 < jardineworks:#liferay> josuebc, which struts action did you override?
