@@ -33,3 +33,4 @@
 08:40 < hufg:#liferay> ./home/-/ok -->  This portlet has been undeployed. Please redeploy it or remove it from the page.
 08:40 < jardineworks:#liferay> the <friendly-url-mapping/> you mean then?
 08:40 < hufg:#liferay> yeah
+08:40 < hufg:#liferay> i know it can do stuff like /-/portlat-name/action/param
