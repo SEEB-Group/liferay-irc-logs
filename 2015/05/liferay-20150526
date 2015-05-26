@@ -29,3 +29,4 @@
 08:39 < hufg:#liferay> ./-/ is alrgiht but don't want the portlet name or action id
 08:39 < hufg:#liferay> it's the portlet-friendlyurlmapping or something
 08:39 < hufg:#liferay> i guess it could be possible to dig the /-/param from request perhaps
+08:40 < hufg:#liferay> no i take it back
