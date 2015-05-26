@@ -73,3 +73,4 @@
 11:28 < josuebc:#liferay> Hi there, I was wondering if there's any way to force the login portlet to not show maximized?. I was able to do it almos on every action except when a user clicks on a private link and their session has expired.
 11:28 < josuebc:#liferay> LR will redirct the user to the login portlet MAXIMIZED. How can I redirect the user to the login page without the login portlet being MAXIMIZED?
 11:48 <@jhf:#liferay> BTW all - we are starting a new effort to get more questions answered on the forums - so josuebc if you don't hear anything here, try the forums!
+12:19 < g00se:#liferay> jardineworks: That was interesting. Of course as part of my immersion in Liferay, that would count as the deep end of the pool
