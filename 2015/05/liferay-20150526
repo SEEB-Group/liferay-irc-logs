@@ -58,3 +58,4 @@
 08:46 < jardineworks:#liferay> like this -- https://www.sprouts.com/article/content/-/article-details/view/22235446/your-guide-to-grilling-up-greatness
 08:46 < jardineworks:#liferay> why not just /article/content/view/...
 08:47 < jardineworks:#liferay> article is the page, content is the friendly-url-mapping, article-details is the route.
+08:48 < hufg:#liferay> hehe
