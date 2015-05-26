@@ -92,3 +92,4 @@
 12:54 < josuebc:#liferay> jardineworks: Do you mean for you to check my running instance?
 12:54 < jardineworks:#liferay> josuebc, maybe a re-write rule for that url to replace MAXIMIZED with NORMAL? :)
 12:55 < josuebc:#liferay> jardineworks: Oh, ok. I see what you mean. Yeah, I thought of that but I really don't want to do that with a re-write rule.
+12:56 < josuebc:#liferay> jardineworks: Wait, I think I got it. I think it's in the getLoginURL of the LoginUtil class
