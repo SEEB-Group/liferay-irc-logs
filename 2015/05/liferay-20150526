@@ -81,3 +81,4 @@
 12:40 < g00se:#liferay> Why btw do i see these leading underscores in variable names? Typical: _log
 12:42 < jardineworks:#liferay> g00se, because I am an old programmer and there was a time when the convention was to put _ in front of private variables :)
 12:43 < jardineworks:#liferay> I still do it... I like the convention -- I don't care what these new kids do ;)
+12:45 < g00se:#liferay> I thought that was a Liferay thing ;)
