@@ -100,3 +100,4 @@
 13:00 < josuebc:#liferay> jardineworks: And yes, It would need to be an EXT.
 13:00 < jardineworks:#liferay> josuebc, totally get it. politics certainly isn't limited to politicians.
 13:01 < josuebc:#liferay> jardineworks: I already have an ext in place since I'm logging some information everytime a user tries to login.
+13:01 < jardineworks:#liferay> EXT plugin over re-write rule? eesh.. I'd avoid the plugin at all costs and hold a general election :)
