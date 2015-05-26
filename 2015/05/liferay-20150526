@@ -105,3 +105,4 @@
 13:01 < jardineworks:#liferay> in that case.
 13:01 < jardineworks:#liferay> wait.. why do you have an EXT plugin for that?
 13:01 < jardineworks:#liferay> you could do that with a post login action hook no?
+13:02 < jardineworks:#liferay> or a servlet fileter?
