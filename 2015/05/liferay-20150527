@@ -137,3 +137,4 @@
 12:05 < jardineworks:#liferay> g00se, are each of the virtual hosts disctinct properties?
 12:05 < jardineworks:#liferay> like.. google.com, bbc.co.uk, etc?
 12:06 < [ru|de|en]CyberK:#liferay> have a small question.... if guest user write "host.com/web/staging/somelink" i getting always infinity redirect and connection refused...
+12:06 < jardineworks:#liferay> or do you need all of those virtual hosts to go to the same site?
