@@ -123,3 +123,4 @@
 11:45 < g00se:#liferay> On another matter, i can't say my searches have been exhaustive but i've not found a plugin (what IS the proper Lray term btw?) that can take Paypal donations. IS there one you know of?
 11:48 < jardineworks:#liferay> g00se, if it's not in the market place... and you can;t find someone's github repo with it... then you probably have to build it yourself.
 11:49 < jardineworks:#liferay> (plugin is the correct term... a portlet plugin in your case I suspect)
+11:50 < g00se:#liferay> There was something called 'btop' that won a prize. Not supported on 6.2 though
