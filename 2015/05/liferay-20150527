@@ -124,3 +124,4 @@
 11:48 < jardineworks:#liferay> g00se, if it's not in the market place... and you can;t find someone's github repo with it... then you probably have to build it yourself.
 11:49 < jardineworks:#liferay> (plugin is the correct term... a portlet plugin in your case I suspect)
 11:50 < g00se:#liferay> There was something called 'btop' that won a prize. Not supported on 6.2 though
+11:51 < jardineworks:#liferay> is there a repo you can clone to port it to 6.2?
