@@ -143,3 +143,4 @@
 12:08 < jardineworks:#liferay> g00se, because if the virtual hosts are all distinct properties then you have no worries. Liferay support multi-tennant configurations. So you would create a new portal instance for each of the domains, and within the creation of each specify the hostname you want to map it to.
 12:08 < jardineworks:#liferay> my specific case is multiple domains to the SAME portal instance
 12:08 < [ru|de|en]CyberK:#liferay> if page not exist i got error-500 from external server... if page exist - infinity
+12:09 < jardineworks:#liferay> [ru|de|en]CyberK, hmm.. do me a favour. Can you try that again with a new browser and your cookies cleared?
