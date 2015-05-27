@@ -45,3 +45,4 @@
 09:45 < jardineworks:#liferay> so the proxy layer mapping to an internal one solves the inbound
 09:46 < jardineworks:#liferay> but the problem is the outbound.
 09:46 < jardineworks:#liferay> in order to make sure that all the internal.com urls are written to externaA.com or externalB.com .. consistently.. all links, pages, css, js, etc. ...  have to do it in the PortalImpl class.
+09:49 < jardineworks:#liferay> [ru|de|en]CyberK, trust me... this is a last resort. We have tried 4 or 5 other things already... this is the only one that looks like it has a strong chance of success.
