@@ -31,3 +31,4 @@
 09:41 < jardineworks:#liferay> [ru|de|en]CyberK, I'm not sure if our problem is exactly the same -- but I am doing something similar. The only difference is that I have multiple vanity urls that are all mapping to a single internal domain. For me, I am testing right now, but I have to create an EXT plugin that extended the PortalImpl class and extended the getPortalUrl(String,int,boolean) method so that he host that was returned by liferya is my VANITY host, not m
 09:41 < jardineworks:#liferay> y internal host.
 09:41 < jardineworks:#liferay> but I think this is more complicated for me because I have multiple domains ...
+09:42 < jardineworks:#liferay> I did find though that there are references to the host in some of the JS files.
