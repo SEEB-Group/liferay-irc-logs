@@ -59,3 +59,4 @@
 10:59 < jardineworks:#liferay> they want to have a url for the english site, and a url for the french site... but one portal instance where all content etc reside (whcih makes sense for users, etc)
 10:59 < jardineworks:#liferay> A company, or portal instance, only has support for a single hostname
 10:59 < jardineworks:#liferay> and there is a constraint on the Virtaul Host table where the companyId has to be unique
+11:00 < jardineworks:#liferay> winem_, updates and security fixes are the two primary
