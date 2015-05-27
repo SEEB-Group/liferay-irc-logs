@@ -37,3 +37,4 @@
 09:42 < [ru|de|en]CyberK:#liferay> dont say this )))
 09:43 < [ru|de|en]CyberK:#liferay> 1 fix - 100000 bigs...
 09:43 < [ru|de|en]CyberK:#liferay> bugs*
+09:43 < jardineworks:#liferay> I actually created a plugin for aliasing virtual hosts, a servlet filter hook to set a thread local that I can reference in my CustomPortalImpl class and the EXT plugin for the class itself.
