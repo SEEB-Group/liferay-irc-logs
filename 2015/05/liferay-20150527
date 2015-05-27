@@ -139,3 +139,4 @@
 12:06 < [ru|de|en]CyberK:#liferay> have a small question.... if guest user write "host.com/web/staging/somelink" i getting always infinity redirect and connection refused...
 12:06 < jardineworks:#liferay> or do you need all of those virtual hosts to go to the same site?
 12:06 < [ru|de|en]CyberK:#liferay> is if possible to send user to page-not-found page? ?
+12:07 < jardineworks:#liferay> [ru|de|en]CyberK, is staging a page you created? or is that the tirgger to view a staged version of "somelink"
