@@ -3,3 +3,4 @@
 04:15 < [ru|de|en]CyberK:#liferay> how work virtual host name on liferay portal settings??
 04:16 < [ru|de|en]CyberK:#liferay> if i do localhost -> can using path http://local.com/web/guest/home
 04:16 < [ru|de|en]CyberK:#liferay> if i do "localhost.com" -> can using path http://localhost.com/home
+04:17 < [ru|de|en]CyberK:#liferay> but i need redirect from external network woth name "http://myserver.com" to local server "http://local.com"... if i write as virtual hostname "http://myserver.com" workk all without aui.css and custom.css/main.css
