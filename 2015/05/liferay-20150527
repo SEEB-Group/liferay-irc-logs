@@ -56,3 +56,4 @@
 10:43 < winem_:#liferay> we're just talking about a couple of websites with log ins for personal profile pages... no transactions or anything else. so I don't think that the customer needs the EE but we want to offer both opportunities
 10:58 < jardineworks:#liferay> g00se, it depends on how you are referring to it
 10:58 < jardineworks:#liferay> g00se, my business problem I believe is unique to the province of quebec really.
+10:59 < jardineworks:#liferay> they want to have a url for the english site, and a url for the french site... but one portal instance where all content etc reside (whcih makes sense for users, etc)
