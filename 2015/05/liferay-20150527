@@ -2,3 +2,4 @@
 04:14 < [ru|de|en]CyberK:#liferay> any1 here?
 04:15 < [ru|de|en]CyberK:#liferay> how work virtual host name on liferay portal settings??
 04:16 < [ru|de|en]CyberK:#liferay> if i do localhost -> can using path http://local.com/web/guest/home
+04:16 < [ru|de|en]CyberK:#liferay> if i do "localhost.com" -> can using path http://localhost.com/home
