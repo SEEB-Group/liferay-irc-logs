@@ -26,3 +26,4 @@
 09:05 < jardineworks:#liferay> [ru|de|en]CyberK, WHat you are doing sounds similar to an issue I am resovling right now. So you have a "vanity" url ... the one that the user uses. That url goes to a proxy and the proxy re-writes the hosname to a new (internal) value and send it to Liferay. Is that right?
 09:28 < [ru|de|en]CyberK:#liferay> y
 09:29 < [ru|de|en]CyberK:#liferay> found in tomcat-log that my LDAP doesn#t work now %)
+09:32 < [ru|de|en]CyberK:#liferay> i think, more problem is, that i need do always publishing in staging to see result...
