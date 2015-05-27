@@ -40,3 +40,4 @@
 09:43 < jardineworks:#liferay> I actually created a plugin for aliasing virtual hosts, a servlet filter hook to set a thread local that I can reference in my CustomPortalImpl class and the EXT plugin for the class itself.
 09:43 < jardineworks:#liferay> I am testing so I am not sure that it works yet, but so far it looks promising.
 09:44 < [ru|de|en]CyberK:#liferay> hm...
+09:44 < [ru|de|en]CyberK:#liferay> it is more complicated :) why u do this?
