@@ -85,3 +85,4 @@
 11:05 < jardineworks:#liferay> I find it most noticeable at startup
 11:05 < winem_:#liferay> and at recerving requests?
 11:05 < jardineworks:#liferay> I think the EE runs a little quicker, but again, there are tweaks to it and EE plugins that are probably influencing
+11:05 < winem_:#liferay> serving requests... I'm not very concentrated, sorry :D
