@@ -87,3 +87,4 @@
 11:05 < jardineworks:#liferay> I think the EE runs a little quicker, but again, there are tweaks to it and EE plugins that are probably influencing
 11:05 < winem_:#liferay> serving requests... I'm not very concentrated, sorry :D
 11:06 < jardineworks:#liferay> and I haven't done any tuning to my CE instance.
+11:06 < jardineworks:#liferay> I mean, really, it would only matter I think in a high volume scenario
