@@ -43,3 +43,4 @@
 09:44 < [ru|de|en]CyberK:#liferay> it is more complicated :) why u do this?
 09:45 < jardineworks:#liferay> Lieray only supports one hostname for a portal instance (Company) right? I need to support multiple, distinct hostnames.
 09:45 < jardineworks:#liferay> so the proxy layer mapping to an internal one solves the inbound
+09:46 < jardineworks:#liferay> but the problem is the outbound.
