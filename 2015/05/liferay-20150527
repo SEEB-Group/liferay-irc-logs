@@ -27,3 +27,4 @@
 09:28 < [ru|de|en]CyberK:#liferay> y
 09:29 < [ru|de|en]CyberK:#liferay> found in tomcat-log that my LDAP doesn#t work now %)
 09:32 < [ru|de|en]CyberK:#liferay> i think, more problem is, that i need do always publishing in staging to see result...
+09:35 < [ru|de|en]CyberK:#liferay> hm... if i check LDAP-settings -> all checks are ok, but tomcat-log show me -> exception: problem accesing LDAP-server : invalid escape sequence [blablabla];remaining name "dc=server,dc=com"
