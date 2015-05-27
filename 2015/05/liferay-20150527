@@ -134,3 +134,4 @@
 11:59 < g00se:#liferay> Ah OK. I don't really have one actually. But i hope in future to support several virts on one box
 12:01 < g00se:#liferay> I vaguely remember some time reading that n sites meant n subdomains and thinking - aargh! But then i read elsewhere about virtual hosts and the doubts left me
 12:03 < g00se:#liferay> If your plugin can square that circle (and it *needs* squaring) then it sounds like it could be a killer app ...
+12:05 < jardineworks:#liferay> g00se, are each of the virtual hosts disctinct properties?
