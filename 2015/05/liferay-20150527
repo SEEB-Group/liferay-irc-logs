@@ -47,3 +47,4 @@
 09:46 < jardineworks:#liferay> in order to make sure that all the internal.com urls are written to externaA.com or externalB.com .. consistently.. all links, pages, css, js, etc. ...  have to do it in the PortalImpl class.
 09:49 < jardineworks:#liferay> [ru|de|en]CyberK, trust me... this is a last resort. We have tried 4 or 5 other things already... this is the only one that looks like it has a strong chance of success.
 09:49 < [ru|de|en]CyberK:#liferay> %)
+09:51 < jardineworks:#liferay> [ru|de|en]CyberK, if it works I'll write a tutorial somewhere and share it with you
