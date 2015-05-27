@@ -22,3 +22,4 @@
 05:58 < nicolas_FR:#liferay> I would like to customize if mails are sent or not from liferay. I know I can allow or deny mail sending from liferay, but I don't know how to pick which notification I would keep, and which I would throw away. Any idea ?
 06:15 < [ru|de|en]CyberK:#liferay> no ))
 06:16 < [ru|de|en]CyberK:#liferay> i wrote own portlet for custom contact form
+06:17 < [ru|de|en]CyberK:#liferay> but i can't understand how can i find one exception if server have bad-email-server-name....
