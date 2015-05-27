@@ -82,3 +82,4 @@
 11:04 < jardineworks:#liferay> some of them like the caching and clustering plugins improve performance as well
 11:04 < winem_:#liferay> but there's one interesting point. EE is faster than the CE?
 11:05 < jardineworks:#liferay> it is
+11:05 < jardineworks:#liferay> I find it most noticeable at startup
