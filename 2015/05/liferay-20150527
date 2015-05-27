@@ -164,3 +164,4 @@
 12:22 < g00se:#liferay> btop also here btw: https://www.liferay.com/en_GB/marketplace/-/mp/application/27276128
 12:24  * g00se:#liferay thinks those dashes in urls _are_ quite annoying ...
 12:55 < Cyberkatze:#liferay> Yes. I removed default homepage and created own  . So I think - the first page in tree - is a home page? Right?  On Portal settings I have "/"  for home page url
+12:57 < Cyberkatze:#liferay> Friendly url is  "/home"
