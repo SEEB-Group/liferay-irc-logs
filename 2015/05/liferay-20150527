@@ -23,3 +23,4 @@
 06:15 < [ru|de|en]CyberK:#liferay> no ))
 06:16 < [ru|de|en]CyberK:#liferay> i wrote own portlet for custom contact form
 06:17 < [ru|de|en]CyberK:#liferay> but i can't understand how can i find one exception if server have bad-email-server-name....
+09:05 < jardineworks:#liferay> [ru|de|en]CyberK, WHat you are doing sounds similar to an issue I am resovling right now. So you have a "vanity" url ... the one that the user uses. That url goes to a proxy and the proxy re-writes the hosname to a new (internal) value and send it to Liferay. Is that right?
