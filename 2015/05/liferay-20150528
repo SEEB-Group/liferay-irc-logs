@@ -21,3 +21,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 6 secs
 08:10 < jardineworks:#liferay> [ru|de|en]CyberK, I think I used this to solve it -- http://stackoverflow.com/questions/10862780/liferay-portal-with-this-webpage-has-a-redirect-loop
 08:43 < jardineworks:#liferay> rom12three, have you tried using the portlet-model-hints.xml file to set the size of your column?
+08:43 < jardineworks:#liferay> oh... maybe that was the link you sent :)
