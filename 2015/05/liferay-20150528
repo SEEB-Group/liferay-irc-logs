@@ -25,3 +25,7 @@
 08:44 < jardineworks:#liferay> rom12three, can you share with us your portlet-model-hints.xml file?
 08:52 < rom12three:#liferay> <hint-collection name="CLOB">
 08:52 < rom12three:#liferay>   <hint name="max-length">2000000</hint>
+08:52 < rom12three:#liferay>  </hint-collection>
+08:52 < rom12three:#liferay>             <field name="formular" type="String">
+08:52 < rom12three:#liferay>             <hint-collection name="CLOB" />
+08:52 < rom12three:#liferay>         </field>
