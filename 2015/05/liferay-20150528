@@ -3,3 +3,4 @@
 03:15 < rom12three:#liferay> hi room
 03:21 < rom12three:#liferay> how can i prevent liferay from changing my database column clob size from 5M to 1M every time, i make service build..
 03:21 < rom12three:#liferay> this deletes all of my data and i have to change the columns manually again by hand
+03:24 < rom12three:#liferay> i have used CLOB jus as described here http://www.liferay.com/de/community/wiki/-/wiki/Main/Customize+DB+Column+Sizes
