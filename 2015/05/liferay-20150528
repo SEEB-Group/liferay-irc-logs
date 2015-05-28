@@ -1,3 +1,4 @@
 --- Log opened Thu May 28 00:00:58 2015
 01:43 < Cyberkatze:#liferay> Tim, maybe this http://www.liferay.com/community/forums/-/message_boards/message/14403870
 03:15 < rom12three:#liferay> hi room
+03:21 < rom12three:#liferay> how can i prevent liferay from changing my database column clob size from 5M to 1M every time, i make service build..
