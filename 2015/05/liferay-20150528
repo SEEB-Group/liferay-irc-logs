@@ -7,3 +7,16 @@
 03:24 < rom12three:#liferay> but i cannot use a clob size of 5M, it is always 1M
 04:04 < [ru|de|en]CyberK:#liferay> morning!
 04:30 < [ru|de|en]CyberK:#liferay> what can i do with my infinity redirect?
+--- Log opened Thu May 28 05:23:03 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ henriquev   ] [ MagnoBooter] [ rocknroll_] [ vsingleton] 
+05:23 [ bijoo     ] [ iDavid_     ] [ marcoceppi ] [ rom12three] [ YamakasY  ] 
+05:23 [ Bryanstein] [ jardineworks] [ Naenyn     ] [ sm`       ] 
+05:23 [ doged     ] [ jbub        ] [ nicolas_FR ] [ Tm_T      ] 
+05:23 [ Gorith    ] [ josuebc     ] [ quercus    ] [ twen      ] 
+05:23 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+08:10 < jardineworks:#liferay> [ru|de|en]CyberK, I think I used this to solve it -- http://stackoverflow.com/questions/10862780/liferay-portal-with-this-webpage-has-a-redirect-loop
