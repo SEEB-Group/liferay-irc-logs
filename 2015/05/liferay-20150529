@@ -36,3 +36,4 @@
 13:05 < jardineworks:#liferay> ah -- I got it. I switched to another method... but was using the wrong parameter, etc. PEBKAC :)
 13:06 < jardineworks:#liferay> ah ok -- that makes it more robust.
 13:06 < jardineworks:#liferay> I'll do that
+14:27 < jardineworks:#liferay> hey jhf do you know if anyone has reported issues with EXT plugins and this error {code="500", msg="No action instance for path /portal/layout could be created", uri=/}
