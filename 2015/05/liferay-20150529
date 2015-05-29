@@ -33,3 +33,4 @@
 13:04 <@jhf:#liferay> just put a ! at the end
 13:04 <@jhf:#liferay> here's one from the other day I used: <#assign user = userService.getUserByScreenName(companyId, screenName)! >
 13:04 <@jhf:#liferay> then I said <#if user?? && user?has_content > ...... </#if>
+13:05 < jardineworks:#liferay> ah -- I got it. I switched to another method... but was using the wrong parameter, etc. PEBKAC :)
