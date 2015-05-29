@@ -26,3 +26,4 @@
 12:57 <@jhf:#liferay> <#list RoleLocalService?keys as key> ${key} <p> </#list>
 12:59 < jardineworks:#liferay> jhf, cool! ... ok I can see my fetchRole ... which is supposed to take a companyId, roleName...
 12:59 < jardineworks:#liferay> errr... unless there is more than one defined.
+13:02 < jardineworks:#liferay> nope -- just the one it seems
