@@ -39,3 +39,4 @@
 14:27 < jardineworks:#liferay> hey jhf do you know if anyone has reported issues with EXT plugins and this error {code="500", msg="No action instance for path /portal/layout could be created", uri=/}
 14:45 <@jhf:#liferay> nope .. not heard that one
 14:45 <@jhf:#liferay> EXT...EXT.... ugh
+14:51 < jardineworks:#liferay> jhf, dude.. I have no choice. I need to override the PortalImpl
