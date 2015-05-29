@@ -29,3 +29,4 @@
 13:02 < jardineworks:#liferay> nope -- just the one it seems
 13:03 <@jhf:#liferay> if the value returned from fetchRole is null then FM will fail and refuse to assign it to whatever you're tryinf to assign it too
 13:03 <@jhf:#liferay> so you need to do something like <#assign foo = RoleLocalService.fetch(blah, blah)!null />
+13:04 <@jhf:#liferay> err not null
