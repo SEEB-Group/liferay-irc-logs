@@ -18,3 +18,4 @@
 12:53 < jardineworks:#liferay> hey jhf can I use the serviceLocator in a freemarker theme init_custom.ftl?
 12:53 <@jhf:#liferay> not sure.. I've never done a freemarker theme.. I think you have access to it though.
 12:54 <@jhf:#liferay> or utilLocator
+12:54 < jardineworks:#liferay> this doesn't give me any trouble ... <#assign RoleLocalService = serviceLocator.findService("com.liferay.portal.service.RoleLocalService")/>
