@@ -27,3 +27,4 @@
 12:59 < jardineworks:#liferay> jhf, cool! ... ok I can see my fetchRole ... which is supposed to take a companyId, roleName...
 12:59 < jardineworks:#liferay> errr... unless there is more than one defined.
 13:02 < jardineworks:#liferay> nope -- just the one it seems
+13:03 <@jhf:#liferay> if the value returned from fetchRole is null then FM will fail and refuse to assign it to whatever you're tryinf to assign it too
