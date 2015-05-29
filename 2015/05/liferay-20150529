@@ -21,3 +21,4 @@
 12:54 < jardineworks:#liferay> this doesn't give me any trouble ... <#assign RoleLocalService = serviceLocator.findService("com.liferay.portal.service.RoleLocalService")/>
 12:54 < jardineworks:#liferay> but as soon as I tried to use the object, it goes bananas... which I guess means that it didn't locate the service maybe
 12:56 <@jhf:#liferay> hmm no if it returns anything it should be the right thing
+12:56 <@jhf:#liferay> try to see what methods the object has.. something like <#list service?keys as key>${key}<p></#list>
