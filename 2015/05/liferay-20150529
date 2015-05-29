@@ -31,3 +31,4 @@
 13:03 <@jhf:#liferay> so you need to do something like <#assign foo = RoleLocalService.fetch(blah, blah)!null />
 13:04 <@jhf:#liferay> err not null
 13:04 <@jhf:#liferay> just put a ! at the end
+13:04 <@jhf:#liferay> here's one from the other day I used: <#assign user = userService.getUserByScreenName(companyId, screenName)! >
