@@ -43,3 +43,4 @@
 14:51 < jardineworks:#liferay> and the fix works perfectly... I even made a control panel portlet for creating virtual host alias records!
 14:52 < jardineworks:#liferay> .. but now I am finding that, only with the EXT plugin installed, it seems to, eventually, corrupt the portal-service.jsr.
 14:52 < jardineworks:#liferay> jar*
+14:52 < jardineworks:#liferay> the only fix seems to be to reinstall the bundle.
