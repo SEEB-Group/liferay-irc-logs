@@ -23,3 +23,4 @@
 12:56 <@jhf:#liferay> hmm no if it returns anything it should be the right thing
 12:56 <@jhf:#liferay> try to see what methods the object has.. something like <#list service?keys as key>${key}<p></#list>
 12:56 <@jhf:#liferay> the "keys" builtin tells you all callable things of that object
+12:57 <@jhf:#liferay> <#list RoleLocalService?keys as key> ${key} <p> </#list>
