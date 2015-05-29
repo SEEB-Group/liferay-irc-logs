@@ -36,3 +36,4 @@
 11:25 < [ru|de|en]CyberK:#liferay> how can i do safe restart of iferay in tomcat ?
 11:26 < jardineworks:#liferay> [ru|de|en]CyberK, a safe restart... as in a graceful shutdown followed by a startup?
 12:21 < [ru|de|en]CyberK:#liferay> if I do shutdown, server tomcat stay ON, but LR is down... and I don't know how can I start LR again after change for example portal-ext.properties file....
+--- Log closed Fri May 29 00:00:02 2015

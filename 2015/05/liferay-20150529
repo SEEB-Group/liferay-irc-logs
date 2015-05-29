@@ -1,0 +1,19 @@
+--- Log opened Fri May 29 00:00:02 2015
+--- Log opened Fri May 29 05:23:00 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ        ] [ henriquev   ] [ modd_       ] [ Tm_T      ] 
+05:23 [ [ru|de|en]CyberK] [ iDavid_     ] [ Naenyn      ] [ topolik   ] 
+05:23 [ bijoo           ] [ jardineworks] [ nicolas_FR  ] [ twen      ] 
+05:23 [ Bryanstein      ] [ jbub        ] [ quercus     ] [ vsingleton] 
+05:23 [ doged           ] [ josuebc     ] [ rocknroll_  ] [ YamakasY  ] 
+05:23 [ game0           ] [ MagnoBooter ] [ sm`         ] 
+05:23 [ Gorith          ] [ marcoceppi  ] [ Stormtrooper] 
+05:23 -!- Irssi: #liferay: Total of 26 nicks [1 ops, 0 halfops, 0 voices, 25 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 5 secs
+08:24 -!- mode/#liferay [+o jhf] by ChanServ
+10:09 -!- mode/#liferay [+o jhf] by ChanServ
+12:53 < jardineworks:#liferay> hey jhf can I use the serviceLocator in a freemarker theme init_custom.ftl?
+12:53 <@jhf:#liferay> not sure.. I've never done a freemarker theme.. I think you have access to it though.
