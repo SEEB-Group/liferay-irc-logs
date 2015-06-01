@@ -40,3 +40,4 @@
 11:18 < [ru|de|en]CyberK:#liferay> with redirect.url.security.mode=domain -> it show me home page with login portlet...
 11:29 < [ru|de|en]CyberK:#liferay> host.com/demo2 (not exist page) ---> http://host.com/home?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_58_struts_action=%2Flogin%2Flogin&p_p_id=58&_58_redirect=%2Fdemo2
 11:29 < [ru|de|en]CyberK:#liferay> but not custom error page
+11:29 < timmybe:#liferay> did you add the property to portal-ext.properties in your liferay home?
