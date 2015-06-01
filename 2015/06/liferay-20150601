@@ -38,3 +38,4 @@
 11:02 < [ru|de|en]CyberK:#liferay> need i hook?
 11:05 < timmybe:#liferay> this is just a normal page you can create and manage
 11:18 < [ru|de|en]CyberK:#liferay> with redirect.url.security.mode=domain -> it show me home page with login portlet...
+11:29 < [ru|de|en]CyberK:#liferay> host.com/demo2 (not exist page) ---> http://host.com/home?p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&saveLastPath=false&_58_struts_action=%2Flogin%2Flogin&p_p_id=58&_58_redirect=%2Fdemo2
