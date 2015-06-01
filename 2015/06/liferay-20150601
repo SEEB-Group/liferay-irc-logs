@@ -30,3 +30,4 @@
 10:42 < [ru|de|en]CyberK:#liferay> any1 here?
 10:42 < [ru|de|en]CyberK:#liferay> how work ERROR-404 ?
 10:43 < [ru|de|en]CyberK:#liferay> if i open url "host.com/blabla" -> status-404 on page, but nothing in log. if i open "host.com/blabla.css" -> can see this path in log but server do redirect to home-page
+10:52 < timmybe:#liferay> you can use the property layout.friendly.url.page.not.found=/web/guest/not-found
