@@ -19,3 +19,4 @@
 05:51 < timmybe:#liferay> can someone check if you can select a category for a user in Liferay 6.2?
 06:47 < rocknroll_:#liferay> well, you can tag users
 06:47 < rocknroll_:#liferay> it's called "categorizatin" in the edit user-page
+06:56 < rocknroll_:#liferay> but you cant categorize like you can categorize web content, if thats what you mean
