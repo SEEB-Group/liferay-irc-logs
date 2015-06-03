@@ -76,3 +76,4 @@
 11:56 < scribe:#liferay> Well, a few things I had to discover the hard way... looking through my script:
 11:56 < scribe:#liferay> after you unzip a fresh copy of 6.2ga4, you'll want to: echo "setup.wizard.enabled=false" > liferay/portal-setup-wizard.properties
 11:57 < scribe:#liferay> otherwise, Liferay tries to run the setup wizard even though you've given it an existing database which it just upgraded.
+11:59 < scribe:#liferay> We had trouble with Calendar objects which were using extended character set.  Apparently these are created /converted as latin1 and we get constant charset errors from the database for some Calendar entries.
