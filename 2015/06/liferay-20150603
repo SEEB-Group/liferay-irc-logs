@@ -52,3 +52,4 @@
 09:01 < scribe:#liferay> It seems the menu on the left disappears if the browser is too narrow (or a phone is being used).  This seems to be an effect of the new responsive design of the system.  I noticed this before on the classic these, but the menu was moved to a dash-dash-dash little menu icon.  In the SO theme, I cannot find where the menu moves.  i.e., our users can't navigate from the front page if they are using a phone.
 09:18 < jardineworks_:#liferay> scribe, I recently was told that the mobile menu -- the dash-dash-dash is actually called a "hamburger" menu :)
 09:18 < jardineworks_:#liferay> scribe, I don't have the experience you are referring to but I would like to ask you a few questions about your upgrade if you have a few minutes
+09:19 < jardineworks_:#liferay> I'm about to, possibly, take on the same upgrade.
