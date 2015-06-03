@@ -78,3 +78,4 @@
 11:57 < scribe:#liferay> otherwise, Liferay tries to run the setup wizard even though you've given it an existing database which it just upgraded.
 11:59 < scribe:#liferay> We had trouble with Calendar objects which were using extended character set.  Apparently these are created /converted as latin1 and we get constant charset errors from the database for some Calendar entries.
 11:59 < scribe:#liferay> not sure who created the tables latin1-- if it is was 6.0, 6.1, or 6.2 or who didn't upgrade the encoding properly.
+12:00 < scribe:#liferay> You'll need to enable a special mode for your password to work.
