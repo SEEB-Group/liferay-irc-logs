@@ -69,3 +69,4 @@
 11:49 < scribe:#liferay> So, we're probably not taking advantage of any specific Liferay feature besides OpenSocial, and the basic Rights and Roles and User Management Liferay gives us.  It does a great job at those and also our teams have fun with the other stuff available
 11:52 < nicolas_FR:#liferay> anyone ? :(
 11:53 < jardineworks_:#liferay> scribe, do you guys use clustering and cache replication?
+11:54 < scribe:#liferay> No.  I fear I'm mostly worthless for your questions.
