@@ -50,3 +50,4 @@
 07:22 < v01:#liferay> ja, genaue
 08:59 < scribe:#liferay> Hello guys.  We have just recently updated our portal from Liferay 6.1 to 6.2ga4.  We're trying out the social office theme and it looks nice mostly.  I had a few questions, if anyone is awake and might have experience with 6.2ga4+SO.
 09:01 < scribe:#liferay> It seems the menu on the left disappears if the browser is too narrow (or a phone is being used).  This seems to be an effect of the new responsive design of the system.  I noticed this before on the classic these, but the menu was moved to a dash-dash-dash little menu icon.  In the SO theme, I cannot find where the menu moves.  i.e., our users can't navigate from the front page if they are using a phone.
+09:18 < jardineworks_:#liferay> scribe, I recently was told that the mobile menu -- the dash-dash-dash is actually called a "hamburger" menu :)
