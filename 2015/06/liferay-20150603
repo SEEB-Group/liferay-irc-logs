@@ -83,3 +83,4 @@
 12:01 < scribe:#liferay> passwords.encryption.algorithm.legacy=SHA
 12:01 < scribe:#liferay> if you don't have that in your portal-ext.properties, then your users won't be able to login
 12:02 < scribe:#liferay> Apparently a different password hash is being used in 6.2
+12:03 < scribe:#liferay> And this might be something very specific to use, but our single signon hook we wrote set's a cookie in the user's browser.  6.2 now sets strong security on cookies so if you have portlets trying to reference these cookies, you'll need an entry like:
