@@ -60,3 +60,4 @@
 11:41 < scribe:#liferay> jardineworks_, we have a test server where I constantly tried the upgrade until I was finally happy with things.  I have a script to dump stuff from our live server into a tar.gz bundle, which I transfer to our test server and another script there takes as parameters a liferay.zip file and one of these backup bundles and sets the whole thing up from scratch.
 11:42 < scribe:#liferay> Happy to share, but there are some things in there which you won't need pertaining to installing our custom webapp into liferay's tomcat instance.
 11:43 < jardineworks_:#liferay> scribe, cool -- two features most heavily used for this instance is the DL and the WCM
+11:43 < jardineworks_:#liferay> are you using those as well?
