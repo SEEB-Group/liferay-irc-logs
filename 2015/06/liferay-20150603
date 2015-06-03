@@ -99,3 +99,4 @@
 12:14 < jardineworks_:#liferay> scribe, right -- I think there is a migration tool for that stuff
 12:14 < jardineworks_:#liferay> the aui stuff I mean
 12:14 < nicolas_FR:#liferay> jardineworks_: well, it ends up but type mixed. The only 2 types of sorts I see are OrderValueAsc and OrderHitsDesc
+12:20 < jardineworks_:#liferay> nicolas_FR, correct.. from a configuration perspective I think that is all you have. I had a client once that wanted to sort results by title (instead of relevancy) and in the end the simplest way to do it was to jsp hook the main_search.jsp page and add the logic to resort the Hits.
