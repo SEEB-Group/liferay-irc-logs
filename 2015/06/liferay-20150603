@@ -56,3 +56,4 @@
 10:24 < [ru|de|en]CyberK:#liferay> hi guys! any tipp how can I do multisites with different hosts? i created 2 sites, but 1 - host.com/homepage, and second site have path host.com/web/newSite/homepage .... is it possible to change sitesURLs?
 11:27 < nicolas_FR:#liferay> hi there
 11:27 < nicolas_FR:#liferay> is there a way to group facets search results by Type ? > Having all Documents, then all journal entries, then.. etc.
+11:38 < scribe:#liferay> jardineworks_, sure; ask away.  Sorry, I was in other windows for a while.
