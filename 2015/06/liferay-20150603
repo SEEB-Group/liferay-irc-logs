@@ -81,3 +81,4 @@
 12:00 < scribe:#liferay> You'll need to enable a special mode for your password to work.
 12:00 < jardineworks_:#liferay> I think we're using utf8 so we should be fine
 12:01 < scribe:#liferay> passwords.encryption.algorithm.legacy=SHA
+12:01 < scribe:#liferay> if you don't have that in your portal-ext.properties, then your users won't be able to login
