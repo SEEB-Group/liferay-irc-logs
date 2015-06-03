@@ -80,3 +80,4 @@
 11:59 < scribe:#liferay> not sure who created the tables latin1-- if it is was 6.0, 6.1, or 6.2 or who didn't upgrade the encoding properly.
 12:00 < scribe:#liferay> You'll need to enable a special mode for your password to work.
 12:00 < jardineworks_:#liferay> I think we're using utf8 so we should be fine
+12:01 < scribe:#liferay> passwords.encryption.algorithm.legacy=SHA
