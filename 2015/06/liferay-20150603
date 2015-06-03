@@ -89,3 +89,4 @@
 12:06 < nicolas_FR:#liferay> does anyone know how to sort results from the search portlet ? I would like to group my results by asset's type (documents, journal entry, etc.)
 12:06 < scribe:#liferay> besides the usual stuff, like our custom css and javascript for pages needed to update their class names.
 12:06 < scribe:#liferay> .aui-gadget and .aui-liferaygadget are now just .gadget and .liferaygadget
+12:11 < jardineworks_:#liferay> nicolas_FR, are you using the search portlet or the journal search portlet
