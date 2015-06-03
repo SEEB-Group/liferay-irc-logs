@@ -66,3 +66,4 @@
 11:45 < jardineworks_:#liferay> scribe, ... which features are you guys using?
 11:45 < scribe:#liferay> No, I mean we have teams who build their own sites with the basic CM tools but we don't do any sort of staging or that sort of thing.  Some of them also upload files to share with each other, but that's the extent of how I think we might be using those feaures.
 11:47 < scribe:#liferay> We use Liferay as mostly an OpenSocial container.  We have about 30 HTML Widgets we've built for universities researching critical editions and those widgets need an OpenSocial container to live inside.  Liferay is a great container and our gadgets get to live alongside all the other widgets in Liferay.
+11:49 < scribe:#liferay> So, we're probably not taking advantage of any specific Liferay feature besides OpenSocial, and the basic Rights and Roles and User Management Liferay gives us.  It does a great job at those and also our teams have fun with the other stuff available
