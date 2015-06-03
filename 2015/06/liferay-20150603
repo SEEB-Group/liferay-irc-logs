@@ -74,3 +74,4 @@
 11:55 < jardineworks_:#liferay> scribe, maybe easier for you to tell me what problems you encountered :)
 11:55 < scribe:#liferay> At any given time we have about 15 student and researchers using our portal.  It's not high traffic.
 11:56 < scribe:#liferay> Well, a few things I had to discover the hard way... looking through my script:
+11:56 < scribe:#liferay> after you unzip a fresh copy of 6.2ga4, you'll want to: echo "setup.wizard.enabled=false" > liferay/portal-setup-wizard.properties
