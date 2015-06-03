@@ -101,3 +101,4 @@
 12:14 < nicolas_FR:#liferay> jardineworks_: well, it ends up but type mixed. The only 2 types of sorts I see are OrderValueAsc and OrderHitsDesc
 12:20 < jardineworks_:#liferay> nicolas_FR, correct.. from a configuration perspective I think that is all you have. I had a client once that wanted to sort results by title (instead of relevancy) and in the end the simplest way to do it was to jsp hook the main_search.jsp page and add the logic to resort the Hits.
 12:22 < nicolas_FR:#liferay> jardineworks_: ok. I was looking at the main_search.jspf (already hooking my search portlet), but I don't know where to customise the resort. I don't know how to tell <liferay-ui:search-container-row> to be ordered
+12:27 < jardineworks_:#liferay> nicolas_FR, I think you have to basically make a copy if the Document[] that is inside the Hits object, and reorder the elements before it is bound to the search container.
