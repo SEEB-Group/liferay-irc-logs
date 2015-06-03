@@ -97,3 +97,4 @@
 12:13 < nicolas_FR:#liferay> jardineworks_: can't figure how. I've set advanced configuration, tried to change the JSON, but can't find how to sort
 12:13 < jardineworks_:#liferay> nicolas_FR, the results are automatically sorted based on relevancy
 12:14 < jardineworks_:#liferay> scribe, right -- I think there is a migration tool for that stuff
+12:14 < jardineworks_:#liferay> the aui stuff I mean
