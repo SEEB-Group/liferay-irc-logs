@@ -57,3 +57,4 @@
 11:27 < nicolas_FR:#liferay> hi there
 11:27 < nicolas_FR:#liferay> is there a way to group facets search results by Type ? > Having all Documents, then all journal entries, then.. etc.
 11:38 < scribe:#liferay> jardineworks_, sure; ask away.  Sorry, I was in other windows for a while.
+11:41 < scribe:#liferay> jardineworks_, we have a test server where I constantly tried the upgrade until I was finally happy with things.  I have a script to dump stuff from our live server into a tar.gz bundle, which I transfer to our test server and another script there takes as parameters a liferay.zip file and one of these backup bundles and sets the whole thing up from scratch.
