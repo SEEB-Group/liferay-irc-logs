@@ -13,3 +13,4 @@
 05:25 -!- Irssi: Join to #liferay was synced in 5 secs
 05:42 < [ru|de|en]CyberK:#liferay> hi
 05:42 < [ru|de|en]CyberK:#liferay> how can i send e-mails on many adresses?
+05:58 < [ru|de|en]CyberK:#liferay> have SMTPAdressFailedException: 550 5,7,1 unable to relay_ [sanitized]
