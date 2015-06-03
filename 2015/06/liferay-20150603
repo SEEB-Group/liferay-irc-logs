@@ -85,3 +85,4 @@
 12:02 < scribe:#liferay> Apparently a different password hash is being used in 6.2
 12:03 < scribe:#liferay> And this might be something very specific to use, but our single signon hook we wrote set's a cookie in the user's browser.  6.2 now sets strong security on cookies so if you have portlets trying to reference these cookies, you'll need an entry like:
 12:04 < scribe:#liferay> cookie.http.only.names.excludes=myCookieName
+12:05 < scribe:#liferay> those are most of the issues we had to iron out.
