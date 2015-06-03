@@ -87,3 +87,4 @@
 12:04 < scribe:#liferay> cookie.http.only.names.excludes=myCookieName
 12:05 < scribe:#liferay> those are most of the issues we had to iron out.
 12:06 < nicolas_FR:#liferay> does anyone know how to sort results from the search portlet ? I would like to group my results by asset's type (documents, journal entry, etc.)
+12:06 < scribe:#liferay> besides the usual stuff, like our custom css and javascript for pages needed to update their class names.
