@@ -96,3 +96,4 @@
 12:13 < jardineworks_:#liferay> nicolas_FR, and you can configure the assets as well as the models that are searched in the advanced configuration
 12:13 < nicolas_FR:#liferay> jardineworks_: can't figure how. I've set advanced configuration, tried to change the JSON, but can't find how to sort
 12:13 < jardineworks_:#liferay> nicolas_FR, the results are automatically sorted based on relevancy
+12:14 < jardineworks_:#liferay> scribe, right -- I think there is a migration tool for that stuff
