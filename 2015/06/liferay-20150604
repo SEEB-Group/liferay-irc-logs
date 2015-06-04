@@ -51,3 +51,4 @@
 18:19 < scribe:#liferay> Also, a normal user, when they go to "My Account" can no longer edit their personal information or photo.
 18:23 < scribe:#liferay> They only see "My Workflow Tasks" and "My Submissions"
 18:34 < scribe:#liferay> OK, I just found that the "User" role no longer has permission to "Access in My Account" their "Account Settings"
+18:34 < scribe:#liferay> That's strange.  I've added it and it does show up now.
