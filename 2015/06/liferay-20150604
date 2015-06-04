@@ -28,3 +28,4 @@
 15:38 < bijoo_:#liferay> hibernate's is a jpa impl
 15:39 < bijoo_:#liferay> and jdbc is underneath that
 15:40 < bijoo_:#liferay> v01: "Does anyone use Liferay IDE and maven ?" yes have used that combination in past
+15:40 < jardineworks_:#liferay> bijoo_, AND! don't forget the class loader proxy magic that makes sure that your resource usage (session, connection pools, threads etc) don't go all hay wire ... all portlets using your service share the same pool instead of each making their own
