@@ -52,3 +52,4 @@
 18:23 < scribe:#liferay> They only see "My Workflow Tasks" and "My Submissions"
 18:34 < scribe:#liferay> OK, I just found that the "User" role no longer has permission to "Access in My Account" their "Account Settings"
 18:34 < scribe:#liferay> That's strange.  I've added it and it does show up now.
+19:00 < scribe:#liferay> OK, it looks like if you use the Social Office Theme for your site and some of your users aren't in the Social Office User role, then they will not get the "hamburger" menu which is where the site menu goes when the page width is narrow.
