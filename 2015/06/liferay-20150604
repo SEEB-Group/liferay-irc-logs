@@ -25,3 +25,4 @@
 15:37 < bijoo_:#liferay> v01: and even makes remote services too
 15:37 < bijoo_:#liferay> v01: service builder uses the other three itself
 15:38 < bijoo_:#liferay> itself* as in it uses hibernate as well
+15:38 < bijoo_:#liferay> hibernate's is a jpa impl
