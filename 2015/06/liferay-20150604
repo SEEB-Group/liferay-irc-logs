@@ -22,3 +22,4 @@
 15:36 < bijoo_:#liferay> v01: "what do you use for persistence layer in LR (service builder, hibernate, jpa, jdbc )  and why ?" -- I use ServiceBuilder
 15:37 < bijoo_:#liferay> v01: because it adds caching and it's easy
 15:37 < bijoo_:#liferay> v01: it reduces boilerplate code a lot
+15:37 < bijoo_:#liferay> v01: and even makes remote services too
