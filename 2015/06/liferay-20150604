@@ -19,3 +19,4 @@
 09:39 < hufg:#liferay> found it
 11:56 < v01:#liferay> hi
 11:57 < v01:#liferay> saluton
+15:36 < bijoo_:#liferay> v01: "what do you use for persistence layer in LR (service builder, hibernate, jpa, jdbc )  and why ?" -- I use ServiceBuilder
