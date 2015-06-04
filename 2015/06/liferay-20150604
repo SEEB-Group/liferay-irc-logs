@@ -27,3 +27,4 @@
 15:38 < bijoo_:#liferay> itself* as in it uses hibernate as well
 15:38 < bijoo_:#liferay> hibernate's is a jpa impl
 15:39 < bijoo_:#liferay> and jdbc is underneath that
+15:40 < bijoo_:#liferay> v01: "Does anyone use Liferay IDE and maven ?" yes have used that combination in past
