@@ -31,3 +31,4 @@
 15:40 < jardineworks_:#liferay> bijoo_, AND! don't forget the class loader proxy magic that makes sure that your resource usage (session, connection pools, threads etc) don't go all hay wire ... all portlets using your service share the same pool instead of each making their own
 15:45 < bijoo_:#liferay> jardineworks_: good to see you! I've been so MIA ;)
 15:45 < bijoo_:#liferay> jardineworks_: yes, ditto on everything you said
+15:46 < jardineworks_:#liferay> bijoo_, yeah man.. where you been hiding!? :)
