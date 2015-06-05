@@ -3,3 +3,4 @@
 03:28 < v01:#liferay> bijoo_, jardineworks_ thanks! for answering my questions
 04:23 < [ru|de|en]CyberK:#liferay> morning!
 04:24 < [ru|de|en]CyberK:#liferay> how can i disable to show page for specific language? for example allow guest user to see the page "products/myNewProduct" on english, but disable for germany?
+04:58 < hufg:#liferay> ahh any ideas why portlet-preferences wouldn't work in portlet.xml?
