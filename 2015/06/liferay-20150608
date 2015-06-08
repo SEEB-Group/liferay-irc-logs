@@ -1,2 +1,16 @@
 --- Log opened Mon Jun 08 00:00:06 2015
 05:15 < bodik:#liferay> hi, i have trouble with rss portlet, somehow it cannot display 2 of 20 feeds we have configured. ther's no log or anything which might suggest what is wrong, any idea how to debug that portlet ?
+--- Log opened Mon Jun 08 05:23:15 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ Gorith       ] [ josuebc    ] [ quercus   ] [ vsingleton] 
+05:23 [ bijoo     ] [ henriquev    ] [ MagnoBooter] [ rocknroll_] 
+05:23 [ bodik     ] [ iDavid_      ] [ marcoceppi ] [ Tm_T      ] 
+05:23 [ Bryanstein] [ jardineworks_] [ modd_      ] [ twen      ] 
+05:23 [ doged     ] [ jbub         ] [ Naenyn     ] [ v01       ] 
+05:23 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+08:35 < scribe:#liferay> Hey guys.  Is there a way to turn off portlet dragging for admins?  My admin users often accidentally move portlets around even when they are not in 'edit' mode on the page and it is becoming annoying to have to frequently put everything back in place.
+08:35 < scribe:#liferay> Can I add some javascript to the page or something to only allow portlet dragging when edit controls are turned on?
