@@ -16,3 +16,4 @@
 08:35 < scribe:#liferay> Can I add some javascript to the page or something to only allow portlet dragging when edit controls are turned on?
 08:37 < scribe:#liferay> (same goes for page rename click.  It seems like these things should be turned off when edit controls are turned off.) My admin users also regularly use our pages for the daily work.
 08:38 < scribe:#liferay> And when they're not 'admining' they don't want those clicks and drags to accidentally do adminy things :)
+10:28 < unknown42:#liferay> Hello, I'm setting up liferay via webinterface. I want to use ldap, but I get the message, that I could not connect to server. But I can with Apache Directory Studio. Can you help me?
