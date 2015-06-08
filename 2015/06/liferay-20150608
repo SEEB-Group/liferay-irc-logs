@@ -19,3 +19,4 @@
 10:28 < unknown42:#liferay> Hello, I'm setting up liferay via webinterface. I want to use ldap, but I get the message, that I could not connect to server. But I can with Apache Directory Studio. Can you help me?
 10:29 < unknown42:#liferay> I'm very new to ldap
 12:10 < scribe:#liferay> Hi guys.  I'm considering switching our project grouping strategy in our portal from using UserGroup to using the "Site Member" concept.  I'm having a hard time finding "Site" utilities.  How do I get a list of Sites on a portal?  I found the WebsiteLocalServiceUtil but this only seems to give me what I think are user public and private sites.
+12:59 < scribe:#liferay> I think I've figured it out.  Sites seem to show up as "Groups" and not "UserGroups" and if I call GroupLocalServiceUtil.getGroups(companyId, 0, true);  I mostly get what I want.
