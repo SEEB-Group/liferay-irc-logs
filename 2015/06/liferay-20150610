@@ -14,3 +14,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 6 secs
 06:56 < hufg:#liferay> helloo helloo
 09:48 < scribe:#liferay> Hi guys.  I want to add a new user to our system and don't wish for this user to be forced to authenticate their email.  Is there a way to manually set that the email verification is not required, or has already been accomplished?
+--- Log closed Thu Jun 11 00:00:11 2015

@@ -1,0 +1,2 @@
+--- Log opened Fri Jun 12 00:00:10 2015
+03:28 < bodik:#liferay> hi, i have trouble with rss portlet, somehow it cannot display 2 of 20 feeds we have configured. ther's no log or anything which might suggest what is wrong, any idea how to debug that portlet ?
