@@ -7,3 +7,4 @@
 03:32 < bodik:#liferay> http://isc.sans.edu/rssfeed.xml cannot be found.
 03:35 < bodik:#liferay> which is wierd, there's no exception in logs, and "cannot be found" is not really informative because that feed is working
 04:03 < bodik:#liferay> [ru|de|en]CyberK: i cannt see what is wrong with that feed ;(
+04:03 < bodik:#liferay> [ru|de|en]CyberK: is there any chance to debug a portlet ?
