@@ -5,3 +5,4 @@
 03:31 < [ru|de|en]CyberK:#liferay> or wrong structur
 03:31 < [ru|de|en]CyberK:#liferay> or publisching date
 03:32 < bodik:#liferay> http://isc.sans.edu/rssfeed.xml cannot be found.
+03:35 < bodik:#liferay> which is wierd, there's no exception in logs, and "cannot be found" is not really informative because that feed is working
