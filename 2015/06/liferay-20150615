@@ -14,3 +14,4 @@
 06:00 < scribe:#liferay> Hi guys.  I'm still having some difficulty retrieving all the members of a site.
 06:00 < scribe:#liferay> Any suggestions would be appreciated.
 06:01 < scribe:#liferay> What I am doing is this:  I can use Liferay.ThemeDisplay.getScopeGroupId() to get the group id for the site.
+06:02 < scribe:#liferay> Then on my backend, I'm using: UserLocalServiceUtil.getGroupUsers(groupId)
