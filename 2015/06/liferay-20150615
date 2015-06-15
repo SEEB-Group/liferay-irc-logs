@@ -16,3 +16,4 @@
 06:01 < scribe:#liferay> What I am doing is this:  I can use Liferay.ThemeDisplay.getScopeGroupId() to get the group id for the site.
 06:02 < scribe:#liferay> Then on my backend, I'm using: UserLocalServiceUtil.getGroupUsers(groupId)
 06:03 < scribe:#liferay> And this gets me close.  I get all members of the site added directly to the site, but not added by including usergroups in the site.
+06:04 < scribe:#liferay> I supposed I can do the work to see if there are user groups added to the site somehow and also loop through those and grab users, but thought there might be an easy way to simply getSiteMembers(groupId), but haven't found it and thought I'd ask.  Any advice?
