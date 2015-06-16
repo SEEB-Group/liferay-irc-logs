@@ -1,0 +1,24 @@
+--- Log opened Tue Jun 16 00:00:11 2015
+01:12 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+01:12 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+01:12 [Users #liferay]
+01:12 [@ChanServ  ] [ doged    ] [ jardineworks] [ marcoceppi] [ sm`       ] 
+01:12 [ bijoo     ] [ Gorith   ] [ jbub        ] [ Naenyn    ] [ Tm_T      ] 
+01:12 [ bodik     ] [ henriquev] [ josuebc     ] [ quercus   ] [ vsingleton] 
+01:12 [ Bryanstein] [ iDavid_  ] [ MagnoBooter ] [ rocknroll_] 
+01:12 -!- Irssi: #liferay: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+01:12 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+01:12 -!- Irssi: Join to #liferay was synced in 6 secs
+--- Log opened Tue Jun 16 05:23:02 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ Gorith      ] [ josuebc    ] [ plekplek  ] [ twen      ] 
+05:23 [ bijoo     ] [ henriquev   ] [ MagnoBooter] [ quercus   ] [ vsingleton] 
+05:23 [ bodik     ] [ iDavid_     ] [ marcoceppi ] [ rocknroll_] 
+05:23 [ Bryanstein] [ jardineworks] [ modd_      ] [ sm`       ] 
+05:23 [ doged     ] [ jbub        ] [ Naenyn     ] [ Tm_T      ] 
+05:23 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+14:45 < kermitt:#liferay> afternoon all: I seem to be get a pause in my page load's 'first byte'...  ...trying to figure out why but my tooling doesn't allow me much visibility into that aspect of the Webstack lifecycle.
