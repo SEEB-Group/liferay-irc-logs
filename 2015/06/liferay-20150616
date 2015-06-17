@@ -22,3 +22,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 6 secs
 14:45 < kermitt:#liferay> afternoon all: I seem to be get a pause in my page load's 'first byte'...  ...trying to figure out why but my tooling doesn't allow me much visibility into that aspect of the Webstack lifecycle.
+--- Log closed Wed Jun 17 00:00:00 2015
