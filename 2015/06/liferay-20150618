@@ -94,3 +94,4 @@
 10:36 < jardineworks:#liferay> all pages, portlets, settings, structures, templates, static content items, adts, etc.
 10:36 < hufg:#liferay> hmm interestin
 10:36 < hufg:#liferay> g
+10:36 < jardineworks:#liferay> we just forked it to add a resource property that allows you to scope the theme to a company (we're in a multi-tenant env as well)
