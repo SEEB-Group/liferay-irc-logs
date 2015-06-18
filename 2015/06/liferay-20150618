@@ -27,3 +27,4 @@
 10:09 < hufg:#liferay> hmm well
 10:10 < hufg:#liferay> the thing is it's an external env somewhere
 10:11 < hufg:#liferay> i create the portal by logging through the public http address
+10:11 < hufg:#liferay> then the first thing i did was to create another instance, i use the public http address as instance virtualhost
