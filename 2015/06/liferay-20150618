@@ -64,3 +64,4 @@
 10:21 < dave_k:#liferay> exactly my reaction, jardineworks m)
 10:21 < jardineworks:#liferay> and update the source to use the CounterLocalServiceUtil when creating a new entity
 10:21 < jardineworks:#liferay> hufg - can you see the database?
+10:22 < hufg:#liferay> yeah probably with some tinkering
