@@ -61,3 +61,4 @@
 10:20 < jardineworks:#liferay> then I would add another attribute to the entity definition, a long
 10:20 < jardineworks:#liferay> remove the PK from the URL
 10:21 < jardineworks:#liferay> update the table records ... just increment a value
+10:21 < dave_k:#liferay> exactly my reaction, jardineworks m)
