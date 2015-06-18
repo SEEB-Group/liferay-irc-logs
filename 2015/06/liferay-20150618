@@ -82,3 +82,4 @@
 10:31 < jardineworks:#liferay> hufg, does the first admin user (from the default instance) have a user record scoped to the second instance companyId in the user table?
 10:31 < hufg:#liferay> someone has made adt/structure/template instllation via deployment
 10:31 < hufg:#liferay> + custom fields
+10:32 < hufg:#liferay> first time i've seen this
