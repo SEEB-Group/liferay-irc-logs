@@ -40,3 +40,4 @@
 10:14 < jardineworks:#liferay> but I believe omniadmin users can get to them anywhere.
 10:15 < jardineworks:#liferay> but when you craete a new instance, then another "admin" user record will be created, scoped with a different companyId
 10:15 < hufg:#liferay> mm ok so uhh how to access that admin
+10:15 < jardineworks:#liferay> sooo lets say Main instance admin user is 1234
