@@ -32,3 +32,4 @@
 10:11 < hufg:#liferay> after that i'm unable to log into the instance at all with the omni user
 10:12 < hufg:#liferay> shouldn't it be possible though?
 10:12 < jardineworks:#liferay> dave_k, normally PKs are longs. If you can't change the service, then you could wrap the value in a GetterUtil.getLong() ... sosomething like..
+10:13 < jardineworks:#liferay> assetEntryLocalServiceUtil.updateEntry( GetterUtil.getLong(classPkThatIsAString) );
