@@ -105,3 +105,4 @@
 10:39 < hufg:#liferay> holy shit you can even do portlet config with it?
 10:41 < hufg:#liferay> the customers also sometimes have an excel or whatever for pages definition
 10:42 < hufg:#liferay> would be nice to copy paste sed magic into actual page tree
+10:43 < jardineworks:#liferay> hufg, I haven't done the custom fields... but the other stuff yeah. In fact, you can just put a freaking LAR file into the thing and it will import the LAR on deployment!
