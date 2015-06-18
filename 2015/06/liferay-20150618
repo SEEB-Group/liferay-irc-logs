@@ -115,3 +115,4 @@
 11:57 < modd:#liferay> there you can browse down to your image and copy the link
 11:59 < modd:#liferay> viele grüße nach göttingen
 12:04 < ulrichschmid:#liferay> Hey, thanks, that worked. But I don't want to display all the image metadata. I'd like to have a nice end user experience, if possible.
+12:05 < modd:#liferay> basically, you don't need all the url parameters at the end of the url
