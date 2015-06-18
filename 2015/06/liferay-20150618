@@ -99,3 +99,4 @@
 10:37 < jardineworks:#liferay> the developers would spend 1 - 2 hours at a time manually reconfiguring everything.
 10:37 < jardineworks:#liferay> I spent less than a day making the resources definition... now it takes about 3 seconds to build the entire app
 10:37 < hufg:#liferay> cool
+10:37 < jardineworks:#liferay> and in this case, it actually makes our builds part of a disposable infrastructure solution.
