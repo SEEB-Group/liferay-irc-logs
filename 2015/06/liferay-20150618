@@ -18,3 +18,4 @@
 10:03 < jardineworks:#liferay> hufg, are you one on the main instance? or on the newly created instance?
 10:05 < hufg:#liferay> newly created
 10:08 < dave_k:#liferay> A coworker created a Liferay Service using a String as Primary Key. Now I have to enable its entities to be used as an asset. Is my hunch correct that if want to call assetEntryLocalService.updateEntry(), the classPK argument must be the PrimaryKey used in service.xml? And because of the method signature, PrimaryKeys have to be of type long? And that I have to restructure the whole Service?
+10:09 < jardineworks:#liferay> hufg, but you created the NEW instance from the main instance, correct?
