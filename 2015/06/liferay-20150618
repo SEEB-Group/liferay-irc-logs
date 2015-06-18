@@ -42,3 +42,4 @@
 10:15 < hufg:#liferay> mm ok so uhh how to access that admin
 10:15 < jardineworks:#liferay> sooo lets say Main instance admin user is 1234
 10:15 < hufg:#liferay> this is wierd
+10:15 < jardineworks:#liferay> so you put ominiadmin.users=1234
