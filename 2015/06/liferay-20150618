@@ -45,3 +45,4 @@
 10:15 < jardineworks:#liferay> so you put ominiadmin.users=1234
 10:16 < jardineworks:#liferay> but then in the new instance, the admin user is 4567
 10:16 < hufg:#liferay> i've got it as default
+10:16 < jardineworks:#liferay> .. you log into the new instance with the 4567
