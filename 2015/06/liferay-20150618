@@ -111,3 +111,4 @@
 10:49 < hufg:#liferay> i'm out have a nice weekend!
 11:46 < ulrichschmid:#liferay> Hey guys.  I've created a blog post with what I hope will become a link to an image viewer to show an image.  To make this happen, I've created a new page, dropped the Media Gallery portlet on the page and can browse down to my image to view it, but can I get a direct link to this page which will directly show my image so I can use that URL in as the link in my blog post?
 11:56 < modd:#liferay> hi ulrichschmid
+11:57 < modd:#liferay> use the document library portlet, not the gallery
