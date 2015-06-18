@@ -34,3 +34,4 @@
 10:12 < jardineworks:#liferay> dave_k, normally PKs are longs. If you can't change the service, then you could wrap the value in a GetterUtil.getLong() ... sosomething like..
 10:13 < jardineworks:#liferay> assetEntryLocalServiceUtil.updateEntry( GetterUtil.getLong(classPkThatIsAString) );
 10:13 < hufg:#liferay> then i'm actually unable to log at all
+10:14 < jardineworks:#liferay> hufg, the omniadmin doesn't mean you can log into everything... it just means you have access to all portal functions (including those normally restricted to the main instance) from any instance. For example, Portal Instances, and Server Administrator
