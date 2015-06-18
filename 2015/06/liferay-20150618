@@ -1,0 +1,17 @@
+--- Log opened Thu Jun 18 00:00:58 2015
+--- Log opened Thu Jun 18 05:23:05 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ g00se       ] [ jbub       ] [ Naenyn  ] [ vsingleton] 
+05:23 [ bijoo     ] [ Gorith      ] [ josuebc    ] [ plekplek] 
+05:23 [ bodik     ] [ henriquev   ] [ kermitt    ] [ quercus ] 
+05:23 [ Bryanstein] [ iDavid_     ] [ MagnoBooter] [ Tm_T    ] 
+05:23 [ doged     ] [ jardineworks] [ marcoceppi ] [ topolik ] 
+05:23 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 5 secs
+09:37 < hufg:#liferay> hello!
+09:37 < hufg:#liferay> i'm trying to make another portal instance but if i'm logged in as omniuser can't access the pages
+09:37 < hufg:#liferay> huh?
+09:38 < hufg:#liferay>  com.liferay.portal.NoSuchResourcePermissionException: No ResourcePermission exists with the key {companyId=20552, name=com.liferay.portal.model.Layout, scope=4, primKey=20581, roleId=20164}

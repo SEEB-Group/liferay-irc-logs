@@ -14,3 +14,4 @@
 09:21 < [ru|de|en]CyberK:#liferay> hi guys! need HELP!!!
 09:23 < [ru|de|en]CyberK:#liferay> in local network we have LR62GA4 server, our firewall do redirect from external network (https://www.myhost.com) into local  (localweb.firm.com:1111)... but LR-server aui.css & custom.css will be blocked with Browser as multipart content...
 09:24 < [ru|de|en]CyberK:#liferay> what must I do to allow getting this files?
+--- Log closed Thu Jun 18 00:00:58 2015
