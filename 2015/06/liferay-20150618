@@ -37,3 +37,4 @@
 10:14 < jardineworks:#liferay> hufg, the omniadmin doesn't mean you can log into everything... it just means you have access to all portal functions (including those normally restricted to the main instance) from any instance. For example, Portal Instances, and Server Administrator
 10:14 < jardineworks:#liferay> those are normally only allowed to be accessed from the main instance.
 10:14 < hufg:#liferay> uhuh ok
+10:14 < jardineworks:#liferay> but I believe omniadmin users can get to them anywhere.
