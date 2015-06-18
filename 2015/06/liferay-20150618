@@ -55,3 +55,4 @@
 10:19 < jardineworks:#liferay> can you log into the new instance with test@liferay.com / test?
 10:20 < dave_k:#liferay> jardineworks: Thanks, but since the PK is actually a URL String, there's no point in converting it.
 10:20 < jardineworks:#liferay> dave_k, :|
+10:20 < jardineworks:#liferay> fail/
