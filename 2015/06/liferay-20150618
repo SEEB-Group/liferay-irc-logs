@@ -74,3 +74,4 @@
 10:28 < hufg:#liferay> dave_k: i'd probably check that the service.xml primary key maps to classPK
 10:28 < hufg:#liferay> it's not always so obvious
 10:29 < hufg:#liferay> before telling hehe
+10:30 < hufg:#liferay> jardineworks: there seems to be something wrong with the omniadmin.user prop
