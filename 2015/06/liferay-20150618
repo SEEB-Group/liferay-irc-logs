@@ -118,3 +118,4 @@
 12:05 < modd:#liferay> basically, you don't need all the url parameters at the end of the url
 12:05 < modd:#liferay> it will still work
 12:06 < modd:#liferay> so cut everything behind the filename
+12:07 < modd:#liferay> or you could use this to get a custom url: https://www.liferay.com/de/marketplace/-/mp/application/46084347
