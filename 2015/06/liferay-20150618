@@ -17,3 +17,4 @@
 09:38 < hufg:#liferay>  com.liferay.portal.NoSuchResourcePermissionException: No ResourcePermission exists with the key {companyId=20552, name=com.liferay.portal.model.Layout, scope=4, primKey=20581, roleId=20164}
 10:03 < jardineworks:#liferay> hufg, are you one on the main instance? or on the newly created instance?
 10:05 < hufg:#liferay> newly created
+10:08 < dave_k:#liferay> A coworker created a Liferay Service using a String as Primary Key. Now I have to enable its entities to be used as an asset. Is my hunch correct that if want to call assetEntryLocalService.updateEntry(), the classPK argument must be the PrimaryKey used in service.xml? And because of the method signature, PrimaryKeys have to be of type long? And that I have to restructure the whole Service?
