@@ -97,3 +97,4 @@
 10:36 < jardineworks:#liferay> we just forked it to add a resource property that allows you to scope the theme to a company (we're in a multi-tenant env as well)
 10:37 < jardineworks:#liferay> people told me it was useless.
 10:37 < jardineworks:#liferay> the developers would spend 1 - 2 hours at a time manually reconfiguring everything.
+10:37 < jardineworks:#liferay> I spent less than a day making the resources definition... now it takes about 3 seconds to build the entire app
