@@ -114,3 +114,4 @@
 11:57 < modd:#liferay> use the document library portlet, not the gallery
 11:57 < modd:#liferay> there you can browse down to your image and copy the link
 11:59 < modd:#liferay> viele grüße nach göttingen
+12:04 < ulrichschmid:#liferay> Hey, thanks, that worked. But I don't want to display all the image metadata. I'd like to have a nice end user experience, if possible.
