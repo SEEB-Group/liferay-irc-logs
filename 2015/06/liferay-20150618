@@ -67,3 +67,4 @@
 10:22 < hufg:#liferay> yeah probably with some tinkering
 10:22 < jardineworks:#liferay> hufg, if you can... select the records from the VirtualHost table. Pick out the companyId for your nnew instance and then query the User_ table filtering by companyId
 10:25 < hufg:#liferay> ok let's see
+10:26 < hufg:#liferay> ooh it was test@maildomain.com
