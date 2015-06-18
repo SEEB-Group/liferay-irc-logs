@@ -49,3 +49,4 @@
 10:16 < jardineworks:#liferay> but you need to (I think -- been a while since I used this!) add 4567 to the omniadmin.users property
 10:17 < jardineworks:#liferay> once you do, then the 4567 user should be able to see Portal Instances and Service Administration from the Second (non main) instance you created.
 10:17 < jardineworks:#liferay> (again, all from memory here .. and it's been a while)
+10:18 < hufg:#liferay> yeah ok well nevermind i think i can get some support on monday anyways
