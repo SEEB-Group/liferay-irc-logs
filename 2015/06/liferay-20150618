@@ -30,3 +30,4 @@
 10:11 < hufg:#liferay> then the first thing i did was to create another instance, i use the public http address as instance virtualhost
 10:11 < hufg:#liferay> this is everything with the first user omniadmin
 10:11 < hufg:#liferay> after that i'm unable to log into the instance at all with the omni user
+10:12 < hufg:#liferay> shouldn't it be possible though?
