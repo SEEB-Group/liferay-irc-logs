@@ -65,3 +65,4 @@
 10:21 < jardineworks:#liferay> and update the source to use the CounterLocalServiceUtil when creating a new entity
 10:21 < jardineworks:#liferay> hufg - can you see the database?
 10:22 < hufg:#liferay> yeah probably with some tinkering
+10:22 < jardineworks:#liferay> hufg, if you can... select the records from the VirtualHost table. Pick out the companyId for your nnew instance and then query the User_ table filtering by companyId
