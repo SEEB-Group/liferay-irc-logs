@@ -1,0 +1,2 @@
+--- Log opened Thu Jun 25 00:00:00 2015
+04:15 < haba713:#liferay> hi! jsonws method helloWorld here http://goo.gl/ZQ3sCv returns string. is there any mechanism to write directly to response output stream instead of returning string?
