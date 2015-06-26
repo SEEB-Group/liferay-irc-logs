@@ -16,3 +16,4 @@
 13:09 < Swarna:#liferay> hi .. I am trying to bring up an existing maven portlet on a windows machine.
 13:09 < Swarna:#liferay> First of all, is that possible ?
 13:09 < Swarna:#liferay> I see the same portlet running fine on the servers
+13:28 <@jhf:#liferay> Swarna: should work - are you trying to compile using maven? or just trying to deploy the already-built portlet?
