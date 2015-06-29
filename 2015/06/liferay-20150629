@@ -42,3 +42,4 @@
 10:44 <@jhf:#liferay> startup time is really only impt when in dev mode
 10:45 <@jhf:#liferay> production mode, 25 seconds is no big deal. but jboss has much more powerful features in terms of clustering
 10:45 <@jhf:#liferay> and of course great support for other jboss middleware :)
+11:19 < jardineworks:#liferay> jhf, do you still have that snippet of code you gave me (many moons ago) that I can use in the scripting console to delete a user using the UserLocalServiceUtiil?
