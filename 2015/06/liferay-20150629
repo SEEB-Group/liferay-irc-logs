@@ -54,3 +54,4 @@
 11:27 <@jhf:#liferay> so do you want to delete via username, id, email, screenname?
 11:29 <@jhf:#liferay> here's the javascript code to do it:
 11:29 <@jhf:#liferay> user = Packages.com.liferay.portal.service.UserLocalServiceUtil.getUserByScreenName(10155, "dsf");
+11:29 <@jhf:#liferay> Packages.com.liferay.portal.service.UserLocalServiceUtil.deleteUser(user);
