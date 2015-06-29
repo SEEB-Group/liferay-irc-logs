@@ -40,3 +40,4 @@
 10:43 <@jhf:#liferay> (including LR startup time)
 10:44 <@jhf:#liferay> in my machine, LR+tomcat takes 80 seconds to startup. LR+jboss takes 55 seconds.
 10:44 <@jhf:#liferay> startup time is really only impt when in dev mode
+10:45 <@jhf:#liferay> production mode, 25 seconds is no big deal. but jboss has much more powerful features in terms of clustering
