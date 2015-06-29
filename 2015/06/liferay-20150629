@@ -58,3 +58,4 @@
 11:29 <@jhf:#liferay> where 10155 is the companyId
 11:29 <@jhf:#liferay> "dsf
 11:30 <@jhf:#liferay> is the screen name
+11:33 < jardineworks:#liferay> jhf, thanks :)... just noticed that the default example for JS uses the UserLocalServiceUtil. lol
