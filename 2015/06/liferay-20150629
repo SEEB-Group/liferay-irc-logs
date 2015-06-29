@@ -56,3 +56,4 @@
 11:29 <@jhf:#liferay> user = Packages.com.liferay.portal.service.UserLocalServiceUtil.getUserByScreenName(10155, "dsf");
 11:29 <@jhf:#liferay> Packages.com.liferay.portal.service.UserLocalServiceUtil.deleteUser(user);
 11:29 <@jhf:#liferay> where 10155 is the companyId
+11:29 <@jhf:#liferay> "dsf
