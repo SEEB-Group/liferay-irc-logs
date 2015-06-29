@@ -38,3 +38,4 @@
 10:43 <@jhf:#liferay> yeah it's a real app server
 10:43 <@jhf:#liferay> amazingly we've found it actually starts up faster than tomcat
 10:43 <@jhf:#liferay> (including LR startup time)
+10:44 <@jhf:#liferay> in my machine, LR+tomcat takes 80 seconds to startup. LR+jboss takes 55 seconds.
