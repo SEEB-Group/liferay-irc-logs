@@ -18,3 +18,4 @@
 10:24 -!- mode/#liferay [+o jhf] by ChanServ
 11:00 < dave_k:#liferay> Hey all... I'm trying to write an Indexer, but always get an "[IndexerRegistryImpl:53] No indexer found for <myEntity>" error. I try to follow https://dev.liferay.com/develop/learning-paths/mvc/-/knowledge_base/6-2/enabling-search-and-indexing-for-guestbook-entries, but using Maven while splitting service and portlet into different projects. How can I debug this?
 15:11 < bijoo_:#liferay> jhf: excited about RH+LR
+15:12 < bijoo_:#liferay> jhf: and need to start checking out M6 too
