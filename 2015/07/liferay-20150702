@@ -1,3 +1,4 @@
 --- Log opened Thu Jul 02 00:00:59 2015
 03:07 < Axxell:#liferay> Hey guys
 03:08 < Axxell:#liferay> im trying to find out if its possible to make assetpublisher change its sorting, by a parameter in the url? or something of that nature? I want to do an ADT that would have links where you would change the sorting of the assets
+03:09 < Axxell:#liferay> ive done it before by putting the assetpublisher results in an array, then sorting that array, but thats kinda suboptimal
