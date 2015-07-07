@@ -13,3 +13,4 @@
 11:03 -!- mode/#liferay [+o jhf] by ChanServ
 11:24 -!- mode/#liferay [+o _jhf_] by ChanServ
 12:04 < scribe:#liferay> Hey guys.  We have an Activities portlet on the welcome page of our site and it should only be displayed for site members.  I removed view permission for guests and this certainly hides the Activities portlet when someone is not logged in to the portal, but it also shows a red error, "You do not have the roles required to access this portlet."  I would simply like to not show the portlet, not report an error.  Any ideas?
+12:38 <@jhf:#liferay> scribe there is a portal property for that
