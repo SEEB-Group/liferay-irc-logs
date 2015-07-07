@@ -1,0 +1,15 @@
+--- Log opened Tue Jul 07 00:00:01 2015
+--- Log opened Tue Jul 07 05:23:01 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ devpadawan] [ josuebc    ] [ Naenyn      ] [ topolik] 
+05:23 [ abeym     ] [ Gorith    ] [ kermitt_   ] [ quercus     ] [ twen   ] 
+05:23 [ bijoo     ] [ Guest21746] [ MagnoBooter] [ Tar-Minyatur] [ winem_ ] 
+05:23 [ Bryanstein] [ henriquev ] [ marcoceppi ] [ Tm_T        ] 
+05:23 -!- Irssi: #liferay: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+11:03 -!- mode/#liferay [+o jhf] by ChanServ
+11:24 -!- mode/#liferay [+o _jhf_] by ChanServ
+12:04 < scribe:#liferay> Hey guys.  We have an Activities portlet on the welcome page of our site and it should only be displayed for site members.  I removed view permission for guests and this certainly hides the Activities portlet when someone is not logged in to the portal, but it also shows a red error, "You do not have the roles required to access this portlet."  I would simply like to not show the portlet, not report an error.  Any ideas?
