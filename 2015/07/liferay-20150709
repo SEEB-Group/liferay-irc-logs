@@ -12,3 +12,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 08:26 < abeym:#liferay> add to portal-ext.properties layout.show.portlet.access.denied=false
 11:12 < dave_k:#liferay> Hey all ... I keep getting Unique Constraint Violations on IX_38F0315 (DLFILERANK(COMPANYID,USERID,FILEENTRYID)), coming up on multiple Document/Media requests. Boss said I should drop the index, but I see some speed issues in dropping it... is there a better option to fix the tables?
+11:15 < dave_k:#liferay> (DB was started with a release candidate of Liferay 6.1, now running LR 6.1)
