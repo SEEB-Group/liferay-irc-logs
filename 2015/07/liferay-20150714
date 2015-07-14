@@ -46,3 +46,4 @@
 16:47 <@jhf:#liferay> but one could put any URI even ones with invalid schemes, fake hostnames, etc
 16:47 < jardineworks:#liferay> i see
 16:47 < jardineworks:#liferay> makes sense
+16:47 <@jhf:#liferay> in that case you have to download the DTD from *somewhere* and manually register it in intellij
