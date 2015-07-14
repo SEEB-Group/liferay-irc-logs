@@ -50,3 +50,4 @@
 16:47 < jardineworks:#liferay> do you use jrebel?
 16:47 <@jhf:#liferay> but I always do the fetch external thing first
 16:47 <@jhf:#liferay> I have in the past, but I'm not a serious enough developer to warrant the cost
+16:48 < jardineworks:#liferay> I have it -- but I don't think intellij is doing incremental compiles on save.
