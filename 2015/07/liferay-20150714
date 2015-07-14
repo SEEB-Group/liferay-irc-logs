@@ -36,3 +36,4 @@
 16:45 < jardineworks:#liferay> checking...
 16:45 <@jhf:#liferay> you put the caret on the RED dtd and click the helper thingy and say "fetch external resource"
 16:46 < jardineworks:#liferay> lol
+16:46 <@jhf:#liferay> from then on any DTD using that URI will be recognized
