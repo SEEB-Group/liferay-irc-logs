@@ -23,3 +23,4 @@
 14:39 < bfrank:#liferay> I am trying to startup liferay, and it is giving me this error: 16:48:29,413 ERROR [Cache:168] Unable to set localhost. This prevents creation of a GUID. Cause was: <my hostname>, what is causing that?
 16:40 < jardineworks:#liferay> hey jhf you around?
 16:40 <@jhf:#liferay> yup
+16:40 < jardineworks:#liferay> jhf, quick one for you.. intellij related :). Is there an easy way to get all the DTDs for Liferay to be recognized in a project?
