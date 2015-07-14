@@ -21,3 +21,4 @@
 12:52 -!- mode/#liferay [+o jhf] by ChanServ
 14:39 < bfrank:#liferay> hi
 14:39 < bfrank:#liferay> I am trying to startup liferay, and it is giving me this error: 16:48:29,413 ERROR [Cache:168] Unable to set localhost. This prevents creation of a GUID. Cause was: <my hostname>, what is causing that?
+16:40 < jardineworks:#liferay> hey jhf you around?
