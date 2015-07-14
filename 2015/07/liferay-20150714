@@ -39,3 +39,4 @@
 16:46 <@jhf:#liferay> from then on any DTD using that URI will be recognized
 16:46 < jardineworks:#liferay> now I feel stupid
 16:46 < jardineworks:#liferay> thanks jhf :)
+16:46 <@jhf:#liferay> the other way is Preferences->DTDs and register it
