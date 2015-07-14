@@ -41,3 +41,4 @@
 16:46 < jardineworks:#liferay> thanks jhf :)
 16:46 <@jhf:#liferay> the other way is Preferences->DTDs and register it
 16:46 <@jhf:#liferay> NOW there is one caveat
+16:46 <@jhf:#liferay> when people author DTDs, they can use any URI (sort of like a namespace)
