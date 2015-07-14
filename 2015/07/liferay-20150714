@@ -43,3 +43,4 @@
 16:46 <@jhf:#liferay> NOW there is one caveat
 16:46 <@jhf:#liferay> when people author DTDs, they can use any URI (sort of like a namespace)
 16:47 <@jhf:#liferay> Liferay and many others happen to use URIs that point to actual web resources (downloadable files)
+16:47 <@jhf:#liferay> but one could put any URI even ones with invalid schemes, fake hostnames, etc
