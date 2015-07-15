@@ -34,3 +34,4 @@
 09:07 < hufg:#liferay> like perhaps if role A has update on page in reality it has site membership role
 09:20 < jardineworks:#liferay> do you need an EXT for that? or could you get away with a struts action.
 09:21 < jardineworks:#liferay> ah I guess... you need the EXT to do the checks probably.
+09:21 < jardineworks:#liferay> boo
