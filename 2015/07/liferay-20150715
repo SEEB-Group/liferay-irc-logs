@@ -25,3 +25,4 @@
 08:34 < hufg:#liferay> same permission but on a sub set of pages
 08:34 < hufg:#liferay> permissions
 09:01 < jardineworks:#liferay> hufg, I've never done that before -- and I don't recall seeing anything that granular to be honest.
+09:01 < jardineworks:#liferay> I would imagine that would require a hook with your customization.
