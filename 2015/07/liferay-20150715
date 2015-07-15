@@ -31,3 +31,4 @@
 09:06 < hufg:#liferay> my jhope is to make a crude hack with ext plugin
 09:06 < hufg:#liferay> you can configure some page level permissions
 09:06 < hufg:#liferay> i'm thinking i will use them and fake the rest of the permissions
+09:07 < hufg:#liferay> like perhaps if role A has update on page in reality it has site membership role
