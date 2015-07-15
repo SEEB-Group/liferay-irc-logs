@@ -35,3 +35,4 @@
 09:20 < jardineworks:#liferay> do you need an EXT for that? or could you get away with a struts action.
 09:21 < jardineworks:#liferay> ah I guess... you need the EXT to do the checks probably.
 09:21 < jardineworks:#liferay> boo
+10:40 < jardineworks:#liferay> does anyone know how to prevent the runtime log from sanitizing? Specifically, I want my \n's to be honoured, not sanitized.
