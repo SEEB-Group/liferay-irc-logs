@@ -21,3 +21,4 @@
 07:13 < hufg:#liferay> the features are there but not quite well rounded enough hehe
 08:13 < jardineworks:#liferay> hufg, hey -- user permissions by page. You mean the same portlet (for example) on Page A and Page B but the permissions for said portlet different for the user on each page?
 08:34 < hufg:#liferay> no, more like let's say site membership permissions you can edit etc add pages
+08:34 < hufg:#liferay> on the site
