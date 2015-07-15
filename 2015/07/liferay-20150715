@@ -42,3 +42,4 @@
 10:53 < jardineworks:#liferay> the actual sanitize() method for the SanitizeLogWrapper class doesn't check the flag.
 11:50 < Yam`:#liferay> Hey
 11:53 < Yam`:#liferay> I remember you jardineworks, long time no see :)
+12:09 < Yam`:#liferay> Do anyone know how a MySQL timestamp type must be referenced in my service.xml? is it a String or something else?
