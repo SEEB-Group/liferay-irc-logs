@@ -15,3 +15,4 @@
 07:04 < hufg:#liferay> jardineworks: any chances you have stumbled upon user permissions by page ie. user actions should be contained to certain pages within a site
 07:04 < hufg:#liferay> ? :D
 07:07 < hufg:#liferay> there are some page level permission but they work all wrong
+07:12 < hufg:#liferay> to answer my own question it's not possible to use multiple field filters in asset publisher
