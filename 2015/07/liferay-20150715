@@ -40,3 +40,4 @@
 10:45 < jardineworks:#liferay> hmm.. I don't actually see how the system-ext.properties is even referenced.
 10:53 < jardineworks:#liferay> boo -- looks like a bug :(
 10:53 < jardineworks:#liferay> the actual sanitize() method for the SanitizeLogWrapper class doesn't check the flag.
+11:50 < Yam`:#liferay> Hey
