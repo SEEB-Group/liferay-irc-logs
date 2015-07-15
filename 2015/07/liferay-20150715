@@ -38,3 +38,4 @@
 10:40 < jardineworks:#liferay> does anyone know how to prevent the runtime log from sanitizing? Specifically, I want my \n's to be honoured, not sanitized.
 10:40 < jardineworks:#liferay> I tried using the system-ext.properties log.sanitizer.enabled=false .. but that doesn't seem to change anything.
 10:45 < jardineworks:#liferay> hmm.. I don't actually see how the system-ext.properties is even referenced.
+10:53 < jardineworks:#liferay> boo -- looks like a bug :(
