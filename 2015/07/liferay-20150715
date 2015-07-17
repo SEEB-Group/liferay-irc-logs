@@ -44,3 +44,4 @@
 11:53 < Yam`:#liferay> I remember you jardineworks, long time no see :)
 12:09 < Yam`:#liferay> Do anyone know how a MySQL timestamp type must be referenced in my service.xml? is it a String or something else?
 12:13 < Yam`:#liferay> is it dateTime?
+--- Log closed Thu Jul 16 00:00:57 2015
