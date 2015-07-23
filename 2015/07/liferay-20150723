@@ -12,3 +12,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 09:31 < dave_k:#liferay> hey all... I'm having a strange error. I created a custom entity and asset-enabled it. Then I manually and explicitely selected one of my entities to be displayed in the Asset Publisher -- it's displayed, but on reload a different asset is displayed. on next reload: the next asset. and so on.
+09:33 < dave_k:#liferay> I pretty much followed https://dev.liferay.com/develop/learning-paths/mvc/-/knowledge_base/6-2/asset-enabling-custom-entities to create my Entities with ServiceBuilder and Asset-enable them... except that I use maven instead of ant.
