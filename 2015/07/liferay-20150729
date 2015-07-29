@@ -25,3 +25,4 @@
 05:55 < scribe:#liferay> Thanks dmarks.  I might take you up on that if we do indeed need to wait for a couple more months.  Our admins are going crazy not being able to look up users.  They can work around the issue now most of the time because the usually simply want to grant roles and they can look up the Role and add members to the Role.  Thank for the chat.  Off to lunch.
 10:56 < modd_:#liferay> scribe: you could try to set users.search.with.index=false in your portal properties
 10:56 < scribe:#liferay> really?
+10:57 < scribe:#liferay> modd_, never heard of this.  I will try when the traffic on our site is low and I can restart.
