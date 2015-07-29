@@ -21,3 +21,4 @@
 05:38 < dmarks:#liferay> which bugs are you facing?
 05:39 < scribe:#liferay> https://issues.liferay.com/browse/LPS-56190
 05:44 < dmarks:#liferay> Sounds like a serious bug. I was never facing this issue in GA 4.
+05:46 < dmarks:#liferay> If this problem is a production problem, you could have a look at the commits in that issue. Then try to create a hook or an ext plugin which fixes the files.
