@@ -19,3 +19,4 @@
 05:27 < dmarks:#liferay> GA4 was released earlier because GA3 contained some serious bugs.
 05:38 < scribe:#liferay> GA4 has some serious bugs too :)
 05:38 < dmarks:#liferay> which bugs are you facing?
+05:39 < scribe:#liferay> https://issues.liferay.com/browse/LPS-56190
