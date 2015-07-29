@@ -1,3 +1,18 @@
 --- Log opened Wed Jul 29 00:00:03 2015
 05:19 < scribe:#liferay> Hey guys.  I have a few critical bugs with GA4 that I know have been fix since the release.  Does anyone know if a GA5 will be released anytime soon or should I try to build something stable from source?
 05:21 < dmarks:#liferay> As I remember, James Falkner said that there will be a 6.2 GA-Release every 6 month, until Liferay 7 is released.
+--- Log opened Wed Jul 29 05:23:09 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ henriquev   ] [ marcoceppi] [ Tar-Minyatur] 
+05:23 [ bijoo     ] [ iDavid      ] [ modd_     ] [ Tm_T        ] 
+05:23 [ Bryanstein] [ jardineworks] [ Naenyn    ] [ twen        ] 
+05:23 [ dmarks    ] [ josuebc     ] [ quercus   ] [ vsingleton  ] 
+05:23 [ Gorith    ] [ kermitt_    ] [ scribe    ] 
+05:23 [ Guest21746] [ MagnoBooter ] [ sm`       ] 
+05:23 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+05:23 !card.freenode.net [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 5 secs
+05:25 < scribe:#liferay> dmarks, thanks.  I wonder if they are counting from the GA3 release or GA4 release.  GA3 was mid Jan but they found a fatal bug which caused them to release GA4 a few months later.  If from GA3 then we're due, if from GA4 then we're still a couple months out.
