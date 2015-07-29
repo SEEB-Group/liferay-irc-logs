@@ -17,3 +17,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 05:25 < scribe:#liferay> dmarks, thanks.  I wonder if they are counting from the GA3 release or GA4 release.  GA3 was mid Jan but they found a fatal bug which caused them to release GA4 a few months later.  If from GA3 then we're due, if from GA4 then we're still a couple months out.
 05:27 < dmarks:#liferay> GA4 was released earlier because GA3 contained some serious bugs.
+05:38 < scribe:#liferay> GA4 has some serious bugs too :)
