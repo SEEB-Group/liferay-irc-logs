@@ -23,3 +23,4 @@
 05:44 < dmarks:#liferay> Sounds like a serious bug. I was never facing this issue in GA 4.
 05:46 < dmarks:#liferay> If this problem is a production problem, you could have a look at the commits in that issue. Then try to create a hook or an ext plugin which fixes the files.
 05:55 < scribe:#liferay> Thanks dmarks.  I might take you up on that if we do indeed need to wait for a couple more months.  Our admins are going crazy not being able to look up users.  They can work around the issue now most of the time because the usually simply want to grant roles and they can look up the Role and add members to the Role.  Thank for the chat.  Off to lunch.
+10:56 < modd_:#liferay> scribe: you could try to set users.search.with.index=false in your portal properties
