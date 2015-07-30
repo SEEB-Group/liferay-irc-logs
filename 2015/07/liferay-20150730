@@ -2,3 +2,4 @@
 00:17 < loscar:#liferay> hello
 03:55 < modd_:#liferay> hey. I'm trying to update a marketplace portlet but after uploading it just says "Eligible Liferay versions were not found in liferay-plugin-package.properties". any ideas?
 03:56 < modd_:#liferay> property -> liferay-versions=6.2.0+,6.2.10+
+03:57 < modd_:#liferay> when changing 6.2.0 to 6.2.1 it works, but only for the CE version, EE is still not recognized
