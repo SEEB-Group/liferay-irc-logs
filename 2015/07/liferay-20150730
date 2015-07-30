@@ -20,3 +20,4 @@
 05:23 -!- Irssi: Join to #liferay was synced in 6 secs
 08:00 < twen:#liferay> hi
 08:00 < twen:#liferay> Is there a way to access liferay via CMIS (and access the document & portlet from there) ?
+16:10 < kfries:#liferay> Does anybody know of a resource, tutorial, documentation, etc that I can follow on how I might go about setting up LifeRay in a Kubernetes Cluster?
