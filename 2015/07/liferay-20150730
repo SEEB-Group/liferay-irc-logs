@@ -7,3 +7,15 @@
 04:11 < modd_:#liferay> nope, no information I didn't know already. :\
 04:11 < modd_:#liferay> I'll message the marketplace support
 04:28 < modd_:#liferay> seems like the problem was, that there are two buttons, "edit" and "new version", which both point to the same action but only "new version" allows you to upload a WAR with the same liferay-version information as in the first version
+--- Log opened Thu Jul 30 05:23:34 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ Gorith    ] [ jardineworks] [ marcoceppi] [ Tar-Minyatur] 
+05:23 [ bijoo     ] [ Guest21746] [ josuebc     ] [ modd_     ] [ Tm_T        ] 
+05:23 [ Bryanstein] [ henriquev ] [ kermitt_    ] [ Naenyn    ] [ twen        ] 
+05:23 [ dmarks    ] [ iDavid    ] [ MagnoBooter ] [ sm`       ] [ vsingleton  ] 
+05:23 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+08:00 < twen:#liferay> hi
