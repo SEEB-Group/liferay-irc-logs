@@ -5,3 +5,4 @@
 03:57 < modd_:#liferay> when changing 6.2.0 to 6.2.1 it works, but only for the CE version, EE is still not recognized
 04:08 < dmarks:#liferay> I don't see anything wrong with your liferay-versions. Maybe this helps: https://dev.liferay.com/distribute/how-to-publish/-/knowledge_base/how-to-publish/preparing-your-app#specifying-packaging-directives
 04:11 < modd_:#liferay> nope, no information I didn't know already. :\
+04:11 < modd_:#liferay> I'll message the marketplace support
