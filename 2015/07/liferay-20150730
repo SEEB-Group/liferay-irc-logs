@@ -1,2 +1,3 @@
 --- Log opened Thu Jul 30 00:00:08 2015
 00:17 < loscar:#liferay> hello
+03:55 < modd_:#liferay> hey. I'm trying to update a marketplace portlet but after uploading it just says "Eligible Liferay versions were not found in liferay-plugin-package.properties". any ideas?
