@@ -32,3 +32,4 @@
 16:23 < jardineworks:#liferay> so right now I have a few of these and I am trying to figure out which ones I have to actually do and which ones are already bundled in a fix pack.
 16:28 <@jhf:#liferay> well the brute force method is to go to the list of fix packs for the release (in your case this is 6.1.10 - so go to https://www.liferay.com/group/customer/downloads/portal/patches?p_p_id=1_WAR_osbuiportlet_INSTANCE_4Vqt&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_pos=1&p_p_col_count=3&p_r_p_564233524_resetCur=true&p_r_p_564233524_categoryIds=14068676%2C14068558 and then for each item, click on Release Notes and
 16:28 <@jhf:#liferay> search for your LPE
+16:28 <@jhf:#liferay> but there must be a better way...
