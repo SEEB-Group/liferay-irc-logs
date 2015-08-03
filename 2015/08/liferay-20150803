@@ -57,3 +57,4 @@
 17:07 <@jhf:#liferay> so create a gist at gist.github.com
 17:08 <@jhf:#liferay> then grab the "Embed URL" code at the right which is really an html <script> tag
 17:08 <@jhf:#liferay> and then in liferay.com blog editor
+17:08 <@jhf:#liferay> switch to "source" view and paste it in
