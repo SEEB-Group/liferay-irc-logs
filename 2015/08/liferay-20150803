@@ -69,3 +69,4 @@
 17:18 <@jhf:#liferay> but you have to remember to run your code through an html escaper
 17:18 <@jhf:#liferay> or else all your <'s will be interpreted as html tags
 17:36 < jardineworks:#liferay> jhf, great success! https://www.liferay.com/web/jardineworks/blog?p_p_id=33&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-2&p_p_col_count=1
+17:36 <@jhf:#liferay> ya know if you rename your gist to have a .java extension
