@@ -39,3 +39,4 @@
 16:46 < jardineworks:#liferay> jhf, how can I get access to the LPE portion of the issues site?
 16:47 <@jhf:#liferay> jardineworks: get hired by Liferay
 16:47 <@jhf:#liferay> it's not a good idea for us to be using internal identifiers (LPEs) in security bulletins, etc.
+16:47 <@jhf:#liferay> since it's like teasing you
