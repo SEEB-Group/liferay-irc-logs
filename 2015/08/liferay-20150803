@@ -40,3 +40,4 @@
 16:47 <@jhf:#liferay> jardineworks: get hired by Liferay
 16:47 <@jhf:#liferay> it's not a good idea for us to be using internal identifiers (LPEs) in security bulletins, etc.
 16:47 <@jhf:#liferay> since it's like teasing you
+16:48 <@jhf:#liferay> but basically, we use LPEs for internal purposes only, so opening that up to customers would have lots of privacy concerns
