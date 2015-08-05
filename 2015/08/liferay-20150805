@@ -32,3 +32,5 @@
 07:34 < jardineworks:#liferay> twen, Shouldn't be difficult. I mean, in the end it's all a byte stream right? :)
 07:34 < twen:#liferay> thanks
 07:34 < twen:#liferay> yep. But the idea is there.. that's important !
+11:50 -!- mode/#liferay [+o jhf] by ChanServ
+16:23 < jardineworks:#liferay> hey jhf is it possible to create an aui:checkbox and have it set to checked?
