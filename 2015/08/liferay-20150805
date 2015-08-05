@@ -5,3 +5,4 @@
 02:00 < rocknroll_:#liferay> now when displaying the list of web contents in an asset publisher, their url is [host]/web/[web content]
 02:01 < rocknroll_:#liferay> shouldn't it be [host]/group/[web content]
 03:26 < twen:#liferay> Hello
+03:27 < twen:#liferay> I'm building a repository of documents in Liferay (part of a whole system). However I've been asked to add URL as document too. Any idea how I can achieve this ?
