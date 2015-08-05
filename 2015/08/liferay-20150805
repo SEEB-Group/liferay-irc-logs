@@ -35,3 +35,4 @@
 11:50 -!- mode/#liferay [+o jhf] by ChanServ
 16:23 < jardineworks:#liferay> hey jhf is it possible to create an aui:checkbox and have it set to checked?
 16:24 <@jhf:#liferay> yep
+16:24 <@jhf:#liferay> you may have to set value= instead of checked=
