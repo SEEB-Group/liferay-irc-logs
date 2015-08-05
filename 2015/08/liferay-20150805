@@ -3,3 +3,4 @@
 02:00 < rocknroll_:#liferay> LR 6.1: I have created a private site, with private pages only
 02:00 < rocknroll_:#liferay> also created a buch of web contents
 02:00 < rocknroll_:#liferay> now when displaying the list of web contents in an asset publisher, their url is [host]/web/[web content]
+02:01 < rocknroll_:#liferay> shouldn't it be [host]/group/[web content]
