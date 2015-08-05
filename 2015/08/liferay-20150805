@@ -37,3 +37,4 @@
 16:24 <@jhf:#liferay> yep
 16:24 <@jhf:#liferay> you may have to set value= instead of checked=
 16:25 <@jhf:#liferay> also see http://stackoverflow.com/questions/24381194/aui-checkbox-not-showing-as-checked-but-value-is-true
+16:25 <@jhf:#liferay> aui is weird sometimes :_
