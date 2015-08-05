@@ -40,3 +40,4 @@
 16:25 <@jhf:#liferay> aui is weird sometimes :_
 16:26 < jardineworks:#liferay> god damit!
 16:26 < jardineworks:#liferay> lol
+16:43 < modd:#liferay> afaik you should set both namespace + elementId and namespace + elementId + "Checkbox"
