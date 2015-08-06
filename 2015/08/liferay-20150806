@@ -30,3 +30,4 @@
 13:55 -!- mode/#liferay [+o jhf] by ChanServ
 14:01 < modd:#liferay> Yam`: tags don't work within other tags
 14:02 < modd:#liferay> try <%=LanguageUtil.get("key")%>
+14:02 < Yam`:#liferay> Alright, thanks
