@@ -33,3 +33,4 @@
 14:02 < Yam`:#liferay> Alright, thanks
 14:02 < Yam`:#liferay> I'll try tomorrow, I'm home now :)
 14:38 < jardineworks:#liferay> hey jhf do you know if there is a *ThreadLocal similar to the company or group one that can be used to retrieve a user?
+14:41 < jardineworks:#liferay> oooouu maybe with ServiceContextThreadLocal
