@@ -3,3 +3,4 @@
 03:44 < rocknroll_:#liferay> all of a sudden my hooks are missing classes (not at compile time, runtime)
 03:45 < rocknroll_:#liferay> I may need to rant and rave
 03:46 < rocknroll_:#liferay> i've successfully been using com.liferay.portal.kernel.util.ArrayUtil
+03:47 < rocknroll_:#liferay> until now. it's not found now
