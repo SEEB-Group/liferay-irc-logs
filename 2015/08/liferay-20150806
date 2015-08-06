@@ -5,3 +5,4 @@
 03:46 < rocknroll_:#liferay> i've successfully been using com.liferay.portal.kernel.util.ArrayUtil
 03:47 < rocknroll_:#liferay> until now. it's not found now
 04:02 < rocknroll_:#liferay> or rather, it is found, but it's lost the method isNotEmpty
+04:02 < rocknroll_:#liferay> and append
