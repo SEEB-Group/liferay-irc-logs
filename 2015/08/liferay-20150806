@@ -25,3 +25,7 @@
 11:56 < Yam`:#liferay> Something like this: <my:parameterline paramLabel="myKeyFromLanguageFile" (...) />
 11:57 < Yam`:#liferay> But I don't know how to do, I've tried with "key", with "${key}" or even "<liferay:message key='key' />" but none worked
 11:57 < Yam`:#liferay> Do someone know how to do this? :)
+12:19 -!- mode/#liferay [+o jhf] by ChanServ
+12:46 -!- mode/#liferay [+o jhf] by ChanServ
+13:55 -!- mode/#liferay [+o jhf] by ChanServ
+14:01 < modd:#liferay> Yam`: tags don't work within other tags
