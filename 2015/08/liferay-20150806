@@ -23,3 +23,4 @@
 11:46 < Yam`:#liferay> Hey
 11:55 < Yam`:#liferay> I'm using a custom tag and I want to fill it with strings coming from my language files
 11:56 < Yam`:#liferay> Something like this: <my:parameterline paramLabel="myKeyFromLanguageFile" (...) />
+11:57 < Yam`:#liferay> But I don't know how to do, I've tried with "key", with "${key}" or even "<liferay:message key='key' />" but none worked
