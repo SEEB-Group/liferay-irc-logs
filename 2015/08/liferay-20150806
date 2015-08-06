@@ -22,3 +22,4 @@
 09:53 -!- mode/#liferay [+o jhf] by ChanServ
 11:46 < Yam`:#liferay> Hey
 11:55 < Yam`:#liferay> I'm using a custom tag and I want to fill it with strings coming from my language files
+11:56 < Yam`:#liferay> Something like this: <my:parameterline paramLabel="myKeyFromLanguageFile" (...) />
