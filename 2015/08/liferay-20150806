@@ -1,2 +1,3 @@
 --- Log opened Thu Aug 06 00:00:58 2015
 03:44 < rocknroll_:#liferay> i have a new laptop and my development env is a mess
+03:44 < rocknroll_:#liferay> all of a sudden my hooks are missing classes (not at compile time, runtime)
