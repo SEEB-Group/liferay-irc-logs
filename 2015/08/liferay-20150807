@@ -1,0 +1,2 @@
+--- Log opened Fri Aug 07 00:00:09 2015
+04:26 < bijoo_:#liferay> jardineworks: PermissionThreadLocal.getPermissionChecker().getUser()     @see https://docs.liferay.com/portal/6.2/javadocs/com/liferay/portal/security/permission/PermissionThreadLocal.html#getPermissionChecker%28%29
