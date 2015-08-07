@@ -51,3 +51,4 @@
 04:44 < rocknroll_:#liferay> yep, I had messed up the files on two different liferay versions
 04:44 < bijoo_:#liferay> rocknroll_: versus 6.1 JSP which doesn't: https://github.com/liferay/liferay-portal/blob/6.1.1-ga2/portal-web/docroot/html/portlet/asset_publisher/view.jsp
 04:45 < rocknroll_:#liferay> exactly
+04:45 < bijoo_:#liferay> rocknroll_: hopefully 7.0 will help bit
