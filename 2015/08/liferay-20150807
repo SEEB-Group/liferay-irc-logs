@@ -60,3 +60,4 @@
 04:51 < rocknroll_:#liferay> note to self. work only on oe version at a time..
 04:53 < bijoo_:#liferay> rocknroll_: glad helped; what was thesis's conclusion?
 04:53 < bijoo_:#liferay> rocknroll_: any shortcomings to OSGi?
+04:54 < rocknroll_:#liferay> well yes, some. I comapred to the java 9 Jigsaw project, and could not really come to a conclusion on which would be better
