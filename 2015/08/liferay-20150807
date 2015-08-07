@@ -5,3 +5,4 @@
 04:28 < rocknroll_:#liferay> probably is.. i've got 6.2 and sveral versions on 6.1 on my machine
 04:29 < rocknroll_:#liferay> also the class that is the problem appears to be in portal-service.jar
 04:29 < rocknroll_:#liferay> I've checked the configuration on my old laptop and I cant see any difference to new laptop
+04:30 < bijoo_:#liferay> rocknroll_: I see what you mean; setup with Eclipse?
