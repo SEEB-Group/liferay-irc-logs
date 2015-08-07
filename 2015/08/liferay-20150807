@@ -17,3 +17,4 @@
 04:32 < bijoo_:#liferay> rocknroll_: if using 6.1, it is not there ( https://github.com/liferay/liferay-portal/blob/6.1.2-ga3/portal-service/src/com/liferay/portal/kernel/util/ArrayUtil.java )
 04:32 < rocknroll_:#liferay> i have a hook that replaces this view.jsp
 04:32 < rocknroll_:#liferay> well yeah
+04:32 < rocknroll_:#liferay> thats whats got me stumped
