@@ -48,3 +48,4 @@
 04:44 < bijoo_:#liferay> rocknroll_: so 6.2 JSP has method: https://github.com/liferay/liferay-portal/blob/6.2.x/portal-web/docroot/html/portlet/asset_publisher/view.jsp
 04:44 < rocknroll_:#liferay> eclipse is great, but at times is just too easy to work on the wrong file..
 04:44 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.x/portal-web/docroot/html/portlet/asset_publisher/view.jsp#L37
+04:44 < rocknroll_:#liferay> yep, I had messed up the files on two different liferay versions
