@@ -25,3 +25,4 @@
 04:34 < rocknroll_:#liferay> oh?
 04:34 < bijoo_:#liferay> rocknroll_: which is on the Portal Classloader path
 04:34 < rocknroll_:#liferay> how do you know
+04:35 < bijoo_:#liferay> rocknroll_: versus portal-service which is global
