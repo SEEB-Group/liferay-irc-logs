@@ -62,3 +62,4 @@
 04:53 < bijoo_:#liferay> rocknroll_: any shortcomings to OSGi?
 04:54 < rocknroll_:#liferay> well yes, some. I comapred to the java 9 Jigsaw project, and could not really come to a conclusion on which would be better
 04:54 < rocknroll_:#liferay> both had the good and the bad
+04:54 < rocknroll_:#liferay> would need to check back to remember :)
