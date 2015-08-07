@@ -39,3 +39,4 @@
 04:38 < rocknroll_:#liferay> as I cant find the methods that are missing in the original jspäs
 04:38 < rocknroll_:#liferay> i may have messed up!
 04:38 < bijoo_:#liferay> rocknroll_: well, should use API that you will use; most often API is still the same; but across point release, minor changes; and across major release, huge changes.
+04:38 < rocknroll_:#liferay> yeah that's true
