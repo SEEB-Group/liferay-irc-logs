@@ -65,3 +65,4 @@
 04:54 < rocknroll_:#liferay> would need to check back to remember :)
 04:55 < bijoo_:#liferay> rocknroll_: http://stackoverflow.com/questions/20634993/how-is-java-8-modules-different-from-osgi
 04:55 < bijoo_:#liferay> rocknroll_: seems Jigsaw internal; OSGi open
+04:56 < rocknroll_:#liferay> yeah. I thought it was a good problem for thesis to compare the two, if they achieved the same
