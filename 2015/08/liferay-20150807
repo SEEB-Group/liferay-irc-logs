@@ -56,3 +56,4 @@
 04:45 < bijoo_:#liferay> rocknroll_: though not sure how much it'll help hook plugin
 04:46 < rocknroll_:#liferay> I did my batchjelors thesis on OSGi and modularity; not sure it will help :P
 04:46 < rocknroll_:#liferay> here's hoping..
+04:51 < rocknroll_:#liferay> oh yes! reverted all changes from git and it works again \o/
