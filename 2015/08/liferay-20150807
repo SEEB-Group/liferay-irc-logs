@@ -23,3 +23,4 @@
 04:33 < rocknroll_:#liferay> the original liferay provided asset_publisher/view.jsp has it
 04:34 < bijoo_:#liferay> rocknroll_: note that's using one in portal-impl
 04:34 < rocknroll_:#liferay> oh?
+04:34 < bijoo_:#liferay> rocknroll_: which is on the Portal Classloader path
