@@ -2,3 +2,4 @@
 04:26 < bijoo_:#liferay> jardineworks: PermissionThreadLocal.getPermissionChecker().getUser()     @see https://docs.liferay.com/portal/6.2/javadocs/com/liferay/portal/security/permission/PermissionThreadLocal.html#getPermissionChecker%28%29
 04:26 < bijoo_:#liferay> rocknroll_: check the version liferay; maybe mismatch
 04:28 < rocknroll_:#liferay> thanks bijoo_
+04:28 < rocknroll_:#liferay> probably is.. i've got 6.2 and sveral versions on 6.1 on my machine
