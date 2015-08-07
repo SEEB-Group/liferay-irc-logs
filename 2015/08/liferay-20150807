@@ -29,3 +29,4 @@
 04:35 < rocknroll_:#liferay> so am I somehow messing up stuff with portal-impl.jar
 04:35 < bijoo_:#liferay> rocknroll_: https://www.liferay.com/web/pmesotten/blog/-/blogs/classloading-in-liferay
 04:35 < rocknroll_:#liferay> thanks!
+04:35 < bijoo_:#liferay> rocknroll_: your hook will be able to use it too
