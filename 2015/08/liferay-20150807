@@ -10,3 +10,4 @@
 04:31 < rocknroll_:#liferay> yes, eclipse + liferay ide + bundles downloaded from liferay
 04:31 < rocknroll_:#liferay> not sure how to best go about trying to pinpoint the exact issue
 04:31 < rocknroll_:#liferay> this was all working great on old laptopp
+04:31 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-service/src/com/liferay/portal/kernel/util/ArrayUtil.java#L1095
