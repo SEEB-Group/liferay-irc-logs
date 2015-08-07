@@ -13,3 +13,4 @@
 04:31 < bijoo_:#liferay> https://github.com/liferay/liferay-portal/blob/6.2.3-ga4/portal-service/src/com/liferay/portal/kernel/util/ArrayUtil.java#L1095
 04:31 < bijoo_:#liferay> rocknroll_: if using GA4, the method's there
 04:32 < rocknroll_:#liferay> yes, but in 6.1 (which is my problem here) I've been using it too
+04:32 < rocknroll_:#liferay> and it is used in asset_publisher/view.jsp
