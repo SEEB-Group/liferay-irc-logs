@@ -44,3 +44,4 @@
 04:41 < rocknroll_:#liferay> ahhhh I'm an idiot. It appears I have pasted over the wrong jsp files so that my 6.2 hook has 6.2 code in it
 04:41 < rocknroll_:#liferay> than dog for version control..
 04:43 < bijoo_:#liferay> rocknroll_: okay, and I was wrong on 6.1; it doesn't have one in portal-impl; the one in portal-service is just it; since ArrayUtil not in impl jar
+04:44 < bijoo_:#liferay> rocknroll_: so it makes sense that JSP was wrong
