@@ -41,3 +41,4 @@
 04:38 < bijoo_:#liferay> rocknroll_: well, should use API that you will use; most often API is still the same; but across point release, minor changes; and across major release, huge changes.
 04:38 < rocknroll_:#liferay> yeah that's true
 04:39 < rocknroll_:#liferay> I'm struggling trying to port over my stuff from 6.1 to 6.2
+04:41 < rocknroll_:#liferay> ahhhh I'm an idiot. It appears I have pasted over the wrong jsp files so that my 6.2 hook has 6.2 code in it
