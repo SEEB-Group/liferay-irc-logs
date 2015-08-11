@@ -16,3 +16,4 @@
 05:50 < Axxell:#liferay> hello, im having problems for making one site have another cname ala "different.mysite.com"... basicly editing the pages stop working
 05:52 < Axxell:#liferay> anybody have any better setup guide for how to setup apache and liferay for a cname where the main site is www.mysite.com and i need another site which has the name different.mysite.com. logging in via different.mysite.com doesnt work, ifall i try to access that same page via www.mysite.com inte works but not well, adding anything to the pages stop working
 09:23 < modd:#liferay> scribe: did it work?
+09:47 < Yam`:#liferay> hey
