@@ -18,3 +18,4 @@
 09:23 < modd:#liferay> scribe: did it work?
 09:47 < Yam`:#liferay> hey
 11:41 < scribe:#liferay> modd, yes!  Thank you!!! I added the entry to the portal-ext.properties file and couldn't restart liferay at the time because it was in heavy use, but it looks like the system has been restarted (or at least that liferay has re-read the portal-ext.properties file) and I can now search for users!  Thank you so very much.
+--- Log closed Wed Aug 12 00:00:09 2015
