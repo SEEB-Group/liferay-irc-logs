@@ -19,3 +19,4 @@
 09:52 < distsys:#liferay> some hint to do this
 10:03 < jardineworks:#liferay> distsys, create a new database that is empty. Just a schema, with no tables or anything. Provision a user. Configure the database connection in your portal-setup-wizard or portal-ext.properties file and start the server.
 10:17 < distsys:#liferay> ah oklay
+10:17 < distsys:#liferay> just one doubt jardineworks
