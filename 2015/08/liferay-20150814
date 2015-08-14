@@ -27,3 +27,4 @@
 10:33 < jardineworks:#liferay> you just need to make sure that they user you have configured has the rights to create tables. This is a requirement for LR to work.
 10:33 < jardineworks:#liferay> I beleive you can set a prefix on the tables too so you could ask liferay to prefix all of its tables with liferay. for example so that you can group them all together
 10:34 < jardineworks:#liferay> .. I have never done it though.. just pretty sure I have seen it in the properties file as a option.
+10:46 < distsys:#liferay> oh okay thank you jardineworks
