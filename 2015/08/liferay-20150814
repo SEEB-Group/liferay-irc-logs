@@ -24,3 +24,4 @@
 10:18 < distsys:#liferay> i am a schema with my own tables
 10:18 < distsys:#liferay> will it work like this ?
 10:32 < jardineworks:#liferay> well, at startup, Liferay will add the tables it needs to your existing schema
+10:33 < jardineworks:#liferay> you just need to make sure that they user you have configured has the rights to create tables. This is a requirement for LR to work.
