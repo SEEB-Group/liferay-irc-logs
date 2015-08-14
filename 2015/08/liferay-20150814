@@ -23,3 +23,4 @@
 10:18 < distsys:#liferay> if i try to use an existing schema, with non liferay tables
 10:18 < distsys:#liferay> i am a schema with my own tables
 10:18 < distsys:#liferay> will it work like this ?
+10:32 < jardineworks:#liferay> well, at startup, Liferay will add the tables it needs to your existing schema
