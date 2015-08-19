@@ -11,3 +11,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 5 secs
 08:07 < winem_:#liferay> hi
+08:08 < winem_:#liferay> how to deploy themes? do I have to copy them via scp e.g. to the server and restart the server?
