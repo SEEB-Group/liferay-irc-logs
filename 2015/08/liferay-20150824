@@ -3,3 +3,4 @@
 04:25 < arimmer:#liferay> anybody alive?
 04:26 < arimmer:#liferay> i try to install liferay 6.2-EE on WebSphere 8.5 with this manual http://www.liferay.com/documentation/liferay-portal/6.2/user-guide/-/ai/installing-liferay-on-websphere-8-5-liferay-portal-6-2-user-guide-15--3
 04:27 < arimmer:#liferay> but when i opening localhost:9080 , i have been some error
+04:28 < arimmer:#liferay> i think, that it's happen because i'm use CE dependence files
