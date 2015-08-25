@@ -1,2 +1,3 @@
 --- Log opened Tue Aug 25 00:00:59 2015
 04:57 < winem_:#liferay> hi. our developers created their own theme but the "signin" button is always shown. now they told me that they inherited from the classic theme and not from the unstyled on
+04:57 < winem_:#liferay> so, my question: would the signin button disappear if they inherit from the styled theme?
