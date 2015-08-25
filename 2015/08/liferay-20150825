@@ -13,3 +13,4 @@
 05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:23 -!- Irssi: Join to #liferay was synced in 6 secs
 06:29 < plekplek:#liferay> winem_: the sign in button is part of the dockbar, which is called from the theme
+06:30 < plekplek:#liferay> winem_: do you want to hide it completely, or on certain pages?
