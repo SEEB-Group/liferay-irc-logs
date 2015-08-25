@@ -16,3 +16,4 @@
 06:30 < plekplek:#liferay> winem_: do you want to hide it completely, or on certain pages?
 07:08 < winem_:#liferay> completely
 07:09 < winem_:#liferay> let me describe:
+07:09 < winem_:#liferay> the project: the customer requested a FAQ database. so we use the knowledgebase ce plugin and want a login for a few authors. no login for other users is required
