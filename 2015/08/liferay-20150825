@@ -18,3 +18,4 @@
 07:09 < winem_:#liferay> let me describe:
 07:09 < winem_:#liferay> the project: the customer requested a FAQ database. so we use the knowledgebase ce plugin and want a login for a few authors. no login for other users is required
 09:44 < winem_:#liferay> we use liferay 6.2 GA3 with a postgresql 9.4 database. we get the following error when we click on my sites and choose a site "Caused by: org.postgresql.util.PSQLException: ERROR: column "this_.version" must appear in the GROUP BY clause or be used in an aggregate function". I know this failure from queries written for oracle or mysql databases when you try to run them agains a postgresql database.
+09:45 < winem_:#liferay> has anyone else those problems? the datasource in the jboss standalone xml is configured to use a postgresql driver and the respective dialect
