@@ -21,3 +21,4 @@
 09:24 < haba713:#liferay> ok thanks! another question; unit (organizational unit) may be part of another unit. how do i define relation from unit to itself?
 09:28 < jardineworks:#liferay> hmm
 09:28 < jardineworks:#liferay> what about unitId for iteself.. and parentUnitId or relatedUnitId?
+09:29 < jardineworks:#liferay> you could also create another entity that is used to manage the mappings.
