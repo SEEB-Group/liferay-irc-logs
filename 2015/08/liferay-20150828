@@ -19,3 +19,4 @@
 09:22 < jardineworks:#liferay> haba713, there are no fk's in LR. So what you do is in your PersonLocalServiceImpl class you define a custom method called getUnit( long personId ) and then in that method body you use UnitLocalServiceUtil class to get the unit.
 09:22 < jardineworks:#liferay> in your service.xml you just need to provide the relationship of unitId on your person model
 09:24 < haba713:#liferay> ok thanks! another question; unit (organizational unit) may be part of another unit. how do i define relation from unit to itself?
+09:28 < jardineworks:#liferay> hmm
