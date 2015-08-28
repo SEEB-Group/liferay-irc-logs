@@ -17,3 +17,4 @@
 07:44 < Axxell:#liferay> so that fixed it, thanks anyway :)
 09:18 < haba713:#liferay> hi guys! i have two custom entities Unit (pk unitId) and Person (pk personId). how do i define foreign key from Person to Unit in service.xml so that i can call person.getUnit()?
 09:22 < jardineworks:#liferay> haba713, there are no fk's in LR. So what you do is in your PersonLocalServiceImpl class you define a custom method called getUnit( long personId ) and then in that method body you use UnitLocalServiceUtil class to get the unit.
+09:22 < jardineworks:#liferay> in your service.xml you just need to provide the relationship of unitId on your person model
