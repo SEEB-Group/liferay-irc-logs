@@ -20,3 +20,4 @@
 09:22 < jardineworks:#liferay> in your service.xml you just need to provide the relationship of unitId on your person model
 09:24 < haba713:#liferay> ok thanks! another question; unit (organizational unit) may be part of another unit. how do i define relation from unit to itself?
 09:28 < jardineworks:#liferay> hmm
+09:28 < jardineworks:#liferay> what about unitId for iteself.. and parentUnitId or relatedUnitId?
