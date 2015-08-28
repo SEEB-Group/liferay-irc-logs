@@ -1,0 +1,2 @@
+--- Log opened Fri Aug 28 00:00:31 2015
+04:17 < Axxell:#liferay> hello, im having a bit of an issue with the searchresults of files in liferay. The link which is returned that should be going to a file, is a redirect to an unrelated page, what can i do to fix it?
