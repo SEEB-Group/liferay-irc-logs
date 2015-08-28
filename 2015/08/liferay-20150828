@@ -1,2 +1,15 @@
 --- Log opened Fri Aug 28 00:00:31 2015
 04:17 < Axxell:#liferay> hello, im having a bit of an issue with the searchresults of files in liferay. The link which is returned that should be going to a file, is a redirect to an unrelated page, what can i do to fix it?
+--- Log opened Fri Aug 28 05:23:06 2015
+05:23 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:23 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:23 [Users #liferay]
+05:23 [@ChanServ  ] [ Gorith   ] [ kermitt    ] [ plekplek    ] [ twen] 
+05:23 [ Axxell    ] [ Guest3479] [ MagnoBooter] [ rocknroll_  ] 
+05:23 [ bijoo     ] [ henriquev] [ marcoceppi ] [ Tar-Minyatur] 
+05:23 [ Bryanstein] [ ikb      ] [ modd_      ] [ Tm_T        ] 
+05:23 [ dmarks    ] [ josuebc  ] [ Naenyn     ] [ topolik     ] 
+05:23 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:23 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:23 -!- Irssi: Join to #liferay was synced in 6 secs
+06:36 < dmarks:#liferay> @Axxell: Do you have a page with a document and media portlet?
