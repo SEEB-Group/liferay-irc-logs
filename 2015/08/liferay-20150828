@@ -25,3 +25,4 @@
 09:29 < jardineworks:#liferay> RelatedUnits or soemthing...
 09:29 < jardineworks:#liferay> this is normally how you go about managing many-to-many relationships with service builder.
 09:30 < jardineworks:#liferay> so Person and Unit ... if a person can be in many units, you would create a Person_Unit entity
+09:30 < jardineworks:#liferay> and I think it's also possible to specify a "mapping table" in the person and unit entities so that the Person_Entity table that is generated is used for that purpose.
