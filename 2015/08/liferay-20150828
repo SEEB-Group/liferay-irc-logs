@@ -15,3 +15,4 @@
 06:36 < dmarks:#liferay> @Axxell: Do you have a page with a document and media portlet?
 07:44 < Axxell:#liferay> dmarks: nope, i suspected that was the issue
 07:44 < Axxell:#liferay> so that fixed it, thanks anyway :)
+09:18 < haba713:#liferay> hi guys! i have two custom entities Unit (pk unitId) and Person (pk personId). how do i define foreign key from Person to Unit in service.xml so that i can call person.getUnit()?
