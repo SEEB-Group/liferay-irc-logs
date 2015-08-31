@@ -29,3 +29,4 @@
 09:31 < jardineworks:#liferay> you would so something like ..
 09:31 < jardineworks:#liferay> <column name="units" type="Collection" entity="Person" mapping-table="Person_Unit" /> ... on your Person entity definition
 09:39 < haba713:#liferay> jardineworks: thanks a lot! i think i got the point.
+--- Log closed Sat Aug 29 00:00:04 2015
