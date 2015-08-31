@@ -62,3 +62,4 @@
 15:00 < jardineworks:#liferay> yep
 15:02 <@jhf:#liferay> so what about ClassNameLocalServiceUtil.getClassName(article.getClassNameId()).getValue()
 15:33 < jardineworks:#liferay> I think the getClassNameId() on the article is returning 0
+15:33 < jardineworks:#liferay> I think that is only set for the asset renderer maybe?
