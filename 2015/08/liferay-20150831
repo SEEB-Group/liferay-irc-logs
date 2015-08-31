@@ -48,3 +48,4 @@
 14:46 < jardineworks:#liferay> lol
 14:46 <@jhf:#liferay> hahahaha
 14:46 < jardineworks:#liferay> I need the canonical name
+14:46 <@jhf:#liferay> yeah no FreeMarker is very very mean when it comes to preventing you from accessing Class objects
