@@ -61,3 +61,4 @@
 15:00 <@jhf:#liferay> so you have a refernce to an actual article?
 15:00 < jardineworks:#liferay> yep
 15:02 <@jhf:#liferay> so what about ClassNameLocalServiceUtil.getClassName(article.getClassNameId()).getValue()
+15:33 < jardineworks:#liferay> I think the getClassNameId() on the article is returning 0
