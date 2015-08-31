@@ -51,3 +51,4 @@
 14:46 <@jhf:#liferay> yeah no FreeMarker is very very mean when it comes to preventing you from accessing Class objects
 14:46 < jardineworks:#liferay> ClassNameLocalServiceUtil.getClassNameId(....)
 14:46 <@jhf:#liferay> you can't do Class.forName
+14:47 <@jhf:#liferay> you might be able to get it through the CNLSU
