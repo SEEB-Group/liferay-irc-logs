@@ -1,0 +1,2 @@
+--- Log opened Tue Sep 01 00:00:06 2015
+00:01 < Rumit:#liferay> Hi All, I have a liferay instance setup and running with content created and user, role etc.. configuration done. Now I want to create another instance which is replica of the previous instance. Is there some way in liferay to do this?
