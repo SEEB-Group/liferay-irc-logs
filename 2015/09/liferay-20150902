@@ -25,3 +25,4 @@
 09:36 < hufg:#liferay> hmm yeah in theory it could be wrong lets see
 09:37 < hufg:#liferay> virtualhost in combination with non virtualhost sites is trouble for 404
 09:40 < hufg:#liferay> so yeah it's the correct group
+09:40 < hufg:#liferay> changing theme to classic changes the fetched settings
