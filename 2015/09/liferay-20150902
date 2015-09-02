@@ -16,3 +16,4 @@
 09:34 < hufg:#liferay> it returns the default theme setting value
 09:34 < hufg:#liferay> even if i go and change it wont change the value
 09:34 < hufg:#liferay> any tips?
+09:35 < jardineworks:#liferay> hufg, I'm sure you checked this already but I'll ask anyway -- cache maybe?
