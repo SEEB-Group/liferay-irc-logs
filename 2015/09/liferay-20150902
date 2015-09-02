@@ -15,3 +15,4 @@
 09:34 < hufg:#liferay> Group.getgetPublicLayoutSet().getTheme().getSetting("...") does not return the correct value
 09:34 < hufg:#liferay> it returns the default theme setting value
 09:34 < hufg:#liferay> even if i go and change it wont change the value
+09:34 < hufg:#liferay> any tips?
