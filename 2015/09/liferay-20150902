@@ -13,3 +13,4 @@
 09:33 < hufg:#liferay> hello
 09:33 < hufg:#liferay> got some wierd problem
 09:34 < hufg:#liferay> Group.getgetPublicLayoutSet().getTheme().getSetting("...") does not return the correct value
+09:34 < hufg:#liferay> it returns the default theme setting value
