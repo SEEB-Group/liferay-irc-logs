@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 20:18 < Cay:#liferay> Hey all, on a custom web archetype, is it possible to access service builder elements? It doesnt have the spring context and I am not sure if I want to do it by hand.
+--- Log closed Wed Sep 02 00:00:03 2015
