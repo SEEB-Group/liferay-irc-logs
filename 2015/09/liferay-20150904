@@ -16,3 +16,4 @@
 09:57 < haba713:#liferay> the same package has portlet and it is deployed ok
 13:47 < g00se:#liferay> I'm trying to change ./tomcat-7.0.42/webapps/ROOT/html/portlet/shopping/cart.jsp and have deleted the class file and even an intermediate java file. This is producing no effect. If there some cached copy being used or am i doing something dumb?
 14:31 < g00se1:#liferay>  I'm trying to change ./tomcat-7.0.42/webapps/ROOT/html/portlet/shopping/cart.jsp and have deleted the class file and even an intermediate java file. This is producing no effect. If there some cached copy being used or am i doing something dumb?
+--- Log closed Sat Sep 05 00:00:06 2015
