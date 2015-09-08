@@ -13,3 +13,5 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 09:41 < modd__:#liferay> does anyone know where liferays shopping portlet handles credit card payments? I can see some validation but no actual payment action. is it just a frontend feature to show how it "might" work?
+09:46 -!- mode/#liferay [+o jhf] by ChanServ
+09:47 <@jhf:#liferay> Join us in 13 minutes to discuss Liferay Developer tools and Liferay 7 with Greg Amerson: https://www.liferay.com/community/dev.life/home
