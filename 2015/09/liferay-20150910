@@ -14,3 +14,4 @@
 13:46 < jardineworks:#liferay> daqSam, try this -- ServletContext servletContext = request.getSession().getServletContext();
 13:51 < daqSam:#liferay> Hi jardineworks, the servletContext works for what I need thanks very much.
 13:52 < daqSam:#liferay> I have tried that on a JSP hook now, but that returns an empty string ( servletContext.getContextPath() ). Any thoughts?
+14:09 < daqSam:#liferay> not sure if that is possible due to the hook jsp being on the portal class-loader scope. Ultimately I wanted to be able to tell what project/package a JSP was originally from. Anyone? tks
