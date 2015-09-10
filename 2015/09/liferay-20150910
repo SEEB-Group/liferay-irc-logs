@@ -13,3 +13,4 @@
 13:25 < daqSam:#liferay> hey all, do you know whether it is possible to get the (original) project name from a portlet JSP? tks
 13:46 < jardineworks:#liferay> daqSam, try this -- ServletContext servletContext = request.getSession().getServletContext();
 13:51 < daqSam:#liferay> Hi jardineworks, the servletContext works for what I need thanks very much.
+13:52 < daqSam:#liferay> I have tried that on a JSP hook now, but that returns an empty string ( servletContext.getContextPath() ). Any thoughts?
