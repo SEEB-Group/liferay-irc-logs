@@ -16,3 +16,4 @@
 13:52 < daqSam:#liferay> I have tried that on a JSP hook now, but that returns an empty string ( servletContext.getContextPath() ). Any thoughts?
 14:09 < daqSam:#liferay> not sure if that is possible due to the hook jsp being on the portal class-loader scope. Ultimately I wanted to be able to tell what project/package a JSP was originally from. Anyone? tks
 14:32 < jardineworks:#liferay> " I wanted to be able to tell what project/package a JSP was originally from. Anyone? tks" -- are you the guy in the forums who is trying to figure out how to determine what hooks are deployed? :)
+14:32 < jardineworks:#liferay> daqSam, ^^
