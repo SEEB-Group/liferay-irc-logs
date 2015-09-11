@@ -17,3 +17,4 @@
 16:21 < jardineworks:#liferay> people often use sessions as "storage mechanisms" and its a poor design choice. Particularly if yoyu plan on running this in a cluster that performs session replication.
 16:22 < jardineworks:#liferay> just my two cents
 16:54 < slide:#liferay> arg dang missed him :(
+16:55 < slide:#liferay> (If anyone else knows the answer) my real question though is that "space" per user? or per page? IE if 2 users are on the same page, will the same portlet instance render their page?
