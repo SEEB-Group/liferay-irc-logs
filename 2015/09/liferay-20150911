@@ -13,3 +13,4 @@
 15:45 < slide:#liferay> I have a question about portlet instances. So I have a portlet on a certain page, is there 1 instance of the portlet created for that page and ALL users? Or does each user get their own instance?
 15:46 < slide:#liferay> The reason I'm asking is if I need to store variables in the user session or if I can store the portlet state in the portlet objects members
 16:20 < jardineworks:#liferay> slide: if your portlet is instanceable, then everytime you add it to the page... the same page, another page, doesn't matter... it will have its own space.
+16:21 < jardineworks:#liferay> I would avoid using the session if you can though.
