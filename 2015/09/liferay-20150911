@@ -11,3 +11,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 11:16 < jardineworks:#liferay> has anyone in here used the CDN features that come with Liferay?
 15:45 < slide:#liferay> I have a question about portlet instances. So I have a portlet on a certain page, is there 1 instance of the portlet created for that page and ALL users? Or does each user get their own instance?
+15:46 < slide:#liferay> The reason I'm asking is if I need to store variables in the user session or if I can store the portlet state in the portlet objects members
