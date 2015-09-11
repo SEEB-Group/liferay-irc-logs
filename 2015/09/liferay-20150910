@@ -22,3 +22,4 @@
 17:02 < jardineworks:#liferay> ok so your goal is to find out whether or not a JSP has been overridden, and if it has which plugin is "overriding it"
 17:02 < jardineworks:#liferay> is that right?
 18:08 < daqSam:#liferay> @jardineworks, I want to be able to get a list of hook plugins that have been deployed that override JSP pages and get their project name.
+--- Log closed Fri Sep 11 00:00:02 2015
