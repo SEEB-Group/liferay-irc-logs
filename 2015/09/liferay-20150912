@@ -1,3 +1,4 @@
 --- Log opened Sat Sep 12 00:00:59 2015
 02:48 < miha_:#liferay> Hi there!
 02:49 < miha_:#liferay> I'm wondering if someone could help me with a hint (or two): I'm trying to build a spring portlet with ant, and I don't know how to specify the spring framework dependency.
+02:49 < miha_:#liferay> I'm guessing it has to be specified in the ivy.xml?
