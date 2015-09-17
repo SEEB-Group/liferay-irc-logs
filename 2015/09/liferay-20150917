@@ -4,3 +4,20 @@
 04:14 < alexia:#liferay> is it possible to use dlfileentry -> get-file-as-stream ?
 04:14 < alexia:#liferay> i can't find docs
 04:14 < alexia:#liferay> and using that service i get always an empty object
+--- Log opened Thu Sep 17 05:21:01 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ Gorith      ] [ kermitt   ] [ plekplek    ] [ vsingleton] 
+05:21 [ alexia    ] [ henriquev   ] [ longbeach ] [ slide       ] 
+05:21 [ bijoo     ] [ jardineworks] [ marcoceppi] [ Tar-Minyatur] 
+05:21 [ Bryanstein] [ jardinworks ] [ modd_     ] [ Tm_T        ] 
+05:21 [ dmarks    ] [ josuebc     ] [ Naenyn    ] [ twen        ] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 !hobana.freenode.net [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+05:37 < alexia:#liferay> hi
+05:37 < alexia:#liferay> does anyone knows how to download file from json ws of liferay?
+05:38 < alexia:#liferay> i can't find docs that explain this process in detail
+05:38 < alexia:#liferay> and using that service i get always an empty object
