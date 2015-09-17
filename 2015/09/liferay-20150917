@@ -2,3 +2,4 @@
 04:13 < alexia:#liferay> hi
 04:13 < alexia:#liferay> does anyone knows how to download file from json ws of liferay?
 04:14 < alexia:#liferay> is it possible to use dlfileentry -> get-file-as-stream ?
+04:14 < alexia:#liferay> i can't find docs
