@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 09:17 -!- mode/#liferay [+o jhf] by ChanServ
 22:43 < JPGInc1:#liferay> hi guys
+23:08 < JPGInc1:#liferay> if i need to do *LocalServiceUtil.fetch*(some user input)
