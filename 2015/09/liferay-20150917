@@ -22,3 +22,4 @@
 05:38 < alexia:#liferay> i can't find docs that explain this process in detail
 05:38 < alexia:#liferay> and using that service i get always an empty object
 05:38 < alexia:#liferay> i'm speaking of dlfileentry -> get-file-as-stream
+--- Log closed Fri Sep 18 00:00:59 2015
