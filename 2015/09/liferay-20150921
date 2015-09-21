@@ -12,3 +12,7 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 10:10 < nicolas_FR:#liferay> hi there
 10:14 < nicolas_FR:#liferay> L6.1.2 GA3 : We have a problem with sitemap.xml : Our site use some pages with the "link to page" type. Those pages seems NOT to be included in the sitemap.xml file, even if the SEO include checkbox is checked in the parameters. Moreover, if a page is a child of a "link to page" page, this child is not included in the sitemap.xml. Any idea how to include in sitemap.xml pages with this kind of type (link to page). Thanks
+17:04 < haba713:#liferay> hi! has someone used adt in your custom portlet? i'm trying to follow these two guides
+17:04 < haba713:#liferay> https://dev.liferay.com/develop/tutorials/-/knowledge_base/6-2/implementing-application-display-templates
+17:04 < haba713:#liferay> https://www.liferay.com/documentation/liferay-portal/6.2/development/-/ai/application-display-templates-liferay-portal-6-2-dev-guide-14-en
+17:04 < haba713:#liferay> but my template type does not appear in Admin → Configuration → Application Display Templates → Add.
