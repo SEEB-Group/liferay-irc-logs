@@ -13,3 +13,4 @@
 10:03 -!- mode/#liferay [+o jhf] by ChanServ
 13:37 < rochadt:#liferay> Does anyone know if there's a way to access com.liferay.portal.kernel.portlet.LiferayWindowState in a freemarker application display template?
 14:12 < rochadt:#liferay> windowStateFactory is available in adt, found it :)
+--- Log closed Sat Sep 19 00:00:59 2015
