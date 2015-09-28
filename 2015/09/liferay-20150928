@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 4 secs
 09:22 -!- mode/#liferay [+o jhf] by ChanServ
 10:04 < urug_:#liferay> Hi, language switcher does not work after upgrading from GA3 to GA4, this is what I use: ${theme.language('fm', "", "_82_languageId", 2)}
+10:16 < urug_:#liferay> Ok fixed it by changing it into ${theme.language('fm', "", "languageId", 2)}
