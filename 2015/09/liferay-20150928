@@ -1,0 +1,14 @@
+--- Log opened Mon Sep 28 00:00:08 2015
+--- Log opened Mon Sep 28 05:21:08 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ Gorith      ] [ kermitt   ] [ plekplek    ] [ vsingleton] 
+05:21 [ bijoo     ] [ henriquev   ] [ marcoceppi] [ slide       ] 
+05:21 [ Bryanstein] [ jardineworks] [ modd_     ] [ Tar-Minyatur] 
+05:21 [ dmarks    ] [ josuebc     ] [ Naenyn_   ] [ Tm_T        ] 
+05:21 -!- Irssi: #liferay: Total of 17 nicks [1 ops, 0 halfops, 0 voices, 16 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 4 secs
+09:22 -!- mode/#liferay [+o jhf] by ChanServ
+10:04 < urug_:#liferay> Hi, language switcher does not work after upgrading from GA3 to GA4, this is what I use: ${theme.language('fm', "", "_82_languageId", 2)}
