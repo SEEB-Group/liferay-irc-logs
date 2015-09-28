@@ -15,3 +15,4 @@
 10:16 < urug_:#liferay> Ok fixed it by changing it into ${theme.language('fm', "", "languageId", 2)}
 10:16 < urug_:#liferay> maybe you should add it to some GA4 changelog or something
 12:02 < game0:#liferay> hey guys, I'm new to liferay and I tried 6.2 version and it's showing me errors when creating portlet so I moved to 6.1 version and when I create the theme it's not working
+12:02 < game0:#liferay> can someone tells me why it's not working
