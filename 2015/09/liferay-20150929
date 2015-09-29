@@ -15,3 +15,4 @@
 09:23 -!- mode/#liferay [+o jhf] by ChanServ
 09:28 < modd_:#liferay> hey jhf. any idea how to get the portlet id/namespace within a servlet filter? my servlet filter is part of a portlet project and I don't want to hardcode the string
 09:30 <@jhf:#liferay> don't know for sure, but isn't there some methods in PortalUtil you could call? did you look through existing servlet filters in Liferay to see if there's an example you could copy/paste?
+09:32 < modd_:#liferay> I don't see anything usable in PortalUtil
