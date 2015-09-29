@@ -17,3 +17,4 @@
 09:30 <@jhf:#liferay> don't know for sure, but isn't there some methods in PortalUtil you could call? did you look through existing servlet filters in Liferay to see if there's an example you could copy/paste?
 09:32 < modd_:#liferay> I don't see anything usable in PortalUtil
 09:35 < modd_:#liferay> maybe this portletapp-thingy in https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portal/servlet/filters/language/LanguageFilter.java ...hmm
+13:12 < jardinworks:#liferay> jhf: https://www.liferay.com/community/forums/-/message_boards/message/60079927
