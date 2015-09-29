@@ -18,3 +18,4 @@
 09:32 < modd_:#liferay> I don't see anything usable in PortalUtil
 09:35 < modd_:#liferay> maybe this portletapp-thingy in https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/com/liferay/portal/servlet/filters/language/LanguageFilter.java ...hmm
 13:12 < jardinworks:#liferay> jhf: https://www.liferay.com/community/forums/-/message_boards/message/60079927
+13:28 <@jhf:#liferay> jardinworks: hmmm
