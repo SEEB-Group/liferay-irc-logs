@@ -49,3 +49,4 @@
 10:14 < jardinworks:#liferay> winem_:do you NEED two sites?
 10:15 < jardinworks:#liferay> I mean, if it is just a case of vaity urls, you should be able to do that with the proxy.
 10:15 < jardinworks:#liferay> and have it redirect to internal (liferay) urls.
+10:16 < winem_:#liferay> ok, I'll evaluate the option with the StrutsAction hook and the custom path at the weekend :)
