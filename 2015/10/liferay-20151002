@@ -25,3 +25,4 @@
 09:36 < winem_:#liferay> I would assume that there is any property or something else that our developers could use. or how do you handle it with multiple customers in one liferay instance?
 09:56 < jardinworks:#liferay> winem_: it's a global setting... default.landing.page. You would need to write a PostLoginHook to do it "by site"
 10:03 < winem_:#liferay> and the PostLoginHook would overwrite the setting for the users session, right?
+10:08 < jardinworks:#liferay> winem_: not necessarily
