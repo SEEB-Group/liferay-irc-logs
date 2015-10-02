@@ -34,3 +34,4 @@
 10:09 < jardinworks:#liferay> you could also set the value of the LAST_PATH parameter in the request.
 10:10 < jardinworks:#liferay> but that would only work if you were using the redirect to last path property with a value of true.
 10:11 < jardinworks:#liferay> that property is most useful for scenarios where the user is perhaps deep in the site when they trigger a login ... and post login you want them to go back to where they were.
+10:11 < winem_:#liferay> is it possible to do something like: if user logged out redirect him to the vhost for session?
