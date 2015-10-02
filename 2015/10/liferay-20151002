@@ -32,3 +32,4 @@
 10:09 < winem_:#liferay> oh ok..
 10:09 < jardinworks:#liferay> and then using the response object, once you have the destination url, you can do a responese.sendRedirect(url)
 10:09 < jardinworks:#liferay> you could also set the value of the LAST_PATH parameter in the request.
+10:10 < jardinworks:#liferay> but that would only work if you were using the redirect to last path property with a value of true.
