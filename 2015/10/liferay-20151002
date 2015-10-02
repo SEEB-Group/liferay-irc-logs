@@ -39,3 +39,4 @@
 10:11 < jardinworks:#liferay> you can write a session expire hook
 10:11 < jardinworks:#liferay> that hook is run for an actual expired session, but also when a user triggers a logout.
 10:12 < winem_:#liferay> that sounds like our scenario
+10:12 < jardinworks:#liferay> hmm
