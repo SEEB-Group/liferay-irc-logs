@@ -29,3 +29,4 @@
 10:08 < jardinworks:#liferay> it just means that you are adding some code to run for a user after a successful login.
 10:09 < winem_:#liferay> ok. I know hooks from git, e.g. so I guess it will work in a similiar way
 10:09 < jardinworks:#liferay> and in your case, you would be, with that code, trying to figure out which site they were trying to go to and then looking up a config -- either a Site Expando value (custom field) or soemthing in the proeprties file (PrefsPropsUtil.getString(...) )
+10:09 < winem_:#liferay> oh ok..
