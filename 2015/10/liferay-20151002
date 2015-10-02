@@ -40,3 +40,4 @@
 10:11 < jardinworks:#liferay> that hook is run for an actual expired session, but also when a user triggers a logout.
 10:12 < winem_:#liferay> that sounds like our scenario
 10:12 < jardinworks:#liferay> hmm
+10:12 < jardinworks:#liferay> actually the expire session hook doesn't have a response object for redirection. It only has the HttpSession object.
