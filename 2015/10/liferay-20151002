@@ -16,3 +16,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 08:28 < benmor:#liferay> hello com.liferay.portlet.PortletPreferencesImpl cannot be cast to com.liferay.portlet.PortletPreferencesWrapper do you know why ?
 08:34 < benmor:#liferay> on com.liferay.portal.util.PortalImpl.getPreferences(PortalImpl.java:4392)
+08:35 < benmor:#liferay> liferay 6.2
