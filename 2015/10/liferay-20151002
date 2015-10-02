@@ -27,3 +27,4 @@
 10:03 < winem_:#liferay> and the PostLoginHook would overwrite the setting for the users session, right?
 10:08 < jardinworks:#liferay> winem_: not necessarily
 10:08 < jardinworks:#liferay> it just means that you are adding some code to run for a user after a successful login.
+10:09 < winem_:#liferay> ok. I know hooks from git, e.g. so I guess it will work in a similiar way
