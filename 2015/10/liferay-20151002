@@ -46,3 +46,4 @@
 10:13 < jardinworks:#liferay> then in that hook you can have logic to redirect the user.
 10:13 < winem_:#liferay> I guess this will confuse some users..
 10:14 < winem_:#liferay> and edit.mycompany.com is the default liferay login page
+10:14 < jardinworks:#liferay> winem_:do you NEED two sites?
