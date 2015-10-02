@@ -19,3 +19,4 @@
 08:35 < benmor:#liferay> liferay 6.2
 08:59 < winem_:#liferay> hi, is it possible to change the portals default landing page (which the user is redirected to after log out) per site?
 09:21 < benmor:#liferay> you can't on 6.1.2
+09:30 < winem_:#liferay> I guess it's related to your question?
