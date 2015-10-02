@@ -26,3 +26,4 @@
 09:56 < jardinworks:#liferay> winem_: it's a global setting... default.landing.page. You would need to write a PostLoginHook to do it "by site"
 10:03 < winem_:#liferay> and the PostLoginHook would overwrite the setting for the users session, right?
 10:08 < jardinworks:#liferay> winem_: not necessarily
+10:08 < jardinworks:#liferay> it just means that you are adding some code to run for a user after a successful login.
