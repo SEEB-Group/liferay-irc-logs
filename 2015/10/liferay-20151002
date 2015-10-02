@@ -43,3 +43,4 @@
 10:12 < jardinworks:#liferay> actually the expire session hook doesn't have a response object for redirection. It only has the HttpSession object.
 10:13 < jardinworks:#liferay> So you would probably have to do a StrutsAction hook to register a custom path ... like /c/portal/custom-logout .. and then set that are the defaut logout page in the site settings.
 10:13 < winem_:#liferay> because the actual behaviour is that the users go to their webpage with a login. only a few of them are able to login to change some text for example. they do it all on customer.domain.com... now, when they're done, they are redirected to edit.mycompany.com with a completely different design and so on
+10:13 < jardinworks:#liferay> then in that hook you can have logic to redirect the user.
