@@ -47,3 +47,4 @@
 10:13 < winem_:#liferay> I guess this will confuse some users..
 10:14 < winem_:#liferay> and edit.mycompany.com is the default liferay login page
 10:14 < jardinworks:#liferay> winem_:do you NEED two sites?
+10:15 < jardinworks:#liferay> I mean, if it is just a case of vaity urls, you should be able to do that with the proxy.
