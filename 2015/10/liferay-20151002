@@ -1,0 +1,3 @@
+--- Log opened Fri Oct 02 00:00:06 2015
+05:03 < Axxell:#liferay> having a bit of an issue, while trying to edit an template for a structure, i get the following error: java.lang.ArrayIndexOutOfBoundsException: 1	at org.apache.jsp.html.portlet.dynamic_005fdata_005fmapping.edit_005ftemplate_jsp._jspService(edit_005ftemplate_jsp.java:2379)
+05:03 < Axxell:#liferay> cant find any info what might be wrong
