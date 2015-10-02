@@ -31,3 +31,4 @@
 10:09 < jardinworks:#liferay> and in your case, you would be, with that code, trying to figure out which site they were trying to go to and then looking up a config -- either a Site Expando value (custom field) or soemthing in the proeprties file (PrefsPropsUtil.getString(...) )
 10:09 < winem_:#liferay> oh ok..
 10:09 < jardinworks:#liferay> and then using the response object, once you have the destination url, you can do a responese.sendRedirect(url)
+10:09 < jardinworks:#liferay> you could also set the value of the LAST_PATH parameter in the request.
