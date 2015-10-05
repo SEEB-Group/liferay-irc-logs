@@ -11,3 +11,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 21:24 < slide:#liferay> Does anyone know if there is a way to create a custom full screen page? We are migrating to liferay from our old platform which has a custom password reset tool. I need to migrate that over and I specifically need to be able to verify the accounts liferay username so I need to be able to use the liferay apis.
+--- Log closed Mon Oct 05 00:00:06 2015
