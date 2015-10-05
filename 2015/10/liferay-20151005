@@ -2,3 +2,4 @@
 02:29 < twen:#liferay> 'moin
 03:27 < benmor:#liferay> hello com.liferay.portlet.PortletPreferencesImpl cannot be cast to com.liferay.portlet.PortletPreferencesWrapper do you know why ?
 03:28 < benmor:#liferay> I use struts bridge
+03:28 < benmor:#liferay> liferay 6.2
