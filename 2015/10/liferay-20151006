@@ -13,3 +13,4 @@
 11:20 < Guest16728:#liferay> Hi there anyone know if this issue will be fixed sometime?
 11:20 < Guest16728:#liferay> LPS-14508
 11:20 < Guest16728:#liferay> https://issues.liferay.com/browse/LPS-14508
+12:12 < dave_k:#liferay> Hi all ... I'm having problems with DynamicQueries. Essentially, I need to translate the SQL construct "where (classPK, classNameId, createDate) IN (<subquery>)" to a dynamic query. I surmise that I need something like a PropertyListFactoryUtil.forNames("classPK", "classNameId", "createDate"), which of course does not exist. But how can I achieve that?
