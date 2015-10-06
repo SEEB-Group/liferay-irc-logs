@@ -16,3 +16,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 20:53 < JPGInc:#liferay> anyone around?
 21:38 < JPGInc:#liferay> hi
+22:43 < slide:#liferay> Does anyone know if there is a way to create a custom full screen page? We are migrating to liferay from our old platform which has a custom password reset tool. I need to migrate that over and I specifically need to be able to verify the accounts liferay username so I need to be able to use the liferay apis.
