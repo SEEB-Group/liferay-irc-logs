@@ -19,3 +19,4 @@
 22:43 < slide:#liferay> Does anyone know if there is a way to create a custom full screen page? We are migrating to liferay from our old platform which has a custom password reset tool. I need to migrate that over and I specifically need to be able to verify the accounts liferay username so I need to be able to use the liferay apis.
 22:44 < slide:#liferay> Could I maybe make a portlet that has a json api thats public and doesn't require being logged in?
 22:44 < slide:#liferay> then just run our password reset tool as a normal jsp?
+--- Log closed Tue Oct 06 00:00:11 2015
