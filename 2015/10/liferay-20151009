@@ -15,3 +15,4 @@
 05:23 < nicolas_FR:#liferay> Help ! :( java.lang.ClassCastException: com.liferay.portlet.PortletPreferencesImpl cannot be cast to com.liferay.portlet.PortletPreferencesWrapper. We're stuck here after migrating from L6.1.2 to L6.2 ga4
 05:23 < nicolas_FR:#liferay> we're using struts bridge and configuration action, but it won't work
 07:47 < jardinworks:#liferay> hi nicolas_FR -- are you still seeing the issue?
+07:58 < nicolas_FR:#liferay> jardinworks: yes :(
