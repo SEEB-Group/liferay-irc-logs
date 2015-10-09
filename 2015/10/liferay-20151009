@@ -18,3 +18,4 @@
 07:58 < nicolas_FR:#liferay> jardinworks: yes :(
 07:59 < nicolas_FR:#liferay> we were on L5.2.3 with struts bridge. When we migrated on L6.1.2 CE, we had on some test servers this exception too, but we could not figure what was the problem. Finally one day we had a server working w/o this error (but no clue why)
 07:59 < nicolas_FR:#liferay> and all was working. Today we are now migrating to L6.2 CE4, and problem is back. Impossible to use portlet preferences with a configuration page.
+08:00 < nicolas_FR:#liferay> as soon as we charge the page with our portlet using PortalUtil.getPreferences(strutsRequest), we have the exception.
