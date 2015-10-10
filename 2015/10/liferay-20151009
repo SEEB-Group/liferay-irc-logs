@@ -20,3 +20,5 @@
 07:59 < nicolas_FR:#liferay> and all was working. Today we are now migrating to L6.2 CE4, and problem is back. Impossible to use portlet preferences with a configuration page.
 08:00 < nicolas_FR:#liferay> as soon as we charge the page with our portlet using PortalUtil.getPreferences(strutsRequest), we have the exception.
 09:49 < nicolas_FR:#liferay> btw I posted on forums, but was tagged as a spam : https://www.liferay.com/community/forums/-/message_boards/category/239390. Waiting for an admin to validate my post
+11:46 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Sat Oct 10 00:00:03 2015
