@@ -14,3 +14,4 @@
 06:51 < goku_:#liferay> hi ,whic api to use to add a user to a site programmaticaly ..am using liferay 6.2 ga3 with tomcat
 09:12 < hufg:#liferay> hello
 09:12 < hufg:#liferay> how good is theme template cache?
+14:49 < bnason:#liferay> So for some reason sometimes when a user logs in, they get redirected to "/web/guest/home" instead of their main page. If i remove everything after the domain from the url they can access the site fine.
