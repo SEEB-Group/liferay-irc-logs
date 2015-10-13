@@ -15,3 +15,4 @@
 09:12 < hufg:#liferay> hello
 09:12 < hufg:#liferay> how good is theme template cache?
 14:49 < bnason:#liferay> So for some reason sometimes when a user logs in, they get redirected to "/web/guest/home" instead of their main page. If i remove everything after the domain from the url they can access the site fine.
+14:52 < bnason:#liferay> Anyone know how I can debug this?
