@@ -1,3 +1,4 @@
 --- Log opened Wed Oct 14 00:00:03 2015
 02:54 < hufg:#liferay> hello
 04:33 < nicolas_FR:#liferay> hi there
+04:34 < nicolas_FR:#liferay> if anyone already experienced a ClassCastException on PortletPreferencesWrapper / PortletPreferencesImpl after a migration (L6.1 > 6.2) using struts bridge, please help us here : https://www.liferay.com/fr/community/forums/-/message_boards/message/60607677
