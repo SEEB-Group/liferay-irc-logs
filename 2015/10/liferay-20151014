@@ -23,3 +23,4 @@
 10:58 < nicolas_FR:#liferay> hi again
 10:58 < nicolas_FR:#liferay> is there anything to do to make a css file compiled by liferay ?
 10:58 < nicolas_FR:#liferay> I have my custom.css file with some @extend in classes, @extend refering to classes defined in another .css file
+10:59 < nicolas_FR:#liferay> This doesn't work. If I copy paste those classes in the custom.css file, it works
