@@ -18,3 +18,4 @@
 07:44 < jardineworks:#liferay> nicolas_FR: if you are then I am willing to be that you have a conflict between the version that ships with the portal and the version you are using. Rather than specifying the struts library in your pom, have you tried using the liferay-plugin-package.properties to use the portals jar?
 07:50 < jardineworks:#liferay> nicolas_FR: I answered your thread.
 08:00 < nicolas_FR:#liferay> jardineworks: hi
+08:00 < nicolas_FR:#liferay> we're using struts-1.2.9-updated maven version
