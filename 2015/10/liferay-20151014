@@ -15,3 +15,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 4 secs
 07:43 < jardineworks:#liferay> nicolas_FR: Are you guys using your own struts implementation in your portlet?
+07:44 < jardineworks:#liferay> nicolas_FR: if you are then I am willing to be that you have a conflict between the version that ships with the portal and the version you are using. Rather than specifying the struts library in your pom, have you tried using the liferay-plugin-package.properties to use the portals jar?
