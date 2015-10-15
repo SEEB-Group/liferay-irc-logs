@@ -52,3 +52,4 @@
 09:57 < reigo:#liferay> I'm trying to learn more about Liferay 7 and specifically about maven + service builder - First question being - is it too early to start trying to build a test-project on liferay 7.0.0-a1?
 09:59 < reigo:#liferay> as far as i've gathered infomation it seems that 7 will have big changes thanks to more modular code but I haven't really found any good documentation yet on migrating development tools from 6.2 for example.
 10:00 < reigo:#liferay> i'm specifically mostly interested in maven based service builder projects. if any of you know a url or some example that's based on the upcoming 7 then it would be greatly appreciated
+11:24 < nicolas_FR:#liferay> reigo maybe you should post on liferay forums and come back here with a thread url
