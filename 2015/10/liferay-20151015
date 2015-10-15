@@ -50,3 +50,4 @@
 08:26 < nicolas_FR:#liferay> fact is Liferay is in America, so most guys who will answer you will come online in like... 3-4 hours
 09:57 -reigo:#liferay- I'll try again as much time has passed:
 09:57 < reigo:#liferay> I'm trying to learn more about Liferay 7 and specifically about maven + service builder - First question being - is it too early to start trying to build a test-project on liferay 7.0.0-a1?
+09:59 < reigo:#liferay> as far as i've gathered infomation it seems that 7 will have big changes thanks to more modular code but I haven't really found any good documentation yet on migrating development tools from 6.2 for example.
