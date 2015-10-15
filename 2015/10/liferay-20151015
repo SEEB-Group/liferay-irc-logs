@@ -35,3 +35,4 @@
 07:44 < DreamStiffler:#liferay> I used ${theme.runtime("3")} for search portlet to appear in theme
 07:45 < DreamStiffler:#liferay> How do i customize this search portlet. Id like to just use the search without the dropdown option
 07:45 < DreamStiffler:#liferay> Currently im using css to hide it
+07:45 < DreamStiffler:#liferay> which i dont think is the right way
