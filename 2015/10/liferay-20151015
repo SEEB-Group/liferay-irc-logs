@@ -32,3 +32,4 @@
 07:23 < DreamStiffler:#liferay> Oh Helllooooooo
 07:44 < DreamStiffler:#liferay> 2 questions. Im using Eclipse with Liferay IDE. Where do i put things that i normally put in portal-ext.properties?
 07:44 < DreamStiffler:#liferay> Second question
+07:44 < DreamStiffler:#liferay> I used ${theme.runtime("3")} for search portlet to appear in theme
