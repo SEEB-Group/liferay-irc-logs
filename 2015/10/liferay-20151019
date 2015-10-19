@@ -11,3 +11,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 13:59 < haba713:#liferay> hi! what is the last login filter in filter chain?
+14:03 < haba713:#liferay> i mean the last filter in chain that has something to do with authentication
