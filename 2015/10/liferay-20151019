@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 13:59 < haba713:#liferay> hi! what is the last login filter in filter chain?
 14:03 < haba713:#liferay> i mean the last filter in chain that has something to do with authentication
+17:21 < Aciid:#liferay> hey how can I find the source release for Liferay CE 7 A1, the latest tag in github is for 7 M7 :D
