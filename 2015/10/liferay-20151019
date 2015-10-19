@@ -13,3 +13,4 @@
 13:59 < haba713:#liferay> hi! what is the last login filter in filter chain?
 14:03 < haba713:#liferay> i mean the last filter in chain that has something to do with authentication
 17:21 < Aciid:#liferay> hey how can I find the source release for Liferay CE 7 A1, the latest tag in github is for 7 M7 :D
+17:21 < Aciid:#liferay> but in sourceforge theres a zip for 7 A1
