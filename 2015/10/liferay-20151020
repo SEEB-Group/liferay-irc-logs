@@ -15,3 +15,4 @@
 09:58 < dave_k:#liferay> Hi all... I found a hint that I could import a WAR file into Liferay IDE, converting it in the process to a Maven project via m2e-wtp. But "import liferay binary plugin" needs a Plugin SDK, which I thought to be Ant only. So either I don't see how to employ a Maven Plugin SDK or I'm missing the right import option ... is anybody here able to shed some light on this?
 09:58 < dave_k:#liferay> (References: "The m2e-wtp project configurator then converts your Liferay WAR package into an Eclipse flexible web project." https://www.liferay.com/de/documentation/liferay-portal/6.1/development/-/ai/use-liferay-ide-with-maven-liferay-portal-6-1-dev-guide-en
 12:26 < modd:#liferay> hey jhf. have a look at our blog, I've put an image up showing you having your https://www.youtube.com/watch?v=SvKY8FJY0Qk
+12:26 < modd:#liferay> ^^
