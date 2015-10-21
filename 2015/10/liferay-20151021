@@ -3,3 +3,4 @@
 04:02 < hufg:#liferay> i've got two envs with same db
 04:02 < hufg:#liferay> the other one loads portlets in ajax mode, i can see the stuff spinning for 0.5sec
 04:02 < hufg:#liferay> any ideas why?
+04:03 < hufg:#liferay> is the other one also loading it like that but somehow faster?
