@@ -2,3 +2,4 @@
 04:02 < hufg:#liferay> hello everyone
 04:02 < hufg:#liferay> i've got two envs with same db
 04:02 < hufg:#liferay> the other one loads portlets in ajax mode, i can see the stuff spinning for 0.5sec
+04:02 < hufg:#liferay> any ideas why?
