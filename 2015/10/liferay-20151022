@@ -2,3 +2,16 @@
 04:39 < rom12three:#liferay> hi room!
 04:42 < rom12three:#liferay> How can i get the plid of a portlet name without ThemeDisplay?
 04:44 < rom12three:#liferay> i need this right after login to redirect without going to the user's homepage
+--- Log opened Thu Oct 22 05:21:35 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ coellobranco] [ iDavid      ] [ modd_       ] [ Tm_T] 
+05:21 [ Aciid     ] [ dave_k      ] [ jardineworks] [ Naenyn      ] 
+05:21 [ bijoo     ] [ dmarks      ] [ josuebc     ] [ rom12three  ] 
+05:21 [ Bryanstein] [ Gorith      ] [ kermitt     ] [ slide       ] 
+05:21 [ bunbury   ] [ henriquev   ] [ marcoceppi  ] [ Tar-Minyatur] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+06:02 < modd_:#liferay> well, as portlets can be part of many pages, there's no method to get a single plid :\
