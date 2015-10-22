@@ -1,3 +1,4 @@
 --- Log opened Thu Oct 22 00:00:11 2015
 04:39 < rom12three:#liferay> hi room!
 04:42 < rom12three:#liferay> How can i get the plid of a portlet name without ThemeDisplay?
+04:44 < rom12three:#liferay> i need this right after login to redirect without going to the user's homepage
