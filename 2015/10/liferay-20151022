@@ -16,3 +16,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 06:02 < modd_:#liferay> well, as portlets can be part of many pages, there's no method to get a single plid :\
 09:00 < rom12three:#liferay> thanks modd_, i guess i will have to use FriendlyURL along with my login Action
+--- Log closed Fri Oct 23 00:00:35 2015
