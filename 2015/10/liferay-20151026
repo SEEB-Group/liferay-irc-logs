@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 11:04 < winem_:#liferay> hi, a quick question: https://www.liferay.com/de/community/wiki/-/wiki/Main/Liferay+Developer+Mode it says that you should  add -Dexternal-properties=portal-developer.properties  to the java options
 11:05 < winem_:#liferay> am I correct that this file needs to be created and can be a copy of our portal-ext.properties which can be modified by our developers?
+11:06 < winem_:#liferay> we're running liferay in a jboss
