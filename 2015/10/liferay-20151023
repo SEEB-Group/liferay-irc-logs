@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 13:00 < artisan:#liferay> Hi all! Does anyone has any tips or hints on how to expose JSON services to put/get blobs with the service builder api interface? I am looking to load data remotely to the portal from a web service client
+--- Log closed Sat Oct 24 00:00:05 2015
