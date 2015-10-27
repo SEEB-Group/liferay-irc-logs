@@ -1,0 +1,14 @@
+--- Log opened Tue Oct 27 00:00:59 2015
+--- Log opened Tue Oct 27 05:21:01 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ dave_k   ] [ henriquev   ] [ kermitt   ] [ Tar-Minyatur] 
+05:21 [ Aciid     ] [ deadcyclo] [ iDavid      ] [ marcoceppi] [ Tm_T        ] 
+05:21 [ bijoo     ] [ dmarks   ] [ jardineworks] [ Naenyn    ] 
+05:21 [ Bryanstein] [ Gorith_  ] [ josuebc     ] [ slide     ] 
+05:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+16:49 < jlorenzo:#liferay> hi! I have a portlet, when I deploy it, everything works fine.. If I redeploy the portlet, the log shows no errors, but when I access the page where the portlet is located, it gives The requested resource (/my-war/myPortlet/invoke) is not available
+16:50 < jlorenzo:#liferay> I checked my web.xml, and I can see that is not being updated by liferay.. It does the first time I deploy

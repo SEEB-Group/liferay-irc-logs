@@ -14,3 +14,4 @@
 11:05 < winem_:#liferay> am I correct that this file needs to be created and can be a copy of our portal-ext.properties which can be modified by our developers?
 11:06 < winem_:#liferay> we're running liferay in a jboss
 11:07 < winem_:#liferay> ah, found it in the ROOT.war - ignore my Q :)
+--- Log closed Tue Oct 27 00:00:59 2015
