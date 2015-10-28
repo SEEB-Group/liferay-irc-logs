@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 06:22 < haba713:#liferay> hi! is it possible to deploy AutoLogin class by dropping a jar/war package into /deploy/ directory? someone has asked about it with no answer: http://www.liferay.com/community/forums/-/message_boards/message/8854495
 11:13 < jardineworks:#liferay> haba713: yes you can. You need to make sure you create a valid hook project though. His error looks like he is referencing the wrong class. He should be referencing the PortalUtil from the portal-service.jar (it has "kernel" in the pacakge) rather than the one he is trying to use which looks like the class that is packaged in the portal-impl.jar.
+11:27 < haba713:#liferay> is it ok to create property hook and replace propety auto.login.hook with a value that has default autologin hooks and custom autologin at the end?
