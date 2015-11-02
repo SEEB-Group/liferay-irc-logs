@@ -13,3 +13,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 05:33 < nicolas_FR:#liferay> hi there
 05:35 < nicolas_FR:#liferay> I can't understand how to override some sass theme variable. I want to set $navbarCollapseWidth to 989px instead of 979px. Putting this var in my custom.css, in a new css in top of main.css imports, in the dockbar.css, nothing works. Anyone knows ?
+10:19 < nicolas_FR:#liferay> I can't understand how to override some sass theme variable. I want to set $navbarCollapseWidth to 989px instead of 979px. Putting this var in my custom.css, in a new css in top of main.css imports, in the dockbar.css, nothing works. Anyone knows ?
