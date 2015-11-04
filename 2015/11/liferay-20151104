@@ -1,3 +1,17 @@
 --- Log opened Wed Nov 04 00:00:00 2015
 04:55 < nicolas_FR:#liferay> hi there
 04:56 < nicolas_FR:#liferay> L6.2 - bootstrap classic theme. I want to override the tablet variable (used in "respond-to(phone, tablet){}" scss rule, but I can't find a place to do it. It seems I have to override it in every file. Anyone know ?
+--- Log opened Wed Nov 04 05:21:05 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ Gorith      ] [ kermitt   ] [ Tar-Minyatur] [ worc] 
+05:21 [ Aciid     ] [ henriquev   ] [ marcoceppi] [ Tm_T        ] 
+05:21 [ bijoo     ] [ iDavid      ] [ Naenyn    ] [ twen        ] 
+05:21 [ Bryanstein] [ jardineworks] [ nicolas_FR] [ vsingleton  ] 
+05:21 [ DevPadawan] [ josuebc     ] [ slide     ] [ winem_      ] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 !hobana.freenode.net [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+05:32 < nicolas_FR:#liferay> L6.2 - bootstrap classic theme. I want to override the tablet variable (used in "respond-to(phone, tablet){}" scss rule, but I can't find a place to do it. It seems I have to override it in every file. Anyone know ? (liferay forum thread : http://tinyurl.com/ort567n)
