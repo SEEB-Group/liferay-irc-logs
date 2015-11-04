@@ -18,3 +18,4 @@
 07:12 < sfl1:#liferay> hi folks
 08:21 < nicolas_FR:#liferay> L6.2 - bootstrap classic theme. I want to override the tablet variable (used in "respond-to(phone, tablet){}" scss rule, but I can't find a place to do it. It seems I have to override it in every file. Anyone know ? (liferay forum thread : http://tinyurl.com/ort567n)
 08:41 < sfl1:#liferay> hi gfl
+08:41 < gfl:#liferay> hello
