@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:03 < dinoop:#liferay> I have created one organization role named organization_manager. The owner only have permission to assign users to it. But When I tried assigning users to it from another role , it is happening
+09:04 < dinoop:#liferay> why this is happening, did I made any mistakes. Please help
