@@ -20,3 +20,4 @@
 15:16 < game0:#liferay> I want to create a new database configuration into it
 15:35 < modd:#liferay> you can create it yourself in liferay.home (the folder where the deploy folder is)
 15:35 < modd:#liferay> or simply use your setup-wizard.property file
+15:36 < modd:#liferay> ..ies*
