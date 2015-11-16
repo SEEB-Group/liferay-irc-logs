@@ -18,3 +18,4 @@
 15:15 < game0:#liferay> the latest version
 15:15 < game0:#liferay> can someone give me some help how to find this property file and modify it
 15:16 < game0:#liferay> I want to create a new database configuration into it
+15:35 < modd:#liferay> you can create it yourself in liferay.home (the folder where the deploy folder is)
