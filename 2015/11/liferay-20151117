@@ -16,3 +16,4 @@
 09:13 < landkommunenhipp:#liferay> Thanks in advance. :-)
 09:15 < landkommunenhipp:#liferay> Some additional Data: I am running Liferay CE 6.2 ga4.
 11:37 < landkommunenhipp:#liferay> I found a solution.
+16:32 < steadystatic:#liferay> Not sure where to look first, but is the liferay-maven-plugin capable of handling Gruntfiles? I’m trying to track down how running a Maven deploy from one directory (that has a Gruntfile) is able to run the Grunt taks like processing Sass files into CSS etc. I don’t think our Liferay instance is using any specifc grunt-maven plugin for Maven…any idea where to confirm this?
