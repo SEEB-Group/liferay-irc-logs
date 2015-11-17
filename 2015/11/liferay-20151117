@@ -21,3 +21,4 @@
 16:42 < steadystatic:#liferay> I’m guessing it doesn’t care whether I grunt or gulp it’s just executing something on the cli and building the results to a /target/ folder
 17:03 < steadystatic:#liferay> Ah so I guess  ‘mvn package liferay:deploy’ is using the liferay.maven.plugins:liferay-maven-plugin
 17:31 < steadystatic:#liferay> I wonder how to track down what each goal is doing in this maven xml? http://dpaste.com/3WWPS74
+17:32 < steadystatic:#liferay> I think it might be liferay theme generator related?
