@@ -15,3 +15,4 @@
 09:13 < landkommunenhipp:#liferay> Can anybody help me to configure the SearchPortlet so that Anauthenticated users can search for Users and Organizations?
 09:13 < landkommunenhipp:#liferay> Thanks in advance. :-)
 09:15 < landkommunenhipp:#liferay> Some additional Data: I am running Liferay CE 6.2 ga4.
+11:37 < landkommunenhipp:#liferay> I found a solution.
