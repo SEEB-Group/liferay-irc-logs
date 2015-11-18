@@ -20,3 +20,6 @@
 10:12 < jardineworks_:#liferay> just saw that you found a solution lol.
 10:12 < jardineworks_:#liferay> nevermind :)
 10:13 < landkommunenhipp:#liferay> thank you anyway.
+10:14 < landkommunenhipp:#liferay> What was your solution?
+10:14 < landkommunenhipp:#liferay> I modified the portal.xml file inside portal-impl.jar.
+10:14 < landkommunenhipp:#liferay> This is maybe not the best way, since you can not ratrace it well.
