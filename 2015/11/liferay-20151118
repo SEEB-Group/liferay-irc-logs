@@ -49,3 +49,6 @@
 10:49 < jardineworks_:#liferay> has someone configured the portlet so that Guest users can't view it?
 10:52 < landkommunenhipp:#liferay> No, it is used out of the box as far as I know.
 10:52 < landkommunenhipp:#liferay> I did not codeshar.io anything yet. But we can try it.
+10:52 < landkommunenhipp:#liferay> I try to explain it:
+10:52 < landkommunenhipp:#liferay> I navigated to /PATH/TO/LIFERAY/liferay-portal-6.2-ce-ga4/tomcat-7.0.42/webapps/ROOT/WEB-INF/lib/ and copied portal-impl.jar.
+10:52 < landkommunenhipp:#liferay> I opened it and extracted the portal.xml within  resource-actions/ dir inside the jar.
