@@ -22,3 +22,4 @@
 17:03 < steadystatic:#liferay> Ah so I guess  ‘mvn package liferay:deploy’ is using the liferay.maven.plugins:liferay-maven-plugin
 17:31 < steadystatic:#liferay> I wonder how to track down what each goal is doing in this maven xml? http://dpaste.com/3WWPS74
 17:32 < steadystatic:#liferay> I think it might be liferay theme generator related?
+--- Log closed Wed Nov 18 00:00:08 2015
