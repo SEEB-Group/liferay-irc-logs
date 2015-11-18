@@ -72,3 +72,4 @@
 10:58 < landkommunenhipp:#liferay> With organizations this bug is not there. So the organizations do not appear at the facets and are not shown either. But I can activate them the way I described.
 10:58 < landkommunenhipp:#liferay> Ok. Thank you. :)
 10:59 < jardineworks_:#liferay> I think I have an alternate solution for you that does not require changing the portal core.. but let me test it.
+11:03 < jardineworks_:#liferay> damn
