@@ -54,3 +54,4 @@
 10:52 < landkommunenhipp:#liferay> I opened it and extracted the portal.xml within  resource-actions/ dir inside the jar.
 10:53 < landkommunenhipp:#liferay> Then I searched for <model-resource><model-name>com.liferay.portal.model.User< .. > and removed the following Entry:
 10:53 < landkommunenhipp:#liferay> <guest-unsupported> <action-key>VIEW</action-key></guest-unsupported>
+10:53 < landkommunenhipp:#liferay> After doing this the Guest-Users are able to look for Users when using the search Portlet.
