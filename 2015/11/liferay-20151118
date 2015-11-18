@@ -80,3 +80,4 @@
 11:06 < jardineworks_:#liferay> an alternative you can consider...
 11:06 < jardineworks_:#liferay> 2. Create a custom search portlet that uses the search API. It would not be terribly difficult to write considering you are only concerned with two model objects anyway.
 11:07 < jardineworks_:#liferay> If you want to try #2, I am always hanging around in here so I am happy to help.
+11:07 < jardineworks_:#liferay> though next week I won't be around from Mon - Thurs.
