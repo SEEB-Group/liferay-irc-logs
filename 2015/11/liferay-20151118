@@ -78,3 +78,4 @@
 11:05 < jardineworks_:#liferay> 1. Standard way: Any time you want to change something that is part of the portal core, you should use an EXT plugin. They should only be used when absolutely necessary though because they can be a bit painful to maintain and make your upgrade path more painful.
 11:05 < jardineworks_:#liferay> by the same token though, it means that you are not changing the core code, you are OVERLAYING your changes so upgrade is still an option.
 11:06 < jardineworks_:#liferay> an alternative you can consider...
+11:06 < jardineworks_:#liferay> 2. Create a custom search portlet that uses the search API. It would not be terribly difficult to write considering you are only concerned with two model objects anyway.
