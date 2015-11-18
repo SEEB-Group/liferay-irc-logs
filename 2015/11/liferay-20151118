@@ -69,3 +69,5 @@
 10:57 < landkommunenhipp:#liferay> Strange I think :)
 10:57 < jardineworks_:#liferay> we shouldn't see the users in the faceted nav, if they are not in the results list.
 10:58 < jardineworks_:#liferay> ok -- gimme a few more minutes.
+10:58 < landkommunenhipp:#liferay> With organizations this bug is not there. So the organizations do not appear at the facets and are not shown either. But I can activate them the way I described.
+10:58 < landkommunenhipp:#liferay> Ok. Thank you. :)
