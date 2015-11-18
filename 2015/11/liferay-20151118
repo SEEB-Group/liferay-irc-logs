@@ -1,2 +1,17 @@
 --- Log opened Wed Nov 18 00:00:08 2015
 03:22 < bijoo_:#liferay> game0: yes, see the Liferay source code portal.properties file for reference if you need it
+--- Log opened Wed Nov 18 05:21:10 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ dmarks       ] [ josuebc   ] [ Naenyn      ] [ worc_] 
+05:21 [ Aciid     ] [ Gorith_      ] [ kermitt   ] [ slide       ] 
+05:21 [ bijoo     ] [ henriquev    ] [ l0ngbeach ] [ Tar-Minyatur] 
+05:21 [ Bryanstein] [ iDavid       ] [ longbeach ] [ Tm_T        ] 
+05:21 [ deadcyclo ] [ jardineworks_] [ marcoceppi] [ vsingleton  ] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 5 secs
+06:36 < hufg:#liferay> hello!
+06:37 < hufg:#liferay> anyone used custom folder permissions in document library for some role?
+06:37 < hufg:#liferay> like restrict access only for this folder
