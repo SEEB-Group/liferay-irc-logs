@@ -77,3 +77,4 @@
 11:04 < jardineworks_:#liferay> so It looks like you have to do what you are doing, but there is still a more "Standard way" to do it.. and an alternative to consider.
 11:05 < jardineworks_:#liferay> 1. Standard way: Any time you want to change something that is part of the portal core, you should use an EXT plugin. They should only be used when absolutely necessary though because they can be a bit painful to maintain and make your upgrade path more painful.
 11:05 < jardineworks_:#liferay> by the same token though, it means that you are not changing the core code, you are OVERLAYING your changes so upgrade is still an option.
+11:06 < jardineworks_:#liferay> an alternative you can consider...
