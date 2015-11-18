@@ -37,3 +37,4 @@
 10:37 < landkommunenhipp:#liferay> Yes I use the search Portlet.
 10:37 < landkommunenhipp:#liferay> I am running 6.2-ga4
 10:37 < landkommunenhipp:#liferay> Thanks in advance. :)
+10:45 < jardineworks_:#liferay> landkommunenhipp: so for me, here is what I did. I logged in as the admin and added the search portlet to a page. Then I configured it removing all facets except the "User" one (I don't have any organizations). While logged in as the admin, I did a search for "test" which returned results (I have several "test" users in my database right now). I logged out so that I became a "guest" user. The search portlet
