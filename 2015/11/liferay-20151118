@@ -40,3 +40,4 @@
 10:45 < jardineworks_:#liferay> landkommunenhipp: so for me, here is what I did. I logged in as the admin and added the search portlet to a page. Then I configured it removing all facets except the "User" one (I don't have any organizations). While logged in as the admin, I did a search for "test" which returned results (I have several "test" users in my database right now). I logged out so that I became a "guest" user. The search portlet
 10:45 < jardineworks_:#liferay> is still visible and when I ran the same search, I got the same results.
 10:45 < jardineworks_:#liferay> so I am able to search for users, when I am not logged in, using the default behaviour.
+10:46 < jardineworks_:#liferay> you are not?
