@@ -31,3 +31,4 @@
 10:35 < landkommunenhipp:#liferay> That is exactly what I want to do.
 10:35 < landkommunenhipp:#liferay> For some Background Information: This is some kind of legacy Application. Organizations are used as representations for companies which Users can vote for.
 10:35 < landkommunenhipp:#liferay> Unauthenticated Users shall see them anyway to get some basic information about the companies as well.
+10:36 < jardineworks_:#liferay> landkommunenhipp: ok -- give me a few minutes to check a few things.
