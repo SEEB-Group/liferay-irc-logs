@@ -74,3 +74,4 @@
 10:59 < jardineworks_:#liferay> I think I have an alternate solution for you that does not require changing the portal core.. but let me test it.
 11:03 < jardineworks_:#liferay> damn
 11:03 < jardineworks_:#liferay> I thought perhaps you could modify the permissions for the "Guest" user Role. I was able to change the role to have VIEW for Users as an option, but it is not a resource model, I think it is for the portlet.
+11:04 < jardineworks_:#liferay> so It looks like you have to do what you are doing, but there is still a more "Standard way" to do it.. and an alternative to consider.
