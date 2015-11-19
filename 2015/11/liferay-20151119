@@ -14,3 +14,5 @@
 07:22 < iflow885:#liferay> hi, how can i install liferay on wildfly 9? Is there a installation guide available?
 07:23 < iflow885:#liferay> And is it recommended to install lr on wildfly or should i use tomcat instead?
 08:00 < landkommunenhipp:#liferay> Hello Everyone.
+08:00 < landkommunenhipp:#liferay> Can somebody please explain how an organization owner, which is an organization role, are allowed to edit userdefined fields for their organizations?
+08:00 < landkommunenhipp:#liferay> At the moment the User who has this role is not able to see the admin->users and organization panel. Thanks in advance
