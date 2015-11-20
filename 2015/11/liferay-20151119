@@ -17,3 +17,4 @@
 08:00 < landkommunenhipp:#liferay> Can somebody please explain how an organization owner, which is an organization role, are allowed to edit userdefined fields for their organizations?
 08:00 < landkommunenhipp:#liferay> At the moment the User who has this role is not able to see the admin->users and organization panel. Thanks in advance
 08:22 < landkommunenhipp:#liferay> And i also wonder why users who are in an organization and have access to the controlpanel automatiyally are allowed to edit every property of the organization.
+--- Log closed Fri Nov 20 00:00:40 2015
