@@ -19,3 +19,4 @@
 07:05 < modd_:#liferay> ah, I misunderstood it I guess
 07:05 < modd_:#liferay> hmm
 08:53 < hufg123:#liferay> hellooo
+08:53 < hufg123:#liferay> as far as i understand ehcache-multi-vm-clustered is used in non clustered envs? just not the replication? is this correct?
