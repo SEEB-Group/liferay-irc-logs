@@ -22,3 +22,4 @@
 08:53 < hufg123:#liferay> as far as i understand ehcache-multi-vm-clustered is used in non clustered envs? just not the replication? is this correct?
 09:37 -!- mode/#liferay [+o jhf] by ChanServ
 10:19 < Andrea_:#liferay> hi all, whats the purpose of init.jsp and init-ext.jsp??
+10:25 < modd_:#liferay> init.jsp defines a lot of imports and variables which are used by one or many other jsps
