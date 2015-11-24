@@ -24,3 +24,4 @@
 10:19 < Andrea_:#liferay> hi all, whats the purpose of init.jsp and init-ext.jsp??
 10:25 < modd_:#liferay> init.jsp defines a lot of imports and variables which are used by one or many other jsps
 10:26 < modd_:#liferay> init-ext.jsp is referenced by init.jsp. If you want to add additional variables within a hook, you would usually override init-ext, not init
+10:32 < Andrea_:#liferay> thanks modd
