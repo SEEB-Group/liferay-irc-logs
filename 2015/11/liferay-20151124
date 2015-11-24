@@ -16,3 +16,4 @@
 06:19 < modd_:#liferay> iflow885: AFAIR it's just a #breadcrumbs()
 06:44 < iflow885:#liferay> modd_, i have tried #breadcrumbs() but it does not work
 06:45 < iflow885:#liferay> if i put #breadcrumbs in my theme template (portal_normal.vm) it works well
+07:05 < modd_:#liferay> ah, I misunderstood it I guess
