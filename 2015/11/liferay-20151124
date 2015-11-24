@@ -13,3 +13,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 05:23 < iflow885:#liferay> hi
 05:25 < iflow885:#liferay> please, can somebody explain to me, how i can include breadcrumb navigation into my structure template?
+06:19 < modd_:#liferay> iflow885: AFAIR it's just a #breadcrumbs()
