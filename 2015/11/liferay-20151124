@@ -26,3 +26,4 @@
 10:26 < modd_:#liferay> init-ext.jsp is referenced by init.jsp. If you want to add additional variables within a hook, you would usually override init-ext, not init
 10:32 < Andrea_:#liferay> thanks modd
 10:33 < Andrea_:#liferay> do every portlet has init-ext.jsp?
+--- Log closed Wed Nov 25 00:00:00 2015
