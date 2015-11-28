@@ -11,3 +11,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 17:49 < Andreaaaaaa:#liferay> hi guys it seems i can find the jsps used in myAccount portlet inside the liferay´s source code....can someone help me? thanks
+17:50 < Andreaaaaaa:#liferay> in 6.2.1 they were in portalweb/docroot/html/portlet/usersandorganizations but now i cant find them anymore :/
