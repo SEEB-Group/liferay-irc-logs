@@ -143,3 +143,4 @@
 16:33 < jardinworks:#liferay> Within a portal instance you can create multiple sites.
 16:33 < dtordable:#liferay> yeah
 16:33 < jardinworks:#liferay> So you can kinda of think of a portal instance like a "company"
+16:33 < jardinworks:#liferay> and then a company might have n sites.
