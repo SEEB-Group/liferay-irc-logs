@@ -158,3 +158,4 @@
 16:39 < jardinworks:#liferay> dtordable: so then I think the answer is "it depends" :) ... I mean, you COULD have a page for each "type of blog" or you could have "a site per blog". If you think a blog is going to expand to be more than one page, then perhaps better to have it as a site.
 16:39 < dtordable:#liferay> well
 16:40 < dtordable:#liferay> this seem weird hahaha
+16:41 < jardinworks:#liferay> dtordable: put it this way.. lets say I have a news company called ABC News. That would be a portal instance. Then I could do "a site for sports blog, and a site for a tech blog." ... or I can do a blog section of the site and then filter by categories when someone wants to just see one type of blog post.
