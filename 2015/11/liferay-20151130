@@ -53,3 +53,4 @@
 10:55 < jardinworks:#liferay> and look at the "page.jsp" for the tag
 10:55 < jardinworks:#liferay> in there you will likely find the embedding logic
 10:56 < jardinworks:#liferay> .. its done in the JSP (which many would call bad practice) I beleive so that you can HOOK it to change the logic if you need to.
+10:56 < Andreaaaaaa:#liferay> and where can i find this jsp?
