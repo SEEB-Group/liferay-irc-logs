@@ -82,3 +82,4 @@
 13:08 < sol_:#liferay> 16:15:24,665 INFO <-- just the hour.. but not the day
 13:09 < jardinworks:#liferay> oh I see
 13:09 < sol_:#liferay> yeah =)
+13:10 < jardinworks:#liferay> that should just be the logging format ...  in Liferay if you want to override the logging settings (acros restarts) you can create a file called portal-ext-log4j or soemthing.. one second, lemme look it up
