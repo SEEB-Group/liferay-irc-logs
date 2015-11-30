@@ -92,3 +92,4 @@
 13:14 < sol_:#liferay> thx
 13:14 < jardinworks:#liferay> tomcat by default I think uses the JULI logger -- not log4j
 13:15 < jardinworks:#liferay> though I have no idea how you tell which line comes from which :)
+13:15 < sol_:#liferay> argh =)
