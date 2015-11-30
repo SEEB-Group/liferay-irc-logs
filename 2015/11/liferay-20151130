@@ -137,3 +137,4 @@
 16:31 < jardinworks:#liferay> Q3. Have you configured a database? or are you using the out of of the box HSQL?
 16:32 < dtordable:#liferay> jardinworks: pgsql indeed :)
 16:32 < jardinworks:#liferay> excellent.
+16:32 < jardinworks:#liferay> ok -- so archtiecture wise...
