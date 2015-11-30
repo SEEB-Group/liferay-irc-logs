@@ -144,3 +144,4 @@
 16:33 < dtordable:#liferay> yeah
 16:33 < jardinworks:#liferay> So you can kinda of think of a portal instance like a "company"
 16:33 < jardinworks:#liferay> and then a company might have n sites.
+16:34 < jardinworks:#liferay> within a site you create "pages" (which are referred to as "layouts" in the API/Database)
