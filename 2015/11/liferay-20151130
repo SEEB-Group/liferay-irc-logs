@@ -198,3 +198,4 @@
 17:12 < dtordable:#liferay> ok
 17:13 < dtordable:#liferay> blog/ is a subsite of /
 17:14 < dtordable:#liferay> then each blog is a page of that type
+17:15 < dtordable:#liferay> but / is a page of that type with all users on it
