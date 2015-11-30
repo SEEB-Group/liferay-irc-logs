@@ -56,3 +56,4 @@
 10:56 < Andreaaaaaa:#liferay> and where can i find this jsp?
 10:58 < Andreaaaaaa:#liferay> ok, just found it, it should be https://github.com/liferay/liferay-portal/blob/6.2.x/portal-web/docroot/html/taglib/portlet/preview/page.jsp this right?
 11:08 < jardinworks:#liferay> hmm
+11:08 < jardinworks:#liferay> not sure if it would be preview.. lemme check
