@@ -199,3 +199,4 @@
 17:13 < dtordable:#liferay> blog/ is a subsite of /
 17:14 < dtordable:#liferay> then each blog is a page of that type
 17:15 < dtordable:#liferay> but / is a page of that type with all users on it
+17:16 < dtordable:#liferay> with virtual host I set the urls
