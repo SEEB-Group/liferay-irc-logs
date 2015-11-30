@@ -32,3 +32,15 @@
 10:35 -!- Irssi: #liferay: Total of 24 nicks [1 ops, 0 halfops, 0 voices, 23 normal]
 10:35 < Andreaaaaaa:#liferay> what is liferay-portlet:runtime tag and how can i find ore info about it?
 10:35 < Andreaaaaaa:#liferay> more*
+10:54 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+10:54 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+10:54 [Users #liferay]
+10:54 [@ChanServ   ] [ coellobranco] [ Guest51665 ] [ josuebc    ] [ njuneau] 
+10:54 [ Aciid      ] [ dave_k      ] [ Guest75763 ] [ keinstein  ] [ slide  ] 
+10:54 [ Andreaaaaaa] [ deadcyclo   ] [ henriquev  ] [ kermitt    ] [ sol_   ] 
+10:54 [ bijoo      ] [ dmarks      ] [ iDavid     ] [ MagnoBooter] [ Tm_T   ] 
+10:54 [ Bryanstein ] [ Gorith      ] [ jardinworks] [ Naenyn     ] 
+10:54 -!- Irssi: #liferay: Total of 24 nicks [1 ops, 0 halfops, 0 voices, 23 normal]
+10:54 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+10:54 -!- Irssi: Join to #liferay was synced in 7 secs
+10:54 < jardinworks:#liferay> Andreaaaaaa: that tag allow you to embed portlets in a view.
