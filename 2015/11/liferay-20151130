@@ -134,3 +134,4 @@
 16:31 < dtordable:#liferay> no, no, jardinworks installed a tomcat bundle
 16:31 < jardinworks:#liferay> Q2. 6.2 GA4?
 16:31 < dtordable:#liferay> jardinworks: yes
+16:31 < jardinworks:#liferay> Q3. Have you configured a database? or are you using the out of of the box HSQL?
