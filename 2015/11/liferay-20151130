@@ -117,3 +117,4 @@
 16:08 < dtordable:#liferay> so what it really is on the VCS are what I code outside Liferay?
 16:10 < jardinworks:#liferay> dtordable: when you say VCS, are you referring to the "Version Control System" ... as in Github?
 16:15 < dtordable:#liferay> yeah
+16:18 < jardinworks:#liferay> dtordable: your best bet if you want to intall liferay is to download one of the bundles rather than building from source.
