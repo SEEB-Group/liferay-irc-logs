@@ -148,3 +148,4 @@
 16:34 < dtordable:#liferay> configured the instance
 16:34 < dtordable:#liferay> its not liferay
 16:34 < jardinworks:#liferay> a layout can be generic, or it can use a template -- for example, you can create a "blog page" which is basically a page that is using the "blog template"
+16:35 < dtordable:#liferay> aha
