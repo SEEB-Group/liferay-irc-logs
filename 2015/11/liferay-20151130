@@ -45,3 +45,4 @@
 10:54 -!- Irssi: Join to #liferay was synced in 7 secs
 10:54 < jardinworks:#liferay> Andreaaaaaa: that tag allow you to embed portlets in a view.
 10:55 < Andreaaaaaa:#liferay> hey jardine ! how are you? thanks as always :) where can i find more deatiled info about it?
+10:55 < jardinworks:#liferay> Andreaaaaaa: if you have the portal source, then you can find the java class for the tag by looking up the class name RuntimeTag (I think... the tags usually end in *Tag)
