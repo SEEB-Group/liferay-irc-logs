@@ -85,3 +85,4 @@
 13:10 < jardinworks:#liferay> that should just be the logging format ...  in Liferay if you want to override the logging settings (acros restarts) you can create a file called portal-ext-log4j or soemthing.. one second, lemme look it up
 13:12 < jardinworks:#liferay> sol_: portal-log4j-ext.xml
 13:12 < sol_:#liferay> so you say the tomcat logging gives the date but not the liferay-logging
+13:12 < jardinworks:#liferay> drop that into ROOT/WEB-INF/classes/META-INF with the pattern you want
