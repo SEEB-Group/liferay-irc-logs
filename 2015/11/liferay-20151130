@@ -119,3 +119,4 @@
 16:15 < dtordable:#liferay> yeah
 16:18 < jardinworks:#liferay> dtordable: your best bet if you want to intall liferay is to download one of the bundles rather than building from source.
 16:19 < jardinworks:#liferay> once you have it installed you need to decide if you are going to use maven or ANT to build your plugins
+16:20 < jardinworks:#liferay> there are multiple plugins and they all have a slightly different approach to what happens to the runtime. In some cases you simply "add" things to the portal (like custom portlets) in other cases you inject logic (some types of hooks) and there are also cases where you overwrite the base portal logic completely (jsp hooks and EXT plugins)
