@@ -181,3 +181,4 @@
 16:55 < dtordable:#liferay> wit
 16:55 < dtordable:#liferay> YEAH
 16:55 < jardinworks:#liferay> in that case, it'd be easiest to have each blog as a page...
+16:56 < jardinworks:#liferay> where "blogs" is the virtual host name for the site, and abcnews.com is the virtualhost for the portal instance.
