@@ -159,3 +159,4 @@
 16:39 < dtordable:#liferay> well
 16:40 < dtordable:#liferay> this seem weird hahaha
 16:41 < jardinworks:#liferay> dtordable: put it this way.. lets say I have a news company called ABC News. That would be a portal instance. Then I could do "a site for sports blog, and a site for a tech blog." ... or I can do a blog section of the site and then filter by categories when someone wants to just see one type of blog post.
+16:41 < jardinworks:#liferay> I mean, the thing is the portal offers really rich permissioning... so things like workflow, permissions for contributors, permissions for end users etc are a big component of the design
