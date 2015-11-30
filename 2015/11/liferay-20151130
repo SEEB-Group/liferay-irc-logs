@@ -165,3 +165,4 @@
 16:42 < dtordable:#liferay> so
 16:42 < jardinworks:#liferay> you just might end up duplicating some effort around permissions and stuff...
 16:43 < jardinworks:#liferay> but it will be easier to understand the structure.
+16:43 < dtordable:#liferay> Main site > blog site > my blog | her blog | his blog?
