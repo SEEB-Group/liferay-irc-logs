@@ -48,3 +48,4 @@
 10:55 < jardinworks:#liferay> Andreaaaaaa: if you have the portal source, then you can find the java class for the tag by looking up the class name RuntimeTag (I think... the tags usually end in *Tag)
 10:55 < Andreaaaaaa:#liferay> thanks!
 10:55 < jardinworks:#liferay> but the java class is usually pretty useless.
+10:55 < jardinworks:#liferay> :)
