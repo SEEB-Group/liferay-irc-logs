@@ -131,3 +131,4 @@
 16:28 < dtordable:#liferay> but all the blogs have to appear in frontpage
 16:28 < jardinworks:#liferay> Q1. You have cloned the master branch of Liferays github? Yess/No
 16:28 < dtordable:#liferay> but individual blogs have to be in /blog/...
+16:31 < dtordable:#liferay> no, no, jardinworks installed a tomcat bundle
