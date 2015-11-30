@@ -122,3 +122,4 @@
 16:20 < jardinworks:#liferay> there are multiple plugins and they all have a slightly different approach to what happens to the runtime. In some cases you simply "add" things to the portal (like custom portlets) in other cases you inject logic (some types of hooks) and there are also cases where you overwrite the base portal logic completely (jsp hooks and EXT plugins)
 16:20 < jardinworks:#liferay> most people who start with Liferay will do so with the Liferay Studio (Eclipse + Liferay Plugins) to give you visuals to help with project manangement etc.
 16:23 < dtordable:#liferay> wait, was smoking a cig, jardinworks :)
+16:25 < dtordable:#liferay> as I do blindly
