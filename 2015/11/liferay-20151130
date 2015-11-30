@@ -86,3 +86,4 @@
 13:12 < jardinworks:#liferay> sol_: portal-log4j-ext.xml
 13:12 < sol_:#liferay> so you say the tomcat logging gives the date but not the liferay-logging
 13:12 < jardinworks:#liferay> drop that into ROOT/WEB-INF/classes/META-INF with the pattern you want
+13:13 < sol_:#liferay> okay
