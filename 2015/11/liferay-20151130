@@ -90,3 +90,4 @@
 13:13 < sol_:#liferay> now i just need to find out how the pattern is and how the entry for the pattern is named
 13:13 < jardinworks:#liferay> sol_: I don't have the patterns memorized... this is the one that LR uses by default -- log4j.appender.CONSOLE.layout.ConversionPattern=%d{ABSOLUTE} %-5p [%c{1}:%L] %m%n
 13:14 < sol_:#liferay> thx
+13:14 < jardinworks:#liferay> tomcat by default I think uses the JULI logger -- not log4j
