@@ -54,3 +54,4 @@
 10:55 < jardinworks:#liferay> in there you will likely find the embedding logic
 10:56 < jardinworks:#liferay> .. its done in the JSP (which many would call bad practice) I beleive so that you can HOOK it to change the logic if you need to.
 10:56 < Andreaaaaaa:#liferay> and where can i find this jsp?
+10:58 < Andreaaaaaa:#liferay> ok, just found it, it should be https://github.com/liferay/liferay-portal/blob/6.2.x/portal-web/docroot/html/taglib/portlet/preview/page.jsp this right?
