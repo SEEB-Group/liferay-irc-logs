@@ -74,3 +74,4 @@
 12:33 < sol_:#liferay> why are the dates different and how and where do i change settings so that both are the same?
 12:35 < sol_:#liferay> same format
 13:06 < jardinworks:#liferay> sol_: check the TOMCAT_HOME/bin/setenv.sh/bat (depending on your environment) .. by default the timezone for the bundle (assuming you are using tomcat of course) is GMT. You probably want to change it to your timezone.
+13:07 < sol_:#liferay> hmm
