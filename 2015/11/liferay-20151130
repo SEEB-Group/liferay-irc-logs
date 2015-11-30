@@ -150,3 +150,4 @@
 16:34 < jardinworks:#liferay> a layout can be generic, or it can use a template -- for example, you can create a "blog page" which is basically a page that is using the "blog template"
 16:35 < dtordable:#liferay> aha
 16:36 < dtordable:#liferay> so I dont need subsites then, am I?
+16:37 < jardinworks:#liferay> depends on what you are trying to do I guess... but if you just need to make "a site that has a blog" - you should not need sub sites
