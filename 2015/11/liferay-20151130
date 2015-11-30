@@ -76,3 +76,4 @@
 13:06 < jardinworks:#liferay> sol_: check the TOMCAT_HOME/bin/setenv.sh/bat (depending on your environment) .. by default the timezone for the bundle (assuming you are using tomcat of course) is GMT. You probably want to change it to your timezone.
 13:07 < sol_:#liferay> hmm
 13:08 < jardinworks:#liferay> GMT or UTC... I can never remmeber.
+13:08 < sol_:#liferay> well the timezone should be okay
