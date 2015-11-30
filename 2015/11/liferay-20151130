@@ -87,3 +87,4 @@
 13:12 < sol_:#liferay> so you say the tomcat logging gives the date but not the liferay-logging
 13:12 < jardinworks:#liferay> drop that into ROOT/WEB-INF/classes/META-INF with the pattern you want
 13:13 < sol_:#liferay> okay
+13:13 < sol_:#liferay> now i just need to find out how the pattern is and how the entry for the pattern is named
