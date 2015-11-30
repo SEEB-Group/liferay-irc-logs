@@ -88,3 +88,4 @@
 13:12 < jardinworks:#liferay> drop that into ROOT/WEB-INF/classes/META-INF with the pattern you want
 13:13 < sol_:#liferay> okay
 13:13 < sol_:#liferay> now i just need to find out how the pattern is and how the entry for the pattern is named
+13:13 < jardinworks:#liferay> sol_: I don't have the patterns memorized... this is the one that LR uses by default -- log4j.appender.CONSOLE.layout.ConversionPattern=%d{ABSOLUTE} %-5p [%c{1}:%L] %m%n
