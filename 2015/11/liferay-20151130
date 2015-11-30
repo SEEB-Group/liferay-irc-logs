@@ -68,3 +68,4 @@
 11:57 < jardinworks:#liferay> Andreaaaaaa: most of the time I think people use that tag in a template (as in Theme template, or ADT etc) to embed a portlet in a view. But you can totally use it in a regular portlet view as far as I know.
 11:57 < jardinworks:#liferay> In fact, I have never investigated, but I suspect the nested portlets portlet works using that tag :)
 11:59 < Andreaaaaaa:#liferay> ok thanks!
+12:32 < sol_:#liferay> in the catalina.out logfile there are different types of dates for events:
