@@ -71,3 +71,4 @@
 12:32 < sol_:#liferay> in the catalina.out logfile there are different types of dates for events:
 12:32 < sol_:#liferay> 16:15:24,665 INFO [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for /opt/tomcat/liferay-portal/deploy
 12:32 < sol_:#liferay> Nov 30, 2015 4:15:28 PM org.apache.catalina.startup.HostConfig deployWAR
+12:33 < sol_:#liferay> why are the dates different and how and where do i change settings so that both are the same?
