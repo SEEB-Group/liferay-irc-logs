@@ -51,3 +51,4 @@
 10:55 < jardinworks:#liferay> :)
 10:55 < jardinworks:#liferay> better to find jsps
 10:55 < jardinworks:#liferay> and look at the "page.jsp" for the tag
+10:55 < jardinworks:#liferay> in there you will likely find the embedding logic
