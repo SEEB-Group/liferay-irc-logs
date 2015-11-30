@@ -141,3 +141,4 @@
 16:33 < jardinworks:#liferay> Liferay is a multi-tenant application. Think of it kinda like VMs... you can run multiple "Portal Instances" with one physicaly installation of Liferay
 16:33 < jardinworks:#liferay> when you install the portal you get a "default instance" normally called Liferay.com
 16:33 < jardinworks:#liferay> Within a portal instance you can create multiple sites.
+16:33 < dtordable:#liferay> yeah
