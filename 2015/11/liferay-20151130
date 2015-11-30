@@ -138,3 +138,4 @@
 16:32 < dtordable:#liferay> jardinworks: pgsql indeed :)
 16:32 < jardinworks:#liferay> excellent.
 16:32 < jardinworks:#liferay> ok -- so archtiecture wise...
+16:33 < jardinworks:#liferay> Liferay is a multi-tenant application. Think of it kinda like VMs... you can run multiple "Portal Instances" with one physicaly installation of Liferay
