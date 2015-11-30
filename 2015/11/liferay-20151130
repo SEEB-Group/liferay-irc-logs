@@ -66,3 +66,4 @@
 11:54 < Andreaaaaaa:#liferay> jardine, srry if i´m bothering you..but when you say ¨allow you to embed portlets in a view¨..by view you mean a portlet view or a generic view>
 11:54 < Andreaaaaaa:#liferay> ?*
 11:57 < jardinworks:#liferay> Andreaaaaaa: most of the time I think people use that tag in a template (as in Theme template, or ADT etc) to embed a portlet in a view. But you can totally use it in a regular portlet view as far as I know.
+11:57 < jardinworks:#liferay> In fact, I have never investigated, but I suspect the nested portlets portlet works using that tag :)
