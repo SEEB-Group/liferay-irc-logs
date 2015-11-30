@@ -155,3 +155,4 @@
 16:37 < jardinworks:#liferay> just probably a page with the blog roll -- in which case I think you would want to use the "Asset Publisher Portlet" and configure it to show content of type Blog,
 16:38 < dtordable:#liferay> it is really a multiblog
 16:38 < dtordable:#liferay> diferent blogs on the site
+16:39 < jardinworks:#liferay> dtordable: so then I think the answer is "it depends" :) ... I mean, you COULD have a page for each "type of blog" or you could have "a site per blog". If you think a blog is going to expand to be more than one page, then perhaps better to have it as a site.
