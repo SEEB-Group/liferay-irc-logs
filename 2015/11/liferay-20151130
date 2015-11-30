@@ -152,3 +152,4 @@
 16:36 < dtordable:#liferay> so I dont need subsites then, am I?
 16:37 < jardinworks:#liferay> depends on what you are trying to do I guess... but if you just need to make "a site that has a blog" - you should not need sub sites
 16:37 < dtordable:#liferay> every section is a page?
+16:37 < jardinworks:#liferay> just probably a page with the blog roll -- in which case I think you would want to use the "Asset Publisher Portlet" and configure it to show content of type Blog,
