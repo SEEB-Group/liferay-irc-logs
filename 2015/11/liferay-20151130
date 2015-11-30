@@ -146,3 +146,4 @@
 16:33 < jardinworks:#liferay> and then a company might have n sites.
 16:34 < jardinworks:#liferay> within a site you create "pages" (which are referred to as "layouts" in the API/Database)
 16:34 < dtordable:#liferay> configured the instance
+16:34 < dtordable:#liferay> its not liferay
