@@ -142,3 +142,4 @@
 16:33 < jardinworks:#liferay> when you install the portal you get a "default instance" normally called Liferay.com
 16:33 < jardinworks:#liferay> Within a portal instance you can create multiple sites.
 16:33 < dtordable:#liferay> yeah
+16:33 < jardinworks:#liferay> So you can kinda of think of a portal instance like a "company"
