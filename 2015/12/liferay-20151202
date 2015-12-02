@@ -13,3 +13,4 @@
 05:35 -!- Irssi: Join to #liferay was synced in 7 secs
 06:58 < Andreaaaaaa:#liferay> hi all, if you have to implement an employee registry , do you use the liferay users management portlets and customize them, or would you just build it from scratch?
 06:59 < Andreaaaaaa:#liferay> by employee registry i mean the place where you store employee informations, where you add employee and do CRUD operations on them
+08:55 < modd_:#liferay> it depends on. if you just need a single information, you can use users with expandos. if it's lots more, adding another table and using the userId as reference will also work. but if you have to handle people, which don't have an account in liferay, you have to think about another solution
