@@ -16,3 +16,5 @@
 08:55 < modd_:#liferay> it depends on. if you just need a single information, you can use users with expandos. if it's lots more, adding another table and using the userId as reference will also work. but if you have to handle people, which don't have an account in liferay, you have to think about another solution
 09:04 < Andreaaaaaa:#liferay> all users are employee so i dont need to handle other people, and i used expando withh about 8 new customfields for User
 09:10 < Andreaaaaaa:#liferay> if i need to move a custom field to another <myaccount> tab, ( example : i added place of birth and i moved it into <details> tab of myportlet account), do i just need to write jsp code or not?
+12:04 -!- ServerMode/#liferay [+o ChanServ] by orwell.freenode.net
+--- Log closed Thu Dec 03 00:00:00 2015
