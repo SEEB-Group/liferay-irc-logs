@@ -12,3 +12,5 @@
 05:28 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:28 -!- Irssi: Join to #liferay was synced in 7 secs
 10:40 < Andreaaaaaa:#liferay> hi guys, is there a procedure to backup a liferay installation?
+10:56 -!- mode/#liferay [+o jhf] by ChanServ
+11:29 < modd:#liferay> Andreaaaaaa: simply copy your whole server (it might be enought to copy the data folder, but I guess in most installations you can simply ignore the 200 more mb or what the rest of liferay is) and your DB...that's it
