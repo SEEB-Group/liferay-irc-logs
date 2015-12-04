@@ -14,3 +14,4 @@
 10:40 < Andreaaaaaa:#liferay> hi guys, is there a procedure to backup a liferay installation?
 10:56 -!- mode/#liferay [+o jhf] by ChanServ
 11:29 < modd:#liferay> Andreaaaaaa: simply copy your whole server (it might be enought to copy the data folder, but I guess in most installations you can simply ignore the 200 more mb or what the rest of liferay is) and your DB...that's it
+11:30 < Andreaaaaaa:#liferay> thanks modd! and do you know how to do automatic updates with the db?
