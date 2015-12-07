@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 7 secs
 06:27 < Andrea__:#liferay> hi all! i have to add a section in myAccount portlet, in the menu on the right, under "Identification". I managed to do this via ext plugin, creating a jsp and adding to the myAccount via a property in portal-ext.properties. IS this wrong? is there any way to do it via HOOK? thanks
+08:40 < Andrea__:#liferay> anyone connected?
