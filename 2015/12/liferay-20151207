@@ -1,0 +1,14 @@
+--- Log opened Mon Dec 07 00:00:06 2015
+--- Log opened Mon Dec 07 05:21:06 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ dmarks    ] [ jardineworks] [ modd_   ] [ Tm_T  ] 
+05:21 [ Aciid     ] [ Gorith    ] [ josuebc     ] [ Naenyn  ] [ winem_] 
+05:21 [ bijoo     ] [ Guest51665] [ kermitt     ] [ plekplek] 
+05:21 [ Bryanstein] [ henriquev ] [ longbeach   ] [ slide   ] 
+05:21 [ deadcyclo ] [ iDavid    ] [ MagnoBooter ] [ sol_    ] 
+05:21 -!- Irssi: #liferay: Total of 22 nicks [1 ops, 0 halfops, 0 voices, 21 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 7 secs
+06:27 < Andrea__:#liferay> hi all! i have to add a section in myAccount portlet, in the menu on the right, under "Identification". I managed to do this via ext plugin, creating a jsp and adding to the myAccount via a property in portal-ext.properties. IS this wrong? is there any way to do it via HOOK? thanks
