@@ -15,3 +15,4 @@
 05:50 < plekplek:#liferay> you should be able to render it using a jsp hook
 05:52 < Andrea_:#liferay> ok but i placed "place of birth" in the details section, how can he persist that value with me just dropping that field with liferay taglib
 05:52 < plekplek:#liferay> make sure to set the custom field permissions accordingly, i.e. view and update for user role
+05:53 < Andrea_:#liferay> in the jsp*
