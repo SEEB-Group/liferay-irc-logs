@@ -16,3 +16,4 @@
 05:52 < Andrea_:#liferay> ok but i placed "place of birth" in the details section, how can he persist that value with me just dropping that field with liferay taglib
 05:52 < plekplek:#liferay> make sure to set the custom field permissions accordingly, i.e. view and update for user role
 05:53 < Andrea_:#liferay> in the jsp*
+05:53 < plekplek:#liferay> the custom-attribute tag should handle the persistence for you
