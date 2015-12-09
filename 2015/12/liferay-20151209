@@ -19,3 +19,4 @@
 05:53 < plekplek:#liferay> the custom-attribute tag should handle the persistence for you
 05:53 < plekplek:#liferay> liferay-ui:custom-attribute
 05:55 < Andrea_:#liferay> wow, how is this possible for a tag to handle the persistence ? i checked the EditUserAction in usersAdmin portlet and there is NO reference to expando or custom fields in fact..where is the java code that make this possible? thanks a lot plekplek
+06:05 < Andrea_:#liferay> May i ask one more question..I have to add a section on the right side when you edit a user in the user&organization portlet. It will be called "documents" and it will contain a new jsp. Can this be done with Hooks? Or do i have to use EXT?
