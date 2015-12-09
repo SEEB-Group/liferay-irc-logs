@@ -13,3 +13,4 @@
 05:21 < Andrea_:#liferay> hi all , anyone online?
 05:29 < Andrea_:#liferay> i added some custom fields to user and i want to move them from "custom field" to other jsps. For example i added "place of birth" and wanted to show it in "Details" tab. Do i have to override any struts action or is it ok to just the custom field via jsp tag?
 05:50 < plekplek:#liferay> you should be able to render it using a jsp hook
+05:52 < Andrea_:#liferay> ok but i placed "place of birth" in the details section, how can he persist that value with me just dropping that field with liferay taglib
