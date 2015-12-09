@@ -56,3 +56,4 @@
 15:06 < modd:#liferay> wenn, liferay comes with a blogs portlet, so this will work just fine and static pages like some text in a html page won't work with a portal. but you can of course create pages and put a web content display portlet on it and create web content (the actual text content) for it
 15:06 < modd:#liferay> so yes, this will work
 15:10 < dtordable:#liferay> Modd that's what I want, thanks
+15:12 < dtordable:#liferay> Read the user guide and do it
