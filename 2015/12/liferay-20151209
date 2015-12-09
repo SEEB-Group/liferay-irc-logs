@@ -22,3 +22,4 @@
 06:05 < Andrea_:#liferay> May i ask one more question..I have to add a section on the right side when you edit a user in the user&organization portlet. It will be called "documents" and it will contain a new jsp. Can this be done with Hooks? Or do i have to use EXT?
 06:06 < plekplek:#liferay> the custom-attribute tag uses the CustomAttributeTag class: https://docs.liferay.com/portal/6.2/taglibs/liferay-ui/custom-attribute.html
 06:10 < plekplek:#liferay> it is possible to add new jsps with additional logic using a hook
+06:11 < Andrea_:#liferay> so if i just have to make a new JSP with JUST custom attributes i don't need to edit any strutsAction right?
