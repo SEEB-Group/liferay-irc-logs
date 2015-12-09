@@ -33,3 +33,4 @@
 10:18 < DarkStar1:#liferay> ?
 10:19 < njuneau:#liferay> DarkStar1: Personnaly I use Liferay Developer Studio (Eclipse + Liferay IDE). It's pretty handy especially if you work with tomcat since there are server connectors for it and a lot of editors for Liferay
 10:20 < njuneau:#liferay> DarkStar1: And yes, there is a Maven SDK
+10:20 < njuneau:#liferay> DarkStar1: Liferay IDE provides some project wizards for Liferay projects, but when using Maven, they really are Maven archetypes
