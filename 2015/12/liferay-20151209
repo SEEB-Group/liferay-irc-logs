@@ -36,3 +36,4 @@
 10:20 < njuneau:#liferay> DarkStar1: Liferay IDE provides some project wizards for Liferay projects, but when using Maven, they really are Maven archetypes
 10:23 < DarkStar1:#liferay> njuneau: Thanks for the info. Don't suppose you have a handy link to the maven sdk? The best things I've found are a page created in 2012 and this: https://www.liferay.com/community/wiki/-/wiki/Main/Liferay+Maven+SDK
 10:23 < njuneau:#liferay> DarkStar1: dev.liferay.com really comes in handy in those situations
+10:23 < njuneau:#liferay> DarkStar1: hang on...
