@@ -33,3 +33,4 @@
 08:59 < jardinworks:#liferay> douglascrp: eesh -- been a while and i would have to do some digging to find that code. Last time I did it was in 6.1 but I have a couple of ideas to share with you :)
 08:59 < douglascrp:#liferay> so I'm trying to get best practices and tips in order to avoid wasting time in the wrong thing
 08:59 < douglascrp:#liferay> nice
+08:59 < jardinworks:#liferay> for starters, you are bang on in terms of using the federated search -- which is in fact the "search" portlet.
