@@ -6,3 +6,4 @@
 03:45 < douglascrp:#liferay> when the user types a term to search, I want liferay to do the normal work, searching on its content, and also calls the alfresco's search, using the same term
 03:46 < douglascrp:#liferay> then liferay should take both results and combine them before showing
 03:46 < douglascrp:#liferay> is that possible? any hint about where should I focus?
+03:46 < douglascrp:#liferay> is this a think to be implemented using hooks?
