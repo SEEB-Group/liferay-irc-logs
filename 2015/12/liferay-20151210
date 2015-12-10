@@ -3,3 +3,4 @@
 03:44 < douglascrp:#liferay> I'm doing a research about how to customize the liferay result list
 03:45 < douglascrp:#liferay> what I want to do is to allow the user to search both in liferay and alfresco
 03:45 < douglascrp:#liferay> I think what I need is federated-search
+03:45 < douglascrp:#liferay> when the user types a term to search, I want liferay to do the normal work, searching on its content, and also calls the alfresco's search, using the same term
