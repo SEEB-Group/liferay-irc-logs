@@ -58,3 +58,4 @@
 12:22 < jardineworks:#liferay> no mistake ... Unsupported major.minor is the result of mixed JVM versions.
 12:22 < jardineworks:#liferay> I have had this in the past for 50 and 51 (java 6 and Java 7 respectively)
 12:23 < jardineworks:#liferay> if you go to the shell and type java -version, what is the output?
+12:24 < Elizabeth_:#liferay> i have this: https://codeshare.io/g5UdG
