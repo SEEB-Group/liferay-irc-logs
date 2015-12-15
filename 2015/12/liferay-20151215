@@ -83,3 +83,4 @@
 12:31 < jardineworks:#liferay> have you ever managed to deploy it successfully?
 12:31 < Elizabeth_:#liferay> Do you think is better recreate the server?
 12:32 < Elizabeth_:#liferay> I mean delete and reconfigure just for be sure?
+12:32 < jardineworks:#liferay> if so, and you changed something since, perhaps its a type mismatch... you could try going into TOMCAT_HOME/webapps and removing the portlet.
