@@ -81,3 +81,4 @@
 12:31 < jardineworks:#liferay> for sure it is being built using java 8 and it is trying to deploy it to the server which is running java 7. I mean, that is what that message means. So the trick is to fidn out where the java 8 reference is. I have to go for a bit .. but it sounds like most of your environment is correct. Perhaps ANT itself is referencing a version you don't wnt. CHeck this out:
 12:31 < jardineworks:#liferay> http://stackoverflow.com/questions/949678/ant-is-using-wrong-java-version
 12:31 < jardineworks:#liferay> have you ever managed to deploy it successfully?
+12:31 < Elizabeth_:#liferay> Do you think is better recreate the server?
