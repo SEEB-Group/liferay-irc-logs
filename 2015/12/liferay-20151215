@@ -82,3 +82,4 @@
 12:31 < jardineworks:#liferay> http://stackoverflow.com/questions/949678/ant-is-using-wrong-java-version
 12:31 < jardineworks:#liferay> have you ever managed to deploy it successfully?
 12:31 < Elizabeth_:#liferay> Do you think is better recreate the server?
+12:32 < Elizabeth_:#liferay> I mean delete and reconfigure just for be sure?
