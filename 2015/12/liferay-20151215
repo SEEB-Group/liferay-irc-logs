@@ -55,3 +55,4 @@
 12:21 < Elizabeth_:#liferay> I have jvm 1.7.0.79
 12:21 < jardineworks:#liferay> is that what you have set for tomcat to use as well?
 12:22 < jardineworks:#liferay> or perhaps you are using java 8 in eclipse?
+12:22 < jardineworks:#liferay> no mistake ... Unsupported major.minor is the result of mixed JVM versions.
