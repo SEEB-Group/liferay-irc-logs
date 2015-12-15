@@ -33,3 +33,4 @@
 11:15 < Elizabeth_:#liferay> java.lang.NullPointerException
 11:16 < Elizabeth_:#liferay> also I have this
 11:16 < Elizabeth_:#liferay> ERROR [http-bio-8080-exec-1][render_portlet_jsp:132] null
+11:16 < Elizabeth_:#liferay> java.lang.NullPointerException
