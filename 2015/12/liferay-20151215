@@ -68,3 +68,4 @@
 12:26 < Elizabeth_:#liferay> I had but not any more
 12:26 < jardineworks:#liferay> do you have a JAVA_HOME variable defined? if so -- where does it point to?
 12:26 < Elizabeth_:#liferay> yes, I have it and this points to...
+12:27 < jardineworks:#liferay> are you using maven or ANT for your plugin builds?
