@@ -30,3 +30,4 @@
 11:14 < Elizabeth_:#liferay> this is the error:
 11:14 < Elizabeth_:#liferay>  org.apache.catalina.core.StandardWrapperValve invoke
 11:14 < Elizabeth_:#liferay> SEVERE: Servlet.service() for servlet [default] in context with path [/guestbook-portlet] threw exception
+11:15 < Elizabeth_:#liferay> java.lang.NullPointerException
