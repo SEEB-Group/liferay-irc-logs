@@ -24,3 +24,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 7 secs
 10:20 < Elizabeth_:#liferay> Hi
+10:22 < Elizabeth_:#liferay> I am following the tutorial "Implementing a UI with Liferay Taglibs" but when I deploy the portlet I have and error from Tomcat
