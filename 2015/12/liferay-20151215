@@ -49,3 +49,4 @@
 12:19 < jardineworks:#liferay> checkingm
 12:20 < jardineworks:#liferay> java.lang.UnsupportedClassVersionError: com/liferay/learning/portlets/MyHelloWorld : Unsupported major.minor version 52.0 (unable to load class com.liferay.learning.portlets.MyHelloWorld)
 12:20 < jardineworks:#liferay> Liferay does not support (officially) java 8
+12:20 < jardineworks:#liferay> downgrade your jvm to 7
