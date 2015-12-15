@@ -60,3 +60,4 @@
 12:23 < jardineworks:#liferay> if you go to the shell and type java -version, what is the output?
 12:24 < Elizabeth_:#liferay> i have this: https://codeshare.io/g5UdG
 12:24 < jardineworks:#liferay> and can you check eclipse to see which version you are using in the build process?
+12:24 < Elizabeth_:#liferay> In eclipse -> preferences -> server -> runtime environment I have the reference to the jdk 17.0.79
