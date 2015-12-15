@@ -54,3 +54,4 @@
 12:21 < jardineworks:#liferay> it could be that you are building in eclipse using java 7, but your tomcat runtime is using java 8... you need to make sure that they two are using the same verion.
 12:21 < Elizabeth_:#liferay> I have jvm 1.7.0.79
 12:21 < jardineworks:#liferay> is that what you have set for tomcat to use as well?
+12:22 < jardineworks:#liferay> or perhaps you are using java 8 in eclipse?
