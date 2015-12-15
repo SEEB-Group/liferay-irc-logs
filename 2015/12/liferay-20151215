@@ -89,3 +89,4 @@
 12:32 < Elizabeth_:#liferay> yes, in fact, the portlet HelloWorld works fine
 12:32 < Elizabeth_:#liferay> but the next, guestbook not
 12:33 < Elizabeth_:#liferay> Windows 8 in a virtual machine in OSx because the Liferay IDE in mac doesn't work
+12:33 < jardineworks:#liferay> It might have worked fine at some point, but it wont be working fine now.. the stacktrace says as much, so it is failing to deploy the new portlet and the version you are looking at is an older version that was previosuly deployed (successfully)
