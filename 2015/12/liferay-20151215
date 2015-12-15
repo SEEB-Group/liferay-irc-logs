@@ -32,3 +32,4 @@
 11:14 < Elizabeth_:#liferay> SEVERE: Servlet.service() for servlet [default] in context with path [/guestbook-portlet] threw exception
 11:15 < Elizabeth_:#liferay> java.lang.NullPointerException
 11:16 < Elizabeth_:#liferay> also I have this
+11:16 < Elizabeth_:#liferay> ERROR [http-bio-8080-exec-1][render_portlet_jsp:132] null
