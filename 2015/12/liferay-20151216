@@ -16,3 +16,4 @@
 08:13 < winem_:#liferay> I guess it's to avoid some issues with look-alike characters
 08:14 < modd_:#liferay> that makes no sense
 08:14 < winem_:#liferay> why not?
+08:15 < modd_:#liferay> if your policy require one uppercase letter and your password is "Iamgroot" it will be "too trivial" and the user doesn't understand, why the password don't work
