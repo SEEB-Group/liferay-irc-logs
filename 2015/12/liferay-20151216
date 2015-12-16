@@ -1,0 +1,14 @@
+--- Log opened Wed Dec 16 00:00:02 2015
+--- Log opened Wed Dec 16 05:21:37 2015
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ deadcyclo ] [ iDavid      ] [ MagnoBooter] [ slide] 
+05:21 [ Aciid     ] [ dmarks    ] [ jardineworks] [ modd_      ] [ sol_ ] 
+05:21 [ bijoo     ] [ Gorith_   ] [ jcloutier   ] [ Naenyn     ] [ Tm_T ] 
+05:21 [ Bryanstein] [ Guest51665] [ josuebc     ] [ Naranek    ] 
+05:21 [ dcmul     ] [ henriquev ] [ kermitt     ] [ plekplek   ] 
+05:21 -!- Irssi: #liferay: Total of 23 nicks [1 ops, 0 halfops, 0 voices, 22 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 7 secs
+08:03 < winem_:#liferay> Hi, we're running liferay behind a apache configured as reverse proxy using mod_proxy_http. http connections work fine but https-connections are not trusted because all the  style sheets etc are referenced per http. how to avoid this behaviour? do we just have to change the virtual host settings from http://domain.com to https or is anything else required? there seems to be no respective settings in the portal-ext.properties
