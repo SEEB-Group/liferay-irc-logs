@@ -15,3 +15,4 @@
 08:09 < modd_:#liferay> why the hack we don't have "i" and "I" here: https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/portal.properties#L3591 !?!?
 08:13 < winem_:#liferay> I guess it's to avoid some issues with look-alike characters
 08:14 < modd_:#liferay> that makes no sense
+08:14 < winem_:#liferay> why not?
