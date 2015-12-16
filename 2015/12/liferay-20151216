@@ -13,3 +13,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 7 secs
 08:03 < winem_:#liferay> Hi, we're running liferay behind a apache configured as reverse proxy using mod_proxy_http. http connections work fine but https-connections are not trusted because all the  style sheets etc are referenced per http. how to avoid this behaviour? do we just have to change the virtual host settings from http://domain.com to https or is anything else required? there seems to be no respective settings in the portal-ext.properties
 08:09 < modd_:#liferay> why the hack we don't have "i" and "I" here: https://github.com/liferay/liferay-portal/blob/master/portal-impl/src/portal.properties#L3591 !?!?
+08:13 < winem_:#liferay> I guess it's to avoid some issues with look-alike characters
