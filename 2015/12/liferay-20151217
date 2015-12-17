@@ -17,3 +17,4 @@
 10:41 < jardineworks:#liferay> And1`: I do the same thing (both SOAP and REST) and still use SB.
 10:42 < jardineworks:#liferay> you can just disable the local storage stuff.
 10:42 < jardineworks:#liferay> in code, I mean. There are a few posts on the forums that talk about different tricks people use
+10:42 < jardineworks:#liferay> .. that's not really the goal of SB, but a "modification" can be used ;)
