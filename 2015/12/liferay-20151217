@@ -13,3 +13,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 07:04 < And1`:#liferay> Hello guys
 07:06 < And1`:#liferay> i have a special demand... i need a reusable liferay service, but without using service builder as i dont need the crud methods
+07:08 < And1`:#liferay> the purpose of the service is to encapsulate requests to a rest-api that resides on another server
