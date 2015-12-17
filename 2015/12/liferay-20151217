@@ -15,3 +15,4 @@
 07:06 < And1`:#liferay> i have a special demand... i need a reusable liferay service, but without using service builder as i dont need the crud methods
 07:08 < And1`:#liferay> the purpose of the service is to encapsulate requests to a rest-api that resides on another server
 10:41 < jardineworks:#liferay> And1`: I do the same thing (both SOAP and REST) and still use SB.
+10:42 < jardineworks:#liferay> you can just disable the local storage stuff.
