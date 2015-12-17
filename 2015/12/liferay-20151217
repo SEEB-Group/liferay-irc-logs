@@ -19,3 +19,4 @@
 10:42 < jardineworks:#liferay> in code, I mean. There are a few posts on the forums that talk about different tricks people use
 10:42 < jardineworks:#liferay> .. that's not really the goal of SB, but a "modification" can be used ;)
 12:55 < And1`:#liferay> jardineworks i just used a normal maven project now, packaged the stuff as jar and put in in server lib folder :)
+12:55 < And1`:#liferay> its similar to using service-builder with "empty" service.xml
