@@ -16,3 +16,4 @@
 07:08 < And1`:#liferay> the purpose of the service is to encapsulate requests to a rest-api that resides on another server
 10:41 < jardineworks:#liferay> And1`: I do the same thing (both SOAP and REST) and still use SB.
 10:42 < jardineworks:#liferay> you can just disable the local storage stuff.
+10:42 < jardineworks:#liferay> in code, I mean. There are a few posts on the forums that talk about different tricks people use
