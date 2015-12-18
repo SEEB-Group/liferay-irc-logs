@@ -21,3 +21,4 @@
 12:55 < And1`:#liferay> jardineworks i just used a normal maven project now, packaged the stuff as jar and put in in server lib folder :)
 12:55 < And1`:#liferay> its similar to using service-builder with "empty" service.xml
 12:56 < And1`:#liferay> for some reason building service with empty services.xml doesnt work with Service-Builder-Maven Project
+--- Log closed Fri Dec 18 00:00:05 2015
