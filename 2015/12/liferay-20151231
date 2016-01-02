@@ -14,3 +14,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 07:27 < plekplek:#liferay> does anyone recognize this kind of error: Unable to process message {destinationName=liferay/hot_deploy, response=null, responseDestinationName=null, responseId=null, payload=null, values={groupId=0, command=deploy, companyId=0, servletContextName=welcome-theme}}
 07:28 < plekplek:#liferay> something about dynamicdatamapping.StructureNameException
+--- Log closed Fri Jan 01 00:00:07 2016
