@@ -15,3 +15,4 @@
 09:32 < hufg:#liferay> overriding is a bit suck since they might be overridden somewhere else :Z
 09:32 < hufg:#liferay> though maybe this is not such a big problem
 09:33 < jardineworks:#liferay> hufg: I think the convention for wrapping struts actions is just to provide an override and then call the original struts action.
+09:34 < jardineworks:#liferay> you are right though, you can have conflicts...
