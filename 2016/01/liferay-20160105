@@ -17,3 +17,4 @@
 09:33 < jardineworks:#liferay> hufg: I think the convention for wrapping struts actions is just to provide an override and then call the original struts action.
 09:34 < jardineworks:#liferay> you are right though, you can have conflicts...
 09:34 < hufg:#liferay> yeah i guess i have to leave the possible conflicts for the next guys eheh
+09:34 < jardineworks:#liferay> my mechanism for dealing is to try to keep all my hooks in one project when I can.
