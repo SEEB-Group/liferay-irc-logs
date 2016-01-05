@@ -60,3 +60,4 @@
 14:38 <@jhf:#liferay> nice
 14:38 <@jhf:#liferay> hahahaha
 16:05 < jardineworks:#liferay> jhf: any tips for how to flush FTL templates from themes? meaning make sure they are not cached?
+17:00 <@jhf:#liferay> jardineworks: at least in 6.2 I don't think there's an API for flushing the cache - but there is a portal property to tell Liferay to *never* cache templates..
