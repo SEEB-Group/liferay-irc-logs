@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 09:30 < hufg:#liferay> hello!
 09:31 < hufg:#liferay> any ideas how to wrap liferay struts actions?
+09:32 < hufg:#liferay> overriding is a bit suck since they might be overridden somewhere else :Z
