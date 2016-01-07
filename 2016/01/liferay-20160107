@@ -15,3 +15,4 @@
 05:59 < hufg:#liferay> i suppose the listener has to be thread safe
 06:03 < hufg:#liferay> i see AuditFilter uses AuditRequestThreadLocal class to store request information
 06:03 < hufg:#liferay> i wonder if similiar approach could be used
+06:31 < modd:#liferay> as a workaround you could use the model itself and use expandos for this purpose. not sure if it's the best way but simply my first thought. maybe it helps :)
