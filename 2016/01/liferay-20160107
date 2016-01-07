@@ -16,3 +16,4 @@
 06:03 < hufg:#liferay> i see AuditFilter uses AuditRequestThreadLocal class to store request information
 06:03 < hufg:#liferay> i wonder if similiar approach could be used
 06:31 < modd:#liferay> as a workaround you could use the model itself and use expandos for this purpose. not sure if it's the best way but simply my first thought. maybe it helps :)
+07:29 < hufg:#liferay> thanks
