@@ -22,3 +22,4 @@
 07:36 < hufg:#liferay> though it's making me quite paranoid heh
 07:48 < hufg:#liferay> easy to fail, hard to detect, don't how much experience on this :)
 07:48 < hufg:#liferay> but no matter, just need to pay attention
+09:52 < jardineworks:#liferay> hufg: I've used the thread locals before. Just follow the Liferay examples using their "Safe" classes ... I did that and never had any issues.
