@@ -1,0 +1,15 @@
+--- Log opened Thu Jan 07 00:00:02 2016
+--- Log opened Thu Jan 07 05:21:06 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ deadcyclo ] [ henriquev   ] [ longbeach  ] [ npskirk ] 
+05:21 [ Aciid     ] [ dmarks    ] [ jardineworks] [ MagnoBooter] [ plekplek] 
+05:21 [ bijoo     ] [ Gorith    ] [ josuebc     ] [ modd       ] [ sol_    ] 
+05:21 [ Bryanstein] [ Guest51665] [ kermitt     ] [ Naenyn     ] [ Tm_T    ] 
+05:21 -!- Irssi: #liferay: Total of 20 nicks [1 ops, 0 halfops, 0 voices, 19 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 5 secs
+05:59 < hufg:#liferay> yo
+05:59 < hufg:#liferay> any ideas how to pass information in model listener between after and before methods?
+05:59 < hufg:#liferay> i suppose the listener has to be thread safe
