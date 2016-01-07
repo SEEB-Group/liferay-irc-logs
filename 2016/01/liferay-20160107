@@ -13,3 +13,4 @@
 05:59 < hufg:#liferay> yo
 05:59 < hufg:#liferay> any ideas how to pass information in model listener between after and before methods?
 05:59 < hufg:#liferay> i suppose the listener has to be thread safe
+06:03 < hufg:#liferay> i see AuditFilter uses AuditRequestThreadLocal class to store request information
