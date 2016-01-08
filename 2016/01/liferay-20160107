@@ -26,3 +26,4 @@
 09:52 < jardineworks:#liferay> just don't forget your finally block! ;)
 10:18 -!- mode/#liferay [+o jhf] by ChanServ
 12:43 < dave_k:#liferay> Hello all... does anyone know how to force jsp recompilation on a LR6.1/tomcat production server? I deployed an updated hook via HotDeploy -- the included language strings are being updated, but the updated JSP files aren't recompiled.
+--- Log closed Fri Jan 08 00:00:05 2016
