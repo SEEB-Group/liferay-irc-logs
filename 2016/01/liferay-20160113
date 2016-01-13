@@ -1,1 +1,14 @@
 --- Log opened Wed Jan 13 00:00:06 2016
+--- Log opened Wed Jan 13 05:21:38 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ deadcyclo ] [ Gorith    ] [ kermitt    ] [ sol_] 
+05:21 [ Aciid     ] [ DevPadawan] [ Guest51665] [ MagnoBooter] [ Tm_T] 
+05:21 [ bijoo     ] [ dmarks    ] [ henriquev ] [ Naenyn     ] 
+05:21 [ Bryanstein] [ gittish   ] [ josuebc   ] [ plekplek   ] 
+05:21 -!- Irssi: #liferay: Total of 18 nicks [1 ops, 0 halfops, 0 voices, 17 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+08:26 < game0:#liferay> hi guys, I'm trying to use vaadin with service builder, I have created a vaadin portlet and then I want to connect this port to the database
+08:26 < game0:#liferay> but I don't see any tutorial that explain this feature
