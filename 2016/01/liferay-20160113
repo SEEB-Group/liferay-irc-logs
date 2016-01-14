@@ -12,3 +12,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 08:26 < game0:#liferay> hi guys, I'm trying to use vaadin with service builder, I have created a vaadin portlet and then I want to connect this port to the database
 08:26 < game0:#liferay> but I don't see any tutorial that explain this feature
+--- Log closed Thu Jan 14 00:00:38 2016

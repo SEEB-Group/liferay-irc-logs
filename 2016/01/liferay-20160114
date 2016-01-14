@@ -1,0 +1,15 @@
+--- Log opened Thu Jan 14 00:00:38 2016
+--- Log opened Thu Jan 14 05:21:09 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ deadcyclo ] [ henriquev  ] [ Naenyn] 
+05:21 [ Aciid     ] [ DevPadawan] [ josuebc    ] [ sol_  ] 
+05:21 [ bijoo     ] [ Gorith    ] [ kermitt    ] [ Tm_T  ] 
+05:21 [ Bryanstein] [ Guest51665] [ MagnoBooter] [ winem_] 
+05:21 -!- Irssi: #liferay: Total of 16 nicks [1 ops, 0 halfops, 0 voices, 15 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 5 secs
+09:28 < koirikivi:#liferay> Hi -- I have a question on extending the default portlets that liferay offers
+09:29 < koirikivi:#liferay> more specifically, is it possible to make the default blogs portlet "instanciable" so that it can be added to multiple pages with different configurations?
+09:29 < koirikivi:#liferay> and if so, how would I go on doing that
