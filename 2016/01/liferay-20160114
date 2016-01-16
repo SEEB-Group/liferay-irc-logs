@@ -13,3 +13,4 @@
 09:28 < koirikivi:#liferay> Hi -- I have a question on extending the default portlets that liferay offers
 09:29 < koirikivi:#liferay> more specifically, is it possible to make the default blogs portlet "instanciable" so that it can be added to multiple pages with different configurations?
 09:29 < koirikivi:#liferay> and if so, how would I go on doing that
+--- Log closed Fri Jan 15 00:00:07 2016
