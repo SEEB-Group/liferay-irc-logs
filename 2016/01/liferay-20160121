@@ -16,3 +16,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 06:45 < plekplek:#liferay> is it not possible to use the same virtual host for both public and private pages?
 06:45 < plekplek:#liferay> (which is not the same as the portal virtual host)
+06:47 < plekplek:#liferay> if i set the public page virtual host and leave the field blank for private pages, then login to the public pages and try to access the private pages using the top menu, i get directed back to the public pages
