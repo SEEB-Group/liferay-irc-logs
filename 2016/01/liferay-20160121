@@ -1,0 +1,4 @@
+--- Log opened Thu Jan 21 00:00:12 2016
+04:46 < nicolas_FR:#liferay> hi there
+04:46 < nicolas_FR:#liferay> I can't get Angularjs working with my portlets.. anyone know is there is something to do in particular ?
+04:47 < nicolas_FR:#liferay> error : Uncaught Error: [$injector:modulerr] Failed to instantiate module myapp due to: Error: [$injector:nomod] Module 'myapp' is not available! You either misspelled the module name or forgot to load it. If registering a module ensure that you specify the dependencies as the second argument.
