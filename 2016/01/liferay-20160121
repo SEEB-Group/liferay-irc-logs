@@ -2,3 +2,17 @@
 04:46 < nicolas_FR:#liferay> hi there
 04:46 < nicolas_FR:#liferay> I can't get Angularjs working with my portlets.. anyone know is there is something to do in particular ?
 04:47 < nicolas_FR:#liferay> error : Uncaught Error: [$injector:modulerr] Failed to instantiate module myapp due to: Error: [$injector:nomod] Module 'myapp' is not available! You either misspelled the module name or forgot to load it. If registering a module ensure that you specify the dependencies as the second argument.
+--- Log opened Thu Jan 21 05:21:08 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ deadcyclo] [ kermitt    ] [ plekplek ] [ vsingleton] 
+05:21 [ Aciid     ] [ dmarks   ] [ koirikivi  ] [ plekplek_] 
+05:21 [ bijoo     ] [ Gorith_  ] [ MagnoBooter] [ sol_     ] 
+05:21 [ Bryanstein] [ henriquev] [ Naenyn     ] [ Tm_T     ] 
+05:21 [ dcmul     ] [ josuebc  ] [ nicolas_FR ] [ topolik  ] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 5 secs
+06:45 < plekplek:#liferay> is it not possible to use the same virtual host for both public and private pages?
+06:45 < plekplek:#liferay> (which is not the same as the portal virtual host)
