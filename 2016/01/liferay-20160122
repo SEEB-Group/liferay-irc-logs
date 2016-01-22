@@ -28,3 +28,4 @@
 09:26 < hufg:#liferay> well on a really high level i'm hooking some stuff into liferay default functionality which can take time
 09:27 < hufg:#liferay> so i'm researching if this can be mitigated with a thread pool/BackgroundTask
 09:27 < hufg:#liferay> or if it's feasible given the development effort and so forth
+09:28 < hufg:#liferay> i'm super clueless about concurrent stuff ::(
