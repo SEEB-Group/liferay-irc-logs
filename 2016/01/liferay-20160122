@@ -26,3 +26,4 @@
 09:26 < hufg:#liferay> ok, thats enough
 09:26 < jardinworks:#liferay> <-- I <3 Liferay :)
 09:26 < hufg:#liferay> well on a really high level i'm hooking some stuff into liferay default functionality which can take time
+09:27 < hufg:#liferay> so i'm researching if this can be mitigated with a thread pool/BackgroundTask
