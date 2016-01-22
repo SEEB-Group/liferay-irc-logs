@@ -29,3 +29,4 @@
 09:27 < hufg:#liferay> so i'm researching if this can be mitigated with a thread pool/BackgroundTask
 09:27 < hufg:#liferay> or if it's feasible given the development effort and so forth
 09:28 < hufg:#liferay> i'm super clueless about concurrent stuff ::(
+09:28 < hufg:#liferay> but with no shared state etc. feeling pretty good about it heh
