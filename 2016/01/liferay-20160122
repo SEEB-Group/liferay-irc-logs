@@ -23,3 +23,4 @@
 09:25 < jardinworks:#liferay> I did that session a few months back for LR -- not sure exactly what it is you are trying to do but that video demonstrates parallel processing using the message bus and scheduled tasks.
 09:25 < hufg:#liferay> jardinworks: so hows it going with liferay heh? :D
 09:26 < jardinworks:#liferay> one thing to note is that the scheduled jobs only every run on ONE server in your cluster. So its not distributed, just parallel.
+09:26 < hufg:#liferay> ok, thats enough
