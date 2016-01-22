@@ -25,3 +25,4 @@
 09:26 < jardinworks:#liferay> one thing to note is that the scheduled jobs only every run on ONE server in your cluster. So its not distributed, just parallel.
 09:26 < hufg:#liferay> ok, thats enough
 09:26 < jardinworks:#liferay> <-- I <3 Liferay :)
+09:26 < hufg:#liferay> well on a really high level i'm hooking some stuff into liferay default functionality which can take time
