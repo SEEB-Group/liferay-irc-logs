@@ -33,3 +33,4 @@
 09:29 < hufg:#liferay> or chaining of execution
 09:30 < hufg:#liferay> just this single task which needs to be done and if it fails, so be it
 09:33 < jardinworks:#liferay> hufg: in that case, I think that video will help. I mean, there is nothing earth shattering in it. The main point was to show how you can use the API to dynnamically create destinations on the bus, adjust the worker sizes, etc.
+09:57 < hufg:#liferay> ok thanks
