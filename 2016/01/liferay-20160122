@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 08:09 < hufg:#liferay> helloo
+08:10 < hufg:#liferay> if i want to do perhaps time consuming operations that can be run in the background ie. they can be run parallel and there is no need for any kind of chaining of operations
