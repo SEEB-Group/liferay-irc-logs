@@ -15,3 +15,4 @@
 08:10 < hufg:#liferay> if i want to do perhaps time consuming operations that can be run in the background ie. they can be run parallel and there is no need for any kind of chaining of operations
 08:11 < hufg:#liferay> i wonder if the portal has some good stuff on this
 08:11 < hufg:#liferay> i see there is ThreadPoolExecutor
+08:12 < hufg:#liferay> any ideas how easy/hard this is? :D
