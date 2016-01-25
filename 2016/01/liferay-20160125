@@ -59,3 +59,4 @@
 10:10 < jardinworks:#liferay> rashxt: of course!
 10:10 < rashxt:#liferay> in our ldap user has a custom field calles "abilitazione", I wrote an hook overriding UserLocalService but in method getUser of my hook I don't know how to get my custom field ("abilitazione")
 10:10 < jardinworks:#liferay> rashxt: you want to get the user based on the expando field?
+10:11 <@jhf:#liferay> isn't it osmething like user.getExpandoBridge().getAttribute("abilitazione")
