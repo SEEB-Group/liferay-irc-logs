@@ -61,3 +61,4 @@
 10:10 < jardinworks:#liferay> rashxt: you want to get the user based on the expando field?
 10:11 <@jhf:#liferay> isn't it osmething like user.getExpandoBridge().getAttribute("abilitazione")
 10:12 < rashxt:#liferay> @jhf I tried but my field is null
+10:12 < rashxt:#liferay> all expando is empty
