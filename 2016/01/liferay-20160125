@@ -24,3 +24,4 @@
 10:01 < denissignoretto:#liferay> Hi everybody ! (I'm a bit busy at the moment, but I can follow your messages !)
 10:01 <@jhf:#liferay> for example "1=Bob,2=Prashant,3=Alice"
 10:01 < meera:#liferay> ok
+10:01 <@jhf:#liferay> I will then pass this through a secure hash and tell you what the hash value is (e.g. using SHA-1)
