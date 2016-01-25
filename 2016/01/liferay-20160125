@@ -62,3 +62,4 @@
 10:11 <@jhf:#liferay> isn't it osmething like user.getExpandoBridge().getAttribute("abilitazione")
 10:12 < rashxt:#liferay> @jhf I tried but my field is null
 10:12 < rashxt:#liferay> all expando is empty
+10:12 < jardinworks:#liferay> rashxt: does the user you are testing with have the value set?
