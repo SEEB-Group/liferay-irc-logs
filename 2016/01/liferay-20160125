@@ -63,3 +63,4 @@
 10:12 < rashxt:#liferay> @jhf I tried but my field is null
 10:12 < rashxt:#liferay> all expando is empty
 10:12 < jardinworks:#liferay> rashxt: does the user you are testing with have the value set?
+10:12 <@jhf:#liferay> how are you inserting the value into the expando field? I don't think the LDAP import process inserts values into expando
