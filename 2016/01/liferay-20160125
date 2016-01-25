@@ -45,3 +45,4 @@
 10:05 < meera:#liferay> who?..........
 10:05 <@jhf:#liferay> LAURI HILTUNEN!!!!
 10:05 < meera:#liferay> ha ha ha
+10:05 <@jhf:#liferay> echo -n '1=Denis,2=Lauri,3=Meera' | openssl sha256
