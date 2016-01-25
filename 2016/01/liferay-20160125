@@ -65,3 +65,4 @@
 10:12 < jardinworks:#liferay> rashxt: does the user you are testing with have the value set?
 10:12 <@jhf:#liferay> how are you inserting the value into the expando field? I don't think the LDAP import process inserts values into expando
 10:13 < rashxt:#liferay> on LDAP yes
+10:13 < rashxt:#liferay> @jhf do I have to do it programmatically ?
