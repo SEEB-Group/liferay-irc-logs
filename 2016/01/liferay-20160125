@@ -68,3 +68,4 @@
 10:13 < rashxt:#liferay> @jhf do I have to do it programmatically ?
 10:14 < jardinworks:#liferay> rashxt: "on LDAP yes" wast that for me? as in in LDAP there is a value? but I want you to check the User object in the control panel. If you edit the user and check the Custom Fields section... do you see the value set?
 10:14 < rashxt:#liferay> jardinworks: no, in CP no custom fields visible
+10:15 < jardinworks:#liferay> rashxt: that is why it is empty then. There is no value set for the user. So you need to figure out why the mapping didn't take.
