@@ -71,3 +71,4 @@
 10:15 < jardinworks:#liferay> rashxt: that is why it is empty then. There is no value set for the user. So you need to figure out why the mapping didn't take.
 10:16 < jardinworks:#liferay> Have a look at the PortalLDAPImporterImpl.java clas
 10:16 < jardinworks:#liferay> that will hel pyou understand how the users are created in liferay, based on what is in your directory store + mappings.
+10:16 <@jhf:#liferay> also there are many people that have done the same thing - see this for example: https://www.liferay.com/community/forums/-/message_boards/message/32555219
