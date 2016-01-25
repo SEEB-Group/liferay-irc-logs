@@ -72,3 +72,4 @@
 10:16 < jardinworks:#liferay> Have a look at the PortalLDAPImporterImpl.java clas
 10:16 < jardinworks:#liferay> that will hel pyou understand how the users are created in liferay, based on what is in your directory store + mappings.
 10:16 <@jhf:#liferay> also there are many people that have done the same thing - see this for example: https://www.liferay.com/community/forums/-/message_boards/message/32555219
+10:17 <@jhf:#liferay> it looks like it IS posible to make Liferay import stuff to expando for you
