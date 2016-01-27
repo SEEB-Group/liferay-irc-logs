@@ -1,0 +1,2 @@
+--- Log opened Wed Jan 27 00:00:04 2016
+05:14 < Axxell:#liferay> Hello.. having trouble generating a friendly url to an asset in assetpublisher from my custom portlet. What i need is my porlets instanceId, but themedisplay.getPortletDisplay().getInstanceId() returns null every time, anybody know hot to get that?

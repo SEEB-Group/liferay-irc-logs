@@ -86,3 +86,7 @@
 12:11 < de_coeur:#liferay> Roger that James!
 14:45 < jardinworks:#liferay> jhf: have you every done anything with the Cache API in LR?
 14:46 < jardinworks:#liferay> I am using it to store and retreive stuff... have my custom caches and all that... works with the single vm and the cluster... but I am trying to find a way to get the objects (the map I guess?) that is IN the cache.
+19:15 -!- mode/#liferay [+o jhf] by ChanServ
+20:03 -!- mode/#liferay [+o jhf] by ChanServ
+20:17 -!- mode/#liferay [+o jhf] by ChanServ
+--- Log closed Tue Jan 26 00:00:01 2016
