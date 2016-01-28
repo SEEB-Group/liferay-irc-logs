@@ -1,2 +1,15 @@
 --- Log opened Wed Jan 27 00:00:04 2016
 05:14 < Axxell:#liferay> Hello.. having trouble generating a friendly url to an asset in assetpublisher from my custom portlet. What i need is my porlets instanceId, but themedisplay.getPortletDisplay().getInstanceId() returns null every time, anybody know hot to get that?
+--- Log opened Wed Jan 27 05:21:02 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ de_coeur ] [ kermitt    ] [ plekplek_   ] [ vsingleton] 
+05:21 [ Axxell    ] [ deadcyclo] [ koirikivi  ] [ sol_        ] 
+05:21 [ bijoo     ] [ Gorith   ] [ MagnoBooter] [ Tar-Minyatur] 
+05:21 [ Bryanstein] [ henriquev] [ Naenyn     ] [ Tm_T        ] 
+05:21 [ dave_k    ] [ josuebc  ] [ plekplek   ] [ topolik1    ] 
+05:21 -!- Irssi: #liferay: Total of 21 nicks [1 ops, 0 halfops, 0 voices, 20 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 5 secs
+--- Log closed Thu Jan 28 00:00:00 2016
