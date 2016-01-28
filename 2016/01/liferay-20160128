@@ -14,3 +14,4 @@
 06:56 < BlackRainbow:#liferay> Hello! Could anyone please help me with autofields a bit? I couldn't find any answer to my question in 2 days.
 06:56 < BlackRainbow:#liferay> I have asked the question here: http://stackoverflow.com/questions/35037162/liferay-autofield-how-to-add-change-listener-to-autofield-generated-fields
 06:56 < BlackRainbow:#liferay> just give me a hint if you can
+09:08 < plekplek_:#liferay> is it possible to run portlet cron jobs on layout level, meaning that if the portlet has not been added to a layout, no job will run, and if there are several, the cron job would access portlet configuration properties for custom behavior?
