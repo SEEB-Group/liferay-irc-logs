@@ -20,3 +20,4 @@
 09:47 < jardinworks:#liferay> but it did not do the first part you are looking for.
 09:47 < plekplek_:#liferay> ah, gotta check that one out
 09:47 < jardinworks:#liferay> plekplek_: https://www.youtube.com/watch?v=ui2k0RVs3uc
+09:48 < plekplek_:#liferay> one way could be to run the job and from there retrieve all portlets of that particular id in layout
