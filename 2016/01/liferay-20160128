@@ -17,3 +17,4 @@
 09:08 < plekplek_:#liferay> is it possible to run portlet cron jobs on layout level, meaning that if the portlet has not been added to a layout, no job will run, and if there are several, the cron job would access portlet configuration properties for custom behavior?
 09:46 < jardinworks:#liferay> plekplek_: don't think so. I mean, yes, but you would have to do that kind of logic in your MessageListener. So it would always fire... but then you would need to figure out if the portlet is used. If it was used in more than one place, and you want the job to run multiple times, but with different configurations, then you would need to use the API to spawn new job dynamically.
 09:46 < jardinworks:#liferay> I did a dev.life session that showed how to do the last part -- dynamic job creation and dynamic endpoints
+09:47 < jardinworks:#liferay> but it did not do the first part you are looking for.
