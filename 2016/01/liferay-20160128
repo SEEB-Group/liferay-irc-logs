@@ -22,3 +22,4 @@
 09:47 < jardinworks:#liferay> plekplek_: https://www.youtube.com/watch?v=ui2k0RVs3uc
 09:48 < plekplek_:#liferay> one way could be to run the job and from there retrieve all portlets of that particular id in layout
 09:49 < plekplek_:#liferay> and then run the job for each one
+09:54 < plekplek_:#liferay> cool, checking the session… this is an interesting topic
