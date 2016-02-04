@@ -13,3 +13,4 @@
 08:47 < rashxt:#liferay> hi all, I have a problem deploying my portlets via eclipse. after deploy my portlets are not available and there is no error in console. After some investigation I found out that  web.xml  deployed is different than the original one. Any idea?
 08:50 < rashxt:#liferay> here both files:  https://paste.ubuntu.com/14866147/
 08:50 < rashxt:#liferay> I'm using eclipse and all my projects are maven projects
+--- Log closed Thu Feb 04 00:00:11 2016
