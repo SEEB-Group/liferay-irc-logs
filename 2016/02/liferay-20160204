@@ -17,3 +17,4 @@
 06:57 < hufg:#liferay> hello!
 08:51 < hufg:#liferay> hello any chances i could find what struts action will be executed in the reuqest
 08:51 < hufg:#liferay> through api
+08:51 < hufg:#liferay> ie. no hard coding of struts_action param or requesturi in case of /portal/** stuff
