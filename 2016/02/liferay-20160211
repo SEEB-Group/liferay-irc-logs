@@ -15,3 +15,4 @@
 16:35 < bnason:#liferay> njuneau, yes, however I think ive figured out something thats making it not work.
 16:36 < bnason:#liferay> this is actually software built on top of liferay and apparently they've modified it so ALL pages, even public, require a login.... which is just dumb
 16:36 < njuneau:#liferay> bnason: Fun times :)
+16:37 < bnason:#liferay> yup...
