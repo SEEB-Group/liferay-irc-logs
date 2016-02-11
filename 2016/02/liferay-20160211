@@ -13,3 +13,4 @@
 10:13 < bnason:#liferay> I'm using Liferay Portal EE 6.1.20 and I'm trying to make a page that is accessable to anyone, especially people not logged in. The page has "View" permission for "Guest" but it still redirects to the login page when someone not logged in tries to view it. Can anyoneh help?
 12:55 < njuneau:#liferay> bnason: I'm guessing yes, but is it a Public Page?
 16:35 < bnason:#liferay> njuneau, yes, however I think ive figured out something thats making it not work.
+16:36 < bnason:#liferay> this is actually software built on top of liferay and apparently they've modified it so ALL pages, even public, require a login.... which is just dumb
