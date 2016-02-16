@@ -19,3 +19,4 @@
 09:28 <@jhf:#liferay> thanks :) looking forward to wearing a different "hat" starting next week :)
 09:29 < modd_:#liferay> a red one? xD
 09:29 <@jhf:#liferay> :|
+09:34 < dave_k:#liferay> I've got a problem here with the asset publisher on LR6.1.0 (client does not want to update). Is it possible to place two asset publishers on the same page (one with abstracts, one with full view) and configure it in a way that any click on an abstract will show that asset in the full-view asset publisher, regardless of the display page of that asset?
