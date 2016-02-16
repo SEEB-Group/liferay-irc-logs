@@ -20,3 +20,4 @@
 09:29 < modd_:#liferay> a red one? xD
 09:29 <@jhf:#liferay> :|
 09:34 < dave_k:#liferay> I've got a problem here with the asset publisher on LR6.1.0 (client does not want to update). Is it possible to place two asset publishers on the same page (one with abstracts, one with full view) and configure it in a way that any click on an abstract will show that asset in the full-view asset publisher, regardless of the display page of that asset?
+09:37 < dave_k:#liferay> If it's not configurable: I guess adding another display style gives me control over the links in the abstracts publisher. But how do I determine the ID of the default asset publisher for a given page?
