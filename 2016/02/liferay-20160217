@@ -18,3 +18,4 @@
 14:27 < njuneau:#liferay> Adalid_Negro: There are a number of circumstances under witch 99% of the RAM may be taken. I cannot help you, but if you know that memory usage is 99% due to a Java process, try performing a heap dump and analyze it to know get clues
 14:28 < jardinworks:#liferay> njuneau: you around for a discussion about build process + build servers?
 14:34 < njuneau:#liferay> jardinworks: Would love to, but I'm a bit overwhelmed ATM
+14:47 < jardinworks:#liferay> njuneau: booo
