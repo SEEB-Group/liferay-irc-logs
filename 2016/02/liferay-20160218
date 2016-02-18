@@ -74,3 +74,4 @@
 17:08 < rochadt:#liferay> but winows server tho
 17:09 < rochadt:#liferay> note: same version, entirely separate installations
 17:09 < njuneau:#liferay> well then... I haven't personnaly got portal-89 on my machine, but if the bug is reproducible using a vanilla package, it may be a good indication that's it's indeed a Liferay bug
+17:17 < rochadt:#liferay> I haven't tested this on linux that might be my next step
