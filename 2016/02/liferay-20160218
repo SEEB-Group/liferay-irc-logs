@@ -77,3 +77,4 @@
 17:17 < rochadt:#liferay> I haven't tested this on linux that might be my next step
 17:17 < rochadt:#liferay> I saw some other people had a similar issue
 17:17 < rochadt:#liferay> and the resolutioon was to add the java property -Dfile.encoding=UTF8
+17:17 < rochadt:#liferay> no luck though
