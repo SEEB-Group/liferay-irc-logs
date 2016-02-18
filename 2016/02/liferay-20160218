@@ -31,3 +31,4 @@
 09:32 < jardinworks:#liferay> s
 09:33 < njuneau:#liferay> jardinworks: Since all projects are pretty unique, I don't think I have ever seen a project build in quite the same way or same steps for wide variety of reasons. We do have a basis that is similar in some ways, but identical? Not necessarily. Not that it's a bad thing if it's properly documented.
 09:35 < njuneau:#liferay> jardinworks: For example, test environment provisionning for automated testing may be different from project to project and a simple "mvn clean install", while not impossible to do, would be a bit impractical should we be forced into that one single command
+09:36 < jardinworks:#liferay> njuneau: 100% agree. I mean the WHOLE POINT of the build server is to provide a mechanism for a predictable and repeatable set of actions that need to be performed to PRODUCE A BUILD (whether it is a snapshot or a release)
