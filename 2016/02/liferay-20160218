@@ -34,3 +34,4 @@
 09:36 < jardinworks:#liferay> njuneau: 100% agree. I mean the WHOLE POINT of the build server is to provide a mechanism for a predictable and repeatable set of actions that need to be performed to PRODUCE A BUILD (whether it is a snapshot or a release)
 09:36 < jardinworks:#liferay> njuneau: so I am not crazy.
 09:37 < njuneau:#liferay> jardinworks: I doubt so. Again, not aware of the full context of your project here, but if there's anything, it's always about compromises :P
+09:38 < jardinworks:#liferay> forget my projec.t
