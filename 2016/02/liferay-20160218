@@ -26,3 +26,4 @@
 09:31 < jardinworks:#liferay> introduce a tool like jenkins if everything is being built EXACTLY THE SAME. But fine. We modifeid the <build/> to include plugins for generating the source. In SNAPSHOT this is fine. The problem is that the maven release plugins are unhappy with this solution and it won't work.
 09:31 < jardinworks:#liferay> so ... my question to you :)
 09:31 < jardinworks:#liferay> in your experience
+09:31 < jardinworks:#liferay> .. understanding that all projects and clients are different
