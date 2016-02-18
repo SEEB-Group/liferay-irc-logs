@@ -65,3 +65,4 @@
 17:06 < rochadt:#liferay> interesting
 17:06 < njuneau:#liferay> and usually you can see in the logs that compass is not able to run
 17:06 < njuneau:#liferay> then again, might not be your specific issue, but might be worth looking into
+17:06 < rochadt:#liferay> nope no issues related to compass
