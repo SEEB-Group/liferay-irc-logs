@@ -21,3 +21,4 @@
 09:27 < jardinworks:#liferay> njuneau: totally agree. So right now my challenge it this.
 09:28 < jardinworks:#liferay> njuneau: my recommendation was, and still is, NOT to commit anything in the portlet-service module, or, from the portlet module, sql, service.properties. Then at build time, have the step in place to generate the SB code before you do a package, install, deploy ...
 09:28 < jardinworks:#liferay> njuneau: for SNAPSHOTS this is fine.
+09:30 < njuneau:#liferay> jardinworks: Well, I'm not aware of the full context of that project. My first instinct would be to maintain only what we have control of (like the service definition and the implementation) in source control, but it really boils down to how to best accomodate the people or machines who are going to perform the build.
