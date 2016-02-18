@@ -69,3 +69,4 @@
 17:07 < rochadt:#liferay> it really looks like it's just loading the script with the wrong content type
 17:08 < njuneau:#liferay> Browser cache issue, maybe?
 17:08 < njuneau:#liferay> sometimes it's the little things :P
+17:08 < rochadt:#liferay> no and I'm actually seeing this issue on two entirely different machines
