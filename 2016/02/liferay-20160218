@@ -67,3 +67,4 @@
 17:06 < njuneau:#liferay> then again, might not be your specific issue, but might be worth looking into
 17:06 < rochadt:#liferay> nope no issues related to compass
 17:07 < rochadt:#liferay> it really looks like it's just loading the script with the wrong content type
+17:08 < njuneau:#liferay> Browser cache issue, maybe?
