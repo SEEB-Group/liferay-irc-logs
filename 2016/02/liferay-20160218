@@ -18,3 +18,4 @@
 09:25 < njuneau:#liferay> jardinworks: Regarding SB specifically, that would be on a per-project basis - I'm not a big fan of committing generated interfaces and boilerplate if maven can take care of it. But I can see that creating problems if the Maven Lifecycle doesn't take care of that generation properly
 09:26 < njuneau:#liferay> jardinworks: First example that comes to mind is people using an IDE like Eclipse in which some Maven lifecycle phases would be always called at the right time (if ever)
 09:26 < njuneau:#liferay> jardinworks: However, with Jenkins, the build lifecycle should be pretty much complete
+09:27 < jardinworks:#liferay> njuneau: totally agree. So right now my challenge it this.
