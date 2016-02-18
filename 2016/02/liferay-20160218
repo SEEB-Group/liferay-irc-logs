@@ -13,3 +13,4 @@
 09:00 < njuneau:#liferay> jardinworks: if you want to have that discussion about build processes, I could make it at 12:00
 09:00 < njuneau:#liferay> jardinworks: ;)
 09:21 < jardinworks:#liferay> njuneau: my day has just started and it already looks like a train wreck -- but maybe? Just to give some context -- it's about using build servers (like Jenkins, Team City, Bamboo etc) with Service Builder (Maven) projects.
+09:22 < jardinworks:#liferay> ... and whether you commit your SB generated code to your source control, or let the build process generated it
