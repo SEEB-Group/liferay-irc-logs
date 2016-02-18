@@ -54,3 +54,4 @@
 16:54 < rochadt:#liferay> we are seeing characters like ï»¿ in the beginning of ckeditor.js
 16:54 < rochadt:#liferay> any clues?
 16:58 < njuneau:#liferay> rochadt: which patch level? portal-87?
+17:03 < rochadt:#liferay> umm sec lemme check, I think just the latest
