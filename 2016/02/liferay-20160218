@@ -16,3 +16,4 @@
 09:22 < jardinworks:#liferay> ... and whether you commit your SB generated code to your source control, or let the build process generated it
 09:23 < njuneau:#liferay> jardinworks: We always try to leave everything generated out of source control if (and that's a big if) Maven can generate it automatically as part of the build lifecycle
 09:25 < njuneau:#liferay> jardinworks: Regarding SB specifically, that would be on a per-project basis - I'm not a big fan of committing generated interfaces and boilerplate if maven can take care of it. But I can see that creating problems if the Maven Lifecycle doesn't take care of that generation properly
+09:26 < njuneau:#liferay> jardinworks: First example that comes to mind is people using an IDE like Eclipse in which some Maven lifecycle phases would be always called at the right time (if ever)
