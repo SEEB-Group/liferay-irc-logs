@@ -29,3 +29,4 @@
 09:31 < jardinworks:#liferay> .. understanding that all projects and clients are different
 09:32 < jardinworks:#liferay> ... is it normal to have build processes that are custom, and include MANY STEPS at time?
 09:32 < jardinworks:#liferay> s
+09:33 < njuneau:#liferay> jardinworks: Since all projects are pretty unique, I don't think I have ever seen a project build in quite the same way or same steps for wide variety of reasons. We do have a basis that is similar in some ways, but identical? Not necessarily. Not that it's a bad thing if it's properly documented.
