@@ -19,3 +19,4 @@
 09:26 < njuneau:#liferay> jardinworks: First example that comes to mind is people using an IDE like Eclipse in which some Maven lifecycle phases would be always called at the right time (if ever)
 09:26 < njuneau:#liferay> jardinworks: However, with Jenkins, the build lifecycle should be pretty much complete
 09:27 < jardinworks:#liferay> njuneau: totally agree. So right now my challenge it this.
+09:28 < jardinworks:#liferay> njuneau: my recommendation was, and still is, NOT to commit anything in the portlet-service module, or, from the portlet module, sql, service.properties. Then at build time, have the step in place to generate the SB code before you do a package, install, deploy ...
