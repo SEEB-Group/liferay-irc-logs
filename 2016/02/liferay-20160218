@@ -20,3 +20,4 @@
 09:26 < njuneau:#liferay> jardinworks: However, with Jenkins, the build lifecycle should be pretty much complete
 09:27 < jardinworks:#liferay> njuneau: totally agree. So right now my challenge it this.
 09:28 < jardinworks:#liferay> njuneau: my recommendation was, and still is, NOT to commit anything in the portlet-service module, or, from the portlet module, sql, service.properties. Then at build time, have the step in place to generate the SB code before you do a package, install, deploy ...
+09:28 < jardinworks:#liferay> njuneau: for SNAPSHOTS this is fine.
