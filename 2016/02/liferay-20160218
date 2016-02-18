@@ -60,3 +60,4 @@
 17:04 < rochadt:#liferay> no ckeditors are loading
 17:05 < njuneau:#liferay> hmm. nothing in the logs about compass not being able to run? we run into some frontend issues sometimes after applying patches
 17:05 < rochadt:#liferay> hmm
+17:05 < rochadt:#liferay> lemme check
