@@ -51,3 +51,4 @@
 09:48 < hufg:#liferay> helloo hows it hanging
 16:53 < rochadt:#liferay> hey all
 16:53 < rochadt:#liferay> quick question, has anyone had issues with CKEditor in the latest patch?
+16:54 < rochadt:#liferay> we are seeing characters like ï»¿ in the beginning of ckeditor.js
