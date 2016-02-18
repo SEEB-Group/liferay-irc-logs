@@ -76,3 +76,4 @@
 17:09 < njuneau:#liferay> well then... I haven't personnaly got portal-89 on my machine, but if the bug is reproducible using a vanilla package, it may be a good indication that's it's indeed a Liferay bug
 17:17 < rochadt:#liferay> I haven't tested this on linux that might be my next step
 17:17 < rochadt:#liferay> I saw some other people had a similar issue
+17:17 < rochadt:#liferay> and the resolutioon was to add the java property -Dfile.encoding=UTF8
