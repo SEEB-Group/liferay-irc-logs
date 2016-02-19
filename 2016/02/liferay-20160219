@@ -103,3 +103,4 @@
 16:35 < jardineworks_:#liferay> Websphere has left a terrible taste in mouth with respect to J2EE containers
 16:35 < jardineworks_:#liferay> although I do like Glassfish :)
 16:48 < njuneau:#liferay> Wildly is not Websphere ;)
+16:48 < njuneau:#liferay> And it's waaaaaaaay ahead of Tomcat in many regards IMO, especially when it comes to clustering, management and deployments
