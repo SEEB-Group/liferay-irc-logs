@@ -116,3 +116,4 @@
 18:02 < njuneau:#liferay> TommyTheKid: It's basically Tomcat + OpenEJB + OpenJPA
 18:02 < njuneau:#liferay> TommyTheKid: Regarding Java 5 support and commercial support, dunno
 18:03 < njuneau:#liferay> TommyTheKid: JBoss EAP 6.x is based off the JBoss AS 7 series
+18:03 < TommyTheKid:#liferay> Yea, thats really the problem, we *might* be able to make it work with Java 6, which RHEL has supported packages for, but TomEE doesn't have RHEL packages, which puts us in the same boat as Wildfly, you have to update every release and "ride the lighting"
