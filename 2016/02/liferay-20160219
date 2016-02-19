@@ -91,3 +91,4 @@
 15:38 < TommyTheKid:#liferay> all good, I think we are giving up on jboss (wildfly), may try tomcat, but may need to look into other things that can handle the war/ear files
 15:39 < TommyTheKid:#liferay> (directories in most cases)
 15:42 < jardineworks_:#liferay> TommyTheKid: JBoss is not necessary for Liferay. It doesn't need a J2EE container... just a servlet processor.
+15:43 < jardineworks_:#liferay> Every client I have that uses a J2EE server I beg to change to something lighter like Tomcat.
