@@ -85,3 +85,4 @@
 13:46 < TommyTheKid:#liferay> there are *several* contexts ... I believe there are ~8 WAR files and an EAR file that has several war files in it, not sure which are required and which are "legacy" :)
 13:48 < jardineworks_:#liferay> can you run a find operation on your server and see if you can find the portal-impl.jar?
 13:48 < jardineworks_:#liferay> assuming it was still called that in the stone ages, when you installed LR :)
+15:31 < TommyTheKid:#liferay> jardineworks_:  sorry I apparently wandered off... I did, there is no portal-impl.jar
