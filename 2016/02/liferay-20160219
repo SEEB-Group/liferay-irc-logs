@@ -104,3 +104,4 @@
 16:35 < jardineworks_:#liferay> although I do like Glassfish :)
 16:48 < njuneau:#liferay> Wildly is not Websphere ;)
 16:48 < njuneau:#liferay> And it's waaaaaaaay ahead of Tomcat in many regards IMO, especially when it comes to clustering, management and deployments
+16:48 < njuneau:#liferay> Then again, Tomcat works pretty well also
