@@ -94,3 +94,4 @@
 15:43 < jardineworks_:#liferay> Every client I have that uses a J2EE server I beg to change to something lighter like Tomcat.
 15:43 < jardineworks_:#liferay> it's not that it doesn't work, just whats the point of all the extra "features" and "horsepower" if you are never going to ues it
 15:43 < jardineworks_:#liferay> personally I like my app server to startup in 30 seconds :)
+15:45 < TommyTheKid:#liferay> I am worried that something they have in a (portlet?) uses j2ee cause I see j2ee stuff and portal-ejb.jar ...
