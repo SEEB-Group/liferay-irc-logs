@@ -40,3 +40,4 @@
 12:25 < jardineworks_:#liferay> what are you doing with it?!
 12:25 < jardineworks_:#liferay> lol
 12:26 < TommyTheKid:#liferay> well preexisting portal taht does some reports, got compromised due to a JBOSS 4.0.3 issue (JMX is exposed), and we are trying to make it work on a newer AS
+12:27 < TommyTheKid:#liferay> we tried copying the ear/war files over to the new one... had to fix an XML issue (something about jsp-config and taglib), now just dealing with class-path issues
