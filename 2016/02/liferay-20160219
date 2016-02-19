@@ -69,3 +69,4 @@
 13:28 < TommyTheKid:#liferay> we are not familiar with either or any of them
 13:29 < TommyTheKid:#liferay> we basically have an old "portal" that needs to keep running, but is running a vulnerable jboss (4.0.3sp1) and a scary old version of java :)
 13:30 < njuneau:#liferay> For LR6.2, there's a "Release_" table in the database
+13:30 < njuneau:#liferay> Maybe there's an equivalent on yours that could indicate the Liferay Portal version you're dealing with
