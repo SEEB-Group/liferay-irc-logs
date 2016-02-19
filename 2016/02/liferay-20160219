@@ -114,3 +114,4 @@
 17:50 < TommyTheKid:#liferay> guh, tomcat 6 or 7 don't support EAR files, which means I would have to repackage stuff, and I am certain that while it may be possible, it would probably be painful. Is there any suggestions for an EAR capable java application server that could hopefully run a Java *5* application and be supported for updates? JBOSS commercial maybe? (doubt that even they support a pre jboss 7 setup?)
 18:02 < njuneau:#liferay> TommyTheKid: Wouldn't apache TomEE support EAR files?
 18:02 < njuneau:#liferay> TommyTheKid: It's basically Tomcat + OpenEJB + OpenJPA
+18:02 < njuneau:#liferay> TommyTheKid: Regarding Java 5 support and commercial support, dunno
