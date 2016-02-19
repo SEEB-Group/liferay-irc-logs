@@ -67,3 +67,4 @@
 13:28 < njuneau:#liferay> If you're looking for a replacement, Java EE-wize, to JBoss AS, Glassfish, Apache TomEE or Geronimo is probably closer to what Tomcat provides
 13:28 < TommyTheKid:#liferay> ... since we could install tomcat or tomcat6 from EL packages :)
 13:28 < TommyTheKid:#liferay> we are not familiar with either or any of them
+13:29 < TommyTheKid:#liferay> we basically have an old "portal" that needs to keep running, but is running a vulnerable jboss (4.0.3sp1) and a scary old version of java :)
