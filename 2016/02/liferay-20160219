@@ -123,3 +123,4 @@
 18:05 < njuneau:#liferay> That being said, it really depends on your support needs
 18:06 < njuneau:#liferay> There's always Apache Geronimo for an even slower pace
 18:06 < njuneau:#liferay> But I'm not aware of its support status
+18:06 < TommyTheKid:#liferay> right, just slower pace doesn't necessarily mean better, we need security fixes backported to a release that is compatible
