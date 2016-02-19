@@ -63,3 +63,4 @@
 13:26 < njuneau:#liferay> It's actually a pretty cool system, just a bit uncommon in regards to other application servers
 13:26 < TommyTheKid:#liferay> I wonder if we should fall back to tomcat?
 13:27 < njuneau:#liferay> I don't know your whole situation so take this comment with a huge grain of sea salt, it depends on which features you need out of your app server
+13:27 < njuneau:#liferay> Or on which stack the people working with you are most familiar with
