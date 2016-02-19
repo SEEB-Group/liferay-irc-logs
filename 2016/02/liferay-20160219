@@ -19,3 +19,4 @@
 12:17 < TommyTheKid:#liferay> right.
 12:18 < jardineworks_:#liferay> TommyTheKid: wildfly is meant for Java 8 if I remember correctly right?
 12:18 < TommyTheKid:#liferay> and of course Wildfly 8 is no longer supported by wildlfy, and with 10 recently being released, 9.x is probably also EOL
+12:18 < TommyTheKid:#liferay> jardineworks_:  Wildfly 10 dropped support for Java 7
