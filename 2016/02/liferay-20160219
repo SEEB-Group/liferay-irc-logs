@@ -115,3 +115,4 @@
 18:02 < njuneau:#liferay> TommyTheKid: Wouldn't apache TomEE support EAR files?
 18:02 < njuneau:#liferay> TommyTheKid: It's basically Tomcat + OpenEJB + OpenJPA
 18:02 < njuneau:#liferay> TommyTheKid: Regarding Java 5 support and commercial support, dunno
+18:03 < njuneau:#liferay> TommyTheKid: JBoss EAP 6.x is based off the JBoss AS 7 series
