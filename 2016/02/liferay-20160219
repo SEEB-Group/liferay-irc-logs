@@ -51,3 +51,4 @@
 13:21 < njuneau:#liferay> jardineworks_, TommyTheKid: It's supported, but not certified
 13:22 < TommyTheKid:#liferay> sortof cool, but we are really in a difficult position, as we are on something pre-5.0 (circa 2005)
 13:23 < njuneau:#liferay> That's indeed a bit old ;)
+13:24 < njuneau:#liferay> And you have a double problem there. you have a pre-JBoss AS instance :P
