@@ -99,3 +99,4 @@
 15:57 < jardineworks_:#liferay> I've never tried to deploy it on TomEE before... but no reason I can think of that it should not work.
 16:00 < TommyTheKid:#liferay> We are thinking about trying tomcat6 first, cause there are RHEL provided packages with backported security fixes ;)
 16:34 < njuneau:#liferay> TommyTheKid: You'll probably have to install additional JEE dependencies inside Tomcat, but nothing's impossible
+16:34 < njuneau:#liferay> jardineworks_: You'll have to give WildFly a spin - it's lightning fast
