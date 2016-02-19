@@ -21,3 +21,4 @@
 12:18 < TommyTheKid:#liferay> and of course Wildfly 8 is no longer supported by wildlfy, and with 10 recently being released, 9.x is probably also EOL
 12:18 < TommyTheKid:#liferay> jardineworks_:  Wildfly 10 dropped support for Java 7
 12:18 < jardineworks_:#liferay> is that is right then that is you principle problem. Liferay 6.2 does not support Java 8
+12:18 < jardineworks_:#liferay> ah
