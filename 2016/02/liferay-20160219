@@ -119,3 +119,4 @@
 18:03 < TommyTheKid:#liferay> Yea, thats really the problem, we *might* be able to make it work with Java 6, which RHEL has supported packages for, but TomEE doesn't have RHEL packages, which puts us in the same boat as Wildfly, you have to update every release and "ride the lighting"
 18:04 < TommyTheKid:#liferay> OpenSource folks only want to work on whats new, they *rarely* want to sustain an existing release, which is why Enterprise Linux is popular for businesses. We don't want to just install an old/vulnerable version, but we don't want to have to re-architect the application every couple months
 18:05 < njuneau:#liferay> I don't think that the Tomcat release cycle is that frantic - it's certainly less speedy dans WildFly for the releases
+18:05 < TommyTheKid:#liferay> heh
