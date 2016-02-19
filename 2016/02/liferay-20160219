@@ -61,3 +61,4 @@
 13:25 < njuneau:#liferay> Which could explain a lot of "Class not found" if the module dependencies aren't correctly set
 13:25 < njuneau:#liferay> LR6.2 actually includes, if I'm not mistaken, a "jboss-deployment-structure" XML file defining the needed JBoss modules to properly function
 13:26 < njuneau:#liferay> It's actually a pretty cool system, just a bit uncommon in regards to other application servers
+13:26 < TommyTheKid:#liferay> I wonder if we should fall back to tomcat?
