@@ -93,3 +93,4 @@
 15:42 < jardineworks_:#liferay> TommyTheKid: JBoss is not necessary for Liferay. It doesn't need a J2EE container... just a servlet processor.
 15:43 < jardineworks_:#liferay> Every client I have that uses a J2EE server I beg to change to something lighter like Tomcat.
 15:43 < jardineworks_:#liferay> it's not that it doesn't work, just whats the point of all the extra "features" and "horsepower" if you are never going to ues it
+15:43 < jardineworks_:#liferay> personally I like my app server to startup in 30 seconds :)
