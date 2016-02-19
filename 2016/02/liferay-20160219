@@ -29,3 +29,4 @@
 12:20 < jardineworks_:#liferay> do you know which version of LR is on it?
 12:21 < TommyTheKid:#liferay> no, is there a way to find it? running strings against a class file or something?
 12:22 < jardineworks_:#liferay> hmmm
+12:22 < jardineworks_:#liferay> do you know if there is a "control panel"? fo rexample... if you go to localhost:8080/group/control_panel does that resolve ?
