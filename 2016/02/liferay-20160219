@@ -110,3 +110,4 @@
 17:01 < jardineworks_:#liferay> njuneau: I suppose. Have you every tried swapping the hibernate out for jpa with LR?
 17:02 < njuneau:#liferay> jardineworks_: Considering that Hibernate is the default implementation for JPA in JBoss AS, no. I tried OpenJPA once, never doing that again.
 17:38 < njuneau:#liferay> jardineworks_: Liferay 7 will include support for JAX-RS endpoints, so there's a Java EE feature right there ;)
+17:39 < njuneau:#liferay> jardineworks_: JSF is another one frequently used in 6.2 with the JSF portlet bridge
