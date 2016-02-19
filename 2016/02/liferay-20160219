@@ -121,3 +121,4 @@
 18:05 < njuneau:#liferay> I don't think that the Tomcat release cycle is that frantic - it's certainly less speedy dans WildFly for the releases
 18:05 < TommyTheKid:#liferay> heh
 18:05 < njuneau:#liferay> That being said, it really depends on your support needs
+18:06 < njuneau:#liferay> There's always Apache Geronimo for an even slower pace
