@@ -25,3 +25,4 @@
 12:18 < jardineworks_:#liferay> then it should be possible
 12:18 < jardineworks_:#liferay> what errors are you getting?
 12:19 < TommyTheKid:#liferay> basically a bunch of no class def found errors, ... first a bunch of "WARN" messages complaining about the class-path in the WAR files
+12:20 < TommyTheKid:#liferay> as I stated, its an inherited problem from ~2005, so its not likely that it is 6.2 either
