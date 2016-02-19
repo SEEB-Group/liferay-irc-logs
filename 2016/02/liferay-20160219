@@ -54,3 +54,4 @@
 13:24 < njuneau:#liferay> And you have a double problem there. you have a pre-JBoss AS instance :P
 13:24 < njuneau:#liferay> Just migrating that is gonna be a challenge
 13:24 < TommyTheKid:#liferay> yea, and I have been looking and it appears that jboss made *masive* changes to the way war/jar/ear files are loaded in 7.x
+13:24 < TommyTheKid:#liferay> right.
