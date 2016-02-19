@@ -62,3 +62,4 @@
 13:25 < njuneau:#liferay> LR6.2 actually includes, if I'm not mistaken, a "jboss-deployment-structure" XML file defining the needed JBoss modules to properly function
 13:26 < njuneau:#liferay> It's actually a pretty cool system, just a bit uncommon in regards to other application servers
 13:26 < TommyTheKid:#liferay> I wonder if we should fall back to tomcat?
+13:27 < njuneau:#liferay> I don't know your whole situation so take this comment with a huge grain of sea salt, it depends on which features you need out of your app server
