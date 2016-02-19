@@ -45,3 +45,4 @@
 12:27 < jardineworks_:#liferay> look for a bundle version
 12:35 < TommyTheKid:#liferay> that file doesn't exist, I think they packaged it inside a war, inside an ear, but even after running updatedb on a "deployed" (working) version we don't see that jar file
 12:36 < TommyTheKid:#liferay> either way, we know its pre-5.0 :)
+12:39 < TommyTheKid:#liferay> I am thinking the "warninig" messages about "Class Path entry portal-ejb.jar in (path-to-warfile-inside-ear-file) does not point to a valid jar for a Class-Path reference ... sorta like the manifest format changed
