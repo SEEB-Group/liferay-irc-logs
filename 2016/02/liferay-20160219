@@ -101,3 +101,4 @@
 16:34 < njuneau:#liferay> TommyTheKid: You'll probably have to install additional JEE dependencies inside Tomcat, but nothing's impossible
 16:34 < njuneau:#liferay> jardineworks_: You'll have to give WildFly a spin - it's lightning fast
 16:35 < jardineworks_:#liferay> Websphere has left a terrible taste in mouth with respect to J2EE containers
+16:35 < jardineworks_:#liferay> although I do like Glassfish :)
