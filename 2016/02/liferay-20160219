@@ -126,3 +126,4 @@
 18:06 < TommyTheKid:#liferay> right, just slower pace doesn't necessarily mean better, we need security fixes backported to a release that is compatible
 18:08 < njuneau:#liferay> Yeah, packages are nice for that indeed
 18:08 < njuneau:#liferay> especially in RHEL derivatives
+18:08 < njuneau:#liferay> That being said, I wonder if OpenEJB can be integrated easily inside an existing Tomcat 6 installation
