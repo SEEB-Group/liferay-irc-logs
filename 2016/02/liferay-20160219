@@ -27,3 +27,4 @@
 12:19 < TommyTheKid:#liferay> basically a bunch of no class def found errors, ... first a bunch of "WARN" messages complaining about the class-path in the WAR files
 12:20 < TommyTheKid:#liferay> as I stated, its an inherited problem from ~2005, so its not likely that it is 6.2 either
 12:20 < jardineworks_:#liferay> do you know which version of LR is on it?
+12:21 < TommyTheKid:#liferay> no, is there a way to find it? running strings against a class file or something?
