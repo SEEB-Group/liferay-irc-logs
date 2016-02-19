@@ -57,3 +57,4 @@
 13:24 < TommyTheKid:#liferay> right.
 13:24 < njuneau:#liferay> Yes. AS7 is an almost complete rewrite of the stack
 13:25 < njuneau:#liferay> They introduced the module system which isolates the libraries in their own classloaders
+13:25 < TommyTheKid:#liferay> that would probably explain all the NoClassDefFoundError(s)
