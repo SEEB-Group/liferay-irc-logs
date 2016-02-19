@@ -89,3 +89,4 @@
 15:32 < TommyTheKid:#liferay> and I think that jboss explodes all the wars
 15:32 < jardineworks_:#liferay> TommyTheKid: shoot -- sorry man you are going farther back in time than my Liferay experience takes me
 15:38 < TommyTheKid:#liferay> all good, I think we are giving up on jboss (wildfly), may try tomcat, but may need to look into other things that can handle the war/ear files
+15:39 < TommyTheKid:#liferay> (directories in most cases)
