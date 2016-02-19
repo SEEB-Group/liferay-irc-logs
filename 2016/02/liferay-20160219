@@ -82,3 +82,4 @@
 13:35 < jardineworks_:#liferay> does your JBoss config explode deployments for you automatically?
 13:38 < jardineworks_:#liferay> TommyTheKid: is Liferay installed as the root context?
 13:44 < TommyTheKid:#liferay> I think it may be /main, but the web server takes care of the redirect
+13:46 < TommyTheKid:#liferay> there are *several* contexts ... I believe there are ~8 WAR files and an EAR file that has several war files in it, not sure which are required and which are "legacy" :)
