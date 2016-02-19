@@ -49,3 +49,4 @@
 12:41 < TommyTheKid:#liferay> I do note that the Class-Path just says "lib/whatever.jar" and its actually in WEB-INF/lib/whatever.jar ... but it works on the previous server (jboss 4.0.3SP1)
 13:21 < njuneau:#liferay> jardineworks_, TommyTheKid: 6.2 EE does support Java 8
 13:21 < njuneau:#liferay> jardineworks_, TommyTheKid: It's supported, but not certified
+13:22 < TommyTheKid:#liferay> sortof cool, but we are really in a difficult position, as we are on something pre-5.0 (circa 2005)
