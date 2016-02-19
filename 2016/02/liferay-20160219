@@ -47,3 +47,4 @@
 12:36 < TommyTheKid:#liferay> either way, we know its pre-5.0 :)
 12:39 < TommyTheKid:#liferay> I am thinking the "warninig" messages about "Class Path entry portal-ejb.jar in (path-to-warfile-inside-ear-file) does not point to a valid jar for a Class-Path reference ... sorta like the manifest format changed
 12:41 < TommyTheKid:#liferay> I do note that the Class-Path just says "lib/whatever.jar" and its actually in WEB-INF/lib/whatever.jar ... but it works on the previous server (jboss 4.0.3SP1)
+13:21 < njuneau:#liferay> jardineworks_, TommyTheKid: 6.2 EE does support Java 8
