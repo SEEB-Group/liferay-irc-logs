@@ -96,3 +96,4 @@
 15:43 < jardineworks_:#liferay> personally I like my app server to startup in 30 seconds :)
 15:45 < TommyTheKid:#liferay> I am worried that something they have in a (portlet?) uses j2ee cause I see j2ee stuff and portal-ejb.jar ...
 15:56 < jardineworks_:#liferay> TommyTheKid: oh -- maybe then. TomEE ?
+15:57 < jardineworks_:#liferay> I've never tried to deploy it on TomEE before... but no reason I can think of that it should not work.
