@@ -125,3 +125,4 @@
 18:06 < njuneau:#liferay> But I'm not aware of its support status
 18:06 < TommyTheKid:#liferay> right, just slower pace doesn't necessarily mean better, we need security fixes backported to a release that is compatible
 18:08 < njuneau:#liferay> Yeah, packages are nice for that indeed
+18:08 < njuneau:#liferay> especially in RHEL derivatives
