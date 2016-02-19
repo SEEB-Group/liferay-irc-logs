@@ -127,3 +127,4 @@
 18:08 < njuneau:#liferay> Yeah, packages are nice for that indeed
 18:08 < njuneau:#liferay> especially in RHEL derivatives
 18:08 < njuneau:#liferay> That being said, I wonder if OpenEJB can be integrated easily inside an existing Tomcat 6 installation
+18:10 < TommyTheKid:#liferay> or even 7, I just was going for the oldest version I could find that was "supported"  :)
