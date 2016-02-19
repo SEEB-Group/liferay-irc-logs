@@ -106,3 +106,4 @@
 16:48 < njuneau:#liferay> And it's waaaaaaaay ahead of Tomcat in many regards IMO, especially when it comes to clustering, management and deployments
 16:48 < njuneau:#liferay> Then again, Tomcat works pretty well also
 16:49 < jardineworks_:#liferay> njuneau: I know that it's not WebSphere! but it's a J2EE container... and Liferay doesn't need that, so why run it if you don't need to?
+16:50 < njuneau:#liferay> jardineworks_: Liferay doesn't specifically need JEE, but if you're using EJB and/or JPA and/or JAX-RS and/or JAX-WS, it's nice to have a container that integrates them nicely
