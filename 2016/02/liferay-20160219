@@ -43,3 +43,4 @@
 12:27 < TommyTheKid:#liferay> we tried copying the ear/war files over to the new one... had to fix an XML issue (something about jsp-config and taglib), now just dealing with class-path issues
 12:27 < jardineworks_:#liferay> TommyTheKid: you could open the portal-impl.jar and check inside META-INF .. the MANIFEST.MF
 12:27 < jardineworks_:#liferay> look for a bundle version
+12:35 < TommyTheKid:#liferay> that file doesn't exist, I think they packaged it inside a war, inside an ear, but even after running updatedb on a "deployed" (working) version we don't see that jar file
