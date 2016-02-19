@@ -80,3 +80,4 @@
 13:34 < jardineworks_:#liferay> TommyTheKid:you said you can explode the ear file right?
 13:35 < TommyTheKid:#liferay> it is a "directory" :) ... so yea :)
 13:35 < jardineworks_:#liferay> does your JBoss config explode deployments for you automatically?
+13:38 < jardineworks_:#liferay> TommyTheKid: is Liferay installed as the root context?
