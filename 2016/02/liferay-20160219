@@ -39,3 +39,4 @@
 12:25 < jardineworks_:#liferay> that's some old shit
 12:25 < jardineworks_:#liferay> what are you doing with it?!
 12:25 < jardineworks_:#liferay> lol
+12:26 < TommyTheKid:#liferay> well preexisting portal taht does some reports, got compromised due to a JBOSS 4.0.3 issue (JMX is exposed), and we are trying to make it work on a newer AS
