@@ -13,3 +13,4 @@
 05:21 -!- Irssi: Join to #liferay was synced in 5 secs
 12:14 < TommyTheKid:#liferay> Hi I have an "inherited" problem... custom portal app built on liferay, hosted on jboss 4.0.3 SP1. It (jboss) was compromised, so we have directive to upgrade the jboss portion, tried just sticking in on wildfire10, but its not starting... Is there a compatibility matrix somewhere? (and how can I find out what version of liferay I am running without being able to login to it)
 12:15 < jardineworks_:#liferay> TommyTheKid: there is -- one sec, let me see if I can find it. I'm not sure that Wildfly is on it though.
+12:16 < jardineworks_:#liferay> TommyTheKid: https://www.liferay.com/documents/14/21598941/Liferay+Portal+6.2+EE+Compatibility+Matrix.pdf/3b3fd878-c954-4acc-bd5f-19fb7eb78210
