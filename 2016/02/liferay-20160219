@@ -66,3 +66,4 @@
 13:27 < njuneau:#liferay> Or on which stack the people working with you are most familiar with
 13:28 < njuneau:#liferay> If you're looking for a replacement, Java EE-wize, to JBoss AS, Glassfish, Apache TomEE or Geronimo is probably closer to what Tomcat provides
 13:28 < TommyTheKid:#liferay> ... since we could install tomcat or tomcat6 from EL packages :)
+13:28 < TommyTheKid:#liferay> we are not familiar with either or any of them
