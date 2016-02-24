@@ -1,0 +1,2 @@
+--- Log opened Wed Feb 24 00:00:03 2016
+01:14 < Axxell:#liferay> hello, any clues how to disable the "you-were-redirected-to-x" message that appears when you mess around with locale urls? It also redirects to the wrong place, ie it includes /web/guest/ in the url allthough it shouldnt
