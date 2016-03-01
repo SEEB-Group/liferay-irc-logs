@@ -80,3 +80,4 @@
 11:57 <@rotty3000:#liferay> not sure there's a bug, but will ask the gent that recently mentioned it to me
 11:57 < njuneau:#liferay> yeah I think there was a thread on the community expedition about that
 11:57 < njuneau:#liferay> the theory was that JSTL was not working, but it does work. Only EL doesn't
+11:59 <@rotty3000:#liferay> what I meant by "not sure there's a bug" is actually "not sure the bug was reported yet on JIRA"
