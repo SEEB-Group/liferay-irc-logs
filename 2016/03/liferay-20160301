@@ -82,3 +82,6 @@
 11:57 < njuneau:#liferay> the theory was that JSTL was not working, but it does work. Only EL doesn't
 11:59 <@rotty3000:#liferay> what I meant by "not sure there's a bug" is actually "not sure the bug was reported yet on JIRA"
 12:01 <@rotty3000:#liferay> https://issues.liferay.com/browse/LPS-63820
+12:19 -!- mode/#liferay [+o rotty3000] by ChanServ
+12:19 -!- mode/#liferay [+o rotty_3000] by ChanServ
+12:28 < Hitesh:#liferay> Help
