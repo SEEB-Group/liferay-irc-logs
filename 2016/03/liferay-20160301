@@ -2,3 +2,24 @@
 03:07 < Axxell:#liferay> hey guys, having trouble with recently working ldap integration in liferay..
 03:08 < Axxell:#liferay> because of no particular reason, liferay does not control ldap password with bind, instead it seems to store the password, and only authenticates with a prior password
 03:08 < Axxell:#liferay> what could be the problem?
+--- Log opened Tue Mar 01 05:21:10 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA4 RELEASE http://goo.gl/AjubK5   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~cygnuseck@97-101-250-88.res.bhn.net] [Fri Apr 17 17:33:27 2015]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ dmarks     ] [ josuebc_   ] [ plekplek    ] 
+05:21 [ bijoo     ] [ Gorith     ] [ kermitt    ] [ Tar-Minyatur] 
+05:21 [ Bryanstein] [ henriquev  ] [ MagnoBooter] [ Tm_T        ] 
+05:21 [ cyclo     ] [ jardinworks] [ Naenyn     ] [ vsingleton  ] 
+05:21 -!- Irssi: #liferay: Total of 16 nicks [1 ops, 0 halfops, 0 voices, 15 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 6 secs
+10:39 -!- mode/#liferay [+o jhf] by ChanServ
+10:40 -!- jhf changed the topic of #liferay to: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA5 RELEASE https://goo.gl/v3NEYT   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+10:52 < jardinworks:#liferay> omg! it's rotty3000  and jhf ... at the same time!?
+10:53 <@jhf:#liferay> hahaha
+10:53 < jardinworks:#liferay> isn't this like crossing the streams in ghost busters?!
+10:53 <@jhf:#liferay> I’m passing the ‘founder’ baton
+10:53 <@jhf:#liferay> nothing to see here
+10:53 <@jhf:#liferay> ;-)
+10:53 < jardinworks:#liferay> :(
+10:53 < jardinworks:#liferay> makes me sad jhf
