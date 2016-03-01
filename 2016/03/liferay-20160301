@@ -66,3 +66,4 @@
 11:46 -!- mode/#liferay [+o jhf] by ChanServ
 11:48 -!- mode/#liferay [+o jhf] by ChanServ
 11:52 < njuneau:#liferay> rotty3000: I built a Maven-only plugin not so long ago, I wouldn't mind if you'd integrate that into blade as an example
+11:53 <@rotty3000:#liferay> send a PR!
