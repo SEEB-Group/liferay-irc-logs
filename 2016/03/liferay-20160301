@@ -1,2 +1,3 @@
 --- Log opened Tue Mar 01 00:00:09 2016
 03:07 < Axxell:#liferay> hey guys, having trouble with recently working ldap integration in liferay..
+03:08 < Axxell:#liferay> because of no particular reason, liferay does not control ldap password with bind, instead it seems to store the password, and only authenticates with a prior password
