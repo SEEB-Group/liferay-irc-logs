@@ -74,3 +74,4 @@
 11:54 <@rotty3000:#liferay> JSP isn't the focal point
 11:54 <@rotty3000:#liferay> it's an implementation detail
 11:55 <@rotty3000:#liferay> we have other examples in blade, I'm sure they are simplistic and may not use EL... but if they are it's only for simplicity
+11:56 < njuneau:#liferay> well EL was unusable in Beta 6
