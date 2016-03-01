@@ -70,3 +70,4 @@
 11:53 <@rotty3000:#liferay> :)
 11:53 < njuneau:#liferay> rotty3000: Heh, it's a repo in itself, I'm going to figure out how to get that into a PR ;)
 11:54 < njuneau:#liferay> rotty3000: That being said.. it's still using Scriptlets instead of EL
+11:54 <@rotty3000:#liferay> that doesn't matter
