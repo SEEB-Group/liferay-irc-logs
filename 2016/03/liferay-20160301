@@ -63,3 +63,6 @@
 11:41 <@rotty3000:#liferay> FYI, not sure if everyone here knows but there is also a gitter room open on the BLADE project here https://gitter.im/rotty3000/blade?utm_source=share-link&utm_medium=link&utm_campaign=share-link
 11:42 <@rotty3000:#liferay> the blade project has examples for Liferay 7
 11:43 <@rotty3000:#liferay> so there's discussion around those, tackles gradle, maven, bndtools as well as Liferay gradle-plugin for building Liferay 7 things
+11:46 -!- mode/#liferay [+o jhf] by ChanServ
+11:48 -!- mode/#liferay [+o jhf] by ChanServ
+11:52 < njuneau:#liferay> rotty3000: I built a Maven-only plugin not so long ago, I wouldn't mind if you'd integrate that into blade as an example
