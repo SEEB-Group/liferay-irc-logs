@@ -72,3 +72,4 @@
 11:54 < njuneau:#liferay> rotty3000: That being said.. it's still using Scriptlets instead of EL
 11:54 <@rotty3000:#liferay> that doesn't matter
 11:54 <@rotty3000:#liferay> JSP isn't the focal point
+11:54 <@rotty3000:#liferay> it's an implementation detail
