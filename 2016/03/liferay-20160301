@@ -79,3 +79,4 @@
 11:56 <@rotty3000:#liferay> yeah, it's now a known issue
 11:57 <@rotty3000:#liferay> not sure there's a bug, but will ask the gent that recently mentioned it to me
 11:57 < njuneau:#liferay> yeah I think there was a thread on the community expedition about that
+11:57 < njuneau:#liferay> the theory was that JSTL was not working, but it does work. Only EL doesn't
