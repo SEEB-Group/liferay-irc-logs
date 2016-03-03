@@ -12,3 +12,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:17 < Winkelmann:#liferay> hey! i have some trouble while deploying liferay... log output is the folling: ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC00001: Failed to start service jboss.deployment.unit."ROOT.war".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."ROOT.war".STRUCTURE: Failed to process phase STRUCTURE of deployment "ROOT.war"
+09:18 < Winkelmann:#liferay> any ideas?
