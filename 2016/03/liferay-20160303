@@ -13,3 +13,8 @@
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 09:17 < Winkelmann:#liferay> hey! i have some trouble while deploying liferay... log output is the folling: ERROR [org.jboss.msc.service.fail] (MSC service thread 1-3) MSC00001: Failed to start service jboss.deployment.unit."ROOT.war".STRUCTURE: org.jboss.msc.service.StartException in service jboss.deployment.unit."ROOT.war".STRUCTURE: Failed to process phase STRUCTURE of deployment "ROOT.war"
 09:18 < Winkelmann:#liferay> any ideas?
+09:38 -!- mode/#liferay [+o jhf] by ChanServ
+10:40 -!- mode/#liferay [+o jhf] by ChanServ
+12:11 -!- mode/#liferay [+o rotty3000] by ChanServ
+13:58 -!- mode/#liferay [+o jhf] by ChanServ
+16:41 < jardinworks:#liferay> jhf: rotty3000 -- do you guys know if there is an easy way to apply a theme to all child pages? When the pages have already been created I mean?
