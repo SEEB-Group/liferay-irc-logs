@@ -27,3 +27,4 @@
 16:55 < jardinworks:#liferay> ah -- I see the issue
 16:55 < jardinworks:#liferay> each page was set to use a custom theme
 16:55 < jardinworks:#liferay> fail.
+16:56 < jardinworks:#liferay> so they all have to be set to use the private one
