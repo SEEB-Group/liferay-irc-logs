@@ -19,3 +19,4 @@
 13:58 -!- mode/#liferay [+o jhf] by ChanServ
 16:41 < jardinworks:#liferay> jhf: rotty3000 -- do you guys know if there is an easy way to apply a theme to all child pages? When the pages have already been created I mean?
 16:42 <@jhf:#liferay> cant you define a theme for the entire site, which is applied to all pages (including ones already created)?
+16:43 <@rotty3000:#liferay> jmh <- +1
