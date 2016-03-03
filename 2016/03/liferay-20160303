@@ -28,3 +28,4 @@
 16:55 < jardinworks:#liferay> each page was set to use a custom theme
 16:55 < jardinworks:#liferay> fail.
 16:56 < jardinworks:#liferay> so they all have to be set to use the private one
+16:56 < jardinworks:#liferay> I should be able to do this via themeId update in the Layout table though I think
