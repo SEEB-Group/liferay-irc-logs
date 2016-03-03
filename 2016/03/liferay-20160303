@@ -21,3 +21,4 @@
 16:42 <@jhf:#liferay> cant you define a theme for the entire site, which is applied to all pages (including ones already created)?
 16:43 <@rotty3000:#liferay> jmh <- +1
 16:43 <@rotty3000:#liferay> jhf <- +1
+16:47 < jardinworks:#liferay> jhf: In THEORY. What I have is this situation. Created a site. In the Private Pages section there are 200 pages in a hierarchy. If I go to the Private Pages element under the look and feel, yes I can say "use this for all private pages"
