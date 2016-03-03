@@ -24,3 +24,4 @@
 16:47 < jardinworks:#liferay> jhf: In THEORY. What I have is this situation. Created a site. In the Private Pages section there are 200 pages in a hierarchy. If I go to the Private Pages element under the look and feel, yes I can say "use this for all private pages"
 16:47 < jardinworks:#liferay> but it doesn't seem to apply it the pages are already created.
 16:47 < jardinworks:#liferay> because I seem to still have to go to the individual pages and change them
+16:55 < jardinworks:#liferay> ah -- I see the issue
