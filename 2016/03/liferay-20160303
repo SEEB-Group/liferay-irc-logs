@@ -1,0 +1,2 @@
+--- Log opened Thu Mar 03 00:00:05 2016
+05:05 < gokul:#liferay> hi liferay auto copy util-java.jar util-bridges.jar common-logging.jar log4j.jar into deployed portlets.how to stop this.i am using liferay 6.2 ga3 with tomcat on RHEL6 server
