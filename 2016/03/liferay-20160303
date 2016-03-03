@@ -25,3 +25,4 @@
 16:47 < jardinworks:#liferay> but it doesn't seem to apply it the pages are already created.
 16:47 < jardinworks:#liferay> because I seem to still have to go to the individual pages and change them
 16:55 < jardinworks:#liferay> ah -- I see the issue
+16:55 < jardinworks:#liferay> each page was set to use a custom theme
