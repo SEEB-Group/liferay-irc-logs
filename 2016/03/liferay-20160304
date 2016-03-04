@@ -25,3 +25,4 @@
 13:36 < jardinworks:#liferay> Have you guys every embedded a portlet that uses ADT inside an ADT portlet?
 13:37 <@rotty3000:#liferay> I have not, but I don't see why that would be an issue
 13:37 <@rotty3000:#liferay> but since I have not I can't know if there are any issues
+13:38 < jardinworks:#liferay> rotty3000: I think I can do it -- I mean I just tried with 101 and it worked.
