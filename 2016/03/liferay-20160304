@@ -33,3 +33,4 @@
 14:24  * njuneau:#liferay <3 the lovely remote staging errors
 14:38  * jardinworks:#liferay !<3 staging
 14:38 < jardinworks:#liferay> :)
+16:13 < jardinworks:#liferay> rotty3000 I am trying to install jpm ... but when I do this curl -sL http://bit.ly/jpm4j -- I am getting a webpage, not something that can be turned into a jar.
