@@ -1,3 +1,14 @@
 --- Log opened Mon Mar 07 00:00:11 2016
 04:58 < game0:#liferay> hi, I'm tried to modify sitemap.json and then deploy it whit the theme to the server I didn't saw the changes there and there's no error
 04:58 < game0:#liferay> can someone guide me?
+--- Log opened Mon Mar 07 05:21:40 2016
+05:21 -!- Topic for #liferay: Liferay Community Discussion Channel! *THIS CHANNEL IS LOGGED* (Log: http://goo.gl/SMte1N) Plz be patient - timezones matter :)  6.2 CE GA5 RELEASE https://goo.gl/v3NEYT   Forum: http://forums.liferay.com Homepage: http://liferay.org User Groups http://goo.gl/WFVtPe Nightly build http://releases.liferay.com/portal/nightly-master/
+05:21 -!- Topic set by jhf [~jfalkner@97-101-254-140.res.bhn.net] [Tue Mar  1 10:40:48 2016]
+05:21 [Users #liferay]
+05:21 [@ChanServ  ] [ cyclo  ] [ henriquev  ] [ kermitt    ] [ plekplek    ] 
+05:21 [ bijoo     ] [ dmarks ] [ jardinworks] [ MagnoBooter] [ Tar-Minyatur] 
+05:21 [ Bryanstein] [ Gorith_] [ josuebc    ] [ Naenyn     ] [ Tm_T        ] 
+05:21 -!- Irssi: #liferay: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
+05:21 -!- Irssi: Join to #liferay was synced in 7 secs
+10:05 < jardinworks:#liferay> game0: are you using CE or EE?
