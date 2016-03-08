@@ -11,3 +11,4 @@
 05:21 -!- Channel #liferay created Wed Nov 11 15:40:06 2009
 05:21 -!- Irssi: Join to #liferay was synced in 6 secs
 10:18 < Andrea_____:#liferay> hi all, whats the purpose of GLOBAL SITE in liferay?
+10:23 < njuneau:#liferay> Andrea_____: It has many uses, one of them being to hold any content that is not specifically tied to a single site
