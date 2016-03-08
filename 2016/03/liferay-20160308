@@ -22,3 +22,4 @@
 14:43 < Andrea_____:#liferay> hi all, how can i deny the portal administrator to change passwords of users?
 14:44 < Andrea_____:#liferay> EDIT* hi all, how can i deny the portal administrator the ability to change passwords of users?
 14:45 <@rotty3000:#liferay> I'm asking around, my gut feeling is no... but not sure
+14:45 <@rotty3000:#liferay> I mean, the admin can be set to only set a one time password
