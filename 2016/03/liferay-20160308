@@ -27,3 +27,4 @@
 14:45 <@rotty3000:#liferay> but I'm not sure if it can be set so the admin can't even do that
 14:50 <@rotty3000:#liferay> so my assumption was correct, however even this is dependent on the password policy
 15:50 < Andrea_____:#liferay> ok, thank you
+16:22 < jardineworks:#liferay> rotty3000: to your knowledge -- if I have a Site that has been developed based on a Site Template, is it possible to break that link without having to create the site over again?
